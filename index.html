@@ -1,12 +1,268 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Administration Ledger</title>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Administration Ledger</title>
 <style>
-:root{font-family:system-ui,sans-serif;color:#172334;background:#f3f6f8}*{box-sizing:border-box}body{margin:0}header{background:#142e39;color:white;padding:2rem max(1.5rem,calc((100vw - 1100px)/2))}header p{color:#b9d2d4}main{max-width:1100px;margin:auto;padding:2rem 1.5rem}h1{margin:.25rem 0}h2{font-size:1.1rem}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.72rem;color:#8be0c2}.notice{background:#e5f4ee;padding:1rem;border-radius:.6rem;color:#275b4b}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:1.5rem 0}.card,.panel{background:white;border:1px solid #dce5e7;border-radius:.8rem;padding:1.25rem}.value{font-size:1.8rem;font-weight:700;margin:.5rem 0}.label{color:#526671;font-size:.85rem}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}input,select{font:inherit;padding:.6rem;border:1px solid #b6c9cc;border-radius:.4rem}table{width:100%;border-collapse:collapse;text-align:left}th,td{padding:.9rem .5rem;border-bottom:1px solid #edf1f2}th{color:#526671;font-size:.8rem}td:last-child,th:last-child{text-align:right}.table-wrap{overflow:auto}.status{background:#e5f4ee;color:#27634e;border-radius:1rem;padding:.25rem .6rem;font-size:.8rem}footer{color:#657980;font-size:.85rem;margin-top:2rem}
-</style></head><body><header><div class="eyebrow">Overview / Administration</div><h1>Administration Ledger</h1><p>A simple view of operational activity.</p></header><main><p class="notice">Demo data only. All entries are fictional and contain no personal information.</p><section class="cards" aria-label="Summary"><div class="card"><div class="label">Total entries</div><div class="value" id="count">0</div></div><div class="card"><div class="label">Total amount</div><div class="value" id="total">$0</div></div><div class="card"><div class="label">Categories</div><div class="value" id="categories">0</div></div></section><section class="panel"><div class="toolbar"><div><h2>Ledger activity</h2><p class="label">Filter the fictional sample entries below.</p></div><div><label for="search">Search </label><input id="search" type="search" placeholder="Search entries"> <label for="category">Category </label><select id="category"><option value="">All categories</option></select></div></div><div class="table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">Description</th><th scope="col">Category</th><th scope="col">Status</th><th scope="col">Amount</th></tr></thead><tbody id="rows"></tbody></table></div><p id="empty" hidden>No entries match these filters.</p></section><footer>Static dashboard · Sample data is stored locally in this page.</footer></main>
+:root{font-family:system-ui,sans-serif;color:#172c34;background:#f1f5f4}
+*{box-sizing:border-box}body{margin:0}header{background:#14323a;color:white;padding:2rem max(1rem,calc((100vw - 68rem)/2))}
+header p{max-width:46rem;color:#d0e5df}main{max-width:70rem;margin:auto;padding:1.2rem}
+section{margin:1.25rem 0}.panel,article{background:white;border:1px solid #cfded9;border-radius:.65rem;padding:1rem}
+.filters{display:flex;flex-wrap:wrap;gap:.85rem}label{display:grid;gap:.3rem;font-weight:600}
+select,input{padding:.5rem;font:inherit;border:1px solid #91aba2;border-radius:.3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.8rem}
+article h3{margin:.3rem 0}.meta{color:#42615c;font-size:.9rem}a{color:#075d55}
+</style>
+<header><h1>Administration Ledger</h1><p>Track what factions pursue, who has authority, and what changes in policy, access, or financial opportunity.</p></header>
+<main>
+<section class="panel" aria-label="Coverage"><strong>Research edition</strong><p>This selection includes first-term historical anchors and selected second-term decisions. Coverage differs by issue and term. Faction links identify a relevant goal or stake. Each decision names the authority responsible. Overall rankings await comparable coverage.</p></section>
+<section aria-labelledby="filters-title"><h2 id="filters-title">Explore decisions</h2><div class="filters">
+<label>Term<select id="term"><option value="">All terms</option><option value="first">First term</option><option value="second">Second term</option></select></label>
+<label>Issue<select id="issue"><option value="">All issues</option></select></label>
+<label>Faction<select id="faction"><option value="">All factions</option></select></label>
+<label>Search<input type="search" id="search"></label>
+</div><p id="count" aria-live="polite"></p><div id="decisions" class="grid"></div></section>
+<section aria-labelledby="factions-title"><h2 id="factions-title">Faction goals</h2><div id="goals" class="grid"></div></section>
+</main>
 <script id="ledger-data" type="application/json">
-[{"date":"2026-01-08","description":"Office supplies","category":"Operations","status":"Complete","amount":240},{"date":"2026-01-12","description":"Software subscription","category":"Technology","status":"Complete","amount":125},{"date":"2026-02-03","description":"Facility maintenance","category":"Facilities","status":"Complete","amount":480},{"date":"2026-02-18","description":"Training materials","category":"Operations","status":"Complete","amount":175},{"date":"2026-03-06","description":"Equipment servicing","category":"Technology","status":"Complete","amount":320}]
-</script><script>
-const data=JSON.parse(document.getElementById('ledger-data').textContent), rows=document.getElementById('rows'), search=document.getElementById('search'), category=document.getElementById('category'), money=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}); 
-[...new Set(data.map(x=>x.category))].sort().forEach(c=>category.add(new Option(c,c)));
-function render(){const q=search.value.trim().toLowerCase();const filtered=data.filter(x=>(!category.value||x.category===category.value)&&Object.values(x).some(v=>String(v).toLowerCase().includes(q)));rows.replaceChildren();filtered.forEach(x=>{const tr=document.createElement('tr');[x.date,x.description,x.category,x.status,money.format(x.amount)].forEach((v,i)=>{const td=document.createElement('td');if(i===3){const span=document.createElement('span');span.className='status';span.textContent=v;td.append(span)}else td.textContent=v;tr.append(td)});rows.append(tr)});document.getElementById('count').textContent=filtered.length;document.getElementById('total').textContent=money.format(filtered.reduce((a,x)=>a+x.amount,0));document.getElementById('categories').textContent=new Set(filtered.map(x=>x.category)).size;document.getElementById('empty').hidden=filtered.length>0}search.addEventListener('input',render);category.addEventListener('change',render);render();
-</script></body></html>
+{
+  "factions": {
+    "deal-capital": {
+      "name": "Deal-Capital Network",
+      "goal": "Control negotiation channels and use sanctions relief, investment, energy access, and reconstruction deals to secure settlements and create commercial opportunities.",
+      "motive": "Negotiating influence and business opportunities can reinforce one another. Gulf investment relationships create financial exposure. Track proceeds and official actions separately."
+    },
+    "dissenters": {
+      "name": "Article I Dissenters",
+      "goal": "Preserve congressional leverage to force votes, compel disclosure, and block specific executive actions. Track coalitions separately for war powers, tariffs, sanctions, and disclosure.",
+      "motive": "Congressional leverage and political independence are stakes. Electoral backing and pressure vary by member and issue."
+    },
+    "hawks": {
+      "name": "Primacist Hawks",
+      "goal": "Preserve influence over foreign policy and sustain coercive leverage through sanctions, export controls, alliances and force. Track objectives separately for Iran, Israel, China, Russia and Venezuela.",
+      "motive": "Strategic conviction, constituency pressure, and future office can reinforce one another. Electoral backers have distinct stakes across Israel, Iran, and China policy."
+    },
+    "maximalists": {
+      "name": "Maximalists",
+      "goal": "Expand presidential control over appointments and enforcement, especially immigration. Track distinct objectives for election rules, tariffs, DOJ and the Fed by actor and decision.",
+      "motive": "Loyalty, ideology, and control of appointments and enforcement reinforce one another. Outside legal funding builds capacity and detention vendors have a financial stake in expansion."
+    },
+    "operation": {
+      "name": "The Operation",
+      "goal": "Keep Trump's electoral coalition together, win elections, and retain control over campaign resources, access, and policy timing while keeping succession open.",
+      "motive": "Control over campaign spending and access to Trump gives the political team leverage. Electoral risk can shape when it presses for or against a policy rollout."
+    },
+    "party": {
+      "name": "Party Machine",
+      "goal": "Hold congressional majorities and preserve leadership control of floor time, committees, and electoral resources. Track policy priorities by leader or voting bloc.",
+      "motive": "Seats, leadership posts, and control of the agenda are political assets. Independent fundraising capacity can give congressional leaders room to diverge from the White House."
+    },
+    "pentagon": {
+      "name": "Pentagon Network",
+      "goal": "Expand military readiness and industrial capacity and preserve departmental discretion over budgets, procurement, and vendor terms.",
+      "motive": "Readiness, procurement authority, and vendor revenue are separate stakes. Carrying out an order and shaping the decision warrant separate credit."
+    },
+    "populist": {
+      "name": "Movement Media and Insurgents",
+      "goal": "Turn audience reach into political leverage over officials and the succession. Track concrete asks by commentator or temporary coalition, especially after the recorded dissolution.",
+      "motive": "Audience reach creates revenue and political leverage. Individual commentators split on policy and succession, so evaluate their actions separately."
+    },
+    "tech-right": {
+      "name": "Tech-Right",
+      "goal": "Accelerate American technology and infrastructure development and shape the rules, spending, and market access that determine which firms grow. Track AI regulation, exports, defense procurement, crypto and skilled immigration separately.",
+      "motive": "Strategic competition and portfolio growth can align. Political spending, export revenue, and government contracts create different incentives for different actors."
+    },
+    "treasury": {
+      "name": "Treasury and Dollar Statecraft",
+      "goal": "Preserve market credibility and Treasury's influence over sanctions, licenses, and dollar-based statecraft. Track managed trade as a distinct objective and Fed decisions under the FOMC's authority.",
+      "motive": "Government financing and market credibility matter to Treasury. Control of sanctions implementation gives it leverage over specific transactions."
+    },
+    "vance": {
+      "name": "Vance Lane",
+      "goal": "Win the presidency by becoming Trump's successor and building a nomination coalition. Separately pursue tighter immigration, policies favoring workers and families, competition with incumbent technology firms, and restraint abroad with a focus on China.",
+      "motive": "Winning the presidency is the central political objective. Thiel, Rockbridge, and the network around 1789 help build the coalition. Fundraising hosts such as Malik have a channel to Vance independent of direct contributions."
+    }
+  },
+  "decisions": [
+    {
+      "date": "2018-05-08",
+      "issue": "Iran",
+      "title": "Withdrawal from the Iran nuclear agreement",
+      "authority": "President directed State and Treasury",
+      "result": "Trump ended U.S. participation in the JCPOA and directed State and Treasury to begin reinstating sanctions.",
+      "source": "https://trumpwhitehouse.archives.gov/presidential-actions/ceasing-u-s-participation-jcpoa-taking-additional-action-counter-irans-malign-influence-deny-iran-paths-nuclear-weapon/",
+      "factions": []
+    },
+    {
+      "date": "2018-07-06",
+      "issue": "Trade",
+      "title": "First China Section 301 tariff tranche",
+      "authority": "USTR implemented under presidential direction",
+      "result": "USTR implemented the first tranche of Section 301 tariffs on Chinese imports following the presidential direction and agency investigation.",
+      "source": "https://ustr.gov/sites/default/files/files/Issue_Areas/Enforcement/Section%20301/Published%20Phase%20One%20Initiation%20Notice.pdf",
+      "factions": []
+    },
+    {
+      "date": "2025-10-22",
+      "issue": "Russia",
+      "title": "Rosneft and Lukoil designations",
+      "authority": "Treasury and OFAC",
+      "result": "OFAC imposed designations and issued limited licenses for specified transactions. The designations establish agency action.",
+      "source": "https://ofac.treasury.gov/recent-actions/20251022",
+      "factions": [
+        "treasury"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "issue": "AI",
+      "title": "Conditional H200 export licensing",
+      "authority": "Commerce Bureau of Industry and Security",
+      "result": "Case-by-case licensing opened a route to sales under security conditions. Export proponents gained a policy opening. Shipments and proceeds are separate outcomes.",
+      "source": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china",
+      "factions": [
+        "tech-right",
+        "hawks",
+        "deal-capital"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "issue": "Trade",
+      "title": "Supreme Court rules on IEEPA tariffs",
+      "authority": "Supreme Court",
+      "result": "The Court held that IEEPA does not authorize presidential tariffs. This aligns with the goal of limiting emergency tariff authority. Evidence of Treasury influence is unresolved.",
+      "source": "https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf",
+      "factions": [
+        "dissenters",
+        "treasury"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "issue": "Venezuela",
+      "title": "OFAC licenses specified financial transactions",
+      "authority": "Treasury and OFAC",
+      "result": "General License 57 authorized specified transactions involving covered banks. The authorization establishes a commercial opening. Private receipts remain unverified.",
+      "source": "https://ofac.treasury.gov/media/935516/download?inline=",
+      "factions": [
+        "deal-capital",
+        "treasury"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "issue": "Succession",
+      "title": "Vance fundraiser hosted by Omeed Malik",
+      "authority": "Event host and political fundraising network",
+      "result": "The reported fundraiser shows organizational capacity and gives Malik’s network a channel into the succession coalition. Policy influence remains decision-specific.",
+      "source": "https://www.axios.com/2026/08/20/vance-young-donors-fundraiser",
+      "factions": [
+        "vance"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "issue": "Fed",
+      "title": "FOMC raises target range",
+      "authority": "Federal Open Market Committee",
+      "result": "The committee voted 12–0 for a quarter-point increase. Treasury has a market-credibility stake. Its influence on this vote remains unestablished.",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+      "factions": [
+        "treasury"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "issue": "Russia",
+      "title": "Lukoil contingent sale negotiations",
+      "authority": "Treasury and OFAC",
+      "result": "General License 131K authorized negotiations and contingent contracts. This is a policy opening. A completed sale and realized gains require separate evidence.",
+      "source": "https://ofac.treasury.gov/faqs/updated/2026-10-21",
+      "factions": [
+        "deal-capital",
+        "treasury"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "issue": "Trade",
+      "title": "Treasury proposes outbound investment rule",
+      "authority": "Congress delegated rulemaking to Treasury",
+      "result": "Treasury issued a proposed rule under the COINS Act. This demonstrates rulemaking authority. Track finalization separately.",
+      "source": "https://home.treasury.gov/news/press-releases/sb0667",
+      "factions": [
+        "treasury",
+        "hawks"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "issue": "Trade",
+      "title": "Notice of intended AGOA termination",
+      "authority": "President gave notice after a USTR-led review",
+      "result": "Trump notified Congress and both governments of intended termination for Rwanda and South Africa effective January 1, 2027. Implementation and faction influence remain open.",
+      "source": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "factions": [
+        "treasury"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "issue": "Venezuela",
+      "title": "OFAC issues PDVSA bond license",
+      "authority": "Treasury and OFAC",
+      "result": "General License 5AA authorizes specified transactions on or after December 18, 2026. The notice leaves transaction outcomes open.",
+      "source": "https://ofac.treasury.gov/recent-actions/20261104",
+      "factions": [
+        "treasury"
+      ]
+    }
+  ]
+}
+</script>
+<script>
+const { factions, decisions } = JSON.parse(document.getElementById('ledger-data').textContent);
+const get = id => document.getElementById(id);
+const controls = ['term', 'issue', 'faction', 'search'].map(get);
+const labels = row => row.factions.map(id => factions[id].name);
+function element(tag, text, className) {
+  const node = document.createElement(tag);
+  node.textContent = text;
+  if (className) node.className = className;
+  return node;
+}
+for (const issue of [...new Set(decisions.map(row => row.issue))].sort()) get('issue').add(new Option(issue, issue));
+for (const [id, faction] of Object.entries(factions)) get('faction').add(new Option(faction.name, id));
+function render() {
+  const [term, issue, faction, query] = controls.map(control => control.value);
+  const q = query.trim().toLowerCase();
+  const filtered = decisions.filter(row => {
+    const rowTerm = Number(row.date.slice(0, 4)) < 2022 ? 'first' : 'second';
+    const searchText = [row.title, row.result, row.authority, row.issue, row.date, ...labels(row)].join(' ').toLowerCase();
+    return (!term || term === rowTerm) && (!issue || issue === row.issue)
+      && (!faction || row.factions.includes(faction)) && searchText.includes(q);
+  }).sort((a, b) => b.date.localeCompare(a.date));
+  get('count').textContent = filtered.length ? filtered.length + ' decisions' : 'No decisions match these filters.';
+  get('decisions').replaceChildren();
+  for (const row of filtered) {
+    const card = document.createElement('article');
+    const link = element('a', 'Read source');
+    link.href = row.source;
+    card.append(element('div', row.date + ' · ' + row.issue, 'meta'), element('h3', row.title),
+      element('p', 'Authority: ' + row.authority), element('p', row.result),
+      element('p', labels(row).join(' · ') || 'Historical reference', 'meta'), link);
+    get('decisions').append(card);
+  }
+  get('goals').replaceChildren();
+  for (const [id, entry] of Object.entries(factions)) {
+    if (faction && id !== faction) continue;
+    const card = document.createElement('article');
+    card.append(element('h3', entry.name), element('p', entry.goal), element('p', entry.motive));
+    get('goals').append(card);
+  }
+}
+for (const control of controls) control.addEventListener('input', render);
+render();
+</script>
+</html>
