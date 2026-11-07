@@ -9,8 +9,8 @@
     "scope": "Synthesis of existing ledger episodes and the first faction-consistency pass. No fresh news intake was performed for the interface redesign."
   },
   "administration": {
-    "headline": "Staffing shifts access. Policy control remains contested.",
-    "summary": "Trump retains the central executive choice. Staffing, negotiations, party resources and legal constraints determine how factions can shape it. The clearest recent shifts concern access and succession positioning; several policy outcomes remain open.",
+    "headline": "Midterm defeat forces a fight over personnel, policy and accountability.",
+    "summary": "Republicans’ midterm rout has turned personnel changes into a fight over the direction of Trump’s second term. The announced replacement of Wiles with Miller points toward stronger hardliner agenda access, not yet a verified policy reversal. Incoming Democratic majorities will gain subpoena, hearing and funding leverage when the next Congress convenes. The likely near-term contest is over accountability and war costs: Democrats can raise the cost of continuity, while Trump can reshuffle personnel and shift blame without changing course. Watch military orders, enforcement changes and budget concessions to distinguish a policy reset from a change of messengers.",
     "contests": [
       {
         "id": "white-house-access",
@@ -285,5 +285,34 @@
         "suc-2026-09-24-11ac54"
       ]
     }
-  ]
+  ],
+  "power_shifts": [
+    {
+      "faction_id": "operation",
+      "actor": "Susie Wiles",
+      "before": 4,
+      "after": 2,
+      "role_change": "Chief of staff → reported political-operation role",
+      "implication": "Less White House agenda gatekeeping; campaign-resource influence may persist."
+    },
+    {
+      "faction_id": "maximalists",
+      "actor": "Stephen Miller",
+      "before": 3,
+      "after": 4,
+      "role_change": "Deputy chief of staff → announced chief of staff",
+      "implication": "A broader agenda and staffing channel for enforcement hardliners; this does not itself change policy."
+    }
+  ],
+  "power_method": {
+    "title": "Role-based agenda access · 0–5",
+    "scale": "0 no identified channel; 1 outside access; 2 political-operation channel; 3 deputy-level White House role; 4 chief-of-staff gatekeeping; 5 presidential decision authority.",
+    "status": "Conditional post-handover scenario, not an observed transfer or a calibrated measure of total faction power. Scores are ordinal analyst judgments, not percentages.",
+    "condition": "The reported November 9 handover and political-operation remit must occur as described.",
+    "policy_projection": "Greater hardliner access could prioritize enforcement and staffing. It does not guarantee Iran escalation: the ledger also records Miller’s reported exit pitch. Democratic oversight and funding pressure may constrain both camps.",
+    "event_ids": [
+      "mid-2026-11-06-miller-chief-staff",
+      "mid-2026-11-05-congress-control"
+    ]
+  }
 }

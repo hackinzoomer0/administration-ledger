@@ -115,3 +115,77 @@ test("mobile has compact navigation and both assessment summaries near the top",
   }));
   expect(width.scroll).toBeLessThanOrEqual(width.viewport + 1);
 });
+
+test("all issue pages have policy, players and faction disputes", async ({
+  page,
+}) => {
+  for (const code of [
+    "AI",
+    "EPS",
+    "FED",
+    "IMM",
+    "IRN",
+    "MID",
+    "RUS",
+    "SUC",
+    "TAR",
+    "VEN",
+  ]) {
+    await page.goto(`./#/issues/${code}`);
+    await expect(
+      page.getByRole("heading", {
+        name: "Current policy and the contest over it",
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", {
+        name: "Major players, goals and financial relationships",
+      }),
+    ).toBeVisible();
+    await expect(page.locator("main")).not.toContainText(
+      "A current synthesis for this issue has not been established",
+    );
+  }
+});
+test("power changes expose numeric assumptions and topic players", async ({
+  page,
+}) => {
+  await page.goto("./#/administration");
+  await expect(
+    page.getByRole("table", { name: "Projected agenda access changes" }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("Conditional post-handover scenario", { exact: false }),
+  ).toBeVisible();
+  await page.goto("./#/administration/white-house-access");
+  await expect(
+    page.getByRole("heading", {
+      name: "Major players, goals and financial relationships",
+    }),
+  ).toBeVisible();
+  await page.goto("./#/nominees/jd_vance");
+  await page.getByRole("tab", { name: "Strengths & history" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Strengths and weaknesses" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Expected base and coalition limits" }),
+  ).toBeVisible();
+});
+test("faction positions have explicit position and structured evidence", async ({
+  page,
+}) => {
+  await page.goto("./#/factions/deal-capital");
+  await page.getByRole("tab", { name: "Positions & record" }).click();
+  await page.getByRole("button", { name: "AI policy", exact: true }).click();
+  await expect(
+    page.getByText(
+      "Favor commercial chip exports and investment deals over durable export restrictions.",
+    ),
+  ).toBeVisible();
+  await expect(
+    page
+      .getByText("Actions supporting that position", { exact: true })
+      .filter({ visible: true }),
+  ).toBeVisible();
+});

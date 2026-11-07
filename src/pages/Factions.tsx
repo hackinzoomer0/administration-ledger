@@ -20,9 +20,9 @@ import { activeFactions, data, factionNames, issueNames } from "../lib/data";
 import { useEvidence } from "../lib/evidence-context";
 import { ContextNav } from "../components/ContextNav";
 import { Section } from "../components/Section";
-import { ReadingBlock } from "../components/ReadingBlock";
 import { PowerList } from "../components/PowerList";
 import { DetailFields } from "../components/DetailFields";
+import { FactionPosition } from "../components/FactionPosition";
 import { FactionGraph } from "../components/FactionGraph";
 export default function Factions() {
   const { id } = useParams();
@@ -100,7 +100,7 @@ export default function Factions() {
             title="Dated positions and actions"
             description="Original report context; check newer episodes before treating an older statement as the current position."
           >
-            {Object.entries(faction.positions).map(([code, blocks]) => (
+            {Object.entries(faction.positions).map(([code]) => (
               <Accordion
                 key={code}
                 disableGutters
@@ -111,13 +111,7 @@ export default function Factions() {
                   {issueNames[code] ?? code}
                 </AccordionSummary>
                 <AccordionDetails>
-                  {blocks.map((block, index) => (
-                    <ReadingBlock
-                      key={index}
-                      title={block.title}
-                      text={block.paras.join("\n\n")}
-                    />
-                  ))}
+                  <FactionPosition issue={code} faction={faction.id} />
                 </AccordionDetails>
               </Accordion>
             ))}

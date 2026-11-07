@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-07",
+  "type": "product_assessment_projection",
+  "scope": "Owner-requested policy/player/profile completeness and transparent personnel scenario. Existing ledger synthesis; official Miller appointment rechecked, AP election page inaccessible and retained at existing ledger attribution.",
+  "changes": [
+    "Added all ten policy assessments and structured faction positions.",
+    "Added players, faction homes, goals and financial channels to topic details.",
+    "Added explicit conditional 0–5 role access rubric for Wiles/Miller, without changing nominee estimates.",
+    "Added candidate strengths, weaknesses, base and history sections; shortened mobile label."
+  ],
+  "uncertainties": [
+    "November 9 handover remains prospective.",
+    "Role-access rubric is ordinal analyst judgment, not total faction power or measured policy probabilities.",
+    "Issue summaries synthesize existing records, not a complete fresh news census."
+  ]
+}

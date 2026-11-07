@@ -54,6 +54,24 @@ def validate(ledger):
             raise ValueError('Unresolved relationship endpoint')
         if not set(row['issues']) <= c['issues'].keys():
             raise ValueError('Unknown relationship issue')
+    policies = c['assessments']['issues']
+    if set(policies) != set(c['issues']):
+        raise ValueError('Every issue requires a current policy assessment')
+    for code, policy in policies.items():
+        if not policy['policy'].strip() or not policy['dispute'].strip():
+            raise ValueError('Missing policy or factional dispute assessment')
+        if not set(policy['player_ids']) <= people:
+            raise ValueError('Unresolved issue player')
+        if not set(policy['event_ids']) <= events:
+            raise ValueError('Unresolved policy evidence')
+        for stance in policy['factions']:
+            if stance['faction_id'] not in c['factions'] or not stance['position'].strip():
+                raise ValueError('Missing structured faction position')
+    for shift in current.get('power_shifts', []):
+        if shift['faction_id'] not in c['factions'] or any(type(shift[k]) is not int or not 0 <= shift[k] <= 5 for k in ['before', 'after']):
+            raise ValueError('Invalid role leverage scenario')
+    if current.get('power_shifts') and not all(current['power_method'].get(k) for k in ['scale', 'status', 'condition', 'policy_projection', 'event_ids']):
+        raise ValueError('Numerical scenarios require a scale, assumptions and evidence')
     def references(value):
         if isinstance(value, dict):
             if 'event_ids' in value or 'source_ids' in value:

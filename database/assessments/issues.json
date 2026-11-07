@@ -1,0 +1,974 @@
+{
+  "AI": {
+    "policy": "Federal AI preemption, commercial chip exports and voluntary frontier-model review coexist with Pentagon demands for broad military use.",
+    "dispute": "Tech investors and Commerce push commercial access; security hawks favor China restrictions. The balance differs by instrument.",
+    "player_ids": [
+      "lutnick",
+      "witkoff",
+      "bessent",
+      "vance",
+      "elizabeth-warren"
+    ],
+    "factions": [
+      {
+        "faction_id": "deal-capital",
+        "position": "Favor commercial chip exports and investment deals over durable export restrictions.",
+        "actions": "Sells chips to Gulf partners: H200 sales; Mythos controls imposed then lifted (Jun 12-30); license-free chips to the UAE (Jul 10). Interest: Gulf funds that back the envoys' firms and Lutnick's family data-center deals.",
+        "goals": "Documented fit: Aryam and MGX ties to World Liberty, Cantor's $310M Nvidia stake; the White House denies a chip link.",
+        "actors": [
+          "Lutnick Motives: (1) Family money: his sons’ Cantor and Newmark sit in $25B+ of data-center deals, and Cantor held $310M of Nvidia (documented fit). Warren and 24 Democrats asked the Commerce IG to investigate data-center promotion that could enrich his family, and he has only a limited ethics waiver (NOTUS). Newmark is to buy Lutnick out for $127M (Bisnow). (2) Access: chip policy is a gift he can give Gulf partners.",
+          "Witkoff Motives: Warren and Murphy allege UAE chip-export backing around the time of the $2B UAE-backed investment in World Liberty’s stablecoin. The chips framework allows 500K a year, including 35,000 GB300 chips for G42 in Nov 2025. The White House denies a link (The Block/WSJ)."
+        ],
+        "observations": [
+          "Controls imposed and lifted within 18 days: the flip is the act."
+        ]
+      },
+      {
+        "faction_id": "hawks",
+        "position": "Curb chips to China",
+        "actions": "Chip curbs written into law, 42-2 (Jan 22); OVERWATCH in the NDAA (Jul 14).",
+        "goals": "China hawkishness. No donor tied to this position.",
+        "actors": [
+          "Moolenaar, Mast, Banks, Cotton, McCormick passed laws (reported). Motives: Ideology backed by acts. No personal stake found in this research."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Floated review; dropped",
+        "actions": "Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs.",
+        "goals": "Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift. A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it.",
+        "actors": [],
+        "observations": [
+          "The faction has no AI act; the Jun 2 order is the Operation's and Treasury's.",
+          "Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs. The proposal and final policy differ. The position record attributes the final approach to the Operation and Treasury. Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift. A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it."
+        ]
+      },
+      {
+        "faction_id": "operation",
+        "position": "Voluntary review",
+        "actions": "Pressed the Jun 2 voluntary review order; Wiles rebuked FDA-style licensing and met Amodei Apr 17.",
+        "goals": "AI splits Trump's coalition; a voluntary order lets him act without choosing a side (my reading).",
+        "actors": [
+          "Wiles Motives: (1) Self-protection: she avoids owning a fight between Sacks and Bannon. (2) No personal or financial stake found."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "party",
+        "position": "Leaders quiet; Hawley dissents",
+        "actions": "Hawley pursued restrictions while other Republicans, including Cruz on state preemption, took different approaches.",
+        "goals": "Electoral positioning and industry backing are plausible incentives. Map each contribution or policy stake to its recipient. Treat this as a faction split. The evidence for a common leadership position or individual reversal is thin.",
+        "actors": [],
+        "observations": [
+          "The bills are acts; none has become law.",
+          "Hawley pursued restrictions while other Republicans, including Cruz on state preemption, took different approaches. Bills and legislative action support a split among actors. Electoral positioning and industry backing are plausible incentives. Map each contribution or policy stake to its recipient. Treat this as a faction split. The evidence for a common leadership position or individual reversal is thin."
+        ]
+      },
+      {
+        "faction_id": "pentagon",
+        "position": "All lawful uses",
+        "actions": "All lawful uses from AI vendors: Anthropic designated (Feb 27; upheld Sep 25); Maven made a program of record (Mar 9); Grok on its networks.",
+        "goals": "Documented acts; Feinberg's memo reported (Reuters). Palantir's US government revenue +84% (Q1). Power over vendors and vendor gains coincide.",
+        "actors": [
+          "Hegseth Motives: Power over vendors: the designation tells every lab that the Pentagon’s terms are final (documented fit).",
+          "Michael Motives: (1) Money, past: he sold his xAI stake on Jan 9 for $5–25M (entry $500K–$1M, up to a 4,800% gain), and sold Perplexity ($5–25M; he had a $250–500K personal loan from Perplexity). OGE certified the divestiture on Dec 18, and the Pentagon signed the Grok-on-classified-networks agreement four days later (Guardian, Decrypt). The evidence is timing only. (2) Grievance: on the All-In podcast he called Amodei a “liar” with “a God-complex” while saying the designation was not punitive. The Pentagon’s terms were “all lawful uses,” which xAI accepted.",
+          "Musk Motives: Money: xAI and SpaceX are Pentagon vendors, and SpaceX takes about a fifth of its revenue from the government (documented fit)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "No review; preempt states",
+        "actions": "The ledger groups preemption, less review, and chip sales under one agenda.",
+        "goals": "a16z, Brockman, Founders Fund and Nvidia have different political or portfolio stakes. Export revenue and strategic limits on China can diverge. Split the planks before judging consistency. Campaign support and financial exposure alone leave policy influence unresolved.",
+        "actors": [],
+        "observations": [
+          "'Beat China' while lobbying to sell China H200s, and Gulf funds in the same labs (my reading).",
+          "The ledger groups preemption, less review, and chip sales under one agenda. Identify the actors behind each ask. Industry spending and Nvidia lobbying establish different forms of support. a16z, Brockman, Founders Fund and Nvidia have different political or portfolio stakes. Export revenue and strategic limits on China can diverge. Split the planks before judging consistency. Campaign support and financial exposure alone leave policy influence unresolved."
+        ]
+      },
+      {
+        "faction_id": "treasury",
+        "position": "Bank-risk review",
+        "actions": "Convened bank CEOs on Mythos (Apr 7) and pressed the Jun 2 order.",
+        "goals": "A model-driven bank breach is a direct market risk (my reading).",
+        "actors": [
+          "Bessent Motives: Protecting the banks and markets he oversees. He is not tied to an AI company.",
+          "Cairncross Motives: Cyber risk is his job. No personal stake found."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "vance",
+        "position": "Anti-incumbent, no rules",
+        "actions": "Program: distrust Big Tech power ('break Google up'). Posture on AI: no rules, labs' requests a 'Trojan horse'. Interest: no-rules AI and antitrust on incumbents both serve Thiel, Andreessen and 1789 bets.",
+        "goals": "Documented: 2024 Google post; Feb 2025 Paris speech; Sep 14 remark. No act found. Fit with patrons (my reading).",
+        "actors": [],
+        "observations": [
+          "Statements only; a former Vance chief of staff joined AI firm Cognition (Oct 30)."
+        ]
+      }
+    ],
+    "event_ids": [
+      "ai-2026-11-04-ai-stock-selloff",
+      "ai-2026-11-03-anthropic-ipo-valuation",
+      "ai-2026-11-03-permitting-bill-power-groups",
+      "ai-2026-11-03-local-data-center-ballots",
+      "ai-2026-11-02-cyber-info-sharing"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "EPS": {
+    "policy": "DOJ has released part of the Epstein record and says its statutory duty is met; further disclosure remains contested.",
+    "dispute": "Executive control of releases faces congressional discharge and oversight pressure.",
+    "player_ids": [
+      "blanche",
+      "donald-trump",
+      "jamie-raskin",
+      "richard-blumenthal"
+    ],
+    "factions": [
+      {
+        "faction_id": "dissenters",
+        "position": "Force release",
+        "actions": "Forced the Epstein Act (427-1). Massie lost his seat after $15.5M against him; Greene left the party and makes the files her outside content.",
+        "goals": "Documented (WKMS FEC data; Washington Examiner). A cross-party grievance that now sustains an outside platform (my reading).",
+        "actors": [
+          "Massie lost his primary on May 19, 54.9-45.1, to Ed Gallrein, whom Trump endorsed. About $15.5M backed Gallrein: MAGA KY $7.4M (Singer $3M with America 21), AIPAC's UDP $4.1M, the RJC Victory Fund $3.9M. For Massie, Kentucky 4th PAC spent $6.6M (from a dark-money group), Kentucky First $1.4M (Yass-funded Protect Freedom PAC) and Make Liberty Win $1.1M (FEC data via WKMS, Jul 17). Motives: conviction with a cost; the cost is now his outside platform.",
+          "Boebert, Mace, Norman Motives: Base pressure: their voters believe in a cover-up (reported).",
+          "Murkowski, Fitzpatrick Motives: Cross-party enforcement (reported). No stake found.",
+          "Greene resigned (effective Jan 2026), left the party (Jun 22) and teased a series, 'Life with MTG' (Jun 11). Motives: the files are her strongest content outside the party."
+        ],
+        "observations": [
+          "The 218 commitments are claimed and unverified; the first petition is the act."
+        ]
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Close the case",
+        "actions": "Declared DOJ's duty met (Jan 30) and said the files 'should not be a part of anything going forward'; lost a D.C. Circuit stay bid on the foreign-language file review (Oct 28).",
+        "goals": "Close the case to protect Trump.",
+        "actors": [
+          "Blanche declared the duty met. He also interviewed Maxwell for nine hours in July 2025. Motives: (1) Client protection: he was Trump’s personal lawyer, and the Epstein story hurts his former client. (2) Self-protection: his post depends on Trump (my reading).",
+          "Patel, Bondi Motives: Both have Qatar money ties. Patel consulted for the Qatar embassy through his firm Trishul as late as Nov 2024, his one-year recusal ended Nov 2025, and he signed two MOUs with Qatar’s interior minister in Doha in Dec 2025 (Jewish Insider). Ballard billed Qatar $115,000 a month while Bondi was a partner. No Epstein position is tied to the Qatar money; it affects Qatar policy, not Epstein."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "operation",
+        "position": "Protect Trump",
+        "actions": "No act; Wiles says Trump is 'in the file but nothing awful'.",
+        "goals": "The story threatens Trump's standing, and the Operation's authority rests on it.",
+        "actors": [
+          "Wiles Motives: (1) Self-protection: her position depends on Trump’s standing. (2) Narrative control: describing the file as harmless in her own words lets her set the story before others do (my reading)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "party",
+        "position": "Contain it",
+        "actions": "Contain it: Johnson called the petition moot; Comer said DOJ 'botched' the release.",
+        "goals": "Comer's criticism of DOJ is his only public distance.",
+        "actors": [
+          "Johnson Motives: Protecting the majority and the president together (reported). His post depends on both.",
+          "Comer Motives: The Oversight chair cannot defend a botched release (reported). He criticized but acted on nothing."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "vance",
+        "position": "Transparency in words",
+        "actions": "Program: elites should not escape accountability. Posture: Vance says nothing was hidden; Carlson says cover-up. Interest: any Vance act would cross Trump.",
+        "goals": "Documented: Jul 15 Rogan remarks; no act found. Carlson's line is content for an audience he owns (my reading).",
+        "actors": [],
+        "observations": [
+          "Statements only."
+        ]
+      },
+      {
+        "faction_id": "hawks",
+        "position": "No distinct common policy position established; financial and individual channels are recorded separately.",
+        "actions": "No faction position. The group’s donors appear as payers: the AIPAC-tied groups and Adelson against Massie (see Iran above).",
+        "goals": "Separate individual interests and payer access from a collective faction position.",
+        "actors": [],
+        "observations": []
+      },
+      {
+        "faction_id": "deal-capital",
+        "position": "No distinct common policy position established; financial and individual channels are recorded separately.",
+        "actions": "No stance on release. Lutnick admitted a 2012 island lunch (Feb 10) and gave $5M to the House leadership super PAC five weeks before testifying (Apr 1).",
+        "goals": "Separate individual interests and payer access from a collective faction position.",
+        "actors": [],
+        "observations": [
+          "Why the faction does it. Personal exposure, not a program.",
+          "Lutnick. Interest: goodwill with a House that could investigate him (my reading); no link to an act is shown."
+        ]
+      }
+    ],
+    "event_ids": [
+      "eps-2026-11-05-disclosure-oversight-push",
+      "eps-2026-10-31-wsj-suit-dismissed",
+      "eps-2026-10-28-appeals-pause",
+      "eps-2026-10-26-maurene-comey-ruling",
+      "eps-2026-10-26-judiciary-dems-report"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "FED": {
+    "policy": "The FOMC retains rate-setting authority. The administration’s attempt to remove Cook remains subject to court and hearing procedures.",
+    "dispute": "White House control ambitions conflict with central-bank independence; Treasury’s market concerns are a separate channel.",
+    "player_ids": [
+      "lisa-cook",
+      "warsh",
+      "bessent",
+      "donald-trump",
+      "elizabeth-warren"
+    ],
+    "factions": [
+      {
+        "faction_id": "deal-capital",
+        "position": "Market caution",
+        "actions": "Lutnick warned against firing Powell (Apr 2025).",
+        "goals": "Market caution.",
+        "actors": [],
+        "observations": []
+      },
+      {
+        "faction_id": "dissenters",
+        "position": "Protect independence",
+        "actions": "Block Fed nominees until the Powell probe closed (Tillis, Apr 24); protect the Board's independence.",
+        "goals": "Protect Congress's and the Fed's independence. No donor stream behind it.",
+        "actors": [
+          "Tillis Motives: (1) Freedom from consequences: he retired after declining to vote for Trump’s “big, beautiful bill,” a tense call and rapid Trump attacks. He says he is freer without fundraising. So he can afford a position others cannot. (2) Conviction: he vowed to block Warsh or any Fed nominee until the Powell probe was dropped, and the probe closed Apr 24 (documented act).",
+          "Murkowski, Kennedy vote for Fed independence (reported). Motives: Conviction and institutional habit. No personal stake found. Kennedy is also a Party Machine name."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Take control of Board",
+        "actions": "Put the Board under the president: Pulte's referral and firing letter for Cook, Powell subpoenas. Cook stays 5-4 and voted for a hike Oct 28.",
+        "goals": "So the Board cuts rates and the president's picks govern. Courts have held so far: Cook stays 5-4.",
+        "actors": [
+          "Pulte referred James, Schiff, Cook and Swalwell to DOJ himself instead of through the FHFA inspector general. James was indicted, then the case was dismissed. GAO accepted a probe on Nov 17, 2025, and Swalwell’s Nov 25 suit alleges he searched databases for targets. Motives: (1) Ambition: he is reported as a candidate for Wiles’s job, and each referral is an audition for the next post (reported). (2) Protection: senators say he is reportedly in contact with Trump about targets, so he is acting for the one person who can shield him from the GAO probe and the suit (my reading). (3) His family’s $500K to a pro-Trump super PAC shows no personal gain.",
+          "Blanche executed the referrals and subpoenas. Motives: (1) Dependence: he was Trump’s personal lawyer and now runs DOJ as acting AG, so his job rests on Trump. (2) Ambition: confirmation as AG is the prize (my reading). Pirro, Scavino and Vought: no personal stake found; they executed orders.",
+          "Hassett says the Fed is independent while pushing a cut before Nov 3. Motives: (1) Ambition: he is the Fed-chair front-runner, so he says what Trump wants. (2) Trump told him on Jan 16 “I actually want to keep you where you are,” and Tillis vowed to block any Fed nominee until the Powell probe ends. Hassett is also harder to confirm because he is close to the president. His public line is built for Trump, not the Senate.",
+          "Navarro attacks the 12-0 hike in public; no act of his moved a rate. Motives: Signaling to Trump and the base. No personal stake found."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "treasury",
+        "position": "Market credibility and influence",
+        "actions": "Treasury favored market credibility and sought a closer accord. The FOMC voted on rates.",
+        "goals": "Borrowing costs and institutional influence are Treasury stakes. The ledger records professional financial ties and identifies no issue-specific donor. Preserve both the credibility and influence objectives. A rate result alone gives no evidence of a Treasury stance reversal.",
+        "actors": [],
+        "observations": [
+          "Independence is the slogan; an accord that ties the Fed's balance sheet to Treasury's needs is the program (my reading).",
+          "Treasury favored market credibility and sought a closer accord. The FOMC voted on rates. The September and October votes are committee actions. Assess advocacy over the Fed chair and the accord separately. Borrowing costs and institutional influence are Treasury stakes. The ledger records professional financial ties and identifies no issue-specific donor. Preserve both the credibility and influence objectives. A rate result alone gives no evidence of a Treasury stance reversal."
+        ]
+      },
+      {
+        "faction_id": "vance",
+        "position": "Cut rates, soften message",
+        "actions": "Program: cost of living for workers. Posture: the Fed should cut (Sep 3), 'we hear you' on costs. Interest: repeats Trump at no cost and keeps RNC donors calm.",
+        "goals": "Documented: Sep 3 remark; no act. Costless alignment with Trump (my reading).",
+        "actors": [],
+        "observations": [
+          "No act behind the Fed line; the rallies and money are acts."
+        ]
+      }
+    ],
+    "event_ids": [
+      "fed-2026-11-05-ap-voter-poll-costs",
+      "fed-2026-11-03-global-bond-strain",
+      "fed-2026-11-02-aca-premiums",
+      "fed-2026-11-02-employer-health-costs",
+      "fed-2026-11-02-shotwell-trump-accounts"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "IMM": {
+    "policy": "The administration continues high-volume enforcement and restrictive visa/labor measures, with particular practices constrained by court orders.",
+    "dispute": "Enforcement hardliners favor volume; electoral pragmatists and institutional dissenters contest the costs and methods.",
+    "player_ids": [
+      "miller",
+      "wiles",
+      "vance",
+      "donald-trump"
+    ],
+    "factions": [
+      {
+        "faction_id": "dissenters",
+        "position": "Distance from raids",
+        "actions": "Paul withheld the Schroyer hearing; Salazar ran an ad; Tillis blames Miller.",
+        "goals": "Distance on a toxic issue.",
+        "actors": [
+          "Paul Motives: Conviction: withholding the hearing is an act (reported).",
+          "Salazar Motives: Re-election: an ad in a Florida swing seat. Signaling with a district reason.",
+          "Tillis Motives: Freedom from consequences: he is retiring. Words only."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "3,000 arrests a day",
+        "actions": "Posture: the nation decides who belongs. Interest: control of ICE (Venturella, Jun 1), a legal arm funded by Bradley and DonorsTrust, and contractors' beds. 3,000 a day ordered Oct 6 after a spring pullback.",
+        "goals": "Documented grants: Bradley $27.1M (2022), DonorsTrust $21.3M (2024). Reported: Atlantic (May 11) on the spring pullback. Contractor tie is a documented fit, no causation.",
+        "actors": [],
+        "observations": [
+          "The arrest orders, court filings and the ICE pick are acts; the 1M-a-year and 100M-removal demands are words."
+        ]
+      },
+      {
+        "faction_id": "operation",
+        "position": "Quieter raids pre-election",
+        "actions": "The political team reportedly wanted a lower profile for raids before the election. The October 6 arrest directive moved the other way.",
+        "goals": "Electoral risk and control of the agenda are separate stakes. MAGA Inc. backers fund electoral capacity. A reported timing preference and a setback. Evidence of a public reversal or donor direction is missing.",
+        "actors": [
+          "Wiles Motives: (1) Turf: Miller is named as a possible replacement for her, so a fight over raids is also a fight over who steers Trump (Daily Beast; denied). (2) Self-protection: a bad midterm lands on her. On Oct 19 Melania gave her a public role co-leading a women’s health task force, a sign she is building her own standing (reported)."
+        ],
+        "observations": [
+          "The political team reportedly wanted a lower profile for raids before the election. The October 6 arrest directive moved the other way. The preference rests on an anonymous report. The directive supplies an outcome against which to test it. Electoral risk and control of the agenda are separate stakes. MAGA Inc. backers fund electoral capacity. A reported timing preference and a setback. Evidence of a public reversal or donor direction is missing."
+        ]
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "Keep H-1B (quietly)",
+        "actions": "Musk vowed 'war' for H-1B (Dec 2024), later softened; silent on the fee and PERM suspensions since.",
+        "goals": "A skilled-visa pipeline serves tech employers, but a public fight is costly for those who depend on the government.",
+        "actors": [
+          "Musk Motives: (1) Personal: he entered the US on an H-1B, by his own statement. (2) Business: his companies hire engineers who need visas, so a fee or a suspension raises his costs (my reading; headcount not sourced). (3) Exposure: SpaceX's government revenue and a Trump who has already threatened his companies explain the silence. The loud promise in Dec 2024 produced no act.",
+          "Kupor Motives: Background in venture capital, where skilled visas are the talent supply (background). No personal stake shown."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "vance",
+        "position": "Restrict; spare patrons",
+        "actions": "Program: restrict immigration to raise wages. Act: PERM suspensions (Oct 8) hit Microsoft, Adobe and outsourcers, incumbents his venture patrons compete with; patrons still want skilled visas open.",
+        "goals": "Documented: Oct 2 remark, Oct 8 suspensions, Oct 17 recast. Aimed where it costs the lane least (my reading); the act is scored to the Maximalists.",
+        "actors": [],
+        "observations": [
+          "A real act, aimed where it costs the lane least; the act is scored to the Maximalists."
+        ]
+      }
+    ],
+    "event_ids": [
+      "imm-2026-11-05-iran-deportation-coordination",
+      "imm-2026-11-03-venezuela-tps-admin-stay",
+      "imm-2026-11-01-bronx-visa-claim",
+      "imm-2026-10-31-salazar-warning",
+      "imm-2026-10-31-north-hollywood-video"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "IRN": {
+    "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive.",
+    "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice.",
+    "player_ids": [
+      "donald-trump",
+      "vance",
+      "rubio",
+      "hegseth",
+      "witkoff",
+      "kushner",
+      "ro-khanna"
+    ],
+    "factions": [
+      {
+        "faction_id": "deal-capital",
+        "position": "Patron-led, war then deal",
+        "actions": "Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement.",
+        "goals": "Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem.",
+        "actors": [],
+        "observations": [
+          "The talks were the runway for the strikes before they became the exit: a deal line that bends to the patrons, not a fixed preference (my reading).",
+          "Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement. Trump’s March 9 account names advisers but gives no individual recommendation. Subsequent talks are an observable action. Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem."
+        ]
+      },
+      {
+        "faction_id": "dissenters",
+        "position": "Article I on war",
+        "actions": "Members repeatedly sought war-powers votes while the coalition and vote counts shifted.",
+        "goals": "Congressional authority and political independence are stakes. Yass-backed support applies to the libertarian wing. Credit repeated procedural action. Test individual consistency and electoral costs against roll calls.",
+        "actors": [],
+        "observations": [
+          "The core is three senators; Hawley and Curtis voiced 60-day concerns and voted no (May 13).",
+          "Members repeatedly sought war-powers votes while the coalition and vote counts shifted. Compare the May 13, June 23 and September 24 votes by member. The aggregate counts do not establish individual flips. Congressional authority and political independence are stakes. Yass-backed support applies to the libertarian wing. Credit repeated procedural action. Test individual consistency and electoral costs against roll calls."
+        ]
+      },
+      {
+        "faction_id": "hawks",
+        "position": "Push for strikes; follow Trump",
+        "actions": "Rubio reportedly doubted the June agreement, then defended it and signaled a pause on new strikes.",
+        "goals": "Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage. Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved.",
+        "actors": [],
+        "observations": [
+          "The donor wing says strike; the faction's officials execute Trump's hold. Its real wins on Iran come through Israel's freedom to act and Congress, not the decision.",
+          "Rubio reportedly doubted the June agreement, then defended it and signaled a pause on new strikes. The June 15 and August 25 accounts span different phases of policy. Public advocacy for the deal is an observable change in posture. Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage. Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved."
+        ]
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Back the war, terms first",
+        "actions": "Posture: sovereignty through strength; Iran gives up its program first. Interest: officials' posts and Bannon's and Loomer's access ride on loyalty, so they back the war; only Prince, a ground contractor, dissents.",
+        "goals": "Reported: Miller in Go Big; Loomer (Mar 3); Bannon 'have his back... with full information' (CPAC, Mar 27); Prince (Mar 1). Interest reading is mine.",
+        "actors": [],
+        "observations": [
+          "Miller's place in the Go Big camp is reported; no Maximalist has acted against the war."
+        ]
+      },
+      {
+        "faction_id": "operation",
+        "position": "Quiet until Nov 3",
+        "actions": "Wants quiet until Nov 3: Trump pledged no attack before the election. Wiles privately doubted the war's rosy picture.",
+        "goals": "Keep the public line with Trump while limiting political risk before the midterms.",
+        "actors": [
+          "Wiles Motives: (1) Blame insurance: if the war goes badly, the chief of staff who passed along bad news is protected and the one who did not is not (my reading). (2) Access: being the person who tells Trump hard things reinforces her gatekeeper role."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "party",
+        "position": "Avoid war vote",
+        "actions": "Posture: back the commander in chief. Interest: no recorded war vote before Nov 3; Thune could not count 50 for war money (Jul 23); Hawley would not back the war powers resolution (Mar 2) while voicing doubts.",
+        "goals": "Reported: TNND (Jul 22-23); St. Joseph Post (Mar 3). Interest reading is mine.",
+        "actors": [],
+        "observations": [
+          "Thune's count is an act of omission; Hawley's vote is the act and his doubts are the words."
+        ]
+      },
+      {
+        "faction_id": "pentagon",
+        "position": "Ready, paid, not finished",
+        "actions": "The department kept military options ready and sought funding while executing the administration’s orders.",
+        "goals": "Budget and vendor discretion confer institutional power. Palantir and Lockheed have procurement exposure. Vendor benefits and department activity are observable claims. Their existence leaves individual lobbying for escalation unresolved.",
+        "actors": [],
+        "observations": [
+          "'Finish this fight' is the statement; the acts keep the war ready and paid for, not finished.",
+          "The department kept military options ready and sought funding while executing the administration’s orders. Strike execution and procurement actions are distinct from advice to authorize or prolong the war. Budget and vendor discretion confer institutional power. Palantir and Lockheed have procurement exposure. Vendor benefits and department activity are observable claims. Their existence leaves individual lobbying for escalation unresolved."
+        ]
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "Critique spoken, contracts kept",
+        "actions": "No line. Thiel: the war was a mistake (Oct 12), while Palantir, which he chairs, sells the war's targeting software (Maven use doubled).",
+        "goals": "Documented: Thiel remark and Palantir Q1 revenue (The Register). My reading: a strategy critique, not anti-war interest.",
+        "actors": [],
+        "observations": [
+          "The critique is spoken; the contracts are kept."
+        ]
+      },
+      {
+        "faction_id": "treasury",
+        "position": "Sanctions squeeze",
+        "actions": "Economic war instead of bombing: auto and rail sectors (Oct 1), banks (Oct 15), shadow fleet (Oct 21), each with wind-down licenses. Interest: Treasury turf during the strike hold and avoiding an oil shock.",
+        "goals": "Documented OFAC actions. My reading on turf and oil.",
+        "actors": [],
+        "observations": [
+          "The designations are acts, but each round ships with wind-down licenses (EE, FF-1, GG, HH) that soften it."
+        ]
+      },
+      {
+        "faction_id": "vance",
+        "position": "Conditional force, negotiations, then public criticism",
+        "actions": "At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations. On Nov 4 he publicly blamed the war for the midterm losses and questioned its electoral price.",
+        "goals": "Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives. Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open.",
+        "actors": [],
+        "observations": [
+          "At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations. Compare the Hannity interview, the reported private advice and the dated negotiations. The June agreement later collapsed. Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives. Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open."
+        ]
+      }
+    ],
+    "event_ids": [
+      "irn-2026-11-06-canada-msb-sanctions",
+      "irn-2026-11-05-trump-postelection-war-review",
+      "irn-2026-11-04-ofac-designations",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "irn-2026-11-03-qeshm-strikes"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "MID": {
+    "policy": "AP projects Democratic control of both chambers in the next Congress. Current officeholders retain authority until the January transition.",
+    "dispute": "Democrats gain prospective oversight and appropriations leverage; the administration faces pressure to change course or defend its agenda through executive action.",
+    "player_ids": [
+      "donald-trump",
+      "wiles",
+      "miller",
+      "vance",
+      "rubio",
+      "hegseth",
+      "jamie-raskin",
+      "richard-blumenthal",
+      "chuck-schumer"
+    ],
+    "factions": [
+      {
+        "faction_id": "dissenters",
+        "position": "Costs first; distance",
+        "actions": "Put costs first and criticize the ICE push.",
+        "goals": "Distance from Trump in swing seats.",
+        "actors": [
+          "Fitzpatrick, Salazar Motives: Re-election in swing seats (reported).",
+          "Tillis, Paul Motives: Conviction on ICE tactics. Tillis is retiring, which removes the cost.",
+          "Boebert Motives: Base pressure: distance in a base-driven district (reported)."
+        ],
+        "observations": [
+          "Most of the distance is words: criticism without a vote that blocks anything."
+        ]
+      },
+      {
+        "faction_id": "hawks",
+        "position": "Punish dissent in primaries",
+        "actions": "Discipline dissent in primaries: about $15.5M for Gallrein against Massie (MAGA KY $7.4M, UDP $4.1M, RJC $3.9M); Massie lost May 19.",
+        "goals": "Documented FEC data (WKMS, Jul 17; Al Jazeera). The message is to members (my reading).",
+        "actors": [],
+        "observations": [
+          "Hawk donors fund the majorities in the general election and spend against one dissenter in a primary: the message is to members, not voters (my reading)."
+        ]
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Enforcement push",
+        "actions": "Posture: a citizens-only vote. Interest: each suit or charge is an audition for a bigger post; Bannon attacks the Operation's money. Both ballot suits lost by Nov 2; TRO bars DOJ threats to Nov 16.",
+        "goals": "Documented court record; reported (Politico, Oct 15, anonymous) on Miller and Pulte for Wiles's job; Bannon's audit demand (Oct 7, Playbook as carried).",
+        "actors": [],
+        "observations": [
+          "The suits and charges are acts; every court through the Supreme Court has refused the ballot demands so far."
+        ]
+      },
+      {
+        "faction_id": "operation",
+        "position": "Run campaign, spend war chest",
+        "actions": "Posture: Trump is the coalition's glue. Interest: operators judged on Nov 3 control MAGA Inc.'s timing (held to Sep 1, about $277M by Oct 14) and sell proximity abroad; Srpska fee went to Trump's library (Oct 23).",
+        "goals": "Reported: Daily Beast citing NY Post (Oct 23); LaCivita confirmed on X. Spending figures documented in filings as stored.",
+        "actors": [
+          "Blair Motives: (1) Money: each fee is a payday on top of his MAGA Inc. role. (2) Selling proximity: a Bosnian editor told Al Jazeera the main benefit for Dodik was closeness to Trump, which is a product Blair can only sell while he is in Trump’s inner circle (reported). (3) Exposure: he accepted the risk anyway, which suggests he judged Trump would not punish it.",
+          "LaCivita Motives: same as Blair, with a second foreign client, Berisha, who also received travel-ban relief in the same period (reported timing).",
+          "Wiles did not take the fees herself. Motives: (1) Family business: her daughter’s firm earns from the same client, so criticizing the operators would expose her family. (2) Access as an asset: the firm’s other client, America First Refining, has Trump Jr. as an investor and a Trump-endorsed project (documented). No source shows Wiles acted on any of it."
+        ],
+        "observations": [
+          "The money timing is the act; the confidence is the statement."
+        ]
+      },
+      {
+        "faction_id": "party",
+        "position": "Defend House and Senate",
+        "actions": "Posture: hold the majorities. Interest: leaders' posts, financed by donors who predate Trump: Musk $158M to SLF since July; SLF and One Nation $103M in 2025; NRSC and Comer probes of Peltola (Oct 28-30).",
+        "goals": "Documented: AP (Oct 12) on Musk; stored filings on SLF. Survival is the stated aim; independence from Trump is my reading.",
+        "actors": [
+          "Thune Motives: (1) Survival of the majority and of his own post. (2) Friction with Trump: Trump withheld an endorsement in late July, and the rift partly stems from Thune’s refusal to prioritize Trump’s SAVE America Act. Trump’s snub gives him room to defend senators, but he cannot count on Trump’s money or voters.",
+          "Johnson, Scott, Hudson Motives: Majorities: the House and Senate maps (reported). For Johnson, the speakership depends on Trump’s goodwill and on the same majority (my reading).",
+          "Gruters Motives: Loyalty as a job: Trump chose him for RNC chair, and his future runs through Trump. No other stake found.",
+          "Comer Motives: Oversight role (reported).",
+          "Musk gave to SLF (reported). Motives: Buying a second channel to the party after his break with Trump (my reading)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "vance",
+        "position": "Blame Iran war for losses",
+        "actions": "On Nov 4 Vance publicly blamed the Iran war for Republican losses and emphasized winning back voters who had defected from Trump’s coalition.",
+        "goals": "Documented public remarks reported by Axios Nov 5. My reading: the message gives Vance an opening with antiwar voters while Trump’s public approval leaves room to stay in the coalition.",
+        "actors": [],
+        "observations": [
+          "No act behind the Fed line; the rallies and money are acts."
+        ]
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "No distinct common policy position established; financial and individual channels are recorded separately.",
+        "actions": "No program here; money and access instead. Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Thiel, Sacks and Andreessen backed Vance's 2022 run; Nvidia lobbied for H200 sales and pledged $25M to the ballroom.",
+        "goals": "Separate individual interests and payer access from a collective faction position.",
+        "actors": [],
+        "observations": [
+          "Why the faction does it. Buy access across issues so the AI and defense program survives whoever wins (my reading).",
+          "Thiel. Interest: he made Vance (Mithril, $15M to Protect Ohio Values, $200K+ via Per Aspera) and chairs Palantir, which sells to the government.",
+          "Musk. Interest: a second line to the party (SLF, CLF) after his Jun 2025 break with Trump.",
+          "Huang. Interest: lobbying and the pledge protect chip revenue (documented)."
+        ]
+      }
+    ],
+    "event_ids": [
+      "mid-2026-11-06-miller-chief-staff",
+      "mid-2026-11-06-senate-leadership-delay",
+      "mid-2026-11-05-congress-control",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "mid-2026-11-05-blumenthal-preservation-notices"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "RUS": {
+    "policy": "Negotiations and selective sanctions relief remain central to the Russia approach, with pressure on Kyiv and disputes over enforcement and military support.",
+    "dispute": "Deal negotiators and restraint advocates favor a settlement; hawks and congressional dissenters press sanctions and support for Ukraine.",
+    "player_ids": [
+      "witkoff",
+      "kushner",
+      "vance",
+      "rubio",
+      "bessent"
+    ],
+    "factions": [
+      {
+        "faction_id": "deal-capital",
+        "position": "Deal as brokerage",
+        "actions": "Trades sanctions relief and asset deals for a ceasefire: Miami plan (Nov 2025), Putin met Oct 21, Lukoil license extended, gas-transit pitch (Nov 2). Pressure lands on Kyiv (refinery pause, Oct 29). Interest: Gulf and US buyers.",
+        "goals": "Reported (WSJ): plan puts US firms first for frozen assets; documented fit: Aryam in the Lukoil bid group; no coordination with investors shown.",
+        "actors": [],
+        "observations": [
+          "'Negotiated deal' holds in form; its terms pay the brokers' circle and its costs land on Kyiv (my reading)."
+        ]
+      },
+      {
+        "faction_id": "dissenters",
+        "position": "Enforce sanctions law",
+        "actions": "Enforce the Graham sanctions law (86-11, 262-159) that Trump waived.",
+        "goals": "Enforce a law Congress passed. No donor stream found.",
+        "actors": [
+          "Tillis Motives: Retiring, so no cost for dissent (documented).",
+          "Cornyn Motives: Circumstance: he lost his primary, so he has no primary to fear (my reading).",
+          "Bacon, Fitzpatrick Motives: Swing districts (reported)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "hawks",
+        "position": "Sanction in principle; follow Trump",
+        "actions": "Favor sanctions in principle, but Rubio executes Trump's deal line and calls Starshield 'a private commercial contract'.",
+        "goals": "Rubio follows Trump's line; this splits the hawks from the Pentagon.",
+        "actors": [
+          "Rubio Motives: (1) Job security: he defends the president’s position, not his own. (2) Avoiding a fight he cannot win while he positions for 2028 (my reading)."
+        ],
+        "observations": [
+          "Hawk rhetoric on Russia sits beside executing the deal."
+        ]
+      },
+      {
+        "faction_id": "pentagon",
+        "position": "Shift burden to Europe",
+        "actions": "Shift the burden to Europe; a Patriot transfer was reportedly held (denied). State approved a $2.1B Patriot sale paid by Ukraine and allies, delivery in the 2030s (Oct 31).",
+        "goals": "Restraint plus low interceptor stocks. Defense contractors benefit from European PURL arms purchases (beneficiary only, no lobbying found).",
+        "actors": [
+          "Colby Motives: Ideology backed by acts: a restraint view not tied to money (reported). No personal stake found.",
+          "Hegseth Motives: Stocks: interceptors held back for Iran (my reading)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "Protect Starshield business",
+        "actions": "Musk's Starshield speed cap hit Ukrainian drones; Trump reportedly called him to lift it (Oct 21).",
+        "goals": "Musk acts as an outside operator protecting his business.",
+        "actors": [
+          "Musk Motives: (1) Money and exposure: SpaceX takes about a fifth of its revenue from the government and has filed for an IPO. He broke with Trump in Jun 2025, called for impeachment and claimed Trump was in the Epstein files; Trump threatened his companies, and they reached a truce at the Kirk memorial (Fortune, Sep 22, 2025). His position on Ukraine is shaped by who can hurt his contracts. He also gave $10M each to SLF and CLF, buying a second line to the party. (2) Control: he runs the network Ukraine's drones depend on, so a cap is leverage (my reading)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "treasury",
+        "position": "Licenses for the deal track",
+        "actions": "Says sanctions are leverage; issues the licenses the deal track needs: diesel (Oct 9, at Trump's direction) and Lukoil talks to Nov 21 (Oct 21). Interest: cover and standing with the envoys.",
+        "goals": "Documented licenses; documented fit with the Aryam-linked bid group; nothing shows Bessent acted for it.",
+        "actors": [],
+        "observations": [
+          "Treasury sanctioned Lukoil in Oct 2025 as leverage, then licensed the sale talks that turn that leverage into a deal for buyers (my reading)."
+        ]
+      },
+      {
+        "faction_id": "vance",
+        "position": "Restraint; Europe pays",
+        "actions": "Program: Europe pays for its defense; power goes to China. Vance proud of ending aid; Colby set burden-shifting and reportedly urged Baltics not to 'poke' Russia (Oct 30). Costs no patron.",
+        "goals": "Documented: Apr 14 remarks. Reported: Oct 30 Colby report. Posture and interest align here (my reading).",
+        "actors": [],
+        "observations": [
+          "Burden-shifting is an act (Colby); the rest is statement."
+        ]
+      }
+    ],
+    "event_ids": [
+      "rus-2026-11-05-diesel-shipments-diverted",
+      "rus-2026-11-05-oleshky-white-house-followup",
+      "rus-2026-11-03-black-sea-widens",
+      "rus-2026-11-02-alert-app-hacks",
+      "rus-2026-11-02-azov-resorts"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "SUC": {
+    "policy": "No Republican nominee has been selected. Vance has the strongest recorded organization; Trump’s endorsement and candidate entry remain open.",
+    "dispute": "Vance’s national-conservative network competes with Rubio/Cruz hawkish and donor lanes.",
+    "player_ids": [
+      "donald-trump",
+      "vance",
+      "rubio",
+      "don-jr"
+    ],
+    "factions": [
+      {
+        "faction_id": "hawks",
+        "position": "Two hawk lanes for 2028",
+        "actions": "Rubio defers to Vance in words and builds a base in acts; Cruz builds a hawk lane by attacking Carlson (Mar 10) for the pro-Israel donor network.",
+        "goals": "Reported (Axios on Cruz's 2028 aim; RJC's Brooks). Documented Cruz statement. No 2026 payment to Cruz found.",
+        "actors": [
+          "Rubio Motives: (1) Ambition: stepping aside in public keeps Trump’s blessing and the vice-presidency in play while he controls the national-security staff (my reading). (2) Calculation: his Israel stance is to match Trump and not criticize it, unlike Vance, who criticized Israel’s Lebanon strikes; hawk donors are his base (my reading).",
+          "Cruz Motives: (1) Ambition: pro-Israel donors are the coalition a 2028 run needs; his feud with Carlson over the war (Mar 10) is a pitch to them, and RJC CEO Matt Brooks said such moves are 'definitely getting noticed' (Axios, Nov 2025). (2) Money: his podcast raises small-dollar money. (3) The Iran lane separates him from Vance. (4) Adelson and Singer fund the Senate majority he serves in, so his donors and his party's donors are the same people.",
+          "Needham Motives: Career: his job comes from Rubio.",
+          "Griffin Motives: Patronage: predisposed to Rubio (reported). No amount found."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Third term or hard heir",
+        "actions": "Posture: the program needs Trump or a heir who keeps using the whole executive. Interest: Bannon's show and possible run, and officials whose power is personal to Trump.",
+        "goals": "Reported: Axios (Jan 10, 2026) on Bannon's groundwork, which he denies; third-term talk is a statement, not an act.",
+        "actors": [],
+        "observations": [
+          "Third-term talk is a statement; Bannon's groundwork is reported, not documented."
+        ]
+      },
+      {
+        "faction_id": "operation",
+        "position": "Keep race open",
+        "actions": "Posture: the choice is Trump's. Interest: an open race keeps every contender needing Wiles's access and Blair's and LaCivita's money; a named heir makes Trump a lame duck and their product worth less.",
+        "goals": "My reading, resting on documented control of MAGA Inc. and the reported Srpska work.",
+        "actors": [
+          "Wiles keeps the question open. Motives: (1) Power: the chief of staff controls access to Trump, and she already has to manage people who do not need her for it, including Trump’s children, Kushner and Musk (AP). A named heir would add another center that does not run through her (my reading). (2) Job security: a named heir makes Trump a lame duck, and her authority is borrowed from his.",
+          "Blair, LaCivita hold the money. Motives: (1) Leverage: the money is what every contender needs from them. (2) Business: both sell access to Trump’s circle to foreign clients (see the Srpska fees below), and that product loses value if Trump stops being the center (my reading)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "vance",
+        "position": "Build a coalition for the presidency",
+        "actions": "Build fundraising, turnout and endorsements to win the Republican nomination and presidency. The RNC finance role and Malik fundraiser are intermediate gains.",
+        "goals": "Thiel, Rockbridge and 1789 help build the coalition. Future access is a plausible return for backers. Portfolio stakes and policy preferences vary. Trump retains control over his endorsement. Malik's role as fundraiser host and his ties to Vance's donor network give him and his circle a channel into the succession coalition. That is political representation through access and coalition building. The relationship matters independently of any contribution by Malik or 1789 Capital. Influence over individual policy decisions needs decision-specific evidence.",
+        "actors": [],
+        "observations": []
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "No distinct common policy position established; financial and individual channels are recorded separately.",
+        "actions": "No program here; money and access instead. Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Thiel, Sacks and Andreessen backed Vance's 2022 run; Nvidia lobbied for H200 sales and pledged $25M to the ballroom.",
+        "goals": "Separate individual interests and payer access from a collective faction position.",
+        "actors": [],
+        "observations": [
+          "Why the faction does it. Buy access across issues so the AI and defense program survives whoever wins (my reading).",
+          "Thiel. Interest: he made Vance (Mithril, $15M to Protect Ohio Values, $200K+ via Per Aspera) and chairs Palantir, which sells to the government.",
+          "Musk. Interest: a second line to the party (SLF, CLF) after his Jun 2025 break with Trump.",
+          "Huang. Interest: lobbying and the pledge protect chip revenue (documented)."
+        ]
+      }
+    ],
+    "event_ids": [
+      "suc-2026-11-01-vance-2028-tests",
+      "suc-2026-10-31-eve-rallies",
+      "suc-2026-10-30-reses-cognition",
+      "suc-2026-10-24-nyt-siena",
+      "suc-2026-10-21-vance-ohio-rally"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "TAR": {
+    "policy": "The tariff regime continues through instrument-specific authorities, exemptions and litigation, including Section 301 and 232 measures.",
+    "dispute": "Treasury and Commerce compete over scope and bargaining; industry beneficiaries and trade-exposed constituencies push different outcomes.",
+    "player_ids": [
+      "bessent",
+      "lutnick",
+      "vance",
+      "donald-trump"
+    ],
+    "factions": [
+      {
+        "faction_id": "deal-capital",
+        "position": "Protect metals; sell chips",
+        "actions": "Lutnick held 50% on metals and stalled the Mexico deal (Oct 15).",
+        "goals": "Metals protection helps industrial allies while chip sales help his sons (reported).",
+        "actors": [
+          "Lutnick Motives: The same family and ally interests: Cantor/Newmark ties and industrial friends (my reading, same sources as above)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "dissenters",
+        "position": "End emergencies; carve-outs",
+        "actions": "Ended the Canada emergency 219-211 (Feb 11); Collins won Maine carve-outs (Oct 23).",
+        "goals": "Free-trade conviction and electoral relief.",
+        "actors": [
+          "Collins voted repeatedly to halt the Canada tariffs and lobbied for a wood-products exemption for a border paper mill. She skipped Vance’s Maine events. Canada took about 40% of Maine’s $3.2B exports and supplies about 70% of its imports, the most trade-dependent state analyzed, and Canada dropped seafood from its Sep 8 counter-tariff list (NPR, Aug 31). Motives: (1) Re-election against Troy Jackson in a state that loses from the tariffs. (2) Distance: skipping Vance keeps her off the same stage as the unpopular policy (my reading). (3) Contractor PACs (GEO, CoreCivic) also gave to her; no link to a vote is shown.",
+          "Massie, Bacon, Kiley, Hurd, Newhouse, Paul, McConnell, Murkowski Motives: Free-trade conviction (reported). Several are retiring or insulated; the cost is low."
+        ],
+        "observations": [
+          "Collins votes against the principle and takes the exemption for her state."
+        ]
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Keep high tariffs",
+        "actions": "Hold 50% on metals and 25% on autos; oppose cuts for Mexico (Oct 15).",
+        "goals": "The one issue where their words and acts agree.",
+        "actors": [],
+        "observations": [
+          "The proclamations are acts."
+        ]
+      },
+      {
+        "faction_id": "party",
+        "position": "Avoid tariff votes",
+        "actions": "Tried to bar tariff votes; failed 217-214 (Feb 10).",
+        "goals": "Avoid an embarrassing vote.",
+        "actors": [
+          "Johnson, Thune, Crapo Motives: Protecting members and the president from a recorded vote (reported).",
+          "Marshall, Cramer, Burchett Motives: Farm-state constituents object (reported)."
+        ],
+        "observations": [
+          "Leadership blocks votes while members object about beef."
+        ]
+      },
+      {
+        "faction_id": "treasury",
+        "position": "Court-proof wall; China truce",
+        "actions": "Managed trade on legal ground: Section 301 wall (Jul 24), China truce to Jan 10, 2027, AGOA suspensions (Nov 2). Interest: USTR authority (Greer) and market calm (Bessent).",
+        "goals": "Documented acts; reported Greer-Lutnick clash. My reading on motives.",
+        "actors": [],
+        "observations": [
+          "Bessent called the tariffs replicable 'permanently' (Dec 2025) yet runs a truce that suspends their bite on China."
+        ]
+      },
+      {
+        "faction_id": "tech-right",
+        "position": "No distinct common policy position established; financial and individual channels are recorded separately.",
+        "actions": "No program here; money and access instead. Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Thiel, Sacks and Andreessen backed Vance's 2022 run; Nvidia lobbied for H200 sales and pledged $25M to the ballroom.",
+        "goals": "Separate individual interests and payer access from a collective faction position.",
+        "actors": [],
+        "observations": [
+          "Why the faction does it. Buy access across issues so the AI and defense program survives whoever wins (my reading).",
+          "Thiel. Interest: he made Vance (Mithril, $15M to Protect Ohio Values, $200K+ via Per Aspera) and chairs Palantir, which sells to the government.",
+          "Musk. Interest: a second line to the party (SLF, CLF) after his Jun 2025 break with Trump.",
+          "Huang. Interest: lobbying and the pledge protect chip revenue (documented)."
+        ]
+      }
+    ],
+    "event_ids": [
+      "tar-2026-11-02-trump-carney-call",
+      "tar-2026-11-02-europe-slow-walk",
+      "tar-2026-11-02-agoa-suspension",
+      "tar-2026-11-02-kaz-resources-listing",
+      "tar-2026-11-02-automakers-china-ban"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  },
+  "VEN": {
+    "policy": "The administration prioritizes an oil opening and a managed political timetable under Rodríguez; elections and opposition access remain unresolved.",
+    "dispute": "Rubio’s political timetable intersects with Deal-Capital’s commercial opening and Pentagon involvement.",
+    "player_ids": [
+      "rubio",
+      "witkoff",
+      "kushner",
+      "hegseth"
+    ],
+    "factions": [
+      {
+        "faction_id": "deal-capital",
+        "position": "Oil flowing first",
+        "actions": "US stake and oil sales continue with no election date set under State's reform-first path (Oct 27).",
+        "goals": "Oil access: the Caracas Pragmatists want oil flowing before an election.",
+        "actors": [
+          "Wright, Burgum Motives: Wright’s oil holdings (above) mean oil flowing is good for his net worth. Burgum: no personal stake found in my research. Donor Sargeant, a trader, is tied to them but not quantified.",
+          "Grenell Motives: Lost his position to the Rubio camp (reported). His support for a faster opening is partly a fight for relevance (my reading)."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "dissenters",
+        "position": "War-powers limits",
+        "actions": "War-powers resolution advanced 52-47 (Jan 8) but failed 50-50 when Vance broke the tie (Jan 14).",
+        "goals": "Restraint and oversight of military action.",
+        "actors": [
+          "Hawley voted to advance the resolution on Jan 8, then flipped. He cited Rubio’s assurance of no ground troops or occupation and said sticking would mean he “wasn’t really serious.” Motives: (1) Pressure: Trump’s public attack came between the two votes. (2) Ambition: 2028 speculation around him means he cannot afford a fight with Trump (my reading). (3) He got a cover story he could repeat.",
+          "Young flipped after assurances (reported). Motives: Pressure and cover: the White House bought the vote with assurances.",
+          "Paul, Murkowski Motives: Conviction: consistent votes (reported). Neither moved.",
+          "Collins Motives: Re-election: a tight race in Maine against Democrat Troy Jackson (reported)."
+        ],
+        "observations": [
+          "The flip shows that stated positions here can be bought; Paul and Murkowski did not move."
+        ]
+      },
+      {
+        "faction_id": "hawks",
+        "position": "Remove regime; keep Rodriguez",
+        "actions": "Captured Maduro (Jan 3), kept Rodriguez, kept Machado out. Rubio's Oct 27 path: reforms first, best case June 2027. A US official says Rodriguez should vacate in 2027 (Oct 27, reported).",
+        "goals": "Remove a hostile regime and keep the Florida Venezuelan-American vote.",
+        "actors": [
+          "Rubio led all of these acts. Motives: (1) Votes: the Florida Venezuelan-American vote is his political base (reported). (2) Ambition: a foreign-policy win that Trump takes credit for keeps him in the room for the 2028 ticket (my reading).",
+          "Claver-Carone was the unofficial “viceroy” for Venezuela, reporting to Rubio. He was key to Centerview’s over-$150M no-bid contract to restructure about $200B of Venezuelan debt. He left the role in Jul 2026 (voluntary, he says; forced, per sources), runs a private equity fund, and says he has no Venezuela stake. He used Alejandro Betancourt as an intermediary (Reuters). Motives: (1) Money: the restructuring contract is the largest private payoff of the policy, and he steered it (reported). (2) Business: he now runs a fund and benefits from a Venezuela reopening (my reading). (3) Record: he was ousted from the IDB in Trump’s first term over misconduct (Reuters).",
+          "Florida delegation (Scott, Díaz-Balart, Giménez, Salazar, Moody) Motives: Votes: they answer to Venezuelan-American voters (reported).",
+          "Ratcliffe backs the line from the CIA. Motives: No personal stake found; follows the president."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "maximalists",
+        "position": "Back Rubio's line",
+        "actions": "In lockstep with Rubio's line (anonymous, Oct 2025).",
+        "goals": "Hawks want regime change and Maximalists want enforcement power; pressure serves both.",
+        "actors": [
+          "Miller Motives: (1) Alliance: backing Rubio buys Rubio’s support when Miller fights for immigration power. (2) Positioning: he stays on the winning side of a foreign-policy line (my reading). No financial stake found."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "pentagon",
+        "position": "Stake in oil deal",
+        "actions": "Hegseth: 'American companies in there' (Jan 3); the Pentagon capital office took 35% of NABEP (Aug 28).",
+        "goals": "The Pentagon becomes a shareholder in the oil deal.",
+        "actors": [
+          "Hegseth, Feinberg Motives: (1) Power: the stake gives the Pentagon its own revenue stream and its own say in the oil deal (documented fit). (2) Feinberg’s Cerberus ties (see Iran) make a deal that adds government capital to private oil and finance interests worth watching. No steering shown."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "treasury",
+        "position": "Normalize via licenses",
+        "actions": "Delisted Delcy Rodríguez (Apr 1) and her brother Jorge (Oct 14), central-bank license (Apr 14), IMF reintegration; oil money in a Treasury account (Oct 26); Bessent met FM Blanco on reconnecting the financial sector (Nov 2).",
+        "goals": "Executes the normalization Trump chose (reported).",
+        "actors": [
+          "Bessent Motives: (1) Execution: the licenses carry his name but the policy is Trump’s. (2) The debt restructuring that follows involves Centerview’s over-$150M no-bid contract on about $200B of Venezuelan debt, which Claver-Carone was key to (see Primacist Hawks). Nothing shows Bessent profits."
+        ],
+        "observations": []
+      },
+      {
+        "faction_id": "vance",
+        "position": "Doubt, then deference",
+        "actions": "Vance expressed skepticism about the raid and then cast the tie-break against the war-powers resolution.",
+        "goals": "Loyalty to Trump can protect succession standing. The ledger supplies no evidence of donor direction on this vote. Behavior favored Trump when institutional restraint was at stake. Political accommodation is plausible. The remarks and vote address different decisions.",
+        "actors": [],
+        "observations": [
+          "Doubt in words; the act backed the operation.",
+          "Vance expressed skepticism about the raid and then cast the tie-break against the war-powers resolution. The vote is a consequential act. The retrospective remark describes skepticism but does not date or define a prior commitment to the resolution. Loyalty to Trump can protect succession standing. The ledger supplies no evidence of donor direction on this vote. Behavior favored Trump when institutional restraint was at stake. Political accommodation is plausible. The remarks and vote address different decisions."
+        ]
+      }
+    ],
+    "event_ids": [
+      "ven-2026-11-04-pdvsa-bond-license",
+      "ven-2026-11-02-oil-workers",
+      "ven-2026-11-02-rubio-blanco",
+      "ven-2026-11-02-bessent-blanco",
+      "ven-2026-10-28-boat-strike"
+    ],
+    "research_as_of": "2026-11-07",
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+  }
+}

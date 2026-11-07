@@ -95,7 +95,8 @@ export default function Nominees() {
           {[
             ["assessment", "Assessment"],
             ["positions", "Positions"],
-            ["money", "Money & allies"],
+            ["money", "Backers & base"],
+            ["record", "Strengths & history"],
             ["evidence", "Evidence"],
           ].map(([value, label]) => (
             <Tab key={value} value={value} label={label} />
@@ -296,6 +297,26 @@ export default function Nominees() {
                 value={candidate.controversies_and_potential_exposure}
                 depth={1}
               />
+            </Section>
+          </>
+        )}
+        {tab === "record" && (
+          <>
+            <Section title="Strengths and weaknesses">
+              <ReadingBlock
+                title="Strengths"
+                text={candidate.strengths_for_base.join("\n\n")}
+              />
+              <ReadingBlock
+                title="Weaknesses"
+                text={candidate.weaknesses_for_base.join("\n\n")}
+              />
+            </Section>
+            <Section title="Expected base and coalition limits">
+              <DetailFields value={candidate.base_of_support} depth={1} />
+            </Section>
+            <Section title="Political and policy history">
+              <DetailFields value={candidate.consistency_timeline} depth={1} />
             </Section>
           </>
         )}

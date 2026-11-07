@@ -137,6 +137,7 @@ export interface Nomination {
 }
 export interface LedgerData {
   assessment: CurrentAssessment;
+  issueAssessments: Record<string, IssueAssessment>;
   events: EventRecord[];
   issues: Issue[];
   factions: Faction[];
@@ -185,6 +186,22 @@ export interface CandidateAssessment extends EvidenceRef {
   reviewed_at: string;
 }
 export interface CurrentAssessment {
+  power_shifts: {
+    faction_id: string;
+    actor: string;
+    before: number;
+    after: number;
+    role_change: string;
+    implication: string;
+  }[];
+  power_method: {
+    title: string;
+    scale: string;
+    status: string;
+    condition: string;
+    policy_projection: string;
+    event_ids: string[];
+  };
   research_as_of: string;
   last_substantive_change: string;
   review: { run_id: string; date: string; type: string; scope: string };
@@ -213,4 +230,21 @@ export interface CurrentAssessment {
     kind: string;
     assessment: string;
   })[];
+}
+
+export interface IssueAssessment {
+  policy: string;
+  dispute: string;
+  player_ids: string[];
+  research_as_of: string;
+  scope: string;
+  event_ids: string[];
+  factions: {
+    faction_id: string;
+    position: string;
+    actions: string;
+    goals: string;
+    actors: string[];
+    observations: string[];
+  }[];
 }

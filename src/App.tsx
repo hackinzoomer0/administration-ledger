@@ -40,7 +40,7 @@ const destinations = [
   {
     path: "/",
     label: "Current assessment",
-    short: "Assessment",
+    short: "Overview",
     icon: <DashboardOutlinedIcon />,
   },
   {
@@ -277,6 +277,13 @@ export function App() {
             to={item.path}
             value={item.path}
             icon={item.icon}
+            sx={{
+              minWidth: 0,
+              "& .MuiBottomNavigationAction-label": {
+                whiteSpace: "nowrap",
+                fontSize: "0.7rem",
+              },
+            }}
             label={item.short}
             aria-label={item.label}
           />

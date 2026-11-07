@@ -19,6 +19,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { data } from "../lib/data";
 import { EvidenceContext } from "../lib/evidence-context";
 import type { EvidenceRequest } from "../lib/evidence-context";
+import { TopicPlayers } from "./TopicPlayers";
 import { EventDetails } from "./EventDetails";
 import { ResearchText } from "./ResearchText";
 export function EvidenceProvider({ children }: { children: ReactNode }) {
@@ -69,6 +70,22 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
               </IconButton>
             </Stack>
             <ResearchText text={request.summary} />
+            {request.event_ids.length > 0 &&
+              (() => {
+                const issue = data.events.find(
+                  (row) => row.id === request.event_ids[0],
+                )?.issues[0];
+                return issue && data.issueAssessments[issue] ? (
+                  <Accordion disableGutters elevation={0} variant="outlined">
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                      Major players, factions, goals &amp; backers
+                    </AccordionSummary>
+                    <AccordionDetails>
+                      <TopicPlayers issue={issue} />
+                    </AccordionDetails>
+                  </Accordion>
+                ) : null;
+              })()}
             <Divider />
             {request.event_ids
               .map((id) => data.events.find((event) => event.id === id))

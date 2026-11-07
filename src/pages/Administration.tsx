@@ -4,6 +4,8 @@ import { data } from "../lib/data";
 import { label } from "../lib/selectors";
 import { AssessmentMeta } from "../components/AssessmentMeta";
 import { ContextNav } from "../components/ContextNav";
+import { TopicPlayers } from "../components/TopicPlayers";
+import { PowerShifts } from "../components/PowerShifts";
 import { PowerList } from "../components/PowerList";
 import { ReadingBlock } from "../components/ReadingBlock";
 import { Section } from "../components/Section";
@@ -69,6 +71,7 @@ export default function Administration() {
             <ReadingBlock title="Positions" text={contest.basis.positions} />
             <ReadingBlock title="Money & access" text={contest.basis.money} />
           </Section>
+          <TopicPlayers issue={contest.issue_id} />
           <Section title="What remains open">
             <ReadingBlock
               title="What would change this read"
@@ -78,6 +81,7 @@ export default function Administration() {
         </>
       ) : (
         <>
+          <PowerShifts />
           <Section title={data.assessment.administration.headline}>
             <Typography variant="body2" sx={{ maxWidth: "75ch" }}>
               {data.assessment.administration.summary}

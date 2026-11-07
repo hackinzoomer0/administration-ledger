@@ -14,6 +14,8 @@ import { Link as RouterLink, useParams } from "react-router-dom";
 import { activeFactions, data } from "../lib/data";
 import { ContextNav } from "../components/ContextNav";
 import { Section } from "../components/Section";
+import { TopicPlayers } from "../components/TopicPlayers";
+import { FactionPosition } from "../components/FactionPosition";
 import { PowerList } from "../components/PowerList";
 import { ReadingBlock } from "../components/ReadingBlock";
 export default function Issues() {
@@ -57,7 +59,7 @@ export default function Issues() {
                     (contest) => contest.issue_id === row.code,
                   )
                     ? "Included in the current assessment"
-                    : "Historical coverage · current synthesis not yet reviewed"}
+                    : "Policy, actors and factional disputes"}
                 </Typography>
               </Box>
             ))}
@@ -65,6 +67,7 @@ export default function Issues() {
         </Paper>
       </Stack>
     );
+  const policy = data.issueAssessments[issue.code];
   const contests = data.assessment.administration.contests.filter(
     (row) => row.issue_id === issue.code,
   );
@@ -77,20 +80,24 @@ export default function Issues() {
           {issue.name}
         </Typography>
       </Box>
-      <Section title="Current assessment">
-        {contests.length ? (
-          <PowerList contests={contests} />
-        ) : (
-          <Typography variant="body2">
-            A current synthesis for this issue has not been established in the
-            reviewed snapshot. The dated record remains available; the original
-            summary below may have been superseded.
-          </Typography>
-        )}
+      <Section title="Current policy and the contest over it">
+        <ReadingBlock
+          title="Policy in force / current approach"
+          text={policy.policy}
+        />
+        <ReadingBlock
+          title="Who is pushing it and where factions disagree"
+          text={policy.dispute}
+        />
+        <Typography variant="caption" color="text.secondary">
+          Research through {policy.research_as_of}. {policy.scope}
+        </Typography>
+        {contests.length > 0 && <PowerList contests={contests} />}
         <Button component={RouterLink} to={`/ledger?issue=${issue.code}`}>
           Inspect dated episodes
         </Button>
       </Section>
+      <TopicPlayers issue={issue.code} />
       <Accordion disableGutters elevation={0} variant="outlined">
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           Original issue summary and open questions
@@ -120,13 +127,7 @@ export default function Issues() {
                 {faction.name}
               </AccordionSummary>
               <AccordionDetails>
-                {faction.positions[issue.code].map((block, index) => (
-                  <ReadingBlock
-                    key={index}
-                    title={block.title}
-                    text={block.paras.join("\n\n")}
-                  />
-                ))}
+                <FactionPosition issue={issue.code} faction={faction.id} />
                 <Button component={RouterLink} to={`/factions/${faction.id}`}>
                   Faction profile
                 </Button>

@@ -36,3 +36,13 @@ class AssessmentIntegrity(unittest.TestCase):
         self.current['nomination']['candidates'].append({'candidate_id': 'outside'})
         with self.assertRaisesRegex(ValueError, 'roster'):
             validate(self.after)
+
+    def test_missing_issue_policy_is_rejected(self):
+        del self.after['collections']['assessments']['issues']['AI']
+        with self.assertRaisesRegex(ValueError, 'Every issue'):
+            validate(self.after)
+
+    def test_role_scenario_cannot_exceed_explained_scale(self):
+        self.current['power_shifts'][0]['after'] = 100
+        with self.assertRaisesRegex(ValueError, 'role leverage'):
+            validate(self.after)
