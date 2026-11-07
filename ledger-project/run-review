@@ -1,0 +1,101 @@
+#!/bin/bash
+set -euo pipefail
+project=$(cd -- "$(dirname -- "$0")" && pwd)
+case "${1:-}" in daily) section=Daily;; weekly) section=Weekly;; *) exit 2;; esac
+ledger="$project/../ledger-owner-redacted.json"
+daily_stamp="$project/.daily-review-success"
+review_date=$(TZ=America/Chicago date +%F)
+if [[ "$section" == Weekly ]] && [[ $(cat "$daily_stamp" 2>/dev/null || true) != "$review_date" ]]; then
+    systemctl --user start ledger-daily-review.service
+    [[ $(cat "$daily_stamp") == "$review_date" ]]
+fi
+exec 9>"$project/.review.lock"
+flock -w 1800 9
+stage=$(mktemp -d "$project/.review.XXXXXX")
+cleanup() {
+    status=$?
+    if (( status == 0 )); then
+        rm -rf -- "$stage"
+    else
+        printf 'Review failed; retained diagnostic files at %s\n' "$stage" >&2
+        if [[ -f "$stage/chat.json" ]]; then
+            printf 'The review pipeline failed with exit status %s. Publication or local application may be incomplete. Tell the user clearly that this run failed and requires follow-up; do not claim success. Diagnostic files: %s. Do not use tools or change files.\n' "$status" "$stage" | /usr/bin/python3 "$project/review-chat.py" "$stage" report || true
+        fi
+    fi
+}
+trap cleanup EXIT
+cp "$ledger" "$stage/original.json"
+cp "$ledger" "$stage/ledger-owner-redacted.json"
+cp "$project/MEMORY.md" "$stage/MEMORY.md"
+awk -v section="$section" '/^## / {active=($2==section)} active && /^> / {print substr($0,3)}' "$project/../ledger-scheduled-tasks.md" > "$stage/prompt.txt"
+test -s "$stage/prompt.txt"
+{
+ printf '%s\n' 'Scheduled run. Read MEMORY.md for context. Operate only on the staged ledger-owner-redacted.json in the current directory. The runner checks and applies the staged result to the working ledger. Do not access sibling files, publish, or change prompts. Use available web search for source verification. If unavailable, report the blocker without changing data. Your first response is an intermediate research result. After publication the runner will request the final change report in this chat.'
+ cat "$stage/prompt.txt"
+} | /usr/bin/python3 "$project/review-chat.py" "$stage" "$section"
+/usr/bin/python3 "$project/validate-nominees.py" "$stage/original.json" "$stage/ledger-owner-redacted.json" "$section"
+python3 - "$stage" "$ledger" <<'PY'
+import json, os, subprocess, sys, tempfile
+from pathlib import Path
+stage, ledger = map(Path, sys.argv[1:])
+old = (stage / "original.json").read_bytes()
+new = (stage / "ledger-owner-redacted.json").read_bytes()
+before, after = map(json.loads, (old, new))
+assert before.keys() == after.keys()
+assert before["collections"].keys() == after["collections"].keys()
+assert before["collections"]["prompts"] == after["collections"]["prompts"]
+if new != old:
+    if ledger.read_bytes() != old:
+        raise SystemExit("Working ledger changed during the review. Retry against the latest copy.")
+    project = stage.parent
+    publication = subprocess.run([sys.executable, str(project / "publish-review.py"), str(stage),
+                    str(ledger.parent / "administration-ledger-public/index.html")], check=True, capture_output=True, text=True)
+    print(publication.stdout, flush=True)
+    (stage / "publication.txt").write_text(publication.stdout)
+    if ledger.read_bytes() != old:
+        raise SystemExit("Working ledger changed during publication. Reconcile with the published revision.")
+    with tempfile.NamedTemporaryFile(dir=ledger.parent, delete=False) as out:
+        out.write(new)
+    os.chmod(out.name, ledger.stat().st_mode & 0o777)
+    os.replace(out.name, ledger)
+changes = []
+for collection, current in after["collections"].items():
+    previous = before["collections"][collection]
+    if current == previous:
+        continue
+    if collection == "events":
+        for issue in sorted(set(previous) | set(current)):
+            left = {r["id"]: r for r in previous.get(issue, {}).get("items", [])}
+            right = {r["id"]: r for r in current.get(issue, {}).get("items", [])}
+            for key in sorted(set(left) | set(right)):
+                if left.get(key) != right.get(key):
+                    changes.append({"collection": collection, "issue": issue, "id": key,
+                                    "before": left.get(key), "after": right.get(key)})
+    else:
+        for key in sorted(set(previous) | set(current)):
+            if previous.get(key) != current.get(key):
+                changes.append({"collection": collection, "id": key,
+                                "before": previous.get(key), "after": current.get(key)})
+publication = ((stage / "publication.txt").read_text().strip() or "Local records changed; no changed public event rows to publish.") if (stage / "publication.txt").exists() else "No data changed; no new commit needed."
+report = {"publication": publication, "changes": changes,
+          "nominee_forecast": after["collections"]["nominations"]["republican_2028"]["tracking"]["history"][-1]}
+(stage / "changes.json").write_text(json.dumps(report, ensure_ascii=False, indent=2))
+(stage / "completion-prompt.txt").write_text(
+    "The runner has finished publication and applied the staged ledger. Provide the FINAL user-facing review report now. "
+    "Do not use tools or modify files. List EVERY added, revised, or removed event individually with its substance, "
+    "factional benefits/disputes, and any score changes (explicitly say if scores were unchanged). "
+    "Summarize other collection changes, pending outcomes, gaps and validation from the run log. "
+    "Include the nominee report: all five current conditional percentages and percentage-point deltas, reasons for changes or holds, "
+    "evidence-backed effects in BOTH directions between factions and nominees, and coverage gaps. "
+    "Label estimates subjective and conditional on the five authorized candidates, not full-field odds. "
+    "Confirm no nominees were added; flag outside contenders only as requests for owner authorization. "
+    "If the latest snapshot predates this run, label it as carried forward and do not present its deltas as new changes. "
+    "Clearly distinguish public changes from local research/run records. Include the verified commit SHA and dashboard link "
+    "https://hackinzoomer0.github.io/administration-ledger/ if publication was verified. "
+    "Do not say nothing was published when the publication result confirms otherwise. Full machine-generated diff follows:\n"
+    + json.dumps(report, ensure_ascii=False))
+PY
+/usr/bin/python3 "$project/review-chat.py" "$stage" report < "$stage/completion-prompt.txt"
+if [[ "$section" == Daily ]]; then
+    printf '%s\n' "$review_date" > "$daily_stamp"
+fi

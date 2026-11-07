@@ -1,0 +1,96 @@
+"""Validate the private nominee forecast before any publication or ledger application."""
+import datetime
+import json
+import math
+import sys
+from pathlib import Path
+
+KEY = "republican_2028"
+
+
+def validate(before, after, section):
+    old = before['collections']['nominations'][KEY]
+    new = after['collections']['nominations'][KEY]
+    for key in ('roster_authorization', 'forecast_methodology'):
+        if new[key] != old[key]:
+            raise ValueError(f'Nominee {key} requires an explicit owner-authorized workflow change')
+    authorized = old['roster_authorization']['candidates']
+    roster = [{'id': row['id'], 'name': row['name']} for row in new['candidates']]
+    if roster != authorized or new['scope']['candidates'] != [r['name'] for r in authorized]:
+        raise ValueError('Unauthorized nominee roster change')
+    names = [r['id'] for r in authorized]
+    def probabilities(rows):
+        if set(rows) != set(names):
+            raise ValueError('Forecast must cover exactly the authorized roster')
+        values = list(rows.values())
+        if any(type(v) not in (int, float) or not math.isfinite(v) or not 0 <= v <= 100 for v in values):
+            raise ValueError('Invalid nomination likelihood')
+        if abs(sum(values) - 100) > 0.011:
+            raise ValueError('Conditional nomination likelihoods must sum to 100')
+    current = {r['id']: r['nomination_likelihood_pct'] for r in new['candidates']}
+    probabilities(current)
+    for row in new['candidates']:
+        if not row.get('forecast_rationale', '').strip():
+            raise ValueError('Every nominee needs a forecast rationale')
+    previous_history = old['tracking']['history']
+    history = new['tracking']['history']
+    if history[:len(previous_history)] != previous_history:
+        raise ValueError('Nominee history must be append-only')
+    added = history[len(previous_history):]
+    if section == 'Daily' and not added:
+        raise ValueError('Daily review must record a nominee snapshot, including unchanged estimates')
+    if new != old and not added:
+        raise ValueError('Nominee changes require an auditable snapshot')
+    sources = {r['id'] for r in new['sources']}
+    if len(sources) != len(new['sources']):
+        raise ValueError('Duplicate nominee source IDs')
+    events = {r['id'] for group in after['collections']['events'].values() for r in group['items']}
+    factions = set(after['collections']['factions'])
+    prior = {r['id']: r['nomination_likelihood_pct'] for r in old['candidates']}
+    seen = {r['id'] for r in previous_history}
+    for entry in added:
+        if entry['id'] in seen:
+            raise ValueError('Duplicate nominee snapshot ID')
+        seen.add(entry['id'])
+        datetime.date.fromisoformat(entry['date'])
+        if entry['run_id'] not in after['collections']['runs']:
+            raise ValueError('Nominee snapshot must link to a run log')
+        probabilities(entry['probabilities_pct'])
+        if set(entry['assessments']) != set(names):
+            raise ValueError('Snapshot must assess every nominee')
+        for candidate, assessment in entry['assessments'].items():
+            delta = entry['probabilities_pct'][candidate] - prior[candidate]
+            if abs(assessment['delta_pp'] - delta) > 0.011:
+                raise ValueError('Incorrect nominee percentage-point delta')
+            if not assessment['reason'].strip():
+                raise ValueError('Explain changed and unchanged nominee estimates')
+            if assessment['review_status'] not in ('reviewed', 'partial', 'unreviewed'):
+                raise ValueError('Invalid nominee coverage status')
+            if delta and assessment['review_status'] == 'unreviewed':
+                raise ValueError('Cannot change an unreviewed nominee estimate')
+            if not set(assessment['source_ids']) <= sources or not set(assessment['event_ids']) <= events:
+                raise ValueError('Unresolved nominee evidence reference')
+            if delta and not assessment['source_ids'] and not assessment['event_ids']:
+                raise ValueError('Nominee probability changes require evidence references')
+            for link in assessment['faction_links']:
+                if link['faction_id'] not in factions or not link['mechanism'].strip():
+                    raise ValueError('Faction links need a known faction and a concrete mechanism')
+                if link['direction'] not in ('faction_to_nominee', 'nominee_to_faction', 'both'):
+                    raise ValueError('Invalid faction/nominee link direction')
+                if not set(link['event_ids']) <= events or not set(link['source_ids']) <= sources:
+                    raise ValueError('Unresolved faction/nominee link evidence')
+                if not link['event_ids'] and not link['source_ids']:
+                    raise ValueError('Faction/nominee links require evidence')
+        if not entry['summary'].strip() or not isinstance(entry['gaps'], list):
+            raise ValueError('Snapshot requires a summary and coverage gaps')
+        prior = entry['probabilities_pct']
+    if history[-1]['probabilities_pct'] != current:
+        raise ValueError('Latest nominee snapshot and current forecast disagree')
+    if history[-1]['date'] != new['as_of_date']:
+        raise ValueError('Nominee as-of date and latest snapshot disagree')
+
+
+if __name__ == '__main__':
+    before, after = (json.loads(Path(p).read_text()) for p in sys.argv[1:3])
+    validate(before, after, sys.argv[3])
+    print('Nominee roster, probabilities, history and evidence references validated.')
