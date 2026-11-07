@@ -46,3 +46,28 @@ class AssessmentIntegrity(unittest.TestCase):
         self.current['power_shifts'][0]['after'] = 100
         with self.assertRaisesRegex(ValueError, 'role leverage'):
             validate(self.after)
+
+    def test_weekly_cannot_reuse_the_daily_review_stamp(self):
+        with self.assertRaisesRegex(ValueError, 'explicitly reassess'):
+            validate_review(self.before, self.after, 'Weekly')
+
+    def test_new_review_stamp_alone_does_not_establish_a_current_assessment(self):
+        self.current['review'].update(run_id='audit-fixture', type='daily_review')
+        self.after['collections']['runs']['audit-fixture'] = {}
+        with self.assertRaisesRegex(ValueError, 'reality-first'):
+            validate_review(self.before, self.after, 'Daily')
+
+    def test_weekly_hold_still_requires_a_competing_interpretation(self):
+        self.current['review'].update(run_id='weekly-audit-fixture', type='weekly_review')
+        self.after['collections']['runs']['weekly-audit-fixture'] = {'assessment_audit': {
+            'major_developments': [], 'dated_assumptions': [], 'challenges': [],
+            'summary_changed': False, 'summary_reason': 'A justified hold.',
+            'issue_coverage': {code: {'status': 'carried', 'reason': 'Prior evidence retained; no new verification in this fixture.'} for code in self.after['collections']['issues']}
+        }}
+        with self.assertRaisesRegex(ValueError, 'competing interpretation'):
+            validate_review(self.before, self.after, 'Weekly')
+        self.after['collections']['runs']['weekly-audit-fixture']['assessment_audit']['challenges'] = [{
+            'alternative': 'An alternative causal explanation.', 'finding': 'Evidence remains insufficient.',
+            'consequence': 'Retain the assessment and its stated uncertainty.'
+        }]
+        validate_review(self.before, self.after, 'Weekly')

@@ -75,6 +75,11 @@ class DatabaseWorkflow(unittest.TestCase):
             current = ledger['collections']['assessments']['current']
             current['review'].update(run_id='workflow-fixture', type='daily_review')
             current['nomination']['snapshot_id'] = 'workflow-fixture'
+            ledger['collections']['runs']['workflow-fixture']['assessment_audit'] = {
+                'major_developments': [], 'dated_assumptions': [], 'challenges': [],
+                'summary_changed': False, 'summary_reason': 'Fixture hold after reassessment.',
+                'issue_coverage': {code: {'status': 'reviewed', 'reason': 'Fixture coverage.'} for code in ledger['collections']['issues']}
+            }
             file.write_text(json.dumps(ledger))
             with patch('review_workflow.publish', return_value={'status': 'verified', 'commit': 'fixture'}) as publish, patch('review_workflow.apply') as apply_data:
                 finish(stage, 'Daily')

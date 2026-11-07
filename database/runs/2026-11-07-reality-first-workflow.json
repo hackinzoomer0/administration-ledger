@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-07",
+  "type": "workflow_setup",
+  "scope": "Owner clarification about automatic summary quality; no political research or forecast change.",
+  "changes": [
+    "Require substantive reassessment on both daily and weekly runs, even for holds.",
+    "Require material-development dispositions, every-issue coverage, actual summary-change rationale and dated-assumption review in each run.",
+    "Require a weekly competing-interpretation challenge; reject timestamp-only freshness.",
+    "Treat post-midterm wording as a current example, never a permanent narrative template."
+  ],
+  "limits": [
+    "Structural checks enforce review coverage and traceability; they cannot certify analytical truth or exhaustive reporting. Gaps must be explicit."
+  ]
+}

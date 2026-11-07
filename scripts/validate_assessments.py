@@ -91,10 +91,44 @@ def validate(ledger):
 
 def validate_review(before, after, section):
     validate(after)
-    if section == 'Daily':
-        previous = before['collections']['assessments']['current']['review']
-        current = after['collections']['assessments']['current']['review']
-        if current == previous or current['type'] != 'daily_review':
-            raise ValueError('Daily review must explicitly reassess the current product assessment, including holds and gaps')
-        if current['run_id'] in before['collections']['runs']:
-            raise ValueError('Daily assessment must reference this run, not an older review')
+    if section not in {'Daily', 'Weekly'}:
+        return
+    previous = before['collections']['assessments']['current']['review']
+    current = after['collections']['assessments']['current']['review']
+    expected = 'daily_review' if section == 'Daily' else 'weekly_review'
+    if current == previous or current['type'] != expected:
+        raise ValueError(f'{section} review must explicitly reassess the current product assessment, including holds and gaps')
+    if current['run_id'] in before['collections']['runs']:
+        raise ValueError('Assessment must reference this run, not an older review')
+    audit = after['collections']['runs'][current['run_id']].get('assessment_audit')
+    if not isinstance(audit, dict):
+        raise ValueError('Review requires a reality-first assessment audit')
+    coverage = audit.get('issue_coverage', {})
+    if set(coverage) != set(after['collections']['issues']):
+        raise ValueError('Assessment audit must cover every issue')
+    for entry in coverage.values():
+        if entry.get('status') not in {'reviewed', 'carried', 'unreviewed'} or not entry.get('reason', '').strip():
+            raise ValueError('Issue coverage requires an honest status and reason')
+    left = before['collections']['assessments']['current']['administration']
+    right = after['collections']['assessments']['current']['administration']
+    changed = any(left[key] != right[key] for key in ['headline', 'summary'])
+    if type(audit.get('summary_changed')) is not bool or audit['summary_changed'] != changed or not audit.get('summary_reason', '').strip():
+        raise ValueError('Summary audit must match the actual change and explain the interpretation')
+    events = {row['id'] for group in after['collections']['events'].values() for row in group['items']}
+    for key in ['major_developments', 'dated_assumptions', 'challenges']:
+        if not isinstance(audit.get(key), list):
+            raise ValueError(f'Assessment audit requires {key}')
+    for entry in audit['major_developments']:
+        if not entry.get('finding', '').strip() or not entry.get('reason', '').strip() or entry.get('disposition') not in {'reflected', 'held', 'background'}:
+            raise ValueError('Material developments need a disposition and reasoning')
+        if not set(entry.get('event_ids', [])) <= events or not entry.get('affected_assessments'):
+            raise ValueError('Development audit needs resolved evidence and assessment paths')
+    for entry in audit['dated_assumptions']:
+        date.fromisoformat(entry['date'])
+        if entry.get('status') not in {'verified', 'pending', 'unreviewed'} or not entry.get('assumption', '').strip() or not entry.get('reason', '').strip():
+            raise ValueError('Dated assumptions require verification status and reasoning')
+    if section == 'Weekly' and not audit['challenges']:
+        raise ValueError('Weekly assessment must challenge a competing interpretation')
+    for entry in audit['challenges']:
+        if not all(entry.get(key, '').strip() for key in ['alternative', 'finding', 'consequence']):
+            raise ValueError('Assessment challenges require findings and consequences')
