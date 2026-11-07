@@ -111,6 +111,13 @@ export function CandidateList({ compact = false }: { compact?: boolean }) {
                 >
                   View basis
                 </Button>
+                <Button
+                  size="small"
+                  component={RouterLink}
+                  to={`/nominees/${candidate.id}`}
+                >
+                  Full profile
+                </Button>
                 <Typography variant="caption" color="text.secondary">
                   {delta === 0
                     ? "Estimate held"
