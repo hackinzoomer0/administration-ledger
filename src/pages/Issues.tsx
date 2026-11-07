@@ -1,26 +1,31 @@
+import { Box, Button, Divider, Paper, Stack, Typography } from "@mui/material";
 import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
-  Button,
-  Divider,
-  Paper,
-  Stack,
-  Typography,
-} from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Link as RouterLink, useParams } from "react-router-dom";
-import { activeFactions, data } from "../lib/data";
+  Link as RouterLink,
+  useParams,
+  useSearchParams,
+} from "react-router-dom";
+import { data, factionNames } from "../lib/data";
 import { ContextNav } from "../components/ContextNav";
 import { Section } from "../components/Section";
 import { TopicPlayers } from "../components/TopicPlayers";
 import { FactionPosition } from "../components/FactionPosition";
-import { PowerList } from "../components/PowerList";
 import { ReadingBlock } from "../components/ReadingBlock";
+import { DetailNavigation } from "../components/DetailNavigation";
+import { useEvidence } from "../lib/evidence-context";
+const sections: [string, string][] = [
+  ["overview", "Overview"],
+  ["players", "Players & interests"],
+  ["factions", "Faction disputes"],
+  ["timeline", "Timeline & sources"],
+];
 export default function Issues() {
   const { id } = useParams();
+  const [params, setParams] = useSearchParams();
+  const open = useEvidence();
   const issue = data.issues.find((row) => row.code === id);
+  const section = sections.some(([key]) => key === params.get("section"))
+    ? params.get("section")!
+    : "overview";
   if (id && !issue)
     return (
       <Typography>
@@ -34,12 +39,9 @@ export default function Issues() {
     return (
       <Stack spacing={3}>
         <ContextNav area="administration" />
-        <Box>
-          <Typography variant="overline">Issue coverage</Typography>
-          <Typography variant="h3" component="h1">
-            Decisions across the administration
-          </Typography>
-        </Box>
+        <Typography variant="h3" component="h1">
+          Decisions across the administration
+        </Typography>
         <Paper variant="outlined" sx={{ p: 2.5 }}>
           <Stack spacing={2} divider={<Divider />}>
             {data.issues.map((row) => (
@@ -52,14 +54,7 @@ export default function Issues() {
                   {row.name}
                 </Button>
                 <Typography variant="body2" color="text.secondary">
-                  {row.decision}
-                </Typography>
-                <Typography variant="caption" color="text.secondary">
-                  {data.assessment.administration.contests.some(
-                    (contest) => contest.issue_id === row.code,
-                  )
-                    ? "Included in the current assessment"
-                    : "Policy, actors and factional disputes"}
+                  {data.issueAssessments[row.code].policy}
                 </Typography>
               </Box>
             ))}
@@ -68,73 +63,140 @@ export default function Issues() {
       </Stack>
     );
   const policy = data.issueAssessments[issue.code];
-  const contests = data.assessment.administration.contests.filter(
-    (row) => row.issue_id === issue.code,
-  );
+  const events = data.events
+    .filter(
+      (row) => row.issues.includes(issue.code) && row.kind !== "scheduled",
+    )
+    .sort((a, b) => b.date.localeCompare(a.date));
   return (
     <Stack spacing={3}>
       <ContextNav area="administration" />
       <Box>
-        <Typography variant="overline">Decision context</Typography>
+        <Button component={RouterLink} to="/issues" size="small" sx={{ px: 0 }}>
+          ← All issues
+        </Button>
         <Typography variant="h3" component="h1">
           {issue.name}
         </Typography>
-      </Box>
-      <Section title="Current policy and the contest over it">
-        <ReadingBlock
-          title="Policy in force / current approach"
-          text={policy.policy}
-        />
-        <ReadingBlock
-          title="Who is pushing it and where factions disagree"
-          text={policy.dispute}
-        />
         <Typography variant="caption" color="text.secondary">
-          Research through {policy.research_as_of}. {policy.scope}
+          Recorded assessment through {policy.research_as_of} · original dates
+          and evidence qualifications apply
         </Typography>
-        {contests.length > 0 && <PowerList contests={contests} />}
-        <Button component={RouterLink} to={`/ledger?issue=${issue.code}`}>
-          Inspect dated episodes
-        </Button>
-      </Section>
-      <TopicPlayers issue={issue.code} />
-      <Accordion disableGutters elevation={0} variant="outlined">
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          Original issue summary and open questions
-        </AccordionSummary>
-        <AccordionDetails>
-          <ReadingBlock
-            title="Original authority summary"
-            text={issue.heldBy}
-          />
-          <ReadingBlock
-            title="Recorded pending questions"
-            text={issue.pending}
-          />
-        </AccordionDetails>
-      </Accordion>
-      <Section title="Faction positions in the recorded research">
-        {activeFactions
-          .filter((faction) => faction.positions[issue.code])
-          .map((faction) => (
-            <Accordion
-              key={faction.id}
-              disableGutters
-              elevation={0}
-              variant="outlined"
+      </Box>
+      <DetailNavigation
+        label="Issue sections"
+        value={section}
+        onChange={(value) => setParams({ section: value })}
+        items={sections}
+      />
+      {section === "overview" && (
+        <>
+          <Section title="Current policy and the contest over it">
+            <ReadingBlock
+              title="Policy / current approach"
+              text={policy.policy}
+            />
+            <ReadingBlock title="The central dispute" text={policy.dispute} />
+            <Button
+              onClick={() => setParams({ section: "timeline" })}
+              sx={{ alignSelf: "start" }}
             >
-              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                {faction.name}
-              </AccordionSummary>
-              <AccordionDetails>
-                <FactionPosition issue={issue.code} faction={faction.id} />
-                <Button component={RouterLink} to={`/factions/${faction.id}`}>
-                  Faction profile
-                </Button>
-              </AccordionDetails>
-            </Accordion>
+              Read the dated record
+            </Button>
+          </Section>
+          <Section title="Who is pushing which direction">
+            <Stack spacing={2} divider={<Divider />}>
+              {policy.factions.map((stance) => (
+                <Box
+                  key={stance.faction_id}
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: { xs: "1fr", sm: "170px 1fr" },
+                    gap: { xs: 0.5, sm: 2 },
+                    alignItems: "baseline",
+                  }}
+                >
+                  <Button
+                    component={RouterLink}
+                    to={`/factions/${stance.faction_id}`}
+                    sx={{ px: 0, justifyContent: "start" }}
+                  >
+                    {factionNames[stance.faction_id]}
+                  </Button>
+                  <Typography variant="body2" sx={{ fontWeight: 600 }}>
+                    {stance.position}
+                  </Typography>
+                </Box>
+              ))}
+            </Stack>
+            <Button
+              onClick={() => setParams({ section: "players" })}
+              sx={{ alignSelf: "start" }}
+            >
+              Compare the players and financial interests
+            </Button>
+          </Section>
+        </>
+      )}
+      {section === "players" && (
+        <>
+          <TopicPlayers issue={issue.code} />
+          <Button
+            sx={{ alignSelf: "start" }}
+            onClick={() =>
+              open({
+                title: `${issue.name}: assessment basis`,
+                event_ids: policy.event_ids,
+              })
+            }
+          >
+            Inspect issue evidence
+          </Button>
+        </>
+      )}
+      {section === "factions" && (
+        <Stack spacing={2}>
+          {policy.factions.map((stance) => (
+            <Section
+              key={stance.faction_id}
+              title={factionNames[stance.faction_id]}
+            >
+              <FactionPosition issue={issue.code} faction={stance.faction_id} />
+            </Section>
           ))}
-      </Section>
+        </Stack>
+      )}
+      {section === "timeline" && (
+        <Section
+          title="Dated decisions and evidence"
+          description="The chronology is supporting evidence, not a claim that every older position is still current."
+        >
+          <Stack spacing={2} divider={<Divider />}>
+            {events.slice(0, 20).map((event) => (
+              <Box key={event.id}>
+                <Typography variant="caption" color="text.secondary">
+                  {event.date} · {event.tier}
+                </Typography>
+                <Typography variant="subtitle2">{event.text}</Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {event.actor}
+                </Typography>
+                <Button
+                  size="small"
+                  onClick={() =>
+                    open({ title: event.text, event_ids: [event.id] })
+                  }
+                >
+                  Read context & sources
+                </Button>
+              </Box>
+            ))}
+          </Stack>
+          <Button component={RouterLink} to={`/ledger?issue=${issue.code}`}>
+            Search the complete issue timeline
+          </Button>
+        </Section>
+      )}
     </Stack>
   );
 }

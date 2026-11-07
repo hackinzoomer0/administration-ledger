@@ -62,6 +62,18 @@ def validate(ledger):
             raise ValueError('Missing policy or factional dispute assessment')
         if not set(policy['player_ids']) <= people:
             raise ValueError('Unresolved issue player')
+        actors = policy.get('actors', [])
+        actor_ids = [actor['person_id'] for actor in actors]
+        if set(actor_ids) != set(policy['player_ids']) or len(actor_ids) != len(set(actor_ids)):
+            raise ValueError('Issue actors must cover the named players exactly once')
+        for actor in actors:
+            if actor['faction_id'] is not None and actor['faction_id'] not in c['factions']:
+                raise ValueError('Unresolved issue actor faction')
+            if not all(actor.get(key, '').strip() for key in ['role', 'position', 'goal', 'basis_note']):
+                raise ValueError('Issue actor needs issue-specific position, goal and basis')
+            for relation in actor['financial_relationships']:
+                if not all(relation.get(key, '').strip() for key in ['name', 'relationship', 'relevance']):
+                    raise ValueError('Financial relationships require recipient relationship and issue relevance')
         if not set(policy['event_ids']) <= events:
             raise ValueError('Unresolved policy evidence')
         for stance in policy['factions']:

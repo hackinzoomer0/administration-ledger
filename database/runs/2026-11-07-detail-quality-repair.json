@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-07",
+  "type": "ui_review",
+  "scope": "Repair of issue and nominee details using existing ledger research; no fresh political intake or forecast recalibration.",
+  "findings": [
+    "Issue players reused general biographical motives from unrelated issues and arbitrary merged donor matches, implying unsupported backing.",
+    "Long issue pages buried faction comparisons beneath generic actor biographies.",
+    "Nominee sections mismatched their labels: base was separated from backers and history/base/controversies used recursive field rendering.",
+    "Local tab state and horizontal mobile tabs made profile navigation harder to understand."
+  ],
+  "changes": [
+    "Issue overview leads with policy and compact faction comparisons; separate URL-addressable players, faction disputes and real evidence chronology.",
+    "Structured issue actors preserve individual versus faction positions, inferred incentives and scoped financial relationships; external actors and specific gaps remain visible.",
+    "Candidate profiles show nomination rationale, positions with evidence, strengths/weaknesses, base with backers, dated history, controversies and research limits using explicit components.",
+    "Mobile section selector exposes every detail section; sources open contextual evidence and original candidate JSON remains downloadable.",
+    "Daily/weekly role and integrity validation maintain scoped actor coverage and financial relevance."
+  ],
+  "validation": {
+    "automated": "Lint, 5 TypeScript unit tests, 25 Python tests, TypeScript/Vite production build, database validation and 11 browser tests.",
+    "browser": "All ten issues and five candidate base/history/source views; AI unrelated-biography/donor regression; mobile 320px sections and overflow; desktop/mobile screenshot inspection."
+  },
+  "candidate_roster_changes": [],
+  "forecast_changes": [],
+  "limitations": [
+    "Existing recorded research is reorganized and qualified; this UI repair does not constitute fresh external verification.",
+    "Structural validation catches missing fields and broken references, not analytical truth."
+  ]
+}

@@ -233,6 +233,19 @@ export interface CurrentAssessment {
 }
 
 export interface IssueAssessment {
+  actors: {
+    person_id: string;
+    role: string;
+    faction_id: string | null;
+    position: string;
+    goal: string;
+    financial_relationships: {
+      name: string;
+      relationship: string;
+      relevance: string;
+    }[];
+    basis_note: string;
+  }[];
   policy: string;
   dispute: string;
   player_ids: string[];

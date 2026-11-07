@@ -1,30 +1,28 @@
-import { Box, Button, Stack, Typography } from "@mui/material";
+import { Box, Button, Divider, Stack, Typography } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import { data } from "../lib/data";
+import { data, factionNames } from "../lib/data";
 import { Section } from "./Section";
-import { EntityChips } from "./EntityChips";
 import { ReadingBlock } from "./ReadingBlock";
 export function TopicPlayers({ issue }: { issue: string }) {
-  const read = data.issueAssessments[issue];
+  const actors = data.issueAssessments[issue].actors;
   return (
     <Section
       title="Major players, goals and financial relationships"
-      description="Faction homes and recorded interests are analytical placements. A donor relationship does not establish control of a policy decision."
+      description="Issue-specific positions from existing research; goals are assessed incentives. Historical dates apply. Financial exposure is distinct from donations and does not prove influence."
     >
-      <Stack spacing={3}>
-        {read.player_ids
-          .map((id) => data.people.find((person) => person.id === id))
-          .filter((person) => !!person)
-          .map((person) => {
-            const donors = data.donors.filter(
-              (donor) =>
-                donor.people.includes(person.id) ||
-                ((person.donors as string[] | undefined) ?? []).includes(
-                  donor.id,
-                ),
-            );
-            return (
-              <Box key={person.id}>
+      <Stack divider={<Divider />} spacing={3}>
+        {actors.map((actor) => {
+          const person = data.people.find((row) => row.id === actor.person_id)!;
+          return (
+            <Box key={actor.person_id}>
+              <Stack
+                direction="row"
+                sx={{
+                  justifyContent: "space-between",
+                  gap: 2,
+                  flexWrap: "wrap",
+                }}
+              >
                 <Button
                   component={RouterLink}
                   to={`/people/${person.id}`}
@@ -32,45 +30,77 @@ export function TopicPlayers({ issue }: { issue: string }) {
                 >
                   {person.name}
                 </Button>
-                <Typography variant="body2" color="text.secondary">
-                  {person.role}
+                <Typography variant="caption" color="text.secondary">
+                  {actor.faction_id
+                    ? factionNames[actor.faction_id]
+                    : "External actor · no administration faction"}
                 </Typography>
-                <EntityChips factions={person.home ? [person.home] : []} />
-                {!person.home && (
-                  <Typography variant="caption" color="text.secondary">
-                    External actor · no administration faction assignment
-                  </Typography>
-                )}
-                <ReadingBlock
-                  title="Goals and incentives"
-                  text={person.drive || person.read}
-                />
-                <Typography variant="subtitle2" sx={{ mt: 1 }}>
-                  Recorded backers and financial channels
+              </Stack>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{ mb: 1.5 }}
+              >
+                {actor.role}
+              </Typography>
+              {actor.basis_note.startsWith("Role-based") && (
+                <Typography
+                  variant="caption"
+                  color="text.secondary"
+                  sx={{ display: "block", mb: 1.5 }}
+                >
+                  {actor.basis_note}
                 </Typography>
-                {donors.length ? (
-                  donors.slice(0, 4).map((donor) => (
-                    <Box key={donor.id}>
-                      <Button
-                        component={RouterLink}
-                        to={`/donors/${donor.id}`}
-                        size="small"
-                      >
-                        {donor.name}
-                      </Button>
-                      <Typography variant="caption" color="text.secondary">
-                        {donor.amounts[0] || donor.identity}
-                      </Typography>
-                    </Box>
-                  ))
-                ) : (
-                  <Typography variant="body2">
-                    No resolved financial backer is established in this record.
+              )}
+              <Box
+                sx={{
+                  display: "grid",
+                  gridTemplateColumns: {
+                    xs: "1fr",
+                    md: "minmax(0, 1.4fr) minmax(0, 1fr)",
+                  },
+                  gap: 3,
+                }}
+              >
+                <Stack spacing={1.5}>
+                  <ReadingBlock
+                    title="Position and decision channel"
+                    text={actor.position}
+                  />
+                  <ReadingBlock
+                    title="Issue-specific goal / assessed incentive"
+                    text={actor.goal}
+                  />
+                </Stack>
+                <Box>
+                  <Typography variant="subtitle2">
+                    Relevant financial relationships
                   </Typography>
-                )}
+                  {actor.financial_relationships.length ? (
+                    actor.financial_relationships.map((row, index) => (
+                      <Box key={index} sx={{ mt: 1 }}>
+                        <Typography variant="body2" sx={{ fontWeight: 600 }}>
+                          {row.name}
+                        </Typography>
+                        <Typography variant="body2">
+                          {row.relationship}
+                        </Typography>
+                        <Typography variant="caption" color="text.secondary">
+                          {row.relevance}
+                        </Typography>
+                      </Box>
+                    ))
+                  ) : (
+                    <Typography variant="body2" color="text.secondary">
+                      No issue-specific financial relationship established here.
+                      General connections remain in the person’s full profile.
+                    </Typography>
+                  )}
+                </Box>
               </Box>
-            );
-          })}
+            </Box>
+          );
+        })}
       </Stack>
     </Section>
   );

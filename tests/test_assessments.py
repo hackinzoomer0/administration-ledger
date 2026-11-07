@@ -71,3 +71,13 @@ class AssessmentIntegrity(unittest.TestCase):
             'consequence': 'Retain the assessment and its stated uncertainty.'
         }]
         validate_review(self.before, self.after, 'Weekly')
+
+    def test_missing_issue_actor_is_rejected(self):
+        self.after['collections']['assessments']['issues']['AI']['actors'].pop()
+        with self.assertRaisesRegex(ValueError, 'named players'):
+            validate(self.after)
+
+    def test_financial_connection_without_relevance_is_rejected(self):
+        self.after['collections']['assessments']['issues']['AI']['actors'][0]['financial_relationships'][0]['relevance'] = ''
+        with self.assertRaisesRegex(ValueError, 'issue relevance'):
+            validate(self.after)

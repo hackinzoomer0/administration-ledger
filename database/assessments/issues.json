@@ -118,7 +118,92 @@
       "ai-2026-11-02-cyber-info-sharing"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "lutnick",
+        "role": "Commerce Secretary",
+        "faction_id": "deal-capital",
+        "position": "Commerce provides an export-policy channel; the recorded H200 sales and reversal of Mythos restrictions show its use.",
+        "goal": "Commercial chip exports and Gulf investment access.",
+        "financial_relationships": [
+          {
+            "name": "Cantor Fitzgerald",
+            "relationship": "Held $310M of Nvidia",
+            "relevance": "Chip policy that lifts the family firm."
+          },
+          {
+            "name": "Newmark",
+            "relationship": "$25B+ in data-center deals; to buy Lutnick out for $127M",
+            "relevance": "Data-center promotion that could enrich his family; Commerce IG asked to look."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "witkoff",
+        "role": "Special envoy",
+        "faction_id": "deal-capital",
+        "position": "Backs Gulf chip-export access through the diplomatic and commercial channel; the White House denies a link between chip policy and the UAE-backed World Liberty investment.",
+        "goal": "Preserve access through Gulf commercial and diplomatic relationships.",
+        "financial_relationships": [
+          {
+            "name": "Aryam (Sheikh Tahnoon)",
+            "relationship": "$500M for 49% of World Liberty; $187M to Trump entities, at least $31M to Witkoff-linked ones",
+            "relevance": "Also in the Lukoil bid group. The UAE gains access to the people who set chip exports and Russia sanctions (my reading)."
+          },
+          {
+            "name": "MGX (Abu Dhabi)",
+            "relationship": "$2B Binance deal settled in World Liberty's USD1 (May 2025)",
+            "relevance": "Use of the family stablecoin by a Tahnoon-chaired fund; no decision tied to it."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "bessent",
+        "role": "Treasury Secretary",
+        "faction_id": "treasury",
+        "position": "Convened bank CEOs on Mythos Apr 7; leads the Treasury cyber clearinghouse; with Vice Premier He Lifeng proposed a US-China AI incident notification mechanism Sept 20 (reported)",
+        "goal": "Frames AI as a financial-stability risk he controls.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice President",
+        "faction_id": "vance",
+        "position": "Sept 14: labs asking for regulation look like a \"Trojan horse\"; Feb 2025 Paris speech against overregulation; no chip or preemption position found",
+        "goal": "Anti-Big-Tech words aimed at incumbents, a no-rules AI line that suits his venture patrons.",
+        "financial_relationships": [
+          {
+            "name": "Thiel",
+            "relationship": "$15M in 2022, plus $200K+ via Per Aspera",
+            "relevance": "Historical political backing; Thiel’s technology investments provide a potential policy interest, not proof of direction on AI rules."
+          },
+          {
+            "name": "1789 Capital (Malik, Buskirk, Rebekah Mercer)",
+            "relationship": "Hosted $5M+ (Aug 19, Malik's home); led $15M seed in Carlson's network (Oct 2023)",
+            "relevance": "Holds Anduril, Cerebras, PsiQuantum, Polymarket; Don Jr. a partner since Nov 2025. Carlson bought out its stake (Jun 2025), so his tie is social, not money."
+          },
+          {
+            "name": "Sacks, Andreessen",
+            "relationship": "Backed his 2022 run; Rockbridge members",
+            "relevance": "Want light AI rules and open skilled visas; get a friendly White House voice."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "elizabeth-warren",
+        "role": "Senate Banking ranking Democrat",
+        "faction_id": null,
+        "position": "Requested investigation of data-center promotion and family financial exposure; this is an oversight challenge, not administration policy.",
+        "goal": "Scrutinize possible conflicts between chip-export policy and private financial interests.",
+        "financial_relationships": [],
+        "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
+      }
+    ]
   },
   "EPS": {
     "policy": "DOJ has released part of the Epstein record and says its statutory duty is met; further disclosure remains contested.",
@@ -215,7 +300,45 @@
       "eps-2026-10-26-judiciary-dems-report"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "blanche",
+        "role": "Attorney General (acting Apr 2–Aug 8, 2026; deputy before)",
+        "faction_id": "maximalists",
+        "position": "DOJ complied (Jan 30, 2026); files \"should not be a part of anything going forward\" (Apr 2); would not recommend Maxwell clemency (May 19)",
+        "goal": "Control of the release shields Trump and himself.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "Promised release (2024), called it a hoax (Jul 2025), signed the act (Nov 19, 2025), now says move on; has not ruled out Maxwell clemency; WSJ suit dismissed (Oct 31), appeal likely",
+        "goal": "Burying it.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "jamie-raskin",
+        "role": "Representative (D-Maryland)",
+        "faction_id": null,
+        "position": "Named as an oversight actor in the issue assessment; a more specific individual policy position has not been established in this record.",
+        "goal": "Use congressional oversight to test disclosure and accountability.",
+        "financial_relationships": [],
+        "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
+      },
+      {
+        "person_id": "richard-blumenthal",
+        "role": "Senators",
+        "faction_id": null,
+        "position": "Seek an inspector general audit (Dec 24, 2025–Jan 6, 2026); question Wiles's access to the file (Dec 2025)",
+        "goal": "The recorded actions establish a role; an individual motive has not been independently established.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "FED": {
     "policy": "The FOMC retains rate-setting authority. The administration’s attempt to remove Cook remains subject to court and hearing procedures.",
@@ -290,7 +413,76 @@
       "fed-2026-11-02-shotwell-trump-accounts"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "lisa-cook",
+        "role": "Governor to 2038",
+        "faction_id": null,
+        "position": "Denies the allegations",
+        "goal": "The recorded actions establish a role; an individual motive has not been independently established.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "warsh",
+        "role": "Fed Chair",
+        "faction_id": "treasury",
+        "position": "Inflation first in votes; smaller balance sheet; a new Treasury-Fed accord",
+        "goal": "Independence is his currency; Tillis's threat limits how loudly he can side with Trump.",
+        "financial_relationships": [
+          {
+            "name": "Duquesne Family Office (Druckenmiller)",
+            "relationship": "$10.2M in fees to Warsh",
+            "relevance": "Warsh's income and market standing, which give him credibility with the investors who check Trump on the Fed."
+          },
+          {
+            "name": "Undisclosed buyers of Warsh's assets",
+            "relationship": "Over $100M sold days before May 22",
+            "relevance": "Nothing shown. The buyers matter only if they gained from a Fed decision."
+          },
+          {
+            "name": "Jane Lauder",
+            "relationship": "Family wealth about $1.9B (Forbes)",
+            "relevance": "Wealth, not political money: a household whose fortune rides on markets the chair steers."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "bessent",
+        "role": "Treasury Secretary",
+        "faction_id": "treasury",
+        "position": "Energy shock, flat core; backs Warsh",
+        "goal": "A new accord gives Treasury authority.",
+        "financial_relationships": [
+          {
+            "name": "Soros Fund Management (former employer)",
+            "relationship": "Seeded Key Square with $2B (Fortune)",
+            "relevance": "Background, not a current payment: the market world whose trust is Bessent's capital."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "Rates \"1%, or less\"; the Board is hostile",
+        "goal": "Rates 'one percent, or less.'",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "elizabeth-warren",
+        "role": "Senate Banking ranking Democrat",
+        "faction_id": null,
+        "position": "\"Kangaroo court\"; Warsh's buyers",
+        "goal": "The recorded actions establish a role; an individual motive has not been independently established.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "IMM": {
     "policy": "The administration continues high-volume enforcement and restrictive visa/labor measures, with particular practices constrained by court orders.",
@@ -366,7 +558,56 @@
       "imm-2026-10-31-north-hollywood-video"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "miller",
+        "role": "Deputy chief of staff and homeland security adviser",
+        "faction_id": "maximalists",
+        "position": "Fewer admissions at every level; 3,000 arrests a day",
+        "goal": "Life's project; every win extends his reach.",
+        "financial_relationships": [
+          {
+            "name": "Bradley Impact Fund",
+            "relationship": "$27.1M in 2022 (61% of AFL's receipts that year)",
+            "relevance": "A funded legal and staffing arm outside government that drafts and defends enforcement orders (documented grant; purpose my reading)."
+          },
+          {
+            "name": "DonorsTrust",
+            "relationship": "About $21.3M in 2024, up from $3.2M in 2023",
+            "relevance": "Undisclosed donors fund Miller's legal arm without being named; the same conduit funds groups on the other side of the visa fight (NOTUS)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "wiles",
+        "role": "Chief of staff",
+        "faction_id": "operation",
+        "position": "Lower the profile of deportations before the midterms",
+        "goal": "Lower the deportation profile before Nov 3 to protect seats.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice president",
+        "faction_id": "vance",
+        "position": "End H-1B; PERM bans; says his rhetoric was aimed at employers (Oct 17)",
+        "goal": "Restriction is his program; the acts land on incumbents like Microsoft, not on his patrons' firms.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "The president holds executive decision authority; the recorded dispute concerns restriction, enforcement and employer access to visas.",
+        "goal": "Control the administration’s immigration agenda.",
+        "financial_relationships": [],
+        "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
+      }
+    ]
   },
   "IRN": {
     "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive.",
@@ -494,7 +735,137 @@
       "irn-2026-11-03-qeshm-strikes"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "Ordered the Feb 28 strikes; Mar 23 delayed power-plant strikes; Oct 8 pledged no attack before Nov 3; Oct 23: \"another little Epic Fury\" (Reuters); Nov 2: tells Netanyahu he prefers letting talks play out (Axios); says the war ends by a deal or 'the hammer'; Nov 3: 'defensive' strikes on Iranian missile sites, kept unannounced",
+        "goal": "Delays to protect the midterms.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice President",
+        "faction_id": "vance",
+        "position": "His post-election war critique distinguishes him from hawkish rivals; prior public defenses retain exposure.",
+        "goal": "End the conflict through negotiations while preserving a viable succession coalition.",
+        "financial_relationships": [
+          {
+            "name": "Thiel",
+            "relationship": "$15M in 2022, plus $200K+ via Per Aspera",
+            "relevance": "Made Vance and still backs him (Sep 2026). Chairs Palantir (about 3%), whose government sales rose as Maven use doubled. Called the war a mistake (Oct): a strategy call, not anti-war (my reading)."
+          },
+          {
+            "name": "1789 Capital (Malik, Buskirk, Rebekah Mercer)",
+            "relationship": "Hosted $5M+ (Aug 19, Malik's home); led $15M seed in Carlson's network (Oct 2023)",
+            "relevance": "Holds Anduril, Cerebras, PsiQuantum, Polymarket; Don Jr. a partner since Nov 2025. Carlson bought out its stake (Jun 2025), so his tie is social, not money."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "rubio",
+        "role": "Secretary of State",
+        "faction_id": "hawks",
+        "position": "Jun 15 doubted Iran would concede; Jul 23: Iran will keep paying for broken agreements; briefed Congress to sell the June deal (carried)",
+        "goal": "Skeptical of a deal but sells whatever Trump decides.",
+        "financial_relationships": [
+          {
+            "name": "Paul Singer",
+            "relationship": "$3M to MAGA KY and America 21; $2.5M to UDP, its largest individual gift; Elliott was Rubio's #2 source 2009-14",
+            "relevance": "Discipline of Israel critics (Massie). Elliott also has creditor stakes (Citgo bid via Amber Energy)."
+          },
+          {
+            "name": "Republican Jewish Coalition",
+            "relationship": "$3.9M via its Victory Fund against Massie",
+            "relevance": "The access wing: urged trust in Trump's June deal (Jun 18) while funding the Massie purge."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "hegseth",
+        "role": "Secretary of War (Defense)",
+        "faction_id": "pentagon",
+        "position": "Jun 15 reservations on the deal; Sep 11 \"finish this fight\"; Oct 17 threat; Oct 19 Ovda",
+        "goal": "Pushes force; the war grows his standing.",
+        "financial_relationships": [
+          {
+            "name": "Palantir",
+            "relationship": "Maven ceiling $1.3B; Army deal up to $10B; Q1 US government revenue $687M (+84%); lobbying $9.04M (2025)",
+            "relevance": "Maven became a program of record (Mar 9): long-term funding locked in during the war."
+          },
+          {
+            "name": "Anduril Industries",
+            "relationship": "Army enterprise ceiling up to $20B (Mar); US 40% stake in its shipyard owner (Oct 7)",
+            "relevance": "Calls itself a 'heavy participant' against Iran's drones (company claim); state equity plus contracts."
+          },
+          {
+            "name": "Lockheed Martin",
+            "relationship": "$35B THAAD contract (June); backlog $230.4B",
+            "relevance": "Interceptor restocking pays whether or not the big strike comes (my reading)."
+          },
+          {
+            "name": "RTX",
+            "relationship": "Backlog $289B; Raytheon sales +18% (Q2)",
+            "relevance": "Patriot and Standard missile demand from the war and Europe."
+          },
+          {
+            "name": "American Ventures (Trump sons' drone makers)",
+            "relationship": "Unusual Machines shares rose 27-39% on a WSJ report",
+            "relevance": "The president's family sells to the department; Warren says Hegseth has not described conflict protections."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "witkoff",
+        "role": "Special envoy",
+        "faction_id": "deal-capital",
+        "position": "Lead negotiator; favored the June deal; Jun 30 in Doha",
+        "goal": "Fed the strike case before Feb 28, then the deal track once the war hit Gulf counterparties.",
+        "financial_relationships": [
+          {
+            "name": "Qatar Investment Authority",
+            "relationship": "Bought Witkoff's Park Lane Hotel for $623M (2023); Affinity investor",
+            "relevance": "Doha mediates the Iran track while its fund is a past counterparty of both envoys (my reading)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "kushner",
+        "role": "Informal envoy; owns Affinity Partners",
+        "faction_id": "deal-capital",
+        "position": "Geneva talks two days before Feb 28; Trump credits him for the strike case (Mar 9); later Islamabad and Doha",
+        "goal": "Fed the strike decision with Israeli ties pulling, then sought a deal once Saudi patrons were under fire.",
+        "financial_relationships": [
+          {
+            "name": "Saudi Public Investment Fund",
+            "relationship": "$2B into Affinity (about $25M a year in fees); $5B more sought",
+            "relevance": "A channel to the president's son-in-law; Affinity joined its $55B Electronic Arts buyout."
+          },
+          {
+            "name": "Qatar Investment Authority",
+            "relationship": "Bought Witkoff's Park Lane Hotel for $623M (2023); Affinity investor",
+            "relevance": "Doha mediates the Iran track while its fund is a past counterparty of both envoys (my reading)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "ro-khanna",
+        "role": "Representative (D-California)",
+        "faction_id": null,
+        "position": "Nov 1: would cut funding for further US military action in Iran (The Hill)",
+        "goal": "The recorded actions establish a role; an individual motive has not been independently established.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "MID": {
     "policy": "AP projects Democratic control of both chambers in the next Congress. Current officeholders retain authority until the January transition.",
@@ -605,7 +976,113 @@
       "mid-2026-11-05-blumenthal-preservation-notices"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "Personnel replacement can redistribute blame without demonstrating a change of course.",
+        "goal": "Preserve agenda control after the electoral defeat.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "wiles",
+        "role": "White House chief of staff",
+        "faction_id": "operation",
+        "position": "Her announced replacement changes White House gatekeeping; the November 9 handover remains prospective.",
+        "goal": "Retain political influence through the reported move to the political operation.",
+        "financial_relationships": [
+          {
+            "name": "Republika Srpska, through a law firm",
+            "relationship": "Hundreds of thousands each to Blair and LaCivita; Continental takes $35,000 a month",
+            "relevance": "A foreign client buys proximity to Trump, and the operators are paid on the side while running his PAC. Wiles’s daughter’s firm is paid $35,000 a month by Srpska, which exposes the chief of staff’s family (reported)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "miller",
+        "role": "Deputy chief of staff",
+        "faction_id": "maximalists",
+        "position": "The promotion provides a prospective channel, not proof of changed policy.",
+        "goal": "Broaden agenda and staffing control through the announced chief-of-staff role.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice president; RNC finance chair",
+        "faction_id": "vance",
+        "position": "End the war; \"we hear you\" on costs; centrist tone",
+        "goal": "Centrist 'we hear you' tone to protect his brand.",
+        "financial_relationships": [
+          {
+            "name": "Rockbridge Network",
+            "relationship": "Convened 2019 by Thiel and Vance; Turnout for America plans $50M (Sep 2026)",
+            "relevance": "Donor club for the post-Trump movement; Andreessen and Sacks are members. A Vance nomination is its plan paying off."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "rubio",
+        "role": "Secretary of State",
+        "faction_id": "hawks",
+        "position": "Skeptical of an Iran deal (Jun); says he defers to Vance on 2028",
+        "goal": "Documented FEC data (WKMS, Jul 17; Al Jazeera). The message is to members (my reading).",
+        "financial_relationships": [
+          {
+            "name": "Paul Singer",
+            "relationship": "$3M to MAGA KY and America 21; $2.5M to UDP, its largest individual gift; Elliott was Rubio's #2 source 2009-14",
+            "relevance": "Discipline of Israel critics (Massie). Elliott also has creditor stakes (Citgo bid via Amber Energy)."
+          },
+          {
+            "name": "Republican Jewish Coalition",
+            "relationship": "$3.9M via its Victory Fund against Massie",
+            "relevance": "The access wing: urged trust in Trump's June deal (Jun 18) while funding the Massie purge."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "hegseth",
+        "role": "War secretary",
+        "faction_id": "pentagon",
+        "position": "Visited Netanyahu Oct 19; no stated view on timing",
+        "goal": "The recorded actions establish a role; an individual motive has not been independently established.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "jamie-raskin",
+        "role": "Representative (D-Maryland)",
+        "faction_id": null,
+        "position": "An external congressional actor in the post-election oversight contest; committee power depends on chamber control and assignments.",
+        "goal": "Exercise congressional oversight of administration conduct.",
+        "financial_relationships": [],
+        "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
+      },
+      {
+        "person_id": "richard-blumenthal",
+        "role": "Senator (D-Connecticut)",
+        "faction_id": null,
+        "position": "An external congressional actor in the post-election oversight contest; committee power depends on chamber control and assignments.",
+        "goal": "Exercise congressional oversight of administration conduct.",
+        "financial_relationships": [],
+        "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
+      },
+      {
+        "person_id": "chuck-schumer",
+        "role": "Senate Democratic leader",
+        "faction_id": null,
+        "position": "Called Stevens's Rogers endorsement 'a despicable betrayal' (Nov 1)",
+        "goal": "The recorded actions establish a role; an individual motive has not been independently established.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "RUS": {
     "policy": "Negotiations and selective sanctions relief remain central to the Russia approach, with pressure on Kyiv and disputes over enforcement and military support.",
@@ -702,7 +1179,96 @@
       "rus-2026-11-02-azov-resorts"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "witkoff",
+        "role": "Special envoy since July 2025 (active)",
+        "faction_id": "deal-capital",
+        "position": "Settle with Moscow through business incentives; calls Putin a humanitarian",
+        "goal": "Business incentives for Moscow.",
+        "financial_relationships": [
+          {
+            "name": "Aryam (Sheikh Tahnoon)",
+            "relationship": "$500M for 49% of World Liberty; $187M to Trump entities, at least $31M to Witkoff-linked ones",
+            "relevance": "Also in the Lukoil bid group. The UAE gains access to the people who set chip exports and Russia sanctions (my reading)."
+          },
+          {
+            "name": "Qatar Investment Authority",
+            "relationship": "Bought Witkoff's Park Lane Hotel for $623M (2023); Affinity investor",
+            "relevance": "Doha mediates the Iran track while its fund is a past counterparty of both envoys (my reading)."
+          },
+          {
+            "name": "Todd Boehly",
+            "relationship": "Leads the Lukoil bid",
+            "relevance": "Gains if a Russia deal unfreezes Lukoil's foreign assets; Aryam is in the group."
+          },
+          {
+            "name": "Vitol",
+            "relationship": "In the Lukoil bid group; bought the first US-brokered Venezuelan cargo",
+            "relevance": "Gains from both openings the envoys negotiate (my reading)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "kushner",
+        "role": "Special envoy since Feb 19, 2026; runs Affinity Partners (active; sued by CREW)",
+        "faction_id": "deal-capital",
+        "position": "Same channel; proposed asset unfreezing with Witkoff",
+        "goal": "Pressed Kyiv to halt refinery strikes and proposed asset unfreezing with Witkoff, both serving the envoys' Russia deal.",
+        "financial_relationships": [
+          {
+            "name": "Saudi Public Investment Fund",
+            "relationship": "$2B into Affinity (about $25M a year in fees); $5B more sought",
+            "relevance": "A channel to the president's son-in-law; Affinity joined its $55B Electronic Arts buyout."
+          },
+          {
+            "name": "Qatar Investment Authority",
+            "relationship": "Bought Witkoff's Park Lane Hotel for $623M (2023); Affinity investor",
+            "relevance": "Doha mediates the Iran track while its fund is a past counterparty of both envoys (my reading)."
+          },
+          {
+            "name": "Todd Boehly",
+            "relationship": "Leads the Lukoil bid",
+            "relevance": "Gains if a Russia deal unfreezes Lukoil's foreign assets; Aryam is in the group."
+          },
+          {
+            "name": "Vitol",
+            "relationship": "In the Lukoil bid group; bought the first US-brokered Venezuelan cargo",
+            "relevance": "Gains from both openings the envoys negotiate (my reading)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice president (active)",
+        "faction_id": "vance",
+        "position": "Proud of ending aid (Apr 14); defends Witkoff (Oct 21)",
+        "goal": "Takes credit for ending aid and defends Witkoff: base positioning at no cost.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "rubio",
+        "role": "Secretary of state (active)",
+        "faction_id": "hawks",
+        "position": "Denies pressure; says Starshield is a military purchase; will seek to unblock",
+        "goal": "Executes Trump's line.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "bessent",
+        "role": "Treasury secretary (active)",
+        "faction_id": "treasury",
+        "position": "Sanctioned Lukoil in Oct 2025; later eased diesel at the president's direction",
+        "goal": "Bends to the president's direction.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "SUC": {
     "policy": "No Republican nominee has been selected. Vance has the strongest recorded organization; Trump’s endorsement and candidate entry remain open.",
@@ -778,7 +1344,82 @@
       "suc-2026-10-21-vance-ohio-rally"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "Keeps the nominee open; privately for Vance (Jul 2026)",
+        "goal": "Keeps everyone dependent.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice president; RNC finance chair",
+        "faction_id": "vance",
+        "position": "Undeclared; decides after the Nov 3 midterms",
+        "goal": "Wants to be the heir who carries the program; the nomination is also his patrons' path to the next White House, and Trump holds the key.",
+        "financial_relationships": [
+          {
+            "name": "Thiel",
+            "relationship": "$15M in 2022, plus $200K+ via Per Aspera",
+            "relevance": "Made Vance and still backs him (Sep 2026). Chairs Palantir (about 3%), whose government sales rose as Maven use doubled. Called the war a mistake (Oct): a strategy call, not anti-war (my reading)."
+          },
+          {
+            "name": "Rockbridge Network",
+            "relationship": "Convened 2019 by Thiel and Vance; Turnout for America plans $50M (Sep 2026)",
+            "relevance": "Donor club for the post-Trump movement; Andreessen and Sacks are members. A Vance nomination is its plan paying off."
+          },
+          {
+            "name": "1789 Capital (Malik, Buskirk, Rebekah Mercer)",
+            "relationship": "Hosted $5M+ (Aug 19, Malik's home); led $15M seed in Carlson's network (Oct 2023)",
+            "relevance": "Holds Anduril, Cerebras, PsiQuantum, Polymarket; Don Jr. a partner since Nov 2025. Carlson bought out its stake (Jun 2025), so his tie is social, not money."
+          },
+          {
+            "name": "RNC and Hamptons donors",
+            "relationship": "$5M+ at the Aug 19 event",
+            "relevance": "As RNC finance chair, Vance holds the 2028 donor list while Trump controls the donors' reason to give (my reading)."
+          },
+          {
+            "name": "Trump's joint committee",
+            "relationship": "5% to Vance's PAC",
+            "relevance": "A visible sign of Trump's blessing, and a reminder that it is Trump's to give."
+          },
+          {
+            "name": "Sacks, Andreessen",
+            "relationship": "Backed his 2022 run; Rockbridge members",
+            "relevance": "Want light AI rules and open skilled visas; get a friendly White House voice."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "rubio",
+        "role": "Secretary of state and interim national security adviser",
+        "faction_id": "hawks",
+        "position": "Would step aside for Vance; acts build his own base",
+        "goal": "Defers in words, builds in deeds.",
+        "financial_relationships": [
+          {
+            "name": "Ken Griffin",
+            "relationship": "Predisposed to Rubio",
+            "relevance": "A Wall Street patron for Rubio that is not Vance's."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "don-jr",
+        "role": "Trump's eldest son; partner at 1789 Capital",
+        "faction_id": "vance",
+        "position": "Pushed Vance for vice president; says he has \"zero interest\" in running (May 2025)",
+        "goal": "Backs Vance because a Vance presidency keeps the family's access.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "TAR": {
     "policy": "The tariff regime continues through instrument-specific authorities, exemptions and litigation, including Section 301 and 232 measures.",
@@ -868,7 +1509,57 @@
       "tar-2026-11-02-automakers-china-ban"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "bessent",
+        "role": "Treasury Secretary",
+        "faction_id": "treasury",
+        "position": "Tariffs permanent; China truce",
+        "goal": "Tariffs as a managed deal, not a shock.",
+        "financial_relationships": [
+          {
+            "name": "Soros Fund Management (former employer)",
+            "relationship": "Seeded Key Square with $2B (Fortune)",
+            "relevance": "Background, not a current payment: the market world whose trust is Bessent's capital."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "lutnick",
+        "role": "Commerce Secretary",
+        "faction_id": "deal-capital",
+        "position": "Hold metal and auto duties; chairs the Japan fund committee",
+        "goal": "Defends metal and auto duties; chairs the Japan fund committee.",
+        "financial_relationships": [
+          {
+            "name": "Cantor Fitzgerald",
+            "relationship": "Held $310M of Nvidia",
+            "relevance": "Chip policy that lifts the family firm."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "vance",
+        "role": "Vice president, RNC finance chair",
+        "faction_id": "vance",
+        "position": "Named in the issue assessment; a distinct personal tariff policy is not established in the recorded person profile.",
+        "goal": "Maintain the succession coalition while defending administration policy.",
+        "financial_relationships": [],
+        "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
+      },
+      {
+        "person_id": "donald-trump",
+        "role": "President",
+        "faction_id": null,
+        "position": "Tariffs as leverage; relief where politics demand it",
+        "goal": "Leverage.",
+        "financial_relationships": [],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   },
   "VEN": {
     "policy": "The administration prioritizes an oil opening and a managed political timetable under Rodríguez; elections and opposition access remain unresolved.",
@@ -969,6 +1660,83 @@
       "ven-2026-10-28-boat-strike"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence."
+    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence.",
+    "actors": [
+      {
+        "person_id": "rubio",
+        "role": "Secretary of State, acting national security adviser",
+        "faction_id": "hawks",
+        "position": "Remove Maduro, then sequence the transition; courteous to Machado",
+        "goal": "The regime-change file is his home turf and his electoral base.",
+        "financial_relationships": [
+          {
+            "name": "Paul Singer",
+            "relationship": "$3M to MAGA KY and America 21; $2.5M to UDP, its largest individual gift; Elliott was Rubio's #2 source 2009-14",
+            "relevance": "Discipline of Israel critics (Massie). Elliott also has creditor stakes (Citgo bid via Amber Energy)."
+          },
+          {
+            "name": "Norman Braman",
+            "relationship": "$5-6M to Rubio's 2016 super PAC (old)",
+            "relevance": "Rubio's former employer and longtime patron; funded a West Bank settlement group (Type Investigations, 2015)."
+          },
+          {
+            "name": "Florida Venezuelan and Cuban vote",
+            "relationship": "Votes, not money",
+            "relevance": "Rubio and the delegation answer to exile voters."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "witkoff",
+        "role": "Special envoy",
+        "faction_id": "deal-capital",
+        "position": "Recorded faction stance: Oil flowing first",
+        "goal": "Oil access: the Caracas Pragmatists want oil flowing before an election.",
+        "financial_relationships": [
+          {
+            "name": "Vitol",
+            "relationship": "In the Lukoil bid group; bought the first US-brokered Venezuelan cargo",
+            "relevance": "Gains from both openings the envoys negotiate (my reading)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "kushner",
+        "role": "Informal envoy; Affinity head",
+        "faction_id": "deal-capital",
+        "position": "Recorded faction stance: Oil flowing first",
+        "goal": "Oil access: the Caracas Pragmatists want oil flowing before an election.",
+        "financial_relationships": [
+          {
+            "name": "Vitol",
+            "relationship": "In the Lukoil bid group; bought the first US-brokered Venezuelan cargo",
+            "relevance": "Gains from both openings the envoys negotiate (my reading)."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      },
+      {
+        "person_id": "hegseth",
+        "role": "Secretary of Defense",
+        "faction_id": "pentagon",
+        "position": "Strikes, metrics, \"American companies in there\"",
+        "goal": "Backs strikes and an opening for American companies.",
+        "financial_relationships": [
+          {
+            "name": "NABEP",
+            "relationship": "Pentagon capital office took 35% (Aug 28)",
+            "relevance": "A Pentagon revenue stream and its own say in the oil deal."
+          },
+          {
+            "name": "American Ventures (Trump sons' drone makers)",
+            "relationship": "Unusual Machines shares rose 27-39% on a WSJ report",
+            "relevance": "The president's family sells to the department; Warren says Hegseth has not described conflict protections."
+          }
+        ],
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+      }
+    ]
   }
 }
