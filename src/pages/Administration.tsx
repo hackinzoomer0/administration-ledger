@@ -1,6 +1,7 @@
 import { Box, Button, Chip, Stack, Typography } from "@mui/material";
 import { Link as RouterLink, useParams } from "react-router-dom";
 import { data } from "../lib/data";
+import { label } from "../lib/selectors";
 import { AssessmentMeta } from "../components/AssessmentMeta";
 import { ContextNav } from "../components/ContextNav";
 import { PowerList } from "../components/PowerList";
@@ -39,9 +40,7 @@ export default function Administration() {
         <>
           <Section title="The current read">
             <Chip
-              label={
-                contest.status === "pending" ? "Outcome pending" : "Contested"
-              }
+              label={label(contest.status)}
               size="small"
               sx={{ alignSelf: "start" }}
             />
