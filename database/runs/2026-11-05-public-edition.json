@@ -1,0 +1,10 @@
+{
+  "added": 0,
+  "summary": "Published 15 selected decisions and 11 faction profiles from reviewed public material.",
+  "coverage": {
+    "scope": "Public edition. Five first-term anchors and ten selected second-term decisions. Cross-term comparison remains incomplete.",
+    "published_commit": "72daa5036cb3b470567146a168107bc0240c88c3",
+    "validation_results": "Local Chrome filters, empty state, counts and source link passed. GitHub commit and deployed HTML matched the reviewed file byte for byte. Live Chrome rendered 15 decisions.",
+    "next_update": "Use the short intake prompt. Verify sources and prior goals. Validate changed ledger rows, select public fields, review for owner information and private source material, test the filters, compare the committed file, and verify the live deployment."
+  }
+}

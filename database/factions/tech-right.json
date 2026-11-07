@@ -1,0 +1,314 @@
+{
+  "blunder": "Trump signed the narrower June 2 order; Brockman halted a second $25M (Sep 30)",
+  "cause": "Circumstance: Trump split the difference with the Operation and AI-safety voices",
+  "did": "May 21 call and the review order fell (reported); chip sales (Dec 8); preemption order (Dec 11)",
+  "donors": [
+    [
+      "Andreessen Horowitz (a16z)",
+      "$50M to Leading the Future; with founders, $116M in the 2026 midterms",
+      "Marc Andreessen",
+      "AI, midterms",
+      "A bloc of members who owe the industry for preemption votes; its American Dynamism fund owns defense-tech firms that sell to the state."
+    ],
+    [
+      "Founders Fund",
+      "Led Anduril's 2025 round with $1B",
+      "Peter Thiel",
+      "AI, defense",
+      "A software-first defense industry whose valuations rise with state demand and war."
+    ],
+    [
+      "Palantir",
+      "Chaired by Thiel (about 3%); Q1 2026 US government revenue $687M, up 84%",
+      "Peter Thiel",
+      "Iran, immigration, AI",
+      "Maven targeting and ImmigrationOS contracts grow with the war and deportations."
+    ],
+    [
+      "Greg Brockman",
+      "$25M to Leading the Future and $25M to MAGA Inc.; halted a second $25M (Sep 30)",
+      "AI-lab side",
+      "AI, midterms",
+      "A seat when Trump chooses between Sacks and the restrictionists; the halt shows the money can be turned off."
+    ],
+    [
+      "Peter Thiel",
+      "$15M to Vance in 2022",
+      "JD Vance",
+      "Succession, AI",
+      "A tech-money base in the White House less dependent on Trump's endorsement."
+    ],
+    [
+      "David Sacks",
+      "Stakes in 449 AI-product companies; 7.8% of BitGo",
+      "David Sacks",
+      "AI",
+      "Policy that matches the portfolio; no inquiry found."
+    ],
+    [
+      "SpaceX",
+      "About a fifth of revenue from government; IPO filed",
+      "Elon Musk",
+      "Russia (Starshield), AI",
+      "Revenue that depends on the government, which is why the Jun 2025 fight ended in a truce."
+    ],
+    [
+      "Elon Musk",
+      "About $446M in the 2026 midterms (NYT via Axios, Nov 2)",
+      "Elon Musk",
+      "Midterms, succession",
+      "Lines to the party that do not run only through Trump."
+    ],
+    [
+      "Nvidia",
+      "H200 lobbying; $25M ballroom pledge",
+      "Jensen Huang",
+      "AI, tariffs",
+      "Chip sales approved (H200); the pledge buys access."
+    ],
+    [
+      "MGX (Abu Dhabi)",
+      "Stakes in OpenAI, Anthropic and xAI",
+      "Not tied to one person",
+      "AI",
+      "Gulf money in the labs gives the UAE a reason to be heard on chip exports (my reading)."
+    ]
+  ],
+  "edges": [
+    [
+      "M3 Vance Lane and Tech-Right",
+      "Mixed",
+      "AI, Succession (patrons) allied; Immigration split",
+      "Vance called AI labs' requests for rules a Trojan horse (Sep 14), matching Tech-Right's no-rules line; Thiel, Sacks and Andreessen backed his 2022 run and Thiel gave $15M. Vance suspended PERM filings for eight firms (Oct 8) and would end H-1B (Oct 2)",
+      "Patron overlap, no coordination shown",
+      "H-1B and the 2028 race"
+    ]
+  ],
+  "gained": "Preemption order (Dec 11); chip sales; AI accord signed (Sep 29); Sacks kept as outside adviser when Clayton became czar (Oct 4)",
+  "id": "tech-right",
+  "legal": [
+    [
+      "Sacks",
+      "Special government employee with broad ethics waivers, which ethics expert Kathleen Clark calls a “sham” and a “pardon in advance”; 400+ AI-linked investments; helped shape an order DOJ uses against state AI laws",
+      "Conflict of interest (18 USC 208) if the waiver is invalid",
+      "Public record (NYT investigation, Nov 30, 2025); no probe reported",
+      "House Oversight and Science; OGE"
+    ],
+    [
+      "DOGE staff, Musk",
+      "SSA found two DOGE staffers possibly violated the Hatch Act by secretly working with an advocacy group on state voter rolls in March 2025; DOGE staff used an unapproved Cloudflare server for agency data; a former DOGE staffer allegedly took Social Security data. Musk is not accused in these reports",
+      "Hatch Act; Privacy Act; computer-misuse law",
+      "Public record: DOJ court filing, Office of Special Counsel referrals, whistleblower; Oversight Democrats expanded their probe Mar 10, 2026",
+      "Office of Special Counsel; House Oversight; DOJ"
+    ],
+    [
+      "Brockman, Huang, a16z and other donors",
+      "Donations to MAGA Inc. and a $25M ballroom pledge by firms that want chips and preemption",
+      "Bribery or gratuity only if a link is shown",
+      "No allegation found",
+      ""
+    ]
+  ],
+  "legalnote": "",
+  "lost": "Sacks’s czar role ended (Mar 26); the May 21 win was followed by a voluntary review (Jun 2)",
+  "members": [
+    [
+      "David Sacks",
+      "PCAST co-chair; outside AI adviser",
+      "AI (no review, preemption, chip sales)",
+      "10 (Oct 4: kept as outside adviser when Clayton was named czar)",
+      "Posture: speed beats China. Interest: Craft Ventures' 400+ AI-linked investments and 7.8% of BitGo, under waivers critics call a 'sham'"
+    ],
+    [
+      "Michael Kratsios",
+      "OSTP director",
+      "AI",
+      "9",
+      "Posture: American AI leadership. Interest: career in the founders' network; no personal stake found"
+    ],
+    [
+      "Sriram Krishnan",
+      "AI policy adviser",
+      "AI",
+      "8",
+      "Posture: build, don't regulate. Interest: former a16z partner; no personal stake found"
+    ],
+    [
+      "Scott Kupor",
+      "OPM director",
+      "AI, skilled visas",
+      "7",
+      "Posture: run government like a startup. Interest: a16z's first employee; no personal stake found"
+    ],
+    [
+      "Elon Musk",
+      "SpaceX and xAI head (outside)",
+      "AI, Starshield on Russia, H-1B (silent since the fee)",
+      "6 (Oct 25: confirmed restricting Ukraine's Starlink, denied the Starshield cap)",
+      "Posture: patriot-builder. Interest: about a fifth of SpaceX revenue from government, an IPO pending, and xAI; about $446M in the midterms"
+    ],
+    [
+      "Mark Zuckerberg",
+      "Meta head (outside)",
+      "AI",
+      "5 (Oct 31: Meta building a bipartisan Washington team)",
+      "Posture: open-source America. Interest: Meta's AI business and freedom from state AI and child-safety rules"
+    ],
+    [
+      "Jensen Huang",
+      "Nvidia CEO (outside)",
+      "Chips",
+      "5",
+      "Posture: American chips everywhere. Interest: export approvals (H200) are Nvidia revenue; $25M ballroom pledge"
+    ],
+    [
+      "Peter Thiel",
+      "Palantir chairman; Founders Fund (outside)",
+      "Defense tech, AI, patron of Vance",
+      "6 (Oct 12: called the Iran war a mistake without breaking with Trump)",
+      "Posture: strategist warning of US decline. Interest: about 3% of Palantir, whose Maven use doubled in the war; Founders Fund led Anduril's $1B round; made Vance ($15M, 2022)"
+    ],
+    [
+      "Marc Andreessen",
+      "a16z co-founder (outside)",
+      "AI preemption, defense tech, crypto, skilled visas",
+      "6 (Nov 2: a16z and its founders gave $116M in the midterms, mostly to Republicans)",
+      "Posture: techno-optimist. Interest: a16z's $90B+ under management, Anduril through American Dynamism, $50M to Leading the Future"
+    ],
+    [
+      "JD Vance",
+      "Vice president",
+      "AI (labs asking for rules a 'Trojan horse', Sep 14); patrons overlap",
+      "5; acts against it on H-1B (Oct 8)",
+      "Ambition; Thiel's pull"
+    ],
+    [
+      "Ted Cruz",
+      "Senator (R-Texas)",
+      "AI preemption (blocked the 45-day review bill, Sep 29)",
+      "4; home is Hawks",
+      "Ambition; long-standing anti-regulation record"
+    ],
+    [
+      "Howard Lutnick",
+      "Commerce secretary",
+      "Chips",
+      "4; home is Deal-Capital",
+      "Family firms (Cantor, Newmark)"
+    ]
+  ],
+  "name": "Tech-Right",
+  "overview": [
+    "The Tech-Right's program is a nationalist version of the techno-optimism Andreessen set out in 2023: growth and technology make a nation strong, and stagnation is the real danger. Applied to the state, it means winning the AI race against China by letting labs ship without pre-release review and overriding fifty state rulebooks; building the power plants and data centers AI needs; rebuilding the arsenal with software-first firms such as Palantir and Anduril rather than the old primes; putting the dollar on crypto rails; and keeping doors open to engineers. Its best case is that America's edge over China is speed, and every rule is a gift to Beijing.",
+    "Each plank is also a portfolio. a16z raised about $15B in January, $1.176B of it for 'American Dynamism' (Anduril, Shield AI, Saronic, Castelion), and Saudi Arabia's Sanabil lists it as a holding (TechCrunch, Jan 9). Founders Fund, Thiel's firm, led Anduril's 2025 round with $1B; Thiel chairs Palantir, whose government revenue rose with the war; Sacks's Craft has 400+ AI-linked investments under ethics waivers; SpaceX takes about a fifth of its revenue from government. The political money is large: Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Its people write policy (Kratsios, Krishnan, Kupor) and its founders call the president directly (May 21).",
+    "Acts depart from the program where the portfolio and the nation diverge. 'Beat China' sits beside lobbying for H200 sales to China and license-free chips for the UAE (Jul 10), with Gulf funds (MGX, Qatar's fund) holding stakes in the same labs. 'Rebuild the arsenal' means Palantir's Maven use doubled in the Iran war while Thiel calls the war a mistake (Oct 12): the strategist objects, the shareholder collects. Musk capped Starshield speeds that Ukraine's drones need (Oct 13-14, disputed) and Trump reportedly had to call him to lift it. On skilled visas the faction stays quiet while Vance, whom its patrons made, suspended PERM filings (Oct 8).",
+    "Precedent: the Cold War military-industrial-academic alliance, when the state funded the labs and firms that built American supremacy. It breaks on who holds control: then the Pentagon set the agenda and owned the risk; now the vendors help write the rules (Sacks, Kratsios), fund the campaigns and count the state as a main customer, with Gulf capital in the cap tables (my reading)."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "No binding pre-release review; federal preemption of state laws; chip sales; open weights. The May 21 order was pulled (reported), though Trump signed the narrower Jun 2 order. Sep 29: Cruz blocked the 45-day review bill; the AI accord was signed.",
+          "Why the faction does it. Speed against China is the argument; the portfolios and funders gain from each plank (documented fit): a16z's $50M to Leading the Future, Brockman's $25M, Nvidia's H200 lobbying.",
+          "Who and why.",
+          "Sacks. Posture: rules hand the race to Beijing. Interest: Craft's 400+ AI bets and BitGo stake under broad waivers (Kathleen Clark: a 'sham', a 'pardon in advance').",
+          "Andreessen. Posture: techno-optimism. Interest: a16z's AI and defense portfolio and its $116M in the midterms.",
+          "Thiel. Posture: the West stagnates without technology. Interest: Palantir's state contracts and Founders Fund's defense bets.",
+          "Huang. Posture: American chips everywhere. Interest: H200 sales are Nvidia revenue; the $25M pledge buys access (my reading).",
+          "Kratsios, Krishnan, Kupor write the policy; Krishnan and Kupor came from a16z. No personal stake shown.",
+          "Say versus do. 'Beat China' while lobbying to sell China H200s, and Gulf funds in the same labs (my reading).",
+          "Stance audit. The ledger groups preemption, less review, and chip sales under one agenda. Identify the actors behind each ask. Industry spending and Nvidia lobbying establish different forms of support. a16z, Brockman, Founders Fund and Nvidia have different political or portfolio stakes. Export revenue and strategic limits on China can diverge. Split the planks before judging consistency. Campaign support and financial exposure alone leave policy influence unresolved."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "IMM": [
+      {
+        "paras": [
+          "Position.",
+          "Dec 24, 2024: Musk vowed “war” for H-1B, citing an engineer shortage. He later softened to “broken.”",
+          "He has been silent on the fee and the PERM suspensions since.",
+          "Why the faction does it. A skilled-visa pipeline serves tech employers, but a public fight is costly for those who depend on the government.",
+          "Who and why.",
+          "Musk Motives: (1) Personal: he entered the US on an H-1B, by his own statement. (2) Business: his companies hire engineers who need visas, so a fee or a suspension raises his costs (my reading; headcount not sourced). (3) Exposure: SpaceX's government revenue and a Trump who has already threatened his companies explain the silence. The loud promise in Dec 2024 produced no act.",
+          "Kupor Motives: Background in venture capital, where skilled visas are the talent supply (background). No personal stake shown.",
+          "Vance acted against the faction on Oct 8 (see Vance Lane); the faction's donors have not publicly fought him."
+        ],
+        "title": "Immigration"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "No faction line. Thiel calls the war a mistake that drains US soft power (Oct 12) and still backs Trump; Palantir's Maven targeting use doubled in the war.",
+          "Why the faction does it. Its program is about China and technology; the Iran war is a distraction to its strategists and a revenue line for its defense holdings (my reading).",
+          "Who and why.",
+          "Thiel. Posture: strategic skeptic. Interest: about 3% of Palantir, whose US government revenue rose 84% in Q1 as the war began (The Register).",
+          "Say versus do. The critique is spoken; the contracts are kept."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "No program here; money and access instead. Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Thiel, Sacks and Andreessen backed Vance's 2022 run; Nvidia lobbied for H200 sales and pledged $25M to the ballroom.",
+          "Why the faction does it. Buy access across issues so the AI and defense program survives whoever wins (my reading).",
+          "Who and why.",
+          "Thiel. Interest: he made Vance (Mithril, $15M to Protect Ohio Values, $200K+ via Per Aspera) and chairs Palantir, which sells to the government.",
+          "Musk. Interest: a second line to the party (SLF, CLF) after his Jun 2025 break with Trump.",
+          "Huang. Interest: lobbying and the pledge protect chip revenue (documented)."
+        ],
+        "title": "Money without a position (succession, midterms, tariffs)"
+      }
+    ],
+    "RUS": [
+      {
+        "paras": [
+          "Position.",
+          "Oct 13-14: the Starshield speed cap hit Ukrainian drones. Trump reportedly called Musk to lift it (Oct 21). Who ordered the cap is disputed.",
+          "Why the faction does it. Musk acts as an outside operator protecting his business.",
+          "Who and why.",
+          "Musk Motives: (1) Money and exposure: SpaceX takes about a fifth of its revenue from the government and has filed for an IPO. He broke with Trump in Jun 2025, called for impeachment and claimed Trump was in the Epstein files; Trump threatened his companies, and they reached a truce at the Kirk memorial (Fortune, Sep 22, 2025). His position on Ukraine is shaped by who can hurt his contracts. He also gave $10M each to SLF and CLF, buying a second line to the party. (2) Control: he runs the network Ukraine's drones depend on, so a cap is leverage (my reading)."
+        ],
+        "title": "Russia and Ukraine"
+      }
+    ],
+    "SUC": [
+      {
+        "paras": [
+          "Position.",
+          "No program here; money and access instead. Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Thiel, Sacks and Andreessen backed Vance's 2022 run; Nvidia lobbied for H200 sales and pledged $25M to the ballroom.",
+          "Why the faction does it. Buy access across issues so the AI and defense program survives whoever wins (my reading).",
+          "Who and why.",
+          "Thiel. Interest: he made Vance (Mithril, $15M to Protect Ohio Values, $200K+ via Per Aspera) and chairs Palantir, which sells to the government.",
+          "Musk. Interest: a second line to the party (SLF, CLF) after his Jun 2025 break with Trump.",
+          "Huang. Interest: lobbying and the pledge protect chip revenue (documented)."
+        ],
+        "title": "Money without a position (succession, midterms, tariffs)"
+      }
+    ],
+    "TAR": [
+      {
+        "paras": [
+          "Position.",
+          "No program here; money and access instead. Musk gave about $446M and a16z and its founders $116M in the 2026 midterms (NYT via Axios, Nov 2). Thiel, Sacks and Andreessen backed Vance's 2022 run; Nvidia lobbied for H200 sales and pledged $25M to the ballroom.",
+          "Why the faction does it. Buy access across issues so the AI and defense program survives whoever wins (my reading).",
+          "Who and why.",
+          "Thiel. Interest: he made Vance (Mithril, $15M to Protect Ohio Values, $200K+ via Per Aspera) and chairs Palantir, which sells to the government.",
+          "Musk. Interest: a second line to the party (SLF, CLF) after his Jun 2025 break with Trump.",
+          "Huang. Interest: lobbying and the pledge protect chip revenue (documented)."
+        ],
+        "title": "Money without a position (succession, midterms, tariffs)"
+      }
+    ]
+  },
+  "short": "Tech-Right",
+  "wants": "Accelerate American technology and infrastructure development and shape the rules, spending, and market access that determine which firms grow. Track AI regulation, exports, defense procurement, crypto and skilled immigration separately.",
+  "weak": "Trump signed the narrower June 2 order anyway; Vance acts against its H-1B interests; data centers poll badly (43% oppose one locally) and Texas paused new approvals (Axios, Oct 31)",
+  "why": "Strategic competition and portfolio growth can reinforce one another. a16z and Brockman supply political funding, while Founders Fund and other investors have portfolio exposure to defense and AI policy. Track which backer gains from each rule or award, including disagreements between export revenue and restrictions on Chinese access.",
+  "win": "Review order fell after the May 21 call (reported); preemption order (Dec 11)"
+}

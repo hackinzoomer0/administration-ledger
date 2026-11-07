@@ -1,0 +1,2839 @@
+{
+  "issue": "IRN",
+  "items": [
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "hawks",
+        "pentagon"
+      ],
+      "context": "Opened the war That night Trump asks donors \"Marco or JD?\"",
+      "date": "2026-02-28",
+      "fx": {
+        "hawks": 1,
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-02-28-e87ef4",
+      "issues": [
+        "FED",
+        "IRN",
+        "MID",
+        "RUS",
+        "SUC"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-02-28-61ed54",
+          "kind": "chron",
+          "source": "",
+          "text": "US and Israel strike Iran; Khamenei killed",
+          "tier": "carried",
+          "weight": 2
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-02-28-e0e5e6",
+          "kind": "chron",
+          "source": "",
+          "text": "US-Israeli strikes on Iran begin",
+          "tier": "carried",
+          "weight": 2
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "mid-2026-02-28-f857b7",
+          "kind": "chron",
+          "source": "",
+          "text": "US and Israel begin the Iran war",
+          "tier": "carried",
+          "weight": 2
+        },
+        {
+          "added": "2026-10-28",
+          "context": "Patriot stocks drain; fuel prices rise; Washington's attention moves (Ukraine in the Iran war)",
+          "id": "rus-2026-02-28-5b628b",
+          "kind": "shift",
+          "source": "",
+          "text": "US and Israel start the Iran war",
+          "tier": "carried",
+          "weight": 4
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2026-02-28-f857b7",
+          "kind": "chron",
+          "source": "",
+          "text": "US and Israel begin the Iran war",
+          "tier": "carried",
+          "weight": 2
+        },
+        {
+          "added": "2026-10-28",
+          "context": "Feb 4: declined to take sides",
+          "id": "suc-2026-02-28-05c718",
+          "kind": "act",
+          "source": "Yahoo",
+          "text": "Asks a room of about 25 donors at Mar-a-Lago, \"Marco or JD?\"",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "Yahoo",
+      "text": "US and Israel strike Iran; Khamenei killed",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Kent",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-03-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-03-17-8025a9",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Kent resigns as NCTC director (carried)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Set the hold-and-talk pattern",
+      "date": "2026-03-23",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": -1,
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-03-23-5d2bcb",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Iran denied the talks the same day",
+          "id": "irn-2026-03-23-696cbe",
+          "kind": "act",
+          "source": "PBS, dpa",
+          "text": "Trump delays strikes on power plants, citing good envoy talks; about $500M was bet on falling oil 15 minutes earlier",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-03-23-74720f",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump delays power-plant strikes, citing envoy talks (PBS)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "PBS, dpa",
+      "text": "Trump delays power-plant strikes for talks",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Moved the squeeze to the center",
+      "date": "2026-04-07",
+      "fx": {
+        "hawks": 1,
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-04-07-95df20",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-04-07-04ed0b",
+          "kind": "chron",
+          "source": "",
+          "text": "Pakistan-mediated ceasefire (carried)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Pakistan-brokered ceasefire; Islamabad talks fail; US blockade of Iranian ports begins Apr 13",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-04-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-04-13-7d27fe",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "US blockade of Iranian ports begins (AP)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Raskin",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "",
+      "date": "2026-04-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-04-17-827606",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Raskin opens investigation into Kushner (House Judiciary Democrats)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Kushner, Witkoff",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "The White House describes Kushner's role as informal; Raskin opened his investigation Apr 17 while Kushner sought $5B for Affinity",
+      "date": "2026-04-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-04-25-86bae9",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-04-25-817a19",
+          "kind": "chron",
+          "source": "",
+          "text": "Kushner and Witkoff to Islamabad",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Reuters via Internazionale, Daily Beast",
+      "text": "Kushner and Witkoff travel to Islamabad for talks",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Gabbard",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-05-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-05-22-5398f2",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Gabbard resigns, effective Jun 30 (carried)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Ratcliffe, Rubio, Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "hawks",
+        "pentagon"
+      ],
+      "context": "",
+      "date": "2026-06-15",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-06-15-c64e7e",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Axios: Ratcliffe and Rubio doubt Iran will concede; Hegseth has reservations (Canal 26)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital",
+        "vance"
+      ],
+      "context": "Gave Deal First its one win",
+      "date": "2026-06-17",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": -1,
+        "pentagon": -1,
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-06-17-205ee7",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Jun 15: Ratcliffe and Rubio doubted Iran would concede; Hegseth had reservations; Vance, Witkoff and Kushner favored it. Jun 18: Vance defends it against GOP and Israeli critics",
+          "id": "irn-2026-06-17-c7b83e",
+          "kind": "act",
+          "source": "Axios via Canal 26, C-SPAN",
+          "text": "Trump signs the June deal",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-06-17-3bc7e4",
+          "kind": "chron",
+          "source": "",
+          "text": "June deal signed",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Axios via Canal 26, C-SPAN",
+      "text": "June deal signed to end the war, reopen Hormuz and lift the blockade",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "dissenters"
+      ],
+      "context": "Put Congress in the authorization and cost fight",
+      "date": "2026-06-23",
+      "fx": {
+        "dissenters": 1,
+        "pentagon": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-06-23-5ba1f2",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Trump has called such votes \"unpatriotic\" and \"meaningless\" (i24)",
+          "id": "irn-2026-06-23-556acb",
+          "kind": "act",
+          "source": "Reed, New Arab",
+          "text": "Senate passes the war-powers resolution 50-48; the next day OMB asks for $87.6B",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-06-23-9a1778",
+          "kind": "chron",
+          "source": "",
+          "text": "Senate passes war-powers resolution 50-48; OMB requests $87.6B",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Reed, New Arab",
+      "text": "Congress passes the war-powers resolution; OMB asks for $87.6B",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Witkoff, Kushner, Vance",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital",
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-06-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-06-30-ff0ae9",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Witkoff and Kushner in Doha (Euronews); Vance: Trump is ready to resume strikes (investingLive)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Gave Go Big the lead until the August pause",
+      "date": "2026-07-08",
+      "fx": {
+        "deal-capital": -1,
+        "hawks": 1,
+        "pentagon": 1,
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-07-08-51c93a",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Vance, Jul 8: \"If you shoot at ships, we are going to punch back\"",
+          "id": "irn-2026-07-08-d5d7fb",
+          "kind": "act",
+          "source": "Semafor",
+          "text": "US strikes Iran after attacks on ships; the June deal collapses",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-07-08-37518c",
+          "kind": "chron",
+          "source": "",
+          "text": "US strikes after attacks on ships; the June deal collapses (Semafor)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Semafor",
+      "text": "The deal collapses; US strikes resume",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "None",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-07-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-07-11-f169db",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Sen. Lindsey Graham dies (NPR)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "House GOP, Thune",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "Hegseth and Feinberg had pushed senators on the supplemental",
+      "date": "2026-07-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-07-22-54e247",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-07-22-46326f",
+          "kind": "chron",
+          "source": "",
+          "text": "House passes $73B defense reconciliation bill; Thune cannot count to 50 (TNND)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "TNND",
+      "text": "House passes a party-line bill with $73B for defense; Thune says he cannot count to 50",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Senate",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Clayton's Oct 23 memo is his first Iran warning in this report",
+      "date": "2026-07-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-07-28-a6dfee",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-07-28-7c7121",
+          "kind": "chron",
+          "source": "",
+          "text": "Senate confirms Jay Clayton as DNI (Gray DC)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Gray DC",
+      "text": "Senate confirms Jay Clayton as DNI, 51-47, after Bill Pulte served under six weeks as acting",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Saudi Arabia, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "vance",
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-07-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-07-29-0c188f",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Saudi defense minister tells Vance that Netanyahu pushes escalation (Axios); Trump weighs energy targets (Axios Jul 31)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Saudi Arabia",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-08-01-3a24c5",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "MBS urges Trump to refrain from massive strikes on energy targets (Axios)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Munir",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Pakistan's foreign office: the visit was not on behalf of the US (claimed)",
+      "date": "2026-08-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-08-23-7b58e9",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-08-23-c8ca9e",
+          "kind": "chron",
+          "source": "",
+          "text": "Pakistan's army chief visits Tehran; Al Hadath says he carried a US offer (Ahram)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Ahram, Minute Mirror",
+      "text": "Pakistan's army chief visits Tehran; Al Hadath says he carried a US proposal",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump, Iran",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-08-30-d01efe",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "US strikes Iranian mine-laying forces; Iran retaliates (Times of Oman)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Same day: the war ends \"immediately\" after the midterms; a deal \"is not something we're looking at\"",
+      "date": "2026-09-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-09-09-ccf291",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-09-09-8d7c64",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump confirms strikes on Iranian maritime targets and says the war ends after the midterms; Hegseth: \"finish this fight\" (Deccan Chronicle, Anadolu)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Deccan Chronicle",
+      "text": "Trump confirms US strikes on Iranian maritime assets and oil transport",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Closed the congressional route for now",
+      "date": "2026-09-24",
+      "fx": {
+        "dissenters": -1,
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-09-24-e8f57d",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Around the UN session, a report said Trump told aides he expects to resume bombing after the midterms (Newsable)",
+          "id": "irn-2026-09-24-7b4a5c",
+          "kind": "act",
+          "source": "Reuters via ThePrint, Scripps",
+          "text": "Senate rejects war-powers resolution 49-50 (the 14th Senate vote; two had passed); NIAC Action sues",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-09-24-9d625d",
+          "kind": "chron",
+          "source": "",
+          "text": "Senate rejects war-powers resolution 49-50; NIAC Action sues (ThePrint)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Reuters via ThePrint, Scripps",
+      "text": "Senate rejects a resolution 49-50",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Vance, Bessent",
+      "added": "2026-10-28",
+      "by": [
+        "treasury",
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-07-9f9e4b",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance: \"meaningful\" enrichment cut; Bessent: \"absolute isolation\" (both carried)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Made timing the operative constraint",
+      "date": "2026-10-08",
+      "fx": {
+        "hawks": -1,
+        "operation": 1,
+        "pentagon": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-10-08-904876",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-10-08-10e907",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump: no attack before the midterms (AP); NYT: he asked for options, a three-day campaign discussed at Camp David (ToI)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump pledges no attack before Nov 3",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Netanyahu, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Netanyahu, Oct 14: a strike now is \"not convenient\"; his office denies seeking a pre-election war",
+      "date": "2026-10-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-10-5d7fcd",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "FT via ToI",
+      "text": "Trump reportedly blocks an Israeli multi-day strike plan",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Netanyahu, Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "hawks",
+        "pentagon"
+      ],
+      "context": "",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-14-047c1a",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Netanyahu: a strike now is \"not convenient\" (Reuters); Axios: Hegseth and CENTCOM push a major operation (carried)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-16-d37a4f",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump confirms Washington weighs striking Pickaxe Mountain if operations resume (JPost)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "",
+      "date": "2026-10-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-17-d9eadd",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Hegseth threatens an attack if nuclear talks fail (SANA)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "TVG digest (Oct 20, summary of Fox; headline only): Vance declined to join the endorsement.",
+      "date": "2026-10-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-18-5be75d",
+      "issues": [
+        "IRN",
+        "MID",
+        "SUC"
+      ],
+      "kind": "chron",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "TVG digest (Oct 20, summary of Fox; headline only): Vance declined to join the endorsement.",
+          "id": "mid-2026-10-18-ce0ee9",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump endorses Netanyahu for Oct 27 vote",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump endorses Netanyahu and says the US could face Iran alone if he loses (Khaleej Times)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "hawks",
+        "pentagon"
+      ],
+      "context": "White House called the Oct 14 Axios report of his push false; Netanyahu's spokesman confirmed the meeting",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-19-49aada",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "irn-2026-10-19-d9fc20",
+          "kind": "chron",
+          "source": "",
+          "text": "Hegseth meets Netanyahu secretly at Ovda air base (Daily Maverick)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Daily Maverick",
+      "text": "Hegseth flies secretly to Israel and meets Netanyahu at Ovda air base",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Reopened the question of when, not whether",
+      "date": "2026-10-21",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "irn-2026-10-21-061626",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "FT report of a blocked Israeli plan; NYT report of post-midterm plans; Trump's \"little Epic Fury\" remark",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Netanyahu, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-21-6e7312",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "FT: Netanyahu's strike plan for the Oct 10 weekend was blocked by Trump (Times of Israel)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon, IDF",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-22-179d9d",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "NYT: US and Israeli militaries both have post-midterm strike plans; the two came close to ordering strikes earlier in October (JPost)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Oct 8 post: no attack before Nov 3",
+      "date": "2026-10-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-23-57ea5f",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Reuters, JPost",
+      "text": "Trump hints at a new operation at a rally, after reportedly deciding at the last minute earlier in October not to order strikes",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump, Clayton",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "NYT: two Iranian officials, one from the IRGC, call US diplomats 'fair game'; a DNI memo says plots against US officials are in advanced stages.",
+      "date": "2026-10-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-23-847403",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Dawn; NYT via Ynet (no printed date on the Ynet page)",
+      "text": "Trump: \"We may do another little Epic Fury\"; DNI Clayton warns Rubio that lethal Iranian plots against US officials are at \"advanced stages\" (Dawn)",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Pezeshkian, Abdollahi, Houthis, Saudi Arabia",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-24-5e3324",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Iran's president blames the US for the failed interim deal and urges concluding it; Iran's armed forces chief says no US warship will enter the Gulf; Houthis claim strikes on Saudi airports and oil sites and Saudi jets hit Sanaa (Dawn)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "US missions",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "NYT: staff drawdowns at posts in Saudi Arabia, Jordan, Lebanon, Qatar and the UAE, tied to the DNI warning of advanced Iranian plots.",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-24-122d7e",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CNN via Iran International; NYT via Ynet",
+      "text": "US accelerates diplomat and family departures from Middle East posts (CNN via Iran International)",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Israeli voters / Netanyahu bloc",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "About 480,000 military and diplomat ballots uncounted; the election commission expects no seat change. Likud (the party; personal attribution to Netanyahu not confirmed) says Arab parties 'stole' the vote, citing evidence it has not published. Trump had endorsed him.",
+      "date": "2026-10-28",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Provisional: Netanyahu outperformed and his rivals need the Arab parties; re-score if a government forms without him.",
+      "id": "irn-2026-10-28-isr-election",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "origin": "Israel",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Washington's main Israeli partner stays in office for now, so the post-midterm strike option with Israel is unchanged; Likud's unsupported 'stolen' claim readies a fight against any coalition needing Arab parties. Falsifier: a government forms without him.",
+      "source": "Times of Israel, Jerusalem Post, Anadolu; Cyprus Mail (Oct 28)",
+      "text": "Israel's election leaves Netanyahu's bloc the largest (53 of 120 seats in preliminary results; early counts up to 56) but short of 61; Eisenkot's bloc has 48 and lacks a path without the record 19 Arab-party seats.",
+      "tier": "reported",
+      "weight": 4
+    },
+    {
+      "actor": "Saudi Arabia, Turkey, Pakistan",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Turkey's foreign minister said Aug 8 it names no common threat and is not aimed at Tehran.",
+      "date": "2026-08-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-08-07-mecca-pact",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Gulf and Turkey",
+      "precision": "day",
+      "rationale": "Baseline for the Oct events. Two outlets agree on the date and terms. Turkish ratification was incomplete as of Oct 26.",
+      "source": "Jerusalem Post, Euronews",
+      "text": "Saudi Arabia, Turkey and Pakistan sign the Mecca (Makkah) Joint Defence Agreement: an attack on one counts as an attack on all three, plus joint exercises, intelligence sharing and a defence-industry clause.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Saudi Arabia, Turkey, Pakistan",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Turkey's foreign minister said Oct 8 the pact is defensive and no Turkish troops will attack other countries.",
+      "date": "2026-10-05",
+      "fx": {},
+      "fxnote": "No fx: the effect falls on US standing in the region as a whole and no single faction is shown to have sought it; re-score if a faction is shown to have gained.",
+      "id": "irn-2026-10-05-pact-activation",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Gulf and Turkey",
+      "precision": "day",
+      "rationale": "Two outlets agree. Counter-reading: the pact's practical force is doubtful (skeptics say it lacks enforcement, and Houthi attacks on Saudi Arabia raised doubts that Turkey and Pakistan would act). I could not confirm any troop movement.",
+      "source": "Euronews, Iran International",
+      "text": "At an emergency committee meeting in Riyadh the three states agree to move toward collective defence, including rapid deployment of forces to Saudi Arabia, as Saudi-backed Yemeni forces attack the Houthis.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Iran",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-09-iran-pakistan",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Gulf and Turkey",
+      "precision": "day",
+      "rationale": "Headline only: I read only an excerpt, so capped at weight 2. It matters because Pakistan is the main US-Iran channel in the ledger.",
+      "source": "Iran International (excerpt only)",
+      "text": "Iran turns its criticism on Pakistan, warning against intervention in Yemen and questioning whether Pakistan can stay a neutral go-between with the US (headline and excerpt only).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Khalid bin Salman, Asim Munir, Ibrahim Kalin",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Saudi Arabia told Vance on Jul 29 that Netanyahu pushes escalation (Axios).",
+      "date": "2026-10-26",
+      "fx": {
+        "hawks": -1,
+        "operation": 1
+      },
+      "fxnote": "Provisional: three regional powers are mediating directly with Tehran, which raises the cost of striking before talks end; re-score if talks collapse or Saudi Arabia backs a strike.",
+      "id": "irn-2026-10-26-tehran-talks",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "origin": "Gulf and Turkey",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the US is losing regional influence and the regional support a further strike would need. Three states with US ties (Saudi Arabia, a NATO member, a nuclear power) are treating Iran as a counterpart and building a security arrangement that does not run through Washington. Evidence: they went to Tehran in person under a defence treaty and are mediating; Saudi Arabia told Vance on Jul 29 that Netanyahu pushes escalation; Iran has threatened neighbors' infrastructure, so they bear the cost of a wider war. Not established: any Gulf refusal of basing or overflight, or any private US request they turned down. Counter-reading: the pact lacks enforcement and Turkey says no troops will leave. Mechanics: a strike now has to be justified to a bloc that is mediating and protected by a treaty, which raises the cost and weakens the claim of regional backing. Single analysis, so provisional.",
+      "source": "Euronews, Jerusalem Post, Al Monitor",
+      "text": "Saudi defence minister Khalid bin Salman, Pakistan's army chief Asim Munir and Turkey's intelligence chief Ibrahim Kalin meet Iranian officials in Tehran, with Pakistan and Qatar mediating, to try to avert renewed fighting. Iran calls it a step toward regional security arrangements; no agreement announced.",
+      "tier": "documented",
+      "weight": 4
+    },
+    {
+      "actor": "Turkish parliament committee",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-27-turkey-committee",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Gulf and Turkey",
+      "precision": "day",
+      "rationale": "One outlet. Ratification is not complete; the full vote has no date.",
+      "source": "Washington Post via Yahoo",
+      "text": "A Turkish parliamentary foreign-affairs committee approves the 16-article pact (10 years) on votes of Erdogan's party and allies; full-assembly vote not yet scheduled. Turkish officials say it is defensive and no Turkish troops will fight in Yemen.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Qatar and Iran",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Trump on Oct 25 framed it as \"finish it off or make a deal\"; he also accused Iran of inventing ship attacks to lift oil prices before the midterms. The Oct 26 Tehran communiqué only agreed to keep talking: no ceasefire, no deadline, no demands on Washington.",
+      "date": "2026-10-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-25-qatar-draft",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): regional mediators now hold a concrete off-ramp that Iran says it welcomes, which raises the political cost of a post-election strike but commits the administration to nothing until it answers. Single anonymous-official source for the draft terms; the US reply is unknown. Counter-reading: Iran may be stalling to outlast the Nov 3 window; falsifier: Iran rejects the draft or Trump publicly accepts the pause. No fx because the direction for any faction is unclear until the US responds.",
+      "source": "The National (one official, unnamed), CBS News live blog, House of Saud",
+      "text": "Qatari mediators give Iran a draft deal: seven days of daily confidence-building steps by each side, with several guarantor countries. Iran also asks the Saudi, Turkish and Pakistani envoys to press the US for a two-week regional pause in return for gradually reopening Hormuz. Iran is expected to answer by the end of the week; no US response reported.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Houthis, Saudi Arabia, Egypt",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Iran told the Tehran visitors it lacks leverage to stop the Houthis. Brent about $113, down from about $116 earlier in the week.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-27-houthi-egypt",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the war is widening into a Saudi-Houthi front that the US is not leading, which ties down Gulf partners and raises oil-price risk for the administration before Nov 3 and for any strike afterward. The Houthi casualty and refinery claims are partisan claims; Egypt's authorization is documented as a parliamentary act. Counter-reading: a Saudi-Egyptian defence line could free US forces; falsifier: US forces are drawn in or Saudi Arabia asks for US basing.",
+      "source": "CBS News live blog (AFP, Reuters)",
+      "text": "Houthi offensive on Saudi Arabia escalates: about 97 fighters killed near Bab el-Mandeb, claimed missile strikes on the Ras Tanura refinery, and Egypt's parliament authorizes Sisi to send troops to Saudi Arabia (Houthis call it a declaration of war; Sisi says defensive).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "CENTCOM / Pentagon",
+      "added": "2026-10-29",
+      "by": [],
+      "context": " CNBC headline of Oct 2 also reported a third carrier group ordered to the region.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-27-war-cost",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the cost and the reduced footprint narrow the administration's practical options for a large new operation even as it adds a carrier, and the blockade stays in force. Figures are CENTCOM estimates relayed by one outlet; the two reports (carrier added, footprint cut) are not reconciled. Counter-reading: the carrier signals preparation for post-midterm strikes; falsifier: a second carrier leaves or strike notices appear.",
+      "source": "CBS News live blog, The National",
+      "text": "CENTCOM estimates the Iran war has cost the US military about $47 billion, mostly munitions replacement. A third carrier group has been sent while sources tell CBS the overall footprint is being quietly reduced and diplomatic staffing cut. On Oct 28 NAVCENT warned ships to stay clear and to expect blockade enforcement, the first such notice since the July blockade began.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "US military",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-09-30-bf01",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Net effect (my reading): with no troops in Iraq, the US has one fewer Gulf basing site and less leverage there if the Iran war resumes. Headline only, so capped at 2 and the scope of any residual presence is unverified. No fx.",
+      "source": "Washington Post \"Tracking Trump\" (headline only)",
+      "text": "US forces complete their pullout from Iraq on the Sept 30 schedule (headline only).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Vance and cabinet",
+      "added": "2026-10-29",
+      "by": [
+        "vance"
+      ],
+      "context": "Net effect (my reading): Vance chairing the session shows the Vance Lane has a seat in Iran decisions during the pre-election hold. Single digest line; participants and outcome unreported. No fx.",
+      "date": "2026-10-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-02-bf02",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (citing press reports)",
+      "source": "Axios, CBS News, Haaretz, Middle East Eye, ",
+      "text": "The cabinet, chaired by Vice President Vance, meets for hours at Camp David on Iran and the Saudi-Houthi conflict; the White House did not announce it.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Yemen government, Saudi Arabia, Houthis",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): the Saudi-Houthi front was already widening three weeks before Egypt's Oct 26 authorization, which ties down Gulf partners the US would need for a new strike. Houthi claims are the parties' own; US role is \"not opposed\" only. No fx.",
+      "date": "2026-10-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-04-bf03",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 5, 7, 8, 9 editions; Axios, WSJ via digest)",
+      "source": "Cabinet meeting at Camp David on Oct 2 covered the same conflict.",
+      "text": "Yemen's president announces a major campaign against the Houthis with Saudi \"full operational support\"; Houthi strikes on Riyadh and Abha airports (Oct 7-8) kill at least 3 and wound 36. Syria discusses sending troops; Axios says the US is not opposed in principle.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Iran (Qalibaf)",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): Iran is tying the strait to the June MOU terms, so any Hormuz reopening is a bargaining item rather than a concession, which raises the cost of a deal for the Squeeze camp. A statement by one official. No fx.",
+      "date": "2026-10-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-04-bf04",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 5 edition)",
+      "source": "",
+      "text": "Iran's parliament speaker says Hormuz stays closed until seven conditions of the June MOU with the US are met.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "US Air Force / UK",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): the US lost a forward bomber base in Britain to a security threat, which complicates a long-range strike option. Iran denies the plot; the charges are for UK nationals, not Iran. No fx.",
+      "date": "2026-10-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-04-bf05",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 5, 13, 27 editions)",
+      "source": "",
+      "text": "The US rushes to withdraw all 12 B-1 bombers from RAF Fairford over a threatened Iran-backed plot; on Oct 12 UK PM Burnham says the IRGC was \"almost certainly\" behind it, and on Oct 27 two UK nationals are charged.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon / CENTCOM",
+      "added": "2026-10-29",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Net effect (my reading): the pre-election strike option was live until Trump's Oct 8 pledge, which shows the pledge was a choice by Trump against his own planners rather than a lack of readiness. Anonymous-source reporting. Counter-reading: planners always prepare options; falsifier: a strike before Nov 3. No fx.",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-07-bf06",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Axios via Just Security Early Edition",
+      "source": "",
+      "text": "Axios: the Pentagon tells CENTCOM to finish preparing to resume major combat in Iran, no date set; US and Israeli sources say strikes could resume before the midterms, a day before Trump's Oct 8 no-strike pledge.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "CFTC",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): an unresolved question over trading ahead of Trump's Iran announcements adds legal and political risk for the administration if it is pursued after the midterms. One outlet, anonymous sources, no finding of wrongdoing. No fx.",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-13-bf07",
+      "issues": [
+        "IRN",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Bloomberg via Just Security Early Edition",
+      "source": "",
+      "text": "Bloomberg: a senior adviser to CFTC chair Selig told a supervisor to retract analysis of suspicious oil trades around Mar 23, when Trump backed off threats to strike Iranian power plants; the division had referred it to enforcement and sources say Selig is intervening.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Iranian officials",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): Iran is openly pricing the midterms into its strategy, which hands Trump the argument that Iran is interfering and raises oil-price risk for the Operation. Anonymous Iranian officials; a party's own framing. No fx.",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-14-bf08",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Reuters via Just Security Early Edition",
+      "source": "",
+      "text": "Reuters: senior Iranian officials say Iran adopted new tactics against Hormuz shipping about Oct 4 to keep oil prices high and influence the US midterms.",
+      "tier": "claimed",
+      "weight": 2
+    },
+    {
+      "actor": "Iran (ambassador to Pakistan)",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): Iran is publicly blaming Washington for the stalled interim deal, which pairs with the Qatari draft of Oct 25. A party's claim; no US reply reported. No fx.",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-24-bf09",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 26 edition)",
+      "source": "",
+      "text": "Iran's ambassador to Pakistan says Iran offered to reopen Hormuz if the US lifts its naval blockade and accuses Trump of rejecting it; Iran says it remains open to talks under the June interim deal.",
+      "tier": "claimed",
+      "weight": 2
+    },
+    {
+      "actor": "Netanyahu / IDF",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "CNN (Oct 27): Netanyahu sought Trump's backing for a strike before Israel's election and Trump did not approve; Netanyahu's office calls it fake, while Netanyahu says the US and Israel must topple the regime.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-26-bf10",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Net effect (my reading): two outlets now report Netanyahu pushed for a pre-election strike and Trump declined, so Trump, not Israel, holds the timing. Anonymous sources; Netanyahu's office denies. No fx.",
+      "source": "Just Security Early Edition citing NYT; CNN via Business Today",
+      "text": "NYT: Netanyahu pressed for a new Iran strike for weeks while IDF chief Zamir resisted and warned of miscalculation.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Trump administration (WSJ)",
+      "added": "2026-10-29",
+      "by": [
+        "pentagon"
+      ],
+      "context": "CNN via Ynet (Oct 26): forces in the region could launch a major offensive within 96 hours of an order, on nuclear, military and energy targets; after Nov 3 seen as more likely. CNN (Oct 26, via TVG): the US could launch large new operations within 96 hours of an order; the target list includes energy, military and nuclear sites.",
+      "date": "2026-10-28",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: positioning and warnings to Gulf states favor the strike camp; re-score if Trump publicly accepts the Qatari draft or announces a delay.",
+      "id": "irn-2026-10-28-f201",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the post-election strike option is moving from planning to positioning, which strengthens the Go Big camp against the Squeeze camp and the Operation once the Nov 3 hold ends. Anonymous-source report relayed by Anadolu; Trump has not made a final decision. Counter-reading: signaling meant to pressure Tehran into the Qatari draft; falsifier: Iran accepts a deal and forces are not added. Provisional tag.",
+      "source": "Anadolu Agency (citing WSJ); White House declined to comment; CNN via Ynet; CNN via TVG Daily Brief",
+      "text": "WSJ: Gulf states are told to prepare for a \"short, intense\" US campaign against Iran after Nov 3; a Patriot system is moving in, troops have left vulnerable bases, an extra carrier group and a Marine unit join about 20 warships next month, and Trump reportedly leans toward a large post-election strike on infrastructure and nuclear sites.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "State Department, Houthis",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): the US is pulling civilians from Saudi Arabia while weighing a new front against the Houthis, which widens the war ahead of the election. Trump's talks-are-close claim is a statement. One live blog; strike options on the Houthis are unconfirmed. No fx.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-21-f201",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Fox News live blog (Oct 21)",
+      "source": "Araghchi wrote in the FT that Iran wants a deal but will defend itself; Israeli jets flew toward Iran's border Oct 19 in a described training exercise (Axios).",
+      "text": "The State Department orders non-emergency US staff and families to leave Saudi Arabia amid Houthi attacks (Dammam airport, Shaybah oilfield); Trump is reportedly weighing direct strikes on the Houthis and says the US has \"decimated\" Iran and would not disrupt talks close to ending the war.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "JD Vance",
+      "added": "2026-10-30",
+      "by": [
+        "vance"
+      ],
+      "context": "Recipient: the secretary of Iran's Supreme National Security Council (The National, WSJ via TVG, Oct 29); Trump says it was about medical supplies. Nov 2 (Euronews): Iran's Rezaei says he has not answered a Vance letter and US conditions come first; whether he is that recipient is unclear.",
+      "date": "2026-10-28",
+      "fx": {
+        "hawks": -1,
+        "vance": 1
+      },
+      "fxnote": "Provisional: Vance owns the diplomatic track and the hawks strike option is harder to justify; re-score if Trump orders a strike or disowns the letter.",
+      "id": "irn-2026-10-28-vance-letter",
+      "issues": [
+        "IRN",
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Vance lane",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Vance opens his own channel to Tehran days before the post-midterm window, giving the restraint camp a live diplomatic track that raises the cost of a Nov 3-4 strike order. Evidence: letter reported Oct 28; Vance led the April Islamabad talks. Not established: Iran's reply, Trump's sign-off, or whether the letter is official policy. Counter-reading: it can be cover for a later strike or a Trump-approved pressure move. Falsifier: Trump orders strikes right after Nov 3 with no reply window. Attribution: Vance lane authored it; hawks are the camp it constrains. Relayed sourcing, so provisional.",
+      "source": "Iran International, NYT via ROIC; TVG Daily Brief (Oct 29); Euronews (Nov 2)",
+      "text": "Vance sends a letter to a senior Iranian hardliner proposing to restart peace talks (NYT as relayed by Iran International and ROIC; original not read).",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Qatar, Iran",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Reuters version printed Oct 28, so the date moves from Oct 29. Contradicts the Oct 25 draft reports. Al Jazeera headline Oct 30 (not read): a Qatari delegation is in Tehran. No US reaction found.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-29-qatar-contested",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Iran",
+      "precision": "day",
+      "rationale": "Chron: the seven-day deal status is contested between anonymous officials; neither is confirmed. Not established: any deal.",
+      "source": "Reuters via apa.az; investingLive, Kurdistan24",
+      "text": "A senior Iranian official tells Reuters Qatar sent 'a list of unacceptable ideas' and there will be 'no concessions on the nuclear issue'; Iran's answer to the seven-day draft was expected about Oct 30-31.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Brad Cooper, Trump",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Euronews (Oct 30): the IRGC says two to three tankers are on fire on 'unauthorized' routes; Cooper says the lanes are cleared of mines and the Guard no longer operates in the waterway. The two claims conflict. South Korea is weighing a carrier for Hormuz (digest).",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-29-cooper-blockade",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "CENTCOM",
+      "precision": "day",
+      "rationale": "Both sides' claims about the strait, now read in one outlet; neither verified. No faction effect scored.",
+      "source": "Everything Briefing digest (Axios, AP headlines); Euronews (Oct 30)",
+      "text": "CENTCOM commander Cooper briefs Trump on the Iran naval blockade; Iran says three tankers hit mines (Axios, AP; headline only).",
+      "tier": "claimed",
+      "weight": 2
+    },
+    {
+      "actor": "Pete Hegseth, Sean Parnell",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "No budget or timeline set; stated reason is a possible multi-front war that cripples grids. Neither readable report names Iran. Coverage ran Oct 25-30 and the ledger missed it.",
+      "date": "2026-09-30",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: the Pentagon owns a new resilience program and budget argument; re-score if Congress declines funding or Treasury or the White House block it.",
+      "id": "irn-2026-09-30-fortress",
+      "issues": [
+        "IRN",
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon gains a standing justification and program to claim energy, reserve and hardening money, and signals it is planning for a long, infrastructure-disrupting war, which fits the post-midterm Iran option but is not shown to be tied to it. Evidence: Pentagon spokesperson on record, five-pillar program reported by SOFX. Not established: funding, deadline, any Iran link or the August freezer incidents link (timing only). Counter-reading: routine resilience planning rebranded for budget season. Falsifier: no FY27 funding request or the program is folded into existing energy plans. Attribution: Pentagon faction authored it. Read from Fox first half verbatim and SOFX; Anadolu and Snopes could not be fetched.",
+      "source": "SOFX, Fox News Digital (Parnell statement)",
+      "text": "The Pentagon launches FORTRESS: every major continental US base must run essential operations for at least 90 days without civilian power, water, fuel or supply; plans cite microgrids, batteries and portable reactors plus reserves of munitions, fuel and parts. Hegseth unveiled it Sep 30 (SOFX); Parnell defended it publicly (Fox, Oct 25).",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "Cyber Command, Army CID",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "No suspect named; Reuters could not say how far the probe has gone or whether Danfoss controllers were involved. Issue link to Iran is a hypothesis only. Bases named in a digest: Fort Huachuca, Fort Irwin, Holloman, Naval Station Newport, Little Rock, F.E. Warren, Robins; CID is also looking at 350+ French supermarkets hit by similar cooling overrides.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: no attacker named and no faction position changes yet; direction unclear until attribution.",
+      "id": "irn-2026-10-29-freezer-cyber",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon has a documented infrastructure-cyber incident on its bases weeks before it announced FORTRESS, which strengthens the case for hardening spending and raises the cost of a war that invites retaliation, but no attacker is identified. Evidence: Reuters, four anonymous officials, on-record Cyber Command statement. Not established: who did it, whether state-backed, any Iran link, whether the incidents are connected to FORTRESS (an aggregator links them by timing only). Counter-reading: faulty controllers or criminal extortion. Falsifier: investigators attribute it to a criminal or fault. Single wire story, anonymous sourcing.",
+      "source": "Reuters via TBS News, Business Recorder, WTVB",
+      "text": "Reuters, citing four unnamed officials, reports the Pentagon is treating August freezer malfunctions at at least six base commissaries (Fort Huachuca named) as a suspected cyberattack; Cyber Command and Army CID are investigating with French police over a similar supermarket freezer attack in France in October.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Pete Hegseth, Sean Parnell",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Second J-5 director removed under Hegseth; Parnell on record. CBS (Oct 30): disclosing polygraph results may break privacy law. Axios (Nov 3), internal Pentagon report: four failed polygraphs (earlier reports: three), admissions in two interviews, DOJ investigating, court-martial possible.",
+      "date": "2026-10-29",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: Hegseth consolidates control of planning and information; re-score if DOJ declines the referral or the removal is tied to a strike dispute.",
+      "id": "irn-2026-10-29-sylvia-leak",
+      "issues": [
+        "IRN",
+        "RUS"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-29",
+          "context": "Second general removed from the post in about a year.",
+          "id": "irn-2026-10-bf11",
+          "kind": "act",
+          "source": "The Atlantic and AP via SAN",
+          "text": "Hegseth removes Lt. Gen. Brett Sylvia, head of the Joint Staff's strategy and plans office (J-5), as officials reportedly warn Middle East countries to prepare for possible post-midterm strikes on Iran; no reason given.",
+          "tier": "reported",
+          "weight": 3
+        }
+      ],
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Hegseth tightens control over Iran and Russia planning by removing the planner at the center of the post-midterm strike options and criminalizing the leak, which cuts the flow of information to the press but also removes an experienced planner days before the decision window. Evidence: several outlets cite Pentagon officials and Parnell on the record. Not established: that Sylvia leaked anything, DOJ's decision, or whether the removal reflects a policy dispute over Iran. Counter-reading: a genuine leak case unrelated to strike policy. Falsifier: charges, or a named successor who changes the strike plans. Attribution: Pentagon faction authored it.",
+      "source": "CBS and The Hill via TNND/WGME, TVG Daily Brief; The Atlantic and AP via SAN; i24NEWS; Axios (Caputo, Nov 3)",
+      "text": "Hegseth removes Lt. Gen. Brett Sylvia, Joint Staff strategy and plans chief (J-5), accused by Pentagon officials of leaking classified Iran and Russia-Ukraine information, with failed polygraphs and a DOJ referral; the Joint Staff retracted a thank-you statement.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "Unknown, Iran",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Attacks on shipping have repeated since the war began; no US response found. Arab News (UKMTO): the ship continued to its next port; attacker unknown.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-29-khasab-tanker",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Gulf",
+      "precision": "day",
+      "rationale": "Chron: continued risk to Hormuz shipping and oil prices into the Nov 3 window; no faction effect scored.",
+      "source": "TVG Daily Brief citing UKMTO; Euronews and Baird Maritime/Reuters (Oct 30); SOFX daily edition (Oct 31, teaser only); Arab News citing UKMTO (Oct 30)",
+      "text": "A small boat attaches two explosive devices to a tanker (FT: Louise 1) about 25 nautical miles northeast of Khasab, Oman (UKMTO): engine-room fire, since put out, crew safe. Attribution unclear; Iran says it targets ships that break its passage rules.",
+      "tier": "reported",
+      "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+      "weight": 2
+    },
+    {
+      "actor": "Volt Typhoon, Lumen Black Lotus Labs",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "No issue fits cleanly; stored here because it bears on base and infrastructure resilience (FORTRESS) and the cyber picture. The link is a hypothesis.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-29-volt-typhoon",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "China",
+      "precision": "day",
+      "rationale": "Chron: a vendor report of Chinese pre-positioning in US infrastructure supports the resilience argument; not tied to the base freezer incidents.",
+      "source": "TVG Daily Brief, BleepingComputer and Nextgov (headlines)",
+      "text": "Lumen reports China-linked Volt Typhoon used a rotating relay network called Silent Train since late 2023 to exploit zero-days in network gear, with hundreds of victims across telecom, government, defense, water and energy; Lumen assesses it as pre-positioning.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Hegseth (Pentagon)",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Triggers named by DefenseScoop: an April DOJ case against an Army special-operations sergeant accused of betting on the Maduro capture before it was public (about $410,000, pleaded not guilty), and August reports of 150+ Polymarket wallets trading on possible military insider information. Link to the Iran issue is a hypothesis: the same leak worry sits behind the Sylvia firing.",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "No fx: an internal discipline rule; no faction's position changes.",
+      "id": "irn-2026-10-20-hegseth-betting-memo",
+      "issues": [
+        "IRN",
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon is tightening control of operational information before possible Iran strikes, which supports the Pentagon camp's leak crackdown but does not change the Iran decision itself. Evidence: the memo as reported by DefenseScoop and the Early Edition; the article was read as a tool summary, not verbatim. Not established: any investigation of a specific bettor on Iran. Counter-reading: an ethics rule prompted by the Maduro case alone. Falsifier: no enforcement follows. Attribution: Hegseth's office.",
+      "source": "DefenseScoop (Oct 22), Just Security Early Edition (Oct 23)",
+      "text": "Hegseth issues an Oct 20 memo barring personnel from betting, including on prediction markets such as Polymarket and Kalshi, with non-public government information; violations can bring UCMJ or criminal action.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "FBI",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Headline only from the Just Security Early Edition of Oct 26; the article was not read. Sits alongside the Sylvia firing over alleged Iran and Ukraine war leaks.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "No fx: headline only; article not read.",
+      "id": "irn-2026-10-26-brinksman-leak-arrest",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "FBI",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): headline only, so no effect is scored; it fits the week's leak crackdown. Not established: charges, link to Iran plans.",
+      "source": "Just Security Early Edition (headline only)",
+      "text": "FBI arrests contractor Ian Brinksman for allegedly leaking classified defense information to a Substack writer.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "UK authorities",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Headline-level from the TVG Daily Brief of Oct 27; the underlying reporting was not read. Stars and Stripes (via TVG, Oct 27): two men are charged, one under the National Security Act in the Iran-linked case.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "No fx: headline only; article not read.",
+      "id": "irn-2026-10-27-fairford-plot",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "UK",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): headline only; if confirmed, Iranian targeting of US forces in Europe raises the cost of staging strikes from UK bases. Not established: the plot details.",
+      "source": "TVG Daily Brief (headline only); Stars and Stripes via TVG Daily Brief",
+      "text": "A man is charged in the UK with assisting an Iran-linked intelligence service in a plot tied to RAF Fairford; the UK prime minister says Iran played a part and the US Air Force removed B-1 bombers from the base.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Iran, Qatar (relay), US",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Earlier step of the track behind Rezaei's Oct 11 'inadequate' verdict and Iran's Oct 24 claim that Trump rejected the swap (irn-2026-10-24-bf09). Exact day not confirmed: page dated Sep 30 to Oct 1.",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-09-30-us-response-hormuz",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): a blockade-for-Hormuz swap was on the table a week before Trump's Oct 8 pledge, so the later deadlock is over sequencing, not substance. Iran's account via Reuters; US terms unpublished.",
+      "source": "Reuters via Hawaii Tribune-Herald",
+      "text": "Iran says it received an official US response to its proposal to trade reopening Hormuz for an end to the US blockade of its ports; the sides reportedly agree on the steps but not their order, with Qatar relaying in New York proximity talks.",
+      "tier": "reported",
+      "url": "https://www.hawaiitribune-herald.com/?p=379059",
+      "weight": 2
+    },
+    {
+      "actor": "Congressional Research Service",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Pairs with CENTCOM's $47B war-cost estimate (irn-2026-10-27-war-cost). The CRS report itself was not read, so tier is reported, not documented.",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-07-crs-aircraft-losses",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): an official congressional tally of losses gives war-powers critics a cost figure before any post-midterm strike. Report described by one outlet.",
+      "source": "Stars and Stripes",
+      "text": "A Congressional Research Service report counts 81 US aircraft and drones destroyed or damaged in the Iran war since Feb 28, including 45 MQ-9s, up to 12 F-15Es, 7 KC-135s and 7 helicopters, at a cost of $1.9B to $3.3B.",
+      "tier": "reported",
+      "url": "https://www.stripes.com/theaters/middle_east/2026-10-07/report-81-aircraft-lost-iran-war-23085078.html",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon; Sen. Chris Murphy",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Critical read: the Pentagon is spared scrutiny; Murphy gains an audience. Counter-reading: a standing March travel rule, not aimed at him. Falsifier: other members get access. Fits the Pentagon's information control (Sylvia leak case, Oct 29).",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "No fx: one denied visit changes no faction's tools or standing yet; re-score if Murphy's base-access bill advances or more members are refused.",
+      "id": "irn-2026-10-08-murphy-al-udeid",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon keeps control of what Congress sees of war damage during the strike hold, at the price of a new oversight fight. One outlet; Murphy's damage claims are his own and unverified.",
+      "source": "Military Times",
+      "text": "The Pentagon denies Sen. Chris Murphy access to Al Udeid air base in Qatar, citing March travel limits; Murphy calls it a cover-up of war damage, plans a base-access bill and says drones left part of the US Embassy in Riyadh uninhabitable.",
+      "tier": "reported",
+      "url": "https://militarytimes.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/",
+      "weight": 3
+    },
+    {
+      "actor": "US officers, IDF chief Eyal Zamir",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Context for irn-2026-10-08-904876 (Trump's pledge) and irn-2026-10-07-bf06 (Axios: CENTCOM told to finish preparing).",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-08-zamir-three-weeks",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): US military preparation was running ahead of Trump's political timeline on the day he pledged the hold. Single Israeli TV report, anonymous sourcing.",
+      "source": "Channel 12 via Times of Israel liveblog",
+      "text": "Israel's Channel 12: US officers told IDF chief Eyal Zamir to prepare for a massive Iran attack within three weeks; Zamir warned a strike then could delay Israel's election. The same day Trump pledged no attack before Nov 3.",
+      "tier": "reported",
+      "url": "https://www.timesofisrael.com/liveblog_entry/zamir-told-us-generals-that-striking-iran-in-coming-weeks-could-delay-israeli-election-report/",
+      "weight": 2
+    },
+    {
+      "actor": "CENTCOM (US fighter)",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Critical read: China's shipping and the China truce carry the risk; the Pentagon keeps a kinetic role during the hold. Counter-reading: a one-off warning strike. Falsifier: no further strikes, or a Chinese response that forces a pause. China's reaction not read.",
+      "date": "2026-10-10",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: kinetic enforcement keeps the Pentagon active during the hold; re-score if China's response forces a pause or the ship is shown to be outside the blockade zone.",
+      "id": "irn-2026-10-10-ocean-molica",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the blockade is now enforced by force against a Chinese-owned ship during the strike hold, showing Trump's Nov 3 pledge does not cover blockade enforcement. CENTCOM's own account via one outlet.",
+      "source": "Maritime Executive (citing CENTCOM)",
+      "text": "CENTCOM says a US fighter disabled the Hong Kong-owned bulk carrier Ocean Molica with a precision munition on its stern after it left an Iranian port and ignored warnings; no crew were hurt. The ship's tracking position is disputed.",
+      "tier": "reported",
+      "url": "https://maritime-executive.com/article/u-s-claims-to-have-hit-chinese-owned-freighter-that-ran-blockade-on-iran",
+      "weight": 3
+    },
+    {
+      "actor": "Houthis, Saudi Arabia, Trump",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Extends irn-2026-10-04-bf03 (Oct 7-8 airport strikes) and precedes irn-2026-10-21-f201 (State orders staff out of Saudi Arabia).",
+      "date": "2026-10-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-10-riyadh-airport",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): an American death and Trump's opening raise the chance the US is drawn into the Saudi-Houthi front beside Iran. Trump's remark is a statement, not an act.",
+      "source": "Reuters via Hawaii Tribune-Herald; AP and Bloomberg via Colorado Politics",
+      "text": "A Houthi attack on Riyadh's King Khalid airport kills 12, including one American, and wounds 309; on Oct 14 Aramco's Dhahran headquarters is hit, and Trump says the US 'may' join Saudi strikes on the Houthis.",
+      "tier": "documented",
+      "url": "https://www.hawaiitribune-herald.com/?p=379821",
+      "weight": 2
+    },
+    {
+      "actor": "Iran (Rezaei)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Follows irn-2026-09-30-us-response-hormuz and irn-2026-10-04-bf04 (seven conditions).",
+      "date": "2026-10-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-11-rezaei-inadequate",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Statement only: Iran says the gap is narrowing but not closed. A party's own words via one outlet.",
+      "source": "Gulf News",
+      "text": "Rezaei, described by Gulf News as secretary of Iran's Supreme National Security Council, calls the US reply to Iran's seven conditions 'inadequate', says some points were accepted and there is 'no return to status quo ante'.",
+      "tier": "claimed",
+      "url": "https://gulfnews.com/world/mena/iran-says-us-response-to-seven-conditions-is-inadequate-1.500706891",
+      "weight": 1
+    },
+    {
+      "actor": "Vortexa (data); US Navy blockade",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Supports the squeeze case held by Treasury and the hawks (meta/stances).",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-13-crude-exports-zero",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the blockade is working on exports, which strengthens the squeeze option against a new strike. Tracking data; smuggling may be uncounted.",
+      "source": "Reuters via Baird Maritime",
+      "text": "Vortexa data via Reuters: Iran's seaborne crude exports have been zero since the second week of September under the US blockade; about 83M barrels sit at sea, 43M trapped west of Hormuz; LPG exports fell 48% month on month.",
+      "tier": "reported",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/us-blockade-successfully-locks-down-iranian-crude-exports-at-zero",
+      "weight": 2
+    },
+    {
+      "actor": "Treasury (OFAC)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Critical read: Treasury acts; Iraq's banks and Baghdad pay; hawks' squeeze stance supported. Counter-reading: routine designations. Falsifier: wind-down extended or the bank delisted. Iraq has no ledger profile.",
+      "date": "2026-10-15",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Provisional: a named campaign keeps Treasury's tool at the center of Iran policy during the hold; re-score if a deal or a strike sidelines sanctions.",
+      "id": "irn-2026-10-15-economic-outcast",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Treasury widens the squeeze to Iran's money channels in Iraq during the strike hold, keeping sanctions central to Iran policy. Primary record; effect on Iraq ties not established.",
+      "source": "Treasury press release sb0660; OFAC recent actions",
+      "text": "Treasury, under 'Operation Economic Outcast', sanctions Iraq's International Development Bank, Iranian offshore banks Jazireh and Chabahar, exchange houses and oil trustee Razavi; an Oct 29 license (FF-1) gives the Iraqi bank until Dec 1 to wind down.",
+      "tier": "documented",
+      "url": "https://home.treasury.gov/news/press-releases/sb0660",
+      "weight": 3
+    },
+    {
+      "actor": "CSIS (estimate)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Bears on a strike on Pickaxe Mountain (irn-2026-10-16-d37a4f) and the Pentagon's low-stocks weakness.",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-16-gbu57-stock",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): deeply buried sites may be hard to hit again soon, which limits a large post-midterm strike. Think-tank estimate; real stocks are classified.",
+      "source": "Stars and Stripes",
+      "text": "CSIS estimates the US has only low single digits of GBU-57 bunker-buster bombs left after using 14 in June 2025; $123M has been redirected to production.",
+      "tier": "reported",
+      "url": "https://www.stripes.com/theaters/us/2026-10-16/bunker-buster-bomb-shortage-iran-23171412.html",
+      "weight": 2
+    },
+    {
+      "actor": "Treasury (OFAC)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Two days after Wright said tankers sold into legitimate trade lose designations (rus-2026-10-19-wright-tanker-relief). Terms of licenses GG and HH not read.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "No fx: second round of the same Treasury campaign, scored once on irn-2026-10-15-economic-outcast so one effect is not counted twice.",
+      "id": "irn-2026-10-21-outcast-shadow-fleet",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the squeeze continues at the shipping level while Energy offers tankers a way out, so sanctions push and pull on the same fleet. Primary record.",
+      "source": "OFAC recent actions; Treasury",
+      "text": "Treasury designates 18 shadow-fleet targets, including Karnakis and Karnakis, Roxette Maritime, Whales Shipping and nine vessels, and issues Iran general licenses GG and HH.",
+      "tier": "documented",
+      "url": "https://home.treasury.gov/news/press-releases/sb0660",
+      "weight": 3
+    },
+    {
+      "actor": "European Parliament",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Non-binding; member governments decide.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-22-ep-houthis",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Europe's legislature backs pressure on Iran's allies, a signal only. Primary record.",
+      "source": "European Parliament press release",
+      "text": "The European Parliament urges the EU to list the Houthis as a terrorist group and to send more ships to its ASPIDES Red Sea mission.",
+      "tier": "documented",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20261018IPR48266/parliament-wants-the-eu-to-designate-the-houthis-as-a-terrorist-group",
+      "weight": 2
+    },
+    {
+      "actor": "Rep. Thomas Massie",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Watch: lame-duck session after Nov 3.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-26-massie-impeachment",
+      "issues": [
+        "IRN",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Statement of intent: a Republican House is unlikely to act. One outlet.",
+      "source": "Sinclair (local12)",
+      "text": "Rep. Thomas Massie says he will reintroduce eight impeachment articles against Hegseth in the lame-duck session if he is still in office, three citing war powers over Iran; Jeffries and Kaine add pressure.",
+      "tier": "reported",
+      "url": "https://local12.com/news/nation-world/massie-says-he-will-reintroduce-impeachment-articles-against-hegseth-after-midterms-defense-secretary-congress-mike-johnson-hakeem-jeffries-president-trump-rrt",
+      "weight": 1
+    },
+    {
+      "actor": "Putin, Pezeshkian, Emir Tamim",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Qatar is the mediator of the seven-day draft (irn-2026-10-25-qatar-draft).",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-27-moscow-gecf",
+      "issues": [
+        "IRN",
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Russia places itself beside the Qatari mediation, giving Tehran another patron as it weighs the draft. One outlet; Pezeshkian's line is his own claim.",
+      "source": "Euronews (Italian)",
+      "text": "At a gas exporters' forum in Moscow, Putin meets Iran's President Pezeshkian and Qatar's Emir Tamim on the war, Hormuz and energy; Pezeshkian says the crisis can be solved without the US.",
+      "tier": "reported",
+      "url": "https://it.euronews.com/2026/10/28/putin-incontra-i-leader-di-iran-e-qatar-a-mosca-al-centro-la-crisi-energetica-e-hormuz",
+      "weight": 2
+    },
+    {
+      "actor": "Iran (Persian Gulf Strait Authority)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Watch: Nov 1.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-28-sinokor-threat",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Iran is asserting legal control over Hormuz traffic, a tool beyond mines and boats. A threat; no seizure yet.",
+      "source": "Maritime Executive",
+      "text": "Iran's Persian Gulf Strait Authority threatens legal action against all ships of South Korea's Sinokor from Nov 1, citing Hormuz violations.",
+      "tier": "reported",
+      "url": "https://maritime-executive.com/article/iranian-forces-threaten-sinokor-with-legal-action-for-hormuz-violations",
+      "weight": 2
+    },
+    {
+      "actor": "Treasury (OFAC)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Part of the pressure track running beside the blockade and the Qatar talks.",
+      "date": "2026-10-01",
+      "fx": {},
+      "fxnote": "No fx: incremental designation inside an existing campaign; no faction gains or loses ground by it.",
+      "id": "irn-2026-10-01-auto-rail-sanctions",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30 (completion pass)",
+      "precision": "day",
+      "rationale": "Weight 2: an incremental widening of existing sanctions during a blockade that already holds Iranian crude exports near zero; adds third-country exposure but changes no decision.",
+      "source": "OFAC recent actions, Oct 1, 2026 (https://ofac.treasury.gov/recent-actions)",
+      "text": "OFAC opens Iran's automotive and rail sectors to sanctions under EO 13902 and designates 29 entities (Iran Khodro, SAIPA, Iran's railway company, firms in Hong Kong, China, UAE, Germany, Turkey, Indonesia) and 2 individuals.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Treasury (OFAC)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Earlier round of the shadow-fleet campaign later branded Operation Economic Outcast (Oct 15, Oct 21).",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "No fx: routine designation round with no change in policy or in who decides.",
+      "id": "irn-2026-10-08-shadow-fleet-22",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30 (completion pass)",
+      "precision": "day",
+      "rationale": "Weight 2: routine enforcement round; the blockade, not designations, is the binding constraint on Iranian exports.",
+      "source": "OFAC recent actions, Oct 8, 2026 (https://ofac.treasury.gov/recent-actions)",
+      "text": "OFAC designates 6 individuals, 27 entities and 22 tankers in Iran's shadow fleet; General License EE allows winding down dealings with Samudra Marine.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Mojtaba Khamenei",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Comes as Axios and the WSJ report post-Nov 3 strike planning (irn-2026-10-28-f201, irn-2026-10-30-axios-strike-plans). Nov 1 headlines: response with 'no limitations' / 'geographically unrestricted' if attacked after the midterms.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-31-khamenei-deterrence",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Tehran raises the stated price of a post-election strike, especially for Gulf hosts; a party's own claim with no new capability shown. Read via newsletter summary.",
+      "source": "Axios AM newsletter (Barak Ravid); Iranian statement; Al Jazeera, Euronews (Nov 1 headlines); SOFX Pro (Nov 2 headline)",
+      "text": "Iran's Supreme Leader Mojtaba Khamenei orders an immediate response 'without geographical limitations' to any new US-Israeli attack, framed as 'maximum deterrence'.",
+      "tier": "claimed",
+      "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack",
+      "weight": 2
+    },
+    {
+      "actor": "Qatar; Pakistan (Asim Munir)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Munir's latest visit (Oct 26) came with the Saudi defence minister and Turkey's intelligence chief (irn-2026-10-26-tehran-talks). Al Jazeera says the Aug 7 Mecca pact could admit Iran (speculation).",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-30-mediators-return",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the mediation track stays live into the Nov 3 window, keeping a political cost on an immediate post-election strike; with no Iranian answer, nothing is settled. Supports the Oct 26 read.",
+      "source": "Al Jazeera; Euronews (citing CBS)",
+      "text": "Qatari mediators return to Tehran to revive the collapsed June ceasefire; Pakistan's army spokesman is 'cautiously optimistic' after Munir's two October visits. CBS: Iran is expected to answer a revised proposal by week's end; no answer reported.",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts",
+      "weight": 2
+    },
+    {
+      "actor": "Trump; US and Israeli planners",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Third outlet on post-midterm planning after CNN (Oct 26) and the WSJ (irn-2026-10-28-f201). Axios and MS NOW pages not read.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-30-axios-strike-plans",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Second-hand and headline only, so capped at 2. Net effect (my reading): more reporting that the hold ends with a strike option ready; Trump's 'soon' keeps both deal and force open.",
+      "source": "Euronews (citing Axios); MS NOW (headline only)",
+      "text": "Axios, relayed by Euronews: the US and Israel are considering large-scale strikes on Iran after Nov 3; Trump says the war will end 'soon' without saying by deal or force. An MS NOW headline says strikes resume the day after the midterms.",
+      "tier": "reported",
+      "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+      "weight": 2
+    },
+    {
+      "actor": "Unknown attacker; Qatar Gas Transport Company",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Al Jazeera (printed Nov 1) cites IMO/UKMTO: 120+ ships hit since the war began in February, October the deadliest month (at least 29). Qatar is mediating with Tehran (irn-2026-10-30-mediators-return).",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-30-al-mayeda-lng",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Chron: an unclaimed hit on a Qatari state shipper's carrier while Doha mediates. My reading: it raises Qatar's own stake in a quick settlement; no attacker named, so no faction effect. Single outlet; ship counts are IMO/UKMTO via Al Jazeera.",
+      "source": "Al Jazeera",
+      "text": "Qatar Gas Transport Company says its LNG carrier Al Mayeda was hit by 'unidentified objects' in the Gulf on the evening of Oct 30; no injuries or pollution, ship still operational. No party blamed.",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Headline-level from the RFE/RL live blog, The Arab Weekly and CBS live; rally date and full remarks not read. Follows his Oct 23 'another little Epic Fury' remark (irn-2026-10-23-847403). A Yeni Safak headline (page undated) says he threatened Iran with 'the hammer' at a rally.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-01-trump-one-or-two-sites",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Statement only, headline only. My reading: keeps the post-Nov 3 strike threat public while the Qatari track waits on Tehran; no act attached.",
+      "source": "RFE/RL live blog; The Arab Weekly; CBS News (headlines); Yeni Safak (headline, page undated)",
+      "text": "Trump says 'one or two sites' are left to take care of in Iran and at a Mississippi rally threatens to resume attacks (headline only); no Iranian reply to the revised Qatari proposal reported.",
+      "tier": "claimed",
+      "url": "https://www.rferl.org/",
+      "weight": 1
+    },
+    {
+      "actor": "Scott Bessent (Treasury)",
+      "added": "2026-11-01",
+      "by": [
+        "treasury"
+      ],
+      "context": "No Treasury release found; the page gives no Bessent inflation figure (the stored 'inflation claim' headline was not borne out). Iran International is an opposition-aligned outlet. Fits 'Operation Economic Outcast' (Oct 15, 21).",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-26-bessent-iran-shortages",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Chron: an official's forecast aimed at Iran's public, no new act. My reading: Treasury is selling the squeeze as the alternative to strikes; the forecast is Treasury's own claim, unverified.",
+      "source": "Iran International (interview)",
+      "text": "In an Iran International interview, Bessent urges Iranians to stock gasoline and heating fuel ahead of expected shortages and forecasts Iran's economy will shrink more than 25% in the 12 months to March 2027.",
+      "tier": "reported",
+      "url": "https://www.iranintl.com/en/202610265347",
+      "weight": 2
+    },
+    {
+      "actor": "Trump; Benjamin Netanyahu",
+      "added": "2026-11-02",
+      "by": [
+        "hawks"
+      ],
+      "context": "One outlet (Barak Ravid), US and Israeli sources. Follows WSJ (Oct 28) and Axios (Oct 30) reports of post-Nov 3 strike plans and Vance's letter to Tehran (Oct 28). Iran says its proposal is with Washington (Nov 2).",
+      "date": "2026-11-02",
+      "fx": {
+        "hawks": -1,
+        "vance": 1
+      },
+      "fxnote": "Provisional: one outlet on a private call, and Trump's preference can reverse; re-score if Trump orders strikes in the week after Nov 3 or the talks collapse.",
+      "id": "irn-2026-11-02-netanyahu-call",
+      "issues": [
+        "IRN",
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Trump signals the hold may outlast Nov 3 while talks run, stalling Netanyahu's push. No decision; prep goes on. A midterm-eve leak shows Trump not led by Israel. Counter: patience is pressure on Tehran. Falsifier: a strike order days after Nov 3.",
+      "source": "Axios AM newsletter (Nov 2), reporting by Barak Ravid; also Axios PM newsletter (Nov 2) item on Trump's phone interview, 'no rush'",
+      "text": "Axios: in a 'tough' call, Netanyahu presses Trump to strike Iran right after the midterms; Trump prefers to let talks play out and says he is 'not in much of a hurry'; talks and combat preparation continue in parallel.",
+      "tier": "reported",
+      "url": "gmail:Axios AM 2026-11-02",
+      "weight": 3
+    },
+    {
+      "actor": "Iran; Qatar (mediator); Trump",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Answers the revised Qatari proposal Iran was expected to answer by week's end (irn-2026-10-30-mediators-return). Terms not published. CBS live headline carries the same line; Semafor says oil fell on talk hopes (Nov 2). Nov 1 (Reuters via Arab News): Iranian negotiators held a third straight day of talks in Doha; Trump said there would be no new attacks before the vote; former Guards commander Mohsen Rezaei said Tehran is debating lifting its ban on nuclear weapons if war resumes; Rubio said talks never stopped.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-02-iran-proposal-us-court",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Resolved watch item. My reading: Trump now holds a live Iranian offer as the pre-election hold ends, which raises the cost of an immediate strike and gives the talks camp a text; Iran's claim only, terms unknown, so no faction scored.",
+      "source": "Al Jazeera live blog (Nov 2); CBS News (headline); Semafor Flagship (Nov 2); Reuters via Arab News (Nov 1)",
+      "text": "Iran says its proposal has gone to Washington through Qatari mediators and the 'ball is in the US court'; if its demands are met, Hormuz security returns and talks start soon. Trump says the war ends very soon, by a deal or 'the hammer'.",
+      "tier": "claimed",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon",
+      "weight": 2
+    },
+    {
+      "actor": "Israel's Central Elections Committee (Noam Sohlberg); Likud; Qatar",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Follows irn-2026-10-28-isr-election. AP Morning Wire carries the same news (headline). Qatar is also the mediator of the US-Iran track. On Nov 4 the committee certified the results and presented them to President Herzog. https://www.gov.il/en/pages/president-herzog-receives-the-official-results-of-the-elections-to-the-26th-knesset-4-november-2026 https://www.timesofisrael.com/election-chief-presents-results-to-president-says-casting-doubt-on-them-a-real-danger-to-democracy/ On Nov 5 both Arab lists recommended Eisenkot, and Herzog said he would announce his choice on Nov 8. The endorsements give Eisenkot a route to the mandate and Arab parties leverage over coalition terms. A mandate and a governing majority are separate decisions. https://apnews.com/article/a35d13806844d99fda93de0a19de57fa Herzog reported Nov 5 that 67 lawmakers recommended Eisenkot and 46 recommended Netanyahu. The tally strengthens Eisenkot’s claim to the mandate. Herzog cited mutual vetoes and planned direct talks before assigning it. Coalition commitments and governing authority remain open. https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-02-israel-results-stand",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: the count stands, so seat math is unchanged and Netanyahu stays caretaker during coalition talks. My reading: his camp's attack on Qatar targets the mediator of the US-Iran talks; no faction effect beyond the stored election shift.",
+      "source": "Al Jazeera (Nov 2); AP Morning Wire (Nov 2, headline)",
+      "text": "Israel's election committee head Noam Sohlberg says results stay valid even if foreign interference were confirmed; Likud alleged without evidence that Qatari-funded Arab parties stole the vote, which Qatar denies. Netanyahu's bloc has 53 seats, Eisenkot's 48; certification due this week.",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen",
+      "weight": 2
+    },
+    {
+      "actor": "Rep. Ro Khanna",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Statement only; no funding vote is scheduled. Thune could not count 50 Republican votes for the $95B war package (Jul 23). Massie plans lame-duck impeachment articles against Hegseth. After the election Khanna proposed using a short-term spending bill to bar funding for combat in Iran. This gives the earlier position a specific legislative route with the projected House majority. Text and leadership support remain open. https://english.udayanews.com/congressman-ro-khanna-urges-cutoff-of-iran-war-funding/",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-01-khanna-funding",
+      "issues": [
+        "IRN",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Statement only from a minority-party member on midterm eve; my reading: it previews a funding fight if Democrats win the House, but changes no one's options now.",
+      "source": "The Hill (Nov 1); Politico Playbook (Nov 1)",
+      "text": "Rep. Ro Khanna (D-California) says he would stop funding further US military action in Iran and that Congress should cut it off.",
+      "tier": "reported",
+      "url": "https://thehill.com/homenews/house/6187467-khanna-opposes-iran-war-funding/",
+      "weight": 1
+    },
+    {
+      "actor": "Saudi-led coalition; Houthis",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Continues the Houthi offensive on Saudi Arabia (irn-2026-10-27-houthi-egypt). Euronews (Nov 1, headline): the UN demands an inquiry into the death of a staff member held by the Houthis.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-02-yemen-jawf",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Headline only. Chron: the Saudi front stays active, keeping partners tied down; no US act reported.",
+      "source": "Al Jazeera (headline); Euronews (headline, Nov 1)",
+      "text": "The Saudi-led coalition intercepts a missile as fighting rages in Yemen's al-Jawf province (headline only).",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf",
+      "weight": 1
+    },
+    {
+      "actor": "Pentagon",
+      "added": "2026-11-02",
+      "by": [
+        "pentagon"
+      ],
+      "context": "",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-30-pentagon-budget-draft",
+      "issues": [
+        "IRN",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep). A draft, not a decision; matters for munitions stocks if the Iran war resumes.",
+      "source": "Politico via Jerusalem Post",
+      "text": "Politico: the Pentagon is privately drafting a budget of about $1.1 trillion instead of Trump's roughly $1.5 trillion request, counting on $350B through a reconciliation bill; the gap could slow replacing munitions used against Iran.",
+      "tier": "reported",
+      "url": "https://www.jpost.com/international/article-913313",
+      "weight": 2
+    },
+    {
+      "actor": "IAEA (Rafael Grossi)",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-10-27-iaea-heu",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep). The missing uranium is the main argument for a renewed strike.",
+      "source": "Arab News",
+      "text": "IAEA chief Rafael Grossi tells the UN Security Council remote monitoring shows no repairs at bombed Iranian nuclear sites, but about 440 kg of highly enriched uranium is unaccounted for and inspectors remain barred.",
+      "tier": "reported",
+      "url": "https://www.arabnews.pk/middle-east/no-sign-iran-is-rebuilding-nuclear-sites-but-440-kg-of-uranium-unaccounted-for-un-watchdog-says-3005428",
+      "weight": 2
+    },
+    {
+      "actor": "Unattributed attackers",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Oct 27 (CBS via TVG): UKMTO reported a burning vessel off Iraq and a tanker disabled by a projectile in Hormuz. See also the Al Mayeda LNG carrier (Oct 30).",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-01-tanker-wave",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator and digest sweeps).",
+      "source": "gCaptain (UKMTO, JMIC data); CBS via TVG Daily Brief (Oct 27)",
+      "text": "A tanker is hit by two projectiles about 72 nautical miles east of Ras Al Khafji, Saudi Arabia, and a merchant ship is struck in Hormuz (UKMTO); earlier the VLCC Arzanah (Oct 28) and the RITI (Oct 29, crew evacuated) were hit. No attribution.",
+      "tier": "reported",
+      "url": "https://gcaptain.com/new-wave-of-attacks-hits-tankers-and-lng-carrier-in-strait-of-hormuz-and-persian-gulf/",
+      "weight": 2
+    },
+    {
+      "actor": "Masoud Pezeshkian",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "FM Araghchi's conditions: end the war on all fronts, unfreeze assets, lift oil sanctions and the blockade, accept an Iran-Oman transit route, cut US troops. Rezaei says they come before talks and he has not answered a Vance letter. Reuters (Nov 3): an Iranian official says a deal is far off.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-02-pezeshkian-mandate",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Iran's public terms, documented as said by several outlets; they are Iran's opening demands, not an agreed offer. Same occurrence as candidate s2.",
+      "source": "Bloomberg and NYT via Politico Playbook PM (Nov 2); Euronews (Nov 2); Reuters via Semafor and Reuters Daily Briefing (Nov 3); CBS live updates",
+      "text": "Iran's President Pezeshkian says the supreme leader has given the government more power to pursue talks with the US; spokesman Baghaei says Hormuz could reopen within two days if the US meets Iran's conditions. Brent falls to a two-week low.",
+      "tier": "documented",
+      "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+      "weight": 2
+    },
+    {
+      "actor": "US military, under Trump",
+      "added": "2026-11-03",
+      "by": [
+        "pentagon"
+      ],
+      "context": "The US has fought Iran since the Feb 28 strikes; a June ceasefire collapsed and a US naval blockade goes on. Trump pledged no attack before the Nov 3 midterms; the last known US strikes were in early September. Qatar and Pakistan mediate. Next: Iran's reply and Trump's post-election strike decision.",
+      "date": "2026-11-03",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: the Pentagon used force during the hold at no visible cost; re-score if Iran retaliates hard, talks collapse, or Trump disowns the strikes.",
+      "id": "irn-2026-11-03-qeshm-strikes",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): US force on Iranian soil during the pre-vote hold, kept quiet, shows the hold has a self-defense exception the Pentagon can use; the post-vote decision stays open. Counter: routine force protection. Falsifier: no more strikes and talks advance. Iran's reply unknown.",
+      "source": "AP (Madhani) via AP Morning Wire and Politico Playbook; NYT; WSJ; Reuters via Semafor; Al Jazeera; CNN",
+      "text": "US forces strike Iranian targets near Qeshm and Hengam islands and Bandar Abbas by the Strait of Hormuz; a US official calls them defensive strikes on Iranians firing surface-to-air missiles at US forces. Unlike earlier strikes, they were not announced.",
+      "tier": "documented",
+      "url": "https://apnews.com/article/iran-us-strikes-strait-hormuz-183b3d32d9bf5241f744abb917e6713e",
+      "weight": 4
+    },
+    {
+      "actor": "JD Vance; Iran",
+      "added": "2026-11-03",
+      "by": [
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-03-vance-progress",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "A statement and Iran's claim; the tanker blasts are unverified (headline only).",
+      "source": "Al Jazeera live blog (Nov 3)",
+      "text": "Vance says there is 'progress' in indirect talks with Iran, while Iran insists the US first lift its naval blockade. An Al Jazeera headline says three tankers exploded in Hormuz; the page text read does not mention it (headline only).",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court",
+      "weight": 2
+    },
+    {
+      "actor": "Donald Trump",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "The ten-year aid pact gives Israel about $3.8B a year to 2028 (Times of Israel says 2027); Netanyahu has described only a gradual phase-out. Times of Israel calls the claim almost certainly false; JTA says the legal power to halt funding is unclear.",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-03-israel-aid-claim",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Documented that he said it; claimed as policy and contradicted by the aid pact and Netanyahu's phase-out line, so a claim, not an act. Re-weigh if an aid instruction or Israeli confirmation follows.",
+      "source": "JTA; Times of Israel live blog (Nov 3); BBC headline via NewsNow",
+      "text": "On Fox & Friends, Trump says US aid to Israel, '$4 billion', 'gets cut off at the end of the year' under an agreement with Netanyahu because Israel no longer needs it. No White House or Israeli follow-up; no policy act shown.",
+      "tier": "documented",
+      "url": "https://www.jta.org/2026/11/03/israel/trump-says-us-aid-to-israel-will-stop-at-end-of-year",
+      "weight": 2
+    },
+    {
+      "actor": "China",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-02-china-iran-oman",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Headline only; no detail on who met or what was agreed.",
+      "source": "Al Jazeera",
+      "text": "China steps up Middle East diplomacy with meetings with Iran and Oman (headline only).",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings",
+      "weight": 2
+    },
+    {
+      "actor": "US intelligence agencies",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-03-intel-sharing",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "One outlet, unnamed officials, read via a newsletter summary only; a pattern claim, not a dated act.",
+      "source": "Reuters via Reuters Daily Briefing (Nov 3)",
+      "text": "Reuters, citing officials: US intelligence sharing with Congress and other agencies, including on Iran, slowed and sometimes stopped during Trump's second term.",
+      "tier": "reported",
+      "url": "https://www.reuters.com/world/americas/us-intelligence-sharing-has-fractured-under-trump-officials-say-2026-11-03/",
+      "weight": 2
+    },
+    {
+      "actor": "Unknown attackers",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "The Pentagon is investigating whether a similar attack caused freezer failures at six US base commissaries in August (stored Oct 29). Any link to Iran or Russia is a hypothesis.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "irn-2026-11-02-europe-fridge-cyber",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Outside event, documented by three outlets; no attribution, so no effect on any faction yet.",
+      "source": "Reuters; Axios (Scribner); Euronews",
+      "text": "A cyberattack on supermarket refrigeration spreads across Europe, hitting Ahold Delhaize and Colruyt stores in Belgium and Luxembourg and ICA and Coop in Sweden and forcing food to be thrown out; it echoes a French attack in October. No attacker named.",
+      "tier": "documented",
+      "url": "https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/",
+      "weight": 2
+    },
+    {
+      "id": "irn-2026-11-04-ofac-designations",
+      "date": "2026-11-04",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Treasury Office of Foreign Assets Control",
+      "text": "OFAC announced Iran-related designations and published an alert on shadow-fleet sanctions evasion.",
+      "context": "Agency action. Review any resulting transaction and faction involvement separately.",
+      "source": "OFAC recent actions, November 4, 2026",
+      "url": "https://ofac.treasury.gov/recent-actions/20261104",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: this changes the sanctions implementation record. Faction influence remains unresolved.",
+      "origin": "broader intake",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: the notice establishes no faction-specific gain or loss."
+    },
+    {
+      "id": "irn-2026-11-04-vance-postelection-war-critique",
+      "date": "2026-11-04",
+      "precision": "day",
+      "issues": [
+        "IRN",
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "JD Vance and Donald Trump",
+      "text": "Vance publicly blamed the Iran war for Republican losses. Trump acknowledged the war’s electoral cost and defended his decision to fight.",
+      "context": "Axios reports that Vance previously defended the campaign publicly while privately questioning it and leading negotiations. Donald Trump Jr. publicly backed his postmortem, giving the message a channel into MAGA grassroots audiences. Rubio retains his State Department platform and is a potential rival. Compare https://www.axios.com/2026/11/05/vance-maga-power-play-2028 On Nov 5 Rubio acknowledged the political cost of higher gasoline prices in a New York Times interview, defended Trump’s decision, and denied that he was leaving State to launch a campaign, as reported by AP. https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002 His Oct 31 press availability had defended the administration’s security rationale. https://www.g20.utoronto.ca/2026/261031-rubio-press-conference.html My reading: after Vance’s voter-facing break, Rubio’s national interview reinforces his alignment with Trump and gives Republicans who defend the war a competing postmortem. It also ties Rubio to the war’s costs. Endorsements, polling, personnel and policy remain open. Khanna used the opening to urge attaching an Iran combat funding cutoff to a short-term spending bill. His channel is the incoming House majority and its spending agenda, contingent on leadership and votes. https://english.udayanews.com/congressman-ro-khanna-urges-cutoff-of-iran-war-funding/ Trump publicly welcomed Vance’s post on Nov 4 while defending his own decision to fight.",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/e92751dbcdf940c486c8d1e57dafbe99",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Vance’s public break after the election is a credible 2028 positioning move. It lets him appeal to voters alienated by the war and distinguish himself from its architects. The move gives him a clearer electoral argument. Changes in voter support, endorsements and war policy remain unresolved. Trump also acknowledged electoral costs, so the distinction is Vance’s public argument about whether the war was worth the price. Trump Jr.’s backing is for the message. Test durable advantage against candidate endorsements, polling and organizing.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [
+        "vance"
+      ],
+      "fx": {},
+      "fxnote": "No fx: succession positioning is visible, but a change in support is unmeasured.",
+      "challenge": {
+        "reading": "Khanna can use Vance’s argument to make a spending restriction harder to dismiss as purely partisan. Rubio can appeal to Trump loyalists. The public positioning already changed; coalition and policy outcomes are open.",
+        "resolution": "revised"
+      }
+    },
+    {
+      "id": "irn-2026-11-05-trump-postelection-war-review",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "IRN",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump met with national security advisers on Iran and publicly said a decision would come soon.",
+      "context": "Axios cited two U.S. officials for the meeting. It reported that new strikes, continued economic pressure and a negotiated deal remained options. The review follows the midterm losses and the limited Nov 3 strikes. Qatar News Agency reported that Trump called Emir Tamim Nov 6 about mediation and de-escalation. The emir urged continued diplomacy to protect navigation and energy supplies. The call confirms Qatar’s direct access after the options review. Axios separately attributed combat preparations and the absence of a new directive at the time of its report to a U.S. official. An order or agreement remains open. https://qna.org.qa/es-ES/news/news-details?date=6%2F11%2F2026&id=su-alteza-el-emir-recibe-una-llamada-telefonica-del-presidente-de-estados-unidos",
+      "source": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Trump retains control of the timing and keeps both diplomatic and military options available as Republicans debate the electoral costs of the war.",
+      "origin": "daily intake",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The review disclosed options and yielded no verified order or agreement."
+    },
+    {
+      "id": "irn-2026-11-06-canada-msb-sanctions",
+      "date": "2026-11-06",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Treasury; OFAC; Scott Bessent",
+      "text": "OFAC designated eight Canada-based money services businesses under Operation Economic Outcast.",
+      "context": "Treasury alleges the firms enabled Iranian financial transfers through digital assets, including sanctioned exchanges and addresses associated with the Revolutionary Guard. Designation is implemented; disruption of revenue is unmeasured.",
+      "source": "https://home.treasury.gov/news/press-releases/sb0686/ ; https://ofac.treasury.gov/recent-actions/20261106",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Treasury extends the financial-pressure route during diplomacy; designations do not demonstrate Iranian concessions or select renewed war.",
+      "origin": "daily intake 2026-11-07",
+      "added": "2026-11-07",
+      "by": [
+        "treasury"
+      ],
+      "fx": {},
+      "fxnote": "No fx: implementation or a durable faction outcome remains to be verified."
+    }
+  ]
+}

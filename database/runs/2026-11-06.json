@@ -1,0 +1,183 @@
+{
+  "added": 0,
+  "summary": "Focused Nov 5–6 follow-up across all ten issues. Rechecked both chamber projections, recorded Qatar’s mediation contact and Herzog’s recommendation tally, and expanded the House GOP leadership postmortem. The Nov 4 Los Angeles grand jury outcome remains unreviewed. The Nov 6 Cook filing and Venezuela TPS disposition remain pending verification.",
+  "coverage": {
+    "scope": "Targeted calendar and decision screen across all ten issues, with deeper Iran, Israeli coalition and U.S. midterm fallout review. Full source-index and named watch rotation outside scope.",
+    "lookbackDays": 1,
+    "sourcesRead": [
+      "https://apnews.com/article/ef6199e25927a9ac9f4c18eae0e497cd",
+      "https://qna.org.qa/es-ES/news/news-details?date=6%2F11%2F2026&id=su-alteza-el-emir-recibe-una-llamada-telefonica-del-presidente-de-estados-unidos",
+      "https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/",
+      "https://www.axios.com/2026/11/04/house-republicans-steve-scalise-jim-jordan-minority-leader",
+      "https://www.axios.com/2026/11/04/republicans-midterms-johnson-trump-scalise",
+      "https://www.axios.com/2026/11/05/nrcc-chair-richard-hudson-losss-midterms",
+      "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision",
+      "https://apnews.com/article/mideast-news-november-6-2026-ab62071e056c046fe6034216e14b8bb7",
+      "https://ofac.treasury.gov/recent-actions"
+    ],
+    "blocked": [
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-6-nov-2026 (web open returned URL not accessible)"
+    ],
+    "outcomes": {
+      "Outstanding election calls and certifications": {
+        "status": "pending",
+        "finding": "Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+        "source": "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743"
+      },
+      "Israel government formation": {
+        "status": "pending",
+        "finding": "Check Nov 8 mandate and subsequent coalition commitments.",
+        "source": "https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/"
+      },
+      "Cook court filing and hearing": {
+        "status": "pending",
+        "finding": "Nov 6 joint proposal and revised hearing date remain unverified after docket-oriented searches."
+      },
+      "Iran war decision": {
+        "status": "pending",
+        "finding": "Check for a new directive, observable implementation or an accepted agreement.",
+        "source": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
+      },
+      "House leadership and Pentagon job pressure": {
+        "status": "pending",
+        "finding": "Check Nov 10 conference votes, Massie floor action, Hegseth job status and Tennessee appointment.",
+        "source": "https://www.axios.com/2026/11/04/house-republicans-steve-scalise-jim-jordan-minority-leader"
+      },
+      "Succession": {
+        "status": "pending",
+        "finding": "Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+        "source": "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+      },
+      "AI": {
+        "status": "pending",
+        "finding": "Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments."
+      },
+      "Epstein oversight": {
+        "status": "pending",
+        "finding": "Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing.",
+        "source": "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations"
+      },
+      "Immigration court decisions": {
+        "status": "pending",
+        "finding": "Verify Nov 6 Venezuela TPS stay disposition and mandate, bond detention and Khalil."
+      },
+      "Tariffs": {
+        "status": "pending",
+        "finding": "Check Section 301 ruling, Section 338 litigation and Canadian negotiations."
+      },
+      "Venezuela": {
+        "status": "pending",
+        "finding": "Check OFAC Citgo decision and Nov 11–15 talks."
+      },
+      "Russia": {
+        "status": "pending",
+        "finding": "Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration."
+      },
+      "Election enforcement grand jury": {
+        "status": "unreviewed",
+        "finding": "Search surfaced prior subpoena reporting. The specific Nov 4 Los Angeles outcome remains unverified.",
+        "source": "https://www.latimes.com/california/story/2026-10-30/trump-doj-la-election-officials-subpoenas-explained"
+      },
+      "Senate oversight": {
+        "status": "pending",
+        "finding": "Watch for production, subpoenas and committee authority after organization.",
+        "source": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more"
+      },
+      "Afghan removal order expiration": {
+        "status": "pending",
+        "finding": "Check the November 7 expiration, any extension, and any subsequent removal notices.",
+        "source": "https://reports.afghanevac.org/litigation/?embed=1"
+      },
+      "D.C. Guard implementation and litigation": {
+        "status": "pending",
+        "finding": "Check implementation of expanded patrol authority and status of District litigation.",
+        "source": "https://apnews.com/article/e6f2fc06768103f59536b785756f8858"
+      },
+      "Chamber control": {
+        "status": "reviewed",
+        "finding": "AP projects Democrats will control both chambers of the next Congress.",
+        "source": "https://apnews.com/article/ef6199e25927a9ac9f4c18eae0e497cd"
+      },
+      "Israel consultations": {
+        "status": "reviewed",
+        "finding": "Herzog reported 67 recommendations for Eisenkot and 46 for Netanyahu. Mutual vetoes still constrain government formation.",
+        "source": "https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/"
+      },
+      "Iran mediation contact": {
+        "status": "reviewed",
+        "finding": "Qatar reported the Nov 6 Trump–Tamim call on de-escalation.",
+        "source": "https://qna.org.qa/es-ES/news/news-details?date=6%2F11%2F2026&id=su-alteza-el-emir-recibe-una-llamada-telefonica-del-presidente-de-estados-unidos"
+      }
+    },
+    "watchlist": [
+      "Outstanding election calls and certifications",
+      "Israel government formation",
+      "Cook court filing and hearing",
+      "Iran war decision",
+      "House leadership and Pentagon job pressure",
+      "Succession",
+      "AI",
+      "Epstein oversight",
+      "Immigration court decisions",
+      "Tariffs",
+      "Venezuela",
+      "Russia",
+      "Election enforcement grand jury",
+      "Senate oversight",
+      "Afghan removal order expiration",
+      "D.C. Guard implementation and litigation"
+    ],
+    "unresolved": [
+      "Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+      "Check Nov 8 mandate and subsequent coalition commitments.",
+      "Nov 6 joint proposal and revised hearing date remain unverified after docket-oriented searches.",
+      "Check for a new directive, observable implementation or an accepted agreement.",
+      "Check Nov 10 conference votes, Massie floor action, Hegseth job status and Tennessee appointment.",
+      "Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+      "Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments.",
+      "Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing.",
+      "Verify Nov 6 Venezuela TPS stay disposition and mandate, bond detention and Khalil.",
+      "Check Section 301 ruling, Section 338 litigation and Canadian negotiations.",
+      "Check OFAC Citgo decision and Nov 11–15 talks.",
+      "Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration.",
+      "Search surfaced prior subpoena reporting. The specific Nov 4 Los Angeles outcome remains unverified.",
+      "Watch for production, subpoenas and committee authority after organization.",
+      "Check the November 7 expiration, any extension, and any subsequent removal notices.",
+      "Check implementation of expanded patrol authority and status of District litigation."
+    ],
+    "changedEpisodeIds": [
+      "irn-2026-11-05-trump-postelection-war-review",
+      "irn-2026-11-02-israel-results-stand",
+      "mid-2026-11-04-johnson-leadership"
+    ],
+    "reviewedEpisodeIds": [
+      "irn-2026-11-05-trump-postelection-war-review",
+      "irn-2026-11-02-israel-results-stand",
+      "mid-2026-11-04-johnson-leadership",
+      "mid-2026-11-05-congress-control",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-10-31-hegseth-senate-seat"
+    ],
+    "propagation": {
+      "irn-2026-11-05-trump-postelection-war-review": [
+        "events/IRN",
+        "issues/IRN"
+      ],
+      "irn-2026-11-02-israel-results-stand": [
+        "events/IRN",
+        "issues/IRN"
+      ],
+      "mid-2026-11-04-johnson-leadership": [
+        "events/MID",
+        "issues/MID"
+      ]
+    },
+    "validation_results": "WARNING donors: \"Safety and Affordability PAC\" may combine several entries\nWARNING donors: \"American Iron and Steel Institute\" may combine several entries\nWARNING donors: \"Center for Economic and Policy Research\" may combine several entries\n0 errors, 3 warnings",
+    "checklist": {
+      "collector": "partial: targeted search and selected official sources",
+      "duplicates": "done",
+      "validation": "done"
+    }
+  }
+}

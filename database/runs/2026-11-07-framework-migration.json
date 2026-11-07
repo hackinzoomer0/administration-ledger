@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-07",
+  "type": "workflow_and_framework_migration",
+  "scope": "Repository and UI modernization only; no political news intake or forecast rescore.",
+  "changes": [
+    "Migrated monolithic HTML dashboard to React, TypeScript and Vite with Material UI, React Flow and Recharts.",
+    "Split all research collections into database/ and extracted daily, weekly and role prompts into prompts/.",
+    "Added separate page components, entity search, standard tables, profile dialogs, charts and a dedicated nominee view.",
+    "Migrated staged review, validation and publication tools into scripts/; publication verifies deployed commit and database fingerprint.",
+    "Added lint, typed build, unit/workflow tests, browser checks, documentation and GitHub Pages Actions deployment."
+  ],
+  "validation": {
+    "exact_migration_round_trip": "Parsed combined ledger including role prompts matched the extracted documents before intentional instruction updates.",
+    "event_count": 641,
+    "candidate_count": 5,
+    "forecast_weights": "unchanged",
+    "research_findings": "unchanged",
+    "unit_and_workflow_tests": 17,
+    "browser_tests": 2,
+    "owner_privacy": "screened before source publication"
+  },
+  "open_work": []
+}

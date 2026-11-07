@@ -1,0 +1,59 @@
+{
+  "added": 44,
+  "coverage": {
+    "blocked": [
+      "CNBC",
+      "Axios",
+      "Washington Post",
+      "FDD",
+      "JURIST",
+      "US News",
+      "Hoodline"
+    ],
+    "deviations": [
+      "Backfill relied on ten Just Security digests plus topic searches; Sep 29-Oct 1, Oct 6, Oct 11-12 and Oct 22 remain thin after re-search.",
+      "Senate war-powers vote (49-50) date not re-verified; stored Sep 24 kept.",
+      "Fed and markets daily summaries not read for the lookback.",
+      "Watch pass searched 10 names and found little; several items rest on single digest lines.",
+      "Independent audit task not created (denied by permissions)."
+    ],
+    "fxStats": {
+      "emptyWithReason": 4,
+      "scored": 10,
+      "weight3plus": 14
+    },
+    "lookbackDays": 30,
+    "propagation": {
+      "fed": "treasury+1, maximalists-1 on FOMC; stances FED",
+      "imm": "maximalists+1 x3, -1 x2; stances IMM",
+      "irn": "pentagon+1 Sylvia and WSJ Gulf warning; stances IRN, issue pending",
+      "legal": "3 new entries, 3 level notes, report/legal paragraph",
+      "mid": "party+1 FCC; motives MID entry",
+      "people": "5 new entries, 6 pattern lines",
+      "rus": "deal-capital+1, hawks-1",
+      "ven": "hawks+1, deal-capital+1; stances VEN"
+    },
+    "thinDays": [
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-06",
+      "2026-10-11",
+      "2026-10-12",
+      "2026-10-22"
+    ],
+    "watched": [
+      "Musk",
+      "Blanche",
+      "Hegseth",
+      "Miller",
+      "Bessent",
+      "Lutnick",
+      "Wiles",
+      "Kushner",
+      "Ellison",
+      "Adelson"
+    ]
+  },
+  "summary": "Remediation pass: scored fx on the 14 weight-3+ items (4 empty, each with a stated reason), propagated to factions, stances, motives, people, legal and the legal report, added 4 items, removed one stale AI item, ran a 10-name watch pass. Thin days reduced from 14 to 7."
+}

@@ -1,0 +1,123 @@
+{
+  "added": 8,
+  "coverage": {
+    "blocked": [
+      "The Hill",
+      "NPR (robots)",
+      "Anadolu (robots)",
+      "Snopes",
+      "US News",
+      "Washington Times",
+      "CNN"
+    ],
+    "checklist": {
+      "criticalRead": "done",
+      "fxScoring": "done",
+      "methodAudit": "done",
+      "passD2": "partial: swept again in the rerun, intelligence, Congress, courts and State headline-heavy",
+      "peopleDonors": "partial: none changed",
+      "propagation": "done",
+      "reportRevisions": "partial: did lines and pending only",
+      "stage1Enumeration": "partial: see runs/2026-10-30 for the Oct 23-30 rerun; Oct 24-25 weekend digests unavailable after three routes",
+      "stage1RecallSample": "partial: see runs/2026-10-30",
+      "watchPass10": "done in runs/2026-10-30"
+    },
+    "deviations": [
+      "Stage 1 enumeration covered only Oct 29-30 from two digests; Oct 23-28 digests (Everything Briefing, TVG) were not found by search and TVG's page links no earlier briefs.",
+      "Recall sample not run: no independent second headline index could be read.",
+      "Pass D2 ran for Pentagon, Justice, DHS, Treasury and intelligence only once each; State, White House, courts, Congress and the Fed were not swept.",
+      "Updated Oct 30 rerun: the Reuters NATO exclusive was found and recorded (reprint dated Oct 30, original date unconfirmed); the Hegseth betting memo was recorded; Pass D2 now covered all ten institutions."
+    ],
+    "fxStats": {
+      "empty": 2,
+      "emptyWithReason": 2,
+      "scored": 5
+    },
+    "lookbackDays": 7,
+    "methodAudit": {
+      "foundOnlyByStage1": [
+        "Volt Typhoon Silent Train",
+        "Khasab tanker attack",
+        "Lone Star arrests"
+      ],
+      "foundOnlyByStage2": [
+        "Sylvia leak and polygraph detail (institution sweep)",
+        "Hegseth voting stand-down (institution sweep)",
+        "DOJ subpoenas of LA County election workers upgrade (Justice sweep)",
+        "BGI import ban (Treasury/DHS sweep)"
+      ],
+      "missedByBoth": [
+        "FORTRESS (found by the reviewer, Oct 30)",
+        "Base freezer cyberattack report (found by the reviewer, Oct 30)"
+      ],
+      "proposedFix": "Read the Pentagon, Justice and DHS press-release index pages and a Reuters/AP index every day before any search; add TVG Daily Brief and DefenseScoop as daily enumerated sources; run the recall sample against a second index.",
+      "rootCause": "The daily run built its list from one digest plus ledger-keyed queries; FORTRESS and the Reuters exclusive were on no digest and matched no query. The institution sweep surfaced four more items the digests did not.",
+      "stage1": {
+        "headlinesTriaged": 45,
+        "kept": 14,
+        "recallSample": {
+          "items": [],
+          "missingFromLedgerOrTriage": 0,
+          "sampled": 0
+        },
+        "sourcesEnumerated": [
+          "TVG Daily Brief Oct 30",
+          "Everything Briefing Oct 30"
+        ]
+      },
+      "stage2": {
+        "itemsKept": 10
+      }
+    },
+    "propagation": {
+      "irn-2026-09-30-fortress": [
+        "events",
+        "factions/pentagon",
+        "issues/IRN"
+      ],
+      "irn-2026-10-29-freezer-cyber": [
+        "issues/IRN"
+      ],
+      "irn-2026-10-29-sylvia-leak": [
+        "events",
+        "factions/pentagon",
+        "issues/IRN"
+      ],
+      "mid-2026-10-29-doj-alaska-ca": [
+        "events",
+        "factions/maximalists",
+        "issues/MID"
+      ],
+      "tar-2026-10-28-bgi-ban": [
+        "issues/TAR"
+      ]
+    },
+    "queue": {
+      "captured": 0,
+      "triaged": 0
+    },
+    "sourcesRead": [
+      "TVG Daily Brief (Oct 30)",
+      "Everything Briefing (Oct 30)",
+      "AFP/TNND",
+      "AP via CP24",
+      "Law Commentary",
+      "DefenseScoop",
+      "Federal News Network",
+      "WGME/TNND",
+      "Fox News Digital",
+      "SOFX",
+      "Reuters copies"
+    ],
+    "thinDays": [
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28"
+    ],
+    "watched": []
+  },
+  "summary": "INCOMPLETE: see runs/2026-10-30 for the combined 8-day rerun. INCOMPLETE: Stage 1 (open enumeration) and its recall sample could not be completed for Oct 23-28; Stage 2 ran partly. Deviations: only the Oct 30 TVG and Everything Briefing digests were readable; digests for Oct 23-29 were not found by search; no independent second index was available for the recall sample. Method audit: FORTRESS, the base freezer report and the Sylvia leak detail were missed by the daily run and found only by the institution sweep or by the reviewer. Added 8 items (FORTRESS and freezer were added earlier today)."
+}

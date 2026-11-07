@@ -1,0 +1,47 @@
+{
+  "added": 9,
+  "coverage": {
+    "blocked": [
+      "CNBC",
+      "Axios",
+      "Washington Times",
+      "Babypips",
+      "Wikipedia not tried"
+    ],
+    "lookbackDays": 2,
+    "perIssue": {
+      "AI": "searched, nothing found",
+      "EPS": "found 1",
+      "FED": "found 1",
+      "IMM": "found 2",
+      "IRN": "found 3",
+      "MID": "found 1",
+      "RUS": "searched, nothing found",
+      "SUC": "found 1",
+      "TAR": "searched, nothing found",
+      "VEN": "found 1"
+    },
+    "queries": 30,
+    "queue": {
+      "captured": 5,
+      "triaged": 0
+    },
+    "sourcesRead": [
+      "Fortune",
+      "404K Research",
+      "The National",
+      "CBS News live blog",
+      "NPR/HPPR",
+      "Al Jazeera",
+      "House of Saud",
+      "Cuba Headlines",
+      "Denver Gazette",
+      "MPR News",
+      "ACLU",
+      "bizlegalservices"
+    ],
+    "unplaced": [],
+    "watched": []
+  },
+  "summary": "Added 9 items and revised the FOMC row: the Fed held 10-2 with Cook and Hammack voting for a hike, and Qatar floated a seven-day Iran deal; first run, so no earlier run to compare."
+}

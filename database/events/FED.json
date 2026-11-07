@@ -1,0 +1,1398 @@
+{
+  "issue": "FED",
+  "items": [
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Pressure turned from the chair's job to the Board's membership",
+      "date": "2025-04",
+      "fx": {
+        "maximalists": -1,
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2025-04-981988",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "origin": "Economy",
+      "precision": "month",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump backs off firing Powell after Bessent and Lutnick warn of market chaos and a legal fight (WSJ)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Opened the \"for cause\" route that the Supreme Court later required to be procedural",
+      "date": "2025-08",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2025-08-7a241a",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "origin": "Economy",
+      "precision": "month",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Cook referral and firing letter",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Pulte",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "\"We make referrals almost every day\"; Cook was one",
+      "date": "2025-08-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2025-08-20-e30ae1",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "GAO report",
+      "text": "Refers Cook to DOJ for mortgage fraud",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Cook: it was never about mortgage documents",
+      "date": "2025-08-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2025-08-25-af56b5",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "NOTUS",
+      "text": "Sends Cook a dismissal letter",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Tillis tied Warsh's confirmation to the probe, so dropping it was the price of the chair",
+      "date": "2026-01",
+      "fx": {
+        "dissenters": 1,
+        "maximalists": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2026-01-e135b8",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "origin": "Economy",
+      "precision": "month",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "DOJ probe of Powell, then its closure",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Pirro",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Powell calls it a pretext; Bessent tells Trump it \"made a mess\"",
+      "date": "2026-01-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-01-09-87479d",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-01-09-bf04ae",
+          "kind": "chron",
+          "source": "",
+          "text": "Powell subpoenas and his video reply",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CNN",
+      "text": "Serves grand jury subpoenas on the Fed over Powell's testimony",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "\"Central casting\"; on Feb. 4 says he would not have nominated him if he planned to hike",
+      "date": "2026-01-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-01-30-059355",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-01-30-8a4a48",
+          "kind": "chron",
+          "source": "",
+          "text": "Warsh named",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Fortune, CNA via Yahoo",
+      "text": "Names Warsh",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Tariff refunds (about $166 billion collected, $126 billion certified through Oct. 2) and an oil shock replaced tariffs as the main price story",
+      "date": "2026-02-20",
+      "fx": {
+        "dissenters": 1,
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2026-02-20-379d93",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-02-20-275a0e",
+          "kind": "chron",
+          "source": "",
+          "text": "Supreme Court strikes IEEPA tariffs, 6-3",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Supreme Court strikes the IEEPA tariffs 6-3; the Iran war begins",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-03-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-03-11-94e953",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Judge Boasberg: \"essentially zero evidence\"",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Pirro",
+      "added": "2026-10-28",
+      "by": [
+        "dissenters",
+        "maximalists"
+      ],
+      "context": "Says she \"will not hesitate\" to restart it",
+      "date": "2026-04-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-04-24-25dc26",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-04-24-2b57fe",
+          "kind": "chron",
+          "source": "",
+          "text": "DOJ closes the Powell probe",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Reuters",
+      "text": "Closes the Powell probe",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "The president got a chair; the Board stayed the same",
+      "date": "2026-05-22",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2026-05-22-0e33fc",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-05-22-3c185b",
+          "kind": "chron",
+          "source": "",
+          "text": "Warsh sworn in",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Warsh sworn in at the White House",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Aug. 3: Exxon and Chevron are \"making too much money\"; he holds stock in both",
+      "date": "2026-06-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-06-24-9d45a2",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "InvestmentNews, Newsweek",
+      "text": "Orders a DOJ probe of oil-company pricing",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Pulte",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Trump: \"appropriate action immediately\"",
+      "date": "2026-06-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-06-29-7f2e1a",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Breitbart",
+      "text": "Renews the Cook charge hours after the Supreme Court ruling",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "A White House hearing set for two days after the midterms",
+      "date": "2026-06-29",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2026-06-29-3c58d3",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "From summary firing to \"process\" against Cook",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-06-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-06-29-5f8b98",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Supreme Court, Trump v. Cook, 5-4",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Warsh",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Hassett (July 2): \"high confidence\" Warsh will persuade colleagues to cut",
+      "date": "2026-07-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-07-29-19f191",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Dow Jones, PCBB",
+      "text": "Holds rates; three presidents dissent for a hike",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Hammack, Kashkari, Logan dissent",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-07-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-07-29-0a9be5",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Hold, 9-3",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Scavino",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Trump (July 2): \"we're going to get it perfect, process perfect\"",
+      "date": "2026-08-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-08-05-6533ba",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "SCOTUSblog",
+      "text": "Writes Cook that Trump is \"considering\" her removal",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "White House",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-08-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-08-05-29f5f3",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Scavino notice to Cook",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Senate",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-08-07-64a51f",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Matsumoto confirmed as BLS commissioner",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Warsh",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "",
+      "date": "2026-08-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-08-28-377505",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Warsh's Jackson Hole speech signals hikes",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Warsh, Waller, Bowman",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Trump: told Warsh to vote with the Board; Navarro: Warsh is \"selling us out\"",
+      "date": "2026-09-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-09-16-44481e",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-09-16-ab2f34",
+          "kind": "chron",
+          "source": "",
+          "text": "Fed hikes 12-0",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "Semafor, Daily Beast",
+      "text": "Vote to hike, 12-0",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "The chair is shielded; the other members take the attacks",
+      "date": "2026-09-16",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "fed-2026-09-16-83a4dd",
+      "issues": [
+        "FED"
+      ],
+      "kind": "shift",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump shifts blame from the chair to the \"hostile\" Board",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Warsh",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "IG next day: no misconduct; Trump: Powell \"forced to resign\"",
+      "date": "2026-09-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-09-29-3beefe",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "WSJ via iTiger, Banking Dive",
+      "text": "Hands the renovation's execution to the GSA",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Fed IG; Trump demands Powell resign (10/1)",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-09-30-43c3ed",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Fed inspector general: no misconduct, about $1 billion overrun",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Sept. 16: told Warsh to vote with it",
+      "date": "2026-10-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-01-7eabdb",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Bloomberg Law",
+      "text": "Tells Time he \"probably would have voted against the board\"",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "BLS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-02-35b997",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "September payrolls +29,000",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Hassett (July 2): the White House \"respects the independence of the Fed\"",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-09-0a52cd",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-10-09-eae5a7",
+          "kind": "chron",
+          "source": "",
+          "text": "Cook committee and hearing ordered",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Reuters",
+      "text": "Convenes a committee and a White House hearing on Cook for Nov. 5",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "BLS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-14-fbddb8",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "September CPI 3.7%",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Blanche",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Trump (Oct. 1): asked Blanche to \"study\" the report Just Security also reports Blanche saying this on Oct 2 (Oct 5 edition), with a remark that Powell did not appropriately oversee the renovation.",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-16-79445c",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "fed-2026-10-16-127821",
+          "kind": "chron",
+          "source": "",
+          "text": "Blanche: DOJ will not reopen the Powell probe",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Banking Dive; Just Security Early Edition (Oct 5)",
+      "text": "Says DOJ will not reopen the Powell probe",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "White House",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-23-f7ff95",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump rolls back some Canada tariffs (headline)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "FOMC (Warsh)",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Cook's first dissent since joining the Board in 2022; first time since 1992 a governor and a bank president dissent together. Warsh declines forward guidance and says politics played no role. September CPI 3.7% year on year; December hike was about 78% priced before the vote (CME FedWatch via Fortune).",
+      "date": "2026-10-28",
+      "fx": {
+        "maximalists": -1,
+        "treasury": 1
+      },
+      "fxnote": "Provisional: the Warsh-led Board held and Cook voted to hike, which keeps rate control with the Board and weakens the Maximalists' case against Cook; re-score if the Nov 5 hearing or a December cut/hike reverses that.",
+      "id": "fed-2026-10-27-495a2c",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the Board, not the White House, keeps the rate decision, and its pull is toward tightening, so Trump's push for cuts gets no traction before the election while a December hike stays likely. Cook voting to hike undercuts the picture of her as a Trump-opposed dove, which complicates the Maximalists' Nov 5 case; the hold itself (not a hike) is the Warsh-led majority waiting. Counter-reading: a hold with two hawkish dissents may be Warsh buying time until after Nov 3, so the December hike is not locked. Falsifier: Warsh signals a cut or the Board splits the other way. Tags left empty because no faction clearly gained or lost; the effect falls on the Board and the administration's rate goals. Vote details are consistent across two read sources; Axios and CNBC pages could not be fetched.",
+      "source": "Fortune, 404K Research (Warsh press conference), Axios and CNBC headlines",
+      "text": "FOMC holds the funds rate at 3.75-4% by 10-2; Governor Cook and Cleveland Fed president Hammack both dissent in favor of a quarter-point hike. Statement drops the line that policy supports a timely return to 2% inflation.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "Hassett, Lucas, Sonderling",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-11-05-83a4a0",
+      "issues": [
+        "FED"
+      ],
+      "kind": "scheduled",
+      "origin": "Economy",
+      "precision": "month",
+      "rationale": "Upcoming date listed in the report; not yet an event, so no weight.",
+      "source": "Bloomberg TV via Investing.com (Oct 30)",
+      "text": "White House hearing on Cook (moved from Nov 5 to December; no date set)",
+      "tier": "carried",
+      "weight": 0
+    },
+    {
+      "actor": "Judge Kia Cobb",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-11-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-11-06-9862cc",
+      "issues": [
+        "FED"
+      ],
+      "kind": "scheduled",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Upcoming date listed in the report; not yet an event, so no weight.",
+      "source": "",
+      "text": "Court deadline for a joint proposal in Cook's case",
+      "tier": "carried",
+      "weight": 0
+    },
+    {
+      "actor": "Cook; BLS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-11-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-11-10-cf528d",
+      "issues": [
+        "FED"
+      ],
+      "kind": "scheduled",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Upcoming date listed in the report; not yet an event, so no weight.",
+      "source": "",
+      "text": "October CPI released (Cook's post-hearing statement deadline falls away with the hearing delay)",
+      "tier": "carried",
+      "weight": 0
+    },
+    {
+      "actor": "Warsh and the Board",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "",
+      "date": "2026-12-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-12-08-6e0e22",
+      "issues": [
+        "FED"
+      ],
+      "kind": "scheduled",
+      "origin": "Economy",
+      "precision": "day",
+      "rationale": "Upcoming date listed in the report; not yet an event, so no weight.",
+      "source": "",
+      "text": "FOMC; a hike is priced",
+      "tier": "carried",
+      "weight": 0
+    },
+    {
+      "actor": "Christine Lagarde",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-29-lagarde",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "ECB",
+      "precision": "day",
+      "rationale": "Headline only.",
+      "source": "Everything Briefing digest",
+      "text": "ECB President Lagarde says she will step down Feb 7, 2027 (digest).",
+      "tier": "claimed",
+      "weight": 1
+    },
+    {
+      "actor": "Trump (Defense Production Act)",
+      "added": "2026-10-30",
+      "by": [
+        "vance"
+      ],
+      "context": "Reported alongside US gasoline above $4 a gallon for the first time on record, diesel above $6 and Brent near $113 (investinglive, single outlet). Follows an April determination.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "No fx: no faction position changes; the effect falls on the administration's fuel-price exposure.",
+      "id": "fed-2026-10-22-dpa-petroleum",
+      "issues": [
+        "FED",
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "White House",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the White House is using emergency industrial powers to push fuel supply before the Nov 3 vote, which shows the Iran war's price cost is now a political liability for the administration. Evidence: the presidential memo and fuel-price reporting from one outlet. Not established: size of any funding or output effect. Counter-reading: routine follow-on to the April finding. Falsifier: no funded project follows.",
+      "source": "whitehouse.gov actions list; investinglive, Just Security Early Edition",
+      "text": "Trump signs a Defense Production Act Section 303 determination that domestic petroleum production, refining and logistics are essential to national defense; Vance ties it to a Texas refinery expansion. The Early Edition puts the funding at $150 million for domestic gasoline and diesel production.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Trump (EO 14435); Treasury",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Precedes the Oct 22 Defense Production Act petroleum memo; diesel above $6 reported Oct 22 (one outlet).",
+      "date": "2026-10-05",
+      "fx": {},
+      "fxnote": "No fx: a presidential relief order no faction contested; the effect falls on the administration's fuel-price exposure, not on any faction's hold on economic policy.",
+      "id": "fed-2026-10-05-diesel-tax-relief",
+      "issues": [
+        "FED",
+        "IRN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the White House spends tax receipts to blunt diesel prices through the election, a sign the war-driven fuel shock is a political cost. Evidence: the order. Not established: revenue or pump-price effect. Counter: routine relief. Falsifier: no extension past Dec 31.",
+      "source": "White House (presidential actions)",
+      "text": "Executive order lets Treasury defer federal diesel excise tax payments without penalty and waives dyed-diesel penalties from Oct 5 to Dec 31, citing tight global diesel supply.",
+      "tier": "documented",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/",
+      "weight": 3
+    },
+    {
+      "actor": "Trump; EPA",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Issue link is a hypothesis: energy deregulation as economic policy. Rule text not read; repeal needs rulemaking.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-27-methane-rule",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a rally announcement; formal EPA action not read, so capped as a reported claim of action.",
+      "source": "AP via WAMC",
+      "text": "Trump tells a Lubbock rally he is 'terminating' the 2024 methane rule for existing oil wells; EPA is to end the Super Emitter Program.",
+      "tier": "reported",
+      "url": "https://www.wamc.org/2026-10-28/trump-says-hes-ending-restrictions-on-climate-warming-methane-from-oil-drilling",
+      "weight": 2
+    },
+    {
+      "actor": "Commerce Department (BEA)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "September CPI was 3.7% (stored); FOMC held Oct 28 with two hike dissents; next FOMC Dec 8-9.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-29-q3-gdp",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: official data. My reading: strong growth and cooler quarterly inflation weaken the case for a December hike and give the White House a talking point before Nov 3.",
+      "source": "BEA",
+      "text": "Advance estimate: Q3 GDP grew 3.4% annualized (Q2 2.2%); PCE prices rose 2.1% and core 2.5%.",
+      "tier": "documented",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "weight": 2
+    },
+    {
+      "actor": "Trump (EO 14438); FHFA, USDA, VA",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "FHFA is run by Pulte.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "No fx: a relief order no faction contested; it creates pilots and a task force without moving any faction's hold on the Fed or the economy.",
+      "id": "fed-2026-10-22-housing-eo",
+      "issues": [
+        "FED",
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a pre-election cost-of-living order that uses agency pilots, not rates, to show action on housing while the Fed holds. Evidence: the order. Not established: cost or uptake. Counter: long-planned. Falsifier: pilots not launched.",
+      "source": "White House (presidential actions)",
+      "text": "Executive order on housing costs: FHFA mortgage-insurance cancellation pilot, a title-insurance waiver, a manufactured-housing task force, and lower USDA and VA direct-loan rates.",
+      "tier": "documented",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/decreasing-housing-costs-for-the-american-people/",
+      "weight": 3
+    },
+    {
+      "actor": "Treasury (year-end data)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "The Hill headline (Oct 30) says debt 'surpassed GDP' (framing unverified). Government funding runs out Dec 11 (Punchbowl, headline). A WSJ piece on vanished fiscal hawks was seen as a headline only.",
+      "date": "2026-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-fy2026-deficit",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "month",
+      "rationale": "Chron: official data via a think-tank summary. My reading: $1.1T of interest makes the Board's rate path a direct budget cost, adding to White House pressure for cuts before the Dec 11 funding fight. No stored belief covers the deficit; gap for the audit.",
+      "source": "American Action Forum (Oct 18-19); The Hill and Punchbowl headlines",
+      "text": "FY2026 deficit $2.0T (6.1% of GDP): spending $7.4T, revenue $5.4T, net interest $1.1T; debt held by the public $32.4T, about 100% of GDP (American Action Forum summary of Treasury data).",
+      "tier": "reported",
+      "url": "https://www.americanactionforum.org/insight/u-s-treasury-fy-2026-deficit-totaled-2-trillion/",
+      "weight": 2
+    },
+    {
+      "actor": "Exxon Mobil; Chevron",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Stored: Trump ordered a DOJ oil-pricing probe (Jun 24) and said Aug 3 that Exxon and Chevron are 'making too much money'; he holds stock in both.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-30-oil-majors-refining",
+      "issues": [
+        "FED",
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Earnings, weight 1. My reading: record refining margins during the fuel-price shock give the DOJ pricing probe a pre-vote target, but no act followed.",
+      "source": "Reuters via 93.3 The Drive (Oct 30)",
+      "text": "Exxon (adjusted earnings per share $4.23) and Chevron ($5.28) report earnings lifted by a war-driven refining surge; Exxon's downstream earnings rose 120%.",
+      "tier": "reported",
+      "url": "https://www.933thedrive.com/2026/10/30/exxon-chevron-earnings-propelled-by-war-driven-refining-surge/",
+      "weight": 1
+    },
+    {
+      "actor": "Energy Department",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Issue link is a hypothesis: federal industrial funding as economic policy. Reasons for the earlier withdrawal and the reinstatement are not given.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-30-doe-eastman-award",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Second-hand (digest summary), so capped at 2. My reading: a reversal of a grant cut that keeps federal money flowing to a plant; no faction's position changes.",
+      "source": "Plastics News via TVG digest (Oct 30)",
+      "text": "The Energy Department reinstates a $375M award to Eastman for a plastics recycling project.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Binance; Trump",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Date of the theft not given; Axios dated Oct 31. Issue link is a hypothesis: crypto markets and the stored Binance ties (MGX's $2B Binance deal settled in World Liberty's USD1; Zhao pardoned Oct 2025).",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-31-binance-theft",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Raised to 2 for an official FBI attribution, capped there because the Nov 1 facts are headline only. My reading: the 90% recovery shrinks the market shock and makes this a North Korea matter; no test yet of treatment of a firm tied to the family's crypto venture.",
+      "source": "Axios AM (Oct 31); Al Jazeera and The Hill (Nov 1 headlines, not read); Semafor Flagship Asia (Nov 1) and Reuters Daily Briefing (Nov 2) newsletters",
+      "text": "Record $6.3B theft from Binance; Trump says the US is looking into it. Nov 1 headlines: the FBI blames North Korea, and Binance says it recovered 90% of the stolen assets.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Voters; Republican Senate candidates",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Fits the stored fuel-price thread (diesel tax deferral, gasoline above $4, the Oct 22 Defense Production Act petroleum order).",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "fed-2026-10-31-heating-costs-gop",
+      "issues": [
+        "FED",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Headline only, weight 1. My reading: energy prices remain a midterm cost for Republicans; no act and no figures read.",
+      "source": "The Hill (Oct 31 headline via sitemap; article not read)",
+      "text": "The Hill: home heating costs threaten to chill the Republican vote in key Senate races (headline only).",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "Markets",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Headline only; the period of Intel's 29% fall and the exact correction date are not given. Follows ai-2026-10-30-ai-trade-slump (third weekly Nasdaq 100 fall), a separate occurrence.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "fed-2026-11-01-nasdaq-correction",
+      "issues": [
+        "FED",
+        "AI",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-01",
+      "rationale": "Headline only, capped at weight 2. My reading: the AI-stock slide reaches a 10% drawdown on the eve of the vote, adding to the economic headwind; no official's options change yet.",
+      "source": "Semafor Flagship Asia (newsletter headline, Nov 1)",
+      "text": "Semafor headline: the Nasdaq is in a correction; Intel is down 29%; S&P cuts its outlook on Meta.",
+      "tier": "reported",
+      "url": "gmail:Semafor Flagship Asia 2026-11-01",
+      "weight": 2
+    },
+    {
+      "actor": "Insurers; KFF",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "AP Morning Wire line citing a KFF analysis; whether 13% is the average benchmark premium or another measure is not stated.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "fed-2026-11-02-aca-premiums",
+      "issues": [
+        "FED",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Context, weight 2: no official acted. My reading: a health-cost headline lands the day before the vote, adding to the cost-of-living pressure Vance's 'we hear you' line tries to answer.",
+      "source": "AP Morning Wire (newsletter, Nov 2), citing KFF",
+      "text": "ACA open enrollment begins; KFF projects 2027 premiums up 13% as enhanced subsidies expire.",
+      "tier": "reported",
+      "url": "gmail:AP Morning Wire 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Employers",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Underlying survey or data series not named in the line read.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "fed-2026-11-02-employer-health-costs",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Data context, weight 1: no actor's options change.",
+      "source": "Axios AM (newsletter, Nov 2)",
+      "text": "Axios: employer health costs are rising at the fastest pace in 20 years, more than twice as fast as wages.",
+      "tier": "reported",
+      "url": "gmail:Axios AM 2026-11-02",
+      "weight": 1
+    },
+    {
+      "actor": "Kevin Hassett (White House)",
+      "added": "2026-11-02",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Background: Trump wants to remove Cook, a Biden appointee, for cause over mortgage-fraud allegations she denies; courts have kept her seat, and on Oct 9 the White House set up its own committee hearing as a new route to removal. The delay means Cook votes at the Dec 8-9 meeting, where a hike is priced; she dissented for a hike in October. November 6 follow-up: Reuters reports Hassett indicated December 14 for the hearing; the joint court status report says the parties are still discussing process. Cook’s counsel seeks neutrality and evidence disclosure before participation. https://www.investing.com/news/politics-news/feds-cook-lawyer-seeks-clarity-ahead-of-any-white-house-hearing-5006076",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "No fx: a scheduling delay Cook's side asked for; neither the removal effort nor her seat changed.",
+      "id": "fed-2026-10-30-cook-hearing-delay",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "My reading: the reported December 14 date keeps the planned hearing after the December 8–9 rate meeting. Participation and procedural fairness remain contested; neither removal nor a new court ruling is established.",
+      "source": "Bloomberg TV interview via Investing.com (Oct 30)",
+      "text": "Kevin Hassett says on Bloomberg TV the White House hearing on Fed Governor Lisa Cook's alleged mortgage fraud, set for Nov 5, is postponed to December; Cook's lawyer had said she is unavailable until after the Dec 8-9 Fed meeting. No new date is set.",
+      "tier": "reported",
+      "url": "https://investing.com/news/economy-news/white-house-delays-lisa-cook-hearing-to-december-93CH-4988829",
+      "weight": 3
+    },
+    {
+      "actor": "Oil markets; OPEC+",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-11-01-oil-100",
+      "issues": [
+        "FED",
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (newsletter).",
+      "source": "Semafor Flagship (citing Bloomberg)",
+      "text": "Oil tops $100 a barrel after the Al Mayeda LNG carrier strike while OPEC+ holds December output; prices ease Nov 2 on talk of US-Iran negotiations.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Energy Department",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "fed-2026-10-28-doe-constellation",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (digest listed it; triage dropped it). Power supply for data centers.",
+      "source": "POWER Magazine via TVG Daily Brief",
+      "text": "The Energy Department offers Constellation a conditional loan of up to $5 billion for about 1.1 GW of uprates at eight nuclear plants; with an earlier Vistra commitment, such loans total up to $9.2 billion.",
+      "tier": "reported",
+      "url": "https://www.powermag.com/doe-offers-constellation-up-to-5b-loan-for-1-1-gw-of-nuclear-uprates-at-eight-plants/",
+      "weight": 2
+    },
+    {
+      "actor": "Gwynne Shotwell (SpaceX president); Trump Accounts holders",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Trump Accounts are the child savings accounts created by the 2025 tax law. Amount, terms and whether SpaceX itself is involved are not given.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "fed-2026-11-02-shotwell-trump-accounts",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-02 (CNBC URL date)",
+      "rationale": "Headline only. My reading: a Musk-company executive backs a Trump-branded program as SpaceX nears an IPO; no act by an official.",
+      "source": "CNBC (headline, Nov 2)",
+      "text": "CNBC headline: Trump Account holders are to receive SpaceX stock from SpaceX president Gwynne Shotwell in December.",
+      "tier": "reported",
+      "url": "https://www.cnbc.com/2026/11/02/trump-accounts-spacex-shares-shotwell.html",
+      "weight": 1
+    },
+    {
+      "actor": "Kevin Hassett (NEC director)",
+      "added": "2026-11-03",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Said as the Nasdaq sits in a correction (Nov 1) and AI-linked borrowing rises.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "fed-2026-11-02-hassett-selloff",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-02 (CNBC URL date)",
+      "rationale": "Statement only, headline only. My reading: election-eve reassurance; no act.",
+      "source": "CNBC video (headline, Nov 2)",
+      "text": "Hassett on CNBC: \"Don't think there's risk of wholesale sell-off.\"",
+      "tier": "claimed",
+      "url": "https://www.cnbc.com/video/2026/11/02/dont-think-theres-risk-of-wholesale-sell-off-nec-director-hassett.html",
+      "weight": 1
+    },
+    {
+      "actor": "Bond markets (Japan, France); emerging-market currencies",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Context for US borrowing costs, with a December Fed hike priced.",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "fed-2026-11-03-global-bond-strain",
+      "issues": [
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-03 (Reuters URL date)",
+      "rationale": "Headline only, outside market context. My reading: no faction's options change.",
+      "source": "Reuters (via Reuters Daily Briefing, Nov 3)",
+      "text": "Reuters analysis: markets strained by wars, sovereign debt and trade tensions; Japanese and French bond selloffs and falling emerging-market currencies.",
+      "tier": "reported",
+      "url": "https://www.reuters.com/markets/wealth/global-markets-risks-analysis-pix-graphics-2026-11-03/",
+      "weight": 1
+    },
+    {
+      "id": "fed-2026-11-05-ap-voter-poll-costs",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "FED",
+        "MID"
+      ],
+      "kind": "chron",
+      "actor": "AP Voter Poll",
+      "text": "AP’s post-election voter survey found economic dissatisfaction was prominent among voters.",
+      "context": "",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/f8dbe8800549340c8a75d956302c126b",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Survey evidence helps explain the electoral environment. It establishes neither a new Fed decision nor a faction gain.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    }
+  ]
+}

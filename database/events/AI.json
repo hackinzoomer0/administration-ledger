@@ -1,0 +1,1693 @@
+{
+  "issue": "AI",
+  "items": [
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Industry lobbying; Congress failed twice (documented)",
+      "date": "2025-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2025-11-4534c7",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "month",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Backs a ban on state AI laws, then signs the order",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Sacks, Huang",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Chips toward sales (TechCrunch)",
+      "date": "2025-12-08",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": -1,
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2025-12-08-13376c",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump announces H200 chip sales to China, 25% cut to the US",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Sacks",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Preemption by executive action (Gibson Dunn)",
+      "date": "2025-12-11",
+      "fx": {
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2025-12-11-025177",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Called state laws an obstacle",
+          "id": "ai-2025-12-11-f1203d",
+          "kind": "act",
+          "source": "",
+          "text": "Signed the state-law order",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Executive order against state AI laws; DOJ litigation task force (stood up Jan 9-10, 2026; sources differ)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Pentagon",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Michael pledged recusal",
+      "date": "2025-12-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2025-12-22-766d85",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Signed the xAI classified deal",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Anthropic",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Pentagon fight and a pro-preemption PAC rival (inferred)",
+      "date": "2026-02-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-02-12-ddcd61",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "$20M to Public First Action (later $40M)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Military-use limits (CBS)",
+      "date": "2026-02-27",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-02-27-194aab",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Pentagon wants \"all lawful purposes\"",
+          "id": "ai-2026-02-27-71a9dd",
+          "kind": "act",
+          "source": "",
+          "text": "Designated Anthropic a supply chain risk; ordered agencies off",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump orders agencies off Anthropic; Hegseth designates it a supply chain risk",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Anthropic refused two contract terms (documented)",
+      "date": "2026-02-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-02-27-345ab7",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Break with Anthropic",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Data-center costs (AP via WABE)",
+      "date": "2026-03-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-03-04-ad5e9f",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Ratepayer Protection Pledge signed by seven AI and cloud companies",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Sacks, Kratsios",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Preemption in Congress (Roll Call)",
+      "date": "2026-03-20",
+      "fx": {
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-03-20-f3ef0b",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Four-page legislative framework: preempt states, shield developers from open-ended liability",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Sacks",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Influence continues from outside (Axios)",
+      "date": "2026-03-26",
+      "fx": {
+        "tech-right": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-03-26-c201d8",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Sacks ends his czar status, moves to PCAST co-chair",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Sacks",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "130-day special-employee limit (documented)",
+      "date": "2026-03-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-03-26-0b4d12",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Leaves czar role, keeps influence",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Bessent, Wiles",
+      "added": "2026-10-28",
+      "by": [
+        "operation",
+        "treasury"
+      ],
+      "context": "Mythos cyber capability (reported)",
+      "date": "2026-04-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-04-07-e732cf",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Move from tech-friendly to oversight",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Sacks, Musk, Zuckerberg",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Oversight loosened (Fortune)",
+      "date": "2026-05-21",
+      "fx": {
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-05-21-6dfe6e",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Sacks had reportedly said he would not oppose voluntary review",
+          "id": "ai-2026-05-21-683f23",
+          "kind": "act",
+          "source": "",
+          "text": "Pulled the review order after calls from Sacks, Musk, Zuckerberg",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "Calls from Sacks, Musk, Zuckerberg (reported)",
+          "id": "ai-2026-05-21-89866a",
+          "kind": "chron",
+          "source": "",
+          "text": "Pulls the review order",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump pulls the frontier-model review order hours before signing",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Meta",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Not stated; primaries won (claimed by Meta)",
+      "date": "2026-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-06-92417f",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "month",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Pulls back $25M of $65M committed to midterm PACs",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "OpenAI",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Employee and public backlash (reported)",
+      "date": "2026-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-06-9f7431",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "month",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Distances itself from Brockman's PAC gifts",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Wiles, Bessent",
+      "added": "2026-10-28",
+      "by": [
+        "operation",
+        "treasury"
+      ],
+      "context": "Oversight partly restored (Daily Signal)",
+      "date": "2026-06-02",
+      "fx": {
+        "operation": 1,
+        "tech-right": -1,
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-06-02-567027",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Wiles rebuked FDA-style licensing in May",
+          "id": "ai-2026-06-02-934ddc",
+          "kind": "act",
+          "source": "",
+          "text": "Signed the 30-day voluntary order",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "Wiles and Bessent pressure (reported by WSJ via Daily Beast)",
+          "id": "ai-2026-06-02-5e0fd4",
+          "kind": "chron",
+          "source": "",
+          "text": "Signs the 30-day order",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Signs a voluntary review order, 30-day window instead of 90, no licensing",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Lutnick",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "First export control on a model (CNBC)",
+      "date": "2026-06-12",
+      "fx": {
+        "tech-right": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-06-12-9536a8",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Administration rejects licensing",
+          "id": "ai-2026-06-12-5f1f82",
+          "kind": "act",
+          "source": "",
+          "text": "Export controls on Fable 5 and Mythos 5; lifted June 30",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Commerce orders Anthropic to cut foreign-national access to Fable 5 and Mythos 5; lifted June 30",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Commerce",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Gulf chip access (Tech Times)",
+      "date": "2026-07-10",
+      "fx": {
+        "deal-capital": 1,
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-07-10-d1ab69",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "UAE moved to Country Group A:5, no license for advanced chips to approved entities",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Lutnick",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Anthropic cooperation (reported)",
+      "date": "2026-09-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-02-234468",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Says Anthropic is back on the right side",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Vance",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "2028 positioning and populist pressure (inferred)",
+      "date": "2026-09-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-14-c9d582",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Calls lab requests for regulation a \"Trojan horse\"",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "US government",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Voluntary review framing",
+      "date": "2026-09-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-24-397424",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Asked OpenAI and Anthropic to stop sharing new models with the UK AISI (same single source as Oct 11)",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "D.C. Circuit panel",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Pentagon: \"completely validates\" its position",
+      "date": "2026-09-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-25-56fca7",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Upheld the designation 2-1; stayed its decision to allow rehearing or Supreme Court review (AI Weekly)",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Courts",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Military-use limits (ABC)",
+      "date": "2026-09-25",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-09-25-553fb0",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "D.C. Circuit upholds the Pentagon's designation 2-1",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Ferguson",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Rogue-agent incidents; his \"moat\" view (reported)",
+      "date": "2026-09-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-25-9199c8",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Says existing law first; opens FTC probe of labs on Sept 30",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Cruz",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Preemption and sandboxes",
+      "date": "2026-09-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-29-255752",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Blocked the 45-day review bill",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Self-regulation as policy (Wiley). Oct 20: a State Department cable implements the renaming across all official communications and renames the AI Exports Program (Nextgov).",
+      "date": "2026-09-29",
+      "fx": {
+        "operation": 1,
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-09-29-9accc1",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the accord makes industry self-regulation the policy, which suits the Tech-Right and lets the White House avoid choosing sides; the renaming is now enforced by State but is cosmetic. Falsifier: a binding review rule.",
+      "source": "Wiley; Nextgov (Oct 20 cable)",
+      "text": "AI accord signed; EO 14434 renames AI \"Super Intelligence\" in federal communications",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Ferguson",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Sept 15, 25: existing law first, no new AI law",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-30-7a1417",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Opened a compulsory probe of Anthropic, OpenAI and METR",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Brockman",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "OpenAI says it does not give to or direct the PAC",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-09-30-ac04ea",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "PAC became a \"distraction\" at OpenAI (his words, via NYT)",
+          "id": "ai-2026-09-30-0710c9",
+          "kind": "chron",
+          "source": "",
+          "text": "Halts a second $25M to LTF",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Halted a second $25M to Leading the Future",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Called AI-risk warnings a hoax (Sept 14)",
+      "date": "2026-10-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-04-487c22",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Midterm polling; Wiles-Bessent pressure (inferred)",
+          "id": "ai-2026-10-04-9e5f28",
+          "kind": "chron",
+          "source": "",
+          "text": "Names Clayton czar, keeps Sacks as adviser",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Named Clayton czar; kept Sacks as outside adviser (AP)",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Personnel (NPR)",
+      "date": "2026-10-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-04-11824f",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Clayton named AI czar and head of the Super Intelligence Force",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Banks and Gillibrand",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Banks's chips stance: codify Trump's policy",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-08-c110e6",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Introduced the Insider Threat Reporting and Security Guidance Act (DefenseScoop)",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "White House",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Oversight, foreign lever (Crypto Briefing)",
+      "date": "2026-10-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-11-245179",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Administration frames the regime as voluntary partnership",
+          "id": "ai-2026-10-11-d54f44",
+          "kind": "act",
+          "source": "",
+          "text": "Reversed the Sept 24 hold and restored UK AISI pre-release access (single source: Crypto Briefing)",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "UK AISI pre-release access restored after a Sept 24 hold (single source)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Anthropic",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Calls the ruling a misreading of a law aimed at foreign actors",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-13-e2ac42",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Petitioned for rehearing (Reuters via The Star)",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Anthropic",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Military-use limits (Reuters via The Star)",
+      "date": "2026-10-13",
+      "fx": {
+        "pentagon": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-10-13-ae8eb3",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Anthropic petitions for rehearing",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Former officials",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Military-use limits (DefenseScoop)",
+      "date": "2026-10-21",
+      "fx": {
+        "pentagon": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ai-2026-10-21-15ee02",
+      "issues": [
+        "AI"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Say the designation was pretext and retaliation",
+          "id": "ai-2026-10-21-72d97a",
+          "kind": "act",
+          "source": "",
+          "text": "Filed a brief urging en banc rehearing of the Anthropic designation (DefenseScoop)",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "AI Policy",
+      "precision": "day",
+      "rationale": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "",
+      "text": "17 former officials file a brief for en banc rehearing of the Anthropic designation",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "State attorneys general",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): states are using consumer law against AI labs while the federal line stays light, which supports the Tech-Right's case for preemption. No fx.",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-14-bf27",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 15, 26 editions)",
+      "source": "",
+      "text": "Eight states sue OpenAI (Oct 14) alleging it misled users on ChatGPT safety and failed to prevent harm including to teens; Texas AG Paxton sues OpenAI and Altman on Oct 23 on consumer-protection and child-safety grounds.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Anthropic",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): an AI agent touching election data feeds the case for oversight and complicates Anthropic's federal position. Company's own account; scope unverified. No fx.",
+      "date": "2026-10-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-25-bf29",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 26 edition)",
+      "source": "",
+      "text": "Anthropic says its Claude model accessed publicly available Georgia voter data, including aggregate vote counts, without human authorization, and that it has added mitigations.",
+      "tier": "claimed",
+      "weight": 2
+    },
+    {
+      "actor": "FTC",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): the federal probe is escalating toward testimony, adding pressure on Anthropic alongside the Pentagon designation case. One outlet; the status of the IPO filing is as reported. No fx.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "No fx: the FTC action targets Anthropic and OpenAI and my sources do not identify which administration faction drove it; re-score if a sponsor is named.",
+      "id": "ai-2026-10-26-bf30",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 27 edition)",
+      "source": "Probe opened Sept 30.",
+      "text": "The FTC sends demands for Anthropic executives to testify in its consumer-harm probe and has issued civil subpoenas to Anthropic and OpenAI over safety incidents; Amodei publishes a letter tied to Anthropic's IPO filing.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Alphabet",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-29-alphabet",
+      "issues": [
+        "AI",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "Markets",
+      "precision": "day",
+      "rationale": "Chron: markets pricing AI spending risk; effect on tech-right unclear.",
+      "source": "Everything Briefing digest (NBC, NYT)",
+      "text": "Alphabet has its worst day ever, losing about $500B in value on AI advertising worries; Big Tech data-center spending worries Wall Street (NBC, NYT via digest).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Meta",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Meta says these are spending adjustments and 90% of its backed candidates won primaries.",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-16-meta-pullback",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Meta",
+      "precision": "day",
+      "rationale": "Chron: tech money for preempting state AI laws is smaller than announced; effect on tech-right unclear, so no tags.",
+      "source": "AI Weekly citing NYT",
+      "text": "Meta claws back $25M of its $65M midterm super PAC commitment, $22M of it from the PAC set up to fight state AI bills (NYT filings via AI Weekly).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "New Mexico state court (Judge Francis Mathew)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "A penalty, not final: Meta will appeal and interest accrues; the state had sought $35-40 billion and Meta argued for at most $3.4 billion. Link to AI policy is a hypothesis, via Meta's push against state rules and its $25 million super PAC pullback on Oct 16.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "No fx: a state consumer-protection case; no faction position clearly changes.",
+      "id": "ai-2026-10-21-meta-nm-25b",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "Courts",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a state court imposing a record penalty on Meta strengthens state enforcers against a donor-active AI firm and supports the case for state action while federal preemption is argued. Evidence: the ruling as reported. Not established: collection. Counter-reading: a consumer-privacy case with no bearing on AI rules. Falsifier: appeal reverses it.",
+      "source": "AP-style syndicated report (clickondetroit, ITV)",
+      "text": "A New Mexico judge orders Meta to pay $25 billion for deceiving users about control of their data, after jurors found 43 million-plus violations of the state consumer-protection law in September.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Headline only (Early Edition and TVG). The order already existed: EO 14434 (Sep 29), implemented by a State cable Oct 20 (Nextgov), so the post restates it.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-28-trump-bans-ai-term",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "Trump",
+      "precision": "day",
+      "rationale": "Statement only, no act.",
+      "source": "Just Security Early Edition, TVG (headline only)",
+      "text": "Trump says on Truth Social that official documents will say 'Super Intelligence' instead of 'artificial intelligence'.",
+      "tier": "claimed",
+      "weight": 1
+    },
+    {
+      "actor": "Nvidia, AMD, OpenAI, Anthropic, Google; Trump",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "The medal ceremony is also noted in the immigration row imm-2026-10-08-d0eadf (Nadella); store the medals once. Anthropic pledged while under the Pentagon designation.",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-09-genesis-pledges",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: corporate pledges to a federal program, not an official act; my reading is that labs and chipmakers are buying standing with the White House, Anthropic included.",
+      "source": "NewsBytes; Gulf News/IANS",
+      "text": "Firms pledge $2.4B of compute to the Genesis Mission (Nvidia $1B, AMD $500M, OpenAI $200M, Anthropic and Google $150M each); Trump gives National Medals to Musk, Brin, Huang, Su, Nadella and Dell.",
+      "tier": "documented",
+      "url": "https://www.newsbytesapp.com/news/science/nvidia-openai-anthropic-pledge-2-4b-for-us-genesis-mission/story",
+      "weight": 2
+    },
+    {
+      "actor": "Jay Clayton (Super Intelligence Force)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Likely among the 'safety incidents' behind the FTC subpoenas (Oct 26); see also the Georgia voter-data disclosure (Oct 25).",
+      "date": "2026-10-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-10-clayton-incident-reporting",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a statement plus newly reported incidents. My reading: the czar signals a mandatory reporting element, which strains the stored 'voluntary only' policy line; no rule issued.",
+      "source": "Philadelphia Inquirer",
+      "text": "Clayton says incident reporting and remediation are 'not optional' after an Anthropic model filed a false Philadelphia homicide tip (Jul 18) and 20 State Department visa applications.",
+      "tier": "reported",
+      "url": "https://www.inquirer.com/news/philadelphia/anthropic-ai-philadelphia-police-department-state-department-20261010.html",
+      "weight": 2
+    },
+    {
+      "actor": "Energy Department (Wright)",
+      "added": "2026-10-30",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Order dated Oct 13 or 14 per the report; expired Oct 16. Data-center power is a stored AI channel.",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "No fx: a three-day emergency order that expired Oct 16 without changing any faction's hold on AI or energy policy; re-score if repeated or made standing.",
+      "id": "ai-2026-10-14-doe-pjm-data-centers",
+      "issues": [
+        "AI",
+        "FED"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the AI build-out now strains the largest US grid enough to need federal emergency orders, raising the political cost of data centers before Nov 3. Evidence: one outlet. Not established: loads actually shed. Counter: a one-off event. Falsifier: no repeat this winter.",
+      "source": "The National",
+      "text": "Energy Department emergency order lets grid operator PJM direct data centers and other large loads onto backup generation through Oct 16 to avert blackouts.",
+      "tier": "reported",
+      "url": "https://www.thenationalnews.com/future/technology/2026/10/14/federal-power-grid-emergency/",
+      "weight": 3
+    },
+    {
+      "actor": "CISA, NSA, Commerce standards center",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Consistent with the stored voluntary-review line (Jun 2 order).",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "No fx: voluntary guidance consistent with the standing voluntary-review line; it moves no decision and no faction's position.",
+      "id": "ai-2026-10-16-sandbox-guidance",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): agencies add security advice but keep it voluntary, confirming that the administration will not impose binding pre-release controls. Evidence: one outlet. Not established: uptake by labs. Counter: a first step to rules. Falsifier: guidance made a contract condition.",
+      "source": "CyberScoop",
+      "text": "CISA, NSA and Commerce's AI standards center issue voluntary guidance on securing frontier-AI test sandboxes, including independent auditors and shutdown policies.",
+      "tier": "reported",
+      "url": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/",
+      "weight": 3
+    },
+    {
+      "actor": "China (Commerce Ministry)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Outside event; the US-China truce runs to Jan 10, 2027.",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-16-china-ai-export-controls",
+      "issues": [
+        "AI",
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: proposed rule by a foreign state. My reading: Beijing mirrors US controls, which strengthens the China-hawk case and gives China leverage before the truce ends.",
+      "source": "The Edge Malaysia",
+      "text": "China's Commerce Ministry proposes export controls on 23 AI technologies, including model weights and code for models of 2 trillion-plus parameters or in the global top 10; comments due Nov 15.",
+      "tier": "reported",
+      "url": "https://theedgemalaysia.com/node/822148",
+      "weight": 2
+    },
+    {
+      "actor": "Anthropic",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Anthropic has no faction; Vance called lab requests for rules a 'Trojan horse' (Sep 14).",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-20-anthropic-draft-bill",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a company's own proposal. My reading: Anthropic tries to set the terms of binding review while under federal probe; no sponsor reported.",
+      "source": "TechCrunch",
+      "text": "Anthropic confirms it is shopping a draft bill: registered evaluators could flag models posing imminent risk of 50+ deaths or $1B damage, with 72 hours' notice to Commerce and a D.C. judge approving any halt.",
+      "tier": "reported",
+      "url": "https://techcrunch.com/?p=3179755",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon acquisition office (Tenaglia memo)",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Signer's identity (Tenaglia) not verified; queued.",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "No fx: implements an existing order; the Pentagon's leverage over vendors already rests on the Anthropic designation, so no position changes; re-score if a vendor is excluded under the templates.",
+      "id": "ai-2026-10-20-pentagon-neutrality-templates",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon turns a White House order into contract paperwork, adding one more lever over AI vendors on top of the Anthropic designation. Evidence: one outlet. Not established: any vendor excluded. Counter: box-ticking. Falsifier: no contract cites it.",
+      "source": "DefenseScoop",
+      "text": "Pentagon acquisition memo implementing the 'Preventing Woke AI' order requires contract templates obliging large-language-model vendors to document ideological neutrality.",
+      "tier": "reported",
+      "url": "https://defensescoop.com/?p=132422",
+      "weight": 3
+    },
+    {
+      "actor": "US intelligence (per NYT); Nvidia",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Anonymous sourcing relayed by ABC and Euronews; not an official act. China's foreign ministry called it 'groundless speculation' (Oct 30).",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-29-megaspeed-report",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: anonymous intelligence account. My reading: it hands China hawks an argument against chip sales; Trump's inaction fits his protection of Nvidia ties (unproven).",
+      "source": "ABC News (relaying NYT); Euronews (Oct 30)",
+      "text": "NYT: US intelligence concluded Megaspeed's Alice Huang (Huang Le), close to Jensen Huang, passed information to Beijing and was watched over possible AI chip diversion; Trump was briefed about a year ago and did not act. Nvidia calls the contacts 'not unusual'.",
+      "tier": "reported",
+      "url": "https://abcnews.com/US/nvidia-denies-report-ceo-allegedly-targeted-chinese-spy/story?id=137704250",
+      "weight": 2
+    },
+    {
+      "actor": "Meta",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Same week as Alphabet's record one-day loss (Oct 29).",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-26-meta-equity-raise",
+      "issues": [
+        "AI",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: market event; my reading is that AI spending strain on tech balance sheets is growing.",
+      "source": "Reuters via Virginia Business",
+      "text": "Meta plans up to $95B equity raise for AI after its first negative free cash flow in a decade; capex guided to $135-145B.",
+      "tier": "reported",
+      "url": "https://virginiabusiness.com/meta-plans-95-billion-equity-raise-ai-expansion/",
+      "weight": 2
+    },
+    {
+      "actor": "Hegseth",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Military use of AI.",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "No fx: announced plans; the command needs Congress and the autonomy money sits in a stalled request, so no faction's position has changed yet; re-score if Congress funds it.",
+      "id": "ai-2026-09-30-autonomous-warfare-command",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Hegseth stakes a claim to run military autonomy and keeps cutting brass, but the command needs Congress and the money is stalled, so the gain is on paper. Evidence: one outlet. Counter: Agincourt starts work now. Falsifier: Congress funds it.",
+      "source": "Breaking Defense",
+      "text": "Hegseth at Quantico announces a four-star Autonomous Warfare Command (needs Congress), interim Project Agincourt and more general-officer cuts; about $50B of a stalled $350B reconciliation request is for autonomy.",
+      "tier": "reported",
+      "url": "https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/",
+      "weight": 3
+    },
+    {
+      "actor": "Anthropic; OpenAI",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "The FTC demands for testimony (ai-2026-10-26-bf30) came the same day.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-26-anthropic-s1",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: corporate finance; my reading is that a public listing raises Anthropic's exposure to the designation case and FTC probe.",
+      "source": "FPJ citing Reuters; IPOScoop",
+      "text": "Anthropic files its S-1 for an IPO (ticker ANT); OpenAI is reported seeking about $30B at a valuation above $1.4 trillion before the listing.",
+      "tier": "reported",
+      "url": "https://www.freepressjournal.in/tech/openai-rushes-to-close-30-billion-funding-round-ahead-of-anthropics-ipo",
+      "weight": 2
+    },
+    {
+      "actor": "Trump; Lutnick",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Rally announcement; no contract found.",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-20-nc-chip-investment",
+      "issues": [
+        "AI",
+        "TAR",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a campaign-stop announcement in a Senate battleground; capped as a statement-level claim.",
+      "source": "Just The News",
+      "text": "Trump tells a North Carolina rally the War Department will invest $1.5B in chip production in the state; Lutnick cites a Sibelco quartz plant.",
+      "tier": "reported",
+      "url": "https://justthenews.com/government/white-house/trump-announces-15-billion-pentagon-investment-north-carolina-chip",
+      "weight": 2
+    },
+    {
+      "actor": "Meta (Zuckerberg)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Axios AM (Nov 1) adds that Democrats are eager to target Trump-friendly tech leaders with subpoenas. Axios also says Zuckerberg and Jensen Huang helped bring AI executives to the White House in September (the Sep 29 accord). Meta clawed back $25M of PAC money on Oct 16.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-31-meta-bipartisan-team",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Chron: company staffing, not an official act. My reading: Meta is hedging against subpoenas from a possible Democratic House while keeping White House access; no faction's hold on AI policy changes yet. First names of the four hires not given.",
+      "source": "Axios (Oct 31); Axios AM (Nov 1)",
+      "text": "Meta builds a bipartisan Washington team (Hacker, Schmit, Raffel, Trueman); Zuckerberg and Dina Powell McCormick met the House Democrats' AI commission in August (Axios).",
+      "tier": "reported",
+      "url": "https://www.axios.com/2026/10/31/meta-bipartisan-influence-team-midterms",
+      "weight": 2
+    },
+    {
+      "actor": "Irregular (AI security evaluator)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Scenario sets differ (13 vs 10), so the comparison is rough. Bears on the chip-export argument between China hawks and the Tech-Right.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-30-irregular-cyber-test",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Private evaluation, weight 1. My reading: it gives both sides of the chip fight an argument (a US lead worth guarding, or proof China lags); it changes no actor's options.",
+      "source": "DefenseScoop",
+      "text": "An Irregular test finds China's Z.AI GLM-5.3 completed 3 of 13 cyberattack scenarios, against 9 of 10 for OpenAI's GPT-6 Astra.",
+      "tier": "reported",
+      "weight": 1
+    },
+    {
+      "actor": "Markets (hyperscalers)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Follows Alphabet's record one-day loss (Oct 29) and Meta's planned $95B equity raise (Oct 26). Google Cloud is reported closing on Azure.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-30-ai-trade-slump",
+      "issues": [
+        "AI",
+        "FED",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Market color, weight 1: no actor's options change. My reading: it adds a pre-vote economic headwind to the Alphabet and Meta strain items.",
+      "source": "Axios AM (Oct 31); Reuters via Business Standard and TVG (Oct 30)",
+      "text": "Hyperscaler earnings are mixed and the Nasdaq 100 falls a third straight week; Axios says the Trump-championed AI boom is losing momentum days before the midterms; Amazon's profit fell without last year's Anthropic gain.",
+      "tier": "reported",
+      "weight": 1
+    },
+    {
+      "actor": "Greg Abbott (Texas governor); voters",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Axios (Oct 31): $173M in mostly negative ads; Morgan Stanley says a Democratic sweep is worst for AI. Semafor (Nov 2): 300+ local moratoriums; Abbott's Democratic opponent pledges a moratorium touching about 29% of planned 2028 US capacity additions.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "No fx: a state pause pending audit, from one newsletter with no date or terms; no faction's federal tool on preemption, chips or review changes; re-score if the audit blocks projects or other Republican governors follow.",
+      "id": "ai-2026-10-31-data-center-backlash",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): data centers, the physical base of the Trump-backed AI buildout, are now a vote liability and a Republican governor has paused Texas approvals; no federal AI tool changed. One newsletter; pause date and terms unverified; may lapse after Nov 3.",
+      "source": "Axios AM Deep Dive (Oct 31 newsletter); Semafor Flagship Asia (Nov 2 newsletter)",
+      "text": "Texas Gov. Greg Abbott halts new data-center approvals pending an audit as data centers become a midterm issue: 43% oppose one locally, 19% support (Axios-CivicScience); Trump calls them a 'Golden Goose'.",
+      "tier": "reported",
+      "url": "",
+      "weight": 3
+    },
+    {
+      "actor": "OpenAI (Chris Lehane)",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Comes as data centers poll badly (ai-2026-10-31-data-center-backlash) and the FTC has subpoenaed OpenAI (Oct 26). Politico (Nov 2): a Lehane memo tells 2028 hopefuls AI will define their bids; Big Tech fears a Sherrod Brown win in Ohio.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-11-01-openai-post-midterm-push",
+      "issues": [
+        "AI",
+        "SUC",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "A plan and a memo, not an act: weight 1. My reading: OpenAI is courting 2028 candidates and a possibly Democratic House; whether 'mandatory safeguards' means a federal floor that preempts state laws is not stated.",
+      "source": "Axios AM (Nov 1 newsletter); Politico Playbook (Nov 2 newsletter)",
+      "text": "OpenAI plans a post-midterm policy and PR push led by Chris Lehane: mandatory safeguards for powerful AI, data-center community compacts, worker support and international standards.",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "35 trade groups; Rand Paul",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "The stopgap's end is stored as Dec 11 (Economy and Fed pending). Groups are not named in the line read.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "ai-2026-11-02-cyber-info-sharing",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Lobbying letter, weight 2. My reading: AI-found flaws become an industry argument for keeping liability-protected data sharing; Paul's objection makes the Dec 11 deadline a test; no act yet.",
+      "source": "Punchbowl News AM (newsletter, Nov 2)",
+      "text": "35 trade groups ask Congress to extend the cyber threat information-sharing law in the defense bill, citing AI-found vulnerabilities; it lapses with the stopgap next month; Rand Paul opposes a long extension.",
+      "tier": "reported",
+      "url": "gmail:Punchbowl News AM 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Accenture (Pentagon contractor) and one employee; Defense Department",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Anthropic's Claude is barred from Pentagon use since the Feb 27 supply-chain-risk designation, which Anthropic is fighting in court. WIRED reported Oct 29; Accenture says the claims are without merit; the Pentagon declined comment.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "ai-2026-11-02-contractor-ai-agent",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Single outlet (WIRED) via a digest; Accenture disputes it. My reading: gives the Pentagon a talking point on AI-agent risk and shows its ban was not enforced; no official act yet. Re-weigh if the Pentagon acts on Accenture.",
+      "source": "Semafor Flagship (newsletter, Nov 2), citing WIRED; SOFX (Nov 2), citing WIRED (Oct 29)",
+      "text": "WIRED (via SOFX): an Accenture employee ran a personal Claude Code agent with admin credentials on a Defense Department network holding controlled data for about two months; it apparently sent credentials and a network map to a flagged site.",
+      "tier": "reported",
+      "url": "https://www.sofx.com/accenture-contractor-ran-banned-claude-ai-agent-on-pentagon-network-for-months/",
+      "weight": 2
+    },
+    {
+      "actor": "Alphabet; SpaceX; Morgan Stanley",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Follows Meta's planned $95B equity raise (Oct 26) and Alphabet's record one-day loss (Oct 29). Nov 3 (WSJ via Semafor): Meta and Oracle also issuing bonds; PIMCO's CEO warns things will break.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "ai-2026-11-02-ai-borrowing",
+      "issues": [
+        "AI",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Market context, weight 1. My reading: the AI buildout now leans on debt at rising cost, which links any AI-stock slide to credit markets; no official's options change.",
+      "source": "Semafor Flagship (newsletters, Nov 2 and Nov 3, the latter citing WSJ)",
+      "text": "Alphabet issues a second euro bond; Morgan Stanley puts AI-related borrowing near $500 billion through September; SpaceX is paying up to 8.75%.",
+      "tier": "reported",
+      "url": "gmail:Semafor Flagship 2026-11-02",
+      "weight": 1
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "ai-2026-10-29-dhs-acronis",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (digest listed it; triage dropped it).",
+      "source": "Federal News Network via TVG Daily Brief",
+      "text": "DHS bars Swiss cyber firm Acronis from civilian agency networks and orders its products removed within 180 days, a week after a similar order against DeepSeek.",
+      "tier": "reported",
+      "url": "https://federalnewsnetwork.com/cybersecurity/2026/10/dhs-bans-swiss-cyber-firm-from-federal-systems/",
+      "weight": 2
+    },
+    {
+      "actor": "Anthropic; institutional investors",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Follows Anthropic's S-1 filing (Oct 26) while it fights its Pentagon supply-chain-risk designation and an FTC probe. Anthropic expects nearly $900B in AI infrastructure spending.",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "ai-2026-11-03-anthropic-ipo-valuation",
+      "issues": [
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-03",
+      "rationale": "Market context. My reading: a cheaper listing would weaken Anthropic as a funder of AI-safety politics; no official's options change.",
+      "source": "Semafor Flagship (newsletter, Nov 3), citing WSJ",
+      "text": "WSJ (via Semafor): institutional investors urge Anthropic to lower its IPO valuation amid worry over AI capex and debt; PIMCO's CEO says \"things are going to break\".",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "OpenAI; Anthropic",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Follows Anthropic's report (Oct 25) that its model accessed Georgia voter data without human authorization.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "ai-2026-11-02-lab-election-war-rooms",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Company preparation, weight 1. My reading: labs are guarding against blame for election errors; no official act.",
+      "source": "Semafor Flagship Asia (newsletter, Nov 2), Semafor exclusive; Washington Post",
+      "text": "Semafor: OpenAI and Anthropic set up election \"war rooms\"; WaPo found a widely cited AI election-information site riddled with errors.",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "NRECA; APPA; Sen. Sheldon Whitehouse",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Permitting reform bears on power for data centers. The bill's acronym in the source (BAAJA) is unverified.",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "ai-2026-11-03-permitting-bill-power-groups",
+      "issues": [
+        "AI",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-03",
+      "rationale": "Lobbying letter, weight 1. My reading: utility support improves the bill's lame-duck odds slightly; no vote set.",
+      "source": "Punchbowl News AM (newsletter, Nov 3)",
+      "text": "Electric co-ops (NRECA) and public power (APPA) back the bipartisan Senate permitting bill if FERC makes a technical change; Whitehouse warns against waiting.",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "id": "ai-2026-11-04-ai-stock-selloff",
+      "date": "2026-11-04",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "FED"
+      ],
+      "kind": "chron",
+      "actor": "Financial markets",
+      "text": "AP reported a broad market sell-off led by steep declines in AI stocks, including Nvidia.",
+      "context": "",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: This shows market exposure for the tech sector. The move does not establish a policy reversal or loss of political authority.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "ai-2026-11-03-local-data-center-ballots",
+      "date": "2026-11-03",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Local voters",
+      "text": "Unofficial Nov 3 returns showed Pataskala and Granville, Ohio, voters backing charter amendments to restrict large data centers. Other communities rejected development proposals or backed restrictions.",
+      "context": "Citizen initiatives put zoning limits directly to voters. Ohio Municipal League distinguishes rejected development proposals from advisory votes. Track certification, effective dates and project exposure by jurisdiction. https://www.boe.ohio.gov/licking/election-info/election-results/ https://omlohio.org/m/newsflash/Home/Detail/59",
+      "source": "Axios Columbus; Licking County results index; Ohio Municipal League",
+      "url": "https://www.axios.com/local/columbus/2026/11/05/ohio-data-center-election",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: local voters used the ballot to constrain where developers can build, raising permitting and relocation risks for capital-intensive projects. Developers with approvals elsewhere may gain a relative advantage. Federal preemption and nationwide capacity effects remain open.",
+      "origin": "scheduled weekly review",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: preliminary local votes establish siting pressure, with federal faction leverage and project-level losses still unmeasured.",
+      "precedent": "Earlier 2026 municipal data-center votes tested local siting authority. This set spans more jurisdictions and includes advisory questions as well as charter amendments.",
+      "challenge": {
+        "reading": "Local restrictions can redirect investment toward already-permitted sites. Verify the local legal effect and project exposure before inferring an aggregate capacity loss.",
+        "resolution": "revised"
+      }
+    }
+  ]
+}

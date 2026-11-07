@@ -1,0 +1,331 @@
+{
+  "added": 19,
+  "coverage": {
+    "agents": [
+      {
+        "count": 15,
+        "model": "sonnet",
+        "outcome": "done; 2 newsletters read (Axios AM Nov 1, Axios AM Deep Dive Oct 31)",
+        "role": "newsletter"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "weekend, no TVG issue (Oct 31 client_error)",
+        "role": "digest"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "7 pages loaded; nothing dated in the weekend window (newest Oct 28-30)",
+        "role": "official"
+      },
+      {
+        "count": 143,
+        "model": "sonnet",
+        "outcome": "12 pages loaded incl. The Hill sitemap and European Parliament",
+        "role": "world"
+      },
+      {
+        "count": 24,
+        "model": "sonnet",
+        "outcome": "11 calendar, 10 watch, 3 legal; almost all outcome not found",
+        "role": "calendar-watch-legal"
+      },
+      {
+        "count": 15,
+        "model": "sonnet",
+        "outcome": "2 missing (CNN analysis)",
+        "role": "recall"
+      },
+      {
+        "count": 19,
+        "model": "sonnet",
+        "outcome": "2 finders; 16 readable, 3 still headline only",
+        "role": "article-text"
+      },
+      {
+        "count": 9,
+        "model": "opus",
+        "outcome": "4 items, 5 updates",
+        "role": "analyst-security"
+      },
+      {
+        "count": 16,
+        "model": "opus",
+        "outcome": "12 items, 4 updates, 1 fold",
+        "role": "analyst-domestic"
+      },
+      {
+        "count": 7,
+        "model": "opus",
+        "outcome": "3 items, 4 updates",
+        "role": "analyst-economy"
+      }
+    ],
+    "blocked": [
+      "TVG tvg-daily-brief-31-oct-2026: client_error (weekend)",
+      "washingtonpost.com SSA email page: client_error",
+      "tennesseelookout.com: client_error",
+      "newsfromthestates.com/node/434862: client_error",
+      "ktla.com: client_error",
+      "washingtontimes.com: client_error",
+      "CNN politics and Axios homepages: stale undated copies"
+    ],
+    "checklist": {
+      "analysts": "done",
+      "articleText": "done (blocked: 3 items, client_error or no original found)",
+      "collectors": "done (blocked: TVG Oct 31 client_error, weekend)",
+      "legal3": "done",
+      "newsletters": "done",
+      "queue": "done",
+      "recall": "done (blocked: CNN and Axios stale copies; sampled via search)",
+      "runDoc": "done",
+      "triage": "done",
+      "validator": "done",
+      "watch10": "done",
+      "window": "done",
+      "writes": "done"
+    },
+    "deviations": [
+      "Calendar-watch-legal ran the immigration fee case on general queries only.",
+      "Recall indexes (CNN, Axios) served stale copies; the recall checker sampled through domain-restricted search instead.",
+      "Analysts read rule files from disk rather than receiving them inline (size).",
+      "Orchestrator dropped the two passed Oct 30 rows from report/dynamics watch."
+    ],
+    "fxStats": {
+      "empty": 3,
+      "emptyWithReason": 3,
+      "scored": 0
+    },
+    "gaps": [
+      {
+        "gap": "SSA email touting Trump (Oct 31)",
+        "routes": [
+          {
+            "route": "link",
+            "tried": "washingtonpost.com",
+            "whyItFailed": "client_error"
+          },
+          {
+            "route": "wire/other outlet",
+            "tried": "search headline plus date",
+            "whyItFailed": "only an Oct 22 SSA email (Common Dreams) found"
+          },
+          {
+            "route": "primary",
+            "tried": "SSA email itself",
+            "whyItFailed": "not published"
+          }
+        ]
+      },
+      {
+        "gap": "Hormuz tanker small-boat explosives (Oct 31)",
+        "routes": [
+          {
+            "route": "link",
+            "tried": "sofx.com",
+            "whyItFailed": "teaser only, no source link"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search key phrase plus date",
+            "whyItFailed": "no matching Oct 30-31 report"
+          },
+          {
+            "route": "other outlet",
+            "tried": "UKMTO / Al Jazeera",
+            "whyItFailed": "not found; folded into the stored Khasab tanker item as a source"
+          }
+        ]
+      },
+      {
+        "gap": "Hegseth Senate-seat idea",
+        "routes": [
+          {
+            "route": "link",
+            "tried": "tennesseelookout.com",
+            "whyItFailed": "client_error"
+          },
+          {
+            "route": "wire copy",
+            "tried": "newsfromthestates",
+            "whyItFailed": "client_error"
+          },
+          {
+            "route": "other outlet",
+            "tried": "search",
+            "whyItFailed": "titles only"
+          }
+        ]
+      }
+    ],
+    "knownBlockedSkipped": [
+      "Reuters",
+      "AP",
+      "Politico",
+      "The Guardian",
+      "BBC",
+      "Google News",
+      "MSN",
+      "The Hill pages"
+    ],
+    "lookbackDays": 2,
+    "methodAudit": {
+      "foundOnlyByNewsletters": [
+        "Texas data-center pause and poll (Axios Deep Dive)",
+        "DOJ letters to five states (Axios AM)",
+        "OpenAI post-midterm push",
+        "Florida turnout worries",
+        "third-party super PAC spending"
+      ],
+      "foundOnlyByRecall": [
+        "CNN: Trump contesting the election (analysis)",
+        "CNN: Trump closing message (analysis)"
+      ],
+      "foundOnlyByTips": [],
+      "headlineOnly": [
+        "SSA email (Oct 31)",
+        "Hormuz tanker explosives",
+        "Hegseth Senate seat",
+        "Habba remark",
+        "North Hollywood ICE video",
+        "Mamdani visa claim",
+        "Trump G20 Zelenskyy invite",
+        "heating costs",
+        "Trump 'one or two sites'"
+      ],
+      "proposedFix": "The Hill sitemap fix was applied (now in prompts/world). Next: replace CNN and Axios in prompts/recall with indexes that serve fresh dated pages (for example NPR's text site or a wire-copy local TV politics index), or keep the domain-restricted search fallback; re-check the three headline-only items first next run.",
+      "rootCause": "Weekend window: official pages and TVG publish nothing; recall indexes CNN and Axios now return stale cached homepages."
+    },
+    "perIssue": {
+      "AI": "found 3",
+      "EPS": "found 1",
+      "FED": "found 2",
+      "IMM": "found 2",
+      "IRN": "found 4 (2 new, 2 updates + re-checks)",
+      "MID": "found 14",
+      "RUS": "found 3",
+      "SUC": "searched; Vance 2028 analysis only",
+      "TAR": "found 3 (updates)",
+      "VEN": "searched, nothing found"
+    },
+    "propagation": {
+      "ai-2026-10-31-data-center-backlash": [
+        "issues/AI",
+        "factions/tech-right",
+        "people/all"
+      ],
+      "ai-2026-10-31-meta-bipartisan-team": [
+        "none: weight 2; a newsletter recap adding the subpoena motive, no act"
+      ],
+      "eps-2026-10-31-wsj-suit-dismissed": [
+        "issues/EPS",
+        "people/all"
+      ],
+      "fed-2026-10-31-binance-theft": [
+        "none: weight 2 headline-only facts; no faction, policy or stance changes"
+      ],
+      "irn-2026-10-26-bessent-iran-shortages": [
+        "none: weight-2 statement-level forecast; Treasury's squeeze stance already stored"
+      ],
+      "irn-2026-10-28-isr-election": [
+        "events/IRN (item text, context, rationale)",
+        "people/all (netanyahu pattern)",
+        "meta/world (israel-election-2026-10-27 caveat)"
+      ],
+      "irn-2026-10-29-khasab-tanker": [
+        "events/IRN (source only)"
+      ],
+      "irn-2026-10-30-al-mayeda-lng": [
+        "issues/IRN (pending)"
+      ],
+      "irn-2026-10-31-khamenei-deterrence": [
+        "events/IRN (source and context only)"
+      ],
+      "irn-2026-11-01-trump-one-or-two-sites": [
+        "issues/IRN (pending: no Iranian answer by Nov 1)"
+      ],
+      "mid-2026-10-26-9th-cir-ca-ballots": [
+        "issues/MID"
+      ],
+      "mid-2026-10-28-doj-washington-ballots": [
+        "factions/maximalists",
+        "meta/stances",
+        "people/all"
+      ],
+      "mid-2026-10-30-thompson-order": [
+        "issues/MID",
+        "meta/stances",
+        "factions/maximalists",
+        "meta/motives",
+        "people/all"
+      ],
+      "mid-2026-10-31-alaska-opposes-suit": [
+        "issues/MID",
+        "factions/maximalists",
+        "meta/stances",
+        "meta/motives",
+        "people/all",
+        "meta/legal"
+      ],
+      "rus-2026-10-24-483088": [
+        "events/RUS (item)",
+        "issues/RUS (pending: truce mediator corrected)"
+      ],
+      "rus-2026-10-31-g20-zelenskyy-invite": [
+        "none: weight-1 headline-only statement"
+      ],
+      "tar-2026-10-28-bolsonaro-miami": [
+        "none: weight 2; statements and single-sourced parole report change no tariff or immigration stance; IMM code added to the item"
+      ],
+      "tar-2026-10-29-finland-hungary-mou": [
+        "events/TAR (item context, fxnote, rationale)"
+      ],
+      "tar-2026-10-31-carney-wait-new-president": [
+        "issues/TAR"
+      ]
+    },
+    "queue": {
+      "captured": 8,
+      "triaged": 0
+    },
+    "sourcesRead": [
+      "Gmail: Axios AM (Nov 1), Axios AM Deep Dive (Oct 31)",
+      "TVG Oct 31 (client_error, weekend)",
+      "whitehouse.gov releases and presidential actions",
+      "Treasury",
+      "OFAC",
+      "State",
+      "Justice",
+      "Federal Reserve",
+      "Memeorandum",
+      "NewsNow",
+      "RealClearPolitics",
+      "Al Jazeera",
+      "Euronews",
+      "Anadolu",
+      "CBS politics",
+      "DefenseScoop",
+      "SOFX",
+      "Federal News Network",
+      "European Parliament press room",
+      "The Hill sitemap",
+      "CNN politics (stale)",
+      "Axios (stale)"
+    ],
+    "watched": [
+      "Tom Homan",
+      "Kash Patel",
+      "Russ Vought",
+      "Pam Bondi",
+      "Steve Witkoff",
+      "Jared Kushner",
+      "David Sacks",
+      "Marc Andreessen",
+      "Dan Caine",
+      "James Blair"
+    ]
+  },
+  "summary": "Missed items: CNN analysis 'All signs point to Trump contesting the election' (Oct 31) was not on any collector page; low weight.\n\nERRORS AND INCOMPLETE ITEMS\n- TVG Daily Brief Oct 31 | weekend; no issue | Why not done: direct URL failed with client_error (Saturday; expected, informational)\n- Recall indexes | CNN politics and Axios homepages came back stale and undated (early-2026 items) | Why not done: fetch served stale copies; recall sampled 15 items via domain-restricted search with URL dates instead\n- Article text | The Hill pages, Washington Post (client_error), Tennessee Lookout and newsfromthestates (client_error), KTLA and Washington Times (client_error) | informational\n- Still headline only (capped at weight 2): SSA email touting Trump (Oct 31; only an earlier Oct 22 SSA email is documented), small-boat explosives on a Hormuz tanker (SOFX teaser, no original found), Hegseth Senate-seat idea (two fetches failed), Mullin's 300,000-case claim (a claim, read), North Hollywood ICE video, Habba deal remark\n- Unconfirmed: DOJ ballot letters to Pennsylvania, New Jersey and Nevada rest on Axios alone; Washington and California letters are confirmed\n- Calendar with no outcome found (searched, official pages, another outlet): Iran's answer to Qatar (none by Nov 1), trade court Section 338/301 ruling, Anthropic rehearing, immigration fee case, DOJ appeal of Maurene Comey order, Afghan removal flight, Citgo decision\n- Corrections made: the Oleshky truce was mediated by Melania Trump with Pope Leo XIV, not a US government deal; the Israeli 'stolen election' claim came from Likud, not Netanyahu personally; the Oct 30 'appeals court California ballots' row was the Oct 26 Ninth Circuit ruling and was folded into it\n- Recall miss: CNN 'All signs point to Trump contesting the election' (Oct 31) | should have come from a politics index | Fix: none needed beyond CNN rotation; it is analysis, weight 1-2\n- Note: Greg Abbott was added to people from known record without a search check; Steve Hobbs's first name is marked identity not verified\n\nCONSEQUENTIAL NEWS\n- Oct 31, AP (Click2Houston copy): Alaska's attorney general's office asked Judge Sharon Gleason to dismiss DOJ's Alaska Senate suit as meritless and called ballot separation 'disturbing and impossible' | Consequence for what we track: midterms; the Maximalists' bid to hold up Alaska's certification now faces a Republican state's own lawyers; no score until Gleason rules (documented)\n- Oct 31, CBS: Judge Darrin Gayles dismissed with prejudice Trump's suit against the Wall Street Journal over the Epstein birthday letter; an appeal is likely | Consequence for what we track: Epstein files; ends Trump's legal lever against that reporting, cost falls on Trump personally, no faction scored (reported)\n- Oct 30 order, CBS read: Judge Trina Thompson's restraining order on DOJ threats to election officials runs to Nov 16, hearing Nov 13 | Consequence for what we track: midterms; Maximalists' -1 now rests on a documented order (documented)\n- Oct 26, CBS: DOJ asked Washington to set aside 405 mail ballots from suspected noncitizens; Axios says similar letters went to Pennsylvania, New Jersey and Nevada | Consequence for what we track: midterms; builds a record for post-election challenges, no compliance reported, no score (reported)\n- Oct 31, Axios AM Deep Dive: Texas paused new data-center approvals pending an audit; 43% oppose a local data center | Consequence for what we track: AI policy; the AI buildout becomes a vote liability for Republicans, Tech Right weakened in text but not scored (reported, one newsletter)\n- Oct 30-Nov 1, Al Jazeera and RFE/RL: a Qatari LNG carrier was hit by 'unidentified objects' in the Gulf; Iran had sent no answer to the revised Qatari proposal by Nov 1 and Trump says 'one or two sites' remain | Consequence for what we track: Iran; the diplomatic track is stalled as post-Nov 3 strike planning stays live (my reading)"
+}

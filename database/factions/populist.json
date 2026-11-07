@@ -1,0 +1,280 @@
+{
+  "blunder": "Carlson will not back the GOP (June); no seat in government",
+  "cause": "Audience and leverage: outside the building, they sell access to the base instead of holding office",
+  "did": "Audit demand on MAGA Inc. (Oct 7); Humans First letter (May)",
+  "dissolved": "2026-11-03",
+  "dissolvedNote": "Dissolved Nov 3, 2026 at the reviewer's direction: its members' acts serve other factions. Carlson and Kent to the Vance Lane; Bannon, Loomer, Bovino, Morgan, Howell and Prince to the Maximalists; Hawley to the Party Machine; Greene to the Article I Dissenters; Gabbard to none.",
+  "donors": [
+    [
+      "Heritage-led coalition",
+      "Not quantified",
+      "Movement generally",
+      "Immigration, AI",
+      "Heritage has received at least $18M from the Scaife foundation, $5.9M from Bradley, $5.7M from the Koch network and $1M+ from the Mercers. Gives the movement infrastructure that overlaps with the Maximalists’ funders (CMD)."
+    ],
+    [
+      "Shillman",
+      "Not quantified",
+      "Loomer",
+      "Immigration, Iran",
+      "Robert Shillman (Cognex founder) has backed Loomer since a 2017 fellowship and still does (New Yorker, Oct 2025). No source ties the Mercers or Fancelli to her or to Bannon."
+    ],
+    [
+      "Real America's Voice (Robert Sigg)",
+      "Distribution deal, not quantified",
+      "Bannon",
+      "All",
+      "Carries War Room since Bannon was deplatformed (2021-22); up to 8 million homes via Dish (Washington Post, Jan 2022, as carried). Bannon's platform, not a political donor."
+    ],
+    [
+      "1789 Capital (Malik, Buskirk, Rebekah Mercer)",
+      "$15M seed, 2023; bought out Jun 2025",
+      "Carlson (past)",
+      "Succession",
+      "Seeded Carlson's network; Malik also hosted Vance's Aug 19 fundraiser. Thiel was reportedly instrumental in founding it (Reuters). A past tie, not current funding."
+    ],
+    [
+      "Humans First funders",
+      "Untraced",
+      "Not tied to a person",
+      "AI",
+      "Unknown. Untraced funders mean the AI letter’s backers cannot be tested for self-interest."
+    ],
+    [
+      "Media reach",
+      "Audience, not money",
+      "Bannon, Carlson, Greene, Kent",
+      "All",
+      "The real currency. Carlson owns his network after a Jun 2025 buyout; his network cited growth from Iran coverage. Loomer alleged Qatar paid him up to $200,000; no direct evidence, he denies it."
+    ]
+  ],
+  "edges": [
+    [
+      "F3 Hawks and Populist Right",
+      "Feud",
+      "Iran, Succession, Epstein",
+      "Reported: Trump overruled the hawks on Iran timing (Oct 8); Carlson and Loomer fight over Israel; Bannon doubts Vance while Hawks back Rubio",
+      "Reported only",
+      "Trump's timing calls; Rubio straddles"
+    ],
+    [
+      "A4 Dissenters and Populist Right",
+      "Alliance",
+      "Epstein, Iran",
+      "Massie and Boebert discharge petition (Epstein); Iran war-powers resolution 50-48 (Jun 23) beside Populist opposition to new wars. The weakest edge: the Iran match is an outcome, partly a statement",
+      "None found",
+      "Hawley flipped on war powers after assurances (Jan 8 to Jan 14)"
+    ],
+    [
+      "M2 Vance Lane and Populist Right",
+      "Mixed",
+      "Iran, Immigration allied; Succession split",
+      "Both restraint on Iran; PERM suspensions (Oct 8) match the H-1B line; Bannon calls Vance not tough enough and backs a third term",
+      "None found",
+      "The 2028 race"
+    ]
+  ],
+  "gained": "Trump undid Mullin’s vehicle-stop pause after their criticism (Jul, Atlantic, claimed)",
+  "id": "populist",
+  "legal": [
+    [
+      "Bovino and the agents under him",
+      "Hennepin County prosecutors are reviewing at least 17 incidents from the Minnesota immigration surge, including a smoke canister thrown into a crowd; no agent in the Renee Good or Alex Pretti shootings has been charged",
+      "State assault or homicide charges (a federal pardon does not cover state crimes)",
+      "Public record: county attorney review announced; no charges",
+      "Hennepin County Attorney; other state and local prosecutors"
+    ],
+    [
+      "Carlson",
+      "Loomer alleges Qatar paid him up to $200,000; Lumen8, paid $180,000 a month by the Qatari embassy, facilitated an interview. No direct evidence; he denies it",
+      "FARA, if he acted at Qatar’s direction",
+      "Anonymous and unproven allegation",
+      "None reported"
+    ],
+    [
+      "Bannon, Loomer, Prince",
+      "No current allegation found in this research",
+      "",
+      "None found",
+      ""
+    ]
+  ],
+  "legalnote": "",
+  "lost": "Kent resigned over the war (Mar 17) and joined Carlson's lane; Gabbard left citing her husband's illness (May 22); no seat",
+  "members": [
+    [
+      "Bannon",
+      "War Room host",
+      "Midterm audit, third term, immigration; backs Trump on Iran",
+      "8; backs a third term, doubts Vance; told CPAC to back Trump's war (Mar 27)",
+      "Audience and broker power: airs on Real America's Voice; no Mercer money since 2018"
+    ],
+    [
+      "Carlson",
+      "Broadcaster; owns his network",
+      "Iran restraint, Epstein, succession",
+      "9; will not back the GOP (June)",
+      "Audience he owns (bought out investors Jun 2025); 2028 leverage"
+    ],
+    [
+      "Greene",
+      "Former representative",
+      "Epstein, succession, Iran restraint",
+      "8; resigned; new-party talk (Aug)",
+      "A platform outside the party"
+    ],
+    [
+      "Kent",
+      "Former NCTC director",
+      "Iran restraint (resigned Mar 17)",
+      "8; urged Carlson to run (Aug)",
+      "Conviction at a cost, now his ticket to the Carlson lane"
+    ],
+    [
+      "Loomer",
+      "Activist; Loomer Unleashed host",
+      "Immigration purges; backs the Iran war",
+      "3; home is Maximalists; attacks Carlson and Greene",
+      "Access to Trump; funded by Shillman"
+    ],
+    [
+      "Bovino",
+      "Former Border Patrol commander",
+      "Immigration",
+      "4; home is Maximalists",
+      "A post in the crackdown"
+    ],
+    [
+      "Howell",
+      "Oversight Project",
+      "Immigration",
+      "4; home is Maximalists",
+      "DonorsTrust-funded pressure group"
+    ],
+    [
+      "Morgan",
+      "Former CBP head",
+      "Immigration",
+      "4; home is Maximalists",
+      "Return to office"
+    ],
+    [
+      "Hawley",
+      "Senator (R-Missouri)",
+      "AI limits, tech and labor populism",
+      "3; home is Party Machine; voted against Iran war powers",
+      "A national run; flips under White House pressure"
+    ],
+    [
+      "Prince",
+      "Contractor (outside)",
+      "Iran restraint (Mar 1), immigration",
+      "3; home is Maximalists",
+      "Contracts"
+    ]
+  ],
+  "name": "Movement Media and Insurgents",
+  "overview": [
+    "The Movement Media and Insurgents bloc is defined by what its members own, not what they say: audiences outside the government. Carlson owns his network outright after buying out 1789 Capital and the other investors (Axios, Jun 2025). Bannon's War Room airs on Robert Sigg's Real America's Voice; the Mercers cut him off in 2018. Greene and Kent left office and are building a new-party lane with Carlson and Massie (Aug 2026).",
+    "Their slogans split by audience. On Iran, Kent resigned citing the war (Mar 17) and Carlson sells restraint, but Bannon told CPAC to \"have his back\" (Mar 27) and Loomer called war critics a \"foreign influence operation\" (Mar 3). Loomer, funded by Robert Shillman, depends on access to Trump, so she is re-homed with the Maximalists. Enforcement veterans (Bovino, Morgan, Howell) and the contractor Prince want posts and budget in the deportation machine, which is the Maximalists' interest, so they move there with a secondary row here. Hawley voted against the Iran war powers resolution and flips when the White House presses; he moves to the Party Machine.",
+    "Precedent (my reading): Pat Buchanan, a television commentator, ran an \"America First\" insurgency against a sitting Republican president in 1992, again in 1996, then took the Reform Party line in 2000 and won under one percent. The commentator-to-insurgent-to-third-party path maps onto Carlson, Greene, Kent and Massie: the anti-war line is the product and the leverage, and the exit threat pays only if the party buys it off before it is used."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "State laws should stay; pre-release testing (Humans First letter, May).",
+          "Why the faction does it. A break with the Tech-Right. Humans First funders are untraced.",
+          "Who and why.",
+          "Bannon Motives: (1) Ideology: populist skepticism of the labs. (2) Positioning: attacking Sacks and the Tech-Right gives him an issue to run against ahead of 2028. Axios (Jan 10, 2026) reported groundwork for a run, which he denies. He also pressures Cruz over his AI bill.",
+          "Hawley wrote a letter and gave a platform; Trump signed the narrower Jun 2 order anyway (reported). Motives: (1) Signaling: a letter costs nothing. (2) 2028 speculation: AI skepticism is a populist wedge (my reading).",
+          "Say versus do. The letter did not change the Jun 2 order."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "Jul 2025: Carlson said Bongino’s audience believed a cover-up.",
+          "Apr 3: “Blanche must release the files.”",
+          "Why the faction does it. Audience: the cover-up is the base’s strongest grievance.",
+          "Who and why.",
+          "Carlson, Loudon Motives: (1) Audience: commentary that grows a following. (2) Carlson is accused of taking Qatari money: Loomer alleged Qatar paid him up to $200,000, and Lumen8 (paid $180,000 a month by the Qatari embassy) facilitated one of his interviews. There is no direct evidence of payment, and Carlson denies it.",
+          "Say versus do. Commentary without an act."
+        ],
+        "title": "Epstein"
+      }
+    ],
+    "IMM": [
+      {
+        "paras": [
+          "Position.",
+          "Wants 1M+ removals a year; demanded Mullin’s removal (Aug).",
+          "Jul: Trump reversed the vehicle-stop pause after criticism (The Atlantic, claimed).",
+          "Why the faction does it. Mass deportation is the movement’s core promise, and this is the one issue where its pressure has a claimed result.",
+          "Who and why.",
+          "Bannon, Bovino, Howell, Morgan Motives: Ideology: the movement’s founding position (reported). For Bannon, a second motive is power: being the voice that decides whether Trump “kept his promise” keeps him relevant (my reading).",
+          "Loomer demanded Mullin’s removal, and Mullin remains DHS secretary (reported). Motives: (1) Audience and access: she reports “disloyal” officials, and NSC and NSA firings followed her Oval Office meeting in Apr 2025. A demand that fails still builds her profile. (2) Standing with Trump as his self-appointed enforcer (my reading).",
+          "Prince is an outside contractor who gains from enforcement spending (reported). Motives: Business.",
+          "Say versus do. Loomer’s demand did not move the department."
+        ],
+        "title": "Immigration"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Split by audience. Mar 17: Kent resigned, saying Iran posed no imminent threat. Carlson and Greene attack the war. Mar 3: Loomer called war critics a “foreign influence operation.” Mar 27: Bannon told CPAC “people got to have his back.” Hawley voted against the war powers resolution.",
+          "Why the faction does it. Each member sells the line its own audience buys. There is no shared stake in the outcome, only in staying the base’s voice (my reading).",
+          "Who and why.",
+          "Kent Posture: no new wars, blaming Israel’s lobby. Interest: the resignation cost him his job, the best costly evidence in the bloc, and bought him a place in Carlson’s new lane (he urged Carlson to run, Aug).",
+          "Carlson Posture: restraint. Interest: he owns his network, which cited “historic growth” from Iran coverage; restraint is his product and his 2028 leverage.",
+          "Bannon Posture: warns the war could break MAGA, yet backs Trump and wants Israel and Arab states to supply ground troops (Mar 30). Interest: a broker who never breaks with Trump keeps his access and his audience (my reading).",
+          "Loomer (home Maximalists) Posture: pro-war, pro-Israel. Interest: access to Trump is her asset, so she backs what Trump does.",
+          "Gabbard left May 22 citing her husband’s cancer, after defending the launch in office; she is no longer counted here.",
+          "Say versus do. Kent acted; the others spoke.",
+          "Stance audit. Kent resigned over the war, Carlson criticized it, and Loomer and Bannon backed Trump in different ways. Kent’s March 17 resignation supplies evidence of a costly commitment. Compare dated statements by individual. Audience, access, and succession influence can reward different positions. Shillman backs Loomer and Real America’s Voice distributes Bannon’s show. Score the split by actor. A shared audience market gives weak evidence of any individual’s motive."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Demanded a forensic audit of MAGA Inc.; called Blair and LaCivita “grifters” (Oct 7).",
+          "Why the faction does it. Pressure on the Operation, which Bannon opposes and gains from weakening.",
+          "Who and why.",
+          "Bannon Motives: (1) Rivalry: the Operation sells proximity to Trump (see The Operation), and his own camp loses if that is the only route. (2) Timing: the demand came the day Trump said he would “terminate” conflicted consultants. Bannon wanted a review. (3) Ambition: he loses ground if Vance wins and gains if the Operation weakens (my reading).",
+          "Say versus do. The demand is a demand; no audit has been reported."
+        ],
+        "title": "Midterms"
+      }
+    ],
+    "SUC": [
+      {
+        "paras": [
+          "Position.",
+          "June: Carlson will not back the GOP.",
+          "Bannon is “working on” a third term and calls Vance “not tough enough.”",
+          "Why the faction does it. A third term or a tougher heir keeps this faction’s leverage; a Vance win shrinks it.",
+          "Who and why.",
+          "Bannon Motives: (1) Ambition: allies say he pushes the third term because he wants to run himself (Axios), and he has a PAC and a “WarRoom: Texas” operation. He denies a run. (2) Product: he is helping Dershowitz with a third-term book, and the talk feeds his show. (3) Pressure: he presses Vance, Rubio (too close to Israel) and Cruz (Israel, AI bill) so that none becomes the heir without him (my reading).",
+          "Carlson Motives: Audience: his network cited “historic growth” from Iran war coverage (press release, Apr 30, 2026). Refusing to back the GOP fits an audience that distrusts the party.",
+          "Greene resigned from the House (reported). Motives: Circumstance: no stated plan; outside the party she has no constraints. No stake found.",
+          "Say versus do. “Working on” a third term is a statement."
+        ],
+        "title": "Succession"
+      }
+    ]
+  },
+  "short": "Movement Media",
+  "wants": "Turn audience reach into political leverage over officials and the succession. Track concrete asks by commentator or temporary coalition, especially after the recorded dissolution.",
+  "weak": "No seat in government; members compete for the same audience and split on Iran (Loomer and Bannon back the war, Carlson and Kent oppose it)",
+  "why": "Audience revenue, status, ideological influence, and the ability to mobilize voters are separate rewards. Shillman's backing of Loomer and Real America's Voice's distribution of Bannon's show enable different actors. Attribute funding, distribution, and policy pressure to the people involved.",
+  "win": "Trump reversed the vehicle-stop pause after criticism (Jul, claimed)"
+}

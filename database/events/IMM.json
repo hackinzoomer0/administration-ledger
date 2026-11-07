@@ -1,0 +1,2102 @@
+{
+  "issue": "IMM",
+  "items": [
+    {
+      "actor": "Miller, Noem",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2025-05-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2025-05-21-700ffb",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Miller and Noem set the 3,000-a-day goal (carried, claimed)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Congress",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2025-07-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2025-07-04-400a8a",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Budget law gives ICE $75B (carried)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2025-09-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2025-09-19-09a8e2",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump signs the $100,000 fee (carried)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Howell",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2025-12-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2025-12-23-6e79f4",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "D.D.C. upholds the fee; Chamber appeals Dec 29",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "White House, Mar: the agenda continues without interruption",
+      "date": "2026-01-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-01-27-49496e",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AP via Yahoo",
+      "text": "Sent Homan to Minneapolis after the killings of Renee Good and Alex Pretti",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Backlash, not a court, ended the spectacle strategy",
+      "date": "2026-01-27",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-01-27-789046",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-01-27-4d0c1c",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump sends Homan to Minneapolis; jail-pickup deals; surge winds down in Feb",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Homan sent to Minneapolis; surge wound down in February",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-02-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-02-04-94604c",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "WSJ: Trump uneasy with how far Miller went",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Congress could pressure DHS but not ICE",
+      "date": "2026-02-14",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-02-14-2dd9ea",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "A record 47-day DHS funding lapse ended with a bill adding oversight money; ICE ran on 2025 reconciliation funds",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Congress",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-02-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-02-14-6321e0",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "DHS funding lapse begins and runs 47 days",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Trump: he was not thrilled and did not know about it",
+      "date": "2026-03-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-03-05-9012ff",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "The Hill via AOL",
+      "text": "Fired Noem after she told the Senate he approved the $220M ad campaign",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "The Noem shop collapsed; the enforcement professionals gained ground",
+      "date": "2026-03-05",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-03-05-30679e",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Noem fired; Mullin confirmed and sworn in",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Wiles",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "",
+      "date": "2026-03-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-03-05-ed4818",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "WSJ: Trump tells aides to stress \"bad guys\"; Noem fired Mar 5, named envoy",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-03-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-03-24-34f1b3",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Mullin sworn in as DHS secretary",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "DOJ now fronts the fraud and voter-check cases (Washington Times)",
+      "date": "2026-04-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-04-02-4d8dc3",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-04-02-a75f6b",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump fires Bondi; Blanche acting attorney general",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Bondi fired; Blanche acting attorney general",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Howell, Morgan",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-04-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-04-13-373079",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Axios: Mass Deportation Coalition pushes \"Phase 2,\" 1 million a year",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "DHS, Warren",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-05-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-05-12-922df4",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "DHS names Venturella acting director; Warren writes him",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Miller, Homan",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "DHS: Mullin works closely with Trump, Miller and Homan Trump nominates Schroyer in June.",
+      "date": "2026-06-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-06-01-9c5918",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-06-01-06985a",
+          "kind": "chron",
+          "source": "",
+          "text": "Venturella takes over ICE; Trump nominates Schroyer in June",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "Daily Beast",
+      "text": "Venturella took over ICE; Mullin's pick, Regalado, lost",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Contract and capacity decisions sit with a former contractor",
+      "date": "2026-06-01",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-06-01-09d8d8",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "ICE passed to a former GEO executive",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Skilled-visa policy moved from a fee to PERM suspensions and rulemaking",
+      "date": "2026-06-08",
+      "fx": {
+        "maximalists": -1,
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-06-08-3c4fc4",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "$100,000 fee vacated nationwide; First Circuit refused a stay",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Sorokin",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-06-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-06-08-d7682e",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "D. Mass. vacates the $100,000 fee nationwide",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Funding no longer a lever for Democrats",
+      "date": "2026-06-09",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-06-09-7a73f9",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-06-09-9a8dc1",
+          "kind": "chron",
+          "source": "",
+          "text": "ICE and CBP funding passes with body cameras and oversight money",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "ICE and CBP funding passed with body cameras and de-escalation training (House Homeland)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Mullin, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Mullin: he and Trump are on the same page",
+      "date": "2026-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-07-f84079",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "month",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Fox; Mediaite on The Atlantic",
+      "text": "Mullin paused most ICE vehicle stops after fatal shootings in Texas and Maine; Trump reversed it the next day",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-07-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-07-10-cd98c7",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "TPS work permits for Haiti and six other countries extended hours before expiry",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Mullin, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-07-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-07-14-48a559",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Mullin pauses most vehicle stops after fatal shootings; Trump reverses within a day (dates approximate)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-07-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-07-24-b764e5",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "First Circuit refuses to stay the fee's vacatur",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "ICE",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-08-254287",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "month",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "ICE arrests reach about 51,000, the highest month; detention population over 65,000 in July (Newsweek)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Mullin",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Posted \"no amnesty. Ever.\" on Aug 1; Bannon, Loomer and Bovino demanded his removal",
+      "date": "2026-08-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-08-01-847c15",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Newsweek",
+      "text": "Told governors the economy needs employment-visa reform",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Mullin, flank",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-08-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-08-01-8b95bb",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Mullin's governors speech and no-amnesty post; Loomer pitches herself for DHS secretary; Bannon names Pulte",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "DHS: cost recovery, with an indirect effect of deterring H-1B hiring",
+      "date": "2026-08-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-08-24-aedd02",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-08-24-0efcf3",
+          "kind": "chron",
+          "source": "",
+          "text": "DHS proposes a $103,265 H-1B fee by rule",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AFP",
+      "text": "Proposed a $103,265 H-1B fee by rule after the courts blocked the proclamation",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "White House",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Trump in June: Schroyer had firsthand experience getting illegal aliens off the streets",
+      "date": "2026-09-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-09-17-404f76",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Al Jazeera",
+      "text": "Withdrew the Schroyer nomination",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Salazar, Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Salazar: Hispanic voters feel betrayed",
+      "date": "2026-09-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-09-17-59030e",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CNN via KEYT",
+      "text": "Salazar ran an ad saying enforcement went too far; Trump said he disagrees but kept his endorsement",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Mullin lost his second pick; the White House kept the fee on paper",
+      "date": "2026-09-17",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "imm-2026-09-17-8ac690",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Schroyer pulled; fee extended",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "White House, Salazar",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-09-17-93c420",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "White House withdraws Schroyer; Salazar's ad breaks with Trump",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "The extension does not address the court order vacating the fee",
+      "date": "2026-09-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-09-18-f90b6b",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-09-18-f45ec5",
+          "kind": "chron",
+          "source": "",
+          "text": "Fee extended to Sept 21 2027; order on layoffs and H-1B review",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CUPA-HR",
+      "text": "Extended the $100,000 fee to Sept 21 2027 and ordered agencies to weigh layoffs in H-1B reviews",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "ICE leadership, White House",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "DHS called the reports false; a White House official confirmed the guidance (Daily Wire)",
+      "date": "2026-09-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-09-25-ebfe4f",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-09-25-048d29",
+          "kind": "chron",
+          "source": "",
+          "text": "Verbal order to stop arresting non-criminals goes out, then is rescinded",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Tracker summary; CNN via KEYT",
+      "text": "Verbal guidance to stop arresting people without criminal records went out, then was rescinded; Trump directed anger at Mullin",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Gilliam, CNN",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-09-30-a80f0b",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "N.D. Cal. blocks the fee guidance, including the extension; CNN reports the DHS-White House rift",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, ICE",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-01-e98152",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump defends the policy at a Denton, Texas rally; ICE memo limits vehicle stops to trained officers",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Vance",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-10-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-02-27be9a",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance says he would support eliminating H-1B",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "ICE leadership",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "DHS: no quotas on arrests",
+      "date": "2026-10-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-06-94151b",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-10-06-98d672",
+          "kind": "chron",
+          "source": "",
+          "text": "ICE leadership orders 1,000 more arrests a day, back to 3,000",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "CNN",
+      "text": "Verbal order to add 1,000 arrests a day and return to 3,000",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Volume and skilled-visa pressure both rose before the midterms",
+      "date": "2026-10-06",
+      "fx": {
+        "maximalists": 1,
+        "tech-right": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to no faction (already scored).",
+      "id": "imm-2026-10-06-d7a36d",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "3,000-a-day order; PERM suspensions",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Vance, Sonderling, Blanche, Miller present",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists",
+        "vance"
+      ],
+      "context": "Vance: the aim is a change in hiring; Trump gave Nadella a medal the same day",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-08-6d20db",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Ellis; New Republic",
+      "text": "Suspended Microsoft, Adobe, Cognizant, Infosys, TCS, Wipro, HCL and Capgemini from PERM; opened probes of nine universities over J-1 visas",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Vance, Sonderling, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "Corrected Oct 28: Vance attended the briefing, but the eight suspended firms are Microsoft, Adobe and Indian outsourcers (Cognizant, Infosys, TCS, Wipro, HCL, Capgemini), none in the Thiel or Musk orbit, and Trump gave Nadella a medal the same day. Counted as a Maximalist act, not a Vance one.",
+      "id": "imm-2026-10-08-d0eadf",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance, Sonderling, Blanche, Miller at the fraud briefing; eight firms suspended from PERM; nine universities named in a J-1 probe; Trump gives Nadella a medal",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Mullin",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Said DHS is not ramping up anything, three days after the Oct 6 order",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-09-dc3386",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Daily Beast",
+      "text": "Press conference at ICE headquarters",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Mullin, DOJ",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-09-cff71d",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Mullin at ICE headquarters: DHS is not ramping up; DOJ appeals the Sept 30 H-1B ruling to the Ninth Circuit",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Microsoft",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-14-91460e",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Microsoft president Brad Smith calls Vance's layoffs-for-visas claim off base",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "DHS: a decision will come at an appropriate time; over 100,000 people are covered.",
+      "date": "2026-10-18",
+      "fx": {},
+      "fxnote": "No fx: inaction keeps the status quo; no faction's tools changed.",
+      "id": "imm-2026-10-18-c2e43e",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-10-18-f56dc4",
+          "kind": "chron",
+          "source": "",
+          "text": "DHS leaves Ukraine and Sudan TPS open, decision \"at an appropriate time\"; over 100,000 people",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): by not deciding, DHS lets a statutory six-month extension cover over 100,000 Ukrainian and Sudanese holders, avoiding a fight before the election while keeping the option to end it later. Counter-reading: a deliberate delay before ending TPS after Nov 3. Falsifier: a termination notice.",
+      "source": "OPB/AP",
+      "text": "Left Ukraine and Sudan TPS open without a written decision; a statutory six-month extension applies if none is made",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Homan",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Mullin's department told Kansas on Sept 25 it was not conducting worksite operations (v9, carried)",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-19-cc86f8",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-10-19-df0e0d",
+          "kind": "chron",
+          "source": "",
+          "text": "Homan says a worksite-enforcement plan cleared HSI and goes to Mullin",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Post Millennial (low-quality outlet; claimed)",
+      "text": "Said a worksite-enforcement plan cleared HSI and goes to Mullin",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-21-11a666",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "N.D. Cal. blocks immigration-related voter investigations in nine states, stayed to Oct 23 for an appeal (Justice Roundup)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Homan, ICE",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "White House: a brief visit for routine assessments of immigration and maritime security",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-22-7ee842",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-10-22-1acb8b",
+          "kind": "chron",
+          "source": "",
+          "text": "Homan visits Puerto Rico; ICE operation in San Juan, at least 15 arrested; ACLU of Puerto Rico demands a halt (Washington Post)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Washington Post",
+      "text": "Visited Puerto Rico as ICE ran a San Juan operation; at least 15 arrested, mostly at vehicle stops",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "DOJ, DHS",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-24-028c95",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Immigration",
+      "precision": "day",
+      "rationale": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "AP: federal prosecutors charged more than two dozen legal residents in California over voter registration and citizenship forms (AP via Haitian Times)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Fifth Circuit (en banc)",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Judges elsewhere have ruled against the same detention policy in over 21,000 cases in a year. The Supreme Court agreed this month to hear a separate case on whether the statute requires bond hearings.",
+      "date": "2026-10-23",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: ICE can detain without bond hearings in three states; re-score if the Supreme Court's bond-hearing case or a conflicting circuit ruling overrides it.",
+      "id": "imm-2026-10-23-fifth-circuit",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): in three states ICE can hold people without bond hearings, which supports the Maximalists' detention volume, but the Supreme Court case and conflicting rulings elsewhere keep it reversible. Single secondary summary, so tier is reported and I did not tag fx; the vote count is unverified against the opinion. Counter-reading: the Supreme Court statutory case could override it; falsifier: a ruling requiring bond hearings.",
+      "source": "International Legal and Business Services Group (law-firm summary)",
+      "text": "The full Fifth Circuit rules 10-7 that immigrants not lawfully admitted and awaiting hearings have no constitutional right to a bond hearing, reversing a July panel that had limited detention to 90 days (Texas, Louisiana, Mississippi).",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "ICE (Minnesota)",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Chief Judge Tostrud has similar cases pending; two men re-arrested over a month ago remain in custody.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-27-mn-rearrests",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): courts are policing how ICE honors release orders, a friction on arrest volume that has not changed the policy. Single outlet, one judge; No fx.",
+      "source": "MPR News",
+      "text": "A federal judge in Minnesota orders ICE to release a man it re-arrested outside the federal building after a release order, and threatens sanctions; MPR counts seven such instant re-arrests and ICE has acknowledged the tactic.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-29",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Net effect (my reading): the enforcement push now reaches naturalized citizens on a quota-like target, widening the Maximalists' tools beyond arrests. Figures are DOJ's own. No fx.",
+      "date": "2026-10-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-05-bf12",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 7 edition, citing DOJ)",
+      "source": "",
+      "text": "DOJ says it filed 40 denaturalization actions between Aug 21 and Oct 2, with 200+ complaints filed and a goal of 250 by the end of October.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-10-29",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Net effect (my reading): DHS is treating voter-registration groups as an enforcement target before the election, which is the conduct judges limited on Oct 21-22. One outlet. No fx.",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-07-bf13",
+      "issues": [
+        "IMM",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 8 edition)",
+      "source": "",
+      "text": "DHS has investigated more than 150 organizations over alleged help registering noncitizens to vote and considered using undercover agents.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-10-29",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Net effect (my reading): another visa cost increase aimed at student workers, consistent with the H-1B suspensions; it is a proposal, not a rule. No fx.",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-08-bf14",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Politico via Just Security Early Edition",
+      "source": "",
+      "text": "DHS proposes raising OPT fees to $70,000 per student and extension fees to $30,000, from about $500.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "DOJ / FBI",
+      "added": "2026-10-29",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Net effect (my reading): DOJ is using immigration law against a sitting member of Congress three weeks before the election, which fits the Maximalists' enforcement push into politics; the magistrate's limit shows courts still bound it. Allegations unproven. Counter-reading: an ordinary fraud probe; falsifier: charges or a closed probe. No fx.",
+      "date": "2026-10-12",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: DOJ pressed an immigration-law probe against a sitting member of Congress, though a magistrate limited its document access; re-score if charges are dropped or the court blocks more of the probe.",
+      "id": "imm-2026-10-12-bf15",
+      "issues": [
+        "IMM",
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 13, 14, 15 editions)",
+      "source": "Omar calls it targeting of political enemies; a House ethics body had recommended dismissing earlier allegations.",
+      "text": "Federal agents search Rep. Ilhan Omar's home under a court warrant over alleged false statements in family immigration paperwork; her phone is seized, 12+ grand jury subpoenas follow, Pirro is probing her disclosures, and a magistrate limits DOJ access to her documents (Oct 14).",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Federal appeals court",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): states cannot unmask ICE agents by law for now, a gain for ICE operations. Court and panel not stated in my source. No fx.",
+      "date": "2026-10-14",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: states cannot require ICE agents to show visible ID for now; re-score if the Supreme Court or en banc court revisits it.",
+      "id": "imm-2026-10-14-bf16",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 15 edition)",
+      "source": "",
+      "text": "An appeals court rules against California's law requiring ICE agents to show visible identification, citing the Supremacy Clause.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Federal judge",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): sanctuary jurisdictions keep their laws, a setback for the Maximalists' campaign against them. Ruling details not read. No fx.",
+      "date": "2026-10-15",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: a federal judge dismissed the suit against New York City's sanctuary laws, leaving them in force; re-score if DOJ wins on appeal.",
+      "id": "imm-2026-10-15-bf17",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Reuters via Just Security Early Edition",
+      "source": "",
+      "text": "A federal judge dismisses the administration's lawsuit against New York City's sanctuary laws.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Federal appeals court",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): a court limit on using the Guard for domestic enforcement, which constrains one tool the Maximalists could use around the election. Court and scope not stated in my source; appeal possible. No fx.",
+      "date": "2026-10-23",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: an appeals court held the 2025 California Guard seizure unlawful, limiting a domestic-enforcement tool; re-score if the administration wins en banc or at the Supreme Court.",
+      "id": "imm-2026-10-23-bf18",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 26 edition)",
+      "source": "",
+      "text": "An appeals court rules Trump violated federal law by seizing control of the California National Guard in 2025 and deploying troops in Los Angeles.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Supreme Court",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): immigration judges lose a docket-management tool, which helps the Maximalists' deportation volume. Whether the closed cases reopen quickly is not established. No fx.",
+      "date": "2026-10-27",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: immigration judges still cannot shelve cases, which supports deportation volume; re-score if the Texas judgment is reversed on appeal.",
+      "id": "imm-2026-10-27-bf19",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Immigration Analytics, JURIST, Reuters/SCOTUSblog via digests",
+      "source": "Requesters were Baltimore, New Haven, Columbus and Centro Legal de la Raza.",
+      "text": "The Supreme Court, in an unsigned order with no noted dissent, refuses to suspend a Texas judgment striking the 2024 administrative-closure rule, so immigration judges still cannot shelve deportation cases (about 310,000 closed cases in play).",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "DHS, Markwayne Mullin",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Figures come from DHS via Fox News; no independent data; crime claims unverified.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-29-lone-star",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "DHS",
+      "precision": "day",
+      "rationale": "Chron: DHS claim only; weight capped.",
+      "source": "PJ Media citing DHS and Fox",
+      "text": "DHS says its Lone Star Mission in Texas made about 4,170 arrests in 10 days (about 400 a day); Secretary Mullin cites over 4,100.",
+      "tier": "claimed",
+      "weight": 2
+    },
+    {
+      "actor": "DHS, DDoSecrets",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Claimed by a group calling itself 'Department of Peace'; Okta says it has no evidence of compromise. Reuters confirmed six names against breach records. Third government leak in a month after an FBI theft claim and a Defense Department breach.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "No fx: the enforcement effect has not yet appeared in arrests or staffing and the dataset is unverified.",
+      "id": "imm-2026-10-28-dhs-data-leak",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "DHS",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): exposure of agent identities raises the personal risk and operating cost of ICE and CBP field work and gives the Maximalists a security argument for more secrecy, but DHS cannot pull the data back. Evidence: two outlets plus a published takedown letter. Not established: authenticity of the full set and the Okta claim. Counter-reading: the data may be stale or partial. Falsifier: DHS shows it is old or mostly invalid.",
+      "source": "Reuters via GV Wire; Al Jazeera",
+      "text": "A leak site releases data on more than 40,000 DHS employees at ICE, CBP, HSI and CISA, including surveillance and undercover roles; DHS asks an Icelandic host to remove it on Oct 29, the host refuses and the data moves to another domain.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "Hegseth (Pentagon), DHS",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon",
+        "maximalists"
+      ],
+      "context": "Reported from a memo obtained by CNN; the memo does not say where or how it would be used. Pentagon gave no comment.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "No fx: single-source report and no deployment yet.",
+      "id": "imm-2026-10-21-ads-dhs-loan",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon is lending a crowd-control weapon to border enforcement, which widens the military's role in immigration work. Evidence: one memo reported by one outlet. Not established: deployment site and any use. Counter-reading: a technology test with no operational use. Falsifier: the unit is returned unused.",
+      "source": "CNN via Daily Beast; TVG Daily Brief",
+      "text": "A Hegseth memo approved last month loans one Active Denial System heat-ray unit to DHS for a seven-month test at the southern border; Pentagon personnel may not operate it.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Federal judge",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Single digest (Early Edition); the order was not read.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "No fx: single-source and temporary; court not identified.",
+      "id": "imm-2026-10-28-refugee-rule-blocked",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Courts",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court delays a Maximalist-run tool for ending refugee status; short-lived. Not established: the court or appeal. Counter-reading: a narrow procedural hold. Falsifier: the hold lapses Nov 6 with no extension.",
+      "source": "Just Security Early Edition (Oct 28)",
+      "text": "A federal judge temporarily blocks a USCIS rule giving refugees 10 days to challenge termination of status; enforcement halted through Nov 6.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "ICE; Mayor Mamdani",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Shooting account is from officials and the mayor; ICE's version not detailed in the collector's read.",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-08-marble-hill-shooting",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a use-of-force incident that shows the mayor has no channel that moves ICE even with direct calls to Trump; no faction position changes.",
+      "source": "ABC News (abc13)",
+      "text": "An ICE officer shoots Oscar Belgal, 28, during a stop in Marble Hill, New York City, with a child in the car; Mamdani says two hours of calls with Trump and Mullin failed to free him; a judge bars his transfer.",
+      "tier": "documented",
+      "url": "https://abc13.com/story/person-shot-during-interaction-federal-agents-new-york-city-nypd/19922806/",
+      "weight": 2
+    },
+    {
+      "actor": "DHS; Pentagon",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Anonymous-sourced planning report; no order found.",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-08-deportation-ships",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a planning report that would draw Pentagon assets into removals; no decision and DHS denies it is real.",
+      "source": "NYT via GV Wire",
+      "text": "NYT: officials are in early talks on deporting migrants by ship, such as the Training Ship Golden Bear and ferries, to El Salvador, Honduras and Venezuela, which could shift costs to the Pentagon; DHS calls it hypothetical.",
+      "tier": "reported",
+      "url": "https://gvwire.com/2026/10/08/trump-administration-considers-using-ships-to-deport-immigrants/",
+      "weight": 2
+    },
+    {
+      "actor": "State Department (Rubio's office)",
+      "added": "2026-10-30",
+      "by": [
+        "hawks"
+      ],
+      "context": "Page printed Oct 15 says the cable went out 'on Tuesday' (Oct 13). About 600 visas were revoked earlier per an August task-force statement. Politico obtained the cable.",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "No fx: a records review with no revocations reported under it yet; re-score if mass revocations follow.",
+      "id": "imm-2026-10-13-birth-tourism-cable",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): State widens restriction to legal travelers and their families, extending enforcement reach beyond DHS; no new revocations under it are reported yet. Counter-reading: a paper review. Falsifier: no revocations by December.",
+      "source": "Politico via The Standard (Hong Kong)",
+      "text": "A State Department cable from Rubio's office orders posts to review visa files and flight manifests from Jan 24, 2020 to Aug 1, 2026 for suspected birth tourism, due end of November; family who helped could lose visas.",
+      "tier": "reported",
+      "url": "https://www.thestandard.com.hk/world/article/345506/US-targets-birth-tourism-orders-review-of-visa-files-back-to-2020",
+      "weight": 3
+    },
+    {
+      "actor": "Mahmoud Khalil",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "A petition; the Court has not acted.",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-19-khalil-scotus",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a filing that could, if granted, restore district-court review of detentions; no change yet.",
+      "source": "AP via NY1",
+      "text": "Mahmoud Khalil asks the Supreme Court to overturn a Third Circuit ruling that district judges lack jurisdiction to reverse his immigration detention.",
+      "tier": "reported",
+      "url": "https://ny1.com/nyc/all-boroughs/news/2026/10/19/khalil-asks-supreme-court-to-let-judges-reverse-immigration-detentions",
+      "weight": 2
+    },
+    {
+      "actor": "D.C. Circuit",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Date per the collector's Newsweek read; not independently checked. The policy remains in force.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "No fx: a standing ruling lets the case proceed but leaves the policy in force; re-score on a merits ruling.",
+      "id": "imm-2026-10-21-worship-standing",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the suit against ICE's houses-of-worship policy goes forward, raising litigation risk for DHS but not limiting arrests now. Counter-reading: standing is a low bar and the merits may fail. Falsifier: en banc or Supreme Court reversal.",
+      "source": "Newsweek",
+      "text": "A 2-1 D.C. Circuit panel (Pan, Wilkins; Rao dissenting) rules 27 religious groups have standing to challenge ICE's policy allowing enforcement at houses of worship.",
+      "tier": "reported",
+      "url": "",
+      "weight": 3
+    },
+    {
+      "actor": "DHS",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Common Dreams (Oct 30, citing NYT): ICE moved 150+ Afghans to Louisiana for a charter as soon as Nov 2; Sens. Blumenthal, Coons, Kaine object. Headlines: Taliban voice concern (Euronews, Nov 2); lawmakers ask to stop it (Al Jazeera, Nov 3). Flight not confirmed. November 3 follow-up. A federal judge temporarily bound the government to its representation that it had no planned or confirmed removal flights for Afghan nationals to Afghanistan or Pakistan through the end of the week. AP reported the government’s in-court representation. AfghanEvac identifies the case as Project Rousseau, Inc. and the order as ECF 8, expiring November 7 at 11:59 p.m. unless extended. Check the docket for an extension and any subsequent removal plan.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-26-afghan-deportations",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a planned removal flight to Taliban-run Afghanistan via Pakistan; consistent with the arrest push; no position change.",
+      "source": "Politico Playbook PM (citing NYT); VisaVerge (citing Bloomberg); AP Morning Wire (Nov 1 headline); Common Dreams (citing NYT, Oct 30); Euronews, Al Jazeera (headlines, Nov 2-3); https://reports.afghanevac.org/litigation/?embed=1; https://apnews.com/article/a419fbb329b96480d806d9ffbd52ccb4",
+      "text": "A reported early-November charter for detained Afghans was followed by a November 3 temporary court order barring the government from departing from its representation that no removal flights to Afghanistan or Pakistan were planned or confirmed through the end of the week.",
+      "tier": "reported",
+      "url": "https://www.visaverge.com/legal/united-states-plans-to-deport-detained-afghans-to-pakistan/",
+      "weight": 2
+    },
+    {
+      "actor": "State Department",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "She left DHS in March; DOJ referral on DHS contracts is pending (separate item).",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "No fx: Noem has no faction home in the ledger and the envoy post set no tracked policy.",
+      "id": "imm-2026-10-16-noem-envoy-ends",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Noem is moved further from any public role as the DHS contract referral advances, which lowers her value as a political asset. Counter-reading: a lateral move. Falsifier: a new public post.",
+      "source": "KATV",
+      "text": "Kristi Noem's role as special envoy for the Shield of the Americas ends; she is now a senior adviser to Deputy Secretary of State Landau, State and DHS spokesman confirmed.",
+      "tier": "documented",
+      "url": "https://katv.com/news/nation-world/kristi-noem-no-longer-serving-as-special-envoy-trump-shield-of-the-americas-former-homeland-security-secretary-critical-minerals-politics-crime-narcotics-western-hemisphere-tommy-piggott",
+      "weight": 3
+    },
+    {
+      "actor": "DHS inspector general",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Whether DOJ has opened a case is not confirmed. Replaces the Lewandowski clause of mid-2026-10-22-5c42b4.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "No fx: Noem and Lewandowski sit outside the modeled factions and DOJ action is unconfirmed; re-score if charges reach GEO-linked officials.",
+      "id": "imm-2026-10-22-lewandowski-ig-referral",
+      "issues": [
+        "IMM",
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a formal referral raises legal risk for Noem's former circle and touches GEO Group, a major ICE contractor and MAGA Inc. donor. Not established: a DOJ case or any GEO wrongdoing. Counter-reading: referrals often die. Falsifier: DOJ declines.",
+      "source": "NBC News (NBC Connecticut)",
+      "text": "The DHS inspector general refers its investigation of Corey Lewandowski to the Justice Department, covering a $220M Noem-era ad contract and alleged 'success fee' requests to GEO Group; his lawyer denies wrongdoing.",
+      "tier": "documented",
+      "url": "https://www.nbcconnecticut.com/news/national-international/dhs-watchdog-corey-lewandowski-investigation-justice-department/3787709/",
+      "weight": 3
+    },
+    {
+      "actor": "State Department",
+      "added": "2026-10-30",
+      "by": [
+        "hawks"
+      ],
+      "context": "Targets unnamed; primary record.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: unnamed targets and no measurable change in flows; signaling only.",
+      "id": "imm-2026-10-29-caravan-visa-bans",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a symbolic pre-election enforcement step by State with no named targets, so little practical effect. Counter-reading: deterrence on organizers. Falsifier: caravan activity unchanged.",
+      "source": "State Department release",
+      "text": "State imposes visa restrictions on more than 15 unnamed organizers and promoters of migrant caravans.",
+      "tier": "documented",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/taking-action-against-caravan-organizers-facilitating-illegal-immigration-to-the-united-states/",
+      "weight": 3
+    },
+    {
+      "actor": "CDC",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "CDC order signed Oct 28 by Assistant Secretary for Health Brian Christine: effective 11:59 pm EST Nov 3, expires Dec 18; airlines must confirm a signed attestation. Separate entry suspension Oct 11-Nov 10. Stored date Oct 26 predates the signature. Ebola toll above 5,300 (Al Jazeera headline).",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "No fx: a public-health order with no faction author in the ledger.",
+      "id": "imm-2026-10-26-cdc-congo-travel",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a health-based entry bar extends the administration's border-closure tools to an outbreak, with low political cost. Single trade outlet. Counter-reading: standard outbreak control. Falsifier: lifted early.",
+      "source": "InsideFlyer; Federal Register public inspection 2026-22211; CDC signed order (PDF)",
+      "text": "CDC orders all US-bound air travelers to declare whether they were in DR Congo in the prior 21 days; those who were are generally barred from boarding, Nov 3 to Dec 18, over Ebola.",
+      "tier": "documented",
+      "url": "https://www.cdc.gov/port-health/media/pdfs/2026/10/CDC-Ebola-Attestation-Order-Signed.pdf",
+      "weight": 3
+    },
+    {
+      "actor": "María Elvira Salazar",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Follows her September ad breaking with Trump on enforcement. Her own account; no response from Blair or Wiles reported.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-31-salazar-warning",
+      "issues": [
+        "IMM",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Statement only. Supports the stored reading that the Operation wanted quieter raids before Nov 3 but lost to the Maximalists.",
+      "source": "Politico Playbook (Oct 31)",
+      "text": "Rep. María Elvira Salazar says she warned James Blair and Susie Wiles that Republicans are losing Latino voters over immigration enforcement; Miami has the highest ICE arrests.",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "Treasury (FinCEN); Justice Department",
+      "added": "2026-10-31",
+      "by": [
+        "treasury"
+      ],
+      "context": "Link to immigration is a hypothesis: the release as relayed does not mention immigration. Treasury figures are its own.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "No fx: an alert and notice with no shown effect on any faction's position, and the immigration link is unverified.",
+      "id": "imm-2026-10-30-fincen-minnesota",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Treasury adds its financial tools to the administration's Minnesota fraud push, widening scrutiny of money transfers; no change to any faction's hold. Not established: targets, charges. Falsifier: no enforcement follows.",
+      "source": "Treasury press release (Oct 30)",
+      "text": "FinCEN issues an alert on more than $8B in suspicious wires through money services businesses in Minnesota (2021-25) and a sham-charity notice; Treasury says about $190M in overseas fraud was stopped.",
+      "tier": "documented",
+      "url": "https://home.treasury.gov/news/press-releases/sb0670/",
+      "weight": 3
+    },
+    {
+      "actor": "Prosecutors (Texas)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Date is the collector's; whether state or federal prosecutors acted is not known.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-30-ice-officer-indicted",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Headline only, weight capped at 2.",
+      "source": "The Hill (headline)",
+      "text": "An ICE officer is indicted in Texas (headline only; charges and court not read).",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Immigration agent",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Article not read; agency and outcome not stated.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-31-north-hollywood-video",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Headline only, so weight capped at 2.",
+      "source": "CBS News (headline only)",
+      "text": "CBS headline: video shows an immigration agent detaining a man in North Hollywood and pointing a gun at a bystander (headline only).",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Zohran Mamdani",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Al Jazeera headline; no White House confirmation seen.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-11-01-bronx-visa-claim",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Headline only; a claim by the mayor about a Trump decision.",
+      "source": "Al Jazeera (headline only)",
+      "text": "Mayor Mamdani says Trump will grant a visa to the mother of a boy killed in a Bronx shooting (headline only).",
+      "tier": "claimed",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "Judge J. Michael Seabright",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Background: the administration has kept interim US attorneys in office past legal limits through acting titles; courts ruled against this in New Jersey (Alina Habba) and Nevada (Chattah). Essayli's office has charged protesters and others during the Los Angeles immigration crackdown, so defendants can now challenge his authority.",
+      "date": "2026-10-27",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: the ruling threatens cases brought under Essayli, the enforcers' prosecutor for the Los Angeles sweeps; re-score if the stay holds on appeal.",
+      "id": "imm-2026-10-27-essayli-unlawful",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a third court ruling against stretched acting US attorneys exposes the enforcers' Los Angeles prosecutions to challenge, though the stay limits the immediate effect. Evidence: AP. Not established: the appeal outcome. Counter-reading: the stay leaves Essayli in place. Falsifier: the Ninth Circuit reverses. Recall miss (aggregator and personnel sweeps).",
+      "source": "AP via ABC7 Los Angeles and News4Jax",
+      "text": "Judge J. Michael Seabright rules Bill Essayli is unlawfully serving as the de facto US attorney in Los Angeles, citing the Ninth Circuit's ruling on Sigal Chattah in Nevada; the order is on hold pending a stay ruling and Essayli says he will keep serving.",
+      "tier": "documented",
+      "url": "https://abc7.com/post/federal-judge-rules-top-us-prosecutor-los-angeles-bill-essayli-isnt-legally-serving/19988277/",
+      "weight": 3
+    },
+    {
+      "actor": "Judge Maame Ewusi-Mensah Frimpong",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Background: in September 2025 the Supreme Court stayed an earlier order by the same judge that limited roving stops in Los Angeles, so this order may meet the same fate. It restricts the street-arrest tactics that drive the enforcers' arrest numbers in Southern California.",
+      "date": "2026-10-29",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: the order limits the enforcers' stop tactics in Southern California; re-score if the Supreme Court stays it as it did in September 2025.",
+      "id": "imm-2026-10-29-frimpong-profiling",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court again limits the enforcers' Los Angeles stop tactics, but the 2025 Supreme Court stay of a similar order makes this provisional. Evidence: Newsweek and the Los Angeles Times read the order. Counter-reading: quickly stayed on appeal. Falsifier: a stay within weeks. Recall miss (aggregator sweep).",
+      "source": "Newsweek; Los Angeles Times",
+      "text": "Judge Maame Ewusi-Mensah Frimpong bars immigration agents in Los Angeles and six other counties from detaining people for appearing Latino and requires reasonable suspicion, citing a 'mountain of evidence' (order dated Oct 23, made public Oct 29); the administration appeals.",
+      "tier": "documented",
+      "url": "https://newsweek.com/judge-halts-ice-race-profiling-stops-in-california-mountain-of-evidence-12640526",
+      "weight": 3
+    },
+    {
+      "actor": "Federal court",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "imm-2026-10-30-uac-asylum-tro",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep). A short-term check on fast-tracked child asylum interviews.",
+      "source": "CGRS (plaintiffs' counsel) press release; NYT and Bloomberg Law also reported",
+      "text": "A federal judge issues a 14-day restraining order requiring DHS to restore three weeks' notice before asylum interviews of unaccompanied children and to allow rescheduling (suit filed Oct 15).",
+      "tier": "reported",
+      "url": "https://cgrs.uclawsf.edu/en/news/advocates-unaccompanied-children-applaud-judges-decision-block-government-rushing-asylum",
+      "weight": 2
+    },
+    {
+      "actor": "State Department",
+      "added": "2026-11-02",
+      "by": [
+        "hawks"
+      ],
+      "context": "Background: the administration has sought third countries to take deportees whose home countries refuse them; aid tied to such deals is new. Single outlet (WSJ, relayed by La Nouvelle Tribune).",
+      "date": "2026-10-29",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: a new third-country deportation outlet serves the enforcers; re-score if the deal is denied or blocked.",
+      "id": "imm-2026-10-29-cameroon-deportation-aid",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): State is buying deportation capacity with security aid, widening the enforcers' removal options at a reputational cost to State. Evidence: WSJ, single outlet. Not established: the deal's terms or official confirmation. Counter-reading: routine aid relabeled by critics. Falsifier: State denies the link. Recall miss (aggregator sweep).",
+      "source": "Wall Street Journal via La Nouvelle Tribune",
+      "text": "WSJ: the State Department agreed to send about $35M in military aid, including armored vehicles, to Cameroon's Rapid Intervention Battalion, a unit accused of abuses, as part of a deal for Cameroon to accept deportees from other countries. Not officially confirmed.",
+      "tier": "reported",
+      "url": "https://lanouvelletribune.info/2026/10/cameroun-les-etats-unis-lient-35-millions-daide-militaire-a-laccueil-de-migrants/",
+      "weight": 3
+    },
+    {
+      "actor": "ICE",
+      "added": "2026-11-03",
+      "by": [
+        "maximalists"
+      ],
+      "context": "GEO, a private prison firm, gave $4.4M to MAGA Inc. and paid Homan and Venturella before their jobs. ICE needs beds for its 3,000-a-day arrest target. Contract text is not public. Found in the watch pass; predates the Nov 2-3 window.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: renewing an existing site's contract keeps capacity the arrest target already uses and shifts no faction; the gain falls to a contractor.",
+      "id": "imm-2026-10-29-geo-tacoma",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a sole-bid ten-year renewal locks in detention beds for the arrest push and a long revenue line for a MAGA Inc. donor; no source links the giving to the award. Counter: routine renewal of an existing site. Falsifier: a competitive record surfaces.",
+      "source": "KUOW (Oct 29)",
+      "text": "ICE approves a $1.5 billion, 10-year contract for GEO Group to keep running the 1,635-bed immigration detention center in Tacoma, Washington; GEO was the only bid considered, per Rep. Emily Randall.",
+      "tier": "reported",
+      "url": "https://www.kuow.org/immigration/2026-10-29/feds-approve-1-5-billion-contract-for-geo-group-to-continue-running-tacoma-ice-center",
+      "weight": 3
+    },
+    {
+      "id": "imm-2026-11-05-iran-deportation-coordination",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "IMM",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "U.S. immigration officials",
+      "text": "AP reported newly obtained records of U.S. coordination with Iran over deportations, including contacts during the war.",
+      "context": "",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/1f245367d432b2683a546936014a1f90",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: This is a disclosure about earlier operations. Record implementation evidence separately from any change in policy this week.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "imm-2026-10-29-dc-guard-patrol-authority",
+      "date": "2026-10-29",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Pete Hegseth",
+      "text": "Hegseth approved expanded D.C. Guard patrol capabilities in two October 29 memos obtained by AP, including 60 military police cars, tactical vehicles and patrol boats.",
+      "context": "AP published the memos’ details November 5. The Pentagon confirmed continued authorization for the mission. The 3,500-person cap remains in place, and the memos limit rifle use and forbid high-speed chases. The District’s challenge to the deployment remains relevant. Immigration linkage is provisional through the broader domestic enforcement deployment.",
+      "source": "AP reporting from signed memos and Pentagon response: https://apnews.com/article/e6f2fc06768103f59536b785756f8858",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The authorization expands equipment and operational options under the existing troop cap. Actual patrol use and enforcement outcomes require separate evidence.",
+      "origin": "daily intake",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The record establishes a limited decision or position without a durable faction outcome."
+    },
+    {
+      "id": "imm-2026-11-03-venezuela-tps-admin-stay",
+      "date": "2026-11-03",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Ninth Circuit",
+      "text": "The Ninth Circuit withdrew its October 30 denial and granted a 14-day administrative stay beginning when the Supreme Court judgment issues on November 6.",
+      "context": "The order schedules separate expedited merits briefing. It does not restore Venezuelan temporary protected status or decide the merits. Actual issuance of the Supreme Court judgment and later orders remain unverified.",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/03/25-5724.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: the temporary stay preserves the government’s litigation position while leaving longer-term authority unresolved.",
+      "origin": "daily intake 2026-11-07",
+      "added": "2026-11-07",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: implementation or a durable faction outcome remains to be verified."
+    }
+  ]
+}

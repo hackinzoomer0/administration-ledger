@@ -1,0 +1,821 @@
+{
+  "issue": "EPS",
+  "items": [
+    {
+      "actor": "Bondi",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2025-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-02-65ff36",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "month",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Bondi hands influencers binders labeled \"Phase 1\" that mostly repeat public material (AP via 6abc)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Turned MAGA influencers against the administration",
+      "date": "2025-07-06",
+      "fx": {
+        "dissenters": 1,
+        "maximalists": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to dissenters.",
+      "id": "eps-2025-07-06-de08d8",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "DOJ and FBI memo says no client list and a suicide; Bondi and Bongino clash (Axios)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Bongino, Bondi, Patel",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2025-07-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-07-09-110868",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "After the DOJ–FBI memo finds no client list, Bongino and Bondi clash at the White House in front of Patel, Wiles and Budowich; Bongino stays home (Axios, AP via 6abc)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Hardened the discharge petition",
+      "date": "2025-07-16",
+      "fx": {
+        "dissenters": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to no faction (already scored).",
+      "id": "eps-2025-07-16-e293bf",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump calls the matter a \"hoax\" and tells critics he does not want their support (ABC via ABC7, UPI via Yahoo)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2025-07-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-07-18-c8ea3d",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump sues the Wall Street Journal and Murdoch for at least $10 billion over the birthday-letter story (Rolling Stone via Yahoo)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Oversight Democrats",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "",
+      "date": "2025-09-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-09-26-40fbea",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "House Oversight Democrats release Epstein's estate schedules naming Musk, Thiel and Bannon (Axios)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, DOJ, FBI",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2025-11-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-11-12-86f5ec",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump pressures Boebert and Mace to pull their names from the discharge petition; DOJ and FBI officials meet Boebert (Axios)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Shifted the target toward adversaries",
+      "date": "2025-11-14",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "eps-2025-11-14-49d56d",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "eps-2025-11-14-a1bc9e",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump orders DOJ and FBI to examine Epstein's ties to Clinton, Summers, Hoffman and JPMorgan; Bondi names SDNY's Jay Clayton to lead (CBS)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump orders probes of Clinton, Summers, Hoffman and JPMorgan (CBS)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Converted a loss into a deadline DOJ then missed",
+      "date": "2025-11-16",
+      "fx": {
+        "dissenters": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "eps-2025-11-16-d5e36e",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump backs the House bill once its passage is certain and signs it (Britannica)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump reverses; Greene exits",
+      "added": "2026-10-28",
+      "by": [
+        "dissenters"
+      ],
+      "context": "",
+      "date": "2025-11-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-11-18-bece5d",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "House passes the transparency act 427–1, Trump signs it the next day after saying Republicans should vote yes; Greene announces her resignation (Britannica, Mediaite)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Bongino exits",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2025-12-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2025-12-17-ebae43",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Bongino announces he will leave the FBI; the Dec 19 statutory deadline passes with only a partial release (Scripps, NY AG)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Moved the fight into courts and Oversight",
+      "date": "2026-01-30",
+      "fx": {
+        "dissenters": -1,
+        "maximalists": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to dissenters.",
+      "id": "eps-2026-01-30-704aee",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "eps-2026-01-30-1674f7",
+          "kind": "chron",
+          "source": "",
+          "text": "DOJ releases about 3 million more pages, Blanche says this completes the legal obligation; a WSJ count finds 43 victims' names left unredacted (WAMC/NPR, WSJ via To Vima)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Blanche declares the legal duty met (WAMC/NPR)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Lutnick (defends)",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "",
+      "date": "2026-02-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-02-10-b5336a",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Lutnick admits a 2012 lunch on Epstein's island; bipartisan resignation calls, Massie among them; Lutnick stays (Reuters via BusinessDay)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Comer; five GOP members",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "",
+      "date": "2026-03-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-03-17-2a1a83",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Comer formally subpoenas Bondi after a bipartisan committee vote; five Republicans joined Democrats (CNN via KRDO, New Republic)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Put the blame on one person; Blanche said he had never heard Trump link it to Epstein",
+      "date": "2026-04-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-04-02-c4a29d",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "eps-2026-04-02-06ad11",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump fires Bondi; Blanche becomes acting AG and says the files \"should not be a part of anything going forward\" (Al Jazeera, The Hill)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump fires Bondi, installs Blanche (Al Jazeera)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "DOJ OIG; Comer",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "",
+      "date": "2026-04-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-04-23-bc39e0",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "DOJ inspector general opens an audit of transparency-act compliance; Comer says some Republicans on his panel would consider a Maxwell pardon in exchange for cooperation (OIG letter, Oversight Democrats)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump and pro-Israel donors beat Massie; Blanche",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists",
+        "dissenters"
+      ],
+      "context": "",
+      "date": "2026-05-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-05-19-ffaaa5",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Massie loses his primary after a record $32–37 million contest; Blanche tells senators he would not recommend clemency for Maxwell (Reuters via Hawaii Tribune-Herald, Mary Sue)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Bondi (blames Blanche)",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-05-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-05-29-6977c2",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Bondi tells House Oversight she delegated the whole process to Blanche, and cites privilege on talks with Trump (CNN via KRDO)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-06-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-06-25-4f45e6",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Judge Sullivan finds DOJ likely violated the transparency act and orders unredacted records or an explanation (Axios)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Gave Republicans a line that concedes error, not concealment; Comer adopted it",
+      "date": "2026-07-15",
+      "fx": {
+        "party": 1,
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "eps-2026-07-15-0c6747",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "shift",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance says the administration \"screwed up the comms\" but hid nothing (AP)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Vance; Tillis; Blanche",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists",
+        "vance",
+        "dissenters"
+      ],
+      "context": "",
+      "date": "2026-07-15",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-07-15-643a31",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance tells Rogan the administration botched the communications but was not hiding anything; at Blanche's hearing Tillis conditions his vote on a meeting with survivors, which Blanche holds Jul 16 (AP, NOTUS)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Senate (all GOP included)",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-07-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-07-29-4f7cd4",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Senate unanimously asks Trump not to give Maxwell clemency (RT/Independent)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Comer",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "",
+      "date": "2026-08-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-08-06-9b7adc",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Comer says he is confident DOJ will reopen the case after a committee \"to-do list\"; Mace voices frustration at the probe's results (CNN, via repost)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Senate GOP holdouts fold",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists",
+        "dissenters"
+      ],
+      "context": "",
+      "date": "2026-08-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-08-08-ebb2e4",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Senate confirms Blanche 50–49; Collins and Murkowski vote no (Axios)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Black",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-09-03-82a47e",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Leon Black defies a House Oversight subpoena and sues the committee (NPR)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Blanche (forced)",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-09-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-09-16-805bc7",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Judge Sullivan rejects DOJ's claim that handwritten FBI notes on a Trump accuser duplicate the typed reports; DOJ hands them over for private review under a contempt threat (Raw Story)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Democratic campaigns; GOP campaigns following",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-10-09-0c770a",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Campaigns have aired 160+ Epstein ads costing over $35 million, nearly 90% tied to Democrats; a later count of ads on child abuse and Epstein tops $70 million with Republicans now joining (CNN via SSBCrack, Axios)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "State AGs",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-10-21-f4c54c",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Epstein files",
+      "precision": "day",
+      "rationale": "Seeded from the Epstein files report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "New Mexico's attorney general sues Epstein's former lawyer and accountant; 17 state AGs (Oct 15–16) ask Congress to pass a second transparency act with state and survivor enforcement (Minnesota AG, CNN index)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "D.C. Circuit panel",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Confirms the earlier headline-only row. Review starts but production is not imminent, so no new pages are due yet.",
+      "date": "2026-10-28",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: a stay denial keeps a court-ordered review in force against DOJ; re-score if the merits panel grants DOJ's motion to dismiss.",
+      "id": "eps-2026-10-28-appeals-pause",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "act",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the court keeps DOJ's file review moving, so the Maximalists cannot run out the clock with a stay; small, as no release is near. Single outlet read. Counter: the merits panel may dismiss. Falsifier: dismissal or reversal on appeal.",
+      "source": "Raw Story (Oct 29); Washington Times (headline)",
+      "text": "A D.C. Circuit panel denies DOJ's request to stay, pending appeal, an order to begin reviewing foreign-language Epstein files, finding no irreparable harm and production not imminent; DOJ's motion to dismiss is left to the merits panel.",
+      "tier": "reported",
+      "url": "https://www.rawstory.com/todd-blanche-epstein-files-2678160580/",
+      "weight": 3
+    },
+    {
+      "actor": "Bard College / House Judiciary",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): the Epstein fallout continues through congressional letters rather than DOJ releases. One outlet. No fx.",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "eps-2026-10-07-bf39",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "NYT via Just Security Early Edition",
+      "source": "",
+      "text": "Leon Botstein resigns from all Bard College positions after a House Judiciary letter said he \"likely enabled and possibly even participated in\" Epstein's abuse.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Judge Jesse Furman",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "She is James Comey's daughter; DOJ brought new charges against him the same day (stored under midterms). DOJ said it would appeal 'in due course' (GMA, Oct 26); no appeal filing found through Oct 31.",
+      "date": "2026-10-26",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: a court blocks a DOJ personnel tool; re-score if the appeal wins a stay.",
+      "id": "eps-2026-10-26-maurene-comey-ruling",
+      "issues": [
+        "EPS",
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court checks DOJ's power to fire career prosecutors at will, and reinstates the prosecutor most tied to the Epstein case, a setback to the leadership's control of that file. Counter-reading: an appeal may reverse it. Falsifier: a stay or reversal on appeal.",
+      "source": "AP via Fox19",
+      "text": "Judge Furman rules the July 2025 firing of prosecutor Maurene Comey, who tried Epstein and Maxwell, broke civil-service law and orders reinstatement and back pay; DOJ says it will appeal.",
+      "tier": "documented",
+      "url": "https://www.fox19.com/2026/10/26/judge-rules-maurene-comey-daughter-ex-fbi-director-was-unlawfully-fired-by-trump-administration/",
+      "weight": 4
+    },
+    {
+      "actor": "Judge Darrin Gayles",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "A source close to Trump's legal strategy says an appeal is likely; a Trump legal spokesperson says he will keep pressing the suit. Ruling date taken from the page date; the page did not state the filing day.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "No fx: the suit is Trump's personal case run by his private lawyers, not any faction's tool; the effect lands on Trump himself.",
+      "id": "eps-2026-10-31-wsj-suit-dismissed",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a federal judge ends, with prejudice, Trump's legal lever against the WSJ's Epstein reporting until any appeal; the cost falls on Trump personally, not on a faction. Counter: an appeal is likely. Falsifier: the appeals court revives the suit.",
+      "source": "CBS News (read); Axios; Al Jazeera; Anadolu; AP Morning Wire, Politico Playbook (newsletters, Nov 1); The Hill (Nov 1, headline)",
+      "text": "US District Judge Darrin Gayles (Miami) dismisses with prejudice Trump's suit against the Wall Street Journal over its Epstein birthday-letter story, finding no showing of actual malice and calling the suit 'grasping at straws'.",
+      "tier": "documented",
+      "url": "https://www.cbsnews.com/news/trump-lawsuit-wall-street-journal-epstein-birthday-letter-dismissed/",
+      "weight": 3
+    },
+    {
+      "actor": "House Judiciary Committee Democrats",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Background: the Epstein files law forced DOJ to release its records; DOJ says releasing about 3.5 million of roughly 6 million pages meets the law. Blanche interviewed Maxwell in 2025 as deputy attorney general. The report's allegations are claims, unproven; it matters mainly if Democrats win the House and gain subpoena power in January.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "No fx: a minority report with no subpoena power; it changes no faction's tools before a possible Democratic House in January.",
+      "id": "eps-2026-10-26-judiciary-dems-report",
+      "issues": [
+        "EPS"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Democrats have staged an Epstein case against Trump and Blanche for a possible House majority, raising future exposure but changing nothing now. Evidence: the report as read by two outlets. Not established: any of the assault allegations. Counter-reading: a pre-election document with little new evidence. Falsifier: no follow-up if Democrats win the House. Recall miss (aggregator sweep).",
+      "source": "Spectrum News; Forbes",
+      "text": "House Judiciary Democrats release a 50-page report citing 11 women, five of whom allege assault by Trump; it says DOJ withheld evidence, accuses Attorney General Todd Blanche of possible witness tampering over his Ghislaine Maxwell interview, and asks for a special counsel. The White House says none of it is true.",
+      "tier": "documented",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/26/trump-epstein-house-judiciary-committee-democrats-report",
+      "weight": 3
+    },
+    {
+      "id": "eps-2026-11-05-disclosure-oversight-push",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "EPS",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "House lawmakers",
+      "text": "Axios reported a renewed push for Epstein records and plans for congressional investigations after the midterms.",
+      "context": " Axios reported that Massie publicly predicted 218 signatures upon the House’s return. Khanna had announced sufficient commitments in September before Johnson sent the House home early. With Massie leaving in January, the post-election announcement puts pressure on members to convert commitments into signatures and gives the bipartisan sponsors a chance to put disclosure on the lame-duck agenda. Verify the petition tally, floor action and any release separately.",
+      "source": "Axios; https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations",
+      "url": "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Disclosure advocates have a prospective oversight opening. A vote, subpoena, or release would be a separate outcome.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    }
+  ]
+}

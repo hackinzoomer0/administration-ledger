@@ -1,0 +1,84 @@
+{
+  "added": 1,
+  "summary": "INCOMPLETE: Targeted weekly review completed. Deviations: full recall and all-issue verification remain open. Method audit: found a missing local election outcome after the existing federal chamber-control recovery. Added one episode and revised three.",
+  "coverage": {
+    "lookbackDays": 7,
+    "scope": "Oct 30–Nov 5. Reviewed staged daily intake and user journal. Latest daily service finished at 21:41:52 after the previous exit 127. Targeted follow-up on the election shock, Iran, succession and AI siting.",
+    "perIssue": {
+      "AI": "found 1",
+      "EPS": "not searched",
+      "FED": "not searched",
+      "IMM": "not searched",
+      "IRN": "found 2",
+      "MID": "found 1",
+      "RUS": "not searched",
+      "SUC": "found 1",
+      "TAR": "not searched",
+      "VEN": "not searched"
+    },
+    "sourcesRead": [
+      "https://www.axios.com/local/columbus/2026/11/05/ohio-data-center-election",
+      "https://www.boe.ohio.gov/licking/election-info/election-results/",
+      "https://english.udayanews.com/congressman-ro-khanna-urges-cutoff-of-iran-war-funding/",
+      "https://www.axios.com/2026/11/05/hegseth-impeachment-midterms-trump",
+      "https://www.axios.com/2026/11/05/vance-maga-power-play-2028",
+      "https://apnews.com/article/e92751dbcdf940c486c8d1e57dafbe99",
+      "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "https://www.justsecurity.org/163369/early-edition-november-4-2026/",
+      "https://www.justsecurity.org/163177/early-edition-november-3-2026/"
+    ],
+    "blocked": [
+      "CNN blocked by robots.txt"
+    ],
+    "deviations": [
+      "Targeted recall against Axios and Just Security. Full day-by-day enumeration and independent 15-headline recall incomplete. Full roster, filings and pattern checks open."
+    ],
+    "reviewedEpisodeIds": [
+      "ai-2026-11-03-local-data-center-ballots",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "irn-2026-11-01-khanna-funding",
+      "mid-2026-11-05-congress-control",
+      "irn-2026-11-05-trump-postelection-war-review",
+      "ai-2026-10-31-data-center-backlash",
+      "ai-2026-11-04-ai-stock-selloff",
+      "irn-2026-11-03-vance-progress",
+      "mid-2026-11-04-johnson-leadership",
+      "irn-2026-10-29-sylvia-leak"
+    ],
+    "changedEpisodeIds": [
+      "ai-2026-11-03-local-data-center-ballots",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "irn-2026-11-01-khanna-funding"
+    ],
+    "propagation": {
+      "ai-2026-11-03-local-data-center-ballots": [
+        "events/AI",
+        "issues/AI"
+      ],
+      "irn-2026-11-04-vance-postelection-war-critique": [
+        "events/IRN"
+      ],
+      "irn-2026-11-01-khanna-funding": [
+        "events/IRN"
+      ],
+      "mid-2026-11-05-wiles-hegseth-blame": [
+        "events/MID"
+      ]
+    },
+    "checklist": {
+      "recall": "partial: targeted source comparison",
+      "duplicates": "done",
+      "challenger": "done",
+      "validation": "done"
+    },
+    "unresolved": [
+      "Local siting constraints and financial exposure: certified returns, enacted charter text, effective dates and project permit or relocation records.",
+      "Khanna’s leverage and Vance’s durable advantage: spending-bill text, leadership support and votes, plus endorsements, polling and organizing. Existing donor access and defense exposure do not establish a role in Vance’s statement.",
+      "Hegseth: House filing and floor action, White House personnel announcement or Senate trial record. Corroboration or on-record testimony would establish Wiles’s role more firmly.",
+      "War decision: signed order, agreement or verified implementation. Chamber control remains a projection pending certified results. Carry forward daily watchlist."
+    ],
+    "validation_results": "WARNING donors: \"Safety and Affordability PAC\" may combine several entries\nWARNING donors: \"American Iron and Steel Institute\" may combine several entries\nWARNING donors: \"Center for Economic and Policy Research\" may combine several entries\n0 errors, 3 warnings"
+  }
+}

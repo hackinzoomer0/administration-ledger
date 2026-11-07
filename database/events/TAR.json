@@ -1,0 +1,1263 @@
+{
+  "issue": "TAR",
+  "items": [
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Trump framed it as Canada's unfair treatment of the US",
+      "date": "2026-02-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-02-09-4d9353",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-02-09-48ca60",
+          "kind": "chron",
+          "source": "",
+          "text": "Moroun meets Lutnick; Trump threatens the Gordie Howe bridge",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CTV via AM800, NYT report; documented meeting, no quid pro quo shown",
+      "text": "Moroun met Lutnick; Lutnick phoned Trump; Trump posted a threat to block the Gordie Howe bridge unless the US was compensated",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Six Republicans, Democrats",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-02-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-02-11-3a59bb",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "House votes 219-211 to end the Canada emergency",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Tariff design passed from the White House to USTR, which runs Sections 122 and 301 (Crypto Briefing)",
+      "date": "2026-02-20",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "tar-2026-02-20-30c064",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Trump said he would use other ways to collect; declined to say if refunds would be paid",
+          "id": "tar-2026-02-20-45556b",
+          "kind": "act",
+          "source": "Fox Business; documented",
+          "text": "Supreme Court voids IEEPA tariffs 6-3; Feb 24 a 10% Section 122 tariff starts",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-02-20-416ba4",
+          "kind": "chron",
+          "source": "",
+          "text": "Supreme Court voids IEEPA tariffs 6-3",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Fox Business; documented",
+      "text": "IEEPA tariffs voided",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-02-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-02-24-9b10e4",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "10% Section 122 tariff starts",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "White House called for the Supreme Court to end it earlier in the case",
+      "date": "2026-03-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-03-04-ca0e28",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AP via WTOP; documented",
+      "text": "Trade court orders refunds to all importers of record",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Bessent said in Dec 2025 the US could replicate the tariffs \"permanently\"",
+      "date": "2026-03-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-03-12-682992",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-03-12-9d9a9c",
+          "kind": "chron",
+          "source": "",
+          "text": "USTR opens Section 301 probes of 60 and 16 economies",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Morgan Lewis; documented",
+      "text": "USTR runs Section 301 probes of 60 economies and imposes 10% or 12.5% duties from Jul 24",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-05-db14b6",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "month",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trade court rules Section 122 unlawful; appeal",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Greer, not Lutnick, fronts talks (India trip without Lutnick) (Herald via WSJ)",
+      "date": "2026-06-28",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "tar-2026-06-28-9f35e1",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-06-28-55f28c",
+          "kind": "chron",
+          "source": "",
+          "text": "WSJ: USTR now central, Commerce fading",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "WSJ: center of gravity moves from Commerce to USTR",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Greer: the US will keep engaging to fix shortcomings",
+      "date": "2026-07-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-07-01-2db95b",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-07-01-020f81",
+          "kind": "chron",
+          "source": "",
+          "text": "US declines to renew USMCA",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "IISD; documented",
+      "text": "US declines to renew USMCA at the joint review",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Aug 18 Trump called a deal \"very good\"; Carney said the US asked too much",
+      "date": "2026-07-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-07-20-fa3b27",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-07-20-2659e1",
+          "kind": "chron",
+          "source": "",
+          "text": "Three Section 338 proclamations on Canada",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Free Press; documented, accounts conflict",
+      "text": "Three Section 338 proclamations; tariffs start Aug 22 after talks collapse",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Gives the president a 30-day-notice tariff up to 50% on the president's own finding",
+      "date": "2026-07-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-07-20-1b1b63",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "shift",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "First-ever use of Section 338",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Rates of 10% or 12.5% on economies covering 99% of imports",
+      "date": "2026-07-24",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "tar-2026-07-24-d8eb6d",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-07-24-3f9bb6",
+          "kind": "chron",
+          "source": "",
+          "text": "Section 301 duties replace Section 122",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "",
+      "text": "Section 301 wall replaces Section 122",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-08-18-669438",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump announces a Canada deal and delays the start three days",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Trump said ranchers also want lower prices; cattlemen's group called it midterm politics",
+      "date": "2026-08-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-08-20-ef8e3e",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Meatingplace; WSJ-reported meeting",
+      "text": "Batista met Trump; Trump paused beef tariffs on 300,000 tonnes for 90 days",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Carney, Greer, Lutnick, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "",
+      "date": "2026-08-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-08-21-ab5328",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Canada talks collapse; Section 338 tariffs start; beef pause announced Aug 21",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "\"Build in the US and there are zero tariffs\"",
+      "date": "2026-08-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-08-24-efb0cc",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-08-24-0cf539",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump threatens 50% on Canadian cars, parts and steel from Jan 1, 2027",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Global Trade Alert; a threat, no proclamation yet",
+      "text": "Trump posts that tariffs on Canadian cars, parts and steel go to 50% on Jan 1, 2027",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Trump said farmers would be happy; Greer called it managed trade; China had not confirmed on Sep 24",
+      "date": "2026-09-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-09-23-f16085",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-09-23-65d9e8",
+          "kind": "chron",
+          "source": "",
+          "text": "China truce extended to Jan 10, 2027; Xi state visit",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Supply Chain Dive; Outlook Business",
+      "text": "US and China extend the truce to Jan 10, 2027",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trade court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-09-30-a6ec64",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Section 301 case argued",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Commerce said it was in constant dialogue; Mexico said progress continues",
+      "date": "2026-10-15",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-15-1f909f",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-10-15-d96536",
+          "kind": "chron",
+          "source": "",
+          "text": "WSJ: Mexico deal stalls over Lutnick's opposition to auto and metal cuts",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "Reuters via WSAU; anonymous sources",
+      "text": "Mexico deal on auto and metal cuts stalls",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Commerce's 232 veto now bounds what USTR can offer",
+      "date": "2026-10-15",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "tar-2026-10-15-2195e8",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "shift",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Lutnick re-enters Mexico talks",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Court",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-16-1fadce",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Supplemental briefs due in the Section 301 case",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "White House said it would vigorously defend the tariffs",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-20-6eeefc",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-10-20-999f26",
+          "kind": "chron",
+          "source": "",
+          "text": "Gellert Global (Liberty Justice Center) sues over Section 338",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AP via KTAR; documented",
+      "text": "Gellert Global sues in the trade court over Section 338",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Hoekstra",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-21-3a766b",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "US embassy lists Canadian officials' remarks as election meddling; Carney and Ford deny",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "dissenters"
+      ],
+      "context": "Collins announced the Maine relief first; the White House called it a scope refinement. First trade-court challenge filed Oct 20, pending. No CBP confirmation seen after Oct 30. Merged duplicate row tar-2026-10-23-469deb.",
+      "date": "2026-10-23",
+      "fx": {
+        "dissenters": 1,
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: Collins's Maine lines came off while 100 lines were added, serving the high-tariff camp; party tag dropped since its pre-vote relief is net unclear; re-score if lines are cut after Nov 3.",
+      "id": "tar-2026-10-23-8e3abd",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Collins announced the relief first; the White House said the edit refines the scope",
+          "id": "tar-2026-10-23-469deb",
+          "kind": "act",
+          "source": "CNBC; documented",
+          "text": "Section 338 list edited; takes effect Oct 30",
+          "tier": "carried",
+          "weight": 3
+        },
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "tar-2026-10-23-856ef9",
+          "kind": "chron",
+          "source": "",
+          "text": "Section 338 list edited: plywood, some paper, machinery, crates off; carpets, valves, waste products on; effective Oct 30",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a net widening, not relief: Maine lines came off but 100 went on days before the vote. Evidence: BDO, Flexport, CNBC. Not established: CBP practice after Oct 30. Counter: a scope tidy-up. Falsifier: added lines cut after Nov 3.",
+      "source": "CNBC; Flexport (Oct 27); BDO (Oct 27)",
+      "text": "Section 338 Canada list edited Oct 23 (amending Proclamation 11048), in force Oct 30: 22 lines off (plywood, plastic film, cartons, some machinery), 100 on (paints, carpets, air conditioners, chest freezers, power tools, valves); 50% applies even to USMCA goods and stacks with Section 232.",
+      "tier": "documented",
+      "url": "https://www.bdo.com/insights/tax/scope-of-50-section-338-tariffs-on-certain-canadian-products-revised-as-of-october-30",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-24-870300",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Tariffs and Trade",
+      "precision": "day",
+      "rationale": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump says the US holds all the cards on Canada; unconfirmed 200% remark on Russia and Ukraine. Oct 23: Carney (in Istanbul) says the embassy claims have no merit and Canada will resume talks at once if the US bargains in good faith",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Alberta voters",
+      "added": "2026-10-29",
+      "by": [
+        "treasury"
+      ],
+      "context": "Net effect (my reading): Canada's unity holds, which removes one source of leverage the administration might have gained in the trade dispute; Bessent's comment shows Treasury is courting Alberta. Preliminary results; no direct Trump comment found. No fx.",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-19-bf36",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Al Jazeera, NPR",
+      "source": "",
+      "text": "Alberta voters reject starting a path toward separation, about 76% to 24% on 1.8 million counted; Bessent calls Alberta Washington's \"natural partner\" and Musk posts that it should separate.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Brazil / Trump",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): an outside election result the administration frames as a warning, which feeds fraud claims at home and leaves Brazil tariff talks with a government Trump did not back. Trump's fraud claim is unsupported in my sources. No fx.",
+      "date": "2026-10-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-25-bf37",
+      "issues": [
+        "TAR",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 26, 27 editions)",
+      "source": "",
+      "text": "Brazil's electoral court says Lula won re-election with 51.79%; Flávio Bolsonaro has not conceded and seeks annulment; Trump calls the vote \"rigged\" but says he gets along with Lula, and Navarro calls it a \"cautionary tale for the midterms\".",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Carney / Trump",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): both sides signal a possible partial deal before the Jan 1 car and steel threat, though the Oct 30 Section 338 changes still take effect. Anonymous sourcing; no terms. No fx.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-26-bf38",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 26, 27 editions; Reuters)",
+      "source": "",
+      "text": "Carney says trade talks with the US have slightly intensified; Reuters sources say a deal to ease steel and auto tariffs is being worked on; Trump says Oct 25 that Canada is \"willing to give us anything\".",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "CBP, DHS",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "The US-China trade truce runs to Jan 10; APEC leaders meet in Shenzhen Nov 18-19. Bloomberg (via TVG, Oct 29): DHS added the three firms to the forced-labor law's entity list, which CBP enforces at the border.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "No fx: China has only condemned the ban; no faction's position changes until Beijing acts or the truce date moves.",
+      "id": "tar-2026-10-28-bgi-ban",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "DHS",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a China-specific ban tests the truce before APEC; Beijing's Oct 30 response is words so far. Evidence: Reuters and AP. Not established: retaliation or any change to the Jan 10 truce. Counter: routine forced-labor enforcement. Falsifier: no Chinese measure by APEC.",
+      "source": "Reuters via local radio copies, TVG Daily Brief; AP via Boston Globe (Oct 30); Bloomberg via TVG Daily Brief",
+      "text": "CBP bars imports from BGI Group, BGI Genomics and MGI Tech under the forced-labor law; China condemns the ban and vows 'necessary measures' (Oct 30).",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "White House (Section 232)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Proclamation text not opened; the fact sheet states the US produces less than it consumes. Follows the Oct 22 wind-turbine decision and the Oct 23 Canada auto-duty change.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "No fx: the fact sheet sets no rate or date, so no faction's position changes yet.",
+      "id": "tar-2026-10-28-robotics-232",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "White House",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the administration opens a new 232 sector but chooses a negotiate-first path, so the tariff wall widens in principle without new costs yet. Evidence: the White House fact sheet. Not established: rates, coverage, effective date. Counter-reading: a placeholder that keeps leverage for deals. Falsifier: a rate or date is set within 180 days. Attribution: Lutnick's 232 process and Greer's USTR role.",
+      "source": "whitehouse.gov fact sheet and presidential-actions list",
+      "text": "Trump signs a Section 232 proclamation on robotics, industrial machinery and parts; it directs Commerce and USTR to negotiate agreements with trading partners and gives no tariff rate or date in the fact sheet.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "White House (Section 232)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "STR Trade Report dated the action Oct 28; the White House actions list shows Oct 22, which is used here.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "No fx: no faction clearly gains or loses; the effect falls on the administration's trade posture and the text was not read.",
+      "id": "tar-2026-10-22-wind-232",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "White House",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a finding of threat without a tariff shows the 232 tool is being used for leverage rather than immediate cost, which eases pressure on energy prices before the Nov 3 vote. Evidence: the proclamation title and one trade outlet. Not established: the proclamation text was not read. Counter-reading: a delay, not a reprieve. Falsifier: a tariff follows after Nov 3.",
+      "source": "whitehouse.gov actions list; STR Trade Report (second-hand)",
+      "text": "Trump signs a proclamation on wind turbines and parts: Commerce found a national-security threat, but no new tariff is set for now and USTR must report on negotiations within 180 days.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Treasury",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Treasury release sb0667 (Oct 22); a law-firm note dates the notice Oct 26.",
+      "date": "2026-10-22",
+      "fx": {
+        "treasury": 1
+      },
+      "fxnote": "Provisional: Treasury's China toolkit expands; re-score if the final rule is narrowed.",
+      "id": "tar-2026-10-22-outbound-npr",
+      "issues": [
+        "TAR",
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "Treasury",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): widens Treasury's toolkit against China just before the trade truce talks, adding to the BGI ban's pressure on Beijing. Evidence: Treasury's own release. Not established: final scope. Counter-reading: required by statute, not a new choice. Falsifier: final rule narrower than the proposal.",
+      "source": "Treasury press release, Just Security Early Edition, Thompson Hine",
+      "text": "Treasury issues a proposed rule implementing the outbound-investment law (COINS Act), restricting US investment in China, Russia, North Korea and other countries of concern in hypersonics, supercomputing, biotech and AI.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "State Department (Rubio)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Finland terms read: no funding committed, 180 days' notice to end. Hungary energy memorandum (read, Anadolu): signed by Rubio and Foreign Minister Anita Orban under the 'Trump Peace Pipelines' framework to expand US oil and gas supply and diversify Central European infrastructure.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: non-binding memoranda with no funding; the Hungary text read mentions no Russia, Lukoil or sanctions-waiver term.",
+      "id": "tar-2026-10-29-finland-hungary-mou",
+      "issues": [
+        "TAR",
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "State",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): small supply-chain and energy deals; the Hungary memorandum pushes US gas into Central Europe. A Russia-energy or Lukoil angle is not established by the page read.",
+      "source": "State Department release, GovConExec, TVG; Anadolu Agency",
+      "text": "Rubio signs a non-binding critical-minerals framework and technology deal with Finland and, the same day, energy and law-enforcement MOUs with Hungary.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Census Bureau (data)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "No stored belief covers whether the tariff wall is narrowing the deficit; gap for the Monday audit.",
+      "date": "2026-10-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-06-trade-deficit",
+      "issues": [
+        "TAR",
+        "FED"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: official data; my reading is that a widening deficit undercuts the claim that tariffs are closing the gap, but one month proves little.",
+      "source": "First Trust (Census data)",
+      "text": "August trade deficit $105.6B, above the $102.1B consensus and the widest since early 2025; imports rose $17.2B to $420.8B.",
+      "tier": "documented",
+      "url": "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/10/6/the-trade-deficit-in-goods-and-services-came-in-at-105.6-billion-in-august",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon (Defense Production Act, Industrial Base Fund)",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Issue link is a hypothesis: state equity stakes as industrial policy (cf. the Office of Strategic Capital's 35% of NABEP, Aug 28). Anduril is backed by Founders Fund (Thiel).",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "No fx: a financing deal for one vendor that changes no faction's hold on a decision; re-score if officials tied to Anduril or Founders Fund are shown to have steered it.",
+      "id": "tar-2026-10-07-anduril-shipyard-stake",
+      "issues": [
+        "TAR",
+        "AI"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the government extends its equity-stake model into shipbuilding, putting public capital behind a Thiel-backed defense firm. Evidence: one outlet (Fox). Not established: terms, who negotiated. Counter: ordinary industrial-base finance. Falsifier: stake not finalized.",
+      "source": "Fox News",
+      "text": "Government to take a 40% non-controlling stake in the company that owns Anduril's Arsenal-2 shipyard in Baltimore, via the Defense Production Act and Industrial Base Fund, as part of a $6.6B Virginia-class submarine push.",
+      "tier": "reported",
+      "url": "https://foxnews.com/politics/inside-trumps-deal-give-american-taxpayers-massive-stake-new-6-6b-submarine-deal",
+      "weight": 3
+    },
+    {
+      "actor": "Rubio",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Statement only; no deal text.",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-20-rubio-india-deal",
+      "issues": [
+        "TAR",
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Statement alone; no act.",
+      "source": "AP via WSOC",
+      "text": "Rubio in Mumbai says a US-India trade deal is 'about as close as you can be'; India still buys Russian oil; a February framework cut the tariff on India to 18%.",
+      "tier": "reported",
+      "url": "https://www.wsoctv.com/news/politics/rubio-jaishankar/YZM3PT6EVM4JZOUHIGANOJCAOQ/",
+      "weight": 1
+    },
+    {
+      "actor": "Justice Department for Interior",
+      "added": "2026-10-30",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Issue link is a hypothesis: energy-industry policy alongside the Oct 22 wind-turbine Section 232 finding.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "No fx: remand requests are pending before judges, so no faction's position has changed; re-score when courts rule.",
+      "id": "tar-2026-10-21-offshore-wind-remands",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the administration is using litigation to reopen approved offshore-wind projects, extending its anti-wind line without new rules. Evidence: one outlet. Not established: whether judges grant remand. Counter: legal housekeeping. Falsifier: remands denied.",
+      "source": "Maritime Executive",
+      "text": "Justice Department asks a court to send the New England Wind approval back to Interior, its fourth offshore-wind remand request in days after US Wind (Maryland), Revolution Wind and Atlantic Shores.",
+      "tier": "reported",
+      "url": "https://maritime-executive.com/index.php/article/trump-administration-targets-fourth-offshore-wind-project-for-remand",
+      "weight": 3
+    },
+    {
+      "actor": "Federal judge; Pentagon; Alibaba",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Preliminary injunction; appeal possible.",
+      "date": "2026-10-26",
+      "fx": {
+        "pentagon": -1
+      },
+      "fxnote": "Provisional: a preliminary injunction against a Pentagon rule; re-score if an appeals court stays it.",
+      "id": "tar-2026-10-26-alibaba-injunction",
+      "issues": [
+        "TAR",
+        "AI"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court blocks a Pentagon tool for policing China ties in contracting, though the blacklist itself stands. Evidence: Reuters. Not established: grounds, appeal. Counter: a narrow rule. Falsifier: stay on appeal. Benefits Alibaba and K Street.",
+      "source": "Reuters via The Standard",
+      "text": "A judge enjoins a Pentagon rule denying contracts to firms whose lobbyists also work for Alibaba; Alibaba stays on the Pentagon's Chinese military company list.",
+      "tier": "reported",
+      "url": "https://www.thestandard.com.hk/china/article/346616/Alibaba-wins-injunction-against-Pentagon-contract-restrictions-tied-to-China-blacklist",
+      "weight": 4
+    },
+    {
+      "actor": "Trump; South Korea",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Trump's announcement Oct 1, Seoul's reply Oct 2.",
+      "date": "2026-10-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-02-korea-alaska-lng",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a claim disputed by the partner. My reading: tariff-for-investment figures are being inflated for the campaign.",
+      "source": "CNN via TMJ4",
+      "text": "Trump touts $54B from South Korea for Alaska LNG within a $200B energy investment tied to lower tariffs; Seoul says the figures 'go far beyond what was agreed'.",
+      "tier": "documented",
+      "url": "https://www.tmj4.com/politics/the-president/trump-announced-a-54-billion-energy-investment-from-south-korea-south-korea-said-he-jumped-the-gun",
+      "weight": 2
+    },
+    {
+      "actor": "Flavio Bolsonaro; State Department",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Rubio (Atlanta, Nov 1) says Bolsonaro previously held a US visa and Trump decided to let him in. Brazil is investigating him for corruption, money laundering and tax evasion. The Al Jazeera article does not mention tariffs; the tariff link is a hypothesis. Follows tar-2026-10-25-bf37.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-28-bolsonaro-miami",
+      "issues": [
+        "TAR",
+        "MID",
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Stays chron at 2: the admission is stored, and Rubio's denial and Trump's remark are statements; parole is single-sourced. My reading: Trump personally shelters a defeated ally under investigation at home, an immigration-discretion act that may strain ties with Lula's government.",
+      "source": "AP via Live5 (Oct 28); Al Jazeera (Nov 1), citing Reuters on parole",
+      "text": "Flavio Bolsonaro, refusing to concede Brazil's election, lands in Miami Oct 28 with family, reportedly under humanitarian parole (Reuters); Trump says he can stay as long as he wants; Rubio says 'We didn't facilitate anything'.",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/11/1/flavio",
+      "weight": 2
+    },
+    {
+      "actor": "Mark Carney (Canada)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Bloomberg (in the Spokesman-Review, Oct 31) says the Politico interview ran Friday Oct 30, after the Canada-EU summit; Carney expects Trump's trade pressure to continue after the midterms. Follows the Oct 26 'slightly intensified' remark and the Jan 1 threat of 50% on cars, parts and steel.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": null,
+      "id": "tar-2026-10-31-carney-wait-new-president",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Read via a Bloomberg wire copy; a foreign leader's statement, so chron at 2. My reading: Canada signals it can outlast the Jan 1 car and steel threat, cutting against the Oct 26 talk of a partial deal. Not established: whether talks have stopped.",
+      "source": "Politico interview (Oct 30); Bloomberg via the Spokesman-Review (Oct 31); Politico Playbook (Oct 31)",
+      "text": "Carney tells Politico Canada will wait out the current US administration if needed ('Well, if that's what it takes, yeah'), will not sign a deal against its interest, and tells La Presse the US has no deal with any country without tariffs.",
+      "tier": "documented",
+      "url": "https://www.spokesman.com/stories/2026/oct/31/carney-says-no-hurry-on-trade-deal-if-us-wont-offe/",
+      "weight": 2
+    },
+    {
+      "actor": "Trump; Mark Carney (Canada)",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Exact call date not printed in the lines read. Not a duplicate of tar-2026-10-26-bf38 (talks intensify) or tar-2026-10-31-carney-wait-new-president (Carney interview): a new occurrence that softens Carney's Oct 30 wait-it-out line.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "tar-2026-11-02-trump-carney-call",
+      "issues": [
+        "TAR",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Statements, not an act: no terms, text or date for a deal, so weight 2 though two outlets carry it. My reading: on the eve of the vote Trump gains a deal headline at no cost; Canada's Section 338 tariffs (in force Oct 30) are unchanged; re-weigh if a meeting date or tariff cut follows.",
+      "source": "Politico Playbook; Reuters Daily Briefing (newsletters, Nov 2)",
+      "text": "Trump and Carney speak by phone: Trump says the sides are very close to a deal and describes a 'concept' of a new trade deal, with Keystone XL on the agenda; Carney calls it a good conversation and says the sides will meet in coming weeks.",
+      "tier": "documented",
+      "url": "gmail:Politico Playbook 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Trump administration",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Headline only; no amount source, program, agency or date of the promise read. AP was reported Oct 20 to describe an $8B White House pitch to farmers (not read). Candidate date Nov 1; the capture line shows the Nov 2 edition.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "tar-2026-11-01-farmers-15b",
+      "issues": [
+        "TAR",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-01",
+      "rationale": "Headline only, capped at weight 2. My reading: a pre-vote payment to farmers hit by tariffs; whether it is new money, a program change or a restatement of earlier aid is not established.",
+      "source": "AP Morning Wire (newsletter headline)",
+      "text": "AP headline: the administration promises farmers $15 billion.",
+      "tier": "reported",
+      "url": "gmail:AP Morning Wire 2026-11-01",
+      "weight": 2
+    },
+    {
+      "actor": "European Union governments",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "A newsletter line relaying another outlet's report; who in Europe decided this, and why, is not given.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": false,
+      "id": "tar-2026-11-02-europe-slow-walk",
+      "issues": [
+        "TAR",
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "A reported intention, not an act: weight 1. My reading: partners waiting out the vote (as Carney said Oct 30) lowers the payoff of new tariff threats before Nov 3; unverified beyond one relayed line.",
+      "source": "Semafor Flagship (newsletter, Nov 2), citing Politico",
+      "text": "Semafor, citing Politico: Europe plans to slow-walk trade talks with Trump; separately, Asian governments fear a backlash against data centers.",
+      "tier": "reported",
+      "url": "gmail:Semafor Flagship 2026-11-02",
+      "weight": 1
+    },
+    {
+      "actor": "US International Development Finance Corporation",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "tar-2026-10-28-dfc-205b",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (digest listed it; triage dropped it as off-issue). State equity in critical minerals.",
+      "source": "Club of Mozambique via TVG Daily Brief",
+      "text": "The DFC's investment ceiling rises to $205 billion, and the agency gains a route to about a 20% stake in the Balama graphite operation in Mozambique as Washington targets African minerals.",
+      "tier": "reported",
+      "url": "https://clubofmozambique.com/news/trump-expands-us-investment-firepower-to-us205-billion-as-washington-targets-african-minerals-including-mozambiques-graphite/",
+      "weight": 2
+    },
+    {
+      "actor": "President Trump; U.S. Trade Representative Jamieson Greer",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "USTR led the annual interagency eligibility review. Its statement cited trade and investment barriers in both countries and additional governance and security concerns. The notice establishes the intended action and effective date. Implementation remains pending.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "No fx: the notification establishes no faction-specific gain or loss.",
+      "headlineOnly": false,
+      "id": "tar-2026-11-02-agoa-suspension",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "My reading: the notification sets a prospective trade change. The public record identifies presidential action and USTR review and leaves faction-specific influence unresolved.",
+      "source": "USTR statement, November 2, 2026",
+      "text": "Trump notified Congress and the governments of Rwanda and South Africa of his intent to terminate their AGOA trade preferences effective January 1, 2027.",
+      "tier": "documented",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "weight": 3
+    },
+    {
+      "actor": "Kaz Resources; Donald Trump Jr.; Eric Trump",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Tungsten is a critical mineral the administration is courting abroad and that China restricts; the link to trade policy is a hypothesis. Size and timing of the sons' stakes not given.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "tar-2026-11-02-kaz-resources-listing",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-02 (Politico Playbook PM); 2026-11-03 (Playbook)",
+      "rationale": "Headline only, capped at weight 2. My reading: another family stake in a sector shaped by federal minerals deals; no source links it to a decision.",
+      "source": "Politico Playbook PM (Nov 2) and Playbook (Nov 3), citing WSJ and NYT",
+      "text": "WSJ (via Politico Playbook): Kaz Resources, a tungsten miner in which Donald Trump Jr. and Eric Trump hold stakes, plans a $2 billion US direct listing.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "US automakers",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Which automakers and what form of ban are not given.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "headlineOnly": true,
+      "id": "tar-2026-11-02-automakers-china-ban",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "printedDate": "2026-11-02",
+      "rationale": "Headline only, industry request. My reading: sets up a post-election tariff ask; no act.",
+      "source": "Semafor Flagship Asia (newsletter, Nov 2), citing WSJ",
+      "text": "WSJ (via Semafor): US automakers urge a ban on Chinese vehicle imports after the midterms; BYD sales rose a sixth straight month and Geely's overseas sales more than doubled.",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    }
+  ]
+}

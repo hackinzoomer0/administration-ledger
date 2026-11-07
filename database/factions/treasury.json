@@ -1,0 +1,211 @@
+{
+  "blunder": "Warsh sold $100M+ of assets to undisclosed buyers days before May 22; Bessent divested his soybean farmland only days before the $12B farm aid announcement (Dec 2025)",
+  "cause": "Circumstance: a chair and a secretary spending market credibility to restrain Trump while lending Treasury's licenses to the deal track",
+  "did": "Talked Trump out of firing Powell (Apr 2025); 12-0 rate hike (Sep 16); Section 301 wall (Jul 24); China truce; 'Operation Economic Outcast' Iran designations (Oct 15, 21); delisted Jorge Rodríguez (Oct 14); Bessent met Venezuela's foreign minister on reconnecting its financial sector (Nov 2)",
+  "donors": [
+    [
+      "Duquesne Family Office (Druckenmiller)",
+      "$10.2M in fees to Warsh",
+      "Kevin Warsh",
+      "Fed",
+      "Warsh's income and market standing, which give him credibility with the investors who check Trump on the Fed."
+    ],
+    [
+      "Undisclosed buyers of Warsh's assets",
+      "Over $100M sold days before May 22",
+      "Kevin Warsh",
+      "Fed. Open question: who the buyers are",
+      "Nothing shown. The buyers matter only if they gained from a Fed decision."
+    ],
+    [
+      "Jane Lauder",
+      "Family wealth about $1.9B (Forbes)",
+      "Kevin Warsh (spouse)",
+      "Fed",
+      "Wealth, not political money: a household whose fortune rides on markets the chair steers."
+    ],
+    [
+      "Soros Fund Management (former employer)",
+      "Seeded Key Square with $2B (Fortune)",
+      "Scott Bessent",
+      "Fed, tariffs",
+      "Background, not a current payment: the market world whose trust is Bessent's capital."
+    ],
+    [
+      "Donors tied to a position",
+      "None found",
+      "None",
+      "None",
+      "The political asset is market reaction: bond and stock moves let Treasury argue with Trump and win on Powell, the hike and the China truce (my reading)."
+    ]
+  ],
+  "edges": [
+    [
+      "F5 Treasury and Maximalists",
+      "Feud",
+      "Fed, Iran",
+      "Documented: Bessent and Lutnick talked Trump out of firing Powell (Apr 2025) after the Cook referral; Squeeze on Iran against Go Big (Hegseth, Miller, Cooper)",
+      "Yes, on Fed",
+      "Hassett and Navarro act against the Fed line"
+    ]
+  ],
+  "gained": "Warsh as chair (May 22); Section 301 wall; Board held 10-2 with Cook for a hike (Oct 28); 'Operation Economic Outcast' keeps sanctions central during the strike hold (Oct 15, 21); outbound-investment rule proposed (Oct 22)",
+  "id": "treasury",
+  "legal": [
+    [
+      "Warsh",
+      "Sold over $100M of assets days before May 22 to undisclosed buyers; took $10.2M in consulting fees from Druckenmiller’s office; pledged divestiture",
+      "Disclosure and conflict compliance; insider trading only if he held non-public information",
+      "Reported (The Hill); no allegation of wrongdoing found",
+      "Senate Banking; OGE"
+    ],
+    [
+      "Bessent",
+      "No allegation found. Treasury issues the Russia diesel and Lukoil licenses “at President Trump’s direction”; the Lukoil bid group includes Aryam",
+      "Oversight of licensing that benefits a donor-linked group (my reading)",
+      "None found",
+      "House Foreign Affairs; Financial Services"
+    ],
+    [
+      "Greer, Cairncross",
+      "None found. Greer denied market manipulation around the Apr 2025 tariff pause in House testimony",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "legalnote": "",
+  "lost": "Trump’s backing: he says Warsh should have voted against the hike (Oct 1), and Navarro attacks him",
+  "members": [
+    [
+      "Scott Bessent",
+      "Treasury secretary",
+      "Fed accord, tariffs as managed trade, Iran sanctions, Venezuela and Russia licenses, dollar stablecoins",
+      "10 (Nov 2: met Venezuela's foreign minister on reconnecting its banks; Oct 27: stablecoins extend dollar power)",
+      "Posture: the adult who keeps markets calm. Interest: a Wall Street reputation (Soros, Key Square) that outlasts the job, and Treasury as the gate for every license"
+    ],
+    [
+      "Kevin Warsh",
+      "Fed chair",
+      "Fed (12-0 hike Sep 16; 10-2 hold Oct 28)",
+      "9 (Oct 28: held rates and dropped forward guidance despite Trump's attacks)",
+      "Posture: independent inflation-fighter. Interest: market standing is his asset; a $131-209M portfolio sold down to undisclosed buyers before May 22"
+    ],
+    [
+      "Jamieson Greer",
+      "US trade representative",
+      "Tariffs (Section 301 wall, China truce, AGOA suspensions)",
+      "8 (Nov 2: moved to suspend South Africa and Rwanda from AGOA); clashes with Lutnick",
+      "Posture: trade law as national strategy. Interest: USTR's authority; Lighthizer's former chief of staff and a King & Spalding trade partner"
+    ],
+    [
+      "Howard Lutnick",
+      "Commerce secretary",
+      "Fed (warned against firing Powell, Apr 2025)",
+      "4; home is Deal-Capital",
+      "Interest: Cantor, his sons' firm, gains from calm markets; sides with Treasury only where that holds"
+    ],
+    [
+      "Sean Cairncross",
+      "National cyber director",
+      "AI (bank cyber risk)",
+      "3; straddles with the Operation",
+      "Circumstance: cyber risk is his job; no personal stake found"
+    ]
+  ],
+  "name": "Treasury and Dollar Statecraft",
+  "overview": [
+    "The Treasury camp holds that America's deepest power is financial: the dollar, the Treasury market every central bank holds, and a Fed whose word markets trust. Spent with care, that power does what armies cannot. Sanctions and licenses squeeze Iran and open or close Venezuela and Russia; tariffs become bargaining chips on legal ground the trade court can uphold; and dollar stablecoins carry the currency into economies whose own money is failing (Bessent, Oct 27). The program is national strength through credibility: no fired Fed chair, no bond rout, managed trade instead of shock, and reindustrialization paced so that markets will fund it. Greer brings the Lighthizer school's case that China trade must be managed, built on Section 301 cases.",
+    "Its members' fortunes and careers were made in the markets this program protects. Bessent ran money for Soros and then Key Square; Warsh took $10.2M in fees from Druckenmiller's office and married into the Lauder fortune; Greer was Lighthizer's chief of staff and then a King & Spalding trade partner and lobbyist. Their standing depends on markets believing them, so calm markets are both creed and capital. Turf counts as much: sanctions, licenses and the Treasury-held Venezuelan oil account make Treasury the gate every deal faction must pass. No donor is tied to a position.",
+    "Acts depart from words in three places. Sanctions are sold as leverage, yet Treasury's licenses also carry the Deal-Capital track: a diesel license 'at President Trump's direction' (Oct 9) and the Lukoil sale-talks license extended to Nov 21 (Oct 21), so Treasury's own tool serves other people's deals. Fed independence is the creed, yet Warsh and Bessent pursue a new Treasury-Fed accord that pulls the two closer. And Bessent divested his soybean farmland only in the week before he helped announce a $12B farm aid package tied to the China trade fight (Dec 2025): the stake went, but on the eve of a decision it touched.",
+    "Precedent: the 1951 Treasury-Fed Accord, when Treasury let the Fed stop pegging bond yields and so created modern Fed independence. It breaks here: Warsh's 'new accord' runs the other way, toward Treasury, while the president attacks a Board whose hike his own chair voted for (my reading)."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "Apr 7: convened bank CEOs on Mythos.",
+          "Pressed the Jun 2 order.",
+          "Why the faction does it. A model-driven bank breach is a direct market risk (my reading).",
+          "Who and why.",
+          "Bessent Motives: Protecting the banks and markets he oversees. He is not tied to an AI company.",
+          "Cairncross Motives: Cyber risk is his job. No personal stake found."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "FED": [
+      {
+        "paras": [
+          "Position.",
+          "Apr 2025: talked Trump out of firing Powell. Sep 16: a 12-0 hike under Warsh. Oct 28: held 10-2, with Cook and Hammack wanting a hike.",
+          "Why the faction does it. A fired chair or a politicized Board would raise the cost of the debt Treasury must sell and spook the bond market its members come from (documented fit; no donor tied).",
+          "Who and why.",
+          "Bessent. Posture: guardian of Fed credibility. Interest: Treasury sells the debt, so yields are his scorecard, and the planned accord keeps Treasury in the room on the balance sheet.",
+          "Warsh. Posture: independent inflation-fighter. Interest: his market standing is the asset, and a cut on Trump's order would spend it. He sold over $100M of assets before May 22 to undisclosed buyers; no link to a decision is shown. Tillis's threat shaped how loudly he could side with Trump.",
+          "Say versus do. Independence is the slogan; an accord that ties the Fed's balance sheet to Treasury's needs is the program (my reading).",
+          "Stance audit. Treasury favored market credibility and sought a closer accord. The FOMC voted on rates. The September and October votes are committee actions. Assess advocacy over the Fed chair and the accord separately. Borrowing costs and institutional influence are Treasury stakes. The ledger records professional financial ties and identifies no issue-specific donor. Preserve both the credibility and influence objectives. A rate result alone gives no evidence of a Treasury stance reversal."
+        ],
+        "title": "Fed and the economy"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Economic war: auto and rail sectors opened to sanctions (Oct 1); 'Operation Economic Outcast' hit Iraqi and Iranian banks (Oct 15) and 18 shadow-fleet targets (Oct 21). Bessent forecast Iran's economy would shrink by more than 25% (Oct 26).",
+          "Why the faction does it. Sanctions are Treasury's own war: they keep Iran policy in its hands during the strike hold and cost less in oil prices than bombing (my reading).",
+          "Who and why.",
+          "Bessent. Posture: 'absolute isolation'. Interest: turf and markets. The squeeze makes Treasury central while the Pentagon waits, and Brent near $113 (Oct 27) is the price shock his program exists to avoid.",
+          "Say versus do. The designations are acts, but each round ships with wind-down licenses (EE, FF-1, GG, HH) that soften it."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "RUS": [
+      {
+        "paras": [
+          "Position.",
+          "Oct 9: diesel license 'at President Trump's direction'. Oct 21: Lukoil sale-talks license (131K) extended to Nov 21.",
+          "Why the faction does it. Treasury holds the license pen and the deal track needs it; refusing would set Bessent against Trump and the envoys.",
+          "Who and why.",
+          "Bessent. Posture: executor of the president's direction. Interest: cover, since the decision is named as Trump's, and standing with the envoys. The Lukoil extension helps a bid group that includes Aryam, the UAE vehicle that bought 49% of World Liberty (documented fit); nothing shows Bessent acted for it.",
+          "Say versus do. Treasury sanctioned Lukoil in Oct 2025 as leverage, then licensed the sale talks that turn that leverage into a deal for buyers (my reading)."
+        ],
+        "title": "Russia and Ukraine"
+      }
+    ],
+    "TAR": [
+      {
+        "paras": [
+          "Position.",
+          "Jul 24: Section 301 wall. Sep 23: China truce to Jan 10, 2027. Nov 2: moves to suspend South Africa and Rwanda from AGOA.",
+          "Why the faction does it. Managed trade: tariffs that survive the trade court and work as bargaining chips without a market shock (my reading).",
+          "Who and why.",
+          "Greer. Posture: trade law as strategy, in the Lighthizer school. Interest: USTR's authority; WSJ (Jun 28) says the center of gravity moved from Commerce to USTR. No personal stake found.",
+          "Bessent. Posture: tariffs as a managed deal. Interest: the truce lowers market risk for the investors he came from; he divested his soybean farmland only days before the $12B farm aid announcement (Dec 2025).",
+          "Say versus do. Bessent called the tariffs replicable 'permanently' (Dec 2025) yet runs a truce that suspends their bite on China."
+        ],
+        "title": "Tariffs"
+      }
+    ],
+    "VEN": [
+      {
+        "paras": [
+          "Position.",
+          "Apr 1: delisted Rodríguez. Apr 14: central-bank license. Backed IMF reintegration.",
+          "Why the faction does it. Executes the normalization Trump chose (reported).",
+          "Who and why.",
+          "Bessent Motives: (1) Execution: the licenses carry his name but the policy is Trump’s. (2) The debt restructuring that follows involves Centerview’s over-$150M no-bid contract on about $200B of Venezuelan debt, which Claver-Carone was key to (see Primacist Hawks). Nothing shows Bessent profits."
+        ],
+        "title": "Venezuela"
+      }
+    ]
+  },
+  "short": "Treasury",
+  "wants": "Preserve market credibility and Treasury's influence over sanctions, licenses, and dollar-based statecraft. Track managed trade as a distinct objective and Fed decisions under the FOMC's authority.",
+  "weak": "Trump and Navarro attack the hike; Section 301 is before the trade court; its licenses serve the Deal-Capital track, spending Treasury's credibility on other people's deals",
+  "why": "Financing the government gives Treasury an institutional stake in credible markets. Warsh's compensation from Duquesne and Bessent's prior Soros Fund Management ties describe professional networks and financial exposure. The ledger identifies no donor tied to a specific Treasury policy position.",
+  "win": "Talked Trump out of firing Powell (Apr 2025); 12-0 hike (Sep 16); Section 301 wall (Jul 24)"
+}

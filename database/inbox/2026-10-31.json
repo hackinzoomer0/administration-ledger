@@ -1,0 +1,796 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Hegseth fires Lt. Gen. Brett Sylvia (J5) over alleged leaks; failed three polygraphs; DOJ referral",
+      "source": "Fox via TVG",
+      "url": "https://www.foxnews.com/politics/hegseth-fires-top-pentagon-strategist-accused-leaking-classified-iran-ukraine-war-information"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Army picks Lockheed for Future Interceptor (~$1.08B), beating Anduril",
+      "source": "Aviation Week via TVG",
+      "url": "https://aviationweek.com/defense/missile-defense-weapons/lockheed-martin-wins-us-armys-future-interceptor-contract"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "VA mortgage payments rise for 15,000+ veterans after VA Servicing Purchase program ends",
+      "source": "NPR via TVG",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-5995628/trump-va-home-loan-program-veterans-paying"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Indiana expands disabled-veteran property tax benefit",
+      "source": "Indiana Public Radio via TVG",
+      "url": "https://indianapublicradio.org/news/2026/10/disabled-veteran-expanded-property-tax-benefit/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Senate Democrats' 'Whose Interests?' report: up to $19B foreign-policy waste incl. USAID close-outs",
+      "source": "WaPo via TVG",
+      "url": "https://www.washingtonpost.com/national-security/2026/10/29/senate-democrat-report-alleges-trump-foreign-policy-moves-wasted-19-billion/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "US-Finland critical minerals framework and Technology Prosperity Deal (non-binding MOUs)",
+      "source": "Diplomatic Insight via TVG",
+      "url": "https://thediplomaticinsight.com/us-finland-deals-tech-critical-minerals/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "53 Chinese vessels incl. Liaoning operating from southern Japan to Philippines (Taiwan's Joseph Wu)",
+      "source": "Taipei Times/Reuters via TVG",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/30/2003866865"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "China condemns US UFLPA import ban on BGI Group, BGI Genomics, MGI Tech; vows measures",
+      "source": "Boston Globe/AP via TVG",
+      "url": "https://www.bostonglobe.com/2026/10/29/nation/us-bans-imports-3-chinese-biotech-companies-over-forced-labor-allegations/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Rio Tinto pauses Oyu Tolgoi underground after seismic event",
+      "source": "Mining Weekly/Reuters via TVG",
+      "url": "https://www.miningweekly.com/article/rio-tinto-pauses-oyu-tolgoi-underground-copper-mine-after-seismic-event-2026-10-29"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Lynas revenue +55% on record rare-earth prices",
+      "source": "Mining.com/Reuters via TVG",
+      "url": "https://www.mining.com/web/lynas-posts-55-revenue-jump-on-record-prices-flags-plant-shutdowns"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Small boat attaches two explosive devices to tanker in Strait of Hormuz, fire; attribution unclear (UKMTO)",
+      "source": "Baird Maritime/Reuters via TVG",
+      "url": "https://www.bairdmaritime.com/security/incidents/boat-with-explosives-rams-tanker-in-strait-of-hormuz"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Mitsotakis calls Turkey-Libya maritime deal void; urges Black Sea shipping truce after Greek-owned ship sank off Bulgaria",
+      "source": "Reuters/Al-Monitor via TVG",
+      "url": "https://www.reuters.com/world/europe/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-2026-10-29/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Exxon, Chevron beat Q3 on war-driven refining surge",
+      "source": "Reuters via 933thedrive via TVG",
+      "url": "https://www.933thedrive.com/2026/10/30/exxon-chevron-earnings-propelled-by-war-driven-refining-surge/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "US-Hungary energy and law-enforcement MOUs under 'Trump Peace Pipelines' framework",
+      "source": "Anadolu via TVG",
+      "url": "https://aa.com.tr/en/europe/us-hungary-sign-energy-security-law-enforcement-deals-in-washington/4105410"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Pentagon probes commissary freezer failures as suspected hack",
+      "source": "Washington Times/Reuters via TVG",
+      "url": "https://www.washingtontimes.com/news/2026/oct/29/pentagon-treats-military-base-freezer-failures-suspected-hack/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Volt Typhoon 'Silent Train' relay network (Lumen)",
+      "source": "Help Net Security via TVG",
+      "url": "https://www.helpnetsecurity.com/2026/10/29/volt-typhoon-silent-train-relay-network/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Chinese AI model GLM-5.3 completes cyberattack test scenarios (Irregular)",
+      "source": "Reuters/Business Standard via TVG",
+      "url": "https://www.business-standard.com/technology/tech-news/chinese-ai-model-completes-complex-cyberattacks-in-tests-raises-concerns-126102900488_1.html"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Samsung record Q3 profit; HBM sold out; chip shortage through 2028",
+      "source": "Reuters via TVG",
+      "url": "https://www.globalbankingandfinance.com/samsung-posts-record-profit-q3-ai-chip-boom/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "DOE reinstates Eastman $375M recycling award",
+      "source": "Plastics News via TVG",
+      "url": "https://www.plasticsnews.com/processors/recycling/pn-eastman-doe-reinstates-chemical-recycling-grant/"
+    },
+    {
+      "collector": "digest",
+      "date": "2026-10-30",
+      "headline": "Hershey Q3 results",
+      "source": "PR Newswire via TVG",
+      "url": "https://www.prnewswire.com/news-releases/hershey-reports-third-quarter-2026-financial-results-302922691.html"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Iran's Supreme Leader Mojtaba Khamenei orders immediate response 'without geographical limitations' to any new US-Israeli attack",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Axios election-night cheat sheet (FL-14, FL-25, SC Senate, VA, Texas)",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.axios.com/2026/10/31/your-election-night-cheat-sheet"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "AI hyperscaler earnings mixed; Nasdaq 100 down third week",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "North Korea suspected in $6.3B Binance theft",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.axios.com/2026/10/31/north-korea-hackers-binance-crypto"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Meta builds bipartisan Washington team (Hacker, Schmit, Raffel, Trueman)",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.axios.com/2026/10/31/meta-bipartisan-influence-team-midterms"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Young voters swing away from Trump (Generation Lab, NYT/Siena)",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.axios.com/2026/10/31/2026-midterms-youth-vote"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Record $11.6B midterm-cycle ad spending (AdImpact); GOP $2.1B vs Dem $1.8B",
+      "source": "Axios AM (newsletter, Oct 31)",
+      "url": "https://www.nytimes.com/interactive/2026/10/28/us/politics/ad-spending-house-senate-election-campaigns.html"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Carney: Canada will wait for a new US president if no trade pact",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Rep. Salazar says she warned Blair and Wiles about Latino backlash over immigration enforcement",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Trump Jr. and Vance election-eve rallies in Rome NY and Swanton OH",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "El-Sayed campaign asks Haley Stevens to stay off trail",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Judge Trina Thompson bars DOJ from threatening election officials with prosecution, demanding voter removals or ballot segregation",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "FBI contacts donors in 'double Dan Sullivan' Alaska probe (AP)",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "ACA premiums up 13% (KFF); states warn they will miss Jan 1 Medicaid work-requirement deadline",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Abbott GOTV tested; Paxton bus tour in tight Texas Senate race",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "McConnell WSJ op-ed attacks moves to squeeze Ukraine and soften on Russia (headline only)",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "NYT: US science dominance deteriorating under Trump (headline only)",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Weil, Gotshal & Manges collapse (WSJ, headline only)",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "WSJ: fiscal hawks vanish as debt grows (headline only)",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Judge Chutkan skeptical of Arlington arch construction; DC and Virginia sue",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Sunday shows: Bessent, Sanders, Shapiro, Pritzker, Tim Scott, Raskin, Comer, Lara Trump",
+      "source": "Politico Playbook (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Lawler courts Orthodox vote in NY-17",
+      "source": "Punchbowl Readback (newsletter, Oct 31)",
+      "url": "https://punchbowl.news/?p=173210"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "AZ-6 Ciscomani vs Mendoza",
+      "source": "Punchbowl Readback (newsletter, Oct 31)",
+      "url": "https://punchbowl.news/article/campaigns/appropriator-ciscomani-fights-possible-blue-wave/"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Raskin on subpoenas and impeachment after midterms (headline only)",
+      "source": "Punchbowl Readback (newsletter, Oct 31)",
+      "url": "https://youtu.be/xG5fC9RN9JQ"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-31",
+      "headline": "Post-midterm agenda: Dec 11 funding deadline, permitting, year-end tax",
+      "source": "Punchbowl Readback (newsletter, Oct 31)",
+      "url": ""
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-30",
+      "headline": "Early voting surges past 43M ballots (AP); Texas +50%, South Carolina +83%",
+      "source": "Axios PM (newsletter, Oct 30)",
+      "url": "https://apnews.com/article/election-early-voting-midterms-3f7d5c378b3d9bff5cde4604a55b9c9a"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-30",
+      "headline": "Pope Leo XIV votes by mail in Illinois",
+      "source": "Axios PM (newsletter, Oct 30)",
+      "url": "https://www.axios.com/2026/10/30/pope-leo-mail-in-ballot-midterms"
+    },
+    {
+      "collector": "newsletter",
+      "date": "2026-10-30",
+      "headline": "Brewers parade; Christa Pike statement; Patrick Stewart and Walter Koenig die",
+      "source": "Axios PM (newsletter, Oct 30)",
+      "url": ""
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "WH roundup praising America First Seafood Strategy (no new order)",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/releases/2026/10/what-they-are-saying-president-trump-puts-americas-fishermen-first-and-secures-american-seafood-dominance/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "WH: GDP surges as investment hits multi-year high (messaging)",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-unleashes-the-american-economy-gdp-surges-as-investment-hits-multi-year-high/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "US-Finland Technology Prosperity Deal MOU",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/releases/2026/10/memorandum-of-understanding-between-the-government-of-the-united-states-of-america-and-the-government-of-finland-regarding-the-technology-prosperity-deal/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "WH: 'Radical Democrats want it back' (messaging)",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-put-money-back-in-your-pockets-radical-democrats-want-it-back-and-more/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-28",
+      "headline": "Section 232 robotics and industrial machinery proclamation (newest presidential action)",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Bessent in St. Cloud MN: FinCEN alert on $8B+ suspicious wires via money services businesses; sham-charity notice; fraud task force",
+      "source": "Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0670/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Bessent remarks and ICYMI on Minnesota fraud measures",
+      "source": "Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0671/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Report on US portfolio holdings of foreign securities 2025",
+      "source": "Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0672/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "OFAC amended Iran GL FF-1: wind-down with International Development Bank for Investment and Finance",
+      "source": "OFAC",
+      "url": "https://ofac.treasury.gov/recent-actions/20261029"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "State visa restrictions on 15+ people tied to migrant caravans",
+      "source": "State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/taking-action-against-caravan-organizers-facilitating-illegal-immigration-to-the-united-states/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Rubio at plenary session on geopolitical issues (G20 FM, Atlanta)",
+      "source": "State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-of-state-marco-rubio-at-a-plenary-session-on-geopolitical-issues/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "State designates Libyan judicial police official for torture",
+      "source": "State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/designation-of-libyan-judicial-police-official-for-involvement-in-torture-and-cruel-inhumane-and-degrading-treatment/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "Rubio and Hungarian FM Orban sign energy and law-enforcement MOUs",
+      "source": "State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-rubios-meeting-with-hungarian-foreign-minister-orban/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "Rubio and Finnish FM Valtonen sign critical minerals and tech MOUs",
+      "source": "State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-rubios-meeting-with-finnish-foreign-minister-valtonen-2/"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "DEA issues federal registrations to 900+ state medical marijuana dispensaries (Schedule III for certain medical activity)",
+      "source": "Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Former contractor arrested for leaking national defense information and stealing night-vision goggles",
+      "source": "Justice",
+      "url": "https://www.justice.gov/opa/pr/former-us-government-contractor-arrested-allegedly-leaking-national-defense-information-and"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "DOJ ~$300M to four model cities to combat violent crime",
+      "source": "Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-nearly-300-million-awards-four-model-cities-combat-violent"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "DOJ Fraud Division and USAO Minnesota: ~$30M benefits fraud; URL mentions voter fraud",
+      "source": "Justice",
+      "url": "https://www.justice.gov/opa/pr/dojs-fraud-division-and-us-attorneys-office-district-minnesota-uncover-voter-fraud-and"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Final rule lets FFLs use NICS for employee checks",
+      "source": "Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-final-rule-allowing-federal-firearms-licensees-voluntarily-use"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Two men sentenced as PRC agents",
+      "source": "Justice",
+      "url": "https://www.justice.gov/opa/pr/two-men-sentenced-acting-agents-peoples-republic-china"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-30",
+      "headline": "Routine DOJ items: Red Hill fuel defense, ISIS plea, $227M Medicare fraud, BizJet bribery, WV jail, crypto extradition",
+      "source": "Justice",
+      "url": "https://www.justice.gov/news"
+    },
+    {
+      "collector": "official",
+      "date": "2026-10-29",
+      "headline": "Fed approves Bank of Nova Scotia application",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Judge issues sweeping emergency order halting DOJ pressure on election officials (CNN, Politico, Axios, CBS)",
+      "source": "Memeorandum/CBS",
+      "url": "https://www.cnn.com/2026/10/30/politics/emergency-order-halts-doj-pressure-campaign-election-officials"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Appeals court rejects DOJ request for California to set aside disputed ballots (AP)",
+      "source": "Memeorandum",
+      "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-49cee0f4184b0ecb573f9f0274350642"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "NYT: Justice Dept. confirms Alaska inquiry; CBS: DOJ calls allegations 'troubling', asks to segregate ballots",
+      "source": "Memeorandum/CBS",
+      "url": "https://www.cbsnews.com/news/alaska-us-attorney-senate-race-two-dan-sullivans/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Daniel J. Sullivan left his Alaska hometown before the election (CBS)",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/news/daniel-j-sullivan-left-alaska-hometown-senate-election/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "MS NOW: Trump plans to resume strikes on Iran the day after the midterms",
+      "source": "Memeorandum",
+      "url": "https://www.ms.now/news/trump-plans-to-resume-strikes-on-iran-day-after-midterm-elections"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Iran's supreme leader warns US, Israel against new attacks; Al Jazeera: tankers hit in Hormuz, Trump says conflict will end soon",
+      "source": "CBS/Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "IRGC reports two-three tankers on fire in Hormuz as talks continue",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Pakistan army 'cautiously optimistic' about US-Iran mediation",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "US approves $2.1B sale of 500 Patriot missiles to Ukraine; Zelenskyy says delivery could take years",
+      "source": "Al Jazeera/CBS/Euronews",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Trump criticizes Russia sanctions calls, cites Stephen Hubbard release; meets Hubbard",
+      "source": "Kyiv Post/CBS",
+      "url": "https://www.cbsnews.com/news/trump-meeting-stephen-hubbard-white-house-russia-release/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Hundreds from occupied Oleshky reach Belarus en route to Ukraine under US-brokered local truce",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Drones set Russian refinery on fire a day after Ukraine reportedly paused strikes",
+      "source": "SOFX",
+      "url": "https://www.sofx.com/drones-set-russian-oil-refinery-on-fire-a-day-after-ukraine-reportedly-paused-strikes/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Disclosure of fired general Sylvia's polygraph may have violated privacy laws",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/news/pentagon-disclosure-fired-general-brett-sylvia-polygraph-privacy-laws/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "DHS data breach exposes 40,000+ employees incl. ICE and Border Patrol",
+      "source": "SOFX",
+      "url": "https://www.sofx.com/dhs-data-breach-exposes-information-on-more-than-40000-employees-including-ice-and-border-patrol-agents/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Reuters: Iran moved $2B in military materials through 5,000 secret defense agencies",
+      "source": "SOFX",
+      "url": "https://www.sofx.com/iran-moved-2-billion-in-military-materials-through-5000-secret-defense-agencies-reuters-finds/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Japan to assemble US AMRAAM missiles",
+      "source": "SOFX",
+      "url": "https://www.sofx.com/japan-will-assemble-u-s-amraam-missiles-easing-indo-pacific-munitions-crunch/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Britain to Japan: governments tell households to stock up",
+      "source": "SOFX",
+      "url": "https://www.sofx.com/from-britain-to-japan-governments-tell-households-to-stock-up/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "DefenseScoop opinions (VLEO; trusting AI in defense); FNN movers and shakers; Hegseth ties drone command to reconciliation bill",
+      "source": "DefenseScoop/FNN",
+      "url": "https://defensescoop.com/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Trump Kansas and Iowa rallies back on after RNC said canceled",
+      "source": "CNBC/WaPo",
+      "url": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "NYT: Republicans close midterms with ugly personal attacks; WaPo: Trump's closing economic message",
+      "source": "Memeorandum",
+      "url": "https://www.washingtonpost.com/politics/2026/10/31/trump-closing-economic-message-tells-voters-it-better-than-they-think/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Polls: Senate scenarios (WaPo); Nebraska Republican leads independent (NYT)",
+      "source": "Memeorandum",
+      "url": "https://www.nytimes.com/2026/10/31/us/politics/nebraska-senate-poll.html"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "New Republic: plot to keep Senate in GOP hands (opinion)",
+      "source": "Memeorandum",
+      "url": "https://newrepublic.com/article/217398/trump-midterm-election-senate-republican-control-plot"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "NYT: Alina Habba's husband Turhan Mildon's background under scrutiny (Congo, Venezuela)",
+      "source": "Memeorandum",
+      "url": "https://www.nytimes.com/2026/10/30/us/politics/alina-habba-turhan-mildon-trump-congo-venezuela.html"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Obamacare premiums rise steeply for 2027 (NYT)",
+      "source": "Memeorandum",
+      "url": "https://www.nytimes.com/2026/10/30/business/obamacare-health-insurance-rates.html"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Judge opens misconduct inquiry into Trump officials in East Potomac golf case",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/news/trump-golf-course-east-potomac-judge-inquiry/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "DOJ and Comey's lawyers face off over Espionage Act information",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/news/doj-james-comey-information-espionage-act-hearing/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "ATF's top lawyer Robert Leider resigns",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/news/robert-leider-top-lawyer-atf-resigns/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Fewer women in top national security roles under Trump",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/news/women-national-security-trump-democrats/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Brazil summons Argentine diplomat over Bolsonaro's flight to US; Bolsonaro welcomed in Miami",
+      "source": "Al Jazeera/Outlook India",
+      "url": "https://www.aljazeera.com/news/2026/10/31/brazil-summons-argentinian-diplomat-over-bolsonaros-flight-to-us"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "US cancels G20 photo after EU diplomats object to Lavrov",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Israeli election: Netanyahu bloc short of majority; Arab parties record seats",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "North Korea fires ballistic missiles; US, South Korea, Japan call for complete denuclearisation",
+      "source": "Euronews/Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "China rejects report of spy plot against Jensen Huang; US jails two Chinese nationals for spying",
+      "source": "Euronews/Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Rival US and Russian Western Sahara resolutions fail at UN",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/rival-us-and-russian-resolutions-on-western-sahara-fail-at-un"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Lebanon charges 13 over Hezbollah explosives; UN closes Somalia mission; RSF commander defects; DRC Ebola deaths pass 5,000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Poland court crisis: police at top court, president turns back mid-flight",
+      "source": "Al Jazeera/Euronews",
+      "url": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Novaya Gazeta to shut down; Italy general strike over costs and defence spending; Germany/France brace for protests",
+      "source": "Euronews/Al Jazeera",
+      "url": "https://www.euronews.com/news/international"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "Trump berates reporter ('you look like hell'); Euronews analysis of change vote",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/news/international"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Shapiro sounds like he is running for president",
+      "source": "Washington Sun via NewsNow",
+      "url": "https://c.newsnow.com/A/1328546531"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-30",
+      "headline": "RCP items: GOP social-pressure turnout; USA Today conservatives frustrated; WaPo editorial on Intel stake; WaPo Democrats economy; NYPost Alaska editorial; Missouri map fight",
+      "source": "RealClearPolitics",
+      "url": "https://www.realclearpolitics.com/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "Texas Hinojosa Latino pitch; Thune bid to hold Senate",
+      "source": "CBS",
+      "url": "https://www.cbsnews.com/politics/"
+    },
+    {
+      "collector": "world",
+      "date": "2026-10-31",
+      "headline": "China warns against 'hijacking' ASEAN defense chiefs meeting as Hegseth heads to Philippines (date unconfirmed)",
+      "source": "Anadolu",
+      "url": "https://www.aa.com.tr/en/asia-pacific/china-urges-against-hijacking-asean-defense-chiefs-meeting-as-hegseth-heads-to-philippines/4101355"
+    }
+  ],
+  "pages": [
+    "TVG 30 Oct loaded; TVG 31 Oct client_error (Saturday, no issue)",
+    "Gmail: Politico Playbook PM Oct 30 (already read, id 1a18df97a7806b51), Axios PM Oct 30 (1a18e3d793fb34db), Punchbowl Readback Oct 31 (1a191d56525933a6), Axios AM Oct 31 (1a192060a3dade62), Politico Playbook Oct 31 (1a19260291ca17b3); skipped Axios mobility welcome and Reuters marketing",
+    "official: WH releases p1, presidential actions p1 (newest Oct 28), Treasury p1, OFAC p1 (newest Oct 29), State p1, DOJ p1, Fed 2026 (newest Oct 29) all loaded",
+    "world: Memeorandum, NewsNow, RCP, Al Jazeera, Euronews, Anadolu (newest dated Oct 25), CBS politics, DefenseScoop, SOFX, FNN, European Parliament press room (newest Oct 29) all loaded"
+  ],
+  "window": "2026-10-30..2026-10-31"
+}

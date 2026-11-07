@@ -1,0 +1,1051 @@
+{
+  "issue": "VEN",
+  "items": [
+    {
+      "actor": "Grenell, Miller",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists",
+        "deal-capital"
+      ],
+      "context": "Opened the deal track; Rubio said it did not mean recognition (La Estrella)",
+      "date": "2025-01-31",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2025-01-31-255f6a",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Grenell meets Maduro; six Americans freed; deportation flights resume",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rubio and the Florida delegation (revoke); Chevron, Miller, Grenell (keep)",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists",
+        "deal-capital",
+        "hawks"
+      ],
+      "context": "First Rubio-versus-Grenell fight (Politico)",
+      "date": "2025-03",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2025-03-7abaca",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "month",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Chevron licence revoked, then restored in a restricted form that summer",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Miller",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Force camp gains the immigration hawk (Politico)",
+      "date": "2025-07",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2025-07-c8d274",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "month",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Miller joins Rubio's view that Maduro is a drug kingpin",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Rubio, Hegseth, Ratcliffe",
+      "added": "2026-10-28",
+      "by": [
+        "hawks",
+        "pentagon"
+      ],
+      "context": "Deal track closed",
+      "date": "2025-09",
+      "fx": {
+        "deal-capital": -1,
+        "hawks": 1,
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2025-09-22d8b8",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "month",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Boat strikes begin; Trump tells Grenell to halt contact with Caracas; CIA covert action authorised",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Hegseth",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Military dissent removed (Reuters via MarketScreener)",
+      "date": "2025-10-16",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2025-10-16-ec336c",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "SOUTHCOM chief Holsey announces early retirement; Reuters sources say Hegseth pushed him out",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Last diplomatic exit refused (Miami Herald via Greater Belize, claimed)",
+      "date": "2025-11-21",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2025-11-21-42bb59",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump–Maduro call; Trump demands immediate resignation, Maduro asks for amnesty",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Hegseth, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "",
+      "date": "2025-12-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2025-12-12-690713",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Holsey retires days after the first large tanker seizure; Trump orders a blockade of sanctioned tankers in mid-December",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Force",
+      "date": "2026-01-02",
+      "fx": {
+        "hawks": 1,
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-01-02-a4e35f",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump orders the raid",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Rodríguez kept in place",
+      "date": "2026-01-03",
+      "fx": {
+        "deal-capital": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-01-03-1ac3df",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump says the US will \"run\" Venezuela; Rubio retracts on 4 Jan and sets out a three-phase plan on 7 Jan",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Hawley, Young flip after assurances",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "Force question closed in Congress (NPR)",
+      "date": "2026-01-08",
+      "fx": {
+        "dissenters": -1,
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-01-08-ba26f5",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Senate advances, then blocks, a war powers resolution (52–47, then 51–50 with Vance's tie-break)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rodríguez, Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-01-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-01-08-f85f2c",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Rodríguez announces prisoner releases; Trump cancels a second wave of strikes on 9 Jan",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Woods",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Oil structure becomes a state project",
+      "date": "2026-01-09",
+      "fx": {
+        "deal-capital": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-01-09-33072a",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump meets oil executives; Exxon calls Venezuela \"uninvestable\"; Trump says he may keep Exxon out",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Wright, Treasury",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "",
+      "date": "2026-01-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-01-14-6a96d3",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "First oil sale ($500M); first $300M returned to Venezuela",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Ratcliffe, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "CIA assessment backs Rodríguez (NYT via GV Wire)",
+      "date": "2026-01-15",
+      "fx": {
+        "deal-capital": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-01-15-cae004",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Ratcliffe meets Rodríguez; Trump meets Machado the same day",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rodríguez, Wright, Treasury",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Market opening",
+      "date": "2026-01-29",
+      "fx": {
+        "deal-capital": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-01-29-f4f460",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Hydrocarbons law opens oil to private operators; OFAC licences follow",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump aides, Scott",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-02-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-02-03-7b7906",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Semafor: Trump aides ignore Rodríguez's criticism; Senate Republicans split on how long she stays",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Wright, Treasury",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "",
+      "date": "2026-02-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-02-11-1cc77d",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Wright in Caracas; two licences let companies operate oil and gas projects; royalties go to a US-managed fund",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-03-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-03-05-1d12e5",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Diplomatic relations restored",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Rubio, Treasury",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Normalisation",
+      "date": "2026-03-12",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-03-12-488551",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "US recognises Rodríguez in court (12 Mar), reopens embassy (30 Mar), delists her (1 Apr)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rodríguez",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-03-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-03-18-37d252",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Rodríguez replaces Padrino with González López",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Rubio, courts",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-03-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-03-23-9e717f",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Rivera trial; Rubio testifies; conviction",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Bessent",
+      "added": "2026-10-28",
+      "by": [
+        "treasury"
+      ],
+      "context": "Sanctions relief outpaces politics (DW via Teletica)",
+      "date": "2026-04-14",
+      "fx": {
+        "deal-capital": 1,
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-04-14-f4cc6d",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "General License 57 lifts sanctions on the central bank and three state banks; Bessent backs IMF reintegration",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rodríguez, DOJ",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-05-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-05-16-7d92a7",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Alex Saab deported to the US, a possible Maduro witness",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Rodríguez",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-06-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-06-12-050d40",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Joint US–Venezuelan strike kills the Tren de Aragua leader",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "White House, Rubio (good cop)",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Machado kept out (WSJ via To Vima)",
+      "date": "2026-06-24",
+      "fx": {
+        "hawks": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-06-24-ce1f48",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Earthquakes; Machado's flight is turned back over North Carolina after a US warning",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rubio's circle; Treasury",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Betancourt consolidated",
+      "date": "2026-07-31",
+      "fx": {
+        "hawks": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-07-31-bb0ef7",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Claver-Carone leaves; Sargeant sells his NABEP stake",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Rubio, Hegseth, Feinberg, Wright",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital",
+        "hawks",
+        "pentagon"
+      ],
+      "context": "Oil structure fixed",
+      "date": "2026-08-28",
+      "fx": {
+        "deal-capital": 1,
+        "pentagon": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "ven-2026-08-28-8d3215",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "shift",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "\"Biggest oil deal\": Pentagon Office of Strategic Capital takes 35% of NABEP; Chevron announces a $7B expansion",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-09-22-5d17b3",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump and Rodríguez meet at the UN",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "courts",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-05-6831b2",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Supreme Court vacates the Ninth Circuit's TPS ruling (immigration, not mapped)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-08-b91838",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Superseding indictment adds torture conspiracy; Maduro pleads not guilty; trial date reported as 14 Jun 2027 by the Rio Times and 1 Jun 2027 by Wikipedia (unreconciled)",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Machado allies, State",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-22-31f372",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Venezuela",
+      "precision": "day",
+      "rationale": "Seeded from the Venezuela report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Largest opposition march since Maduro's fall; State welcomes the third round of talks",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Rubio (State Department)",
+      "added": "2026-10-29",
+      "by": [
+        "hawks"
+      ],
+      "context": "State transcript: new Supreme Court and electoral council before elections; Rodríguez met every timeline; some sanctions suspended, reversible; oil money held in a Treasury-controlled account; 'no talk' of prosecuting the Rodríguezes; Alex Saab extradited and cooperating.",
+      "date": "2026-10-26",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": 1
+      },
+      "fxnote": "Provisional: State published a reform-first timetable that keeps Rodriguez in office and oil deals running while Machado's route is the street; re-score if a dated election is announced for 2027 or Rodriguez declares the vacancy.",
+      "id": "ven-2026-10-27-rubio-machado",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): State's reform-first path keeps Rodríguez in office and oil money under US Treasury control into 2027, strengthening the hawks' and dealmakers' arrangement over Machado. Primary transcript. Falsifier: a dated 2027 election.",
+      "source": "State Department transcript; Axios, Cuba Headlines",
+      "text": "Rubio, a day after Machado returned to Venezuela, says \"you can't protest your way to democracy\" and ties elections to reforms: Supreme Court overhaul by end-2026, new electoral council in early 2027, and about $300B of debt. Rodríguez would first declare the presidency vacant, starting a six-month period; best case is elections by June 2027, with 2028 not ruled out.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "Machado / Rodríguez government",
+      "added": "2026-10-29",
+      "by": [
+        "hawks"
+      ],
+      "context": "Net effect (my reading): Machado is back inside the country, which raises street pressure on the US-Rodríguez arrangement; Rubio's Oct 26-27 remarks show how Washington answered. The conflicting accounts of US involvement are unresolved. No fx.",
+      "date": "2026-10-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-25-bf40",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition, Washington Times, CNN, Cibercuba",
+      "source": "",
+      "text": "María Corina Machado returns to Venezuela after nearly a year in exile; accounts differ on whether the US privately opposed it (digest) or told Caracas to allow it (Washington Times), and Rubio says the US negotiated it with Rodríguez.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "US official, Machado",
+      "added": "2026-10-30",
+      "by": [
+        "hawks"
+      ],
+      "context": "Fits State reform-first, best-case-June-2027 line.",
+      "date": "2026-10-27",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Provisional: the 2027 timetable follows the hawks reform-first line; re-score if Treasury or Commerce secure an open-ended Rodriguez tenure.",
+      "id": "ven-2026-10-27-vacancy-2027",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "State Department",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Washington now names 2027 as the handover year, which keeps Rodriguez in place for a year and gives Machado a dated target, so the hawks reform-first path is narrowed to a date both sides cite. Evidence: US official quoted via several outlets; Rodriguez roadmap per one digest. Not established: a formal date or the official's identity. Counter-reading: a 2027 date lets oil dealmakers keep Rodriguez until then. Falsifier: US shifts to earlier elections or drops the vacancy demand. Provisional.",
+      "source": "voz.us, NTN24, El Diario, Everything Briefing digest",
+      "text": "A US official says Delcy Rodriguez should declare the presidency vacant in 2027 and call elections; Machado proposes Jul 24, 2027 (voz.us, NTN24, El Diario). Rodriguez outlines an election roadmap with a rebuilt electoral authority and observers (Oct 29, digest).",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Southern Command",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Early Edition headline; Just Security keeps a timeline of boat strikes.",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "No fx: a continuation of an existing campaign.",
+      "id": "ven-2026-10-28-boat-strike",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): continues the strike campaign after the Maduro seizure; no change to policy. Not established: evidence about the boat.",
+      "source": "Just Security Early Edition (Oct 28)",
+      "text": "Southern Command strikes an alleged drug boat in the eastern Pacific, killing five.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Treasury (OFAC)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Critical read: the Rodríguez siblings and the oil-deal brokers gain; Machado's camp loses leverage. Counter-reading: a reversible reward. Falsifier: relisting or a missed transition deadline. Same path as Delcy Rodríguez's Apr 1 delisting.",
+      "date": "2026-10-14",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": 1
+      },
+      "fxnote": "Provisional: the delisting entrenches the arrangement the hawks and dealmakers hold; re-score if he is relisted or Washington turns to Machado.",
+      "id": "ven-2026-10-14-jorge-rodriguez-delisted",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the US rewards the Rodríguez family for cooperating, entrenching the hawks' and dealmakers' arrangement that keeps them in power ahead of any election. Wire reports; terms of the plan not published.",
+      "source": "Al Jazeera (AFP, Reuters)",
+      "text": "OFAC removes sanctions on Jorge Rodríguez, head of Venezuela's National Assembly and brother of interim President Delcy Rodríguez, a step tied to US recognition of the interim government and Trump's three-phase plan.",
+      "tier": "documented",
+      "url": "https://www.aljazeera.com/news/2026/10/14/us-lifts-sanctions-on-venezuelas-top-legislator",
+      "weight": 3
+    },
+    {
+      "actor": "US Southern Command, Colombia",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Coincides with the Oct 28 boat strike (ven-2026-10-28-boat-strike) and the Nov 11-15 talks.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-26-southern-vanguard",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): keeps a US force next to Venezuela during the talks and the boat-strike campaign; a routine exercise, no new mission reported.",
+      "source": "Anews; Colombian outlets",
+      "text": "Colombia hosts more than 300 US troops for the Southern Vanguard 2026 counternarcotics exercise, Oct 27 to Nov 11.",
+      "tier": "documented",
+      "url": "https://www.anews.com.tr/world/2026/10/26/colombia-to-host-over-300-us-troops-for-joint-military-exercises/amp",
+      "weight": 2
+    },
+    {
+      "actor": "White House",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Release dated Oct 28.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-27-corpus-christi-oil",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the administration markets the oil deal as a pre-midterm deliverable. The White House's own claim; buyer unnamed.",
+      "source": "White House release",
+      "text": "The White House says the first 1 million barrels of oil from the Venezuela deal reached Corpus Christi on Oct 27 for refining in Texas; it names no buyer and repeats an unsourced 65-billion-barrel figure.",
+      "tier": "claimed",
+      "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
+      "weight": 2
+    },
+    {
+      "actor": "Treasury (OFAC)",
+      "added": "2026-10-30",
+      "by": [
+        "treasury"
+      ],
+      "context": "Precedes the Oct 14 delisting of National Assembly head Jorge Rodriguez; fits the recognition of the interim government.",
+      "date": "2026-10-05",
+      "fx": {},
+      "fxnote": "No fx: minor delistings; the consequential step is the Oct 14 Rodriguez delisting, scored there.",
+      "id": "ven-2026-10-05-chavista-delistings",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30 (completion pass)",
+      "precision": "day",
+      "rationale": "Weight 2: small delistings of former officials; they signal the sanctions-relief path that the Oct 14 Rodriguez delisting made visible.",
+      "source": "OFAC recent actions, Oct 5, 2026 (https://ofac.treasury.gov/recent-actions)",
+      "text": "OFAC removes Venezuela-program sanctions on Tibisay Lucena, Ramón Darío Vivas and Jorge Luis García Carneiro, alongside older Iraq-era, cartel and Belarus delistings.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Venezuelan oil industry; US-backed investors",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Newsletter summary only. Oil deals proceed under State's timetable; first 1M barrels reached Corpus Christi (White House claim, Oct 27).",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-11-02-oil-workers",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: a capacity limit on the oil-first path the dealmakers favor. My reading, untested: US immigration policy toward those workers could touch the oil deal.",
+      "source": "Semafor Flagship newsletter (Nov 2)",
+      "text": "Semafor: a shortage of Venezuelan oil workers, about 5,000 of whom live in the US, is slowing US-backed oil investment.",
+      "tier": "reported",
+      "url": "gmail:Semafor Flagship 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Jeremy Lewin",
+      "added": "2026-11-02",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-10-27-lewin-exit",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator and personnel sweeps). No replacement named.",
+      "source": "Reuters and Axios via Just the News; Mediaite via Yahoo News",
+      "text": "Jeremy Lewin, State's policy planning director, a Rubio adviser on Venezuela and Cuba and the former DOGE official who ran USAID's dismantling, announces he is leaving for the private sector, hours after a WIRED report questioned his authority to order USAID firings (he disputes it).",
+      "tier": "documented",
+      "url": "https://justthenews.com/government/diplomacy/state-department-adviser-venezuela-and-cuba-leaves-post/",
+      "weight": 2
+    },
+    {
+      "actor": "Marco Rubio",
+      "added": "2026-11-02",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "ven-2026-11-02-rubio-blanco",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep).",
+      "source": "AP via ClickOrlando (WKMG)",
+      "text": "Rubio hosts Venezuela's foreign minister, Oliver Blanco, at State and presses the interim government and opposition to move quickly on the 2027 election framework agreed two weeks earlier.",
+      "tier": "reported",
+      "url": "https://www.clickorlando.com/news/world/2026/11/02/rubio-meets-venezuelan-counterpart-as-us-presses-for-progress-on-election-preparations/",
+      "weight": 2
+    },
+    {
+      "actor": "Scott Bessent; Oliver Blanco",
+      "added": "2026-11-03",
+      "by": [
+        "treasury"
+      ],
+      "context": "After US forces captured Maduro on Jan 3, Washington kept Delcy Rodríguez's interim government and set elections only after court and electoral reforms, best case June 2027. Blanco met Rubio the same day. Next: election-framework talks Nov 11-15.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "No fx: the readout restates the existing three-phase plan and announces no license, delisting or money flow, so no faction's position moves yet.",
+      "id": "ven-2026-11-02-bessent-blanco",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Treasury joins State at the table and puts financial reconnection on the agenda, keeping Treasury the gate for relief while transition comes last. Not shown: any new license. Counter: a courtesy readout. Falsifier: no Treasury action follows by mid-December.",
+      "source": "Treasury readout; Al Jazeera (Nov 3)",
+      "text": "Bessent meets Venezuelan Foreign Minister Oliver Blanco; Treasury's readout says they discussed a three-phase approach (stabilization, recovery, transition), energy production and reconnecting Venezuela's financial sector. Al Jazeera (Nov 3): the US urges a phased plan.",
+      "tier": "documented",
+      "url": "https://home.treasury.gov/news/press-releases/sb0674/",
+      "weight": 3
+    },
+    {
+      "id": "ven-2026-11-04-pdvsa-bond-license",
+      "date": "2026-11-04",
+      "precision": "day",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "actor": "Treasury Office of Foreign Assets Control",
+      "text": "OFAC issued General License 5AA authorizing specified transactions related to the PDVSA 2020 bond on or after December 18, 2026.",
+      "context": "Agency action. Review any resulting transaction and faction involvement separately.",
+      "source": "OFAC recent actions, November 4, 2026",
+      "url": "https://ofac.treasury.gov/recent-actions/20261104",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: this changes the sanctions implementation record. Faction influence remains unresolved.",
+      "origin": "broader intake",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: the notice establishes no faction-specific gain or loss."
+    }
+  ]
+}

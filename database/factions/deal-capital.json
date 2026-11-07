@@ -1,0 +1,352 @@
+{
+  "blunder": "Helped make the case for the Feb 28 strikes (Trump, Mar 9), then needed Gulf and Pakistani mediators to get a deal track back; Europe refused the asset plan",
+  "cause": "Patron money: Gulf sovereign capital in the negotiators' firms, so the line follows the patrons' needs of the moment",
+  "did": "Putin meetings (Sep 5, Oct 21); Miami asset offer (Oct 10); Doha trip (Jun 30); Wright in Caracas (Feb 11); Kushner asked Kyiv for a 30-day refinery-strike halt (WSJ, Oct 29)",
+  "donors": [
+    [
+      "Aryam (Sheikh Tahnoon)",
+      "$500M for 49% of World Liberty; $187M to Trump entities, at least $31M to Witkoff-linked ones",
+      "Eric Trump, Zach Witkoff, Steve Witkoff",
+      "Russia, AI (chips)",
+      "Also in the Lukoil bid group. The UAE gains access to the people who set chip exports and Russia sanctions (my reading)."
+    ],
+    [
+      "Saudi Public Investment Fund",
+      "$2B into Affinity (about $25M a year in fees); $5B more sought",
+      "Jared Kushner",
+      "Iran, Russia",
+      "A channel to the president's son-in-law; Affinity joined its $55B Electronic Arts buyout."
+    ],
+    [
+      "Qatar Investment Authority",
+      "Bought Witkoff's Park Lane Hotel for $623M (2023); Affinity investor",
+      "Steve Witkoff, Jared Kushner",
+      "Iran, Russia, AI",
+      "Doha mediates the Iran track while its fund is a past counterparty of both envoys (my reading)."
+    ],
+    [
+      "MGX (Abu Dhabi)",
+      "$2B Binance deal settled in World Liberty's USD1 (May 2025)",
+      "Zach Witkoff, Eric Trump",
+      "AI",
+      "Use of the family stablecoin by a Tahnoon-chaired fund; no decision tied to it."
+    ],
+    [
+      "Dar Global and Qatari Diar",
+      "Partners in the Qatar golf resort (Apr 2025) and Riyadh projects",
+      "Eric Trump",
+      "Iran",
+      "Gulf developers, one state-owned, in business with the president's company (AP)."
+    ],
+    [
+      "Foris Dax (Crypto.com)",
+      "$30-35M to MAGA Inc.",
+      "Trump family; Lutnick's circle",
+      "Crypto policy",
+      "Crypto policy that suits the family token business (my reading); no decision tied to the gift."
+    ],
+    [
+      "Kelcy Warren",
+      "With Energy Transfer, $25M to MAGA Inc.",
+      "Chris Wright (holds Energy Transfer units)",
+      "Venezuela, energy",
+      "An oil-friendly deal track that fits a top donor's business and the energy secretary's holdings (my reading)."
+    ],
+    [
+      "Todd Boehly",
+      "Leads the Lukoil bid",
+      "Steve Witkoff, Jared Kushner",
+      "Russia",
+      "Gains if a Russia deal unfreezes Lukoil's foreign assets; Aryam is in the group."
+    ],
+    [
+      "Vitol",
+      "In the Lukoil bid group; bought the first US-brokered Venezuelan cargo",
+      "Steve Witkoff, Jared Kushner",
+      "Russia, Venezuela",
+      "Gains from both openings the envoys negotiate (my reading)."
+    ],
+    [
+      "Cantor Fitzgerald",
+      "Held $310M of Nvidia",
+      "Howard Lutnick",
+      "AI, tariffs",
+      "Chip policy that lifts the family firm."
+    ],
+    [
+      "Newmark",
+      "$25B+ in data-center deals; to buy Lutnick out for $127M",
+      "Howard Lutnick",
+      "AI",
+      "Data-center promotion that could enrich his family; Commerce IG asked to look."
+    ],
+    [
+      "Howard Lutnick (House super PAC gift)",
+      "$5M to the Congressional Leadership Fund weeks before his Epstein testimony",
+      "Howard Lutnick",
+      "Epstein files",
+      "Goodwill with House leadership at a moment of exposure (my reading); no link to an act."
+    ],
+    [
+      "Harry Sargeant III",
+      "Not quantified",
+      "Chris Wright, Doug Burgum",
+      "Venezuela",
+      "An oil trader with an interest in the Venezuela opening."
+    ]
+  ],
+  "edges": [
+    [
+      "A1 Deal-Capital and Vance Lane",
+      "Alliance",
+      "Russia, Iran",
+      "Vance defended Witkoff (Oct 21); Vance led Islamabad talks (Apr) while Witkoff and Kushner ran the Doha trip (Jun 30)",
+      "None found",
+      "Vance acts against Tech-Right interests on H-1B"
+    ]
+  ],
+  "gained": "Kushner named envoy (Feb 19); Pentagon stake in NABEP (Aug 28); Venezuela oil deals proceed under State's timetable (Oct 27); Trump held new Russia sanctions and rebuked Kyiv's 1,000-drone strike (Oct 16-19); WSJ: Kyiv paused refinery strikes at Kushner's request (Oct 29)",
+  "id": "deal-capital",
+  "legal": [
+    [
+      "Witkoff, Zach Witkoff, Trump family",
+      "Aryam (UAE) bought 49% of World Liberty for $500M, signed four days before the Jan 2025 inauguration and undisclosed; $187M went to Trump family entities and at least $31M to Witkoff-family entities; a chips framework followed (35,000 GB300 for G42 in Nov 2025)",
+      "Bribery or illegal gratuity if a link is shown; the Foreign Emoluments Clause; disclosure violations",
+      "Reported (WSJ, The Block); Warren and Murphy letter; White House denies any link",
+      "House Oversight and Financial Services; Senate Banking; DOJ"
+    ],
+    [
+      "Trump family, Binance",
+      "WSJ: Binance helped World Liberty’s stablecoin holdings grow from $127M to over $2.1B, then Trump pardoned Zhao on Oct 23, 2025; MGX put $2B into Binance using USD1. World Liberty says a pardon was never mentioned",
+      "Bribery for clemency, if proven; the pardon is lawful on its face",
+      "Reported (WSJ); denials",
+      "House Financial Services; DOJ"
+    ],
+    [
+      "Kushner",
+      "Affinity holds 7.4% of Phoenix, a Tel Aviv insurer (over $1B) with $456M in nine defense firms, including Elbit; Saudi fund put $2B into Affinity; he became Special Envoy for Peace in Feb 2026. His lawyer says he never directed Phoenix",
+      "Conflict of interest (18 USC 208) if he is a government employee; Foreign Emoluments Clause; FARA",
+      "Public record: CREW suit (Oct 14); Oversight’s expected chair lists “investments and government roles tied to Jared Kushner”",
+      "House Oversight; courts"
+    ],
+    [
+      "Lutnick",
+      "Sons’ firms Cantor and Newmark in $25B+ of data-center deals; Warren and 24 Democrats asked the Commerce IG to look at data-center promotion; $5M to a House super PAC weeks before his Epstein testimony",
+      "Conflict of interest (18 USC 208); false-statement questions around the Epstein testimony (none alleged)",
+      "Public record (IG request); limited ethics waiver (NOTUS)",
+      "Commerce inspector general; House Oversight"
+    ],
+    [
+      "Wright, Burgum",
+      "Two billionaires bought about 1.2 million Venture Global shares each ($12M) Mar 10–14, 2025, after a Mar 6 event the secretaries attended and before Wright’s Mar 19 export license; Wright’s certificate lists Energy Transfer units",
+      "Insider trading by third parties; conflict of interest",
+      "Public record (Merkley called for inquiry); no probe reported",
+      "Senate Energy; SEC"
+    ]
+  ],
+  "legalnote": "",
+  "lost": "Grenell sidelined; Sargeant sold out (Aug 10); CREW suit to bar Kushner from the envoy role (Oct 14); UK officials' account of the Geneva talks (Mar 17) undercuts the peacemaker claim",
+  "members": [
+    [
+      "Steve Witkoff",
+      "Special envoy",
+      "Russia deal, Iran talks, Gulf channel",
+      "10 (Oct 21: met Putin in St. Petersburg; Nov 2 WSJ: floated Russian gas transit via a US intermediary)",
+      "Posture: a dealmaker who ends wars. Interest: about $107M in 2025 from a World Liberty-linked holding; sons run World Liberty (Zach) and the Witkoff Group (Alex); Qatar's fund bought his Park Lane Hotel (2023)"
+    ],
+    [
+      "Jared Kushner",
+      "Special envoy for peace (Feb 19); Affinity Partners founder",
+      "Russia deal, Iran talks, Gulf investment",
+      "10 (Oct 29 WSJ: asked Kyiv for a 30-day refinery-strike halt)",
+      "Posture: Abraham Accords peacemaker. Interest: Affinity, about 99% foreign capital led by the Saudi fund's $2B; Israeli holdings (7.4% of Phoenix) and Netanyahu ties pulled him toward the war before Feb 28"
+    ],
+    [
+      "Eric Trump",
+      "Trump Organization EVP; World Liberty co-founder",
+      "Gulf deals, crypto",
+      "8 (Apr 30, 2025: Qatar golf resort with Saudi Dar Global)",
+      "Interest: a family business with Gulf partners and a stablecoin that needs foreign buyers; no public policy posture"
+    ],
+    [
+      "Zach Witkoff",
+      "World Liberty co-founder (outside)",
+      "Gulf crypto deals",
+      "8 (May 1, 2025: announced USD1 for MGX's $2B Binance deal)",
+      "Interest: runs the company that took Aryam's $500M for 49%"
+    ],
+    [
+      "Donald Trump Jr.",
+      "Trump's eldest son",
+      "Family ventures",
+      "5; home is Vance Lane",
+      "Interest: family business and 1789 Capital. A friend, Gentry Beach, sought an Arctic LNG stake in the Russia deal (WSJ, Nov 2025); no link to Don Jr. shown"
+    ],
+    [
+      "Chris Wright",
+      "Energy secretary",
+      "Venezuela oil, Russia energy waiver",
+      "8 (Oct 19: said shadow-fleet tankers lose designation when sold into legitimate trade)",
+      "Posture: energy abundance. Interest: Liberty Energy (over $53M) and Energy Transfer units on his divestiture certificate; oil flowing lifts both"
+    ],
+    [
+      "Howard Lutnick",
+      "Commerce secretary",
+      "Chips (H200 sales), tariffs, Mexico talks",
+      "7 (Oct 15: Mexico deal stalled on his terms)",
+      "Posture: deals for America. Interest: sons' firms Cantor and Newmark in $25B+ of data-center deals; Cantor held $310M of Nvidia"
+    ],
+    [
+      "Doug Burgum",
+      "Interior secretary",
+      "Venezuela oil",
+      "5",
+      "Posture: energy dominance. Interest: no personal stake found"
+    ],
+    [
+      "Tom Barrack",
+      "Envoy",
+      "Iran (no regime change)",
+      "5 (Oct 9: no regime change even if Tehran is hit, anonymous)",
+      "Interest: a Gulf-facing investor; acquitted in 2022 of acting as an unregistered UAE agent (prosecutors said UAE money went into his fund)"
+    ],
+    [
+      "JD Vance",
+      "Vice president",
+      "Russia, Iran talks",
+      "3; home is Vance Lane",
+      "Ambition: a deal he can claim costs none of his patrons"
+    ],
+    [
+      "Marco Rubio",
+      "Secretary of State",
+      "Russia (executor of the deal line)",
+      "3; home is Hawks",
+      "Loyalty to Trump's line keeps his seat"
+    ],
+    [
+      "Pete Hegseth",
+      "War secretary",
+      "Venezuela (American companies in)",
+      "2; home is Pentagon",
+      "Procurement ties"
+    ],
+    [
+      "Richard Grenell",
+      "Special envoy",
+      "Venezuela",
+      "2; sidelined since Sep 2025",
+      "Circumstance (lost position)"
+    ]
+  ],
+  "name": "Deal-Capital Network",
+  "overview": [
+    "The Deal-Capital Network argues that American power is best used the way a dealmaker uses leverage: wars end when settlement pays better than fighting. Kushner's Abraham Accords are its model, normalization sold through investment and arms. Applied now, Russia is offered asset unfreezing, a Lukoil sale and energy deals for a ceasefire; Iran a negotiated end with no regime change; Venezuela an oil opening run by American firms; the Gulf chips and data centers. In its own best terms this is realism without ideology: no crusades, no forever wars, and American companies first in line for what peace builds.",
+    "The interest layer is unusually plain: the negotiators' money is foreign, and mostly Gulf. Affinity Partners reports about 99% foreign capital, led by Saudi Arabia's fund ($2B, about $25M a year in fees) with Qatari and Emirati money (Senate Finance, Jun 2024), and joined the Saudi fund's $55B Electronic Arts buyout. Aryam, Sheikh Tahnoon's vehicle, bought 49% of World Liberty for $500M. Witkoff reported about $107M in 2025 from a World Liberty-linked holding; his son Zach co-founded it, his son Alex runs the Witkoff Group, which sold the Park Lane Hotel to Qatar's fund for $623M (2023). The Trump Organization signed a Qatar golf resort with Saudi Dar Global (Apr 2025). The patrons are sovereigns, so the line tracks what Riyadh, Abu Dhabi and Doha want at the time (my reading).",
+    "Tested against acts, the 'negotiated deal' line fails on Iran and holds only in form on Russia. On Iran, Witkoff and Kushner held the Geneva talks two days before the Feb 28 strikes; Trump said on Mar 9 his decision rested on 'what Steve and Jared and Pete and others were telling me'; UK officials told the Guardian the envoys acted 'like agents of Israel' when London judged a deal close; Kushner said on Mar 26 Iran had not been serious. Only after the war reached Saudi airports and oil sites did they return as deal brokers (Islamabad Apr 25, Doha Jun 30). On Russia the deal is real but transactional: the Nov 2025 Miami plan with Putin's fund chief Dmitriev put US firms first in line for the frozen $300B, Arctic and Lukoil assets; Aryam sits in the Lukoil bid group; talks move to Abu Dhabi in mid-November; and the pressure falls on Kyiv (the refinery-strike pause Kushner asked for, Oct 29), not Moscow.",
+    "Precedent: Taft and Knox's Dollar Diplomacy (1909-13), which used American bank capital to buy influence abroad. It breaks on the direction of the money: then American capital served the state's aims; now foreign sovereign capital funds the American negotiators, so the leverage runs toward the patrons (my reading)."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "Sold H200 chips.",
+          "Imposed then lifted the Mythos export controls (Jun 12 to Jun 30).",
+          "Why the faction does it. Chip sales to the Gulf and China serve the Gulf funds that hold stakes in the AI labs and the data-center builders.",
+          "Who and why.",
+          "Lutnick Motives: (1) Family money: his sons’ Cantor and Newmark sit in $25B+ of data-center deals, and Cantor held $310M of Nvidia (documented fit). Warren and 24 Democrats asked the Commerce IG to investigate data-center promotion that could enrich his family, and he has only a limited ethics waiver (NOTUS). Newmark is to buy Lutnick out for $127M (Bisnow). (2) Access: chip policy is a gift he can give Gulf partners.",
+          "Witkoff Motives: Warren and Murphy allege UAE chip-export backing around the time of the $2B UAE-backed investment in World Liberty’s stablecoin. The chips framework allows 500K a year, including 35,000 GB300 chips for G42 in Nov 2025. The White House denies a link (The Block/WSJ).",
+          "Say versus do. Controls imposed and lifted within 18 days: the flip is the act."
+        ],
+        "title": "AI policy and chips"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "No stance on release. Lutnick admitted a 2012 island lunch (Feb 10) and gave $5M to the House leadership super PAC five weeks before testifying (Apr 1).",
+          "Why the faction does it. Personal exposure, not a program.",
+          "Who and why.",
+          "Lutnick. Interest: goodwill with a House that could investigate him (my reading); no link to an act is shown."
+        ],
+        "title": "Epstein files"
+      }
+    ],
+    "FED": [
+      {
+        "paras": [
+          "Position.",
+          "Apr 2025: Lutnick warned against firing Powell.",
+          "Why the faction does it. Market caution protects the family firms (Cantor).",
+          "Who and why.",
+          "Lutnick. Posture: market sense. Interest: Cantor's business depends on calm rates and bond markets."
+        ],
+        "title": "Fed"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Before the war: Geneva talks two days before the Feb 28 strikes; Trump said Mar 9 his decision rested on 'what Steve and Jared and Pete and others were telling me'. After: Islamabad (Apr 25), Doha (Jun 30), the June interim deal; now Qatar mediates.",
+          "Why the faction does it. Its patrons decide its line. Riyadh urged escalation in March (NYT, denied) and wanted de-escalation by Aug 1, after Houthi fire reached its airports and oil sites; Israeli ties pulled Kushner toward the strikes (my reading).",
+          "Who and why.",
+          "Kushner. Posture: peacemaker. Interest: Saudi money in Affinity plus 7.4% of Phoenix, an Israeli insurer with $456M in defense firms, and Netanyahu ties. He attended the Feb 11 meeting with Netanyahu that Vance missed (NYT via TNR) and said Mar 26 Iran was not serious.",
+          "Witkoff. Posture: deal-first. Interest: Gulf counterparties (Aryam, Qatar's fund); a war that hits the Gulf hurts the business his sons run.",
+          "Barrack. Posture: no regime change (Oct 9, anonymous). Interest: a Gulf-facing investor whose clients lose from a wider war.",
+          "Say versus do. The talks were the runway for the strikes before they became the exit: a deal line that bends to the patrons, not a fixed preference (my reading).",
+          "Stance audit. Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement. Trump’s March 9 account names advisers but gives no individual recommendation. Subsequent talks are an observable action. Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "RUS": [
+      {
+        "paras": [
+          "Position.",
+          "A settlement bought with business: the Miami plan with Dmitriev (Nov 2025) put US firms first in line for frozen assets, Arctic and Lukoil deals; asset unfreezing offered (Oct 10); Putin met Sep 5 and Oct 21; gas-transit pitch and Abu Dhabi talks (Nov 2).",
+          "Why the faction does it. Peace through commerce, and a brokerage: the deal unlocks assets for US and Gulf buyers. The pressure falls on Kyiv (refinery-strike pause at Kushner's request, Oct 29), not on Moscow (Trump held new sanctions, Oct 16-19).",
+          "Who and why.",
+          "Witkoff. Posture: ends the war through incentives; calls Putin a humanitarian. Interest: about $107M in 2025 from a World Liberty-linked holding; Aryam, World Liberty's 49% buyer, is in the Lukoil bid group (documented fit). The White House says he has divested.",
+          "Kushner. Posture: peacemaker. Interest: Affinity's Gulf capital; Abu Dhabi, an Affinity investor's home, hosts the next round (my reading).",
+          "Wright. Posture: energy waiver as a ceasefire incentive. Interest: oil-service holdings that gain when barrels flow.",
+          "Say versus do. 'Negotiated deal' holds in form; its terms pay the brokers' circle and its costs land on Kyiv (my reading)."
+        ],
+        "title": "Russia and Ukraine"
+      }
+    ],
+    "TAR": [
+      {
+        "paras": [
+          "Position.",
+          "Held 50% on metals; stalled the Mexico deal (Oct 15).",
+          "Why the faction does it. Metals protection helps industrial allies while chip sales help his sons; Lutnick protects one side and sells the other.",
+          "Who and why.",
+          "Lutnick Motives: The same family and ally interests: Cantor/Newmark ties and industrial friends (my reading, same sources as above)."
+        ],
+        "title": "Tariffs"
+      }
+    ],
+    "VEN": [
+      {
+        "paras": [
+          "Position.",
+          "US stake and sales; elections in 18-24 months (Wright, Jan 31).",
+          "Sep 2025: Grenell sidelined.",
+          "Why the faction does it. Oil access. The Caracas Pragmatists want the oil flowing before an election.",
+          "Who and why.",
+          "Wright, Burgum Motives: Wright’s oil holdings (above) mean oil flowing is good for his net worth. Burgum: no personal stake found in my research. Donor Sargeant, a trader, is tied to them but not quantified.",
+          "Grenell Motives: Lost his position to the Rubio camp (reported). His support for a faster opening is partly a fight for relevance (my reading)."
+        ],
+        "title": "Venezuela"
+      }
+    ]
+  },
+  "short": "Deal-Capital",
+  "wants": "Control negotiation channels and use sanctions relief, investment, energy access, and reconstruction deals to secure settlements and create commercial opportunities.",
+  "weak": "Foreign patrons make every deal look bought (CREW suit, Oct 14; Raskin inquiry, Apr 17); Europe refuses the asset plan; Gulf patrons under Houthi fire want the war ended on terms Israel resists",
+  "why": "Diplomatic influence and commercial gain can reinforce one another. Gulf sovereign funds and counterparties including Saudi PIF, QIA and Aryam have investments or transactions involving people or businesses connected to the network. Record actual fees and proceeds, prospective opportunities, official participation, and any evidence linking a financial interest to a decision.",
+  "win": "Russia sanctions held and Kyiv's refinery strikes paused (Oct 16-29); Lukoil talks license extended (Oct 21); license-free chips to the UAE (Jul 10)"
+}

@@ -1,0 +1,317 @@
+{
+  "asof": "2026-11-03",
+  "issues": {
+    "FED": {
+      "alternative": "Trump gains control of the Board and forces lower rates",
+      "decision": "Cook stays 5-4 and the Board keeps control; rates held at 3.75-4% on Oct 28 (10-2, Cook and Hammack wanted a hike)",
+      "factions": {
+        "maximalists": {
+          "basis": "Cook still seated; she dissented for a hike at the Oct 28 FOMC; hearing Nov 5, court filing Nov 6.",
+          "diff": -2,
+          "gain": "Nothing yet: courts kept Cook and a White House hearing is set for Nov 5.",
+          "motive": "Win control of the Board by removing Governor Cook, so appointees set rates and the Fed stops constraining the White House.",
+          "tier": "documented",
+          "type": "power"
+        },
+        "operation": {
+          "basis": "Sep CPI 3.7%; a hike is priced for Dec 8-9; Trump approval 32% (Reuters/Ipsos Oct 22-26).",
+          "diff": -1,
+          "gain": "Nothing: rates are 3.75-4% and CPI was 3.7% in September.",
+          "motive": "Want lower rates and gas prices before Nov 3 to blunt the campaign's economic problem; Wiles and the operators carry the midterm result.",
+          "tier": "reported",
+          "type": "audience"
+        },
+        "treasury": {
+          "basis": "The September and October votes are committee actions. Assess advocacy over the Fed chair and the accord separately. Preserve both the credibility and influence objectives. A rate result alone gives no evidence of a Treasury stance reversal.",
+          "diff": 1,
+          "gain": "Chair seat and rate-setting role stay with Warsh; Trump shifted blame to the Board (Sep 16).",
+          "motive": "Borrowing costs and institutional influence are Treasury stakes. The ledger records professional financial ties and identifies no issue-specific donor.",
+          "tier": "reported",
+          "type": "position"
+        }
+      }
+    },
+    "IMM": {
+      "alternative": "Lower-profile enforcement focused on people with criminal records before the midterms, as Mullin and the Operation wanted",
+      "decision": "Arrests at about 3,000 a day under Miller's and Homan's control of ICE, with PERM suspensions and visa-fee rules in force",
+      "factions": {
+        "dissenters": {
+          "basis": "Paul withheld the Schroyer hearing; Salazar's Sept 17 ad and Oct 31 warning.",
+          "diff": -1,
+          "gain": "None: the arrest push runs into the vote.",
+          "motive": "Keep distance from raids in swing seats.",
+          "tier": "reported",
+          "type": "survival"
+        },
+        "maximalists": {
+          "basis": "Oct 6 order back to 3,000 a day; Supreme Court closure order (Oct 27); Fifth Circuit bond ruling (Oct 23).",
+          "diff": 2,
+          "gain": "The 3,000-a-day order, Venturella at ICE, and court wins on bond hearings and case closures.",
+          "motive": "Keep control of ICE and the arrest target; each win strengthens Miller's and Homan's hold on enforcement against the DHS secretary's camp.",
+          "tier": "reported",
+          "type": "power"
+        },
+        "operation": {
+          "basis": "The preference rests on an anonymous report. The directive supplies an outcome against which to test it. A reported timing preference and a setback. Evidence of a public reversal or donor direction is missing.",
+          "diff": -1,
+          "gain": "Little: raids continue through the closing weeks.",
+          "motive": "Electoral risk and control of the agenda are separate stakes. MAGA Inc. backers fund electoral capacity.",
+          "tier": "reported",
+          "type": "survival"
+        },
+        "tech-right": {
+          "basis": "PERM suspensions of eight firms (Oct 8); fee vacated (Jun 8) and re-proposed by rule (Aug 24).",
+          "diff": -1,
+          "gain": "None: PERM suspensions hit Microsoft and outsourcers; the fee survives only as a proposed rule.",
+          "motive": "Keep skilled-visa pipelines open for tech employers.",
+          "tier": "reported",
+          "type": "money"
+        },
+        "vance": {
+          "basis": "Oct 2 remark on ending H-1B; Oct 8 suspensions hit Microsoft, Adobe and Indian outsourcers; recast Oct 17.",
+          "diff": 0,
+          "gain": "A visible role at the Oct 8 briefing; the act itself is scored to the Maximalists.",
+          "motive": "Hold the restrictionist lane the program calls for, with acts aimed at incumbents rather than his patrons' firms.",
+          "tier": "reported",
+          "type": "position"
+        }
+      }
+    },
+    "IRN": {
+      "alternative": "Strike now",
+      "decision": "No strike campaign before the Nov 3 midterms (Trump's pledge), with unannounced 'defensive' strikes allowed (Nov 3); strike option kept for after",
+      "factions": {
+        "deal-capital": {
+          "basis": "Trump’s March 9 account names advisers but gives no individual recommendation. Subsequent talks are an observable action. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem.",
+          "diff": 1,
+          "gain": "The hold keeps the Qatari channel open and spares Gulf patrons a new US campaign before Nov 3.",
+          "motive": "Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation.",
+          "tier": "reported",
+          "type": "money"
+        },
+        "dissenters": {
+          "basis": "Compare the May 13, June 23 and September 24 votes by member. The aggregate counts do not establish individual flips. Credit repeated procedural action. Test individual consistency and electoral costs against roll calls.",
+          "diff": 1,
+          "gain": "No pre-election war vote, and the outside wing keeps its issue.",
+          "motive": "Congressional authority and political independence are stakes. Yass-backed support applies to the libertarian wing.",
+          "tier": "documented",
+          "type": "survival"
+        },
+        "hawks": {
+          "basis": "The June 15 and August 25 accounts span different phases of policy. Public advocacy for the deal is an observable change in posture. Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved.",
+          "diff": -1,
+          "gain": "The blockade and the strike option survive; Israel gains freedom of action if aid ends.",
+          "motive": "Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage.",
+          "tier": "documented",
+          "type": "ideology"
+        },
+        "maximalists": {
+          "basis": "Bannon at CPAC: 'have his back... with full information' (Mar 27); Loomer (Mar 3); Miller in the Go Big camp (reported).",
+          "diff": 0,
+          "gain": "Access kept; the war continues on hard terms, though delay slows any decisive result.",
+          "motive": "Keep Trump's favor by backing his war while pressing hard terms; officials' posts and the movement voices' access depend on loyalty, and Miller's Pentagon alliance backs him on the border.",
+          "tier": "reported",
+          "type": "access"
+        },
+        "operation": {
+          "basis": "Trump's no-attack pledge and Wiles's private doubts about the war's rosy projections are documented.",
+          "diff": 2,
+          "gain": "War stays off the ballot.",
+          "motive": "Protect the midterms. Their jobs, access and control of MAGA Inc. spending depend on Republicans holding Congress, and a war or price shock before Nov 3 puts that at risk.",
+          "tier": "my reading",
+          "type": "power"
+        },
+        "party": {
+          "basis": "Thune could not count 50 for the $95B package (Jul 23); Hawley said he would not back the resolution (Mar 2).",
+          "diff": 2,
+          "gain": "No war vote before Nov 3.",
+          "motive": "Avoid any recorded war vote before Nov 3: no funding package Thune cannot count to 50, and no war powers break with Trump (Hawley, Mar 2).",
+          "tier": "documented",
+          "type": "survival"
+        },
+        "pentagon": {
+          "basis": "Strike execution and procurement actions are distinct from advice to authorize or prolong the war. Vendor benefits and department activity are observable claims. Their existence leaves individual lobbying for escalation unresolved.",
+          "diff": 1,
+          "gain": "Time to restock interceptors and a funded strike option; 'defensive' strikes continue.",
+          "motive": "Budget and vendor discretion confer institutional power. Palantir and Lockheed have procurement exposure.",
+          "tier": "documented",
+          "type": "money"
+        },
+        "treasury": {
+          "basis": "OFAC actions Oct 1, 15 and 21; Brent about $113 (Oct 27).",
+          "diff": 1,
+          "gain": "Sanctions stay the main live tool: banks (Oct 15) and shadow fleet (Oct 21) designated during the hold.",
+          "motive": "Keep Iran policy in Treasury's hands through sanctions while the strike option waits, and avoid the oil shock that would hit markets and Bessent's standing.",
+          "tier": "my reading",
+          "type": "power"
+        },
+        "vance": {
+          "basis": "Compare the Hannity interview, the reported private advice and the dated negotiations. The June agreement later collapsed. Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open.",
+          "diff": 2,
+          "gain": "Negotiating access and a provisional June agreement. The agreement later collapsed. A succession gain from diplomacy remains unestablished.",
+          "motive": "Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives.",
+          "tier": "reported",
+          "type": "ideology"
+        }
+      }
+    },
+    "MID": {
+      "alternative": "Fire the operators and reset the message",
+      "decision": "Spend the MAGA Inc. war chest on a Trump-centered message and keep the operators (Blair, LaCivita) after the Srpska inquiry was closed Oct 23",
+      "factions": {
+        "dissenters": {
+          "basis": "House GOP candidates ran no tariff ads; Collins thanked the White House for the Canada rollback (Reason, Oct 26).",
+          "diff": -1,
+          "gain": "Little: Trump's low approval pulls them down.",
+          "motive": "Swing-seat Republicans like Collins and Rogers distance themselves from tariffs and the war to survive.",
+          "tier": "reported",
+          "type": "survival"
+        },
+        "maximalists": {
+          "basis": "DOJ v. California ballots (Oct 15) and Alaska suit (Oct 22-23): the Ninth Circuit (Oct 30) and the Supreme Court (Nov 2) rejected ballot segregation, an Oct 30 TRO (to Nov 16) bars DOJ threats, and Judge Gleason dismissed the Alaska suit (Nov 1).",
+          "diff": 0,
+          "gain": "Criminal probes continue (LA County grand jury Nov 4, Alaska inquiry) and the Omar search stands, but both ballot suits have lost in court and a judge threw out the Floris-Benavides case as 'weaponization' (Nov 2).",
+          "motive": "Use DOJ and DHS actions as election tools and as auditions for senior jobs; enforcement keeps their base energized.",
+          "tier": "reported",
+          "type": "power"
+        },
+        "operation": {
+          "basis": "Daily Beast citing NY Post (Oct 23); Trump said the inquiry was over; Democrats lead 47-36 (Reuters/Ipsos, Oct 22-26).",
+          "diff": 1,
+          "gain": "Operators stay after the Srpska fee went to Trump's library (Oct 23); about $277M spent by Oct 14.",
+          "motive": "Keep control of the campaign money and message so blame for Nov 3 lands elsewhere; the operators' jobs, access and outside consulting value depend on it.",
+          "tier": "reported",
+          "type": "power"
+        },
+        "party": {
+          "basis": "Close Senate races in Texas, Michigan, Ohio, Kansas (Al Jazeera, Oct 28); Cook moves 12 more House races toward Democrats (Oct 30).",
+          "diff": 0,
+          "gain": "Committee money flows to close Senate races.",
+          "motive": "Hold House and Senate seats; committees need the war chest and a message that does not tie members to Trump's 32% approval.",
+          "tier": "reported",
+          "type": "survival"
+        }
+      }
+    },
+    "TAR": {
+      "alternative": "Broad cuts or quick deals with Canada and Mexico on steel and autos before the vote",
+      "decision": "Keep the wall high (Section 301 wall, 50% metals, 25% autos, Section 338 on Canada) while reshaping the Canada list before Nov 3 (22 lines off, 100 on, in force Oct 30); China truce to Jan 10, 2027",
+      "factions": {
+        "deal-capital": {
+          "basis": "Mexico deal stalled (Oct 15); Trump's $54B Korea LNG claim disputed by Seoul (Oct 2).",
+          "diff": 1,
+          "gain": "50% on metals held; Mexico deal stalled on Lutnick's terms; Korea LNG pledge touted.",
+          "motive": "Protect metals for industrial allies and keep investment-for-tariff deals flowing that dealmakers can announce and broker.",
+          "tier": "reported",
+          "type": "money"
+        },
+        "dissenters": {
+          "basis": "Section 338 edits effective Oct 30 (CNBC, Flexport); Canada emergency ended in the House 219-211 (Feb 11).",
+          "diff": -1,
+          "gain": "Maine carve-outs (plywood, cardboard) in force Oct 30, but 100 lines were added and the wall stays.",
+          "motive": "Trade-exposed Republicans like Collins want relief for home-state industries to keep their seats.",
+          "tier": "documented",
+          "type": "survival"
+        },
+        "maximalists": {
+          "basis": "Opposed Mexico cuts (Oct 15); 232 proclamations Oct 22 and 28.",
+          "diff": 1,
+          "gain": "High tariffs stand, the Canada list grew by 100 lines (Oct 30) and new Section 232 sectors open (robotics Oct 28, wind Oct 22), though without rates.",
+          "motive": "Navarro and allies keep their standing with Trump by holding the protectionist line.",
+          "tier": "reported",
+          "type": "position"
+        },
+        "operation": {
+          "basis": "Trump approval 32% (Reuters/Ipsos Oct 22-26); August deficit widest since early 2025 (Oct 6).",
+          "diff": -1,
+          "gain": "Little: tariffs keep prices up; only targeted Canada relief.",
+          "motive": "Wiles's team wants lower prices to carry the midterm message and avoid blame for losses.",
+          "tier": "reported",
+          "type": "audience"
+        },
+        "party": {
+          "basis": "Vote bar failed 217-214 (Feb 10); GOP candidates ran no tariff ads (Reason, Oct 26).",
+          "diff": -1,
+          "gain": "Some Canada relief before the vote, but the Oct 30 edit added 100 lines (air conditioners, power tools), so prices and the 32% approval still weigh on them.",
+          "motive": "Leaders want no tariff votes and some visible relief before Nov 3 to protect swing seats.",
+          "tier": "reported",
+          "type": "survival"
+        },
+        "treasury": {
+          "basis": "Section 301 wall (Jul 24); truce to Jan 10 (Sep 23); case argued Sep 30, ruling pending.",
+          "diff": 1,
+          "gain": "The Section 301 wall stands pending a ruling and the China truce holds.",
+          "motive": "Keep tariffs that survive the trade court and do not shock markets; Bessent keeps market credibility and Greer keeps trade authority in USTR.",
+          "tier": "reported",
+          "type": "position"
+        }
+      }
+    },
+    "VEN": {
+      "alternative": "An early dated election (Machado's Jul 24, 2027 proposal or sooner) with a faster handover of power",
+      "decision": "Keep Rodríguez in office and Machado out; elections only after court and electoral-council overhauls (best case June 2027); oil sales continue through a Treasury-controlled account",
+      "factions": {
+        "deal-capital": {
+          "basis": "First 1M barrels reached Corpus Christi (White House claim, Oct 27); oil deals proceed under State's timetable. An early Machado government might keep the deals too, so not +2.",
+          "diff": 1,
+          "gain": "Oil sales proceed with no election date set.",
+          "motive": "Oil access and deal flow for Wright's and the envoys' circle: barrels and contracts move now, before any election can reopen them.",
+          "tier": "my reading",
+          "type": "money"
+        },
+        "dissenters": {
+          "basis": "War-powers resolution failed 50-50 on Vance's tie-break (Jan 14); no vote since.",
+          "diff": 0,
+          "gain": "None: no war-powers vote is live.",
+          "motive": "Swing-seat and retiring members want oversight of military action without a fight with Trump before Nov 3.",
+          "tier": "documented",
+          "type": "survival"
+        },
+        "hawks": {
+          "basis": "Rubio's reform-first timetable, best case June 2027 (Oct 26); a US official says Rodríguez should vacate in 2027 (Oct 27). Machado's exclusion costs them with Florida voters, so not +2.",
+          "diff": 1,
+          "gain": "State sets the timetable and the terms Rodríguez must meet.",
+          "motive": "Rubio keeps State in charge of the transition and a foreign-policy win for 2028, while holding the Florida Venezuelan-American vote that wants Machado in.",
+          "tier": "documented",
+          "type": "position"
+        },
+        "maximalists": {
+          "basis": "'In lockstep' with Rubio's line (anonymous, Oct 2025); no dated Venezuela act since.",
+          "diff": 0,
+          "gain": "Alliance credit with Rubio.",
+          "motive": "Miller backs Rubio's line to bank Rubio's support in immigration fights; the election date itself costs or gains him nothing.",
+          "tier": "reported",
+          "type": "access"
+        },
+        "pentagon": {
+          "basis": "The Pentagon capital office took 35% of NABEP (Aug 28); no election date set (Oct 27).",
+          "diff": 1,
+          "gain": "The 35% NABEP stake stays in place.",
+          "motive": "Hegseth and Feinberg keep the Pentagon's own oil-deal stake and revenue stream, which a new government could renegotiate.",
+          "tier": "documented",
+          "type": "money"
+        },
+        "treasury": {
+          "basis": "Oil money held in a Treasury-controlled account; some sanctions suspended, reversible (Oct 26); Jorge Rodríguez delisted (Oct 14).",
+          "diff": 1,
+          "gain": "Control of the Treasury-held oil account and the delisting tool.",
+          "motive": "Bessent keeps the licenses and the oil-revenue account in Treasury's hands, which makes Treasury the gate for every deal.",
+          "tier": "reported",
+          "type": "power"
+        }
+      }
+    }
+  },
+  "note": "Evaluate power, money, ideology, loyalty, audience, status, survival and institutional duty as separate possible motives. Record donor support and donor stakes by recipient and issue. Evidence of a benefit establishes an incentive. Evidence of a motive or decision influence requires its own basis. Existing diff scores compare the current decision with the main alternative and await a separate scoring audit.",
+  "types": [
+    "power",
+    "money",
+    "access",
+    "position",
+    "survival",
+    "legal cover",
+    "audience",
+    "ideology",
+    "state interest"
+  ]
+}

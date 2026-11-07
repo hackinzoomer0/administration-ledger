@@ -1,0 +1,301 @@
+{
+  "blunder": "Cassidy, Massie and Cornyn lost primaries (May); Trump waived the sanctions law",
+  "cause": "Circumstance: primaries punish dissent",
+  "did": "Tillis hold on Fed nominees; war-powers resolution 50-48 (Jun 23); Epstein Act 427-1",
+  "donors": [
+    [
+      "Jeff Yass (via Protect Freedom PAC)",
+      "About $35M to the PAC over five years (~95% of its money); $7.5M on Oct 20, 2025",
+      "Paul, Massie",
+      "Iran, tariffs, Epstein",
+      "Keeps the libertarian wing's network alive; Protect Freedom funded Kentucky First ($1.4M for Massie). Yass also gave $15M to MAGA Inc., so he hedges."
+    ],
+    [
+      "Kentucky 4th PAC (Tamarack Aspen Inc.)",
+      "$6.6M in ads; receipts almost all from a new Delaware dark-money group",
+      "Massie",
+      "Epstein, Iran",
+      "Real backers unknown; Campaign Legal Center alleges a straw-donor scheme."
+    ],
+    [
+      "Young Americans for Liberty (Make Liberty Win)",
+      "$1.1M for Massie",
+      "Massie",
+      "Iran, Epstein",
+      "The Ron Paul network's youth arm."
+    ],
+    [
+      "Pro-Israel and Trump-aligned opposition (MAGA KY, UDP, RJC Victory Fund)",
+      "About $15.5M for Gallrein: $7.4M, $4.1M, $3.9M",
+      "Massie (target)",
+      "Iran, Epstein, midterms",
+      "The price list for dissent; see Primacist Hawks."
+    ],
+    [
+      "Defense-contractor PACs",
+      "Over $100K to Collins in Q1 2026 (NOTUS)",
+      "Collins",
+      "Iran",
+      "Her appropriations power over the same firms is untouched by war-powers votes (my reading)."
+    ],
+    [
+      "Sanctions-law backers",
+      "No donor stream found",
+      "Tillis, Cornyn",
+      "Russia",
+      "Little money behind the position; GEO and CoreCivic PACs also gave to Collins, with no link to a vote shown."
+    ]
+  ],
+  "edges": [
+    [
+      "F1 Dissenters and Maximalists",
+      "Feud",
+      "Fed, Epstein, Immigration, Midterms",
+      "Documented: Tillis held Fed nominees until the Powell probe closed (Apr 24); Epstein Act passed 427-1 after Blanche declared the duty met (Jan 30). Immigration and Midterms rest on the issue reports",
+      "Yes, on Fed and Epstein",
+      "Votes bend to tight races (Collins, Hawley)"
+    ],
+    [
+      "A4 Dissenters and Populist Right",
+      "Alliance",
+      "Epstein, Iran",
+      "Massie and Boebert discharge petition (Epstein); Iran war-powers resolution 50-48 (Jun 23) beside Populist opposition to new wars. The weakest edge: the Iran match is an outcome, partly a statement",
+      "None found",
+      "Hawley flipped on war powers after assurances (Jan 8 to Jan 14)"
+    ]
+  ],
+  "gained": "War-powers resolutions passed the Senate (Jun 23) and the House (July); the House ended the Canada emergency (Feb 11); Section 338 relief on plywood and cardboard took effect Oct 30 after Collins pressed for it",
+  "id": "dissenters",
+  "legal": [],
+  "legalnote": "None found for the members. The legal risk in this faction runs the other way: Trump publicly named Hawley, Paul, Collins, Murkowski and Young as people who should “never be elected” again, and the Maximalists’ referrals targeted Cook, James, Schiff and Swalwell (see Maximalists).",
+  "lost": "Cassidy, Massie and Cornyn lost primaries (May); Greene resigned and left the party (Jun 22); Graham died; Tillis retires",
+  "members": [
+    [
+      "Murkowski",
+      "Senator (R-Alaska)",
+      "Iran war powers, Fed, tariffs, Epstein",
+      "9; voted yes on the seventh Iran war-powers try (May 13)",
+      "Posture and interest match: an Alaska base that elected her as a write-in; no voters until 2028"
+    ],
+    [
+      "Paul",
+      "Senator (R-Kentucky)",
+      "Iran and Venezuela war powers, tariffs",
+      "9; consistent yes on Iran war powers (May 13)",
+      "His brand is the interest: Protect Freedom PAC (Yass money) sustains his network; no voters until 2028"
+    ],
+    [
+      "Massie",
+      "Representative (R-Kentucky), lame duck",
+      "Epstein, Iran war powers, tariffs; impeachment articles against Hegseth (Oct 26)",
+      "9; lost May 19 after $15.5M against him",
+      "Conviction at a real cost, now an outside platform with Carlson and Greene; backed by Yass-funded and dark-money PACs"
+    ],
+    [
+      "Tillis",
+      "Senator (R-North Carolina), retiring",
+      "Fed, Russia sanctions, Epstein",
+      "8; held Fed nominees until the Powell probe closed (Apr 24)",
+      "Retirement removes the cost; no fundraising to protect"
+    ],
+    [
+      "Greene",
+      "Former representative (outside wing)",
+      "Epstein, Iran restraint, against Israel aid",
+      "7; left the party (Jun 22); 'The movement has begun' (Aug 1)",
+      "Posture: America First purist. Interest: an audience she owns outside the party ('Life with MTG', Jun 11); no funder found. Moved from the dissolved movement-media bloc"
+    ],
+    [
+      "Collins",
+      "Senator (R-Maine), Appropriations chair",
+      "Iran war powers, tariffs",
+      "5; war-powers yes (May 13) and Maine carve-outs (Oct 23)",
+      "Re-election in Maine; also took $100K+ from defense-contractor PACs in Q1 2026, so her war vote costs her patrons nothing"
+    ],
+    [
+      "Boebert, Mace, Norman",
+      "Representatives",
+      "Epstein",
+      "5",
+      "Base pressure"
+    ],
+    [
+      "Bacon, Fitzpatrick",
+      "Representatives",
+      "Russia sanctions, tariffs",
+      "5",
+      "Swing districts"
+    ],
+    [
+      "Kennedy",
+      "Senator (R-Louisiana)",
+      "Fed",
+      "4; also a Party Machine name",
+      "Institutional habit"
+    ],
+    [
+      "Cassidy",
+      "Senator (R-Louisiana)",
+      "Iran",
+      "4; lost his primary",
+      "Nothing left to protect"
+    ],
+    [
+      "Cornyn",
+      "Senator (R-Texas)",
+      "Russia sanctions",
+      "4; lost his primary",
+      "Nothing left to protect"
+    ],
+    [
+      "Young",
+      "Senator (R-Indiana)",
+      "Venezuela",
+      "3; flipped after assurances (Jan 14)",
+      "Pressure and cover"
+    ],
+    [
+      "Hawley",
+      "Senator (R-Missouri)",
+      "Venezuela (flipped Jan 14)",
+      "2; home is Party; voted no on Iran war powers (May 13)",
+      "His seat and a national run; speeches populist, votes with the White House"
+    ]
+  ],
+  "name": "Article I Dissenters",
+  "overview": [
+    "The Article I Dissenters argue for the constitutional order the founders built: Congress declares war, lays tariffs, writes sanctions and oversees the money, and the president executes the laws Congress passes. Ambition should counter ambition, so a Republican Congress owes a Republican president the same checks it would apply to a Democrat. The program runs across issues: war-powers votes on Iran and Venezuela, ending the Canada tariff emergency, Fed independence, enforcing the Graham sanctions law Trump waived, and forcing out the Epstein files. Its libertarian wing adds restraint abroad and smaller government at home.",
+    "What sustains it is insulation and a small libertarian money network, not a donor class. Tillis is retiring, Murkowski and Paul do not face voters until 2028, and Collins's Maine trades heavily with Canada. Jeff Yass has supplied about 95% (~$35M over five years) of Protect Freedom PAC, built by Rand Paul's advisers; it funded Kentucky First ($1.4M for Massie), and Young Americans for Liberty funded another $1.1M. Kentucky 4th PAC's $6.6M came from a new dark-money group (Tamarack Aspen; a straw-donor complaint is pending). The outside wing (Massie, Greene) now lives on audience: Greene left the party (Jun 22) and Massie appears with Carlson ('The movement has begun', Aug 1).",
+    "Acts depart from words most where seats are at stake. The Senate core is three votes (Murkowski, Collins, Paul on May 13); Young and Hawley flipped on Venezuela after assurances (Jan 14); the 50-48 Iran win (Jun 23) reversed to 49-50 (Sep 24). Collins votes against tariffs and takes Maine carve-outs, and votes for war-powers limits while taking $100K+ in one quarter from defense-contractor PACs as Appropriations chair. The price of dissent is documented: about $15.5M went against Massie and he lost.",
+    "Precedent: Robert Taft's Senate Republicans, who fought Truman's undeclared Korean war on constitutional grounds (1950-51). It breaks because Taft led his party's Senate wing and nearly won the 1952 nomination, while today's dissenters are retiring, losing primaries or leaving the party, and the outside wing's leverage is a third-party threat rather than a nomination path (my reading)."
+  ],
+  "positions": {
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "Nov 2025: discharge petition. Sep 17: a second petition with 218 commitments claimed (unverified). The Epstein Act passed 427-1.",
+          "Why the faction does it. A cross-party grievance that costs little and pays with the base.",
+          "Who and why.",
+          "Massie lost his primary on May 19, 54.9-45.1, to Ed Gallrein, whom Trump endorsed. About $15.5M backed Gallrein: MAGA KY $7.4M (Singer $3M with America 21), AIPAC's UDP $4.1M, the RJC Victory Fund $3.9M. For Massie, Kentucky 4th PAC spent $6.6M (from a dark-money group), Kentucky First $1.4M (Yass-funded Protect Freedom PAC) and Make Liberty Win $1.1M (FEC data via WKMS, Jul 17). Motives: conviction with a cost; the cost is now his outside platform.",
+          "Boebert, Mace, Norman Motives: Base pressure: their voters believe in a cover-up (reported).",
+          "Murkowski, Fitzpatrick Motives: Cross-party enforcement (reported). No stake found.",
+          "Greene resigned (effective Jan 2026), left the party (Jun 22) and teased a series, 'Life with MTG' (Jun 11). Motives: the files are her strongest content outside the party.",
+          "Say versus do. The 218 commitments are claimed and unverified; the first petition is the act."
+        ],
+        "title": "Epstein"
+      }
+    ],
+    "FED": [
+      {
+        "paras": [
+          "Position.",
+          "Tillis held Fed nominees until the Powell probe closed (Apr 24).",
+          "Why the faction does it. Protect Congress’s and the Fed’s independence. There is no donor stream behind it.",
+          "Who and why.",
+          "Tillis Motives: (1) Freedom from consequences: he retired after declining to vote for Trump’s “big, beautiful bill,” a tense call and rapid Trump attacks. He says he is freer without fundraising. So he can afford a position others cannot. (2) Conviction: he vowed to block Warsh or any Fed nominee until the Powell probe was dropped, and the probe closed Apr 24 (documented act).",
+          "Murkowski, Kennedy vote for Fed independence (reported). Motives: Conviction and institutional habit. No personal stake found. Kennedy is also a Party Machine name."
+        ],
+        "title": "Fed and the economy"
+      }
+    ],
+    "IMM": [
+      {
+        "paras": [
+          "Position.",
+          "Paul withheld the Schroyer hearing. Sep 17: Salazar ran an ad. Tillis blames Miller.",
+          "Why the faction does it. Distance on a toxic issue.",
+          "Who and why.",
+          "Paul Motives: Conviction: withholding the hearing is an act (reported).",
+          "Salazar Motives: Re-election: an ad in a Florida swing seat. Signaling with a district reason.",
+          "Tillis Motives: Freedom from consequences: he is retiring. Words only."
+        ],
+        "title": "Immigration"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Make Congress decide: war-powers votes passed 50-48 (Jun 23) and failed 49-50 (May 13, Sep 24). Massie will refile impeachment articles against Hegseth, three citing Iran war powers (Oct 26).",
+          "Why the faction does it. The worldview: an undeclared war past the 60-day clock violates Article I. The interest: the members who vote yes are insulated (Paul and Murkowski until 2028) or have already lost (Massie).",
+          "Who and why.",
+          "Murkowski: 'a timeline that has taken us beyond the 60 days' (May 13). Posture and interest match.",
+          "Paul: consistent yes; his network is funded by Yass through Protect Freedom PAC, which rewards the brand.",
+          "Collins: yes votes on the statute, while taking defense-contractor PAC money as Appropriations chair; the vote does not touch the spending she controls (my reading).",
+          "Massie and Greene: the outside wing. The war is their case against Trump and the content of their new platform with Carlson.",
+          "Say versus do. The core is three senators; Hawley and Curtis voiced 60-day concerns and voted no (May 13).",
+          "Stance audit. Members repeatedly sought war-powers votes while the coalition and vote counts shifted. Compare the May 13, June 23 and September 24 votes by member. The aggregate counts do not establish individual flips. Congressional authority and political independence are stakes. Yass-backed support applies to the libertarian wing. Credit repeated procedural action. Test individual consistency and electoral costs against roll calls."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Costs first; critical of the ICE push.",
+          "Why the faction does it. Distance from Trump in swing seats.",
+          "Who and why.",
+          "Fitzpatrick, Salazar Motives: Re-election in swing seats (reported).",
+          "Tillis, Paul Motives: Conviction on ICE tactics. Tillis is retiring, which removes the cost.",
+          "Boebert Motives: Base pressure: distance in a base-driven district (reported).",
+          "Say versus do. Most of the distance is words: criticism without a vote that blocks anything."
+        ],
+        "title": "Midterms"
+      }
+    ],
+    "RUS": [
+      {
+        "paras": [
+          "Position.",
+          "Graham sanctions law passed 86-11 and 262-159. Trump waived it.",
+          "Tillis on the waiver: “What part of enforcing a law passed 86-11.”",
+          "Why the faction does it. Enforce a law Congress passed. No donor stream was found.",
+          "Who and why.",
+          "Tillis Motives: Retiring, so no cost for dissent (documented).",
+          "Cornyn Motives: Circumstance: he lost his primary, so he has no primary to fear (my reading).",
+          "Bacon, Fitzpatrick Motives: Swing districts (reported)."
+        ],
+        "title": "Russia and Ukraine"
+      }
+    ],
+    "TAR": [
+      {
+        "paras": [
+          "Position.",
+          "Feb 11: ended the Canada emergency 219-211. Oct 23: Collins won Maine carve-outs.",
+          "Why the faction does it. Two groups: free-trade conviction and electoral relief.",
+          "Who and why.",
+          "Collins voted repeatedly to halt the Canada tariffs and lobbied for a wood-products exemption for a border paper mill. She skipped Vance’s Maine events. Canada took about 40% of Maine’s $3.2B exports and supplies about 70% of its imports, the most trade-dependent state analyzed, and Canada dropped seafood from its Sep 8 counter-tariff list (NPR, Aug 31). Motives: (1) Re-election against Troy Jackson in a state that loses from the tariffs. (2) Distance: skipping Vance keeps her off the same stage as the unpopular policy (my reading). (3) Contractor PACs (GEO, CoreCivic) also gave to her; no link to a vote is shown.",
+          "Massie, Bacon, Kiley, Hurd, Newhouse, Paul, McConnell, Murkowski Motives: Free-trade conviction (reported). Several are retiring or insulated; the cost is low.",
+          "Say versus do. Collins votes against the principle and takes the exemption for her state."
+        ],
+        "title": "Tariffs"
+      }
+    ],
+    "VEN": [
+      {
+        "paras": [
+          "Position.",
+          "Jan 8: the war-powers resolution advanced 52-47.",
+          "Trump posted that Hawley, Paul, Collins, Murkowski and Young should “never be elected to public office again.”",
+          "Jan 14: the vote was 50-50 and Vance broke the tie to block it.",
+          "Why the faction does it. Restraint and oversight of military action.",
+          "Who and why.",
+          "Hawley voted to advance the resolution on Jan 8, then flipped. He cited Rubio’s assurance of no ground troops or occupation and said sticking would mean he “wasn’t really serious.” Motives: (1) Pressure: Trump’s public attack came between the two votes. (2) Ambition: 2028 speculation around him means he cannot afford a fight with Trump (my reading). (3) He got a cover story he could repeat.",
+          "Young flipped after assurances (reported). Motives: Pressure and cover: the White House bought the vote with assurances.",
+          "Paul, Murkowski Motives: Conviction: consistent votes (reported). Neither moved.",
+          "Collins Motives: Re-election: a tight race in Maine against Democrat Troy Jackson (reported).",
+          "Say versus do. The flip shows that stated positions here can be bought; Paul and Murkowski did not move."
+        ],
+        "title": "Venezuela"
+      }
+    ]
+  },
+  "short": "Dissenters",
+  "wants": "Preserve congressional leverage to force votes, compel disclosure, and block specific executive actions. Track coalitions separately for war powers, tariffs, sanctions, and disclosure.",
+  "weak": "Thinning: three Senate votes on Iran (May 13); primaries punish dissent ($15.5M against Massie); Trump waived the sanctions law; the outside wing has left the party",
+  "why": "Institutional conviction, electoral insulation, constituency pressure, and independent political standing all matter. Yass-backed groups sustain the libertarian wing, while spending against Massie illustrates the cost of dissent. Yass also funds MAGA Inc., so track his support by recipient and objective.",
+  "win": "Tillis's nominee hold lasted until the Powell probe closed (Apr 24); Epstein Act 427-1"
+}

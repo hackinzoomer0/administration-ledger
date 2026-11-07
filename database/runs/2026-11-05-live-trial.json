@@ -1,0 +1,29 @@
+{
+  "added": 0,
+  "summary": "Focused live intake using the shorter draft. Updated one existing trade event from a primary source and left faction effects unscored.",
+  "coverage": {
+    "scope": "November 4–5 Fed and trade official-source scan with November 2 trade follow-up. Iran search was preliminary. Other issues were outside scope.",
+    "reviewed_episode_ids": [
+      "tar-2026-11-02-agoa-suspension"
+    ],
+    "changed_entries": [
+      "events/TAR/tar-2026-11-02-agoa-suspension",
+      "issues/TAR.pending"
+    ],
+    "unresolved_claims": [
+      "Whether AGOA termination takes effect on January 1, 2027.",
+      "Whether a faction materially shaped the decision."
+    ],
+    "evidence_needed": [
+      "Implementation notice",
+      "Decision-specific evidence of faction involvement"
+    ],
+    "validation_results": "0 errors, 3 warnings",
+    "sources": [
+      "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/ambassador-greer-issues-statement-president-trumps-intent-terminate-rwanda-and-south-africa-agoa",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press-fomc.htm",
+      "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "https://ustr.gov/about-us/policy-offices/press-office/press-releases"
+    ]
+  }
+}

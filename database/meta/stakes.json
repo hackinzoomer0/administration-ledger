@@ -1,0 +1,491 @@
+{
+  "asof": "2026-11-03",
+  "note": "Stake rows from the Oct 24 report, keyed by faction, shown as 'Stakes and ties' on person and faction pages. Maintained by the daily task.",
+  "stakes": {
+    "deal-capital": [
+      [
+        "Witkoff",
+        "Money and family: Aryam (backed by UAE security adviser Sheikh Tahnoon) bought 49% of World Liberty for $500M, signed four days before the Jan 2025 inauguration and undisclosed at the time; $187M went to Trump family entities and at least $31M to Witkoff-family entities; his son Zach is CEO\nAryam also sits in the Lukoil bid group that gains if assets unfreeze\nAccess: the envoy role makes his and his son's business attractive to Gulf backers",
+        ""
+      ],
+      [
+        "Kushner",
+        "Money: Saudi fund put $2B into his firm Affinity (~99% foreign) and he is seeking $5B more; Lukoil bidders and Vitol gain from the same deal\nIsrael: Affinity holds 7.4% of Phoenix, a Tel Aviv insurer with $456M in nine defense firms including Elbit; Netanyahu is a long-time family friend. His lawyer says he never directed Phoenix\nPulled both ways on Iran by two conflicting interests",
+        ""
+      ],
+      [
+        "Wright",
+        "Wright: his divestiture certificate lists ~3M Liberty Energy shares (over $53M), Energy Transfer units (co-founder Kelcy Warren gave MAGA Inc. $25M) and eight other energy companies; oil flowing raises the value of those holdings\nBurgum: no personal stake found. Donor Sargeant, a trader tied to them, is not quantified",
+        ""
+      ],
+      [
+        "Lutnick",
+        "Family money: sons' firms Cantor and Newmark in $25B+ of data-center deals; Cantor held $310M of Nvidia; Newmark to buy him out for $127M (Bisnow)\nChip policy is a gift he can give Gulf partners; only a limited ethics waiver (NOTUS)\nExposure: gave $5M to a House super PAC weeks before his Epstein testimony (timing only)",
+        ""
+      ],
+      [
+        "Burgum",
+        "Wright: his divestiture certificate lists ~3M Liberty Energy shares (over $53M), Energy Transfer units (co-founder Kelcy Warren gave MAGA Inc. $25M) and eight other energy companies; oil flowing raises the value of those holdings\nBurgum: no personal stake found. Donor Sargeant, a trader tied to them, is not quantified",
+        ""
+      ],
+      [
+        "Barrack",
+        "Money: a Gulf-facing envoy worth about $1B whose clients lose from a wider war\nAccess: the envoy role is the credential for that business",
+        ""
+      ],
+      [
+        "Vance",
+        "Ambition: the finance chair job lets him collect donors and favors while staying inside Trump's blessing; 5% of Trump's joint committee goes to his PAC\nDebt to a patron: Thiel hired him at Mithril, gave $15M to his 2022 super PAC and steered at least $200,000 more through a nonprofit he controlled; OpenSecrets notes Thiel has interests that could benefit (CBS)\nPattern: called Trump an \"idiot\" in 2016, endorsed him in 2023",
+        "vance"
+      ],
+      [
+        "Rubio",
+        "Florida Venezuelan-American vote is his base\nA foreign-policy win Trump takes credit for keeps him in the room for the 2028 ticket\nControl of the national-security staff after remaking the NSC",
+        "hawks"
+      ],
+      [
+        "Hegseth",
+        "Standing and power over vendors grow with the war\nTrump sons' drone makers sell to the Pentagon; Warren says he has not described conflict protections\nNo personal profit shown",
+        "pentagon"
+      ]
+    ],
+    "dissenters": [
+      [
+        "Tillis",
+        "Retiring after declining to vote for Trump's \"big, beautiful bill\"; free from fundraising\nVowed to block Fed nominees until the Powell probe closed (Apr 24)",
+        ""
+      ],
+      [
+        "Murkowski",
+        "Never moved; neither faces voters until 2028",
+        ""
+      ],
+      [
+        "Massie",
+        "Lost 54.9-45.1 to Trump's pick after $32M+ was spent\nPro-Israel groups spent $9M+ against him; the RJC put $4M behind the challenger\nConviction with a cost",
+        ""
+      ],
+      [
+        "Paul",
+        "Never moved; neither faces voters until 2028",
+        ""
+      ],
+      [
+        "Collins",
+        "Canada supplies ~70% of Maine's imports\nVotes against the tariffs and takes a carve-out for her state",
+        ""
+      ],
+      [
+        "Cassidy",
+        "Nothing left to protect",
+        ""
+      ],
+      [
+        "Bacon, Fitzpatrick",
+        "Re-election",
+        ""
+      ],
+      [
+        "Cornyn",
+        "Nothing left to protect",
+        ""
+      ],
+      [
+        "Young",
+        "Flipped on Venezuela war powers after Trump said they should \"never be elected\" again and Rubio gave assurances\nPressure and cover: the White House bought the vote",
+        ""
+      ]
+    ],
+    "hawks": [
+      [
+        "Rubio",
+        "Florida Venezuelan-American vote is his base\nA foreign-policy win Trump takes credit for keeps him in the room for the 2028 ticket\nControl of the national-security staff after remaking the NSC",
+        ""
+      ],
+      [
+        "Cruz",
+        "The pro-Israel donor network (RJC, Adelson, Singer): the coalition a 2028 run needs\nCareer pro-Israel industry money is only ~$1.9M of ~$255M; the leverage is the network, not the cash\nHis move against Carlson is a pitch to those donors",
+        ""
+      ],
+      [
+        "Levin",
+        "No personal stake found; loyalty to Rubio or ideology",
+        ""
+      ],
+      [
+        "Ratcliffe",
+        "No personal stake found; loyalty to Rubio or ideology",
+        ""
+      ],
+      [
+        "Needham",
+        "No personal stake found; loyalty to Rubio or ideology",
+        ""
+      ],
+      [
+        "Claver-Carone",
+        "Key to Centerview's $150M+ no-bid contract on ~$200B of Venezuelan debt; intermediary Alejandro Betancourt (Reuters)\nRuns a private equity fund; says he has no Venezuela stake",
+        ""
+      ],
+      [
+        "Banks",
+        "No personal stake found; loyalty to Rubio or ideology",
+        ""
+      ],
+      [
+        "Moolenaar",
+        "No personal stake found; loyalty to Rubio or ideology",
+        ""
+      ],
+      [
+        "Florida delegation (Scott, Diaz-Balart, Gimenez, Salazar, Moody)",
+        "Answer to Venezuelan-American voters: votes",
+        ""
+      ],
+      [
+        "Hegseth",
+        "Standing and power over vendors grow with the war\nTrump sons' drone makers sell to the Pentagon; Warren says he has not described conflict protections\nNo personal profit shown",
+        "pentagon"
+      ],
+      [
+        "Miller",
+        "Funding: Bradley Impact ($27.1M) and DonorsTrust ($21.3M) fund his America First Legal, which supplies staff and legal cover\nPower: winning the ICE-pick fight extends his control over who runs enforcement\nAmbition: reported candidate for Wiles's job",
+        "maximalists"
+      ]
+    ],
+    "maximalists": [
+      [
+        "Miller",
+        "Funding: Bradley Impact ($27.1M) and DonorsTrust ($21.3M) fund his America First Legal, which supplies staff and legal cover\nPower: winning the ICE-pick fight extends his control over who runs enforcement\nAmbition: reported candidate for Wiles's job",
+        ""
+      ],
+      [
+        "Blanche",
+        "Dependence: Trump's former personal lawyer, so his job rests on Trump\nAmbition: confirmation as AG\nClient protection on Epstein; interviewed Maxwell for nine hours (Jul 2025)",
+        ""
+      ],
+      [
+        "Homan",
+        "Power: roles close to Trump on his signature issue\nMoney: GEO paid both before their jobs, holds $1B+ in ICE contracts and gave $4.4M to MAGA Inc.; no contract steered to GEO is shown\nHoman's exposure: a reported FBI sting (a $50,000 bag), closed in early 2025, whose closure his boss now controls",
+        ""
+      ],
+      [
+        "Venturella",
+        "Power: roles close to Trump on his signature issue\nMoney: GEO paid both before their jobs, holds $1B+ in ICE contracts and gave $4.4M to MAGA Inc.; no contract steered to GEO is shown\nHoman's exposure: a reported FBI sting (a $50,000 bag), closed in early 2025, whose closure his boss now controls",
+        ""
+      ],
+      [
+        "Pulte",
+        "Ambition: reported candidate for Wiles's job; each referral is an audition\nExposure: GAO probe and the Swalwell suit; acting for Trump is his shield\nHis family gave $500K to a pro-Trump super PAC; no personal gain shown",
+        ""
+      ],
+      [
+        "Patel",
+        "Qatar ties: Patel consulted for the Qatar embassy through his firm Trishul to Nov 2024 and signed two MOUs with Qatar's interior minister in Dec 2025\nBallard billed Qatar $115,000 a month while Bondi was a partner\nNo Epstein position is tied to the Qatar money",
+        ""
+      ],
+      [
+        "Navarro",
+        "Hassett: ambition for the Fed chair, so he says what Trump wants; Trump told him Jan 16 \"I actually want to keep you where you are\"\nNavarro: long-held protectionism that gets his policy, and standing with Trump; no donor shown",
+        ""
+      ],
+      [
+        "Bondi",
+        "Qatar ties: Patel consulted for the Qatar embassy through his firm Trishul to Nov 2024 and signed two MOUs with Qatar's interior minister in Dec 2025\nBallard billed Qatar $115,000 a month while Bondi was a partner\nNo Epstein position is tied to the Qatar money",
+        ""
+      ],
+      [
+        "Mullin",
+        "Job security: Miller and Homan overrode his ICE pick, so his statements bend to stay in the room (Daily Beast)\nA multimillionaire (Fortune), with the Dec 29, 2025 stock buys noted under legal exposure",
+        ""
+      ],
+      [
+        "Hassett",
+        "Hassett: ambition for the Fed chair, so he says what Trump wants; Trump told him Jan 16 \"I actually want to keep you where you are\"\nNavarro: long-held protectionism that gets his policy, and standing with Trump; no donor shown",
+        ""
+      ],
+      [
+        "Vought",
+        "Executes orders and his post depends on Trump; no outside stake found (report)",
+        ""
+      ],
+      [
+        "Pirro",
+        "Executes orders and her post depends on Trump; no outside stake found (report)",
+        ""
+      ],
+      [
+        "Scavino",
+        "Executes orders and his post depends on Trump; no outside stake found (report)",
+        ""
+      ],
+      [
+        "Bannon",
+        "PAC and \"WarRoom: Texas\" operation\nHelping Dershowitz with a third-term book that feeds his show\nAllies say he pushes a third term because he wants to run (he denies it)\nGains if the Operation weakens",
+        ""
+      ],
+      [
+        "Loomer",
+        "Audience and access; NSC and NSA firings followed her Oval Office meeting in Apr 2025\nNo money stake found",
+        ""
+      ],
+      [
+        "Prince",
+        "Gains from enforcement spending: business",
+        ""
+      ]
+    ],
+    "operation": [
+      [
+        "Wiles",
+        "Power: controls access to Trump and his schedule, including over his children, Kushner and Musk, who don't need her for access (AP)\nAccess to MAGA Inc. decisions on spending and who gets help\nFamily: daughter Katie's firm, Continental Strategy, is paid $35,000 a month by Republika Srpska. No source shows Wiles acted on it",
+        ""
+      ],
+      [
+        "LaCivita",
+        "Money: the same Srpska pay as Blair, plus $1.6M to his firm from Albania's opposition\nSecond foreign client, Berisha, got travel-ban relief in the same period as Dodik (reported timing)",
+        ""
+      ],
+      [
+        "Blair",
+        "Money: hundreds of thousands through a law firm retained by Srpska's government, on top of the MAGA Inc. role\nBusiness: sells proximity to Trump's circle to foreign clients\nReputation as the money-and-maps operator; credited with the redistricting strategy (reported)",
+        ""
+      ],
+      [
+        "Brasseaux",
+        "No personal stake found (report)",
+        ""
+      ],
+      [
+        "Jackson",
+        "Delivers the line on Epstein; no stake found (report)",
+        ""
+      ],
+      [
+        "Leavitt",
+        "Delivers the line on Iran; no stake found (report)",
+        ""
+      ],
+      [
+        "Bessent",
+        "Money and reputation: Soros Fund Management CIO 2011-15, founded Key Square in 2015 with $2B from Soros, profited on bets around Trump's 2016 and 2024 wins (Fortune); a bond rout hits the world he comes from\nPower: Treasury keeps authority over the Fed accord\nHe divested to take the job, so a direct stake is not shown",
+        "treasury"
+      ],
+      [
+        "Hassett",
+        "Hassett: ambition for the Fed chair, so he says what Trump wants; Trump told him Jan 16 \"I actually want to keep you where you are\"\nNavarro: long-held protectionism that gets his policy, and standing with Trump; no donor shown",
+        "maximalists"
+      ]
+    ],
+    "party": [
+      [
+        "Thune",
+        "Survival of the majority and his own post\nTrump declined to back him (Jul 30), so he cannot count on Trump's money or voters\nSLF and One Nation money lets him protect members",
+        ""
+      ],
+      [
+        "Johnson",
+        "Speakership depends on Trump's goodwill and the same majority",
+        ""
+      ],
+      [
+        "Gruters",
+        "Trump chose him; his future runs through Trump\nControls the RNC's $130M cash",
+        ""
+      ],
+      [
+        "Comer",
+        "Said DOJ \"botched\" the Epstein release but acted on nothing",
+        ""
+      ],
+      [
+        "Collins",
+        "Canada supplies ~70% of Maine's imports\nVotes against the tariffs and takes a carve-out for her state",
+        "dissenters"
+      ],
+      [
+        "Musk",
+        "Money and exposure: SpaceX takes about a fifth of its revenue from the government and has filed for an IPO; Trump threatened his companies after the Jun 2025 break, and they reached a truce (Fortune, Sep 22, 2025)\nControl: he runs the network Ukraine's drones depend on\nPersonal and business: entered the US on an H-1B; his companies hire engineers who need visas. Gave $10M each to SLF and CLF for a second line to the party",
+        "tech-right"
+      ],
+      [
+        "Hawley",
+        "Flipped on Venezuela war powers after Trump said they should \"never be elected\" again and Rubio gave assurances\nPressure and cover: the White House bought the vote",
+        "dissenters"
+      ]
+    ],
+    "pentagon": [
+      [
+        "Hegseth",
+        "Standing and power over vendors grow with the war\nTrump sons' drone makers sell to the Pentagon; Warren says he has not described conflict protections\nNo personal profit shown",
+        ""
+      ],
+      [
+        "Feinberg",
+        "Cerberus-backed Ligado is suing DOD for ~$39-40B; he told Warren Cerberus \"would most likely receive some portion\"\nHoldings sit in trusts run by a Cerberus managing director; Cerberus-backed firms won Golden Dome contracts\nDOD says \"zero money\" goes to him",
+        ""
+      ],
+      [
+        "Michael",
+        "Sold xAI ($5-25M) and Perplexity ($5-25M) stakes; had a $250-500K personal loan from Perplexity\nThe Pentagon signed the xAI classified deal four days after OGE certified his divestiture (timing only)",
+        ""
+      ],
+      [
+        "Cooper",
+        "No personal stake found\nIdeology (Colby); the strike plan is Cooper's job; Caine limits pace for readiness",
+        ""
+      ],
+      [
+        "Colby",
+        "No personal stake found\nIdeology (Colby); the strike plan is Cooper's job; Caine limits pace for readiness",
+        ""
+      ],
+      [
+        "Caine",
+        "No personal stake found\nIdeology (Colby); the strike plan is Cooper's job; Caine limits pace for readiness",
+        ""
+      ],
+      [
+        "Musk",
+        "xAI and SpaceX are Pentagon vendors: contracts",
+        ""
+      ],
+      [
+        "Miller",
+        "Funding: Bradley Impact ($27.1M) and DonorsTrust ($21.3M) fund his America First Legal, which supplies staff and legal cover\nPower: winning the ICE-pick fight extends his control over who runs enforcement\nAmbition: reported candidate for Wiles's job",
+        "maximalists"
+      ]
+    ],
+    "tech-right": [
+      [
+        "Sacks",
+        "Money: Craft Ventures has 400+ AI-linked investments; he holds 7.8% of BitGo. The position matches the portfolio\nIndustry loyalty: his rise comes from the same donors and founders\nBroad ethics waivers, which ethics expert Kathleen Clark calls a \"sham\" and a \"pardon in advance\"",
+        ""
+      ],
+      [
+        "Kratsios",
+        "Write the policy. Krishnan and Kupor were a16z partners before government (background); venture capital depends on the skilled-visa pipeline\nNo personal stake shown in this research",
+        ""
+      ],
+      [
+        "Krishnan",
+        "Write the policy. Krishnan and Kupor were a16z partners before government (background); venture capital depends on the skilled-visa pipeline\nNo personal stake shown in this research",
+        ""
+      ],
+      [
+        "Kupor",
+        "Write the policy. Krishnan and Kupor were a16z partners before government (background); venture capital depends on the skilled-visa pipeline\nNo personal stake shown in this research",
+        ""
+      ],
+      [
+        "Musk",
+        "Money and exposure: SpaceX takes about a fifth of its revenue from the government and has filed for an IPO; Trump threatened his companies after the Jun 2025 break, and they reached a truce (Fortune, Sep 22, 2025)\nControl: he runs the network Ukraine's drones depend on\nPersonal and business: entered the US on an H-1B; his companies hire engineers who need visas. Gave $10M each to SLF and CLF for a second line to the party",
+        ""
+      ],
+      [
+        "Huang",
+        "Money: chip sales are Nvidia's revenue; Nvidia lobbied for H200 sales\nPledged $25M to the ballroom, which buys access",
+        ""
+      ],
+      [
+        "Thiel, Andreessen",
+        "Money: both invest in and profit from AI; a16z gave $50M to Leading the Future\nBoth backed Vance's 2022 run and now have a friendly White House voice; Thiel gave $15M to Protect Ohio Values and at least $200K more, and Palantir has government business",
+        ""
+      ],
+      [
+        "Vance",
+        "Ambition: the finance chair job lets him collect donors and favors while staying inside Trump's blessing; 5% of Trump's joint committee goes to his PAC\nDebt to a patron: Thiel hired him at Mithril, gave $15M to his 2022 super PAC and steered at least $200,000 more through a nonprofit he controlled; OpenSecrets notes Thiel has interests that could benefit (CBS)\nPattern: called Trump an \"idiot\" in 2016, endorsed him in 2023",
+        "vance"
+      ],
+      [
+        "Cruz",
+        "The pro-Israel donor network (RJC, Adelson, Singer): the coalition a 2028 run needs\nCareer pro-Israel industry money is only ~$1.9M of ~$255M; the leverage is the network, not the cash\nHis move against Carlson is a pitch to those donors",
+        "hawks"
+      ],
+      [
+        "Lutnick",
+        "Family money: sons' firms Cantor and Newmark in $25B+ of data-center deals; Cantor held $310M of Nvidia; Newmark to buy him out for $127M (Bisnow)\nChip policy is a gift he can give Gulf partners; only a limited ethics waiver (NOTUS)\nExposure: gave $5M to a House super PAC weeks before his Epstein testimony (timing only)",
+        "deal-capital"
+      ]
+    ],
+    "treasury": [
+      [
+        "Bessent",
+        "Money and reputation: Soros Fund Management CIO 2011-15, founded Key Square in 2015 with $2B from Soros, profited on bets around Trump's 2016 and 2024 wins (Fortune); a bond rout hits the world he comes from\nPower: Treasury keeps authority over the Fed accord\nHe divested to take the job, so a direct stake is not shown",
+        ""
+      ],
+      [
+        "Warsh",
+        "Ambition: needs markets to believe he is independent\nExposure: $131-209M across ~1,800 holdings (over $50M in each of two Juggernaut Fund stakes); $10.2M in fees from Druckenmiller's office; sold $100M+ of assets days before May 22 to undisclosed buyers (The Hill). No link to a decision shown\nTillis vowed to block him or any Fed nominee until the Powell probe ended, which shapes how loudly he can side with Trump",
+        ""
+      ],
+      [
+        "Greer",
+        "Turf: a Section 301 case keeps trade authority in his office; clashes with Lutnick (reported)\nNo personal stake found",
+        ""
+      ],
+      [
+        "Cairncross",
+        "Cyber risk is his job; no personal stake found",
+        ""
+      ],
+      [
+        "Lutnick",
+        "Family money: sons' firms Cantor and Newmark in $25B+ of data-center deals; Cantor held $310M of Nvidia; Newmark to buy him out for $127M (Bisnow)\nChip policy is a gift he can give Gulf partners; only a limited ethics waiver (NOTUS)\nExposure: gave $5M to a House super PAC weeks before his Epstein testimony (timing only)",
+        "deal-capital"
+      ]
+    ],
+    "vance": [
+      [
+        "Vance",
+        "Ambition: the finance chair job lets him collect donors and favors while staying inside Trump's blessing; 5% of Trump's joint committee goes to his PAC\nDebt to a patron: Thiel hired him at Mithril, gave $15M to his 2022 super PAC and steered at least $200,000 more through a nonprofit he controlled; OpenSecrets notes Thiel has interests that could benefit (CBS)\nPattern: called Trump an \"idiot\" in 2016, endorsed him in 2023",
+        ""
+      ],
+      [
+        "Don Jr.",
+        "Money: board or advisory roles at companies that later got government benefits. Unusual Machines (200,000 shares) won an Army order for 3,500 drone motors; Credova's CFPB probe closed in Aug 2025 and its parent paid him $3.1M+ in 2024; BlinkRx, in a round led by 1789 Capital, may benefit from TrumpRx. CREW found no clear quid pro quo\nFamily continuity: a Vance presidency keeps the family's access",
+        ""
+      ],
+      [
+        "Surabian",
+        "Surabian, Chabria: careers rise with Vance\nErika Kirk (Turning Point USA): organizational influence for the movement; no personal financial stake found",
+        ""
+      ],
+      [
+        "Chabria",
+        "Surabian, Chabria: careers rise with Vance\nErika Kirk (Turning Point USA): organizational influence for the movement; no personal financial stake found",
+        ""
+      ],
+      [
+        "Buskirk",
+        "Business: portfolio companies reportedly won $70M+ in Pentagon contracts, including Cerebras ($45M, Apr 2025) and PsiQuantum ($10.8M), per Warren's office\nThe firm's value depends on administration proximity",
+        ""
+      ],
+      [
+        "Erika Kirk",
+        "Surabian, Chabria: careers rise with Vance\nErika Kirk (Turning Point USA): organizational influence for the movement; no personal financial stake found",
+        ""
+      ],
+      [
+        "Colby",
+        "No personal stake found\nIdeology (Colby); the strike plan is Cooper's job; Caine limits pace for readiness",
+        "pentagon"
+      ],
+      [
+        "Rubio",
+        "Florida Venezuelan-American vote is his base\nA foreign-policy win Trump takes credit for keeps him in the room for the 2028 ticket\nControl of the national-security staff after remaking the NSC",
+        "hawks"
+      ],
+      [
+        "Carlson",
+        "Audience: his network cited \"historic growth\" from Iran war coverage\nLoomer alleges Qatar paid him up to $200,000 (no direct evidence; he denies it)",
+        ""
+      ],
+      [
+        "Kent",
+        "Conviction at a cost: the best-supported motive in the report",
+        ""
+      ]
+    ]
+  }
+}

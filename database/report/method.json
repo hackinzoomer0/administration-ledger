@@ -1,0 +1,23 @@
+{
+  "asof": "2026-10-24",
+  "key": "method",
+  "paras": [
+    "This merges your ten reports (Economy, Venezuela, Succession, Russia, Midterms, Epstein, Tariffs and Trade, AI Policy, Immigration, Iran) into one cross-issue map. It reuses their placements and adds no new issue research; the only outside check is the last 72 hours on Wiles and on the Vance–Rubio split.",
+    "A high-level faction is a set of people who share a goal and move together by dated acts on at least three issues. Statements are the second check; where act and statement disagree, the act places the person.",
+    "One person can sit in several factions. A bracketed [S] marks a straddler; the faction disloyalists subsection lists them.",
+    "Payers are not members. Donors, foreign states and outside operators sit in a separate payer layer with edges to the factions and people they reach.",
+    "Not factions: Congress as a body, courts, the Fed Board, Democrats, state attorneys general and litigants. Individual Republicans sit where their votes put them; Democrats and courts appear as external influencers and dated acts.",
+    "Edges. An alliance edge needs two matching dated positions on different issues. A feud edge needs a documented dispute. Neither implies coordination unless a document shows a link.",
+    "Three axes sort most of the alignment, and the 2028 race overlays all three:",
+    "Control and volume: how much federal power the White House uses, how loudly, and who decides (Operation, Maximalists, Party Machine, Dissenters).",
+    "Force and deals: war, a deal, or restraint (Hawks, Pentagon, Deal-Capital, Vance Lane, Populist Right).",
+    "Markets and money: whether markets, courts and payers set the limits (Treasury, Deal-Capital, Tech-Right).",
+    "--motives--",
+    "Each faction section has a subsection per issue it takes a position on. Each one lists the dated acts, why the faction does it, and for each player what they did and the motives the record supports, strongest first. Motives are assumed self-interested (money, access, ambition, protection) unless an act shows otherwise. Where research found no personal stake, the bullet says so rather than inventing one. A player can have different motives on each issue, so Cruz appears with a donor network on Iran and conviction on AI. The motive lines are my reading of the cited facts; no source documents anyone’s intent unless the bullet says so.",
+    "The nine motives used are: Money or business (a stake, a fee, a contract or an investor that gains from the act), Political backing (a funder, donor network or ally whose money, votes or endorsement the actor needs or wants; each faction’s monetary roster lists these, with a “What the actors gain” column), Power or leverage (access, control of a process or schedule, protecting a job), Ambition (2028 or a bigger job), Exposure (a legal or political risk the act reduces), Personal or family ties (relatives, friendships, national or religious ties), Circumstance (a primary, a court, polls, a lost fight), Ideology (counted only when acts back it) and Signaling (words for the base or an audience with no act behind them). Most people have several at once, and the act shows which one won.",
+    "Tier says how solid the read is. “Documented fit” means the act and the payer are both documented on the same topic; “reported” means sources say it; “my reading” means it is my inference. None of the sources documents that a payment caused an act, and several of the people involved deny any link (Kushner’s lawyer, the White House on World Liberty, Continental on Srpska).",
+    "The Driver column in each personnel roster uses shorter, older labels: “Patron money” means Money or business, and “Loyalty to Trump” means Power or Exposure (a job or protection that depends on his favor). The issue bullets carry the fuller read, and where they differ from a roster label, the bullets are the better evidence.",
+    "The cases that most change how a position reads: Wiles on succession and the Srpska fees (The Operation), Vance on Thiel, H-1B and Iran (Vance Lane), Kushner and Witkoff on Iran and Russia (Deal-Capital Network), Musk on H-1B (Tech-Right), Cruz on Iran (Primacist Hawks), and Michael and Feinberg at the Pentagon."
+  ],
+  "title": "How the factions were built and how to read the motives"
+}

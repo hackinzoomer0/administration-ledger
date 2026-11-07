@@ -1,0 +1,263 @@
+{
+  "blunder": "Ran Trump's PAC while taking Srpska money through a law firm; the fix was a donation to Trump's library (Oct 23), not an end to the work",
+  "cause": "Access as a business: the machine that protects Trump's standing is also what its operators sell",
+  "did": "Held MAGA Inc. money to Labor Day, then spent about $277M by Oct 14; pressed the June 2 AI order; kept raids lower-profile",
+  "donors": [
+    [
+      "MAGA Inc. donors",
+      "About $473M raised; Brockman $25M; GEO $4.4M through a subsidiary",
+      "The faction controls the money (Blair, LaCivita)",
+      "Midterms",
+      "Blair, LaCivita and Wiles decide who gets help, so candidates and allies need them. Trump gains leverage over the party’s candidates (my reading). Several donors later got posts or clemency: Landa (Hungary ambassador), Loeffler (SBA), Isaacman (NASA), Herrera and Fago (pardons for relatives). No causation is shown (Brennan)."
+    ],
+    [
+      "Largest named MAGA Inc. donors",
+      "Foris Dax (Crypto.com) $30–35M; Brockman and wife $25M; Energy Transfer and Warren $25M; Adelson $25M; Hendricks $25M; Yass $15–16M; Sokolov $11M; Securing American Greatness about $14M, donors undisclosed. 96% of the money came from $1M+ donors (Brennan)",
+      "Blair, LaCivita (control the pool)",
+      "Midterms; crypto, energy, AI and TikTok policy",
+      "Crypto, energy, AI and TikTok interests get a route to Trump; the operators gain the power to pick which of them are heard (my reading)."
+    ],
+    [
+      "Republika Srpska, through a law firm",
+      "Hundreds of thousands each to Blair and LaCivita; Continental takes $35,000 a month",
+      "Blair, LaCivita; Wiles's daughter is a partner at Continental",
+      "Midterms, succession. No link to a decision found",
+      "A foreign client buys proximity to Trump, and the operators are paid on the side while running his PAC. Wiles’s daughter’s firm is paid $35,000 a month by Srpska, which exposes the chief of staff’s family (reported)."
+    ],
+    [
+      "Albania's opposition",
+      "$1.6M to LaCivita's firm",
+      "LaCivita",
+      "None found",
+      "LaCivita’s firm earns $1.6M, and Albania’s opposition gets a Trump-circle strategist (reported)."
+    ],
+    [
+      "Qatar, as a client of Ballard and Mercury",
+      "Both firms had Qatar as a client",
+      "Wiles (Ballard partner 2017-22, Mercury co-chair 2022-24)",
+      "None found",
+      "None tied to a decision."
+    ]
+  ],
+  "edges": [
+    [
+      "F2 Operation and Maximalists",
+      "Feud",
+      "Immigration, Midterms, Epstein",
+      "Reported: Operation keeps a lower profile on raids while ICE is told to return to 3,000 arrests a day (Oct 6); the Oct 15 report on replacing Wiles names Miller and Pulte, denied Oct 16",
+      "Reported only",
+      "Trump decides; Mullin and Hassett act against their own words"
+    ]
+  ],
+  "gained": "Control of the war chest (about $473M raised); Trump closed the inquiry into Blair and LaCivita after their fee went to his library (Oct 23); Ukraine's refinery-strike pause eases pre-midterm fuel-price risk (WSJ, Oct 29)",
+  "id": "operation",
+  "legal": [
+    [
+      "Blair, LaCivita",
+      "Paid hundreds of thousands each through a law firm retained by the Republika Srpska government while running MAGA Inc.; LaCivita earlier ran Berisha’s Albania campaign and his firm got $1.6M from Albania’s opposition",
+      "FARA (acting for a foreign principal without registering), if they acted at its direction",
+      "Reported (Al Jazeera, NYT, DOJ lobbying filings); no probe reported",
+      "DOJ; House Oversight and Judiciary"
+    ],
+    [
+      "Wiles, Katie Wiles (Continental Strategy)",
+      "Continental is paid $35,000 a month by Srpska; a Continental partner arranged a Sept White House meeting with Wiles (Continental says Katie played no role); Katie went to Srpska with John Calce, whose refinery has a Trump Jr. minority stake and which Trump endorsed",
+      "Lobbying-disclosure and ethics questions; the conflict law (18 USC 208) covers an official’s own, spouse’s and minor child’s interests, so Wiles herself looks less exposed than the firm (my reading)",
+      "Reported; Trump said he would “terminate” conflicted consultants",
+      "House Oversight; DOJ"
+    ],
+    [
+      "Trump-circle donors and recipients",
+      "Several MAGA Inc. donors later got posts or clemency for relatives (Landa, Loeffler, Isaacman, Herrera, Fago). 14 of 27 ballroom donors won new federal business ($50B+, led by Lockheed $43.8B) and 16 of 27 have enforcement matters (Public Citizen)",
+      "Bribery or illegal gratuity (18 USC 201), if a link is shown; the pardon power itself is lawful",
+      "Public record (donor filings); watchdog analysis; White House denies any link",
+      "House Oversight; DOJ in a future administration"
+    ],
+    [
+      "Donor and pardon brokers",
+      "Lobbyists charging up to $300,000 for clemency access (IBTimes); House Democrats opened a pay-to-play inquiry",
+      "Bribery; lobbying-disclosure violations",
+      "Reported; congressional inquiry",
+      "House Judiciary and Oversight"
+    ]
+  ],
+  "legalnote": "Allegations and open questions, not findings. Status tiers: public record (a court filing, inspector general, disclosure or committee letter), reported (a named outlet), anonymous (unnamed sources). “Possible theory” is my reading of which law or oversight tool could apply, not legal advice. Some theories fit only if a link between money and an act is proven, and no source has shown one.",
+  "lost": "Blair left the White House for MAGA Inc. (Apr or May); Leavitt left (Aug); Zacharia fired after five days (Oct 16); replacement reports; Taxpayer-funded ad suits (DNC, Common Cause); Democrats lead 47-36 (Reuters/Ipsos, Oct 22-26); judge keeps blocking the press ban on CNN, MS NOW and Politico (Oct 14); Guilfoyle pushed out (Oct 13); Wiles’s chief-of-staff departure announced Nov 6 for Nov 9; political role remains to be specified",
+  "members": [
+    [
+      "Wiles",
+      "Chief of staff; political-operation move announced for Nov 9",
+      "Midterms, succession, Epstein message, AI, immigration timing",
+      "Transition announced Nov 6; verify Nov 9 handover",
+      "Posture: discipline and no public line of her own. Interest: gatekeeper power over Trump's time and MAGA Inc. spending; her daughter is a partner at Continental, which works for Republika Srpska"
+    ],
+    [
+      "LaCivita",
+      "MAGA Inc. adviser",
+      "Midterms, succession",
+      "8; gave his Srpska fee to Trump's library and Trump closed the inquiry (Oct 23)",
+      "Posture: winning campaigns for Trump. Interest: a consulting business that sells Trump-circle proximity abroad (Srpska; $1.6M from Albania's opposition)"
+    ],
+    [
+      "Blair",
+      "MAGA Inc. head; former deputy chief of staff",
+      "Midterms, redistricting, succession",
+      "7; Trump faulted his handling of funds (Oct 19, anonymous); weighed as midterm fall guy (Puck, anonymous)",
+      "Posture: money-and-maps operator. Interest: the same Srpska pay; his reputation is what he sells to clients"
+    ],
+    [
+      "Brasseaux",
+      "Political director",
+      "Midterms",
+      "7",
+      "Interest: the role; no stake found"
+    ],
+    [
+      "Jackson",
+      "White House spokeswoman",
+      "Epstein message ('totally exonerated', Jun)",
+      "5",
+      "Interest: the job; no stake found"
+    ],
+    [
+      "Leavitt",
+      "Former press secretary",
+      "Iran message",
+      "3; left Aug",
+      "Interest: career after the White House"
+    ],
+    [
+      "Bessent",
+      "Treasury secretary",
+      "AI (Jun 2 order), price relief",
+      "3; home is Treasury",
+      "Interest: bank and market stability; shares the Operation's wish for a quiet economy before Nov 3"
+    ],
+    [
+      "Hassett",
+      "NEC director",
+      "AI policy; rate-cut message before Nov 3",
+      "2; home is Maximalists",
+      "Interest: Fed-chair candidacy; the cut message serves the Operation's midterm need"
+    ]
+  ],
+  "name": "The Operation",
+  "overview": [
+    "In its own best terms the Operation's worldview is that the movement is Trump, and Trump's power is the program. Policies come and go; what lasts is a disciplined political machine that keeps the coalition together (the MAGA base plus the swing voters who returned in 2024), wins elections, and spares the president needless fights. So it runs the campaign through Trump himself, holds the money until it counts (MAGA Inc. held to Labor Day, then about $277M spent by Oct 14), lowers the temperature when the base's demands cost swing seats (quieter raids, no Iran escalation before the vote), and refuses to name an heir. Wiles states it as professionalism: no agenda of her own, only his.",
+    "The interest layer: a political machine is also a marketplace for access. Wiles controls Trump's time, so everyone who needs him needs her; an open succession keeps it that way. Blair and LaCivita control the largest pot of money in Republican politics (about $473M raised, 96% from $1M+ donors), and its donors are crypto, energy, AI and casino money with business before the government; several later got posts or pardons for relatives (no causation shown). Their consulting businesses sell Trump-circle proximity abroad: both were paid 'hundreds of thousands' through a law firm retained by Republika Srpska while running Trump's PAC, LaCivita's firm took $1.6M from Albania's opposition, and Wiles's daughter is a partner at a firm that works for Srpska.",
+    "Acts depart from words where the business meets the job. Trump called them 'outside consultants' he would 'terminate' if conflicted (Oct 7); the inquiry ended after their fees went to his library (Oct 23), so the remedy was a payment to the principal, not a break with the client. The Operation also loses the fights it says it runs: it wanted quieter raids and the Maximalists got 3,000 arrests a day (Oct 6); Salazar says she warned Blair and Wiles about Latino losses (Oct 31). And its prize asset cannot run again, so the value of controlling access to him starts to decay the day after Nov 3.",
+    "Precedent (my reading): Mark Hanna and William McKinley, 1896. A manager raised unprecedented corporate money, set strategy and ran access to the candidate, and his power was the candidate's power. It held while McKinley lived and Hanna kept a Senate seat of his own. It breaks here: Hanna's donors wanted a policy (gold and tariffs) that McKinley also wanted, while the Operation's donors and foreign clients want different things from different parts of government, and its operators hold no office of their own once Trump's term ends."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "Wiles rebuked FDA-style licensing, pressed the Jun 2 voluntary order and met Amodei on Apr 17.",
+          "Why the faction does it. AI splits Trump’s coalition between the Tech-Right and the populists. A voluntary order lets Trump act without choosing a side (my reading).",
+          "Who and why.",
+          "Wiles Motives: (1) Self-protection: she avoids owning a fight between Sacks and Bannon. (2) No personal or financial stake found.",
+          "Bessent pushed the same order for bank-risk reasons (Treasury Stabilizers), and Hassett floated the licensing idea first (Maximalists)."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "Wiles: Trump is “in the file but nothing awful” (Dec 2025).",
+          "Jackson: “totally exonerated” (Jun).",
+          "No act. The files were closed by Blanche’s DOJ.",
+          "Why the faction does it. The story threatens Trump’s standing, and the Operation’s authority rests on that standing.",
+          "Who and why.",
+          "Wiles Motives: (1) Self-protection: her position depends on Trump’s standing. (2) Narrative control: describing the file as harmless in her own words lets her set the story before others do (my reading).",
+          "Jackson speaks for the White House. No personal stake found."
+        ],
+        "title": "Epstein"
+      }
+    ],
+    "IMM": [
+      {
+        "paras": [
+          "Position.",
+          "Wanted raids kept quieter before Nov 3 (anonymous WSJ report).",
+          "Oct 6: ICE was told to return to 3,000 arrests a day. The Maximalists won.",
+          "Why the faction does it. Raids cost swing votes before an election.",
+          "Who and why.",
+          "Wiles Motives: (1) Turf: Miller is named as a possible replacement for her, so a fight over raids is also a fight over who steers Trump (Daily Beast; denied). (2) Self-protection: a bad midterm lands on her. On Oct 19 Melania gave her a public role co-leading a women’s health task force, a sign she is building her own standing (reported).",
+          "Stance audit. The political team reportedly wanted a lower profile for raids before the election. The October 6 arrest directive moved the other way. The preference rests on an anonymous report. The directive supplies an outcome against which to test it. Electoral risk and control of the agenda are separate stakes. MAGA Inc. backers fund electoral capacity. A reported timing preference and a setback. Evidence of a public reversal or donor direction is missing."
+        ],
+        "title": "Immigration"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Wiles reportedly worried the view of the war was “rose-colored” (carried).",
+          "Leavitt: Iran “will continue to pay.”",
+          "No act attached.",
+          "Why the faction does it. Keep a private record of caution while the public line stays with the president.",
+          "Who and why.",
+          "Wiles Motives: (1) Blame insurance: if the war goes badly, the chief of staff who passed along bad news is protected and the one who did not is not (my reading). (2) Access: being the person who tells Trump hard things reinforces her gatekeeper role.",
+          "Leavitt delivers the public line. No personal stake found."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Ran the campaign through Trump himself. Held MAGA Inc. money until Sep 1, then spent about $277M by Oct 14. Senate money came instead from SLF, which Musk alone gave $158M since July (AP, Oct 12).",
+          "Why the faction does it. Worldview: Trump on the ballot in spirit is the coalition's glue. Interest: the operators are judged on Nov 3, and control of the timing kept spending decisions at their level.",
+          "Who and why.",
+          "Wiles Posture: no line of her own. Interest: a bad result lands on her first; Politico (Oct 15, anonymous) reported Trump asked allies about replacing her, which he denied.",
+          "Blair Posture: the redistricting strategy and the map (reported). Interest: his reputation is what he sells to private and foreign clients; Trump faulted his handling of funds (Oct 19, anonymous).",
+          "LaCivita Posture: same as Blair's. Interest: same client list, plus Albania's opposition.",
+          "Bannon (Maximalists) demanded a forensic audit of the money (Oct 7); none is reported.",
+          "Say versus do. The money timing is the act; the confidence is the statement."
+        ],
+        "title": "Midterms"
+      },
+      {
+        "paras": [
+          "What happened.",
+          "Blair and LaCivita were each paid “hundreds of thousands” through a Washington law firm retained by the Republika Srpska government to advise Milorad Dodik before the Oct 4, 2026 elections (NYT, via Al Jazeera). Srpska has paid more than $4M to Trump-linked lobbyists and operatives since the start of 2025 (DOJ filings).",
+          "The US removed sanctions on Dodik and close associates on Oct 29, 2025 (OFAC). Dodik’s travel ban was reportedly lifted in June at the same time as Berisha’s, the Albanian politician LaCivita worked for before Albania’s 2025 elections. Timing is reported; no source proves the lobbying caused it.",
+          "Continental Strategy, where Wiles’s daughter Katie is a partner, has been paid $35,000 a month by Srpska since February (DOJ filings). A Continental partner arranged a September White House meeting between Wiles and a Srpska official; Continental says Katie played no role in it.",
+          "Katie Wiles went to Srpska in August with John Calce, a Texas energy executive exploring a gas pipeline with the Srpska government. Calce also runs America First Refining, in which Trump Jr. holds a minority stake; Trump endorsed its Brownsville refinery in March, and the company and a predecessor paid Continental $750,000 to lobby the White House and Energy Department (NYT, via DNyuz).",
+          "Oct 7: Trump called Blair and LaCivita “outside consultants” and said he would fire them if there was a conflict; he later said there was none. Bannon called them grifters and demanded a review of the money.",
+          "Why it is a blunder for the faction. It hands Bannon a weapon and arms the Maximalists. The Operation’s own interest cannot explain it.",
+          "Who and why.",
+          "Blair Motives: (1) Money: each fee is a payday on top of his MAGA Inc. role. (2) Selling proximity: a Bosnian editor told Al Jazeera the main benefit for Dodik was closeness to Trump, which is a product Blair can only sell while he is in Trump’s inner circle (reported). (3) Exposure: he accepted the risk anyway, which suggests he judged Trump would not punish it.",
+          "LaCivita Motives: same as Blair, with a second foreign client, Berisha, who also received travel-ban relief in the same period (reported timing).",
+          "Wiles did not take the fees herself. Motives: (1) Family business: her daughter’s firm earns from the same client, so criticizing the operators would expose her family. (2) Access as an asset: the firm’s other client, America First Refining, has Trump Jr. as an investor and a Trump-endorsed project (documented). No source shows Wiles acted on any of it.",
+          "Oct 22-23: both gave their Srpska fee (believed over $100,000 each) to Trump's presidential library; LaCivita called it 'an honor and a no brainer', and Trump said his inquiry was over (Daily Beast, citing NY Post). The remedy was a payment to the principal, not an end to the foreign work (my reading)."
+        ],
+        "title": "The Srpska fees (a blunder)"
+      }
+    ],
+    "SUC": [
+      {
+        "paras": [
+          "Position.",
+          "No heir named. Trump says he has “never talked about it” (Oct 20).",
+          "MAGA Inc., the largest pot of campaign money, stays under Blair and LaCivita.",
+          "Why the faction does it. An open race keeps every contender dependent on the people who control Trump’s access and his campaign money.",
+          "Who and why.",
+          "Wiles keeps the question open. Motives: (1) Power: the chief of staff controls access to Trump, and she already has to manage people who do not need her for it, including Trump’s children, Kushner and Musk (AP). A named heir would add another center that does not run through her (my reading). (2) Job security: a named heir makes Trump a lame duck, and her authority is borrowed from his.",
+          "Blair, LaCivita hold the money. Motives: (1) Leverage: the money is what every contender needs from them. (2) Business: both sell access to Trump’s circle to foreign clients (see the Srpska fees below), and that product loses value if Trump stops being the center (my reading).",
+          "Nov 7 nominee/faction consistency review: the older succession account describes Wiles’s chief-of-staff gatekeeping before the announced transition. Miller was named to succeed her, with the ledger reporting a Nov 9 handover and a political role for Wiles. White House gatekeeping and campaign-money control are separate channels; do not assume either disappears or transfers in full. No nominee endorsement is established. Evidence: mid-2026-11-06-miller-chief-staff."
+        ],
+        "title": "Succession"
+      }
+    ]
+  },
+  "short": "The Operation",
+  "wants": "Keep Trump's electoral coalition together, win elections, and retain control over campaign resources, access, and policy timing while keeping succession open.",
+  "weak": "Its asset is one man who cannot run again; Trump called its operators outside consultants (Oct 7); it lost the raids fight (Oct 6); Wiles replacement reports (Oct 15, denied); Blair floated as midterm fall guy (anonymous)",
+  "why": "Gatekeeping sustains the operators' power. Brockman, Adelson, Yass and other MAGA Inc. donors fund the pool whose allocation gives the Operation leverage over candidates. Backers have distinct policy stakes. Track spending decisions, access, and any evidence linking a donor to a specific decision.",
+  "win": "Spent about $277M by Oct 14 after holding the money to Labor Day"
+}

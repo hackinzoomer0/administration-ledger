@@ -1,3 +1,10 @@
+node_modules/
+dist/
+.runtime/
 __pycache__/
 *.pyc
-ledger-project/.*
+*.tsbuildinfo
+playwright-report/
+test-results/
+.env
+.env.*

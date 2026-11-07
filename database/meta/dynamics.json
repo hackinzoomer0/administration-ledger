@@ -1,0 +1,251 @@
+{
+  "edges": [
+    [
+      "Edge",
+      "Type",
+      "Issues",
+      "Evidence",
+      "Documented link?",
+      "Where it would split"
+    ],
+    [
+      "F1 Dissenters and Maximalists",
+      "Feud",
+      "Fed, Epstein, Immigration, Midterms",
+      "Documented: Tillis held Fed nominees until the Powell probe closed (Apr 24); Epstein Act passed 427-1 after Blanche declared the duty met (Jan 30). Immigration and Midterms rest on the issue reports",
+      "Yes, on Fed and Epstein",
+      "Votes bend to tight races (Collins, Hawley)"
+    ],
+    [
+      "F2 Operation and Maximalists",
+      "Feud",
+      "Immigration, Midterms, Epstein",
+      "Reported: Operation keeps a lower profile on raids while ICE is told to return to 3,000 arrests a day (Oct 6); the Oct 15 report on replacing Wiles names Miller and Pulte, denied Oct 16",
+      "Reported only",
+      "Trump decides; Mullin and Hassett act against their own words"
+    ],
+    [
+      "F4 Hawks and Vance Lane",
+      "Feud",
+      "Iran, Succession",
+      "Reported: Rubio defended Israel's Lebanon strikes while Vance criticized them (June); pro-Israel donors uneasy about Vance; Rubio says he would step aside for Vance",
+      "Reported only",
+      "Rubio straddles: he sold the June Iran deal"
+    ],
+    [
+      "F5 Treasury and Maximalists",
+      "Feud",
+      "Fed, Iran",
+      "Documented: Bessent and Lutnick talked Trump out of firing Powell (Apr 2025) after the Cook referral; Squeeze on Iran against Go Big (Hegseth, Miller, Cooper)",
+      "Yes, on Fed",
+      "Hassett and Navarro act against the Fed line"
+    ],
+    [
+      "A1 Deal-Capital and Vance Lane",
+      "Alliance",
+      "Russia, Iran",
+      "Vance defended Witkoff (Oct 21); Vance led Islamabad talks (Apr) while Witkoff and Kushner ran the Doha trip (Jun 30)",
+      "None found",
+      "Vance acts against Tech-Right interests on H-1B"
+    ],
+    [
+      "A2 Hawks and Maximalists",
+      "Alliance",
+      "Venezuela, Iran",
+      "Reported: Miller in lockstep with Rubio (Oct 2025, anonymous); Miller in the Go Big camp on Iran",
+      "None found",
+      "Hawks want regime change; Maximalists want enforcement"
+    ],
+    [
+      "A3 Pentagon and Maximalists",
+      "Alliance",
+      "Venezuela, Iran",
+      "Hegseth: American companies in there (Jan 3); Hegseth, Miller and Cooper in the Go Big camp",
+      "None found",
+      "Colby's burden-shifting on Ukraine"
+    ],
+    [
+      "M1 Hawks and Pentagon",
+      "Mixed",
+      "Venezuela, Iran allied; Russia split",
+      "Both held on Venezuela and Iran; Hegseth's Patriot transfer held (Oct 19, denied) and Colby's burden-shifting against Rubio's Starshield push",
+      "None found",
+      "Ukraine"
+    ],
+    [
+      "M3 Vance Lane and Tech-Right",
+      "Mixed",
+      "AI, Succession (patrons) allied; Immigration split",
+      "Vance called AI labs' requests for rules a Trojan horse (Sep 14), matching Tech-Right's no-rules line; Thiel, Sacks and Andreessen backed his 2022 run and Thiel gave $15M. Vance suspended PERM filings for eight firms (Oct 8) and would end H-1B (Oct 2)",
+      "Patron overlap, no coordination shown",
+      "H-1B and the 2028 race"
+    ]
+  ],
+  "straddlers": [
+    [
+      "Person",
+      "Home faction",
+      "Also acts for",
+      "Where they break with their own side",
+      "Why they do it"
+    ],
+    [
+      "Rubio",
+      "Hawks",
+      "Deal-Capital (Russia executor); Vance Lane (June Iran deal)",
+      "Doubted the June Iran deal, then sold it to Congress; calls Starshield a private commercial contract while the hawks want pressure on Russia; says he would step aside for Vance",
+      "Loyalty as strategy: executing Trump's line keeps his seat, and stepping aside for Vance in public keeps the blessing while he runs the security staff. He also keeps a warm hawk donor base and the Venezuelan-American vote (reported)."
+    ],
+    [
+      "Vance",
+      "Vance Lane",
+      "Deal-Capital (Russia, Iran); Tech-Right (AI line, patrons); Maximalists (immigration acts)",
+      "Acts against his tech patrons on H-1B (PERM suspensions Oct 8)",
+      "Ambition and debt to patrons: his only path to 2028 runs through Trump's blessing, so he defers to Trump. Thiel ($15M to his 2022 run), Sacks and Andreessen anchor his donors, yet he suspended PERM filings for the restrictionist base, at a cost to the tech donors who funded his rise."
+    ],
+    [
+      "Hegseth",
+      "Pentagon",
+      "Hawks (Venezuela, Iran); Deal-Capital oil camp (Venezuela)",
+      "Splits from the hawks on Ukraine (Patriot hold reported Oct 19)",
+      "Standing and procurement: the Pentagon's role grows with the war, and Trump sons' drone makers sell to it (no personal profit shown). Low interceptor stocks explain the Ukraine hold (reported)."
+    ],
+    [
+      "Bessent",
+      "Treasury",
+      "Deal-Capital (Venezuela oil); Operation (AI)",
+      "Squeeze on Iran against the deal camp",
+      "Markets and turf: a fired Fed chair or a politicized Board spooks the markets he came from, and the Iran squeeze keeps policy in Treasury while the Pentagon argues for strikes. Executing Trump's directions also gives him cover."
+    ],
+    [
+      "Lutnick",
+      "Deal-Capital",
+      "Treasury (Fed); Maximalists (232 metals); Tech-Right (chips)",
+      "Protects metals while selling chips; feuds with Greer",
+      "Family money and market caution: his sons' firms are in data-center deals and chip policy serves Gulf partners; he protects industrial friends on metals while warning against firing Powell, which protects Cantor."
+    ],
+    [
+      "Miller",
+      "Maximalists",
+      "Hawks (Venezuela); Pentagon (Go Big on Iran)",
+      "Aspirant for Wiles's job",
+      "Ambition and alliance: backing Rubio buys Rubio's support when Miller fights for immigration power, and hard Iran terms keep his brand as Trump's loudest hardliner. Reports name him for Wiles's job. No financial stake found."
+    ],
+    [
+      "Cruz",
+      "Hawks",
+      "Tech-Right (AI preemption)",
+      "A hawk who blocks the 45-day AI review bill (Sep 29)",
+      "Ambition and network: pro-Israel donors are the coalition a 2028 run needs, and he has long opposed regulation. Bannon pressures him from the right. His pro-Israel industry money is small (about $1.9M of about $255M); the leverage is the network, not the cash."
+    ],
+    [
+      "Don Jr.",
+      "Vance Lane",
+      "Deal-Capital (family ventures)",
+      "Ties the heir's money to the family business",
+      "Money and family continuity: his board and advisory roles tie the heir's finances to the family business."
+    ],
+    [
+      "Musk",
+      "Outside",
+      "Tech-Right; Pentagon (xAI, Starshield); Party Machine (SLF donor)",
+      "Holds levers on two factions and pays a third",
+      "Protecting his business and control of the Starshield network without crossing Trump, who has already threatened his companies. SpaceX and xAI are Pentagon vendors, and he gave to SLF as a second channel to the party after his June 2025 break with Trump."
+    ],
+    [
+      "Collins",
+      "Dissenters",
+      "Party Machine (tariffs)",
+      "War-powers yes, then Maine carve-outs",
+      "Re-election: she faces a tight Maine race, voted to halt the Canada tariffs and lobbied for a wood-products exemption. Canada takes about 40% of Maine's $3.2B in exports. She votes against the principle and takes the carve-out."
+    ],
+    [
+      "Kushner",
+      "Deal-Capital",
+      "Iran deal camp",
+      "Gulf clients split on the war (Doha trip Jun 30)",
+      "Money, Israel and personal ties: the Saudi fund's $2B favors a deal, while Israeli holdings and family ties favor a harder line, so his Gulf clients split on the war (my reading)."
+    ]
+  ],
+  "terms": [
+    [
+      "Term",
+      "Plain meaning"
+    ],
+    [
+      "MAGA Inc.",
+      "Trump’s super PAC, an outside group that can raise unlimited money; it is not the RNC"
+    ],
+    [
+      "SLF, CLF, One Nation",
+      "Senate and House leadership super PACs and a related nonprofit"
+    ],
+    [
+      "Leading the Future",
+      "An AI-industry super PAC backed by a16z and Brockman"
+    ],
+    [
+      "World Liberty Financial",
+      "A Trump-family crypto venture; Aryam, a Gulf investor, bought 49%"
+    ],
+    [
+      "Affinity Partners",
+      "Jared Kushner’s investment firm, funded mostly by foreign investors"
+    ],
+    [
+      "Starshield",
+      "SpaceX’s military satellite link; Ukraine’s drones fly on it"
+    ],
+    [
+      "PERM",
+      "The Labor Department step an employer must clear before sponsoring a green card"
+    ],
+    [
+      "Sections 232, 301, 338",
+      "Three tariff laws: national security (Commerce), unfair practice (USTR), discrimination against US trade (presidential, first used on Canada)"
+    ],
+    [
+      "NABEP, the Pentagon capital office",
+      "A Venezuelan oil venture; the Pentagon’s Office of Strategic Capital took 35%"
+    ],
+    [
+      "Discharge petition",
+      "A House device that forces a vote when 218 members sign"
+    ],
+    [
+      "War-powers resolution",
+      "A vote telling a president to end hostilities Congress has not authorized"
+    ]
+  ],
+  "reviewed_edges": {
+    "F4": {
+      "status": "issue-specific divergence",
+      "assessment": "Vance’s role in Iran negotiations establishes access. His reported private opposition to the opening strikes and public defense of Trump show strategic accommodation. The Islamabad setback gives no direct measure of his succession standing.",
+      "episodes": [
+        "islamabad-negotiations"
+      ]
+    },
+    "A1": {
+      "status": "overlap on negotiations",
+      "assessment": "Vance and Deal-Capital both had negotiation channels. The reviewed talks support an overlap in function and leave durable coordination, donor direction, and joint control unresolved.",
+      "episodes": [
+        "islamabad-negotiations"
+      ]
+    },
+    "M1": {
+      "status": "shared exposure with separate roles",
+      "assessment": "Military execution and procurement can align with hawkish goals. The bundled blockade tag requires a decision-specific prior ask before awarding the Hawks policy credit. Vendor exposure belongs in a separate financial assessment.",
+      "episodes": [
+        "iran-ports-blockade"
+      ]
+    },
+    "F5": {
+      "status": "institutional contest",
+      "assessment": "Treasury has a market-credibility stake and advocates on policy. The FOMC votes on rates. The courts resolve statutory disputes. Evidence for faction influence needs a specific intervention.",
+      "episodes": [
+        "fed-september-rate-vote",
+        "ieepa-tariff-ruling"
+      ]
+    }
+  }
+}

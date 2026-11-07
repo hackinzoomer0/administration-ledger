@@ -1,0 +1,349 @@
+{
+  "blunder": "Open pressure on Trump over the June deal (Israel Hayom 'You failed', Jun 19; Levin, Jun 20) changed nothing and Trump signed; overruled again on timing (Oct 8, Nov 2)",
+  "cause": "Circumstance and money: Trump holds the decision, so the donor wing works where it holds levers (primaries, Israel's freedom to act)",
+  "did": "Maduro captured (Jan 2-3); Rodriguez government recognized (Mar 12); chip curbs in law (Jan 22)",
+  "donors": [
+    [
+      "Miriam Adelson",
+      "At least $67.6M in 2025-26 ($25M MAGA Inc., $30M SLF, $10M CLF); $750K to MAGA KY",
+      "Hawks generally; Cruz's 2028 lane",
+      "Iran, midterms, succession",
+      "Funds the majorities hawks need. Her Israel Hayom called Trump's June deal a 'surrender' (Jun 19): she pushes, Trump decides."
+    ],
+    [
+      "Paul Singer",
+      "$3M to MAGA KY and America 21; $2.5M to UDP, its largest individual gift; Elliott was Rubio's #2 source 2009-14",
+      "Rubio, Cruz, the donor wing",
+      "Iran, midterms, Venezuela",
+      "Discipline of Israel critics (Massie). Elliott also has creditor stakes (Citgo bid via Amber Energy)."
+    ],
+    [
+      "United Democracy Project (AIPAC)",
+      "$4.1M against Massie",
+      "The donor wing",
+      "Iran, midterms",
+      "Shows members that breaking on Israel costs a seat (my reading)."
+    ],
+    [
+      "Republican Jewish Coalition",
+      "$3.9M via its Victory Fund against Massie",
+      "Cruz, Rubio",
+      "Iran, midterms",
+      "The access wing: urged trust in Trump's June deal (Jun 18) while funding the Massie purge."
+    ],
+    [
+      "Marcus Foundation",
+      "$19M to FDD (2025)",
+      "FDD",
+      "Iran",
+      "Staff and arguments; FDD urged a slow aid phase-out (Jun 9)."
+    ],
+    [
+      "Norman Braman",
+      "$5-6M to Rubio's 2016 super PAC (old)",
+      "Rubio",
+      "Venezuela, Israel",
+      "Rubio's former employer and longtime patron; funded a West Bank settlement group (Type Investigations, 2015)."
+    ],
+    [
+      "Lockheed Martin",
+      "$35B THAAD contract (June); backlog $230.4B (Jul 23)",
+      "None documented in the faction",
+      "Iran, Russia",
+      "Gains from the hawk program (interceptors, PAC-3). No payment to the hawk core found."
+    ],
+    [
+      "RTX",
+      "Backlog $289B; Raytheon sales up 18% (Jul 23)",
+      "None documented in the faction",
+      "Iran, Russia",
+      "Patriot and Standard missiles restocked after the Iran war. No payment to the hawk core found."
+    ],
+    [
+      "Florida Venezuelan and Cuban vote",
+      "Votes, not money",
+      "Florida delegation, Rubio",
+      "Venezuela",
+      "Rubio and the delegation answer to exile voters."
+    ],
+    [
+      "Centerview no-bid contract",
+      "At least $150M; he says he held no Venezuela stake",
+      "Claver-Carone",
+      "Venezuela",
+      "Reported: an allied operator ran the debt file with private financing."
+    ],
+    [
+      "Ken Griffin",
+      "Predisposed to Rubio",
+      "Rubio",
+      "Succession",
+      "A Wall Street patron for Rubio that is not Vance's."
+    ]
+  ],
+  "edges": [
+    [
+      "F3 Hawks and Populist Right",
+      "Feud",
+      "Iran, Succession, Epstein",
+      "Reported: Trump overruled the hawks on Iran timing (Oct 8); Carlson and Loomer fight over Israel; Bannon doubts Vance while Hawks back Rubio",
+      "Reported only",
+      "Trump's timing calls; Rubio straddles"
+    ],
+    [
+      "F4 Hawks and Vance Lane",
+      "Feud",
+      "Iran, Succession",
+      "Reported: Rubio defended Israel's Lebanon strikes while Vance criticized them (June); pro-Israel donors uneasy about Vance; Rubio says he would step aside for Vance",
+      "Reported only",
+      "Rubio straddles: he sold the June Iran deal"
+    ],
+    [
+      "A2 Hawks and Maximalists",
+      "Alliance",
+      "Venezuela, Iran",
+      "Reported: Miller in lockstep with Rubio (Oct 2025, anonymous); Miller in the Go Big camp on Iran",
+      "None found",
+      "Hawks want regime change; Maximalists want enforcement"
+    ],
+    [
+      "M1 Hawks and Pentagon",
+      "Mixed",
+      "Venezuela, Iran allied; Russia split",
+      "Both held on Venezuela and Iran; Hegseth's Patriot transfer held (Oct 19, denied) and Colby's burden-shifting against Rubio's Starshield push",
+      "None found",
+      "Ukraine"
+    ]
+  ],
+  "gained": "Maduro captured (Jan 3); State runs Venezuela's timetable (Oct 27); Massie unseated after $15.5M in pro-Gallrein spending (May 19); Netanyahu's bloc largest in Israel's vote (Oct 28); Trump says Israel aid ends at year's end (Nov 3, claim only; per L1 a gain in freedom of action)",
+  "id": "hawks",
+  "legal": [
+    [
+      "Guilfoyle",
+      "WSJ, citing messages it reviewed: shortly before her confirmation hearing she asked donor Eric Deters to pay about a $100,000 American Express bill, urged a direct wire so there would be “no paper trail,” and offered access to senior officials; also let Aktor Group’s lobbyist attend private diplomatic meetings. She resigned Oct 13 and denies wrongdoing; her lawyers say the money was owed for past work",
+      "Soliciting a gift or bribe (18 USC 201); gift and ethics rules; FARA questions about the lobbyist",
+      "Reported (WSJ, AP); State Department inspector general reportedly looking; Rubio defended her before the resignation",
+      "State inspector general; House Foreign Affairs (Meeks); DOJ"
+    ],
+    [
+      "Claver-Carone",
+      "Key to Centerview’s over-$150M no-bid contract on about $200B of Venezuelan debt; used Alejandro Betancourt as an intermediary; says he has no Venezuela stake and runs a private equity fund",
+      "Contracting rules; revolving-door and conflict-of-interest law",
+      "Reported (Reuters); no probe found",
+      "State inspector general; House Foreign Affairs"
+    ],
+    [
+      "Rubio",
+      "No allegation against him personally. He oversaw the Venezuela file and publicly defended Guilfoyle",
+      "Oversight of State Department management",
+      "",
+      "House Foreign Affairs"
+    ]
+  ],
+  "legalnote": "",
+  "lost": "Trump signed the June Iran deal over their objections (Jun 17); Trump blocked Israel's Oct 10 strike plan (FT); Claver-Carone left (Jul 31); Graham died (Jul 11); Machado still excluded",
+  "members": [
+    [
+      "Rubio",
+      "Secretary of State, acting national security adviser",
+      "Venezuela, Iran pressure, succession, Russia in words",
+      "8; sold the June deal and told allies no new strikes 'for now' (Aug 25)",
+      "Posture: hawk for donors and Florida. Interest: Trump's favor and the 2028 succession; his long patrons (Braman, Singer) are pro-Israel, but when they and Trump diverge he follows Trump"
+    ],
+    [
+      "Cruz",
+      "Senator (R-Texas)",
+      "Iran, China chips, 2028 run",
+      "9; called Carlson's war criticism 'anti-American propaganda' (Mar 10)",
+      "Posture: the hawk lane's loudest voice. Interest: the RJC, Adelson and Singer network as a 2028 base; his podcast audience. Career pro-Israel money is small, so the prize is the network"
+    ],
+    [
+      "Levin",
+      "Radio and TV host",
+      "Iran, Israel, succession",
+      "8; accused the administration of 'bullying' Israel over the June deal (Jun 20)",
+      "Audience and conviction; a broadcaster who can break with Trump at no cost. No funder found"
+    ],
+    [
+      "Netanyahu",
+      "Israeli prime minister (outside operator)",
+      "Iran strikes; aid phase-out",
+      "7; pressed Trump to strike right after the midterms (Nov 2)",
+      "Israel's security and his coalition's survival; wants US grants phased out ('start now', Jun 3), which sheds US conditions"
+    ],
+    [
+      "Ratcliffe",
+      "CIA director",
+      "Venezuela, Iran",
+      "7; doubted Iran would concede (Jun 15)",
+      "A post held at Trump's pleasure; no personal stake found"
+    ],
+    [
+      "Needham",
+      "Deputy national security adviser",
+      "The national-security staff",
+      "7",
+      "Career tied to Rubio"
+    ],
+    [
+      "Banks",
+      "Senator (R-Indiana)",
+      "China chip curbs (OVERWATCH, Jul 14)",
+      "6",
+      "China hawkishness; no donor tie found"
+    ],
+    [
+      "Moolenaar",
+      "House China committee chair",
+      "China chip curbs",
+      "6",
+      "China hawkishness; no donor tie found"
+    ],
+    [
+      "Florida delegation (Scott, Diaz-Balart, Gimenez, Salazar, Moody)",
+      "Senators, representatives",
+      "Venezuela",
+      "5",
+      "Venezuelan- and Cuban-American voters"
+    ],
+    [
+      "Claver-Carone",
+      "Former Venezuela adviser",
+      "Venezuela",
+      "4; left Jul 31",
+      "Centerview's no-bid debt contract (reported); now runs a private equity fund"
+    ],
+    [
+      "Hegseth",
+      "War secretary",
+      "Iran force, Venezuela",
+      "4; home is Pentagon; met Netanyahu at Ovda (Oct 19)",
+      "His post and the war budget; splits from the hawks on Ukraine"
+    ],
+    [
+      "Loomer",
+      "Activist",
+      "Iran war (called critics a 'foreign influence operation', Mar 3)",
+      "3; home is Maximalists",
+      "Access to Trump; funded by Shillman"
+    ],
+    [
+      "Miller",
+      "Deputy chief of staff",
+      "Venezuela (in lockstep with Rubio, anonymous)",
+      "3; home is Maximalists",
+      "Enforcement power; ambition"
+    ]
+  ],
+  "name": "Primacist Hawks",
+  "overview": [
+    "The Primacist Hawks argue that American safety rests on American primacy: hostile regimes that take hostages, sponsor proxies and seek the bomb are removed or broken, not managed (Maduro is gone; Tehran is next); allies that fight their own wars, Israel first, multiply US power; China is denied the chips that would close the gap; Russia stays under sanctions. Credibility is one account, so retreat on one front invites tests on every other. In their own terms this is Reagan's peace through strength, and restraint is what invites war.",
+    "The interest layer is a donor network that funds the Republican majorities and disciplines dissent. Miriam Adelson gave at least $67.6M in 2025-26 ($25M MAGA Inc., $30M Senate Leadership Fund, $10M CLF); Paul Singer was the largest donor to the anti-Massie MAGA KY and America 21 ($3M) and gave AIPAC's United Democracy Project its largest individual gift ($2.5M). Pro-Gallrein groups spent about $15.5M and Massie lost (May 19). The Marcus Foundation's $19M to FDD supplies staff and arguments. Defense primes gain from the program (Lockheed's $35B THAAD deal; RTX's $289B backlog), but no contractor payment to the hawk core was found. For Rubio and Cruz the network is the 2028 base; for the Florida delegation it is the exile vote.",
+    "Acts depart from words where Trump decides. When Trump signed the June Iran deal, Adelson's Israel Hayom called him a failure (Jun 19) and Levin accused officials of bullying Israel, while the RJC urged trust in Trump (Jun 18) and Rubio sold the deal and told allies there would be no new strikes 'for now' (Aug 25). The access wing follows Trump; the Israel-first wing pushes and loses rounds. On aid the program and the patron diverge: Netanyahu wants US grants phased out ('start now', Jun 3), which per lesson L1 frees Israel from end-use strings while the US still underwrites the war; FDD wants it slow (Jun 9), which protects the purchases and the leverage (my reading).",
+    "Precedent: the 2002-03 coalition of think tanks, donors and officials that carried the Iraq war. It breaks in three places: then the hawks held the vice-presidency and the Pentagon's civilian leadership, now Trump runs the clock and the Pentagon's own interest is restocking; then the right's media were with them, now its largest audience (Carlson) is against them; and Rubio is no Cheney, because his career depends on following, not steering (my reading)."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "Jan 22: chip curbs written into law, 42-2. Jul 14: OVERWATCH in the NDAA.",
+          "Why the faction does it. China hawkishness. No donor is tied to the position.",
+          "Who and why.",
+          "Moolenaar, Mast, Banks, Cotton, McCormick passed laws (reported). Motives: Ideology backed by acts. No personal stake found in this research.",
+          "Needham, Levin act from loyalty to Rubio and ideology respectively. No payer or career motive beyond that was found."
+        ],
+        "title": "AI chips"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "No faction position. The group’s donors appear as payers: the AIPAC-tied groups and Adelson against Massie (see Iran above)."
+        ],
+        "title": "Midterms and Epstein"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Keep the blockade and the strike option; finish the regime. Rubio doubted the June deal (Jun 15), then sold it and told allies no new strikes 'for now' (Aug 25). Netanyahu pressed Trump to strike right after the midterms; Trump is 'not in much of a hurry' (Axios, Nov 2).",
+          "Why the faction does it. The worldview: Tehran's regime is the hub of the proxies and the bomb, and a deal only buys it time. The interest: the donor network that funds the majorities (Adelson, Singer, the RJC, AIPAC's UDP) and an Israeli government that wants the US in the fight but out of its decisions.",
+          "Who and why.",
+          "Rubio. Posture: skeptic of the deal, for donors and Florida. Interest: Trump's favor and 2028; he executes whatever Trump decides (documented acts).",
+          "Cruz. Posture: the war's loudest Senate defender ('anti-American propaganda', Mar 10). Interest: a 2028 lane built on the pro-Israel network; no 2026 payment to him found.",
+          "Adelson. Her paper called the June deal a 'surrender' and Trump a failure (Jun 19). She is the faction's biggest patron and lost that round.",
+          "Netanyahu. Posture: partner. Interest: freedom of action. He wants US grants phased out ('start now', Jun 3). Per lesson L1, ending aid while the US keeps the blockade and missile defense removes a US brake, not US exposure (my reading). Trump's Nov 3 claim that aid 'gets cut off' is a claim, with no act shown.",
+          "Say versus do. The donor wing says strike; the faction's officials execute Trump's hold. Its real wins on Iran come through Israel's freedom to act and Congress, not the decision.",
+          "Stance audit. Rubio reportedly doubted the June agreement, then defended it and signaled a pause on new strikes. The June 15 and August 25 accounts span different phases of policy. Public advocacy for the deal is an observable change in posture. Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage. Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Discipline dissent in primaries rather than run on the war.",
+          "Why the faction does it. Primaries are where the donor wing holds a lever Trump does not control.",
+          "Who and why.",
+          "The Massie race (May 19): about $15.5M for Gallrein from MAGA KY ($7.4M; Singer $3M with America 21, Adelson $750K, Paulson $410K), AIPAC's UDP ($4.1M) and the RJC Victory Fund ($3.9M) (FEC data via WKMS, Jul 17). Trump's endorsement did the rest. Massie is covered under Article I Dissenters.",
+          "Say versus do. Hawk donors fund the majorities in the general election and spend against one dissenter in a primary: the message is to members, not voters (my reading)."
+        ],
+        "title": "Midterms"
+      }
+    ],
+    "RUS": [
+      {
+        "paras": [
+          "Position.",
+          "Oct 21: Rubio denies pressure on Kyiv and calls Starshield “a private commercial contract.”",
+          "Why the faction does it. The Hawks favor sanctions on Russia in principle, but Rubio executes Trump’s deal line (M1 splits Hawks from Pentagon).",
+          "Who and why.",
+          "Rubio Motives: (1) Job security: he defends the president’s position, not his own. (2) Avoiding a fight he cannot win while he positions for 2028 (my reading).",
+          "Say versus do. Hawk rhetoric on Russia sits beside executing the deal."
+        ],
+        "title": "Russia and Ukraine"
+      }
+    ],
+    "SUC": [
+      {
+        "paras": [
+          "Position.",
+          "Rubio says he would step aside for Vance; aides say he is “prepared to step aside” (AP, Jul 1). Trump calls them an “unbeatable team.”",
+          "Rubio remade the NSC (Needham as deputy). Cruz is exploring a run.",
+          "Why the faction does it. Two lanes: a Rubio lane that hedges for the vice-presidency, and a pro-Israel lane that wants its own candidate.",
+          "Who and why.",
+          "Rubio Motives: (1) Ambition: stepping aside in public keeps Trump’s blessing and the vice-presidency in play while he controls the national-security staff (my reading). (2) Calculation: his Israel stance is to match Trump and not criticize it, unlike Vance, who criticized Israel’s Lebanon strikes; hawk donors are his base (my reading).",
+          "Cruz Motives: (1) Ambition: pro-Israel donors are the coalition a 2028 run needs; his feud with Carlson over the war (Mar 10) is a pitch to them, and RJC CEO Matt Brooks said such moves are 'definitely getting noticed' (Axios, Nov 2025). (2) Money: his podcast raises small-dollar money. (3) The Iran lane separates him from Vance. (4) Adelson and Singer fund the Senate majority he serves in, so his donors and his party's donors are the same people.",
+          "Needham Motives: Career: his job comes from Rubio.",
+          "Griffin Motives: Patronage: predisposed to Rubio (reported). No amount found.",
+          "Nov 7 nominee/faction consistency review: Rubio’s war defense and Cruz’s competing lane must be assessed separately; overlapping hawk networks cannot be counted as exclusive support for both. Rubio follows Trump in some disputes even when other hawks dissent. His public deferral to Vance and Nov 5 denial of campaign-related departure constrain entry assumptions. Evidence: suc-2025-12-7eb8a2, suc-2026-07-30e83e and irn-2026-11-04-vance-postelection-war-critique."
+        ],
+        "title": "Succession"
+      }
+    ],
+    "VEN": [
+      {
+        "paras": [
+          "Position.",
+          "Jan 2-3: Maduro captured. Mar 12: the Rodríguez government recognized.",
+          "State blocks the Citgo sale; Machado kept out.",
+          "Why the faction does it. Remove a hostile regime, and keep the Florida Venezuelan-American vote.",
+          "Who and why.",
+          "Rubio led all of these acts. Motives: (1) Votes: the Florida Venezuelan-American vote is his political base (reported). (2) Ambition: a foreign-policy win that Trump takes credit for keeps him in the room for the 2028 ticket (my reading).",
+          "Claver-Carone was the unofficial “viceroy” for Venezuela, reporting to Rubio. He was key to Centerview’s over-$150M no-bid contract to restructure about $200B of Venezuelan debt. He left the role in Jul 2026 (voluntary, he says; forced, per sources), runs a private equity fund, and says he has no Venezuela stake. He used Alejandro Betancourt as an intermediary (Reuters). Motives: (1) Money: the restructuring contract is the largest private payoff of the policy, and he steered it (reported). (2) Business: he now runs a fund and benefits from a Venezuela reopening (my reading). (3) Record: he was ousted from the IDB in Trump’s first term over misconduct (Reuters).",
+          "Florida delegation (Scott, Díaz-Balart, Giménez, Salazar, Moody) Motives: Votes: they answer to Venezuelan-American voters (reported).",
+          "Ratcliffe backs the line from the CIA. Motives: No personal stake found; follows the president."
+        ],
+        "title": "Venezuela"
+      }
+    ]
+  },
+  "short": "Hawks",
+  "wants": "Preserve influence over foreign policy and sustain coercive leverage through sanctions, export controls, alliances and force. Track objectives separately for Iran, Israel, China, Russia and Venezuela.",
+  "weak": "Trump runs the clock: no strike before Nov 3 and 'not in much of a hurry' (Nov 2); the donor wing split from Trump over the June deal and lost; Rubio follows Trump, not the donors",
+  "why": "Strategic conviction, constituency pressure, and succession ambitions vary by actor. Adelson, Singer, United Democracy Project and the Republican Jewish Coalition supply electoral backing or opposition spending that can make dissent costly, particularly on Israel-related issues. Evaluate other positions using their own evidence.",
+  "win": "Maduro captured (Jan 2-3); chip curbs in law 42-2 (Jan 22); Massie unseated (May 19)"
+}

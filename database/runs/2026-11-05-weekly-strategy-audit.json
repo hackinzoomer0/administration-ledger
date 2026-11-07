@@ -1,0 +1,66 @@
+{
+  "added": 0,
+  "summary": "INCOMPLETE: Targeted weekly verification and corrections completed. Deviations: the full dated recall sample, all-issue external verification and full queue audit remain open. Method audit: later evidence had reached the event timeline but had not propagated to two dashboard summaries. Added zero episodes.",
+  "coverage": {
+    "scope": "October 30 through November 5. Screened the staged high-impact episode list across all ten issues and read the latest daily and weekly follow-up summaries. External verification focused on midterms, succession and Iran. Other issues received an internal screen and selective external sampling.",
+    "perIssue": {
+      "AI": "searched, nothing found",
+      "EPS": "not searched",
+      "FED": "not searched",
+      "IMM": "not searched",
+      "IRN": "searched, nothing found",
+      "MID": "searched, nothing found",
+      "RUS": "searched, nothing found",
+      "SUC": "searched, nothing found",
+      "TAR": "not searched",
+      "VEN": "searched, nothing found"
+    },
+    "sourcesRead": [
+      "https://www.axios.com/2026/11/05/vance-maga-power-play-2028",
+      "https://www.axios.com/2026/11/04/state-scalise-house-republicans-minority-leader-midterms",
+      "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "https://www.justsecurity.org/163369/early-edition-november-4-2026/",
+      "https://www.justsecurity.org/163177/early-edition-november-3-2026/",
+      "https://www.justsecurity.org/162991/early-edition-november-2-2026/",
+      "https://www.axios.com/2026/10/30/energy-democrats-congress-midterms",
+      "https://www.latimes.com/california/story/2026-11-03/california-ballots-court-rulings-doj-election-monitors",
+      "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+    ],
+    "blocked": [
+      "CNN index access was blocked. The original New York Times account of reported Venezuela–U.S. operational cooperation could not be read."
+    ],
+    "reviewedEpisodeIds": [
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-11-05-congress-control",
+      "mid-2026-11-04-johnson-leadership",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "mid-2026-11-05-schumer-confirmation-stance",
+      "mid-2026-11-05-blumenthal-preservation-notices",
+      "irn-2026-11-05-trump-postelection-war-review",
+      "ai-2026-11-03-local-data-center-ballots",
+      "rus-2026-11-05-diesel-shipments-diverted",
+      "ven-2026-11-02-bessent-blanco"
+    ],
+    "changedEntries": [
+      "events/IRN/irn-2026-11-04-vance-postelection-war-critique",
+      "meta/stances.stances.MID.vance",
+      "issues/MID.heldBy",
+      "meta/audit",
+      "changes/2026-11-05"
+    ],
+    "challenges": [
+      "Vance can preempt a restraint-oriented rival by giving antiwar activists a sitting vice president to rally around now. Donald Trump Jr. supplies a documented audience channel. Trump’s approval and reported staff involvement also fit coordinated coalition repair. Future endorsements, voter movement and costly differences on policy could distinguish the readings. Rubio retains a separate channel through State and his public defense of Trump.",
+      "Scalise and Jordan can solicit conference votes now. The 2023 contest shows that Scalise had conference support, but his subsequent floor obstacle has limited bearing on a minority leadership election. The conference result settles who gets the post.",
+      "Incoming committee leaders can signal scrutiny to Russian fuel intermediaries and Venezuelan oil investors ahead of organization. An existing member letter can affect banks and ports now. Evidence of changed financing or shipments is needed to attribute financial impact. A reported diversion alone leaves the cause open.",
+      "The election-day chronology, chamber-control result, and post-election reaction represent distinct stages. The prior Fed calendar fold already removed duplicate outcome credit. The Vance reaction remains one cross-issue episode. No faction weights changed.",
+      "Separate Wiles’s attributed blame-shifting, reported executive job discussions, congressional pressure, and Trump’s public backing. An official departure or replacement announcement would establish a personnel change."
+    ],
+    "unresolved": [
+      "Los Angeles November 4 grand jury appearance or disposition. A public filing, on-record county confirmation, or reliable direct reporting could establish what occurred.",
+      "Venezuela operational cooperation against the ELN. An accessible original report, official account, or independently corroborated reporting could establish the U.S. role.",
+      "Chamber seat totals and certification, committee authority, and nomination or impeachment outcomes require race calls, certifications, organization records or votes.",
+      "Iran policy and Israeli aid implementation require a dated order, agreement, funding action, or documented operational change. Electoral motives and investor or donor influence need decision-specific evidence."
+    ],
+    "validation": "Parsed candidate, checked unique active event IDs, verified reviewed episode references and restricted event diff to the existing context field. Compared original bytes immediately before atomic replacement."
+  }
+}

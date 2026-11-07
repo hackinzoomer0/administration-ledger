@@ -1,0 +1,117 @@
+{
+  "added": 26,
+  "counts": {
+    "contextUpdates": 7,
+    "contradictedApplied": 6,
+    "contradictedBeliefs": 8,
+    "donorsAdded": 3,
+    "donorsUpdated": 2,
+    "duplicatesFolded": 5,
+    "itemsAdded": 26,
+    "missesFoldedIntoExisting": 2,
+    "missesFound": 34,
+    "missesNotAdded": 6,
+    "patternsNew": 2,
+    "patternsRechecked": 4,
+    "patternsRetired": 0,
+    "patternsSupported": 0,
+    "peopleAdded": 21,
+    "peopleUpdated": 13,
+    "queueAddedOrMatched": 37,
+    "queueDropped": 38,
+    "queueNewCaptured": 3,
+    "queueTriaged": 75,
+    "sourceHealthChanges": "2 active pages stale (week 1 of 3): Anadolu world, White House presidential actions; none moved; Just Security home loads again but Early Edition still fails, so it stays blocked",
+    "unmatched": 5,
+    "unmodeled": 5
+  },
+  "coverage": {
+    "blocked": [
+      "TVG Nov 2: client_error",
+      "Just Security Early Edition: client_error",
+      "Reuters, AP, Politico: SITE_BLOCKED",
+      "The Hill pages: client_error",
+      "Anadolu world: stale April 2024 copy"
+    ],
+    "deviations": [],
+    "folds": [
+      [
+        "irn-2026-10-18-5be75d",
+        "mid-2026-10-18-ce0ee9"
+      ],
+      [
+        "rus-2026-10-19-ba15b8",
+        "rus-2026-10-19-1e051c"
+      ],
+      [
+        "rus-2026-10-20-65f0ca",
+        "rus-2026-10-21-6e9f4f"
+      ],
+      [
+        "rus-2026-10-21-ff597c",
+        "rus-2026-10-21-9e251e"
+      ],
+      [
+        "imm-2026-10-18-c2e43e",
+        "imm-2026-10-18-f56dc4"
+      ]
+    ],
+    "propagation": {
+      "eps-2026-10-26-judiciary-dems-report": [
+        "none: minority report with no power to compel; no stored belief changes before January"
+      ],
+      "fed-2026-10-30-cook-hearing-delay": [
+        "issues/FED",
+        "events/FED scheduled items"
+      ],
+      "imm-2026-10-27-essayli-unlawful": [
+        "factions/maximalists",
+        "issues/IMM",
+        "people/all (bill-essayli)"
+      ],
+      "imm-2026-10-29-cameroon-deportation-aid": [
+        "none: single outlet, unconfirmed; recorded in meta/audit unmatched"
+      ],
+      "imm-2026-10-29-frimpong-profiling": [
+        "factions/maximalists",
+        "issues/IMM"
+      ],
+      "mid-2026-10-27-hutchinson-no-bill": [
+        "factions/maximalists"
+      ],
+      "mid-2026-10-30-arizona-usao-voter-probe": [
+        "none: adds to probes already in the Maximalists midterms stance"
+      ],
+      "mid-2026-10-30-rochon-ads": [
+        "none: a three-ad order in the final week; the Operation faction text was not revised for one small ruling"
+      ],
+      "mid-2026-11-02-doj-scotus-ca-ballots": [
+        "issues/MID"
+      ]
+    },
+    "recallSources": {
+      "TVG digest": 9,
+      "aggregator/web sweep": 20,
+      "newsletters": 5
+    },
+    "sourcesRead": [
+      "TVG Daily Brief Oct 26-30",
+      "Gmail newsletters Oct 30-Nov 2 (14)",
+      "Memeorandum",
+      "NewsNow",
+      "RealClearPolitics",
+      "Al Jazeera",
+      "Euronews",
+      "CBS politics",
+      "The Hill sitemap",
+      "WebSearch day-by-day sweeps (55 queries)",
+      "personnel sweep (52 queries)"
+    ]
+  },
+  "kind": "weekly-audit",
+  "summary": "Deviations: none.\nMethod audit: 34 recall misses found (26 added, 2 folded into existing items, 6 low or out of scope); root causes and fixes are in the errors section.\n\nMissed items: weekly audit found 34 the daily runs missed, led by DOJ's Nov 2 Supreme Court bid to hold 20,000 California ballots\n\nERRORS AND INCOMPLETE ITEMS\n- Source failures (informational) | TVG Daily Brief for Nov 2: \"failed at its site (client_error)\" (Oct 26-30 issues loaded); Just Security Early Edition: client_error (its home page loads again, Nov 1, but stays on the blocked list); Reuters, AP, Politico: SITE_BLOCKED \"Access to this website has been blocked\"; The Hill article pages: client_error | Why not done: hard blocks; the audit used wire copies on local sites, aggregators and newsletters instead.\n- Stale sources (week 1 of 3) | Anadolu world served an April 27, 2024 copy; White House presidential actions newest item Oct 28; Times of Israel and Ground News (already removed) still stale at Oct 27 | Why not done: the pages themselves are stale; a page moves to the blocked list after three straight weekly failures.\n- Recall misses: court rulings and grand juries (Hutchinson no-bill, Essayli ruling, Los Angeles stop order, Rochon ads order, child-asylum order) | These are checks on the Justice Department and immigration enforcers that change what they can do | Should have been caught by the world collector's aggregator pages, but those show only the current day, so a ruling that broke on a busy day scrolled off. Proposed fix: add one daily search, \"judge rules Trump administration\" plus the date, to the world collector.\n- Recall misses: DOJ's Supreme Court filing on California ballots (Nov 2), Pezeshkian's talks mandate (Nov 2), Boasberg list order (Oct 30) | Politico Playbook PM arrives in the afternoon, after the morning run | Proposed fix: the next morning's newsletter pass should read the previous day's Playbook PM and Axios PM (both are in the inbox).\n- Recall misses: White House Cook hearing moved to December (Oct 30), Arizona noncitizen-registration probe (Oct 30), Cameroon aid-for-deportees deal (WSJ, Oct 29), Pentagon budget draft (Politico, Oct 30), House Democrats' Epstein report (Oct 26), IAEA missing uranium (Oct 27), Russian gas-transit pitch (WSJ, Nov 2), Rubio-Venezuela meeting (Nov 2), tanker attacks (Nov 1), Pentagon watchdog declining the Starlink probe (Oct 28), State's Jeremy Lewin leaving (Oct 27), DOJ election monitors (Oct 31) | Only reachable through wire copies or outlets the collectors do not read; the newsletter inbox has no editions before Oct 30 | Proposed fix: the same daily court-and-agency search above, plus one Bloomberg/WSJ-relay search per issue when a day has fewer than two independent sources.\n- Recall misses from the TVG digest the collectors listed but triage dropped as off-topic: DFC investment ceiling to $205B and a Mozambique graphite stake, DOE's $5B Constellation nuclear loan, DHS ban on Acronis, Greece's Black Sea truce call | Proposed fix: keep any dated agency act from the digest as a weight-2 item instead of dropping it.\n- Not added (low or out of scope): VA psychedelic therapy push, Air Force hypersonic missile production, Army interceptor award to Lockheed, CISA 2030 strategy, US-Japan missile co-production (headline only), Trump backing El Salvador's Haiti troop surge | Why not done: no effect on what the tracked factions want or can do.\n- Model audit proposals not applied (single or search-level sources): Katie Zacharia reportedly left as press secretary about Oct 16; Kristi Noem's State adviser role is disputed; the Russia policy line should mention the $2.1B Patriot sale Ukraine and partners pay for | Why not done: needs a read article or a second week of evidence.\n- Still headline only: Hegseth as a possible appointee to Marsha Blackburn's Senate seat if she becomes Tennessee governor | Tennessee Lookout and two other outlets failed with client_error.\n\nCONSEQUENTIAL NEWS\n- Justice Department asks the Supreme Court to hold 20,000 California ballots (Nov 2; Roll Call, Politico). DOJ says about 20,000 California registrants may be noncitizens and wants their mail ballots set aside until checked; a federal judge refused and the Ninth Circuit rejected DOJ twice (Oct 26 and Oct 30), and a Los Angeles County review found many names are not even on the rolls. The justices can act before or after the count. | Consequence: keeps the Maximalists' (the faction running DOJ, FBI and immigration enforcement) noncitizen-voting claim alive into certification; no ballot has changed status; documented filing, outcome open.\n- Grand jury refuses to indict Cassidy Hutchinson (Oct 27; ABC, Washington Post). DOJ sought charges against the former Trump White House aide for lying to the Jan. 6 committee, part of a run of cases against Trump critics that includes new charges against James Comey (Oct 26). A Washington grand jury declined; DOJ can try again. | Consequence: hurts the Maximalists by raising the cost of critic prosecutions in Washington; documented.\n- White House postpones its Lisa Cook hearing to December (Oct 30; Kevin Hassett on Bloomberg TV). Trump is trying to fire Fed Governor Cook over mortgage-fraud allegations she denies; courts kept her seat, so the White House created its own hearing, set for Nov 5. Her lawyer said she is unavailable until after the Dec 8-9 Fed meeting, and no new date is set. | Consequence: Cook votes at the December rate meeting, where she dissented for a hike in October; the removal effort is intact but slower; reported (official on record).\n- Judge bars immigration stops based on appearance in Los Angeles and six counties (order Oct 23, public Oct 29; Newsweek, LA Times). Judge Maame Frimpong requires reasonable suspicion and cites a \"mountain of evidence\" of stops of people who look Latino; the administration appeals, and the Supreme Court stayed a similar order of hers in September 2025. | Consequence: limits the Maximalists' street-arrest tactics in Southern California, provisionally; documented.\n- Judge rules Los Angeles prosecutor Bill Essayli is serving unlawfully (Oct 27; AP). Courts have rejected the administration's practice of keeping interim US attorneys past legal limits in New Jersey and Nevada; Judge Michael Seabright now applies that to Essayli, whose office has charged protesters in the immigration crackdown. The ruling is stayed and he keeps serving. | Consequence: exposes the Maximalists' Los Angeles cases to challenge if the stay ends; documented.\n- Judge orders three taxpayer-funded administration ads taken down (Oct 30; AP). In a Common Cause suit over 13 government ads it called campaign messaging, Judge Jennifer Rochon ordered three (\"$5,000 to Americans\", \"No Tax on Tips\", \"Cost of Socialism\") removed and barred their spread through the MAGA Inc. super PAC. | Consequence: small loss for the Operation (the White House political team running the campaign) in the final week; documented.\n- Arizona's US attorney opens a noncitizen-registration case against three voter groups (Oct 30; DOJ release, Democracy Docket). Timothy Courchaine referred the groups to the FBI and urged state and Maricopa County officials to review registrations; DOJ now has such probes in California, Alaska, Washington, North Carolina and Arizona. | Consequence: widens the Maximalists' election pressure into a battleground state; no charges; documented act, my reading on effect.\n- State reportedly trades $35M in military aid to Cameroon for taking other countries' deportees (Oct 29; WSJ, single outlet). The aid would go to a Cameroonian unit accused of abuses; State has not confirmed. | Consequence: gives the Maximalists a new third-country removal outlet at a reputational cost to Rubio's State Department; reported, provisional.\n- New people and donors added: Gadi Eisenkot, Alina Habba, Sean Parnell, Bill Essayli, Michael Duffey, Zohran Mamdani, Mojtaba Khamenei, Asim Munir, Volodymyr Zelenskyy, Melania Trump, Josh Shapiro, Dan Osborn, Mark Carney, Dina Powell McCormick, Chris Lehane, Alexandria Ocasio-Cortez, James Talarico, Steve Scalise, Jim Jordan, Gavin Newsom, Sherrod Brown; donors Anduril Industries, AMD, Richard Uihlein\n",
+  "window": [
+    "2026-10-26",
+    "2026-11-02"
+  ]
+}

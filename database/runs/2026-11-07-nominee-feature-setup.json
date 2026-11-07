@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-07",
+  "type": "workflow_setup",
+  "scope": "Integrated 2028 Republican nominee forecast into daily intake and weekly evidence review. No fresh political research performed.",
+  "changes": [
+    "Imported complete owner-supplied wargame with five candidates and unchanged initial conditional probabilities.",
+    "Replaced automatic inclusion threshold with owner-only roster authorization.",
+    "Added append-only daily forecast snapshots, cross-report evidence links, runner validation and mandatory final-message nominee report."
+  ],
+  "validation": "JSON parsed; nominee guard positive and rejection cases checked during implementation.",
+  "unresolved_claims": [
+    "Attachment sources and claims have not been independently verified during setup.",
+    "Conditional five-candidate forecast omits the rest of the field."
+  ]
+}

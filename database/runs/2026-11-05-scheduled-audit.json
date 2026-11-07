@@ -1,0 +1,59 @@
+{
+  "added": 0,
+  "summary": "INCOMPLETE: Focused audit completed. Full recall sample, all-issue decision sweep and roster, filings and pattern checks remain open. Deviations: latest daily service logged a staged save and then exited 127. Its run entry was absent from the supplied snapshot. Method audit: follow the appointing authority and candidates’ public moves before treating personnel speculation or election outcomes as settled. Added 0 episodes, updated five and folded one calendar placeholder.",
+  "coverage": {
+    "lookbackDays": 7,
+    "scope": "Oct 30–Nov 5 inclusive. Focused follow-through on chamber control, Iran and succession, with financial and cross-issue checks.",
+    "perIssue": {
+      "AI": "not searched",
+      "EPS": "searched, nothing found",
+      "FED": "found 1",
+      "IMM": "not searched",
+      "IRN": "found 2",
+      "MID": "found 5",
+      "RUS": "searched, nothing found",
+      "SUC": "found 1",
+      "TAR": "not searched",
+      "VEN": "searched, nothing found"
+    },
+    "sourcesRead": [
+      "https://www.axios.com/2026/11/05/vance-maga-power-play-2028",
+      "https://www.axios.com/2026/11/04/state-scalise-house-republicans-minority-leader-midterms",
+      "https://apnews.com/article/bfe5baf0dd3f26ddf0ca9b844400515d",
+      "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "https://www.justsecurity.org/163369/early-edition-november-4-2026/",
+      "https://www.justsecurity.org/163177/early-edition-november-3-2026/",
+      "https://www.justsecurity.org/162991/early-edition-november-2-2026/",
+      "https://www.justsecurity.org/162627/early-edition-october-30-2026/",
+      "https://ofac.treasury.gov/selected-general-licenses-issued-ofac"
+    ],
+    "unplaced": [],
+    "reviewedEpisodeIds": [
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-11-04-johnson-leadership",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "mid-2026-10-31-hegseth-senate-seat",
+      "mid-2026-11-05-congress-control",
+      "ven-2026-11-04-pdvsa-bond-license",
+      "rus-2026-10-31-patriot-sale",
+      "fed-2026-11-05-ap-voter-poll-costs"
+    ],
+    "blocked": [
+      "CNN affiliate article fetch returned 402. The account of Massie’s plans was available via Just Security."
+    ],
+    "checklist": {
+      "recall": "partial: sampled roundups and follow-up reports. Independent 15-headline reconciliation pending.",
+      "duplicates": "partial: checked and merged the election calendar placeholder. Full person and donor scan pending.",
+      "model": "partial: major-shock stance and leverage reviewed. Pattern, roster and filing sweeps pending.",
+      "validation": "done"
+    },
+    "validation_results": "Embedded validator scoped to changed event IDs. Also checked prompt equality, event ID uniqueness and read-back."
+  },
+  "unresolved": [
+    "Election projection: state certifications and outstanding race calls settle the final margins.",
+    "Scalise/Jordan: conference ballot and named endorsements establish the outcome and support.",
+    "Vance/Rubio: candidate endorsements, organization and repeated polling test durable advantage. A direct Rubio statement or dated policy action would establish his response. The AP voter survey supports economic and war salience but cannot establish Vance’s claim of a sole cause.",
+    "Hegseth: House floor record tests Massie’s plan. A White House announcement or resignation establishes a personnel change. On-record or independently corroborated accounts would strengthen the Wiles attribution. Tennessee governor’s appointment settles the Senate question.",
+    "Financial channels: OFAC sets the date for eligible PDVSA bond transactions. Bondholders have a potential transaction channel and Treasury controls timing. Filings or settlement records would establish realized proceeds or recovery. The proposed Patriot sale creates a procurement opportunity and allied funding channel. An award, delivery schedule and transfer records would establish realized revenue and Ukrainian capability. Evidence of decision-maker contact would be needed to credit particular financiers or vendors."
+  ]
+}

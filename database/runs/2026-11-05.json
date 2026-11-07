@@ -1,0 +1,167 @@
+{
+  "added": 2,
+  "summary": "Focused daily intake. Rechecked chamber control and the post-election response, reviewed Israel’s certification and Cook’s postponement, and recorded Trump’s Iran review and Senate preservation notices. The Afghan removal flight and Nov 4 Los Angeles election-enforcement grand jury follow-up remain unreviewed.",
+  "coverage": {
+    "scope": "Nov 4–5 after the Nov 3 daily entry, with Nov 5 backfills and focused decision searches across all ten issues. Full collector index and newsletter enumeration remains outside this run.",
+    "lookbackDays": 2,
+    "sourcesRead": [
+      "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743",
+      "https://www.timesofisrael.com/election-chief-presents-results-to-president-says-casting-doubt-on-them-a-real-danger-to-democracy/",
+      "https://apnews.com/article/a35d13806844d99fda93de0a19de57fa",
+      "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002",
+      "https://www.g20.utoronto.ca/2026/261031-rubio-press-conference.html",
+      "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision",
+      "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3",
+      "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more",
+      "https://kelo.com/2026/10/30/white-house-hearing-on-feds-cook-delayed-to-december-hassett-says/",
+      "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/30/25-5724.pdf"
+    ],
+    "changedEpisodeIds": [
+      "irn-2026-11-02-israel-results-stand",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-11-05-congress-control",
+      "rus-2026-11-05-oleshky-white-house-followup",
+      "irn-2026-11-05-trump-postelection-war-review",
+      "mid-2026-11-05-blumenthal-preservation-notices"
+    ],
+    "reviewedEpisodeIds": [
+      "irn-2026-11-02-israel-results-stand",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "mid-2026-11-05-congress-control",
+      "rus-2026-11-05-oleshky-white-house-followup",
+      "irn-2026-11-05-trump-postelection-war-review",
+      "mid-2026-11-05-blumenthal-preservation-notices",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "mid-2026-11-04-johnson-leadership",
+      "mid-2026-10-31-hegseth-senate-seat",
+      "fed-2026-10-30-cook-hearing-delay"
+    ],
+    "outcomes": {
+      "Chamber control": {
+        "status": "reviewed",
+        "finding": "AP projects Democrats will control both chambers next Congress.",
+        "source": "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743"
+      },
+      "Outstanding election calls and certifications": {
+        "status": "pending",
+        "finding": "Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+        "source": "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743"
+      },
+      "Israel election certification": {
+        "status": "reviewed",
+        "finding": "Results certified and delivered to Herzog Nov 4.",
+        "source": "https://www.gov.il/en/pages/president-herzog-receives-the-official-results-of-the-elections-to-the-26th-knesset-4-november-2026"
+      },
+      "Israel government formation": {
+        "status": "pending",
+        "finding": "Check Herzog’s expected Nov 8 mandate and subsequent coalition support.",
+        "source": "https://apnews.com/article/a35d13806844d99fda93de0a19de57fa"
+      },
+      "Cook Nov 5 hearing": {
+        "status": "reviewed",
+        "finding": "Hassett reported postponement to December. No agreed date verified.",
+        "source": "https://kelo.com/2026/10/30/white-house-hearing-on-feds-cook-delayed-to-december-hassett-says/"
+      },
+      "Cook court filing and hearing": {
+        "status": "pending",
+        "finding": "Check Nov 6 joint proposal and revised hearing date."
+      },
+      "Iran war decision": {
+        "status": "pending",
+        "finding": "Trump reviewed options and says he will decide soon. Look for an order or implementation.",
+        "source": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
+      },
+      "House leadership and Pentagon job pressure": {
+        "status": "pending",
+        "finding": "Check Scalise/Jordan vote, Massie floor action, any personnel decision, and Tennessee appointment.",
+        "source": "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+      },
+      "Succession": {
+        "status": "pending",
+        "finding": "Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+        "source": "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+      },
+      "AI": {
+        "status": "pending",
+        "finding": "Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments."
+      },
+      "Epstein oversight": {
+        "status": "pending",
+        "finding": "Check discharge petition, disclosure activity and DOJ notice of appeal in the Maurene Comey case."
+      },
+      "Immigration court decisions": {
+        "status": "pending",
+        "finding": "Check bond detention, Khalil and the Nov 6 Venezuela TPS stay expiration and mandate.",
+        "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/30/25-5724.pdf"
+      },
+      "Afghan removal flight": {
+        "status": "unreviewed",
+        "finding": "Early-November charter execution not independently verified. Check court or agency records."
+      },
+      "Tariffs": {
+        "status": "pending",
+        "finding": "Check Section 301 ruling, Section 338 litigation and Canadian negotiations."
+      },
+      "Venezuela": {
+        "status": "pending",
+        "finding": "Check OFAC Citgo decision and Nov 11–15 talks."
+      },
+      "Russia": {
+        "status": "pending",
+        "finding": "Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration."
+      },
+      "Election enforcement grand jury": {
+        "status": "unreviewed",
+        "finding": "The reported Nov 4 Los Angeles grand-jury follow-up remains unverified."
+      },
+      "Senate oversight": {
+        "status": "pending",
+        "finding": "Watch for production, subpoenas and committee authority after organization.",
+        "source": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more"
+      }
+    },
+    "watchlist": [
+      "Outstanding election calls and certifications",
+      "Israel government formation",
+      "Cook court filing and hearing",
+      "Iran war decision",
+      "House leadership and Pentagon job pressure",
+      "Succession",
+      "AI",
+      "Epstein oversight",
+      "Immigration court decisions",
+      "Afghan removal flight",
+      "Tariffs",
+      "Venezuela",
+      "Russia",
+      "Election enforcement grand jury",
+      "Senate oversight"
+    ],
+    "unresolved": [
+      "Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+      "Check Herzog’s expected Nov 8 mandate and subsequent coalition support.",
+      "Check Nov 6 joint proposal and revised hearing date.",
+      "Trump reviewed options and says he will decide soon. Look for an order or implementation.",
+      "Check Scalise/Jordan vote, Massie floor action, any personnel decision, and Tennessee appointment.",
+      "Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+      "Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments.",
+      "Check discharge petition, disclosure activity and DOJ notice of appeal in the Maurene Comey case.",
+      "Check bond detention, Khalil and the Nov 6 Venezuela TPS stay expiration and mandate.",
+      "Early-November charter execution not independently verified. Check court or agency records.",
+      "Check Section 301 ruling, Section 338 litigation and Canadian negotiations.",
+      "Check OFAC Citgo decision and Nov 11–15 talks.",
+      "Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration.",
+      "The reported Nov 4 Los Angeles grand-jury follow-up remains unverified.",
+      "Watch for production, subpoenas and committee authority after organization."
+    ],
+    "blocked": [
+      "English Israeli MFA release returned no readable body. Times of Israel provided readable certification reporting."
+    ],
+    "checklist": {
+      "collector": "partial: targeted source and decision searches",
+      "duplicates": "done",
+      "validation": "done"
+    },
+    "validation_results": "0 errors, 3 warnings from embedded validator scoped to changed episodes. Verified collection and prompt integrity and staged serialization."
+  }
+}

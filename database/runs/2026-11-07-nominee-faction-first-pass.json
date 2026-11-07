@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-07",
+  "type": "targeted_nominee_faction_review",
+  "scope": "All five authorized candidates, current faction homes, succession rows and post-election Iran/staffing episodes; targeted online source checks.",
+  "findings": [
+    {
+      "id": "ranking",
+      "finding": "Broad ordering is consistent: Vance has the clearest organization, Rubio a credible alternative, Cruz a narrower competing lane. DeSantis and McEntee require more coalition-building assumptions.",
+      "status": "analytical_judgment"
+    },
+    {
+      "id": "probability_gap",
+      "finding": "Faction evidence does not calibrate precise probabilities. The 1.30-point Rubio–DeSantis gap and McEntee’s 3.90 are particularly assumption-sensitive. No exact reallocation is justified by this consistency pass alone.",
+      "status": "open"
+    },
+    {
+      "id": "mcentee_record",
+      "finding": "Corrected the omission of historical immigration-oriented staffing and strengthened executive-control experience. Confirmed withdrawal drafting/signature involvement in the primary committee record. Do not reduce him to a content creator.",
+      "status": "corrected"
+    },
+    {
+      "id": "current_map",
+      "finding": "Use current faction homes; populist is a dissolved archival faction. Do not invent a unified media/insurgent constituency or automatically assign it to any nominee.",
+      "status": "applied"
+    },
+    {
+      "id": "gates",
+      "finding": "Miller/Wiles transition and Trump endorsement uncertainty affect the channels all contenders must navigate; none is an automatic nomination preference.",
+      "status": "corrected_in_faction_summaries"
+    },
+    {
+      "id": "evidence_not_scores",
+      "finding": "No conversion of legacy faction scores to odds; observed support, ideological preference, business investment, paid clients and prospective coalition transfer remain separate.",
+      "status": "applied"
+    }
+  ],
+  "changedCollections": [
+    "nominations",
+    "factions",
+    "runs"
+  ],
+  "changedFactionIds": [
+    "vance",
+    "hawks",
+    "operation",
+    "maximalists"
+  ],
+  "changedEpisodeIds": [],
+  "probabilityChanges": {
+    "jd_vance": 0,
+    "marco_rubio": 0,
+    "ron_desantis": 0,
+    "ted_cruz": 0,
+    "john_mcentee": 0
+  },
+  "sourcesRead": [
+    "https://www.govinfo.gov/content/pkg/CPRT-117HPRT50118/html/CPRT-117HPRT50118.htm",
+    "https://www.heritage.org/press/former-ppo-director-john-mcentee-joins-project-2025-personnel-database-launches",
+    "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+    "https://www.axios.com/2022/07/23/donald-trump-news-schedule-f-executive-order",
+    "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes",
+    "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Oct2026_KeyResults.pdf",
+    "https://www.realclearpolling.com/polls/president/republican-primary/2028/national",
+    "https://www.axios.com/2026/11/05/vance-maga-power-play-2028"
+  ],
+  "blocked": [
+    "AP Rubio Nov 5 original page inaccessible",
+    "DeSantis Florida Politics November 7 page inaccessible",
+    "Vance original X post 403",
+    "Atlas PDF unsupported content type; methodology landing page read"
+  ],
+  "unresolved_claims": [
+    "This is a targeted consistency review, not a full daily intake or independent verification of the complete attachment.",
+    "Precise five-way weights remain provisional; organization and entry prospects have not been quantitatively calibrated.",
+    "No post-election candidate-support poll was independently verified in this pass. Pre-election polls cannot measure the subsequent repositioning.",
+    "Current donor commitments, state campaign organization and faction transfers to DeSantis or McEntee remain unresolved.",
+    "McEntee’s detailed current Iran/Israel and immigration proposals, and the attachment’s lobbying totals and conduct allegations, were not fully re-audited.",
+    "AP Rubio Nov 5 page and the DeSantis Florida Politics page failed to load; those details remain attributed to prior ledger/attachment evidence.",
+    "The older report/overview and archived faction prose contain stale material; this pass adds dated succession corrections rather than re-auditing all legacy claims."
+  ],
+  "validation": {
+    "nominee_guard": "passed before application",
+    "source_event_faction_references": "checked",
+    "probability_total": 100.0,
+    "roster": "unchanged",
+    "public_events": "unchanged; no publication required",
+    "faction_scores": "unchanged"
+  }
+}

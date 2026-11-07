@@ -1,0 +1,355 @@
+{
+  "blunder": "Defending the war in public ('punch back', Jul 8; 'I wouldn't call it a war', Sep 3) after opposing it in private kept the blessing but handed the restraint lane to Carlson, Greene and Kent (my reading)",
+  "cause": "Dependence: the program is restraint, but the nomination runs through Trump's blessing, so public acts follow Trump (NYT on private opposition; Trump: 'less enthusiastic', Mar 9)",
+  "did": "Islamabad talks (Apr); defended Witkoff (Oct 21); PERM suspensions (Oct 8); letter to an Iranian hardliner to restart talks (Oct 28)",
+  "donors": [
+    [
+      "Thiel",
+      "$15M in 2022, plus $200K+ via Per Aspera",
+      "Vance",
+      "Succession, AI, Iran",
+      "Made Vance and still backs him (Sep 2026). Chairs Palantir (about 3%), whose government sales rose as Maven use doubled. Called the war a mistake (Oct): a strategy call, not anti-war (my reading)."
+    ],
+    [
+      "Rockbridge Network",
+      "Convened 2019 by Thiel and Vance; Turnout for America plans $50M (Sep 2026)",
+      "Vance, Buskirk, Don Jr.",
+      "Succession, midterms",
+      "Donor club for the post-Trump movement; Andreessen and Sacks are members. A Vance nomination is its plan paying off."
+    ],
+    [
+      "1789 Capital (Malik, Buskirk, Rebekah Mercer)",
+      "Hosted $5M+ (Aug 19, Malik's home); led $15M seed in Carlson's network (Oct 2023)",
+      "Vance, Buskirk, Don Jr.; Carlson (past)",
+      "Succession, Iran, AI",
+      "Holds Anduril, Cerebras, PsiQuantum, Polymarket; Don Jr. a partner since Nov 2025. Carlson bought out its stake (Jun 2025), so his tie is social, not money."
+    ],
+    [
+      "RNC and Hamptons donors",
+      "$5M+ at the Aug 19 event",
+      "Vance",
+      "Succession",
+      "As RNC finance chair, Vance holds the 2028 donor list while Trump controls the donors' reason to give (my reading)."
+    ],
+    [
+      "Trump's joint committee",
+      "5% to Vance's PAC",
+      "Vance",
+      "Succession",
+      "A visible sign of Trump's blessing, and a reminder that it is Trump's to give."
+    ],
+    [
+      "Sacks, Andreessen",
+      "Backed his 2022 run; Rockbridge members",
+      "Vance",
+      "Succession, AI",
+      "Want light AI rules and open skilled visas; get a friendly White House voice."
+    ],
+    [
+      "Family ventures",
+      "Kalshi and Polymarket ties; Trump sons' drone makers (Unusual Machines shares rose 27-39% on a WSJ report)",
+      "Don Jr., Buskirk",
+      "Succession, Iran",
+      "The family's business rests on a friendly executive branch, so Don Jr. backs an heir who keeps it (my reading)."
+    ],
+    [
+      "Carlson's audience",
+      "Audience, not money (9% of Republicans often get news from his network, Pew)",
+      "Carlson, Kent",
+      "Iran, succession",
+      "The lane's reach to restraint voters; it is Carlson's, and he can take it to a third party."
+    ],
+    [
+      "Pro-Israel donors",
+      "Uneasy; no payments shown",
+      "None",
+      "Iran, succession",
+      "A gap: Ken Griffin urged Trump not to pick Vance in 2024 and said he would likely back Rubio in 2028 (Fox Business)."
+    ]
+  ],
+  "edges": [
+    [
+      "F4 Hawks and Vance Lane",
+      "Feud",
+      "Iran, Succession",
+      "Reported: Rubio defended Israel's Lebanon strikes while Vance criticized them (June); pro-Israel donors lean Rubio; NYT/Siena Vance 33, Rubio 23 (Oct)",
+      "Reported only",
+      "Rubio sold the June Iran deal; he executes Trump's line"
+    ],
+    [
+      "A1 Deal-Capital and Vance Lane",
+      "Alliance",
+      "Russia, Iran",
+      "Vance defended Witkoff (Oct 21); Vance led Islamabad talks (Apr) while Witkoff and Kushner ran the Doha trip (Jun 30); Witkoff pushed Vance's 2024 pick",
+      "None found",
+      "Vance acts against Tech-Right interests on H-1B"
+    ],
+    [
+      "M2 Vance Lane and Dissenters (outside wing)",
+      "Mixed",
+      "Iran allied; Succession split",
+      "Both oppose the Iran war; Greene, Massie and Kent pushed Carlson to run and floated a third party against Trump's pick (Aug 5); Carlson straddles",
+      "None found",
+      "A third-party run in 2028"
+    ],
+    [
+      "M3 Vance Lane and Tech-Right",
+      "Mixed",
+      "AI, Succession (patrons) allied; Immigration split",
+      "Vance called AI labs' requests for rules a Trojan horse (Sep 14); Thiel, Sacks and Andreessen backed his 2022 run and sit in Rockbridge. Vance suspended PERM filings for eight firms (Oct 8)",
+      "Patron overlap, no coordination shown",
+      "H-1B and the 2028 race"
+    ],
+    [
+      "M4 Maximalists and Vance Lane",
+      "Mixed",
+      "Immigration allied; Succession split",
+      "Vance stood with Miller at the Oct 8 PERM briefing; Bannon calls Vance not tough enough and pushes a third term",
+      "None found",
+      "Whether Trump blesses an heir"
+    ]
+  ],
+  "gained": "Lead on the Iran talks (Islamabad, Apr; Oct 28 letter); RNC finance role; Trump prefers letting talks play out over a post-midterm strike (Axios, Nov 2, provisional); leads Rubio 33-23 (NYT/Siena, Oct 24)",
+  "id": "vance",
+  "legal": [
+    [
+      "Don Jr. and the officials who acted",
+      "Unusual Machines (200,000 shares) then an Army order for 3,500 drone motors; PublicSquare board seat then the CFPB closed the Credova probe; 1789 Capital-linked firms won over $70M in Pentagon contracts; he joined Polymarket’s advisers after the CFTC and DOJ ended probes of the platform. CREW found no clear quid pro quo",
+      "Illegal gratuity or bribery if proven; the conflict law binds the officials who acted, not Don Jr.",
+      "Reported; Warren letters; no probe reported",
+      "Armed Services; House Oversight; inspectors general"
+    ],
+    [
+      "Vance",
+      "No allegation of illegal conduct found",
+      "",
+      "None found",
+      ""
+    ]
+  ],
+  "legalnote": "",
+  "lost": "New Hampshire lead cut from 53-7 to 36-26 (Jul); Carlson apologized for backing Trump (Apr 21) and moved toward a third party (Aug); Kent calls Vance 'too compromised' (Aug 5); Buckley Carlson left Vance's office (Apr)",
+  "members": [
+    [
+      "Vance",
+      "Vice president, RNC finance chair",
+      "Succession, Iran exit, Russia restraint, immigration and H-1B, the Fed and midterm message",
+      "10; leads the Iran talks channel (Oct 28 letter)",
+      "Wants the nomination and believes the program; Thiel and Rockbridge made him; Trump's blessing decides, so public acts follow Trump"
+    ],
+    [
+      "Don Jr.",
+      "Trump's eldest son; 1789 Capital partner",
+      "Succession; restraint appointments; family ventures",
+      "9; election-eve rallies with Vance (Nov 2); hub of the restraint bloc (Semafor, Feb 2025)",
+      "Family ventures need a friendly executive branch; a Vance heir keeps it and keeps 'neocons' out"
+    ],
+    [
+      "Thiel",
+      "Investor; Palantir chairman (home Tech-Right)",
+      "Succession money; Iran (calls the war a mistake, Oct)",
+      "7; 'still a supporter' (Sep 24) but doubts 2028",
+      "Made Vance; Palantir and defense-tech bets profit from rearmament for China, not a Middle East war"
+    ],
+    [
+      "Buskirk",
+      "Rockbridge president; 1789 Capital co-founder",
+      "Succession, money, turnout network",
+      "8; Rockbridge welcome event in Dallas (Sep 2026)",
+      "1789's value rides on access to this White House and the next"
+    ],
+    [
+      "Carlson",
+      "Broadcaster; owns his network",
+      "Iran restraint, Russia restraint, Epstein files, succession",
+      "5; 'I love JD' and Vance 'would not be at war with Iran' (Jul 17), but apologized for backing Trump (Apr 21) and gave a shadow-run monologue (Aug 5)",
+      "Owns his audience outright; restraint is his conviction and his product; 2028 leverage as kingmaker or spoiler"
+    ],
+    [
+      "Kent",
+      "Former NCTC director",
+      "Iran restraint",
+      "3; urged Carlson to run and called Vance 'too compromised' (Aug 5); low confidence",
+      "Resigned over the war at real cost; his career now runs through Carlson and a possible new party, not Vance"
+    ],
+    [
+      "Colby",
+      "Pentagon policy chief (home Pentagon)",
+      "Russia burden-shifting; China first",
+      "4; Vance introduced and lobbied for him (Mar 2025), but he defended the Iran war to the Senate (Mar 3, 2026)",
+      "His doctrine is the lane's; his post depends on Hegseth and Trump, so he defends the war in public"
+    ],
+    [
+      "Surabian",
+      "Strategist",
+      "Succession",
+      "8",
+      "Career tied to Vance's rise; also advises Don Jr."
+    ],
+    [
+      "Chabria",
+      "Adviser",
+      "Succession",
+      "7",
+      "Career tied to Vance's rise"
+    ],
+    [
+      "Erika Kirk",
+      "Turning Point USA CEO",
+      "Succession",
+      "7; endorsed Vance (Dec 18, 2025)",
+      "Turning Point's influence as the campaign's youth arm"
+    ]
+  ],
+  "name": "Vance Lane",
+  "overview": [
+    "The Vance Lane argues that the Republican Party should stop serving the bargain of the last forty years: free movement of capital and labor, open-ended wars, and deference to Wall Street and Silicon Valley incumbents. In its own best terms it is a national-conservative, post-liberal program: a state that takes sides for workers, families and places hollowed out by trade (\"We won't cater to Wall Street. We'll commit to the working man\", Jul 17, 2024); restraint abroad, with Europe paying for its own defense and US power husbanded for China (\"No more undefined missions. No more open-ended conflicts\", May 23, 2025); immigration cut to raise wages and protect cohesion (\"We won't import foreign labor\"); and suspicion of concentrated tech and financial power (\"It's time to break Google up\", 2024). Vance calls himself postliberal (AP, Sep 2024). Carlson is the lane's public voice for the same program; Colby is its doctrine man in the Pentagon.",
+    "The interests that sustain it are a challenger-capital network, not old money. Thiel hired Vance, gave $15M to his 2022 race and convened the 2019 Rockbridge summit with him (Carlson and Rebekah Mercer attended); Buskirk runs Rockbridge and co-founded 1789 Capital with Malik, which seeded Carlson's network (Oct 2023) and took Don Jr. as a partner (Nov 2025). The fit is close (my reading): breaking up Google and attacking Microsoft's visa use hurts incumbents that Thiel- and Andreessen-backed firms compete with; restraint in the Middle East plus rearmament for China is demand for Palantir, Anduril and 1789's defense bets; anti-Wall Street talk targets the Griffin and Singer money that leans Rubio. Trump holds the last key: the blessing, which he kept open on Oct 20.",
+    "Acts depart from words where Trump or patrons would pay. Vance opposed the Iran strike in private (\"no strikes at all\", NYT) but defends the war in public (Sep 3), and Colby defended it to the Senate (Mar 3); the restraint shows up as a talks channel (Islamabad, the Oct 28 letter), not a break. His AI line is deregulation (Paris, Feb 2025), which serves the tech patrons more than the anti-Big-Tech words. He raises money at Malik's Hamptons home (Aug 19). The gap costs him his loudest voices: Carlson apologized for backing Trump (Apr 21) and gave a 'shadow run' monologue (Aug 5), and Kent says Vance is 'too compromised' (Aug 5).",
+    "Precedent (my reading): Robert Taft's 1952 bid. The nationalist, restraint-minded Midwestern wing, skeptical of permanent alliances, lost the nomination to Eisenhower and the Eastern internationalist money. It breaks in two places: Taft was his own principal, while Vance is an heir who needs a sitting president's blessing; and Taft's base was Main Street business, while Vance's patrons are defense-tech and venture financiers who profit from a larger military, just aimed at China."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "Words against Big Tech incumbents ('It's time to break Google up', 2024; praised Lina Khan). On AI: against overregulation (Paris, Feb 2025); labs asking for rules are a 'Trojan horse' (Sep 14). No act found.",
+          "Why the faction does it. The program distrusts concentrated tech power; the patrons want no AI rules that would lock in the big labs.",
+          "Who and why.",
+          "Vance. Posture: anti-Big-Tech populist. Interest: no-rules AI and antitrust against incumbents both serve the challenger firms Thiel, Andreessen and 1789 (Cerebras) back (my reading).",
+          "Carlson. Attacks AI data centers on air (Aug 5): the base's version of the line, with no portfolio behind it.",
+          "Say versus do. Statements only; a former Vance chief of staff joined AI firm Cognition (Oct 30)."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "Transparency in words: the administration 'screwed up the comms' but hid nothing (Rogan, Jul 15). No act found that sped a release.",
+          "Why the faction does it. The program says elites should not escape accountability; an act would cross Trump.",
+          "Who and why.",
+          "Vance. Posture: transparency. Interest: the blessing; silence toward the president.",
+          "Carlson. Posture: the cover-up is real (Jul 2025; Aug 5 monologue). Interest: top content for an audience he owns. Loomer alleged Qatari payments to him; no direct evidence, he denies it.",
+          "Say versus do. Statements only."
+        ],
+        "title": "The Epstein files"
+      }
+    ],
+    "FED": [
+      {
+        "paras": [
+          "Position.",
+          "Sep 3: the Fed should cut. 'We hear you' on costs, while Trump calls affordability a hoax. Election-eve rallies in Ohio and New York with Don Jr. (Nov 2).",
+          "Why the faction does it. The program's economics are cost of living for workers; the message softens Trump without contradicting him.",
+          "Who and why.",
+          "Vance. Posture: the workers' voice on costs. Interest: as RNC finance chair a Nov 3 loss lands on his 2028 record.",
+          "Carlson. Proposed restructuring consumer debt (Aug 5): the program's populist edge, stated outside the party.",
+          "Say versus do. No act behind the Fed line; the rallies and money are acts."
+        ],
+        "title": "The Fed and the midterm message"
+      }
+    ],
+    "IMM": [
+      {
+        "paras": [
+          "Position.",
+          "Program: fewer workers imported to raise wages ('We won't import foreign labor', Jul 17, 2024). Oct 2: would support ending H-1B. Oct 8: eight firms suspended from PERM; Oct 17: recast as aimed at employers.",
+          "Why the faction does it. Restriction is core to the national-conservative program and to the 2028 base.",
+          "Who and why.",
+          "Vance. Posture: end H-1B. Interest: the suspensions hit Microsoft, Adobe and Indian outsourcers, incumbents his venture patrons compete with, not Thiel- or Musk-network firms (my reading); Trump honored Nadella the same day.",
+          "Thiel, Andreessen, Sacks. Want skilled visas open for their portfolios: the clearest place the program and the patrons pull apart.",
+          "Carlson. Restrictionist on air; no stake found.",
+          "Say versus do. A real act, aimed where it costs the lane least; the act is scored to the Maximalists."
+        ],
+        "title": "Immigration and H-1B"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "On July 15, 2024, hours after Trump picked him as his running mate, Vance told Hannity that if the U.S. struck Iran it should strike hard, and cited Trump's strike on Qassem Soleimani approvingly. Later, restraint in private and deference in public. Before the Feb 28 launch Vance 'was for no strikes at all' and warned of regional chaos, a coalition split and the munitions gap (NYT, reported); Trump said he was 'less enthusiastic' (Mar 9). In public: 'punch back' (Jul 8), 'I wouldn't call it a war' (Sep 3). Led the Islamabad talks (Apr) and the Swiss follow-up; letter to an Iranian hardliner (Oct 28, reported); 'progress' (Nov 3).",
+          "Later policy goal: avoid opening or widening a Middle East war and preserve capacity for China. Political goal: remain a viable successor to Trump. Leading negotiations advances the restraint agenda and gives Vance a chance to demonstrate leadership while staying in Trump's coalition. That second motive is an inference.",
+          "Who and why.",
+          "Vance reportedly opposed the initial strikes in private, defended the administration in public, and led talks. Islamabad ended without a deal. The June agreement was a provisional policy gain and collapsed in July. The reported October letter shows renewed outreach. These actions establish a negotiating role. The ledger does not establish a resulting gain in nomination support.",
+          "Carlson. Posture: says what Vance argues privately ('disgusting and evil', Feb 28; Vance 'would not be at war with Iran', Jul 17). Interest: owns his network, so the line costs him nothing and grows his audience.",
+          "Kent. Posture: no imminent threat, blames Israel's lobby. Interest: resigned at real cost (Mar 17); now his platform is Carlson's lane, which calls Vance compromised.",
+          "Thiel backed Vance and called the war a mistake, according to the ledger. Thiel's Palantir stake and defense holdings in the wider 1789 network create financial exposure to military demand. Record that exposure alongside his stated position. The cited material leaves the backers' role in Vance's Iran decisions unresolved. Colby defended the war from inside the Pentagon.",
+          "A cut in Israel aid (Trump, Nov 3) is not a lane win: it removes a US brake while the US keeps the exposure (my reading, per the aid-as-leverage lesson).",
+          "Evidence: reported pre-strike opposition (NYT, as recorded), Trump's March 9 account, and ledger events irn-2026-04-07-95df20, irn-2026-06-17-205ee7, irn-2026-07-08-51c93a and irn-2026-10-28-vance-letter. Nomination-night interview: https://www.foxnews.com/video/6358113662112.",
+          "Stance audit. At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations. Compare the Hannity interview, the reported private advice and the dated negotiations. The June agreement later collapsed. Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives. Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Sep 3: the Fed should cut. 'We hear you' on costs, while Trump calls affordability a hoax. Election-eve rallies in Ohio and New York with Don Jr. (Nov 2).",
+          "Why the faction does it. The program's economics are cost of living for workers; the message softens Trump without contradicting him.",
+          "Who and why.",
+          "Vance. Posture: the workers' voice on costs. Interest: as RNC finance chair a Nov 3 loss lands on his 2028 record.",
+          "Carlson. Proposed restructuring consumer debt (Aug 5): the program's populist edge, stated outside the party.",
+          "Say versus do. No act behind the Fed line; the rallies and money are acts."
+        ],
+        "title": "The Fed and the midterm message"
+      }
+    ],
+    "RUS": [
+      {
+        "paras": [
+          "Position.",
+          "Apr 14: proud of ending aid; with Colby set the burden-shifting line. Oct 21: defended Witkoff. Oct 30: Colby reportedly told a Baltic official Europeans should avoid 'poking' Russia.",
+          "Why the faction does it. The program: Europe should pay for its own defense and US power should go to China. It costs no patron, and it keeps Deal-Capital (Witkoff, Kushner) as allies.",
+          "Who and why.",
+          "Vance. Posture and interest align: restraint is his program and the base's, at no cost to Trump.",
+          "Colby. Doctrine, consistently held; his post lets him act on it.",
+          "Carlson. Interviewed Putin (Feb 2024) and sells the same line to his audience.",
+          "Say versus do. Burden-shifting is an act (Colby); the rest is statement."
+        ],
+        "title": "Russia and Ukraine"
+      }
+    ],
+    "SUC": [
+      {
+        "paras": [
+          "Position.",
+          "Undeclared; will talk to Trump after Nov 3. RNC finance chair; raised $5M+ at Malik's home (Aug 19). Leads Rubio 33-23 (NYT/Siena, Oct 24), while Trump holds the question open (Oct 20).",
+          "Primary political goal: become president by winning the Republican nomination and inheriting Trump's coalition. Fundraising capacity, endorsements, and a durable turnout network are intermediate gains. Advancing the national-conservative policy program is a separate goal.",
+          "Who and why.",
+          "Thiel's prior campaign support, the Rockbridge network, and the fundraiser at Malik's home help Vance build a nomination coalition. The RNC finance chair role offers a fundraising platform. For backers around Rockbridge and 1789, access and influence in a future administration are plausible political returns. Their portfolio interests are separate financial stakes. Trump's eventual endorsement remains unresolved in the export.",
+          "Don Jr. Pushed the 2024 pick (CNN, Jul 2024); hub of the restraint bloc (Semafor). Interest: 1789 partner (Nov 2025) and adviser to firms that later got government benefits; a Vance presidency keeps the family's access (my reading). CREW found no clear quid pro quo.",
+          "Buskirk. Runs Rockbridge and co-founded 1789, whose portfolio firms reportedly won $70M+ in Pentagon contracts (Warren's office).",
+          "Carlson. Pushed the 2024 pick; 'I'll support the best person' (Jun 25). Interest: he owns his audience and keeps a 2028 exit open, so he is both kingmaker and possible spoiler.",
+          "Kent. Urged Carlson to run because Vance is 'too compromised' (Aug 5): on succession his acts serve the outside wing.",
+          "Surabian, Chabria: careers rise with Vance. Erika Kirk: Turning Point's influence.",
+          "Observed gains: the RNC finance role and the reported August fundraiser. Thiel's September statement indicates continued support. These establish organization and backing. The nomination and presidency remain open. Evidence: suc-2025-03-58b7aa, suc-2026-08-19-b59801 and suc-2026-09-24-11ac54.",
+          "Nov 7 nominee/faction consistency review: the public Nov 4 Iran postmortem supplies an immediate succession argument, while earlier war defenses leave credibility exposure. Don Jr.’s backing concerns that message. Do not wait for a policy change to recognize positioning, and do not claim measured support gains. Evidence: irn-2026-11-04-vance-postelection-war-critique. This updates the pre-election succession paragraph above."
+        ],
+        "title": "Succession"
+      }
+    ],
+    "VEN": [
+      {
+        "paras": [
+          "Position.",
+          "Doubted the raid beforehand ('all of us were kind of skeptical', said afterward); cast the 51-50 tie-break that blocked the war powers resolution (January); 'stolen oil must be returned'.",
+          "Why the faction does it. The program dislikes regime change, but the vote was Trump's to win.",
+          "Who and why.",
+          "Vance. Posture: defends the raid. Interest: the blessing; the tie-break is the clearest act of public deference on record.",
+          "Say versus do. Doubt in words; the act backed the operation.",
+          "Stance audit. Vance expressed skepticism about the raid and then cast the tie-break against the war-powers resolution. The vote is a consequential act. The retrospective remark describes skepticism but does not date or define a prior commitment to the resolution. Loyalty to Trump can protect succession standing. The ledger supplies no evidence of donor direction on this vote. Behavior favored Trump when institutional restraint was at stake. Political accommodation is plausible. The remarks and vote address different decisions."
+        ],
+        "title": "Venezuela"
+      }
+    ]
+  },
+  "short": "Vance Lane",
+  "wants": "Win the presidency by becoming Trump's successor and building a nomination coalition. Separately pursue tighter immigration, policies favoring workers and families, competition with incumbent technology firms, and restraint abroad with a focus on China.",
+  "weak": "The program and the patrons pull apart on visas and defense spending; the restraint voices (Carlson, Kent) are drifting to a third party; and Trump, not the lane, holds the blessing (Oct 20)",
+  "why": "Political power is the central prize. Thiel's backing and the Rockbridge and 1789 Capital networks supply money, turnout capacity, and access. Their technology and defense investments create policy stakes that can pull against restraint or other program goals. Track Trump's endorsement, donor support, and policy concessions separately. Malik's role as fundraiser host and his ties to Vance's donor network give him and his circle a channel into the succession coalition. That is political representation through access and coalition building. The relationship matters independently of any contribution by Malik or 1789 Capital. Influence over individual policy decisions needs decision-specific evidence.",
+  "win": "Led the Islamabad talks (Apr) and the Swiss follow-up after the June memorandum (Jun 17); RNC finance chair and the Aug 19 fundraiser"
+}

@@ -1,0 +1,838 @@
+{
+  "added": 77,
+  "coverage": {
+    "blocked": [
+      "Just Security Early Edition all weekdays except Oct 9: client_error",
+      "TVG Oct 2, 5, 6: client_error",
+      "Memeorandum archives 261024-261029: client_error",
+      "GDELT API: client_error",
+      "State press-releases page 3: client_error",
+      "Treasury press-release pagination returns page 1 again",
+      "Federal Register PRESDOCU API stale (newest Jul 31)",
+      "WhiteHouse Canada proclamation URL: PROXY_REJECTED url exceeds maximum fetchable length",
+      "NPR, Bloomberg, Semafor: robots_disallowed",
+      "WebSearch budget (200 per turn) exhausted during article-text step"
+    ],
+    "checklist": {
+      "analysts": "done",
+      "articleText": "partial: WebSearch budget (200 per turn) exhausted; six items remain headline only",
+      "collectors": "partial: Just Security client_error all days but Oct 9; Treasury paging broken and State page 3 client_error left Treasury Sep 30-Oct 13 and State Oct 14-16, 21-25 unseen; completion pass run once",
+      "legal3": "done",
+      "newsletters": "done",
+      "queue": "done",
+      "recall": "done",
+      "runDoc": "done",
+      "triage": "done",
+      "validator": "done",
+      "watch10": "done",
+      "window": "done",
+      "writes": "done"
+    },
+    "deviations": [
+      "Analysts received prompts/analysis-rules and prompts/db-shape as files to read in full rather than pasted inline (size).",
+      "Inbox document lists digest and official items as compact headline lines; full collector returns are in the run scratchpad only.",
+      "A completion pass added three Oct 1-8 OFAC actions (two Iran, one Venezuela) analyzed by the orchestrator, not an analyst, at weight 2.",
+      "Unplaced: OFAC designated the International Criminal Court itself (Oct 9) and Nicaragua refused the US ambassador (Oct 13); no tracked issue fits."
+    ],
+    "fxStats": {
+      "empty": 20,
+      "emptyWithReason": 20,
+      "scored": 14
+    },
+    "gaps": [
+      {
+        "gap": "Just Security Early Edition, all weekdays but Oct 9",
+        "routes": [
+          {
+            "route": "direct URL",
+            "tried": "early-edition-{month}-{day}-2026",
+            "whyItFailed": "client_error"
+          },
+          {
+            "route": "title search",
+            "tried": "Early Edition {Month} {day}, 2026",
+            "whyItFailed": "2025 and other dates only"
+          },
+          {
+            "route": "other outlet",
+            "tried": "TVG same days; Just Security podcast feed",
+            "whyItFailed": "TVG read instead; podcast has no show notes"
+          }
+        ]
+      },
+      {
+        "gap": "Treasury releases Sep 30-Oct 13; State Oct 14-16, 21-25",
+        "routes": [
+          {
+            "route": "index paging",
+            "tried": "?page=2..8; /page/3/",
+            "whyItFailed": "Treasury paging returns newest items; State page 3 client_error"
+          },
+          {
+            "route": "other index",
+            "tried": "OFAC recent actions",
+            "whyItFailed": "covers sanctions only (read in full)"
+          },
+          {
+            "route": "other outlet",
+            "tried": "TVG and Al Jazeera items",
+            "whyItFailed": "partial cover only"
+          }
+        ]
+      },
+      {
+        "gap": "Six kept headlines without readable copies",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "Playbook PM",
+            "whyItFailed": "not covered"
+          },
+          {
+            "route": "wire copy search",
+            "tried": "headline plus date",
+            "whyItFailed": "search budget exhausted"
+          },
+          {
+            "route": "other outlet",
+            "tried": "one search each",
+            "whyItFailed": "none found or budget exhausted"
+          }
+        ]
+      }
+    ],
+    "knownBlockedSkipped": [
+      "Reuters",
+      "AP",
+      "Politico",
+      "Guardian",
+      "BBC",
+      "Google News",
+      "MSN",
+      "The Hill pages",
+      "CBS live updates",
+      "war.gov",
+      "dhs.gov"
+    ],
+    "lookbackDays": 31,
+    "methodAudit": {
+      "foundOnlyByNewsletters": [
+        "Bloomberg $36M",
+        "Cook ratings shifts",
+        "State halts INL aid to Ukraine",
+        "Afghan deportations via Pakistan",
+        "DOJ prosecution-warning letters",
+        "Reses to Cognition",
+        "Golf Links special master"
+      ],
+      "foundOnlyByRecall": [
+        "CDC Ebola travel bar",
+        "EP Houthi listing call",
+        "EP Black Sea naval call",
+        "NDAA streak (headline)",
+        "Senators press Kalshi/Polymarket (headline)"
+      ],
+      "foundOnlyByTips": [],
+      "headlineOnly": [
+        "Habba Oct 29 NYT",
+        "Politico economy unleashed",
+        "Politico diminished Trump",
+        "NDAA streak",
+        "Oct 30 Hormuz mines/Houthi claims",
+        "INL aid halt"
+      ],
+      "proposedFix": "Add https://www.europarl.europa.eu/news/en to the world collector's pages; TVG template corrected in prompts/digest and prompts/sources (done); next run re-check the six headline-only items first, before search budget is spent.",
+      "rootCause": "No collector reads the European Parliament press room, and The Hill is blocked; TVG URL template used a leading zero, so earlier runs missed TVG for days 1-9."
+    },
+    "perIssue": {
+      "AI": "found 15",
+      "EPS": "found 1",
+      "FED": "found 7",
+      "IMM": "found 11",
+      "IRN": "found 19",
+      "MID": "found 18",
+      "RUS": "found 11",
+      "SUC": "found 2",
+      "TAR": "found 9",
+      "VEN": "found 4"
+    },
+    "propagation": {
+      "ai-2026-09-29-9accc1": [
+        "events/AI (ai-2026-10-28-trump-bans-ai-term context)"
+      ],
+      "ai-2026-09-30-autonomous-warfare-command": [
+        "factions/pentagon",
+        "people/all (hegseth)"
+      ],
+      "ai-2026-10-14-doe-pjm-data-centers": [
+        "meta/channels"
+      ],
+      "ai-2026-10-16-sandbox-guidance": [
+        "none: confirms the stored voluntary-review line; no stance, holder or policy line changes"
+      ],
+      "ai-2026-10-20-pentagon-neutrality-templates": [
+        "factions/pentagon",
+        "meta/stances",
+        "issues/AI",
+        "meta/queue"
+      ],
+      "eps-2026-10-26-maurene-comey-ruling": [
+        "factions/maximalists",
+        "issues/EPS",
+        "people/all",
+        "meta/queue"
+      ],
+      "fed-2026-10-05-diesel-tax-relief": [
+        "issues/FED",
+        "meta/channels"
+      ],
+      "fed-2026-10-22-housing-eo": [
+        "issues/FED",
+        "meta/channels"
+      ],
+      "imm-2026-10-13-birth-tourism-cable": [
+        "issues/IMM"
+      ],
+      "imm-2026-10-16-noem-envoy-ends": [
+        "people/all"
+      ],
+      "imm-2026-10-21-worship-standing": [
+        "issues/IMM"
+      ],
+      "imm-2026-10-22-lewandowski-ig-referral": [
+        "people/all",
+        "meta/legal",
+        "issues/IMM",
+        "events/MID (5c42b4 corrected)"
+      ],
+      "imm-2026-10-26-cdc-congo-travel": [
+        "meta/world",
+        "issues/IMM"
+      ],
+      "imm-2026-10-29-caravan-visa-bans": [
+        "none: unnamed targets and no measurable policy change; no stored belief moves"
+      ],
+      "irn-2026-10-08-murphy-al-udeid": [
+        "people/all (chris-murphy added)",
+        "factions/pentagon (did)",
+        "issues/IRN (pending)"
+      ],
+      "irn-2026-10-10-ocean-molica": [
+        "factions/pentagon (gained, did)",
+        "meta/stances (Iran, Pentagon)",
+        "people/all (cooper pattern)"
+      ],
+      "irn-2026-10-15-economic-outcast": [
+        "factions/treasury (gained, did)",
+        "meta/stances (Iran, Treasury)",
+        "issues/IRN (pending)",
+        "people/all (bessent pattern)"
+      ],
+      "irn-2026-10-21-outcast-shadow-fleet": [
+        "factions/treasury (did)",
+        "meta/stances (Iran, Treasury)",
+        "people/all (bessent pattern)"
+      ],
+      "irn-2026-10-29-sylvia-leak": [
+        "events/IRN (bf11 folded)",
+        "people/all (brett-sylvia)",
+        "meta/legal (sylvia-leak-referral)",
+        "meta/stances (Iran, Pentagon)"
+      ],
+      "mid-2026-10-09-hutchinson-grand-jury": [
+        "factions/maximalists",
+        "people/all",
+        "meta/legal"
+      ],
+      "mid-2026-10-13-guilfoyle-resigns": [
+        "factions/operation",
+        "people/all",
+        "meta/legal"
+      ],
+      "mid-2026-10-14-bf21": [
+        "none: correction of text and tier only; existing party +1 tag and stored party gain line stand"
+      ],
+      "mid-2026-10-14-press-ban-injunction": [
+        "factions/operation",
+        "issues/MID",
+        "meta/queue"
+      ],
+      "mid-2026-10-28-peltola-spoiler": [
+        "issues/MID",
+        "factions/party",
+        "meta/stances",
+        "people/all",
+        "meta/legal",
+        "meta/queue"
+      ],
+      "mid-2026-10-29-doj-alaska-ca": [
+        "issues/MID (context only)"
+      ],
+      "mid-2026-10-30-doj-preservation-letters": [
+        "issues/MID",
+        "factions/maximalists"
+      ],
+      "rus-2026-10-21-02021f": [
+        "issues/RUS (pending)"
+      ],
+      "rus-2026-10-29-refinery-pause": [
+        "factions/deal-capital (gained, did)",
+        "factions/operation (gained)",
+        "meta/stances (Russia, Deal-Capital)",
+        "issues/RUS (pending)",
+        "people/all (kushner)",
+        "meta/world",
+        "none for meta/policy: single outlet, kept in pending"
+      ],
+      "tar-2026-10-07-anduril-shipyard-stake": [
+        "factions/pentagon",
+        "meta/channels",
+        "meta/queue"
+      ],
+      "tar-2026-10-21-offshore-wind-remands": [
+        "none: remand requests pending; no ruling, so no faction, policy or stance changes; Burgum and Interior already modeled"
+      ],
+      "tar-2026-10-23-8e3abd": [
+        "events/TAR (merge 469deb)",
+        "issues/TAR",
+        "factions/dissenters",
+        "factions/party",
+        "meta/motives"
+      ],
+      "tar-2026-10-26-alibaba-injunction": [
+        "factions/pentagon",
+        "meta/stances",
+        "issues/TAR",
+        "issues/AI",
+        "people/all (hegseth)",
+        "meta/queue"
+      ],
+      "ven-2026-10-14-jorge-rodriguez-delisted": [
+        "people/all (jorge-rodriguez, delcy-rodriguez added)",
+        "factions/hawks (gained)",
+        "factions/treasury (did)",
+        "meta/stances (Venezuela, Treasury)",
+        "issues/VEN (pending)"
+      ],
+      "ven-2026-10-27-rubio-machado": [
+        "meta/policy (Venezuela)",
+        "issues/VEN (pending)",
+        "meta/stances (Venezuela, Treasury)",
+        "people/all (alex-saab, delcy-rodriguez added)"
+      ]
+    },
+    "queries": 200,
+    "queue": {
+      "captured": 22,
+      "triaged": 0
+    },
+    "sourcesRead": [
+      "Politico Playbook PM Oct 30 (Gmail)",
+      "TVG Daily Brief Oct 1,7,8,9,12-16,19-23,26-30",
+      "Just Security Early Edition Oct 9",
+      "White House releases p1-4",
+      "White House presidential actions p1-2",
+      "Treasury press releases p1,p4",
+      "OFAC recent actions (full window)",
+      "State press releases p1-2 and partial later pages",
+      "Justice news p1",
+      "Federal Reserve 2026 releases",
+      "Memeorandum",
+      "NewsNow",
+      "Ground News (stale Oct 27)",
+      "RealClearPolitics",
+      "Al Jazeera",
+      "Euronews",
+      "Anadolu",
+      "Times of Israel",
+      "CBS politics",
+      "DefenseScoop",
+      "SOFX",
+      "Federal News Network",
+      "European Parliament press room (recall)",
+      "The Hill sitemap (recall)",
+      "article copies: Hawaii Tribune-Herald, Stars and Stripes, Military Times, Baird Maritime, Maritime Executive, Gulf News, GMA/ABC, Al Jazeera, Boston Globe, GV Wire, Kurdistan24, Star-Advertiser, Ynet, local12, Business Today, Euronews, Kyiv Post, i24NEWS, anews, Spotlight PA, The Standard, IBTimes, SCOTUSblog, PBS, KAXE, NY1, Newsweek, Fox19, KSAT, Daily Beast, fox10tv, VisaVerge, Spectrum News, InsideFlyer, First Trust, Fox News, NewsBytes, Philadelphia Inquirer, The National, CyberScoop, The Edge, Nextgov, TechCrunch, DefenseScoop, WSOC, WAMC, BEA, ABC News, Virginia Business, TMJ4, Breaking Defense, Live5, FPJ, Just The News, Fox Business, Flexport, KATV, NBC Connecticut, Front Office Sports"
+    ],
+    "thinDays": [
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-10",
+      "2026-10-11",
+      "2026-10-17",
+      "2026-10-18",
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "watched": [
+      "Scott Bessent",
+      "JD Vance",
+      "Donald Trump Jr.",
+      "Kevin Hassett",
+      "Jamieson Greer",
+      "Larry Ellison",
+      "Miriam Adelson",
+      "Kristi Noem",
+      "Tulsi Gabbard",
+      "Corey Lewandowski"
+    ],
+    "window": "2026-09-30..2026-10-30 (no complete prior run, so 30-day rule)"
+  },
+  "earlierRuns": [
+    {
+      "added": 36,
+      "coverage": {
+        "blocked": [
+          "Reuters",
+          "AP",
+          "Politico",
+          "Guardian",
+          "BBC",
+          "CNN",
+          "Axios",
+          "WaPo",
+          "CNBC",
+          "war.gov (empty)",
+          "defense.gov",
+          "DHS and ICE pages (stale)",
+          "justice.gov page 2",
+          "NPR politics (stale)",
+          "Times of Israel (stale)",
+          "Everything Briefing (2023 pages, paywalled)",
+          "TVG Oct 24 and 25",
+          "Early Edition Oct 27 and 30"
+        ],
+        "checklist": {
+          "criticalRead": "done",
+          "fxScoring": "done",
+          "gapRule": "done",
+          "legal": "partial: 4 searches, no change",
+          "lookback30OrSinceLastRun": "done: 8 days Oct 23-30 as requested",
+          "methodAudit": "done",
+          "mondayItemsIfMonday": "done: not Monday",
+          "motivesOneNewIssue": "skipped: Tariffs motives entry not written",
+          "passA": "partial: Qatar delegation and Oct 29 OFAC license unconfirmed",
+          "passB": "done",
+          "passC": "done",
+          "passD": "partial: SUC, EPS, VEN thin",
+          "passD2": "partial: intel, Congress, courts, State rely on headlines",
+          "passE": "partial: not run for the Alaska and Colby items",
+          "patterns": "skipped: not re-checked",
+          "peopleDonors": "partial: Griffin, Meta, Kalshi, Hegseth, Wiles, 3 people added",
+          "propagation": "partial: hawks, stances, holders, motives not revised",
+          "queue": "done",
+          "reportRevisions": "partial: issue lines, faction did/weak, people and donors only",
+          "stage1Enumeration": "partial: Oct 24-25 no US-politics digest (three routes recorded)",
+          "stage1RecallSample": "partial: first sample had 7 misses, all added; no fresh clean sample",
+          "watchPass10": "done",
+          "worldItems": "skipped: not updated"
+        },
+        "deviations": [
+          "Everything Briefing digests are 2023 pages or paywalled; Oct 24 and 25 have no US-politics digest (three routes recorded).",
+          "Recall sample not clean: the second index (Al Jazeera) and the agency indexes showed 7 misses on the first pass today; a fresh clean sample of 10 was not run after the final additions.",
+          "Intelligence, Congress, courts and State sweeps rest largely on headlines; Supreme Court emergency docket Oct 23-30 not checked.",
+          "Watch pass names produced one dated donor change (Griffin) plus a Meta and Kalshi note; no other person or donor record changed; Wiles Oct 17 defense not confirmed.",
+          "Legal exposure: 4 targeted searches found no dated change; meta/legal not changed. Louise Lucas, Floris and Benavides charges were not added to meta/legal.",
+          "Report text, stances, holders, motives and patterns were not revised; the Tariffs motives entry was not added.",
+          "Q3 GDP claim and OFAC Oct 29 license content unverified."
+        ],
+        "fxStats": {
+          "empty": 17,
+          "emptyWithReason": 17,
+          "scored": 6
+        },
+        "gaps": [
+          {
+            "gap": "Digests for Oct 24 and 25 (weekend)",
+            "routes": [
+              {
+                "route": "title search / guessed URL",
+                "tried": "TVG Daily Brief 24 and 25 Oct 2026 direct fetch; Early Edition titles",
+                "whyItFailed": "TVG pages returned client errors; Early Edition has no weekend issue"
+              },
+              {
+                "route": "archive/index",
+                "tried": "TVG archive (lists nothing after Oct 22 in the first pass), Just Security category page",
+                "whyItFailed": "archive stale; category page error"
+              },
+              {
+                "route": "other outlets",
+                "tried": "CBS, Iran International and RFE/RL live blogs, Oct 26 Early Edition weekend recap",
+                "whyItFailed": "read, but Iran-heavy; no US-politics digest for those days"
+              }
+            ]
+          },
+          {
+            "gap": "Just Security Early Edition Oct 27 and Oct 30",
+            "routes": [
+              {
+                "route": "direct URL",
+                "tried": "justsecurity.org early-edition-october-27-2026 and -30-2026",
+                "whyItFailed": "client errors"
+              },
+              {
+                "route": "title search",
+                "tried": "Early Edition October 27, 2026 and Oct. 27",
+                "whyItFailed": "returned 2025 episodes only"
+              },
+              {
+                "route": "other outlets",
+                "tried": "TVG Oct 27 and 28, Fox and RFE/RL live blogs, NPR via St. Louis Public Radio",
+                "whyItFailed": "read; Oct 27 has TVG plus two live blogs, so covered by independent sources, only the Early Edition is missing"
+              }
+            ]
+          },
+          {
+            "gap": "OFAC Iran-related general license of Oct 29 (contents)",
+            "routes": [
+              {
+                "route": "search by title/date",
+                "tried": "OFAC amended Iran general license October 29 2026",
+                "whyItFailed": "only the July 7 bulletin (GL X1) surfaced"
+              },
+              {
+                "route": "index page",
+                "tried": "ofac.treasury.gov recent-actions (title only listed)",
+                "whyItFailed": "lists the title but no text read"
+              },
+              {
+                "route": "other outlet",
+                "tried": "Steptoe weekly sanctions update Oct 26 and Oct 30",
+                "whyItFailed": "only earlier editions found"
+              }
+            ]
+          },
+          {
+            "gap": "Hungary-US MOU Oct 29 contents",
+            "routes": [
+              {
+                "route": "search",
+                "tried": "Hungary US MOU energy law enforcement Oct 29",
+                "whyItFailed": "no article found"
+              },
+              {
+                "route": "index page",
+                "tried": "state.gov press releases (title only)",
+                "whyItFailed": "remarks not read"
+              },
+              {
+                "route": "other outlet",
+                "tried": "TVG Oct 30 and Law360 headline",
+                "whyItFailed": "one-line mention only"
+              }
+            ]
+          },
+          {
+            "gap": "Reuters NATO exclusive original date",
+            "routes": [
+              {
+                "route": "search by title",
+                "tried": "several title variants",
+                "whyItFailed": "original not readable"
+              },
+              {
+                "route": "outlet page",
+                "tried": "reuters.com",
+                "whyItFailed": "blocked"
+              },
+              {
+                "route": "other outlet",
+                "tried": "Sri Lanka Guardian reprint (read, dated Oct 30); nv.ua and sana.sy",
+                "whyItFailed": "reprint date only; the other two errored or were blocked"
+              }
+            ]
+          },
+          {
+            "gap": "Wiles defense Oct 17",
+            "routes": [
+              {
+                "route": "search",
+                "tried": "Wiles defense Oct 17 2026",
+                "whyItFailed": "found only Trump and spokesperson denials Oct 15-16"
+              },
+              {
+                "route": "outlet page",
+                "tried": "Voz.us article and Atlanta Black Star Oct 18",
+                "whyItFailed": "no Wiles statement in either"
+              },
+              {
+                "route": "other outlet",
+                "tried": "CNN interview coverage",
+                "whyItFailed": "quotes are Trump's"
+              }
+            ]
+          }
+        ],
+        "lookbackDays": 8,
+        "methodAudit": {
+          "foundOnlyByStage1": [
+            "robotics 232",
+            "NC voting charges",
+            "DHS data leak",
+            "Medicaid ruling",
+            "DPA petroleum",
+            "wind 232",
+            "Hegseth betting memo",
+            "Ninth Circuit ballots ruling",
+            "Lucas charge",
+            "Floris/Benavides charges",
+            "outbound-investment rule",
+            "NM Meta ruling"
+          ],
+          "foundOnlyByStage2": [
+            "ADS heat-ray loan",
+            "Colby NATO exclusive (named by the reviewer)"
+          ],
+          "missedByBoth": [
+            "Hegseth betting memo (named by the reviewer)",
+            "Reuters NATO tone-down exclusive (named by the reviewer)",
+            "FORTRESS and base freezer cyberattack (named by the reviewer earlier today)"
+          ],
+          "proposedFix": "Read the Just Security Early Edition (direct URL pattern justsecurity.org/early-edition-october-DD-2026/) and TVG (direct URL pattern theverardogroup.substack.com/p/tvg-daily-brief-DD-oct-2026) every day by guessed URL, since title search fails; read DefenseScoop and Euronews index pages daily; search for Reuters exclusives through local-news reprints. Repeat of an earlier miss: yes, FORTRESS-type Pentagon items; the fix now changes what Stage 1 reads.",
+          "rootCause": "Earlier runs read two digests and ledger-keyed queries only; the betting memo was on DefenseScoop and in the Oct 23 Early Edition, the NATO exclusive on a wire index no run could read, so neither matched a query or a readable index.",
+          "stage1": {
+            "headlinesTriaged": 300,
+            "kept": 45,
+            "recallSample": {
+              "items": [
+                "Medicaid ruling",
+                "DHS data leak",
+                "robotics 232",
+                "wind 232",
+                "DPA petroleum",
+                "NC voting charges",
+                "ADS loan"
+              ],
+              "missingFromLedgerOrTriage": 7,
+              "sampled": 15
+            },
+            "sourcesEnumerated": [
+              "Treasury",
+              "OFAC",
+              "State",
+              "White House",
+              "Justice",
+              "Fed",
+              "DefenseScoop",
+              "Federal News Network",
+              "Just Security",
+              "SOFX",
+              "Al Jazeera",
+              "Euronews",
+              "TVG",
+              "Early Edition"
+            ]
+          },
+          "stage2": {
+            "itemsKept": 19
+          }
+        },
+        "perIssue": {
+          "AI": "found 3",
+          "EPS": "found 1",
+          "FED": "found 3",
+          "IMM": "found 4",
+          "IRN": "found 8",
+          "MID": "found 13",
+          "RUS": "found 5",
+          "SUC": "searched, nothing found (Wiles report logged under midterms)",
+          "TAR": "found 5",
+          "VEN": "found 3"
+        },
+        "propagation": {
+          "ai-2026-10-21-meta-nm-25b": [
+            "donors/all (meta)",
+            "issues/AI"
+          ],
+          "fed-2026-10-22-dpa-petroleum": [
+            "issues/FED"
+          ],
+          "imm-2026-10-21-ads-dhs-loan": [
+            "issues/IMM"
+          ],
+          "imm-2026-10-28-dhs-data-leak": [
+            "issues/IMM"
+          ],
+          "imm-2026-10-28-refugee-rule-blocked": [
+            "none: single-source, temporary hold; no stored belief changed"
+          ],
+          "irn-2026-09-30-fortress": [
+            "events",
+            "factions/pentagon",
+            "issues/IRN"
+          ],
+          "irn-2026-10-20-hegseth-betting-memo": [
+            "factions/pentagon (did)",
+            "people/all (hegseth)",
+            "issues/IRN"
+          ],
+          "irn-2026-10-26-tehran-talks": [
+            "none: already propagated Oct 29"
+          ],
+          "irn-2026-10-28-vance-letter": [
+            "factions/vance",
+            "meta/stances",
+            "issues/IRN"
+          ],
+          "irn-2026-10-29-freezer-cyber": [
+            "issues/IRN"
+          ],
+          "irn-2026-10-29-sylvia-leak": [
+            "events",
+            "factions/pentagon",
+            "issues/IRN"
+          ],
+          "mid-2026-10-22-lucas-charged": [
+            "people/all (louise-lucas added)",
+            "issues/MID"
+          ],
+          "mid-2026-10-22-nh-student-id": [
+            "issues/MID"
+          ],
+          "mid-2026-10-23-floris-benavides": [
+            "people/all (nikki-floris, bradley-benavides added)",
+            "issues/MID"
+          ],
+          "mid-2026-10-26-9th-cir-ca-ballots": [
+            "factions/maximalists (weak)",
+            "issues/MID"
+          ],
+          "mid-2026-10-29-doj-alaska-ca": [
+            "events/MID (updated)",
+            "issues/MID"
+          ],
+          "mid-2026-10-29-doj-nc-voting": [
+            "issues/MID"
+          ],
+          "mid-2026-10-29-medicaid-rule": [
+            "issues/MID"
+          ],
+          "rus-2026-10-30-colby-nato-tone": [
+            "factions/pentagon (did)",
+            "issues/RUS",
+            "none: hawks stance not revised, single-wire report"
+          ],
+          "tar-2026-10-22-outbound-npr": [
+            "issues/TAR"
+          ],
+          "tar-2026-10-22-wind-232": [
+            "issues/TAR"
+          ],
+          "tar-2026-10-28-bgi-ban": [
+            "issues/TAR"
+          ],
+          "tar-2026-10-28-robotics-232": [
+            "issues/TAR"
+          ],
+          "ven-2026-10-27-vacancy-2027": [
+            "meta/stances",
+            "issues/VEN"
+          ],
+          "ven-2026-10-28-boat-strike": [
+            "issues/VEN"
+          ]
+        },
+        "queries": 130,
+        "queriesPerIssue": {
+          "AI": 3,
+          "EPS": 3,
+          "FED": 4,
+          "IMM": 5,
+          "IRN": 6,
+          "MID": 8,
+          "RUS": 5,
+          "SUC": 3,
+          "TAR": 5,
+          "VEN": 3
+        },
+        "queue": {
+          "captured": 9,
+          "triaged": 0
+        },
+        "sourcesRead": [
+          "AFP via Manila Times",
+          "AFP/TNND",
+          "AP via CP24",
+          "AP-style Meta ruling report",
+          "Admiral Markets",
+          "Al Jazeera",
+          "Al Jazeera index and 5 articles",
+          "CBS, Fox, RFE/RL, Iran International live blogs Oct 23-28",
+          "Daily Record (Reuters)",
+          "DefenseScoop",
+          "DefenseScoop (Hegseth betting memo)",
+          "Euronews",
+          "Euronews index",
+          "Everything Briefing (Oct 30)",
+          "Fed press releases",
+          "Federal News Network",
+          "Fox LA (Ninth Circuit)",
+          "Fox News Digital",
+          "GV Wire (Reuters)",
+          "GovConExec",
+          "Hedgeweek (Griffin)",
+          "ITV (AP)",
+          "Iran International (snippet)",
+          "Just Security Early Edition Oct 23, 26, 28, 29",
+          "Just Security home",
+          "Kurdistan24",
+          "Law Commentary",
+          "Politico/Atlanta Black Star/Voz (Wiles)",
+          "Reuters copies",
+          "Reuters exclusive via Sri Lanka Guardian reprint",
+          "SOFX",
+          "Scripps (ICE voter-fraud ruling)",
+          "TNND",
+          "TVG Daily Brief (Oct 30)",
+          "TVG Daily Brief Oct 22",
+          "TVG Daily Brief Oct 22, 23, 26, 27, 28, 29, 30",
+          "Thompson Hine",
+          "Treasury, OFAC, State, White House, Justice news indexes",
+          "WGME/TNND",
+          "White House fact sheet",
+          "investingLive",
+          "voz.us/NTN24/El Diario (snippets)"
+        ],
+        "thinDays": [
+          "2026-10-24",
+          "2026-10-25"
+        ],
+        "unplaced": [
+          "FISA 702 opinion dispute (Wyden/Schiff letter Oct 26); Calley Means and Jeremy Lewin departures; Corey Lewandowski probe already stored; Lagarde resignation stored; Cuba UN embargo vote 130-17-25 (Oct 29); Bolsonaro on parole in Miami; Treasury DPRK/Rwanda sanctions (Oct 28)"
+        ],
+        "watched": [
+          "Altman",
+          "Andreessen",
+          "Blanche",
+          "Bondi",
+          "Colby",
+          "Hegseth",
+          "Homan",
+          "Jensen Huang",
+          "Kalshi",
+          "Ken Griffin",
+          "Kushner",
+          "Lutnick",
+          "Meta",
+          "Miller",
+          "Musk",
+          "Patel",
+          "Pirro",
+          "Pulte",
+          "Rubio",
+          "Singer",
+          "Thiel",
+          "Vought",
+          "Warsh",
+          "Wiles",
+          "Witkoff",
+          "Zuckerberg"
+        ]
+      },
+      "summary": "INCOMPLETE: Stage 1 enumeration (Oct 24-25), recall sample, Pass D, Pass D2, Pass E, propagation, report revisions, people and donors, motives, patterns, world items and legal are partial or skipped. Deviations: see coverage.deviations. Method audit: the Hegseth betting memo and the Reuters NATO exclusive, both named by the reviewer, were missed by earlier runs; fix is to read Early Edition and TVG by guessed daily URL and DefenseScoop/Euronews indexes. Added 36 items across today's three passes (19 in the 8-day rerun).\n\nERRORS AND INCOMPLETE ITEMS\n- Digests for Oct 24-25 | Weekend news list | Why not done: TVG direct URLs gave client errors, TVG archive stops at Oct 22, Early Edition has no weekend issue; CBS, Iran International and RFE/RL live blogs were read instead but cover Iran only.\n- Early Edition Oct 27 and 30 | Just Security daily | Why not done: direct fetch errors, title search returned 2025 only, other digests (TVG, live blogs) cover Oct 27.\n- Recall sample | Clean fresh sample of 10 | Why not done: the first sample missed 7 items (all added); wires are blocked so no further independent index; not rerun.\n- OFAC Oct 29 license and Hungary MOU contents | not read | Why not done: search found only older bulletins; index lists titles only; no outlet carried the text.\n- Report text, stances, motives, patterns, world items, legal | not revised | Why not done: time spent on enumeration and records; no hard block.\n- Search-method audit: Hegseth betting memo and the Reuters NATO exclusive were missed by earlier runs and named by the reviewer; proposed fix: daily guessed-URL reads of Early Edition and TVG plus DefenseScoop and Euronews indexes. Repeat of the Pentagon-item miss (FORTRESS): the fix now changes what Stage 1 reads.\n\nCONSEQUENTIAL NEWS\n- Oct 30, Reuters: Colby reportedly asked Baltic allies to tone down Russia rhetoric | Consequence: Pentagon restraint camp up, hawks down; allies' doubts about US support (reported, anonymous sources).\n- Oct 26, Fox LA: Ninth Circuit dismisses DOJ's emergency appeal on 20,000 California ballots | Consequence: Maximalists lose on the court track before Nov 3 (documented).\n- Oct 29-30, Reuters/Al Jazeera: amended Alaska complaint with 40 subpoenas | Consequence: Maximalists keep using federal election tools (documented act).\n- Oct 20-22, DefenseScoop: Hegseth bans betting with non-public information | Consequence: Pentagon tightens control of operational information before possible Iran strikes (documented).\n- Oct 22, Treasury: outbound-investment rule proposed | Consequence: Treasury's China toolkit widens (documented).\n- Oct 21, AP-style report: New Mexico court orders Meta to pay $25B | Consequence: strengthens state enforcers against a donor-active AI firm (reported).\n- Oct 22-23, DOJ: Louise Lucas and two ex-FBI officials charged | Consequence: feeds claims of politicized prosecution before the vote (reported)."
+    }
+  ],
+  "summary": "INCOMPLETE: news reading was limited (search cap hit, Just Security pages failing). Biggest news: WSJ says Ukraine paused refinery strikes at Trump's request.\n\nERRORS AND INCOMPLETE ITEMS\n- Article text | Readable copies for the stories we kept | Why not done: this run hit the 200-searches-per-turn limit (a tool cap). Six stories are still headline only: the Oct 29 NYT story on Trump and Habba's $50M deal, Politico's piece on the economy after the midterms, Politico on a weakened Trump, The Hill on the NDAA streak, the Oct 30 Hormuz mine and Houthi claims, and the State Department halting INL-funded aid to Ukraine (Washington Sun). All are capped at weight 2 and will be rechecked next run.\n- Collectors | Just Security Early Edition | Why not done: every weekday from Sep 30 to Oct 30 except Oct 9 failed with client_error. The fallback search found nothing, and its podcast feed has no show notes. TVG covered the same days except Oct 2, 5 and 6 (client_error, and the archive does not list them).\n- Collectors | Official listings | Why not done: page numbers on the Treasury press-release list do not work (pages 2-8 repeat the newest items), so Treasury releases from Sep 30 to Oct 13 were not seen; OFAC covers those sanctions. State page 3 failed with client_error, and State's shifting page numbers left Oct 14-16 and Oct 21-25 unseen. The Federal Register presidential-documents feed is stale (newest Jul 31).\n- Collectors | Memeorandum daily archives (Oct 24-29) and the GDELT recall index | Why not done: client_error on each.\n- Newsletters | Gmail inbox | Only one news newsletter arrived in the window (Politico Playbook PM, Oct 30); the other email was an Axios onboarding message. The inbox looks newly set up, so nothing older came in.\n- Calendar items with no outcome found | The immigration fee case hearing (Oct 27), the Citgo sale, the Nov 11-15 Venezuela talks, the Medicaid rule appeal, Meta's appeal, and any ruling on Anthropic's rehearing petition | Each was checked by search plus another outlet.\n- Conflicting accounts | Who ordered DOJ to hand California the 20,000-name list | Playbook says Judge Boasberg; AP and CalMatters say the case is before Judge David O. Carter. Stored as reported, with both accounts noted.\n- Recall misses (found by the recall check, not by collectors):\n  - CDC Ebola travel bar on travelers from DR Congo, Nov 3-Dec 18 (should have come from CBS politics or NewsNow); now added.\n  - European Parliament calls to list the Houthis as terrorists and to consider a Black Sea naval mission (should have come from Euronews); now added.\n  - European Parliament prize to the ICC and its methane-rule delay; not added, since they move no faction we track.\n  - The Hill: NDAA streak at risk, and senators pressing Kalshi and Polymarket (should have come from Playbook or NewsNow).\n  - Root cause: no collector reads the European Parliament press room, and The Hill is blocked. Proposed fix: add the European Parliament press room to the world collector's pages.\n- Search-method fix applied | TVG addresses use the day with no leading zero (tvg-daily-brief-8-oct-2026), not 08. The digest brief and the source list are corrected, so earlier runs' TVG misses for days 1-9 should not repeat.\n- Tips from the reviewer: none in the database.\n\nCONSEQUENTIAL NEWS\n- Oct 29, WSJ via Kyiv Post: Ukraine informally paused new strikes on Russian refineries from mid-October under Trump pressure (Kushner reportedly asked for a 30-day halt) and got nothing in return | Consequence: the deal-making camp and Trump's political operation gain on Russia; Kyiv loses leverage before the November talks (reported, one outlet).\n- Oct 26, AP: Judge Furman ruled Maurene Comey, who prosecuted Epstein and Maxwell, was fired unlawfully and ordered her reinstated; DOJ will appeal | Consequence: the hardliners on the Epstein files and at DOJ lose a round in court (documented).\n- Oct 14, ABC: Judge Kelly's injunction keeps the White House from barring CNN, MS NOW and Politico | Consequence: Trump's political operation loses its press-access lever before the vote (reported).\n- Oct 26, Reuters: a judge blocked the Pentagon rule that cut off contractors whose lobbyists also work for Alibaba | Consequence: the Pentagon's China-contracting crackdown is checked in court (reported).\n- Oct 28-30, AP and Playbook: after an NYT report that Peltola's staff helped recruit a spoiler \"Dan Sullivan\", Trump demanded she be removed from the ballot and prosecuted; the NRSC went to the FEC and Comer opened a probe | Consequence: the party machine and hardliners widen the federal fight over Alaska's Senate race (reported).\n- Oct 14, Al Jazeera: OFAC lifted sanctions on National Assembly head Jorge Rodriguez; on Oct 26 Rubio said oil money goes to a Treasury-controlled account and he ruled out prosecuting the Rodriguezes | Consequence: relief for Venezuela's interim government moves ahead with no election date (documented).\n- Oct 10, CENTCOM via Maritime Executive: a US jet disabled the Hong Kong-owned Ocean Molica after it ran the Iran blockade | Consequence: the blockade now reaches China-linked ships, which raises the risk of a clash with Beijing (reported, CENTCOM's account).\n- Oct 30, Flexport: the Canada tariff list changes took effect; some goods were dropped and others added | Consequence: targeted carve-outs help the party machine and the dissenters in tight races (documented).\n"
+}

@@ -1,0 +1,236 @@
+{
+  "applied": [
+    "Fed presidents Hammack, Logan and Kashkari split into individual roles; home set to none (they are rate hawks, not the foreign-policy Hawks faction).",
+    "Economy and Fed pending line: Cook hearing moved from Nov 5 to December; scheduled Nov 5 entry moved to December.",
+    "Immigration pending line: the CDC has two Ebola orders (Oct 11-Nov 10 entry suspension; Nov 3-Dec 18 boarding bar); added the Los Angeles stop order and the Essayli ruling.",
+    "Midterms pending line: DOJ filed its Supreme Court application on California ballots Nov 2.",
+    "Roles updated: Sonderling (Labor Secretary), Schroyer (ICE nomination withdrawn), Blanche (Attorney General), Hobbs (Washington secretary of state), Lindsey Graham (successor Darline Graham noted).",
+    "Updated Vance’s Iran stance and succession watch with the public break, Trump Jr.’s message amplification and the Rubio rival test.",
+    "Updated the existing House GOP leadership episode with the Scalise and Jordan bids and the conference decision channel.",
+    "Separated reported Wiles blame-shifting, congressional impeachment pressure and Trump’s public support. Qualified the Tennessee Senate speculation with later AP reporting.",
+    "Folded the Fed election calendar placeholder into the chamber-control episode, retaining the original ID in mergedFrom and retaining a single outcome score.",
+    "Updated the midterms decision-holder summary to distinguish current congressional authority from projected control in the next Congress.",
+    "Updated Vance’s midterms stance and the existing post-election Iran episode to reflect his public criticism and Trump’s public response."
+  ],
+  "asof": "2026-11-02",
+  "contradicted": [
+    {
+      "belief": "People entries for Fed presidents Hammack, Logan and Kashkari had home faction 'hawks' and a combined three-bank role",
+      "events": [
+        "fed-2026-10-27-495a2c"
+      ],
+      "proposedEdit": "Individual roles; home null, since the Hawks faction is the Rubio-Cruz foreign-policy camp, not rate hawks. APPLIED.",
+      "where": "people/all"
+    },
+    {
+      "belief": "Economy and Fed pending line: Cook hearing Nov 5",
+      "events": [
+        "fed-2026-10-30-cook-hearing-delay"
+      ],
+      "proposedEdit": "Hearing moved to December, no date. APPLIED (official on record).",
+      "where": "issues/FED"
+    },
+    {
+      "belief": "Immigration pending line: CDC Congo bar Nov 3-Dec 18 (only)",
+      "events": [
+        "imm-2026-10-26-cdc-congo-travel"
+      ],
+      "proposedEdit": "Two orders: entry suspension Oct 11-Nov 10 and boarding bar Nov 3-Dec 18. APPLIED (Federal Register).",
+      "where": "issues/IMM"
+    },
+    {
+      "belief": "Immigration holder: the enforcers decide arrest tactics",
+      "events": [
+        "imm-2026-10-29-frimpong-profiling",
+        "imm-2026-10-27-essayli-unlawful"
+      ],
+      "proposedEdit": "Add to pending that courts now limit Los Angeles stops (on appeal) and Essayli's authority (stayed). Pending APPLIED; holder tag left unchanged because both orders are on appeal.",
+      "where": "meta/holders IMM; issues/IMM heldBy"
+    },
+    {
+      "belief": "Midterms pending line: DOJ \"to seek\" Supreme Court review",
+      "events": [
+        "mid-2026-11-02-doj-scotus-ca-ballots"
+      ],
+      "proposedEdit": "DOJ filed Nov 2. APPLIED.",
+      "where": "issues/MID"
+    },
+    {
+      "belief": "Stale roles: Sonderling (EEOC), Schroyer (ICE nominee), Blanche (Justice Dept. head)",
+      "events": [],
+      "proposedEdit": "Labor Secretary (confirmed Sep 30); nomination withdrawn; Attorney General (confirmed Aug 8). APPLIED (Senate record, Ballotpedia, Yahoo/AP).",
+      "where": "people/all"
+    },
+    {
+      "belief": "Katie Zacharia 'Press secretary'; Kristi Noem 'senior adviser to Landau'",
+      "events": [],
+      "proposedEdit": "Zacharia reportedly left about Oct 16; Noem's adviser role disputed (Politico via IBTimes). PROPOSAL only: search-level sourcing.",
+      "where": "people/all"
+    },
+    {
+      "belief": "Russia policy line: easing sanctions while pursuing a deal",
+      "events": [
+        "rus-2026-10-31-patriot-sale",
+        "rus-2026-10-30-inl-aid-halt"
+      ],
+      "proposedEdit": "Partly contradicted: State approved a $2.1B Patriot sale (paid by Ukraine and partners) while cutting other aid. Proposal: \"eases some sanctions and cuts US-funded aid while letting Ukraine buy US weapons with partner money.\" Not applied (needs a second week).",
+      "where": "meta/policy RUS"
+    },
+    {
+      "belief": "Vance’s Iran stance ended at public defense and negotiation",
+      "evidence": [
+        "irn-2026-11-04-vance-postelection-war-critique"
+      ],
+      "proposed": "Add dated public criticism and preserve prior actions."
+    },
+    {
+      "belief": "Vance’s midterms posture was still limited to acknowledging costs and avoiding public disagreement on the war.",
+      "where": "meta/stances.stances.MID.vance",
+      "events": [
+        "irn-2026-11-04-vance-postelection-war-critique"
+      ],
+      "proposed edit": "Reflect the Nov 4 public electoral critique and distinguish it from a policy change or a break with Trump personally."
+    }
+  ],
+  "unmatched": [
+    {
+      "events": [
+        "ai-2026-10-31-data-center-backlash",
+        "fed-2026-10-28-doe-constellation"
+      ],
+      "missingBelief": "No stored belief about who decides power supply and siting for AI data centers (states, utilities, DOE loans)."
+    },
+    {
+      "events": [
+        "rus-2026-10-30-g20-lavrov",
+        "rus-2026-10-30-greece-black-sea"
+      ],
+      "missingBelief": "No belief about US standing with European partners on Russia; Europeans are acting apart from Washington (G20 photo, Black Sea truce call)."
+    },
+    {
+      "events": [
+        "imm-2026-10-26-cdc-congo-travel"
+      ],
+      "missingBelief": "No belief about public-health entry bars as a border tool."
+    },
+    {
+      "events": [
+        "tar-2026-10-28-dfc-205b",
+        "fed-2026-10-30-doe-eastman-award"
+      ],
+      "missingBelief": "No belief about state equity and loan stakes in minerals and energy as industrial policy; no faction tagged."
+    },
+    {
+      "events": [
+        "imm-2026-10-29-cameroon-deportation-aid"
+      ],
+      "missingBelief": "No belief about who in State trades aid for deportation deals."
+    }
+  ],
+  "unmodeled": [
+    {
+      "actor": "Qatar, Pakistan (Munir), Turkey and Saudi Arabia as Iran mediators",
+      "events": [
+        "irn-2026-10-26-tehran-talks",
+        "irn-2026-10-30-mediators-return",
+        "irn-2026-11-02-iran-proposal-us-court"
+      ],
+      "proposedProfile": "State interest: end the Hormuz disruption and Houthi spillover without a US-Iran war on their soil; Qatar and Pakistan gain standing with Trump as channels. Munir added to people this week; state stances still missing from meta/stances."
+    },
+    {
+      "actor": "Egypt and the Houthis",
+      "events": [
+        "irn-2026-10-27-houthi-egypt"
+      ],
+      "proposedProfile": "Egypt: Suez revenue and Saudi money; the Houthis: leverage on Saudi Arabia and the Red Sea as Iran's outside arm. Not yet recurring enough for a stance row."
+    },
+    {
+      "actor": "Iraq (government and banks), China (state and shipowners)",
+      "events": [],
+      "proposedProfile": "Both hit by Iran blockade and sanctions enforcement in October; China's stake is cheap Iranian oil and shipping access. Add a world item if either retaliates."
+    },
+    {
+      "actor": "Israel after the election (Netanyahu bloc short of 61; Eisenkot)",
+      "events": [
+        "irn-2026-10-28-isr-election",
+        "irn-2026-11-02-netanyahu-call"
+      ],
+      "proposedProfile": "Eisenkot added to people. A caretaker Netanyahu has reason to press for strikes before a new coalition forms (my reading)."
+    },
+    {
+      "actor": "Local and state data-center opposition",
+      "events": [
+        "ai-2026-10-31-data-center-backlash"
+      ],
+      "proposedProfile": "Cross-party local resistance (Texas pause, Ohio measures) now constrains the AI build-out the Tech-Right backs; no faction carries it."
+    }
+  ],
+  "weekOf": "2026-10-26",
+  "workflow_review": {
+    "rules": [
+      "Roster: Add a standalone person only when a tracked decision establishes material authority, implementation, backing, or influence. Keep incidental mentions in event text and case participants in the legal record. Check structured links before pruning.",
+      "Representation: Record whose interests have a channel through access, fundraising, organizing, personnel, or financial ties. Identify the backer and recipient. Verify the kind of tie and distinguish announced, awarded, paid, and realized amounts.",
+      "Stance changes: Compare dated positions, audiences, decisions, and consequential acts. Record what the actor or backer stood to gain, what else changed, and any counterexample where the actor held a position at a cost.",
+      "Motives: Assess power, money, access, ideology, loyalty, status, audience, and survival on their own evidence. Record competing explanations and distinguish a documented benefit, an inferred motive, and evidence of influence.",
+      "Authority and scoring: Identify who decides, blocks, implements, and influences. Link each episode across relevant issues and count it once overall. Separate stages and score policy, access, formal authority, succession, and financial gain independently. Preserve legacy scores for comparison. Withhold credit when the relevant outcome or prior goal lacks support."
+    ],
+    "validation_checks": [
+      "Check that each new person profile has a specific tracked role. Check that legal case participants render from case context and that retained subject links resolve.",
+      "Check that representation and financial flows are described separately, with dated evidence for claimed influence.",
+      "Check that repeated or bundled episodes have one overall scoring record and that each credited dimension has evidence.",
+      "Check that report and relationship claims reflect the reviewed evidence and label legacy conclusions."
+    ],
+    "updated_prompts": [
+      "analysis-rules",
+      "core",
+      "db-shape",
+      "validator",
+      "auditor-monday",
+      "enrich",
+      "analyst",
+      "challenger"
+    ],
+    "run_record_fields": [
+      "scope",
+      "reviewed_episode_ids",
+      "changed_entries",
+      "unresolved_claims",
+      "evidence_needed",
+      "validation_results"
+    ],
+    "next": "Apply the workflow on the next intake and expand episode review before recalculating any overall ranking.",
+    "prompt_consolidation": {
+      "removed": [
+        "legacy-full-prompt",
+        "newsletter"
+      ],
+      "merged": {
+        "collector": [
+          "digest",
+          "official",
+          "world"
+        ]
+      },
+      "retained_separation": "Recall audits collection coverage. Enrich resolves article evidence. Challenger independently tests interpretation. Slicer and validator are scripts."
+    },
+    "local_smoke_test": {
+      "slicer_exit": 0,
+      "validator_exit": 1,
+      "validator_summary": "259 errors, 3 warnings",
+      "targeted_validator_summary": "0 errors, 3 warnings",
+      "replay": {
+        "islamabad": "Slicer flagged a possible duplicate. Staged validation accepted an unresolved succession effect with no fx score and a specific reason.",
+        "malik": "The existing succession stance identifies political representation from fundraiser hosting separately from direct contributions. Reviewed manually.",
+        "repeat_coverage": "The draft permits a complete zero-change review. Reviewed manually."
+      }
+    },
+    "default_analysis_prompt": "Shorter prompt adopted after focused live intake.",
+    "baseline_validation_triage": {
+      "full_ledger_errors": 259,
+      "rationale_label": 177,
+      "unscored_reason_format": 82,
+      "structural_errors_reported": 0,
+      "scope": "Existing validator checks only. Historical format failures are retained as baseline debt. Validate changed rows separately."
+    }
+  }
+}

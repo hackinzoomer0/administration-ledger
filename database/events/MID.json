@@ -1,0 +1,2315 @@
+{
+  "issue": "MID",
+  "items": [
+    {
+      "actor": "Wiles, Trump, Vance",
+      "added": "2026-10-28",
+      "by": [
+        "operation",
+        "vance"
+      ],
+      "context": "Opens the Operation versus Vance Wing split (Q1)",
+      "date": "2025-12",
+      "fx": {
+        "operation": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "mid-2025-12-ecc4c1",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "Midterms",
+      "precision": "month",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "The team stops localizing and puts Trump on the road; Trump calls affordability a hoax and Vance reframes it",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Enforcers",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-02-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-02-25-07ffff",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "DHS's Honey tells state officials ICE will not be at polls",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Blair, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "Puts the money outside White House lines; later lets Trump call him an \"outside consultant\"",
+      "date": "2026-04",
+      "fx": {
+        "operation": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "mid-2026-04-c3804f",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "Midterms",
+      "precision": "month",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Blair leaves the deputy chief of staff job to run MAGA Inc. (Reuters says April; one outlet says May, unreconciled)",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "dissenters"
+      ],
+      "context": "Forces the committees to fund a weak nominee later (Q2)",
+      "date": "2026-05-16",
+      "fx": {
+        "dissenters": -1,
+        "maximalists": 1,
+        "party": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to maximalists.",
+      "id": "mid-2026-05-16-b32567",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "mid-2026-05-16-b44227",
+          "kind": "chron",
+          "source": "",
+          "text": "Cassidy, Massie and Cornyn lose primaries",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump defeats Cassidy, Massie and Cornyn in primaries, the last by endorsing Paxton over the Senate leaders' pick",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Mullin",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-07-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-07-17-0faa5c",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Mullin says ICE may serve warrants at polling places",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Enforcers",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "",
+      "date": "2026-07-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-07-30-f11458",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump declines to back Thune for leader; DHS says ICE is not planning polling-place operations",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-08-07-a1e8b4",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump says he can spend MAGA Inc. money on anything",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Operation",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Answers months of pleas from the committees (Q2)",
+      "date": "2026-09-01",
+      "fx": {
+        "operation": 1,
+        "party": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "mid-2026-09-01-b26648",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "MAGA Inc. spends about $277M after Labor Day, mostly through two affiliates",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Enforcers, Operation",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-09-01-942c1d",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "HSI voter-fraud surge begins; MAGA Inc. begins spending",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Gruters, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "party"
+      ],
+      "context": "",
+      "date": "2026-09-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-09-09-3cef2d",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "RNC midterm convention in Dallas",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Fed",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-09-16-d4d144",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Fed raises rates 12 to 0; Trump demands cuts",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-09-24-6f9895",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Xi at the White House; tariff truce extended",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "Weakens the Operation's authority, per one strategist (Washington Post via Inquirer)",
+      "date": "2026-10-07",
+      "fx": {
+        "operation": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "mid-2026-10-07-6dc57d",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Operators' Srpska pay surfaces; Trump distances himself, then faults Blair's handling of funds",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Operation",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-07-7a7d03",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump says he would fire Blair and LaCivita if conflicted over their Srpska pay (NYT story Oct 6), then says there is no conflict",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Subordinates the war's timing to the election (Q3)",
+      "date": "2026-10-09",
+      "fx": {
+        "hawks": -1,
+        "operation": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "mid-2026-10-09-fca269",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "mid-2026-10-09-532fff",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump: no Iran strike before Nov 3",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump rules out Iran strikes before Nov 3",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Party Committees",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-13-2d996c",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "CLF drops ads in four races, adds 16",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Rivals, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-16-79f334",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Press secretary Zacharia fired after five days; WaPo reports aides angling for Wiles's role",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "Puck (via Daily Beast) reports Trump weighing Blair as the midterm fall guy; Politico says he also blames Wiles. A WaPo Oct 30 headline (not read) says the architect could become the scapegoat.",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-19-1d1e5d",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Trump is pre-assigning blame for a bad Nov 3 to the Operation's leaders, which weakens their hold after the vote. All anonymous; no personnel act. Falsifier: Blair and Wiles keep their posts after the vote.",
+      "source": "Reuters (anonymous sources); Puck via Daily Beast; Politico",
+      "text": "Reuters: Trump faults Blair's handling of funds while some officials question Wiles's oversight (anonymous sources); Reuters/Ipsos approval 31%",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Operation",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-20-d419b6",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "NYT: MAGA Inc. raised about $473M since 2024 and spent about $277M since Sep 1",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Courts, Rivals",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Lewandowski clause moved to imm-2026-10-22-lewandowski-ig-referral: NBC reports a DHS inspector general referral to DOJ; a DOJ case is not confirmed.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-22-5c42b4",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Judge limits DHS voter-fraud field work; MAHA adviser Calley Means resigns",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, Blanche",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-10-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-23-3010f4",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Midterms",
+      "precision": "day",
+      "rationale": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump says he ordered the Justice Department's Alaska Senate suit",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Reuters/Ipsos",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-28-polls",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the Operation enters the last week behind on the generic ballot with Senate control still contested, which keeps the blame fight over Wiles and Blair on the post-Nov 3 agenda. Poll and race-status figures are as reported; polls are not results. No fx.",
+      "source": "Al Jazeera (citing Reuters/Ipsos, AP, Axios)",
+      "text": "Reuters/Ipsos (Oct 22-26): Democrats 47%, Republicans 36% (50-41 with leaners); Trump approval 32%. Texas, Michigan, Kansas, Ohio, Georgia and North Carolina Senate races are close; Trump rallies in Texas, Ohio and Iowa while Murkowski backs the Democrat for Alaska governor over Trump's pick.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "White House / OMB",
+      "added": "2026-10-29",
+      "by": [
+        "operation"
+      ],
+      "context": "Net effect (my reading): the Operation is using federal money for campaign-style ads while behind in the polls, which creates legal exposure but is not blocked. Reports differ on amounts and the source of funds. No fx.",
+      "date": "2026-10-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-07-bf20",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 7, 8, 13 editions; NYT, NPR, AP)",
+      "source": "",
+      "text": "About $22M in taxpayer-funded pro-Trump ads run before the midterms, with about $10M of it after Oct 5 when MAGA Inc. said it would pay; the DNC and Common Cause sue, Trump says he will not reimburse and would help pay, and NYT reports Vought was told to use $20M of DHS funds.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Supreme Court",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Earlier text said 'overturns' and described an FCC rule order; SCOTUSblog describes a stay of a Fourth Circuit order on party ad-rate discounts.",
+      "date": "2026-10-14",
+      "fx": {
+        "party": 1
+      },
+      "fxnote": "Provisional: the party committees keep a lower-ad-rate fight alive after the Supreme Court sided with the administration; re-score if the rule's content shows no practical rate benefit.",
+      "id": "mid-2026-10-14-bf21",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the administration keeps its position on party ad rates through the election, a marginal help to the party committees. Evidence: SCOTUSblog. Not established: the practical rate difference. Counter-reading: a stay, not a merits ruling.",
+      "source": "SCOTUSblog; Just Security Early Edition (Oct 15)",
+      "text": "The Supreme Court grants the administration's request to pause a Fourth Circuit order on political party ad-rate discounts (Sotomayor and Jackson dissent); Roberts had paused it Oct 8.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "DOJ (Blanche)",
+      "added": "2026-10-29",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Net effect (my reading): DOJ is contesting ballot counting in a large state before Nov 3 with no court support so far, which raises post-election dispute risk but has not changed any count. Suspected-noncitizen figures are DOJ's. Counter-reading: routine voter-roll enforcement; falsifier: a ruling for DOJ. No fx.",
+      "date": "2026-10-15",
+      "fx": {},
+      "fxnote": "No fx: the suit was filed but no court has backed it and no count changed; re-score if a court orders ballots set aside.",
+      "id": "mid-2026-10-15-bf22",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 15, 16, 26, 27 editions; NYT)",
+      "source": "DOJ letters of Oct 14 and Oct 23 demanded counties identify suspected noncitizens within 48 hours.",
+      "text": "DOJ sues California and an LA County official to block counting mail ballots from about 20,000 voters it suspects are noncitizens; on Oct 26 an appeals panel refuses to order the ballots set aside before the trial judge's Oct 27 hearing.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-29",
+      "by": [
+        "operation"
+      ],
+      "context": "Net effect (my reading): the Operation's two senior operators keep their jobs by donating the fee, which keeps the blame fight around Wiles and Blair alive but removes the firing threat for now. Single secondary source. No fx.",
+      "date": "2026-10-23",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-23-bf23",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Washington Sun (citing NY Post)",
+      "source": "Amount undisclosed; Wiles's daughter reportedly also traveled there.",
+      "text": "Trump says his inquiry into advisers LaCivita and Blair over their Republika Srpska work is over after they gave their consulting fee to his presidential library (NY Post first reported it Oct 22).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): a statement priming fraud claims before the vote, with no funded program shown. Statement only, weight 1. No fx.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-26-bf24",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 27 edition)",
+      "source": "",
+      "text": "Trump posts that anyone reporting voter fraud in past or upcoming elections will get $1,000,000 on arrests and convictions; the White House does not say where the money comes from.",
+      "tier": "reported",
+      "weight": 1
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-29",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Net effect (my reading): DOJ is charging the president's critics days before the election. Charges are allegations; earlier attempts did not hold. Oct 30 (CBS headline only): DOJ and Comey's lawyers face off over the latest classified-information filings.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "No fx: new charges against a presidential critic leave the Maximalists' hold on DOJ unchanged, and the strength of the case is unknown; re-score if the case is dismissed or advances.",
+      "id": "mid-2026-10-26-bf25",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Net effect (my reading): DOJ is charging the president's critics days before the election, which keeps the Maximalists' use of DOJ in view but changes no faction's hold. Charges are allegations; the case is unproven and earlier attempts did not hold.",
+      "source": "Just Security Early Edition (Oct 23, 27 editions); CBS Oct 30 (headline)",
+      "text": "DOJ brings new charges against former FBI director James Comey over handling of security information (unsealed Oct 26), the third attempt in 13 months; two other former FBI officials were charged earlier in the week.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Justice Alito",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): a Supreme Court vacancy would put Senate control at the center of the midterms, which raises the value of the Senate races. A remark, not an announcement. No fx.",
+      "date": "2026-10-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-02-bf26",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 5 edition)",
+      "source": "",
+      "text": "Justice Alito says he is considering retirement.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Trump, RNC",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "CNN polls show Democrats within reach in Michigan, Maine, Texas and Kansas Senate races. Oct 31 headlines (not read): rallies revived in Iowa and Kansas plus Mississippi, telerallies in 19 states, Texas virtual only.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-telerallies",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "RNC",
+      "precision": "day",
+      "rationale": "Chron: shift to cheaper turnout work; no clear faction effect.",
+      "source": "AFP via Manila Times, TNND; Politico Playbook PM (AP); Al Jazeera; CNN; CBS, AP, The Hill (Oct 31 headlines)",
+      "text": "Trump cancels Kansas and Iowa rallies for telerallies in a 72-hour RNC phone push in about 20 states, then reverses and says he will hold Sunday rallies in Kansas and Iowa.",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "AP obtained the subpoenas; the demand also reaches Orange, Santa Clara and San Diego. Oct 30-31: DOJ confirms an Alaska inquiry (NYT); US attorney 'intensely' probing (Hill); FBI asks the spoiler's donors about deception (AP via Playbook); DOJ asks to segregate Alaska ballots (CBS).",
+      "date": "2026-10-29",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: DOJ keeps widening election probes (FBI contacts in Alaska, Oct 30) while courts check its California moves (Oct 30); re-score if the Alaska probe ends without charges or is enjoined.",
+      "id": "mid-2026-10-29-doj-alaska-ca",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "DOJ",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Justice Department is using criminal process on election offices five days before the vote, which keeps pressure on ballot counting and feeds later challenges, but a federal judge has already limited it by refusing to segregate the ballots. Evidence: AP-read subpoenas and Judge Carter's ruling. Not established: whether charges will follow or the 9th Circuit will act. Counter-reading: routine enforcement of existing fraud cases. Falsifier: the 9th Circuit rejects the appeal or the subpoenas are withdrawn. Attribution: maximalists run DOJ election actions.",
+      "source": "AP via CP24, Law Commentary, NPR (headline), Everything Briefing digest, Al Jazeera (Reuters/AP); NYT, The Hill, CBS (Oct 30-31); AP via Politico Playbook (Oct 31); Raw Story (Oct 28)",
+      "text": "DOJ subpoenas three Los Angeles County registrar employees and demands records from other California counties in a criminal noncitizen-voting probe, with a grand jury date of Nov 4; Judge Carter refuses to set aside about 20,000 ballots and appoints a special master, and DOJ appeals to the 9th Circuit. Separately DOJ escalates its Alaska Senate-race probe. On Oct 29 DOJ also files an amended Alaska complaint to decertify the Senate result if Sullivan loses narrowly, citing a New York Times report that Peltola campaign members recruited the spoiler candidate (campaign denies); Reuters says DOJ issued 40 subpoenas and preservation requests and Gov. Dunleavy ordered a criminal investigation.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "Pete Hegseth",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Background to midterm turnout; memo not read directly.",
+      "date": "2026-10-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-02-vote-standdown",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "Chron: military voter-access policy; no faction effect scored.",
+      "source": "Federal News Network",
+      "text": "Hegseth orders a one-day voting stand-down for troops by Oct 15 and every October of an election year; FVAP data show 418,000 active-duty troops (23%) were unregistered in 2024.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "DOJ press release on the Justice Department news page; it comes days before the Nov 3 vote and adds to the noncitizen-voting cases already running.",
+      "date": "2026-10-29",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: DOJ election tools keep being used on the eve of the vote; re-score if courts dismiss the cases.",
+      "id": "mid-2026-10-29-doj-nc-voting",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "DOJ",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): fresh voter-fraud charges before the vote keep the administration's fraud narrative in the news and supply material for later challenges. Evidence: the DOJ release. Not established: the immigration status or intent of the defendants, or any effect on counting. Counter-reading: routine prosecution of cases built months earlier. Falsifier: charges are dropped or mostly dismissed.",
+      "source": "Justice Department news page",
+      "text": "Justice Department charges 18 more people in North Carolina with illegally voting in the 2024 election.",
+      "tier": "documented",
+      "weight": 3
+    },
+    {
+      "actor": "US District Court (D. Mass.)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "The ruling upheld two other federal restrictions on verifying medical frailty. CMS declined to comment. The link to the midterms is a hypothesis: health coverage is a campaign issue.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: the rule's effect on factions is indirect and an appeal is possible.",
+      "id": "mid-2026-10-29-medicaid-rule",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "Courts",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court narrows how far the administration can tighten Medicaid eligibility before the election, limiting one source of coverage losses that Democrats are using. Evidence: the 16-page ruling as reported. Not established: whether the administration appeals. Counter-reading: only one part of the rule is blocked. Falsifier: a stay on appeal.",
+      "source": "Al Jazeera (AP)",
+      "text": "Judge Richard Stearns blocks a Medicaid rule that required conditions to 'significantly impair' work ability, siding with 25 states and DC; the work requirements themselves start Jan 1, 2027.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "DOJ (Blanche, Patel)",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Reported by the Early Edition and a partisan outlet; the case file was not read. Link to the midterms is a hypothesis: a prominent Democratic legislator charged days before the vote.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "No fx: motive and case strength are unknown.",
+      "id": "mid-2026-10-22-lucas-charged",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "DOJ",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): charging a Democratic legislator close to Nov 3 feeds claims of politicized prosecution; it does not change counting. Not established: strength of the case. Counter-reading: an ordinary drug case. Falsifier: a judge dismisses it.",
+      "source": "Just Security Early Edition (Oct 23), RedState",
+      "text": "Federal prosecutors charge Virginia Democratic state Sen. Louise Lucas with running a marijuana trafficking enterprise; Blanche and Patel announce it.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "Ninth Circuit",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Oct 26: DOJ gave the district court about 15 hours (Fox LA; AP via KTVU). The Oct 30 ruling, read in AP via WDBO (printed Oct 30), is the later appeal in merged row mid-2026-10-30-appeals-ca-ballots, not the Oct 26 order. LA County processed 331,000+ mail ballots.",
+      "date": "2026-10-26",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: two appellate rulings block DOJ's ballot-segregation demand in California, and the Supreme Court denied relief Nov 2; re-score if a post-election challenge revives it.",
+      "id": "mid-2026-10-26-9th-cir-ca-ballots",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-31",
+          "context": "Probably the ruling on DOJ's appeal of Judge Carter's refusal to set aside about 20,000 ballots; not established that it differs from the Oct 26 Ninth Circuit dismissal. Fold into that row if the article shows the same ruling.",
+          "id": "mid-2026-10-30-appeals-ca-ballots",
+          "kind": "act",
+          "source": "AP (headline, via Memeorandum)",
+          "text": "An appeals court rejects the Justice Department's request that California set aside disputed ballots (AP headline; circuit and vote not read).",
+          "tier": "reported",
+          "weight": 2
+        }
+      ],
+      "origin": "Courts",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): two appellate losses in five days leave DOJ no route to pull the 20,000 ballots before the count except the Supreme Court. Counter: the Nov 4 grand jury keeps criminal pressure. Falsifier: a Supreme Court order to segregate.",
+      "source": "Fox LA; AP via KTVU (read); Just Security Early Edition; AP via WDBO (read, printed Oct 30); AP Morning Wire (Nov 1)",
+      "text": "A 2-1 Ninth Circuit panel dismisses DOJ's emergency appeal over about 20,000 California mail ballots (Oct 26); on Oct 30 a 2-1 panel rejects DOJ's appeal of Judge Carter's refusal, finding 'no feasible way' to segregate them; DOJ says it will go to the Supreme Court.",
+      "tier": "documented",
+      "url": "https://www.wdbo.com/news/politics/judge-orders-us/RNH54KEQ5U6QPF6UZUY3FFCI24/",
+      "weight": 4
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "CBS read. Axios (Oct 30) reports similar letters to Pennsylvania, New Jersey and Nevada; only Washington and California are independently confirmed. No compliance reported; the Oct 30 Thompson TRO bars ballot-separation demands.",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "No fx: no compliance is reported and the Oct 30 TRO bars such demands; the net effect is scored on mid-2026-10-30-thompson-order.",
+      "id": "mid-2026-10-28-doj-washington-ballots",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "DOJ",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): DOJ extended its California ballot-separation tactic to Washington, but with no reported compliance and the Oct 30 TRO barring such demands, the letter mainly builds a record for post-election challenges. Falsifier: Washington segregates the ballots.",
+      "source": "CBS News (read); Just Security Early Edition (headline); Axios AM (Nov 1)",
+      "text": "DOJ letter dated Oct 26 asks Washington's Secretary of State Hobbs to segregate mail ballots of 405 residents it calls possible noncitizens, with a Wednesday (Oct 28) deadline.",
+      "tier": "reported",
+      "url": "https://www.cbsnews.com/news/justice-department-washington-ballots-400-alleged-noncitizens/",
+      "weight": 3
+    },
+    {
+      "actor": "Supreme Court",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Reported in the Early Edition only; the order was not read.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "No fx: order text not read; effect confined to one state.",
+      "id": "mid-2026-10-22-nh-student-id",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "Courts",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): narrows accepted voter ID in one state before the vote, mildly helping the side that wants stricter ID. Not established: effect on turnout. Counter-reading: a state-law ruling with limited reach. Falsifier: order text shows a narrower holding.",
+      "source": "Just Security Early Edition (Oct 23)",
+      "text": "The Supreme Court lets New Hampshire bar election officials from considering student IDs to verify voters; Justice Jackson dissents.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "AP-reported charges; criticism from the Early Edition. Link to the midterms is a hypothesis: prosecutions of the administration's critics before the vote. Dismissed Nov 2 (mid-2026-11-02-floris-benavides-dismissed).",
+      "date": "2026-10-23",
+      "fx": {},
+      "fxnote": "No fx: early stage; a judge has criticized the case.",
+      "id": "mid-2026-10-23-floris-benavides",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "DOJ",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): another prosecution of past FBI officials keeps DOJ's retribution track going, but a judge's criticism shows limits. Not established: trial outcome. Counter-reading: ordinary false-statement cases. Falsifier: conviction on the merits.",
+      "source": "AP via local stations, Just Security Early Edition",
+      "text": "DOJ charges former FBI officials Nikki Floris and Bradley Benavides with lying to Congress about the Hunter Biden laptop probe; on Oct 28 a magistrate judge criticizes the case.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "State of Utah",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Headline-level (Early Edition). Kalshi is a stored donor; the link to the midterms is a hypothesis via election betting markets.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: headline only.",
+      "id": "mid-2026-10-29-kalshi-utah",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "Utah",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a state criminal case against a prediction-market firm adds pressure beside the Pentagon's betting ban; no faction position changes.",
+      "source": "Just Security Early Edition (Oct 29)",
+      "text": "Utah charges Kalshi and co-founders Tarek Mansour and Luana Lopes Lara with 13 gambling counts and one illegal-profit count.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Politico, Trump",
+      "added": "2026-10-30",
+      "by": [
+        "operation",
+        "maximalists"
+      ],
+      "context": "Trump told CNN Oct 16 there is 'zero chance' he replaces Wiles (NBC Palm Springs); no departure found through Oct 30. Wiles made no confirmed statement. Link to succession is a hypothesis.",
+      "date": "2026-10-15",
+      "fx": {},
+      "fxnote": "No fx: anonymous report with a flat denial.",
+      "id": "mid-2026-10-15-wiles-replace-report",
+      "issues": [
+        "MID",
+        "SUC",
+        "IMM"
+      ],
+      "kind": "chron",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "imm-2026-10-ff037c",
+          "kind": "chron",
+          "source": "Raw Story",
+          "text": "Politico: Trump asks allies about replacing chief of staff Wiles; Miller is among names floated; Trump says Wiles has his confidence (Raw Story)",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Politico",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): anonymous reports of a possible replacement put the Operation's head on notice before the vote; the denial limits the effect. Not established: any decision.",
+      "source": "Politico Playbook (via report), Trump statements Oct 15-16",
+      "text": "Politico, citing four anonymous sources, reports Trump called allies asking whether to replace Chief of Staff Susie Wiles, floating Stephen Miller, Steve Witkoff and Bill Pulte; Trump calls it fake and says she has his 'complete confidence'.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "CREW; DHS",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "A complaint, not a finding; DHS's release is the underlying act.",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-09-stelson-hatch",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a watchdog complaint over DHS messaging in a swing House race; it costs DHS nothing unless the Special Counsel acts.",
+      "source": "AP via Spotlight PA",
+      "text": "CREW asks the Office of Special Counsel to act on a DHS press release that tied an immigration arrest to the campaign of Janelle Stelson, Democratic House candidate in Pennsylvania's 10th district, citing the Hatch Act.",
+      "tier": "reported",
+      "url": "https://www.spotlightpa.org/news/2026/10/ice-arrest-democratic-candidate-pennsylvania-hatch-act-justice-system/",
+      "weight": 2
+    },
+    {
+      "actor": "DOJ (D.C. US attorney's office)",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Fits the run of DOJ cases against Trump critics stored under midterms (Comey, Floris, Benavides). The no-bill is headline only and unverified.",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "No fx: the presentation is reported but the outcome rests on unread headlines; re-score as maximalists -1 if a no-bill is confirmed.",
+      "id": "mid-2026-10-09-hutchinson-grand-jury",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): DOJ extends criminal process to a key January 6 witness, adding to the retribution docket before the vote; if the reported no-bill holds, it is another failure of that docket. Single outlet. Counter-reading: routine referral. Falsifier: an indictment.",
+      "source": "IBTimes UK",
+      "text": "Prosecutors present evidence to a Washington grand jury on whether Cassidy Hutchinson made false statements to the House January 6 committee; headlines (not read) say the grand jury later declined to indict.",
+      "tier": "reported",
+      "url": "https://www.ibtimes.co.uk/cassidy-hutchinson-federal-grand-jury-investigation-1824609",
+      "weight": 3
+    },
+    {
+      "actor": "White House; Kimberly Guilfoyle",
+      "added": "2026-10-30",
+      "by": [
+        "operation"
+      ],
+      "context": "Link to midterms is a hypothesis: a donor-access scandal close to the Trump family before the vote. WSJ messages not independently verified.",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "No fx: Guilfoyle belongs to no modeled faction and the post sets no tracked policy; the removal limits damage rather than moving power.",
+      "id": "mid-2026-10-13-guilfoyle-resigns",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the White House cut loose a Trump-family associate within days to contain a donor-access story before the vote, which shows the shield has limits when the cost lands near Nov 3. Counter-reading: a personal matter. Falsifier: reinstatement or a cleared IG review.",
+      "source": "AP via PBS NewsHour; WSJ (as cited)",
+      "text": "Kimberly Guilfoyle resigns as ambassador to Greece at the White House's request after WSJ reports of alleged threats to a Greek official, improper gifts and a request that a donor pay a $100,000 card bill; State's inspector general is looking.",
+      "tier": "reported",
+      "url": "https://www.pbs.org/newshour/politics/kimberly-guilfoyle-trumps-ambassador-to-greece-resigns-after-allegations-of-improper-conduct",
+      "weight": 3
+    },
+    {
+      "actor": "Judge Timothy Kelly",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Link to midterms is a hypothesis: press access in the closing weeks. Appeal status not found.",
+      "date": "2026-10-14",
+      "fx": {
+        "operation": -1
+      },
+      "fxnote": "Provisional: the White House press operation loses a tool by court order; re-score if the D.C. Circuit stays the injunction.",
+      "id": "mid-2026-10-14-press-ban-injunction",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court removes the White House's tool for punishing three outlets in the closing weeks, so the press office cannot shape coverage by exclusion. Counter-reading: bans had little effect anyway. Falsifier: an appeals court stays the injunction.",
+      "source": "ABC News (Good Morning America)",
+      "text": "Judge Timothy Kelly grants a preliminary injunction that keeps blocking the White House ban on CNN, MS NOW and Politico.",
+      "tier": "reported",
+      "url": "https://www.goodmorningamerica.com/news/story/federal-judge-grants-preliminary-injunction-continuing-block-trumps-137247889",
+      "weight": 4
+    },
+    {
+      "actor": "FBI; Postal Inspection Service",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "No sender or motive reported.",
+      "date": "2026-10-15",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-15-suspicious-mailings",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: threat context for election administration; no faction effect.",
+      "source": "NPR via KAXE",
+      "text": "The FBI and Postal Inspection Service investigate suspicious mailings, some with white powder, sent to election and congressional offices in Los Angeles, Ohio and Oklahoma, including Sen. Padilla's office.",
+      "tier": "reported",
+      "url": "https://www.kaxe.org/news/2026-10-15/suspicious-mailings-to-election-officials-congressional-offices-under-investigation",
+      "weight": 2
+    },
+    {
+      "actor": "Alina Habba; Herrera family",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Link to midterms is a hypothesis (donor-clemency questions; Herreras are MAGA Inc. donors per donor records). NYT Oct 29 report that Trump erupted on learning of the deal is headline only.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-21-habba-herrera",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: reported pay deal plus pardon timing; no source links the deal to the pardon, and all parties deny it. The Oct 29 Trump reaction is headline only.",
+      "source": "NYT via GV Wire",
+      "text": "NYT: Alina Habba took a general counsel deal with the Herrera family's Concord Partners guaranteeing over $50M over four years while US attorney; Trump later pardoned banker Julio Herrera Velutini. Habba, the White House and DOJ deny any link.",
+      "tier": "reported",
+      "url": "https://gvwire.com/2026/10/21/a-billionaire-wanted-a-trump-pardon-his-family-gave-alina-habba-a-50-million-deal/",
+      "weight": 2
+    },
+    {
+      "actor": "Trump; NRSC; Rep. Comer",
+      "added": "2026-10-30",
+      "by": [
+        "party"
+      ],
+      "context": "Judge Gleason ordered DOJ to answer Democrats' motion to dismiss DOJ's Alaska suit. Axios headline (unverified) says Alaska's governor doubts certifying a Peltola win. Campaign denies.",
+      "date": "2026-10-28",
+      "fx": {
+        "party": 1
+      },
+      "fxnote": "Provisional: party committees and the Oversight chair keep a post-election challenge path; DOJ's Alaska suit was dismissed Nov 1 but their own probes stand; re-score if Peltola wins clearly.",
+      "id": "mid-2026-10-28-peltola-spoiler",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Republicans turn a single NYT report into three parallel probes in a close Alaska race days out, laying ground to contest a narrow loss. Not established: wrongdoing. Counter-reading: legitimate integrity review. Falsifier: FEC or courts dismiss quickly.",
+      "source": "Daily Beast; AP via KSAT; Politico Playbook PM",
+      "text": "After an NYT report that Peltola campaign staff helped recruit spoiler 'Dan J. Sullivan', Trump demands Mary Peltola be removed from the ballot and prosecuted; the NRSC asks the FEC to probe Peltola and the DSCC; Comer opens an Oversight probe.",
+      "tier": "reported",
+      "url": "https://www.ksat.com/news/politics/2026/10/28/report-peltolas-campaign-involved-in-effort-to-recruit-second-dan-sullivan-for-alaska-senate-race/",
+      "weight": 3
+    },
+    {
+      "actor": "DOJ",
+      "added": "2026-10-30",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Digest repeating Votebeat; recipients and dates not read. On Oct 30 Judge Trina Thompson barred DOJ from threatening election officials with prosecution over voter-qualification disputes (stored separately); whether that reaches these letters is not established.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "No fx: letters threaten but carry no court backing; the same pressure is scored on mid-2026-10-29-doj-alaska-ca.",
+      "id": "mid-2026-10-30-doj-preservation-letters",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): DOJ widens criminal-threat pressure on election administrators beyond California and Alaska before certification. Digest only; recipients unknown. Counter-reading: routine preservation reminders. Falsifier: no charges or follow-up after certification.",
+      "source": "Politico Playbook PM (citing Votebeat)",
+      "text": "DOJ sends more letters warning state election officials they could face criminal prosecution if they fail to preserve election records (Votebeat, as relayed).",
+      "tier": "reported",
+      "url": "",
+      "weight": 3
+    },
+    {
+      "actor": "Michael Bloomberg",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Bloomberg News also reports private equity giving tilts Republican for the first time in a decade; DGA spending $15-16M per state.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-bloomberg-36m",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: late opposition money in House races; widens the money gap the party committees face.",
+      "source": "Politico Playbook PM",
+      "text": "Michael Bloomberg gives about $36M more to Democrats ($16M to House Majority PAC for 10 districts, $12M to Everytown, plus statewide candidates) on top of $80M.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Cook Political Report",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Ratings are forecasts, not results.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-cook-shifts",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: forecasters move toward a Democratic House, which sharpens the post-Nov 3 blame fight inside the Operation.",
+      "source": "Politico Playbook PM; RealClearPolitics",
+      "text": "Cook Political Report moves 12 more House races toward Democrats, adds Florida's Senate race to its board (likely Republican) and moves Nebraska to lean Republican; RCP says Democrats are poised for their largest generic-ballot win since 2008.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Judge Ana Reyes",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Fits no tracked issue well; link to midterms is a hypothesis.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-potomac-golf",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Headline-level (CBS) on top of a bench statement; no ruling or sanctions yet, so weight is capped at 2.",
+      "source": "Politico Playbook PM; CBS (Oct 30, headline)",
+      "text": "Judge Ana Reyes opens an inquiry into possible misconduct by Trump officials over East Potomac Golf Links, after saying she may appoint a special master on whether DOJ and Interior misled the court.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Judge Trina Thompson",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "CBS page read (updated Oct 31). Scope by state and the link to the 20,000-name California case are not stated in the read; DOJ letters to Washington and, per Axios only, Pennsylvania, New Jersey and Nevada asked for ballot separation.",
+      "date": "2026-10-30",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: the TRO blocks DOJ's pressure tools through the count; re-score after the Nov 13 hearing or if an appeals court stays it.",
+      "id": "mid-2026-10-30-thompson-order",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a judge takes DOJ's prosecution threats and ballot-separation demands off the table through Nov 16, past the count, cutting Maximalist leverage on officials. Counter: criminal cases and the Nov 4 grand jury go on. Falsifier: an appeals stay before Nov 13.",
+      "source": "CBS News (read, Oct 31); Politico Playbook (Oct 31); CNN (Oct 30, headline); AP via WDBO (read, printed Oct 30)",
+      "text": "Judge Trina Thompson issues a temporary restraining order late Friday barring federal officials from threatening election officials with prosecution or demanding that midterm ballots be separated on DOJ ineligibility claims; it expires Nov 16, with a hearing Nov 13.",
+      "tier": "documented",
+      "url": "https://www.cbsnews.com/news/judge-orders-doj-stop-threaten-intimidate-california-election-officials/",
+      "weight": 4
+    },
+    {
+      "actor": "Voters (AP count)",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Party figures cover only states that report registration; early-vote party splits are not results.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-early-vote",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Chron: high early turnout with a Democratic edge in partial party data; consistent with the polls the ledger already holds.",
+      "source": "Axios PM (Oct 30, citing AP)",
+      "text": "More than 43 million early ballots cast, about 10 million more than in 2022; Texas up 50% and South Carolina up 83%. In states reporting party data, Democrats 6.8 million, Republicans 5.2 million.",
+      "tier": "reported",
+      "url": "https://www.axios.com/2026/10/30/pope-leo-mail-in-ballot-midterms",
+      "weight": 2
+    },
+    {
+      "actor": "Pollsters; AdImpact",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Axios says Senate control could take days to call. Cruz warning the party could lose eight Senate seats is headline only. Playbook: Abbott's turnout operation is tested in a tight Texas race with Paxton struggling.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-polls-adspend",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Chron: polls and ad totals are forecasts and spending, not results; Republicans outspend on ads while trailing with young voters.",
+      "source": "Axios AM (Oct 31); Politico Playbook (Oct 31); The Hill (Nebraska poll)",
+      "text": "NYT/Siena and Generation Lab find 7 in 10 young likely voters Democratic or leaning so (a 15-point swing from Trump); AdImpact counts a record $11.6B in ad spending (GOP $2.1B, Democrats $1.8B); Nebraska poll has Ricketts up 6 on Osborn.",
+      "tier": "reported",
+      "url": "https://www.axios.com/2026/10/31/your-election-night-cheat-sheet",
+      "weight": 2
+    },
+    {
+      "actor": "Congress; KFF; states",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Link to midterms: health costs are a campaign issue (a Medicaid rule ruling is stored Oct 29).",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-lameduck-agenda",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Chron: sets the lame-duck calendar and health-cost backdrop; no faction act.",
+      "source": "Punchbowl News; Politico Playbook (Oct 31)",
+      "text": "Post-election agenda includes a Dec 11 funding deadline, permitting and a year-end tax bill; KFF puts ACA premiums up 13%; states warn they will miss the Jan 1 Medicaid work-requirement deadline.",
+      "tier": "reported",
+      "url": "https://punchbowl.news/?p=173210",
+      "weight": 2
+    },
+    {
+      "actor": "Jamie Raskin",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "A Democratic House would give him subpoena power; statement only.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-raskin-oversight",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Headline only; a statement of intent that matters only if Democrats win the House.",
+      "source": "Punchbowl News (headline)",
+      "text": "Rep. Jamie Raskin tells Punchbowl he will discuss subpoenaing Trump officials and impeachment (headline only).",
+      "tier": "reported",
+      "url": "https://punchbowl.news/?p=173210",
+      "weight": 1
+    },
+    {
+      "actor": "New York Times; Alina Habba",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Daily Beast (Oct 13) summarized earlier NYT reporting on a Saab-linked cement contract and shelved sanctions. Links to midterms and Venezuela are hypotheses.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-habba-mildon",
+      "issues": [
+        "MID",
+        "VEN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Headline only, weight capped at 2. Adds to the reporting around Habba after the Oct 21 Herrera story; no act or probe reported.",
+      "source": "NYT (Oct 30, headline); Daily Beast (Oct 13)",
+      "text": "NYT: the background of Alina Habba's husband, Turhan Mildon, including ties to Congo and Venezuela, is under scrutiny (headline only).",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Alaska attorney general's office",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "The suit, filed at Trump's direction, seeks to halt certification of a possible Peltola win. Alaska says it already keeps ballots 22 months. Oct 31: US Attorney Michael Heyman calls the allegations 'troubling' and cites a surge of law enforcement assets, naming no crimes (CBS).",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "No fx: a filing by the state, not a ruling; Judge Gleason's Nov 1 dismissal is scored on mid-2026-11-01-alaska-suit-dismissed.",
+      "id": "mid-2026-10-31-alaska-opposes-suit",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): DOJ's push to hold up Alaska's certification now faces the state's own legal office under Republican Gov. Dunleavy, so an order before certification looks less likely; no ruling yet. Counter: the state defends its process, not Peltola. Falsifier: Gleason grants segregation.",
+      "source": "AP via Click2Houston (read); CBS News (read); The Hill",
+      "text": "Alaska's attorney general's office asks Judge Sharon Gleason to dismiss DOJ's Alaska Senate suit with prejudice, calling it meritless and DOJ's Friday request to separate ballots ranking the second Dan Sullivan 'disturbing and impossible' on privacy grounds.",
+      "tier": "documented",
+      "url": "https://www.click2houston.com/news/politics/2026/10/31/attorneys-for-alaska-say-meritless-trump-demand-to-set-aside-senate-ballots-not-even-possible/",
+      "weight": 3
+    },
+    {
+      "actor": "Alaska Democrats",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Filed Friday afternoon (Oct 30). Plaintiffs by name and relief sought were not shown in the excerpt read. State court, separate from DOJ's federal suit.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-ak-polling-suit",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Chron: a party's state-court suit; it adds a second legal front in the close Alaska Senate count but no court has acted.",
+      "source": "New York Times via Juneau Independent (read)",
+      "text": "Democrats sue in Anchorage Superior Court, alleging election officials failed to properly run at least 18 rural polling places, putting several thousand voters at risk of disenfranchisement.",
+      "tier": "reported",
+      "url": "https://www.juneauindependent.com/post/democrats-file-suit-over-closed-polling-places-in-rural-alaska",
+      "weight": 2
+    },
+    {
+      "actor": "Markwayne Mullin",
+      "added": "2026-11-01",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Democracy Docket does not verify the figures and notes his earlier Nevada claim of 15,000 was revised to 185, all citizens. The 1,600 active cases are an unverified assertion.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-mullin-300k-claim",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Statement only: an unverified claim from the official whose earlier figures collapsed; useful mainly as a pre-election message.",
+      "source": "Democracy Docket (read)",
+      "text": "On Fox News, DHS Secretary Mullin says DHS is investigating 300,000 potential noncitizen-voting cases, 1,600 of them active investigations.",
+      "tier": "claimed",
+      "url": "https://www.democracydocket.com/news-alerts/dhs-secretary-mullin-claims-300000-noncitizens-under-investigation-for-illegally-voting/",
+      "weight": 1
+    },
+    {
+      "actor": "Immigrant-rights group (unnamed)",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "First read as AP's summary only. Nov 1: The Hill and Playbook credit a two-fifths finding to data analysts and UCLA; DOJ claims 21,000 noncitizens on rolls and, per an AP headline (not read), seeks sanctions over a noncitizen-voting analysis. RE-CHECK.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-ca-list-not-on-rolls",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Chron: an outside analysis that undercuts the list behind DOJ's California suit; summary only, so weight capped at 2.",
+      "source": "AP via Local10 (summary read); Al Jazeera; The Hill; Politico Playbook (Nov 1-2); AP Morning Wire (Nov 2, headline)",
+      "text": "A legal filing by an immigrant-rights group finds more than 4 in 10 names DOJ flagged as possible noncitizen voters in California cannot be found on the state's voter rolls.",
+      "tier": "reported",
+      "url": "https://www.local10.com/news/politics/2026/10/31/over-40-of-names-on-doj-list-of-alleged-noncitizens-are-not-on-calif-voter-rolls-analysis-finds/",
+      "weight": 2
+    },
+    {
+      "actor": "Social Security Administration",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Post page failed (client_error). The Hill (Nov 1 headline; page blocked) says the email may violate the Hatch Act. Inquirer/WaPo (Oct 27): IRS and SSA emailed Americans about Trump Accounts. Common Dreams documents an Oct 22 SSA email.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-ssa-email",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Headline only, so weight capped at 2. My reading: fits the taxpayer-funded messaging stored on Oct 7.",
+      "source": "Washington Post via Memeorandum (headline only); Common Dreams; The Hill (Nov 1, headline); Inquirer/WaPo (Oct 27)",
+      "text": "Washington Post headline: the Social Security Administration sends an unusual email touting Trump days before the election (headline only).",
+      "tier": "reported",
+      "url": "https://www.washingtonpost.com/elections/2026/10/31/social-security-administration-sends-email-touting-trump-days-before-election/",
+      "weight": 2
+    },
+    {
+      "actor": "Donald Trump",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Follows the Oct 21 NYT report on the deal and the Herrera pardon; article not read.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-trump-habba-deal",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Headline only; a statement putting distance between Trump and Habba's deal.",
+      "source": "New York Times via Memeorandum (headline only); Politico Playbook (newsletter, Nov 1); The Hill (Nov 1, headline)",
+      "text": "Trump calls his former lawyer Alina Habba's $50M Concord Partners deal 'obnoxious and outrageous' (Politico Playbook line; article not read).",
+      "tier": "reported",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "Voters; DeSantis",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Partial early-vote counts; party data are not results.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-01-turnout-signals",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Chron: turnout signals before Nov 3; no act.",
+      "source": "NBC News; Axios AM (newsletter, 2026-11-01)",
+      "text": "NBC reports a Hispanic early-vote surge in Texas; Axios says Florida Republicans lead early ballots by only 3 points and DeSantis says turnout is weaker than hoped.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Super PACs",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "The Alaska recruitment claim restates the Oct 28 NYT report stored on mid-2026-10-28-peltola-spoiler.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-01-third-party-spending",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Chron: context on spoiler spending; no new act.",
+      "source": "Axios AM (newsletter, 2026-11-01)",
+      "text": "Super PACs have spent $16M+ backing 40+ third-party candidates (FEC data); NYT says Alaska's 'double-Dan' candidates were recruited with an operative tied to the Peltola campaign, which Peltola and the DSCC deny.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Rep. Chuck Fleischmann",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Neither article read (client_error). A La Voce di New York headline claims he wants the seat to avoid impeachment; unverified. Queued as q-2026-10-31-07. Nov 5 follow-up: AP reported, citing a person familiar with Blackburn’s thinking, that Hegseth was outside her current consideration. Trump publicly suggested he could be popular in the role. The governor’s eventual appointment is the decisive action. https://apnews.com/article/bfe5baf0dd3f26ddf0ca9b844400515d",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-hegseth-senate-seat",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Headline only; speculation, not an act.",
+      "source": "The Hill (headline only); Tennessee Lookout (headline only)",
+      "text": "Headlines: if Sen. Blackburn becomes Tennessee governor, Hegseth could be appointed to her Senate seat (Rep. Fleischmann, per an Oct 27 Tennessee Lookout headline; The Hill, Oct 31).",
+      "tier": "inferred",
+      "url": "",
+      "weight": 1
+    },
+    {
+      "actor": "Judge Sharon Gleason; DOJ",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Background: DOJ sued Oct 22-23, at Trump's direction and before any votes were counted, to head off certification of a possible win by Democrat Mary Peltola over Republican Sen. Dan Sullivan; the Oct 29 amended complaint sought to decertify the result if Sullivan loses narrowly, citing an NYT report that Peltola campaign staff helped recruit a second candidate named Dan J. Sullivan as a spoiler (her campaign denies it). DOJ also asked to separate ballots for that second Dan Sullivan; Alaska's attorney general called that 'disturbing and impossible' on privacy grounds. Related: Trump demanded Peltola be removed and prosecuted, the NRSC asked the FEC to probe her, Comer opened an Oversight probe, and DOJ issued about 40 subpoenas in a criminal inquiry. Comer says there is a 'big possibility' Peltola is not seated if she wins; Tim Scott dodged whether he would accept a Peltola win (The Hill headlines, Nov 1). Date from NYT and The Hill (Nov 1). Resolves the motion on mid-2026-10-31-alaska-opposes-suit.",
+      "date": "2026-11-01",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: the dismissal removes DOJ's certification lever in Alaska; re-score if an appeals court revives the suit or the criminal probe yields charges.",
+      "id": "mid-2026-11-01-alaska-suit-dismissed",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): DOJ loses its civil route to block or undo certification in Alaska, and the senator it claimed to protect says he will accept the result. Counter: appeal and criminal probe go on. Falsifier: an appeals court revives the suit.",
+      "source": "Politico Playbook, Punchbowl News AM, AP Morning Wire (newsletters, Nov 2); CBS News (read: standing, notice of appeal); NYT, The Hill (headlines)",
+      "text": "Judge Sharon Gleason dismisses DOJ's preemptive suit over Alaska's Senate race for lack of standing, finding no workable plan on the two Dan Sullivans on the ballot; DOJ files a notice of appeal the same day (Nov 1). Sen. Dan Sullivan says he will accept the results.",
+      "tier": "documented",
+      "url": "gmail:Politico Playbook 2026-11-02",
+      "weight": 4
+    },
+    {
+      "actor": "Rep. Haley Stevens (D-Mich.)",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Trump praises her 'bravery' (The Hill). El-Sayed raised $1.2M within hours (Politico). Nov 2 headlines, not read: Cook says El-Sayed is still favored (WaPo); some Michigan Democrats urge a split ticket (NY Post); Carville says her career is over (The Hill).",
+      "date": "2026-11-01",
+      "fx": {
+        "party": 1
+      },
+      "fxnote": "Provisional: the endorsement helps the Republican Senate nominee in Michigan at the margin; re-score after the Michigan result.",
+      "id": "mid-2026-11-01-stevens-rogers",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a costly defection gives Rogers bipartisan cover in a race Democrats lead, a small gain for the Republican campaign that does not change the vote math. Counter: the backlash raised El-Sayed $1.2M in hours. Falsifier: Rogers runs behind his polls.",
+      "source": "Axios AM, Politico Playbook, AP Morning Wire (newsletters, Nov 2); NYT, Politico, Axios, The Hill (headlines)",
+      "text": "Rep. Haley Stevens (D-Mich.), who lost the Democratic Senate primary, endorses Republican Mike Rogers over nominee Abdul El-Sayed two days before the vote; her staff resign, Schumer calls it 'a despicable betrayal' and some House Democrats push to expel her from the caucus.",
+      "tier": "documented",
+      "url": "gmail:Axios AM 2026-11-02",
+      "weight": 3
+    },
+    {
+      "actor": "Republican Senate groups",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Axios names 'Graham' for South Carolina, which conflicts with the ledger's record that Lindsey Graham died Jul 11 (NPR); newsletter line only, not resolved. Which groups moved the money is not stated.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-gop-senate-rescue",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: money moved to red-state seats shows the party on defense; one newsletter line, so untagged.",
+      "source": "Axios AM (newsletter, Nov 2)",
+      "text": "Axios: Republicans divert money from swing states to defend Senate seats in Kansas (Sen. Roger Marshall), South Carolina and Mississippi (Sen. Cindy Hyde-Smith).",
+      "tier": "reported",
+      "url": "gmail:Axios AM 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Pollsters",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Politico: GOP lawmakers privately say Trump will cost them Congress, citing the Iran war, tariffs and deportations. Punchbowl: analysts predict 236-241 Democratic House seats. DDHQ moves Texas, Alaska and Maine toward Democrats (The Hill headline).",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-final-polls",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: closing polls; no act.",
+      "source": "Axios AM, Politico Playbook, Punchbowl News AM (newsletters, Nov 2); NYT, The Hill (headlines)",
+      "text": "Final NYT/Siena polls show Democrats ahead in all seven Senate battlegrounds; one survey puts Trump's disapproval at a record 60%; NBC finds more voters dissatisfied than satisfied with their finances (51-49), a first in 30+ years.",
+      "tier": "reported",
+      "url": "gmail:Axios AM 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Top midterm donors",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Newsletter summary; the NYT article was not read. The record $11.6B ad total is already on mid-2026-10-31-polls-adspend. Musk's figure is well above the $366M in his stored Russia position; scope and method may differ.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-top-donors",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: donor totals; updates donor amounts; no act.",
+      "source": "Axios AM (newsletter, Nov 2), citing the New York Times",
+      "text": "NYT analysis (via Axios AM): the top 20 midterm donors gave about $2B, led by Elon Musk ($446M); a16z and its founders gave $116M, mostly to Republicans; Reid Hoffman gave about $17M for James Talarico in Texas.",
+      "tier": "reported",
+      "url": "gmail:Axios AM 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Donald Trump",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Guardian, Al Jazeera and CBS pages not read (headlines). Follows the rally reversal on mid-2026-10-30-telerallies. Vance's Nov 2 rallies are on suc-2026-10-31-eve-rallies.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-trump-closing",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: closing appearances; no change to any actor's options.",
+      "source": "Politico Playbook, Axios AM (newsletters, Nov 2); The Hill, CBS, Guardian, Al Jazeera (headlines)",
+      "text": "Trump closes the campaign on Nov 2 with nine tele-rallies and a 2 p.m. ET speech at the Lincoln Memorial Reflecting Pool, after a Nov 1 Iowa rally whose attacks on Abdul El-Sayed Sanders, the Guardian and Al Jazeera call bigoted.",
+      "tier": "reported",
+      "url": "gmail:Politico Playbook 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "White House",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Newsletter lines only (Reuters Daily Briefing, Politico Playbook). The Musk-protection and pre-emptive pardon remarks are now read and stored separately (mid-2026-11-02-trump-pardon-pledge). Pairs with Raskin's plans on mid-2026-10-31-raskin-oversight.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-govern-around-congress",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: a stated plan, not an act. My reading: pre-emptive pardons, if confirmed, would bear on staff legal exposure.",
+      "source": "Reuters Daily Briefing, Politico Playbook (newsletters, Nov 2); The Hill, Axios (headlines)",
+      "text": "Reuters: the White House plans to advance its agenda by executive power if Democrats take Congress and braces for investigations; Trump says 'I guess I'll become Mr. Veto' and then make deals.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Congressional leaders; RNC",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Bacon expects a 'debate' on MAGA's future; Harris calls impeachment 'not a good idea'; law firms that cut deals with Trump sit out election-interference fights (NYT via Playbook); Newsom warns judges of interference. Newsletters and headlines.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-post-election-positioning",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: positioning statements before the vote; no act.",
+      "source": "Punchbowl News AM, Politico Playbook, Axios 2028 (newsletters, Nov 1-2); The Hill (headlines)",
+      "text": "Post-election jockeying: Johnson, Scalise and Jordan eye House GOP leader posts if Republicans lose the majority; Schumer is assured the leader post if the Senate flips and Schatz runs unopposed for whip; RNC chair Gruters admits a turnout problem.",
+      "tier": "reported",
+      "url": "gmail:Punchbowl News AM 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Virginia; District of Columbia",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Fits no issue well; stored under the midterms as a hypothesis (Trump's closing speech covers D.C. restorations). Court, claims and filing date not read.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-01-arch-suit",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Headline only, so weight capped at 2.",
+      "source": "AP Morning Wire (newsletter headline, Nov 1)",
+      "text": "Virginia and the District of Columbia sue over Trump's arch (AP Morning Wire headline; not read).",
+      "tier": "reported",
+      "url": "gmail:AP Morning Wire 2026-11-01",
+      "weight": 2
+    },
+    {
+      "actor": "Magistrate Judge Zia Faruqui",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "DOJ charged them by complaint Oct 23; the defense moved to dismiss Oct 29. AP says the probe opened the day after a Trump speech and was mandated by FBI Director Patel. Not said: with or without prejudice. DOJ can still seek a grand jury indictment.",
+      "date": "2026-11-02",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: the ruling blocks a Patel-mandated case and labels it weaponization; re-score if a grand jury indicts.",
+      "id": "mid-2026-11-02-floris-benavides-dismissed",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court finding of political motive, after the Hutchinson no-bill (Oct 27), raises the cost of DOJ's cases against critics. Counter: DOJ can indict anyway. Falsifier: an indictment and conviction. Corrects the Oct 29 'not dismissed' note.",
+      "source": "AP via PBS NewsHour (read, Nov 2); The Hill; Axios PM; Politico Playbook PM (Nov 2)",
+      "text": "Magistrate Judge Zia Faruqui dismisses from the bench DOJ's complaint charging ex-FBI officials Nikki Floris and Bradley Benavides with lying to Congress in 2023 about the Hunter Biden laptop probe, calling it 'weaponization'.",
+      "tier": "documented",
+      "url": "https://www.pbs.org/newshour/politics/judge-dismisses-charges-against-ex-fbi-agents-accused-of-lying-about-hunter-biden-citing-weaponization",
+      "weight": 4
+    },
+    {
+      "actor": "Justice Department",
+      "added": "2026-11-02",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Background: DOJ says about 20,000 California registrants may be noncitizens; Judge Carter refused and appointed a special master, and an LA County review found many names not on the rolls. Resolved: the Court denied the request (mid-2026-11-02-scotus-denies-ca-ballots).",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "No fx: a filing changes nothing until the justices rule; the scored court losses sit on mid-2026-10-26-9th-cir-ca-ballots.",
+      "id": "mid-2026-11-02-doj-scotus-ca-ballots",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Supreme Court is now DOJ's last route to pull the California ballots before certification, which keeps the noncitizen-voting claim alive through the count but has not changed any ballot's status. Evidence: Roll Call and Politico describe the filing. Not established: timing of any ruling. Counter-reading: a long-shot filing for the record ahead of post-election challenges. Falsifier: the Court grants relief. Recall miss: found by the weekly audit (Roll Call, Politico Playbook PM).",
+      "source": "Roll Call (Nov 2); Politico Playbook PM (Nov 2)",
+      "text": "DOJ files an emergency application asking the Supreme Court to order California to set aside the mail ballots of about 20,000 voters it says may be noncitizens until their citizenship is checked, after the Ninth Circuit refused on Oct 26 and Oct 30.",
+      "tier": "documented",
+      "url": "https://rollcall.com/2026/11/02/supreme-court-asked-to-intervene-in-california-ballots-case/",
+      "weight": 3
+    },
+    {
+      "actor": "Justice Department; D.C. federal grand jury",
+      "added": "2026-11-02",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Background: DOJ under Attorney General Blanche has pursued Trump critics, including new charges against former FBI director James Comey unsealed Oct 26 (the third attempt in 13 months). A grand jury refusal is rare and signals juror resistance in Washington; DOJ can present the case again.",
+      "date": "2026-10-27",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: a no-bill blocks this prosecution of a Trump critic; re-score if DOJ re-presents the case and wins an indictment.",
+      "id": "mid-2026-10-27-hutchinson-no-bill",
+      "issues": [
+        "MID"
+      ],
+      "kind": "shift",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a grand jury has refused the enforcers' case against a prominent Trump critic, raising the cost of further critic prosecutions in Washington. Evidence: ABC and the Post. Not established: whether DOJ will try again. Counter-reading: DOJ often re-presents after a no-bill. Falsifier: an indictment on a second try. Recall miss (aggregator sweep).",
+      "source": "ABC News; Washington Post",
+      "text": "A federal grand jury in Washington declines to indict Cassidy Hutchinson, the former Trump White House aide whose Jan. 6 committee testimony DOJ called false, on charges of lying to Congress (Washington Post first reported; ABC).",
+      "tier": "documented",
+      "url": "https://abcnews.com/US/doj-fails-indictment-trump-aide-cassidy-hutchinson-jan/story?id=137619918",
+      "weight": 4
+    },
+    {
+      "actor": "Judge Jennifer Rochon",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Background: Common Cause sued, arguing the government ads were campaign messaging paid for with public money days before the Nov 3 vote. The order covers three of the 13 challenged ads.",
+      "date": "2026-10-30",
+      "fx": {
+        "operation": -1
+      },
+      "fxnote": "Provisional: the ruling cuts a publicly funded message channel the White House campaign operation used in the final week; re-score if stayed on appeal.",
+      "id": "mid-2026-10-30-rochon-ads",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): a court has blocked part of the administration's use of public money for campaign-style messaging, a small loss for the campaign operation days before the vote. Evidence: AP. Not established: the other ten ads' fate. Counter-reading: the ads had already run. Falsifier: a stay. Recall miss (aggregator sweep).",
+      "source": "AP via Yahoo News (LiveNOW from FOX)",
+      "text": "Judge Jennifer Rochon orders three taxpayer-funded administration ads ('$5,000 to Americans', 'No Tax on Tips', 'Cost of Socialism') removed from government sites and social media and bars their distribution through MAGA Inc., in a Common Cause suit over 13 ads.",
+      "tier": "documented",
+      "url": "https://www.yahoo.com/news/politics/articles/3-taxpayer-funded-trump-administration-030959612.html",
+      "weight": 3
+    },
+    {
+      "actor": "US Attorney Timothy Courchaine (Arizona)",
+      "added": "2026-11-02",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Background: DOJ has opened noncitizen-voting probes in California, Alaska, Washington and North Carolina in the final weeks; Arizona is a Senate and House battleground. No charges yet.",
+      "date": "2026-10-30",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: widens the enforcers' election probes into a battleground state; re-score if no charges follow or a court bars the review.",
+      "id": "mid-2026-10-30-arizona-usao-voter-probe",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the enforcers extend criminal pressure on voter-registration groups into Arizona, which can chill registration work and seed post-election challenges. Evidence: DOJ's own release. Not established: any wrongdoing. Counter-reading: routine referral. Falsifier: the case is closed without charges. Recall miss (aggregator sweep; official DOJ district pages are not read).",
+      "source": "DOJ press release; Democracy Docket",
+      "text": "US Attorney for Arizona Timothy Courchaine opens a case on alleged noncitizen voter registrations by three nonprofits (named by Democracy Docket as Stand Indivisible Arizona, Worker Power and When We Count), refers it to the FBI, and urges state and Maricopa County officials to review registrations.",
+      "tier": "documented",
+      "url": "https://www.justice.gov/usao-az/pr/district-arizona-responds-allegations-non-citizen-voter-registration",
+      "weight": 3
+    },
+    {
+      "actor": "Justice Department",
+      "added": "2026-11-02",
+      "by": [
+        "maximalists"
+      ],
+      "context": "",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-doj-monitors",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep).",
+      "source": "Votebeat",
+      "text": "DOJ plans about 1,000 election monitors in all 50 states, its largest effort, with a county list due on Election Day; DOJ told Pennsylvania (Oct 27) monitors only observe; Colorado and Indiana restrict their access.",
+      "tier": "reported",
+      "url": "https://www.votebeat.org/national/2026/10/31/justice-department-election-monitors-explainer-2026-midterms/",
+      "weight": 2
+    },
+    {
+      "actor": "Judge James Boasberg",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-30-boasberg-list",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (newsletter).",
+      "source": "Politico Playbook PM (Oct 30)",
+      "text": "Judge James Boasberg orders DOJ to give California, by the end of Oct 30, the list of about 20,000 people it alleges are noncitizen registered voters.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Sen. Chris Murphy",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-10-31-murphy-stroke",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (newsletter).",
+      "source": "Punchbowl AM; Politico Playbook; Axios AM; AP Morning Wire (Nov 2)",
+      "text": "Sen. Chris Murphy (D-Conn.), 53, has a stroke Oct 31; staff say he is awake and alert and expected to recover fully.",
+      "tier": "documented",
+      "weight": 1
+    },
+    {
+      "actor": "Supreme Court",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "DOJ says about 20,000 California registrants may be noncitizens. Judge Carter (Oct 28) and two Ninth Circuit panels (Oct 26, Oct 30) refused to hold their ballots; DOJ went to the justices Nov 2. Next: ballots are counted; DOJ's LA grand jury meets Nov 4.",
+      "date": "2026-11-02",
+      "fx": {
+        "maximalists": -1
+      },
+      "fxnote": "Provisional: the denial blocks the Maximalists' DOJ ballot tool before the count; re-score if the order text shows relief left open or a post-election challenge revives it.",
+      "id": "mid-2026-11-02-scotus-denies-ca-ballots",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): DOJ loses its last pre-count route to hold out the California ballots; the noncitizen claim lives on only in the grand jury and post-election fights. Counter: a filing for the record. Falsifier: order text shows a narrower ruling. Vote and dates of order not read.",
+      "source": "AP, Reuters, Politico (Gerstein, Cheney), Axios, CNN (Nov 2-3; newsletters and pages); Fox (read); CNBC, SF Chronicle, States Newsroom (headlines)",
+      "text": "The Supreme Court rejects the Justice Department's emergency request to make California set aside the mail ballots of about 20,000 voters DOJ alleges may be noncitizens, the eve of the midterms; vote and reasoning not read.",
+      "tier": "documented",
+      "url": "https://www.cnn.com/2026/11/02/politics/trump-supreme-court-california-noncitizen-ballot",
+      "weight": 4
+    },
+    {
+      "actor": "Federal judge (not named)",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "May be a new ruling or a write-up of an earlier one (Carter Oct 28; Thompson TRO Oct 30). Page failed to fetch (client_error). RE-CHECK next run.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-judge-blocks-ca-demands",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Headline only, capped at 2 and untagged; possible duplicate of a stored ruling until read.",
+      "source": "Axios (headline only, Nov 2)",
+      "text": "Axios headline: another judge blocks Justice Department ballot demands in California (article not read; judge and demand not named).",
+      "tier": "reported",
+      "url": "https://www.axios.com/2026/11/02/judge-blocks-trump-doj-california-ballot-demands",
+      "weight": 2
+    },
+    {
+      "actor": "Donald Trump",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Interview date not printed; Axios item dated Nov 2, TBS News write-up Nov 3. Musk gave about $445M this cycle. Pairs with the White House plan to brace for probes (mid-2026-11-02-govern-around-congress).",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-02-trump-pardon-pledge",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Statement, not an act. My reading: signals legal cover for staff ahead of a possible Democratic House's subpoenas.",
+      "source": "TBS News (citing Pod Force One, read, Nov 3); Axios (Nov 2, headline)",
+      "text": "On Pod Force One, Trump says of Democratic probes of Elon Musk 'we'll have to protect them' and that he would pardon aides pre-emptively: 'I'd do it.'",
+      "tier": "reported",
+      "url": "https://www.tbsnews.net/worldbiz/usa/trump-says-he-would-consider-pre-emptive-pardons-musk-and-aides-1590946",
+      "weight": 2
+    },
+    {
+      "actor": "Justice Department",
+      "added": "2026-11-03",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Released the day before the Nov 3 vote, after 18 North Carolina charges (Oct 29) and a California noncitizen probe the courts have checked. The release's 'largest surge' quote is from the Attorney General (our notes say 'Blanco'; likely Todd Blanche, unverified). Next: cases go to court.",
+      "date": "2026-11-02",
+      "fx": {
+        "maximalists": 1
+      },
+      "fxnote": "Provisional: DOJ keeps using election charges on the eve of the vote; re-score if most cases are dismissed.",
+      "id": "mid-2026-11-02-doj-63-charges",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): an eve-of-vote batch keeps the fraud message alive, but only four noncitizens among 63 sits poorly with the 20,000-ballot claim. Counter: routine cases. Falsifier: mass dismissals. The 195 figure is DOJ's claim.",
+      "source": "Justice Department press release (Nov 2)",
+      "text": "DOJ announces charges against 63 people for election crimes (illegal voting, false citizenship claims, fraudulent registration) across many districts; four are noncitizens. It claims 195 noncitizens charged in nine weeks.",
+      "tier": "documented",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-63-individuals-election-related-crimes",
+      "weight": 3
+    },
+    {
+      "actor": "CISA",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "NYT article not read; Route Fifty and Nextgov (Sep-Oct) said renewed CISA support came too late for midterm prep. RE-CHECK.",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-03-cisa-light-role",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Headline only, capped at 2; a reduced federal security role on Election Day.",
+      "source": "Politico Playbook (newsletter, Nov 3) citing NYT (Volz, Barnes)",
+      "text": "NYT (via Politico Playbook): CISA, the federal election-security agency, offers only light help to election officials on Election Day and holds no press briefings.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "Voters",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Nate Silver: Democrats 95% House, 80% Senate. Politico poll: about 9% of Trump 2024 voters back Democrats. AdImpact: Trump in 3% of House GOP general-election ads. NBC: Democrats 29% favorable. Follows mid-2026-11-02-final-polls.",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-03-election-day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Chron: the vote itself and final forecasts; no result, so no change in any position yet.",
+      "source": "AP, Reuters, Politico, Axios, Semafor, Punchbowl News (Nov 3)",
+      "text": "Americans vote in the midterms; no results yet. Early votes topped 50 million (AP). Forecasts favor Democrats for the House; the Senate is less certain (Reuters). AP took 7-8 days to call the House in the last three cycles.",
+      "tier": "documented",
+      "url": "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/",
+      "weight": 2
+    },
+    {
+      "actor": "Senate Leadership Fund",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Newsletter line only; article not read. Senate Republicans also diverted money to Kansas, South Carolina and Mississippi (mid-2026-11-02-gop-senate-rescue).",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "mid-2026-11-03-slf-streaming",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Headline only, capped at 2; late Senate GOP spending.",
+      "source": "Politico Playbook (newsletter, Nov 3) citing Axios (Kight, Fischer)",
+      "text": "Axios scoop (via Playbook): the Senate Leadership Fund tripled its streaming and social spending to over $200 million.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "id": "mid-2026-11-05-congress-control",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "FED"
+      ],
+      "kind": "shift",
+      "actor": "Voters",
+      "text": "Associated Press projects Democratic control of both chambers of the next Congress.",
+      "context": "The election took place November 3. Some individual races remained uncalled as of November 5. Chamber projections and final certification are separate. AP’s Nov 5 update still listed Alaska and Mississippi Senate races and Alaska and Kansas governor races as uncalled. The chamber projections are already secure in AP’s count. https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743",
+      "source": "Associated Press race calls, November 5 status",
+      "url": "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: losing both projected majorities is a setback for the Operation and Party Machine, whose stated goals included retaining Congress. Track individual outcomes and leadership changes separately.",
+      "origin": "midterms coverage recovery",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {
+        "operation": -1,
+        "party": -1
+      },
+      "fxnote": "Provisional: chamber-control projection. Update if calls or certified results change.",
+      "mergedFrom": [
+        {
+          "id": "fed-2026-11-03-878cda",
+          "kind": "scheduled",
+          "weight": 0,
+          "text": "Midterm elections",
+          "context": "",
+          "source": "",
+          "tier": "carried",
+          "added": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "mid-2026-11-04-johnson-leadership",
+      "date": "2026-11-04",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Mike Johnson, Steve Scalise and Jim Jordan",
+      "text": "Johnson told staff he would sit out the next House Republican leadership contest, according to reporting. Scalise and Jordan announced bids for minority leader.",
+      "context": "House Republicans choose their leader by secret ballot. Axios reported a Nov 10 election. In 2023 Scalise beat Jordan in conference but withdrew when he lacked floor support for Speaker. The minority leadership contest is decided within the conference. Axios reported Johnson publicly intended in October to stay on even after a loss. After the result he cited the toll on his family in withdrawing. Steube publicly urged both chambers’ GOP leaders to step aside, giving members seeking change a conservative argument for replacing incumbents. Axios separately attributed complaints about Iran and domestic policy to unnamed GOP lawmakers. The whip and campaign chair posts are contested. AP projects campaign chair Richard Hudson lost his seat, weakening the case for continuity in campaign leadership. The Nov 10 secret ballot will decide the posts. https://www.axios.com/2026/11/04/house-republicans-steve-scalise-jim-jordan-minority-leader https://www.axios.com/2026/11/04/republicans-midterms-johnson-trump-scalise https://www.axios.com/2026/11/05/nrcc-chair-richard-hudson-losss-midterms",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/11/04/state-scalise-house-republicans-minority-leader-midterms",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: the defeat opened a contest for control of the House GOP agenda. Scalise can draw on leadership ties and Jordan on conservative members. Their public bids mark a shift in positioning before the conference vote.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "mid-2026-11-05-wiles-hegseth-blame",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Susie Wiles and Pete Hegseth",
+      "text": "The Daily Beast reported that Wiles was directing blame for the midterm defeat toward Hegseth and also faulted Rubio over negotiations.",
+      "context": "CBS separately reported that Trump was asking advisers whether Hegseth should stay. That reporting establishes scrutiny of his position. The account of Wiles’s role relies on attributed reporting. Trump publicly backed Hegseth on Nov 4. Massie separately told CNN he plans to force a House impeachment vote using articles introduced in September. This is a congressional pressure channel, distinct from Wiles’s reported blame-shifting and the reported White House job discussions. See https://www.justsecurity.org/163503/early-edition-november-5-2026/ and https://apnews.com/article/bfe5baf0dd3f26ddf0ca9b844400515d. A floor vote, resignation or dismissal remained unconfirmed. Axios independently reported that some Trump allies in Congress urged the administration to remove Hegseth. That is a separate channel from Massie’s floor threat. https://www.axios.com/2026/11/05/hegseth-impeachment-midterms-trump Nov 6 follow-up: Wiles’s own departure was announced; see mid-2026-11-06-miller-chief-staff. This does not confirm Hegseth’s removal.",
+      "source": "The Daily Beast; CBS News",
+      "url": "https://www.thedailybeast.com/secret-west-wing-knife-fight-exposed-in-wake-of-disaster",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: shifting the explanation from campaign management to the war helps protect the Operation and puts pressure on Hegseth. The reporting leaves the outcome of the personnel contest open.",
+      "origin": "weekly backfill correction",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: attributed blame and job pressure identify risks, while a change in office or command authority remains unverified.",
+      "challenge": {
+        "reading": "Congressional allies have an independent channel to Trump. Their pressure can raise the political cost of keeping Hegseth even if the House never votes. Trump’s public backing is counterevidence to imminent removal.",
+        "resolution": "revised"
+      }
+    },
+    {
+      "id": "mid-2026-11-05-blumenthal-preservation-notices",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "IMM",
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Richard Blumenthal",
+      "text": "Blumenthal issued preservation notices covering immigration enforcement, the FCC, Trump-linked crypto and White House ballroom donors.",
+      "context": "The ranking member used existing Senate Permanent Subcommittee on Investigations inquiries to put recipients on notice ahead of the projected Democratic majority. Watch for committee organization, requests, subpoenas and production.",
+      "source": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: issuing notices immediately after the election lets Blumenthal set an oversight agenda early and presses agencies and private recipients to retain evidence for future inquiries.",
+      "origin": "daily intake",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Preservation notices establish a public demand. Compulsory process and compliance remain open."
+    },
+    {
+      "id": "mid-2026-11-05-schumer-confirmation-stance",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Chuck Schumer",
+      "text": "Schumer told AP that incoming Senate Democrats would oppose a right-wing Supreme Court nominee and signaled scrutiny of lower-court and Cabinet nominees.",
+      "context": "Schumer declined to commit to keeping a vacancy open through 2028. AP describes his shift in leverage from minority leader under progressive criticism to expected leader of the incoming majority. He also told AP he would support impeachment of Hegseth. The interview establishes a public position. A vacancy, nomination, confirmation vote and any impeachment action remain separate outcomes.",
+      "source": "AP direct interview: https://apnews.com/article/d8d5262fe3d820a3dc73193002f0f27e",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The post-election pledge tells the White House to anticipate confirmation resistance and gives Schumer a way to reassure Democratic constituencies that he will use the incoming majority’s leverage.",
+      "origin": "daily intake",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The record establishes a limited decision or position without a durable faction outcome."
+    },
+    {
+      "id": "mid-2026-11-06-miller-chief-staff",
+      "date": "2026-11-06",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "SUC",
+        "IMM",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump; Stephen Miller; Susie Wiles",
+      "text": "Trump named Miller to succeed Wiles as chief of staff. CNN reports the transition is effective November 9 and Wiles will move to the political operation.",
+      "context": "CNN attributes her Thursday resignation and Trump’s electoral blame to sources, while Trump publicly denied an election connection. Wiles pledged continued commitment; Hegseth welcomed Miller. Earlier Trump denied replacement plans. My reading: public unity protects access and shifts attention from campaign failure; replacing the gatekeeper exposes the Operation. Mediaite, relaying NYT’s Maggie Haberman, reports Miller privately pitched winding down the Iran war. That contrasts with his earlier hard terms and offers an exit strategy while seeking promotion; it establishes neither a public break nor a military directive.",
+      "source": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/ ; CNN Newsource: https://abc17news.com/news/2026/11/06/stephen-miller-replacing-susie-wiles-as-chief-of-staff-trump-announces/ ; Mediaite via AOL: https://www.aol.com/articles/miller-reportedly-told-trump-wind-210707000.html",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: the announced promotion promises Miller broader agenda access and reduces Wiles’s White House gatekeeping. Confirm the handover before crediting exercised authority or policy outcomes.",
+      "origin": "daily intake 2026-11-07",
+      "added": "2026-11-07",
+      "by": [
+        "maximalists",
+        "operation"
+      ],
+      "fx": {},
+      "fxnote": "No fx: appointment announced for November 9; verify the handover before scoring exercised authority. Private pitch does not establish policy change."
+    },
+    {
+      "id": "mid-2026-11-06-senate-leadership-delay",
+      "date": "2026-11-06",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Ron Johnson",
+      "text": "The Washington Examiner obtained a letter Johnson plans to send Monday seeking to delay Senate Republican leadership elections after the midterm defeat.",
+      "context": "The outlet quotes his objection to proceeding immediately. This is a procedural challenge, not a completed postponement or change of leader. Prior detailed stance comparison was not established; retain his argument at its reported level.",
+      "source": "https://www.washingtonexaminer.com/news/senate/4796082/ron-johnson-delay-senate-gop-leadership-elections/",
+      "tier": "reported",
+      "weight": 2,
+      "rationale": "My reading: reopening the timetable creates leverage over leadership’s response to defeat; the vote and any personnel outcome remain pending.",
+      "origin": "daily intake 2026-11-07",
+      "added": "2026-11-07",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: implementation or a durable faction outcome remains to be verified."
+    }
+  ]
+}

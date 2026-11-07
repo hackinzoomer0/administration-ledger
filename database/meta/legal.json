@@ -1,0 +1,833 @@
+{
+  "asof": "2026-11-03",
+  "entries": [
+    {
+      "asof": "2026-10-28",
+      "conduct": "A Sept 2, 2025 second strike reportedly hit survivors of a Venezuela-area boat strike; the White House says Bradley ordered it; Hegseth cites the 'fog of war'.",
+      "confirmed": "Congressional inquiries are open and the strike is reported; the White House attributes the order to Bradley.",
+      "escalates": "The tapes or an inspector general finding.",
+      "exposure": "High",
+      "exposureWhy": "Potential liability is high if the reporting holds because it concerns lethal force against survivors.",
+      "factions": [
+        "pentagon"
+      ],
+      "id": "hegseth-boat-strike",
+      "level": "record",
+      "levelNote": "Armed Services inquiries; Congress sought the tapes",
+      "names": "Pete Hegseth, Adm. Bradley",
+      "probers": "Armed Services Committees; Pentagon inspector general",
+      "subjects": [
+        "hegseth"
+      ],
+      "theory": "Unlawful order or law-of-war violation, if survivors were hit after the first strike (my reading).",
+      "unconfirmed": "Whether survivors were targeted, who gave the order, and what the tapes show."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "A Pentagon inspector general report on the Signal app discussions went to lawmakers; Warren says he has not described protections against conflicts with Trump-family contracts.",
+      "confirmed": "The report exists and went to lawmakers.",
+      "escalates": "A finding of a conflict with a specific contract.",
+      "exposure": "Low",
+      "exposureWhy": "An administrative and ethics matter on this record.",
+      "factions": [
+        "pentagon"
+      ],
+      "id": "hegseth-signal",
+      "level": "record",
+      "levelNote": "Inspector general report; Warren letters",
+      "names": "Pete Hegseth",
+      "probers": "Inspector general; Armed Services",
+      "subjects": [
+        "hegseth"
+      ],
+      "theory": "Handling of sensitive information; ethics rules on conflicts.",
+      "unconfirmed": "Whether any conflict arose from Trump-family contracts."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Cerberus-backed Ligado is suing DOD for about $39-40B; he told Warren Cerberus would 'most likely receive some portion'; his holdings sit in trusts run by a Cerberus managing director and controlled by his children.",
+      "confirmed": "The lawsuit, his statement to Warren, and the trust structure.",
+      "escalates": "An official action touching Ligado or Cerberus portfolio companies.",
+      "exposure": "Moderate",
+      "exposureWhy": "The money at stake is very large; liability depends on a documented official act.",
+      "factions": [
+        "pentagon"
+      ],
+      "id": "feinberg-cerberus",
+      "level": "record",
+      "levelNote": "Warren letters; American Prospect (Jul 17, 2026)",
+      "names": "Steve Feinberg",
+      "probers": "Pentagon inspector general; Office of Government Ethics; Senate Armed Services",
+      "subjects": [
+        "feinberg"
+      ],
+      "theory": "Federal conflict-of-interest law (18 USC 208) if he acted on a matter that benefits Cerberus.",
+      "unconfirmed": "Whether he took any official step on the Ligado matter, and whether the trust structure is a sufficient screen."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Sold xAI ($5-25M) and Perplexity ($5-25M) stakes; the Pentagon signed the xAI classified deal four days after his divestiture certificate; he had a personal loan from Perplexity.",
+      "confirmed": "The divestitures and the deal dates are documented.",
+      "escalates": "A document showing he took part in the xAI decision before divesting.",
+      "exposure": "Low",
+      "exposureWhy": "Timing alone; no act linking him to the decision is shown.",
+      "factions": [
+        "pentagon"
+      ],
+      "id": "michael-stakes",
+      "level": "reported",
+      "levelNote": "Guardian; timing only",
+      "names": "Emil Michael",
+      "probers": "Pentagon inspector general; Armed Services",
+      "subjects": [
+        "michael"
+      ],
+      "theory": "Conflict-of-interest rules if he acted on matters affecting those firms before divesting.",
+      "unconfirmed": "Any link between the timing and the decision."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "In March 2025 more than 100 Venezuelan men were sent to a Salvadoran prison despite a judge's order; DOJ says Noem alone decided.",
+      "confirmed": "A court is probing and DOJ itself names her as the decider.",
+      "escalates": "A contempt referral or a ruling that the order was violated.",
+      "exposure": "High",
+      "exposureWhy": "DOJ's own attribution plus an active judicial probe makes this the most concrete exposure in the report.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "noem-cecot",
+      "level": "court",
+      "levelNote": "Judge Boasberg's probe; D.C. Circuit argued Sep 29",
+      "names": "Kristi Noem",
+      "probers": "Judge Boasberg; D.C. Circuit; DOJ",
+      "subjects": [
+        "kristi-noem"
+      ],
+      "theory": "Criminal contempt of court; violating a court order.",
+      "unconfirmed": "The outcome of the probe and the appeals."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Blanche and Bove allegedly advised acting DHS counsel Mazzara on the March 2025 order.",
+      "confirmed": "The probe is active and the advice is alleged in the record.",
+      "escalates": "Testimony or documents on the advice.",
+      "exposure": "Moderate",
+      "exposureWhy": "Advice is a step removed from the decision; DOJ says Noem alone decided.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "blanche-bove-mazzara",
+      "level": "court",
+      "levelNote": "Judge Boasberg's probe",
+      "names": "Todd Blanche, Emil Bove, Mazzara",
+      "probers": "Judge Boasberg; bar authorities",
+      "subjects": [
+        "blanche"
+      ],
+      "theory": "Professional-responsibility and obstruction theories if they advised ignoring the order; contempt exposure is lower than for the decider.",
+      "unconfirmed": "What they actually advised."
+    },
+    {
+      "asof": "2026-10-30",
+      "conduct": "DHS inspector general probe of Lewandowski, referred to DOJ: a $220M Noem-era ad contract and alleged 'success fee' requests to GEO Group.",
+      "confirmed": "The inspector general referral (NBC, named reporting).",
+      "escalates": "A subpoena, a grand jury report or a confirmed DOJ probe.",
+      "exposure": "High",
+      "exposureWhy": "Kickback and procurement claims are serious if true; a formal referral now exists, but no charge.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "noem-lewandowski-contracts",
+      "level": "court",
+      "levelNote": "DHS inspector general investigated and referred to DOJ (NBC, Oct 22); earlier CNN, CBS, WaPo anonymous reports; DOJ case not confirmed",
+      "names": "Kristi Noem, Corey Lewandowski",
+      "probers": "DOJ; DHS inspector general; House Judiciary",
+      "subjects": [
+        "kristi-noem",
+        "corey-lewandowski"
+      ],
+      "theory": "Procurement fraud, kickbacks, false statements.",
+      "unconfirmed": "Whether DOJ opened a case; any GEO payment; his lawyer denies wrongdoing."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Referred James, Schiff, Cook and Swalwell to DOJ himself instead of through the FHFA inspector general; Swalwell's Nov 2025 suit alleges he searched databases for targets; James's indictment was dismissed.",
+      "confirmed": "A GAO probe and a civil suit are open; the dismissal of James's indictment is on record.",
+      "escalates": "A finding on the database searches.",
+      "exposure": "Moderate",
+      "exposureWhy": "Active probe and suit, but the legal path to personal liability is untested.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "pulte-referrals",
+      "level": "court",
+      "levelNote": "GAO probe accepted Nov 17, 2025; civil suit",
+      "names": "Bill Pulte",
+      "probers": "GAO; courts",
+      "subjects": [
+        "pulte"
+      ],
+      "theory": "Misuse of confidential mortgage data (Privacy Act); abuse of process.",
+      "unconfirmed": "Whether he searched databases for targets."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "A watchdog complaint (Democracy Defenders Fund, Feb 2026) says DOJ released only a handful of their Epstein communications; DOJ says it produced 3.5M pages.",
+      "confirmed": "The complaint and the audit request are filed.",
+      "escalates": "An inspector general finding of withheld material.",
+      "exposure": "Low",
+      "exposureWhy": "No finding; a compliance dispute on this record.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "epstein-compliance",
+      "level": "record",
+      "levelNote": "Complaint and audit request to the DOJ inspector general; no finding",
+      "names": "Todd Blanche, Pam Bondi, Kash Patel",
+      "probers": "DOJ inspector general; Congress",
+      "subjects": [
+        "blanche",
+        "bondi",
+        "patel"
+      ],
+      "theory": "Violation of the Epstein files act; obstruction.",
+      "unconfirmed": "Whether communications were withheld."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "ABC reported an FBI sting that began in 2024 in which he allegedly took a bag with $50,000 and discussed helping obtain government contracts if Trump won; DOJ and the FBI closed it in early 2025.",
+      "confirmed": "The reporting exists and the probe was closed in early 2025.",
+      "escalates": "Documents or recordings from the sting.",
+      "exposure": "Moderate",
+      "exposureWhy": "Serious if accurate, but unconfirmed and closed.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "homan-bag",
+      "level": "anon",
+      "levelNote": "ABC, unnamed sources; the White House called it 'blatantly political'",
+      "names": "Tom Homan",
+      "probers": "None active; a future DOJ could reopen it",
+      "subjects": [
+        "homan"
+      ],
+      "theory": "Bribery or an illegal gratuity if the report is accurate.",
+      "unconfirmed": "Whether the bag and the discussion happened. The closure was by officials now serving with him, so it is not an exoneration."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Judiciary Democrats are examining his use of a $60M FBI jet for personal trips; a whistleblower says it delayed FBI responses; he consulted for the Qatar embassy through Trishul until Nov 2024.",
+      "confirmed": "The letter, the whistleblower claim and the Qatar consulting.",
+      "escalates": "A finding on the jet trips.",
+      "exposure": "Low",
+      "exposureWhy": "Administrative on this record; the Qatar work predates the post.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "patel-jet-qatar",
+      "level": "record",
+      "levelNote": "Committee letter; whistleblower claim",
+      "names": "Kash Patel",
+      "probers": "Judiciary Committee; inspector general",
+      "subjects": [
+        "patel"
+      ],
+      "theory": "Misuse of government resources; foreign-agent registration questions for the earlier consulting.",
+      "unconfirmed": "Whether any trip broke rules."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "DOJ approved acceptance of the Qatari jet; CREW sued for the memo; Ballard billed Qatar $115,000 a month while she was a partner.",
+      "confirmed": "The suit and the Ballard billings.",
+      "escalates": "The memo's contents.",
+      "exposure": "Low",
+      "exposureWhy": "No documented link between the billings and the approval.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "bondi-qatar",
+      "level": "record",
+      "levelNote": "Litigation (CREW suit)",
+      "names": "Pam Bondi",
+      "probers": "Courts; inspector general",
+      "subjects": [
+        "bondi"
+      ],
+      "theory": "Conflict and ethics questions; foreign-gift rules.",
+      "unconfirmed": "Whether her partnership affected the jet decision."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Bought Chevron and Raytheon stock (Dec 29, 2025) days before the Venezuela operation, while on Senate Armed Services; his spokesperson says the firm managing his account made the trades.",
+      "confirmed": "The purchases and dates are in disclosures.",
+      "escalates": "Proof that he directed the trades.",
+      "exposure": "Moderate",
+      "exposureWhy": "Timing is close, but the managed-account explanation is unrebutted.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "mullin-trades",
+      "level": "record",
+      "levelNote": "Disclosure; no probe reported",
+      "names": "Markwayne Mullin",
+      "probers": "Senate Ethics; SEC",
+      "subjects": [
+        "mullin"
+      ],
+      "theory": "STOCK Act or insider-trading theory.",
+      "unconfirmed": "Whether he knew of the operation, or whether the firm made the trades without him."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Named by Oversight's expected chair as 'top of mind for subpoenas'; no specific crime alleged.",
+      "confirmed": "That a subpoena is under discussion.",
+      "escalates": "A subpoena with a stated subject.",
+      "exposure": "Not established",
+      "exposureWhy": "No conduct alleged.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "miller-subpoenas",
+      "level": "record",
+      "levelNote": "Bloomberg Government",
+      "names": "Stephen Miller",
+      "probers": "House Oversight (expected chair)",
+      "subjects": [
+        "miller"
+      ],
+      "theory": "None alleged.",
+      "unconfirmed": "Any allegation of a specific crime."
+    },
+    {
+      "asof": "2026-10-29",
+      "conduct": "Paid hundreds of thousands each through a law firm retained by the Republika Srpska government while running MAGA Inc.; LaCivita earlier ran Berisha's Albania campaign and his firm got $1.6M from Albania's opposition.",
+      "confirmed": "The payments and the filings.",
+      "escalates": "Evidence of direction from the foreign principal.",
+      "exposure": "Low",
+      "exposureWhy": "Registration and a political role weaken a FARA theory.",
+      "factions": [
+        "operation"
+      ],
+      "id": "blair-lacivita-srpska",
+      "level": "reported",
+      "levelNote": "Al Jazeera, NYT, DOJ lobbying filings; no probe reported; Oct 22-23: they gave the fee to Trump's library and Trump said his inquiry was over (Washington Sun, citing NY Post); no formal closure by an investigating body",
+      "names": "Chris LaCivita, James Blair",
+      "probers": "DOJ; House Oversight and Judiciary",
+      "subjects": [
+        "lacivita",
+        "blair"
+      ],
+      "theory": "Foreign Agents Registration Act, if they acted at the foreign principal's direction without registering.",
+      "unconfirmed": "Whether they acted at Srpska's direction; the law firm is registered under lobbying rules."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Continental is paid $35,000 a month by Srpska; a Continental partner arranged a September White House meeting with Wiles (Continental says Katie played no role); Katie went to Srpska with John Calce, whose refinery has a Trump Jr. minority stake and which Trump endorsed.",
+      "confirmed": "The monthly payments and the meeting.",
+      "escalates": "A document showing Wiles took official action for Srpska.",
+      "exposure": "Low",
+      "exposureWhy": "The statute does not reach an adult daughter's firm directly.",
+      "factions": [
+        "operation"
+      ],
+      "id": "wiles-continental",
+      "level": "reported",
+      "levelNote": "Named outlets; Trump said he would 'terminate' conflicted consultants",
+      "names": "Susie Wiles, Katie Wiles (Continental Strategy)",
+      "probers": "House Oversight; DOJ",
+      "subjects": [
+        "wiles"
+      ],
+      "theory": "Lobbying-disclosure and ethics questions; the conflict law (18 USC 208) covers an official's own, spouse's and minor child's interests, so Susie Wiles herself looks less exposed than the firm (my reading).",
+      "unconfirmed": "Whether Wiles acted on the payments; no source shows she did."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Several MAGA Inc. donors later got posts or clemency for relatives (Landa, Loeffler, Isaacman, Herrera, Fago). 14 of 27 ballroom donors won new federal business ($50B+, led by Lockheed $43.8B) and 16 of 27 have enforcement matters (Public Citizen).",
+      "confirmed": "The donations and later benefits are public record.",
+      "escalates": "Evidence of an exchange.",
+      "exposure": "Low",
+      "exposureWhy": "Public timing is not a quid pro quo; the pardon power is lawful.",
+      "factions": [
+        "operation"
+      ],
+      "id": "donor-clemency",
+      "level": "record",
+      "levelNote": "Donor filings; watchdog analysis; the White House denies any link",
+      "names": "Trump-circle donors and recipients",
+      "probers": "House Oversight; DOJ in a future administration",
+      "subjects": [],
+      "theory": "Bribery or illegal gratuity (18 USC 201), if a link is shown; the pardon power itself is lawful.",
+      "unconfirmed": "Any agreement or link between donation and benefit."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Lobbyists charging up to $300,000 for clemency access (IBTimes); House Democrats opened a pay-to-play inquiry.",
+      "confirmed": "The inquiry is open and the fee reports are public.",
+      "escalates": "Records of payments to officials.",
+      "exposure": "Moderate",
+      "exposureWhy": "The brokers have more exposure than the officials.",
+      "factions": [
+        "operation"
+      ],
+      "id": "clemency-brokers",
+      "level": "reported",
+      "levelNote": "IBTimes; congressional inquiry",
+      "names": "Donor and pardon brokers",
+      "probers": "House Oversight Democrats; DOJ",
+      "subjects": [],
+      "theory": "Bribery; lobbying-disclosure violations (by the brokers, not necessarily officials).",
+      "unconfirmed": "Whether any official was paid or took a step."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Aryam (UAE) bought 49% of World Liberty for $500M, signed four days before the Jan 2025 inauguration and undisclosed; $187M went to Trump family entities and at least $31M to Witkoff-family entities; a chips framework followed.",
+      "confirmed": "The purchase, its timing and the payments to family entities.",
+      "escalates": "A document tying a policy step to the payments.",
+      "exposure": "Moderate",
+      "exposureWhy": "Large sums and timing, but no act is tied to a payment.",
+      "factions": [
+        "deal-capital"
+      ],
+      "id": "witkoff-aryam",
+      "level": "reported",
+      "levelNote": "WSJ, The Block; Warren and Murphy letter; the White House denies any link",
+      "names": "Steve Witkoff, Zach Witkoff, Trump family",
+      "probers": "Congress; DOJ in a future administration",
+      "subjects": [
+        "witkoff",
+        "donald-trump",
+        "don-jr",
+        "eric-trump"
+      ],
+      "theory": "Foreign-influence, disclosure and conflict-of-interest questions; foreign-gift rules where officials benefit.",
+      "unconfirmed": "Any link between the investment and policy."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "WSJ: Binance helped World Liberty's stablecoin holdings grow from $127M to over $2.1B, then Trump pardoned Zhao on Oct 23, 2025; MGX put $2B into Binance using USD1. World Liberty says a pardon was never mentioned.",
+      "confirmed": "The holdings growth and the pardon date.",
+      "escalates": "Evidence that the pardon was discussed alongside the deal.",
+      "exposure": "Low",
+      "exposureWhy": "Pardon power is lawful; the link is unproven.",
+      "factions": [
+        "deal-capital"
+      ],
+      "id": "trump-binance",
+      "level": "reported",
+      "levelNote": "WSJ; denials",
+      "names": "Trump family, Binance",
+      "probers": "Congress; DOJ in a future administration",
+      "subjects": [
+        "donald-trump",
+        "don-jr",
+        "eric-trump"
+      ],
+      "theory": "Bribery or illegal gratuity, if a link is shown; the pardon power itself is lawful.",
+      "unconfirmed": "Any link between them."
+    },
+    {
+      "asof": "2026-10-29",
+      "conduct": "Affinity holds 7.4% of Phoenix, a Tel Aviv insurer (over $1B) with $456M in nine defense firms, including Elbit; a Saudi fund put $2B into Affinity; he became Special Envoy for Peace in Feb 2026. His lawyer says he never directed Phoenix.",
+      "confirmed": "The holdings, the Saudi investment and the suit.",
+      "escalates": "An official act tied to an Affinity holding.",
+      "exposure": "Moderate",
+      "exposureWhy": "A documented foreign-funded firm and a government role; no act shown.",
+      "factions": [
+        "deal-capital"
+      ],
+      "id": "kushner-affinity",
+      "level": "record",
+      "levelNote": "CREW suit (Oct 14); Oversight's expected chair lists government roles tied to investments; CREW sued Oct 14 in D.D.C. to bar his envoy role (pending, standing contested)",
+      "names": "Jared Kushner",
+      "probers": "Courts (CREW); House Oversight",
+      "subjects": [
+        "kushner"
+      ],
+      "theory": "Conflict-of-interest and foreign-influence questions.",
+      "unconfirmed": "Any official act that benefited Affinity or Phoenix."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Sons' firms Cantor and Newmark in $25B+ of data-center deals; Warren and 24 Democrats asked the Commerce IG to look at data-center promotion; $5M to a House super PAC weeks before his Epstein testimony.",
+      "confirmed": "The firms' deals, the IG request and the donation.",
+      "escalates": "An IG finding.",
+      "exposure": "Moderate",
+      "exposureWhy": "The waiver is limited and the family interests are large.",
+      "factions": [
+        "deal-capital"
+      ],
+      "id": "lutnick-sons",
+      "level": "record",
+      "levelNote": "IG request; limited waiver",
+      "names": "Howard Lutnick",
+      "probers": "Commerce IG; House Oversight",
+      "subjects": [
+        "lutnick"
+      ],
+      "theory": "Conflict-of-interest law; a limited ethics waiver applies (NOTUS).",
+      "unconfirmed": "Whether his policy work favored the deals."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Two billionaires bought about 1.2 million Venture Global shares each ($12M) Mar 10-14, 2025, after a Mar 6 event the secretaries attended and before Wright's Mar 19 export license; Wright's certificate lists Energy Transfer units.",
+      "confirmed": "The purchases and dates.",
+      "escalates": "Evidence connecting the buyers to the secretaries.",
+      "exposure": "Moderate",
+      "exposureWhy": "The timing is close but the link to the secretaries is not shown.",
+      "factions": [
+        "deal-capital"
+      ],
+      "id": "wright-burgum-venture",
+      "level": "record",
+      "levelNote": "Merkley called for an inquiry; no probe reported",
+      "names": "Chris Wright, Doug Burgum",
+      "probers": "Inspectors general; Senate",
+      "subjects": [
+        "wright",
+        "burgum"
+      ],
+      "theory": "Insider-trading or conflict theories, if non-public information was used.",
+      "unconfirmed": "Whether the buyers had non-public information; the ledger does not name the buyers as the secretaries."
+    },
+    {
+      "asof": "2026-10-30",
+      "conduct": "WSJ, citing messages it reviewed: shortly before her confirmation hearing she asked donor Eric Deters to pay about a $100,000 American Express bill, urged a direct wire so there would be 'no paper trail,' and offered access to senators. AP/WSJ also report alleged threats to a Greek official and improper gifts.",
+      "confirmed": "That the messages exist is reported by WSJ and AP.",
+      "escalates": "The inspector general's report.",
+      "exposure": "High",
+      "exposureWhy": "The messages describe a payment request tied to access, which is a serious pattern if authentic.",
+      "factions": [
+        "hawks"
+      ],
+      "id": "guilfoyle",
+      "level": "reported",
+      "levelNote": "WSJ, AP; the State Department inspector general reportedly looking; she resigned; she resigned Oct 13 at the White House's request (Just Security)",
+      "names": "Kimberly Guilfoyle",
+      "probers": "State Department inspector general",
+      "subjects": [
+        "kimberly-guilfoyle"
+      ],
+      "theory": "Bribery or an illegal gratuity; false statements on nomination forms.",
+      "unconfirmed": "The authenticity of the messages beyond WSJ's review, and whether the payment was made."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Key to Centerview's over-$150M no-bid contract on about $200B of Venezuelan debt; used Alejandro Betancourt as an intermediary; says he has no Venezuela stake and runs a private equity fund.",
+      "confirmed": "The contract and the intermediary are reported.",
+      "escalates": "A stake or payment tied to the contract.",
+      "exposure": "Low",
+      "exposureWhy": "No probe and a denial of a stake.",
+      "factions": [
+        "hawks"
+      ],
+      "id": "claver-carone-centerview",
+      "level": "reported",
+      "levelNote": "Reuters; no probe found",
+      "names": "Mauricio Claver-Carone",
+      "probers": "None found",
+      "subjects": [
+        "claver-carone"
+      ],
+      "theory": "Conflict of interest and procurement irregularity.",
+      "unconfirmed": "Whether he has a financial stake."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "No allegation against him personally. He oversaw the Venezuela file and publicly defended Guilfoyle.",
+      "confirmed": "Nothing alleged.",
+      "escalates": "",
+      "exposure": "Not established",
+      "exposureWhy": "No conduct alleged.",
+      "factions": [
+        "hawks"
+      ],
+      "id": "rubio-none",
+      "level": "record",
+      "levelNote": "None found",
+      "names": "Marco Rubio",
+      "probers": "",
+      "subjects": [
+        "rubio"
+      ],
+      "theory": "None alleged.",
+      "unconfirmed": ""
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Hennepin County prosecutors are reviewing at least 17 incidents from the Minnesota immigration surge, including a smoke canister thrown into a crowd; no agent in the Renee Good or Alex Pretti shootings has been charged.",
+      "confirmed": "The review of at least 17 incidents.",
+      "escalates": "A charging decision.",
+      "exposure": "Moderate",
+      "exposureWhy": "State prosecution is possible but federal agents have immunity defenses.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "bovino-agents",
+      "level": "record",
+      "levelNote": "County attorney review; no charges",
+      "names": "Gregory Bovino and the agents under him",
+      "probers": "Hennepin County Attorney",
+      "subjects": [
+        "bovino"
+      ],
+      "theory": "State assault or homicide charges; federal-immunity defenses would be raised.",
+      "unconfirmed": "Whether any agent is charged."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Loomer alleges Qatar paid him up to $200,000; Lumen8, paid $180,000 a month by the Qatari embassy, facilitated an interview.",
+      "confirmed": "That Lumen8 facilitated an interview is reported.",
+      "escalates": "A payment record.",
+      "exposure": "Low",
+      "exposureWhy": "An unproven allegation by a rival.",
+      "factions": [
+        "vance"
+      ],
+      "id": "carlson-qatar",
+      "level": "unproven",
+      "levelNote": "Loomer's claim; no direct evidence; he denies it",
+      "names": "Tucker Carlson",
+      "probers": "None found",
+      "subjects": [
+        "carlson"
+      ],
+      "theory": "Foreign-agent registration questions, if the payments were real.",
+      "unconfirmed": "The payment; there is no direct evidence."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Special government employee with broad ethics waivers, which ethics expert Kathleen Clark calls a 'sham' and a 'pardon in advance'; 400+ AI-linked investments; helped shape an order DOJ uses against state AI laws.",
+      "confirmed": "The waivers and the investments.",
+      "escalates": "An act outside the waiver's scope.",
+      "exposure": "Moderate",
+      "exposureWhy": "Broad waivers shift risk to the validity of the waiver itself.",
+      "factions": [
+        "tech-right"
+      ],
+      "id": "sacks-waivers",
+      "level": "record",
+      "levelNote": "NYT investigation (Nov 30, 2025); no probe reported",
+      "names": "David Sacks",
+      "probers": "Office of Government Ethics; inspectors general",
+      "subjects": [
+        "sacks"
+      ],
+      "theory": "Conflict-of-interest law (18 USC 208) if the waivers are invalid or he acted outside them.",
+      "unconfirmed": "Whether a specific act violated the waivers."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "SSA found two DOGE staffers possibly violated the Hatch Act by secretly working with an advocacy group on state voter rolls in March 2025; DOGE staff used an unapproved Cloudflare server for agency data; a former DOGE staffer made allegations.",
+      "confirmed": "The SSA finding and the filings.",
+      "escalates": "A finding tying Musk to specific acts.",
+      "exposure": "Moderate",
+      "exposureWhy": "The staff have the direct exposure; Musk personally is not alleged.",
+      "factions": [
+        "tech-right"
+      ],
+      "id": "doge-musk",
+      "level": "record",
+      "levelNote": "DOJ court filing, Office of Special Counsel referrals, whistleblower; Oversight Democrats expanding",
+      "names": "DOGE staff, Elon Musk",
+      "probers": "Office of Special Counsel; Oversight Democrats",
+      "subjects": [
+        "musk"
+      ],
+      "theory": "Hatch Act; mishandling of agency data.",
+      "unconfirmed": "Musk's personal involvement."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Sold over $100M of assets days before May 22 to undisclosed buyers; took $10.2M in consulting fees from Druckenmiller's office; pledged divestiture.",
+      "confirmed": "The sales and fees.",
+      "escalates": "",
+      "exposure": "Low",
+      "exposureWhy": "No allegation of wrongdoing.",
+      "factions": [
+        "treasury"
+      ],
+      "id": "warsh-sales",
+      "level": "reported",
+      "levelNote": "The Hill; no allegation of wrongdoing found",
+      "names": "Kevin Warsh",
+      "probers": "",
+      "subjects": [
+        "warsh"
+      ],
+      "theory": "Disclosure and conflict rules.",
+      "unconfirmed": "Any link to a decision."
+    },
+    {
+      "asof": "2026-10-28",
+      "conduct": "Unusual Machines (200,000 shares) then an Army order for 3,500 drone motors; PublicSquare board seat then the CFPB closed the Credova probe; 1789 Capital-linked firms won over $70M in Pentagon contracts; he joined Polymarket's advisers after the CFTC and DOJ ended probes of the platform. CREW found no clear quid pro quo.",
+      "confirmed": "The holdings, board seats and later government actions.",
+      "escalates": "Evidence that he sought the actions.",
+      "exposure": "Low",
+      "exposureWhy": "He is not a government official, so the exposure is on those who acted.",
+      "factions": [
+        "vance"
+      ],
+      "id": "don-jr-ventures",
+      "level": "reported",
+      "levelNote": "Warren letters; no probe reported",
+      "names": "Donald Trump Jr.",
+      "probers": "Armed Services; House Oversight; inspectors general",
+      "subjects": [
+        "don-jr"
+      ],
+      "theory": "Illegal gratuity or bribery if proven; the conflict law binds the officials who acted, not Don Jr.",
+      "unconfirmed": "Any link between his role and the decisions."
+    },
+    {
+      "asof": "2026-10-29",
+      "conduct": "Bloomberg: a senior CFTC adviser told a market-oversight supervisor to retract analysis of suspicious oil trades around Mar 23, when Trump backed off threats to strike Iranian power plants; the division had referred the matter to enforcement and sources say Selig is intervening.",
+      "confirmed": "The report exists.",
+      "escalates": "A named trader, an enforcement case or a congressional inquiry.",
+      "exposure": "Not established",
+      "exposureWhy": "One outlet, anonymous sources, no named trader (my reading).",
+      "factions": [],
+      "id": "cftc-oil-trades",
+      "level": "anon",
+      "levelNote": "Bloomberg via Just Security (Oct 14), anonymous sources. No finding of wrongdoing.",
+      "names": "Michael Selig, Mel Gunewardena",
+      "probers": "CFTC enforcement; Congress; an inspector general",
+      "subjects": [
+        "michael-selig"
+      ],
+      "theory": "Interference with a market-surveillance review; trading on non-public information (not alleged against any named person).",
+      "unconfirmed": "Who traded, whether the instruction was given as described, and whether enforcement proceeds."
+    },
+    {
+      "asof": "2026-11-03",
+      "conduct": "Pentagon officials accuse the removed J-5 director of leaking classified Iran and Russia-Ukraine information to WSJ and NYT reporters; an internal report cites four failed polygraphs and admissions (Axios, Nov 3).",
+      "confirmed": "Removal and DOJ referral reported by several outlets with Parnell on record; Axios saw the internal report.",
+      "escalates": "DOJ charges or a court-martial is convened; or DOJ declines.",
+      "exposure": "High",
+      "exposureWhy": "If true, leaking classified war plans is a felony-level matter (my reading); he is uncharged.",
+      "factions": [
+        "pentagon"
+      ],
+      "id": "sylvia-leak-referral",
+      "level": "reported",
+      "levelNote": "Named outlets; Parnell on record; Axios (Nov 3) says DOJ is investigating, per an internal report; one outlet, so not raised to court",
+      "names": "Brett Sylvia",
+      "probers": "DOJ (investigating, per Axios); possible court-martial",
+      "subjects": [
+        "brett-sylvia"
+      ],
+      "theory": "Unauthorized disclosure of classified information, if the accusation holds (my reading).",
+      "unconfirmed": "Any leak by Sylvia, the polygraph count (three or four), whether DOJ has a formal case, a court-martial, or an Iran policy dispute behind the removal."
+    },
+    {
+      "asof": "2026-10-30",
+      "conduct": "Bipartisan senators led by Jeanne Shaheen and Jack Reed asked the Pentagon inspector general (Oct 16) whether the administration or SpaceX caused Starshield limits and intel outages for Ukraine, briefing by Nov 1.",
+      "confirmed": "The request letter (Boston Globe, Al Jazeera).",
+      "escalates": "The inspector general opens a review or briefs by Nov 1.",
+      "exposure": "Not established",
+      "exposureWhy": "No legal theory tested; the contract terms are not public.",
+      "factions": [
+        "tech-right"
+      ],
+      "id": "starshield-ig-request",
+      "level": "record",
+      "levelNote": "Public letter to the inspector general; no probe confirmed",
+      "names": "Elon Musk (SpaceX), administration officials",
+      "probers": "Pentagon inspector general (requested)",
+      "subjects": [
+        "musk"
+      ],
+      "theory": "Breach of contract or improper government direction of a military service, if shown (my reading).",
+      "unconfirmed": "Whether the inspector general opens a review and who ordered the cap."
+    },
+    {
+      "asof": "2026-10-30",
+      "conduct": "While US attorney, Habba finalized a general counsel deal with the Herrera family's Concord Partners guaranteeing over $50M over four years; Trump later pardoned Julio Herrera Velutini.",
+      "confirmed": "The deal and its terms as reported by NYT; the pardon is public record.",
+      "escalates": "Records of Habba contacts on the pardon or a congressional inquiry.",
+      "exposure": "Moderate",
+      "exposureWhy": "Taking a large private deal from a clemency seeker's family while in office is serious if tied to the pardon; no link is documented.",
+      "factions": [
+        "maximalists"
+      ],
+      "id": "habba-concord",
+      "level": "reported",
+      "levelNote": "NYT (via GV Wire, Oct 21); Habba, White House and DOJ deny any link",
+      "names": "Alina Habba, Herrera family (Concord Partners)",
+      "probers": "None found",
+      "subjects": [],
+      "theory": "Bribery or illegal gratuity if the deal was tied to the pardon; conflict-of-interest and outside-employment rules while a US attorney.",
+      "unconfirmed": "Any role by Habba in the pardon; sources' belief she was hired for it is not documented."
+    },
+    {
+      "asof": "2026-11-03",
+      "conduct": "NYT reports Peltola campaign staff helped recruit a same-name spoiler, 'Dan J. Sullivan', in the Alaska Senate race; campaign denies.",
+      "confirmed": "The probes and complaints exist.",
+      "escalates": "Grand jury subpoenas (expected per Raw Story, Oct 28), evidence of payments to the spoiler, or charges.",
+      "exposure": "Low",
+      "exposureWhy": "Recruiting a candidate is not itself illegal; exposure turns on payments or false statements, none shown (my reading).",
+      "factions": [],
+      "id": "peltola-spoiler",
+      "level": "court",
+      "levelNote": "Comer probe, NRSC FEC complaint, state probe; FBI contacts the spoiler's donors (Oct 30-31); Judge Gleason dismissed DOJ's civil suit Nov 1, DOJ filed notice of appeal Nov 1 (CBS); Comer says Peltola may not be seated (Nov 1 headline)",
+      "names": "Mary Peltola campaign; Daniel J. Sullivan",
+      "probers": "House Oversight (Comer); FEC; DOJ; Alaska",
+      "subjects": [
+        "mary-peltola"
+      ],
+      "theory": "Election-law and campaign-finance theories (coordination, false statements) under FEC and state law, as alleged by Republicans.",
+      "unconfirmed": "Any staff role in recruiting the spoiler beyond the NYT report; any Peltola knowledge.",
+      "caseParticipants": [
+        "Daniel J. Sullivan"
+      ]
+    },
+    {
+      "asof": "2026-10-30",
+      "conduct": "Prosecutors presented evidence to a D.C. grand jury on alleged false statements to the January 6 committee (Oct 9).",
+      "confirmed": "Grand jury presentation (single outlet).",
+      "escalates": "A new presentation or indictment.",
+      "exposure": "Low",
+      "exposureWhy": "A reported no-bill and a politically contested premise make conviction unlikely (my reading).",
+      "factions": [],
+      "id": "hutchinson-grand-jury",
+      "level": "court",
+      "levelNote": "IBTimes UK; headlines say the grand jury declined to indict (not read)",
+      "names": "Cassidy Hutchinson",
+      "probers": "U.S. attorney for D.C.",
+      "subjects": [
+        "cassidy-hutchinson"
+      ],
+      "theory": "False statements to Congress (18 USC 1001).",
+      "unconfirmed": "The no-bill; any further action."
+    },
+    {
+      "asof": "2026-11-03",
+      "conduct": "DOJ alleged the two ex-FBI officials lied to Congress in 2023 about the Hunter Biden laptop probe.",
+      "confirmed": "The complaint (Oct 23) and its dismissal (Nov 2), per AP and The Hill.",
+      "escalates": "A grand jury indictment.",
+      "exposure": "Low",
+      "exposureWhy": "A judge found no probable cause and a political motive, so a new charge would face the same record (my reading).",
+      "factions": [],
+      "id": "floris-benavides-complaint",
+      "level": "court",
+      "levelNote": "Complaint dismissed from the bench Nov 2 by Magistrate Judge Zia Faruqui, who called it 'weaponization' (AP via PBS); prejudice not stated; DOJ may seek an indictment.",
+      "names": "Nikki Floris, Bradley Benavides",
+      "probers": "DOJ (case mandated by FBI Director Patel, per AP)",
+      "subjects": [],
+      "theory": "False statements to Congress (18 USC 1001).",
+      "unconfirmed": "Whether dismissal bars refiling; any DOJ plan to go to a grand jury.",
+      "caseParticipants": [
+        "Nikki Floris",
+        "Bradley Benavides"
+      ]
+    }
+  ],
+  "levels": {
+    "anon": "Anonymous sources only",
+    "court": "In court or under formal probe",
+    "record": "Public record, no probe",
+    "reported": "Reported by named outlets",
+    "unproven": "Allegation, no evidence"
+  },
+  "note": "Allegations and open questions, not findings. Two separate ratings: confirmation (`level`) and potential liability if true (`exposure`, my reading). Everyone named is uncharged unless the entry says so; none found is not a clearance."
+}

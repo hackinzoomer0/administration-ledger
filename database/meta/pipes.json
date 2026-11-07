@@ -1,0 +1,101 @@
+{
+  "cols": [
+    "operation",
+    "maximalists",
+    "party",
+    "dissenters",
+    "treasury",
+    "deal-capital",
+    "tech-right",
+    "vance",
+    "hawks",
+    "pentagon"
+  ],
+  "note": "Documented money, stake or pay is a filled dot. Reported, indirect or conduit-only is a ring. Dissenters: Massie got $2.5M against $15M+ on the other side; no pipe. Money shows role-payer fit; no source shows a payment caused a decision.",
+  "rows": [
+    {
+      "cells": {
+        "deal-capital": "d",
+        "maximalists": "r",
+        "operation": "r",
+        "tech-right": "r"
+      },
+      "detail": "Aryam $500M in World Liberty; PIF $2B",
+      "name": "Gulf capital"
+    },
+    {
+      "cells": {
+        "operation": "d"
+      },
+      "detail": "Law-firm fees to Blair, LaCivita; $35K a month",
+      "name": "Republika Srpska"
+    },
+    {
+      "cells": {
+        "maximalists": "d",
+        "operation": "r"
+      },
+      "detail": "GEO paid Homan, Venturella; $4.4M to MAGA Inc",
+      "name": "Detention contractors"
+    },
+    {
+      "cells": {
+        "operation": "r",
+        "party": "r",
+        "tech-right": "d",
+        "vance": "d"
+      },
+      "detail": "a16z $50M, Brockman $50M, Thiel $15M",
+      "name": "Tech-right donors"
+    },
+    {
+      "cells": {
+        "hawks": "d"
+      },
+      "detail": "Adelson, Singer, AIPAC PAC, RJC, FDD funders",
+      "name": "Pro-Israel donors"
+    },
+    {
+      "cells": {
+        "maximalists": "d"
+      },
+      "detail": "Bradley Impact $27.1M, DonorsTrust $21.3M",
+      "name": "Movement donors"
+    },
+    {
+      "cells": {
+        "operation": "d",
+        "party": "d",
+        "vance": "d"
+      },
+      "detail": "MAGA Inc. $473M; SLF and One Nation $103M",
+      "name": "Party and MAGA Inc. money"
+    },
+    {
+      "cells": {
+        "deal-capital": "d",
+        "pentagon": "d",
+        "vance": "d"
+      },
+      "detail": "Trump-family and Lutnick-family ventures",
+      "name": "Family firms"
+    },
+    {
+      "cells": {
+        "pentagon": "d",
+        "tech-right": "d"
+      },
+      "detail": "SpaceX about a fifth gov revenue; xAI deal",
+      "name": "Vendor revenue"
+    },
+    {
+      "cells": {
+        "deal-capital": "d",
+        "hawks": "r",
+        "treasury": "r"
+      },
+      "detail": "Lukoil bid, Vitol, Centerview; Warsh buyers",
+      "name": "Trading and buyer groups"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "added": 1,
+  "summary": "Backfilled AP projections of Democratic control of both chambers. Individual calls and certification remain open.",
+  "coverage": {
+    "scope": "National chamber-control outcome",
+    "source": "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743",
+    "event": "mid-2026-11-05-congress-control",
+    "status": "reviewed",
+    "unresolved": [
+      "Outstanding race calls",
+      "Certification",
+      "Leadership elections"
+    ],
+    "validation": "0 errors, 3 warnings"
+  }
+}

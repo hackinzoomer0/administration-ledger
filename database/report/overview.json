@@ -1,0 +1,19 @@
+{
+  "asof": "2026-10-24",
+  "decomp": [
+    "The grid shows where each faction has a dated position or only supplies money. Each faction's section lists the topic-level factions from your ten reports that fold into it, with the dated act and the people who hold it.",
+    "Read across a row for a faction's reach; read down a column for who has a say on that issue."
+  ],
+  "key": "overview",
+  "paras": [
+    "The eleven factions sort along three axes. Control and volume: how much federal power the White House uses and who decides (Operation, Maximalists, Party Machine, Dissenters). Force and deals: war, a deal, or restraint (Hawks, Pentagon, Deal-Capital, Vance Lane, Populist Right). Markets and money: whether markets, courts and payers set the limits (Treasury, Deal-Capital, Tech-Right). The 2028 race overlays all three. Trump is the ground, not a faction, and a person can sit in more than one faction.",
+    "Each faction has its own section below with an overview, a personnel roster, a monetary roster and its positions issue by issue. In the personnel rosters, on-side is scored 1 to 10: 10 means they act with the faction on every issue it covers; 7 to 9 most issues; 4 to 6 one or two issues, or acts and words that disagree; 1 to 3 nominal, outside, or acting against it. Issue codes: Fed (Fed and economy), Venezuela (Venezuela), Succession (2028 succession), Russia (Russia, Ukraine, Starlink), Midterms (midterms), Epstein (Epstein files), Tariffs (tariffs and trade), AI (AI policy), Immigration (immigration), Iran (Iran).",
+    "Read the relationship map by issue and decision. Shared goals show alignment. Recurring coordination, joint action, and formal authority each require separate evidence. Backers can have political representation through access, fundraising, or personnel ties."
+  ],
+  "relnotes": [
+    "Twelve edges pass the test: a feud needs a documented dispute, an alliance needs two matching dated positions on different issues. Maximalists sit on five, so most of the map turns on them. Only Party Machine has no edge. The Vance Lane and Tech-Right edge (M3) is a looser one: it rests on one dated position plus shared patrons, and is marked mixed because Vance acts against Tech-Right on H-1B. None of the alliance edges implies coordination.",
+    "Outcome versus motive. A1, A2, A3 and A4 are matches in outcome only. The reports show no meeting, message or payment tying the two sides together, so the same position can come from different motives (Vance wants a deal for the 2028 race; Witkoff and Kushner want assets for buyers).",
+    "Single-issue pairs not drawn because they have one matching position: Operation and Party Machine (Midterms, the war chest); Operation and Treasury (AI, Bessent and Hassett on the review order); Treasury and Deal-Capital (Venezuela oil, Bessent's licences and Wright in Caracas); Treasury and Dissenters (Fed); Tech-Right and Pentagon (AI vendor ties, through Musk); Tech-Right and Hawks (AI preemption with Cruz, against the chip curbs); Tech-Right and Vance Lane (Thiel money against the H-1B act). If a second dated position appears, each moves into the ledger."
+  ],
+  "title": "The eleven factions"
+}

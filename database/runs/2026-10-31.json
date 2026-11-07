@@ -1,0 +1,215 @@
+{
+  "added": 26,
+  "coverage": {
+    "agents": [
+      {
+        "count": 5,
+        "model": "sonnet",
+        "outcome": "done",
+        "role": "newsletter"
+      },
+      {
+        "count": 20,
+        "model": "sonnet",
+        "outcome": "TVG Oct 30 loaded; Oct 31 client_error",
+        "role": "digest"
+      },
+      {
+        "count": 29,
+        "model": "sonnet",
+        "outcome": "done",
+        "role": "official"
+      },
+      {
+        "count": 80,
+        "model": "sonnet",
+        "outcome": "done incl. European Parliament",
+        "role": "world"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "done; no dated changes",
+        "role": "watch"
+      },
+      {
+        "count": 8,
+        "model": "sonnet",
+        "outcome": "sampled 25, 8 missing",
+        "role": "recall"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "4 finders; one cut by weekly limit, partial",
+        "role": "article-text"
+      },
+      {
+        "count": 7,
+        "model": "opus",
+        "outcome": "done",
+        "role": "analyst security"
+      },
+      {
+        "count": 11,
+        "model": "opus",
+        "outcome": "done",
+        "role": "analyst domestic"
+      },
+      {
+        "count": 8,
+        "model": "opus",
+        "outcome": "done",
+        "role": "analyst economy"
+      }
+    ],
+    "blocked": [
+      "TVG Oct 31 client_error",
+      "MS NOW client_error",
+      "Anadolu robots_disallowed",
+      "CNN politics no dates",
+      "Subagent weekly usage limit 429 during article-text"
+    ],
+    "checklist": {
+      "analysts": "done",
+      "articleText": "done (blocked: weekly limit 429 for one finder)",
+      "collectors": "done",
+      "legal3": "done",
+      "newsletters": "done",
+      "queue": "done",
+      "recall": "done",
+      "runDoc": "done",
+      "triage": "done",
+      "validator": "done",
+      "watch10": "done",
+      "window": "done",
+      "writes": "done"
+    },
+    "deviations": [
+      "Analysts read rule files directly rather than receiving them inline.",
+      "Orchestrator repaired stored item mid-2026-10-26-bf25 (swapped source and rationale fields) so the validator passes."
+    ],
+    "fxStats": {
+      "empty": 0,
+      "emptyWithReason": 0,
+      "scored": 4
+    },
+    "lookbackDays": 2,
+    "methodAudit": {
+      "foundOnlyByNewsletters": [
+        "Khamenei response order",
+        "Judge Thompson order",
+        "FBI Sullivan donor contacts",
+        "Carney remark"
+      ],
+      "foundOnlyByRecall": [
+        "Treasury Iran inflation claim",
+        "Federal debt vs GDP",
+        "Afghan refugee workaround",
+        "Idaho abortion ruling",
+        "Hegseth Senate-seat parachute"
+      ],
+      "foundOnlyByTips": [],
+      "headlineOnly": [
+        "Hegseth Senate seat",
+        "Treasury Iran economy",
+        "Carney remark",
+        "Hungary energy MOU",
+        "AP California ballots"
+      ],
+      "proposedFix": "Add The Hill sitemap headlines to the world collector as headline-only inputs; re-check the headline-only list first next run.",
+      "rootCause": "The Hill sitemap is read by no collector; article-text step cut short by a usage limit."
+    },
+    "propagation": {
+      "ai-2026-10-29-megaspeed-report": [
+        "people/all (huang pattern)"
+      ],
+      "ai-2026-10-31-meta-bipartisan-team": [
+        "issues/AI",
+        "factions/tech-right",
+        "people/all (zuckerberg)",
+        "donors/all (meta)"
+      ],
+      "eps-2026-10-28-appeals-pause": [
+        "issues/EPS",
+        "meta/stances",
+        "factions/maximalists"
+      ],
+      "fed-2026-10-fy2026-deficit": [
+        "issues/FED"
+      ],
+      "imm-2026-10-30-fincen-minnesota": [
+        "none: the immigration link is a hypothesis and no stored stance, policy line or motive covers the Minnesota fraud push; flagged as a model gap for the audit"
+      ],
+      "irn-2026-10-29-sylvia-leak": [
+        "issues/IRN"
+      ],
+      "irn-2026-10-30-axios-strike-plans": [
+        "issues/IRN"
+      ],
+      "irn-2026-10-30-mediators-return": [
+        "issues/IRN"
+      ],
+      "irn-2026-10-31-khamenei-deterrence": [
+        "issues/IRN"
+      ],
+      "mid-2026-10-29-doj-alaska-ca": [
+        "factions/maximalists",
+        "people/all",
+        "meta/legal",
+        "issues/MID"
+      ],
+      "mid-2026-10-30-thompson-order": [
+        "issues/MID",
+        "meta/stances",
+        "factions/maximalists",
+        "meta/motives",
+        "people/all"
+      ],
+      "rus-2026-10-25-mcconnell-oped": [
+        "issues/RUS",
+        "people/all"
+      ],
+      "rus-2026-10-30-hubbard-meeting": [
+        "issues/RUS"
+      ],
+      "rus-2026-10-30-novokuibyshevsk": [
+        "issues/RUS"
+      ],
+      "rus-2026-10-31-patriot-sale": [
+        "issues/RUS",
+        "meta/stances",
+        "factions/pentagon"
+      ],
+      "tar-2026-10-23-8e3abd": [
+        "issues/TAR",
+        "meta/motives",
+        "meta/policy",
+        "factions/party"
+      ],
+      "tar-2026-10-28-bgi-ban": [
+        "issues/TAR"
+      ],
+      "tar-2026-10-31-carney-wait-new-president": [
+        "issues/TAR"
+      ]
+    },
+    "queue": {
+      "captured": 12,
+      "triaged": 0
+    },
+    "watched": [
+      "Marco Rubio",
+      "Stephen Miller",
+      "Pete Hegseth",
+      "Susie Wiles",
+      "Howard Lutnick",
+      "Elon Musk",
+      "Kevin Warsh",
+      "Todd Blanche",
+      "Peter Thiel",
+      "Elbridge Colby"
+    ]
+  },
+  "summary": "Deviations: analysts received rule files to read in full rather than pasted inline; the first attempt hit a subagent weekly limit and the analysis stage was rerun after it reset.\n\nERRORS AND INCOMPLETE ITEMS\n- Source failures | TVG Oct 31 client_error (Saturday); MS NOW client_error; Anadolu robots_disallowed; CNN politics no dates | informational\n- Still headline only: Hegseth Senate-seat idea, Treasury Iran inflation claim, Carney wait-out remark (second-hand), Hungary energy memorandum contents, appeals-court California ballots (AP), Netanyahu stolen-election claim\n- Calendar with no outcome found: Iran's answer to Qatar, trade court ruling on Section 338, Anthropic rehearing, immigration fee case, Venezuela talks\n- Open conflict: which judge ordered DOJ to hand California the 20,000-name list (Boasberg vs Carter); Judge Trina Thompson's order not tied to either case\n- Recall misses: Treasury Iran inflation claim, federal debt vs GDP, Afghan refugee workaround, Idaho abortion ruling, Hegseth Senate-seat idea. Cause: The Hill sitemap read by no collector. Fix: add it as headline-only input\n- Gap: Zelenskyy has no people profile (queued)\n\nCONSEQUENTIAL NEWS\n- Oct 30, Judge Trina Thompson (Politico Playbook) barred DOJ from threatening election officials and from demanding ballots be set aside | Midterms: Maximalists lose a tool (-1, provisional); contradicts the Oct 29 gain (reported)\n- Oct 31, Al Jazeera: State approved a $2.1B sale of 500 PAC-3 Patriots to Ukraine, paid by Ukraine and allies, delivery in the 2030s | Russia: Pentagon +1 as burden shifts to Europe, near-term hold stays (documented)\n- Oct 30 in force, BDO: Section 338 Canada edits removed 22 lines and added 100, including USMCA goods | Tariffs: Dissenters and Maximalists gain, Party Machine tag removed; earlier 'trimmed' reading corrected (reported)\n- Oct 28, Raw Story: D.C. Circuit denied DOJ's stay on Epstein file review | Epstein files: Maximalists -1, small since no release is near (reported)\n- Oct 31, Axios: Iran's supreme leader ordered a response without geographical limits to any new attack | Iran: raises the stated cost of post-Nov 3 strikes; claimed by Iran, no faction scored\n- Oct 30, Treasury: FinCEN alert on $8B+ suspicious Minnesota wires | Immigration: Treasury act, link to immigration is a hypothesis; no fx"
+}

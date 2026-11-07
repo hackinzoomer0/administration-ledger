@@ -1,0 +1,405 @@
+{
+  "added": 26,
+  "coverage": {
+    "agents": [
+      {
+        "count": 75,
+        "model": "sonnet",
+        "outcome": "12 newsletters read (Axios PM and Finish Line found); new senders noted",
+        "role": "newsletter"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "TVG Nov 2 and Nov 3 client_error",
+        "role": "digest"
+      },
+      {
+        "count": 7,
+        "model": "sonnet",
+        "outcome": "7 pages loaded; Treasury sb0675 client_error",
+        "role": "official"
+      },
+      {
+        "count": 142,
+        "model": "sonnet",
+        "outcome": "12 pages plus axios.com and cnn.com searches; all loaded",
+        "role": "world"
+      },
+      {
+        "count": 29,
+        "model": "sonnet",
+        "outcome": "15 calendar and re-checks, 9 watch, 5 legal queries",
+        "role": "calendar-watch-legal"
+      },
+      {
+        "count": 15,
+        "model": "sonnet",
+        "outcome": "6 missing (1 consequential); CNN stale, Axios homepage Oct 31; sampled via search; needed a second pass to reach 15",
+        "role": "recall"
+      },
+      {
+        "count": 12,
+        "model": "sonnet",
+        "outcome": "7 readable, 5 headline only",
+        "role": "article-text"
+      },
+      {
+        "count": 16,
+        "model": "opus",
+        "outcome": "9 items, 4 updates, 14 edits",
+        "role": "analyst-security"
+      },
+      {
+        "count": 19,
+        "model": "opus",
+        "outcome": "8 items, 9 updates, 8 edits, 1 person added",
+        "role": "analyst-domestic"
+      },
+      {
+        "count": 8,
+        "model": "opus",
+        "outcome": "9 items, 3 updates, 1 edit",
+        "role": "analyst-economy"
+      }
+    ],
+    "blocked": [
+      "TVG tvg-daily-brief-2-nov-2026: client_error",
+      "TVG tvg-daily-brief-3-nov-2026: client_error",
+      "home.treasury.gov sb0675: client_error",
+      "axios.com article pages: client_error",
+      "newsnow.com article: robots_disallowed",
+      "cnn.com article: robots_disallowed",
+      "sfchronicle.com: robots_disallowed",
+      "usnews.com, cnbc.com, idahocapitalsun.com, northeasttimes.com, newsfromthestates, bigcountrynewsconnection, tennesseelookout.com: client_error",
+      "CNN politics index: stale copy"
+    ],
+    "checklist": {
+      "analysts": "done",
+      "articleText": "done (blocked: 5 of 12 no readable copy; Axios pages client_error, Reuters known-blocked)",
+      "collectors": "done (blocked: TVG Nov 2 and Nov 3 client_error; Treasury sb0675 client_error)",
+      "legal3": "done",
+      "newsletters": "done",
+      "queue": "done",
+      "recall": "done (blocked: CNN politics stale copy, Axios homepage Oct 31; sampled 15 via search)",
+      "runDoc": "done",
+      "triage": "done",
+      "validator": "done",
+      "watch10": "done",
+      "window": "done",
+      "writes": "done"
+    },
+    "deviations": [
+      "Window Nov 2-3 (default; last run Nov 2).",
+      "Proposed fix from the Nov 2 run applied: Axios PM and Finish Line confirmed in the inbox and read; world collector also ran axios.com and cnn.com domain searches.",
+      "Recall checker first sampled 10 of 15 and was sent back to finish.",
+      "A late Axios AM edition dated Nov 1 was read; its items were outside the window and dropped at triage.",
+      "GEO Group Tacoma contract (Oct 29) kept as a watch-pass backfill outside the window.",
+      "Collector typo \"AG Blanco\" corrected to Attorney General Todd Blanche from the stored record.",
+      "Validator flagged irn-2026-11-02-netanyahu-call as headline-only because its source text said \"(headline only)\" about a second source; source wording fixed, weight 3 kept."
+    ],
+    "fxStats": {
+      "empty": 23,
+      "emptyWithReason": 3,
+      "scored": 3
+    },
+    "gaps": [
+      {
+        "gap": "Hegseth in the firing line (Semafor, Nov 3)",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "Semafor Flagship",
+            "whyItFailed": "one line, no detail"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search key phrase plus date",
+            "whyItFailed": "none found"
+          },
+          {
+            "route": "other outlet",
+            "tried": "Politico, NYT search",
+            "whyItFailed": "Politico blocked; no copy"
+          }
+        ]
+      },
+      {
+        "gap": "Another judge blocks DOJ California ballot demands (Axios, Nov 2)",
+        "routes": [
+          {
+            "route": "link",
+            "tried": "axios.com",
+            "whyItFailed": "client_error"
+          },
+          {
+            "route": "other outlet",
+            "tried": "search judge and ballots",
+            "whyItFailed": "only Oct 28 Carter ruling found"
+          },
+          {
+            "route": "primary",
+            "tried": "court filing search",
+            "whyItFailed": "not found"
+          }
+        ]
+      },
+      {
+        "gap": "Black Sea war widens (Reuters, Nov 3)",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "Reuters Daily Briefing",
+            "whyItFailed": "one line"
+          },
+          {
+            "route": "link",
+            "tried": "reuters.com",
+            "whyItFailed": "known blocked"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search",
+            "whyItFailed": "none found"
+          }
+        ]
+      },
+      {
+        "gap": "US to mediate Russia-Ukraine talks next week (Semafor, Nov 3)",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "Semafor",
+            "whyItFailed": "one line"
+          },
+          {
+            "route": "other outlet",
+            "tried": "Al Jazeera, Euronews",
+            "whyItFailed": "pages cover the aid-hub strike, not talks"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search",
+            "whyItFailed": "none found"
+          }
+        ]
+      },
+      {
+        "gap": "CISA out of commission on Election Day (NYT via Playbook)",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "Playbook",
+            "whyItFailed": "one line"
+          },
+          {
+            "route": "link",
+            "tried": "NYT",
+            "whyItFailed": "no copy"
+          },
+          {
+            "route": "other outlet",
+            "tried": "search",
+            "whyItFailed": "none found"
+          }
+        ]
+      }
+    ],
+    "knownBlockedSkipped": [
+      "Reuters",
+      "AP",
+      "Politico",
+      "The Guardian",
+      "BBC",
+      "Google News",
+      "MSN",
+      "The Hill pages",
+      "Washington Post",
+      "CBS live updates"
+    ],
+    "lookbackDays": 2,
+    "methodAudit": {
+      "foundOnlyByNewsletters": [
+        "AGOA suspension (Reuters, Semafor)",
+        "Kaz Resources listing (Playbook)",
+        "SLF streaming spend (Playbook)",
+        "CISA light role (Playbook)",
+        "Sylvia polygraph report (Axios AM)",
+        "Pezeshkian negotiating mandate (Playbook PM)",
+        "Anthropic IPO valuation pressure (Semafor)",
+        "Hegseth firing line (Semafor)",
+        "US-mediated Russia-Ukraine talks (Semafor)"
+      ],
+      "foundOnlyByRecall": [
+        "Axios: another judge blocks DOJ California ballot demands (Nov 2)",
+        "CNBC: Trump Account holders to get SpaceX stock (Nov 2)",
+        "CNBC: DOJ election lawsuits and monitors (Nov 3)",
+        "CNBC: Hassett, no wholesale sell-off (Nov 2)",
+        "CNBC yields and midterm-stocks pieces"
+      ],
+      "foundOnlyByTips": [],
+      "headlineOnly": [
+        "Hegseth firing line",
+        "another judge blocks CA demands",
+        "Black Sea widens",
+        "US-mediated Russia-Ukraine talks",
+        "three tankers explode in Hormuz",
+        "CISA Election Day",
+        "Murphy stroke",
+        "China-Iran-Oman diplomacy",
+        "Kaz Resources",
+        "SLF spending",
+        "Shotwell Trump Accounts",
+        "Hegseth Tennessee seat",
+        "migrant kids",
+        "Cuba sanctions",
+        "Treasury borrowing estimates"
+      ],
+      "proposedFix": "In the world collector, add court and DOJ queries to the axios.com search (\"judge\", \"DOJ\", \"lawsuit\"). Re-fetch Treasury sb0675. Re-check the headline-only items above, Hegseth first. Next run: prioritize midterm results (House, Senate, governors, Alaska, Michigan, California count) and any Iran strike decision after the vote.",
+      "rootCause": "Axios web stories still fail at the page, and the axios.com search was run on general queries (Trump, Iran, midterms) rather than courts; CNN and Axios recall indexes remain stale."
+    },
+    "perIssue": {
+      "AI": "found 3 new",
+      "EPS": "searched, nothing new",
+      "FED": "found 3 new",
+      "IMM": "found 1 new",
+      "IRN": "found 6 new",
+      "MID": "found 7 new",
+      "RUS": "found 2 new",
+      "SUC": "searched, nothing new",
+      "TAR": "found 3 new",
+      "VEN": "found 1 new"
+    },
+    "propagation": {
+      "ai-2026-10-31-data-center-backlash": [
+        "none: update adds context and a source only; weight, fx and every stored belief unchanged"
+      ],
+      "imm-2026-10-26-cdc-congo-travel": [
+        "none: the immigration pending line already gives Nov 3-Dec 18 and the Oct 11-Nov 10 entry suspension"
+      ],
+      "imm-2026-10-29-geo-tacoma": [
+        "donors/all"
+      ],
+      "irn-2026-10-28-vance-letter": [
+        "none: Rezaei's no-reply fits the stored 'reply not established'; Vance Lane fx unchanged"
+      ],
+      "irn-2026-10-29-sylvia-leak": [
+        "issues/IRN",
+        "meta/legal (sylvia-leak-referral)",
+        "people/all (brett-sylvia)"
+      ],
+      "irn-2026-11-02-netanyahu-call": [
+        "none: source line only; the 'no rush' quote is already stored"
+      ],
+      "irn-2026-11-02-pezeshkian-mandate": [
+        "issues/IRN"
+      ],
+      "irn-2026-11-03-qeshm-strikes": [
+        "meta/policy",
+        "meta/holders",
+        "issues/IRN",
+        "meta/stances",
+        "meta/motives",
+        "factions/pentagon",
+        "people/all (donald-trump)"
+      ],
+      "mid-2026-10-23-floris-benavides": [
+        "none: pointer to the dismissal row, which carries the scoring"
+      ],
+      "mid-2026-10-26-9th-cir-ca-ballots": [
+        "none: fxnote refreshed; tag unchanged and the new ruling carries its own tag"
+      ],
+      "mid-2026-11-01-alaska-suit-dismissed": [
+        "issues/MID",
+        "meta/stances",
+        "factions/maximalists",
+        "people/all",
+        "meta/legal"
+      ],
+      "mid-2026-11-01-stevens-rogers": [
+        "none: new lines are unread headlines; the Stevens person entry already records the defection"
+      ],
+      "mid-2026-11-02-doj-63-charges": [
+        "factions/maximalists",
+        "meta/stances"
+      ],
+      "mid-2026-11-02-doj-scotus-ca-ballots": [
+        "none: context pointer only; the ruling is scored on mid-2026-11-02-scotus-denies-ca-ballots"
+      ],
+      "mid-2026-11-02-floris-benavides-dismissed": [
+        "factions/maximalists",
+        "meta/motives",
+        "people/all",
+        "meta/legal"
+      ],
+      "mid-2026-11-02-scotus-denies-ca-ballots": [
+        "issues/MID",
+        "meta/stances",
+        "meta/motives",
+        "factions/maximalists",
+        "events/MID (filing and Ninth Circuit rows)"
+      ],
+      "tar-2026-11-02-agoa-suspension": [
+        "issues/TAR (pending)",
+        "people/all (greer pattern)",
+        "meta/world (AGOA added; Alberta settled)"
+      ],
+      "ven-2026-11-02-bessent-blanco": [
+        "meta/stances",
+        "factions/treasury",
+        "issues/VEN",
+        "people/all (bessent, oliver-blanco added)"
+      ]
+    },
+    "queue": {
+      "captured": 11,
+      "triaged": 0
+    },
+    "sourcesRead": [
+      "Gmail: AP Morning Wire, Reuters Daily Briefing, Politico Playbook, Semafor Flagship, Axios AM, Punchbowl News AM (Nov 3); Axios Finish Line, Axios PM, Politico Playbook PM (Nov 2); Semafor Flagship Asia (Nov 3 edition); Axios AM (Nov 1, late)",
+      "TVG Nov 2 and Nov 3 (client_error)",
+      "whitehouse.gov releases and presidential actions",
+      "Treasury",
+      "OFAC",
+      "State",
+      "Justice",
+      "Federal Reserve",
+      "Memeorandum",
+      "NewsNow",
+      "RealClearPolitics",
+      "Al Jazeera",
+      "Euronews",
+      "Anadolu (stale)",
+      "CBS politics",
+      "DefenseScoop",
+      "SOFX",
+      "Federal News Network",
+      "European Parliament press room",
+      "The Hill sitemap",
+      "axios.com search",
+      "cnn.com search",
+      "CNN politics (stale)",
+      "Axios homepage (Oct 31)",
+      "CNBC, Fox, NBC, ABC search (recall)",
+      "PBS (AP)",
+      "JTA",
+      "Times of Israel",
+      "Euronews",
+      "KUOW",
+      "CDC order"
+    ],
+    "watched": [
+      "Eric Trump",
+      "1789 Capital",
+      "Delcy Rodríguez",
+      "GEO Group",
+      "Michael Bloomberg",
+      "Alina Habba",
+      "María Corina Machado",
+      "Benjamin Netanyahu",
+      "Mary Peltola",
+      "Duquesne Family Office"
+    ]
+  },
+  "summary": "Missed items: Axios's \"Another judge blocks DOJ ballot demands in California\" (Nov 2) reached no collector page and still could not be read. Top news: US forces quietly struck Iranian missile sites by the Strait of Hormuz on the eve of the vote.\n\nERRORS AND INCOMPLETE ITEMS\n- TVG Daily Brief, Nov 2 and Nov 3 | the weekday news digest we read directly by address | Why not done: both addresses failed with \"failed at its site (client_error), and nothing of the page was retrieved\". Nov 2 has now failed on two runs in a row.\n- Axios article pages | Axios stories outside its newsletters, including the judge ruling above, Trump's Musk and pardon remarks, and the Floris-Benavides dismissal | Why not done: each Axios page failed with \"client_error\". Other outlets covered the last two. The world collector's new axios.com and cnn.com searches did find 17 stories by URL date.\n- Other page failures: Treasury's borrowing-estimates release sb0675 (client_error); NewsNow and CNN pages (robots_disallowed); usnews.com, cnbc.com, Idaho Capital Sun, Northeast Times, newsfromthestates, bigcountrynewsconnection and Tennessee Lookout (client_error); SF Chronicle (robots_disallowed). Recall's CNN politics index was a stale copy and the Axios homepage showed Oct 31, so recall sampled 15 headlines through CNBC, Fox, NBC and ABC searches instead. Known-blocked and skipped: Reuters, AP, Politico, Guardian, BBC, Washington Post and The Hill's article pages.\n- Recall miss: \"Another judge blocks DOJ ballot demands in California\" (Axios, Nov 2) | this is part of the Justice Department's push to make California hold back mail ballots it says may belong to noncitizens, and it would be the latest court loss before the Supreme Court's Nov 2 denial | Should have been caught by the world collector's axios.com search or the aggregators. Stored at weight 2, headline only. Proposed fix: point the axios.com search at court and Justice Department stories (\"judge\", \"DOJ\", \"lawsuit\").\n- Recall misses, low weight: CNBC on Trump Account holders getting SpaceX stock from Gwynne Shotwell (stored at weight 1); CNBC on Justice Department election lawsuits and monitors (folded into the Election Day item); CNBC market pieces and Hassett's \"no wholesale sell-off\" remark (stored at weight 1).\n- Still headline only, capped at weight 2: (1) Semafor and Politico: Defense Secretary Hegseth is \"in the firing line\" after the midterms. This would be a major personnel shift. No readable copy was found by newsletter, by search, or from another outlet; it is queued for re-check. (2) Reuters: the Black Sea war is widening and testing NATO's red lines. The page is blocked and no copy was found. (3) Semafor: the US will mediate Russia-Ukraine talks next week. The aid-hub strike was confirmed, but no readable page mentions the talks. (4) Al Jazeera headline: three tankers exploded in Hormuz. The liveblog we read does not mention it. (5) NYT via Playbook: CISA, the federal election-security agency, is largely out of action on Election Day. (6) CBS: Sen. Chris Murphy hospitalized after a stroke. No dated page was found. This matters because he planned a bill on base access for Iran operations.\n- Re-checks from Nov 2: the Floris-Benavides dismissal and Trump's Musk-and-pardons remarks are now read and stored. The plan to deport Afghans through Pakistan is confirmed (NYT via Common Dreams). No trace was found of a $15 billion farm package, only an $8 billion one on Oct 21, or of the SSA mass email. The Hegseth Tennessee Senate-seat story is still unreadable.\n- Data checks: the CDC Ebola boarding bar runs Nov 3 to Dec 18 (the signed order confirms the stored line). Lindsey Graham's death is confirmed; the Axios mention was of Darline Graham. A collector note named the Attorney General \"Blanco\"; the stored record has Todd Blanche, and that name is used.\n- Collector gaps: the official collector skipped White House releases page 2, OFAC page 1 and State page 2 because page 1 of each already reached past the window. Trump's Fox remark that Israel aid \"gets cut off at the end of the year\" was found only through NewsNow's BBC headline, and is stored as a claim.\n\nCONSEQUENTIAL NEWS\n- US strikes Iranian sites near Qeshm Island (night of Nov 2-3; AP, NYT, WSJ, CNN, Al Jazeera). The US and Iran have been at war since Feb 28; a June ceasefire collapsed and a US naval blockade continues. Trump had pledged no new attack before the Nov 3 midterms, and the last known US strikes were in early September. US forces hit Iranian sites near Qeshm and Hengam islands and Bandar Abbas without announcing it. A US official called the strikes defensive, aimed at Iranians firing surface-to-air missiles at US forces. Iran has since published its terms (end the war on all fronts, unfreeze assets, lift sanctions and the blockade) and says Hormuz could reopen in two days if they are met. Vance says there is \"progress\". Next is Trump's decision on a wider campaign after the vote. | Consequence: helps the Pentagon faction (the military command running the war). The election hold turns out to have a self-defense exception it can use quietly. Documented that the strikes happened; the reading of what it means is mine.\n- Supreme Court refuses to hold back California ballots (Nov 2; AP, Reuters, Politico, CNN, Axios). The Justice Department, which the Maximalists run (the enforcement faction around Stephen Miller and the DOJ and FBI leadership), says about 20,000 California registrants may be noncitizens. It asked courts to make the state set their mail ballots aside. Judge Carter and two Ninth Circuit panels refused, and DOJ went to the justices on Nov 2. They said no; the vote count and reasoning were not read. Next, the ballots get counted; DOJ's Los Angeles grand jury meets Nov 4. | Consequence: hurts the Maximalists on the midterms, since this was their last route to hold out those ballots before the count. Stored as a turning point (documented).\n- Judge throws out DOJ's case against two ex-FBI officials (Nov 2; AP via PBS). DOJ charged Nikki Floris and Bradley Benavides on Oct 23 with lying to Congress in 2023 about the Hunter Biden laptop investigation. The probe opened the day after a Trump speech and was ordered by FBI Director Patel. Magistrate Judge Zia Faruqui dismissed the complaint from the bench and called it \"weaponization\". DOJ can still seek a grand jury indictment. This corrects our Oct 29 note that the case had not been dismissed. | Consequence: hurts the Maximalists. Coming after a grand jury refused to indict Hutchinson (Oct 27), a court finding of political motive raises the cost of DOJ's cases against critics (documented ruling; the reading is mine).\n- DOJ announces election-crime charges against 63 people (Nov 2; Justice Department release). The charges cover illegal voting, false citizenship claims and fraudulent registration across many districts, released the day before the vote. Only four of the 63 are noncitizens. DOJ claims 195 noncitizens were charged in nine weeks, and Attorney General Todd Blanche calls it the largest surge of voter-fraud arrests. | Consequence: a small help to the Maximalists' fraud message, but four noncitizens among 63 sits poorly with the 20,000-ballot claim (documented release; the reading is mine).\n- Bessent meets Venezuela's foreign minister (Nov 2; Treasury readout; Al Jazeera). Since US forces captured Maduro on Jan 3, Washington has kept Delcy Rodríguez's interim government and put off elections until courts and the electoral council are rebuilt, best case June 2027. Treasury Secretary Bessent and Foreign Minister Oliver Blanco discussed a three-phase plan (stabilization, recovery, transition), energy output and reconnecting Venezuela's financial sector; Blanco met Rubio the same day. Talks on an election framework follow Nov 11-15. | Consequence: Treasury joins State at the table and stays the gate for sanctions relief, with the transition to elections last. No faction score changed (documented readout; the reading is mine).\n- USTR moves to suspend South Africa and Rwanda from AGOA (Nov 2-3; Reuters, Semafor). AGOA is the US program that lets eligible African countries ship many goods duty-free. Trade Representative Greer would cut off South African auto parts and wine and Rwandan coffee; Rwanda is faulted for backing militias in DR Congo. No effective date was given. | Consequence: trade preferences used as a penalty; no faction moves (reported).\n- ICE gives GEO Group a $1.5 billion, 10-year Tacoma detention contract (Oct 29, found this run; KUOW). GEO is a private prison company that gave $4.4 million to MAGA Inc. It renewed the 1,635-bed Washington center as the only bid considered, per Rep. Emily Randall. ICE needs beds for its 3,000-arrests-a-day target. | Consequence: locks in detention capacity for the Maximalists' arrest push and a long revenue line for a pro-Trump donor. No source ties the money to the award (reported; the reading is mine).\n- Trump says US aid to Israel \"gets cut off at the end of the year\" (Nov 3, Fox & Friends; JTA, Times of Israel). The ten-year aid pact gives Israel about $3.8 billion a year through 2028, and Netanyahu has described only a gradual phase-out. The Times of Israel calls the claim almost certainly false; there has been no White House or Israeli follow-up. | Consequence: none yet. Stored at weight 2 as a claim, to be raised if any aid instruction or Israeli confirmation follows.\n"
+}

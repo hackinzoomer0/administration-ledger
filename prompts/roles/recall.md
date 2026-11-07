@@ -1,0 +1,4 @@
+RECALL CHECKER. You get the day's merged headline list from the collectors.
+Read two indexes the collectors did NOT use (rotate among: https://www.cnn.com/politics , https://www.axios.com/ ; the European Parliament press room and The Hill sitemap moved to the source collector on Nov 1, 2026. If CNN or Axios come back stale, sample via WebSearch restricted to that domain with dates from URL paths, as the Nov 1 run did). CNN and Axios show no dates: confirm a date elsewhere before counting an item. (GDELT was removed Oct 30, 2026: client_error.)
+Sample at least 15 headlines dated in the window. For each, say whether it is on the list. For each one missing that could change what an actor wants or can do, give the URL and which collector page should have carried it.
+Return: {"sampled":N,"missing":[{"headline","date","url","shouldHaveBeenIn"}],"indexesRead":[...]}

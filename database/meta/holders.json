@@ -1,0 +1,833 @@
+{
+  "AI": {
+    "decider": "Split: tech investors on preemption and chips, White House and Treasury on review, Pentagon on military use",
+    "tags": {
+      "operation": "review order",
+      "pentagon": "military use",
+      "tech-right": "preemption and chips",
+      "treasury": "review order"
+    }
+  },
+  "EPS": {
+    "decider": "The Justice Department under the enforcers",
+    "tags": {
+      "maximalists": "decides"
+    }
+  },
+  "FED": {
+    "decider": "The FOMC votes on monetary policy. The Board, appointment process and courts have distinct roles in governance and removal disputes.",
+    "tags": {
+      "treasury": "advocates for market credibility and a Treasury–Fed accord"
+    },
+    "sources": [
+      "https://www.federalreserve.gov/faqs/federal-open-market-committee-fomc.htm",
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+    ]
+  },
+  "IMM": {
+    "decider": "The enforcers: arrests and ICE control",
+    "tags": {
+      "maximalists": "decides"
+    }
+  },
+  "IRN": {
+    "decider": "Trump directs U.S. military operations through the command chain. Congress has war powers and controls appropriations. Envoys negotiate within their mandates, and a settlement requires agreement from the parties.",
+    "tags": {
+      "pentagon": "executes military orders and advises",
+      "vance": "led negotiations described in the ledger",
+      "deal-capital": "advisory and negotiation channels",
+      "dissenters": "pursues congressional constraints"
+    },
+    "sources": [
+      "https://constitution.congress.gov/static/files/GPO-CONAN-2024-SUPP.pdf"
+    ]
+  },
+  "MID": {
+    "decider": "Voters determine chamber composition. AP projects Democratic control in the next Congress. Current congressional authority continues until the new term.",
+    "tags": {}
+  },
+  "RUS": {
+    "decider": "Dealmakers, with others carrying out the decisions",
+    "tags": {
+      "deal-capital": "decides",
+      "pentagon": "carries it out",
+      "treasury": "carries it out",
+      "vance": "carries it out"
+    }
+  },
+  "SUC": {
+    "decider": "Trump personally; Vance leads the field",
+    "tags": {}
+  },
+  "TAR": {
+    "decider": "Authority depends on the instrument. USTR leads Section 301 investigations and actions under the applicable statute and presidential direction. Commerce investigates and recommends under Section 232. The president decides whether to adjust imports under Section 232. Courts review statutory authority.",
+    "tags": {
+      "treasury": "influences trade policy and negotiations where supported by decision-specific evidence"
+    },
+    "sources": [
+      "https://www.ustr.gov/issue-areas/enforcement/section-301-investigations/search",
+      "https://www.commerce.gov/news/fact-sheets/2017/04/fact-sheet-section-232-investigations-national-security",
+      "https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf"
+    ]
+  },
+  "VEN": {
+    "decider": "Hawks and dealmakers together",
+    "tags": {
+      "deal-capital": "decides",
+      "hawks": "decides",
+      "pentagon": "holds the oil stake"
+    }
+  },
+  "asof": "2026-11-03",
+  "note": "Who actually decides each issue, from each report's who-holds-it line. Tags name a faction's role on the decision. This is separate from the activity percentages.",
+  "decision_audit": {
+    "fed-september-rate-vote": {
+      "issue": "FED",
+      "event_refs": [
+        "fed-2026-09-16-44481e"
+      ],
+      "authority": "The FOMC voted. The chair participated as a member.",
+      "representation": "Treasury’s market credibility objective can align with the vote. The committee’s decision does not establish Treasury influence.",
+      "outcome": "The FOMC raised the target range by 25 basis points on a 12–0 vote.",
+      "scoring_review": "Evaluate policy alignment separately from institutional control.",
+      "sources": [
+        "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+      ]
+    },
+    "ieepa-tariff-ruling": {
+      "issue": "TAR",
+      "event_refs": [
+        "tar-2026-02-20-30c064",
+        "fed-2026-02-20-379d93"
+      ],
+      "authority": "The Supreme Court resolved the question of statutory authority. Executive agencies handle subsequent trade measures under their respective authorities.",
+      "representation": "The ruling can advance an executive faction’s preferences. Establish the prior preference and any intervention separately.",
+      "outcome": "The Court held that IEEPA does not authorize presidential tariffs.",
+      "scoring_review": "Use one decision across the Fed and trade views. The Fed row also contains separate Iran material, which should be disentangled during event cleanup.",
+      "sources": [
+        "https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf"
+      ]
+    },
+    "section-301-replacement": {
+      "issue": "TAR",
+      "event_refs": [
+        "tar-2026-07-24-d8eb6d"
+      ],
+      "authority": "USTR leads the Section 301 process, subject to applicable statutory requirements and presidential direction.",
+      "representation": "Treasury has a policy and negotiation channel. A claim that Treasury shaped a specific tariff needs evidence from that action.",
+      "outcome": "The ledger describes Section 301 measures replacing Section 122. Check the applicable notices for scope and effective dates.",
+      "scoring_review": "Score a Treasury policy win separately from USTR authority and implementation.",
+      "sources": [
+        "https://www.ustr.gov/issue-areas/enforcement/section-301-investigations/search"
+      ]
+    },
+    "islamabad-negotiations": {
+      "issue": "IRN",
+      "event_refs": [
+        "irn-2026-04-07-95df20",
+        "suc-2026-04-12-3c5cb6"
+      ],
+      "authority": "Vance led U.S. talks in the ledger account. Pakistan mediated. Agreement depended on the parties. Strike and blockade decisions belong to the military decision track.",
+      "representation": "Vance had direct access through his negotiating role. His coalition’s donors have a political channel to him. The ledger leaves their role in these talks unresolved.",
+      "outcome": "The ledger records talks ending without a deal. It also records a ceasefire and blockade as separate actions.",
+      "scoring_review": "Treat the failed talks as one episode across Iran and succession. A succession loss needs evidence of a change in political standing.",
+      "sources": []
+    }
+  },
+  "event_reconciliation": {
+    "episodes": {
+      "ieepa-tariff-ruling": {
+        "date": "2026-02-20",
+        "issues": [
+          "TAR",
+          "FED"
+        ],
+        "event_refs": [
+          "tar-2026-02-20-30c064",
+          "fed-2026-02-20-379d93"
+        ],
+        "status": "verified",
+        "outcome": "The Supreme Court held that IEEPA does not authorize presidential tariffs.",
+        "source": "https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf"
+      },
+      "pakistan-brokered-ceasefire": {
+        "date": "2026-04",
+        "issues": [
+          "IRN"
+        ],
+        "event_refs": [
+          "irn-2026-04-07-95df20"
+        ],
+        "status": "ledger_only",
+        "outcome": "The ledger records a Pakistan-brokered ceasefire before the Islamabad talks.",
+        "source": null
+      },
+      "islamabad-negotiations": {
+        "date": "2026-04",
+        "issues": [
+          "IRN",
+          "SUC"
+        ],
+        "event_refs": [
+          "suc-2026-04-12-3c5cb6",
+          "irn-2026-04-07-95df20"
+        ],
+        "status": "ledger_only",
+        "outcome": "The ledger records Vance leading talks that ended without a deal.",
+        "source": null
+      },
+      "iran-ports-blockade": {
+        "date": "2026-04-13",
+        "issues": [
+          "IRN"
+        ],
+        "event_refs": [
+          "irn-2026-04-07-95df20"
+        ],
+        "status": "ledger_only",
+        "outcome": "The ledger records the start of a U.S. blockade of Iranian ports.",
+        "source": null
+      },
+      "fed-september-rate-vote": {
+        "date": "2026-09-16",
+        "issues": [
+          "FED"
+        ],
+        "event_refs": [
+          "fed-2026-09-16-44481e"
+        ],
+        "status": "verified",
+        "outcome": "The FOMC raised the target range by 25 basis points on a 12–0 vote.",
+        "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+      },
+      "section-301-replacement": {
+        "date": "2026-07-24",
+        "issues": [
+          "TAR"
+        ],
+        "event_refs": [
+          "tar-2026-07-24-d8eb6d"
+        ],
+        "status": "needs_action_notice",
+        "outcome": "The ledger describes Section 301 measures replacing Section 122. Verify the specific action, scope and effective date.",
+        "source": null
+      },
+      "h200-export-policy": {
+        "date": "2025-12-08",
+        "issues": [
+          "AI"
+        ],
+        "event_refs": [
+          "ai-2025-12-08-13376c"
+        ],
+        "status": "verified_policy_stages",
+        "outcome": "Trump announced conditional exports in December. Commerce implemented case-by-case license review on January 13, 2026. Licenses and actual shipments are separate outcomes.",
+        "source": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china"
+      }
+    },
+    "scoring_handoff": [
+      {
+        "faction": "treasury",
+        "episode": "ieepa-tariff-ruling",
+        "legacy_points": 8,
+        "deduplicated_legacy_points": 4,
+        "assessment": "Deduplication alone. Verify goal alignment before awarding points and evaluate actual influence separately."
+      },
+      {
+        "faction": "vance",
+        "episode": "islamabad-negotiations",
+        "legacy_points": -8,
+        "deduplicated_legacy_points": -4,
+        "assessment": "Deduplication alone. The negotiating setback does not establish a loss of succession standing."
+      }
+    ],
+    "unresolved": [
+      {
+        "event_ref": "fed-2026-02-20-379d93",
+        "claim": "Iran war begins",
+        "disposition": "Keep this clause out of the tariff episode. Verify the relevant military event and date against the Iran timeline before linking it."
+      },
+      {
+        "event_ref": "irn-2026-04-07-95df20",
+        "claim": "Hawks gained",
+        "disposition": "The source row bundles three actions. Establish which action the tag refers to before scoring."
+      }
+    ]
+  },
+  "outcome_review": {
+    "method": "One episode per decision. Evaluate each dimension separately against prior goals. Aligned outcomes establish policy fit. Withheld findings receive no points in this review. Preserve legacy tags for comparison.",
+    "episode_findings": {
+      "ieepa-tariff-ruling": {
+        "event_refs": [
+          "tar-2026-02-20-30c064",
+          "fed-2026-02-20-379d93"
+        ],
+        "evidence_status": "verified",
+        "findings": [
+          {
+            "faction": "treasury",
+            "dimension": "policy",
+            "result": "withheld",
+            "basis": "One court ruling covers both issue views. The legacy tags give Treasury credit, but the reviewed record does not establish its prior position on the specific IEEPA measure."
+          },
+          {
+            "faction": "treasury",
+            "dimension": "formal_authority",
+            "result": "none_established",
+            "basis": "The Court decided the statutory question. Review Treasury’s role in replacement measures separately."
+          },
+          {
+            "faction": "dissenters",
+            "dimension": "policy",
+            "result": "aligned",
+            "basis": "The ruling advances the ledger’s recorded goal of limiting emergency tariff authority. That alignment gives no credit for causing the ruling."
+          }
+        ]
+      },
+      "pakistan-brokered-ceasefire": {
+        "event_refs": [
+          "irn-2026-04-07-95df20"
+        ],
+        "evidence_status": "ledger_only",
+        "findings": [
+          {
+            "faction": "vance",
+            "dimension": "policy",
+            "result": "provisional_gain",
+            "basis": "A ceasefire advanced the restraint objective described in the ledger. Pakistan’s mediation and Vance’s subsequent talks are distinct actions."
+          }
+        ]
+      },
+      "islamabad-negotiations": {
+        "event_refs": [
+          "suc-2026-04-12-3c5cb6",
+          "irn-2026-04-07-95df20"
+        ],
+        "evidence_status": "ledger_only",
+        "findings": [
+          {
+            "faction": "vance",
+            "dimension": "policy",
+            "result": "setback",
+            "basis": "The talks he led ended without the agreement he sought. Count the episode once."
+          },
+          {
+            "faction": "vance",
+            "dimension": "access",
+            "result": "demonstrated",
+            "basis": "Leading the U.S. talks establishes a negotiating role."
+          },
+          {
+            "faction": "vance",
+            "dimension": "succession",
+            "result": "unresolved",
+            "basis": "The ledger does not show a resulting change in Trump’s endorsement, donor backing, or nomination standing."
+          }
+        ]
+      },
+      "iran-ports-blockade": {
+        "event_refs": [
+          "irn-2026-04-07-95df20"
+        ],
+        "evidence_status": "ledger_only",
+        "findings": [
+          {
+            "faction": "hawks",
+            "dimension": "policy",
+            "result": "withheld",
+            "basis": "A blockade may fit a pressure strategy. The legacy tag comes from a row that bundles three actions. Establish the prior faction ask for this specific measure before awarding credit."
+          }
+        ]
+      },
+      "fed-september-rate-vote": {
+        "event_refs": [
+          "fed-2026-09-16-44481e"
+        ],
+        "evidence_status": "verified",
+        "findings": [
+          {
+            "faction": "treasury",
+            "dimension": "policy",
+            "result": "withheld",
+            "basis": "A vote to hike establishes a rate outcome. The reviewed record does not establish a dated Treasury preference for this specific hike."
+          },
+          {
+            "faction": "treasury",
+            "dimension": "formal_authority",
+            "result": "none_established",
+            "basis": "The FOMC made the decision. Treasury’s interest in market credibility establishes a policy stake."
+          }
+        ]
+      },
+      "section-301-replacement": {
+        "event_refs": [
+          "tar-2026-07-24-d8eb6d"
+        ],
+        "evidence_status": "needs_action_notice",
+        "findings": [
+          {
+            "faction": "treasury",
+            "dimension": "policy",
+            "result": "withheld",
+            "basis": "The reported shift may fit Treasury’s managed-trade objective. The specific action notice and prior ask still need to be linked."
+          },
+          {
+            "faction": "treasury",
+            "dimension": "formal_authority",
+            "result": "none_established",
+            "basis": "The reviewed record assigns the Section 301 process to USTR under the applicable statute and presidential direction."
+          }
+        ]
+      },
+      "h200-export-policy": {
+        "event_refs": [
+          "ai-2025-12-08-13376c"
+        ],
+        "evidence_status": "verified_policy_stages",
+        "findings": [
+          {
+            "faction": "tech-right",
+            "dimension": "policy",
+            "result": "split",
+            "basis": "Conditional licensing advanced the sales objective of export proponents while preserving security conditions. Apply credit to actors with a prior export goal, since the wider network contains divergent interests."
+          },
+          {
+            "faction": "hawks",
+            "dimension": "policy",
+            "result": "partial_setback",
+            "basis": "The rule loosened review for covered chips under conditions, against the ledger’s recorded goal of tighter China chip controls. Apply this only to the actors pursuing those controls."
+          },
+          {
+            "faction": "deal-capital",
+            "dimension": "financial_gain",
+            "result": "unresolved",
+            "basis": "The licensing rule establishes a commercial opportunity. Licenses, shipments, counterparties, and proceeds require separate evidence."
+          }
+        ]
+      }
+    },
+    "next": "Rebuild the faction relationship and report summaries from these findings, labeling conclusions that still depend on legacy scoring."
+  },
+  "succession_review": {
+    "scope": "All Vance-tagged succession rows. Evidence is drawn from the ledger and its prior source checks.",
+    "legacy_weighted_total": -4,
+    "findings": [
+      {
+        "event_id": "suc-2025-03-58b7aa",
+        "result": "gain",
+        "basis": "Party fundraising role and donor access. The office gives Vance a platform for building a nomination coalition."
+      },
+      {
+        "event_id": "suc-2025-03-4b5d4d",
+        "result": "uncertain",
+        "basis": "Third-term talk keeps a rival scenario in circulation. The row establishes rhetoric and leaves its effect on Vance’s standing open."
+      },
+      {
+        "event_id": "suc-2025-08-b1ac3e",
+        "result": "positive signal",
+        "basis": "Trump calling Vance the most likely heir signals support. A floated ticket remains short of a committed endorsement."
+      },
+      {
+        "event_id": "suc-2025-10-29-417618",
+        "result": "field condition",
+        "basis": "Trump acknowledging a limit on his own eligibility changes the succession context. The statement confers no specific advantage over other contenders."
+      },
+      {
+        "event_id": "suc-2025-12-47212e",
+        "result": "mixed",
+        "basis": "Kirk’s endorsement is a gain. Rubio’s conditional statement and Cruz’s criticism are distinct signals with different effects."
+      },
+      {
+        "event_id": "suc-2026-04-12-3c5cb6",
+        "result": "unresolved",
+        "basis": "The negotiating setback belongs to the single Islamabad episode. The ledger establishes no resulting succession loss."
+      },
+      {
+        "event_id": "suc-2026-06-dc800d",
+        "result": "unresolved",
+        "basis": "Separate Carlson’s party stance from the Iran memorandum. The row leaves the effect on Vance’s nomination prospects open."
+      },
+      {
+        "event_id": "suc-2026-07-2d491f",
+        "result": "mixed",
+        "basis": "A narrowing polling lead is a setback in that poll. Trump’s reported support and Griffin’s preference are separate elite signals."
+      },
+      {
+        "event_id": "suc-2026-08-19-b59801",
+        "result": "gain",
+        "basis": "The reported Malik fundraiser demonstrates fundraising access and coalition capacity. Malik’s hosting gives his circle political representation independently of any personal contribution."
+      },
+      {
+        "event_id": "suc-2026-09-01-86a2d5",
+        "result": "mixed",
+        "basis": "Vance gained access to the audience. The reported Rubio preference shows competition for donor support."
+      },
+      {
+        "event_id": "suc-2026-09-24-11ac54",
+        "result": "support retained",
+        "basis": "Thiel reaffirmed his support. Concern about the general election is insufficient to score a withdrawal of backing."
+      }
+    ]
+  },
+  "expanded_review": {
+    "score_drivers": [
+      {
+        "event_id": "ven-2025-01-31-255f6a",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "brokerage outcome",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2025-09-22d8b8",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": -4,
+        "review": "setback to access",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-01-03-1ac3df",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "public policy posture",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-01-09-33072a",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "access and investor resistance",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-01-15-cae004",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "access",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-01-29-f4f460",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "policy opening",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-03-12-488551",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "diplomatic and sanctions steps",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-04-14-f4cc6d",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "limited authorization",
+        "evidence_tier": "carried",
+        "source": "https://ofac.treasury.gov/media/935516/download?inline=",
+        "finding": "OFAC authorized specified transactions with covered banks. This is a limited policy opening. The license establishes neither a general delisting nor private receipts."
+      },
+      {
+        "event_id": "ven-2026-08-28-8d3215",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 4,
+        "review": "announced transaction needs closing evidence",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "ven-2026-10-27-rubio-machado",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 3,
+        "review": "public posture",
+        "evidence_tier": "documented"
+      },
+      {
+        "event_id": "ven-2026-10-14-jorge-rodriguez-delisted",
+        "faction": "deal-capital",
+        "issue": "VEN",
+        "legacy_points": 3,
+        "review": "designation removed",
+        "evidence_tier": "documented"
+      },
+      {
+        "event_id": "rus-2025-11-66988c",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 4,
+        "review": "proposal",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "rus-2026-02-19-a95426",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 4,
+        "review": "reported appointment and access",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "rus-2026-09-18-20b3ff",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 4,
+        "review": "verify enactment and waiver separately",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "rus-2026-10-09-6e8d2a",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 4,
+        "review": "bundled measures",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "rus-2026-10-21-ff597c",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 4,
+        "review": "reported access and offer",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "rus-2026-10-18-f201",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 2,
+        "review": "battlefield development",
+        "evidence_tier": "reported"
+      },
+      {
+        "event_id": "rus-2026-10-29-refinery-pause",
+        "faction": "deal-capital",
+        "issue": "RUS",
+        "legacy_points": 4,
+        "review": "reported diplomatic outcome",
+        "evidence_tier": "reported"
+      },
+      {
+        "event_id": "fed-2025-04-981988",
+        "faction": "treasury",
+        "issue": "FED",
+        "legacy_points": 4,
+        "review": "reported advocacy",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "fed-2026-02-20-379d93",
+        "faction": "treasury",
+        "issue": "FED",
+        "legacy_points": 4,
+        "review": "duplicate court outcome",
+        "evidence_tier": "carried",
+        "episode": "ieepa-tariff-ruling"
+      },
+      {
+        "event_id": "fed-2026-05-22-0e33fc",
+        "faction": "treasury",
+        "issue": "FED",
+        "legacy_points": 4,
+        "review": "appointment and institutional access",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "fed-2026-09-16-83a4dd",
+        "faction": "treasury",
+        "issue": "FED",
+        "legacy_points": 4,
+        "review": "public framing",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "fed-2026-10-27-495a2c",
+        "faction": "treasury",
+        "issue": "FED",
+        "legacy_points": 3,
+        "review": "committee outcome",
+        "evidence_tier": "documented",
+        "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm",
+        "finding": "Official implementation note is dated October 28. The FOMC owns the rate outcome. Treasury influence on the vote remains unestablished."
+      },
+      {
+        "event_id": "tar-2026-02-20-30c064",
+        "faction": "treasury",
+        "issue": "TAR",
+        "legacy_points": 4,
+        "review": "duplicate court outcome",
+        "evidence_tier": "carried",
+        "episode": "ieepa-tariff-ruling"
+      },
+      {
+        "event_id": "tar-2026-06-28-9f35e1",
+        "faction": "treasury",
+        "issue": "TAR",
+        "legacy_points": 4,
+        "review": "reported process influence",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "tar-2026-07-24-d8eb6d",
+        "faction": "treasury",
+        "issue": "TAR",
+        "legacy_points": 4,
+        "review": "verify action notice",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "tar-2026-10-15-2195e8",
+        "faction": "treasury",
+        "issue": "TAR",
+        "legacy_points": 4,
+        "review": "Commerce access",
+        "evidence_tier": "carried"
+      },
+      {
+        "event_id": "tar-2026-10-22-outbound-npr",
+        "faction": "treasury",
+        "issue": "TAR",
+        "legacy_points": 3,
+        "review": "proposed rule",
+        "evidence_tier": "documented",
+        "source": "https://home.treasury.gov/news/press-releases/sb0667",
+        "finding": "Treasury exercised rulemaking authority delegated under the COINS Act and proposed regulations. Track finalization separately."
+      }
+    ],
+    "additional_verified_decision": {
+      "topic": "Lukoil",
+      "finding": "GL 131K permits negotiations and contingent contracts. A completed sale or financial return needs further evidence.",
+      "source": "https://ofac.treasury.gov/faqs/updated/2026-10-21"
+    },
+    "first_term_baseline": [
+      {
+        "date": "2018-05-08",
+        "issue": "IRN",
+        "decision": "Trump ended U.S. participation in the JCPOA and directed State and Treasury to begin reinstating sanctions.",
+        "source": "https://trumpwhitehouse.archives.gov/presidential-actions/ceasing-u-s-participation-jcpoa-taking-additional-action-counter-irans-malign-influence-deny-iran-paths-nuclear-weapon/"
+      },
+      {
+        "date": "2018-07-06",
+        "issue": "TAR",
+        "decision": "USTR implemented the first tranche of Section 301 tariffs on Chinese imports following the presidential direction and agency investigation.",
+        "source": "https://ustr.gov/sites/default/files/files/Issue_Areas/Enforcement/Section%20301/Published%20Phase%20One%20Initiation%20Notice.pdf"
+      },
+      {
+        "date": "2018-12-19",
+        "issue": "FED",
+        "decision": "The FOMC raised the federal funds target range to 2.25–2.50 percent.",
+        "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20181219a.htm"
+      },
+      {
+        "date": "2019-01-23",
+        "issue": "VEN",
+        "decision": "Trump recognized the president of Venezuela’s National Assembly as interim president.",
+        "source": "https://trumpwhitehouse.archives.gov/briefings-statements/statement-president-donald-j-trump-recognizing-venezuelan-national-assembly-president-juan-guaido-interim-president-venezuela/"
+      },
+      {
+        "date": "2019-02-11",
+        "issue": "AI",
+        "decision": "The order directed agencies to prioritize AI research, federal data access, standards, and workforce development.",
+        "source": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-maintaining-american-leadership-artificial-intelligence/"
+      }
+    ],
+    "coverage": {
+      "AI": {
+        "events": 66,
+        "with_source": 30
+      },
+      "EPS": {
+        "events": 33,
+        "with_source": 4
+      },
+      "FED": {
+        "events": 57,
+        "with_source": 36
+      },
+      "IMM": {
+        "events": 84,
+        "with_source": 44
+      },
+      "IRN": {
+        "events": 108,
+        "with_source": 81
+      },
+      "MID": {
+        "events": 91,
+        "with_source": 68
+      },
+      "RUS": {
+        "events": 62,
+        "with_source": 41
+      },
+      "SUC": {
+        "events": 30,
+        "with_source": 19
+      },
+      "TAR": {
+        "events": 48,
+        "with_source": 32
+      },
+      "VEN": {
+        "events": 44,
+        "with_source": 12
+      }
+    },
+    "legacy_sensitivity": {
+      "all": {
+        "deal-capital": 72,
+        "treasury": 57,
+        "pentagon": 33,
+        "tech-right": 16,
+        "hawks": 14,
+        "operation": 13,
+        "party": 13,
+        "dissenters": 8,
+        "vance": 2,
+        "maximalists": -7
+      },
+      "documented": {
+        "pentagon": 13,
+        "treasury": 9,
+        "party": 6,
+        "deal-capital": 6,
+        "dissenters": 4,
+        "hawks": 2,
+        "operation": 1,
+        "maximalists": -18
+      },
+      "2026_october_november": {
+        "deal-capital": 20,
+        "treasury": 13,
+        "party": 9,
+        "vance": 6,
+        "dissenters": 4,
+        "pentagon": 2,
+        "operation": 1,
+        "tech-right": 0,
+        "hawks": -10,
+        "maximalists": -11
+      }
+    },
+    "power_map": {
+      "deal-capital": "Negotiating access and commercial opportunities. Realized gains require transaction evidence.",
+      "treasury": "Direct authority over sanctions implementation and a role in investment rulemaking. Fed rate votes belong to the FOMC and statutory tariff decisions to the institutions authorized for each instrument.",
+      "rank_status": "The available evidence supports domain-specific findings. Uneven coverage and unstable legacy rankings leave an administration-wide ordinal ranking unresolved."
+    },
+    "remaining_gaps": [
+      "Verify high-weight carried claims about appointments, closing of transactions and waivers.",
+      "Backfill succession, Epstein and movement actors by material decision and evidence.",
+      "Expand first-term anchors before comparing administrations."
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "added": 4,
+  "summary": "Focused Nov 6–7 intake: recorded announced Miller/Wiles transition, Iran sanctions, Senate leadership-delay pressure and Venezuela TPS temporary stay; updated Cook hearing calendar. Major unreviewed outcomes include Los Angeles election grand jury, later immigration rulings and Israeli coalition developments. Remaining election calls and Iran policy decision stay open.",
+  "coverage": {
+    "scope": "Targeted calendar screen across ten issues and deeper post-election personnel review since Nov 6. Not a full daily source census or named watch rotation.",
+    "sourcesRead": [
+      "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+      "https://abc17news.com/news/2026/11/06/stephen-miller-replacing-susie-wiles-as-chief-of-staff-trump-announces/",
+      "https://www.aol.com/articles/miller-reportedly-told-trump-wind-210707000.html",
+      "https://www.investing.com/news/politics-news/feds-cook-lawyer-seeks-clarity-ahead-of-any-white-house-hearing-5006076",
+      "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/03/25-5724.pdf",
+      "https://home.treasury.gov/news/press-releases/sb0686/",
+      "https://www.washingtonexaminer.com/news/senate/4796082/ron-johnson-delay-senate-gop-leadership-elections/",
+      "https://www.axios.com/2026/11/06/vance-leads-push-new-iran-deal",
+      "https://www.memeorandum.com/",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.justice.gov/news",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.whitehouse.gov/releases/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://home.treasury.gov/news/press-releases",
+      "https://www.aljazeera.com/news/",
+      "https://www.cbsnews.com/politics/"
+    ],
+    "queries": 23,
+    "perIssue": {
+      "AI": "targeted search; see outcomes",
+      "EPS": "targeted search; see outcomes",
+      "FED": "targeted search; see outcomes",
+      "IMM": "targeted search; see outcomes",
+      "IRN": "targeted search; see outcomes",
+      "MID": "targeted search; see outcomes",
+      "RUS": "targeted search; see outcomes",
+      "SUC": "targeted search; see outcomes",
+      "TAR": "targeted search; see outcomes",
+      "VEN": "targeted search; see outcomes"
+    },
+    "lookbackDays": 1,
+    "outcomes": {
+      "Outstanding election calls and certifications": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+        "source": "https://www.reuters.com/legal/government/mississippi-us-senate-candidates-battle-over-ballots-winner-remains-unclear-2026-11-06/"
+      },
+      "Israel government formation": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check Nov 8 mandate and subsequent coalition commitments.",
+        "source": "https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/"
+      },
+      "Cook court filing and hearing": {
+        "status": "reviewed",
+        "finding": "Reuters reports December 14 hearing indication and Nov 6 joint status report; process and participation remain pending.",
+        "source": "https://www.investing.com/news/politics-news/feds-cook-lawyer-seeks-clarity-ahead-of-any-white-house-hearing-5006076"
+      },
+      "Iran war decision": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check for a new directive, observable implementation or an accepted agreement.",
+        "source": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
+      },
+      "House leadership and Pentagon job pressure": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check Nov 10 conference votes, Massie floor action, Hegseth job status and Tennessee appointment.",
+        "source": "https://www.axios.com/2026/11/04/house-republicans-steve-scalise-jim-jordan-minority-leader"
+      },
+      "Succession": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+        "source": "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+      },
+      "AI": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments."
+      },
+      "Epstein oversight": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing.",
+        "source": "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations"
+      },
+      "Immigration court decisions": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Verify Nov 6 Venezuela TPS stay disposition and mandate, bond detention and Khalil."
+      },
+      "Tariffs": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check Section 301 ruling, Section 338 litigation and Canadian negotiations."
+      },
+      "Venezuela": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check OFAC Citgo decision and Nov 11–15 talks."
+      },
+      "Russia": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration."
+      },
+      "Election enforcement grand jury": {
+        "status": "unreviewed",
+        "finding": "Carried from Nov 6; not independently resolved this run. Search surfaced prior subpoena reporting. The specific Nov 4 Los Angeles outcome remains unverified.",
+        "source": "https://www.latimes.com/california/story/2026-10-30/trump-doj-la-election-officials-subpoenas-explained"
+      },
+      "Senate oversight": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Watch for production, subpoenas and committee authority after organization.",
+        "source": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more"
+      },
+      "Afghan removal order expiration": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check the November 7 expiration, any extension, and any subsequent removal notices.",
+        "source": "https://reports.afghanevac.org/litigation/?embed=1"
+      },
+      "D.C. Guard implementation and litigation": {
+        "status": "pending",
+        "finding": "Carried from Nov 6; not independently resolved this run. Check implementation of expanded patrol authority and status of District litigation.",
+        "source": "https://apnews.com/article/e6f2fc06768103f59536b785756f8858"
+      },
+      "Chamber control": {
+        "status": "reviewed",
+        "finding": "AP and current election reporting continue to project Democratic control of both chambers in the next Congress; current authority has not transferred.",
+        "source": "https://apnews.com/article/ef6199e25927a9ac9f4c18eae0e497cd"
+      },
+      "Israel consultations": {
+        "status": "unreviewed",
+        "finding": "Carried from Nov 6; not independently resolved this run. Herzog reported 67 recommendations for Eisenkot and 46 for Netanyahu. Mutual vetoes still constrain government formation.",
+        "source": "https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/"
+      },
+      "Iran mediation contact": {
+        "status": "unreviewed",
+        "finding": "Carried from Nov 6; not independently resolved this run. Qatar reported the Nov 6 Trump–Tamim call on de-escalation.",
+        "source": "https://qna.org.qa/es-ES/news/news-details?date=6%2F11%2F2026&id=su-alteza-el-emir-recibe-una-llamada-telefonica-del-presidente-de-estados-unidos"
+      },
+      "Venezuela TPS administrative stay": {
+        "status": "reviewed",
+        "finding": "Read Nov 3 order granting temporary stay; mandate issuance and later disposition remain pending.",
+        "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/03/25-5724.pdf"
+      },
+      "Chief of staff": {
+        "status": "reviewed",
+        "finding": "Miller appointment confirmed; Nov 9 handover and political-operation role pending.",
+        "source": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/"
+      },
+      "Iran sanctions": {
+        "status": "reviewed",
+        "finding": "Eight Canadian businesses designated Nov 6; financial effects unknown.",
+        "source": "https://home.treasury.gov/news/press-releases/sb0686/"
+      },
+      "Iran diplomacy and operations": {
+        "status": "pending",
+        "finding": "Axios reports Vance mediation and a Qeshm strike; verify further military orders and any agreement.",
+        "source": "https://www.axios.com/2026/11/06/vance-leads-push-new-iran-deal"
+      },
+      "Senate leadership timetable": {
+        "status": "pending",
+        "finding": "Reported Johnson delay request; no postponement or leadership result verified.",
+        "source": "https://www.washingtonexaminer.com/news/senate/4796082/ron-johnson-delay-senate-gop-leadership-elections/"
+      }
+    },
+    "watchlist": [
+      "Outstanding election calls and certifications",
+      "Israel government formation",
+      "Iran war decision",
+      "House leadership and Pentagon job pressure",
+      "Succession",
+      "AI",
+      "Epstein oversight",
+      "Immigration court decisions",
+      "Tariffs",
+      "Venezuela",
+      "Russia",
+      "Election enforcement grand jury",
+      "Senate oversight",
+      "Afghan removal order expiration",
+      "D.C. Guard implementation and litigation",
+      "Israel consultations",
+      "Iran mediation contact",
+      "Iran diplomacy and operations",
+      "Senate leadership timetable",
+      "Nov 9 chief-of-staff handover",
+      "Cook Dec 14 process and attendance",
+      "Venezuela TPS judgment issuance and later orders"
+    ],
+    "unresolved_claims": [
+      "Miller Iran exit pitch attributed to NYT via Mediaite; public stance and causal role in appointment unproven.",
+      "No new ruling inferred from unsuccessful searches.",
+      "Cook court pause request surfaced in Bloomberg search; readable Reuters joint-report account used, no granted pause claimed."
+    ],
+    "changedEpisodeIds": [
+      "mid-2026-11-06-miller-chief-staff",
+      "irn-2026-11-06-canada-msb-sanctions",
+      "imm-2026-11-03-venezuela-tps-admin-stay",
+      "mid-2026-11-06-senate-leadership-delay",
+      "fed-2026-10-30-cook-hearing-delay",
+      "mid-2026-11-05-wiles-hegseth-blame"
+    ],
+    "reviewedEpisodeIds": [
+      "mid-2026-11-06-miller-chief-staff",
+      "irn-2026-11-06-canada-msb-sanctions",
+      "imm-2026-11-03-venezuela-tps-admin-stay",
+      "mid-2026-11-06-senate-leadership-delay",
+      "fed-2026-10-30-cook-hearing-delay",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "mid-2026-11-05-congress-control"
+    ],
+    "blocked": [
+      "State press releases: 403 Forbidden",
+      "TVG Nov 6: URL not accessible",
+      "Bloomberg licensed Yahoo copy: 429",
+      "Some aggregator links resolved to unrelated pages; discarded."
+    ],
+    "deviations": [
+      "Full index enumeration, source pagination and watch rotation incomplete; selected primary pages and targeted searches used. Saturday has no TVG edition.",
+      "Three legal queries: Cook court filing; Maurene Comey appeal/lawsuit; Hegseth inspector general/indictment/subpoena. No unverified negative result treated as resolution."
+    ],
+    "enrich": [
+      {
+        "item": "Miller appointment",
+        "route": 2,
+        "readUrl": "https://abc17news.com/news/2026/11/06/stephen-miller-replacing-susie-wiles-as-chief-of-staff-trump-announces/",
+        "note": "Licensed CNN copy; official appointment separately read."
+      },
+      {
+        "item": "Miller Iran pitch",
+        "route": 2,
+        "readUrl": "https://www.aol.com/articles/miller-reportedly-told-trump-wind-210707000.html",
+        "note": "Licensed Mediaite copy attributing NYT; not independently confirmed."
+      },
+      {
+        "item": "Cook",
+        "route": 2,
+        "readUrl": "https://www.investing.com/news/politics-news/feds-cook-lawyer-seeks-clarity-ahead-of-any-white-house-hearing-5006076",
+        "note": "Readable Reuters copy; disclosure distinguished from ruling."
+      },
+      {
+        "item": "TPS",
+        "route": 4,
+        "readUrl": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/03/25-5724.pdf",
+        "note": "Primary order read."
+      }
+    ],
+    "duplicate_review": "Stored slicer run over nearby dates and all bundled rows. Cook merged into existing scheduling episode. Staff promotion is distinct from prior blame report; sanctions distinct from earlier shortages. No duplicate TPS or Senate-delay episode found.",
+    "checklist": {
+      "collector": "partial: selected indexes only",
+      "watch": "partial: calendar and major actors",
+      "duplicates": "done",
+      "validation": "done"
+    },
+    "validation_results": "WARNING donors: \"Safety and Affordability PAC\" may combine several entries\nWARNING donors: \"American Iron and Steel Institute\" may combine several entries\nWARNING donors: \"Center for Economic and Policy Research\" may combine several entries\n0 errors, 3 warnings"
+  },
+  "scope": "Targeted calendar screen across ten issues and deeper post-election personnel review since Nov 6. Not a full daily source census or named watch rotation.",
+  "reviewed_episode_ids": [
+    "mid-2026-11-06-miller-chief-staff",
+    "irn-2026-11-06-canada-msb-sanctions",
+    "imm-2026-11-03-venezuela-tps-admin-stay",
+    "mid-2026-11-06-senate-leadership-delay",
+    "fed-2026-10-30-cook-hearing-delay",
+    "mid-2026-11-05-wiles-hegseth-blame",
+    "mid-2026-11-05-congress-control"
+  ],
+  "changed_entries": [
+    "mid-2026-11-06-miller-chief-staff",
+    "irn-2026-11-06-canada-msb-sanctions",
+    "imm-2026-11-03-venezuela-tps-admin-stay",
+    "mid-2026-11-06-senate-leadership-delay",
+    "fed-2026-10-30-cook-hearing-delay",
+    "mid-2026-11-05-wiles-hegseth-blame",
+    "people/all:miller,wiles",
+    "factions/operation,maximalists",
+    "issues/FED,IMM,MID,SUC"
+  ],
+  "unresolved_claims": [
+    "Miller Iran exit pitch attributed to NYT via Mediaite; public stance and causal role in appointment unproven.",
+    "No new ruling inferred from unsuccessful searches.",
+    "Cook court pause request surfaced in Bloomberg search; readable Reuters joint-report account used, no granted pause claimed."
+  ],
+  "evidence_needed": [
+    "Nov 9 handover and political-role remit",
+    "Cook hearing notice and procedural agreement",
+    "Supreme Court judgment issuance and subsequent appellate orders",
+    "Outstanding race calls, leadership votes, military directives"
+  ],
+  "validation_results": "WARNING donors: \"Safety and Affordability PAC\" may combine several entries\nWARNING donors: \"American Iron and Steel Institute\" may combine several entries\nWARNING donors: \"Center for Economic and Policy Research\" may combine several entries\n0 errors, 3 warnings"
+}

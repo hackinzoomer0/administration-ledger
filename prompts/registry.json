@@ -1,0 +1,447 @@
+{
+  "analysis-rules": {
+    "asof": "2026-10-30",
+    "role": "analysis-rules"
+  },
+  "analyst": {
+    "asof": "2026-11-03",
+    "model": "opus",
+    "role": "analyst"
+  },
+  "auditor-monday": {
+    "asof": "2026-11-03",
+    "role": "auditor-monday"
+  },
+  "challenger": {
+    "asof": "2026-11-03",
+    "model": "opus",
+    "role": "challenger"
+  },
+  "core": {
+    "asof": "2026-11-01",
+    "role": "core"
+  },
+  "db-shape": {
+    "asof": "2026-10-30",
+    "role": "db-shape"
+  },
+  "enrich": {
+    "asof": "2026-11-01",
+    "model": "sonnet",
+    "role": "enrich"
+  },
+  "final-message": {
+    "asof": "2026-11-02",
+    "role": "final-message"
+  },
+  "lessons": {
+    "asof": "2026-11-03",
+    "lessons": [
+      {
+        "claim": "Trump said US aid to Israel ($3.8B a year under the 10-year agreement) 'gets cut off at the end of the year' (Fox & Friends, Nov 3).",
+        "correction": "Aid is leverage, not good will. It carries end-use rules, delivery review and the implied threat to slow shipments (Biden's 2,000-lb bomb hold, May 2024; Baker's loan-guarantee hold, 1991; Reagan's cluster-munition suspension, 1982). Cutting it while the US keeps underwriting the war (blockade, defensive strikes, missile-defense backing) unshackles Israel: more freedom to act, with the US still absorbing the consequences. Restraint factions claim a talking-point win but lose substance; Hawks and Netanyahu gain on substance. Tell missed: Netanyahu himself has pushed to phase out aid, and a recipient who wants to give up a benefit is telling you the benefit was a constraint.",
+        "date": "2026-11-03",
+        "generalRule": "Before scoring winners, name the lever the act creates or removes and who holds it afterward; score fx by who gets the outcome, not who claims it.",
+        "id": "L1-israel-aid-leverage",
+        "mechanism": "Removes a US brake (conditionality and supply leverage) without removing US exposure.",
+        "wrongReading": "Cutting aid would help the restraint factions (Populists, Vance Lane), hurt the Hawks, and weaken Netanyahu's ability to pull the US into a wider Iran war."
+      },
+      {
+        "claim": "The ledger grouped a 'Populist-Nationalist Right' faction by its message ('no new wars') and scored members by it.",
+        "correction": "Politicians and media figures wear a posture for their audience while their interests (patrons, holdings, career) differ. Verified Nov 3: Loomer backs the Iran war (Mar 3); Hawley voted against Iran war powers; Gabbard left citing family illness and defended the launch in office; Bannon told CPAC to back Trump (Mar 27); Thiel calls the war a mistake (Oct 12) while Palantir's Maven targeting use doubled; Vance was made by Thiel money ($15M, 2022) and the 1789 Capital circle, and keeps patrons and Trump's blessing whatever his talks posture. Also: claims about funding must be sourced; the reviewer's Carlson-Thiel and Bannon-Mercer links did not hold up as current (Carlson bought out 1789 Capital in Jun 2025; the Mercers cut Bannon off in 2017-18).",
+        "date": "2026-11-03",
+        "generalRule": "Every person and faction stance has two layers: POSTURE (what they say, to whom, what it buys) and INTEREST (who pays or made them, what they own, what they lose if their stated position won). Assign membership and fx by interest and acts; label the gap explicitly.",
+        "id": "L2-factions-by-slogan",
+        "mechanism": "Factions are interest blocs held together by money, posts and audiences, not shared slogans.",
+        "wrongReading": "Treated Loomer, Bannon, Carlson, Hawley, Gabbard and Kent as one anti-war bloc; left Thiel's Iran motive empty while Palantir (which he chairs) profits from the war; read Vance's Iran posture ('wants a deal') as his motive."
+      }
+    ],
+    "note": "Worked examples of shallow readings the reviewer corrected. Analysts and the challenger read every entry before writing. The weekly auditor adds a lesson whenever a scored falsifier shows a reading was wrong.",
+    "role": "lessons"
+  },
+  "recall": {
+    "asof": "2026-11-01",
+    "model": "sonnet",
+    "role": "recall"
+  },
+  "slicer": {
+    "asof": "2026-11-01",
+    "role": "slicer"
+  },
+  "sources": {
+    "asof": "2026-11-03",
+    "role": "sources",
+    "sources": {
+      "active": [
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-03",
+          "name": "Newsletters in the dedicated Gmail inbox",
+          "note": "Newsletter sources: Politico Playbook, AP Morning Wire, Punchbowl, Axios (AM/PM, Daily Essentials, Finish Line, 2028), Axios AM Deep Dive (added Nov 1, 2026), Semafor Flagship and Flagship Asia (added Nov 2, 2026), Reuters (pending confirmation; only marketing mail so far). Read-only; never click links. Nov 3, 2026 run: Axios PM and Axios Finish Line confirmed arriving; Politico Playbook PM (same sender address as Playbook) added; Axios Charlotte (charlotte@axios.com) sends membership appeals only; AP donation mail (donations@apnews.com) is fundraising, skip.",
+          "status": "loaded",
+          "statusNote": "Read by the audit through Gmail: 14 newsletters, Oct 30-Nov 2; no editions before Oct 30 exist.",
+          "tag": "newsletter",
+          "url": "gmail:in:inbox"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-03",
+          "name": "TVG Daily Brief",
+          "note": "weekdays; direct address only; day without leading zero; archive page stale",
+          "status": "loaded",
+          "statusNote": "Oct 26-30 issues loaded in the audit; Nov 2 issue failed: client_error (the daily run hit the same error). Daily run Nov 3: Nov 2 and Nov 3 issues both failed: client_error.",
+          "tag": "digest",
+          "url": "https://theverardogroup.substack.com/p/tvg-daily-brief-{d}-{mon}-2026"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "White House releases",
+          "status": "loaded",
+          "tag": "official",
+          "url": "https://www.whitehouse.gov/releases/"
+        },
+        {
+          "failWeeks": 1,
+          "lastChecked": "2026-11-02",
+          "name": "White House presidential actions",
+          "status": "stale",
+          "statusNote": "Newest 2026-10-28. ",
+          "tag": "official",
+          "url": "https://www.whitehouse.gov/presidential-actions/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Treasury press releases",
+          "note": "page 1 only; page numbers return page 1 again",
+          "status": "loaded",
+          "tag": "official",
+          "url": "https://home.treasury.gov/news/press-releases"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "OFAC recent actions",
+          "note": "titles only",
+          "status": "loaded",
+          "statusNote": "Newest 2026-10-29, one business day outside the 3-day window across a weekend.",
+          "tag": "official",
+          "url": "https://ofac.treasury.gov/recent-actions"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "State press releases",
+          "note": "pages 1-2 only; deeper pages fail or shift",
+          "status": "loaded",
+          "tag": "official",
+          "url": "https://www.state.gov/press-releases/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Justice news page 1",
+          "note": "page 2 barred by robots.txt",
+          "status": "loaded",
+          "tag": "official",
+          "url": "https://www.justice.gov/news"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Federal Reserve 2026 releases",
+          "status": "loaded",
+          "statusNote": "Newest 2026-10-29, one business day outside the 3-day window across a weekend.",
+          "tag": "official",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Memeorandum",
+          "status": "loaded",
+          "tag": "aggregator",
+          "url": "https://www.memeorandum.com/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "NewsNow US Politics",
+          "note": "relative times only",
+          "status": "loaded (no dates)",
+          "statusNote": "Relative times only; newest 19m.",
+          "tag": "aggregator",
+          "url": "https://www.newsnow.com/us/News/US+Politics"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "RealClearPolitics",
+          "status": "loaded",
+          "tag": "aggregator",
+          "url": "https://www.realclearpolitics.com/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Al Jazeera",
+          "status": "loaded",
+          "tag": "world",
+          "url": "https://www.aljazeera.com/news/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Euronews",
+          "status": "loaded",
+          "tag": "world",
+          "url": "https://www.euronews.com/news/international"
+        },
+        {
+          "failWeeks": 1,
+          "lastChecked": "2026-11-02",
+          "name": "Anadolu world",
+          "status": "stale",
+          "statusNote": "Newest 2024-04-27. Newest date printed was April 27, 2024 (appears to be an old copy).",
+          "tag": "world",
+          "url": "https://www.aa.com.tr/en/world"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "CBS politics",
+          "note": "relative times only",
+          "status": "loaded",
+          "statusNote": "Newest relative time 'Updated 24m ago' on live updates; newest explicit date Nov. 1, 2026.",
+          "tag": "world",
+          "url": "https://www.cbsnews.com/politics/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "DefenseScoop",
+          "status": "loaded",
+          "statusNote": "Newest printed date Nov 19, 2026 is in the future (likely an event listing); newest article date not isolated. Not refetched per one-fetch rule.",
+          "tag": "defense",
+          "url": "https://defensescoop.com/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "SOFX",
+          "status": "loaded",
+          "tag": "defense",
+          "url": "https://www.sofx.com/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Federal News Network",
+          "note": "month-level dates only",
+          "status": "loaded",
+          "tag": "defense",
+          "url": "https://federalnewsnetwork.com/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "CNN politics",
+          "note": "no dates; confirm elsewhere",
+          "status": "loaded (no dates)",
+          "statusNote": "No story dates or relative times; only date seen was Feb 12, 2026 in a photo caption.",
+          "tag": "recall",
+          "url": "https://www.cnn.com/politics"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "Axios",
+          "note": "no dates; confirm elsewhere",
+          "status": "loaded (no dates)",
+          "statusNote": "Relative times only; newest '11 hours ago'.",
+          "tag": "recall",
+          "url": "https://www.axios.com/"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "European Parliament press room",
+          "note": "read by the world collector since Oct 31, 2026",
+          "status": "loaded",
+          "statusNote": "Newest printed date '08-11-2026' (dd-mm, i.e. Nov 8, a future date, likely an agenda item); newest past-dated item not isolated.",
+          "tag": "world",
+          "url": "https://www.europarl.europa.eu/news/en"
+        },
+        {
+          "failWeeks": 0,
+          "lastChecked": "2026-11-02",
+          "name": "The Hill news sitemap",
+          "note": "read by the world collector as headline-only input since Nov 1, 2026 (proposed fix from Oct 31 run); article pages blocked",
+          "status": "loaded",
+          "tag": "world",
+          "url": "https://thehill.com/news-sitemap.xml"
+        }
+      ],
+      "asof": "2026-11-02",
+      "knownBlocked": [
+        {
+          "error": "SITE_BLOCKED",
+          "lastChecked": "2026-11-02",
+          "name": "Reuters",
+          "recheck": "failed"
+        },
+        {
+          "error": "SITE_BLOCKED",
+          "lastChecked": "2026-11-02",
+          "name": "AP",
+          "recheck": "failed"
+        },
+        {
+          "error": "SITE_BLOCKED",
+          "lastChecked": "2026-11-02",
+          "name": "Politico",
+          "recheck": "failed"
+        },
+        {
+          "error": "SITE_BLOCKED",
+          "name": "The Guardian"
+        },
+        {
+          "error": "SITE_BLOCKED",
+          "name": "BBC"
+        },
+        {
+          "error": "robots_disallowed",
+          "name": "Google News"
+        },
+        {
+          "error": "robots_disallowed",
+          "name": "MSN"
+        },
+        {
+          "error": "client_error",
+          "name": "war.gov"
+        },
+        {
+          "error": "client_error",
+          "name": "dhs.gov and its feed"
+        },
+        {
+          "error": "client_error",
+          "name": "defense.gov feed"
+        },
+        {
+          "error": "client_error",
+          "name": "GovDelivery bulletins"
+        },
+        {
+          "error": "robots_disallowed",
+          "name": "justice.gov page 2"
+        },
+        {
+          "error": "client_error",
+          "lastChecked": "2026-11-02",
+          "name": "The Hill pages",
+          "recheck": "failed"
+        },
+        {
+          "error": "client_error",
+          "name": "CBS live updates"
+        },
+        {
+          "error": "client_error on every weekday Sep 30-Oct 30, 2026 except Oct 9",
+          "lastChecked": "2026-11-02",
+          "name": "Just Security Early Edition",
+          "recheck": "failed",
+          "removed": "2026-10-30"
+        },
+        {
+          "error": "stale: newest presidential document Jul 31, 2026",
+          "name": "Federal Register API",
+          "removed": "2026-10-30"
+        },
+        {
+          "error": "stale copy (header 3 days old on Oct 30, 2026)",
+          "lastChecked": "2026-11-02",
+          "name": "Ground News",
+          "recheck": "stale (newest 2026-10-27)",
+          "removed": "2026-10-30"
+        },
+        {
+          "error": "stale snapshot (Oct 27 election-day page on Oct 30, 2026)",
+          "lastChecked": "2026-11-02",
+          "name": "Times of Israel",
+          "recheck": "stale (newest 2026-10-27)",
+          "removed": "2026-10-30"
+        },
+        {
+          "error": "client_error (Oct 30, 2026)",
+          "name": "GDELT DOC API",
+          "removed": "2026-10-30"
+        },
+        {
+          "error": "client_error (Oct 30, 2026)",
+          "name": "Memeorandum dated archive pages",
+          "removed": "2026-10-30"
+        }
+      ],
+      "note": "Tested Oct 30, 2026 from the routine sandbox. Weekly auditor updates status and lastChecked. Oct 30 evening run: TVG slugs use the day without a leading zero (tvg-daily-brief-8-oct-2026); Just Security Early Edition direct URLs gave client_error for every weekday Sep 30-Oct 30 except Oct 9; Federal Register PRESDOCU API newest entry Jul 31 (stale); GDELT API client_error. Weekly audit 2026-11-02: first status pass; fields status, lastChecked and failWeeks (consecutive weekly failures; three moves a page to knownBlocked). Anadolu world served an April 2024 copy (stale, week 1). White House presidential actions newest Oct 28 (stale, week 1). Just Security home now loads (Nov 1) but Early Edition still fails, so it stays blocked.",
+      "stale": [
+        {
+          "name": "Washington Post",
+          "note": "2015 snapshot; robots bars Anthropic bots"
+        },
+        {
+          "name": "NPR",
+          "note": "April 2026 snapshot; robots bars Anthropic bots"
+        },
+        {
+          "name": "defense.gov News",
+          "note": "2018 snapshot"
+        },
+        {
+          "name": "ICE newsroom",
+          "note": "Sept 2025"
+        },
+        {
+          "name": "Yahoo News",
+          "note": "2023 snapshot"
+        },
+        {
+          "name": "AllSides",
+          "note": "2018 snapshot"
+        },
+        {
+          "name": "Everything Briefing",
+          "note": "2023 or paywalled"
+        },
+        {
+          "name": "Justice API",
+          "note": "newest Aug 15"
+        },
+        {
+          "name": "Bing News RSS",
+          "note": "empty"
+        }
+      ]
+    }
+  },
+  "validator": {
+    "asof": "2026-10-30",
+    "role": "validator"
+  },
+  "watch": {
+    "asof": "2026-10-30",
+    "model": "sonnet",
+    "role": "watch"
+  },
+  "collector": {
+    "asof": "2026-11-01",
+    "role": "collector"
+  },
+  "nominee-review": {
+    "asof": "2026-11-07",
+    "role": "nominee-review"
+  }
+}

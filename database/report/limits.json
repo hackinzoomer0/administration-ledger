@@ -1,0 +1,79 @@
+{
+  "asof": "2026-10-24",
+  "key": "limits",
+  "paras": [
+    "The Fed Board majority and the regional Fed presidents (Powell, Cook, Barr, Jefferson, Waller, Bowman, Hammack, Logan, Kashkari) are an independent institution: they are the object of the Fed fight, and only Warsh also sits in a faction. The Guardrails Coalition on AI (Amodei, Warren, Schatz, Sanders) and the Democrats in the Russia coalition are external influencers. FTC Chair Ferguson (AI: “existing law first”, then a probe of three labs on Sep 30) has no single home.",
+    "--limits--",
+    "What this cannot show. The grouping of people into eleven factions is my synthesis; the reports’ own placements are the evidence, and a different cut (for example merging Pentagon into Maximalists) is defensible. Footprint counts show where a faction has a dated position, not how much influence it has. Alliance edges mean parallel action; no document in the reports shows coordination except Vance’s public defense of Witkoff (Oct 21). Private deliberations are known only through anonymous sources in the reports. A “no dated position” cell neither agrees nor disagrees.",
+    "Where the reports conflict. I used the more recent or better-sourced version and did not reconcile the rest.",
+    "Sonderling is acting head of the Office of Government Ethics on the Cook committee in the Economy report and Labor secretary in the Immigration report. I left his title off.",
+    "Blanche is acting attorney general in Immigration but confirmed 50-49 on Aug 8 in Epstein and Midterms. I used attorney general.",
+    "Epstein names Zacharia as press secretary; Midterms and press reports say she was fired Oct 16.",
+    "Pulte is FHFA director in Economy and Midterms, acting DNI for under six weeks in Iran, and still called DNI in an Oct 16 Breitbart piece. I used FHFA director.",
+    "Musk’s 2026 giving: about $366M this cycle (Russia), $91M of $119M by AI executives (AI), $100-120M planned for America PAC with under $1M spent by Sep 3 (Midterms). Not reconciled.",
+    "The China truce ends Jan 10, 2027 in Tariffs; other reports say Nov 10.",
+    "Vance has no dated Venezuela position in that report, so he sits in the context row, not in a faction there.",
+    "What the motive lines rest on. The issue positions come from the ten reports. The motive lines come from a second round of outside reporting on the main players, listed below. Where that round found no personal stake, the bullet says so. Those lines are my reading; no source states anyone’s intent unless the bullet says so, and several people named deny any link (Kushner’s lawyer on Phoenix, the White House on World Liberty, Continental on Srpska, Homan’s case closed by DOJ). Players not researched in that round (for example Hegseth, Gabbard, Kent, Greene, Burgum, Gruters, Comer, Cooper and Caine) carry no personal-motive finding beyond what the reports say.",
+    "Sources for the motive lines.",
+    "Kushner: Affinity’s Phoenix Financial stake and Elbit exposure (Forbes, Sep 2025; reporting in Jul 2026); Netanyahu–Kushner family ties (CNN, JTA).",
+    "Witkoff and World Liberty: The Block and WSJ on the Aryam purchase, payments to Trump and Witkoff entities, and the chips framework; Warren and Murphy letter.",
+    "Srpska fees: Al Jazeera (Oct 8), Denver Gazette (Oct 7), NYT via DNyuz (Oct 15), RFE/RL and OFAC on the Dodik sanctions.",
+    "Wiles: Ballard and Mercury lobbying history; Daily Beast (Oct 19-20); Politico and Daily Mail (Oct 15, 23).",
+    "Homan sting: ABC News. Patel and Qatar: Jewish Insider. Pulte referrals: GAO and the Swalwell suit.",
+    "Lutnick: NOTUS on his ethics waiver; Bisnow on the Newmark buyout. Warsh: The Hill. Bessent: Fortune.",
+    "Sacks: NYT (Nov 30, 2025) and NPR. Feinberg and Ligado: American Prospect (Jul 17, 2026). Michael: Guardian and Decrypt. Trump Jr.: CREW and Warren letters.",
+    "Thiel and Vance: CBS and OpenSecrets. Claver-Carone: Reuters. Wright: his Feb 2025 divestiture certificate.",
+    "Cruz: Axios (Nov 2025) and OpenSecrets via secondary sources. Bannon: Axios (Jan 10, 2026). Carlson and Loomer: Loomer’s allegations; Carlson denies.",
+    "Massie race: NYT, Axios, Al-Monitor. Hawley and the war-powers votes: reporting on the Jan 8 and Jan 14 votes. Collins and Maine: NPR (Aug 31, 2026). Thune: The Hill.",
+    "Sources for the funding sections. MAGA Inc. donors and the donor-to-post pattern: Brennan Center (2025 totals) and Wisconsin Examiner (Jul 20, 2026). SLF and CLF donors: Sludge (Apr 21, 2026). GEO and CoreCivic giving: Scripps News (Oct 15, 2026). Leading the Future and Public First spending: Axios (Mar 5, 2026) and Fox News. Pro-Israel spending against Massie: Axios (Sep 18, 2025) and NYT. Heritage and allied funders: Center for Media and Democracy. Griffin on Vance and Rubio: Fox Business.",
+    "Sources. The ten attached reports as of Oct 24, 2026: Economy (Fed and the economy), Venezuela, Succession, Russia, Midterms, Epstein files, Tariffs and Trade, AI Policy, Immigration, Iran. Every dated act, figure and evidence tier in the tables comes from them. Outside, read as search results only: Newsweek on the replacement list; Breitbart on “zero chance”; Yeshiva World relaying the Daily Mail; Al Jazeera on Vance and Rubio. As of Oct 24, 2026.",
+    "The outcome review covers seven episodes. Other relationships and numeric scores draw on the legacy ledger and require episode-level review before they can support an overall ranking."
+  ],
+  "terms": [
+    [
+      "MAGA Inc.",
+      "Trump’s super PAC, an outside group that can raise unlimited money; it is not the RNC"
+    ],
+    [
+      "SLF, CLF, One Nation",
+      "Senate and House leadership super PACs and a related nonprofit"
+    ],
+    [
+      "Leading the Future",
+      "An AI-industry super PAC backed by a16z and Brockman"
+    ],
+    [
+      "World Liberty Financial",
+      "A Trump-family crypto venture; Aryam, a Gulf investor, bought 49%"
+    ],
+    [
+      "Affinity Partners",
+      "Jared Kushner’s investment firm, funded mostly by foreign investors"
+    ],
+    [
+      "Starshield",
+      "SpaceX’s military satellite link; Ukraine’s drones fly on it"
+    ],
+    [
+      "PERM",
+      "The Labor Department step an employer must clear before sponsoring a green card"
+    ],
+    [
+      "Sections 232, 301, 338",
+      "Three tariff laws: national security (Commerce), unfair practice (USTR), discrimination against US trade (presidential, first used on Canada)"
+    ],
+    [
+      "NABEP, the Pentagon capital office",
+      "A Venezuelan oil venture; the Pentagon’s Office of Strategic Capital took 35%"
+    ],
+    [
+      "Discharge petition",
+      "A House device that forces a vote when 218 members sign"
+    ],
+    [
+      "War-powers resolution",
+      "A vote telling a president to end hostilities Congress has not authorized"
+    ]
+  ],
+  "title": "Limits and sources"
+}

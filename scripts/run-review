@@ -1,0 +1,34 @@
+#!/bin/bash
+set -euo pipefail
+root=$(cd -- "$(dirname -- "$0")/.." && pwd)
+case "${1:-}" in daily) section=Daily;; weekly) section=Weekly;; *) exit 2;; esac
+runtime="$root/.runtime"
+mkdir -p "$runtime"
+daily_stamp="$runtime/daily-review-success"
+review_date=$(TZ=America/Chicago date +%F)
+if [[ "$section" == Weekly ]] && [[ $(cat "$daily_stamp" 2>/dev/null || true) != "$review_date" ]]; then
+    systemctl --user start ledger-daily-review.service
+    [[ $(cat "$daily_stamp") == "$review_date" ]]
+fi
+exec 9>"$runtime/review.lock"
+flock -w 1800 9
+stage=$(mktemp -d "$runtime/review.XXXXXX")
+cleanup() {
+    status=$?
+    if (( status == 0 )); then
+        rm -rf -- "$stage"
+    else
+        printf 'Review failed; retained diagnostics at %s\n' "$stage" >&2
+        if [[ -f "$stage/chat.json" ]]; then
+            { printf 'Exit status: %s.\n' "$status"; cat "$root/prompts/execution/failure.md"; } | python3 "$root/scripts/review_chat.py" "$stage" report || true
+        fi
+    fi
+}
+trap cleanup EXIT
+python3 "$root/scripts/review_workflow.py" prepare "$stage" "$section"
+python3 "$root/scripts/review_chat.py" "$stage" "$section" < "$stage/prompt.txt"
+python3 "$root/scripts/review_workflow.py" finish "$stage" "$section"
+python3 "$root/scripts/review_chat.py" "$stage" report < "$stage/completion-prompt.txt"
+if [[ "$section" == Daily ]]; then
+    printf '%s\n' "$review_date" > "$daily_stamp"
+fi

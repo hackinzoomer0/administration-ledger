@@ -1,0 +1,460 @@
+{
+  "asof": "2026-11-03",
+  "blunder": "Powell probe closed (Apr 24) after a judge found essentially zero evidence (Mar 11); Cook stayed 5-4 (Jun 29); H-1B fee vacated (Jun 8)",
+  "cause": "Doctrine and dependence together: a real theory of presidential power, carried by officials whose posts exist at Trump's pleasure and by voices whose asset is his ear",
+  "did": "Cook referral and firing letter (Aug 2025); Powell subpoenas (Jan 9); Epstein duty declared met (Jan 30); ICE told to hit 3,000 arrests a day (Oct 6); DOJ criminal subpoenas to LA County election workers (Oct 29); letters warning election officials of prosecution (Oct 30); grand jury case on Cassidy Hutchinson (Oct 9); FBI contacts donors of the Alaska spoiler candidate (Oct 30); letter asking Washington to separate 405 mail ballots (Oct 26); election charges against 63 people (Nov 2)",
+  "donors": [
+    [
+      "Bradley Impact Fund",
+      "$27.1M in 2022 (61% of AFL's receipts that year)",
+      "Miller's America First Legal",
+      "Immigration, the Fed, the Epstein files",
+      "A funded legal and staffing arm outside government that drafts and defends enforcement orders (documented grant; purpose my reading)."
+    ],
+    [
+      "DonorsTrust",
+      "About $21.3M in 2024, up from $3.2M in 2023",
+      "Miller's America First Legal; Howell's Oversight Project",
+      "Immigration",
+      "Undisclosed donors fund Miller's legal arm without being named; the same conduit funds groups on the other side of the visa fight (NOTUS)."
+    ],
+    [
+      "GEO Group",
+      "Paid Homan and Venturella before their jobs; $1B+ in ICE contracts; $4.4M to MAGA Inc.; $1.3M to CLF",
+      "Homan, Venturella",
+      "Immigration. No contract steered to GEO shown",
+      "Arrest targets like 3,000 a day need beds; GEO sells the beds and gives to the committees that keep the targets alive."
+    ],
+    [
+      "SOSi and Global Recovery Group",
+      "ICE skip-tracing contracts ($7M, up to $33.5M)",
+      "Prince (named SOSi as a partner in his 2025 plan, claimed)",
+      "Immigration",
+      "Private enforcement contracts are the business case for Prince's privatized deportation pitch (reported link)."
+    ],
+    [
+      "Real America's Voice (Robert Sigg)",
+      "Distribution, not a donation",
+      "Bannon",
+      "All",
+      "Carries War Room since Bannon was deplatformed; the audience is Bannon's asset and the network's draw (reported)."
+    ],
+    [
+      "Robert Shillman",
+      "Not reported",
+      "Loomer",
+      "Immigration, Iran",
+      "Backed Loomer since a 2017 fellowship (New Yorker, Oct 2025, reported); a loyal voice near Trump, no business stake shown."
+    ],
+    [
+      "Pulte family",
+      "$500K to a pro-Trump super PAC",
+      "Pulte",
+      "The Fed. Ambition, not enrichment",
+      "Standing with Trump in the race for senior posts (my reading)."
+    ],
+    [
+      "Qatar",
+      "Ballard billed Qatar $115,000 a month while Bondi was a partner; Patel's firm consulted for its embassy to Nov 2024",
+      "Bondi, Patel",
+      "No Epstein position tied to it",
+      "Past client ties; no decision is tied to them."
+    ]
+  ],
+  "edges": [
+    [
+      "F1 Dissenters and Maximalists",
+      "Feud",
+      "Fed, Epstein, Immigration, Midterms",
+      "Documented: Tillis held Fed nominees until the Powell probe closed (Apr 24); Epstein Act passed 427-1 after Blanche declared the duty met (Jan 30). Immigration and Midterms rest on the issue reports",
+      "Yes, on Fed and Epstein",
+      "Votes bend to tight races (Collins, Hawley)"
+    ],
+    [
+      "F2 Operation and Maximalists",
+      "Feud",
+      "Immigration, Midterms, Epstein",
+      "Reported: Operation keeps a lower profile on raids while ICE is told to return to 3,000 arrests a day (Oct 6); the Oct 15 report on replacing Wiles names Miller and Pulte, denied Oct 16",
+      "Reported only",
+      "Trump decides; Mullin and Hassett act against their own words"
+    ],
+    [
+      "F5 Treasury and Maximalists",
+      "Feud",
+      "Fed, Iran",
+      "Documented: Bessent and Lutnick talked Trump out of firing Powell (Apr 2025) after the Cook referral; Squeeze on Iran against Go Big (Hegseth, Miller, Cooper)",
+      "Yes, on Fed",
+      "Hassett and Navarro act against the Fed line"
+    ],
+    [
+      "A2 Hawks and Maximalists",
+      "Alliance",
+      "Venezuela, Iran",
+      "Reported: Miller in lockstep with Rubio (Oct 2025, anonymous); Miller in the Go Big camp on Iran",
+      "None found",
+      "Hawks want regime change; Maximalists want enforcement"
+    ],
+    [
+      "A3 Pentagon and Maximalists",
+      "Alliance",
+      "Venezuela, Iran",
+      "Hegseth: American companies in there (Jan 3); Hegseth, Miller and Cooper in the Go Big camp",
+      "None found",
+      "Colby's burden-shifting on Ukraine"
+    ]
+  ],
+  "gained": "Venturella at ICE over Mullin's pick (Jun 1); Blanche confirmed 50-49 (Aug 8); the 3,000-a-day order (Oct 6); Supreme Court keeps immigration judges from shelving cases (Oct 27); Fifth Circuit bars bond hearings in three states (Oct 23); search of Rep. Omar's home (Oct 12); the movement's loudest voices now inside the bloc; Miller named next chief of staff Nov 6, effective Nov 9; verify exercised authority",
+  "id": "maximalists",
+  "legal": [
+    [
+      "Noem, Blanche, Bove, Mazzara",
+      "March 2025: more than 100 Venezuelan men were sent to a Salvadoran prison despite a judge’s order. DOJ says Noem alone decided; Blanche and Bove allegedly advised acting DHS counsel Mazzara on the order",
+      "Criminal contempt",
+      "Public record. Judge Boasberg is probing; the full D.C. Circuit heard argument Sep 29 and most judges seemed inclined to let it continue",
+      "Boasberg; a court-appointed prosecutor if DOJ refuses"
+    ],
+    [
+      "Noem, Lewandowski",
+      "DOJ is investigating alleged contract misconduct at DHS under Noem and Lewandowski, including a $220M ad campaign and kickback claims, after a criminal referral from the DHS inspector general; Lewandowski’s lawyer says DOJ has not contacted him and he denies wrongdoing",
+      "Contracting fraud; kickbacks; false statements",
+      "Anonymous (CNN, CBS, WaPo); House Judiciary Democrats want him subpoenaed",
+      "DOJ (Pirro’s office reportedly); DHS inspector general; House Judiciary"
+    ],
+    [
+      "Pulte",
+      "Referred James, Schiff, Cook and Swalwell to DOJ himself instead of through the FHFA inspector general; Swalwell’s Nov 2025 suit alleges he searched databases for targets; James’s indictment was dismissed",
+      "Misuse of confidential records (Privacy Act), abuse of process",
+      "Public record: GAO probe accepted Nov 17, 2025; civil suit",
+      "GAO; House Financial Services; courts"
+    ],
+    [
+      "Blanche, Bondi, Patel",
+      "A watchdog complaint (Democracy Defenders Fund, Feb 2026) says DOJ released only a handful of their Epstein communications; DOJ says it produced 3.5M pages",
+      "Violation of the Epstein Files Transparency Act; obstruction if records were destroyed",
+      "Public record (complaint, audit request to the DOJ inspector general); no finding",
+      "DOJ inspector general; House Judiciary and Oversight"
+    ],
+    [
+      "Homan",
+      "ABC reported an FBI sting that began in 2024 in which he allegedly took a bag with $50,000 and discussed helping obtain government contracts if Trump won; DOJ and the FBI closed it in early 2025, and Patel and Blanche said there was no credible evidence",
+      "Bribery or honest-services fraud; the closure itself could be reviewed",
+      "Reported (ABC, unnamed sources); the White House called it “blatantly political”",
+      "A future DOJ or inspector general; House Oversight"
+    ],
+    [
+      "Patel",
+      "Judiciary Democrats are examining his use of a $60M FBI jet for personal trips, including to see his girlfriend; a whistleblower says jet use delayed FBI responses; he consulted for the Qatar embassy through Trishul until Nov 2024",
+      "Misuse of government property; ethics rules",
+      "Public record (committee letter); whistleblower claim",
+      "House Judiciary; FBI inspector general"
+    ],
+    [
+      "Bondi",
+      "DOJ approved acceptance of the Qatari jet; CREW sued for the memo; Ballard billed Qatar $115,000 a month while she was a partner",
+      "Emoluments and gift rules",
+      "Public record (litigation)",
+      "House Judiciary; courts"
+    ],
+    [
+      "Mullin",
+      "Bought Chevron and Raytheon stock (Dec 29, 2025) days before the Venezuela operation, while on Senate Armed Services; his spokesperson says the firm managing his account made the trades",
+      "STOCK Act; insider trading",
+      "Public record (disclosure); no probe reported",
+      "Senate Ethics; DOJ"
+    ],
+    [
+      "Miller",
+      "Named by Oversight’s expected chair as “top of mind for subpoenas”; no specific crime alleged",
+      "Oversight of immigration enforcement",
+      "Public record (Bloomberg Government)",
+      "House Oversight"
+    ]
+  ],
+  "legalnote": "",
+  "lost": "Bondi (fired Apr 2), Bongino (left Jan), Noem (fired Mar 5), Lewandowski, Lyons (left May 31), Bovino; repeated court losses; NYC sanctuary suit dismissed (Oct 15); appeals court rules the California Guard seizure unlawful (Oct 23); no court has backed the California ballot suit, and the Ninth Circuit rejected segregation (Oct 30); judge orders Maurene Comey reinstated (Oct 26); judge bars DOJ threats and ballot-segregation demands on election officials until Nov 16 (Oct 30); D.C. Circuit denies DOJ a stay on Epstein file review (Oct 28); Alaska Senate suit dismissed (Nov 1); Supreme Court denies the California ballot bid (Nov 2); judge dismisses the Floris-Benavides case as 'weaponization' (Nov 2); grand jury refuses to indict Cassidy Hutchinson (Oct 27); judge rules Los Angeles prosecutor Essayli unlawfully serving (Oct 27, stayed); judge bars appearance-based immigration stops in Los Angeles and six counties (Oct 23, on appeal)",
+  "members": [
+    [
+      "Miller",
+      "Deputy chief of staff; named successor to Wiles from Nov 9",
+      "Immigration, midterm enforcement, Iran hard terms, Venezuela",
+      "Transition announced Nov 6; verify Nov 9 handover",
+      "Posture: the nation is its citizens and borders. Interest: control of who runs enforcement, and a legal arm, America First Legal, funded by Bradley Impact ($27.1M, 2022) and DonorsTrust ($21.3M, 2024)"
+    ],
+    [
+      "Vought",
+      "OMB director",
+      "Spending control, agency cuts, the Fed fight",
+      "7; halted $11B+ in projects, mostly in Democratic-led cities (PBS, Oct 2025)",
+      "Posture: a 'post-constitutional moment' that the president must correct. Interest: OMB's reach over every agency's money; no outside money found"
+    ],
+    [
+      "Blanche",
+      "Attorney general",
+      "Epstein, Fed referrals, election suits",
+      "9; confirmed 50-49 (Aug 8); Alaska and California ballot suits (Oct)",
+      "Posture: law enforcement. Interest: Trump's former personal lawyer whose post exists at Trump's pleasure; closing the Epstein file protects his former client"
+    ],
+    [
+      "Homan",
+      "Border czar",
+      "Immigration",
+      "8; Puerto Rico operation (Oct 22)",
+      "Posture: removals as law. Interest: GEO paid him before his job; GEO holds $1B+ in ICE contracts; a reported FBI sting was closed by agencies his allies run"
+    ],
+    [
+      "Venturella",
+      "Acting ICE director",
+      "Immigration",
+      "8; took ICE over Mullin's pick (Jun 1)",
+      "Posture: enforcement professional. Interest: GEO paid him before his job; detention capacity is the contractor's product"
+    ],
+    [
+      "Bannon",
+      "War Room host (outside)",
+      "Immigration, third term, the Operation's money; backs Trump on Iran with a warning",
+      "7; CPAC: 'have his back... with full information' (Mar 27); demands an audit of MAGA Inc. (Oct 7)",
+      "Posture: the movement's tribune against the war party, Big Tech and the consultants. Interest: his audience on Real America's Voice and a possible 2028 run (Axios, Jan 10); both need Trump's blessing"
+    ],
+    [
+      "Pulte",
+      "FHFA director",
+      "Fed (Cook referral), referrals of Trump opponents",
+      "8; named for Wiles's job (Politico, Oct 15, anonymous)",
+      "Posture: mortgage-fraud cop. Interest: each referral is an audition for a bigger post; GAO probe and Swalwell suit make Trump his shield"
+    ],
+    [
+      "Patel",
+      "FBI director",
+      "Epstein, election cases",
+      "7; announced the Lucas charges with Blanche (Oct 22)",
+      "Posture: cleaning up a weaponized FBI. Interest: job at Trump's pleasure; consulted for the Qatar embassy until Nov 2024"
+    ],
+    [
+      "Loomer",
+      "Activist (outside); Loomer Unleashed",
+      "Loyalty purges, immigration, backs the Iran war",
+      "7; called war critics a 'foreign influence operation' (Mar 3); pitched herself for DHS (Aug 1)",
+      "Posture: Trump's loyalty enforcer. Interest: access to Trump is her only asset; backed by Robert Shillman since 2017 (reported)"
+    ],
+    [
+      "Bovino",
+      "Former Border Patrol commander",
+      "Immigration enforcement",
+      "7; urges far larger removals and Mullin and Homan out (stored, undated)",
+      "Posture: a commander told to stand down. Interest: a post back inside the deportation machine"
+    ],
+    [
+      "Howell",
+      "President, Oversight Project (Heritage)",
+      "Immigration targets, probes of opponents",
+      "6; 'Phase 2' coalition push for 1M removals a year (Axios, Apr 13)",
+      "Posture: watchdog of the left. Interest: a DonorsTrust-funded pressure group whose relevance is the fight"
+    ],
+    [
+      "Morgan",
+      "Former CBP head",
+      "Immigration enforcement",
+      "6; same 'Phase 2' coalition (Apr 13)",
+      "Posture: enforcement veteran. Interest: return to office; Heritage-led coalition member (no money tie found)"
+    ],
+    [
+      "Navarro",
+      "Senior trade adviser",
+      "Tariffs, attacks on the Fed",
+      "6; opposed Mexico cuts (Oct 15)",
+      "Posture: protectionism as national strength. Interest: standing with Trump on his signature issue; no donor shown"
+    ],
+    [
+      "Pirro",
+      "US attorney, D.C.",
+      "Powell subpoenas",
+      "6; Powell probe closed (Apr 24)",
+      "Posture: prosecutor. Interest: post at Trump's pleasure"
+    ],
+    [
+      "Scavino",
+      "Deputy chief of staff",
+      "Fed message",
+      "5",
+      "Interest: post at Trump's pleasure"
+    ],
+    [
+      "Mullin",
+      "DHS secretary",
+      "Election enforcement, immigration",
+      "4; polling-place warrants (Jul 17), then retreat (Jul 30); lost two ICE picks",
+      "Posture: hard line. Interest: keeping the job after losing ICE to Miller and Homan; Bannon and Loomer want him out"
+    ],
+    [
+      "Hassett",
+      "NEC director",
+      "Fed (cut before Nov 3)",
+      "4; says the Fed is independent while pushing a cut",
+      "Interest: Fed-chair candidacy; acts for Trump's midterm message more than the program"
+    ],
+    [
+      "Prince",
+      "Contractor (outside)",
+      "Privatized deportation; dissents on Iran",
+      "3; $25B private deportation pitch, not adopted (Politico, as carried); called the strikes not 'in America's interests' (Mar 1)",
+      "Posture: restraint abroad, force at home. Interest: contracts for ground security and removals; air-only war offers him none"
+    ],
+    [
+      "Bondi",
+      "Former attorney general",
+      "Epstein",
+      "3; fired Apr 2, outside",
+      "Interest: Qatar-linked work history at Ballard; no current post"
+    ]
+  ],
+  "name": "Maximalists",
+  "overview": [
+    "In its own best terms, the Maximalist program is popular sovereignty run through one elected man. The nation is its citizens and its borders; an election hands the president the whole executive; and the permanent government (independent agencies, career prosecutors, a Fed that sets money without answering to anyone, judges who stall removals) is an unelected usurpation to be broken. From that follow the acts: mass deportation (3,000 ICE arrests a day, Oct 6), prosecution of those they see as having weaponized the state against Trump, budget control that starves hostile agencies (Vought's $11B+ in halted projects, Oct 2025), a Fed Board that answers to the president, tariffs as economic sovereignty, and election enforcement as defense of a citizens-only vote. Vought calls it a 'post-constitutional moment' to be corrected; Bannon calls it deconstructing the administrative state; Miller frames it as the nation choosing who belongs. Abroad the doctrine is power, not restraint: Iran must give up its program first, Venezuela is a criminal state.",
+    "The interest layer keeps the program running. Most members hold posts that exist at Trump's pleasure (Blanche was his personal lawyer; Patel, Pirro, Pulte), so maximal loyalty is also job security, and each prosecution or referral doubles as an audition for the next post up (Miller and Pulte were floated for Wiles's job, Oct 15). Outside government, a funded pipeline carries the doctrine: Bradley Impact ($27.1M, 2022) and DonorsTrust ($21.3M, 2024) fund Miller's America First Legal; DonorsTrust also funds Howell's Oversight Project. Detention contractors profit from the targets: GEO paid Homan and Venturella before their jobs and gave $4.4M to MAGA Inc. The movement voices now counted here sell the same program to an audience: Bannon's War Room and a possible 2028 run, Loomer's access to Trump, Prince's bid for a privatized removal business.",
+    "Acts depart from words in three places. First, 'America First' restraint gives way to loyalty when Trump goes to war: Bannon warned the Iran war could break MAGA and still told CPAC 'people have to have his back' (Mar 27); Loomer branded critics a 'foreign influence operation' (Mar 3); only Prince, whose trade is ground work, dissents. Second, the doctrine of total presidential power bends to the president's own retreats: Trump pulled arrest decisions back to career officials in spring and said Miller 'sometimes goes too far' (Atlantic, May 11), and the faction regained ground only when Trump turned again (Jun 1, Oct 6). Third, the courts: Cook stayed 5-4, the Powell probe closed, both ballot suits lost by Nov 2, and a grand jury refused to indict Cassidy Hutchinson (Oct 27).",
+    "Precedent (my reading): A. Mitchell Palmer's 1919-20 raids. An attorney general seeking the presidency used deportation and sedition cases against a 'Red' threat, until Labor's Louis Post cancelled most warrants, a federal court (Colyer v. Skeffington) condemned the methods, and his predicted May Day uprising never came; the drive collapsed with his 1920 bid. It breaks here: Palmer acted alone and against his ailing president's indifference, while the Maximalists hold several agencies at once, have a funded legal arm outside government, and act on the president's own orders, so their limit is Trump's mood and the courts, not a rival cabinet officer."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "Hassett floated FDA-style review (May), then followed the narrower Jun 2 order. Bannon attacks the labs and urges the White House to confront Big Tech (Axios, Jan 10).",
+          "Why the faction does it. The faction is split: its doctrine distrusts concentrated corporate power over citizens, but its officials follow Trump, who sides with the Tech-Right.",
+          "Who and why.",
+          "Hassett Posture: review, then no review. Interest: the Fed-chair race; he stays on Trump's side.",
+          "Bannon Posture: populist skepticism of the labs. Interest: an issue to run on against Sacks and Vance's patrons (my reading).",
+          "Say versus do. The faction has no AI act; the Jun 2 order is the Operation's and Treasury's.",
+          "Stance audit. Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs. The proposal and final policy differ. The position record attributes the final approach to the Operation and Treasury. Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift. A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "Jan 30: declared the duty met. Apr 2: the files “should not be a part of anything going forward.”",
+          "The declaration set off the 427-1 Epstein Act (reported).",
+          "Why the faction does it. Close the case to protect Trump.",
+          "Who and why.",
+          "Blanche declared the duty met. He also interviewed Maxwell for nine hours in July 2025. Motives: (1) Client protection: he was Trump’s personal lawyer, and the Epstein story hurts his former client. (2) Self-protection: his post depends on Trump (my reading).",
+          "Patel, Bondi Motives: Both have Qatar money ties. Patel consulted for the Qatar embassy through his firm Trishul as late as Nov 2024, his one-year recusal ended Nov 2025, and he signed two MOUs with Qatar’s interior minister in Doha in Dec 2025 (Jewish Insider). Ballard billed Qatar $115,000 a month while Bondi was a partner. No Epstein position is tied to the Qatar money; it affects Qatar policy, not Epstein."
+        ],
+        "title": "Epstein"
+      }
+    ],
+    "FED": [
+      {
+        "paras": [
+          "Position.",
+          "Aug 20, 2025: Pulte’s Cook referral. Aug 25: the dismissal letter. Jan 9: Powell subpoenas. Oct 9: the Cook committee.",
+          "Oct 4: “economy booming.” Sep 17: the hike was a mistake. The message camp wants a cut before Nov 3.",
+          "Courts held: Cook stays 5-4, and the Powell probe closed Apr 24.",
+          "Why the faction does it. Put the Board under the president so it cuts and his picks govern. The enforcers acted; the message camp only talked.",
+          "Who and why.",
+          "Pulte referred James, Schiff, Cook and Swalwell to DOJ himself instead of through the FHFA inspector general. James was indicted, then the case was dismissed. GAO accepted a probe on Nov 17, 2025, and Swalwell’s Nov 25 suit alleges he searched databases for targets. Motives: (1) Ambition: he is reported as a candidate for Wiles’s job, and each referral is an audition for the next post (reported). (2) Protection: senators say he is reportedly in contact with Trump about targets, so he is acting for the one person who can shield him from the GAO probe and the suit (my reading). (3) His family’s $500K to a pro-Trump super PAC shows no personal gain.",
+          "Blanche executed the referrals and subpoenas. Motives: (1) Dependence: he was Trump’s personal lawyer and now runs DOJ as acting AG, so his job rests on Trump. (2) Ambition: confirmation as AG is the prize (my reading). Pirro, Scavino and Vought: no personal stake found; they executed orders.",
+          "Hassett says the Fed is independent while pushing a cut before Nov 3. Motives: (1) Ambition: he is the Fed-chair front-runner, so he says what Trump wants. (2) Trump told him on Jan 16 “I actually want to keep you where you are,” and Tillis vowed to block any Fed nominee until the Powell probe ends. Hassett is also harder to confirm because he is close to the president. His public line is built for Trump, not the Senate.",
+          "Navarro attacks the 12-0 hike in public; no act of his moved a rate. Motives: Signaling to Trump and the base. No personal stake found."
+        ],
+        "title": "Fed and the economy"
+      }
+    ],
+    "IMM": [
+      {
+        "paras": [
+          "Position.",
+          "Oct 6: ICE told to return to 3,000 arrests a day. Jun 1 and Sep 17: Venturella beat Mullin's picks for ICE. Oct 23 and 27: Fifth Circuit bond ruling and Supreme Court closure order won; NYC and Guard rulings lost.",
+          "Why the faction does it. The doctrine: the nation decides who belongs, and removal is the proof the state obeys the voters. The interest: control of the enforcement apparatus, a funded legal arm and contractors whose beds the targets fill (documented fit, no causation shown).",
+          "Who and why.",
+          "Miller Posture: fewer admissions at every level. Interest: who runs ICE; America First Legal funded by Bradley Impact ($27.1M, 2022) and DonorsTrust ($21.3M, 2024). In spring Trump moved arrest calls back to career officials (Atlantic, May 11); Miller won them back by October.",
+          "Homan, Venturella Posture: enforcement professionals. Interest: GEO paid both before their jobs and holds $1B+ in ICE contracts; no contract steered to GEO is shown.",
+          "Bannon, Bovino, Howell, Morgan Posture: the base's demand for 1M+ removals a year ('Phase 2', Apr 13). Interest: Bannon's audience and leverage over Mullin; the others want posts back or a fight that keeps their groups funded (my reading).",
+          "Loomer Posture: fire Mullin, ICE as a paramilitary force. Interest: purges are her product; she pitched herself for DHS (Aug 1). Mullin is still in office.",
+          "Prince Posture: privatize it. Interest: a $25B private removal plan with camps and 100 aircraft (Politico, as carried); the government showed 'zero' interest.",
+          "Say versus do. The arrest orders, court filings and the ICE pick are acts; the 1M-a-year and 100M-removal demands are words."
+        ],
+        "title": "Immigration"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Mid-Jul: Iran must give up its nuclear ambitions first. Miller sits in the Go Big camp with Hegseth and Cooper.",
+          "Why the faction does it. The program is sovereignty through strength, not restraint; Iran is a test of whether the US imposes terms. Interest: loyalty to Trump's war binds the officials, and the movement voices keep access by backing it while hosting its critics (my reading).",
+          "Who and why.",
+          "Miller Posture: 'hellish price'. Interest: the Pentagon alliance that backs him on the border. No financial stake found.",
+          "Bannon Posture: warns of ground troops on Kharg Island and a party that will 'bleed support', yet 'people have to have his back... with full information' (CPAC, Mar 27). Interest: a broker who never breaks with Trump keeps his access and his possible run; airing the doubters keeps the audience.",
+          "Loomer Posture: pro-war; critics are a 'foreign influence operation' (Mar 3). Interest: access to Trump, and a weapon against rivals for the same audience (Carlson, Greene).",
+          "Prince dissents: the strikes were not 'in America's interests' (Mar 1). Interest: air-only war offers no ground contract; his dissent fits his trade (my reading). He stays here because his business interest is domestic enforcement.",
+          "Say versus do. Miller's place in the Go Big camp is reported; no Maximalist has acted against the war."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Voter-fraud surge from Sep 1 (63 charged Nov 2); DOJ sued California (Oct 15) and Alaska (dismissed Nov 1, appeal filed); the Ninth Circuit (Oct 30) and the Supreme Court (Nov 2) rejected ballot segregation; a TRO bars DOJ threats to officials until Nov 16.",
+          "Why the faction does it. The doctrine: only citizens vote, and an executive that does not police the vote has surrendered it. The interest: each enforcement act is an audition for a bigger post, and Bannon's attacks on the Operation's money serve his own lane.",
+          "Who and why.",
+          "Miller, Pulte Posture: protect the vote. Interest: both were floated for Wiles's job (Politico, Oct 15, anonymous; Trump denied it).",
+          "Blanche files the suits. Interest: dependence on Trump, now confirmed AG.",
+          "Bannon Posture: the consultants are 'grifters'; 'a forensic audit of where the money went' (Oct 7). Interest: the Operation sells proximity to Trump, and his camp gains if it is weakened; no audit reported.",
+          "Mullin Posture: warrants at polls (Jul 17), then not planned (Jul 30). Interest: keeping a job his rivals want.",
+          "Say versus do. The suits and charges are acts; every court through the Supreme Court has refused the ballot demands so far."
+        ],
+        "title": "Midterms"
+      }
+    ],
+    "SUC": [
+      {
+        "paras": [
+          "Position.",
+          "Bannon is 'working on' a third Trump term and calls Vance 'not tough enough'; allies say he is preparing his own run (Axios, Jan 10, 2026; he denies it). Miller and Pulte were floated for Wiles's job (Oct 15).",
+          "Why the faction does it. The program needs a president who will keep using the whole executive; a conventional heir would hand power back to the agencies. The interest: a third term or a hard-line heir keeps their posts and leverage, and a Vance succession routes power through Thiel's circle instead (my reading).",
+          "Who and why.",
+          "Bannon Posture: Trump again, despite the 22nd Amendment. Interest: the talk feeds his show and keeps any heir dependent on his audience; a PAC for midterm races was discussed (no amounts found).",
+          "Miller Posture: no stated pick. Interest: his power rests on Trump personally; a successor may not keep him.",
+          "Say versus do. Third-term talk is a statement; Bannon's groundwork is reported, not documented.",
+          "Nov 7 nominee/faction consistency review: Miller’s announced promotion makes the earlier floated-name paragraph stale. Broader access could affect succession bargaining, but does not establish support for Vance, Rubio, Cruz, DeSantis or McEntee. McEntee’s historical personnel role is relevant to the nominee comparison without adding him as a current faction member. Evidence: mid-2026-11-06-miller-chief-staff; Heritage May 2, 2023 announcement (nominee source project2025)."
+        ],
+        "title": "Succession"
+      }
+    ],
+    "TAR": [
+      {
+        "paras": [
+          "Position.",
+          "50% on metals and 25% on autos; opposed cuts for Mexico (Oct 15); new Section 232 sectors opened (wind Oct 22, robotics Oct 28).",
+          "Why the faction does it. Tariffs are economic sovereignty: the nation makes its own goods and the president sets trade by proclamation, not Congress. This is the one issue where words and acts agree.",
+          "Who and why.",
+          "Navarro Posture: protectionism as strength. Interest: standing with Trump on his signature issue; no donor shown.",
+          "Bannon Posture: the same line on air. Interest: tariffs are a wedge against Wall Street and the Tech-Right, his rivals for Trump's ear (my reading).",
+          "Say versus do. The proclamations are acts."
+        ],
+        "title": "Tariffs"
+      }
+    ],
+    "VEN": [
+      {
+        "paras": [
+          "Position.",
+          "Joined Rubio’s line in summer 2025; “in lockstep” by October (anonymous).",
+          "Why the faction does it. The hawks want regime change and the Maximalists want enforcement power; pressure on Venezuela serves both (A2).",
+          "Who and why.",
+          "Miller Motives: (1) Alliance: backing Rubio buys Rubio’s support when Miller fights for immigration power. (2) Positioning: he stays on the winning side of a foreign-policy line (my reading). No financial stake found."
+        ],
+        "title": "Venezuela"
+      }
+    ]
+  },
+  "short": "Maximalists",
+  "wants": "Expand presidential control over appointments and enforcement, especially immigration. Track distinct objectives for election rules, tariffs, DOJ and the Fed by actor and decision.",
+  "weak": "Courts keep ruling against them (Cook 5-4; both ballot suits lost by Nov 2; Hutchinson not indicted, Oct 27); power depends on Trump's mood (he pulled arrest calls back in spring, Atlantic, May 11); outside voices compete with each other for his ear",
+  "why": "Loyalty, ideology, and control of the agencies reinforce one another. Bradley Impact Fund and DonorsTrust support legal infrastructure associated with America First Legal. GEO's political giving, prior compensation to officials recorded in the ledger, and financial interest in detention demand create separate incentives to track alongside enforcement decisions.",
+  "win": "Miller regained control of enforcement after a spring setback: Venturella over Mullin's pick (Jun 1), ICE ordered to 3,000 arrests a day (Oct 6)"
+}

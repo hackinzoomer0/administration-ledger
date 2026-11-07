@@ -1,0 +1,140 @@
+{
+  "asof": "2026-11-03",
+  "items": [
+    {
+      "caveat": "Coalition math unsettled; Likud's fraud claim cites no evidence and Qatar denies it; the Netanyahu-Trump call is one outlet (Axios).",
+      "date": "2026-11-02",
+      "id": "israel-election-2026-10-27",
+      "implication": "The administration's main Israeli partner stays in office through coalition talks and is pressing Trump to strike Iran right after the midterms, so the joint strike option is intact (my reading).",
+      "issues": [
+        "IRN"
+      ],
+      "source": "Times of Israel, Jerusalem Post, Anadolu; Al Jazeera (Nov 2); Axios (Nov 2)",
+      "status": "open",
+      "text": "Israel election: Likud bloc 53, Eisenkot's 48 of 120; election committee head says results stand despite Likud's claim Qatari-funded Arab parties stole it; certification this week."
+    },
+    {
+      "caveat": "No reported refusal of basing or overflight. The pact has no tested enforcement, Turkey says no troops will leave, Iran questioned Pakistan's neutrality (Oct 9), no agreement announced, Turkey has not finished ratifying.",
+      "date": "2026-10-26",
+      "id": "mecca-pact-2026-10",
+      "implication": "The US is losing regional influence and the regional support a further strike on Iran would need: partners are hedging and treating Iran as a counterpart (my reading).",
+      "issues": [
+        "IRN"
+      ],
+      "source": "Euronews, Jerusalem Post, Iran International, Washington Post",
+      "status": "open",
+      "text": "Saudi Arabia, Turkey and Pakistan, bound by the Mecca defence pact (Aug 7, activated Oct 5), sent senior officials to Tehran Oct 26 to try to head off renewed war."
+    },
+    {
+      "caveat": "Claims come from the parties; no US combat role reported, though an American died in the Oct 10 Riyadh airport attack and Trump said Oct 14 the US 'may' join; Egypt says deployment is defensive.",
+      "date": "2026-10-27",
+      "id": "houthi-saudi-egypt-2026-10",
+      "implication": "The Gulf war is widening around a Saudi front the US is not leading, which adds oil-price risk and ties down partners the administration would need for a new strike (my reading).",
+      "issues": [
+        "IRN"
+      ],
+      "source": "CBS News live blog, Reuters via Internazionale",
+      "status": "open",
+      "text": "Houthi attacks on Saudi Arabia escalate (Ras Tanura strike claimed) and Egypt's parliament authorizes troops to Saudi Arabia; Brent is about $113."
+    },
+    {
+      "caveat": "Preliminary results; no direct Trump comment found; the vote only started a path, not independence.",
+      "date": "2026-10-19",
+      "id": "alberta-referendum-2026-10-19",
+      "implication": "Canadian unity holds, so the administration gains no new leverage in the Canada trade fight, though Treasury is signaling it will court Alberta (my reading).",
+      "issues": [
+        "TAR"
+      ],
+      "source": "Al Jazeera, NPR",
+      "status": "settled",
+      "text": "Alberta voters reject starting a separation process, about 76% to 24% on 1.8 million counted; Bessent calls Alberta Washington's natural partner."
+    },
+    {
+      "caveat": "Trump's fraud claim is unsupported in my sources; the annulment bid is pending; no US statement on the visas found.",
+      "date": "2026-10-25",
+      "id": "brazil-election-2026-10-25",
+      "implication": "Brazil keeps a government Trump did not back and the White House uses the result to prime fraud claims at home (my reading).",
+      "issues": [
+        "TAR",
+        "MID"
+      ],
+      "source": "Just Security Early Edition; AP via Live5",
+      "status": "open",
+      "text": "Lula wins Brazil's runoff with 51.79%; Flavio Bolsonaro has not conceded and flew to Miami Oct 28 on US-approved visas; Trump calls the vote rigged."
+    },
+    {
+      "caveat": "One outlet; no US reaction read; the ceasefire's terms were never published.",
+      "date": "2026-10-14",
+      "id": "rus-energy-ceasefire-breach-2026-10-14",
+      "implication": "The envoys' energy ceasefire failed within days, yet Trump waived the sanctions law two days later, so the deal track kept control (my reading).",
+      "issues": [
+        "RUS"
+      ],
+      "source": "ABC News (Good Morning America)",
+      "status": "open",
+      "text": "Russia hits 26 Ukrainian power and 4 oil and gas sites covered by Trump's announced energy ceasefire; about 600,000 lose power."
+    },
+    {
+      "caveat": "One outlet; Kyiv and the White House have not confirmed; Ukraine hit a St Petersburg oil terminal Oct 18.",
+      "date": "2026-10-29",
+      "id": "ukraine-refinery-pause-2026-10",
+      "implication": "Washington has taken away Ukraine's main lever on Russian oil before Nov 3 without a Russian concession (my reading).",
+      "issues": [
+        "RUS"
+      ],
+      "source": "WSJ via Kyiv Post",
+      "status": "open",
+      "text": "WSJ: Ukraine informally paused new refinery strikes from mid-October under US pressure; Kushner asked for a 30-day halt; Kyiv got nothing in return."
+    },
+    {
+      "caveat": "Outbreak scale and citizen exemptions not detailed in the source read; single trade outlet.",
+      "date": "2026-10-26",
+      "id": "congo-ebola-2026-10",
+      "implication": "The administration adds a health-based entry bar to its border tools at low political cost (my reading).",
+      "issues": [
+        "IMM"
+      ],
+      "source": "InsideFlyer",
+      "status": "open",
+      "text": "An Ebola outbreak in DR Congo leads CDC to bar most travelers present there in the prior 21 days from boarding US-bound flights, Nov 3 to Dec 18."
+    },
+    {
+      "caveat": "A proposal only; final scope and enforcement unknown; one outlet read.",
+      "date": "2026-10-16",
+      "id": "china-ai-export-controls-2026-10",
+      "implication": "Beijing now treats frontier models as controlled strategic goods, which strengthens the China hawks against chip sales and gives China a chip of its own before the Jan 10 truce end (my reading).",
+      "issues": [
+        "AI",
+        "TAR"
+      ],
+      "source": "The Edge Malaysia",
+      "status": "open",
+      "text": "China proposes export controls on 23 AI technologies, including weights and code for the largest or top-10 models; comments due Nov 15."
+    },
+    {
+      "caveat": "Advance estimate, revisable; September CPI was 3.7%, so inflation signals conflict.",
+      "date": "2026-10-29",
+      "id": "q3-gdp-2026-10-29",
+      "implication": "Strong growth with cooler quarterly inflation weakens the case for a December hike and gives the White House a pre-election talking point (my reading).",
+      "issues": [
+        "FED"
+      ],
+      "source": "BEA",
+      "status": "open",
+      "text": "Q3 GDP grew 3.4% annualized in the advance estimate; PCE prices 2.1%, core 2.5%."
+    },
+    {
+      "caveat": "From newsletter summaries of Reuters; effective date, legal step and the reason for South Africa not seen.",
+      "date": "2026-11-02",
+      "id": "agoa-suspension-2026-11-02",
+      "implication": "The US trades economic ties in Africa for leverage over two governments, at little cost to itself but with a risk both tilt toward China (my reading).",
+      "issues": [
+        "TAR"
+      ],
+      "source": "Reuters; Semafor Flagship (Nov 3)",
+      "status": "open",
+      "text": "USTR moves to suspend South Africa and Rwanda from AGOA duty-free access; South African auto parts and wine and Rwandan coffee would lose preferences."
+    }
+  ],
+  "note": "Outside developments that bear on an issue. Each says what happened, the immediate implication for the administration (my reading), and a caution. Items are reversible and get marked settled when the situation resolves."
+}

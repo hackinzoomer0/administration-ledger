@@ -1,0 +1,55 @@
+{
+  "added": 8,
+  "summary": "Reviewed October 30 through November 5 and added eight source-linked developments. Chamber-control projection remains the clearest scored faction outcome.",
+  "coverage": {
+    "scope": "Targeted review across the ten tracked issues, focusing on gaps after Election Day. Earlier entries were checked for overlap, with source verification concentrated on the new items.",
+    "events": [
+      "mid-2026-11-04-johnson-leadership",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "fed-2026-11-05-ap-voter-poll-costs",
+      "imm-2026-11-05-iran-deportation-coordination",
+      "rus-2026-11-05-diesel-shipments-diverted",
+      "rus-2026-11-05-oleshky-white-house-followup",
+      "eps-2026-11-05-disclosure-oversight-push",
+      "ai-2026-11-04-ai-stock-selloff"
+    ],
+    "open": [
+      "Outstanding race calls and certification",
+      "Cook hearing outcome and revised date",
+      "Iran military decision after election",
+      "Diesel deliveries",
+      "Epstein oversight actions"
+    ],
+    "validation": "0 errors, 3 warnings"
+  },
+  "faction_review": {
+    "legacy_weighted_tags": {
+      "pentagon": 10,
+      "vance": 3,
+      "party": -1,
+      "hawks": -6,
+      "operation": -7,
+      "maximalists": -10
+    },
+    "interpretation": "Party Machine and Operation lost their bid to retain congressional majorities. Maximalists encountered court setbacks in specific enforcement cases. Pentagon tags reflect execution, reported messaging, and a possible sale. Vance gained an opening to argue for restraint after the election. The reviewed evidence leaves changes in his nomination standing and war policy unresolved.",
+    "post_election_rivalries": [
+      {
+        "event_id": "irn-2026-11-04-vance-postelection-war-critique",
+        "assessment": "My reading: Vance’s public break after the election is a credible 2028 positioning move. It lets him appeal to voters alienated by the war and distinguish himself from its architects. The move gives him a clearer electoral argument. Changes in voter support, endorsements and war policy remain unresolved."
+      },
+      {
+        "event_id": "mid-2026-11-05-wiles-hegseth-blame",
+        "assessment": "My reading: shifting the explanation from campaign management to the war helps protect the Operation and puts pressure on Hegseth. The reporting leaves the outcome of the personnel contest open.",
+        "corroborating_context": "https://www.cbsnews.com/news/trump-hegseth-midterm-election-losses/"
+      }
+    ]
+  },
+  "workflow_followup": {
+    "collection_gap": "Chamber result and leadership reporting did not trigger a focused search for factional blame and counter-moves.",
+    "analysis_gap": "Vance’s public shift was recorded, but the review deferred his immediate electoral positioning gain because voter support was unmeasured.",
+    "regression_cases": [
+      "Vance: record the 2028 voter-facing play and its strategic value separately from later polling or endorsements.",
+      "Wiles: find and attribute the reported effort to direct blame at Hegseth, record its protective function for the Operation, and track the personnel outcome separately."
+    ]
+  }
+}

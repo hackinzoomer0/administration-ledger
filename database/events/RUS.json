@@ -1,0 +1,1544 @@
+{
+  "issue": "RUS",
+  "items": [
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Lukoil must sell its foreign assets; the sale becomes a bargaining chip (Treasury statement; Reuters via Moscow Times)",
+      "date": "2025-10",
+      "fx": {
+        "hawks": 1,
+        "treasury": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "rus-2025-10-69efa6",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2025-10-6961fe",
+          "kind": "chron",
+          "source": "",
+          "text": "Treasury sanctions Rosneft and Lukoil",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Russia",
+      "precision": "month",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "",
+      "text": "Treasury sanctions Rosneft and Lukoil",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Frozen assets become a US negotiating asset; Europe objects (Euronews)",
+      "date": "2025-11",
+      "fx": {
+        "deal-capital": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "rus-2025-11-66988c",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "origin": "Russia",
+      "precision": "month",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Witkoff-Dmitriev plan puts frozen Russian assets into a US-led fund with a 50% US profit share",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Witkoff, Dmitriev",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "",
+      "date": "2025-11",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2025-11-78646c",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "month",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "28-point plan with a frozen-asset fund",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Lukoil",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-01-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-01-29-fae980",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Lukoil signs a non-exclusive sale deal with Carlyle",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "The Russia channel becomes two businessmen (profile)",
+      "date": "2026-02-19",
+      "fx": {
+        "deal-capital": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "rus-2026-02-19-a95426",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2026-02-19-572016",
+          "kind": "chron",
+          "source": "",
+          "text": "Kushner named envoy",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Kushner named envoy beside Witkoff",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Restrainers",
+      "added": "2026-10-28",
+      "by": [
+        "vance",
+        "pentagon"
+      ],
+      "context": "",
+      "date": "2026-04-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-04-14-c3b309",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance and Colby set the burden-shifting line",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Coalition",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-07-d1086b",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "month",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Senator Graham dies; the bill is renamed for him",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Coalition",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-08-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-08-07-1940f3",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Senate 86-11, House 262-159 pass the sanctions bill",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Witkoff's spokeswoman: no conflict, no financial stake",
+      "date": "2026-09-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-09-05-074d67",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Moscow Times/Reuters; Daily Beast",
+      "text": "Witkoff and Kushner meet Putin; Putin raises the Lukoil sale",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Dealmakers",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "",
+      "date": "2026-09-05",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-09-05-ef4373",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Witkoff and Kushner at the Kremlin, then in Kyiv",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Oct 16 order calls the waiver \"in the national interests\"",
+      "date": "2026-09-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-09-18-b58c1a",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2026-09-18-f9c81e",
+          "kind": "chron",
+          "source": "",
+          "text": "Trump signs the Graham Sanctioning Russia and Iran Act",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Newsweek; Al-Monitor/Reuters",
+      "text": "Trump signs the Graham sanctions law",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Congress's sanctions tool is neutralized for now",
+      "date": "2026-09-18",
+      "fx": {
+        "deal-capital": 1,
+        "dissenters": -1,
+        "hawks": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "rus-2026-09-18-20b3ff",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Graham law signed, then waived",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Boehly group",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-09-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-09-22-068674",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "FT reports the Boehly bid backed by the DFC and Gulf investors",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "Press",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-03-4ad3ef",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "New York Times links Lukoil sale to the talks",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Trump: lower prices are his \"Greatest Priority\"; Energy Secretary Wright calls it an incentive for an energy ceasefire",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-09-1a0d78",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "ABC30/AP; The National",
+      "text": "Diesel deal and OFAC General License 135",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Trump denies halting intelligence (Oct 13); Rubio says \"no pause\" (Oct 19)",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-09-90fffc",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Pravda/Axios; Pravda/FT; Al Jazeera",
+      "text": "US officials call Kyiv and Europe: end refinery strikes or lose intelligence and PURL",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Pressure shifts from Moscow to Kyiv, driven by fuel prices before November 3 (my inference; Axios supports the sequence)",
+      "date": "2026-10-09",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "rus-2026-10-09-6e8d2a",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Diesel deal, then threats over refinery strikes, then the Starshield cap",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump, Dealmakers, Pentagon officials",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "",
+      "date": "2026-10-09",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-09-6360d7",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Diesel deal; Miami talks; threats to intelligence and PURL; \"energy ceasefire\" announced Oct 11",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Zelensky: elections only after a 60-day full ceasefire",
+      "date": "2026-10-10",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-10-c5b896",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Pravda",
+      "text": "Trump says Ukraine should get a new president",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Musk: military and president decide; Rubio: \"categorically false\" that the White House ordered it; Hegseth: no directives; Trump: not him",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-13-fa8103",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2026-10-13-287041",
+          "kind": "chron",
+          "source": "",
+          "text": "Starshield speed cap hits Ukrainian drones; CREW sues over Kushner's role",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CBS; Kyiv Post",
+      "text": "Starshield speed cap hits Ukrainian drones",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Tillis: \"What part of enforcing a law passed 86-11\" is unclear",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-16-45d511",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Al Jazeera",
+      "text": "Trump signs an order waiving the Graham law's tariffs and sanctions",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump, Kyiv",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "",
+      "date": "2026-10-16",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-16-243b7b",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump waives the Graham law's penalties; Zelensky resumes refinery strikes",
+      "tier": "carried",
+      "weight": 2
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Hegseth Oct 20: press reports are not true",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "No fx: the hold was denied and was followed by the Oct 31 approval of a $2.1B Patriot sale, so the net effect on any faction is unclear.",
+      "id": "rus-2026-10-19-ba15b8",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2026-10-19-1e051c",
+          "kind": "chron",
+          "source": "",
+          "text": "Hegseth holds a Patriot transfer, then denies it; Trump tells Kyiv he does not care how a deal is done",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Hegseth's reported hold on part of a Patriot transfer gave the Pentagon a pressure lever on Kyiv while Trump kept his distance; Hegseth denied it. Evidence: the Post via SBS; United24. Counter-reading: a routine stock review. Falsifier: deliveries released with no Ukraine concession.",
+      "source": "SBS/WaPo; United24",
+      "text": "Hegseth's sign-off on part of a Patriot transfer held, per the Post",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Musk, Rubio, Hegseth, Trump, Congress",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right",
+        "hawks",
+        "pentagon"
+      ],
+      "context": "Oct 16: Sens. Jeanne Shaheen and Jack Reed led a bipartisan request asking the Pentagon inspector general whether the administration or SpaceX caused the Starshield limits; the inspector general declined on Oct 28. Oct 21 (CNBC, Al Jazeera): Trump calls Musk to lift the cap, per the Journal; Oct 22 Trump: 'I don't want to comment'; 'he put it back'.",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "No fx: Tech-Right's gain from the same days is scored on rus-2026-10-21-ff597c; scoring it here would double count.",
+      "id": "rus-2026-10-20-65f0ca",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Trump Oct 22: \"I don't want to comment\"; \"he put it back\"",
+          "id": "rus-2026-10-21-6e9f4f",
+          "kind": "act",
+          "source": "CNBC; Al Jazeera",
+          "text": "Trump calls Musk to lift the cap, per the Journal",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the White House can turn the Starshield cap on and off through Musk, which raises Musk's leverage on the Russia track; reported by the Journal, not confirmed by Trump. Counter-reading: a commercial decision. Falsifier: SpaceX shows a technical cause.",
+      "source": "Jalopnik, TBS, RFE/RL, The Hill; Boston Globe (NYT); Al Jazeera",
+      "text": "Journal reports Musk ordered the Starshield cap; Hegseth and Rubio call it a commercial matter for Musk; Trump says he was not involved, then reportedly calls Musk to lift it; senators and House members ask for investigations (Jalopnik, TBS, RFE/RL, The Hill)",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Witkoff calls Putin a humanitarian; Vance backs him",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-21-953d13",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "CBS; Kurs",
+      "text": "Witkoff meets Putin in St. Petersburg; American Hubbard freed",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Same Witkoff denial of any stake. Kremlin spokesman Peskov (TASS, Oct 21) calls the Lukoil asset talks commercial and says the license 'can be renewed without any difficulty'.",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "No fx: the extension only holds the sale open with no buyer approved; re-score when OFAC approves a buyer or lets the license lapse Nov 21.",
+      "id": "rus-2026-10-21-02021f",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "NET EFFECT: the license keeps the Lukoil sale, the deal track's sanctions-relief channel, open another month without approving a buyer, so nothing shifts yet (my reading). Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Energy News; Ukraine News/Reuters; TASS",
+      "text": "OFAC General License 131K extends Lukoil sale talks to Nov 21",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "",
+      "added": "2026-10-28",
+      "by": [
+        "deal-capital",
+        "tech-right"
+      ],
+      "context": "Pressure on Kyiv eases slightly; talks resume (APA)",
+      "date": "2026-10-21",
+      "fx": {
+        "deal-capital": 1,
+        "tech-right": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "rus-2026-10-21-ff597c",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "",
+          "id": "rus-2026-10-21-9e251e",
+          "kind": "chron",
+          "source": "",
+          "text": "Witkoff-Putin meeting; Trump calls Musk; OFAC extends Lukoil talks to Nov 21",
+          "tier": "carried",
+          "weight": 2
+        }
+      ],
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Witkoff-Putin meeting and the Kremlin's offer to rejoin three-way talks in mid-November put the envoys in charge of the Russia track and eased pressure on Moscow. Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Witkoff-Putin meeting, Musk call, a Kremlin offer to rejoin three-way talks in mid-November",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Musk (reported), Trump, Kyiv",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Kyiv Independent: speeds back above 400 km/h after a cap near 161 km/h. WSJ: Trump asked Musk on Oct 21 to lift the limits.",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-24-1e575d",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Kyiv Independent, RFE/RL",
+      "text": "Ukraine's defense ministry says Starshield is back above 400 km/h and credits Zelensky; Trump says he \"heard it's fixed\"; SpaceX, the White House and the Pentagon do not claim credit or blame (Kyiv Independent, RFE/RL)",
+      "tier": "documented",
+      "weight": 2
+    },
+    {
+      "actor": "Russian and Ukrainian human rights commissioners; Melania Trump (mediator)",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Al Jazeera (Nov 1) credits Melania Trump with Pope Leo XIV, not a formal US role; ombudswoman Lantratova led Moscow's side. Commissioners agreed to regular humanitarian missions. AP (Nov 2): 180 evacuated; 140,000 remain in Ukrainian-held Kherson. NBC (Oct 27, via TVG): the White House credits Melania Trump with brokering the truce; Vatican News also credits Pope Leo.",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-24-483088",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Chron: a local humanitarian truce between Moscow and Kyiv, now read. My reading: a personal First Lady channel, not the envoys' track, so no faction effect; it shows Moscow will deal on narrow humanitarian terms.",
+      "source": "Moscow Times (headline); CNBC and Townhall headlines (Oct 27-28); Al Jazeera (Oct 31, Nov 1); The Hill (headline); AP Morning Wire (Nov 2); NBC via TVG Daily Brief",
+      "text": "A six-day local ceasefire in Russian-occupied Oleshky, held from Oct 27, ended the night of Nov 1 with no reported violations and no extension; it allowed civilian evacuation, demining and aid; no written terms; fighting continued elsewhere.",
+      "tier": "reported",
+      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends",
+      "weight": 2
+    },
+    {
+      "actor": "Trump (disclosure)",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): a documented personal financial position in SpaceX sits alongside the Starshield decisions on Ukraine; no source links the holding to any decision. Disclosure ranges only. No fx.",
+      "date": "2026-10-08",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-08-bf31",
+      "issues": [
+        "RUS",
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 9 edition)",
+      "source": "",
+      "text": "Trump's financial disclosure shows he bought $1 million to $5 million of SpaceX debt days before a new White House space policy.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Senators / Meloni",
+      "added": "2026-10-29",
+      "by": [
+        "dissenters"
+      ],
+      "context": "Net effect (my reading): the Deal-Capital line has bipartisan and allied pushback but no vote against it. Letters are statements. No fx.",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-13-bf32",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 14 edition)",
+      "source": "",
+      "text": "Twelve bipartisan senators write to Trump calling his diesel deal with Putin a \"betrayal\" and urging more pressure under the Graham sanctions law; Italy's Meloni calls it a \"very risky choice\".",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Bulgaria, Romania, Russia",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): Russia-NATO friction in the Black Sea rises while the administration eases sanctions, raising the political cost of that line in Europe. Attribution is by officials, not independently confirmed. No fx.",
+      "date": "2026-10-13",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-13-bf33",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 13, 14, 16 editions)",
+      "source": "",
+      "text": "Drones strike two commercial ships in Bulgaria's Black Sea zone (11 sailors missing; Bulgaria summons Russia's ambassador), and two chemical tankers burn in Romanian waters after stray Russian drones (7 missing, Oct 15).",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Musk (SpaceX)",
+      "added": "2026-10-29",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Net effect (my reading): Musk is publicly owning the Starlink limit and denying the Starshield cap, which splits his story from the White House-origin account US officials gave Reuters. Conflicting accounts unresolved. No fx.",
+      "date": "2026-10-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-25-bf34",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 26, 27 editions)",
+      "source": "Reuters also reports US administrations have asked SpaceX to turn Starlink on or off in various countries for years; Trump asked Musk to enable it in Iran.",
+      "text": "Musk confirms SpaceX restricted Ukraine's Starlink service citing military use that violates terms, while denying responsibility for the separate Starshield speed cap.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Finland, Norway",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): European leaders are opening their own channel to Moscow as the Kremlin signals readiness for talks in mid-November. Venue and parties of the Abu Dhabi meetings not confirmed. No fx.",
+      "date": "2026-10-27",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-27-bf35",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Just Security Early Edition (Oct 27 edition)",
+      "source": "",
+      "text": "Finnish President Stubb and Norwegian PM Støre call Putin, then Zelensky, ahead of \"upcoming Abu Dhabi meetings\".",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Ukraine, Trump",
+      "added": "2026-10-29",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Net effect (my reading): Trump sided with the deal track against Kyiv's energy strikes, which keeps the Deal-Capital line ahead of the Graham-law sanctions camp; the intelligence resumption eases one pressure on Kyiv. Russian count of drones is the defence ministry's figure; the sanctions hold was a decision of Oct 16 that I already record. Provisional tag.",
+      "date": "2026-10-18",
+      "fx": {
+        "deal-capital": 1,
+        "hawks": -1
+      },
+      "fxnote": "Provisional: Trump again chose the deal track over sanctions; re-score if Congress forces the Graham sanctions or Trump signs them.",
+      "id": "rus-2026-10-18-f201",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Al Jazeera, CNN (headline only)",
+      "source": "",
+      "text": "Ukraine launches more than 1,000 drones at Russia, hitting the St Petersburg oil terminal and other sites; Trump rebukes Zelensky, defends holding new Russia sanctions so as not to drive Moscow from the table, and Zelensky says US intelligence sharing resumed.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "CREW (plaintiff)",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "Net effect (my reading): a court could constrain the Deal-Capital network's lead envoy, though standing may end the case before the merits. Pending; filed Oct 14. No fx.",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-14-f201",
+      "issues": [
+        "RUS",
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "Backfill",
+      "precision": "day",
+      "rationale": "Law Commentary, Just Security (Oct 15)",
+      "source": "Defendants are Witkoff, Wiles, Rubio and Hegseth in their official capacities.",
+      "text": "CREW sues in D.C. federal court to bar Jared Kushner from serving as envoy, arguing he is a federal officer who needs Senate confirmation and has filed no financial disclosures; Kushner's lawyer calls it meritless and challenges standing.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Russia, Zelensky",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Abu Dhabi talks expected in early November.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-29-dnipro",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Russia",
+      "precision": "day",
+      "rationale": "Chron.",
+      "source": "Everything Briefing digest, Zelensky post",
+      "text": "A Russian drone strike on a Dnipro train station kills at least 13 to 14; Zelensky cites US sanctions relief on Russian energy; the Oleshky truce holds a third day.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon (Colby)",
+      "added": "2026-10-30",
+      "by": [
+        "pentagon"
+      ],
+      "context": "Four anonymous sources; Reuters could not confirm which other US officials were involved. The original Reuters publication date is unconfirmed: the copy read is a reprint dated Oct 30. Pentagon declined comment; NATO and the Baltic ministries gave no comment.",
+      "date": "2026-10-30",
+      "fx": {
+        "hawks": -1,
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: the restraint line gains inside the Pentagon and the hawks lose; re-score if Colby or Hegseth publicly reverses or allies say no request was made.",
+      "id": "rus-2026-10-30-colby-nato-tone",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "Pentagon",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the Pentagon's restraint camp is asking frontline allies to lower the temperature with Russia while the administration negotiates with Moscow, which weakens the hawks' case for a harder line and adds to allies' doubts about US support. Evidence: one wire report with anonymous sources. Not established: a formal policy, or the full list of allies asked. Counter-reading: routine private diplomacy about messaging. Falsifier: the Pentagon or Colby publicly contradicts it or allies report no such request. Attribution: Colby's policy shop.",
+      "source": "Reuters (exclusive, via Sri Lanka Guardian reprint)",
+      "text": "Reuters reports the Pentagon privately urged Lithuania, Latvia and Estonia to tone down public talk of the Russian threat; Under Secretary Colby reportedly told a Baltic official Europeans should avoid 'poking' Russia.",
+      "tier": "reported",
+      "weight": 3
+    },
+    {
+      "actor": "NATO allies, Zelenskyy",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Allies' fear, not a confirmed decision; Russia has fired over 100 ballistic missiles at Kyiv in two weeks. A Patriot transfer was already held on Oct 19.",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: allies' fear only; no confirmed decision.",
+      "id": "rus-2026-10-29-patriot-delay-fear",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Euronews",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): partners are hedging on US delivery; the delay itself is not confirmed. Not established: any decision to hold stocks until after the vote.",
+      "source": "Euronews",
+      "text": "NATO allies fear Trump is holding Patriot interceptors for Ukraine until after Nov 3; Zelenskyy says he is waiting on Hegseth's approval and Rutte asks allies to send their own.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "Kremlin (Ushakov)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Kremlin statement only; no US confirmation read. Pentagon IG also declined a bipartisan request to investigate Starlink and Starshield disruptions in Ukraine (same digest).",
+      "date": "2026-10-29",
+      "fx": {},
+      "fxnote": "No fx: Kremlin claim, no US confirmation.",
+      "id": "rus-2026-10-29-rdif-relief-talks",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "Kremlin",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): Moscow publicly links talks to sanctions relief, which strengthens the Deal Capital channel if the US confirms it. Not established: any US offer.",
+      "source": "Just Security Early Edition (Oct 29)",
+      "text": "Kremlin adviser Yuri Ushakov confirms talks with the Trump administration on sanctions relief for the Russian Direct Investment Fund.",
+      "tier": "claimed",
+      "weight": 2
+    },
+    {
+      "actor": "Russia",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "The energy ceasefire was announced Oct 11 (rus-2026-10-09-6360d7); Trump waived the Graham law on Oct 16 (rus-2026-10-16-45d511).",
+      "date": "2026-10-14",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-14-energy-ceasefire-breach",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the energy ceasefire the envoys announced failed within days, yet Trump waived the sanctions law two days later, so the dealmakers paid no price. One outlet.",
+      "source": "ABC News (Good Morning America)",
+      "text": "Russia fires about 39 ballistic missiles and 120+ drones at Ukraine, hitting 26 power and 4 oil and gas sites covered by Trump's announced 'energy ceasefire'; about 600,000 lose power.",
+      "tier": "reported",
+      "url": "https://www.goodmorningamerica.com/news/story/600000-power-ukraine-russia-launches-missile-drone-attack-137248732",
+      "weight": 2
+    },
+    {
+      "actor": "Energy Secretary Chris Wright",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "No OFAC rule read; applies to Russian and Iranian shadow fleets.",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-19-wright-tanker-relief",
+      "issues": [
+        "RUS",
+        "IRN"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): oil-price relief is now an explicit aim of sanctions policy, which serves the dealmakers and pre-midterm price worries over the squeeze. Single outlet.",
+      "source": "Bloomberg via Maritime Executive",
+      "text": "Energy Secretary Chris Wright says shadow-fleet tankers will lose their sanctions designation when sold into legitimate trade, to cut freight costs while crude is above $100.",
+      "tier": "reported",
+      "url": "https://maritime-executive.com/article/wright-us-sanctions-relief-for-shadow-fleet-tankers-will-be-for-s-p-deals",
+      "weight": 2
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "",
+      "date": "2026-10-19",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-19-trilateral-nuclear",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Statement only: keeps a summit track with Putin open; nothing scheduled.",
+      "source": "Reuters via GV Wire",
+      "text": "Trump says he is open to a three-way meeting with Xi and Putin on nuclear weapons, possibly at the APEC summit in China.",
+      "tier": "reported",
+      "url": "https://gvwire.com/2026/10/19/trump-says-he-is-open-to-joining-trilateral-meeting-with-xi-putin/",
+      "weight": 1
+    },
+    {
+      "actor": "European Parliament",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Follows drone attacks on ships off Bulgaria and Romania (rus-2026-10-13-bf33); the link is my reading. Vote tally attribution unverified.",
+      "date": "2026-10-22",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-22-ep-black-sea",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Europe edges toward securing the Black Sea itself as Washington eases on Russia. Non-binding.",
+      "source": "European Parliament press release",
+      "text": "The European Parliament says the EU must consider a Black Sea naval operation; the collector gives a 432-52-88 vote, possibly for this text.",
+      "tier": "documented",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20261018IPR48266/parliament-wants-the-eu-to-designate-the-houthis-as-a-terrorist-group",
+      "weight": 2
+    },
+    {
+      "actor": "Reps. Crenshaw and Turner, Sens. Tillis and Cramer",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Responds to rus-2026-10-25-bf34 (Musk's explanation).",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-26-gop-starlink-questions",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Republican defense voices openly question Musk's account, raising his political cost on Ukraine but changing no contract. Statements only.",
+      "source": "Star-Advertiser (TNS); Newsweek",
+      "text": "Rep. Dan Crenshaw challenges Musk's claim that Ukraine broke Starlink's terms; Sen. Thom Tillis, Rep. Mike Turner and Sen. Kevin Cramer had questioned SpaceX's role on Oct 18 (Newsweek).",
+      "tier": "reported",
+      "url": "https://www.staradvertiser.com/2026/10/26/breaking-news/musks-starlink-explanation-challenged-by-texas-gop-lawmaker/",
+      "weight": 2
+    },
+    {
+      "actor": "Administration officials (unnamed)",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Three days before Rubio signed energy and law-enforcement MOUs with Hungary (tar-2026-10-29-finland-hungary-mou).",
+      "date": "2026-10-26",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-26-orban-unsg",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): the administration would spend capital on a Russia-acceptable figure at the UN, in line with the envoys' track. Officials unnamed; no formal nomination.",
+      "source": "Euronews citing WSJ",
+      "text": "WSJ: administration officials back Hungary's Viktor Orbán as a possible UN secretary-general candidate that the US, Russia and China could jointly support.",
+      "tier": "reported",
+      "url": "https://www.euronews.com/2026/10/26/trump-officials-back-orban-bid-for-un-secretary-general-wsj-reports",
+      "weight": 2
+    },
+    {
+      "actor": "Jared Kushner; Ukraine",
+      "added": "2026-10-30",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Critical read: Kushner and Witkoff gain; Kyiv and Senate sanctions backers lose; Moscow gains for free. Tension with the Oct 18 St Petersburg terminal strike. Counter-reading: Kyiv paused for its own reasons. Falsifier: new refinery strikes before Nov 3.",
+      "date": "2026-10-29",
+      "fx": {
+        "deal-capital": 1,
+        "operation": 1
+      },
+      "fxnote": "Provisional: single-outlet report of a pause won at Kushner's request that also serves the pre-midterm fuel-price aim; re-score if Ukraine resumes refinery strikes before Nov 3 or Kyiv denies it.",
+      "id": "rus-2026-10-29-refinery-pause",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "shift",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the dealmakers' pressure on Kyiv worked, removing Ukraine's main lever on Russian oil before Nov 3 at no cost to Moscow. One outlet; not confirmed by Kyiv or the White House.",
+      "source": "WSJ via Kyiv Post",
+      "text": "WSJ: Ukraine informally paused new strikes on Russian refineries from mid-October under Trump administration pressure to lower fuel prices before the midterms; Kushner asked for a 30-day halt; Kyiv got no Russian pause or Patriots in return.",
+      "tier": "reported",
+      "url": "https://www.kyivpost.com/post/88611",
+      "weight": 4
+    },
+    {
+      "actor": "State Department, White House",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Newsletter item; article not read.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-30-inl-aid-halt",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Headline only: if confirmed, another quiet cut to Ukraine support before Nov 3.",
+      "source": "Politico Playbook PM via Washington Sun (newsletter)",
+      "text": "State has stopped funding Ukraine security aid through its narcotics and law-enforcement bureau (INL) at White House direction; senators urge Rubio to release it.",
+      "tier": "reported",
+      "url": "newsletter",
+      "weight": 2
+    },
+    {
+      "actor": "G20 foreign ministers; Sergei Lavrov",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "US hosts the G20 in 2026.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-30-g20-lavrov",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Net effect (my reading): hosting Lavrov on US soil shows the re-engagement with Moscow and exposes the split with Europe. Relayed in a newsletter.",
+      "source": "AP via Politico Playbook PM (newsletter)",
+      "text": "At the G20 foreign ministers' meeting in Atlanta, which Russia's Sergei Lavrov attended, the group photo is scrapped because European ministers refuse to pose with him.",
+      "tier": "reported",
+      "url": "newsletter",
+      "weight": 2
+    },
+    {
+      "actor": "State Department",
+      "added": "2026-10-31",
+      "by": [
+        "hawks"
+      ],
+      "context": "Who: State approves; Ukraine and three allies pay; Kyiv gets nothing near term. Counter-reading: a real pro-Ukraine signal hawks can claim. Falsifier: US-stock Patriots ship to Kyiv before the hold ends. Zelenskyy: deliveries may take years; asks for partners' stocks now.",
+      "date": "2026-10-31",
+      "fx": {
+        "pentagon": 1
+      },
+      "fxnote": "Provisional: the sale confirms the burden-shift line at no cost to US stocks; re-score if US-stock Patriots ship to Ukraine before Nov 3 or the sale is cancelled.",
+      "id": "rus-2026-10-31-patriot-sale",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "NET EFFECT (my reading): the US meets Ukraine's air-defense need with a buyer-paid sale delivering in the 2030s, sparing US interceptor stocks and fitting the Pentagon's burden-shift line, while the near-term Patriot hold stays. Delivery date from two unnamed briefed people.",
+      "source": "Al Jazeera; Euronews; AP Morning Wire and Semafor Flagship Asia (Nov 1); SOFX (Nov 1)",
+      "text": "State approves a possible $2.1B sale of 500 PAC-3 Patriot missiles to Ukraine, paid by Ukraine with Canada, Germany and Norway contributing via the US JUMPSTART mechanism and EU Ukraine Support Loan funds; the missiles are not yet built.",
+      "tier": "documented",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine",
+      "weight": 3
+    },
+    {
+      "actor": "Trump; Stephen Hubbard",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Release was announced during the Witkoff-Putin meeting in St. Petersburg (rus-2026-10-21-953d13). Statement, not a new act.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-30-hubbard-meeting",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Trump, in his own words, presents the sanctions waiver as a bargaining chip that won a release, giving the deal track a public defense before Nov 3. One outlet; no documented quid pro quo.",
+      "source": "CBS News",
+      "text": "Trump meets Stephen Hubbard, 74, freed after 4+ years in a Russian jail. He says there was no swap but ties the release to exempting Russia from sanctions Congress passed: 'you would not have Mr. Hubbard coming back.' Sanctions not reimposed.",
+      "tier": "reported",
+      "url": "https://www.cbsnews.com/news/trump-meeting-stephen-hubbard-white-house-russia-release/",
+      "weight": 2
+    },
+    {
+      "actor": "Unnamed drones; Rosneft",
+      "added": "2026-10-31",
+      "by": [],
+      "context": "Tests rus-2026-10-29-refinery-pause, whose falsifier is new refinery strikes before Nov 3. The attacker is not named in the facts read; the WSJ article itself was not read.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-30-novokuibyshevsk",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Net effect (my reading): if Ukrainian, the strike undercuts the reported pause that credited the dealmakers with removing Kyiv's oil lever before Nov 3. Single aggregator; attribution unverified.",
+      "source": "SOFX",
+      "text": "Drones hit Rosneft's Novokuibyshevsk refinery in Samara early Oct 30, a day after the WSJ reported Kyiv had paused refinery strikes until after Nov 3 at the administration's request.",
+      "tier": "reported",
+      "url": "https://www.sofx.com/drones-set-russian-oil-refinery-on-fire-a-day-after-ukraine-reportedly-paused-strikes/",
+      "weight": 2
+    },
+    {
+      "actor": "Sen. Mitch McConnell",
+      "added": "2026-10-31",
+      "by": [
+        "dissenters"
+      ],
+      "context": "Scripps printed Oct 27. Playbook (Oct 31, headline only) teases a McConnell WSJ piece against squeezing Ukraine and heeding 'naive businessmen', possibly the same or a newer piece.",
+      "date": "2026-10-25",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-25-mcconnell-oped",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Statement only: a senior Republican voice against the deal track with no vote attached. Not established: whether a second op-ed exists.",
+      "source": "Scripps via KMPH; Politico Playbook (headline only)",
+      "text": "McConnell's Sunday WSJ op-ed warns Trump against more concessions to Russia, citing waived sanctions and purchases of Russian fuel; Senate Republicans are described as opposing appeasement.",
+      "tier": "reported",
+      "url": "https://kmph.com/news/nation-world/senator-mitch-mcconnell-warns-president-trump-against-making-more-concessions-to-russia-moscow-putin-war-rrt",
+      "weight": 1
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-11-01",
+      "by": [],
+      "context": "Headline only via NewsNow; terms and timing not read. Comes a day after Lavrov attended the G20 foreign ministers' meeting in Atlanta (rus-2026-10-30-g20-lavrov).",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-31-g20-zelenskyy-invite",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-01",
+      "precision": "day",
+      "rationale": "Statement only, headline only; no invitation reported as issued.",
+      "source": "Anadolu Agency via NewsNow (headline)",
+      "text": "Trump says he would invite Zelenskyy to the G20 summit the US hosts (Anadolu headline).",
+      "tier": "claimed",
+      "url": "https://c.newsnow.com/A/1328593981?-2839%3A38162",
+      "weight": 1
+    },
+    {
+      "actor": "Ukraine; Russia (alleged); Russia's Emergencies Ministry",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "The Ukrainian Air Force confirmed the false alerts (Reuters). Attribution is each side's claim. Fits a run of cyber items in the ledger (base freezers, Volt Typhoon).",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-11-02-alert-app-hacks",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: cyberattacks on both sides' civil-defence apps right after the local truce lapsed; attribution claimed, no US role or response reported.",
+      "source": "Al Jazeera (Nov 2); Reuters Daily Briefing (Nov 2); Semafor Flagship (Nov 2)",
+      "text": "After the Oleshky truce ends, Ukraine's air-alert app sends false nuclear and chemical warnings, which Kyiv blames on Russia; Russia's Emergencies Ministry says its own alert app was hacked too.",
+      "tier": "documented",
+      "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings",
+      "weight": 2
+    },
+    {
+      "actor": "US Embassy Moscow; Russian security services",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "SOFX headline calls it a US intelligence warning; Al Jazeera and Euronews headlines say a US embassy warning. Pages not read.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-11-01-moscow-plot",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Headline only. My reading: a working US-Russia security-warning channel during the deal track; no faction effect shown.",
+      "source": "Al Jazeera; Euronews; SOFX (headlines)",
+      "text": "Russia detains a minor over an alleged attack plot in a Moscow park after the US embassy warned of a credible mass-casualty threat (headline only).",
+      "tier": "reported",
+      "url": "https://www.euronews.com/2026/11/01/russia-arrests-minor-after-us-embassy-warns-of-credible-threat-of-a-mass-casualty-event",
+      "weight": 2
+    },
+    {
+      "actor": "Russian occupation authorities; Russian businesses",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "Read via the Reuters Daily Briefing newsletter summary, not the full investigation. Three-way talks may resume mid-November.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-11-02-azov-resorts",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Chron: my reading, Russia is turning occupation into property facts that a peace deal would have to accept or undo; no US act.",
+      "source": "Reuters Daily Briefing newsletter (Nov 2)",
+      "text": "Reuters investigation: Russia lists 521 Azov-coast hotels in occupied Ukraine as ownerless, and at least 77 are now under Russian business control.",
+      "tier": "reported",
+      "url": "gmail:Reuters Daily Briefing 2026-11-02",
+      "weight": 2
+    },
+    {
+      "actor": "Jared Kushner; Steve Witkoff",
+      "added": "2026-11-02",
+      "by": [
+        "deal-capital"
+      ],
+      "context": "Talks are expected in Abu Dhabi in mid-November.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-11-02-gas-transit-pitch",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep). A proposal, rejected by Kyiv and stalled by Moscow.",
+      "source": "Wall Street Journal via Euromaidan Press",
+      "text": "WSJ: Jared Kushner and Steve Witkoff floated routing Russian gas through Ukraine's pipelines to Europe via a US intermediary, with proceeds in escrow, as Moscow's incentive for an energy truce; Europe resists, Ukraine's Budanov rejected it, and the Kremlin says Nov 2 it cannot be done now.",
+      "tier": "reported",
+      "url": "https://euromaidanpress.com/2026/11/02/wsj-us-pitches-russian-gas-through-ukraines-pipelines-as-moscows-incentive-for-an-energy-truce/",
+      "weight": 2
+    },
+    {
+      "actor": "Pentagon inspector general",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-28",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-28-dodig-starlink",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (aggregator sweep). Leaves the Starshield cap question without an independent probe.",
+      "source": "AP via News4Jax",
+      "text": "The Pentagon inspector general tells nine lawmakers, including Sen. Jeanne Shaheen, it will not investigate Starlink and Starshield slowdowns in Ukraine and says the department should handle it.",
+      "tier": "reported",
+      "url": "https://www.news4jax.com/news/politics/2026/10/28/pentagon-watchdog-tells-lawmakers-it-wont-investigate-starlink-slowdowns-to-ukraine/",
+      "weight": 2
+    },
+    {
+      "actor": "Greece's prime minister",
+      "added": "2026-11-02",
+      "by": [],
+      "context": "",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-10-30-greece-black-sea",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "weekly audit 2026-11-02",
+      "precision": "day",
+      "rationale": "Recall miss (digest listed it; triage dropped it).",
+      "source": "Reuters via Al-Monitor and TVG Daily Brief",
+      "text": "Greece's prime minister calls for a truce on Black Sea shipping after a Greek-owned ship sank in naval-drone strikes, and declares the Turkey-Libya maritime deal void.",
+      "tier": "reported",
+      "url": "https://www.reuters.com/world/europe/greek-pm-calls-turkey-libya-maritime-deal-void-calls-global-truce-after-black-2026-10-29/",
+      "weight": 2
+    },
+    {
+      "actor": "Russia",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "Follows the end of the Oleshky local truce on Nov 1. Stored reports point to Abu Dhabi meetings and Kremlin readiness to rejoin talks in mid-November.",
+      "date": "2026-11-02",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-11-02-zaporizhzhia-aid-strike",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "The strike is documented by two outlets; the US mediation claim is headline-only and unverified, so weight 2.",
+      "source": "Euronews; Al Jazeera; Semafor Flagship (Nov 3)",
+      "text": "A Russian strike on an aid distribution centre in Komyshuvakha, Zaporizhzhia, kills 24 to 31 (figures vary by outlet and hour); Russia says it downed 212 Ukrainian drones. Semafor and Al Jazeera headlines say the US will mediate new talks next week (headline only).",
+      "tier": "documented",
+      "url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-",
+      "weight": 2
+    },
+    {
+      "actor": "Russia; Ukraine",
+      "added": "2026-11-03",
+      "by": [],
+      "context": "",
+      "date": "2026-11-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "rus-2026-11-03-black-sea-widens",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-03",
+      "precision": "day",
+      "rationale": "Headline only; an analysis, not a dated act.",
+      "source": "Reuters via Reuters Daily Briefing (Nov 3)",
+      "text": "Reuters analysis headline: the Russia-Ukraine maritime war is widening in the Black Sea, testing NATO red lines and exposing Romania and Bulgaria (headline only; page blocked).",
+      "tier": "reported",
+      "url": "https://www.reuters.com/world/europe/war-widens-black-sea-test-nato-red-lines-2026-11-03/",
+      "weight": 1
+    },
+    {
+      "id": "rus-2026-11-05-diesel-shipments-diverted",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "RUS",
+        "TAR"
+      ],
+      "kind": "act",
+      "actor": "Tankers and U.S. Treasury",
+      "text": "AP reported that tankers carrying Russian diesel changed course, casting doubt on deliveries to the United States.",
+      "context": "",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/5c5bb86ddf41fc7a8b51b0698552c3d4",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The diversion weakens confidence in the reported diesel deal’s delivery. The exemption and actual shipment are separate outcomes.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "rus-2026-11-05-oleshky-white-house-followup",
+      "date": "2026-11-05",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "Melania Trump and Russian and Ukrainian officials",
+      "text": "Melania Trump brought Russian and Ukrainian officials together at the White House to mark the localized Oleshky ceasefire.",
+      "context": "AP reported that Donald Trump met Russian envoy Kirill Dmitriev while he was at the White House and said he did not meet the visiting Ukrainian officials. This gave the Russian envoy direct presidential access during the humanitarian visit. A European security agreement remains unconfirmed. https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3 AP also reported that Trump confirmed meeting Putin envoy Kirill Dmitriev, while Trump’s envoys met Ukrainian and European officials in Brussels and Trump did not meet the visiting Ukrainian officials. This gave Moscow a direct presidential channel ahead of Abu Dhabi. No terms were disclosed.",
+      "source": "Associated Press; https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3",
+      "url": "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The event demonstrates a diplomatic channel. Its scope is local, and the appearance leaves broader settlement prospects unresolved.",
+      "origin": "weekly backfill",
+      "added": "2026-11-05",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: direct faction impact remains unresolved."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "blunder": "Leadership tried to bar tariff votes and failed 217-214 (Feb 10); seven discharge petitions, including the Epstein files, passed over the Speaker",
+  "cause": "Survival with independent money: donors let leaders outlast Trump's snubs, but no one will take a recorded vote against him before Nov 3",
+  "did": "Tried to bar tariff votes (failed 217-214); SLF put $131M behind Paxton; CLF shifted 20 races; NRSC FEC complaint and Comer Oversight probe of Peltola's campaign (Oct 28-30)",
+  "donors": [
+    [
+      "Senate Leadership Fund and One Nation",
+      "$103M raised in 2025; One Nation gave SLF $70.7M (Jan 2025 to Jun 2026); $131M behind Paxton",
+      "Thune and Senate leadership",
+      "Midterms",
+      "Leaders can protect incumbents in their own right, so they need Trump's money less than members do. Named donors: Adelson $30M, Singer $14.5M, Musk (see below), Mellon, Wynn and others."
+    ],
+    [
+      "Musk",
+      "$158M to SLF since July 2026; $76M to America PAC; $10M to a pro-Paxton PAC (AP, Oct 12)",
+      "Thune, SLF",
+      "Midterms",
+      "The largest single source of the Senate arm's money; buys a line to the party independent of Trump, with SpaceX's government revenue at stake (my reading)."
+    ],
+    [
+      "CLF",
+      "Over $450M claimed",
+      "Johnson and House leadership",
+      "Midterms",
+      "Adelson $10M, Singer $8M, Musk $10M, GEO $1.3M. Gives House leaders their own leverage and makes them responsive to these donors (my reading)."
+    ],
+    [
+      "RNC",
+      "$130M cash at the end of July",
+      "Gruters",
+      "Midterms",
+      "Run as Trump's pick, so its money serves the president's priorities."
+    ]
+  ],
+  "edges": [],
+  "gained": "About $277M of Trump’s money spent for candidates (Sep 1 to Oct 14); Supreme Court order on FCC political ad rates (Oct 14); some Canada tariff relief before the vote (Oct 30), though the same edit added 100 lines; Democratic Rep. Haley Stevens endorses Rogers in Michigan (Nov 1, provisional)",
+  "id": "party",
+  "legal": [],
+  "legalnote": "None found for Thune, Johnson, Gruters or Comer in this research. Exposure here is institutional: the Party Machine’s super PACs take money from donors whose industries have business before the government (see the monetary roster), and Johnson’s and Comer’s handling of the Epstein petition and the Oversight inquiry would draw questions if Democrats hold the gavel.",
+  "lost": "Trump withheld backing for Thune (Jul 30); approval 31%",
+  "members": [
+    [
+      "Thune",
+      "Senate majority leader",
+      "Midterms, tariffs, the filibuster",
+      "8; Trump declined to back him (Jul 30); could not count 50 for war money (Jul 23)",
+      "Posture: a governing majority and Senate rules. Interest: his post and majority, backed by SLF money he can deploy without Trump (Musk $158M since July)"
+    ],
+    [
+      "Johnson",
+      "Speaker",
+      "Midterms, tariffs, Epstein (petition moot)",
+      "8; seven discharge petitions hit 218 on his watch, including Epstein (NPR, Jan 5)",
+      "Posture: protect the majority and the president together. Interest: the Speakership rests on Trump's goodwill and a razor-thin margin; eyes a leader post if the House is lost (Nov 2)"
+    ],
+    [
+      "Gruters",
+      "RNC chair",
+      "Midterms",
+      "9; Trump tele-rally push in about 20 states (Oct 30)",
+      "Posture: the party is Trump's. Interest: Trump picked him; his career runs through Trump"
+    ],
+    [
+      "Scott",
+      "NRSC chair",
+      "Midterms",
+      "8; FEC complaint against Peltola's campaign (Oct 28-30)",
+      "Interest: the Senate map and his standing in the conference"
+    ],
+    [
+      "Hudson",
+      "NRCC chair",
+      "Midterms",
+      "8",
+      "Interest: the House map"
+    ],
+    [
+      "Hawley",
+      "Senator (R-Missouri)",
+      "War votes with the White House (Iran, Venezuela); dissents on AI",
+      "6; would not back the Iran war powers resolution (Mar 2); flipped on Venezuela (Jan 8 to Jan 14)",
+      "Posture: working-class populist against Big Tech. Interest: his seat and a 2028 run need Trump's base, so he votes with the White House on war and spends his dissent on AI, where it costs him nothing with Trump"
+    ],
+    [
+      "Comer",
+      "Oversight chair",
+      "Midterms, Epstein",
+      "5; said DOJ 'botched' the release (Mar 30); probe of Peltola's campaign (Oct 28-30)",
+      "Interest: the gavel; he criticizes DOJ but acts for the majority"
+    ],
+    [
+      "Crapo",
+      "Finance chair",
+      "Tariffs",
+      "5",
+      "Interest: committee control; farm and trade constituents"
+    ],
+    [
+      "Collins",
+      "Senator (R-Maine)",
+      "Tariffs, close votes",
+      "3; home is Dissenters",
+      "Interest: her Maine race"
+    ],
+    [
+      "Musk",
+      "SpaceX and Tesla CEO (outside)",
+      "Midterms (Senate money)",
+      "4; $158M to SLF since July (AP, Oct 12)",
+      "Interest: a second line to the party after his break with Trump; SpaceX's government revenue"
+    ]
+  ],
+  "name": "Party Machine",
+  "overview": [
+    "In its own best terms the Party Machine's worldview is conventional Republican governance carried inside the Trump era: hold the majorities, because the majority is what turns a movement into law (tax cuts, deregulation, judges, defense budgets); keep the institutions that make the majority durable (the filibuster, the committees, Senate rules); and keep the coalition's two halves, Trump's voters and the party's donors, from splitting. Thune states it as governing; Johnson as protecting the majority and the president together. It sees itself as the adult layer that turns Trump's mandate into votes without losing the seats that make votes possible.",
+    "The interest layer: members' seats and leaders' posts, financed by the donor class that predates Trump and outlasts him. SLF and One Nation raised $103M in 2025 and Musk alone gave SLF $158M since July (AP, Oct 12); Adelson, Singer, Mellon and fossil-fuel money fill SLF and CLF. That money lets leaders protect incumbents without Trump, which is why Thune can disappoint him on the SAVE Act and the filibuster and survive Trump's refusal to back him (Jul 30). It also binds leaders to what those donors want: tax and energy policy, a strong defense, and no tariff or war votes that split business from the base.",
+    "Acts depart from words on Congress's own powers. The party claims the power of the purse and war but works to avoid using it: leadership tried to bar tariff votes (failed 217-214, Feb 10), Thune could not count 50 for war money (Jul 23), and seven discharge petitions, including the Epstein files, beat Johnson because members would not wait for him. Hawley is the clearest case: a populist against Big Tech in bills that cost him nothing with Trump (AI and chatbots, copyright, layoff disclosure), and a party vote on war powers (Mar 2; Venezuela flip Jan 14).",
+    "Precedent (my reading): congressional Republicans and Nixon, 1973-74. Leaders (Hugh Scott, John Rhodes) defended the president while the majority's donors and voters held, then told him he had lost the votes after the 'smoking gun' tape in August 1974. It breaks here: Nixon could not run again and had no primary army, while Trump still decides primaries and his PAC money flows to candidates, so the Party Machine's break point is a midterm loss that shows Trump costs seats, not a scandal."
+  ],
+  "positions": {
+    "AI": [
+      {
+        "paras": [
+          "Position.",
+          "No leadership position. Hawley pushes bills to bar training on copyrighted works, require AI-layoff disclosure, restrict AI work with China and limit minors' chatbot use, and fought Cruz's moratorium on state AI rules (Axios, Jan 30).",
+          "Why the faction does it. Leaders follow the White House and their tech donors; Hawley breaks on AI because it is the one populist issue where Trump does not punish dissent.",
+          "Who and why.",
+          "Hawley Posture: 'standing on the side of working people' and children. Interest: a 2028 wedge against the Tech-Right and Vance's patrons; it stays bills, not votes against Trump (my reading).",
+          "Say versus do. The bills are acts; none has become law.",
+          "Stance audit. Hawley pursued restrictions while other Republicans, including Cruz on state preemption, took different approaches. Bills and legislative action support a split among actors. Electoral positioning and industry backing are plausible incentives. Map each contribution or policy stake to its recipient. Treat this as a faction split. The evidence for a common leadership position or individual reversal is thin."
+        ],
+        "title": "AI policy"
+      }
+    ],
+    "EPS": [
+      {
+        "paras": [
+          "Position.",
+          "Nov 2025: Johnson called the petition moot. Mar 30: Comer said DOJ “botched” the release.",
+          "Why the faction does it. Contain it. Comer’s criticism of DOJ is his only public distance.",
+          "Who and why.",
+          "Johnson Motives: Protecting the majority and the president together (reported). His post depends on both.",
+          "Comer Motives: The Oversight chair cannot defend a botched release (reported). He criticized but acted on nothing."
+        ],
+        "title": "Epstein"
+      }
+    ],
+    "IRN": [
+      {
+        "paras": [
+          "Position.",
+          "Jul 23: Thune could not count to 50 for war funding; the $95B House-drafted package lacks 50 Republican votes. Mar 2: Hawley said Trump acted within his powers and he would not back the Democrats' war powers resolution.",
+          "Why the faction does it. Worldview: Congress backs a Republican commander in chief. Interest: neither a vote to limit the war nor a vote to fund it helps members in November, so leaders avoid both.",
+          "Who and why.",
+          "Thune Posture: support the troops. Interest: protect members from a recorded vote; SLF money lets him do it without Trump.",
+          "Hawley Posture: hopes for 'a swift conclusion' and says ground troops need Congress. Interest: his standing with Trump and Trump's voters; a war-powers vote against Trump would cost the 2028 lane his populism is building (my reading).",
+          "Say versus do. Thune's count is an act of omission; Hawley's vote is the act and his doubts are the words."
+        ],
+        "title": "Iran"
+      }
+    ],
+    "MID": [
+      {
+        "paras": [
+          "Position.",
+          "Aug 7: tie Trump to House races. Sep 9-10: Dallas convention. Sep 3: spend the war chest.",
+          "SLF and One Nation raised $103M in 2025 and put $131M behind Paxton; CLF claims over $450M and shifted 20 races; the RNC had $130M cash at the end of July.",
+          "Why the faction does it. Survive the midterms. Defense is the only play with the war chest.",
+          "Who and why.",
+          "Thune Motives: (1) Survival of the majority and of his own post. (2) Friction with Trump: Trump withheld an endorsement in late July, and the rift partly stems from Thune’s refusal to prioritize Trump’s SAVE America Act. Trump’s snub gives him room to defend senators, but he cannot count on Trump’s money or voters.",
+          "Johnson, Scott, Hudson Motives: Majorities: the House and Senate maps (reported). For Johnson, the speakership depends on Trump’s goodwill and on the same majority (my reading).",
+          "Gruters Motives: Loyalty as a job: Trump chose him for RNC chair, and his future runs through Trump. No other stake found.",
+          "Comer Motives: Oversight role (reported).",
+          "Musk gave to SLF (reported). Motives: Buying a second channel to the party after his break with Trump (my reading)."
+        ],
+        "title": "Midterms"
+      }
+    ],
+    "TAR": [
+      {
+        "paras": [
+          "Position.",
+          "Feb 10: tried to bar tariff votes, failed 217-214. Aug: beef-pause objections.",
+          "Why the faction does it. Avoid an embarrassing vote.",
+          "Who and why.",
+          "Johnson, Thune, Crapo Motives: Protecting members and the president from a recorded vote (reported).",
+          "Marshall, Cramer, Burchett Motives: Farm-state constituents object (reported).",
+          "Say versus do. Leadership blocks votes while members object about beef."
+        ],
+        "title": "Tariffs"
+      }
+    ]
+  },
+  "short": "Party Machine",
+  "wants": "Hold congressional majorities and preserve leadership control of floor time, committees, and electoral resources. Track policy priorities by leader or voting bloc.",
+  "weak": "Trump declined to back Thune (Jul 30); approval 31-32%, Democrats ahead 47-36 (Reuters/Ipsos, Oct 22-26); seven discharge petitions beat the Speaker; Cook moved 12 more House races toward Democrats (Oct 30)",
+  "why": "Seats and leadership posts are the immediate stakes. Musk, Adelson, Singer and other backers help fund congressional campaign infrastructure, giving leaders capacity to protect incumbents independently of Trump's political operation. Track recipients and the issues on which donor and leadership interests align.",
+  "win": "SLF put $131M behind Paxton; CLF reshuffled 20 races (Oct 13)"
+}

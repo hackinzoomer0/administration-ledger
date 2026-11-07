@@ -1,0 +1,895 @@
+{
+  "asof": "2026-11-03",
+  "items": [
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-eisenkot",
+      "kind": "actor",
+      "name": "Gadi Eisenkot (Yashar party)",
+      "note": "Weekly audit 2026-11-02: added to people as gadi-eisenkot.",
+      "source": "NPR",
+      "status": "added",
+      "what": "Led the opposition list that came second in Israel's Oct 27 election"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-hammack",
+      "kind": "person",
+      "name": "Beth Hammack",
+      "note": "Weekly audit 2026-11-02: already in the ledger as beth-hammack; entry updated.",
+      "source": "Fortune",
+      "status": "added",
+      "what": "Cleveland Fed president; dissented for a hike Oct 28"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-qatar",
+      "kind": "actor",
+      "name": "Qatar (mediator)",
+      "note": "Weekly audit 2026-11-02: already in the ledger as qatar; no new verified fact to add (search-level only).",
+      "source": "The National",
+      "status": "added",
+      "what": "Presented Iran a seven-day draft deal Oct 25"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-egypt",
+      "kind": "actor",
+      "name": "Egypt (Sisi)",
+      "note": "Weekly audit 2026-11-02: Foreign state as actor; parliament authorized military support to Saudi Arabia Oct 26, 2026. Model with state actors.",
+      "source": "CBS News",
+      "status": "dropped",
+      "what": "Parliament authorized troops to Saudi Arabia against the Houthis"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-houthis",
+      "kind": "actor",
+      "name": "Houthis",
+      "note": "Weekly audit 2026-11-02: Non-state armed actor; escalating strikes on Saudi Arabia in late Oct 2026. Model with state/bloc actors.",
+      "source": "CBS News",
+      "status": "dropped",
+      "what": "Escalating attacks on Saudi Arabia"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-sylvia",
+      "kind": "departure",
+      "name": "Brett Sylvia",
+      "note": "Weekly audit 2026-11-02: already in the ledger as brett-sylvia; entry updated.",
+      "source": "The Atlantic, AP via SAN",
+      "status": "added",
+      "what": "Lt. Gen., Joint Staff J-5 planning chief, removed by Hegseth the week of Oct 26"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-guilfoyle",
+      "kind": "departure",
+      "name": "Kimberly Guilfoyle",
+      "note": "Weekly audit 2026-11-02: already in the ledger as kimberly-guilfoyle; entry updated.",
+      "source": "Just Security Early Edition",
+      "status": "added",
+      "what": "Resigned as ambassador to Greece Oct 13 at the White House request after a donor-payment request"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-zampolli",
+      "kind": "departure",
+      "name": "Paolo Zampolli",
+      "note": "Weekly audit 2026-11-02: Minor; removed Oct 15, 2026 as special envoy for global partnerships after a feud with Deputy Secretary Landau. Record in event text.",
+      "source": "NYT/Politico via Just Security",
+      "status": "dropped",
+      "what": "Left State Department special envoy post Oct 15; a US official said he was fired"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-selig",
+      "kind": "person",
+      "name": "Michael Selig",
+      "note": "Weekly audit 2026-11-02: already in the ledger as michael-selig; entry updated.",
+      "source": "Bloomberg via Just Security",
+      "status": "added",
+      "what": "CFTC chair; adviser reportedly told staff to retract oil-trade analysis"
+    },
+    {
+      "firstSeen": "2026-10-29",
+      "id": "q-pirro",
+      "kind": "person",
+      "name": "Jeanine Pirro",
+      "note": "Weekly audit 2026-11-02: already in the ledger as pirro; no new verified fact to add (search-level only).",
+      "source": "Just Security Early Edition",
+      "status": "added",
+      "what": "US Attorney probing Rep. Omar's financial disclosures"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-cooper",
+      "kind": "person",
+      "name": "Brad Cooper",
+      "note": "Weekly audit 2026-11-02: already in the ledger as cooper; entry updated.",
+      "source": "Axios via digest",
+      "status": "added",
+      "what": "CENTCOM commander briefed Trump on the blockade"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-leaker",
+      "kind": "departure",
+      "name": "Fired general (unnamed)",
+      "note": "Weekly audit 2026-11-02: already in the ledger as brett-sylvia; entry updated.",
+      "source": "Axios via digest",
+      "status": "added",
+      "what": "Axios: reportedly admitted leaking classified Iran and Ukraine information"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-habba",
+      "kind": "person",
+      "name": "Alina Habba",
+      "note": "Weekly audit 2026-11-02: added to people as alina-habba.",
+      "source": "Mediaite, NYT via digest",
+      "status": "added",
+      "what": "Reported $50M deal with pardoned banker Herrera Velutini; Trump reportedly angry"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-parnell",
+      "kind": "person",
+      "name": "Sean Parnell",
+      "note": "Weekly audit 2026-11-02: added to people as sean-parnell.",
+      "source": "Fox News Digital, SOFX",
+      "status": "added",
+      "what": "Pentagon chief spokesperson; announced and defends FORTRESS"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-ddosecrets",
+      "kind": "actor",
+      "name": "Distributed Denial of Secrets and the group \"Department of Peace\"",
+      "note": "Weekly audit 2026-11-02: Organizations, not donors; Oct 28 leak of 40,000+ DHS employee records belongs in event text.",
+      "source": "Reuters via GV Wire; Al Jazeera",
+      "status": "dropped",
+      "what": "Leak site and claimed hackers behind the Oct 28 release of data on 40,000+ DHS employees."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-flokinet",
+      "kind": "actor",
+      "name": "FlokiNET (Icelandic host)",
+      "note": "Weekly audit 2026-11-02: Foreign hosting company, one-off; refusal of DHS takedown belongs in event text.",
+      "source": "Al Jazeera",
+      "status": "dropped",
+      "what": "Refused DHS takedown request for the leaked employee data on Oct 29."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-stearns",
+      "kind": "person",
+      "name": "Judge Richard Stearns",
+      "note": "Weekly audit 2026-11-02: Judge; one ruling (Oct 29 block of Medicaid frailty rule). Record in event text.",
+      "source": "Al Jazeera (AP)",
+      "status": "dropped",
+      "what": "D. Mass. judge who blocked the Medicaid frailty rule on Oct 29."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-gruters",
+      "kind": "person",
+      "name": "Joe Gruters",
+      "note": "Weekly audit 2026-11-02: already in the ledger as gruters; entry updated.",
+      "source": "Al Jazeera",
+      "status": "added",
+      "what": "RNC chair announcing the 72-hour tele-rally push."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-r0",
+      "kind": "person",
+      "name": "Bill Essayli",
+      "note": "Weekly audit 2026-11-02: added to people as bill-essayli.",
+      "source": "Just Security Early Edition, TVG, Scripps",
+      "status": "added",
+      "what": "Judge ruled Oct 28 he is unlawfully serving as LA federal prosecutor (Early Edition)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-r1",
+      "kind": "person",
+      "name": "Jeremy Lewin",
+      "note": "Weekly audit 2026-11-02: Departed: State policy planning director (ex-DOGE, USAID shutdown) announced exit Oct 27, 2026. Record in event text.",
+      "source": "Just Security Early Edition, TVG, Scripps",
+      "status": "dropped",
+      "what": "State policy chief, ex-DOGE, leaving (Oct 28)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-r2",
+      "kind": "person",
+      "name": "Ian Brinksman",
+      "note": "Weekly audit 2026-11-02: Minor; contractor arrested for alleged classified leak to girlfriend's Substack. Record in event text.",
+      "source": "Just Security Early Edition, TVG, Scripps",
+      "status": "dropped",
+      "what": "FBI-arrested contractor, alleged classified leak (Oct 26)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-r3",
+      "kind": "person",
+      "name": "Michael Duffey",
+      "note": "Weekly audit 2026-11-02: added to people as michael-duffey.",
+      "source": "Just Security Early Edition, TVG, Scripps",
+      "status": "added",
+      "what": "Under Secretary of Defense heading the FORTRESS office due Oct 30 (TVG)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-r5",
+      "kind": "actor",
+      "name": "Judge Araceli Martinez-Olguin",
+      "note": "Weekly audit 2026-11-02: Judge; one ruling limiting ICE voter-fraud field work in nine states. Record in event text.",
+      "source": "Just Security Early Edition, TVG, Scripps",
+      "status": "dropped",
+      "what": "Limited ICE voter-fraud field work in nine states (Oct 21-22)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-iraq-government-and-banks",
+      "kind": "actor",
+      "name": "Iraq (government and banks)",
+      "note": "Weekly audit 2026-11-02: Foreign state and banks hit by Iran-related Treasury designations; model with state actors.",
+      "source": "Treasury sb0660",
+      "status": "dropped",
+      "what": "Hit by Treasury's Oct 15 Iran designations; no ledger profile."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-china-state-and-shipping-owner",
+      "kind": "actor",
+      "name": "China (state and shipping owners)",
+      "note": "Weekly audit 2026-11-02: Foreign state; Chinese-owned Ocean Molica disabled by US jet for running Iran blockade. Model with state actors.",
+      "source": "Maritime Executive",
+      "status": "dropped",
+      "what": "Owner of the Ocean Molica, disabled Oct 10; reaction unknown."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-jeanne-shaheen",
+      "kind": "person",
+      "name": "Jeanne Shaheen",
+      "note": "Weekly audit 2026-11-02: Retiring senator (not seeking reelection; term ends Jan 2027); Starshield inspector-general request belongs in event text.",
+      "source": "Boston Globe",
+      "status": "dropped",
+      "what": "Led the Oct 16 inspector-general request on Starshield."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-dan-crenshaw",
+      "kind": "person",
+      "name": "Dan Crenshaw",
+      "note": "Weekly audit 2026-11-02: Outgoing House member (term ends January); one-off Starlink critique. Record in event text.",
+      "source": "Star-Advertiser",
+      "status": "dropped",
+      "what": "Challenged Musk's Starlink explanation (Oct 26)."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-tom-rakusan",
+      "kind": "person",
+      "name": "Tom Rakusan",
+      "note": "Weekly audit 2026-11-02: Identity now verified (ex-CIA deputy director of operations, Cerberus, followed Feinberg to Pentagon) but single report of a program the Pentagon denies. Record in event text.",
+      "source": "Kurdistan24",
+      "status": "dropped",
+      "what": "Ex-CIA, reportedly oversees a Pentagon nonofficial-cover program (WaPo, Oct 22); identity not verified."
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-gleason",
+      "kind": "person",
+      "name": "Sharon Gleason",
+      "note": "Weekly audit 2026-11-02: already in the ledger as sharon-gleason; no new verified fact to add (search-level only).",
+      "source": "Playbook PM",
+      "status": "added",
+      "what": "Judge in DOJ's Alaska Senate suit; ordered DOJ to answer the dismissal motion"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-dan-j-sullivan",
+      "kind": "actor",
+      "name": "Dan J. Sullivan (Alaska spoiler candidate)",
+      "note": "Weekly audit 2026-11-02: already in the ledger as daniel-j-sullivan; no new verified fact to add (search-level only).",
+      "source": "AP via KSAT",
+      "status": "added",
+      "what": "Same-name Senate candidate NYT says Peltola staff helped recruit"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-furman",
+      "kind": "person",
+      "name": "Jesse Furman",
+      "note": "Weekly audit 2026-11-02: Judge; one ruling (Maurene Comey firing unlawful, Oct 26). Record in event text and maurene-comey.",
+      "source": "AP via Fox19",
+      "status": "dropped",
+      "what": "Judge who ruled Maurene Comey's firing unlawful (Oct 26)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-kelly",
+      "kind": "person",
+      "name": "Timothy Kelly",
+      "note": "Weekly audit 2026-11-02: Judge; media-ban injunction (extended Oct 14). Record in event text.",
+      "source": "ABC News",
+      "status": "dropped",
+      "what": "Judge who enjoined the White House ban on CNN, MS NOW, Politico (Oct 14)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-reses",
+      "kind": "departure",
+      "name": "Jacob Reses",
+      "note": "Weekly audit 2026-11-02: Departed Vance chief of staff now in private AI work; note on vance profile, not a new entry.",
+      "source": "Playbook PM",
+      "status": "dropped",
+      "what": "Former Vance chief of staff joins AI firm Cognition"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-khalil",
+      "kind": "actor",
+      "name": "Mahmoud Khalil",
+      "note": "Weekly audit 2026-11-02: Litigant, not a power holder; Supreme Court petition belongs in event text.",
+      "source": "AP via NY1",
+      "status": "dropped",
+      "what": "Detained activist petitioning the Supreme Court on detention review"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-mamdani",
+      "kind": "person",
+      "name": "Zohran Mamdani",
+      "note": "Weekly audit 2026-11-02: added to people as zohran-mamdani.",
+      "source": "ABC News",
+      "status": "added",
+      "what": "New York City mayor; failed calls to Trump and Mullin over an ICE shooting (Oct 8)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-e1",
+      "kind": "actor",
+      "name": "Megaspeed (Alice Huang)",
+      "note": "Weekly audit 2026-11-02: Alleged Chinese intelligence asset close to Jensen Huang (NYT via ABC, Oct 29); not a donor or US power holder. Record in event text and on jensen-huang.",
+      "source": "ABC News relaying NYT",
+      "status": "dropped",
+      "what": "NYT: US intelligence says Alice Huang passed information to Beijing (Oct 29); identity not verified"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-e2",
+      "kind": "person",
+      "name": "Tenaglia (Pentagon acquisition official)",
+      "note": "Weekly audit 2026-11-02: Identity verified: John Tenaglia, Principal Director, Defense Pricing, Contracting and Acquisition Policy; signed the Oct 20 unbiased-AI contracting memo. Career official; record in event text.",
+      "source": "DefenseScoop",
+      "status": "dropped",
+      "what": "Signed the Oct 20 memo implementing the woke-AI order; first name and identity not verified"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-e3",
+      "kind": "actor",
+      "name": "Anduril Industries",
+      "note": "Weekly audit 2026-11-02: added to donors as anduril.",
+      "source": "Fox News",
+      "status": "added",
+      "what": "Government to take 40% of its Baltimore shipyard owner (Oct 7)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-e4",
+      "kind": "actor",
+      "name": "Alibaba",
+      "note": "Weekly audit 2026-11-02: Company acting as a litigant, not a political donor; record the Pentagon lobbying-rule injunction in event text.",
+      "source": "Reuters via The Standard",
+      "status": "dropped",
+      "what": "Won an injunction against a Pentagon lobbyist rule (Oct 26)"
+    },
+    {
+      "firstSeen": "2026-10-30",
+      "id": "q-2026-10-30-e5",
+      "kind": "donor",
+      "name": "AMD (Lisa Su)",
+      "note": "Weekly audit 2026-11-02: added to donors as amd.",
+      "source": "NewsBytes; Gulf News/IANS",
+      "status": "added",
+      "what": "$500M compute pledge to the Genesis Mission; Su given a National Medal (Oct 9)"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-01",
+      "kind": "actor",
+      "name": "Mojtaba Khamenei",
+      "note": "Weekly audit 2026-11-02: added to people as mojtaba-khamenei.",
+      "source": "Axios AM, Oct 31",
+      "status": "added",
+      "what": "Iran's Supreme Leader; ordered an unlimited response to any new attack (Oct 31). No ledger profile."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-02",
+      "kind": "actor",
+      "name": "Asim Munir",
+      "note": "Weekly audit 2026-11-02: added to people as asim-munir.",
+      "source": "Al Jazeera, Oct 30",
+      "status": "added",
+      "what": "Pakistan's army chief and US-Iran go-between; two Tehran visits in October. No ledger profile."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-03",
+      "kind": "actor",
+      "name": "Volodymyr Zelenskyy",
+      "note": "Weekly audit 2026-11-02: added to people as zelenskyy.",
+      "source": "Al Jazeera, Euronews, Oct 31",
+      "status": "added",
+      "what": "Ukraine's president; buyer in the $2.1B Patriot sale (Oct 31) and actor in many Russia items. No ledger profile."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-04",
+      "kind": "person",
+      "name": "Melania Trump",
+      "note": "Weekly audit 2026-11-02: added to people as melania-trump.",
+      "source": "Al Jazeera, Oct 31",
+      "status": "added",
+      "what": "White House credits her with brokering the Oleshky truce and evacuation (Oct 30-31)."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-05",
+      "kind": "actor",
+      "name": "Yana Lantratova",
+      "note": "Weekly audit 2026-11-02: Identity verified (Russia's human rights commissioner); one-off counterpart, record in Oleshky event text.",
+      "source": "Al Jazeera, Oct 31",
+      "status": "dropped",
+      "what": "Russian human-rights ombudswoman; led Moscow's side of the Oleshky evacuation. First name per common usage, identity not verified."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-06",
+      "kind": "person",
+      "name": "Stephen Hubbard",
+      "note": "Weekly audit 2026-11-02: Minor: freed American prisoner (74, ex-teacher from Michigan); record in event text.",
+      "source": "CBS, Oct 30",
+      "status": "dropped",
+      "what": "American, 74, freed from Russian jail; met Trump Oct 30. Minor name."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-07",
+      "kind": "role-change",
+      "name": "Pete Hegseth",
+      "note": "Weekly audit 2026-11-02: already in the ledger as hegseth; no new verified fact to add (search-level only).",
+      "source": "Tennessee Lookout Oct 27; The Hill Oct 31",
+      "status": "added",
+      "what": "Headline only: could be appointed to Blackburn's Senate seat if she becomes Tennessee governor (Rep. Fleischmann). For the midterms or succession cluster."
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-08",
+      "kind": "person",
+      "name": "Turhan Mildon",
+      "note": "Weekly audit 2026-11-02: Minor: Turkish businessman married to Alina Habba (Sept 2026); NYT scrutiny is headline only; record in event text.",
+      "source": "NYT headline; Daily Beast Oct 13",
+      "status": "dropped",
+      "what": "Alina Habba's husband; NYT (Oct 30, headline) says his Congo and Venezuela background is under scrutiny"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-09",
+      "kind": "departure",
+      "name": "Robert Leider",
+      "note": "Weekly audit 2026-11-02: Minor departure: ATF chief counsel resigned Oct 30 to return to George Mason law school; record in event text.",
+      "source": "CBS headline",
+      "status": "dropped",
+      "what": "ATF's top lawyer, who oversaw the firearms-rule overhaul, resigns"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-10",
+      "kind": "actor",
+      "name": "Ana Reyes",
+      "note": "Weekly audit 2026-11-02: Judge; record her Oct 30 misconduct inquiry over East Potomac in event text.",
+      "source": "CBS headline Oct 30",
+      "status": "dropped",
+      "what": "Federal judge opening a misconduct inquiry into Trump officials over East Potomac Golf Links"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-11",
+      "kind": "person",
+      "name": "Josh Shapiro",
+      "note": "Weekly audit 2026-11-02: added to people as josh-shapiro.",
+      "source": "Washington Sun headline",
+      "status": "added",
+      "what": "Pennsylvania governor described as sounding like a 2028 candidate"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-12",
+      "kind": "actor",
+      "name": "Dan Osborn",
+      "note": "Weekly audit 2026-11-02: added to people as dan-osborn.",
+      "source": "The Hill",
+      "status": "added",
+      "what": "Independent Nebraska Senate candidate trailing Ricketts by 6 in a poll"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-13",
+      "kind": "actor",
+      "name": "Mark Carney",
+      "note": "Weekly audit 2026-11-02: added to people as mark-carney.",
+      "source": "Politico Playbook (Oct 31)",
+      "status": "added",
+      "what": "Canada's prime minister; says Canada may wait for a new US president for a trade deal (Oct 31); no people entry"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-14",
+      "kind": "person",
+      "name": "Dina Powell McCormick",
+      "note": "Weekly audit 2026-11-02: added to people as dina-powell-mccormick.",
+      "source": "Axios (Oct 31)",
+      "status": "added",
+      "what": "Met the House Democrats' AI commission with Zuckerberg in August; role at Meta not given in the facts"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-15",
+      "kind": "actor",
+      "name": "Meta Washington team (Hacker, Schmit, Raffel, Trueman)",
+      "note": "Weekly audit 2026-11-02: Group of unnamed-first-name staff hires; Meta already in donors; record in event text. Axios page failed (client_error).",
+      "source": "Axios (Oct 31)",
+      "status": "dropped",
+      "what": "New bipartisan Meta policy hires; first names and prior roles not given"
+    },
+    {
+      "firstSeen": "2026-10-31",
+      "id": "q-2026-10-31-16",
+      "kind": "actor",
+      "name": "Irregular",
+      "note": "Weekly audit 2026-11-02: AI security research firm; one-off source of a test result; record in event text.",
+      "source": "DefenseScoop",
+      "status": "dropped",
+      "what": "AI security evaluator whose test compared Z.AI GLM-5.3 and OpenAI GPT-6 Astra on cyberattack scenarios"
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-1",
+      "kind": "actor",
+      "name": "Pope Leo XIV",
+      "note": "Weekly audit 2026-11-02: One-off credit on the Oleshky truce; record in event text; revisit if he recurs as a US-policy actor.",
+      "source": "Al Jazeera, Nov 1",
+      "status": "dropped",
+      "what": "Credited by Al Jazeera with helping Melania Trump mediate the Oleshky truce (Nov 1). No ledger profile."
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-2",
+      "kind": "actor",
+      "name": "Qatar Gas Transport Company",
+      "note": "Weekly audit 2026-11-02: This is Nakilat, Qatar's LNG shipper; a ship-attack victim, not a donor; record in event text (Al Mayeda strike not independently read).",
+      "source": "Al Jazeera, Nov 1",
+      "status": "dropped",
+      "what": "Qatari LNG shipper whose carrier Al Mayeda was hit in the Gulf Oct 30. No ledger profile."
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-3",
+      "kind": "actor",
+      "name": "Anita Orban (Hungarian foreign minister)",
+      "note": "Weekly audit 2026-11-02: Verified as Hungary's foreign minister; one-off signer of energy and law-enforcement deals with Rubio; record in event text.",
+      "source": "Anadolu Agency, Oct 29",
+      "status": "dropped",
+      "what": "Signed the US-Hungary energy memorandum with Rubio Oct 29. No ledger profile."
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-4",
+      "kind": "actor",
+      "name": "Alaska attorney general's office (Department of Law)",
+      "note": "Weekly audit 2026-11-02: State office as litigant; record in event text (represents Division of Elections and director Carol Beecher).",
+      "source": "AP via Click2Houston",
+      "status": "dropped",
+      "what": "Opposes DOJ's Alaska Senate suit as meritless and calls ballot separation impossible (Oct 31)"
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-5",
+      "kind": "actor",
+      "name": "Washington Secretary of State's office",
+      "note": "Weekly audit 2026-11-02: already in the ledger as steve-hobbs; entry updated.",
+      "source": "CBS News",
+      "status": "added",
+      "what": "Received DOJ letter (Oct 26) to separate 405 mail ballots; response not reported"
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-6",
+      "kind": "person",
+      "name": "Chris Lehane",
+      "note": "Weekly audit 2026-11-02: added to people as chris-lehane.",
+      "source": "Axios AM (Nov 1)",
+      "status": "added",
+      "what": "OpenAI's policy chief leading a post-midterm push for mandatory safeguards and data-center compacts"
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-7",
+      "kind": "actor",
+      "name": "Flavio Bolsonaro",
+      "note": "Weekly audit 2026-11-02: Defeated Brazilian candidate in Miami on US visas while investigated at home; record in event text; revisit if US protection recurs.",
+      "source": "Al Jazeera (Nov 1)",
+      "status": "dropped",
+      "what": "Defeated Brazilian candidate in Miami reportedly under humanitarian parole; under investigation in Brazil"
+    },
+    {
+      "firstSeen": "2026-11-01",
+      "id": "q-2026-11-01-8",
+      "kind": "actor",
+      "name": "State data-center opposition",
+      "note": "Weekly audit 2026-11-02: Not a person or donor; a model gap for AI policy (Texas permit moratorium, 21 Ohio local measures) for the audit to handle.",
+      "source": "Axios AM Deep Dive (Oct 31)",
+      "status": "dropped",
+      "what": "Local and state backlash to data centers (Texas pause, 21 Ohio measures) has no stored belief or faction; model gap for AI policy"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-noam-sohlberg",
+      "kind": "actor",
+      "name": "Noam Sohlberg",
+      "note": "Weekly audit 2026-11-02: Israeli Supreme Court justice chairing the elections committee; one-off; record in event text.",
+      "source": "Al Jazeera, Nov 2",
+      "status": "dropped",
+      "what": "Head of Israel's Central Elections Committee; said results stand even if foreign interference were confirmed (Nov 2)."
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-russia-s-emergencies-ministry",
+      "kind": "actor",
+      "name": "Russia's Emergencies Ministry",
+      "note": "Weekly audit 2026-11-02: Foreign ministry as actor; app-hack claim not found in my searches (unverified).",
+      "source": "Al Jazeera, Nov 2",
+      "status": "dropped",
+      "what": "Said its alert app was hacked after the Oleshky truce ended (Nov 2)."
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-alexandria-ocasio-cortez",
+      "kind": "person",
+      "name": "Alexandria Ocasio-Cortez",
+      "note": "Weekly audit 2026-11-02: added to people as alexandria-ocasio-cortez.",
+      "source": "Politico Playbook (Nov 2); Axios 2028 (Nov 1)",
+      "status": "added",
+      "what": "Tried to dissuade Stevens; gave $1M for El-Sayed and $150K each to Troy Jackson, Mary Peltola, Angie Nixon"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-lindsey-graham",
+      "kind": "person",
+      "name": "Lindsey Graham",
+      "note": "Weekly audit 2026-11-02: already in the ledger as lindsey-graham; entry updated.",
+      "source": "Axios AM (Nov 2); NPR (Jul 11, stored)",
+      "status": "added",
+      "what": "Axios (Nov 2) names 'Graham' in South Carolina's Senate race; ledger records his death Jul 11; verify which is right"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-cindy-hyde-smith",
+      "kind": "person",
+      "name": "Cindy Hyde-Smith",
+      "note": "Weekly audit 2026-11-02: Rank-and-file senator in a Solid Republican race (vs. Scott Colom); record GOP money moves in event text.",
+      "source": "Axios AM (Nov 2)",
+      "status": "dropped",
+      "what": "Senator (R-Mississippi) whose race draws diverted GOP money"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-james-talarico",
+      "kind": "person",
+      "name": "James Talarico",
+      "note": "Weekly audit 2026-11-02: added to people as james-talarico.",
+      "source": "Axios AM citing NYT (Nov 2)",
+      "status": "added",
+      "what": "Texas Democratic Senate candidate; Reid Hoffman gave about $17M for his race"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-steve-scalise",
+      "kind": "person",
+      "name": "Steve Scalise",
+      "note": "Weekly audit 2026-11-02: added to people as steve-scalise.",
+      "source": "Punchbowl News AM (Nov 2)",
+      "status": "added",
+      "what": "Eyes a House GOP leader post if Republicans lose the majority"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-jim-jordan",
+      "kind": "person",
+      "name": "Jim Jordan",
+      "note": "Weekly audit 2026-11-02: added to people as jim-jordan.",
+      "source": "Punchbowl News AM (Nov 2)",
+      "status": "added",
+      "what": "Eyes a House GOP leader post if Republicans lose the majority"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-gavin-newsom",
+      "kind": "person",
+      "name": "Gavin Newsom",
+      "note": "Weekly audit 2026-11-02: added to people as gavin-newsom.",
+      "source": "Axios 2028; Politico Playbook (Nov 1)",
+      "status": "added",
+      "what": "Prepping a super PAC; warns judges of possible election interference"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-ucla-voter-list-analysts",
+      "kind": "actor",
+      "name": "UCLA voter-list analysts",
+      "note": "Weekly audit 2026-11-02: Analysts, not actors; record finding in event text. The analysis I read was by Los Angeles County officials (38.9% U.S.-born in a sample); UCLA attribution not verified.",
+      "source": "The Hill; Politico Playbook (Nov 1-2)",
+      "status": "dropped",
+      "what": "Found about two-fifths of California names on the DOJ list are not on the rolls"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-sherrod-brown",
+      "kind": "person",
+      "name": "Sherrod Brown",
+      "note": "Weekly audit 2026-11-02: added to people as sherrod-brown.",
+      "source": "Politico Playbook (Nov 2 newsletter)",
+      "status": "added",
+      "what": "Ohio Senate Democratic candidate whose win Big Tech fears over data centers (Politico, Nov 2); no people entry"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-darline-graham",
+      "kind": "person",
+      "name": "Darline Graham",
+      "note": "",
+      "source": "WBTV (Oct 27); WRDW",
+      "status": "new",
+      "what": "Senator (R-South Carolina), appointed after her brother Lindsey Graham's death; GOP nominee vs Annie Andrews Nov 3"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-maame-frimpong",
+      "kind": "person",
+      "name": "Maame Ewusi-Mensah Frimpong",
+      "note": "",
+      "source": "Newsweek; LA Times",
+      "status": "new",
+      "what": "Judge who barred appearance-based immigration stops in Los Angeles and six counties (order Oct 23)"
+    },
+    {
+      "firstSeen": "2026-11-02",
+      "id": "q-timothy-courchaine",
+      "kind": "person",
+      "name": "Timothy Courchaine",
+      "note": "",
+      "source": "DOJ release",
+      "status": "new",
+      "what": "US Attorney for Arizona; opened a noncitizen-registration case on three nonprofits (Oct 30)"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-chris-murphy",
+      "kind": "person",
+      "name": "Chris Murphy",
+      "note": "Daily run 2026-11-03.",
+      "source": "CBS News",
+      "status": "new",
+      "what": "CBS headline: hospitalized after a stroke; page has no printed date; verify before updating his status."
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-mohsen-rezaei",
+      "kind": "person",
+      "name": "Mohsen Rezaei",
+      "note": "Daily run 2026-11-03.",
+      "source": "Euronews",
+      "status": "new",
+      "what": "Iranian official who says he has not answered a Vance letter and US conditions come first (Nov 2); identity and office not verified."
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-abbas-araghchi",
+      "kind": "actor",
+      "name": "Abbas Araghchi",
+      "note": "Daily run 2026-11-03.",
+      "source": "Euronews",
+      "status": "new",
+      "what": "Iran's foreign minister, set public conditions for reopening Hormuz (Nov 2)."
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-masoud-pezeshkian",
+      "kind": "actor",
+      "name": "Masoud Pezeshkian",
+      "note": "Daily run 2026-11-03.",
+      "source": "Politico Playbook PM (Bloomberg, NYT)",
+      "status": "new",
+      "what": "Iran's president; says the supreme leader widened the government's power to negotiate (Nov 2)."
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-brian-christine",
+      "kind": "person",
+      "name": "Brian Christine",
+      "note": "Daily run 2026-11-03.",
+      "source": "CDC signed order (PDF)",
+      "status": "new",
+      "what": "Assistant Secretary for Health; signed the Oct 28 CDC Ebola boarding order"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-emily-randall",
+      "kind": "person",
+      "name": "Emily Randall",
+      "note": "Daily run 2026-11-03.",
+      "source": "KUOW (Oct 29)",
+      "status": "new",
+      "what": "Representative (D-Washington); says GEO was the only bid for the Tacoma ICE contract"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-government-of-south-africa",
+      "kind": "actor",
+      "name": "Government of South Africa",
+      "note": "Daily run 2026-11-03.",
+      "source": "Reuters",
+      "status": "new",
+      "what": "Being suspended from AGOA duty-free access (Nov 2)"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-government-of-rwanda",
+      "kind": "actor",
+      "name": "Government of Rwanda",
+      "note": "Daily run 2026-11-03.",
+      "source": "Reuters; Semafor",
+      "status": "new",
+      "what": "Being suspended from AGOA over support for militias in DR Congo (Nov 2)"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-accenture",
+      "kind": "actor",
+      "name": "Accenture",
+      "note": "Daily run 2026-11-03.",
+      "source": "WIRED via SOFX (Nov 2)",
+      "status": "new",
+      "what": "Pentagon contractor whose employee reportedly ran a banned Claude agent on a Defense network; disputes it"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-kaz-resources",
+      "kind": "ownership",
+      "name": "Kaz Resources",
+      "note": "Daily run 2026-11-03.",
+      "source": "Politico Playbook citing WSJ (Nov 2-3)",
+      "status": "new",
+      "what": "Tungsten miner with Trump Jr. and Eric Trump stakes plans $2B US listing; read the WSJ story"
+    },
+    {
+      "firstSeen": "2026-11-03",
+      "id": "q-gwynne-shotwell",
+      "kind": "person",
+      "name": "Gwynne Shotwell",
+      "note": "Daily run 2026-11-03.",
+      "source": "CNBC (Nov 2)",
+      "status": "new",
+      "what": "SpaceX president giving SpaceX stock to Trump Account holders in December"
+    }
+  ]
+}

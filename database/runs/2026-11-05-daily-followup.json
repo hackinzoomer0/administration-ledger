@@ -1,0 +1,188 @@
+{
+  "added": 2,
+  "summary": "Focused follow-up to the November 5 daily run. Rechecked projected chamber control and post-election reactions. Recorded the Afghan removal restraint, Schumer’s confirmation posture and Guard patrol authorization, and refined the Epstein and Russia episodes. The specific November 4 Los Angeles grand jury outcome remains unreviewed.",
+  "coverage": {
+    "scope": "November 5 incremental decision and reaction review, including earlier decisions disclosed or missed in the prior daily entry. Targeted search across all ten issues. Full source index, newsletter, watch rotation and docket enumeration outside scope.",
+    "lookbackDays": 1,
+    "sourcesRead": [
+      "https://apnews.com/article/a419fbb329b96480d806d9ffbd52ccb4",
+      "https://reports.afghanevac.org/litigation/?embed=1",
+      "https://apnews.com/article/d8d5262fe3d820a3dc73193002f0f27e",
+      "https://apnews.com/article/e6f2fc06768103f59536b785756f8858",
+      "https://apnews.com/article/3ae35835dbc87ab348478c62c6c25ee3",
+      "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations",
+      "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002",
+      "https://www.thedailybeast.com/secret-west-wing-knife-fight-exposed-in-wake-of-disaster",
+      "https://www.elections.alaska.gov/election-results/",
+      "https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/"
+    ],
+    "outcomes": {
+      "Chamber control": {
+        "status": "reviewed",
+        "finding": "AP projects Democratic control of the next House and Senate.",
+        "source": "https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/"
+      },
+      "Outstanding election calls and certifications": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+        "source": "https://apnews.com/article/d4f55516fd72155d746cfbbc2017c743"
+      },
+      "Israel election certification": {
+        "status": "reviewed",
+        "finding": "Results certified and delivered to Herzog Nov 4.",
+        "source": "https://www.gov.il/en/pages/president-herzog-receives-the-official-results-of-the-elections-to-the-26th-knesset-4-november-2026"
+      },
+      "Israel government formation": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check Herzog’s expected Nov 8 mandate and subsequent coalition support.",
+        "source": "https://apnews.com/article/a35d13806844d99fda93de0a19de57fa"
+      },
+      "Cook Nov 5 hearing": {
+        "status": "reviewed",
+        "finding": "Hassett reported postponement to December. No agreed date verified.",
+        "source": "https://kelo.com/2026/10/30/white-house-hearing-on-feds-cook-delayed-to-december-hassett-says/"
+      },
+      "Cook court filing and hearing": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check Nov 6 joint proposal and revised hearing date."
+      },
+      "Iran war decision": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Trump reviewed options and says he will decide soon. Look for an order or implementation.",
+        "source": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
+      },
+      "House leadership and Pentagon job pressure": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check Scalise/Jordan vote, Massie floor action, any personnel decision, and Tennessee appointment.",
+        "source": "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+      },
+      "Succession": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+        "source": "https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002"
+      },
+      "AI": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments."
+      },
+      "Epstein oversight": {
+        "status": "pending",
+        "finding": "Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing.",
+        "source": "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations"
+      },
+      "Immigration court decisions": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check bond detention, Khalil and the Nov 6 Venezuela TPS stay expiration and mandate.",
+        "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/30/25-5724.pdf"
+      },
+      "Afghan removal flight": {
+        "status": "reviewed",
+        "finding": "Court temporarily bound the government to its representation that no charter or commercial removal flight to Afghanistan or Pakistan was planned or confirmed through the end of the week.",
+        "source": "https://apnews.com/article/a419fbb329b96480d806d9ffbd52ccb4"
+      },
+      "Tariffs": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check Section 301 ruling, Section 338 litigation and Canadian negotiations."
+      },
+      "Venezuela": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check OFAC Citgo decision and Nov 11–15 talks."
+      },
+      "Russia": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration."
+      },
+      "Election enforcement grand jury": {
+        "status": "unreviewed",
+        "finding": "Search surfaced prior Los Angeles subpoenas and separate November 4 reporting on Northern California subpoenas. The specific Los Angeles follow-up still lacks readable verification.",
+        "source": "https://www.latimes.com/california/story/2026-10-30/trump-doj-la-election-officials-subpoenas-explained"
+      },
+      "Senate oversight": {
+        "status": "pending",
+        "finding": "Carried forward after targeted screening. Watch for production, subpoenas and committee authority after organization.",
+        "source": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more"
+      },
+      "Afghan removal order expiration": {
+        "status": "pending",
+        "finding": "Check the November 7 expiration, any extension, and any subsequent removal notices.",
+        "source": "https://reports.afghanevac.org/litigation/?embed=1"
+      },
+      "D.C. Guard patrol authority": {
+        "status": "reviewed",
+        "finding": "Hegseth approved expanded patrol equipment in October 29 memos disclosed November 5. Check use and court action separately.",
+        "source": "https://apnews.com/article/e6f2fc06768103f59536b785756f8858"
+      },
+      "D.C. Guard implementation and litigation": {
+        "status": "pending",
+        "finding": "Check implementation of expanded patrol authority and status of District litigation.",
+        "source": "https://apnews.com/article/e6f2fc06768103f59536b785756f8858"
+      },
+      "Senate confirmation posture": {
+        "status": "reviewed",
+        "finding": "Schumer stated opposition to a right-wing Supreme Court nominee. Watch for a vacancy or nomination and subsequent action.",
+        "source": "https://apnews.com/article/d8d5262fe3d820a3dc73193002f0f27e"
+      }
+    },
+    "watchlist": [
+      "Outstanding election calls and certifications",
+      "Israel government formation",
+      "Cook court filing and hearing",
+      "Iran war decision",
+      "House leadership and Pentagon job pressure",
+      "Succession",
+      "AI",
+      "Epstein oversight",
+      "Immigration court decisions",
+      "Tariffs",
+      "Venezuela",
+      "Russia",
+      "Election enforcement grand jury",
+      "Senate oversight",
+      "Afghan removal order expiration",
+      "D.C. Guard implementation and litigation"
+    ],
+    "unresolved": [
+      "Carried forward after targeted screening. Check the remaining Alaska and Mississippi Senate and Alaska and Kansas governor calls, certification and final margins.",
+      "Carried forward after targeted screening. Check Herzog’s expected Nov 8 mandate and subsequent coalition support.",
+      "Carried forward after targeted screening. Check Nov 6 joint proposal and revised hearing date.",
+      "Carried forward after targeted screening. Trump reviewed options and says he will decide soon. Look for an order or implementation.",
+      "Carried forward after targeted screening. Check Scalise/Jordan vote, Massie floor action, any personnel decision, and Tennessee appointment.",
+      "Carried forward after targeted screening. Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure.",
+      "Carried forward after targeted screening. Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments.",
+      "Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing.",
+      "Carried forward after targeted screening. Check bond detention, Khalil and the Nov 6 Venezuela TPS stay expiration and mandate.",
+      "Carried forward after targeted screening. Check Section 301 ruling, Section 338 litigation and Canadian negotiations.",
+      "Carried forward after targeted screening. Check OFAC Citgo decision and Nov 11–15 talks.",
+      "Carried forward after targeted screening. Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration.",
+      "Search surfaced prior Los Angeles subpoenas and separate November 4 reporting on Northern California subpoenas. The specific Los Angeles follow-up still lacks readable verification.",
+      "Carried forward after targeted screening. Watch for production, subpoenas and committee authority after organization.",
+      "Check the November 7 expiration, any extension, and any subsequent removal notices.",
+      "Check implementation of expanded patrol authority and status of District litigation."
+    ],
+    "changedEpisodeIds": [
+      "mid-2026-11-05-schumer-confirmation-stance",
+      "imm-2026-10-29-dc-guard-patrol-authority",
+      "rus-2026-11-05-oleshky-white-house-followup",
+      "eps-2026-11-05-disclosure-oversight-push",
+      "imm-2026-10-26-afghan-deportations"
+    ],
+    "reviewedEpisodeIds": [
+      "mid-2026-11-05-schumer-confirmation-stance",
+      "imm-2026-10-29-dc-guard-patrol-authority",
+      "rus-2026-11-05-oleshky-white-house-followup",
+      "eps-2026-11-05-disclosure-oversight-push",
+      "imm-2026-10-26-afghan-deportations",
+      "mid-2026-11-05-congress-control",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "mid-2026-11-04-johnson-leadership",
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "irn-2026-11-05-trump-postelection-war-review"
+    ],
+    "validation_results": "WARNING donors: \"Safety and Affordability PAC\" may combine several entries\nWARNING donors: \"American Iron and Steel Institute\" may combine several entries\nWARNING donors: \"Center for Economic and Policy Research\" may combine several entries\n0 errors, 3 warnings",
+    "checklist": {
+      "collector": "partial, focused decision and reaction searches",
+      "duplicates": "embedded slicer and nearby event review",
+      "validation": "embedded validator targeted to changed rows"
+    }
+  }
+}

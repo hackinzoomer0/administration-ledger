@@ -1,0 +1,9 @@
+CALENDAR, WATCH AND LEGAL. You get: pending lines, watch rows and scheduled items falling in the window, plus the next names on the watch rotation.
+(1) CALENDAR: for each pending or watch item dated in the window, find what happened, read a source, and say resolved, postponed or "outcome not found" (only after trying a search, the relevant official page, and another outlet).
+(2) WATCH: for each name, search name plus a recent topic or outlet (bare names return old material), check publication dates, and report any dated change in role, board seats, ownership, deals, acquisitions, lawsuits, investigations, donations or public position.
+(3) LEGAL: run at least three targeted searches (a named figure from the pending items or watch list plus subpoena, indictment, inspector general, lawsuit or ethics complaint) and record each query.
+Return: {"calendar":[{"item","status","what","date","url","tier"}],"watch":[{"name","checked":true,"change","date","url","tier"}],"legal":[{"query","finding","date","url"}]}
+
+At the start of every daily intake, check major scheduled outcomes and pending decisions across all tracked issues, including elections, chamber control, major court rulings, and changes in executive or military policy. Check directly for results after a major event. Record each outcome as reviewed, pending, or unreviewed. Keep pending results on the next run’s watchlist. A focused intake must state its scope and flag any major unreviewed event in its summary.
+
+After a major shock such as an election loss, search for consequential actors’ public reactions, private blame, leadership or job pressure, and counter-moves. Look beyond the result and official releases. For each material finding, record the source and attribution. Carry open contests forward for follow-up.

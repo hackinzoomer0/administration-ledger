@@ -1,0 +1,2074 @@
+{
+  "schema_version": "1.2.0",
+  "title": "2028 Republican nomination candidate wargame",
+  "as_of_date": "2026-11-07",
+  "timezone": "America/Chicago",
+  "scope": {
+    "candidates": [
+      "JD Vance",
+      "Marco Rubio",
+      "Ron DeSantis",
+      "Ted Cruz",
+      "John McEntee"
+    ],
+    "purpose": "Structured comparison of positions, financial relationships, potential constituencies, strengths, weaknesses, documented controversies, and subjective nomination estimates.",
+    "limitations": [
+      "Not a comprehensive opposition-research dossier, donor ledger, or full legislative voting inventory.",
+      "No unsubstantiated hidden scandal is alleged.",
+      "Historical donors, business investors, paid clients, organizations, and prospective political supporters are distinguished.",
+      "Sources were retrieved during the conversation; URLs and publication metadata are included for audit. No full FEC audit was performed.",
+      "Source reliability varies; official records are distinguished from reporting and analyst inference.",
+      "A report or committee finding is not automatically a criminal adjudication."
+    ]
+  },
+  "forecast_methodology": {
+    "type": "Subjective analyst judgment",
+    "target": "Conditional probability of winning the 2028 Republican nomination given that one of the five included candidates wins; not a full-field probability.",
+    "not_polling_or_market_odds": true,
+    "not_statistically_calibrated": true,
+    "precision_note": "Two decimal places preserve proportional normalization; they do not indicate measured precision or confidence intervals.",
+    "normalization": "The five owner-authorized candidates sum to 100. These are conditional shares among the approved roster; unlisted contenders remain an explicit field-coverage uncertainty. No threshold permits automatic additions.",
+    "basis": [
+      "Early polling and institutional position",
+      "Prospective entry and organizational capacity",
+      "War and economic responsibility",
+      "Message consistency and credibility",
+      "Donor and organizational relationships",
+      "Documented controversies and prospective oversight"
+    ],
+    "base_case": "Uneven de-escalation efforts, lingering economic costs, congressional oversight beginning with the new Congress in January 2027, and conflict over responsibility.",
+    "critical_uncertainties": [
+      "War trajectory",
+      "Economic recovery",
+      "Evidence produced in investigations",
+      "Trump endorsement",
+      "Candidate entry",
+      "Unlisted challengers"
+    ],
+    "probability_source": "Subjective original weights proportionally normalized across the five included candidates; not polling, market odds, or a formal simulation.",
+    "candidate_inclusion_rule": {
+      "named_candidates_retained": true,
+      "additional_candidates_require_explicit_owner_authorization": true,
+      "assessment_note": "Supersedes the imported >10% automatic inclusion rule. Outside contenders may be flagged for owner review, never added or assigned tracked probabilities by scheduled reviews."
+    }
+  },
+  "issue_definitions": [
+    {
+      "id": "affordability_energy_trade",
+      "label": "Affordability, energy, jobs, and trade"
+    },
+    {
+      "id": "iran_israel_intervention",
+      "label": "Iran, Israel, and intervention"
+    },
+    {
+      "id": "integrity_executive_power",
+      "label": "Corruption, executive power, and accountability"
+    },
+    {
+      "id": "immigration_public_safety",
+      "label": "Immigration, enforcement, and public safety"
+    },
+    {
+      "id": "social_cultural_policy",
+      "label": "Social conservatism, education, and cultural policy"
+    }
+  ],
+  "public_sentiment": {
+    "source_ids": [
+      "prri"
+    ],
+    "survey_field_dates": "2026-08-20 through 2026-09-07",
+    "republicans_saying_iran_strikes_justified_pct": 71,
+    "republicans_saying_us_provides_too_much_support_to_israel_pct": 50,
+    "republicans_disagreeing_with_too_much_support_pct": 46,
+    "interpretation": "Supporting initial strikes, opposing prolonged war, and questioning the level of Israel support can coexist. These figures do not measure candidate support or predict 2028."
+  },
+  "candidates": [
+    {
+      "id": "jd_vance",
+      "name": "JD Vance",
+      "nomination_likelihood_pct": 49.35,
+      "forecast_rationale": "Lead is consistent with the ledger: RNC finance role, Malik/Rockbridge fundraising, Turning Point backing and Don Jr. provide concrete channels. The post-election Iran break creates strategic room as well as credibility risk; it is not a measured gain in voter support. Tech backers are not a unified bloc on immigration. Hold 49.35 as an uncalibrated starting estimate.",
+      "positions": {
+        "affordability_energy_trade": {
+          "summary": "Economic-nationalist political identity; responsibility for administration outcomes limits his ability to present himself as an independent corrective.",
+          "evidence": [
+            {
+              "text": "The war and associated energy disruption link foreign-policy decisions to household costs.",
+              "status": "reported_fact",
+              "source_ids": [
+                "energy"
+              ]
+            },
+            {
+              "text": "Specific future tariff, tax, housing, and energy proposals were not comprehensively verified for this file.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "iran_israel_intervention": {
+          "summary": "Combines restraint rhetoric with an explicit Israel exception and support for force against Iran; later defended intervention and then criticized the war after electoral losses.",
+          "evidence": [
+            {
+              "text": "July 2024: advocated hard strikes and praised the Soleimani operation.",
+              "status": "reported_fact",
+              "source_ids": [
+                "vance_2024"
+              ]
+            },
+            {
+              "text": "June 2025: publicly defended nuclear-site strikes as limited action supporting peace.",
+              "status": "documented_public_statement",
+              "source_ids": [
+                "vance_2025"
+              ]
+            },
+            {
+              "text": "2026: defended potential benefits, then blamed the conflict for electoral losses.",
+              "status": "reported_fact",
+              "source_ids": [
+                "vance_nov2026"
+              ]
+            },
+            {
+              "text": "October–November 2026: engaged in negotiations to end the conflict.",
+              "status": "reported_fact",
+              "source_ids": [
+                "vance_oct2026",
+                "vance_diplomacy"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "integrity_executive_power": {
+          "summary": "Defender and participant in the administration; no blanket conclusion about misconduct is warranted.",
+          "evidence": [
+            {
+              "text": "Internal records could test whether public claims of restraint match his actual influence.",
+              "status": "scenario",
+              "source_ids": [
+                "oversight"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "immigration_public_safety": {
+          "summary": "Strong enforcement orientation; post-midterm remarks contemplated more emphasis on employers hiring unauthorized workers while rejecting amnesty.",
+          "evidence": [
+            {
+              "text": "Post-election enforcement comments were reported by AP.",
+              "status": "reported_fact",
+              "source_ids": [
+                "vance_nov2026"
+              ]
+            },
+            {
+              "text": "The ledger records the July 2024 foreign-labor restriction line, October 2026 H-1B remarks and PERM suspensions. Distinguish his statements from the administration action and its causal attribution.",
+              "status": "carried_from_ledger",
+              "source_ids": [],
+              "ledger_refs": [
+                "collections.factions.vance.positions.IMM"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "social_cultural_policy": {
+          "summary": "Associated with socially conservative politics; specific 2028 proposals and changes require additional issue-by-issue verification.",
+          "evidence": [
+            {
+              "text": "Do not interpret this summary as a verified position on every abortion, education, or religious-liberty proposal.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        }
+      },
+      "donors_and_financial_networks": [
+        {
+          "name": "Peter Thiel",
+          "relationship": "Historical financial backer of Senate super PAC; approximately $15 million in 2022",
+          "period": "2022",
+          "source_ids": [
+            "thiel_vance"
+          ],
+          "confirmed_2028_commitment": false
+        },
+        {
+          "name": "Elon Musk",
+          "relationship": "Reported political and donor-network relationship; not a verified 2028 contribution",
+          "period": "Reported in 2026",
+          "source_ids": [
+            "vance_network"
+          ],
+          "confirmed_2028_commitment": false
+        },
+        {
+          "name": "Rockbridge Network",
+          "relationship": "Donor and policy network associated with Vance; organization, not an individual donor",
+          "period": "Reported in 2026",
+          "source_ids": [
+            "vance_network"
+          ],
+          "confirmed_2028_commitment": false
+        }
+      ],
+      "base_of_support": {
+        "classification": "Analytical coalition assessment, not measured subgroup vote shares",
+        "likely_constituencies": [
+          "Trump-continuity Republicans",
+          "Economic-nationalist conservatives",
+          "Some restraint-oriented voters, subject to credibility concerns",
+          "Voters prioritizing an established successor"
+        ],
+        "documented_organizational_relationships": [
+          {
+            "text": "ABC reported Turning Point USA backing and relationships with Donald Trump Jr. and Tucker Carlson.",
+            "status": "reported_fact",
+            "source_ids": [
+              "vance_network"
+            ]
+          }
+        ],
+        "constraints": [
+          "Hawks may distrust his retreat from war advocacy.",
+          "Restraint voters may distrust earlier support for force.",
+          "Defectors may associate him with the administration's economic outcomes.",
+          "Carlson/Kent restraint audiences are contestable; ideological affinity and message amplification are not blanket candidate endorsements.",
+          "Vance and technology patrons diverge on skilled immigration; financial ties do not establish agreement on every policy."
+        ]
+      },
+      "strengths_for_base": [
+        "Vice-presidential visibility and institutional relationships",
+        "Established fundraising and organizational networks",
+        "Ability to connect foreign policy with economic nationalism",
+        "Potential to demonstrate results through a negotiated settlement",
+        "A public post-election distinction from war defenders provides a succession argument before any policy or polling gain is demonstrated."
+      ],
+      "weaknesses_for_base": [
+        "Repeated repositioning creates a chameleon or opportunism critique.",
+        "Public advocacy creates ownership beyond merely holding office.",
+        "Private doubts do not erase public defenses or implementation responsibility."
+      ],
+      "consistency_timeline": [
+        {
+          "period": "2016 to subsequent alignment",
+          "event": "Moved from sharp Trump criticism to close alliance.",
+          "source_ids": [
+            "trump_reversals"
+          ]
+        },
+        {
+          "period": "2024-07",
+          "event": "Hawkish Iran remarks alongside broader restraint identity.",
+          "source_ids": [
+            "vance_2024"
+          ]
+        },
+        {
+          "period": "2025-06",
+          "event": "Defended limited U.S. strikes.",
+          "source_ids": [
+            "vance_2025"
+          ]
+        },
+        {
+          "period": "2026",
+          "event": "Defended war benefits, negotiated an exit, and criticized the conflict after defeat.",
+          "source_ids": [
+            "vance_nov2026",
+            "vance_oct2026",
+            "vance_diplomacy"
+          ]
+        }
+      ],
+      "controversies_and_potential_exposure": [
+        {
+          "title": "Conviction versus political adaptation",
+          "status": "documented_statements_with_contested_interpretation",
+          "details": "Reversals on Trump and changing war explanations support scrutiny of consistency; they do not prove insincerity.",
+          "source_ids": [
+            "trump_reversals",
+            "vance_2024",
+            "vance_nov2026"
+          ],
+          "political_implication": "Can undermine trust with opposing factions simultaneously."
+        },
+        {
+          "title": "Iran decision-making records",
+          "status": "prospective_scrutiny_not_a_misconduct_finding",
+          "details": "Testimony and contemporaneous communications could support or weaken claims about opposition, warnings, and objectives.",
+          "source_ids": [
+            "oversight"
+          ],
+          "political_implication": "Higher exposure because of executive office; no criminal liability inferred."
+        }
+      ],
+      "upside_triggers": [
+        "Helps secure durable peace and economic relief.",
+        "Records establish that he defended meaningful limits before escalation.",
+        "Organizations and donors consolidate despite criticism."
+      ],
+      "downside_triggers": [
+        "Documents contradict his retrospective explanation.",
+        "Prolonged costs make continuity unattractive.",
+        "Both hawks and restraint voters reject his repositioning."
+      ],
+      "strongest_counterargument": "Even with damaged credibility, superior organization and a divided opposition could preserve his lead.",
+      "faction_consistency": {
+        "as_of_date": "2026-11-07",
+        "status": "compatible_with_qualifications",
+        "links": [
+          {
+            "faction_id": "vance",
+            "direction": "both",
+            "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+            "event_ids": [
+              "suc-2025-03-58b7aa",
+              "suc-2026-08-19-b59801",
+              "suc-2025-12-18-766631",
+              "irn-2026-11-04-vance-postelection-war-critique"
+            ],
+            "source_ids": []
+          },
+          {
+            "faction_id": "tech-right",
+            "direction": "faction_to_nominee",
+            "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+            "event_ids": [
+              "suc-2026-09-24-11ac54"
+            ],
+            "source_ids": []
+          }
+        ],
+        "support_distinction": "Links identify observed channels or explicitly labeled historical analogies. Preferred candidate, declared endorsement and eventual support for a viable nominee remain distinct."
+      }
+    },
+    {
+      "id": "marco_rubio",
+      "name": "Marco Rubio",
+      "nomination_likelihood_pct": 20.78,
+      "forecast_rationale": "The ledger supports a distinct rival through hawk-donor access and State/NSC staffing leverage, but he also follows Trump when hawks disagree and has publicly deferred to Vance. His Nov 5 war defense differentiates him while preserving ownership of costs. The near tie with DeSantis is more scenario-dependent than the organizational record suggests. Hold 20.78 pending stronger entry and coalition evidence.",
+      "positions": {
+        "affordability_energy_trade": {
+          "summary": "Potential appeal through experience and business confidence; no comprehensive current economic platform verified.",
+          "evidence": [
+            {
+              "text": "Ownership of hawkish foreign policy could weaken claims to repair war-related economic damage.",
+              "status": "assessment",
+              "source_ids": [
+                "rubio_war",
+                "energy"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "iran_israel_intervention": {
+          "summary": "Emphatic public defender of the 2026 intervention and a hawkish approach to Iran.",
+          "evidence": [
+            {
+              "text": "April 2026 reporting describes a forceful defense and assertions that action was necessary.",
+              "status": "reported_fact",
+              "source_ids": [
+                "rubio_war"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "integrity_executive_power": {
+          "summary": "Senior executive official whose departmental decisions and public statements could face oversight.",
+          "evidence": [
+            {
+              "text": "No misconduct conclusion is established by holding office.",
+              "status": "analytical_limit",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "immigration_public_safety": {
+          "summary": "Helped write and supported the 2013 Senate immigration legislation, including a citizenship pathway; historical record is not assumed to be his current platform.",
+          "evidence": [
+            {
+              "text": "2013 legislative role documented in retrospective reporting.",
+              "status": "historical_fact",
+              "source_ids": [
+                "rubio_immigration"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "social_cultural_policy": {
+          "summary": "Conventional conservative identity; specific current proposals not comprehensively verified.",
+          "evidence": [
+            {
+              "text": "Additional primary-source work is needed for a complete social-policy platform.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        }
+      },
+      "donors_and_financial_networks": [
+        {
+          "name": "Ken Griffin",
+          "relationship": "Reported preference for Rubio over Vance; preference is not a contribution pledge",
+          "period": "2026-07",
+          "source_ids": [
+            "griffin_rubio"
+          ],
+          "confirmed_2028_commitment": false
+        },
+        {
+          "name": "Prospective draft-Rubio donor network",
+          "relationship": "Reported discussions among donors; membership and commitments not exhaustively verified",
+          "period": "2026",
+          "source_ids": [
+            "vance_network"
+          ],
+          "confirmed_2028_commitment": false
+        }
+      ],
+      "base_of_support": {
+        "classification": "Analytical coalition assessment, not measured subgroup vote shares",
+        "likely_constituencies": [
+          "Foreign-policy hawks",
+          "Strongly pro-Israel Republicans",
+          "Experience-oriented Republicans",
+          "Some business-oriented conservatives"
+        ],
+        "documented_organizational_relationships": [],
+        "constraints": [
+          "War-driven backlash could overwhelm competence branding.",
+          "Historical immigration compromise remains vulnerable.",
+          "Donor enthusiasm may exceed voter enthusiasm.",
+          "Rubio and Cruz compete for overlapping hawkish networks; those networks cannot be allocated in full to both. A viable Trump-endorsed successor could attract eventual support despite donors preferring Rubio."
+        ]
+      },
+      "strengths_for_base": [
+        "Foreign-policy experience and public familiarity",
+        "Potential access to substantial fundraising",
+        "Clearer hawkish commitments than Vance",
+        "Can appeal to voters who support initial intervention but want a better outcome"
+      ],
+      "weaknesses_for_base": [
+        "Credentials also connect him to contested decisions.",
+        "Difficult to disown a policy he emphatically defended.",
+        "Historical shifts toward Trump invite authenticity questions."
+      ],
+      "consistency_timeline": [
+        {
+          "period": "2013",
+          "event": "Supported bipartisan immigration legislation.",
+          "source_ids": [
+            "rubio_immigration"
+          ]
+        },
+        {
+          "period": "2016 onward",
+          "event": "Transitioned from Trump rival and critic to administration ally.",
+          "source_ids": [
+            "trump_reversals"
+          ]
+        },
+        {
+          "period": "2026-04",
+          "event": "Strong public defense of the Iran intervention.",
+          "source_ids": [
+            "rubio_war"
+          ]
+        }
+      ],
+      "controversies_and_potential_exposure": [
+        {
+          "title": "War justification and departmental record",
+          "status": "documented_advocacy_with_prospective_scrutiny",
+          "details": "Public claims and internal assessments could be compared in hearings; no finding of deception assumed.",
+          "source_ids": [
+            "rubio_war",
+            "oversight"
+          ],
+          "political_implication": "A policy and credibility liability even without personal scandal."
+        },
+        {
+          "title": "Immigration and Trump repositioning",
+          "status": "documented_historical_record",
+          "details": "Earlier immigration compromise and subsequent Trump alignment can be scrutinized for consistency.",
+          "source_ids": [
+            "rubio_immigration",
+            "trump_reversals"
+          ],
+          "political_implication": "May weaken claims to dependable ideological alignment."
+        }
+      ],
+      "upside_triggers": [
+        "Settlement is judged successful.",
+        "Donors consolidate and voters retain confidence in hawkish objectives.",
+        "Vance's credibility deteriorates without discrediting intervention itself."
+      ],
+      "downside_triggers": [
+        "Voters repudiate the decision to intervene.",
+        "Records undermine public explanations.",
+        "He declines to run or defers to Vance."
+      ],
+      "strongest_counterargument": "Republican voters may continue to regard the original intervention as justified and prefer conviction to Vance's adaptability.",
+      "faction_consistency": {
+        "as_of_date": "2026-11-07",
+        "status": "compatible_with_qualifications",
+        "links": [
+          {
+            "faction_id": "hawks",
+            "direction": "both",
+            "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+            "event_ids": [
+              "suc-2025-12-7eb8a2",
+              "suc-2026-07-30e83e",
+              "irn-2026-11-04-vance-postelection-war-critique"
+            ],
+            "source_ids": []
+          }
+        ],
+        "support_distinction": "Links identify observed channels or explicitly labeled historical analogies. Preferred candidate, declared endorsement and eventual support for a viable nominee remain distinct."
+      }
+    },
+    {
+      "id": "ron_desantis",
+      "name": "Ron DeSantis",
+      "nomination_likelihood_pct": 19.48,
+      "forecast_rationale": "A state-executive alternative to federal war decision-makers is a defensible scenario. However, the ledger establishes much less current factional organization behind him than behind Rubio or Vance; 19.48 depends on future coalition transfer and campaign rebuilding. Hold the imported estimate provisionally, not as a conclusion derived from faction scores.",
+      "positions": {
+        "affordability_energy_trade": {
+          "summary": "Explicitly connects prolonged war to higher fuel costs and working-class hardship.",
+          "evidence": [
+            {
+              "text": "November 2026 remarks identify war-related financial pain.",
+              "status": "documented_public_statement",
+              "source_ids": [
+                "desantis_costs"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "iran_israel_intervention": {
+          "summary": "Strong supporter of Israel and of limited 2025 strikes; criticizes the expanded 2026 mission and regime-change ambitions.",
+          "evidence": [
+            {
+              "text": "2023 public support for Israel.",
+              "status": "documented_public_statement",
+              "source_ids": [
+                "desantis_israel"
+              ]
+            },
+            {
+              "text": "June 2025 praised U.S. strikes.",
+              "status": "reported_fact",
+              "source_ids": [
+                "desantis_2025"
+              ]
+            },
+            {
+              "text": "November 2026 maintained support for limited strikes while rejecting expanded objectives.",
+              "status": "reported_fact",
+              "source_ids": [
+                "desantis_2026"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "integrity_executive_power": {
+          "summary": "Can distinguish himself from federal war decisions, but his state administration's financial practices face scrutiny.",
+          "evidence": [
+            {
+              "text": "Hope Florida reporting describes a grand-jury misappropriation finding with no criminal charges.",
+              "status": "reported_judicial_process",
+              "source_ids": [
+                "hope_florida"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "immigration_public_safety": {
+          "summary": "Associated with restrictive enforcement and executive action; detailed current proposals and implementation controversies require further verification.",
+          "evidence": [
+            {
+              "text": "This file does not provide a comprehensive verified immigration-policy inventory.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "social_cultural_policy": {
+          "summary": "Supported and signed a six-week abortion restriction and emphasized state-level cultural policy.",
+          "evidence": [
+            {
+              "text": "Reuters reporting documents policy choices and donor objections.",
+              "status": "reported_fact",
+              "source_ids": [
+                "desantis_donors"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        }
+      },
+      "donors_and_financial_networks": [
+        {
+          "name": "Robert Bigelow",
+          "relationship": "Major historical backer who later raised objections; not verified as a current 2028 supporter",
+          "period": "2023 campaign cycle",
+          "source_ids": [
+            "desantis_donors"
+          ],
+          "confirmed_2028_commitment": false
+        },
+        {
+          "name": "Florida and prior presidential fundraising networks",
+          "relationship": "Potential capacity inferred from prior campaign, not a verified current donor roster",
+          "period": "Historical and prospective",
+          "source_ids": [
+            "desantis_donors"
+          ],
+          "confirmed_2028_commitment": false
+        }
+      ],
+      "base_of_support": {
+        "classification": "Analytical coalition assessment, not measured subgroup vote shares",
+        "likely_constituencies": [
+          "Executive-competence conservatives",
+          "Social and cultural conservatives",
+          "Republicans seeking distance from Washington while preserving conservative policy"
+        ],
+        "documented_organizational_relationships": [],
+        "constraints": [
+          "Pro-Israel and strike-support record limits a restraint rebranding.",
+          "State controversy complicates an integrity argument.",
+          "Prior national campaign raises organizational doubts.",
+          "No documented migration of the ledger’s donor, party or staffing networks to DeSantis was established in this pass. State-policy appeal is not evidence those factions have chosen him."
+        ]
+      },
+      "strengths_for_base": [
+        "Substantial executive record",
+        "No established direct role in federal Iran decisions",
+        "Can distinguish limited operations from open-ended regime change",
+        "Ability to cite enacted social policy"
+      ],
+      "weaknesses_for_base": [
+        "Criticism of duration does not establish prior opposition to foreseeable escalation.",
+        "Hope Florida undermines an uncomplicated accountability identity.",
+        "Past campaign difficulties challenge assumptions about national appeal."
+      ],
+      "consistency_timeline": [
+        {
+          "period": "2023-10",
+          "event": "Strong public statement backing Israel.",
+          "source_ids": [
+            "desantis_israel"
+          ]
+        },
+        {
+          "period": "2025-06",
+          "event": "Praised limited U.S. strikes on Iran.",
+          "source_ids": [
+            "desantis_2025"
+          ]
+        },
+        {
+          "period": "2026-11",
+          "event": "Criticized prolonged war and expanded objectives while maintaining support for 2025 strikes.",
+          "source_ids": [
+            "desantis_costs",
+            "desantis_2026"
+          ]
+        }
+      ],
+      "controversies_and_potential_exposure": [
+        {
+          "title": "Hope Florida funds",
+          "status": "reported_grand_jury_finding_no_criminal_charges",
+          "details": "AP reports a grand jury found $10 million misappropriated through a charity into political activity; insufficient evidence to establish individual responsibility led to no criminal charges. DeSantis defended legality.",
+          "source_ids": [
+            "hope_florida"
+          ],
+          "political_implication": "Weakens integrity and financial-stewardship claims; does not establish his personal criminal guilt."
+        },
+        {
+          "title": "Prior presidential campaign and social-policy donor conflict",
+          "status": "documented_campaign_history",
+          "details": "Previous organizational difficulties and donor objections to restrictive abortion policy.",
+          "source_ids": [
+            "desantis_donors"
+          ],
+          "political_implication": "Raises electability and management questions rather than proving inability to govern."
+        }
+      ],
+      "upside_triggers": [
+        "Federal officials are discredited while his state record withstands scrutiny.",
+        "Voters accept a distinction between limited strikes and regime change.",
+        "He demonstrates improved national campaigning."
+      ],
+      "downside_triggers": [
+        "State controversy develops further.",
+        "Earlier statements undermine claims to foresight.",
+        "Donors and voters remain skeptical after the prior campaign."
+      ],
+      "strongest_counterargument": "Executive experience outside the federal decision chain could be the most useful combination if both continuity and inexperienced alternatives lose appeal.",
+      "faction_consistency": {
+        "as_of_date": "2026-11-07",
+        "status": "compatible_with_qualifications",
+        "links": [],
+        "support_distinction": "Links identify observed channels or explicitly labeled historical analogies. Preferred candidate, declared endorsement and eventual support for a viable nominee remain distinct."
+      }
+    },
+    {
+      "id": "ted_cruz",
+      "name": "Ted Cruz",
+      "nomination_likelihood_pct": 6.49,
+      "forecast_rationale": "A distinct hawkish and tariff-skeptical donor-facing alternative is consistent with the ledger. Rubio competes for much of that network. Prior campaign donors do not establish present commitments; existing faction access does not determine primary votes. Hold 6.49 pending current organizing, entry and subgroup support evidence.",
+      "positions": {
+        "affordability_energy_trade": {
+          "summary": "Criticized tariffs as increasing prices and called for ending the prolonged war.",
+          "evidence": [
+            {
+              "text": "Post-midterm comments reported in November 2026.",
+              "status": "reported_fact",
+              "source_ids": [
+                "cruz_costs"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "iran_israel_intervention": {
+          "summary": "Strongly hawkish on Iran; advocated regime collapse in August 2026, then criticized duration and execution.",
+          "evidence": [
+            {
+              "text": "August regime-collapse objective.",
+              "status": "documented_public_statement",
+              "source_ids": [
+                "cruz_regime"
+              ]
+            },
+            {
+              "text": "November criticism did not itself repudiate initial intervention.",
+              "status": "assessment",
+              "source_ids": [
+                "cruz_costs"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "integrity_executive_power": {
+          "summary": "Legislative advocacy and oversight record are relevant; no direct executive command responsibility established.",
+          "evidence": [
+            {
+              "text": "Review of complete votes, authorizations, and oversight actions remains incomplete.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "immigration_public_safety": {
+          "summary": "Restrictive immigration identity; full evolution of legal-immigration and enforcement proposals is not comprehensively verified here.",
+          "evidence": [
+            {
+              "text": "Candidate branding should not substitute for a complete legislative history.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "social_cultural_policy": {
+          "summary": "Established religious and constitutional conservative identity; exact 2028 proposals unverified.",
+          "evidence": [
+            {
+              "text": "Specific current commitments require primary-source verification.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        }
+      },
+      "donors_and_financial_networks": [
+        {
+          "name": "Robert Mercer",
+          "relationship": "Historical donor to supportive super PAC; no current commitment inferred",
+          "period": "2016 cycle",
+          "source_ids": [
+            "cruz_donors"
+          ],
+          "confirmed_2028_commitment": false
+        },
+        {
+          "name": "Dan and Farris Wilks family",
+          "relationship": "Historical donors to supportive super PAC; no current commitment inferred",
+          "period": "2016 cycle",
+          "source_ids": [
+            "cruz_donors"
+          ],
+          "confirmed_2028_commitment": false
+        },
+        {
+          "name": "Toby Neugebauer",
+          "relationship": "Historical supportive super PAC financier; no current commitment inferred",
+          "period": "2016 cycle",
+          "source_ids": [
+            "cruz_donors"
+          ],
+          "confirmed_2028_commitment": false
+        }
+      ],
+      "base_of_support": {
+        "classification": "Analytical coalition assessment, not measured subgroup vote shares",
+        "likely_constituencies": [
+          "Ideological conservatives",
+          "Religious-conservative activists",
+          "Foreign-policy hawks",
+          "Some free-market and tariff-skeptical Republicans"
+        ],
+        "documented_organizational_relationships": [],
+        "constraints": [
+          "An established constituency is not evidence of a current winning coalition.",
+          "Regime-collapse advocacy limits room to reject the war's premise."
+        ]
+      },
+      "strengths_for_base": [
+        "Recognizable policy identity",
+        "Debating and legislative experience",
+        "Historical fundraising capacity",
+        "Can criticize trade policy without embracing a broad economic-nationalist framework"
+      ],
+      "weaknesses_for_base": [
+        "Can be consistent yet consistently associated with an unpopular policy.",
+        "Execution criticism may not satisfy voters rejecting intervention itself.",
+        "Familiarity and prior campaigns may limit novelty."
+      ],
+      "consistency_timeline": [
+        {
+          "period": "2016 cycle",
+          "event": "Established presidential campaign and major-donor infrastructure.",
+          "source_ids": [
+            "cruz_donors"
+          ]
+        },
+        {
+          "period": "2026-08",
+          "event": "Advocated regime collapse in Iran.",
+          "source_ids": [
+            "cruz_regime"
+          ]
+        },
+        {
+          "period": "2026-11",
+          "event": "Criticized tariffs and war duration.",
+          "source_ids": [
+            "cruz_costs"
+          ]
+        }
+      ],
+      "controversies_and_potential_exposure": [
+        {
+          "title": "Cancun trip during Texas winter emergency",
+          "status": "documented_event_acknowledged_mistake",
+          "details": "Left for Cancun during the February 2021 emergency and acknowledged the trip was a mistake.",
+          "source_ids": [
+            "cruz_cancun"
+          ],
+          "political_implication": "Accessible judgment and empathy criticism."
+        },
+        {
+          "title": "War objectives versus retrospective criticism",
+          "status": "documented_positions_with_contested_interpretation",
+          "details": "Regime-collapse objective should be compared with claims the operation should have ended quickly.",
+          "source_ids": [
+            "cruz_regime",
+            "cruz_costs"
+          ],
+          "political_implication": "Can undermine claims to realistic judgment without implying dishonesty."
+        }
+      ],
+      "upside_triggers": [
+        "Primary voters retain hawkish preferences.",
+        "A divided field increases the leverage of an organized constituency.",
+        "Economic debate centers on tariffs rather than repudiating intervention."
+      ],
+      "downside_triggers": [
+        "Republicans reject regime-change objectives.",
+        "Donors consolidate elsewhere.",
+        "New candidates become more credible alternatives."
+      ],
+      "strongest_counterargument": "A constituency smaller than a national majority can still matter greatly in a fragmented primary.",
+      "faction_consistency": {
+        "as_of_date": "2026-11-07",
+        "status": "compatible_with_qualifications",
+        "links": [
+          {
+            "faction_id": "hawks",
+            "direction": "both",
+            "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+            "event_ids": [
+              "suc-2025-12-47212e"
+            ],
+            "source_ids": [
+              "cruz_donor_positioning"
+            ]
+          }
+        ],
+        "support_distinction": "Links identify observed channels or explicitly labeled historical analogies. Preferred candidate, declared endorsement and eventual support for a viable nominee remain distinct."
+      }
+    },
+    {
+      "id": "john_mcentee",
+      "name": "John McEntee",
+      "nomination_likelihood_pct": 3.9,
+      "forecast_rationale": "Historical withdrawal action and nationalist personnel work supply substantive policy credentials. They connect analytically to restraint and executive-control concerns without demonstrating a current faction endorsement, transferable Thiel backing or an electoral organization. Hold 3.90 as highly speculative; absence from the older faction roster is a coverage gap, not evidence of no support.",
+      "positions": {
+        "affordability_energy_trade": {
+          "summary": "No sufficiently developed current economic platform established by this research.",
+          "evidence": [
+            {
+              "text": "Lobbying for commercial clients is evidence of paid representation, not proof of a general economic ideology.",
+              "status": "analytical_limit",
+              "source_ids": [
+                "mcentee_lobbying"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "iran_israel_intervention": {
+          "summary": "Documented involvement in 2020 troop-withdrawal efforts; current specific Iran and Israel positions remain unverified.",
+          "evidence": [
+            {
+              "text": "Helped draft and obtain a signed withdrawal directive for Afghanistan and Somalia.",
+              "status": "documented_testimony",
+              "source_ids": [
+                "mcentee_withdrawal"
+              ]
+            }
+          ],
+          "uncertainty": "Historical withdrawal advocacy does not establish current opposition to Iran intervention or current Israel policy."
+        },
+        "integrity_executive_power": {
+          "summary": "Strong first-term Trump personnel and loyalty connections; electoral-count memoranda and lobbying complicate anti-insider claims.",
+          "evidence": [
+            {
+              "text": "January 6 report discusses memoranda proposing changes to electoral-count outcomes.",
+              "status": "official_report",
+              "source_ids": [
+                "mcentee_jan6"
+              ]
+            },
+            {
+              "text": "Held Project 2025 personnel advisory role.",
+              "status": "organization_announcement",
+              "source_ids": [
+                "project2025"
+              ]
+            },
+            {
+              "text": "Heritage assigned him personnel outreach and vetting responsibilities for the next conservative administration. This is institutional experience, not merely media branding or a current campaign endorsement.",
+              "status": "organization_announcement",
+              "source_ids": [
+                "project2025"
+              ]
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        },
+        "immigration_public_safety": {
+          "summary": "A historical restrictionist staffing record is substantive evidence of direction; detailed current enforcement proposals still require verification.",
+          "evidence": [
+            {
+              "text": "McEntee recruited personnel favoring restrictive immigration and nationalist policies.",
+              "status": "reported_historical_action",
+              "source_ids": [
+                "mcentee_personnel_record"
+              ]
+            },
+            {
+              "text": "A 2028 enforcement blueprint cannot be inferred solely from that staffing record.",
+              "status": "analytical_limit",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "Separate demonstrated staffing choices, current statements and projected campaign commitments."
+        },
+        "social_cultural_policy": {
+          "summary": "Conservative media and dating-business identity; detailed 2028 social-policy proposals unverified.",
+          "evidence": [
+            {
+              "text": "Public branding is not a complete governing program.",
+              "status": "research_gap",
+              "source_ids": []
+            }
+          ],
+          "uncertainty": "This is not a complete 2028 platform; current positions may evolve."
+        }
+      },
+      "donors_and_financial_networks": [
+        {
+          "name": "Peter Thiel",
+          "relationship": "Historical investor in The Right Stuff; business financing, not verified presidential political support",
+          "period": "2022",
+          "source_ids": [
+            "thiel_mcentee"
+          ],
+          "confirmed_2028_commitment": false
+        }
+      ],
+      "lobbying_clients_not_donors": [
+        {
+          "name": "Tencent America LLC",
+          "relationship": "Paid lobbying client",
+          "reported_lobbying_income_usd": 1075000,
+          "reporting_window": "Q3 2025 through Q3 2026",
+          "source_ids": [
+            "mcentee_lobbying",
+            "tencent_registration"
+          ]
+        },
+        {
+          "name": "Zhongji InnoLight Co. Ltd",
+          "relationship": "Paid lobbying client",
+          "reported_lobbying_income_usd": 200000,
+          "reporting_window": "Q3 2026",
+          "source_ids": [
+            "innolight_report"
+          ]
+        },
+        {
+          "name": "Shishuo AI International Limited",
+          "relationship": "New lobbying client owned by 4Paradigm",
+          "reported_lobbying_income_usd": null,
+          "reporting_window": "Registered October 27, 2026; no quarterly income report yet",
+          "source_ids": [
+            "shishuo_registration"
+          ]
+        }
+      ],
+      "base_of_support": {
+        "classification": "Hypothesized audience, not an established electoral base",
+        "likely_constituencies": [
+          "Some online conservative audiences",
+          "Some Trump-loyal voters seeking a younger figure",
+          "Potential restraint voters if his present positions support that inference"
+        ],
+        "documented_organizational_relationships": [
+          {
+            "text": "Historical Project 2025 personnel advisory relationship.",
+            "status": "documented_affiliation",
+            "source_ids": [
+              "project2025"
+            ]
+          }
+        ],
+        "constraints": [
+          "Followers are not equivalent to primary voters.",
+          "No independently verified statewide or national electoral coalition.",
+          "No verified 2028 donor roster or presidential campaign organization."
+        ]
+      },
+      "strengths_for_base": [
+        "Media familiarity and informal presentation",
+        "First-term Trump relationships",
+        "Actual withdrawal involvement provides more substance than a purely inferred restraint identity",
+        "No established second-term war decision-making role in this research",
+        "Demonstrated personnel authority and a later institutional recruitment role provide a record on executive control, alongside withdrawal advocacy."
+      ],
+      "weaknesses_for_base": [
+        "Current positions require issue-level checking; a missing campaign platform does not erase his demonstrated policy record.",
+        "Paid representation of Chinese technology interests complicates nationalist messaging.",
+        "Personal and first-term controversies create cumulative judgment risk.",
+        "Personnel experience has not yet been shown to translate into a presidential electoral organization."
+      ],
+      "consistency_timeline": [
+        {
+          "period": "2020-11",
+          "event": "Worked on troop-withdrawal directive; senior officials challenged process and feasibility.",
+          "source_ids": [
+            "mcentee_withdrawal"
+          ]
+        },
+        {
+          "period": "2020–2021",
+          "event": "Authored electoral-count memoranda discussed by January 6 committee.",
+          "source_ids": [
+            "mcentee_jan6"
+          ]
+        },
+        {
+          "period": "2023",
+          "event": "Joined Project 2025 personnel advisory work.",
+          "source_ids": [
+            "project2025"
+          ]
+        },
+        {
+          "period": "2025–2026",
+          "event": "Developed disclosed lobbying business for Chinese technology interests.",
+          "source_ids": [
+            "mcentee_lobbying"
+          ]
+        }
+      ],
+      "controversies_and_potential_exposure": [
+        {
+          "title": "Electoral-count memoranda",
+          "status": "documented_official_report_not_a_criminal_adjudication",
+          "details": "January 6 committee discussed proposals seeking to change the electoral outcome through the vice president.",
+          "source_ids": [
+            "mcentee_jan6"
+          ],
+          "political_implication": "Complicates an institutional-integrity argument."
+        },
+        {
+          "title": "Withdrawal directive process",
+          "status": "documented_testimony_with_disputed_judgment",
+          "details": "Involvement demonstrates withdrawal advocacy; senior officials criticized bypassing review and feasibility.",
+          "source_ids": [
+            "mcentee_withdrawal"
+          ],
+          "political_implication": "Could support restraint credentials or raise competence concerns."
+        },
+        {
+          "title": "Chinese technology lobbying",
+          "status": "disclosed_commercial_relationships",
+          "details": "Reported lobbying revenue totals $1.275 million through Q3 2026. No proof of improper influence follows from disclosure alone.",
+          "source_ids": [
+            "mcentee_lobbying",
+            "innolight_report",
+            "shishuo_registration"
+          ],
+          "political_implication": "Creates tension with nationalist and anti-insider claims."
+        },
+        {
+          "title": "Conversations with young adult women",
+          "status": "reported_allegations_not_adjudicated",
+          "details": "WIRED reported two women said conversations with him when they were 18 made them uncomfortable.",
+          "source_ids": [
+            "mcentee_wired"
+          ],
+          "political_implication": "Potential judgment and conduct liability; not a court finding."
+        },
+        {
+          "title": "2018 security concerns",
+          "status": "historical_reporting_not_current_misconduct_finding",
+          "details": "Reporting linked departure to gambling-related security concerns; this is not proof of present wrongdoing.",
+          "source_ids": [
+            "mcentee_security"
+          ],
+          "political_implication": "Could reinforce a cumulative judgment critique."
+        }
+      ],
+      "upside_triggers": [
+        "Established rivals lose credibility and another outsider does not occupy the opening.",
+        "He substantiates a consistent current agenda.",
+        "Independent fundraising and organization materialize."
+      ],
+      "downside_triggers": [
+        "Current positions fail to establish the alternative voters seek.",
+        "Scrutiny of conduct and business relationships overwhelms media appeal.",
+        "Shared donor networks prefer Vance or another candidate."
+      ],
+      "strongest_counterargument": "Even if rivals weaken, support may go to an unlisted candidate rather than McEntee.",
+      "faction_consistency": {
+        "as_of_date": "2026-11-07",
+        "status": "compatible_with_qualifications",
+        "links": [
+          {
+            "faction_id": "maximalists",
+            "direction": "both",
+            "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+            "event_ids": [],
+            "source_ids": [
+              "project2025"
+            ]
+          },
+          {
+            "faction_id": "vance",
+            "direction": "nominee_to_faction",
+            "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+            "event_ids": [],
+            "source_ids": [
+              "mcentee_withdrawal"
+            ]
+          }
+        ],
+        "support_distinction": "Links identify observed channels or explicitly labeled historical analogies. Preferred candidate, declared endorsement and eventual support for a viable nominee remain distinct."
+      }
+    }
+  ],
+  "scenario_sensitivities": [
+    {
+      "scenario": "Durable settlement and economic improvement",
+      "likely_relative_beneficiaries": [
+        "jd_vance",
+        "marco_rubio"
+      ],
+      "caveat": "Evidence of misconduct or misleading explanations could remain damaging."
+    },
+    {
+      "scenario": "Persistent hardship without major new findings",
+      "likely_relative_beneficiaries": [
+        "ron_desantis"
+      ],
+      "possible_beneficiaries": [
+        "john_mcentee"
+      ],
+      "caveat": "Requires credible alternatives; primary voters may still defend the original intervention."
+    },
+    {
+      "scenario": "Records undermine administration public explanations",
+      "likely_relative_beneficiaries": [],
+      "possible_beneficiaries": [
+        "ron_desantis",
+        "john_mcentee"
+      ],
+      "caveat": "Benefits depend on whose conduct is established; no automatic exoneration for outsiders. No named beneficiary is assured; this could indicate the need to reassess candidate inclusion."
+    },
+    {
+      "scenario": "Vance delivers peace but faces consistency criticism",
+      "likely_relative_beneficiaries": [
+        "jd_vance"
+      ],
+      "caveat": "Results help, but distrust can persist."
+    },
+    {
+      "scenario": "Investigations weakly substantiate claims and provoke backlash",
+      "likely_relative_beneficiaries": [
+        "Trump-endorsed successor"
+      ],
+      "caveat": "That successor is not assumed to be any particular named candidate."
+    }
+  ],
+  "oversight_framework": {
+    "timing": "Preparation and existing litigation in 2026; new congressional majority powers from January 2027.",
+    "distinctions": [
+      "Congressional investigation is not criminal prosecution.",
+      "Private and state litigation differs from congressional oversight.",
+      "Association, financial ties, and officeholding do not establish wrongdoing."
+    ],
+    "evidence_to_watch": [
+      "Contemporaneous policy warnings",
+      "Internal objectives and dissent",
+      "Public statements versus private assessments",
+      "Financial relationships connected to specific official decisions",
+      "Sworn testimony and document provenance"
+    ],
+    "source_ids": [
+      "oversight"
+    ]
+  },
+  "sources": [
+    {
+      "id": "vance_2024",
+      "publication_date": "2024-07-16",
+      "publisher": "Jewish Insider",
+      "description": "Vance's July 2024 Iran remarks",
+      "url": "https://jewishinsider.com/2024/07/vance-on-iran-if-youre-going-to-punch-the-iranians-you-punch-them-hard/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "vance_2025",
+      "publication_date": "2025-06-22",
+      "publisher": "ABC News",
+      "description": "Interview transcript on Iran nuclear-site strikes",
+      "url": "https://www-cdn.abcnews.com/Politics/week-transcript-6-22-25-vice-president-united/story?id=123077912",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "vance_oct2026",
+      "publication_date": "2026-10-06",
+      "publisher": "Reuters via Investing.com",
+      "description": "Vance negotiating nuclear-enrichment terms",
+      "url": "https://www.investing.com/news/world-news/exclusivein-interview-us-vice-president-vance-says-iran-must-cut-enrichment-to-end-war-4935380",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "vance_nov2026",
+      "publication_date": "2026-11-04",
+      "publisher": "Associated Press",
+      "description": "Post-midterm criticism and earlier defense of war",
+      "url": "https://apnews.com/article/a1a0f2a2373f80442dde2b04b9d4d2b3",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "vance_diplomacy",
+      "publication_date": "2026-11-06",
+      "publisher": "Axios",
+      "description": "Renewed ceasefire diplomacy",
+      "url": "https://www.axios.com/2026/11/06/vance-leads-push-new-iran-deal",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "rubio_war",
+      "publication_date": "2026-04-01",
+      "publisher": "Associated Press via PBS",
+      "description": "Rubio and Vance public defenses of war",
+      "url": "https://www.pbs.org/newshour/politics/how-rubios-and-vances-differing-stances-on-iran-war-point-to-challenges-ahead-of-2028-election",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "desantis_2025",
+      "publication_date": "2025-06-23",
+      "publisher": "News4JAX",
+      "description": "Support for June 2025 strikes",
+      "url": "https://www.news4jax.com/news/local/2025/06/23/desantis-commends-trumps-decisiveness-on-iran-strikes-says-hell-continue-flights-to-return-americans-from-israel/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "desantis_2026",
+      "publication_date": "2026-11-07",
+      "publisher": "Florida Politics",
+      "description": "Distinguishes limited strikes from expanded regime-change objectives",
+      "url": "https://floridapolitics.com/archives/830268-ron-desantis-says-u-s-went-too-far-in-iran-conflict/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "desantis_costs",
+      "publication_date": "2026-11-03",
+      "publisher": "RealClearPolitics interview transcript",
+      "description": "War's effect on household finances",
+      "url": "https://www.realclearpolitics.com/video/2026/11/03/ron_desantis_war_with_iran_has_been_a_big_drag_on_republican_candidates_in_2026.html",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "cruz_regime",
+      "publication_date": "2026-08-07",
+      "publisher": "CBS News",
+      "description": "Advocacy for regime collapse",
+      "url": "https://www.cbsnews.com/news/iran-war-trump-ted-cruz-regime-collapse-arm-protesters/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "cruz_costs",
+      "publication_date": "2026-11-06",
+      "publisher": "Houston Chronicle",
+      "description": "Criticism of tariffs and war duration",
+      "url": "https://www.houstonchronicle.com/politics/texas-take/article/ted-cruz-slams-trump-s-tariffs-says-iran-war-22514766.php",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "mcentee_withdrawal",
+      "publication_date": null,
+      "publisher": "U.S. Government Publishing Office",
+      "description": "January 6 committee business meeting transcript with McEntee, Macgregor and Milley excerpts on drafting and obtaining signature for the Afghanistan/Somalia withdrawal order, lines 792-843.",
+      "url": "https://www.govinfo.gov/content/pkg/CPRT-117HPRT50118/html/CPRT-117HPRT50118.htm",
+      "accessed_on": "2026-11-07",
+      "verification_status": "primary_read_2026-11-07"
+    },
+    {
+      "id": "mcentee_jan6",
+      "publication_date": null,
+      "publisher": "January 6 Select Committee",
+      "description": "Report chapter discussing McEntee electoral-count memoranda",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch5.html",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "mcentee_lobbying",
+      "publication_date": null,
+      "publisher": "Open America, aggregating LDA filings",
+      "description": "Client and income summary through Q3 2026",
+      "url": "https://openamerica.io/lobbying/firm/401109892/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "tencent_registration",
+      "publication_date": "2025-09-05",
+      "publisher": "Federal lobbying disclosure",
+      "description": "Effective registration date July 23, 2025",
+      "url": "https://lda.gov/filings/public/filing/b8b09920-a089-4e40-badb-eaaa93cf6a8d/print/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "innolight_report",
+      "publication_date": "2026-10-21",
+      "publisher": "Federal lobbying disclosure",
+      "description": "Q3 2026 income and agencies contacted",
+      "url": "https://lda.gov/filings/public/filing/2f559624-dceb-4ade-94f6-9f86392219fa/print/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "shishuo_registration",
+      "publication_date": "2026-10-27",
+      "publisher": "Federal lobbying disclosure",
+      "description": "Client, ownership, and trade-restriction assignment",
+      "url": "https://lda.gov/filings/public/filing/4bd99e6b-7b5b-456e-afb3-b0912c7e50d9/print/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "mcentee_wired",
+      "publication_date": "2024-09-24",
+      "publisher": "WIRED",
+      "description": "Reported allegations concerning conversations with two 18-year-old women",
+      "url": "https://www.wired.com/story/teens-john-mcentee-trump-aide-project-2025-chats/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "mcentee_security",
+      "publication_date": "2018-03-15",
+      "publisher": "Washington Post",
+      "description": "Reported gambling-related security concerns",
+      "url": "https://www.washingtonpost.com/politics/trumps-personal-aide-lost-white-house-position-over-gambling-habit/2018/03/15/2cfa9736-288f-11e8-bc72-077aa4dab9ef_story.html",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "hope_florida",
+      "publication_date": "2026-08-27",
+      "publisher": "Associated Press",
+      "description": "Grand-jury findings and absence of criminal charges",
+      "url": "https://apnews.com/article/48cb3910a1492836368c1c170f99f167",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "cruz_cancun",
+      "publication_date": "2021-02-18",
+      "publisher": "Texas Tribune",
+      "description": "Trip during Texas winter emergency and acknowledgment of mistake",
+      "url": "https://www.texastribune.org/2021/02/18/ted-cruz-cancun-power-outage/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "trump_reversals",
+      "publication_date": "2024-07-01",
+      "publisher": "Associated Press via PBS",
+      "description": "Earlier criticism of Trump and subsequent alignment",
+      "url": "https://www.pbs.org/newshour/politics/how-trumps-potential-running-mates-harshly-criticized-him-in-the-past",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "rubio_immigration",
+      "publication_date": "2016-01-06",
+      "publisher": "PolitiFact",
+      "description": "Rubio's 2013 immigration legislation record",
+      "url": "https://politifact.com/article/2016/jan/06/five-things-know-about-fight-between-marco-rubio-a/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "vance_network",
+      "publication_date": "2026-04",
+      "publisher": "ABC News",
+      "description": "Donor relationships and organized support; publication day not retained",
+      "url": "https://abcnews.com/Politics/story?id=131013014",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "griffin_rubio",
+      "publication_date": "2026-07-08",
+      "publisher": "Axios",
+      "description": "Reported preference for Rubio over Vance",
+      "url": "https://www.axios.com/2026/07/08/ken-griffin-gop-rubio-vance-2028",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "thiel_vance",
+      "publication_date": "2024-07-17",
+      "publisher": "Financial Times",
+      "description": "Historical support for Vance's Senate candidacy",
+      "url": "https://www.ft.com/content/408fb864-5831-4b1d-beef-fd1966b3beed",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "thiel_mcentee",
+      "publication_date": "2022-02-15",
+      "publisher": "Axios",
+      "description": "Investment in dating business, not a presidential contribution",
+      "url": "https://www.axios.com/2022/02/15/peter-thiel-conservative-dating-app-the-rightstuff",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "desantis_donors",
+      "publication_date": "2023-08",
+      "publisher": "Reuters via Investing.com",
+      "description": "Bigelow's past backing and donor objections; publication day not retained",
+      "url": "https://www.investing.com/news/world-news/factboxdesantis-2024-campaigns-missteps-and-blunders-3148628",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "cruz_donors",
+      "publication_date": "2016-05-17",
+      "publisher": "Texas Tribune",
+      "description": "Historical super PAC donors",
+      "url": "https://www.texastribune.org/2016/05/17/cruz-super-pac-story/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "prri",
+      "publication_date": "2026-10",
+      "publisher": "PRRI",
+      "description": "Survey fielded August 20–September 7, 2026",
+      "url": "https://prri.org/research/darkening-mood-and-shifting-political-loyalties-ahead-of-midterm-elections-findings-from-the-2026-american-values-survey/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "oversight",
+      "publication_date": "2026-08-08",
+      "publisher": "Reuters via Investing.com",
+      "description": "Democratic investigative planning involving outside firms",
+      "url": "https://www.investing.com/news/politics/democrats-plan-trump-investigations-over-impeachment-if-they-win-house-sources-say-4847642",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "energy",
+      "publication_date": "2026-11-02",
+      "publisher": "Reuters",
+      "description": "Energy disruption and depleted supply buffers",
+      "url": "https://www.reuters.com/business/energy/nearly-1-billion-oil-barrels-drained-global-inventories-since-hormuz-disruption-2026-11-02/",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "polls",
+      "publication_date": null,
+      "publisher": "RealClearPolling",
+      "description": "Early 2028 nomination polling; accessed November 7, 2026",
+      "url": "https://www.realclearpolling.com/elections/president/2028/national",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "project2025",
+      "publication_date": "2023-05-02",
+      "publisher": "Heritage Foundation",
+      "description": "Heritage May 2, 2023 announcement describing McEntee personnel responsibilities and presidential-candidate outreach; not a 2028 endorsement.",
+      "url": "https://www.heritage.org/press/former-ppo-director-john-mcentee-joins-project-2025-personnel-database-launches",
+      "accessed_on": "2026-11-07",
+      "verification_status": "primary_read_2026-11-07"
+    },
+    {
+      "id": "desantis_israel",
+      "publication_date": "2023-10-07",
+      "publisher": "American Presidency Project",
+      "description": "DeSantis statement supporting Israel",
+      "url": "https://www.presidency.ucsb.edu/documents/statement-ron-desantis-the-hamas-terrorist-attacks-israel",
+      "accessed_on": "2026-11-07"
+    },
+    {
+      "id": "faction_pass_miller",
+      "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+      "publisher": "White House",
+      "publication_date": "2026-11-06",
+      "accessed_on": "2026-11-07",
+      "description": "Official Miller appointment; candidate congratulations do not establish a nomination endorsement.",
+      "verification_status": "primary_read"
+    },
+    {
+      "id": "mcentee_personnel_record",
+      "url": "https://www.axios.com/2022/07/23/donald-trump-news-schedule-f-executive-order",
+      "publisher": "Axios",
+      "publication_date": "2022-07-23",
+      "accessed_on": "2026-11-07",
+      "description": "Reporting on personnel operations and nationalist staffing.",
+      "verification_status": "reporting_read"
+    },
+    {
+      "id": "cruz_donor_positioning",
+      "url": "https://www.axios.com/2026/01/25/cruz-trump-vance-secret-tapes",
+      "publisher": "Axios",
+      "publication_date": "2026-01-25",
+      "accessed_on": "2026-11-07",
+      "description": "Cruz donor recordings on Vance and tariffs; claims about others remain attributed.",
+      "verification_status": "reporting_read"
+    },
+    {
+      "id": "harris_oct2026_primary",
+      "url": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Oct2026_KeyResults.pdf",
+      "publisher": "Harvard CAPS / Harris Poll",
+      "publication_date": "2026-10",
+      "accessed_on": "2026-11-07",
+      "description": "Original October 24-26 survey, methodology page 2 and Republican nomination question page 77; whole survey 2,700 registered voters, Republican subgroup differs.",
+      "verification_status": "primary_read"
+    },
+    {
+      "id": "rcp_republican_detail",
+      "url": "https://www.realclearpolling.com/polls/president/republican-primary/2028/national",
+      "publisher": "RealClearPolling",
+      "publication_date": null,
+      "accessed_on": "2026-11-07",
+      "description": "Aggregator table, not a full primary-poll audit; field window August 26-November 1, before post-election positioning.",
+      "verification_status": "aggregator_read"
+    },
+    {
+      "id": "vance_postmortem_faction_pass",
+      "url": "https://www.axios.com/2026/11/05/vance-maga-power-play-2028",
+      "publisher": "Axios",
+      "publication_date": "2026-11-05",
+      "accessed_on": "2026-11-07",
+      "description": "Post-election positioning; see existing irn-2026-11-04-vance-postelection-war-critique episode.",
+      "verification_status": "reporting_read"
+    }
+  ],
+  "roster_authorization": {
+    "date": "2026-11-07",
+    "basis": "Owner supplied republican_2028_wargame.json and required explicit authorization for additions. Attached five-person roster controls over earlier hypothetical comparisons.",
+    "candidates": [
+      {
+        "id": "jd_vance",
+        "name": "JD Vance"
+      },
+      {
+        "id": "marco_rubio",
+        "name": "Marco Rubio"
+      },
+      {
+        "id": "ron_desantis",
+        "name": "Ron DeSantis"
+      },
+      {
+        "id": "ted_cruz",
+        "name": "Ted Cruz"
+      },
+      {
+        "id": "john_mcentee",
+        "name": "John McEntee"
+      }
+    ]
+  },
+  "tracking": {
+    "history": [
+      {
+        "id": "2026-11-07-nominee-feature-setup",
+        "date": "2026-11-07",
+        "run_id": "2026-11-07-nominee-feature-setup",
+        "type": "imported_baseline",
+        "summary": "Owner-supplied starting forecast imported without a fresh news review or independent source verification.",
+        "probabilities_pct": {
+          "jd_vance": 49.35,
+          "marco_rubio": 20.78,
+          "ron_desantis": 19.48,
+          "ted_cruz": 6.49,
+          "john_mcentee": 3.9
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Imported owner-supplied starting estimate; underlying claims await verification in the shared daily intake.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Imported owner-supplied starting estimate; underlying claims await verification in the shared daily intake.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Imported owner-supplied starting estimate; underlying claims await verification in the shared daily intake.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Imported owner-supplied starting estimate; underlying claims await verification in the shared daily intake.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Imported owner-supplied starting estimate; underlying claims await verification in the shared daily intake.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          }
+        },
+        "gaps": [
+          "Attachment sources and claims have not been independently verified during setup.",
+          "Conditional five-candidate forecast omits the rest of the field."
+        ]
+      },
+      {
+        "id": "2026-11-07-nominee-faction-first-pass",
+        "date": "2026-11-07",
+        "run_id": "2026-11-07-nominee-faction-first-pass",
+        "type": "faction_consistency_review",
+        "summary": "Broad factional fit with substantive corrections; all imported estimates held provisionally because this pass does not calibrate an exact reweighting.",
+        "probabilities_pct": {
+          "jd_vance": 49.35,
+          "marco_rubio": 20.78,
+          "ron_desantis": 19.48,
+          "ted_cruz": 6.49,
+          "john_mcentee": 3.9
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Lead is consistent with the ledger: RNC finance role, Malik/Rockbridge fundraising, Turning Point backing and Don Jr. provide concrete channels. The post-election Iran break creates strategic room as well as credibility risk; it is not a measured gain in voter support. Tech backers are not a unified bloc on immigration. Hold 49.35 as an uncalibrated starting estimate.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2025-03-58b7aa",
+              "suc-2025-12-18-766631",
+              "suc-2026-08-19-b59801",
+              "suc-2026-09-24-11ac54"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "The ledger supports a distinct rival through hawk-donor access and State/NSC staffing leverage, but he also follows Trump when hawks disagree and has publicly deferred to Vance. His Nov 5 war defense differentiates him while preserving ownership of costs. The near tie with DeSantis is more scenario-dependent than the organizational record suggests. Hold 20.78 pending stronger entry and coalition evidence.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2025-12-7eb8a2",
+              "suc-2026-07-30e83e"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "A state-executive alternative to federal war decision-makers is a defensible scenario. However, the ledger establishes much less current factional organization behind him than behind Rubio or Vance; 19.48 depends on future coalition transfer and campaign rebuilding. Hold the imported estimate provisionally, not as a conclusion derived from faction scores.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "A distinct hawkish and tariff-skeptical donor-facing alternative is consistent with the ledger. Rubio competes for much of that network. Prior campaign donors do not establish present commitments; existing faction access does not determine primary votes. Hold 6.49 pending current organizing, entry and subgroup support evidence.",
+            "review_status": "partial",
+            "source_ids": [
+              "cruz_donor_positioning",
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [
+              "suc-2025-12-47212e"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Historical withdrawal action and nationalist personnel work supply substantive policy credentials. They connect analytically to restraint and executive-control concerns without demonstrating a current faction endorsement, transferable Thiel backing or an electoral organization. Hold 3.90 as highly speculative; absence from the older faction roster is a coverage gap, not evidence of no support.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "mcentee_withdrawal",
+              "project2025",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "This is a targeted consistency review, not a full daily intake or independent verification of the complete attachment.",
+          "Precise five-way weights remain provisional; organization and entry prospects have not been quantitatively calibrated.",
+          "No post-election candidate-support poll was independently verified in this pass. Pre-election polls cannot measure the subsequent repositioning.",
+          "Current donor commitments, state campaign organization and faction transfers to DeSantis or McEntee remain unresolved.",
+          "McEntee’s detailed current Iran/Israel and immigration proposals, and the attachment’s lobbying totals and conduct allegations, were not fully re-audited.",
+          "AP Rubio Nov 5 page and the DeSantis Florida Politics page failed to load; those details remain attributed to prior ledger/attachment evidence.",
+          "The older report/overview and archived faction prose contain stale material; this pass adds dated succession corrections rather than re-auditing all legacy claims."
+        ]
+      },
+      {
+        "id": "2026-11-07-framework-migration",
+        "date": "2026-11-07",
+        "run_id": "2026-11-07-framework-migration",
+        "type": "workflow_migration",
+        "summary": "Storage and interface migration. All estimates carried forward from the first faction-consistency pass; no new political research or probability change.",
+        "probabilities_pct": {
+          "jd_vance": 49.35,
+          "marco_rubio": 20.78,
+          "ron_desantis": 19.48,
+          "ted_cruz": 6.49,
+          "john_mcentee": 3.9
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Carried forward from the first faction-consistency pass. This storage and interface migration does not add evidence or recalibrate the estimate.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2025-03-58b7aa",
+              "suc-2025-12-18-766631",
+              "suc-2026-08-19-b59801",
+              "suc-2026-09-24-11ac54"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Carried forward from the first faction-consistency pass. This storage and interface migration does not add evidence or recalibrate the estimate.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2025-12-7eb8a2",
+              "suc-2026-07-30e83e"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Carried forward from the first faction-consistency pass. This storage and interface migration does not add evidence or recalibrate the estimate.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Carried forward from the first faction-consistency pass. This storage and interface migration does not add evidence or recalibrate the estimate.",
+            "review_status": "partial",
+            "source_ids": [
+              "cruz_donor_positioning",
+              "harris_oct2026_primary",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [
+              "suc-2025-12-47212e"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Carried forward from the first faction-consistency pass. This storage and interface migration does not add evidence or recalibrate the estimate.",
+            "review_status": "partial",
+            "source_ids": [
+              "harris_oct2026_primary",
+              "mcentee_withdrawal",
+              "project2025",
+              "rcp_republican_detail"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "This is a workflow migration snapshot, not a fresh news or polling review.",
+          "This is a targeted consistency review, not a full daily intake or independent verification of the complete attachment.",
+          "Precise five-way weights remain provisional; organization and entry prospects have not been quantitatively calibrated.",
+          "No post-election candidate-support poll was independently verified in this pass. Pre-election polls cannot measure the subsequent repositioning.",
+          "Current donor commitments, state campaign organization and faction transfers to DeSantis or McEntee remain unresolved.",
+          "McEntee’s detailed current Iran/Israel and immigration proposals, and the attachment’s lobbying totals and conduct allegations, were not fully re-audited.",
+          "AP Rubio Nov 5 page and the DeSantis Florida Politics page failed to load; those details remain attributed to prior ledger/attachment evidence.",
+          "The older report/overview and archived faction prose contain stale material; this pass adds dated succession corrections rather than re-auditing all legacy claims."
+        ]
+      }
+    ],
+    "publication": "Authorized anonymized research is versioned in database/nominations/ and displayed in the nominee view and final daily report. Owner-identifying details and runtime metadata are excluded.",
+    "import": {
+      "filename": "1-republican_2028_wargame.json",
+      "sha256": "fc6aea24edc2e22c728303f9fbd7a821db956fcea07c46efc084e2f70c943513",
+      "source_verification": "owner_supplied_not_independently_verified_at_import"
+    }
+  },
+  "faction_consistency_review": {
+    "date": "2026-11-07",
+    "run_id": "2026-11-07-nominee-faction-first-pass",
+    "findings": [
+      {
+        "id": "ranking",
+        "finding": "Broad ordering is consistent: Vance has the clearest organization, Rubio a credible alternative, Cruz a narrower competing lane. DeSantis and McEntee require more coalition-building assumptions.",
+        "status": "analytical_judgment"
+      },
+      {
+        "id": "probability_gap",
+        "finding": "Faction evidence does not calibrate precise probabilities. The 1.30-point Rubio–DeSantis gap and McEntee’s 3.90 are particularly assumption-sensitive. No exact reallocation is justified by this consistency pass alone.",
+        "status": "open"
+      },
+      {
+        "id": "mcentee_record",
+        "finding": "Corrected the omission of historical immigration-oriented staffing and strengthened executive-control experience. Confirmed withdrawal drafting/signature involvement in the primary committee record. Do not reduce him to a content creator.",
+        "status": "corrected"
+      },
+      {
+        "id": "current_map",
+        "finding": "Use current faction homes; populist is a dissolved archival faction. Do not invent a unified media/insurgent constituency or automatically assign it to any nominee.",
+        "status": "applied"
+      },
+      {
+        "id": "gates",
+        "finding": "Miller/Wiles transition and Trump endorsement uncertainty affect the channels all contenders must navigate; none is an automatic nomination preference.",
+        "status": "corrected_in_faction_summaries"
+      },
+      {
+        "id": "evidence_not_scores",
+        "finding": "No conversion of legacy faction scores to odds; observed support, ideological preference, business investment, paid clients and prospective coalition transfer remain separate.",
+        "status": "applied"
+      }
+    ],
+    "probability_decision": "All five percentages held as provisional starting judgments; consistency is not statistical calibration.",
+    "nominees_added": [],
+    "faction_scores_changed": false
+  }
+}

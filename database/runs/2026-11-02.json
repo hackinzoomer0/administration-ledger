@@ -1,0 +1,317 @@
+{
+  "added": 29,
+  "coverage": {
+    "agents": [
+      {
+        "count": 65,
+        "model": "sonnet",
+        "outcome": "13 newsletters read (10 in window, 3 late Oct 31 editions); new sender Semafor",
+        "role": "newsletter"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "TVG Nov 2 client_error; Nov 1 Sunday",
+        "role": "digest"
+      },
+      {
+        "count": 0,
+        "model": "sonnet",
+        "outcome": "7 pages loaded; nothing dated Nov 1-2",
+        "role": "official"
+      },
+      {
+        "count": 170,
+        "model": "sonnet",
+        "outcome": "12 of 12 pages loaded (75 Hill sitemap headlines)",
+        "role": "world"
+      },
+      {
+        "count": 26,
+        "model": "sonnet",
+        "outcome": "11 calendar, 10 watch, 5 legal queries; mostly outcome not found",
+        "role": "calendar-watch-legal"
+      },
+      {
+        "count": 19,
+        "model": "sonnet",
+        "outcome": "3 missing; CNN and Axios stale, sampled via search",
+        "role": "recall"
+      },
+      {
+        "count": 13,
+        "model": "sonnet",
+        "outcome": "1 finder; 5 readable, 8 headline only",
+        "role": "article-text"
+      },
+      {
+        "count": 12,
+        "model": "opus",
+        "outcome": "9 items, 5 updates, 8 edits",
+        "role": "analyst-security"
+      },
+      {
+        "count": 18,
+        "model": "opus",
+        "outcome": "11 items, 10 updates, 10 edits, 5 people added",
+        "role": "analyst-domestic"
+      },
+      {
+        "count": 10,
+        "model": "opus",
+        "outcome": "9 items, 2 updates, 1 edit",
+        "role": "analyst-economy"
+      }
+    ],
+    "blocked": [
+      "TVG tvg-daily-brief-2-nov-2026: client_error",
+      "tennesseelookout.com: client_error",
+      "northeasttimes.com Oct 30 page: client_error",
+      "iisd.org Citgo page: client_error",
+      "CNN politics and Axios homepages: stale undated copies"
+    ],
+    "checklist": {
+      "analysts": "done",
+      "articleText": "done (blocked: 8 items with no readable copy; tennesseelookout.com client_error)",
+      "collectors": "done (blocked: TVG Nov 2 client_error)",
+      "legal3": "done",
+      "newsletters": "done",
+      "queue": "done",
+      "recall": "done (blocked: CNN and Axios stale copies; sampled via search)",
+      "runDoc": "done",
+      "triage": "done",
+      "validator": "done",
+      "watch10": "done",
+      "window": "done",
+      "writes": "done"
+    },
+    "deviations": [
+      "Window Nov 1-2 (default; last run Nov 1).",
+      "Proposed fix from the Nov 1 run (replace CNN and Axios recall indexes) not applied: kept the domain-restricted search fallback; prompts/recall unchanged.",
+      "One article-text finder for 13 items; two re-checks from the Nov 1 run included.",
+      "Two analyst edits with non-string paths (motives diff, maximalists position paragraph) applied by the orchestrator by hand."
+    ],
+    "fxStats": {
+      "empty": 26,
+      "emptyWithReason": 26,
+      "scored": 3
+    },
+    "gaps": [
+      {
+        "gap": "Hegseth Senate seat (re-check)",
+        "routes": [
+          {
+            "route": "link",
+            "tried": "tennesseelookout.com",
+            "whyItFailed": "client_error"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search headline plus date",
+            "whyItFailed": "no copy found"
+          },
+          {
+            "route": "other outlet",
+            "tried": "search names",
+            "whyItFailed": "titles only"
+          }
+        ]
+      },
+      {
+        "gap": "Trump floats pre-emptive staff pardons (Axios Nov 2)",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "Axios AM Nov 2",
+            "whyItFailed": "not in that edition"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search key phrase plus date",
+            "whyItFailed": "no Nov 2 copy"
+          },
+          {
+            "route": "other outlet",
+            "tried": "search",
+            "whyItFailed": "none found"
+          }
+        ]
+      },
+      {
+        "gap": "$15B for farmers (AP Nov 1)",
+        "routes": [
+          {
+            "route": "newsletter",
+            "tried": "AP Morning Wire",
+            "whyItFailed": "one-line link only"
+          },
+          {
+            "route": "wire copy",
+            "tried": "search",
+            "whyItFailed": "no copy found"
+          },
+          {
+            "route": "primary",
+            "tried": "USDA release",
+            "whyItFailed": "not found"
+          }
+        ]
+      }
+    ],
+    "knownBlockedSkipped": [
+      "Reuters",
+      "AP",
+      "Politico",
+      "The Guardian",
+      "BBC",
+      "Google News",
+      "MSN",
+      "The Hill pages",
+      "Washington Post"
+    ],
+    "lookbackDays": 2,
+    "methodAudit": {
+      "foundOnlyByNewsletters": [
+        "Trump-Netanyahu tough call (Axios AM)",
+        "Trump-Carney call (Playbook, Reuters)",
+        "GOP Senate rescue spending (Axios AM)",
+        "Top 20 donors $2B (Axios AM)",
+        "Patriot sale funding (Semafor)",
+        "Azov resorts (Reuters)",
+        "Venezuela oil workers (Semafor)",
+        "cyber info-sharing law (Punchbowl)"
+      ],
+      "foundOnlyByRecall": [
+        "Axios: Trump vows to protect Musk, floats pre-emptive staff pardons (Nov 2)",
+        "CNN: election officials brace for foreign threats (Nov 1)",
+        "CNN: 11 Senate seats most likely to flip (Nov 2)"
+      ],
+      "foundOnlyByTips": [],
+      "headlineOnly": [
+        "DOJ noncitizen claims",
+        "SSA email Hatch Act",
+        "Hegseth Senate seat",
+        "Floris-Benavides dismissal",
+        "Afghans via Pakistan",
+        "farmers $15B",
+        "Nasdaq correction",
+        "Musk and pardons remark",
+        "Yemen al-Jawf",
+        "Moscow plot",
+        "arch suit",
+        "migrant kids",
+        "Vance 2028 road test"
+      ],
+      "proposedFix": "Check whether Axios PM or Finish Line arrives in the inbox and read it; otherwise have the world collector run domain-restricted searches of axios.com and cnn.com with URL-path dates. Re-check the 8 headline-only items next run.",
+      "rootCause": "Monday-before-election window: official pages and TVG had nothing; Axios web stories outside the AM newsletter are reached by no collector, and CNN and Axios indexes are stale."
+    },
+    "perIssue": {
+      "AI": "found 3 new, 1 update",
+      "EPS": "found 0 new, 1 update",
+      "FED": "found 3 new, 1 update",
+      "IMM": "found 0 new, 1 update",
+      "IRN": "found 5 new, 3 updates",
+      "MID": "found 10 new, 8 updates",
+      "RUS": "found 3 new, 2 updates",
+      "SUC": "found 1 new, 1 update",
+      "TAR": "found 3",
+      "VEN": "found 1"
+    },
+    "propagation": {
+      "ai-2026-11-01-openai-post-midterm-push": [
+        "none: weight-1 update; adds a second outlet and the 2028 memo detail, no stored belief changes"
+      ],
+      "eps-2026-10-31-wsj-suit-dismissed": [
+        "none: tier raised on two more outlets; the Epstein files pending line and Trump’s pattern already carry the dismissal"
+      ],
+      "irn-2026-11-02-netanyahu-call": [
+        "issues/IRN",
+        "meta/stances",
+        "factions/hawks",
+        "factions/vance",
+        "people/all",
+        "meta/world"
+      ],
+      "mid-2026-10-26-9th-cir-ca-ballots": [
+        "issues/MID",
+        "meta/stances",
+        "meta/motives",
+        "factions/maximalists"
+      ],
+      "mid-2026-10-28-peltola-spoiler": [
+        "none: fxnote re-checked after the Alaska dismissal; the party's own probes stand, so tags kept"
+      ],
+      "mid-2026-10-30-thompson-order": [
+        "none: source added only; the TRO is already scored and in the midterms pending line"
+      ],
+      "mid-2026-10-31-alaska-opposes-suit": [
+        "none: fxnote now points to the ruling item; nothing else changes"
+      ],
+      "mid-2026-11-01-alaska-suit-dismissed": [
+        "issues/MID",
+        "meta/stances",
+        "meta/motives",
+        "factions/maximalists",
+        "people/all",
+        "meta/legal",
+        "events/MID (fxnotes on mid-2026-10-28-peltola-spoiler, mid-2026-10-31-alaska-opposes-suit)"
+      ],
+      "mid-2026-11-01-stevens-rogers": [
+        "factions/party",
+        "people/all"
+      ],
+      "rus-2026-10-24-483088": [
+        "issues/RUS (weight 2 update; truce ended as scheduled)"
+      ],
+      "rus-2026-10-31-patriot-sale": [
+        "none: update adds sources only; the Oct 31 run already propagated it to factions/pentagon, meta/stances and issues/RUS"
+      ],
+      "tar-2026-11-02-trump-carney-call": [
+        "issues/TAR"
+      ]
+    },
+    "queue": {
+      "captured": 11,
+      "triaged": 0
+    },
+    "sourcesRead": [
+      "Gmail: Axios AM (Oct 31, Nov 2), Axios 2028 (Nov 1), AP Morning Wire (Nov 1, 2), Reuters Daily Briefing (Nov 2), Politico Playbook (Oct 31, Nov 1, 2), Semafor Flagship (Nov 2), Semafor Flagship Asia (Nov 1), Punchbowl News AM (Nov 2), Punchbowl Readback (Oct 31)",
+      "TVG Nov 2 (client_error)",
+      "whitehouse.gov releases and presidential actions",
+      "Treasury",
+      "OFAC",
+      "State",
+      "Justice",
+      "Federal Reserve",
+      "Memeorandum",
+      "NewsNow",
+      "RealClearPolitics",
+      "Al Jazeera",
+      "Euronews",
+      "Anadolu",
+      "CBS politics",
+      "DefenseScoop",
+      "SOFX",
+      "Federal News Network",
+      "European Parliament press room",
+      "The Hill sitemap",
+      "CNN politics (stale)",
+      "Axios (stale)",
+      "Arab News",
+      "WDBO (AP)"
+    ],
+    "watched": [
+      "Steve Feinberg",
+      "Brad Cooper",
+      "Bill Pulte",
+      "Peter Navarro",
+      "Chris LaCivita",
+      "Steve Bannon",
+      "Jeanine Pirro",
+      "Markwayne Mullin",
+      "Omeed Malik",
+      "Tucker Carlson"
+    ]
+  },
+  "summary": "Missed items: Axios on Trump floating pre-emptive staff pardons (Nov 2) was on no collector page; top news: a judge threw out DOJ's suit to block certification of Alaska's Senate race\n\nERRORS AND INCOMPLETE ITEMS\n- TVG Daily Brief Nov 2 | Monday digest | Why not done: direct URL failed with client_error (\"failed at its site (client_error), and nothing of the page was retrieved\"); Nov 1 was a Sunday, no issue\n- Recall indexes | CNN politics and Axios homepages served stale, undated copies again | Why not done: unusable pages; recall sampled 19 headlines through cnn.com and axios.com restricted search with dates from URL paths\n- Article pages that failed | Tennessee Lookout (Hegseth Senate-seat re-check): client_error; Northeast Times (Iran answer): client_error; IISD (Citgo): client_error; The Hill, AP, Politico, Washington Post on the known-blocked list\n- Still headline only, capped at weight 2: DOJ's 21,000-noncitizen claim and sanctions request, SSA email and the Hatch Act, Hegseth Senate seat, dismissal of the case against ex-FBI officials Floris and Benavides, a plan to deport Afghans through Pakistan, a promised $15 billion for farmers (presumably tariff relief; unread), Nasdaq correction, Trump's Musk and pre-emptive pardon remarks | routes tried: newsletter copy, the link, wire copy search, other outlets; none gave a readable dated page\n- Calendar, outcome not found (search, official page, another outlet): trade court Section 338/301 ruling, Anthropic rehearing, DOJ appeal of the Maurene Comey order, Citgo decision, immigration fee case, Afghan removal flight (only AP's Nov 1 headline on deporting Afghans via Pakistan)\n- Data conflict to check: Axios (Nov 2) names Graham in South Carolina's Senate race, but the ledger records Lindsey Graham as having died Jul 11 | flagged for the weekly audit, nothing revised\n- Discrepancy: the CDC Ebola entry bar read by the watch agent runs Oct 11 to Nov 10, not Nov 3 to Dec 18 as the immigration pending line says | not revised; needs a source check\n- Recall miss: Axios \"Trump vows to protect Musk, floats pre-emptive staff pardons\" (Nov 2) | should have come from the Axios AM newsletter or a politics aggregator; it was not in the Nov 2 Axios AM edition read | Proposed fix: add Axios PM or Axios Finish Line to the newsletter read (check the inbox has them), or have the world collector sample axios.com via domain-restricted search\n- Recall miss: CNN \"Election officials brace for foreign threats and an unpredictable Washington\" (Nov 1) | should have come from a politics index | low weight; folded into post-election positioning item\n- Recall miss: CNN \"11 Senate seats most likely to flip\" (Nov 2) | low priority analysis\n- Note: Ro Khanna's role was filled from known record without a search check\n\nCONSEQUENTIAL NEWS\n- Alaska Senate suit thrown out (Nov 1; NYT, Politico, AP). The Justice Department sued Oct 22-23, at Trump's direction and before any votes were counted, to head off certification of a possible win by Democrat Mary Peltola over Republican Sen. Dan Sullivan. The theory: a second candidate also named Dan Sullivan is on the ballot, and the NYT reported Peltola's campaign staff helped recruit him as a spoiler (her campaign denies it). DOJ amended the suit Oct 29 to seek decertifying the result if Sullivan loses narrowly, and asked to set aside ballots for the second Sullivan; Alaska's attorney general called that \"disturbing and impossible\" on privacy grounds. Judge Sharon Gleason dismissed it, saying there is no workable plan for handling two Dan Sullivans; DOJ says it will appeal, and its criminal inquiry (about 40 subpoenas) and the House Oversight probe by Rep. James Comer continue. Sullivan says he will accept the results. | Consequence: hurts the Maximalists (the faction that runs the enforcement agencies, DOJ and FBI included) on the midterms. This was their main tool for contesting a Peltola win, and the criminal probes remain the path left. Their score on the midterms was cut from +1 to 0 (documented).\n- Ninth Circuit rejects DOJ's California ballot appeal (Oct 30, AP via WDBO; the newsletters ran it Nov 1). DOJ is running a criminal noncitizen-voting probe in Los Angeles County (subpoenas to three registrar employees, a grand jury date of Nov 4) and asked a federal judge to set aside about 20,000 mail ballots. Judge Carter refused and appointed a special master. A 2-1 Ninth Circuit panel dismissed DOJ's emergency appeal Oct 26, then on Oct 30 rejected its main appeal, finding \"no feasible way\" to separate the ballots. DOJ says it will go to the Supreme Court. | Consequence: a second court loss for the Maximalists on contesting the midterm count, so the stored ruling was raised to a \"shift\" (documented).\n- Axios: \"tough\" Trump-Netanyahu call about Iran (Nov 2; reported, one outlet). The US and Israel have held back from striking Iran again until after the Nov 3 midterms; the WSJ reported Oct 28 that Gulf states were told to prepare for a short, intense campaign after Nov 3. Axios's Barak Ravid reports Netanyahu pressed Trump on the call to strike right after the election, while Trump said he is \"not in much of a hurry\" and prefers to let talks play out, with talks and combat preparation running together. | Consequence: weakens the Primacist Hawks (Rubio, Hegseth, Miller and others who want a harder line on Iran) and helps the Vance Lane, which favors the talks track. It also cuts against our stored expectation of a quick campaign after Nov 3; provisional, because it rests on one outlet.\n- Iran says the \"ball is in the US court\" (Nov 2; Al Jazeera, CBS; Iran's own claim). Qatar presented Iran a seven-day draft deal Oct 25; Iran rejected Qatar's ideas Oct 28, saying \"no concessions on the nuclear issue\"; Qatari mediators then returned to Tehran with a revised proposal and an Iranian answer was due by the end of last week. Iran now says its answer has gone to Washington through Qatar, with terms unpublished. Oil fell on the news (Semafor); Iran's leader separately ordered a \"geographically unrestricted\" response to any new US attack. | Consequence: closes our pending item on Iran's reply; the choice between a deal and strikes now rests with Trump, with the Treasury squeeze camp and the Operation (his political team) preferring to wait. Only Iran's characterization; not independently confirmed.\n- Rep. Haley Stevens endorses Republican Mike Rogers (Nov 1; Axios, NYT, AP). Stevens (D-Mich.) lost the Michigan Democratic Senate primary to Abdul El-Sayed, who faces Rogers in Tuesday's general election. Two days before it she endorsed Rogers; staff resigned, Schumer called it \"a despicable betrayal,\" some House Democrats want her removed from the caucus, and Trump said he would \"love to have\" her in the Republican Party. AOC had called her privately to try to stop it. El-Sayed raised $1.2M within hours. | Consequence: helps the Party Machine (the RNC and Senate campaign committees) in a seat both parties are fighting over (my reading; provisional).\n- Trump and Canadian PM Mark Carney speak by phone (Nov 2; Politico Playbook, Reuters). Canada is under 50% tariffs, imposed under Section 338, that apply even to USMCA goods and took effect Oct 30; an importer suit challenging them was filed Oct 20, and Carney said Oct 30 Canada would wait out this administration if needed. After the call Trump said the sides are \"very close\" and described a \"concept\" of a new trade deal with Keystone XL on the agenda; Carney called it a good conversation and said they will meet in coming weeks. | Consequence: a possible opening in the tariff fight, but statements only, with no terms (reported).\n- Russia-Ukraine local truce at Oleshky ends (Nov 1; Al Jazeera, AP). A six-day ceasefire in Russian-occupied Oleshky (Kherson region), mediated by Melania Trump with Pope Leo XIV rather than by the US government, let civilians evacuate. It ended Nov 1 with no reported violations and no extension, and both sides' air-raid alert apps were hacked afterward (Ukraine's sent false nuclear and chemical warnings). | Consequence: no change in any faction's position; the stored Russia pending line was updated (reported).\n- New people and donors added: Haley Stevens (Michigan congresswoman), Abdul El-Sayed (Michigan Democratic Senate nominee), Mike Rogers (Michigan Republican Senate nominee), Sharon Gleason (federal judge, Alaska), Dan Sullivan (Alaska senator); donor Reid Hoffman (Democratic donor, about $17M for Talarico per NYT).\n"
+}

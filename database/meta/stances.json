@@ -1,0 +1,902 @@
+{
+  "asof": "2026-11-03",
+  "note": "One-line what/why per faction per issue, written from the Oct 24 reports. First line = what they push for and how; second = why and who backs it. Stance audit entries assess selected episodes by actor and issue. Coverage records where the three views overlap.",
+  "stances": {
+    "AI": {
+      "deal-capital": {
+        "tag": "Chips for the Gulf",
+        "what": "Sells chips to Gulf partners: H200 sales; Mythos controls imposed then lifted (Jun 12-30); license-free chips to the UAE (Jul 10). Interest: Gulf funds that back the envoys' firms and Lutnick's family data-center deals.",
+        "why": "Documented fit: Aryam and MGX ties to World Liberty, Cantor's $310M Nvidia stake; the White House denies a chip link."
+      },
+      "hawks": {
+        "tag": "Curb chips to China",
+        "what": "Chip curbs written into law, 42-2 (Jan 22); OVERWATCH in the NDAA (Jul 14).",
+        "why": "China hawkishness. No donor tied to this position."
+      },
+      "maximalists": {
+        "tag": "Floated review; dropped",
+        "what": "Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs.",
+        "why": "Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift. A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it."
+      },
+      "operation": {
+        "tag": "Voluntary review",
+        "what": "Pressed the Jun 2 voluntary review order; Wiles rebuked FDA-style licensing and met Amodei Apr 17.",
+        "why": "AI splits Trump's coalition; a voluntary order lets him act without choosing a side (my reading)."
+      },
+      "party": {
+        "tag": "Leaders quiet; Hawley dissents",
+        "what": "Hawley pursued restrictions while other Republicans, including Cruz on state preemption, took different approaches.",
+        "why": "Electoral positioning and industry backing are plausible incentives. Map each contribution or policy stake to its recipient. Treat this as a faction split. The evidence for a common leadership position or individual reversal is thin."
+      },
+      "pentagon": {
+        "tag": "All lawful uses",
+        "what": "All lawful uses from AI vendors: Anthropic designated (Feb 27; upheld Sep 25); Maven made a program of record (Mar 9); Grok on its networks.",
+        "why": "Documented acts; Feinberg's memo reported (Reuters). Palantir's US government revenue +84% (Q1). Power over vendors and vendor gains coincide."
+      },
+      "tech-right": {
+        "tag": "No review; preempt states",
+        "what": "The ledger groups preemption, less review, and chip sales under one agenda.",
+        "why": "a16z, Brockman, Founders Fund and Nvidia have different political or portfolio stakes. Export revenue and strategic limits on China can diverge. Split the planks before judging consistency. Campaign support and financial exposure alone leave policy influence unresolved."
+      },
+      "treasury": {
+        "tag": "Bank-risk review",
+        "what": "Convened bank CEOs on Mythos (Apr 7) and pressed the Jun 2 order.",
+        "why": "A model-driven bank breach is a direct market risk (my reading)."
+      },
+      "vance": {
+        "tag": "Anti-incumbent, no rules",
+        "what": "Program: distrust Big Tech power ('break Google up'). Posture on AI: no rules, labs' requests a 'Trojan horse'. Interest: no-rules AI and antitrust on incumbents both serve Thiel, Andreessen and 1789 bets.",
+        "why": "Documented: 2024 Google post; Feb 2025 Paris speech; Sep 14 remark. No act found. Fit with patrons (my reading)."
+      }
+    },
+    "EPS": {
+      "dissenters": {
+        "tag": "Force release",
+        "what": "Forced the Epstein Act (427-1). Massie lost his seat after $15.5M against him; Greene left the party and makes the files her outside content.",
+        "why": "Documented (WKMS FEC data; Washington Examiner). A cross-party grievance that now sustains an outside platform (my reading)."
+      },
+      "maximalists": {
+        "tag": "Close the case",
+        "what": "Declared DOJ's duty met (Jan 30) and said the files 'should not be a part of anything going forward'; lost a D.C. Circuit stay bid on the foreign-language file review (Oct 28).",
+        "why": "Close the case to protect Trump."
+      },
+      "operation": {
+        "tag": "Protect Trump",
+        "what": "No act; Wiles says Trump is 'in the file but nothing awful'.",
+        "why": "The story threatens Trump's standing, and the Operation's authority rests on it."
+      },
+      "party": {
+        "tag": "Contain it",
+        "what": "Contain it: Johnson called the petition moot; Comer said DOJ 'botched' the release.",
+        "why": "Comer's criticism of DOJ is his only public distance."
+      },
+      "vance": {
+        "tag": "Transparency in words",
+        "what": "Program: elites should not escape accountability. Posture: Vance says nothing was hidden; Carlson says cover-up. Interest: any Vance act would cross Trump.",
+        "why": "Documented: Jul 15 Rogan remarks; no act found. Carlson's line is content for an audience he owns (my reading)."
+      }
+    },
+    "FED": {
+      "deal-capital": {
+        "tag": "Market caution",
+        "what": "Lutnick warned against firing Powell (Apr 2025).",
+        "why": "Market caution."
+      },
+      "dissenters": {
+        "tag": "Protect independence",
+        "what": "Block Fed nominees until the Powell probe closed (Tillis, Apr 24); protect the Board's independence.",
+        "why": "Protect Congress's and the Fed's independence. No donor stream behind it."
+      },
+      "maximalists": {
+        "tag": "Take control of Board",
+        "what": "Put the Board under the president: Pulte's referral and firing letter for Cook, Powell subpoenas. Cook stays 5-4 and voted for a hike Oct 28.",
+        "why": "So the Board cuts rates and the president's picks govern. Courts have held so far: Cook stays 5-4."
+      },
+      "treasury": {
+        "tag": "Market credibility and influence",
+        "what": "Treasury favored market credibility and sought a closer accord. The FOMC voted on rates.",
+        "why": "Borrowing costs and institutional influence are Treasury stakes. The ledger records professional financial ties and identifies no issue-specific donor. Preserve both the credibility and influence objectives. A rate result alone gives no evidence of a Treasury stance reversal."
+      },
+      "vance": {
+        "tag": "Cut rates, soften message",
+        "what": "Program: cost of living for workers. Posture: the Fed should cut (Sep 3), 'we hear you' on costs. Interest: repeats Trump at no cost and keeps RNC donors calm.",
+        "why": "Documented: Sep 3 remark; no act. Costless alignment with Trump (my reading)."
+      }
+    },
+    "IMM": {
+      "dissenters": {
+        "tag": "Distance from raids",
+        "what": "Paul withheld the Schroyer hearing; Salazar ran an ad; Tillis blames Miller.",
+        "why": "Distance on a toxic issue."
+      },
+      "maximalists": {
+        "tag": "3,000 arrests a day",
+        "what": "Posture: the nation decides who belongs. Interest: control of ICE (Venturella, Jun 1), a legal arm funded by Bradley and DonorsTrust, and contractors' beds. 3,000 a day ordered Oct 6 after a spring pullback.",
+        "why": "Documented grants: Bradley $27.1M (2022), DonorsTrust $21.3M (2024). Reported: Atlantic (May 11) on the spring pullback. Contractor tie is a documented fit, no causation."
+      },
+      "operation": {
+        "tag": "Quieter raids pre-election",
+        "what": "The political team reportedly wanted a lower profile for raids before the election. The October 6 arrest directive moved the other way.",
+        "why": "Electoral risk and control of the agenda are separate stakes. MAGA Inc. backers fund electoral capacity. A reported timing preference and a setback. Evidence of a public reversal or donor direction is missing."
+      },
+      "tech-right": {
+        "tag": "Keep H-1B (quietly)",
+        "what": "Musk vowed 'war' for H-1B (Dec 2024), later softened; silent on the fee and PERM suspensions since.",
+        "why": "A skilled-visa pipeline serves tech employers, but a public fight is costly for those who depend on the government."
+      },
+      "vance": {
+        "tag": "Restrict; spare patrons",
+        "what": "Program: restrict immigration to raise wages. Act: PERM suspensions (Oct 8) hit Microsoft, Adobe and outsourcers, incumbents his venture patrons compete with; patrons still want skilled visas open.",
+        "why": "Documented: Oct 2 remark, Oct 8 suspensions, Oct 17 recast. Aimed where it costs the lane least (my reading); the act is scored to the Maximalists."
+      }
+    },
+    "IRN": {
+      "deal-capital": {
+        "tag": "Patron-led, war then deal",
+        "what": "Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement.",
+        "why": "Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem."
+      },
+      "dissenters": {
+        "tag": "Article I on war",
+        "what": "Members repeatedly sought war-powers votes while the coalition and vote counts shifted.",
+        "why": "Congressional authority and political independence are stakes. Yass-backed support applies to the libertarian wing. Credit repeated procedural action. Test individual consistency and electoral costs against roll calls."
+      },
+      "hawks": {
+        "tag": "Push for strikes; follow Trump",
+        "what": "Rubio reportedly doubted the June agreement, then defended it and signaled a pause on new strikes.",
+        "why": "Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage. Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved."
+      },
+      "maximalists": {
+        "tag": "Back the war, terms first",
+        "what": "Posture: sovereignty through strength; Iran gives up its program first. Interest: officials' posts and Bannon's and Loomer's access ride on loyalty, so they back the war; only Prince, a ground contractor, dissents.",
+        "why": "Reported: Miller in Go Big; Loomer (Mar 3); Bannon 'have his back... with full information' (CPAC, Mar 27); Prince (Mar 1). Interest reading is mine."
+      },
+      "operation": {
+        "tag": "Quiet until Nov 3",
+        "what": "Wants quiet until Nov 3: Trump pledged no attack before the election. Wiles privately doubted the war's rosy picture.",
+        "why": "Keep the public line with Trump while limiting political risk before the midterms."
+      },
+      "party": {
+        "tag": "Avoid war vote",
+        "what": "Posture: back the commander in chief. Interest: no recorded war vote before Nov 3; Thune could not count 50 for war money (Jul 23); Hawley would not back the war powers resolution (Mar 2) while voicing doubts.",
+        "why": "Reported: TNND (Jul 22-23); St. Joseph Post (Mar 3). Interest reading is mine."
+      },
+      "pentagon": {
+        "tag": "Ready, paid, not finished",
+        "what": "The department kept military options ready and sought funding while executing the administration’s orders.",
+        "why": "Budget and vendor discretion confer institutional power. Palantir and Lockheed have procurement exposure. Vendor benefits and department activity are observable claims. Their existence leaves individual lobbying for escalation unresolved."
+      },
+      "tech-right": {
+        "tag": "Critique spoken, contracts kept",
+        "what": "No line. Thiel: the war was a mistake (Oct 12), while Palantir, which he chairs, sells the war's targeting software (Maven use doubled).",
+        "why": "Documented: Thiel remark and Palantir Q1 revenue (The Register). My reading: a strategy critique, not anti-war interest."
+      },
+      "treasury": {
+        "tag": "Sanctions squeeze",
+        "what": "Economic war instead of bombing: auto and rail sectors (Oct 1), banks (Oct 15), shadow fleet (Oct 21), each with wind-down licenses. Interest: Treasury turf during the strike hold and avoiding an oil shock.",
+        "why": "Documented OFAC actions. My reading on turf and oil."
+      },
+      "vance": {
+        "tag": "Conditional force, negotiations, then public criticism",
+        "what": "At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations. On Nov 4 he publicly blamed the war for the midterm losses and questioned its electoral price.",
+        "why": "Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives. Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open."
+      },
+      "populist": {
+        "tag": "Split by actor",
+        "what": "Kent resigned over the war, Carlson criticized it, and Loomer and Bannon backed Trump in different ways.",
+        "why": "Audience, access, and succession influence can reward different positions. Shillman backs Loomer and Real America’s Voice distributes Bannon’s show. Score the split by actor. A shared audience market gives weak evidence of any individual’s motive."
+      }
+    },
+    "MID": {
+      "dissenters": {
+        "tag": "Costs first; distance",
+        "what": "Put costs first and criticize the ICE push.",
+        "why": "Distance from Trump in swing seats."
+      },
+      "hawks": {
+        "tag": "Punish dissent in primaries",
+        "what": "Discipline dissent in primaries: about $15.5M for Gallrein against Massie (MAGA KY $7.4M, UDP $4.1M, RJC $3.9M); Massie lost May 19.",
+        "why": "Documented FEC data (WKMS, Jul 17; Al Jazeera). The message is to members (my reading)."
+      },
+      "maximalists": {
+        "tag": "Enforcement push",
+        "what": "Posture: a citizens-only vote. Interest: each suit or charge is an audition for a bigger post; Bannon attacks the Operation's money. Both ballot suits lost by Nov 2; TRO bars DOJ threats to Nov 16.",
+        "why": "Documented court record; reported (Politico, Oct 15, anonymous) on Miller and Pulte for Wiles's job; Bannon's audit demand (Oct 7, Playbook as carried)."
+      },
+      "operation": {
+        "tag": "Run campaign, spend war chest",
+        "what": "Posture: Trump is the coalition's glue. Interest: operators judged on Nov 3 control MAGA Inc.'s timing (held to Sep 1, about $277M by Oct 14) and sell proximity abroad; Srpska fee went to Trump's library (Oct 23).",
+        "why": "Reported: Daily Beast citing NY Post (Oct 23); LaCivita confirmed on X. Spending figures documented in filings as stored."
+      },
+      "party": {
+        "tag": "Defend House and Senate",
+        "what": "Posture: hold the majorities. Interest: leaders' posts, financed by donors who predate Trump: Musk $158M to SLF since July; SLF and One Nation $103M in 2025; NRSC and Comer probes of Peltola (Oct 28-30).",
+        "why": "Documented: AP (Oct 12) on Musk; stored filings on SLF. Survival is the stated aim; independence from Trump is my reading."
+      },
+      "vance": {
+        "tag": "Blame Iran war for losses",
+        "what": "On Nov 4 Vance publicly blamed the Iran war for Republican losses and emphasized winning back voters who had defected from Trump’s coalition.",
+        "why": "Documented public remarks reported by Axios Nov 5. My reading: the message gives Vance an opening with antiwar voters while Trump’s public approval leaves room to stay in the coalition."
+      }
+    },
+    "RUS": {
+      "deal-capital": {
+        "tag": "Deal as brokerage",
+        "what": "Trades sanctions relief and asset deals for a ceasefire: Miami plan (Nov 2025), Putin met Oct 21, Lukoil license extended, gas-transit pitch (Nov 2). Pressure lands on Kyiv (refinery pause, Oct 29). Interest: Gulf and US buyers.",
+        "why": "Reported (WSJ): plan puts US firms first for frozen assets; documented fit: Aryam in the Lukoil bid group; no coordination with investors shown."
+      },
+      "dissenters": {
+        "tag": "Enforce sanctions law",
+        "what": "Enforce the Graham sanctions law (86-11, 262-159) that Trump waived.",
+        "why": "Enforce a law Congress passed. No donor stream found."
+      },
+      "hawks": {
+        "tag": "Sanction in principle; follow Trump",
+        "what": "Favor sanctions in principle, but Rubio executes Trump's deal line and calls Starshield 'a private commercial contract'.",
+        "why": "Rubio follows Trump's line; this splits the hawks from the Pentagon."
+      },
+      "pentagon": {
+        "tag": "Shift burden to Europe",
+        "what": "Shift the burden to Europe; a Patriot transfer was reportedly held (denied). State approved a $2.1B Patriot sale paid by Ukraine and allies, delivery in the 2030s (Oct 31).",
+        "why": "Restraint plus low interceptor stocks. Defense contractors benefit from European PURL arms purchases (beneficiary only, no lobbying found)."
+      },
+      "tech-right": {
+        "tag": "Protect Starshield business",
+        "what": "Musk's Starshield speed cap hit Ukrainian drones; Trump reportedly called him to lift it (Oct 21).",
+        "why": "Musk acts as an outside operator protecting his business."
+      },
+      "treasury": {
+        "tag": "Licenses for the deal track",
+        "what": "Says sanctions are leverage; issues the licenses the deal track needs: diesel (Oct 9, at Trump's direction) and Lukoil talks to Nov 21 (Oct 21). Interest: cover and standing with the envoys.",
+        "why": "Documented licenses; documented fit with the Aryam-linked bid group; nothing shows Bessent acted for it."
+      },
+      "vance": {
+        "tag": "Restraint; Europe pays",
+        "what": "Program: Europe pays for its defense; power goes to China. Vance proud of ending aid; Colby set burden-shifting and reportedly urged Baltics not to 'poke' Russia (Oct 30). Costs no patron.",
+        "why": "Documented: Apr 14 remarks. Reported: Oct 30 Colby report. Posture and interest align here (my reading)."
+      }
+    },
+    "SUC": {
+      "hawks": {
+        "tag": "Two hawk lanes for 2028",
+        "what": "Rubio defers to Vance in words and builds a base in acts; Cruz builds a hawk lane by attacking Carlson (Mar 10) for the pro-Israel donor network.",
+        "why": "Reported (Axios on Cruz's 2028 aim; RJC's Brooks). Documented Cruz statement. No 2026 payment to Cruz found."
+      },
+      "maximalists": {
+        "tag": "Third term or hard heir",
+        "what": "Posture: the program needs Trump or a heir who keeps using the whole executive. Interest: Bannon's show and possible run, and officials whose power is personal to Trump.",
+        "why": "Reported: Axios (Jan 10, 2026) on Bannon's groundwork, which he denies; third-term talk is a statement, not an act."
+      },
+      "operation": {
+        "tag": "Keep race open",
+        "what": "Posture: the choice is Trump's. Interest: an open race keeps every contender needing Wiles's access and Blair's and LaCivita's money; a named heir makes Trump a lame duck and their product worth less.",
+        "why": "My reading, resting on documented control of MAGA Inc. and the reported Srpska work."
+      },
+      "vance": {
+        "tag": "Build a coalition for the presidency",
+        "what": "Build fundraising, turnout and endorsements to win the Republican nomination and presidency. The RNC finance role and Malik fundraiser are intermediate gains.",
+        "why": "Thiel, Rockbridge and 1789 help build the coalition. Future access is a plausible return for backers. Portfolio stakes and policy preferences vary. Trump retains control over his endorsement. Malik's role as fundraiser host and his ties to Vance's donor network give him and his circle a channel into the succession coalition. That is political representation through access and coalition building. The relationship matters independently of any contribution by Malik or 1789 Capital. Influence over individual policy decisions needs decision-specific evidence."
+      }
+    },
+    "TAR": {
+      "deal-capital": {
+        "tag": "Protect metals; sell chips",
+        "what": "Lutnick held 50% on metals and stalled the Mexico deal (Oct 15).",
+        "why": "Metals protection helps industrial allies while chip sales help his sons (reported)."
+      },
+      "dissenters": {
+        "tag": "End emergencies; carve-outs",
+        "what": "Ended the Canada emergency 219-211 (Feb 11); Collins won Maine carve-outs (Oct 23).",
+        "why": "Free-trade conviction and electoral relief."
+      },
+      "maximalists": {
+        "tag": "Keep high tariffs",
+        "what": "Hold 50% on metals and 25% on autos; oppose cuts for Mexico (Oct 15).",
+        "why": "The one issue where their words and acts agree."
+      },
+      "party": {
+        "tag": "Avoid tariff votes",
+        "what": "Tried to bar tariff votes; failed 217-214 (Feb 10).",
+        "why": "Avoid an embarrassing vote."
+      },
+      "treasury": {
+        "tag": "Court-proof wall; China truce",
+        "what": "Managed trade on legal ground: Section 301 wall (Jul 24), China truce to Jan 10, 2027, AGOA suspensions (Nov 2). Interest: USTR authority (Greer) and market calm (Bessent).",
+        "why": "Documented acts; reported Greer-Lutnick clash. My reading on motives."
+      }
+    },
+    "VEN": {
+      "deal-capital": {
+        "tag": "Oil flowing first",
+        "what": "US stake and oil sales continue with no election date set under State's reform-first path (Oct 27).",
+        "why": "Oil access: the Caracas Pragmatists want oil flowing before an election."
+      },
+      "dissenters": {
+        "tag": "War-powers limits",
+        "what": "War-powers resolution advanced 52-47 (Jan 8) but failed 50-50 when Vance broke the tie (Jan 14).",
+        "why": "Restraint and oversight of military action."
+      },
+      "hawks": {
+        "tag": "Remove regime; keep Rodriguez",
+        "what": "Captured Maduro (Jan 3), kept Rodriguez, kept Machado out. Rubio's Oct 27 path: reforms first, best case June 2027. A US official says Rodriguez should vacate in 2027 (Oct 27, reported).",
+        "why": "Remove a hostile regime and keep the Florida Venezuelan-American vote."
+      },
+      "maximalists": {
+        "tag": "Back Rubio's line",
+        "what": "In lockstep with Rubio's line (anonymous, Oct 2025).",
+        "why": "Hawks want regime change and Maximalists want enforcement power; pressure serves both."
+      },
+      "pentagon": {
+        "tag": "Stake in oil deal",
+        "what": "Hegseth: 'American companies in there' (Jan 3); the Pentagon capital office took 35% of NABEP (Aug 28).",
+        "why": "The Pentagon becomes a shareholder in the oil deal."
+      },
+      "treasury": {
+        "tag": "Normalize via licenses",
+        "what": "Delisted Delcy Rodríguez (Apr 1) and her brother Jorge (Oct 14), central-bank license (Apr 14), IMF reintegration; oil money in a Treasury account (Oct 26); Bessent met FM Blanco on reconnecting the financial sector (Nov 2).",
+        "why": "Executes the normalization Trump chose (reported)."
+      },
+      "vance": {
+        "tag": "Doubt, then deference",
+        "what": "Vance expressed skepticism about the raid and then cast the tie-break against the war-powers resolution.",
+        "why": "Loyalty to Trump can protect succession standing. The ledger supplies no evidence of donor direction on this vote. Behavior favored Trump when institutional restraint was at stake. Political accommodation is plausible. The remarks and vote address different decisions."
+      }
+    }
+  },
+  "stance_audit": {
+    "deal-capital:IRN": {
+      "faction": "deal-capital",
+      "issue": "IRN",
+      "position_or_shift": "Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement.",
+      "evidence": "Trump’s March 9 account names advisers but gives no individual recommendation. Subsequent talks are an observable action.",
+      "incentives": "Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation.",
+      "assessment": "A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem."
+    },
+    "dissenters:IRN": {
+      "faction": "dissenters",
+      "issue": "IRN",
+      "position_or_shift": "Members repeatedly sought war-powers votes while the coalition and vote counts shifted.",
+      "evidence": "Compare the May 13, June 23 and September 24 votes by member. The aggregate counts do not establish individual flips.",
+      "incentives": "Congressional authority and political independence are stakes. Yass-backed support applies to the libertarian wing.",
+      "assessment": "Credit repeated procedural action. Test individual consistency and electoral costs against roll calls."
+    },
+    "hawks:IRN": {
+      "faction": "hawks",
+      "issue": "IRN",
+      "position_or_shift": "Rubio reportedly doubted the June agreement, then defended it and signaled a pause on new strikes.",
+      "evidence": "The June 15 and August 25 accounts span different phases of policy. Public advocacy for the deal is an observable change in posture.",
+      "incentives": "Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage.",
+      "assessment": "Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved."
+    },
+    "maximalists:AI": {
+      "faction": "maximalists",
+      "issue": "AI",
+      "position_or_shift": "Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs.",
+      "evidence": "The proposal and final policy differ. The position record attributes the final approach to the Operation and Treasury.",
+      "incentives": "Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift.",
+      "assessment": "A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it."
+    },
+    "operation:IMM": {
+      "faction": "operation",
+      "issue": "IMM",
+      "position_or_shift": "The political team reportedly wanted a lower profile for raids before the election. The October 6 arrest directive moved the other way.",
+      "evidence": "The preference rests on an anonymous report. The directive supplies an outcome against which to test it.",
+      "incentives": "Electoral risk and control of the agenda are separate stakes. MAGA Inc. backers fund electoral capacity.",
+      "assessment": "A reported timing preference and a setback. Evidence of a public reversal or donor direction is missing."
+    },
+    "party:AI": {
+      "faction": "party",
+      "issue": "AI",
+      "position_or_shift": "Hawley pursued restrictions while other Republicans, including Cruz on state preemption, took different approaches.",
+      "evidence": "Bills and legislative action support a split among actors.",
+      "incentives": "Electoral positioning and industry backing are plausible incentives. Map each contribution or policy stake to its recipient.",
+      "assessment": "Treat this as a faction split. The evidence for a common leadership position or individual reversal is thin."
+    },
+    "pentagon:IRN": {
+      "faction": "pentagon",
+      "issue": "IRN",
+      "position_or_shift": "The department kept military options ready and sought funding while executing the administration’s orders.",
+      "evidence": "Strike execution and procurement actions are distinct from advice to authorize or prolong the war.",
+      "incentives": "Budget and vendor discretion confer institutional power. Palantir and Lockheed have procurement exposure.",
+      "assessment": "Vendor benefits and department activity are observable claims. Their existence leaves individual lobbying for escalation unresolved."
+    },
+    "populist:IRN": {
+      "faction": "populist",
+      "issue": "IRN",
+      "position_or_shift": "Kent resigned over the war, Carlson criticized it, and Loomer and Bannon backed Trump in different ways.",
+      "evidence": "Kent’s March 17 resignation supplies evidence of a costly commitment. Compare dated statements by individual.",
+      "incentives": "Audience, access, and succession influence can reward different positions. Shillman backs Loomer and Real America’s Voice distributes Bannon’s show.",
+      "assessment": "Score the split by actor. A shared audience market gives weak evidence of any individual’s motive."
+    },
+    "tech-right:AI": {
+      "faction": "tech-right",
+      "issue": "AI",
+      "position_or_shift": "The ledger groups preemption, less review, and chip sales under one agenda.",
+      "evidence": "Identify the actors behind each ask. Industry spending and Nvidia lobbying establish different forms of support.",
+      "incentives": "a16z, Brockman, Founders Fund and Nvidia have different political or portfolio stakes. Export revenue and strategic limits on China can diverge.",
+      "assessment": "Split the planks before judging consistency. Campaign support and financial exposure alone leave policy influence unresolved."
+    },
+    "treasury:FED": {
+      "faction": "treasury",
+      "issue": "FED",
+      "position_or_shift": "Treasury favored market credibility and sought a closer accord. The FOMC voted on rates.",
+      "evidence": "The September and October votes are committee actions. Assess advocacy over the Fed chair and the accord separately.",
+      "incentives": "Borrowing costs and institutional influence are Treasury stakes. The ledger records professional financial ties and identifies no issue-specific donor.",
+      "assessment": "Preserve both the credibility and influence objectives. A rate result alone gives no evidence of a Treasury stance reversal."
+    },
+    "vance:IRN": {
+      "faction": "vance",
+      "issue": "IRN",
+      "position_or_shift": "At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations.",
+      "evidence": "Compare the Hannity interview, the reported private advice and the dated negotiations. The June agreement later collapsed.",
+      "incentives": "Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives.",
+      "assessment": "Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open."
+    },
+    "vance:VEN": {
+      "faction": "vance",
+      "issue": "VEN",
+      "position_or_shift": "Vance expressed skepticism about the raid and then cast the tie-break against the war-powers resolution.",
+      "evidence": "The vote is a consequential act. The retrospective remark describes skepticism but does not date or define a prior commitment to the resolution.",
+      "incentives": "Loyalty to Trump can protect succession standing. The ledger supplies no evidence of donor direction on this vote.",
+      "assessment": "Behavior favored Trump when institutional restraint was at stake. Political accommodation is plausible. The remarks and vote address different decisions."
+    }
+  },
+  "coverage": {
+    "deal-capital:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "hawks:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "maximalists:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": true
+    },
+    "operation:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "party:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": true
+    },
+    "pentagon:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "populist:AI": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "tech-right:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": true
+    },
+    "treasury:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "vance:AI": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "deal-capital:EPS": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "dissenters:EPS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "hawks:EPS": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "maximalists:EPS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "operation:EPS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "party:EPS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "populist:EPS": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "vance:EPS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "deal-capital:FED": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "dissenters:FED": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "maximalists:FED": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "operation:FED": {
+      "position": false,
+      "stance": false,
+      "motive": true,
+      "audited": false
+    },
+    "treasury:FED": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "vance:FED": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "dissenters:IMM": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "maximalists:IMM": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "operation:IMM": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "populist:IMM": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "tech-right:IMM": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "vance:IMM": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "deal-capital:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "dissenters:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "hawks:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "maximalists:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "operation:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "party:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "pentagon:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "populist:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": true
+    },
+    "tech-right:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "treasury:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "vance:IRN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": true
+    },
+    "dissenters:MID": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "hawks:MID": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "maximalists:MID": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "operation:MID": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "party:MID": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "populist:MID": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "tech-right:MID": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "vance:MID": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "deal-capital:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "dissenters:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "hawks:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "pentagon:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "tech-right:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "treasury:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "vance:RUS": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "hawks:SUC": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "maximalists:SUC": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "operation:SUC": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "populist:SUC": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "tech-right:SUC": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "vance:SUC": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": false
+    },
+    "deal-capital:TAR": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "dissenters:TAR": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "maximalists:TAR": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "operation:TAR": {
+      "position": false,
+      "stance": false,
+      "motive": true,
+      "audited": false
+    },
+    "party:TAR": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "tech-right:TAR": {
+      "position": true,
+      "stance": false,
+      "motive": false,
+      "audited": false
+    },
+    "treasury:TAR": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "deal-capital:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "dissenters:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "hawks:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "maximalists:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "pentagon:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "treasury:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": true,
+      "audited": false
+    },
+    "vance:VEN": {
+      "position": true,
+      "stance": true,
+      "motive": false,
+      "audited": true
+    }
+  }
+}

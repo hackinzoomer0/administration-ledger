@@ -1,0 +1,752 @@
+{
+  "issue": "SUC",
+  "items": [
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Feb 2025: he does not see Vance as his successor \"yet\"",
+      "date": "2025-03",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2025-03-c5a2c3",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AP",
+      "text": "Makes Vance RNC finance chair, the first sitting vice president to hold it",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump, Vance",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Gives Vance direct contact with party donors (AP)",
+      "date": "2025-03",
+      "fx": {
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2025-03-58b7aa",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Vance becomes RNC finance chair",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Bannon, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "maximalists"
+      ],
+      "context": "Keeps the heir's path uncertain (Yahoo)",
+      "date": "2025-03",
+      "fx": {
+        "maximalists": 1,
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to maximalists.",
+      "id": "suc-2025-03-4b5d4d",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Third-term talk: Bannon \"working on it\"; Trump \"not joking\" about \"methods\"",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "No endorsement",
+      "date": "2025-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2025-04-3b3baa",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "NBC via Yahoo",
+      "text": "Routes 5% of his joint committee's donations to Vance's PAC, Working for Ohio",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "vance",
+        "hawks"
+      ],
+      "context": "His furthest public step toward Vance (Deccan Herald/Reuters)",
+      "date": "2025-08",
+      "fx": {
+        "hawks": -1,
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2025-08-b1ac3e",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump calls Vance the \"most likely\" heir and floats a Vance-Rubio ticket",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Ends the serious third-term talk, for now (Yahoo)",
+      "date": "2025-10-29",
+      "fx": {
+        "maximalists": -1,
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading. Nov 3, 2026: the populist faction was dissolved; its score moved to maximalists.",
+      "id": "suc-2025-10-29-417618",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Trump says it is \"pretty clear\" he cannot run",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Says he would step aside for Vance; \"not currently planning\" to run",
+      "date": "2025-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2025-12-7eb8a2",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AP via PBS",
+      "text": "Remakes the NSC with allies; Needham becomes deputy national security adviser",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Kirk, Rubio, Cruz",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Vance gains a youth organization and loses a rival; Cruz opens a hawk lane (WaPo via Inquirer)",
+      "date": "2025-12",
+      "fx": {
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2025-12-47212e",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Erika Kirk endorses Vance; Rubio says he would step aside; Cruz criticizes Vance to donors",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Erika Kirk",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Vance has not said he will run",
+      "date": "2025-12-18",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2025-12-18-766631",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "ABC",
+      "text": "Turning Point USA endorses Vance for 2028",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump, Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Rubio's profile rises (Yahoo)",
+      "date": "2026-02-28",
+      "fx": {
+        "hawks": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-02-28-e0efde",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "US and Israel begin the Iran war; Trump asks donors \"Marco or JD?\" that night",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Vance and Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "vance",
+        "hawks"
+      ],
+      "context": "Both deny any rift: \"no drama\"",
+      "date": "2026-04",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-04-7390be",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "AP via PBS",
+      "text": "Rubio declines to lead the first Islamabad talks; Vance asks Trump twice to lead them",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Vance, Rubio",
+      "added": "2026-10-28",
+      "by": [
+        "vance",
+        "hawks"
+      ],
+      "context": "Vance takes the negotiator's role Rubio declined (NPR via Michigan Public)",
+      "date": "2026-04-12",
+      "fx": {
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-04-12-3c5cb6",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Islamabad talks end with no deal under Vance",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Cruz",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Sep 2026: says his focus is keeping House and Senate majorities",
+      "date": "2026-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-06-4f7c1b",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Axios",
+      "text": "Backs rivals to Trump's picks in two primaries",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Carlson, Trump, Vance",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Splits the populist right from the party; ties Vance to a deal (Arab News)",
+      "date": "2026-06",
+      "fx": {
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-06-dc800d",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Carlson says he will not back the GOP; the Iran memorandum is signed",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump and Vance",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Cruz later: \"a terrible deal\"; Iran has since suspended its side",
+      "date": "2026-06-17",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-06-17-93dcc5",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Anadolu, Mediaite",
+      "text": "Trump signs the Islamabad memorandum with Iran; Vance leads the Swiss follow-up talks",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Aug 6, publicly: \"way too early\"",
+      "date": "2026-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-07-1b3fc1",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Washington Post, Washington Examiner",
+      "text": "Tells donors privately \"we need to elect JD\"",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Ken Griffin",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "None beyond the remark",
+      "date": "2026-07",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-07-30e83e",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Fox Business",
+      "text": "Says he is \"predisposed\" to back Rubio; no money moved found",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Rubio donors, Trump",
+      "added": "2026-10-28",
+      "by": [
+        "hawks"
+      ],
+      "context": "Open race with a private tilt to Vance (Newsweek)",
+      "date": "2026-07",
+      "fx": {
+        "hawks": 1,
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-07-2d491f",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "month",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "UNH poll: Vance's lead falls from 46 points to 10; Griffin leans Rubio; Trump tells donors \"elect JD\"",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [],
+      "context": "Says he would love a third term, but the law is \"very strong\"",
+      "date": "2026-08-12",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-08-12-2b2acd",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Wikipedia",
+      "text": "Trump Organization has sold \"Trump 2028\" hats since 2025",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Vance, Don Jr.",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "First visible donor network aimed at a run",
+      "date": "2026-08-19",
+      "fx": {
+        "vance": 1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-08-19-b59801",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "In 2025: he had not spoken with donors about 2028",
+          "id": "suc-2026-08-19-8037fe",
+          "kind": "act",
+          "source": "Axios, AOL",
+          "text": "Raises more than $5 million at Omeed Malik's Southampton home with Don Jr.",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Axios, AOL",
+      "text": "Vance raises $5M+ at Malik's home",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Vance, pro-Israel donors",
+      "added": "2026-10-28",
+      "by": [
+        "vance"
+      ],
+      "context": "Donor rift stays open (JTA)",
+      "date": "2026-09-01",
+      "fx": {
+        "hawks": 1,
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-09-01-86a2d5",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "mergedFrom": [
+        {
+          "added": "2026-10-28",
+          "context": "Pro-Israel donors say they prefer Rubio",
+          "id": "suc-2026-09-01-532356",
+          "kind": "act",
+          "source": "JTA",
+          "text": "Addresses the Republican Jewish Coalition and sidesteps a question about Carlson",
+          "tier": "carried",
+          "weight": 3
+        }
+      ],
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "source": "JTA",
+      "text": "Vance at the Republican Jewish Coalition; donors still prefer Rubio",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Thiel",
+      "added": "2026-10-28",
+      "by": [
+        "tech-right"
+      ],
+      "context": "Cautious signal from Vance's oldest patron (Democrata, summarizing the interview)",
+      "date": "2026-09-24",
+      "fx": {
+        "vance": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-09-24-11ac54",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Thiel: \"still a supporter of Vance\" but either nominee would find 2028 \"very difficult\"",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Blair and LaCivita",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "Trump: \"outside consultants\"; would end ties if there is a conflict",
+      "date": "2026-10-06",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-10-06-15bb6b",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "Denver Gazette",
+      "text": "Travel to Republika Srpska for paid election advice",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "Blair, LaCivita, Wiles's daughter",
+      "added": "2026-10-28",
+      "by": [
+        "operation"
+      ],
+      "context": "Puts the war chest's managers under scrutiny (Semafor)",
+      "date": "2026-10-06",
+      "fx": {
+        "operation": -1
+      },
+      "fxnote": "Editorial judgment from the report text; revisit when later events change the reading.",
+      "id": "suc-2026-10-06-c2c603",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "shift",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "",
+      "text": "Blair and LaCivita's Republika Srpska work becomes public",
+      "tier": "carried",
+      "weight": 4
+    },
+    {
+      "actor": "Trump",
+      "added": "2026-10-28",
+      "by": [
+        "vance",
+        "hawks"
+      ],
+      "context": "\"I don't think we've ever talked about it\" (his July donor remark says otherwise)",
+      "date": "2026-10-20",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-10-20-3c8eef",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "origin": "Succession",
+      "precision": "day",
+      "rationale": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "source": "PBS",
+      "text": "Holds the Vance-or-Rubio question open with Vance in the room",
+      "tier": "carried",
+      "weight": 3
+    },
+    {
+      "actor": "NYT/Siena",
+      "added": "2026-10-29",
+      "by": [],
+      "context": "",
+      "date": "2026-10-24",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-10-24-nyt-siena",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "chron",
+      "origin": "Daily run",
+      "precision": "day",
+      "rationale": "Net effect (my reading): Vance keeps a double-digit lead over Rubio, so the 2028 field is unchanged by the poll, though a quarter of voters are undecided. Trump drawing 8% in a successor question shows third-term interest is small. Secondary summary of the poll. No fx.",
+      "source": "Denver Gazette (NYT/Siena summary)",
+      "text": "NYT/Siena poll (Oct 12-19, 850 likely Republican primary voters): Vance 33%, Rubio 23%, Trump 8%, DeSantis 3%, 26% undecided.",
+      "tier": "reported",
+      "weight": 2
+    },
+    {
+      "actor": "JD Vance",
+      "added": "2026-10-30",
+      "by": [
+        "vance"
+      ],
+      "context": "",
+      "date": "2026-10-21",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-10-21-vance-ohio-rally",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: Vance banks favors in his home state's top races ahead of 2028.",
+      "source": "Spectrum News 1",
+      "text": "Vance rallies in Sharonville, Ohio, for Vivek Ramaswamy (governor) and Sen. Jon Husted.",
+      "tier": "reported",
+      "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/21/vice-president-vance-rallies-ohio-republicans-ahead-of-midterm-election",
+      "weight": 2
+    },
+    {
+      "actor": "Jacob Reses",
+      "added": "2026-10-30",
+      "by": [],
+      "context": "Identity of role per Playbook; not verified further.",
+      "date": "2026-10-30",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-10-30-reses-cognition",
+      "issues": [
+        "SUC",
+        "AI"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-30",
+      "precision": "day",
+      "rationale": "Chron: a Vance aide moves to the AI industry, another tie between Vance's circle and tech employers.",
+      "source": "Politico Playbook PM",
+      "text": "Jacob Reses, former chief of staff to Vance, joins AI firm Cognition.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "JD Vance; Donald Trump Jr.",
+      "added": "2026-10-31",
+      "by": [
+        "vance"
+      ],
+      "context": "Held Nov 2: Vance rallied in Rome, New York, and in Ohio (Politico Playbook, Nov 2; The Hill live-video headline); Trump Jr.'s Nov 2 role is not stated in those lines.",
+      "date": "2026-10-31",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-10-31-eve-rallies",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-10-31",
+      "precision": "day",
+      "rationale": "Chron: Vance and Trump Jr. take the closing stage together, adding to the visible Vance-Trump Jr. pairing ahead of 2028.",
+      "source": "Politico Playbook (Oct 31, Nov 2); The Hill (Nov 2, headline)",
+      "text": "Vance and Donald Trump Jr. were set to hold election-eve rallies on Monday, Nov 2, in Swanton, Ohio, and Rome, New York (NY-21 and NY-22 races); Vance held them.",
+      "tier": "reported",
+      "url": "",
+      "weight": 2
+    },
+    {
+      "actor": "JD Vance; Democratic 2028 hopefuls",
+      "added": "2026-11-02",
+      "by": [
+        "vance"
+      ],
+      "context": "Newsom is preparing a super PAC and Pritzker hired Dennis Cheng (NYT via Axios 2028). Vance's Nov 2 rallies are on suc-2026-10-31-eve-rallies.",
+      "date": "2026-11-01",
+      "fx": {},
+      "fxnote": "",
+      "id": "suc-2026-11-01-vance-2028-tests",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "chron",
+      "origin": "daily run 2026-11-02",
+      "precision": "day",
+      "rationale": "Headline only for the Vance part, so capped at 2.",
+      "source": "The Hill (headline, Nov 1); Axios 2028 (newsletter, Nov 1)",
+      "text": "The Hill (headline only): Vance road-tests a 2028 message as Trump's midterm surrogate. Axios 2028: Democratic hopefuls place midterm bets; AOC gave $1M for El-Sayed and $150K each to Troy Jackson, Mary Peltola and Angie Nixon.",
+      "tier": "reported",
+      "url": "https://thehill.com/homenews/administration/6185794-vance-hones-2028-campaign-message-midterms/",
+      "weight": 2
+    }
+  ]
+}

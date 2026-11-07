@@ -1,0 +1,147 @@
+export type Json =
+  string | number | boolean | null | Json[] | { [key: string]: Json };
+export interface EventRecord {
+  id: string;
+  date: string;
+  added?: string;
+  precision: string;
+  issues: string[];
+  kind: string;
+  actor: string;
+  text: string;
+  source: string;
+  url?: string;
+  tier: string;
+  context?: string;
+  rationale?: string;
+  fxnote?: string;
+  origin?: string;
+  weight: number;
+  by?: string[];
+  fx?: Record<string, number>;
+}
+export interface Issue {
+  code: string;
+  name: string;
+  decision: string;
+  heldBy: string;
+  pending: string;
+}
+export interface Faction {
+  id: string;
+  name: string;
+  short: string;
+  overview: string[];
+  positions: Record<string, { title: string; paras: string[] }[]>;
+  members: string[][];
+  donors: string[][];
+  edges: string[][];
+  wants: string;
+  why: string;
+  gained: string;
+  lost: string;
+  weak: string;
+  dissolved?: string;
+  [key: string]: unknown;
+}
+export interface Person {
+  id: string;
+  name: string;
+  role: string;
+  home?: string;
+  also: string[];
+  positions: Record<string, { label: string; view: string; status?: string }>;
+  rosters: {
+    f: string;
+    role: string;
+    backs: string;
+    onSide: string;
+    driver: string;
+  }[];
+  read?: string;
+  drive?: string;
+  pattern?: string[];
+  flip?: string;
+  [key: string]: unknown;
+}
+export interface Donor {
+  id: string;
+  name: string;
+  identity: string;
+  factions: string[];
+  people: string[];
+  issues: string[];
+  supports?: string[];
+  amounts: string[];
+  beneficiaries: string[];
+  views: string[];
+  motive: string;
+  gain: string;
+  tier: string;
+  [key: string]: unknown;
+}
+export interface Candidate {
+  id: string;
+  name: string;
+  nomination_likelihood_pct: number;
+  forecast_rationale: string;
+  positions: Record<
+    string,
+    { summary: string; evidence: Json[]; uncertainty: string }
+  >;
+  strengths_for_base: string[];
+  weaknesses_for_base: string[];
+  upside_triggers: string[];
+  downside_triggers: string[];
+  strongest_counterargument: string;
+  [key: string]: unknown;
+}
+export interface Snapshot {
+  id: string;
+  date: string;
+  summary: string;
+  gaps: string[];
+  probabilities_pct: Record<string, number>;
+  assessments: Record<
+    string,
+    {
+      delta_pp: number;
+      reason: string;
+      review_status: string;
+      source_ids: string[];
+      event_ids: string[];
+      faction_links: Json[];
+    }
+  >;
+}
+export interface Nomination {
+  as_of_date: string;
+  candidates: Candidate[];
+  sources: {
+    id: string;
+    url: string;
+    publisher: string;
+    description: string;
+    publication_date?: string;
+  }[];
+  issue_definitions: { id: string; label: string }[];
+  tracking: { history: Snapshot[] };
+  forecast_methodology: {
+    target: string;
+    base_case: string;
+    critical_uncertainties: string[];
+    [key: string]: unknown;
+  };
+  [key: string]: unknown;
+}
+export interface LedgerData {
+  events: EventRecord[];
+  issues: Issue[];
+  factions: Faction[];
+  people: Person[];
+  donors: Donor[];
+  nomination: Nomination;
+  meta: Record<string, Json>;
+  report: Record<string, Json>;
+  runs: Record<string, Json>;
+}
