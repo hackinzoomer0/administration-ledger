@@ -1,37 +1,66 @@
-import { Component, lazy, Suspense } from "react";
+import { Component, lazy, Suspense, useState, useLayoutEffect } from "react";
 import type { ErrorInfo, ReactNode } from "react";
 import {
   Alert,
   AppBar,
+  BottomNavigation,
+  BottomNavigationAction,
   Box,
   Button,
-  Chip,
   CircularProgress,
   Container,
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  IconButton,
   Stack,
-  Tab,
-  Tabs,
   Toolbar,
   Typography,
 } from "@mui/material";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
+import HubOutlinedIcon from "@mui/icons-material/HubOutlined";
+import HowToVoteOutlinedIcon from "@mui/icons-material/HowToVoteOutlined";
+import MenuBookOutlinedIcon from "@mui/icons-material/MenuBookOutlined";
+import SearchIcon from "@mui/icons-material/Search";
+import CloseIcon from "@mui/icons-material/Close";
 import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { Search } from "./components/Search";
+import { EvidenceProvider } from "./components/EvidenceProvider";
 const Home = lazy(() => import("./pages/Home"));
+const Administration = lazy(() => import("./pages/Administration"));
+const Research = lazy(() => import("./pages/Research"));
 const Issues = lazy(() => import("./pages/Issues"));
 const Factions = lazy(() => import("./pages/Factions"));
 const People = lazy(() => import("./pages/People"));
 const Donors = lazy(() => import("./pages/Donors"));
 const Ledger = lazy(() => import("./pages/Ledger"));
 const Nominees = lazy(() => import("./pages/Nominees"));
-const tabs = [
-  ["/", "Overview"],
-  ["/issues", "Issues"],
-  ["/factions", "Factions"],
-  ["/nominees", "2028 nominees"],
-  ["/people", "People"],
-  ["/donors", "Donors"],
-  ["/ledger", "Event ledger"],
+const destinations = [
+  {
+    path: "/",
+    label: "Current assessment",
+    short: "Assessment",
+    icon: <DashboardOutlinedIcon />,
+  },
+  {
+    path: "/administration",
+    label: "Administration",
+    short: "Power",
+    icon: <HubOutlinedIcon />,
+  },
+  {
+    path: "/nominees",
+    label: "2028 nomination",
+    short: "2028",
+    icon: <HowToVoteOutlinedIcon />,
+  },
+  {
+    path: "/research",
+    label: "Research",
+    short: "Research",
+    icon: <MenuBookOutlinedIcon />,
+  },
 ];
 class ErrorBoundary extends Component<
   { children: ReactNode },
@@ -61,9 +90,20 @@ class ErrorBoundary extends Component<
 }
 export function App() {
   const location = useLocation();
-  const selected = "/" + location.pathname.split("/")[1];
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const segment = location.pathname.split("/")[1];
+  const selected = ["administration", "issues", "factions"].includes(segment)
+    ? "/administration"
+    : segment === "nominees"
+      ? "/nominees"
+      : ["research", "ledger", "people", "donors"].includes(segment)
+        ? "/research"
+        : "/";
   return (
-    <>
+    <EvidenceProvider>
       <a
         href="#main-content"
         className="skip-link"
@@ -75,7 +115,7 @@ export function App() {
         Skip to content
       </a>
       <AppBar
-        position="static"
+        position="sticky"
         color="transparent"
         elevation={0}
         sx={{
@@ -85,61 +125,90 @@ export function App() {
         }}
       >
         <Container maxWidth="xl">
-          <Toolbar disableGutters sx={{ gap: 2, flexWrap: "wrap", py: 2 }}>
-            <AccountBalanceIcon color="primary" />
-            <Box sx={{ flexGrow: 1 }}>
-              <Typography
-                component={Link}
-                to="/"
-                sx={{
-                  color: "text.primary",
-                  textDecoration: "none",
-                  fontSize: 18,
-                  fontWeight: 750,
-                }}
-              >
-                Administration Ledger
-              </Typography>
-              <Typography
-                variant="caption"
-                color="text.secondary"
-                sx={{ display: "block" }}
-              >
-                Decisions. Interests. Shifts in power.
-              </Typography>
-            </Box>
-            <Search />
-            <Chip label="Sourced research" variant="outlined" size="small" />
-          </Toolbar>
-          <Tabs
-            value={tabs.some(([path]) => path === selected) ? selected : "/"}
-            variant="scrollable"
-            scrollButtons="auto"
-            aria-label="Main navigation"
+          <Toolbar
+            disableGutters
+            sx={{ gap: 2, minHeight: { xs: 56, md: 68 } }}
           >
-            {tabs.map(([path, name]) => (
-              <Tab
-                key={path}
-                value={path}
-                label={name}
-                component={Link}
-                to={path}
-              />
-            ))}
-          </Tabs>
+            <AccountBalanceIcon color="primary" sx={{ fontSize: 23 }} />
+            <Typography
+              component={Link}
+              to="/"
+              sx={{
+                color: "text.primary",
+                textDecoration: "none",
+                fontWeight: 750,
+                fontSize: { xs: 15, md: 17 },
+                whiteSpace: "nowrap",
+                mr: { xs: "auto", md: 3 },
+              }}
+            >
+              Administration Ledger
+            </Typography>
+            <Box
+              component="nav"
+              aria-label="Primary navigation"
+              sx={{ display: { xs: "none", md: "flex" }, gap: 0.5, flex: 1 }}
+            >
+              {destinations.map((item) => (
+                <Button
+                  component={Link}
+                  key={item.path}
+                  to={item.path}
+                  color={selected === item.path ? "primary" : "inherit"}
+                  aria-current={selected === item.path ? "page" : undefined}
+                  sx={{
+                    bgcolor:
+                      selected === item.path ? "action.selected" : undefined,
+                  }}
+                >
+                  {item.label}
+                </Button>
+              ))}
+            </Box>
+            <Box sx={{ display: { xs: "none", md: "block" } }}>
+              <Search />
+            </Box>
+            <IconButton
+              aria-label="Search people, factions and issues"
+              onClick={() => setSearchOpen(true)}
+              sx={{ display: { xs: "inline-flex", md: "none" } }}
+            >
+              <SearchIcon />
+            </IconButton>
+          </Toolbar>
         </Container>
       </AppBar>
+      <Dialog
+        open={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        fullWidth
+        maxWidth="sm"
+      >
+        <DialogTitle>
+          Find an actor or issue
+          <IconButton
+            aria-label="Close search"
+            onClick={() => setSearchOpen(false)}
+            sx={{ float: "right" }}
+          >
+            <CloseIcon />
+          </IconButton>
+        </DialogTitle>
+        <DialogContent sx={{ py: 3 }}>
+          <Search onSelect={() => setSearchOpen(false)} />
+        </DialogContent>
+      </Dialog>
       <Container
         component="main"
         id="main-content"
         tabIndex={-1}
         maxWidth="xl"
-        sx={{ py: { xs: 3, md: 4 }, minHeight: "75vh", outline: "none" }}
+        sx={{ py: { xs: 2.5, md: 4 }, minHeight: "78vh", outline: "none" }}
       >
         <ErrorBoundary>
           <Suspense
             fallback={
-              <Stack sx={{ ...{ py: 8 }, alignItems: "center" }}>
+              <Stack sx={{ alignItems: "center", py: 8 }}>
                 <CircularProgress aria-label="Loading view" />
               </Stack>
             }
@@ -147,6 +216,8 @@ export function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Navigate to="/" replace />} />
+              <Route path="/administration/:id?" element={<Administration />} />
+              <Route path="/research" element={<Research />} />
               <Route path="/issues/:id?" element={<Issues />} />
               <Route path="/factions/:id?" element={<Factions />} />
               <Route path="/people/:id?" element={<People />} />
@@ -157,7 +228,8 @@ export function App() {
                 path="*"
                 element={
                   <Alert severity="info">
-                    View not found. <Link to="/">Return to overview</Link>
+                    View not found.{" "}
+                    <Link to="/">Return to current assessment</Link>
                   </Alert>
                 }
               />
@@ -167,16 +239,49 @@ export function App() {
       </Container>
       <Box
         component="footer"
-        sx={{ borderTop: 1, borderColor: "divider", py: 3 }}
+        sx={{
+          borderTop: 1,
+          borderColor: "divider",
+          pt: 2,
+          pb: { xs: 11, md: 3 },
+        }}
       >
         <Container maxWidth="xl">
           <Typography variant="caption" color="text.secondary">
-            Evidence and analyst judgment are labeled separately. Legacy faction
-            scores are not nomination probabilities. Allegations are not
-            findings.
+            Authority, access and analyst judgment are distinguished. Estimates
+            are conditional on the tracked field.{" "}
+            <Link to="/research?section=methods">Methods &amp; limits</Link>
           </Typography>
         </Container>
       </Box>
-    </>
+      <BottomNavigation
+        value={selected}
+        showLabels
+        aria-label="Mobile navigation"
+        sx={{
+          display: { xs: "flex", md: "none" },
+          position: "fixed",
+          bottom: 0,
+          width: "100%",
+          zIndex: 1100,
+          height: "calc(60px + env(safe-area-inset-bottom))",
+          pb: "env(safe-area-inset-bottom)",
+          borderTop: 1,
+          borderColor: "divider",
+        }}
+      >
+        {destinations.map((item) => (
+          <BottomNavigationAction
+            key={item.path}
+            component={Link}
+            to={item.path}
+            value={item.path}
+            icon={item.icon}
+            label={item.short}
+            aria-label={item.label}
+          />
+        ))}
+      </BottomNavigation>
+    </EvidenceProvider>
   );
 }

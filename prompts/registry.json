@@ -443,5 +443,9 @@
   "nominee-review": {
     "asof": "2026-11-07",
     "role": "nominee-review"
+  },
+  "current-assessment": {
+    "asof": "2026-11-07",
+    "role": "current-assessment"
   }
 }

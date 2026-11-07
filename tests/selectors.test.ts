@@ -57,3 +57,13 @@ describe("research selectors", () => {
     );
   });
 });
+
+import { substantiveSnapshots } from "../src/lib/selectors";
+it("selects political research while retaining technical history outside the current assessment", () => {
+  const history = [
+    { id: "import", type: "imported_baseline" },
+    { id: "review", type: "faction_consistency_review" },
+    { id: "migration", type: "workflow_migration" },
+  ];
+  expect(substantiveSnapshots(history).at(-1)?.id).toBe("review");
+});

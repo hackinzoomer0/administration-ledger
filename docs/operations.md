@@ -30,3 +30,5 @@ To recover a failed scheduled run, read the retained `.runtime/review.*` stage. 
 ## Migration checks
 
 The framework migration preserves all original research documents and prompts. The first consistency-pass estimates remain Vance 49.35%, Rubio 20.78%, DeSantis 19.48%, Cruz 6.49% and McEntee 3.90%, conditional on the five-person roster. No political finding or legacy score was changed to support this structural refactor.
+
+Current product assessments live in database/assessments/current.json. Every daily review executes prompts/roles/current-assessment.md, updates the review reference and actual coverage, and maintains evidence links and substantive snapshot selection. A technical migration or publication cannot advance the political assessment. The original issue/faction summaries remain historical where no current synthesis has been established.

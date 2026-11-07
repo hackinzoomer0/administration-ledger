@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-07",
+  "type": "product_assessment_projection",
+  "scope": "Synthesis of existing ledger episodes and the first faction-consistency pass. No fresh news intake was performed for the interface redesign.",
+  "changes": [
+    "Added evidence-linked current-assessment projection and assessment-first interface.",
+    "Separated substantive research from workflow history."
+  ],
+  "forecast_weights": "unchanged",
+  "candidate_roster": "unchanged",
+  "source_basis": "Existing reviewed ledger only; no new outside political claims.",
+  "validation": {
+    "research_preservation": "Exact comparison against prior committed collections passed.",
+    "unit_workflow_tests": 23,
+    "browser_tests": 5,
+    "nominee_weights": "unchanged",
+    "roster": "unchanged",
+    "scope": "Existing evidence synthesis; no new external political research."
+  }
+}

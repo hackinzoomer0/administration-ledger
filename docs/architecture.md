@@ -6,7 +6,7 @@ React owns rendering and state. React Router provides hash routes that remain co
 
 `src/lib/types.ts` defines research-facing interfaces. `src/lib/data.ts` reads collection documents through Vite. Selectors are pure and tested independently of the UI. Research text remains plain text; only HTTP(S) links become interactive. There is no HTML injection from source records.
 
-The original six views are retained: overview, issues, factions, people, donors and event ledger. Nominees have a dedicated view for estimates, deltas, policies, relationships, sources, coverage and snapshot history. People and donors expose complete underlying profiles. Issue and faction views retain dated positions and caveats. Review logs and methodological reports remain available through the overview.
+The primary navigation has four destinations: Current assessment, Administration, 2028 nomination and Research. Supporting issue/faction/person/money profiles and event records keep their deep links. Current power and race judgments lead the dashboard, with contextual evidence in a standard drawer. Full profiles prioritize role, incentives, actions and relationships. Complete historical records and technical metadata require explicit disclosure inside Research or a full-record view.
 
 ## Data contract
 
@@ -29,3 +29,11 @@ Atomic replacement protects individual JSON documents. The review lock serialize
 ## Deployment
 
 Only `dist/` is uploaded to Pages. The repository contains research and prompts for review, while the deployment contains the application assets and revision metadata. The Vite base path is `/administration-ledger/`. The Pages site uses the Actions build type rather than Jekyll; a build must pass before deployment.
+
+## Maintained current assessment
+
+`database/assessments/current.json` is a first-class output of the daily process. It contains issue-specific power contests, candidate paths and vulnerabilities, cross-implications, and explicitly identified relationships. It links to events, nominee source IDs and a review run. Authority, leverage, actions, positions and money remain distinct. No overall power ranking is generated from activity, graph position or legacy scores.
+
+The initial assessment is a synthesis of existing ledger evidence and the first faction-consistency review, not a new external news intake. Coverage gaps are explicit. Research-as-of and last substantive change are separate from build/publication time. `version.json` includes `built_at`; UI freshness comes from the assessment and not event ingestion timestamps.
+
+Nomination values remain canonical in the original nomination document. The UI selects substantive daily, weekly or faction-consistency snapshots, excluding imports and workflow migrations. The current-assessment validator requires the latest substantive snapshot reference, exactly the authorized candidate roster, resolved evidence and people links, valid dates and decision-specific fields. Daily execution must reference a new run and explicitly reassess this output; unsupported holds remain labeled rather than pretending to new evidence.

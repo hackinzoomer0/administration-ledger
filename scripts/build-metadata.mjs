@@ -25,5 +25,9 @@ const commit =
   execFileSync("git", ["rev-parse", "HEAD"], { encoding: "utf8" }).trim();
 await writeFile(
   "dist/version.json",
-  JSON.stringify({ commit, database_hash: digest.digest("hex") }) + "\n",
+  JSON.stringify({
+    commit,
+    database_hash: digest.digest("hex"),
+    built_at: new Date().toISOString(),
+  }) + "\n",
 );

@@ -17,6 +17,8 @@ import {
   Box,
   Button,
   Chip,
+  Collapse,
+  useMediaQuery,
   MenuItem,
   Paper,
   Stack,
@@ -33,12 +35,16 @@ import {
 import { useSearchParams } from "react-router-dom";
 import { data, activeFactions, issueNames } from "../lib/data";
 import { emptyFilters, filterEvents } from "../lib/selectors";
+import { ContextNav } from "../components/ContextNav";
+import { theme } from "../theme";
 import { PageHeader } from "../components/PageHeader";
 import { EventDetails } from "../components/EventDetails";
 import { RecordDialog } from "../components/RecordDialog";
 
 export default function Ledger() {
   const [params, setParams] = useSearchParams();
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const wide = useMediaQuery(theme.breakpoints.up("md"));
   const [query, setQuery] = useState(params.get("q") ?? "");
   const [issue, setIssue] = useState(params.get("issue") ?? "");
   const [faction, setFaction] = useState(params.get("faction") ?? "");
@@ -89,104 +95,114 @@ export default function Ledger() {
     };
   return (
     <Stack spacing={3}>
+      <ContextNav area="research" />
       <PageHeader
         title="The event ledger"
         description="Search dated decisions and reporting. Open any record to inspect its evidence, context, rationale and legacy faction effects."
       />
-      <Paper variant="outlined" sx={{ p: 2 }}>
-        <Box
-          sx={{
-            display: "grid",
-            gridTemplateColumns: {
-              xs: "1fr",
-              sm: "1fr 1fr",
-              lg: "2fr 1fr 1fr 1fr",
-            },
-            gap: 2,
-          }}
-        >
-          <TextField
-            label="Search events"
-            value={query}
-            onChange={select(setQuery)}
-            size="small"
-            type="search"
-          />
-          <TextField
-            select
-            label="Issue"
-            value={issue}
-            onChange={select(setIssue)}
-            size="small"
+      <Button
+        onClick={() => setFiltersOpen(!filtersOpen)}
+        sx={{ display: { xs: "inline-flex", md: "none" }, alignSelf: "start" }}
+        aria-expanded={filtersOpen}
+      >
+        Search &amp; filter records
+      </Button>
+      <Collapse in={wide || filtersOpen}>
+        <Paper variant="outlined" sx={{ p: 2 }}>
+          <Box
+            sx={{
+              display: "grid",
+              gridTemplateColumns: {
+                xs: "1fr",
+                sm: "1fr 1fr",
+                lg: "2fr 1fr 1fr 1fr",
+              },
+              gap: 2,
+            }}
           >
-            <MenuItem value="">All issues</MenuItem>
-            {data.issues.map((row) => (
-              <MenuItem key={row.code} value={row.code}>
-                {row.name}
-              </MenuItem>
-            ))}
-          </TextField>
-          <TextField
-            select
-            label="Faction"
-            value={faction}
-            onChange={select(setFaction)}
-            size="small"
-          >
-            <MenuItem value="">All factions</MenuItem>
-            {activeFactions.map((row) => (
-              <MenuItem key={row.id} value={row.id}>
-                {row.short}
-              </MenuItem>
-            ))}
-          </TextField>
-          <TextField
-            select
-            label="Record type"
-            value={kind}
-            onChange={select(setKind)}
-            size="small"
-          >
-            <MenuItem value="">All types</MenuItem>
-            {[...new Set(data.events.map((row) => row.kind))].map((value) => (
-              <MenuItem key={value} value={value}>
-                {value}
-              </MenuItem>
-            ))}
-          </TextField>
-          <TextField
-            select
-            label="Evidence tier"
-            value={tier}
-            onChange={select(setTier)}
-            size="small"
-          >
-            <MenuItem value="">All tiers</MenuItem>
-            {[...new Set(data.events.map((row) => row.tier))].map((value) => (
-              <MenuItem key={value} value={value}>
-                {value}
-              </MenuItem>
-            ))}
-          </TextField>
-          <TextField
-            label="From date"
-            type="date"
-            value={from}
-            onChange={select(setFrom)}
-            size="small"
-            slotProps={{ inputLabel: { shrink: true } }}
-          />
-          <TextField
-            label="Through date"
-            type="date"
-            value={to}
-            onChange={select(setTo)}
-            size="small"
-            slotProps={{ inputLabel: { shrink: true } }}
-          />
-          <Button onClick={reset}>Clear filters</Button>
-        </Box>
-      </Paper>
+            <TextField
+              label="Search events"
+              value={query}
+              onChange={select(setQuery)}
+              size="small"
+              type="search"
+            />
+            <TextField
+              select
+              label="Issue"
+              value={issue}
+              onChange={select(setIssue)}
+              size="small"
+            >
+              <MenuItem value="">All issues</MenuItem>
+              {data.issues.map((row) => (
+                <MenuItem key={row.code} value={row.code}>
+                  {row.name}
+                </MenuItem>
+              ))}
+            </TextField>
+            <TextField
+              select
+              label="Faction"
+              value={faction}
+              onChange={select(setFaction)}
+              size="small"
+            >
+              <MenuItem value="">All factions</MenuItem>
+              {activeFactions.map((row) => (
+                <MenuItem key={row.id} value={row.id}>
+                  {row.short}
+                </MenuItem>
+              ))}
+            </TextField>
+            <TextField
+              select
+              label="Record type"
+              value={kind}
+              onChange={select(setKind)}
+              size="small"
+            >
+              <MenuItem value="">All types</MenuItem>
+              {[...new Set(data.events.map((row) => row.kind))].map((value) => (
+                <MenuItem key={value} value={value}>
+                  {value}
+                </MenuItem>
+              ))}
+            </TextField>
+            <TextField
+              select
+              label="Evidence tier"
+              value={tier}
+              onChange={select(setTier)}
+              size="small"
+            >
+              <MenuItem value="">All tiers</MenuItem>
+              {[...new Set(data.events.map((row) => row.tier))].map((value) => (
+                <MenuItem key={value} value={value}>
+                  {value}
+                </MenuItem>
+              ))}
+            </TextField>
+            <TextField
+              label="From date"
+              type="date"
+              value={from}
+              onChange={select(setFrom)}
+              size="small"
+              slotProps={{ inputLabel: { shrink: true } }}
+            />
+            <TextField
+              label="Through date"
+              type="date"
+              value={to}
+              onChange={select(setTo)}
+              size="small"
+              slotProps={{ inputLabel: { shrink: true } }}
+            />
+            <Button onClick={reset}>Clear filters</Button>
+          </Box>
+        </Paper>
+      </Collapse>
       <Typography variant="body2" color="text.secondary" role="status">
         {rows.length} of {data.events.length} records
       </Typography>

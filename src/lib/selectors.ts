@@ -68,3 +68,13 @@ export function label(value: string): string {
     .replace(/[_-]/g, " ")
     .replace(/^./, (char) => char.toUpperCase());
 }
+
+export function substantiveSnapshots<T extends { type?: string }>(
+  history: T[],
+): T[] {
+  return history.filter((snapshot) =>
+    ["daily_review", "weekly_review", "faction_consistency_review"].includes(
+      snapshot.type ?? "",
+    ),
+  );
+}

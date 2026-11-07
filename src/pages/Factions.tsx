@@ -1,321 +1,307 @@
 import { useState } from "react";
 import {
-  Alert,
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
   Box,
   Button,
-  Card,
-  CardActionArea,
-  CardContent,
-  Chip,
+  Divider,
   MenuItem,
+  Paper,
   Stack,
   Tab,
   Tabs,
   TextField,
   Typography,
 } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link as RouterLink, useParams } from "react-router-dom";
-import {
-  Bar,
-  BarChart,
-  CartesianGrid,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
-import { activeFactions, data, issueNames } from "../lib/data";
-import { legacyNet } from "../lib/selectors";
-import { PageHeader } from "../components/PageHeader";
+import { activeFactions, data, factionNames, issueNames } from "../lib/data";
+import { useEvidence } from "../lib/evidence-context";
+import { ContextNav } from "../components/ContextNav";
 import { Section } from "../components/Section";
+import { ReadingBlock } from "../components/ReadingBlock";
+import { PowerList } from "../components/PowerList";
 import { DetailFields } from "../components/DetailFields";
-import { ResearchText } from "../components/ResearchText";
 import { FactionGraph } from "../components/FactionGraph";
-
 export default function Factions() {
   const { id } = useParams();
-  const [tab, setTab] = useState("overview");
+  const [tab, setTab] = useState("assessment");
   const [issue, setIssue] = useState("");
+  const evidence = useEvidence();
   const faction = data.factions.find((row) => row.id === id);
   if (id && !faction)
     return (
-      <Alert severity="warning">
+      <Typography>
         Faction not found.{" "}
         <Button component={RouterLink} to="/factions">
           All factions
         </Button>
-      </Alert>
+      </Typography>
     );
-  if (!faction)
+  if (faction)
     return (
       <Stack spacing={3}>
-        <PageHeader
-          title="Factions and relationships"
-          description="Groups are analytical syntheses of dated actions. Alignment does not establish coordination, and financial exposure does not prove control."
-        />
-        <Section
-          title="The relationship map"
-          description="Select a faction to open its profile. The same profiles are available in the cards below."
-        >
-          <FactionGraph />
-        </Section>
-        <Box
-          sx={{
-            display: "grid",
-            gridTemplateColumns: {
-              xs: "1fr",
-              md: "repeat(2, 1fr)",
-              lg: "repeat(3, 1fr)",
-            },
-            gap: 2,
-          }}
-        >
-          {activeFactions.map((row) => (
-            <Card key={row.id} variant="outlined">
-              <CardActionArea component={RouterLink} to={`/factions/${row.id}`}>
-                <CardContent>
-                  <Typography variant="h6">{row.name}</Typography>
-                  <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    sx={{ mt: 1 }}
-                  >
-                    {row.wants || row.why}
-                  </Typography>
-                  <Stack direction="row" sx={{ ...{ mt: 2 }, gap: 1 }}>
-                    <Chip
-                      size="small"
-                      label={`${row.members.length} roster entries`}
-                    />
-                    <Chip
-                      size="small"
-                      variant="outlined"
-                      label={`${Object.keys(row.positions).length} issues`}
-                    />
-                  </Stack>
-                </CardContent>
-              </CardActionArea>
-            </Card>
-          ))}
+        <ContextNav area="administration" />
+        <Box>
+          <Typography variant="overline">
+            Faction profile{faction.dissolved ? " · archived" : ""}
+          </Typography>
+          <Typography variant="h3" component="h1">
+            {faction.name}
+          </Typography>
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ mt: 1, maxWidth: "72ch" }}
+          >
+            {faction.wants}
+          </Typography>
         </Box>
-        <Section title="Relationship evidence">
-          <DetailFields value={data.meta.dynamics} depth={1} />
-        </Section>
-        <Section title="Archived factions">
-          {data.factions
-            .filter((row) => row.dissolved)
-            .map((row) => (
-              <Box key={row.id}>
-                <Button component={RouterLink} to={`/factions/${row.id}`}>
-                  {row.name}
-                </Button>
-                <Typography variant="body2">
-                  Dissolved {row.dissolved}; retained as historical context.
-                </Typography>
-              </Box>
-            ))}
-        </Section>
-      </Stack>
-    );
-  const legal = data.meta.legal as { entries?: { factions?: string[] }[] };
-  const fields: Record<string, unknown> = {
-    overview: faction.overview,
-    goals: {
-      wants: faction.wants,
-      why: faction.why,
-      gained: faction.gained,
-      lost: faction.lost,
-      weaknesses: faction.weak,
-    },
-  };
-  const chart = Object.keys(faction.positions).map((code) => ({
-    name: issueNames[code] ?? code,
-    net: legacyNet(
-      data.events.filter((row) => row.issues.includes(code)),
-      faction.id,
-    ),
-  }));
-  return (
-    <Stack spacing={3}>
-      <Button component={RouterLink} to="/factions" sx={{ alignSelf: "start" }}>
-        ← All factions
-      </Button>
-      <PageHeader
-        title={faction.name}
-        description={
-          faction.wants ||
-          "Dated actions, interests and channels into decisions."
-        }
-        action={
-          <Button
-            component={RouterLink}
-            to={`/ledger?faction=${faction.id}`}
-            variant="outlined"
+        <Tabs
+          value={tab}
+          onChange={(_, value: string) => setTab(value)}
+          variant="scrollable"
+          aria-label="Faction sections"
+        >
+          {[
+            ["assessment", "Current context"],
+            ["positions", "Positions & record"],
+            ["money", "People & money"],
+            ["history", "Historical report"],
+          ].map(([value, label]) => (
+            <Tab key={value} value={value} label={label} />
+          ))}
+        </Tabs>
+        {tab === "assessment" && (
+          <Section
+            title="Where the faction has a channel"
+            description="Issue-specific access and leverage; inclusion is not an overall ranking of power."
           >
-            View evidence
-          </Button>
-        }
-      />
-      {faction.dissolved && (
-        <Alert severity="warning">
-          Archived faction, dissolved {faction.dissolved}. Use current faction
-          homes for present analysis.
-        </Alert>
-      )}
-      <Tabs
-        value={tab}
-        onChange={(_, value: string) => setTab(value)}
-        variant="scrollable"
-        scrollButtons="auto"
-        aria-label="Faction profile sections"
-      >
-        {[
-          "overview",
-          "positions",
-          "people",
-          "money",
-          "relationships",
-          "legal",
-          "legacy scores",
-        ].map((value) => (
-          <Tab key={value} value={value} label={value} />
-        ))}
-      </Tabs>
-      {tab === "overview" && (
-        <Section title="Program and interests">
-          <DetailFields value={fields} />
-        </Section>
-      )}
-      {tab === "positions" && (
-        <Section title="Positions by issue">
-          <TextField
-            select
-            size="small"
-            label="Issue"
-            value={issue}
-            onChange={(event) => setIssue(event.target.value)}
+            {data.assessment.administration.contests.some((row) =>
+              row.faction_ids.includes(faction.id),
+            ) ? (
+              <PowerList
+                contests={data.assessment.administration.contests.filter(
+                  (row) => row.faction_ids.includes(faction.id),
+                )}
+              />
+            ) : (
+              <Typography variant="body2">
+                This faction has no newly synthesized decision assessment in the
+                reviewed snapshot. Its historical positions remain available
+                below.
+              </Typography>
+            )}
+          </Section>
+        )}
+        {tab === "positions" && (
+          <Section
+            title="Dated positions and actions"
+            description="Original report context; check newer episodes before treating an older statement as the current position."
           >
-            <MenuItem value="">All issues</MenuItem>
-            {Object.keys(faction.positions).map((code) => (
-              <MenuItem key={code} value={code}>
-                {issueNames[code]}
-              </MenuItem>
+            {Object.entries(faction.positions).map(([code, blocks]) => (
+              <Accordion
+                key={code}
+                disableGutters
+                elevation={0}
+                variant="outlined"
+              >
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                  {issueNames[code] ?? code}
+                </AccordionSummary>
+                <AccordionDetails>
+                  {blocks.map((block, index) => (
+                    <ReadingBlock
+                      key={index}
+                      title={block.title}
+                      text={block.paras.join("\n\n")}
+                    />
+                  ))}
+                </AccordionDetails>
+              </Accordion>
             ))}
-          </TextField>
-          {Object.entries(faction.positions)
-            .filter(([code]) => !issue || issue === code)
-            .map(([code, blocks]) => (
-              <Box key={code}>
-                <Button component={RouterLink} to={`/issues/${code}`}>
-                  {issueNames[code]}
-                </Button>
-                {blocks.map((block, index) => (
-                  <Box key={index}>
-                    <Typography variant="subtitle2">{block.title}</Typography>
-                    {block.paras.map((text, i) => (
-                      <Box key={i} sx={{ my: 1 }}>
-                        <ResearchText text={text} />
-                      </Box>
-                    ))}
+          </Section>
+        )}
+        {tab === "money" && (
+          <>
+            <Section title="People with a recorded role">
+              {data.people
+                .filter((row) => row.home === faction.id)
+                .slice(0, 8)
+                .map((person) => (
+                  <Box key={person.id}>
+                    <Button component={RouterLink} to={`/people/${person.id}`}>
+                      {person.name}
+                    </Button>
+                    <Typography variant="body2" color="text.secondary">
+                      {person.role}
+                    </Typography>
                   </Box>
                 ))}
-              </Box>
-            ))}
-        </Section>
-      )}
-      {tab === "people" && (
-        <Section
-          title="Personnel roster"
-          description="Roster alignment is a legacy judgment, not measured influence."
-        >
-          {faction.members.map((row, index) => (
-            <DetailFields
-              key={index}
-              value={{
-                person: row[0],
-                role: row[1],
-                issue_channel: row[2],
-                legacy_alignment: row[3],
-                stakes: row[4],
-              }}
-            />
-          ))}
-          <Button component={RouterLink} to={`/people?faction=${faction.id}`}>
-            Browse linked people
-          </Button>
-        </Section>
-      )}
-      {tab === "money" && (
-        <Section
-          title="Money and access"
-          description="Documented relationships and potential gains do not establish an exchange for an official act."
-        >
-          {faction.donors.map((row, index) => (
-            <DetailFields
-              key={index}
-              value={{
-                payer: row[0],
-                amount_or_relationship: row[1],
-                reaches: row[2],
-                issues: row[3],
-                potential_gain: row[4],
-              }}
-            />
-          ))}
-          <Button component={RouterLink} to={`/donors?faction=${faction.id}`}>
-            Browse linked donors
-          </Button>
-        </Section>
-      )}
-      {tab === "relationships" && (
-        <Section title="Alliances and disputes">
-          <DetailFields value={faction.edges} />
-        </Section>
-      )}
-      {tab === "legal" && (
-        <Section
-          title="Legal exposure"
-          description="Allegations and prospective scrutiny are not findings of liability."
-        >
-          <DetailFields
-            value={
-              legal.entries?.filter((row) =>
-                row.factions?.includes(faction.id),
-              ) ?? []
-            }
-          />
-          <DetailFields value={faction.legal} />
-        </Section>
-      )}
-      {tab === "legacy scores" && (
-        <Section title="Legacy weighted effects">
-          <Alert severity="warning">
-            These inherited scores summarize editorial event weights. They are
-            not a validated ranking of power, formal authority or nomination
-            likelihood.
-          </Alert>
-          <Box sx={{ height: 340, width: "100%", minWidth: 0 }}>
-            <ResponsiveContainer>
-              <BarChart
-                data={chart}
-                layout="vertical"
-                margin={{ left: 30, right: 20 }}
+              <Button
+                component={RouterLink}
+                to={`/people?faction=${faction.id}`}
               >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis type="number" />
-                <YAxis
-                  type="category"
-                  dataKey="name"
-                  width={120}
-                  tick={{ fontSize: 11 }}
-                />
-                <Tooltip />
-                <Bar dataKey="net" fill="#215c63" name="Legacy weighted net" />
-              </BarChart>
-            </ResponsiveContainer>
+                Full personnel directory
+              </Button>
+            </Section>
+            <Section
+              title="Financial and organizational relationships"
+              description="These links do not prove control or a payment for an official act."
+            >
+              {data.donors
+                .filter((row) => row.factions.includes(faction.id))
+                .slice(0, 8)
+                .map((donor) => (
+                  <Box key={donor.id}>
+                    <Button component={RouterLink} to={`/donors/${donor.id}`}>
+                      {donor.name}
+                    </Button>
+                    <Typography variant="body2">{donor.identity}</Typography>
+                  </Box>
+                ))}
+              <Button
+                component={RouterLink}
+                to={`/donors?faction=${faction.id}`}
+              >
+                All linked payers and relationships
+              </Button>
+            </Section>
+          </>
+        )}
+        {tab === "history" && (
+          <Section
+            title="Original report and legacy judgments"
+            description="This record preserves the historical research. Legacy scores and original motive judgments are not a validated current ranking."
+          >
+            <Accordion disableGutters elevation={0} variant="outlined">
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                Inspect the historical faction record
+              </AccordionSummary>
+              <AccordionDetails>
+                <DetailFields value={faction} depth={1} />
+              </AccordionDetails>
+            </Accordion>
+          </Section>
+        )}
+      </Stack>
+    );
+  const relations = data.assessment.relationships.filter(
+    (row) => !issue || row.issues.includes(issue),
+  );
+  return (
+    <Stack spacing={3}>
+      <ContextNav area="administration" />
+      <Box>
+        <Typography variant="overline" color="primary">
+          Objectives · decision channels · constraints
+        </Typography>
+        <Typography variant="h3" component="h1">
+          Factions and their leverage
+        </Typography>
+        <Typography color="text.secondary" sx={{ mt: 1, maxWidth: "70ch" }}>
+          Start with what each group seeks and the decisions it can affect.
+          Shared interests do not establish coordination.
+        </Typography>
+      </Box>
+      <Paper variant="outlined" sx={{ p: 2.5 }}>
+        <Stack spacing={2} divider={<Divider />}>
+          {activeFactions.map((row) => (
+            <Box key={row.id}>
+              <Button
+                component={RouterLink}
+                to={`/factions/${row.id}`}
+                sx={{ px: 0 }}
+              >
+                {row.name}
+              </Button>
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{ maxWidth: "80ch" }}
+              >
+                {row.wants}
+              </Typography>
+            </Box>
+          ))}
+        </Stack>
+      </Paper>
+      <Section
+        title="Relationships in the current assessment"
+        description="Explicitly linked to episodes; these relationships are scoped to the selected issues."
+      >
+        <TextField
+          select
+          size="small"
+          label="Focus issue"
+          value={issue}
+          onChange={(event) => setIssue(event.target.value)}
+        >
+          <MenuItem value="">All reviewed issues</MenuItem>
+          {data.issues
+            .filter((row) =>
+              data.assessment.relationships.some((link) =>
+                link.issues.includes(row.code),
+              ),
+            )
+            .map((row) => (
+              <MenuItem key={row.code} value={row.code}>
+                {row.name}
+              </MenuItem>
+            ))}
+        </TextField>
+        {relations.map((row) => (
+          <Box key={row.id}>
+            <Typography variant="subtitle2">
+              {factionNames[row.source]} ↔ {factionNames[row.target]}
+            </Typography>
+            <Typography variant="caption" color="secondary">
+              {row.kind}
+            </Typography>
+            <Typography variant="body2" sx={{ maxWidth: "72ch" }}>
+              {row.assessment}
+            </Typography>
+            <Button
+              size="small"
+              onClick={() =>
+                evidence({
+                  title: row.kind,
+                  summary: row.assessment,
+                  event_ids: row.event_ids,
+                })
+              }
+            >
+              View basis
+            </Button>
           </Box>
-        </Section>
-      )}
+        ))}
+        <Accordion disableGutters elevation={0} variant="outlined">
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+            Explore the relationship diagram
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography variant="caption" color="text.secondary">
+              Equal node sizes and placement carry no rank or authority meaning.
+              Use the list above for the evidence.
+            </Typography>
+            <FactionGraph issue={issue} />
+          </AccordionDetails>
+        </Accordion>
+      </Section>
+      <Section title="Archived groups">
+        {data.factions
+          .filter((row) => row.dissolved)
+          .map((row) => (
+            <Button
+              key={row.id}
+              component={RouterLink}
+              to={`/factions/${row.id}`}
+            >
+              {row.name} · dissolved {row.dissolved}
+            </Button>
+          ))}
+      </Section>
     </Stack>
   );
 }

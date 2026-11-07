@@ -97,6 +97,7 @@ export interface Candidate {
   [key: string]: unknown;
 }
 export interface Snapshot {
+  type?: string;
   id: string;
   date: string;
   summary: string;
@@ -135,6 +136,7 @@ export interface Nomination {
   [key: string]: unknown;
 }
 export interface LedgerData {
+  assessment: CurrentAssessment;
   events: EventRecord[];
   issues: Issue[];
   factions: Faction[];
@@ -144,4 +146,71 @@ export interface LedgerData {
   meta: Record<string, Json>;
   report: Record<string, Json>;
   runs: Record<string, Json>;
+}
+
+export interface EvidenceRef {
+  event_ids: string[];
+  source_ids?: string[];
+}
+export interface PowerContest extends EvidenceRef {
+  id: string;
+  issue_id: string;
+  title: string;
+  status:
+    | "pending"
+    | "contested"
+    | "strengthening"
+    | "weakening"
+    | "unchanged"
+    | "not_reviewed";
+  assessment: string;
+  summary: string;
+  authority: string;
+  leverage: string;
+  change: string;
+  basis: { actions: string; positions: string; money: string };
+  watch: string;
+  faction_ids: string[];
+  reviewed_at: string;
+}
+export interface CandidateAssessment extends EvidenceRef {
+  candidate_id: string;
+  person_id: string | null;
+  path: string;
+  coalition: string;
+  advantage: string;
+  vulnerability: string;
+  positions: string;
+  money: string;
+  reviewed_at: string;
+}
+export interface CurrentAssessment {
+  research_as_of: string;
+  last_substantive_change: string;
+  review: { run_id: string; date: string; type: string; scope: string };
+  administration: {
+    headline: string;
+    summary: string;
+    contests: PowerContest[];
+  };
+  nomination: {
+    headline: string;
+    summary: string;
+    snapshot_id: string;
+    candidates: CandidateAssessment[];
+  };
+  cross_implications: (EvidenceRef & {
+    id: string;
+    title: string;
+    assessment: string;
+    faction_ids: string[];
+  })[];
+  relationships: (EvidenceRef & {
+    id: string;
+    source: string;
+    target: string;
+    issues: string[];
+    kind: string;
+    assessment: string;
+  })[];
 }

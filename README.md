@@ -11,6 +11,7 @@ database/           Research documents, grouped by collection
   events/           Dated episodes, one document per issue
   factions/         Faction profiles and issue positions
   nominations/      Authorized candidates, estimates and snapshot history
+  assessments/      Current power/race synthesis, explicit evidence and freshness
   people/, donors/  People and financial relationships
   meta/, report/    Cross-issue synthesis, methodology and legal context
   runs/, changes/   Review coverage, validation and change history
@@ -22,7 +23,7 @@ prompts/
   registry.json     Role metadata, structured lessons and source registry
 src/
   components/       Shared Material UI compositions
-  pages/            Overview, issues, factions, nominees, people, donors, ledger
+  pages/            Assessment, administration, nomination, research and supporting profiles
   lib/              Research types, data access and pure selectors
   theme.ts          Shared design tokens and component defaults
 scripts/            Database, scheduled review and publication tools
@@ -60,3 +61,5 @@ Research may be published when it does not personally identify the owner. Screen
 See [architecture](docs/architecture.md) and [operations](docs/operations.md). Daily and weekly systemd jobs invoke `scripts/run-review`; a separate stage protects the working database. Validation occurs before publication, publication is verified against the live build fingerprint, and the staged result is then applied. Failures retain diagnostics and report in the same review chat.
 
 GitHub Actions runs checks and builds the React app before deploying `dist/` to Pages. `version.json` exposes the deployed commit and database fingerprint so automated reviews can verify the exact research revision. The HTML entry point contains only app metadata and the React mount.
+
+The primary UI presents current administration power and nomination judgments together. Research contains daily/weekly briefings, full records and methods. The daily process must explicitly review the maintained assessment; technical forecast snapshots never replace substantive political research in the main view. Contextual evidence panels preserve the reader’s location.

@@ -28,18 +28,21 @@ const options = [
     url: `/nominees/${row.id}`,
   })),
 ];
-export function Search() {
+export function Search({ onSelect }: { onSelect?: () => void }) {
   const navigate = useNavigate();
   return (
     <Autocomplete
-      sx={{ width: { xs: "100%", sm: 320 } }}
+      sx={{ width: { xs: "100%", sm: 280 } }}
       options={options}
       getOptionLabel={(option) => option.name}
       value={null}
       clearOnBlur
       blurOnSelect
       onChange={(_, option) => {
-        if (option) navigate(option.url);
+        if (option) {
+          navigate(option.url);
+          onSelect?.();
+        }
       }}
       renderOption={(props, option) => {
         const { key, ...rest } = props;

@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "research_as_of": "2026-11-07",
+  "last_substantive_change": "2026-11-07",
+  "review": {
+    "run_id": "2026-11-07-assessment-ui",
+    "date": "2026-11-07",
+    "type": "ledger_synthesis",
+    "scope": "Synthesis of existing ledger episodes and the first faction-consistency pass. No fresh news intake was performed for the interface redesign."
+  },
+  "administration": {
+    "headline": "Staffing shifts access. Policy control remains contested.",
+    "summary": "Trump retains the central executive choice. Staffing, negotiations, party resources and legal constraints determine how factions can shape it. The clearest recent shifts concern access and succession positioning; several policy outcomes remain open.",
+    "contests": [
+      {
+        "id": "white-house-access",
+        "issue_id": "MID",
+        "title": "White House access is shifting",
+        "status": "pending",
+        "assessment": "Miller’s announced promotion promises broader access for the Maximalists. Wiles’s move changes the Operation’s White House role; it does not establish a transfer of campaign-money control.",
+        "authority": "Trump appoints the chief of staff. The reported handover is November 9.",
+        "leverage": "Miller gains a prospective agenda channel; Wiles retains a reported political-operation role.",
+        "change": "Appointment announced; exercised authority still pending.",
+        "basis": {
+          "actions": "Trump named Miller to succeed Wiles.",
+          "positions": "Public congratulations preserve unity; they establish no 2028 endorsement.",
+          "money": "No financial cause for the appointment is established. Campaign resources and White House access are separate channels."
+        },
+        "watch": "Confirm the handover and each adviser’s actual remit.",
+        "event_ids": [
+          "mid-2026-11-06-miller-chief-staff"
+        ],
+        "faction_ids": [
+          "maximalists",
+          "operation"
+        ],
+        "reviewed_at": "2026-11-07",
+        "summary": "Miller is positioned to gain agenda access. Wiles’s political remit and the November 9 handover remain to be verified."
+      },
+      {
+        "id": "iran-decision",
+        "issue_id": "IRN",
+        "title": "Iran policy remains a contested decision",
+        "status": "contested",
+        "assessment": "Vance has a negotiating channel and a public case for ending the war. Rubio’s defense of Trump supplies a rival position. Neither establishes control over Trump’s next military decision or a completed settlement.",
+        "authority": "Trump directs military decisions; Congress controls appropriations and has war powers.",
+        "leverage": "Negotiators influence the options. Public criticism changes political positioning before it changes policy.",
+        "change": "A visible split over the war’s political costs; the policy outcome remains open.",
+        "basis": {
+          "actions": "Trump reviewed options; Vance has led negotiations.",
+          "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
+          "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
+        },
+        "watch": "Look for an order, observable operational change or an accepted agreement.",
+        "event_ids": [
+          "irn-2026-11-04-vance-postelection-war-critique",
+          "irn-2026-11-05-trump-postelection-war-review"
+        ],
+        "faction_ids": [
+          "vance",
+          "hawks",
+          "deal-capital",
+          "pentagon"
+        ],
+        "reviewed_at": "2026-11-07",
+        "summary": "Vance’s negotiating role competes with hawkish arguments; Trump retains the military decision."
+      },
+      {
+        "id": "succession-control",
+        "issue_id": "SUC",
+        "title": "The succession coalition is still open",
+        "status": "contested",
+        "assessment": "Vance has the clearest recorded organizational route. Rubio retains a competing institutional and donor lane. Trump has not settled the succession question in the reviewed record.",
+        "authority": "Republican voters and the nomination process decide the nominee. Trump’s support is an influential endorsement channel.",
+        "leverage": "Party fundraising, organizations, donor access and public positioning supply distinct forms of leverage.",
+        "change": "Vance’s post-election argument separates him from hawkish rivals without demonstrating a gain in voter support.",
+        "basis": {
+          "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
+          "positions": "Public deferral, message support and a candidate endorsement mean different things.",
+          "money": "Thiel’s historical backing and Rockbridge access help explain Vance’s network; Griffin’s reported preference is not a Rubio contribution pledge."
+        },
+        "watch": "Track entry intentions, endorsements, organizing and new support evidence.",
+        "event_ids": [
+          "suc-2025-03-58b7aa",
+          "suc-2026-08-19-b59801",
+          "suc-2025-12-18-766631",
+          "irn-2026-11-04-vance-postelection-war-critique"
+        ],
+        "faction_ids": [
+          "vance",
+          "hawks",
+          "tech-right",
+          "operation"
+        ],
+        "reviewed_at": "2026-11-07",
+        "summary": "Vance has the clearest organizational route. Rubio retains a competing donor and institutional lane."
+      },
+      {
+        "id": "fed-governance",
+        "issue_id": "FED",
+        "title": "Fed governance has institutional limits",
+        "status": "pending",
+        "assessment": "White House pressure on Cook remains constrained by legal process. Treasury’s policy influence must be distinguished from the FOMC’s authority over rates.",
+        "authority": "The FOMC votes on rates. Removal disputes involve the presidency and courts under the applicable law.",
+        "leverage": "Advisers can shape pressure and process; that does not give a faction control over the rate vote.",
+        "change": "Cook’s hearing schedule and process remain unresolved in the reviewed coverage.",
+        "basis": {
+          "actions": "The hearing was delayed; the later filing addressed scheduling and participation.",
+          "positions": "Calls for lower rates do not establish a changed vote or removal.",
+          "money": "Market exposure can explain interests; no payment causing a rate decision is established."
+        },
+        "watch": "Verify the hearing notice, court disposition and any action actually taken.",
+        "event_ids": [
+          "fed-2026-10-30-cook-hearing-delay"
+        ],
+        "faction_ids": [
+          "treasury",
+          "maximalists"
+        ],
+        "reviewed_at": "2026-11-07",
+        "summary": "White House pressure is constrained by legal process. Rate authority remains with the FOMC."
+      }
+    ]
+  },
+  "nomination": {
+    "headline": "Vance leads; the coalition is not settled.",
+    "summary": "Vance has the strongest recorded organizational route. Rubio is a credible competing lane; DeSantis, Cruz and McEntee rely on progressively more conditional coalition-building assumptions. The exact weights remain provisional judgments.",
+    "snapshot_id": "2026-11-07-nominee-faction-first-pass",
+    "candidates": [
+      {
+        "candidate_id": "jd_vance",
+        "person_id": "vance",
+        "path": "The best-established route to inherit Trump’s coalition.",
+        "coalition": "RNC fundraising, Rockbridge and Turning Point channels.",
+        "advantage": "A concrete organizational head start.",
+        "vulnerability": "Administration ownership and a contested restraint record.",
+        "positions": "Economic nationalism, immigration restriction and a negotiating role.",
+        "money": "Historical Thiel backing; access does not imply agreement on every policy.",
+        "event_ids": [
+          "suc-2025-03-58b7aa",
+          "suc-2026-08-19-b59801",
+          "irn-2026-11-04-vance-postelection-war-critique"
+        ],
+        "source_ids": [
+          "vance_postmortem_faction_pass"
+        ],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "marco_rubio",
+        "person_id": "rubio",
+        "path": "An institutional alternative with an overlapping hawkish donor lane.",
+        "coalition": "State/NSC relationships and donors who prefer him.",
+        "advantage": "National visibility and an existing policy network.",
+        "vulnerability": "Whether he enters, and responsibility for a war he defended.",
+        "positions": "Hawkish commitments coexist with deference to Trump.",
+        "money": "Griffin preference and prospective donor interest are not pledged 2028 funds.",
+        "event_ids": [
+          "suc-2026-07-30e83e",
+          "irn-2026-11-04-vance-postelection-war-critique"
+        ],
+        "source_ids": [
+          "griffin_rubio"
+        ],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "ron_desantis",
+        "person_id": null,
+        "path": "A state-executive alternative if federal incumbents lose credibility.",
+        "coalition": "Social conservatives and voters seeking distance from Washington.",
+        "advantage": "Executive experience outside the federal decision chain.",
+        "vulnerability": "Coalition rebuilding is assumed more than demonstrated.",
+        "positions": "Enacted state policies; support for limited strikes complicates a restraint pitch.",
+        "money": "Past fundraising capacity is not a verified current donor coalition.",
+        "event_ids": [],
+        "source_ids": [
+          "desantis_donors",
+          "desantis_2025"
+        ],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "ted_cruz",
+        "person_id": "cruz",
+        "path": "A hawkish, tariff-skeptical alternative to Vance.",
+        "coalition": "Religious conservatives and overlapping hawkish networks.",
+        "advantage": "A recognizable policy identity and donor-facing lane.",
+        "vulnerability": "Rubio competes for the same networks; intervention backlash limits expansion.",
+        "positions": "Hawkish foreign policy and tariff skepticism distinguish his pitch.",
+        "money": "Historical presidential donors do not establish present commitments.",
+        "event_ids": [
+          "suc-2025-12-47212e"
+        ],
+        "source_ids": [
+          "cruz_donor_positioning"
+        ],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "john_mcentee",
+        "person_id": null,
+        "path": "A speculative opening built on nationalist personnel and withdrawal experience.",
+        "coalition": "A potential audience; an electoral coalition is not established.",
+        "advantage": "Substantive personnel authority and actual withdrawal work.",
+        "vulnerability": "No demonstrated presidential organization or current faction commitments.",
+        "positions": "Historical restrictionist staffing and withdrawal advocacy; current specifics need review.",
+        "money": "Thiel’s dating-business investment is not a nomination endorsement.",
+        "event_ids": [],
+        "source_ids": [
+          "project2025",
+          "mcentee_withdrawal",
+          "mcentee_personnel_record"
+        ],
+        "reviewed_at": "2026-11-07"
+      }
+    ]
+  },
+  "cross_implications": [
+    {
+      "id": "war-and-succession",
+      "title": "A negotiating role is also a succession asset.",
+      "assessment": "Vance’s war postmortem offers differentiation from hawkish rivals while his earlier public defenses retain exposure. That is strategic positioning, not a measured transfer of primary support.",
+      "event_ids": [
+        "irn-2026-11-04-vance-postelection-war-critique"
+      ],
+      "faction_ids": [
+        "vance",
+        "hawks"
+      ]
+    },
+    {
+      "id": "staffing-and-succession",
+      "title": "New gatekeeping changes the channels contenders must navigate.",
+      "assessment": "Miller’s announced promotion could broaden his agenda access. It supplies no evidence that he or the White House has chosen a nominee.",
+      "event_ids": [
+        "mid-2026-11-06-miller-chief-staff"
+      ],
+      "faction_ids": [
+        "maximalists",
+        "operation"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "vance-hawks",
+      "source": "vance",
+      "target": "hawks",
+      "issues": [
+        "IRN",
+        "SUC"
+      ],
+      "kind": "Competing positions",
+      "assessment": "Different post-election war arguments supply competing succession pitches. No measured support transfer is established.",
+      "event_ids": [
+        "irn-2026-11-04-vance-postelection-war-critique"
+      ]
+    },
+    {
+      "id": "operation-maximalists",
+      "source": "operation",
+      "target": "maximalists",
+      "issues": [
+        "MID",
+        "SUC"
+      ],
+      "kind": "Access transition",
+      "assessment": "The announced chief-of-staff transition changes prospective access. The handover and allocation of political responsibilities remain to be verified.",
+      "event_ids": [
+        "mid-2026-11-06-miller-chief-staff"
+      ]
+    },
+    {
+      "id": "vance-tech",
+      "source": "vance",
+      "target": "tech-right",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "Financial and organizational ties",
+      "assessment": "Historical backing supplies a channel into the nomination coalition. It does not establish agreement on every policy or a new 2028 pledge.",
+      "event_ids": [
+        "suc-2026-08-19-b59801",
+        "suc-2026-09-24-11ac54"
+      ]
+    }
+  ]
+}

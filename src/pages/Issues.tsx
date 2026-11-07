@@ -1,118 +1,138 @@
 import {
-  Alert,
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
   Box,
   Button,
-  Card,
-  CardActionArea,
-  CardContent,
-  Chip,
+  Divider,
+  Paper,
   Stack,
   Typography,
 } from "@mui/material";
-import { Link as RouterLink, useNavigate, useParams } from "react-router-dom";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link as RouterLink, useParams } from "react-router-dom";
 import { activeFactions, data } from "../lib/data";
-import { PageHeader } from "../components/PageHeader";
+import { ContextNav } from "../components/ContextNav";
 import { Section } from "../components/Section";
-import { ResearchText } from "../components/ResearchText";
-import { DetailFields } from "../components/DetailFields";
-
+import { PowerList } from "../components/PowerList";
+import { ReadingBlock } from "../components/ReadingBlock";
 export default function Issues() {
   const { id } = useParams();
-  const navigate = useNavigate();
   const issue = data.issues.find((row) => row.code === id);
   if (id && !issue)
     return (
-      <Alert severity="warning">
+      <Typography>
         Issue not found.{" "}
-        <Button onClick={() => navigate("/issues")}>All issues</Button>
-      </Alert>
+        <Button component={RouterLink} to="/issues">
+          All issues
+        </Button>
+      </Typography>
     );
   if (!issue)
     return (
       <Stack spacing={3}>
-        <PageHeader
-          title="Issues and decision channels"
-          description="Start with the decision at stake, then follow the actors, competing interests and unresolved outcomes."
-        />
-        <Box
-          sx={{
-            display: "grid",
-            gridTemplateColumns: { xs: "1fr", md: "repeat(2, 1fr)" },
-            gap: 2,
-          }}
-        >
-          {data.issues.map((row) => (
-            <Card key={row.code} variant="outlined">
-              <CardActionArea component={RouterLink} to={`/issues/${row.code}`}>
-                <CardContent>
-                  <Typography variant="h6">{row.name}</Typography>
-                  <Typography sx={{ my: 1 }}>{row.decision}</Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {row.heldBy}
-                  </Typography>
-                  <Chip
-                    size="small"
-                    variant="outlined"
-                    label={`${data.events.filter((event) => event.issues.includes(row.code)).length} records`}
-                    sx={{ mt: 2 }}
-                  />
-                </CardContent>
-              </CardActionArea>
-            </Card>
-          ))}
+        <ContextNav area="administration" />
+        <Box>
+          <Typography variant="overline">Issue coverage</Typography>
+          <Typography variant="h3" component="h1">
+            Decisions across the administration
+          </Typography>
         </Box>
-      </Stack>
-    );
-  const stances = activeFactions.filter(
-    (faction) => faction.positions[issue.code],
-  );
-  const holders = data.meta.holders as Record<string, unknown>;
-  return (
-    <Stack spacing={3}>
-      <Button component={RouterLink} to="/issues" sx={{ alignSelf: "start" }}>
-        ← All issues
-      </Button>
-      <PageHeader
-        title={issue.name}
-        description={issue.decision}
-        action={
-          <Button
-            component={RouterLink}
-            to={`/ledger?issue=${issue.code}`}
-            variant="outlined"
-          >
-            View dated evidence
-          </Button>
-        }
-      />
-      <Section title="Who holds the decision">
-        <ResearchText text={issue.heldBy} />
-        <DetailFields value={holders?.[issue.code]} />
-      </Section>
-      <Section title="What remains open">
-        <ResearchText text={issue.pending} />
-      </Section>
-      <Section
-        title="Competing faction positions"
-        description="These summaries retain their original dates and evidence qualifications. Later episodes may refine older conclusions."
-      >
-        {stances.map((faction) => (
-          <Box key={faction.id}>
-            <Button component={RouterLink} to={`/factions/${faction.id}`}>
-              {faction.name}
-            </Button>
-            {faction.positions[issue.code].map((block, index) => (
-              <Box key={index} sx={{ my: 2 }}>
-                <Typography variant="subtitle2">{block.title}</Typography>
-                {block.paras.map((paragraph, i) => (
-                  <Box key={i} sx={{ mb: 1 }}>
-                    <ResearchText text={paragraph} />
-                  </Box>
-                ))}
+        <Paper variant="outlined" sx={{ p: 2.5 }}>
+          <Stack spacing={2} divider={<Divider />}>
+            {data.issues.map((row) => (
+              <Box key={row.code}>
+                <Button
+                  component={RouterLink}
+                  to={`/issues/${row.code}`}
+                  sx={{ px: 0 }}
+                >
+                  {row.name}
+                </Button>
+                <Typography variant="body2" color="text.secondary">
+                  {row.decision}
+                </Typography>
+                <Typography variant="caption" color="text.secondary">
+                  {data.assessment.administration.contests.some(
+                    (contest) => contest.issue_id === row.code,
+                  )
+                    ? "Included in the current assessment"
+                    : "Historical coverage · current synthesis not yet reviewed"}
+                </Typography>
               </Box>
             ))}
-          </Box>
-        ))}
+          </Stack>
+        </Paper>
+      </Stack>
+    );
+  const contests = data.assessment.administration.contests.filter(
+    (row) => row.issue_id === issue.code,
+  );
+  return (
+    <Stack spacing={3}>
+      <ContextNav area="administration" />
+      <Box>
+        <Typography variant="overline">Decision context</Typography>
+        <Typography variant="h3" component="h1">
+          {issue.name}
+        </Typography>
+      </Box>
+      <Section title="Current assessment">
+        {contests.length ? (
+          <PowerList contests={contests} />
+        ) : (
+          <Typography variant="body2">
+            A current synthesis for this issue has not been established in the
+            reviewed snapshot. The dated record remains available; the original
+            summary below may have been superseded.
+          </Typography>
+        )}
+        <Button component={RouterLink} to={`/ledger?issue=${issue.code}`}>
+          Inspect dated episodes
+        </Button>
+      </Section>
+      <Accordion disableGutters elevation={0} variant="outlined">
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          Original issue summary and open questions
+        </AccordionSummary>
+        <AccordionDetails>
+          <ReadingBlock
+            title="Original authority summary"
+            text={issue.heldBy}
+          />
+          <ReadingBlock
+            title="Recorded pending questions"
+            text={issue.pending}
+          />
+        </AccordionDetails>
+      </Accordion>
+      <Section title="Faction positions in the recorded research">
+        {activeFactions
+          .filter((faction) => faction.positions[issue.code])
+          .map((faction) => (
+            <Accordion
+              key={faction.id}
+              disableGutters
+              elevation={0}
+              variant="outlined"
+            >
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                {faction.name}
+              </AccordionSummary>
+              <AccordionDetails>
+                {faction.positions[issue.code].map((block, index) => (
+                  <ReadingBlock
+                    key={index}
+                    title={block.title}
+                    text={block.paras.join("\n\n")}
+                  />
+                ))}
+                <Button component={RouterLink} to={`/factions/${faction.id}`}>
+                  Faction profile
+                </Button>
+              </AccordionDetails>
+            </Accordion>
+          ))}
       </Section>
     </Stack>
   );

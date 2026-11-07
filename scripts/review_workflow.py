@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 from database import ROOT, apply, atomic_json, changes, fingerprint, load, validate
 from publish_review import publish
 from validate_nominees import validate as validate_nominees
+from validate_assessments import validate_review as validate_assessment_review
 
 
 def prepare(stage, section):
@@ -52,6 +53,7 @@ def finish(stage, section):
         raise ValueError('Scheduled review changed prompts')
     validate(after)
     validate_nominees(before, after, section)
+    validate_assessment_review(before, after, section)
     validate_changed_events(before, after, stage)
     if fingerprint(load()) != fingerprint(before):
         raise RuntimeError('Working data changed during review; retry before publishing')

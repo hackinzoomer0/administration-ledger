@@ -73,7 +73,7 @@ def apply(before, after, root=ROOT):
 
 def validate(ledger):
     collections = ledger['collections']
-    required = {'events', 'factions', 'issues', 'nominations', 'people', 'donors', 'runs', 'prompts'}
+    required = {'events', 'factions', 'issues', 'nominations', 'people', 'donors', 'runs', 'prompts', 'assessments'}
     if not required <= collections.keys():
         raise ValueError('Missing required collections')
     for collection, documents in collections.items():
@@ -90,6 +90,8 @@ def validate(ledger):
                 raise ValueError(f"Unknown issue: {event['id']}")
     from validate_nominees import validate as validate_nominees
     validate_nominees(ledger, ledger, 'Weekly')
+    from validate_assessments import validate as validate_assessments
+    validate_assessments(ledger)
     return {'collections': len(collections), 'events': len(seen), 'nominees': len(collections['nominations']['republican_2028']['candidates'])}
 
 

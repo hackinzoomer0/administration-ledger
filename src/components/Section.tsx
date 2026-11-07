@@ -10,7 +10,7 @@ export function Section({
   children: ReactNode;
 }) {
   return (
-    <Paper variant="outlined" sx={{ p: { xs: 2, md: 3 }, minWidth: 0 }}>
+    <Paper variant="outlined" sx={{ p: { xs: 2, md: 2.5 }, minWidth: 0 }}>
       <Stack spacing={2}>
         <Typography variant="h6" component="h2">
           {title}

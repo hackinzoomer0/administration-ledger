@@ -1,4 +1,5 @@
 import type {
+  CurrentAssessment,
   Donor,
   EventRecord,
   Faction,
@@ -28,6 +29,7 @@ export function collection<T>(name: string): Record<string, T> {
   );
 }
 export const data: LedgerData = {
+  assessment: collection<CurrentAssessment>("assessments").current,
   events: Object.values(collection<{ items: EventRecord[] }>("events")).flatMap(
     (group) => group.items ?? [],
   ),

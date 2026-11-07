@@ -24,7 +24,7 @@ import {
 } from "react-router-dom";
 import { activeFactions } from "../lib/data";
 import { PageHeader } from "./PageHeader";
-import { RecordDialog } from "./RecordDialog";
+
 interface Entry {
   id: string;
   name: string;
@@ -65,6 +65,20 @@ export function Directory<T extends Entry>({
     )
     .sort((a, b) => (ascending ? 1 : -1) * a.name.localeCompare(b.name));
   const selected = rows.find((row) => row.id === id);
+  if (selected)
+    return (
+      <Stack spacing={3}>
+        <Button
+          component={RouterLink}
+          to={`/${path}`}
+          sx={{ alignSelf: "start" }}
+        >
+          ← {title}
+        </Button>
+        <PageHeader title={selected.name} description={subtitle(selected)} />
+        {details(selected)}
+      </Stack>
+    );
   return (
     <Stack spacing={3}>
       <PageHeader title={title} description={description} />
@@ -163,16 +177,6 @@ export function Directory<T extends Entry>({
         />
       </Paper>
       {id && !selected && <Alert severity="warning">Record not found.</Alert>}
-      {selected && (
-        <RecordDialog
-          title={selected.name}
-          onClose={() => {
-            window.location.hash = `/${path}`;
-          }}
-        >
-          {details(selected)}
-        </RecordDialog>
-      )}
     </Stack>
   );
 }

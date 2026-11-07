@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-07",
+  "type": "ui_review",
+  "scope": "Live UI review at deployed commit 4425ccf; desktop 1440x1000 and mobile 390x844. Review only, no application or forecast implementation.",
+  "value_proposition": "Current administration power dynamics and 2028 nomination assessment in a single pane; daily briefings are inputs and supporting evidence.",
+  "findings": [
+    "Primary overview foregrounds archive counts and chronology, not current power assessment.",
+    "Latest nominee assessment selects a technical migration snapshot.",
+    "Generic field rendering exposes internal identifiers and produces excessive page length.",
+    "Graph dominates faction landing page without explaining authority or leverage.",
+    "Mobile header about 224px; nomination section starts about 2206px below page top."
+  ],
+  "measurements": {
+    "desktop_nominee_page_height_px": 22374,
+    "mobile_nominee_page_height_px": 27056,
+    "mobile_header_height_px": 224,
+    "mobile_overview_nominee_section_top_px": 2206
+  },
+  "recommendations": [
+    "Maintained current-assessment layer with explicit evidence and research freshness.",
+    "Integrated administration and nomination panels as primary dashboard.",
+    "Four task-based navigation destinations and contextual evidence access.",
+    "Purpose-built profiles, human-readable relationship labels and secondary graph/history views.",
+    "Compact responsive shell, stronger typography hierarchy and fewer equally weighted bordered containers."
+  ],
+  "artifact": "docs/ui-review-2026-11-07.md",
+  "political_data_changes": [],
+  "candidate_roster_changes": [],
+  "status": "recommendations_prepared_not_implemented"
+}
