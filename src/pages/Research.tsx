@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { loadArchive } from "../lib/archive";
 import { useSearchParams, Link as RouterLink } from "react-router-dom";
 import {
   Accordion,
@@ -29,7 +31,30 @@ function paragraphs(value: unknown): string {
 export default function Research() {
   const [params, setParams] = useSearchParams();
   const section = params.get("section") ?? "briefings";
-  const runs = Object.entries(data.runs).sort(([a], [b]) => b.localeCompare(a));
+  const [archive, setArchive] = useState<Record<string, Json>>({});
+  const [nominationArchive, setNominationArchive] = useState<
+    Record<string, Json>
+  >({});
+  const [error, setError] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  useEffect(() => {
+    let active = true;
+    const collection = section === "methods" ? "report" : "runs";
+    loadArchive(collection)
+      .then((rows) => {
+        if (active) {
+          setArchive(rows);
+          setError(false);
+        }
+      })
+      .catch(() => {
+        if (active) setError(true);
+      });
+    return () => {
+      active = false;
+    };
+  }, [section, attempt]);
+  const runs = Object.entries(archive).sort(([a], [b]) => b.localeCompare(a));
   const technical = [
     "ui_review",
     "workflow_setup",
@@ -44,6 +69,14 @@ export default function Research() {
   return (
     <Stack spacing={3}>
       <ContextNav area="research" />
+      {error && (
+        <Box role="alert">
+          Could not load the research archive.{" "}
+          <Button onClick={() => setAttempt((value) => value + 1)}>
+            Retry
+          </Button>
+        </Box>
+      )}
       <Box>
         <Typography variant="overline" color="primary">
           Evidence behind the assessment
@@ -159,7 +192,27 @@ export default function Research() {
               campaign backing are different relationships.
             </Typography>
           </Section>
-          {Object.entries(data.report).map(([id, record]) => (
+          <Accordion
+            disableGutters
+            elevation={0}
+            variant="outlined"
+            onChange={(_, expanded) => {
+              if (expanded && !Object.keys(nominationArchive).length)
+                loadArchive("nominations")
+                  .then(setNominationArchive)
+                  .catch(() => setError(true));
+            }}
+          >
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              Historical forecast records
+            </AccordionSummary>
+            <AccordionDetails>
+              {Object.values(nominationArchive).map((record, index) => (
+                <DetailFields key={index} value={record} depth={1} />
+              ))}
+            </AccordionDetails>
+          </Accordion>
+          {Object.entries(archive).map(([id, record]) => (
             <Accordion key={id} disableGutters elevation={0} variant="outlined">
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography variant="subtitle2">

@@ -121,7 +121,25 @@
           "finding": "Stored subsequent episodes screened; no newly established full test or disproof. External verification remains incomplete; open is not confirmation.",
           "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
-      ]
+      ],
+      "test_design_review": {
+        "date": "2026-11-08",
+        "status": "replacement_question_queued",
+        "finding": "A presidential endorsement does not logically eliminate donor disagreement.",
+        "next_action": "Check dated donor commitments and policy compromises separately from endorsement; a recommitment tests donor exit, not every policy tension.",
+        "original_test_preserved": true,
+        "current_interpretation": "Unresolved hypothesis; compatibility with the original test is not confirmation of its cause.",
+        "replacement_question": {
+          "id": "vance-squeeze-causal-test-v2",
+          "status": "unadjudicated_design",
+          "review_by": "2026-11-09",
+          "claim": "Some consequential tech backers condition their Vance support on skilled-immigration policy.",
+          "alternative": "Their support is driven by other priorities despite policy disagreement.",
+          "supports": "Named backers explicitly condition or change political commitments on the policy, or documented negotiations link both.",
+          "contradicts": "Those same backers demonstrably maintain commitments despite the relevant costly disagreement and explain other overriding priorities.",
+          "missing_evidence": "Remain unresolved when discriminating evidence is unavailable; do not infer causation from timing alone."
+        }
+      }
     },
     {
       "disproof": "Retire if the delay is explained by another cause or deliveries resume during Iran escalation.",
@@ -162,7 +180,25 @@
           "finding": "Stored subsequent episodes screened; no newly established full test or disproof. External verification remains incomplete; open is not confirmation.",
           "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
-      ]
+      ],
+      "test_design_review": {
+        "date": "2026-11-08",
+        "status": "replacement_question_queued",
+        "finding": "Delivery timing alone cannot identify resource diversion rather than logistics, approvals or negotiation.",
+        "next_action": "Seek an attributed allocation decision, stock/delivery constraint or independent evidence discriminating the competing causes. Timing is suggestive only.",
+        "original_test_preserved": true,
+        "current_interpretation": "Unresolved hypothesis; compatibility with the original test is not confirmation of its cause.",
+        "replacement_question": {
+          "id": "hegseth-trade-off-causal-test-v2",
+          "status": "unadjudicated_design",
+          "review_by": "2026-11-09",
+          "claim": "A documented military allocation constraint contributed to delay of the specific Ukraine delivery.",
+          "alternative": "The delay arose from logistics, approvals or a separate negotiation.",
+          "supports": "Dated allocation records or attributed decision accounts connect a Gulf requirement to the delayed Ukraine delivery.",
+          "contradicts": "Comparable dated records establish a different sufficient cause and no relevant shared allocation constraint.",
+          "missing_evidence": "Remain unresolved when discriminating evidence is unavailable; do not infer causation from timing alone."
+        }
+      }
     },
     {
       "disproof": "Retire if the Supreme Court grants DOJ relief on the California ballots or a grand jury indicts in one of this fall's voting probes.",
@@ -205,7 +241,25 @@
           "finding": "California denial already stored; Alaska appeal/certification leg not newly verified. The newly recovered criminal subpoena is a counterweight to a broad claim that investigative pressure ended, not a reversal of ballot-litigation setbacks.",
           "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
-      ]
+      ],
+      "test_design_review": {
+        "date": "2026-11-08",
+        "status": "replacement_question_queued",
+        "finding": "An indictment does not disprove simultaneous court constraints in other proceedings.",
+        "next_action": "Resolve each named case/order and its practical effect separately; do not treat a different case outcome as universal disproof.",
+        "original_test_preserved": true,
+        "current_interpretation": "Unresolved hypothesis; compatibility with the original test is not confirmation of its cause.",
+        "replacement_question": {
+          "id": "enforcer-court-wall-causal-test-v2",
+          "status": "unadjudicated_design",
+          "review_by": "2026-11-09",
+          "claim": "Judicial orders materially constrain the specific election-enforcement actions identified by the original pattern.",
+          "alternative": "The observed limits result from independent administrative, evidentiary or political choices.",
+          "supports": "Resolve each named proceeding separately; an operative order changes the agency action, timetable or available authority.",
+          "contradicts": "An operative disposition removes the claimed constraint in that same proceeding; outcomes in different cases do not suffice.",
+          "missing_evidence": "Remain unresolved when discriminating evidence is unavailable; do not infer causation from timing alone."
+        }
+      }
     },
     {
       "disproof": "Retire if none of them happens by Nov 30, which would mean the deferrals were about the talks, not the vote.",
@@ -249,7 +303,25 @@
           "finding": "Some strike reporting is in the ledger, but the test requires two deferred moves by November 17. No second qualifying move newly verified; do not count sanctions or a sale approval as delivery.",
           "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
-      ]
+      ],
+      "test_design_review": {
+        "date": "2026-11-08",
+        "status": "replacement_question_queued",
+        "finding": "Post-election timing alone cannot establish election-driven deferral rather than talks or operational constraints.",
+        "next_action": "Compare documented scheduling decisions and competing operational/diplomatic explanations; record timed outcomes separately from causal inference.",
+        "original_test_preserved": true,
+        "current_interpretation": "Unresolved hypothesis; compatibility with the original test is not confirmation of its cause.",
+        "replacement_question": {
+          "id": "after-nov-3-causal-test-v2",
+          "status": "unadjudicated_design",
+          "review_by": "2026-11-09",
+          "claim": "Electoral timing materially contributed to the specific deferred decisions in the original pattern.",
+          "alternative": "Diplomatic, operational or logistical conditions explain the timing without an election constraint.",
+          "supports": "Dated decision records or attributed accounts explicitly link postponement/release to electoral timing, compared with contemporaneous competing constraints.",
+          "contradicts": "Decision-specific evidence establishes a different timing constraint independent of the election; mere post-election action or non-action is insufficient.",
+          "missing_evidence": "Remain unresolved when discriminating evidence is unavailable; do not infer causation from timing alone."
+        }
+      }
     }
   ]
 }

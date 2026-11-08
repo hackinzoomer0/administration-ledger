@@ -5,6 +5,7 @@ import os
 import socket
 import sys
 from pathlib import Path
+from usage import UsageRecorder
 
 
 def main():
@@ -26,10 +27,17 @@ def main():
             for line in stream:
                 if line == b"\r\n":
                     break
-            run_chat(connection, stream, stage, section, prompt)
+            usage = UsageRecorder(stage, section)
+            try:
+                run_chat(connection, stream, stage, section, prompt, usage)
+            except Exception:
+                usage.finish('transport_or_turn_failed')
+                raise
 
 
-def run_chat(connection, stream, stage, section, prompt):
+def run_chat(connection, stream, stage, section, prompt, usage=None):
+    usage = usage or UsageRecorder(stage, section)
+
     def send_frame(payload, opcode=1):
         size = len(payload)
         if size < 126:
@@ -54,7 +62,9 @@ def run_chat(connection, stream, stage, section, prompt):
             if opcode == 0x89:
                 send_frame(payload, 10)
             elif opcode == 0x81:
-                return json.loads(payload)
+                message = json.loads(payload)
+                usage.observe(message)
+                return message
             else:
                 raise RuntimeError(f"Unexpected WebSocket frame: {opcode:#x}")
 
@@ -101,6 +111,7 @@ def run_chat(connection, stream, stage, section, prompt):
         if params["threadId"] == thread_id and params["turn"]["id"] == turn["id"]:
             if params["turn"]["status"] != "completed":
                 raise RuntimeError(f"Codex turn failed: {params['turn']}")
+            usage.finish("completed")
             return
 
 

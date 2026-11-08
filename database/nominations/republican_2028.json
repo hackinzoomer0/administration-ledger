@@ -57,7 +57,7 @@
     "version": "scenario_wargame_v1",
     "authorization": {
       "date": "2026-11-07",
-      "basis": "Owner requested predictive reasoning about voter attribution, candidate reactions, Democratic oversight and adversarial challenges when guessing odds; authorizes this methodology revision, not changes to the five-person roster."
+      "basis": "Predictive reasoning about voter attribution, candidate reactions and oversight is authorized under this dated methodology revision; roster changes require separate authorization."
     },
     "formula": "share(candidate) = sum over scenarios of weight_pct * shares_pct[candidate] / 100; both layers are conditional on an approved candidate winning."
   },

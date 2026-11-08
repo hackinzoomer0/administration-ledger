@@ -3,9 +3,7 @@ import datetime
 from collections import Counter
 import json
 import shlex
-import subprocess
 import sys
-import tempfile
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -20,9 +18,14 @@ def prepare(stage, section):
     ledger = load()
     atomic_json(stage / 'original.json', ledger)
     atomic_json(stage / 'ledger-owner-redacted.json', ledger)
+    from research_review import plan as research_plan
+    atomic_json(stage / 'research-plan.json', research_plan(ledger))
+    atomic_json(stage / 'intake-receipts.json', [])
     (stage / 'MEMORY.md').write_text((ROOT / 'MEMORY.md').read_text())
     prompt = (ROOT / 'prompts' / f'{section.lower()}.md').read_text()
     prefix = (ROOT / 'prompts/execution/stage.md').read_text()
+    tools_command = shlex.join([sys.executable, str(ROOT / 'scripts/research_tools.py'), str(stage.resolve())])
+    prefix += '\nStart with research-plan.json and targeted retrieval, not the entire combined snapshot. Runner-authorized helper: ' + tools_command + ' get COLLECTION ID --path FIELD/PATH; find TEXT; lookup KIND VALUE WINDOW; receipt RECEIPT_JSON_FILE. This helper is also an exception to sibling-access restrictions. Log actual research attempts; inspect receipt age before reuse and refresh mutable indexes.\n'
     command = shlex.join([sys.executable, str(Path(__file__).resolve()), 'check',
                           str(stage.resolve()), section])
     copy_command = shlex.join([sys.executable, str(Path(__file__).resolve()), 'copy-plan', str(stage.resolve()), section])
@@ -33,29 +36,13 @@ def prepare(stage, section):
 
 
 def validate_changed_events(before, after, stage):
-    old = {row['id']: row for group in before['collections']['events'].values() for row in group['items']}
-    new = {row['id']: row for group in after['collections']['events'].values() for row in group['items']}
-    changed = [key for key, row in new.items() if old.get(key) != row]
-    if not changed and all(before['collections'][name] == after['collections'][name] for name in ['people', 'donors']):
-        return
-    with tempfile.TemporaryDirectory(dir=stage) as directory:
-        out = Path(directory)
-        for name in ['events', 'people', 'donors']:
-            (out / name).mkdir()
-            for key, row in after['collections'][name].items():
-                atomic_json(out / name / f'{key}.json', row)
-        script = out / 'validate.py'
-        script.write_text(after['collections']['prompts']['validator']['text'])
-        ids = out / 'changed.txt'
-        ids.write_text('\n'.join(changed or ['__no_event_changes__']))
-        today = datetime.datetime.now(ZoneInfo('America/Chicago')).date().isoformat()
-        result = subprocess.run([sys.executable, '-I', str(script), str(out), today, str(ids)], capture_output=True, text=True)
-        (stage / 'event-validation.txt').write_text(result.stdout + result.stderr)
-        atomic_json(stage / 'event-validation.json', {
-            'returncode': result.returncode, 'stdout': result.stdout, 'stderr': result.stderr})
-        if result.returncode:
-            reason = '\n'.join(line for line in result.stdout.splitlines() if line.startswith('ERROR'))
-            raise ValueError('Event/profile validation failed: ' + (reason or result.stderr or result.stdout)[-2000:])
+    from validate_events import validate as validate_events
+    errors, warnings = validate_events(after['collections'], datetime.datetime.now(ZoneInfo('America/Chicago')).date().isoformat())
+    output = '\n'.join(['WARNING ' + w for w in warnings] + ['ERROR ' + e for e in errors])
+    (stage / 'event-validation.txt').write_text(output)
+    atomic_json(stage / 'event-validation.json', {'returncode': int(bool(errors)), 'stdout': output, 'stderr': ''})
+    if errors:
+        raise ValueError('Event/profile validation failed: ' + '; '.join(errors[:10]))
 
 
 def check(stage, section):
@@ -67,11 +54,14 @@ def check(stage, section):
         raise ValueError('Scheduled review changed collection schema')
     if before['collections']['prompts'] != after['collections']['prompts']:
         raise ValueError('Scheduled review changed prompts')
-    validate(after)
+    validate_changed_events(before, after, stage)
+    validate(after, check_events=False)
     validate_nominees(before, after, section)
     validate_assessment_review(before, after, section)
     validate_reader_copy(before, after, documents)
-    validate_changed_events(before, after, stage)
+    from research_review import validate as validate_research
+    from research_tools import receipts
+    validate_research(before, after, section, receipts(stage))
     if fingerprint(load()) != fingerprint(before):
         raise RuntimeError('Working data changed during review; retry before publishing')
     return before, after
@@ -86,10 +76,19 @@ def copy_plan(stage, section):
 
 
 def finish(stage, section):
-    before, after = check(stage, section)
-    publication = publish(stage)
-    atomic_json(stage / 'publication.json', publication)
-    apply(before, after)
+    before = json.loads((stage / 'original.json').read_text())
+    after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
+    saved_publication = stage / 'publication.json'
+    if saved_publication.exists() and fingerprint(load()) == fingerprint(after):
+        publication = json.loads(saved_publication.read_text())
+        if publication.get('status') not in {'verified', 'unchanged'}:
+            raise RuntimeError('Cannot resume application without verified publication')
+    else:
+        before, after = check(stage, section)
+        publication = publish(stage)
+        atomic_json(saved_publication, publication)
+        apply(before, after, publication=publication)
+    atomic_json(stage / 'application-success.json', {'phase': 'applied', 'fingerprint': fingerprint(after), 'publication': publication})
     report = {'publication': publication, 'changes': changes(before, after),
               'nominee_forecast': after['collections']['nominations']['republican_2028']['tracking']['history'][-1]}
     atomic_json(stage / 'changes.json', report)

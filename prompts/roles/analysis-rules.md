@@ -24,3 +24,5 @@ A title must identify a distinct event or possible outcome without opening its d
 Before saving, read new/changed titles without their surrounding paragraphs. If a reader cannot tell who is doing what or how this case differs from another, revise them. Keep evidence distinctions, uncertainty and analytical meaning intact; readability is not permission to strengthen a claim.
 
 Reader-facing database text must pass reader-copy-review before publication. Explain names, roles, decisions, mechanisms and consequences in ordinary sentences; do not assume readers know prior reports or internal shorthand. The required separate editorial pass repairs the stored fields and records final-text fingerprints, context and uncertainty checks in the run. Technical material belongs in explicitly identified methods/full-record sections.
+
+Apply research-questions: explicitly weigh explanations, separate future likelihood/impact, and conclude how the evidence changes the assessment. Do not give negligible alternatives artificial balance or duplicate the causal narrative.

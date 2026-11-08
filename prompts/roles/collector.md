@@ -16,3 +16,4 @@ For each WEEKDAY date fetch directly (do not search for it first; search returns
 If it fails, record the exact error and move on (do not search for substitutes). Weekends have no issue; say so rather than treating it as a failure.
 
 Return pages with url, printedDate, loaded and error. Return items with date, headline, oneLine, source, originalOutlet when applicable, url, sourcePage and headlineOnly.
+Keep discovery broad but output compact metadata rather than repeating article prose. Normalize URLs and original reporting origins, deduplicate syndicated occurrences before enrichment and reuse the same intake across issues and nominees. Use the research receipt helper and consult recent receipts before repeat queries; refresh mutable indexes and record the actual access result. Failed indexes do not replace the independent recall check.

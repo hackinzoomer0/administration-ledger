@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-08",
+  "type": "workflow_setup",
+  "summary": "Research workflow now prioritizes consequential unknowns, explicitly weighs explanations, separates future likelihood from impact, tracks overdue coverage and preserves original tests. Publication privacy, shared data validation, resumable application, delivery recovery and selective research loading were strengthened. No political intake or nomination reweighting was performed.",
+  "scope": "Engineering and research-process remediation; details in docs/remediation-2026-11-08.md and docs/research-workflow.md.",
+  "limitations": [
+    "Outstanding political questions remain unresolved until actual source checks.",
+    "New weekly requirements apply prospectively; historical forecasts and estimates are preserved.",
+    "Current-tree privacy cleanup does not rewrite earlier Git commits.",
+    "Input sensitivity and outcome inventory do not establish empirical calibration."
+  ]
+}

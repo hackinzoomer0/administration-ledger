@@ -1,3 +1,4 @@
+import { CandidatePositions } from "./CandidatePositions";
 import {
   Box,
   Button,
@@ -10,7 +11,14 @@ import {
 } from "@mui/material";
 import { Link as RouterLink, useSearchParams } from "react-router-dom";
 import { data } from "../lib/data";
-import type { Candidate, CandidateAssessment } from "../lib/types";
+import type {
+  Candidate,
+  CandidateAssessment,
+  CandidateBase,
+  CandidateBacker,
+  CandidateHistory,
+  CandidateExposure,
+} from "../lib/types";
 import { substantiveSnapshots, latestWargame, label } from "../lib/selectors";
 import { useEvidence } from "../lib/evidence-context";
 import { ForecastWargame } from "./ForecastWargame";
@@ -27,34 +35,6 @@ const sections: [string, string][] = [
   ["history", "History"],
   ["evidence", "Sources & limits"],
 ];
-interface Base {
-  classification: string;
-  likely_constituencies: string[];
-  constraints: string[];
-  documented_organizational_relationships: {
-    text: string;
-    source_ids: string[];
-  }[];
-}
-interface Backer {
-  name: string;
-  relationship: string;
-  period: string;
-  confirmed_2028_commitment: boolean;
-  source_ids: string[];
-}
-interface History {
-  period: string;
-  event: string;
-  source_ids: string[];
-}
-interface Exposure {
-  title: string;
-  status: string;
-  details: string;
-  political_implication: string;
-  source_ids: string[];
-}
 function Points({ items }: { items: string[] }) {
   return (
     <List disablePadding>
@@ -91,11 +71,11 @@ export function CandidateProfile({
     : "assessment";
   const latest = substantiveSnapshots(data.nomination.tracking.history).at(-1);
   const fullReview = latestWargame(data.nomination.tracking.history);
-  const base = candidate.base_of_support as Base;
-  const backers = candidate.donors_and_financial_networks as Backer[];
-  const history = candidate.consistency_timeline as History[];
+  const base = candidate.base_of_support as CandidateBase;
+  const backers = candidate.donors_and_financial_networks as CandidateBacker[];
+  const history = candidate.consistency_timeline as CandidateHistory[];
   const exposures =
-    candidate.controversies_and_potential_exposure as Exposure[];
+    candidate.controversies_and_potential_exposure as CandidateExposure[];
   const sourceButton = (title: string, ids: string[], summary?: string) => (
     <Button
       size="small"
@@ -233,61 +213,7 @@ export function CandidateProfile({
         />
       )}
       {section === "positions" && (
-        <Section
-          title="Policy positions and the record behind them"
-          description="A statement, an action and a projected campaign commitment are distinguished. No formal campaign platform is assumed."
-        >
-          <Stack spacing={3} divider={<Divider />}>
-            {Object.entries(candidate.positions).map(([key, position]) => (
-              <Box key={key}>
-                <Typography variant="subtitle1" sx={{ fontWeight: 650, mb: 1 }}>
-                  {data.nomination.issue_definitions.find(
-                    (row) => row.id === key,
-                  )?.label ?? label(key)}
-                </Typography>
-                <ResearchText text={position.summary} />
-                <Stack spacing={1.5} sx={{ mt: 2 }}>
-                  {position.evidence.map((raw, index) => {
-                    const row = raw as {
-                      text: string;
-                      status: string;
-                      source_ids: string[];
-                    };
-                    return (
-                      <Box
-                        key={index}
-                        sx={{ borderLeft: 2, borderColor: "divider", pl: 2 }}
-                      >
-                        <Typography variant="caption" color="text.secondary">
-                          {label(row.status)}
-                        </Typography>
-                        <ResearchText text={row.text} />
-                        {row.source_ids.length > 0 &&
-                          sourceButton(
-                            `${candidate.name}: policy evidence`,
-                            row.source_ids,
-                            row.text,
-                          )}
-                      </Box>
-                    );
-                  })}
-                </Stack>
-                {position.uncertainty &&
-                  !position.uncertainty.startsWith(
-                    "This is not a complete 2028 platform",
-                  ) && (
-                    <Typography
-                      variant="caption"
-                      color="text.secondary"
-                      sx={{ display: "block", mt: 1 }}
-                    >
-                      {position.uncertainty}
-                    </Typography>
-                  )}
-              </Box>
-            ))}
-          </Stack>
-        </Section>
+        <CandidatePositions candidate={candidate} sourceButton={sourceButton} />
       )}
       {section === "strengths" && (
         <Section title="Strengths and weaknesses">

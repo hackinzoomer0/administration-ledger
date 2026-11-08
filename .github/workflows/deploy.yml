@@ -18,11 +18,17 @@ jobs:
         with:
           node-version: 24
           cache: npm
+      - run: python3 scripts/privacy.py --require-config
+        env:
+          LEDGER_PRIVATE_IDENTIFIERS: ${{ secrets.LEDGER_PRIVATE_IDENTIFIERS }}
       - run: npm ci
       - run: npm run check
       - run: npm run database:validate
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
+      - run: python3 scripts/privacy.py --require-config --dist dist
+        env:
+          LEDGER_PRIVATE_IDENTIFIERS: ${{ secrets.LEDGER_PRIVATE_IDENTIFIERS }}
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
         with:

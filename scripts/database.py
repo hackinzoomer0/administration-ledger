@@ -42,9 +42,16 @@ def atomic_json(path, value):
     with tempfile.NamedTemporaryFile(dir=path.parent, mode='w', delete=False) as stream:
         json.dump(value, stream, ensure_ascii=False, indent=2)
         stream.write('\n')
+        stream.flush()
+        os.fsync(stream.fileno())
         temporary = stream.name
     os.chmod(temporary, 0o644)
     os.replace(temporary, path)
+    directory = os.open(path.parent, os.O_RDONLY)
+    try:
+        os.fsync(directory)
+    finally:
+        os.close(directory)
 
 
 def changes(before, after):
@@ -58,20 +65,12 @@ def changes(before, after):
     return result
 
 
-def apply(before, after, root=ROOT):
-    if fingerprint(load(root)) != fingerprint(before):
-        raise RuntimeError('Database or prompts changed during review; reconcile before applying.')
-    if before['collections']['prompts'] != after['collections']['prompts']:
-        raise ValueError('Scheduled reviews cannot edit prompts.')
-    for change in changes(before, after):
-        path = Path(root) / 'database' / change['collection'] / f"{change['id']}.json"
-        if change['after'] is None:
-            path.unlink(missing_ok=True)
-        else:
-            atomic_json(path, change['after'])
+def apply(before, after, root=ROOT, publication=None):
+    from application import apply_transaction
+    return apply_transaction(before, after, root, publication=publication)
 
 
-def validate(ledger):
+def validate(ledger, *, check_events=True):
     collections = ledger['collections']
     required = {'events', 'factions', 'issues', 'nominations', 'people', 'donors', 'runs', 'prompts', 'assessments'}
     if not required <= collections.keys():
@@ -88,18 +87,42 @@ def validate(ledger):
             seen.add(event['id'])
             if not set(event['issues']) <= collections['issues'].keys():
                 raise ValueError(f"Unknown issue: {event['id']}")
+    if check_events:
+        from validate_events import validate as validate_events
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        errors, _ = validate_events(collections, datetime.now(ZoneInfo('America/Chicago')).date().isoformat())
+        if errors:
+            raise ValueError('Event/profile validation failed: ' + '; '.join(errors[:10]))
     from validate_nominees import validate as validate_nominees
     validate_nominees(ledger, ledger, 'Integrity')
     from validate_assessments import validate as validate_assessments
     validate_assessments(ledger)
+    legacy_runs = set(json.loads((ROOT / 'scripts/legacy_review_runs.json').read_text()))
+    for key, scheduled in collections['runs'].items():
+        if scheduled.get('type') in {'daily_review', 'weekly_review'} and key not in legacy_runs and scheduled.get('research_review', {}).get('standard') != 'question_review_v1':
+            raise ValueError('New scheduled runs require question_review_v1')
+    run = collections['runs'][collections['assessments']['current']['review']['run_id']]
+    if 'research_review' in run:
+        from research_review import validate as validate_research
+        kind = 'Weekly' if run.get('type') == 'weekly_review' else 'Integrity'
+        validate_research(ledger, ledger, kind, run['research_review'].get('source_receipts', []))
     return {'collections': len(collections), 'events': len(seen), 'nominees': len(collections['nominations']['republican_2028']['candidates'])}
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['validate', 'export'])
+    parser.add_argument('command', choices=['validate', 'export', 'recover'])
     parser.add_argument('destination', nargs='?')
     args = parser.parse_args()
+    if args.command == 'recover':
+        import fcntl
+        from application import apply_transaction
+        with (ROOT / '.runtime/review.lock').open('a') as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            apply_transaction(None, None, ROOT, resume=True, require_publication=True)
+        print('Application reconciled and fingerprint verified.')
+        return
     ledger = load()
     if args.command == 'validate':
         print(json.dumps(validate(ledger)))

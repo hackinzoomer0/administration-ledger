@@ -1,0 +1,41 @@
+{
+  "standard": "question_review_v1",
+  "purpose": "Initial discovery priorities, not new political findings or completed research. Replace or close through actual review.",
+  "priorities": [
+    {
+      "id": "decision-authority",
+      "question": "Which institution or actor can block the next consequential decision, and are current authority summaries consistent?",
+      "importance": "Distinguish formal authority, resources, implementation and informal leverage.",
+      "status": "deferred",
+      "next_action": "Prioritize and investigate in the next scheduled intake."
+    },
+    {
+      "id": "support-conversion",
+      "question": "Which current or recruitable voter, donor, media and organizer groups can materially change candidate competitiveness?",
+      "importance": "Distinguish actual commitments from attention, historical ties and inferred potential.",
+      "status": "deferred",
+      "next_action": "Prioritize and investigate in the next scheduled intake."
+    },
+    {
+      "id": "policy-implementation",
+      "question": "Which announced policy has an uncertain implementation or counterparty response that could change the power assessment?",
+      "importance": "Follow the weakest consequential link and recover the relevant order, instruction, allocation or response.",
+      "status": "deferred",
+      "next_action": "Prioritize and investigate in the next scheduled intake."
+    },
+    {
+      "id": "competing-causes",
+      "question": "Which influential pattern or explanation would survive its strongest plausible competing cause?",
+      "importance": "Audit tests for discrimination and weigh surviving explanations; do not invent false balance.",
+      "status": "deferred",
+      "next_action": "Prioritize and investigate in the next scheduled intake."
+    },
+    {
+      "id": "neglected-mechanism",
+      "question": "Which consequential decision or coalition is missing from the current issue/faction frame?",
+      "importance": "Resolve unmatched leads and inspect an institution or constituency from the outcome inward.",
+      "status": "deferred",
+      "next_action": "Prioritize and investigate in the next scheduled intake."
+    }
+  ]
+}

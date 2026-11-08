@@ -9,5 +9,6 @@
   "SUC": "Trump hasn't picked a 2028 successor. Vice President Vance leads, but his lead has narrowed.",
   "TAR": "Tariffs stay high on most imports; the Canada tariff list was reshaped before the election (some goods off, more on), and Mexico relief is still being negotiated.",
   "VEN": "The U.S. keeps Rodríguez in place and excludes Machado; elections only after court and electoral-council overhauls, best case June 2027; oil money goes to a Treasury-controlled account.",
-  "asof": "2026-11-03"
+  "asof": "2026-11-03",
+  "usage": "Historical analytical snapshot. Current decision authority, policy and issue-specific actor goals are maintained in assessments/current and assessments/issues; reconcile dated evidence before reuse."
 }

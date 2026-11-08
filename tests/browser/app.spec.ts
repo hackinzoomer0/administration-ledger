@@ -565,3 +565,24 @@ test("nomination explanations describe politics rather than numerical repair ins
   await page.goto("./#/nominees");
   await expect(page.locator("main")).not.toContainText(audit);
 });
+
+test("review archive loads after navigation and retains historical forecast access", async ({
+  page,
+}) => {
+  const archiveRequests: string[] = [];
+  page.on("request", (request) => {
+    if (request.url().includes("/database/runs/"))
+      archiveRequests.push(request.url());
+  });
+  await page.goto("#/");
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+  expect(archiveRequests).toHaveLength(0);
+  await page.goto("#/research");
+  await expect(page.getByText("Review archive", { exact: true })).toBeVisible();
+  await expect.poll(() => archiveRequests.length).toBeGreaterThan(0);
+  await page.goto("#/research?section=methods");
+  await page.getByText("Historical forecast records", { exact: true }).click();
+  await expect(
+    page.getByText("Forecast rationale", { exact: true }).first(),
+  ).toBeVisible();
+});

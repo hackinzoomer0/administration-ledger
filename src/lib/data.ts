@@ -1,3 +1,4 @@
+import nomination from "virtual:ledger-nomination";
 import type {
   CurrentAssessment,
   IssueAssessment,
@@ -5,17 +6,25 @@ import type {
   EventRecord,
   Faction,
   Issue,
-  Json,
   LedgerData,
-  Nomination,
   Person,
 } from "./types";
 
 // Vite resolves the database at build time; components never parse HTML or mutate research.
-const documents = import.meta.glob("../../database/*/*.json", {
-  eager: true,
-  import: "default",
-});
+const documents = import.meta.glob(
+  [
+    "../../database/assessments/*.json",
+    "../../database/events/*.json",
+    "../../database/issues/*.json",
+    "../../database/factions/*.json",
+    "../../database/people/*.json",
+    "../../database/donors/*.json",
+  ],
+  {
+    eager: true,
+    import: "default",
+  },
+);
 export function collection<T>(name: string): Record<string, T> {
   return Object.fromEntries(
     Object.entries(documents)
@@ -40,10 +49,7 @@ export const data: LedgerData = {
   factions: Object.values(collection<Faction>("factions")),
   people: collection<{ list: Person[] }>("people").all.list,
   donors: collection<{ list: Donor[] }>("donors").all.list,
-  nomination: collection<Nomination>("nominations").republican_2028,
-  meta: collection<Json>("meta"),
-  report: collection<Json>("report"),
-  runs: collection<Json>("runs"),
+  nomination,
 };
 export const issueNames = Object.fromEntries(
   data.issues.map((issue) => [issue.code, issue.name]),

@@ -43,6 +43,8 @@ class ForecastGuard(unittest.TestCase):
             'new_scenarios': {}, 'new_predictions': {}
         }
         game = self.entry['wargame']
+        for row in list(game['judgments'].values()) + list(game['candidate_debates'].values()):
+            row['countercase_weight'] = 'limited'
         names = [row['id'] for row in self.forecast['candidates']]
         source = self.forecast['sources'][0]['id']
         game['appeal_review'] = {
@@ -173,6 +175,8 @@ class ForecastGuard(unittest.TestCase):
         source = self.forecast['sources'][0]['id']
         from wargame import forecast
         game = self.entry['wargame']
+        for row in list(game['judgments'].values()) + list(game['candidate_debates'].values()):
+            row['countercase_weight'] = 'limited'
         game['scenarios'][1]['shares_pct']['jd_vance'] += 5
         game['scenarios'][1]['shares_pct']['marco_rubio'] -= 5
         computed = forecast(game, [row['id'] for row in self.forecast['candidates']])
@@ -230,6 +234,11 @@ class ForecastGuard(unittest.TestCase):
         prediction['resolution']='Fixture awaits its outcome.'
         self.entry['date'] = self.forecast['as_of_date'] = (date.fromisoformat(prediction['resolve_by']) + timedelta(days=1)).isoformat()
         with self.assertRaisesRegex(ValueError, 'Passed prediction'):
+            self.check()
+
+    def test_weekly_countercase_needs_explicit_weight(self):
+        self.entry['wargame']['judgments']['responsibility'].pop('countercase_weight')
+        with self.assertRaisesRegex(ValueError, 'plausibility weights'):
             self.check()
 
     def test_weekly_hold_requires_snapshot(self):

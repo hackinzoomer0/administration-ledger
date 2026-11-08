@@ -238,9 +238,6 @@ export interface LedgerData {
   people: Person[];
   donors: Donor[];
   nomination: Nomination;
-  meta: Record<string, Json>;
-  report: Record<string, Json>;
-  runs: Record<string, Json>;
 }
 
 export interface EvidenceRef {
@@ -358,4 +355,33 @@ export interface IssueAssessment {
     actors: string[];
     observations: string[];
   }[];
+}
+
+export interface CandidateBase {
+  classification: string;
+  likely_constituencies: string[];
+  constraints: string[];
+  documented_organizational_relationships: {
+    text: string;
+    source_ids: string[];
+  }[];
+}
+export interface CandidateBacker {
+  name: string;
+  relationship: string;
+  period: string;
+  confirmed_2028_commitment: boolean;
+  source_ids: string[];
+}
+export interface CandidateHistory {
+  period: string;
+  event: string;
+  source_ids: string[];
+}
+export interface CandidateExposure {
+  title: string;
+  status: string;
+  details: string;
+  political_implication: string;
+  source_ids: string[];
 }

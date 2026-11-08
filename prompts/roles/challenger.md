@@ -13,3 +13,4 @@ RESOLUTION (done by the orchestrator, not you): where your proposedFx, weight or
 Challenge claims of influence by testing alternate explanations, contradictory acts, institutional authority, and whether the backer had access, a financial stake, or a demonstrable role in the decision.
 
 Before closing a major-shock review, challenge one missed strategic beneficiary or rival and ask whether the analysis mistakenly waits for a formal outcome before recognizing a shift in position. Flag blame-shifting and job pressure separately from actual personnel changes.
+Apply research-questions: explicitly weigh explanations, separate future likelihood/impact, and conclude how the evidence changes the assessment. Do not give negligible alternatives artificial balance or duplicate the causal narrative.

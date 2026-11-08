@@ -79,8 +79,15 @@ export function substantiveSnapshots<T extends { type?: string }>(
   );
 }
 
+const gameCache = new WeakMap<
+  import("./types").Snapshot[],
+  { game: import("./types").Wargame; reviewedAt: string; snapshotId: string }
+>();
+
 /** Daily monitoring updates outcomes without claiming a fresh full forecast. */
 export function latestWargame(history: import("./types").Snapshot[]) {
+  const cached = gameCache.get(history);
+  if (cached) return cached;
   let result:
     | {
         game: import("./types").Wargame;
@@ -102,6 +109,7 @@ export function latestWargame(history: import("./types").Snapshot[]) {
       }
     }
   }
+  if (result) gameCache.set(history, result);
   return result;
 }
 

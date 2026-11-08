@@ -102,3 +102,26 @@ it("keeps the full review date while applying a compact daily test update", () =
   expect(result.game.predictions[0].status).toBe("unresolved");
   expect(test.status).toBe(originalStatus);
 });
+
+describe("current nomination projection", () => {
+  it("preserves every historical probability while loading old full games only in the archive", async () => {
+    const { currentNomination } = await import("../scripts/public-data");
+    const { default: original } =
+      await import("../database/nominations/republican_2028.json");
+    const { latestWargame } = await import("../src/lib/selectors");
+    const input = original as unknown as import("../src/lib/types").Nomination;
+    const projected = currentNomination(input);
+    expect(
+      projected.tracking.history.map((row) => row.probabilities_pct),
+    ).toEqual(input.tracking.history.map((row) => row.probabilities_pct));
+    expect(
+      projected.tracking.history.filter((row) => row.wargame),
+    ).toHaveLength(1);
+    expect(latestWargame(projected.tracking.history)).toEqual(
+      latestWargame(input.tracking.history),
+    );
+    expect(
+      input.tracking.history.filter((row) => row.wargame).length,
+    ).toBeGreaterThan(1);
+  });
+});

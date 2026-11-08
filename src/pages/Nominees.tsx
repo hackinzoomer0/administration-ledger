@@ -40,7 +40,7 @@ export default function Nominees() {
     return (
       <CandidateProfile key={candidate.id} candidate={candidate} read={read} />
     );
-  const fullReview = latestWargame(history);
+  const fullReview = latestWargame(forecast.tracking.history);
   const dates = new Set(history.map((row) => row.date));
   return (
     <Stack spacing={3}>

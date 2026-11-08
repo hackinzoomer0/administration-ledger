@@ -11,14 +11,14 @@ from pathlib import Path
 from urllib.request import urlopen
 
 from database import atomic_json, changes, load
-from privacy import screen
+from privacy import assert_public, identifiers, scan
 
 REPO = 'hackinzoomer0/administration-ledger'
 LIVE = 'https://hackinzoomer0.github.io/administration-ledger/'
 
 
 def public_value(value):
-    return json.loads(screen(json.dumps(value, ensure_ascii=False)))
+    return json.loads(assert_public(json.dumps(value, ensure_ascii=False)))
 
 
 def database_hash(root):
@@ -30,6 +30,7 @@ def database_hash(root):
 
 
 def publish(stage):
+    identifiers(required=True)
     stage = Path(stage)
     before = json.loads((stage / 'original.json').read_text())
     after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
@@ -51,6 +52,9 @@ def publish(stage):
             else:
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_text(json.dumps(public_value(edit['after']), ensure_ascii=False, indent=2) + '\n')
+        if load(directory) != {'collections': {key: public_value(value) for key, value in after['collections'].items()}}:
+            raise RuntimeError('Remote/local state differs outside changed documents; sync the checkout before publication')
+        scan(Path(directory), require_config=True)
         git('add', 'database')
         if git('diff', '--cached', '--name-only'):
             git('diff', '--cached', '--check')

@@ -1,24 +1,22 @@
 {
   "analysis-rules": {
-    "asof": "2026-11-07",
+    "asof": "2026-11-08",
     "role": "analysis-rules"
   },
   "analyst": {
-    "asof": "2026-11-07",
-    "model": "opus",
+    "asof": "2026-11-08",
     "role": "analyst"
   },
   "auditor-monday": {
-    "asof": "2026-11-07",
+    "asof": "2026-11-08",
     "role": "auditor-monday"
   },
   "challenger": {
-    "asof": "2026-11-03",
-    "model": "opus",
+    "asof": "2026-11-08",
     "role": "challenger"
   },
   "core": {
-    "asof": "2026-11-01",
+    "asof": "2026-11-08",
     "role": "core"
   },
   "db-shape": {
@@ -27,7 +25,6 @@
   },
   "enrich": {
     "asof": "2026-11-07",
-    "model": "sonnet",
     "role": "enrich"
   },
   "final-message": {
@@ -61,11 +58,10 @@
   },
   "recall": {
     "asof": "2026-11-07",
-    "model": "sonnet",
     "role": "recall"
   },
   "slicer": {
-    "asof": "2026-11-01",
+    "asof": "2026-11-08",
     "role": "slicer"
   },
   "sources": {
@@ -428,16 +424,15 @@
     }
   },
   "validator": {
-    "asof": "2026-11-07",
+    "asof": "2026-11-08",
     "role": "validator"
   },
   "watch": {
     "asof": "2026-10-30",
-    "model": "sonnet",
     "role": "watch"
   },
   "collector": {
-    "asof": "2026-11-01",
+    "asof": "2026-11-08",
     "role": "collector"
   },
   "nominee-review": {
@@ -463,5 +458,9 @@
   "support-base-research": {
     "asof": "2026-11-08",
     "role": "support-base-research"
+  },
+  "research-questions": {
+    "asof": "2026-11-08",
+    "role": "research-questions"
   }
 }

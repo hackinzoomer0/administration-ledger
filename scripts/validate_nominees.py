@@ -125,6 +125,8 @@ def validate(before, after, section):
                 validate_projection_review(game, names, sources, events)
                 validate_appeal_review(game, names, sources, events)
                 validate_support_bases(game, names, sources, events, previous_game)
+                from wargame_reviews import validate_explanation_weights
+                validate_explanation_weights(game)
             previous_game = game
             if forecast(game, names) != entry['probabilities_pct']:
                 raise ValueError('Nominee estimates must reproduce the scenario mixture')

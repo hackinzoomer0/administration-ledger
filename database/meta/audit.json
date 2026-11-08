@@ -100,33 +100,68 @@
         "ai-2026-10-31-data-center-backlash",
         "fed-2026-10-28-doe-constellation"
       ],
-      "missingBelief": "No stored belief about who decides power supply and siting for AI data centers (states, utilities, DOE loans)."
+      "missingBelief": "No stored belief about who decides power supply and siting for AI data centers (states, utilities, DOE loans).",
+      "research_disposition": {
+        "status": "deferred",
+        "reason": "Known missing decision mechanism; verify and incorporate through prioritized discovery rather than assume an answer.",
+        "next_action": "Investigate authority, counterparties and implementation using dated decision-specific sources.",
+        "review_trigger": "Next weekly discovery-priority selection",
+        "question_id": "unmatched-mechanism-1"
+      }
     },
     {
       "events": [
         "rus-2026-10-30-g20-lavrov",
         "rus-2026-10-30-greece-black-sea"
       ],
-      "missingBelief": "No belief about US standing with European partners on Russia; Europeans are acting apart from Washington (G20 photo, Black Sea truce call)."
+      "missingBelief": "No belief about US standing with European partners on Russia; Europeans are acting apart from Washington (G20 photo, Black Sea truce call).",
+      "research_disposition": {
+        "status": "deferred",
+        "reason": "Known missing decision mechanism; verify and incorporate through prioritized discovery rather than assume an answer.",
+        "next_action": "Investigate authority, counterparties and implementation using dated decision-specific sources.",
+        "review_trigger": "Next weekly discovery-priority selection",
+        "question_id": "unmatched-mechanism-2"
+      }
     },
     {
       "events": [
         "imm-2026-10-26-cdc-congo-travel"
       ],
-      "missingBelief": "No belief about public-health entry bars as a border tool."
+      "missingBelief": "No belief about public-health entry bars as a border tool.",
+      "research_disposition": {
+        "status": "deferred",
+        "reason": "Known missing decision mechanism; verify and incorporate through prioritized discovery rather than assume an answer.",
+        "next_action": "Investigate authority, counterparties and implementation using dated decision-specific sources.",
+        "review_trigger": "Next weekly discovery-priority selection",
+        "question_id": "unmatched-mechanism-3"
+      }
     },
     {
       "events": [
         "tar-2026-10-28-dfc-205b",
         "fed-2026-10-30-doe-eastman-award"
       ],
-      "missingBelief": "No belief about state equity and loan stakes in minerals and energy as industrial policy; no faction tagged."
+      "missingBelief": "No belief about state equity and loan stakes in minerals and energy as industrial policy; no faction tagged.",
+      "research_disposition": {
+        "status": "deferred",
+        "reason": "Known missing decision mechanism; verify and incorporate through prioritized discovery rather than assume an answer.",
+        "next_action": "Investigate authority, counterparties and implementation using dated decision-specific sources.",
+        "review_trigger": "Next weekly discovery-priority selection",
+        "question_id": "unmatched-mechanism-4"
+      }
     },
     {
       "events": [
         "imm-2026-10-29-cameroon-deportation-aid"
       ],
-      "missingBelief": "No belief about who in State trades aid for deportation deals."
+      "missingBelief": "No belief about who in State trades aid for deportation deals.",
+      "research_disposition": {
+        "status": "deferred",
+        "reason": "Known missing decision mechanism; verify and incorporate through prioritized discovery rather than assume an answer.",
+        "next_action": "Investigate authority, counterparties and implementation using dated decision-specific sources.",
+        "review_trigger": "Next weekly discovery-priority selection",
+        "question_id": "unmatched-mechanism-5"
+      }
     }
   ],
   "unmodeled": [

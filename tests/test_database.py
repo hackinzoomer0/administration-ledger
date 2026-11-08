@@ -95,6 +95,9 @@ class DatabaseWorkflow(unittest.TestCase):
                 'summary_changed': False, 'summary_reason': 'Fixture hold after reassessment.',
                 'issue_coverage': {code: {'status': 'reviewed', 'reason': 'Fixture coverage.'} for code in ledger['collections']['issues']}
             }
+            from test_remediation import research_fixture
+            ledger['collections']['runs']['workflow-fixture']['date'] = snapshot['date']
+            ledger['collections']['runs']['workflow-fixture']['research_review'] = research_fixture(json.loads((stage/'original.json').read_text()), ledger, 'workflow-fixture')
             file.write_text(json.dumps(ledger))
             with patch('review_workflow.publish', return_value={'status': 'verified', 'commit': 'fixture'}) as publish, patch('review_workflow.apply') as apply_data:
                 with self.assertRaisesRegex(ValueError, 'reader-copy second pass'):
@@ -107,6 +110,10 @@ class DatabaseWorkflow(unittest.TestCase):
                     'documents':{key:{'fingerprint':row['fingerprint'],'reader_takeaway':'Fixture explains the political state.',
                                        'context_check':'Names and decisions identified.','uncertainty_check':'Carried evidence is labeled.',
                                        'changes_made':[]} for key,row in copy_plan(original,ledger).items()}}
+                file.write_text(json.dumps(ledger))
+                from test_remediation import research_fixture
+                ledger['collections']['runs']['workflow-fixture']['date'] = snapshot['date']
+                ledger['collections']['runs']['workflow-fixture']['research_review'] = research_fixture(original, ledger, 'workflow-fixture')
                 file.write_text(json.dumps(ledger))
                 finish(stage, 'Daily')
                 publish.assert_called_once()
