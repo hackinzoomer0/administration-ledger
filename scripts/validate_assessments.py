@@ -1,8 +1,13 @@
 """Integrity rules for the maintained, evidence-linked product assessment."""
 from datetime import date
+import re
 
 SUBSTANTIVE = {'daily_review', 'weekly_review', 'faction_consistency_review'}
 STATUSES = {'pending', 'contested', 'strengthening', 'weakening', 'unchanged', 'not_reviewed'}
+AUDIT_COPY = re.compile(
+    r'\b(?:projection_review|comparison_review|scenario_range_pct|numerical_alternative)\b'
+    r'|\binherited\b[^.!?\n]{0,24}\b(?:ceiling|floor)\b'
+    r'|\bautomatic national floor\b|\brecovery/backlash shares\b|\bsystemic insulation\b', re.I)
 
 
 def validate(ledger):
@@ -31,6 +36,8 @@ def validate(ledger):
         for key in ['path', 'coalition', 'advantage', 'vulnerability', 'positions', 'money']:
             if not row[key].strip():
                 raise ValueError(f'Missing candidate assessment field: {key}')
+            if AUDIT_COPY.search(row[key]):
+                raise ValueError(f'Candidate {key} must explain real-world prospects, not model-audit instructions')
         if row.get('person_id') and row['person_id'] not in people:
             raise ValueError('Unresolved candidate/person link')
     contests = current['administration']['contests']

@@ -136,13 +136,15 @@ export function CandidateProfile({
             {candidate.nomination_likelihood_pct.toFixed(2)}%
           </Typography>
         </Stack>
-        <Typography
-          variant="body2"
-          color="text.secondary"
-          sx={{ mt: 1, maxWidth: "75ch" }}
-        >
-          {read.path}
-        </Typography>
+        {section !== "assessment" && (
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ mt: 1, maxWidth: "75ch" }}
+          >
+            {read.path}
+          </Typography>
+        )}
         <Typography variant="caption" color="text.secondary">
           Subjective share among the {data.nomination.candidates.length} tracked
           candidates · research {read.reviewed_at} ·{" "}
@@ -162,10 +164,7 @@ export function CandidateProfile({
       {section === "assessment" && (
         <>
           <Section title="The nomination case">
-            <ReadingBlock
-              title="Why this estimate"
-              text={candidate.forecast_rationale}
-            />
+            <ReadingBlock title="Why this estimate" text={read.path} />
             <Box
               sx={{
                 display: "grid",

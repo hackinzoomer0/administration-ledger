@@ -23,6 +23,19 @@ class AssessmentIntegrity(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'evidence reference'):
             validate(self.after)
 
+    def test_candidate_summary_rejects_model_audit_leakage(self):
+        row=self.current['nomination']['candidates'][0]
+        for text in ['Remove the inherited 1–3 ceiling.', 'Reduce the automatic national floor.',
+                     'See comparison_review for the numerical_alternative.']:
+            with self.subTest(text=text):
+                row['path']=text
+                with self.assertRaisesRegex(ValueError,'real-world prospects'):
+                    validate(self.after)
+
+    def test_real_policy_language_is_not_confused_with_forecast_audits(self):
+        self.current['nomination']['candidates'][0]['path']='The candidate could support a price ceiling and seek a floor vote on the bill.'
+        validate(self.after)
+
     def test_daily_review_cannot_skip_the_product_assessment(self):
         with self.assertRaisesRegex(ValueError, 'explicitly reassess'):
             validate_review(self.before, self.after, 'Daily')

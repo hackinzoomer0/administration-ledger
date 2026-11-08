@@ -382,7 +382,7 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
     ).toBeVisible();
   await page
     .getByRole("button", {
-      name: "What could change these odds",
+      name: "How the forecast is calculated",
       exact: true,
     })
     .click();
@@ -407,7 +407,7 @@ test("candidate wargame presents a rebuttal and likely moves on mobile", async (
     }),
   ).toBeVisible();
   await expect(
-    page.getByText("The strongest argument against these odds", {
+    page.getByText("What could upset this assessment", {
       exact: true,
     }),
   ).toBeVisible();
@@ -517,4 +517,44 @@ test("candidate basis leads with the forecast and explains the causal scenario o
   await expect(
     page.getByRole("dialog").getByText("Wargame result", { exact: true }),
   ).toBeVisible();
+});
+
+test("nomination explanations describe politics rather than numerical repair instructions", async ({
+  page,
+}) => {
+  const audit =
+    /inherited.{0,30}(ceiling|floor)|automatic national floor|projection_review|comparison_review|numerical_alternative|recovery\/backlash shares|systemic insulation/i;
+  for (const candidate of nomination.candidates) {
+    await page.goto(`./#/nominees/${candidate.id}`);
+    const read = assessment.nomination.candidates.find(
+      (row: { candidate_id: string }) => row.candidate_id === candidate.id,
+    );
+    await expect(
+      page.locator("main").getByText(read.path, { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator("main")).not.toContainText(audit);
+    await page.getByRole("tab", { name: "Wargame", exact: true }).click();
+    await expect(page.locator("main")).not.toContainText(audit);
+  }
+  await page.goto("./#/nominees/john_mcentee");
+  await page
+    .getByRole("button", { name: "Inspect the basis", exact: true })
+    .click();
+  const drawer = page.getByRole("dialog");
+  await drawer
+    .getByRole("button", { name: "Why this estimate changed", exact: true })
+    .click();
+  await expect(drawer).not.toContainText(audit);
+  for (const scenario of fullReview.wargame.scenarios.filter(
+    (row: { weight_pct: number }) => row.weight_pct > 0,
+  )) {
+    await drawer
+      .getByRole("button")
+      .filter({ hasText: scenarioTitle(scenario) })
+      .click();
+    await expect(drawer).not.toContainText(audit);
+  }
+  await drawer.getByRole("button", { name: "Close evidence" }).click();
+  await page.goto("./#/nominees");
+  await expect(page.locator("main")).not.toContainText(audit);
 });

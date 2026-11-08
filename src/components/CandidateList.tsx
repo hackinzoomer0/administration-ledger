@@ -105,7 +105,7 @@ export function CandidateList({ compact = false }: { compact?: boolean }) {
                     evidence({
                       title: `${candidate.name}: nomination assessment`,
                       candidateId: candidate.id,
-                      summary: candidate.forecast_rationale,
+                      summary: read.path,
                       event_ids: read.event_ids,
                       showIssuePlayers: false,
                       source_ids: read.source_ids,

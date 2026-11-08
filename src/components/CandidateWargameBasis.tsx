@@ -28,11 +28,6 @@ export function CandidateWargameBasis({
   if (!candidate || !full) return null;
   const { game, reviewedAt, snapshotId } = full;
   const debate = game.candidate_debates[candidateId];
-  const alternative =
-    game.comparison_review?.candidates[candidateId]?.numerical_alternative;
-  const alternativeScenario = game.scenarios.find(
-    (row) => row.id === alternative?.scenario_id,
-  );
   const assessment = data.assessment.nomination.candidates.find(
     (row) => row.candidate_id === candidateId,
   );
@@ -128,23 +123,17 @@ export function CandidateWargameBasis({
               text={game.projection_review?.current_landscape.assessment}
             />
             <ReadingBlock
-              title="Why we chose these odds"
-              text={debate.verdict}
+              title="What supports the estimate"
+              text={assessment?.path}
             />
             <ReadingBlock
-              title="The strongest argument against these odds"
-              text={debate.rebuttal}
+              title="What could upset this assessment"
+              text={candidate.strongest_counterargument}
             />
             <ReadingBlock
               title="Running and building a campaign"
               text={debate.entry_assessment}
             />
-            {alternative && alternativeScenario && (
-              <ReadingBlock
-                title="What a different assumption would do"
-                text={`A different assumption in “${scenarioCopy(alternativeScenario, snapshotId, data.assessment.nomination.scenario_labels).title}” produces ${alternative.probabilities_pct[candidateId].toFixed(2)}% overall, compared with the selected ${snapshot.probabilities_pct[candidateId].toFixed(2)}%. ${alternative.adjudication}`}
-              />
-            )}
           </Stack>
         </AccordionDetails>
       </Accordion>
@@ -213,17 +202,6 @@ export function CandidateWargameBasis({
                         <ReadingBlock
                           title="What could build or stall momentum"
                           text={path.feedback}
-                        />
-                        <ReadingBlock
-                          title="Why we assign this chance"
-                          text={path.share_justification}
-                        />
-                        <ReadingBlock
-                          title="Why this plan could fail"
-                          text={path.countercase.replace(
-                            /\s*See comparison_review numerical_alternative[^.]*\.?/g,
-                            "",
-                          )}
                         />
                       </>
                     ) : (

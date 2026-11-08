@@ -58,12 +58,21 @@ export function ForecastWargame({
   );
   if (candidateId) {
     const debate = game.candidate_debates[candidateId];
+    const candidate = data.nomination.candidates.find(
+      (row) => row.id === candidateId,
+    )!;
+    const assessment = data.assessment.nomination.candidates.find(
+      (row) => row.candidate_id === candidateId,
+    )!;
     return (
       <Section
         title="How this candidate could win or lose"
-        description={`Full wargame reviewed ${reviewedAt}. ${game.debate_mode}`}
+        description={`Full wargame reviewed ${reviewedAt}. These paths describe projected political outcomes.`}
       >
-        <ReadingBlock title="Why we chose these odds" text={debate.verdict} />
+        <ReadingBlock
+          title="What supports the estimate"
+          text={assessment.path}
+        />
         <Box
           sx={{
             display: "grid",
@@ -81,8 +90,8 @@ export function ForecastWargame({
           />
         </Box>
         <ReadingBlock
-          title="The strongest argument against these odds"
-          text={debate.rebuttal}
+          title="What could upset this assessment"
+          text={candidate.strongest_counterargument}
         />
         <ReadingBlock
           title="What the candidate is likely to do next"
@@ -122,7 +131,6 @@ export function ForecastWargame({
             </Typography>
             <ReadingBlock title="Judgment" text={row.finding} />
             <ReadingBlock title="Countercase" text={row.countercase} />
-            <ReadingBlock title="Resolution" text={row.resolution} />
             {basis("Wargame: " + label(key), row)}
           </Box>
         ))}
@@ -141,7 +149,6 @@ export function ForecastWargame({
                 title="Why we think this scenario is this likely"
                 text={s.weight_reason}
               />
-              <ReadingBlock title="How this could unfold" text={s.sequence} />
               <Typography variant="subtitle2">
                 Each candidate’s chance of winning in this scenario
               </Typography>
@@ -153,9 +160,20 @@ export function ForecastWargame({
                       <Typography variant="subtitle2">
                         {c.name} · {s.shares_pct[c.id]}%
                       </Typography>
-                      <Typography variant="body2">
-                        {s.candidate_reasoning[c.id]}
-                      </Typography>
+                      <ReadingBlock
+                        title="How voters could react"
+                        text={
+                          game.projection_review?.scenarios[s.id]
+                            ?.candidate_paths[c.id]?.voter_response
+                        }
+                      />
+                      <ReadingBlock
+                        title="How support could become a campaign"
+                        text={
+                          game.projection_review?.scenarios[s.id]
+                            ?.candidate_paths[c.id]?.organization_coalition
+                        }
+                      />
                     </Box>
                   ))}
               </Stack>
@@ -168,15 +186,7 @@ export function ForecastWargame({
           );
         })}
       </Stack>
-      <Panel title="What could change these odds">
-        <ReadingBlock
-          title="How these scenarios differ"
-          text={game.partition_rule}
-        />
-        <ReadingBlock
-          title="How much confidence to place in the numbers"
-          text={game.weighting_note}
-        />
+      <Panel title="How the forecast is calculated">
         <ReadingBlock
           title="Candidates we don’t track"
           text={game.field_risk}
