@@ -44,10 +44,19 @@ def record(stage, row):
     rows = [old for old in receipts(stage) if old['id'] != row['id']] + [row]
     atomic_json(Path(stage) / 'intake-receipts.json', rows)
     # A bounded receipt/excerpt cache, not an independent claim verification service.
-    cache = ROOT / '.runtime' / 'intake-cache'
+    cache = Path(stage) / 'intake-cache'
     atomic_json(cache / f"{row['id']}.json", row)
     (cache / f"{row['id']}.json").chmod(0o600)
     return row['id']
+
+
+def harvest(stage):
+    """Outer runner owns the durable cache; isolated researchers write only in their stage."""
+    cache = ROOT / '.runtime' / 'intake-cache'
+    for row in receipts(stage):
+        path = cache / f"{receipt_key(row['kind'], row['value'], row['window'])}.json"
+        atomic_json(path, row)
+        path.chmod(0o600)
 
 
 def main():
@@ -68,7 +77,10 @@ def main():
     if args.command == 'receipt':
         print(record(args.stage, json.loads(args.file.read_text()))); return
     if args.command == 'lookup':
-        path = ROOT / '.runtime/intake-cache' / f'{receipt_key(args.kind, args.value, args.window)}.json'
+        key = f'{receipt_key(args.kind, args.value, args.window)}.json'
+        path = args.stage / 'intake-cache' / key
+        if not path.exists():
+            path = ROOT / '.runtime/intake-cache' / key
         print(path.read_text() if path.exists() else '{}'); return
     ledger = json.loads((args.stage / 'ledger-owner-redacted.json').read_text())['collections']
     if args.command == 'slice':

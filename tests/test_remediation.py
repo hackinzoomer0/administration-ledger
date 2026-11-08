@@ -84,6 +84,11 @@ class AuditRegressions(unittest.TestCase):
             key = record(stage, row);record(stage, row)
             self.assertEqual(len(json.loads((stage/'intake-receipts.json').read_text())), 1)
             self.assertEqual(key, receipt_key('source', row['value'], 'week'))
+            self.assertTrue((stage/'intake-cache'/f'{key}.json').exists())
+            self.assertFalse((Path(directory)/'.runtime/intake-cache').exists())
+            from research_tools import harvest
+            harvest(stage)
+            self.assertTrue((Path(directory)/'.runtime/intake-cache'/f'{key}.json').exists())
 
     def test_plausibility_and_coverage_dates_cannot_be_omitted(self):
         before=load(); after=copy.deepcopy(before)

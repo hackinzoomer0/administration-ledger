@@ -3,6 +3,7 @@ import datetime
 from collections import Counter
 import json
 import shlex
+import shutil
 import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -21,6 +22,9 @@ def prepare(stage, section):
     from research_review import plan as research_plan
     atomic_json(stage / 'research-plan.json', research_plan(ledger))
     atomic_json(stage / 'intake-receipts.json', [])
+    cached = ROOT / '.runtime/intake-cache'
+    if cached.exists():
+        shutil.copytree(cached, stage / 'intake-cache', dirs_exist_ok=True)
     (stage / 'MEMORY.md').write_text((ROOT / 'MEMORY.md').read_text())
     prompt = (ROOT / 'prompts' / f'{section.lower()}.md').read_text()
     prefix = (ROOT / 'prompts/execution/stage.md').read_text()
@@ -76,6 +80,8 @@ def copy_plan(stage, section):
 
 
 def finish(stage, section):
+    from research_tools import harvest
+    harvest(stage)
     before = json.loads((stage / 'original.json').read_text())
     after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
     saved_publication = stage / 'publication.json'
