@@ -36,9 +36,11 @@ function Panel({
 export function ForecastWargame({
   game,
   candidateId,
+  reviewedAt,
 }: {
   game: Wargame;
   candidateId?: string;
+  reviewedAt: string;
 }) {
   const open = useEvidence();
   const basis = (
@@ -57,7 +59,7 @@ export function ForecastWargame({
     return (
       <Section
         title="The predictive case and its strongest challenge"
-        description={game.debate_mode}
+        description={`Full wargame reviewed ${reviewedAt}. ${game.debate_mode}`}
       >
         <ReadingBlock title="Adjudicated forecast" text={debate.verdict} />
         <Box
@@ -99,6 +101,10 @@ export function ForecastWargame({
       title="Paths that drive the forecast"
       description="Scenario weights and candidate shares are subjective judgments. Their weighted mixture produces the estimates; it is not a calibrated model or a poll."
     >
+      <Typography variant="caption" color="text.secondary">
+        Full wargame reviewed {reviewedAt} · weekly forecast, with daily outcome
+        monitoring
+      </Typography>
       <Typography variant="body2">{game.summary}</Typography>
       <Panel title="Election verdict, blame and likely reactions">
         {Object.entries(game.judgments).map(([key, row]) => (
@@ -189,10 +195,16 @@ export function ForecastWargame({
             <Typography variant="subtitle2">{p.claim}</Typography>
             <Typography variant="caption" color="text.secondary">
               Resolve by {p.resolve_by} · {label(p.status)}
+              {p.active === false ? " · Retired" : ""}
             </Typography>
             <ReadingBlock title="Expectation" text={p.likelihood} />
             <ReadingBlock title="Observable test" text={p.test} />
             <Typography variant="body2">{p.resolution}</Typography>
+            {p.retirement_reason && (
+              <Typography variant="body2">
+                Retirement reason: {p.retirement_reason}
+              </Typography>
+            )}
             {basis("Dated forecast test", p)}
           </Box>
         ))}

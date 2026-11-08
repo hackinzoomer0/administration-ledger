@@ -88,8 +88,63 @@ def validate_game(game, names, sources, events, as_of=None):
         evidence(row)
 
 
+
+
+def effective_game(history):
+    """Resolve the latest full game and apply small daily outcome updates, without copying it into every snapshot."""
+    import copy
+    game, full_id = None, None
+    for entry in history:
+        if isinstance(entry.get('wargame'), dict):
+            game, full_id = copy.deepcopy(entry['wargame']), entry['id']
+        elif 'wargame_ref' in entry:
+            if game is None or entry['wargame_ref'] != full_id:
+                raise ValueError('Daily monitoring must reference the latest full wargame')
+            tests = {row['id']: row for row in game['predictions']}
+            for update in entry.get('monitoring', {}).get('prediction_updates', []):
+                if update['id'] not in tests:
+                    raise ValueError('Unknown monitored prediction')
+                tests[update['id']].update(status=update['status'], resolution=update['resolution'], source_ids=update.get('source_ids', []), event_ids=update.get('event_ids', []))
+    if game is None:
+        raise ValueError('No full wargame available')
+    return game, full_id
+
+
+def validate_case_review(game, previous):
+    """Weekly review revisits which questions to ask, while preserving original predictions for audit."""
+    audit = game.get('case_review', {})
+    if not audit.get('summary', '').strip():
+        raise ValueError('Weekly wargame needs a review of scenarios and test cases')
+    for field, collection in [('scenarios', 'scenarios'), ('predictions', 'predictions')]:
+        old = {row['id']: row for row in previous[collection]}
+        new = {row['id']: row for row in game[collection]}
+        reviews = audit.get(field, {})
+        if set(reviews) != set(old):
+            raise ValueError('Case review must address every previous scenario and prediction')
+        additions = audit.get('new_' + field, {})
+        if set(additions) != set(new) - set(old) or not all(isinstance(reason, str) and reason.strip() for reason in additions.values()):
+            raise ValueError('New scenarios and predictions need explicit reasons')
+        for id, review in reviews.items():
+            decision = review.get('decision')
+            if decision not in {'retained', 'revised', 'retired', 'replaced'} or not review.get('reason', '').strip():
+                raise ValueError('Case review needs a disposition and reason')
+            replacements = review.get('replacement_ids', [])
+            if decision == 'replaced' and (not replacements or not set(replacements) <= set(new) - {id} or any(not new[key].get('active', True) for key in replacements if key in new)):
+                raise ValueError('Replacement cases must resolve to new active cases')
+            if collection == 'scenarios':
+                if (decision in {'retired', 'replaced'}) == (id in new):
+                    raise ValueError('Scenario retirement must match the new scenario set')
+            else:
+                if id not in new or any(new[id][key] != old[id][key] for key in ['claim', 'resolve_by', 'test']):
+                    raise ValueError('Prior wargame predictions must retain their claims, tests and deadlines')
+                if old[id].get('active', True) and not new[id].get('active', True) and decision not in {'retired', 'replaced'}:
+                    raise ValueError('Prediction retirement must be acknowledged in the case review')
+                if decision in {'retired', 'replaced'} and (new[id].get('active', True) or not new[id].get('retirement_reason', '').strip()):
+                    raise ValueError('Retired predictions stay auditable with an explicit retirement reason')
+
+
 if __name__ == '__main__':
     doc = json.loads(Path(sys.argv[1]).read_text())
-    game = doc['tracking']['history'][-1]['wargame']
+    game, full_id = effective_game(doc['tracking']['history'])
     names = [r['id'] for r in doc['candidates']]
     print(json.dumps({'probabilities_pct': forecast(game, names), 'ten_point_scenario_weight_sensitivity': sensitivity(game, names)}, indent=2))

@@ -50,7 +50,9 @@ def validate(before, after, section):
     factions = set(after['collections']['factions'])
     prior = {r['id']: r['nomination_likelihood_pct'] for r in old['candidates']}
     seen = {r['id'] for r in previous_history}
-    previous_game = previous_history[-1].get('wargame')
+    from wargame import effective_game, validate_case_review
+    previous_game, full_id = effective_game(previous_history) if old['forecast_methodology'].get('version') == 'scenario_wargame_v1' else (None, None)
+    processed = list(previous_history)
     for entry in added:
         if entry['id'] in seen:
             raise ValueError('Duplicate nominee snapshot ID')
@@ -86,15 +88,35 @@ def validate(before, after, section):
                     raise ValueError('Faction/nominee links require evidence')
         if new['forecast_methodology'].get('version') == 'scenario_wargame_v1':
             from wargame import validate_game, forecast
-            game = entry.get('wargame')
-            if not isinstance(game, dict):
-                raise ValueError('Every scheduled snapshot requires an adjudicated wargame, including holds')
+            if entry.get('type') == 'daily_review':
+                if 'wargame' in entry or entry.get('wargame_ref') != full_id:
+                    raise ValueError('Daily review uses a reference to the latest full wargame, not a full rerun')
+                monitor = entry.get('monitoring', {})
+                if not monitor.get('summary', '').strip() or not isinstance(monitor.get('developments'), list) or not isinstance(monitor.get('prediction_updates'), list):
+                    raise ValueError('Daily monitoring needs a summary, developments and prediction updates')
+                seen_tests = set()
+                for update in monitor['prediction_updates']:
+                    if update.get('id') in seen_tests or update.get('status') not in {'supported', 'contradicted', 'unresolved'} or not update.get('resolution', '').strip():
+                        raise ValueError('Invalid monitored prediction update')
+                    seen_tests.add(update.get('id'))
+                    if not update.get('source_ids') and not update.get('event_ids') or not set(update.get('source_ids', [])) <= sources or not set(update.get('event_ids', [])) <= events:
+                        raise ValueError('Monitoring updates require resolved evidence')
+                for development in monitor['developments']:
+                    if not all(development.get(key, '').strip() for key in ['finding', 'implication', 'weekly_question']):
+                        raise ValueError('Daily developments must queue a weekly question')
+                    if not development.get('source_ids') and not development.get('event_ids') or not set(development.get('source_ids', [])) <= sources or not set(development.get('event_ids', [])) <= events:
+                        raise ValueError('Monitored developments require resolved evidence')
+                if entry['probabilities_pct'] != prior:
+                    raise ValueError('Daily monitoring holds odds until the weekly wargame')
+            else:
+                game = entry.get('wargame')
+                if not isinstance(game, dict):
+                    raise ValueError('Weekly snapshot requires an adjudicated wargame, including holds')
+                if previous_game:
+                    validate_case_review(game, previous_game)
+            processed.append(entry)
+            game, full_id = effective_game(processed)
             validate_game(game, names, sources, events, entry['date'])
-            if previous_game:
-                prior_tests = {row['id']: row for row in previous_game['predictions']}
-                tests = {row['id']: row for row in game['predictions']}
-                if not prior_tests.keys() <= tests.keys() or any(any(tests[id][key] != row[key] for key in ['claim', 'resolve_by', 'test']) for id, row in prior_tests.items()):
-                    raise ValueError('Prior wargame predictions must retain their claims, tests and deadlines')
             previous_game = game
             if forecast(game, names) != entry['probabilities_pct']:
                 raise ValueError('Nominee estimates must reproduce the scenario mixture')
@@ -103,8 +125,9 @@ def validate(before, after, section):
         prior = entry['probabilities_pct']
     if new['forecast_methodology'].get('version') == 'scenario_wargame_v1':
         from wargame import validate_game, forecast
-        validate_game(history[-1]['wargame'], names, sources, events, new['as_of_date'])
-        if forecast(history[-1]['wargame'], names) != current:
+        game, _ = effective_game(history)
+        validate_game(game, names, sources, events, new['as_of_date'])
+        if forecast(game, names) != current:
             raise ValueError('Current forecast must reproduce the scenario mixture')
     if history[-1]['probabilities_pct'] != current:
         raise ValueError('Latest nominee snapshot and current forecast disagree')

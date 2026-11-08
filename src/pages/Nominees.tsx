@@ -11,7 +11,7 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link as RouterLink, useParams } from "react-router-dom";
 import { data } from "../lib/data";
-import { substantiveSnapshots } from "../lib/selectors";
+import { substantiveSnapshots, latestWargame } from "../lib/selectors";
 import { AssessmentMeta } from "../components/AssessmentMeta";
 import { CandidateList } from "../components/CandidateList";
 import { ReadingBlock } from "../components/ReadingBlock";
@@ -40,6 +40,7 @@ export default function Nominees() {
     return (
       <CandidateProfile key={candidate.id} candidate={candidate} read={read} />
     );
+  const fullReview = latestWargame(history);
   const dates = new Set(history.map((row) => row.date));
   return (
     <Stack spacing={3}>
@@ -60,8 +61,11 @@ export default function Nominees() {
       <Section title="The field: paths and vulnerabilities">
         <CandidateList />
       </Section>
-      {history.at(-1)?.wargame && (
-        <ForecastWargame game={history.at(-1)!.wargame!} />
+      {fullReview && (
+        <ForecastWargame
+          game={fullReview.game}
+          reviewedAt={fullReview.reviewedAt}
+        />
       )}
       <Section title="What is still uncertain">
         <Stack spacing={1.5} divider={<Divider />}>

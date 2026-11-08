@@ -451,5 +451,9 @@
   "nomination-wargame": {
     "asof": "2026-11-07",
     "role": "nomination-wargame"
+  },
+  "nominee-monitor": {
+    "asof": "2026-11-07",
+    "role": "nominee-monitor"
   }
 }

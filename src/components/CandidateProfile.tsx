@@ -11,7 +11,7 @@ import {
 import { Link as RouterLink, useSearchParams } from "react-router-dom";
 import { data } from "../lib/data";
 import type { Candidate, CandidateAssessment } from "../lib/types";
-import { substantiveSnapshots, label } from "../lib/selectors";
+import { substantiveSnapshots, latestWargame, label } from "../lib/selectors";
 import { useEvidence } from "../lib/evidence-context";
 import { ForecastWargame } from "./ForecastWargame";
 import { DetailNavigation } from "./DetailNavigation";
@@ -90,6 +90,7 @@ export function CandidateProfile({
     ? requested!
     : "assessment";
   const latest = substantiveSnapshots(data.nomination.tracking.history).at(-1);
+  const fullReview = latestWargame(data.nomination.tracking.history);
   const base = candidate.base_of_support as Base;
   const backers = candidate.donors_and_financial_networks as Backer[];
   const history = candidate.consistency_timeline as History[];
@@ -221,8 +222,12 @@ export function CandidateProfile({
           </Section>
         </>
       )}
-      {section === "wargame" && latest?.wargame && (
-        <ForecastWargame game={latest.wargame} candidateId={candidate.id} />
+      {section === "wargame" && fullReview && (
+        <ForecastWargame
+          game={fullReview.game}
+          reviewedAt={fullReview.reviewedAt}
+          candidateId={candidate.id}
+        />
       )}
       {section === "positions" && (
         <Section

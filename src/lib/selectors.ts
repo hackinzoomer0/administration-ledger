@@ -78,3 +78,29 @@ export function substantiveSnapshots<T extends { type?: string }>(
     ),
   );
 }
+
+/** Daily monitoring updates outcomes without claiming a fresh full forecast. */
+export function latestWargame(history: import("./types").Snapshot[]) {
+  let result:
+    | {
+        game: import("./types").Wargame;
+        reviewedAt: string;
+        snapshotId: string;
+      }
+    | undefined;
+  for (const row of history) {
+    if (row.wargame)
+      result = {
+        game: structuredClone(row.wargame),
+        reviewedAt: row.date,
+        snapshotId: row.id,
+      };
+    else if (result && row.wargame_ref === result.snapshotId) {
+      for (const update of row.monitoring?.prediction_updates ?? []) {
+        const test = result.game.predictions.find((p) => p.id === update.id);
+        if (test) Object.assign(test, update);
+      }
+    }
+  }
+  return result;
+}

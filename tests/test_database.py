@@ -43,7 +43,7 @@ class DatabaseWorkflow(unittest.TestCase):
             stage = Path(directory)
             prepare(stage, 'Daily')
             self.assertEqual(load(), json.loads((stage / 'original.json').read_text()))
-            self.assertIn('nominee-review', (stage / 'prompt.txt').read_text())
+            self.assertIn('nominee-monitor', (stage / 'prompt.txt').read_text())
         self.assertEqual(before, fingerprint(load()))
 
     def test_invalid_roster_is_rejected_before_publication(self):
@@ -70,6 +70,9 @@ class DatabaseWorkflow(unittest.TestCase):
             snapshot['id'] = 'workflow-fixture'
             snapshot['run_id'] = 'workflow-fixture'
             snapshot['type'] = 'daily_review'
+            snapshot.pop('wargame')
+            snapshot['wargame_ref'] = forecast['tracking']['history'][-1]['id']
+            snapshot['monitoring'] = {'summary':'Daily monitoring; full forecast carried.', 'developments':[], 'prediction_updates':[]}
             for assessment in snapshot['assessments'].values():
                 assessment['delta_pp'] = 0
             forecast['tracking']['history'].append(snapshot)

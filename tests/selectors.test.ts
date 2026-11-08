@@ -67,3 +67,37 @@ it("selects political research while retaining technical history outside the cur
   ];
   expect(substantiveSnapshots(history).at(-1)?.id).toBe("review");
 });
+
+import { latestWargame } from "../src/lib/selectors";
+import forecastRecord from "../database/nominations/republican_2028.json";
+import type { Snapshot } from "../src/lib/types";
+it("keeps the full review date while applying a compact daily test update", () => {
+  const full = structuredClone(
+    forecastRecord.tracking.history.at(-1),
+  ) as unknown as Snapshot;
+  const test = full.wargame!.predictions[0];
+  const daily = {
+    ...full,
+    id: "daily-monitor",
+    date: "2026-11-08",
+    wargame: undefined,
+    wargame_ref: full.id,
+    monitoring: {
+      summary: "Light monitor",
+      prediction_updates: [
+        {
+          id: test.id,
+          status: "unresolved",
+          resolution: "Outcome not verified.",
+          source_ids: [],
+          event_ids: [],
+        },
+      ],
+    },
+  };
+  const result = latestWargame([full, daily])!;
+  expect(result.reviewedAt).toBe(full.date);
+  expect(result.snapshotId).toBe(full.id);
+  expect(result.game.predictions[0].status).toBe("unresolved");
+  expect(test.status).toBe("pending");
+});

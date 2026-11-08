@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-07",
+  "type": "workflow_setup",
+  "scope": "Owner-requested cadence and case-design review adjustment; no political reforecast.",
+  "summary": "Full predictive wargame weekly; lightweight daily evidence/test monitor with referenced history. Weekly review challenges the scenario and test designs themselves.",
+  "changes": [
+    "Daily snapshots reference the latest full game, hold odds, update outcomes and queue new scenario/test questions; material shocks flag possible staleness without automatic full reruns.",
+    "Weekly snapshots require retain/revise/retire/replace decisions for earlier cases and reasons for new scenarios/tests. Original prediction claims, tests and deadlines remain auditable.",
+    "UI and calculation resolve compact references and preserve the full-review date while incorporating daily outcome updates."
+  ],
+  "nominees_added": [],
+  "probabilities_changed": false,
+  "validation": "64 automated tests: 45 Python integrity/workflow tests, 6 selector tests and 13 browser tests; production build and database integrity passed. Verify the live revision after publication."
+}

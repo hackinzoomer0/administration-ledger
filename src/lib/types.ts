@@ -136,6 +136,8 @@ export interface Wargame {
     claim: string;
     resolve_by: string;
     likelihood: string;
+    active?: boolean;
+    retirement_reason?: string;
     test: string;
     status: string;
     resolution: string;
@@ -143,6 +145,15 @@ export interface Wargame {
 }
 export interface Snapshot {
   wargame?: Wargame;
+  wargame_ref?: string;
+  monitoring?: {
+    summary: string;
+    prediction_updates: (EvidenceRef & {
+      id: string;
+      status: string;
+      resolution: string;
+    })[];
+  };
   type?: string;
   id: string;
   date: string;
