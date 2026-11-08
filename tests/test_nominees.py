@@ -31,6 +31,20 @@ class ForecastGuard(unittest.TestCase):
         game = self.entry['wargame']
         names = [row['id'] for row in self.forecast['candidates']]
         source = self.forecast['sources'][0]['id']
+        game['projection_review'] = {
+            'standard': 'causal_projection_v1',
+            'current_landscape': {'assessment': 'Fixture current landscape.', 'as_of': self.entry['date'],
+                                  'source_ids': [source], 'event_ids': []},
+            'scenarios': {scenario['id']: {
+                'projected_landscape': 'Fixture future state.', 'likelihood_reason': 'Defend the assigned scenario weight.',
+                'source_ids': [source], 'event_ids': [],
+                'candidate_paths': {name: {
+                    key: 'Fixture causal judgment, distinct from the documented factual starting point.'
+                    for key in ['candidate_response', 'voter_response', 'donor_media_response',
+                                'organization_coalition', 'feedback', 'share_justification', 'countercase']
+                } | {'source_ids': [source], 'event_ids': []} for name in names}
+            } for scenario in game['scenarios']}
+        }
         game['comparison_review'] = {
             'standard': 'common_candidate_standards_v1',
             'framing_check': 'Fixture comparison; no preference-driven reweighting.',
@@ -57,6 +71,16 @@ class ForecastGuard(unittest.TestCase):
         self.forecast['tracking']['history'].append(self.entry)
 
     def check(self):
+        # Scenario-edit tests exercise case design; extend their projection fixture
+        # independently so missing-projection failures don't mask that boundary.
+        game = self.entry.get('wargame')
+        if game:
+            rows = game['projection_review']['scenarios']
+            template = copy.deepcopy(next(iter(rows.values())))
+            game['projection_review']['scenarios'] = {
+                scenario['id']: rows.get(scenario['id'], copy.deepcopy(template))
+                for scenario in game['scenarios']
+            }
         module.validate(self.before, self.after, self.section)
 
     def daily(self):
@@ -274,6 +298,38 @@ class ForecastGuard(unittest.TestCase):
     def test_weekly_requires_comparison_not_just_candidate_biographies(self):
         del self.entry['wargame']['comparison_review']
         with self.assertRaisesRegex(ValueError, 'common-standard'):
+            self.check()
+
+    def test_weekly_requires_projection_not_only_comparison(self):
+        del self.entry['wargame']['projection_review']
+        with self.assertRaisesRegex(ValueError, 'causal projection review'):
+            module.validate(self.before, self.after, self.section)
+
+    def test_projection_cannot_skip_candidate_or_voter_response(self):
+        paths=next(iter(self.entry['wargame']['projection_review']['scenarios'].values()))['candidate_paths']
+        paths['john_mcentee']['voter_response']=''
+        with self.assertRaisesRegex(ValueError, 'voter_response'):
+            self.check()
+        del paths['john_mcentee']
+        with self.assertRaisesRegex(ValueError, 'every candidate within each scenario'):
+            self.check()
+
+    def test_projection_cannot_skip_a_scenario(self):
+        self.entry['wargame']['projection_review']['scenarios'].popitem()
+        with self.assertRaisesRegex(ValueError, 'every scenario'):
+            module.validate(self.before, self.after, self.section)
+
+    def test_projection_requires_every_link_and_resolved_evidence(self):
+        path=next(iter(self.entry['wargame']['projection_review']['scenarios'].values()))['candidate_paths']['jd_vance']
+        for field in ['candidate_response', 'voter_response', 'donor_media_response',
+                      'organization_coalition', 'feedback', 'share_justification', 'countercase']:
+            with self.subTest(field=field):
+                saved=path.pop(field)
+                with self.assertRaisesRegex(ValueError, field):
+                    self.check()
+                path[field]=saved
+        path['source_ids']=['invented']
+        with self.assertRaisesRegex(ValueError, 'Unresolved causal-projection evidence'):
             self.check()
 
     def test_comparison_cannot_skip_a_disfavored_candidate(self):

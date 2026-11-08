@@ -145,6 +145,35 @@ def validate_case_review(game, previous):
 
 
 
+def validate_projection_review(game, names, sources, events):
+    """Check causal coverage for new weekly runs; historical forecasts remain unchanged."""
+    review = game.get('projection_review', {})
+    if review.get('standard') != 'causal_projection_v1':
+        raise ValueError('Weekly forecast requires a causal projection review')
+
+    def check(row, fields):
+        for field in fields:
+            if not isinstance(row.get(field), str) or not row[field].strip():
+                raise ValueError(f'Causal projection requires {field}')
+        if not row.get('source_ids') and not row.get('event_ids'):
+            raise ValueError('Causal projections require evidence for their factual starting points')
+        if not set(row.get('source_ids', [])) <= sources or not set(row.get('event_ids', [])) <= events:
+            raise ValueError('Unresolved causal-projection evidence')
+
+    check(review.get('current_landscape', {}), ['assessment', 'as_of'])
+    scenarios = review.get('scenarios', {})
+    if set(scenarios) != {row['id'] for row in game['scenarios']}:
+        raise ValueError('Causal projection must cover every scenario')
+    for scenario in scenarios.values():
+        check(scenario, ['projected_landscape', 'likelihood_reason'])
+        paths = scenario.get('candidate_paths', {})
+        if set(paths) != set(names):
+            raise ValueError('Causal projection must cover every candidate within each scenario')
+        for path in paths.values():
+            check(path, ['candidate_response', 'voter_response', 'donor_media_response',
+                         'organization_coalition', 'feedback', 'share_justification', 'countercase'])
+
+
 def validate_comparison_review(game, names, sources, events):
     """Require common evidence standards without pretending prose validation establishes analytical truth."""
     review = game.get('comparison_review', {})

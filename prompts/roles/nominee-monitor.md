@@ -7,3 +7,5 @@ New possible mechanisms/scenarios or poorly designed tests go in weekly_question
 The authorized roster is now eight. The roster-expansion snapshot is a non-comparable baseline; the next ordinary daily snapshot has zero numeric deltas within the eight-person field and must omit comparison=not_comparable_roster_change. Do not inherit that one-time baseline marker.
 
 Queue potential inconsistencies in treatment of candidates for the weekly common-standard comparison. Do not execute that full comparison or change odds during daily monitoring.
+
+Feed the next weekly causal projection: identify which link a material development changes (current landscape, future environment likelihood, candidate response, voter response, donor/media response, organization/coalition formation). Queue feedback and possible breakthrough/failure mechanisms; distinguish observed developments from projected downstream reactions. Do not build the full projection matrix or change held odds daily.
