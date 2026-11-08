@@ -2310,6 +2310,56 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: implementation or a durable faction outcome remains to be verified."
+    },
+    {
+      "id": "mid-2026-11-06-doj-departures",
+      "date": "2026-11-06",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Todd Blanche; Jason Reding Quiñones; John Eisenberg; Harmeet Dhillon",
+      "text": "CNN reports the departures of Quiñones, Eisenberg and Dhillon from Justice Department leadership; Dhillon left November 5.",
+      "context": "CNN attributes pressure on Quiñones to sources. Actual departures are distinct from reported reasons. Successors, acting appointments and the future of investigations remain unverified.",
+      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/06/us-attorney-overseeing-trumps-grand-conspiracy-probe-into-foes-resigns/",
+      "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/06/us-attorney-overseeing-trumps-grand-conspiracy-probe-into-foes-resigns/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "NET EFFECT (my reading): departures remove particular enforcement managers and give Blanche an opening to consolidate departmental control. They do not terminate investigations or prove a policy retreat. His institution retains investigative authority.",
+      "origin": "2026-11-07-weekly-causal-projection-review",
+      "added": "2026-11-07",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: personnel turnover and a potential departmental-control shift, not established faction-wide policy reversal.",
+      "precedent": "Nixon’s 1973 Justice Department turnover illustrates how personnel and institutional investigations can diverge; legal circumstances and removal mechanisms differ.",
+      "challenge": {
+        "reading": "Blanche may gain managerial room while the maximalist program survives through acting replacements. Departures need not mean moderation, and former officials remain oversight targets.",
+        "resolution": "revised"
+      }
+    },
+    {
+      "id": "mid-2026-10-31-heikes-subpoena",
+      "date": "2026-10-31",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "actor": "Justice Department; Gerald Heikes",
+      "text": "CNN reports FBI agents served Alaska Senate candidate Gerald Heikes with a grand-jury subpoena on the Saturday before the election.",
+      "context": "CNN reviewed the subpoena and interviewed Heikes. It sought records concerning recruitment and political groups. Heikes denied being an operative; Peltola denied knowledge. This is an investigative demand, not proof of an unlawful scheme, an indictment or a result in the separate ballot-count case.",
+      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/06/fbi-agents-served-an-alaska-senate-candidate-with-a-subpoena-just-days-before-election-day/",
+      "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/06/fbi-agents-served-an-alaska-senate-candidate-with-a-subpoena-just-days-before-election-day/",
+      "tier": "reported",
+      "weight": 2,
+      "rationale": "My reading: a criminal investigative channel continued alongside failed ballot litigation. Its existence does not establish a successful prosecution or altered count.",
+      "origin": "2026-11-07-weekly-causal-projection-review",
+      "added": "2026-11-07",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: investigative demand with no verified outcome."
     }
   ]
 }

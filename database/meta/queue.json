@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-03",
+  "asof": "2026-11-07",
   "items": [
     {
       "firstSeen": "2026-10-29",
@@ -890,6 +890,26 @@
       "source": "CNBC (Nov 2)",
       "status": "new",
       "what": "SpaceX president giving SpaceX stock to Trump Account holders in December"
+    },
+    {
+      "id": "q-2026-11-07-kc-crosbie",
+      "firstSeen": "2026-11-07",
+      "kind": "role-change",
+      "name": "KC Crosbie",
+      "what": "AP reports an RNC-chair bid; verify original letter, rules and January outcome. Not a current leadership replacement.",
+      "source": "https://www.sooleader.com/michigan-news-ap/trumps-grip-on-his-party-is-in-question-as-republicans-reel-from-the-midterm-wipeout-12992294",
+      "status": "new",
+      "note": "Discovery queued; no standalone power or financial claim inferred."
+    },
+    {
+      "id": "q-2026-11-07-gerald-heikes",
+      "firstSeen": "2026-11-07",
+      "kind": "actor",
+      "name": "Gerald Heikes",
+      "what": "Alaska Senate candidate served a subpoena; keep investigation context distinct from guilt or ballot disposition.",
+      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/06/fbi-agents-served-an-alaska-senate-candidate-with-a-subpoena-just-days-before-election-day/",
+      "status": "new",
+      "note": "Discovery queued; no standalone power or financial claim inferred."
     }
   ]
 }

@@ -33,6 +33,13 @@
           "status": "open",
           "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
           "coverage": "External test outcome not fully verified."
+        },
+        {
+          "run_id": "2026-11-07-weekly-causal-projection-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent episodes screened; no newly established full test or disproof. External verification remains incomplete; open is not confirmation.",
+          "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
       ]
     },
@@ -64,6 +71,13 @@
           "status": "open",
           "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
           "coverage": "External test outcome not fully verified."
+        },
+        {
+          "run_id": "2026-11-07-weekly-causal-projection-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent episodes screened; no newly established full test or disproof. External verification remains incomplete; open is not confirmation.",
+          "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
       ]
     },
@@ -99,6 +113,13 @@
           "status": "open",
           "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
           "coverage": "External test outcome not fully verified."
+        },
+        {
+          "run_id": "2026-11-07-weekly-causal-projection-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent episodes screened; no newly established full test or disproof. External verification remains incomplete; open is not confirmation.",
+          "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
       ]
     },
@@ -133,6 +154,13 @@
           "status": "open",
           "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
           "coverage": "External test outcome not fully verified."
+        },
+        {
+          "run_id": "2026-11-07-weekly-causal-projection-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent episodes screened; no newly established full test or disproof. External verification remains incomplete; open is not confirmation.",
+          "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
       ]
     },
@@ -169,6 +197,13 @@
           "status": "open",
           "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
           "coverage": "External test outcome not fully verified."
+        },
+        {
+          "run_id": "2026-11-07-weekly-causal-projection-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "California denial already stored; Alaska appeal/certification leg not newly verified. The newly recovered criminal subpoena is a counterweight to a broad claim that investigative pressure ended, not a reversal of ballot-litigation setbacks.",
+          "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
       ]
     },
@@ -206,6 +241,13 @@
           "status": "open",
           "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
           "coverage": "External test outcome not fully verified."
+        },
+        {
+          "run_id": "2026-11-07-weekly-causal-projection-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Some strike reporting is in the ledger, but the test requires two deferred moves by November 17. No second qualifying move newly verified; do not count sanctions or a sale approval as delivery.",
+          "coverage": "Stored-event screen and targeted source recovery; not a fresh verification of every external test."
         }
       ]
     }

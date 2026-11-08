@@ -599,7 +599,8 @@
         "DOJ complied with the Epstein Act (Jan 30), then said the files 'should not be a part of anything going forward' (Apr 2).",
         "Would not recommend Maxwell clemency (May 19) but interviewed Maxwell for nine hours (Jul 2025).",
         "Backs ICE at polls (Mar); Alaska suit (Oct 23).",
-        "Oct 15: sued California to block counting ballots of about 20,000 suspected noncitizens; Oct 26: DOJ unsealed new charges against Comey (Just Security)."
+        "Oct 15: sued California to block counting ballots of about 20,000 suspected noncitizens; Oct 26: DOJ unsealed new charges against Comey (Just Security).",
+        "Nov 6: three DOJ leadership departures create managerial room; CNN reports pressure on Quiñones. No end to investigations established."
       ],
       "positions": {
         "EPS": {
@@ -7098,6 +7099,96 @@
         }
       ],
       "why": {}
+    },
+    {
+      "id": "jason-reding-quinones",
+      "name": "Jason Reding Quiñones",
+      "role": "Former US Attorney, Southern District of Florida",
+      "home": null,
+      "also": [],
+      "rosters": [],
+      "positions": {
+        "MID": {
+          "label": "Justice Department turnover",
+          "view": "No independent post-departure policy position verified.",
+          "status": "Departure reported",
+          "role": "Former US Attorney, Southern District of Florida"
+        }
+      },
+      "donors": [],
+      "added": "2026-11-07",
+      "mtype": "thin record",
+      "read": "A departing enforcement official whose exit changes management rather than establishing an end to the underlying program.",
+      "pattern": [
+        "November 6, 2026: CNN reports departure."
+      ],
+      "drive": "Protect professional position and future options; specific departure motive is not established.",
+      "why": {
+        "MID": "Departure removes a manager; private motives remain uncertain."
+      },
+      "flip": "Documented successor, continuing operational role or independently verified reason for departure.",
+      "mtier": "reported",
+      "motive": "Protect professional position and future options; specific departure motive is not established."
+    },
+    {
+      "id": "john-eisenberg",
+      "name": "John Eisenberg",
+      "role": "Departing head of DOJ National Security Division",
+      "home": null,
+      "also": [],
+      "rosters": [],
+      "positions": {
+        "MID": {
+          "label": "Justice Department turnover",
+          "view": "No independent post-departure policy position verified.",
+          "status": "Departure reported",
+          "role": "Departing head of DOJ National Security Division"
+        }
+      },
+      "donors": [],
+      "added": "2026-11-07",
+      "mtype": "thin record",
+      "read": "A departing enforcement official whose exit changes management rather than establishing an end to the underlying program.",
+      "pattern": [
+        "November 6, 2026: CNN reports departure."
+      ],
+      "drive": "Protect professional position and future options; specific departure motive is not established.",
+      "why": {
+        "MID": "Departure removes a manager; private motives remain uncertain."
+      },
+      "flip": "Documented successor, continuing operational role or independently verified reason for departure.",
+      "mtier": "reported",
+      "motive": "Protect professional position and future options; specific departure motive is not established."
+    },
+    {
+      "id": "harmeet-dhillon",
+      "name": "Harmeet Dhillon",
+      "role": "Former head of DOJ Civil Rights Division",
+      "home": null,
+      "also": [],
+      "rosters": [],
+      "positions": {
+        "MID": {
+          "label": "Justice Department turnover",
+          "view": "No independent post-departure policy position verified.",
+          "status": "Departure reported",
+          "role": "Former head of DOJ Civil Rights Division"
+        }
+      },
+      "donors": [],
+      "added": "2026-11-07",
+      "mtype": "thin record",
+      "read": "A departing enforcement official whose exit changes management rather than establishing an end to the underlying program.",
+      "pattern": [
+        "November 5, 2026: CNN reports departure."
+      ],
+      "drive": "Protect professional position and future options; specific departure motive is not established.",
+      "why": {
+        "MID": "Departure removes a manager; private motives remain uncertain."
+      },
+      "flip": "Documented successor, continuing operational role or independently verified reason for departure.",
+      "mtier": "reported",
+      "motive": "Protect professional position and future options; specific departure motive is not established."
     }
   ],
   "note": "Everyone named in the reports and the ledger, one entry per person. Rules for maintaining this list are in the daily task prompt."

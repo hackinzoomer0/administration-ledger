@@ -118,7 +118,7 @@
       "ai-2026-11-02-cyber-info-sharing"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -300,7 +300,7 @@
       "eps-2026-10-26-judiciary-dems-report"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "blanche",
@@ -413,7 +413,7 @@
       "fed-2026-11-02-shotwell-trump-accounts"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "lisa-cook",
@@ -486,7 +486,7 @@
   },
   "IMM": {
     "policy": "The administration continues high-volume enforcement and restrictive visa/labor measures, with particular practices constrained by court orders.",
-    "dispute": "Enforcement hardliners favor volume; electoral pragmatists and institutional dissenters contest the costs and methods.",
+    "dispute": "Enforcement hardliners favor volume; electoral pragmatists and institutional dissenters contest the costs and methods. The November 6 Afghan order extends client-specific temporary protection; it is not nationwide relief.",
     "player_ids": [
       "miller",
       "wiles",
@@ -555,10 +555,11 @@
       "imm-2026-11-03-venezuela-tps-admin-stay",
       "imm-2026-11-01-bronx-visa-claim",
       "imm-2026-10-31-salazar-warning",
-      "imm-2026-10-31-north-hollywood-video"
+      "imm-2026-10-31-north-hollywood-video",
+      "imm-2026-10-26-afghan-deportations"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: targeted evidence recheck; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "miller",
@@ -735,7 +736,7 @@
       "irn-2026-11-03-qeshm-strikes"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -869,7 +870,7 @@
   },
   "MID": {
     "policy": "AP projects Democratic control of both chambers in the next Congress. Current officeholders retain authority until the January transition.",
-    "dispute": "Democrats gain prospective oversight and appropriations leverage; the administration faces pressure to change course or defend its agenda through executive action.",
+    "dispute": "Democrats gain prospective oversight and appropriations leverage; the administration faces pressure to change course or defend its agenda through executive action. Justice Department turnover may consolidate management without ending enforcement.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -973,10 +974,11 @@
       "mid-2026-11-06-senate-leadership-delay",
       "mid-2026-11-05-congress-control",
       "mid-2026-11-05-wiles-hegseth-blame",
-      "mid-2026-11-05-blumenthal-preservation-notices"
+      "mid-2026-11-05-blumenthal-preservation-notices",
+      "mid-2026-11-06-doj-departures"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: targeted evidence recheck; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1179,7 +1181,7 @@
       "rus-2026-11-02-azov-resorts"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "witkoff",
@@ -1344,7 +1346,7 @@
       "suc-2026-10-21-vance-ohio-rally"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: targeted evidence recheck; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1509,7 +1511,7 @@
       "tar-2026-11-02-automakers-china-ban"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "bessent",
@@ -1660,7 +1662,7 @@
       "ven-2026-10-28-boat-strike"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Synthesis of existing dated ledger records; policy implementation and disputed claims remain subject to the cited evidence. Weekly November 7: carried synthesis; targeted review did not independently verify this issue’s full policy/court calendar.",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
         "person_id": "rubio",

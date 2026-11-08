@@ -4,13 +4,13 @@
   "last_substantive_change": "2026-11-07",
   "review": {
     "date": "2026-11-07",
-    "run_id": "2026-11-07-weekly-common-candidate-review",
+    "run_id": "2026-11-07-weekly-causal-projection-review",
     "type": "weekly_review",
-    "scope": "Weekly common-candidate comparison and structured single-analyst opposition; targeted primary-source rechecks, stored episode/faction audit and supplemental recall. All-issue coverage, filings and court outcomes incomplete; carried issue findings not freshly verified."
+    "scope": "Full eight-contender causal projection and common comparison; targeted source-recovered personnel, election-constituency and Afghan-order review. Remaining issue calendars, filings and seven-day recall incomplete."
   },
   "administration": {
-    "headline": "Midterm defeat forces a fight over personnel, policy and accountability.",
-    "summary": "The midterm defeat creates pressure over costs, policy responsibility and accountability while Trump retains executive decision authority. Miller’s announced promotion establishes a prospective access shift; the handover remains pending. Incoming Democratic majorities can increase scrutiny and bargain over funding after organization, while vetoes and existing executive powers limit immediate reversal. A negotiated exit or accepted concentration of blame could preserve an heir’s coalition; persistent costs and credible records could instead widen the demand for alternatives. Neither a personnel reshuffle nor a public postmortem establishes changed policy or primary support. Several court and policy outcomes remain unverified in this targeted review.",
+    "headline": "Defeat opens competing paths: executive confrontation, departmental control and incoming oversight.",
+    "summary": "Trump retains executive authority after the midterm defeat. Miller’s prospective gatekeeping gain points toward confrontation, while Justice Department departures create room for Blanche to consolidate management; neither establishes a uniform policy turn. Incoming Democratic majorities gain oversight and funding leverage after organization. Costs, responsibility and who can credibly correct them remain central. Court constraints are specific: the recovered Afghan order protects identified clients beyond the former cutoff. A permitted correction could preserve an heir’s coalition, while continuing failure could help rivals build new ones. Other policy and court findings remain carried where not freshly checked.",
     "contests": [
       {
         "id": "white-house-access",
@@ -119,18 +119,42 @@
         ],
         "reviewed_at": "2026-11-07",
         "summary": "White House pressure is constrained by legal process. Rate authority remains with the FOMC."
+      },
+      {
+        "id": "justice-department-control",
+        "issue_id": "MID",
+        "title": "Justice Department management is changing",
+        "status": "contested",
+        "summary": "Departures create an opening for Blanche to consolidate management; the program’s direction remains unresolved.",
+        "assessment": "My reading: turnover changes particular enforcement channels before proving any broader retreat. Acting replacements could sustain the program.",
+        "authority": "The attorney general directs the department; appointments, acting authority and confirmations follow separate processes.",
+        "leverage": "Department leadership can replace managers and redirect resources; former officials remain exposed to future oversight.",
+        "change": "Three leadership departures reported; successors and any operational changes unverified.",
+        "basis": {
+          "actions": "Dated CNN account of the departures.",
+          "positions": "No new public policy reversal established.",
+          "money": "Possible professional incentives are distinct from documented departure reasons; no payment causing the changes is established."
+        },
+        "watch": "Confirm successors, acting roles, case continuity and actual policy instructions.",
+        "event_ids": [
+          "mid-2026-11-06-doj-departures"
+        ],
+        "faction_ids": [
+          "maximalists"
+        ],
+        "reviewed_at": "2026-11-07"
       }
     ]
   },
   "nomination": {
-    "headline": "Vance leads; the coalition is not settled.",
-    "summary": "Vance retains the clearest recorded succession route, while executive-reset and restraint rivals compete for overlapping constituencies. The weekly comparison provisionally holds the eight-person scenario mixture. Exact candidate ceilings, entry and organization remain weakly identified; no post-election transfer of primary support is verified.",
-    "snapshot_id": "2026-11-07-weekly-common-candidate-review",
+    "headline": "Vance leads; future coalition building widens the contest.",
+    "summary": "The weekly causal review retains the five environments while revising candidate conversion assumptions. First-term program continuity can offer an emerging contender a route without assigning current-policy immunity. State approval does not guarantee national entry or a high floor. Vance keeps the strongest recorded starting route, with governors and restraint contenders competing for overlapping openings. This is a model correction, not measured post-election support.",
+    "snapshot_id": "2026-11-07-weekly-causal-projection-review",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
-        "path": "Best-established heir, facing responsibility and a credibility test.",
+        "path": "Current succession channels justify a lead, but cannot guarantee retention when a credible rival mobilizes program-continuity voters. Retain the largest recovery/backlash shares while reducing systemic insulation.",
         "coalition": "RNC fundraising, Rockbridge and Turning Point channels.",
         "advantage": "A concrete organizational head start.",
         "vulnerability": "Post-defeat criticism looks retrospective. Documents or a Hegseth confrontation force him to defend conduct he privately questioned, abandon a colleague, or evade. Rivals use that record to make both loyalty and restraint claims untrustworthy.",
@@ -153,7 +177,7 @@
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
-        "path": "A loyalist security alternative whose credentials also create exposure.",
+        "path": "Retain the security/continuity lane: independent entry is uncertain but institutional resources are mobilizable. Neither a public denial nor current responsibility makes the path zero; no automatic donor transfer from Vance.",
         "coalition": "State/NSC relationships and donors who prefer him.",
         "advantage": "National visibility and an existing policy network.",
         "vulnerability": "If the policy itself is repudiated, credentials become ownership. Hearings put his explanations alongside internal warnings, while deference to Vance or failure to enter prevents conversion of donor preference into a campaign.",
@@ -175,7 +199,7 @@
       {
         "candidate_id": "ron_desantis",
         "person_id": null,
-        "path": "Leading approved alternative if he converts federal failure into a rebuilt campaign.",
+        "path": "Keep the leading executive-reset route while allowing competitors to form. National campaign experience helps rebuilding without proving voters like him or guaranteeing all reset resources.",
         "coalition": "Social conservatives and voters seeking distance from Washington.",
         "advantage": "Executive experience outside the federal decision chain.",
         "vulnerability": "Distance is mistaken for popularity. His earlier intervention statements, state accountability exposure and past campaign problems prevent a clean break, while donors prefer someone outside the approved roster.",
@@ -195,7 +219,7 @@
       {
         "candidate_id": "ted_cruz",
         "person_id": "cruz",
-        "path": "A conservative fallback with tariff distance but overlapping war exposure.",
+        "path": "A developed ideological and donor-facing route survives all environments. Modestly improve recovery competitiveness; do not cap him solely for a prior loss or assume he captures the governors’ whole lane.",
         "coalition": "Religious conservatives and overlapping hawkish networks.",
         "advantage": "A recognizable policy identity and donor-facing lane.",
         "vulnerability": "A hawkish record limits separation from intervention, Rubio competes for donors and recognition does not produce coalition growth. Past repositioning and judgment controversies remain usable.",
@@ -216,10 +240,10 @@
       {
         "candidate_id": "john_mcentee",
         "person_id": null,
-        "path": "Personnel relationships and withdrawal work offer a substantive route if converted into a Republican campaign; the inherited low ceiling remains provisional.",
+        "path": "Remove the inherited 1–3 ceiling: first-term program continuity can compete with second-term exposure, and enthusiasm, personnel relationships and acquired election specialists can reinforce one another. Entry, association with later planning, commercial scrutiny and voter conversion still make him a long shot.",
         "coalition": "Hypothesized younger, culturally conservative Trump-aligned audience seeking program continuity with different leadership; voter composition and conversion remain unverified.",
-        "advantage": "Substantive personnel authority and actual withdrawal work.",
-        "vulnerability": "He is himself a Trump-era insider. Prior conduct, electoral-count work and business scrutiny complicate a clean-accountability pitch, and historical business financing does not supply a campaign.",
+        "advantage": "Historical personnel recruitment and withdrawal work can combine with future enthusiasm and acquired electoral staff; this is a prospective conversion path.",
+        "vulnerability": "Entry, political funding and a measured constituency remain unknown. Later planning ties, business scrutiny and personal-record attacks can defeat separation from current leadership.",
         "positions": "Historical restrictionist staffing and withdrawal advocacy; current specifics need review.",
         "money": "Thiel’s dating-business investment is not a nomination endorsement.",
         "event_ids": [],
@@ -237,7 +261,7 @@
       {
         "candidate_id": "rand_paul",
         "person_id": "paul",
-        "path": "A free-trade and constitutional-restraint challenge with entry and coalition gates.",
+        "path": "A developed constitutional-limit route remains stronger than attention alone, but Paul cannot own the entire restraint pool. Preserve meaningful upside while allocating competition from Massie and program-continuity challengers.",
         "coalition": "Liberty-oriented conservatives and a potential free-trade business constituency.",
         "advantage": "A policy identity with dissent predating the defeat.",
         "vulnerability": "A narrow constituency, overlapping Massie support and an undecided run.",
@@ -254,10 +278,10 @@
       {
         "candidate_id": "brian_kemp",
         "person_id": null,
-        "path": "A conservative executive-reset alternative competing directly with DeSantis.",
+        "path": "Reduce the automatic national floor from home-state approval. A state network is a genuine asset and can grow, but needs entry, national appeal and early-state conversion, especially when loyalty dominates.",
         "coalition": "A strong Georgia foundation and potential electability-focused conservative support.",
         "advantage": "Executive experience outside federal war decisions.",
-        "vulnerability": "State approval may not transfer nationally; entry and organization are unverified.",
+        "vulnerability": "Home-state standing requires national conversion; entry, personality appeal and competition with other executives prevent a guaranteed national floor.",
         "positions": "State tax relief and enacted enforcement/social policies; no complete federal platform is assumed.",
         "money": "No current presidential donor commitments verified in this review.",
         "source_ids": [
@@ -272,7 +296,7 @@
       {
         "candidate_id": "thomas_massie",
         "person_id": "massie",
-        "path": "A substantive constitutional-limit insurgency with substantial GOP-entry risk.",
+        "path": "Increase accountability upside without assuming a primary defeat permanently blocks national growth. A GOP route and acquired organization remain necessary; independent presidential support cannot count as Republican nomination success.",
         "coalition": "Libertarian and restraint-oriented audiences overlapping Paul’s.",
         "advantage": "Specific oversight and war-powers acts before the defeat.",
         "vulnerability": "Primary loss, national organization and possible non-GOP route limit the nomination path.",
@@ -312,6 +336,18 @@
       "faction_ids": [
         "maximalists",
         "operation"
+      ]
+    },
+    {
+      "id": "justice-turnover-strategy",
+      "title": "Managerial consolidation can coexist with confrontation.",
+      "assessment": "Blanche is a possible overlooked beneficiary of departures while Miller gains prospective access. Recognizing those positions need not wait for a new prosecution, confirmed successor or completed policy turn.",
+      "event_ids": [
+        "mid-2026-11-06-doj-departures",
+        "mid-2026-11-06-miller-chief-staff"
+      ],
+      "faction_ids": [
+        "maximalists"
       ]
     }
   ],

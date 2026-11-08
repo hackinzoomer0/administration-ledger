@@ -1691,10 +1691,10 @@
       "actor": "DHS",
       "added": "2026-10-30",
       "by": [],
-      "context": "Common Dreams (Oct 30, citing NYT): ICE moved 150+ Afghans to Louisiana for a charter as soon as Nov 2; Sens. Blumenthal, Coons, Kaine object. Headlines: Taliban voice concern (Euronews, Nov 2); lawmakers ask to stop it (Al Jazeera, Nov 3). Flight not confirmed. November 3 follow-up. A federal judge temporarily bound the government to its representation that it had no planned or confirmed removal flights for Afghan nationals to Afghanistan or Pakistan through the end of the week. AP reported the government’s in-court representation. AfghanEvac identifies the case as Project Rousseau, Inc. and the order as ECF 8, expiring November 7 at 11:59 p.m. unless extended. Check the docket for an extension and any subsequent removal plan.",
+      "context": "Common Dreams (Oct 30, citing NYT): ICE moved 150+ Afghans to Louisiana for a charter as soon as Nov 2; Sens. Blumenthal, Coons, Kaine object. Headlines: Taliban voice concern (Euronews, Nov 2); lawmakers ask to stop it (Al Jazeera, Nov 3). Flight not confirmed. November 3 follow-up. A federal judge temporarily bound the government to its representation that it had no planned or confirmed removal flights for Afghan nationals to Afghanistan or Pakistan through the end of the week. AP reported the government’s in-court representation. AfghanEvac identifies the case as Project Rousseau, Inc. and the order as ECF 8, expiring November 7 at 11:59 p.m. unless extended. Check the docket for an extension and any subsequent removal plan. November 7 verification: ECF 21, pages 35–36, bars removal of the clients identified in ECF 16 to Pakistan, Afghanistan or another third country, requires one week’s notice of plans, and extends the TRO pending further order. Complaint amendment is due November 9 and a joint briefing schedule November 10. This is not nationwide relief or proof that any removal occurred.",
       "date": "2026-10-26",
       "fx": {},
-      "fxnote": "",
+      "fxnote": "No fx: limited procedural constraint, with no newly established faction-wide outcome.",
       "id": "imm-2026-10-26-afghan-deportations",
       "issues": [
         "IMM"
@@ -1702,10 +1702,10 @@
       "kind": "chron",
       "origin": "daily run 2026-10-30",
       "precision": "day",
-      "rationale": "Chron: a planned removal flight to Taliban-run Afghanistan via Pakistan; consistent with the arrest push; no position change.",
-      "source": "Politico Playbook PM (citing NYT); VisaVerge (citing Bloomberg); AP Morning Wire (Nov 1 headline); Common Dreams (citing NYT, Oct 30); Euronews, Al Jazeera (headlines, Nov 2-3); https://reports.afghanevac.org/litigation/?embed=1; https://apnews.com/article/a419fbb329b96480d806d9ffbd52ccb4",
-      "text": "A reported early-November charter for detained Afghans was followed by a November 3 temporary court order barring the government from departing from its representation that no removal flights to Afghanistan or Pakistan were planned or confirmed through the end of the week.",
-      "tier": "reported",
+      "rationale": "My reading: client-specific judicial relief remains a constraint beyond the earlier cutoff; the order does not decide the merits of national removal policy.",
+      "source": "Politico Playbook PM (citing NYT); VisaVerge (citing Bloomberg); AP Morning Wire (Nov 1 headline); Common Dreams (citing NYT, Oct 30); Euronews, Al Jazeera (headlines, Nov 2-3); https://reports.afghanevac.org/litigation/?embed=1; https://apnews.com/article/a419fbb329b96480d806d9ffbd52ccb4; https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2026cv09602/676381/21/0.pdf",
+      "text": "A reported Afghan removal plan is constrained by the November 6 Project Rousseau order, extending temporary relief for the identified clients pending further order.",
+      "tier": "documented",
       "url": "https://www.visaverge.com/legal/united-states-plans-to-deport-detained-afghans-to-pakistan/",
       "weight": 2
     },
