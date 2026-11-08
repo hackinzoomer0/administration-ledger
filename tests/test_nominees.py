@@ -16,6 +16,15 @@ spec.loader.exec_module(module)
 class ForecastGuard(unittest.TestCase):
     def setUp(self):
         self.before = load()
+        # Production may end with daily monitoring or a full weekly record.
+        # Exercise daily storage consistently instead of depending on today's HEAD.
+        history = self.before['collections']['nominations']['republican_2028']['tracking']['history']
+        monitor = copy.deepcopy(history[-1])
+        monitor.update(id='fixture-prior-monitor', type='daily_review',
+                       wargame_ref=effective_game(history)[1],
+                       monitoring={'prediction_updates':[]})
+        monitor.pop('wargame', None)
+        history.append(monitor)
         self.after = copy.deepcopy(self.before)
         self.forecast = self.after['collections']['nominations']['republican_2028']
         self.entry = copy.deepcopy(self.forecast['tracking']['history'][-1])
@@ -168,7 +177,7 @@ class ForecastGuard(unittest.TestCase):
             row = self.forecast['candidates'][index]
             row['nomination_likelihood_pct'] += delta
             self.entry['probabilities_pct'][row['id']] += delta
-            self.entry['assessments'][row['id']]['delta_pp'] = delta
+            self.entry['assessments'][row['id']].update(delta_pp=delta, source_ids=[self.forecast['sources'][0]['id']])
         with self.assertRaisesRegex(ValueError, 'scenario mixture'):
             self.check()
 
@@ -198,7 +207,11 @@ class ForecastGuard(unittest.TestCase):
             self.check()
 
     def test_past_deadline_needs_resolution_not_silent_carry(self):
-        self.entry['date'] = self.forecast['as_of_date'] = '2027-05-01'
+        from datetime import date, timedelta
+        prediction=self.entry['wargame']['predictions'][0]
+        prediction['status']='pending'
+        prediction['resolution']='Fixture awaits its outcome.'
+        self.entry['date'] = self.forecast['as_of_date'] = (date.fromisoformat(prediction['resolve_by']) + timedelta(days=1)).isoformat()
         with self.assertRaisesRegex(ValueError, 'Passed prediction'):
             self.check()
 
@@ -229,7 +242,7 @@ class ForecastGuard(unittest.TestCase):
             row=self.forecast['candidates'][index]
             row['nomination_likelihood_pct'] += delta
             self.entry['probabilities_pct'][row['id']] += delta
-            self.entry['assessments'][row['id']]['delta_pp'] = delta
+            self.entry['assessments'][row['id']].update(delta_pp=delta, source_ids=[self.forecast['sources'][0]['id']])
         with self.assertRaisesRegex(ValueError, 'holds odds'):
             self.check()
 

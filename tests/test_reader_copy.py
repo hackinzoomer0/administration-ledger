@@ -5,11 +5,20 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from database import load
 from reader_copy import plan, validate
+from wargame import effective_game
 
 
 class ReaderCopyReview(unittest.TestCase):
     def setUp(self):
-        self.before=load();self.after=copy.deepcopy(self.before)
+        self.before=load()
+        # Always exercise the real daily-after-weekly storage shape, even when
+        # the checked-in database happens to end with a full game.
+        history=self.before['collections']['nominations']['republican_2028']['tracking']['history']
+        history.append({'id':'reader-copy-monitor','wargame_ref':effective_game(history)[1],
+                        'monitoring':{'prediction_updates':[]}})
+        self.before['collections']['assessments']['current']['review']['run_id']='reader-copy-test'
+        self.before['collections']['runs']['reader-copy-test']={'summary':'Fixture review.'}
+        self.after=copy.deepcopy(self.before)
         self.current=self.after['collections']['assessments']['current']
         self.current['nomination']['candidates'][0]['vulnerability']='Vance may lose supporters if they blame him for the war.'
 
@@ -41,12 +50,12 @@ class ReaderCopyReview(unittest.TestCase):
     def test_technical_changes_do_not_create_fake_editorial_work(self):
         self.after=copy.deepcopy(self.before)
         n=self.after['collections']['nominations']['republican_2028']
-        n['tracking']['history'][-1]['wargame']['weighting_note']='Technical explanation kept in audit history.'
+        next(row['wargame'] for row in reversed(n['tracking']['history']) if 'wargame' in row)['weighting_note']='Technical explanation kept in audit history.'
         self.assertEqual(plan(self.before,self.after),{})
 
     def test_real_wargame_response_and_new_event_are_reviewed(self):
         n=self.after['collections']['nominations']['republican_2028']
-        game=n['tracking']['history'][-1]['wargame']
+        game=next(row['wargame'] for row in reversed(n['tracking']['history']) if 'wargame' in row)
         path=next(iter(game['projection_review']['scenarios'].values()))['candidate_paths']['jd_vance']
         path['voter_response']='Voters could reward a negotiated end to the war.'
         event=self.after['collections']['events']['IRN']['items'][0]

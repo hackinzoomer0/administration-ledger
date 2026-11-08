@@ -64,16 +64,55 @@ def publish(stage):
             git('-c', 'credential.helper=', '-c', f'credential.helper=!{shlex.quote(gh)} auth git-credential', 'push', 'origin', 'main')
         commit = git('rev-parse', 'HEAD')
         expected = database_hash(directory)
-        for attempt in range(90):
+        return wait_for_deployment(stage, commit, expected)
+
+
+def deployment_status(commit):
+    """Best-effort CI diagnostics; unavailable GitHub API must not mask Pages verification."""
+    gh = shutil.which('gh') or str(Path.home() / '.local/bin/gh')
+    try:
+        result = subprocess.run([gh, 'run', 'list', '--repo', REPO, '--commit', commit,
+                                 '--workflow', 'deploy.yml', '--limit', '1',
+                                 '--json', 'databaseId,status,conclusion,url'],
+                                capture_output=True, text=True, timeout=15, check=True)
+        rows = json.loads(result.stdout)
+        status = rows[0] if rows else None
+        if status and status.get('status') == 'completed' and status.get('conclusion') != 'success':
             try:
-                with urlopen(f'{LIVE}version.json?v={commit}&attempt={attempt}', timeout=10) as response:
-                    version = json.load(response)
-                if version.get('commit') == commit and version.get('database_hash') == expected:
-                    return {'status': 'verified', 'commit': commit, 'database_hash': expected, 'url': LIVE}
-            except (OSError, ValueError):
+                result = subprocess.run([gh, 'run', 'view', str(status['databaseId']), '--repo', REPO,
+                                         '--json', 'jobs'], capture_output=True, text=True, timeout=15, check=True)
+                status['failed_steps'] = [job['name'] + ': ' + step['name']
+                                          for job in json.loads(result.stdout).get('jobs', [])
+                                          for step in job.get('steps', []) if step.get('conclusion') == 'failure']
+            except (OSError, subprocess.SubprocessError, ValueError, KeyError):
                 pass
-            time.sleep(5)
-        raise RuntimeError(f'GitHub Pages has not verified {commit}; staged diagnostics retained')
+        return status
+    except (OSError, subprocess.SubprocessError, ValueError, IndexError):
+        return None
+
+
+def wait_for_deployment(stage, commit, expected, attempts=90, interval=5):
+    for attempt in range(attempts):
+        try:
+            with urlopen(f'{LIVE}version.json?v={commit}&attempt={attempt}', timeout=10) as response:
+                version = json.load(response)
+            if version.get('commit') == commit and version.get('database_hash') == expected:
+                return {'status': 'verified', 'commit': commit, 'database_hash': expected, 'url': LIVE}
+        except (OSError, ValueError):
+            pass
+        if attempt % 3 == 0:
+            status = deployment_status(commit)
+            if status:
+                atomic_json(Path(stage) / 'deployment-status.json', status)
+                if status.get('status') == 'completed' and status.get('conclusion') != 'success':
+                    raise RuntimeError(f"Deployment workflow {status.get('conclusion')} for {commit}: "
+                                       f"{status.get('url')}; failed steps: {', '.join(status.get('failed_steps', [])) or 'see workflow'}. "
+                                       'Research was pushed but has not been verified live or applied; '
+                                       'inspect the failed CI job before retrying. Staged research retained.')
+        if attempt + 1 < attempts:
+            time.sleep(interval)
+    raise RuntimeError(f'GitHub Pages has not verified {commit}; staged diagnostics retained')
+
 
 
 if __name__ == '__main__':
