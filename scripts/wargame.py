@@ -174,7 +174,7 @@ def validate_projection_review(game, names, sources, events):
                          'organization_coalition', 'feedback', 'share_justification', 'countercase'])
 
 
-def validate_support_bases(game, names, sources, events):
+def validate_support_bases(game, names, sources, events, previous=None):
     """Prospective weekly coverage: who supports each contender and what those groups can do."""
     candidates = game.get('comparison_review', {}).get('candidates', {})
     for name in names:
@@ -182,6 +182,10 @@ def validate_support_bases(game, names, sources, events):
         for field in ['loyalty_and_alignment', 'overlap_and_transfer', 'limits_and_countercase']:
             if not isinstance(base.get(field), str) or not base[field].strip():
                 raise ValueError(f'Support-base assessment requires {field} for {name}')
+        discovery = base.get('discovery_review', {})
+        for field in ['voters', 'donors', 'media', 'organizers', 'bias_check', 'changes_since_previous']:
+            if not isinstance(discovery.get(field), str) or not discovery[field].strip():
+                raise ValueError(f'Support-base discovery requires {field} for {name}')
         groups = base.get('constituencies')
         if not isinstance(groups, list) or not groups:
             raise ValueError(f'Support-base assessment needs constituencies for {name}; explicit unknown is allowed')
@@ -193,6 +197,14 @@ def validate_support_bases(game, names, sources, events):
             ids.add(ident)
             if not isinstance(group.get('description'), str) or not group['description'].strip():
                 raise ValueError('Support-base constituency needs a description')
+            if group.get('kind') not in {'voters', 'donors', 'media', 'organizers'}:
+                raise ValueError('Support groups must distinguish voters, donors, media and organizers')
+            for field in ['priorities', 'tradeoffs', 'commitment_signals', 'exit_conditions', 'alternatives']:
+                if not isinstance(group.get(field), str) or not group[field].strip():
+                    raise ValueError(f'Support group requires {field}')
+            change = group.get('change', {})
+            if change.get('direction') not in {'strengthening', 'stable', 'weakening', 'mixed', 'unknown'} or not isinstance(change.get('reason'), str) or not change['reason'].strip():
+                raise ValueError('Support groups require a direction and reason for change or hold')
             status, kind, confidence = group.get('status'), group.get('evidence_kind'), group.get('confidence')
             if status not in {'observed', 'potential', 'unknown'} or kind not in {'measured', 'behavioral', 'inferred', 'unknown'} or confidence not in {'low', 'medium', 'high'}:
                 raise ValueError('Support-base assessment must distinguish observed/potential/unknown support, evidence kind and confidence')
@@ -204,6 +216,11 @@ def validate_support_bases(game, names, sources, events):
                 raise ValueError('Support-base claims require sourced premises; polling is not required')
             if not set(group.get('source_ids', [])) <= sources or not set(group.get('event_ids', [])) <= events:
                 raise ValueError('Unresolved support-base evidence')
+        old_base = (previous or {}).get('comparison_review', {}).get('candidates', {}).get(name, {}).get('base_assessment', {})
+        removed = {group['id'] for group in old_base.get('constituencies', [])} - ids
+        retired = base.get('retired_groups')
+        if not isinstance(retired, dict) or set(retired) != removed or any(not isinstance(reason, str) or not reason.strip() for reason in retired.values()):
+            raise ValueError('Support-base changes must explain exactly the prior groups removed or replaced')
         for scenario in game['scenarios']:
             if scenario['weight_pct'] <= 0:
                 continue

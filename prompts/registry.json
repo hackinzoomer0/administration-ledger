@@ -459,5 +459,9 @@
   "reader-copy-review": {
     "asof": "2026-11-07",
     "role": "reader-copy-review"
+  },
+  "support-base-research": {
+    "asof": "2026-11-08",
+    "role": "support-base-research"
   }
 }

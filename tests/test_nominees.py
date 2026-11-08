@@ -79,7 +79,16 @@ class ForecastGuard(unittest.TestCase):
             'framing_check': 'Fixture comparison; no preference-driven reweighting.',
             'candidates': {name: {
                 'base_assessment': {
+                    'discovery_review':{key:'Fixture inquiry with limited evidence; no unsupported constituency is invented.'
+                                        for key in ['voters','donors','media','organizers','bias_check','changes_since_previous']},
+                    'retired_groups':{},
                     'constituencies':[{'id':'fixture-supporters','description':'Potential supporters sharing the candidate’s recorded priorities; not measured voters.',
+                                      'kind':'voters','priorities':'They may favor ending the war.',
+                                      'tradeoffs':'Some may tolerate other disagreements for this priority.',
+                                      'commitment_signals':'No measured presidential support in this fixture.',
+                                      'exit_conditions':'Supporting more military action could weaken their interest.',
+                                      'alternatives':'Rivals with similar positions or abstention are possible.',
+                                      'change':{'direction':'unknown','reason':'First fixture baseline; no measured change.'},
                                       'status':'potential','evidence_kind':'inferred','confidence':'low','source_ids':[source],'event_ids':[]}],
                     'loyalty_and_alignment':'Support could depend on the candidate, an issue or an outside commentator.',
                     'overlap_and_transfer':'A rival endorsement does not guarantee that supporters follow.',
@@ -516,6 +525,56 @@ class ForecastGuard(unittest.TestCase):
         for scenario in self.entry['wargame']['projection_review']['scenarios'].values():
             effects=scenario['candidate_paths']['jd_vance']['base_effects']
             effects['second-group']=copy.deepcopy(effects['fixture-supporters'])
+        self.check()
+
+    def test_discovery_cannot_omit_donor_or_other_support_domains(self):
+        review=self.entry['wargame']['comparison_review']['candidates']['jd_vance']['base_assessment']['discovery_review']
+        for field in ['voters','donors','media','organizers','bias_check','changes_since_previous']:
+            saved=review.pop(field)
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError,'discovery requires '+field):
+                self.check()
+            review[field]=saved
+
+    def test_base_research_requires_priorities_exit_options_and_change_tracking(self):
+        group=self.entry['wargame']['comparison_review']['candidates']['jd_vance']['base_assessment']['constituencies'][0]
+        for field in ['priorities','tradeoffs','commitment_signals','exit_conditions','alternatives']:
+            saved=group.pop(field)
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError,'Support group requires '+field):
+                self.check()
+            group[field]=saved
+        group['change']={'direction':'weakening','reason':''}
+        with self.assertRaisesRegex(ValueError,'direction and reason'):
+            self.check()
+
+    def test_removed_support_relationships_need_explicit_disposition(self):
+        from wargame import validate_support_bases
+        game=self.entry['wargame']
+        previous=copy.deepcopy(game)
+        old=previous['comparison_review']['candidates']['jd_vance']['base_assessment']['constituencies']
+        old[0]['id']='previous-group'
+        sources={row['id'] for row in self.forecast['sources']}
+        events={row['id'] for group in self.after['collections']['events'].values() for row in group['items']}
+        with self.assertRaisesRegex(ValueError,'prior groups removed'):
+            validate_support_bases(game,list(game['candidate_debates']),sources,events,previous)
+        base=game['comparison_review']['candidates']['jd_vance']['base_assessment']
+        base['retired_groups']={'previous-group':'Split into a revised group after new evidence; details retained in history.'}
+        validate_support_bases(game,list(game['candidate_debates']),sources,events,previous)
+        base['retired_groups']['invented-old-group']='Unrelated entry.'
+        with self.assertRaisesRegex(ValueError,'prior groups removed'):
+            validate_support_bases(game,list(game['candidate_debates']),sources,events,previous)
+
+    def test_weekly_change_validation_uses_the_prior_full_game_through_daily_records(self):
+        # Simulate a prior game with a support map, followed by daily monitoring.
+        for ledger in [self.before,self.after]:
+            history=ledger['collections']['nominations']['republican_2028']['tracking']['history']
+            prior=next(row['wargame'] for row in history if row['id']==self.full_game_id)
+            base=copy.deepcopy(self.entry['wargame']['comparison_review']['candidates']['jd_vance']['base_assessment'])
+            base['constituencies'][0]['id']='previous-group'
+            prior['comparison_review']['candidates']['jd_vance']['base_assessment']=base
+        with self.assertRaisesRegex(ValueError,'prior groups removed'):
+            self.check()
+        self.entry['wargame']['comparison_review']['candidates']['jd_vance']['base_assessment']['retired_groups']={
+            'previous-group':'Replaced after revised evidence; prior description stays in history.'}
         self.check()
 
 
