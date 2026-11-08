@@ -17,6 +17,7 @@ import { CandidateList } from "../components/CandidateList";
 import { ReadingBlock } from "../components/ReadingBlock";
 import { ResearchText } from "../components/ResearchText";
 import { Section } from "../components/Section";
+import { ForecastWargame } from "../components/ForecastWargame";
 import { CandidateProfile } from "../components/CandidateProfile";
 export default function Nominees() {
   const { id } = useParams();
@@ -59,6 +60,9 @@ export default function Nominees() {
       <Section title="The field: paths and vulnerabilities">
         <CandidateList />
       </Section>
+      {history.at(-1)?.wargame && (
+        <ForecastWargame game={history.at(-1)!.wargame!} />
+      )}
       <Section title="What is still uncertain">
         <Stack spacing={1.5} divider={<Divider />}>
           {forecast.forecast_methodology.critical_uncertainties.map((text) => (

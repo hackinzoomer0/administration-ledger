@@ -447,5 +447,9 @@
   "current-assessment": {
     "asof": "2026-11-07",
     "role": "current-assessment"
+  },
+  "nomination-wargame": {
+    "asof": "2026-11-07",
+    "role": "nomination-wargame"
   }
 }

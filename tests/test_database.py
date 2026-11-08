@@ -70,6 +70,8 @@ class DatabaseWorkflow(unittest.TestCase):
             snapshot['id'] = 'workflow-fixture'
             snapshot['run_id'] = 'workflow-fixture'
             snapshot['type'] = 'daily_review'
+            for assessment in snapshot['assessments'].values():
+                assessment['delta_pp'] = 0
             forecast['tracking']['history'].append(snapshot)
             ledger['collections']['runs']['workflow-fixture'] = {'summary': 'Fixture'}
             current = ledger['collections']['assessments']['current']

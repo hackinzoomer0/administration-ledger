@@ -89,7 +89,7 @@ def validate(ledger):
             if not set(event['issues']) <= collections['issues'].keys():
                 raise ValueError(f"Unknown issue: {event['id']}")
     from validate_nominees import validate as validate_nominees
-    validate_nominees(ledger, ledger, 'Weekly')
+    validate_nominees(ledger, ledger, 'Integrity')
     from validate_assessments import validate as validate_assessments
     validate_assessments(ledger)
     return {'collections': len(collections), 'events': len(seen), 'nominees': len(collections['nominations']['republican_2028']['candidates'])}

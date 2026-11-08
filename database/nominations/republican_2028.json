@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "title": "2028 Republican nomination candidate wargame",
   "as_of_date": "2026-11-07",
   "timezone": "America/Chicago",
@@ -22,11 +22,11 @@
     ]
   },
   "forecast_methodology": {
-    "type": "Subjective analyst judgment",
+    "type": "Subjective predictive scenario wargame with structured opposition",
     "target": "Conditional probability of winning the 2028 Republican nomination given that one of the five included candidates wins; not a full-field probability.",
     "not_polling_or_market_odds": true,
     "not_statistically_calibrated": true,
-    "precision_note": "Two decimal places preserve proportional normalization; they do not indicate measured precision or confidence intervals.",
+    "precision_note": "Two-decimal arithmetic reproduces the mixture and preserves the total; it does not establish predictive precision.",
     "normalization": "The five owner-authorized candidates sum to 100. These are conditional shares among the approved roster; unlisted contenders remain an explicit field-coverage uncertainty. No threshold permits automatic additions.",
     "basis": [
       "Early polling and institutional position",
@@ -36,7 +36,7 @@
       "Donor and organizational relationships",
       "Documented controversies and prospective oversight"
     ],
-    "base_case": "Uneven de-escalation efforts, lingering economic costs, congressional oversight beginning with the new Congress in January 2027, and conflict over responsibility.",
+    "base_case": "Persistent policy costs and accountability pressure; alternative recovery, selective blame and partisan-backlash branches are explicitly weighted.",
     "critical_uncertainties": [
       "War trajectory",
       "Economic recovery",
@@ -45,12 +45,18 @@
       "Candidate entry",
       "Unlisted challengers"
     ],
-    "probability_source": "Subjective original weights proportionally normalized across the five included candidates; not polling, market odds, or a formal simulation.",
+    "probability_source": "Weighted mixture of explicit scenario weights and conditional winner shares, incorporating candidate entry and organization. Inputs are analyst judgments, not calibrated frequencies.",
     "candidate_inclusion_rule": {
       "named_candidates_retained": true,
       "additional_candidates_require_explicit_owner_authorization": true,
       "assessment_note": "Supersedes the imported >10% automatic inclusion rule. Outside contenders may be flagged for owner review, never added or assigned tracked probabilities by scheduled reviews."
-    }
+    },
+    "version": "scenario_wargame_v1",
+    "authorization": {
+      "date": "2026-11-07",
+      "basis": "Owner requested predictive reasoning about voter attribution, candidate reactions, Democratic oversight and adversarial challenges when guessing odds; authorizes this methodology revision, not changes to the five-person roster."
+    },
+    "formula": "share(candidate) = sum over scenarios of weight_pct * shares_pct[candidate] / 100; both layers are conditional on an approved candidate winning."
   },
   "issue_definitions": [
     {
@@ -88,8 +94,8 @@
     {
       "id": "jd_vance",
       "name": "JD Vance",
-      "nomination_likelihood_pct": 49.35,
-      "forecast_rationale": "Lead is consistent with the ledger: RNC finance role, Malik/Rockbridge fundraising, Turning Point backing and Don Jr. provide concrete channels. The post-election Iran break creates strategic room as well as credibility risk; it is not a measured gain in voter support. Tech backers are not a unified bloc on immigration. Hold 49.35 as an uncalibrated starting estimate.",
+      "nomination_likelihood_pct": 41.7,
+      "forecast_rationale": "Keep him first, but reduce the inherited near-half share. Organizational advantages survive many branches; a material chance of sustained responsibility and credible opposition narrows his lead. The downgrade is a new judgment, not a measured fall in primary support.",
       "positions": {
         "affordability_energy_trade": {
           "summary": "Economic-nationalist political identity; responsibility for administration outcomes limits his ability to present himself as an independent corrective.",
@@ -353,8 +359,8 @@
     {
       "id": "marco_rubio",
       "name": "Marco Rubio",
-      "nomination_likelihood_pct": 20.78,
-      "forecast_rationale": "The ledger supports a distinct rival through hawk-donor access and State/NSC staffing leverage, but he also follows Trump when hawks disagree and has publicly deferred to Vance. His Nov 5 war defense differentiates him while preserving ownership of costs. The near tie with DeSantis is more scenario-dependent than the organizational record suggests. Hold 20.78 pending stronger entry and coalition evidence.",
+      "nomination_likelihood_pct": 16.55,
+      "forecast_rationale": "Lower than the imported share: his strongest assets overlap the policy most directly under challenge, and entry/deference uncertainty remains. He still has a real recovery or loyalty-based route.",
       "positions": {
         "affordability_energy_trade": {
           "summary": "Potential appeal through experience and business confidence; no comprehensive current economic platform verified.",
@@ -544,8 +550,8 @@
     {
       "id": "ron_desantis",
       "name": "Ron DeSantis",
-      "nomination_likelihood_pct": 19.48,
-      "forecast_rationale": "A state-executive alternative to federal war decision-makers is a defensible scenario. However, the ledger establishes much less current factional organization behind him than behind Rubio or Vance; 19.48 depends on future coalition transfer and campaign rebuilding. Hold the imported estimate provisionally, not as a conclusion derived from faction scores.",
+      "nomination_likelihood_pct": 27.9,
+      "forecast_rationale": "Raise him to the leading approved alternative, not an established new favorite. The gain is concentrated in systemic-repudiation branches and remains dependent on rebuilding an actual campaign.",
       "positions": {
         "affordability_energy_trade": {
           "summary": "Explicitly connects prolonged war to higher fuel costs and working-class hardship.",
@@ -736,8 +742,8 @@
     {
       "id": "ted_cruz",
       "name": "Ted Cruz",
-      "nomination_likelihood_pct": 6.49,
-      "forecast_rationale": "A distinct hawkish and tariff-skeptical donor-facing alternative is consistent with the ledger. Rubio competes for much of that network. Prior campaign donors do not establish present commitments; existing faction access does not determine primary votes. Hold 6.49 pending current organizing, entry and subgroup support evidence.",
+      "nomination_likelihood_pct": 9.5,
+      "forecast_rationale": "A modest relative gain as a fallback when executive contenders lose credibility, capped by shared policy exposure and unverified current organizing. No automatic transfer of Rubio donors is assumed.",
       "positions": {
         "affordability_energy_trade": {
           "summary": "Criticized tariffs as increasing prices and called for ending the prolonged war.",
@@ -937,8 +943,8 @@
     {
       "id": "john_mcentee",
       "name": "John McEntee",
-      "nomination_likelihood_pct": 3.9,
-      "forecast_rationale": "Historical withdrawal action and nationalist personnel work supply substantive policy credentials. They connect analytically to restraint and executive-control concerns without demonstrating a current faction endorsement, transferable Thiel backing or an electoral organization. Hold 3.90 as highly speculative; absence from the older faction roster is a coverage gap, not evidence of no support.",
+      "nomination_likelihood_pct": 4.35,
+      "forecast_rationale": "Keep a small speculative share, with only a modest gain in a more open race. Do not reward him mechanically for every Vance weakness; the opening may go outside this roster.",
       "positions": {
         "affordability_energy_trade": {
           "summary": "No sufficiently developed current economic platform established by this research.",
@@ -1613,6 +1619,24 @@
       "accessed_on": "2026-11-07",
       "description": "Post-election positioning; see existing irn-2026-11-04-vance-postelection-war-critique episode.",
       "verification_status": "reporting_read"
+    },
+    {
+      "id": "ap_voter_poll_2026_results",
+      "url": "https://www.ap.org/news-highlights/elections/2026/how-trump-and-republicans-lost-the-2026-midterm-elections-according-to-the-ap-voter-poll/",
+      "publisher": "Associated Press / SSRS",
+      "publication_date": "2026-11-04",
+      "accessed_on": "2026-11-07",
+      "description": "Original AP account of its voter survey, fielded October 19/22–November 3. Policy responsibility, costs, corruption, candidate quality and demand for checks; election electorate, not a 2028 primary poll.",
+      "verification_status": "primary_read"
+    },
+    {
+      "id": "blumenthal_2026_preservation",
+      "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more",
+      "publisher": "Senator Richard Blumenthal",
+      "publication_date": "2026-11-05",
+      "accessed_on": "2026-11-07",
+      "description": "Official investigation and document-preservation demands ahead of incoming committee chairmanship; allegations and intended process, not adjudicated findings.",
+      "verification_status": "primary_read"
     }
   ],
   "roster_authorization": {
@@ -2022,6 +2046,621 @@
           "McEntee’s detailed current Iran/Israel and immigration proposals, and the attachment’s lobbying totals and conduct allegations, were not fully re-audited.",
           "AP Rubio Nov 5 page and the DeSantis Florida Politics page failed to load; those details remain attributed to prior ledger/attachment evidence.",
           "The older report/overview and archived faction prose contain stale material; this pass adds dated succession corrections rather than re-auditing all legacy claims."
+        ]
+      },
+      {
+        "id": "2026-11-07-predictive-nomination-wargame",
+        "date": "2026-11-07",
+        "run_id": "2026-11-07-predictive-nomination-wargame",
+        "type": "faction_consistency_review",
+        "summary": "Vance retains the strongest starting route but loses some advantage once persistent costs, senior responsibility and a credible alternative are explicitly weighed. DeSantis becomes the leading approved alternative. Neither a disloyalty trap nor a successful Trump-authorized reset is inevitable.",
+        "probabilities_pct": {
+          "jd_vance": 41.7,
+          "marco_rubio": 16.55,
+          "ron_desantis": 27.9,
+          "ted_cruz": 9.5,
+          "john_mcentee": 4.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": -7.65,
+            "reason": "Keep him first, but reduce the inherited near-half share. Organizational advantages survive many branches; a material chance of sustained responsibility and credible opposition narrows his lead. The downgrade is a new judgment, not a measured fall in primary support.",
+            "review_status": "partial",
+            "source_ids": [
+              "ap_voter_poll_2026_results",
+              "blumenthal_2026_preservation",
+              "harris_oct2026_primary",
+              "prri",
+              "vance_postmortem_faction_pass"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "mid-2026-11-05-wiles-hegseth-blame",
+              "mid-2026-11-06-miller-chief-staff"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": -4.23,
+            "reason": "Lower than the imported share: his strongest assets overlap the policy most directly under challenge, and entry/deference uncertainty remains. He still has a real recovery or loyalty-based route.",
+            "review_status": "partial",
+            "source_ids": [
+              "ap_voter_poll_2026_results",
+              "blumenthal_2026_preservation",
+              "harris_oct2026_primary",
+              "prri",
+              "griffin_rubio"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "mid-2026-11-05-wiles-hegseth-blame",
+              "mid-2026-11-06-miller-chief-staff"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 8.42,
+            "reason": "Raise him to the leading approved alternative, not an established new favorite. The gain is concentrated in systemic-repudiation branches and remains dependent on rebuilding an actual campaign.",
+            "review_status": "partial",
+            "source_ids": [
+              "ap_voter_poll_2026_results",
+              "blumenthal_2026_preservation",
+              "harris_oct2026_primary",
+              "prri",
+              "desantis_donors",
+              "desantis_2025"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 3.01,
+            "reason": "A modest relative gain as a fallback when executive contenders lose credibility, capped by shared policy exposure and unverified current organizing. No automatic transfer of Rubio donors is assumed.",
+            "review_status": "partial",
+            "source_ids": [
+              "ap_voter_poll_2026_results",
+              "blumenthal_2026_preservation",
+              "harris_oct2026_primary",
+              "prri",
+              "cruz_donor_positioning"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0.45,
+            "reason": "Keep a small speculative share, with only a modest gain in a more open race. Do not reward him mechanically for every Vance weakness; the opening may go outside this roster.",
+            "review_status": "partial",
+            "source_ids": [
+              "ap_voter_poll_2026_results",
+              "blumenthal_2026_preservation",
+              "harris_oct2026_primary",
+              "prri",
+              "project2025",
+              "mcentee_withdrawal",
+              "mcentee_personnel_record"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          }
+        },
+        "wargame": {
+          "model_version": "scenario_wargame_v1",
+          "target": "Conditional probability of winning the 2028 Republican nomination given that one of the five included candidates wins; not a full-field probability.",
+          "horizon": "Dominant environment during candidate entry, coalition formation and the 2028 Republican nomination contest; next checkpoints through early 2027.",
+          "summary": "Vance retains the strongest starting route but loses some advantage once persistent costs, senior responsibility and a credible alternative are explicitly weighed. DeSantis becomes the leading approved alternative. Neither a disloyalty trap nor a successful Trump-authorized reset is inevitable.",
+          "debate_mode": "Single-analyst review of competing cases, with an explicit rebuttal and verdict.",
+          "partition_rule": "Branches describe the dominant nomination environment, conditional on an approved candidate winning. If drivers overlap, classify by what dominates coalition formation: substantive recovery first; otherwise broad senior accountability, accepted selective accountability, weak-findings partisan backlash, or the residual mixed-cost environment. Do not count the same world twice.",
+          "field_risk": "A leadership crisis could favor an unlisted contender rather than any approved alternative. These conditional weights cannot measure that missing probability; no contender is added or assigned full-field odds.",
+          "weighting_note": "Scenario weights and within-scenario winner shares are explicit subjective judgments, including entry/organization risk. Their weighted mixture is reproducible but uncalibrated. None is a poll conversion, measured decline, criminal-guilt estimate or confidence interval. No imported percentage is an anchor that must be preserved.",
+          "judgments": {
+            "election_verdict": {
+              "finding": "The leading explanation is rejection of costly policy outcomes and self-serving priorities, amplified by weak candidates; this is not merely an unlucky campaign or a mandate against every conservative policy.",
+              "countercase": "A midterm electorate differs from the next presidential primary electorate. Opposition turnout and local candidate quality can magnify a national defeat.",
+              "resolution": "Treat affordability, war costs and accountability as a joint liability. Vance’s war-only diagnosis preserves his domestic program but leaves an opening on tariffs and administration priorities. Do not assign causal percentages from a survey.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "responsibility": {
+              "finding": "Trump is the principal owner. Vance and Rubio cannot shed public advocacy and senior-office responsibility through retrospective criticism; Hegseth is a plausible concentrated target but not a sufficient explanation for economy-wide discontent.",
+              "countercase": "Voters can distinguish the president who ordered a policy, its operational managers and an adviser who argued for limits. A successful exit can differentiate the latter.",
+              "resolution": "Assign blame by the specific act, public defense and documentary chain, not association alone. Expect attempted scapegoating; whether it sticks depends on records and whether living conditions improve.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "appeal_and_durability": {
+              "finding": "Vance has the strongest demonstrated starting route among the approved five. DeSantis has the clearest conditional opening for executive experience outside the current federal decision chain, but no demonstrated transfer of that coalition.",
+              "countercase": "Early recognition and patron access can be mistaken for durable attraction. An apparent outsider can also carry Trump-era baggage, past campaign weaknesses or state controversies.",
+              "resolution": "Discount familiar names and access when estimating future wins. A credible break needs a program, organizing and costly choices, while a continuity candidate needs results rather than a revised explanation.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "democratic_power": {
+              "finding": "Expect investigations, preservation disputes, hearings and pressure over spending and confirmations once the new Congress organizes. This should keep responsibility and financial conflicts in the news rather than permit a clean messaging reset.",
+              "countercase": "A congressional majority is not control of the executive. Vetoes, Senate procedure, litigation, competing legislative priorities and public fatigue constrain what Democrats can deliver.",
+              "resolution": "Forecast sustained scrutiny more readily than immediate policy reversal, removal or prosecution. Obstruction or partisan excess can create a Republican rallying point; failure to lower costs can also redistribute blame toward Congress.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "oversight_findings": {
+              "finding": "Politically damaging records about process, internal warnings and financial conflicts are more plausible than a uniform exoneration. A proven criminal case against any named contender is not established and is not the base-case requirement for political harm.",
+              "countercase": "An inquiry can repeat already-known allegations, encounter privilege or missing records, or fail to connect a conflict to a decision. Strong partisan rhetoric can outrun admissible evidence.",
+              "resolution": "Model systemic damage, selective accountability and weak-findings backlash separately. Criminal illegality, a substantiated ethics violation, misleading conduct and political embarrassment are different outcomes; do not forecast a particular person’s guilt from incentives.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "loyalty_dilemma": {
+              "finding": "Selective differentiation is the most likely initial strategy: credit Trump and MAGA goals, blame implementation or advisers, promise competent correction. Vance’s timing makes an opportunism attack available to both hawks and restraint rivals.",
+              "countercase": "Trump publicly welcomed Vance’s postmortem and Don Jr. supported the message in the existing record. Vance can criticize policy with permission; voters need not punish adaptation they see as learning.",
+              "resolution": "The squeeze is real but not automatically fatal. The critical test is a costly forced choice: testimony, a funding limit, a dismissal or contradiction in documents. A debate attack matters if a credible rival and an audience amplify it, not merely because the line is available.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            }
+          },
+          "scenarios": [
+            {
+              "id": "recovery",
+              "name": "Results rehabilitate continuity",
+              "weight_pct": 15,
+              "shares_pct": {
+                "jd_vance": 60,
+                "marco_rubio": 25,
+                "ron_desantis": 10,
+                "ted_cruz": 4,
+                "john_mcentee": 1
+              },
+              "definition": "A durable improvement in war and household costs dominates the nomination environment; serious revelations do not prevent leadership rehabilitation.",
+              "weight_reason": "Lower weight than persistent costs because an exit alone does not reverse inflation or repair trust; retained because two years allow meaningful change.",
+              "sequence": "Negotiation or policy correction produces visible relief; Trump claims vindication; networks consolidate behind an heir.",
+              "falsifier": "A settlement without cost relief or continuing credible records of misconduct would defeat the rehabilitation premise.",
+              "candidate_reasoning": {
+                "jd_vance": "Vance can claim the exit and retain Trump’s permission.",
+                "marco_rubio": "Rubio’s security rationale regains value, conditional on entry.",
+                "ron_desantis": "The need for a federal alternative recedes.",
+                "ted_cruz": "A narrower ideological lane survives, without a broad opening.",
+                "john_mcentee": "A demand for a wholly new figure remains small."
+              },
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "managed_costs",
+              "name": "Costs persist; leadership retains a coalition",
+              "weight_pct": 30,
+              "shares_pct": {
+                "jd_vance": 45,
+                "marco_rubio": 20,
+                "ron_desantis": 25,
+                "ted_cruz": 7,
+                "john_mcentee": 3
+              },
+              "definition": "Neither recovery, systemic accountability, a convincing selective reset nor an oversight backlash becomes dominant; dissatisfaction persists but Republican leadership retains organizing capacity.",
+              "weight_reason": "A residual mixed environment is plausible: entrenched networks survive, while prolonged costs prevent a clean return to the inherited baseline.",
+              "sequence": "Voters remain dissatisfied; candidates selectively criticize execution; no rival fully coordinates defectors.",
+              "falsifier": "Clear rehabilitation, party-wide documentary repudiation or a successful scapegoat reset would move weight to another branch.",
+              "candidate_reasoning": {
+                "jd_vance": "He can adapt, but recurring costs and credibility attacks reduce his cushion.",
+                "marco_rubio": "A loyalist alternative persists, limited by policy responsibility and entry.",
+                "ron_desantis": "Distance offers a meaningful but unproven coordination point.",
+                "ted_cruz": "Tariff skepticism helps at the margin; hawkish overlap limits growth.",
+                "john_mcentee": "A niche exists but organizing is missing."
+              },
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "systemic",
+              "name": "Accountability discredits the federal leadership",
+              "weight_pct": 30,
+              "shares_pct": {
+                "jd_vance": 20,
+                "marco_rubio": 10,
+                "ron_desantis": 45,
+                "ted_cruz": 17,
+                "john_mcentee": 8
+              },
+              "definition": "Credible disclosures or durable policy failure attach responsibility to senior leadership; a subordinate-only explanation does not satisfy an important Republican constituency. Criminal convictions are not required.",
+              "weight_reason": "War, household costs, demand for checks and documented investigative preparation justify substantial weight; absence of post-election primary data prevents making this the sole or majority scenario.",
+              "sequence": "Records or continued failure expose contradictions; donors and organizers consider alternatives; a credible rival turns attacks into coordination and early-state gains.",
+              "falsifier": "If primary voters retain confidence, disclosures fail to connect to senior decisions, or no alternative organizes, this branch is overstated.",
+              "candidate_reasoning": {
+                "jd_vance": "He retains a floor of access, but joint ownership and contradictory defenses are costly.",
+                "marco_rubio": "Direct foreign-policy ownership and deference leave limited escape.",
+                "ron_desantis": "An experienced state executive is the strongest approved coordination point, conditional on rebuilding.",
+                "ted_cruz": "He offers a non-executive fallback, discounted for hawkish responsibility.",
+                "john_mcentee": "A leadership vacuum helps a niche challenger, heavily discounted for insider baggage and entry gates."
+              },
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "selective",
+              "name": "Blame concentrates; an heir survives a reset",
+              "weight_pct": 15,
+              "shares_pct": {
+                "jd_vance": 48,
+                "marco_rubio": 12,
+                "ron_desantis": 28,
+                "ted_cruz": 8,
+                "john_mcentee": 4
+              },
+              "definition": "Credible accountability is concentrated on specific officials and accepted as bounded; correction creates space for a successor without broad leadership rehabilitation.",
+              "weight_reason": "Personnel pressure makes scapegoating plausible, but replacing a minister cannot alone erase prices, tariffs or vice-presidential responsibility.",
+              "sequence": "Hearings or a dismissal concentrate blame; Trump authorizes correction; an heir claims limits and competence while rivals test whether separation is credible.",
+              "falsifier": "Documents implicating the heir, continued economic deterioration or failed separation would push toward systemic damage or managed costs.",
+              "candidate_reasoning": {
+                "jd_vance": "Vance can support accountability with Trump’s permission; he is not inherently trapped on every choice.",
+                "marco_rubio": "Hegseth-focused blame does not automatically absolve State advice or Rubio’s defenses.",
+                "ron_desantis": "A partial reset leaves room to argue Washington cannot police itself.",
+                "ted_cruz": "A fallback benefits if rival heirs remain compromised.",
+                "john_mcentee": "A small opening persists without demonstrated electoral scale."
+              },
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "backlash",
+              "name": "Weak findings and partisan conflict restore loyalty",
+              "weight_pct": 10,
+              "shares_pct": {
+                "jd_vance": 60,
+                "marco_rubio": 20,
+                "ron_desantis": 12,
+                "ted_cruz": 5,
+                "john_mcentee": 3
+              },
+              "definition": "Investigations fail to persuade enough Republican voters and conflict with Democrats becomes the dominant organizing frame, without a substantive recovery.",
+              "weight_reason": "Retained as a countercase, not equal-weight balance: the documented demand for oversight makes assuming immediate backlash too optimistic for incumbents.",
+              "sequence": "Evidence disappoints or Democrats overreach; Republicans rally against Congress; Trump’s endorsement regains coordinating force.",
+              "falsifier": "Credible corroborated findings accepted within Republican networks or effective Democratic delivery would weaken this branch.",
+              "candidate_reasoning": {
+                "jd_vance": "The best-positioned authorized heir benefits, conditional on Trump maintaining permission.",
+                "marco_rubio": "A loyalist campaign has room, though deference remains an entry constraint.",
+                "ron_desantis": "A rupture pitch loses demand; he must compete on conservative governing performance.",
+                "ted_cruz": "An ideological lane survives but coordination favors the heir.",
+                "john_mcentee": "A media-oriented alternative may gain attention but not necessarily delegates."
+              },
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            }
+          ],
+          "candidate_debates": {
+            "jd_vance": {
+              "best_case": "He retains fundraising, name recognition and succession channels while delivering a negotiated exit. Trump grants room to correct the policy; primary voters prefer an experienced heir to restarting the party.",
+              "failure_case": "Post-defeat criticism looks retrospective. Documents or a Hegseth confrontation force him to defend conduct he privately questioned, abandon a colleague, or evade. Rivals use that record to make both loyalty and restraint claims untrustworthy.",
+              "rebuttal": "The opposing case overstates a no-win trap. Trump can authorize blame of subordinates; replacing Hegseth could help Vance. Without compelling records or a viable rival, voters may reward a practical pivot rather than consistency.",
+              "verdict": "Keep him first, but reduce the inherited near-half share. Organizational advantages survive many branches; a material chance of sustained responsibility and credible opposition narrows his lead. The downgrade is a new judgment, not a measured fall in primary support.",
+              "entry_assessment": "A presidential run is plausible from the vice presidency, but not declared here. Trump’s endorsement, rehabilitation and whether the lane remains viable determine entry and success; these are incorporated in scenario shares.",
+              "next_move": "Likely defend Trump personally while emphasizing an exit, costs and his earlier doubts. On Hegseth, initially separate policy review and due process from personal loyalty; reassess if evidence implicates his own public account.",
+              "rival_attack": "A rival can contrast private objections, public defenses and the timing after defeat: why trust another pivot? A hawk can attack abandonment; a restrainer can demand proof of a costly pre-election objection.",
+              "durability_test": "Actual peace and lower costs would blunt a consistency attack. Repeated incompatible defenses, documentary contradiction or loss of Trump-backed organizers would make the squeeze consequential rather than rhetorical.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "vance_postmortem_faction_pass"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "marco_rubio": {
+              "best_case": "An experienced security official can inherit loyalists who distrust Vance’s pivot, draw on hawkish donor access and argue the problem was execution rather than the original objectives.",
+              "failure_case": "If the policy itself is repudiated, credentials become ownership. Hearings put his explanations alongside internal warnings, while deference to Vance or failure to enter prevents conversion of donor preference into a campaign.",
+              "rebuttal": "Republicans can retain support for the original intervention despite rejecting its costs. Vance may absorb more succession blame, and Rubio can benefit if a settlement vindicates the security rationale.",
+              "verdict": "Lower than the imported share: his strongest assets overlap the policy most directly under challenge, and entry/deference uncertainty remains. He still has a real recovery or loyalty-based route.",
+              "entry_assessment": "Current office and donor preferences do not establish an independent candidacy. Explicit prior deference to Vance makes a contested entry less assured.",
+              "next_move": "Likely defend the initial security rationale, emphasize an achievable end state and avoid an early campaign declaration. Whether he protects or distances from Hegseth depends on evidence and departmental responsibility.",
+              "rival_attack": "An outsider can ask why the foreign-policy expert did not anticipate the costs. Vance can claim to have offered the exit while Rubio defended the initial course.",
+              "durability_test": "Watch an independent fundraising/endorsement operation, entry statements and testimony tying advice to decisions. A defensible settlement strengthens his case; proof public claims diverged from internal assessments weakens it.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "griffin_rubio"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            "ron_desantis": {
+              "best_case": "He offers governing experience without current federal command responsibility. Donors and primary voters seeking a new direction can coordinate around him if Washington’s leaders remain discredited.",
+              "failure_case": "Distance is mistaken for popularity. His earlier intervention statements, state accountability exposure and past campaign problems prevent a clean break, while donors prefer someone outside the approved roster.",
+              "rebuttal": "Those weaknesses do not erase the contrast with incumbents who must defend federal decisions. A prolonged accountability cycle can change what primary voters value and make executive distance more useful than Washington access.",
+              "verdict": "Raise him to the leading approved alternative, not an established new favorite. The gain is concentrated in systemic-repudiation branches and remains dependent on rebuilding an actual campaign.",
+              "entry_assessment": "A renewed run and effective organization are possible, not assumed certain. Shares discount the risk of non-entry, failed rebuilding and selection of another alternative.",
+              "next_move": "Likely distinguish limited force from prolonged war, emphasize state governing competence and criticize Washington without making an immediate personal break with Trump.",
+              "rival_attack": "Vance can cite prior support for force and the failed earlier campaign. Rivals can test whether state controversies undermine an accountability pitch.",
+              "durability_test": "Require current donors, organizers, early-state activity and voter response to the contrast; absence of those developments should erode the inferred opening.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "desantis_donors",
+                "desantis_2025"
+              ],
+              "event_ids": []
+            },
+            "ted_cruz": {
+              "best_case": "He has a recognizable conservative identity and a tariff-skeptical argument on costs. As a non-executive contender he can exploit division between administration heirs and seek religious-conservative organization.",
+              "failure_case": "A hawkish record limits separation from intervention, Rubio competes for donors and recognition does not produce coalition growth. Past repositioning and judgment controversies remain usable.",
+              "rebuttal": "Rubio may defer or remain tied to official explanations, leaving Cruz an independent lane. Opposition to tariffs can fit the election’s economic lesson without rejecting conservative identity.",
+              "verdict": "A modest relative gain as a fallback when executive contenders lose credibility, capped by shared policy exposure and unverified current organizing. No automatic transfer of Rubio donors is assumed.",
+              "entry_assessment": "A third presidential effort is uncertain; no new campaign or current donor coalition is verified in this pass.",
+              "next_move": "Likely criticize economic execution and tariff costs while defending security commitments and preserving access to Trump-aligned voters.",
+              "rival_attack": "Rivals can ask how a hawkish alternative escapes the same war verdict, and why this campaign would consolidate support his previous effort did not.",
+              "durability_test": "A distinct cost-of-living coalition and current organizational commitments matter more than recycled 2016 donor names.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "cruz_donor_positioning"
+              ],
+              "event_ids": []
+            },
+            "john_mcentee": {
+              "best_case": "Personnel and withdrawal experience can support a substantive nationalist challenge when established contenders fail; a smaller media-driven opening can become electorally useful if organization follows.",
+              "failure_case": "He is himself a Trump-era insider. Prior conduct, electoral-count work and business scrutiny complicate a clean-accountability pitch, and historical business financing does not supply a campaign.",
+              "rebuttal": "Lack of an established campaign is not proof of absent political substance. A discredited leadership can make operational knowledge and a coherent restraint case attractive to a niche that later grows.",
+              "verdict": "Keep a small speculative share, with only a modest gain in a more open race. Do not reward him mechanically for every Vance weakness; the opening may go outside this roster.",
+              "entry_assessment": "Entry, financing and a delegate operation are all unestablished. These gates substantially suppress the share in every branch.",
+              "next_move": "If seeking the opening, likely emphasize personnel control and withdrawal work while trying to distinguish substantive loyalty to a program from defense of every Trump decision.",
+              "rival_attack": "Rivals can point to his own insider history, January 6 record and commercial ties, and ask for proof he can build a national electoral organization.",
+              "durability_test": "Require direct current positions, entry signals, independent political funding and organizers. Media audience or a shared Thiel connection alone is insufficient.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "project2025",
+                "mcentee_withdrawal",
+                "mcentee_personnel_record"
+              ],
+              "event_ids": []
+            }
+          },
+          "predictions": [
+            {
+              "claim": "Vance will initially combine personal loyalty to Trump with policy differentiation rather than make an explicit personal rupture.",
+              "resolve_by": "2027-02-01",
+              "likelihood": "More likely than a personal break; analyst judgment.",
+              "test": "Review direct statements through February 1 for both continued personal support and criticism/correction of war policy. An explicit repudiation of Trump’s leadership contradicts the predicted initial strategy; no accessible statements leaves it unresolved.",
+              "status": "pending",
+              "resolution": "Future test; no post-election primary-support change is assumed.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ],
+              "id": "vance-selective-loyalty"
+            },
+            {
+              "claim": "The new Congress will sustain an accountability agenda, but findings and removal will lag preservation demands.",
+              "resolve_by": "2027-04-01",
+              "likelihood": "Investigative escalation is likely; a specific removal or criminal finding is not predicted.",
+              "test": "Check committee organization and at least one hearing, subpoena or document production in the named inquiries. Record obstruction, new proof and any official adjudication separately. No escalation by April 1 contradicts the agenda forecast.",
+              "status": "pending",
+              "resolution": "Official notices establish preparation, not the future outcome.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ],
+              "id": "congress-accountability"
+            },
+            {
+              "claim": "DeSantis will not yet have overtaken Vance in comparable national Republican nomination polls by early April 2027.",
+              "resolve_by": "2027-04-01",
+              "likelihood": "A material risk of failed coordination remains even if dissatisfaction persists.",
+              "test": "Among at least three post-election national Republican nomination polls fielded by April 1 that list both, check whether DeSantis leads Vance in a majority. A majority lead contradicts this expectation; fewer than three qualifying polls leaves it unresolved. Track current donor commitments and early-state organization separately to explain the result.",
+              "status": "pending",
+              "resolution": "Future test of whether an inferred alternative opening has become measured preference; no current transfer has been verified.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ],
+              "id": "alternative-coordination"
+            }
+          ]
+        },
+        "gaps": [
+          "Scenario weights and conditional shares are subjective and uncalibrated; arithmetic does not validate the inputs.",
+          "No post-election primary candidate poll, full FEC audit, new entry commitment or early-state organizational audit was verified. Existing historical evidence remains dated.",
+          "Freshly read AP election survey and official preservation demands inform the environment. Candidate policy and conduct records are carried from the prior pass, not wholly reverified.",
+          "Search results suggested newer Vance diplomacy and Democratic priorities stories, but full pages failed to load; they were not used as verified updates.",
+          "The election survey describes the midterm electorate, not the next primary electorate or a causal decomposition of vote choice.",
+          "Unlisted-field risk is material and unquantified; no nominees were added."
         ]
       }
     ],

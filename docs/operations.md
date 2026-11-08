@@ -34,3 +34,18 @@ The framework migration preserves all original research documents and prompts. T
 Current product assessments live in database/assessments/current.json. Every daily review executes prompts/roles/current-assessment.md, updates the review reference and actual coverage, and maintains evidence links and substantive snapshot selection. A technical migration or publication cannot advance the political assessment. The original issue/faction summaries remain historical where no current synthesis has been established.
 
 Every daily AND weekly run must provide a new current-assessment review reference and assessment_audit in its run record. The audit covers material developments, all issues, summary changes/holds, dated assumptions and (weekly) competing interpretations. A new timestamp alone fails validation. This validates coverage and traceability, not the truth of an interpretation; evidence verification and explicit gaps remain essential. The summary must follow the dominant current reality rather than a permanent post-midterm template.
+
+
+## Predictive nomination wargame
+
+The owner-authorized `scenario_wargame_v1` replaces inherited starting weights with an explicit subjective scenario mixture. The five-person roster and method remain locked during scheduled runs. Both daily and weekly reviews execute `prompts/roles/nomination-wargame.md`, append a complete snapshot even on a hold, challenge every candidate, and assess due predictions. This is structured single-analyst opposition unless the run explicitly documents separate reviewers; it is not independent consensus.
+
+Reproduce the current calculation and ten-point scenario-weight stresses:
+
+```sh
+python3 scripts/wargame.py database/nominations/republican_2028.json
+```
+
+Scenario weights total 100, and each scenario's five winner shares total 100. Both are conditional on an authorized candidate winning; entry and organization risks are included in those judgments. The weighted mixture uses largest-remainder rounding. The full field is not modeled, and a leadership crisis can benefit an unlisted contender. No missing-field odds or additional candidates are invented.
+
+The validator checks arithmetic, coverage, opposition, evidence references, snapshot integrity and retained prediction tests. A past deadline must be assessed or explicitly unresolved. It cannot validate the political truth or calibration of an analyst's inputs. Preserve historical forecasts so misses remain visible. The first wargame is a documented model correction plus targeted evidence review, not an observed change in voter support.

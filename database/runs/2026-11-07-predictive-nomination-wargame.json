@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-07",
+  "type": "faction_consistency_review",
+  "scope": "Focused predictive nomination wargame. Fresh AP election-survey and official oversight-source checks; candidate detail and administration assessments carried from existing research. No full daily intake, new post-election primary poll or complete donor/organization audit.",
+  "methodology_change": {
+    "date": "2026-11-07",
+    "basis": "Owner requested predictive reasoning about voter attribution, candidate reactions, Democratic oversight and adversarial challenges when guessing odds; authorizes this methodology revision, not changes to the five-person roster."
+  },
+  "summary": "Vance retains the strongest starting route but loses some advantage once persistent costs, senior responsibility and a credible alternative are explicitly weighed. DeSantis becomes the leading approved alternative. Neither a disloyalty trap nor a successful Trump-authorized reset is inevitable.",
+  "sources_checked": [
+    {
+      "id": "ap_voter_poll_2026_results",
+      "url": "https://www.ap.org/news-highlights/elections/2026/how-trump-and-republicans-lost-the-2026-midterm-elections-according-to-the-ap-voter-poll/",
+      "publisher": "Associated Press / SSRS",
+      "publication_date": "2026-11-04",
+      "accessed_on": "2026-11-07",
+      "description": "Original AP account of its voter survey, fielded October 19/22–November 3. Policy responsibility, costs, corruption, candidate quality and demand for checks; election electorate, not a 2028 primary poll.",
+      "verification_status": "primary_read"
+    },
+    {
+      "id": "blumenthal_2026_preservation",
+      "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-sends-warning-to-targets-of-investigations-into-crypto-corruption-immigration-abuses-big-tech-and-more",
+      "publisher": "Senator Richard Blumenthal",
+      "publication_date": "2026-11-05",
+      "accessed_on": "2026-11-07",
+      "description": "Official investigation and document-preservation demands ahead of incoming committee chairmanship; allegations and intended process, not adjudicated findings.",
+      "verification_status": "primary_read"
+    }
+  ],
+  "changes": [
+    "Replaced inherited weights with an explicit five-branch subjective mixture.",
+    "Adjudicated six strategic questions and opposing cases for every candidate; attached observable tests.",
+    "Updated current nomination summaries from the same evidence, retaining factual faction access and policy findings. Candidate probabilities are not independent evidence of faction power."
+  ],
+  "probabilities_pct": {
+    "jd_vance": 41.7,
+    "marco_rubio": 16.55,
+    "ron_desantis": 27.9,
+    "ted_cruz": 9.5,
+    "john_mcentee": 4.35
+  },
+  "delta_pp": {
+    "jd_vance": -7.65,
+    "marco_rubio": -4.23,
+    "ron_desantis": 8.42,
+    "ted_cruz": 3.01,
+    "john_mcentee": 0.45
+  },
+  "ten_point_weight_sensitivity": {
+    "jd_vance": {
+      "min_delta_pp": -4.0,
+      "max_delta_pp": 4.0
+    },
+    "marco_rubio": {
+      "min_delta_pp": -1.5,
+      "max_delta_pp": 1.5
+    },
+    "ron_desantis": {
+      "min_delta_pp": -3.5,
+      "max_delta_pp": 3.5
+    },
+    "ted_cruz": {
+      "min_delta_pp": -1.3,
+      "max_delta_pp": 1.3
+    },
+    "john_mcentee": {
+      "min_delta_pp": -0.7,
+      "max_delta_pp": 0.7
+    }
+  },
+  "nominees_added": [],
+  "cross_report_implications": [
+    "Existing Vance fundraising/access supports continuity capacity; war advocacy and post-election differentiation create competing responsibility and correction paths. No faction endorsement is inferred.",
+    "Hegseth pressure and Wiles/Miller transition identify mechanisms for attempted selective blame, not a proven reset or completed removal.",
+    "Oversight pressure can constrain officeholders, but a candidate forecast does not change an exercised-authority score.",
+    "DeSantis/McEntee coalition transfer remains a projection, not a new faction alignment."
+  ],
+  "gaps": [
+    "Scenario weights and conditional shares are subjective and uncalibrated; arithmetic does not validate the inputs.",
+    "No post-election primary candidate poll, full FEC audit, new entry commitment or early-state organizational audit was verified. Existing historical evidence remains dated.",
+    "Freshly read AP election survey and official preservation demands inform the environment. Candidate policy and conduct records are carried from the prior pass, not wholly reverified.",
+    "Search results suggested newer Vance diplomacy and Democratic priorities stories, but full pages failed to load; they were not used as verified updates.",
+    "The election survey describes the midterm electorate, not the next primary electorate or a causal decomposition of vote choice.",
+    "Unlisted-field risk is material and unquantified; no nominees were added."
+  ],
+  "validation": "Reproducible mixture, scenario totals, exact roster, evidence references, append-only history, candidate opposition and dated-test checks required before publication."
+}

@@ -96,7 +96,53 @@ export interface Candidate {
   strongest_counterargument: string;
   [key: string]: unknown;
 }
+export interface Wargame {
+  model_version: string;
+  summary: string;
+  debate_mode: string;
+  field_risk: string;
+  weighting_note: string;
+  partition_rule: string;
+  judgments: Record<
+    string,
+    EvidenceRef & { finding: string; countercase: string; resolution: string }
+  >;
+  scenarios: (EvidenceRef & {
+    id: string;
+    name: string;
+    weight_pct: number;
+    definition: string;
+    weight_reason: string;
+    sequence: string;
+    falsifier: string;
+    shares_pct: Record<string, number>;
+    candidate_reasoning: Record<string, string>;
+  })[];
+  candidate_debates: Record<
+    string,
+    EvidenceRef & {
+      best_case: string;
+      failure_case: string;
+      rebuttal: string;
+      verdict: string;
+      entry_assessment: string;
+      next_move: string;
+      rival_attack: string;
+      durability_test: string;
+    }
+  >;
+  predictions: (EvidenceRef & {
+    id: string;
+    claim: string;
+    resolve_by: string;
+    likelihood: string;
+    test: string;
+    status: string;
+    resolution: string;
+  })[];
+}
 export interface Snapshot {
+  wargame?: Wargame;
   type?: string;
   id: string;
   date: string;

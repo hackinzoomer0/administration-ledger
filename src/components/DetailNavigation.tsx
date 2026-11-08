@@ -14,6 +14,8 @@ export function DetailNavigation({
     <>
       <Tabs
         value={value}
+        variant="scrollable"
+        scrollButtons="auto"
         onChange={(_, next: string) => onChange(next)}
         aria-label={label}
         sx={{ display: { xs: "none", md: "flex" } }}

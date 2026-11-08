@@ -1,4 +1,4 @@
-"""Validate the private nominee forecast before any publication or ledger application."""
+"""Validate the nominee forecast before any publication or ledger application."""
 import datetime
 import json
 import math
@@ -37,10 +37,12 @@ def validate(before, after, section):
     if history[:len(previous_history)] != previous_history:
         raise ValueError('Nominee history must be append-only')
     added = history[len(previous_history):]
-    if section == 'Daily' and not added:
-        raise ValueError('Daily review must record a nominee snapshot, including unchanged estimates')
+    if section in ('Daily', 'Weekly') and not added:
+        raise ValueError(f'{section} review must record a nominee snapshot, including unchanged estimates')
     if new != old and not added:
         raise ValueError('Nominee changes require an auditable snapshot')
+    if added and section in ('Daily', 'Weekly') and added[-1].get('type') != ('daily_review' if section == 'Daily' else 'weekly_review'):
+        raise ValueError('Scheduled nominee snapshot must match the review type')
     sources = {r['id'] for r in new['sources']}
     if len(sources) != len(new['sources']):
         raise ValueError('Duplicate nominee source IDs')
@@ -48,6 +50,7 @@ def validate(before, after, section):
     factions = set(after['collections']['factions'])
     prior = {r['id']: r['nomination_likelihood_pct'] for r in old['candidates']}
     seen = {r['id'] for r in previous_history}
+    previous_game = previous_history[-1].get('wargame')
     for entry in added:
         if entry['id'] in seen:
             raise ValueError('Duplicate nominee snapshot ID')
@@ -81,9 +84,28 @@ def validate(before, after, section):
                     raise ValueError('Unresolved faction/nominee link evidence')
                 if not link['event_ids'] and not link['source_ids']:
                     raise ValueError('Faction/nominee links require evidence')
+        if new['forecast_methodology'].get('version') == 'scenario_wargame_v1':
+            from wargame import validate_game, forecast
+            game = entry.get('wargame')
+            if not isinstance(game, dict):
+                raise ValueError('Every scheduled snapshot requires an adjudicated wargame, including holds')
+            validate_game(game, names, sources, events, entry['date'])
+            if previous_game:
+                prior_tests = {row['id']: row for row in previous_game['predictions']}
+                tests = {row['id']: row for row in game['predictions']}
+                if not prior_tests.keys() <= tests.keys() or any(any(tests[id][key] != row[key] for key in ['claim', 'resolve_by', 'test']) for id, row in prior_tests.items()):
+                    raise ValueError('Prior wargame predictions must retain their claims, tests and deadlines')
+            previous_game = game
+            if forecast(game, names) != entry['probabilities_pct']:
+                raise ValueError('Nominee estimates must reproduce the scenario mixture')
         if not entry['summary'].strip() or not isinstance(entry['gaps'], list):
             raise ValueError('Snapshot requires a summary and coverage gaps')
         prior = entry['probabilities_pct']
+    if new['forecast_methodology'].get('version') == 'scenario_wargame_v1':
+        from wargame import validate_game, forecast
+        validate_game(history[-1]['wargame'], names, sources, events, new['as_of_date'])
+        if forecast(history[-1]['wargame'], names) != current:
+            raise ValueError('Current forecast must reproduce the scenario mixture')
     if history[-1]['probabilities_pct'] != current:
         raise ValueError('Latest nominee snapshot and current forecast disagree')
     if history[-1]['date'] != new['as_of_date']:

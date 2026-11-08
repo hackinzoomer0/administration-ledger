@@ -14,7 +14,7 @@ class AssessmentIntegrity(unittest.TestCase):
 
     def test_technical_forecast_cannot_be_presented_as_latest_assessment(self):
         history = self.after['collections']['nominations']['republican_2028']['tracking']['history']
-        self.current['nomination']['snapshot_id'] = history[-1]['id']
+        self.current['nomination']['snapshot_id'] = next(row['id'] for row in reversed(history) if row.get('type') == 'workflow_migration')
         with self.assertRaisesRegex(ValueError, 'substantive'):
             validate(self.after)
 

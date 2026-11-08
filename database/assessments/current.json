@@ -3,10 +3,10 @@
   "research_as_of": "2026-11-07",
   "last_substantive_change": "2026-11-07",
   "review": {
-    "run_id": "2026-11-07-assessment-ui",
     "date": "2026-11-07",
-    "type": "ledger_synthesis",
-    "scope": "Synthesis of existing ledger episodes and the first faction-consistency pass. No fresh news intake was performed for the interface redesign."
+    "run_id": "2026-11-07-predictive-nomination-wargame",
+    "type": "faction_consistency_review",
+    "scope": "Focused predictive nomination wargame. Fresh AP election-survey and official oversight-source checks; candidate detail and administration assessments carried from existing research. No full daily intake, new post-election primary poll or complete donor/organization audit."
   },
   "administration": {
     "headline": "Midterm defeat forces a fight over personnel, policy and accountability.",
@@ -124,16 +124,16 @@
   },
   "nomination": {
     "headline": "Vance leads; the coalition is not settled.",
-    "summary": "Vance has the strongest recorded organizational route. Rubio is a credible competing lane; DeSantis, Cruz and McEntee rely on progressively more conditional coalition-building assumptions. The exact weights remain provisional judgments.",
-    "snapshot_id": "2026-11-07-nominee-faction-first-pass",
+    "summary": "The scenario wargame keeps Vance first but narrows his advantage: policy costs, accountability and the credibility of a partial break compete with organization, a possible successful exit and Trump-authorized correction. DeSantis has the strongest approved alternative route, conditional on campaign rebuilding. These are uncalibrated conditional judgments, not measured support.",
+    "snapshot_id": "2026-11-07-predictive-nomination-wargame",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
-        "path": "The best-established route to inherit Trump’s coalition.",
+        "path": "Best-established heir, facing responsibility and a credibility test.",
         "coalition": "RNC fundraising, Rockbridge and Turning Point channels.",
         "advantage": "A concrete organizational head start.",
-        "vulnerability": "Administration ownership and a contested restraint record.",
+        "vulnerability": "Post-defeat criticism looks retrospective. Documents or a Hegseth confrontation force him to defend conduct he privately questioned, abandon a colleague, or evade. Rivals use that record to make both loyalty and restraint claims untrustworthy.",
         "positions": "Economic nationalism, immigration restriction and a negotiating role.",
         "money": "Historical Thiel backing; access does not imply agreement on every policy.",
         "event_ids": [
@@ -142,17 +142,21 @@
           "irn-2026-11-04-vance-postelection-war-critique"
         ],
         "source_ids": [
-          "vance_postmortem_faction_pass"
+          "vance_postmortem_faction_pass",
+          "ap_voter_poll_2026_results",
+          "blumenthal_2026_preservation",
+          "harris_oct2026_primary",
+          "prri"
         ],
         "reviewed_at": "2026-11-07"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
-        "path": "An institutional alternative with an overlapping hawkish donor lane.",
+        "path": "A loyalist security alternative whose credentials also create exposure.",
         "coalition": "State/NSC relationships and donors who prefer him.",
         "advantage": "National visibility and an existing policy network.",
-        "vulnerability": "Whether he enters, and responsibility for a war he defended.",
+        "vulnerability": "If the policy itself is repudiated, credentials become ownership. Hearings put his explanations alongside internal warnings, while deference to Vance or failure to enter prevents conversion of donor preference into a campaign.",
         "positions": "Hawkish commitments coexist with deference to Trump.",
         "money": "Griffin preference and prospective donor interest are not pledged 2028 funds.",
         "event_ids": [
@@ -160,57 +164,73 @@
           "irn-2026-11-04-vance-postelection-war-critique"
         ],
         "source_ids": [
-          "griffin_rubio"
+          "griffin_rubio",
+          "ap_voter_poll_2026_results",
+          "blumenthal_2026_preservation",
+          "harris_oct2026_primary",
+          "prri"
         ],
         "reviewed_at": "2026-11-07"
       },
       {
         "candidate_id": "ron_desantis",
         "person_id": null,
-        "path": "A state-executive alternative if federal incumbents lose credibility.",
+        "path": "Leading approved alternative if he converts federal failure into a rebuilt campaign.",
         "coalition": "Social conservatives and voters seeking distance from Washington.",
         "advantage": "Executive experience outside the federal decision chain.",
-        "vulnerability": "Coalition rebuilding is assumed more than demonstrated.",
+        "vulnerability": "Distance is mistaken for popularity. His earlier intervention statements, state accountability exposure and past campaign problems prevent a clean break, while donors prefer someone outside the approved roster.",
         "positions": "Enacted state policies; support for limited strikes complicates a restraint pitch.",
         "money": "Past fundraising capacity is not a verified current donor coalition.",
         "event_ids": [],
         "source_ids": [
           "desantis_donors",
-          "desantis_2025"
+          "desantis_2025",
+          "ap_voter_poll_2026_results",
+          "blumenthal_2026_preservation",
+          "harris_oct2026_primary",
+          "prri"
         ],
         "reviewed_at": "2026-11-07"
       },
       {
         "candidate_id": "ted_cruz",
         "person_id": "cruz",
-        "path": "A hawkish, tariff-skeptical alternative to Vance.",
+        "path": "A conservative fallback with tariff distance but overlapping war exposure.",
         "coalition": "Religious conservatives and overlapping hawkish networks.",
         "advantage": "A recognizable policy identity and donor-facing lane.",
-        "vulnerability": "Rubio competes for the same networks; intervention backlash limits expansion.",
+        "vulnerability": "A hawkish record limits separation from intervention, Rubio competes for donors and recognition does not produce coalition growth. Past repositioning and judgment controversies remain usable.",
         "positions": "Hawkish foreign policy and tariff skepticism distinguish his pitch.",
         "money": "Historical presidential donors do not establish present commitments.",
         "event_ids": [
           "suc-2025-12-47212e"
         ],
         "source_ids": [
-          "cruz_donor_positioning"
+          "cruz_donor_positioning",
+          "ap_voter_poll_2026_results",
+          "blumenthal_2026_preservation",
+          "harris_oct2026_primary",
+          "prri"
         ],
         "reviewed_at": "2026-11-07"
       },
       {
         "candidate_id": "john_mcentee",
         "person_id": null,
-        "path": "A speculative opening built on nationalist personnel and withdrawal experience.",
+        "path": "A substantive nationalist opening constrained by insider baggage and entry gates.",
         "coalition": "A potential audience; an electoral coalition is not established.",
         "advantage": "Substantive personnel authority and actual withdrawal work.",
-        "vulnerability": "No demonstrated presidential organization or current faction commitments.",
+        "vulnerability": "He is himself a Trump-era insider. Prior conduct, electoral-count work and business scrutiny complicate a clean-accountability pitch, and historical business financing does not supply a campaign.",
         "positions": "Historical restrictionist staffing and withdrawal advocacy; current specifics need review.",
         "money": "Thiel’s dating-business investment is not a nomination endorsement.",
         "event_ids": [],
         "source_ids": [
           "project2025",
           "mcentee_withdrawal",
-          "mcentee_personnel_record"
+          "mcentee_personnel_record",
+          "ap_voter_poll_2026_results",
+          "blumenthal_2026_preservation",
+          "harris_oct2026_primary",
+          "prri"
         ],
         "reviewed_at": "2026-11-07"
       }

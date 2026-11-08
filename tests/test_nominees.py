@@ -58,11 +58,16 @@ class ForecastGuard(unittest.TestCase):
 
     def test_supported_probability_change(self):
         source = self.forecast['sources'][0]['id']
-        for index, delta in ((0, 1), (1, -1)):
-            candidate = self.forecast['candidates'][index]
+        from wargame import forecast
+        game = self.entry['wargame']
+        game['scenarios'][1]['shares_pct']['jd_vance'] += 5
+        game['scenarios'][1]['shares_pct']['marco_rubio'] -= 5
+        computed = forecast(game, [row['id'] for row in self.forecast['candidates']])
+        for candidate in self.forecast['candidates']:
             cid = candidate['id']
-            candidate['nomination_likelihood_pct'] = round(candidate['nomination_likelihood_pct'] + delta, 2)
-            self.entry['probabilities_pct'][cid] = candidate['nomination_likelihood_pct']
+            delta = round(computed[cid] - candidate['nomination_likelihood_pct'], 2)
+            candidate['nomination_likelihood_pct'] = computed[cid]
+            self.entry['probabilities_pct'][cid] = computed[cid]
             assessment = self.entry['assessments'][cid]
             assessment.update(delta_pp=delta, review_status='reviewed', source_ids=[source])
         self.check()
@@ -70,6 +75,65 @@ class ForecastGuard(unittest.TestCase):
         self.entry['assessments']['jd_vance']['event_ids'] = []
         with self.assertRaises(ValueError):
             self.check()
+
+    def test_reject_unmodeled_probability_adjustment(self):
+        for index, delta in [(0, 1), (1, -1)]:
+            row = self.forecast['candidates'][index]
+            row['nomination_likelihood_pct'] += delta
+            self.entry['probabilities_pct'][row['id']] += delta
+            self.entry['assessments'][row['id']]['delta_pp'] = delta
+        with self.assertRaisesRegex(ValueError, 'scenario mixture'):
+            self.check()
+
+    def test_hold_requires_an_adjudicated_game(self):
+        del self.entry['wargame']
+        with self.assertRaisesRegex(ValueError, 'adjudicated wargame'):
+            self.check()
+
+    def test_reject_unchallenged_candidate(self):
+        self.entry['wargame']['candidate_debates']['jd_vance']['rebuttal'] = ''
+        with self.assertRaisesRegex(ValueError, 'rebuttal'):
+            self.check()
+
+    def test_reject_incoherent_scenario_weights(self):
+        self.entry['wargame']['scenarios'][0]['weight_pct'] += 1
+        with self.assertRaisesRegex(ValueError, 'sum to 100'):
+            self.check()
+
+    def test_reject_candidate_missing_from_scenario(self):
+        del self.entry['wargame']['scenarios'][0]['shares_pct']['john_mcentee']
+        with self.assertRaisesRegex(ValueError, 'candidate shares'):
+            self.check()
+
+    def test_reject_deleting_or_rewriting_a_prediction(self):
+        self.entry['wargame']['predictions'].pop()
+        with self.assertRaisesRegex(ValueError, 'Prior wargame predictions'):
+            self.check()
+
+    def test_past_deadline_needs_resolution_not_silent_carry(self):
+        self.entry['wargame']['predictions'][0]['resolve_by'] = '2026-11-01'
+        with self.assertRaisesRegex(ValueError, 'Passed prediction'):
+            self.check()
+
+    def test_weekly_hold_requires_snapshot(self):
+        self.forecast['tracking']['history'].pop()
+        with self.assertRaisesRegex(ValueError, 'snapshot'):
+            module.validate(self.before, self.after, 'Weekly')
+
+    def test_methodology_remains_locked_during_scheduled_reviews(self):
+        self.forecast['forecast_methodology']['version'] = 'different'
+        with self.assertRaisesRegex(ValueError, 'owner-authorized'):
+            self.check()
+
+    def test_rounding_preserves_total_without_last_candidate_bias(self):
+        from wargame import forecast
+        game = {'scenarios': [{'weight_pct': 100, 'shares_pct': {'a': 33.333, 'b':33.333, 'c':33.334}}]}
+        self.assertEqual(forecast(game, ['a','b','c']), {'a':33.33,'b':33.33,'c':33.34})
+
+    def test_sensitivity_is_weight_transfer_not_probability_interval(self):
+        from wargame import sensitivity
+        game = {'scenarios': [{'id':'a','weight_pct':90,'shares_pct':{'x':80,'y':20}}, {'id':'b','weight_pct':10,'shares_pct':{'x':20,'y':80}}]}
+        self.assertEqual(sensitivity(game,['x','y'])['x'], {'min_delta_pp':-6,'max_delta_pp':6})
 
 
 if __name__ == '__main__':

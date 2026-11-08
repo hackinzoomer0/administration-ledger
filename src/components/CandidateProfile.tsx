@@ -13,12 +13,14 @@ import { data } from "../lib/data";
 import type { Candidate, CandidateAssessment } from "../lib/types";
 import { substantiveSnapshots, label } from "../lib/selectors";
 import { useEvidence } from "../lib/evidence-context";
+import { ForecastWargame } from "./ForecastWargame";
 import { DetailNavigation } from "./DetailNavigation";
 import { ReadingBlock } from "./ReadingBlock";
 import { Section } from "./Section";
 import { ResearchText } from "./ResearchText";
 const sections: [string, string][] = [
   ["assessment", "Summary"],
+  ["wargame", "Wargame"],
   ["positions", "Positions"],
   ["strengths", "Strengths & weaknesses"],
   ["base", "Base & backers"],
@@ -218,6 +220,9 @@ export function CandidateProfile({
             />
           </Section>
         </>
+      )}
+      {section === "wargame" && latest?.wargame && (
+        <ForecastWargame game={latest.wargame} candidateId={candidate.id} />
       )}
       {section === "positions" && (
         <Section

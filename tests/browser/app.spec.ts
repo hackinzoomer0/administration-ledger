@@ -288,3 +288,75 @@ test("mobile detail sections remain reachable without clipped tabs", async ({
     ),
   ).toBe(true);
 });
+
+test("nomination forecast exposes scenario inputs, countercases and dated tests", async ({
+  page,
+}) => {
+  await page.goto("./#/nominees");
+  await expect(
+    page.getByRole("heading", { name: "Paths that drive the forecast" }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", {
+      name: "30% weight · Accountability discredits the federal leadership",
+      exact: true,
+    })
+    .click();
+  await expect(
+    page
+      .getByText("Winner shares within this scenario", { exact: true })
+      .filter({ visible: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("Ron DeSantis · 45%", { exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", {
+      name: "Assumptions, sensitivity and dated tests",
+      exact: true,
+    })
+    .click();
+  await expect(
+    page.getByText("Ten-point scenario-weight stress", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText(
+      "Vance will initially combine personal loyalty to Trump with policy differentiation rather than make an explicit personal rupture.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+});
+
+test("candidate wargame presents a rebuttal and likely moves on mobile", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 320, height: 740 });
+  await page.goto("./#/nominees/jd_vance");
+  await page.getByRole("combobox", { name: "Candidate sections" }).click();
+  await page.getByRole("option", { name: "Wargame", exact: true }).click();
+  await expect(
+    page.getByRole("heading", {
+      name: "The predictive case and its strongest challenge",
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("The strongest rebuttal", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("Likely next move", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("The attack a rival can make", { exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", { name: "Inspect supporting evidence", exact: true })
+    .click();
+  await expect(page.getByRole("dialog")).not.toContainText(
+    "Major players, factions, goals & backers",
+  );
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth + 1,
+    ),
+  ).toBe(true);
+});
