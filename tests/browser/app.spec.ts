@@ -1,4 +1,12 @@
 import { expect, test } from "@playwright/test";
+import { readFileSync } from "node:fs";
+
+const nomination = JSON.parse(
+  readFileSync(
+    new URL("../../database/nominations/republican_2028.json", import.meta.url),
+    "utf8",
+  ),
+);
 test("current assessment leads with power and nomination judgments", async ({
   page,
 }) => {
@@ -49,9 +57,20 @@ test("nominee page shows substantive assessment and readable policy evidence", a
   await expect(
     page.getByRole("link", { name: "Tucker Carlson", exact: true }),
   ).toHaveCount(0);
-  await expect(page.getByText("Roster baseline", { exact: true })).toHaveCount(
-    8,
-  );
+  const snapshot = nomination.tracking.history.at(-1);
+  const labels = new Map<string, number>();
+  for (const candidate of nomination.candidates) {
+    const delta = snapshot.assessments[candidate.id].delta_pp;
+    const label =
+      delta === null
+        ? "Roster baseline"
+        : delta === 0
+          ? "Estimate held"
+          : `${delta > 0 ? "+" : ""}${delta.toFixed(2)} pp`;
+    labels.set(label, (labels.get(label) ?? 0) + 1);
+  }
+  for (const [label, count] of labels)
+    await expect(page.getByText(label, { exact: true })).toHaveCount(count);
   await page
     .getByRole("button", { name: "View basis", exact: true })
     .first()
