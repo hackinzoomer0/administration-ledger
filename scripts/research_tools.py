@@ -18,7 +18,9 @@ def normalize(value):
 
 
 def receipt_key(kind, value, window):
-    return hashlib.sha256(json.dumps([kind, normalize(value), window]).encode()).hexdigest()[:24]
+    # Query results depend on their date window; a source URL can be reused across windows after checking its age.
+    scope = window if kind == 'query' else ''
+    return hashlib.sha256(json.dumps([kind, normalize(value), scope]).encode()).hexdigest()[:24]
 
 
 def receipts(stage):

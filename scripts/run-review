@@ -27,7 +27,7 @@ cleanup() {
     fi
     if (( status == 0 )); then
         mkdir -p "$runtime/receipts"
-        for receipt in application-success.json publication.json usage.json chat.json; do
+        for receipt in application-success.json publication.json usage.json chat.json intake-receipts.json; do
             [[ ! -f "$stage/$receipt" ]] || cp -- "$stage/$receipt" "$runtime/receipts/$(basename "$stage").$receipt"
         done
         chmod -R go-rwx "$runtime/receipts"

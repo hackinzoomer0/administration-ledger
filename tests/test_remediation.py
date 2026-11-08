@@ -76,6 +76,8 @@ class AuditRegressions(unittest.TestCase):
     def test_receipt_keys_reuse_same_query_or_tracking_url(self):
         self.assertEqual(receipt_key('query', '  TERM   site:example.org ', 'week'), receipt_key('query', 'term site:example.org', 'week'))
         self.assertEqual(normalize('https://example.org/a?utm_source=x#top'), 'https://example.org/a')
+        self.assertEqual(receipt_key('source', 'https://example.org/order', 'day-one'), receipt_key('source', 'https://example.org/order', 'day-two'))
+        self.assertNotEqual(receipt_key('query', 'court order', 'day-one'), receipt_key('query', 'court order', 'day-two'))
         with tempfile.TemporaryDirectory() as directory, patch('research_tools.ROOT', Path(directory)):
             stage = Path(directory)/'stage';stage.mkdir()
             row = {'kind': 'source', 'value': 'https://example.org/a', 'window': 'week', 'purpose': 'Resolve order.', 'status': 'blocked', 'result': '403', 'reporting_origin': 'Court'}
