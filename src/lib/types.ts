@@ -305,6 +305,10 @@ export interface CurrentAssessment {
     contests: PowerContest[];
   };
   nomination: {
+    scenario_labels?: {
+      wargame_ref: string;
+      scenarios: Record<string, { title: string; summary: string }>;
+    };
     headline: string;
     summary: string;
     snapshot_id: string;

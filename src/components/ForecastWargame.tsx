@@ -14,7 +14,7 @@ import type { Wargame } from "../lib/types";
 import { useEvidence } from "../lib/evidence-context";
 import { ReadingBlock } from "./ReadingBlock";
 import { Section } from "./Section";
-import { label } from "../lib/selectors";
+import { label, scenarioCopy } from "../lib/selectors";
 function Panel({
   title,
   children,
@@ -37,10 +37,12 @@ export function ForecastWargame({
   game,
   candidateId,
   reviewedAt,
+  snapshotId,
 }: {
   game: Wargame;
   candidateId?: string;
   reviewedAt: string;
+  snapshotId: string;
 }) {
   const open = useEvidence();
   const basis = (
@@ -58,10 +60,10 @@ export function ForecastWargame({
     const debate = game.candidate_debates[candidateId];
     return (
       <Section
-        title="The predictive case and its strongest challenge"
+        title="How this candidate could win or lose"
         description={`Full wargame reviewed ${reviewedAt}. ${game.debate_mode}`}
       >
-        <ReadingBlock title="Adjudicated forecast" text={debate.verdict} />
+        <ReadingBlock title="Why we chose these odds" text={debate.verdict} />
         <Box
           sx={{
             display: "grid",
@@ -70,26 +72,32 @@ export function ForecastWargame({
           }}
         >
           <ReadingBlock
-            title="How this candidate wins"
+            title="How this candidate could win"
             text={debate.best_case}
           />
           <ReadingBlock
-            title="How this path fails"
+            title="What could stop them"
             text={debate.failure_case}
           />
         </Box>
-        <ReadingBlock title="The strongest rebuttal" text={debate.rebuttal} />
-        <ReadingBlock title="Likely next move" text={debate.next_move} />
         <ReadingBlock
-          title="The attack a rival can make"
+          title="The strongest argument against these odds"
+          text={debate.rebuttal}
+        />
+        <ReadingBlock
+          title="What the candidate is likely to do next"
+          text={debate.next_move}
+        />
+        <ReadingBlock
+          title="How rivals could attack them"
           text={debate.rival_attack}
         />
         <ReadingBlock
-          title="Entry and organization"
+          title="Running and building a campaign"
           text={debate.entry_assessment}
         />
         <ReadingBlock
-          title="What would change this judgment"
+          title="What could change these odds"
           text={debate.durability_test}
         />
         {basis("Candidate wargame: evidence", debate)}
@@ -98,15 +106,15 @@ export function ForecastWargame({
   }
   return (
     <Section
-      title="Paths that drive the forecast"
-      description="Scenario weights and candidate shares are subjective judgments. Their weighted mixture produces the estimates; it is not a calibrated model or a poll."
+      title="How events could change the nomination"
+      description="We combine the chance of each scenario with each candidate’s chance of winning in it. These are analyst estimates, not polling results."
     >
       <Typography variant="caption" color="text.secondary">
         Full wargame reviewed {reviewedAt} · weekly forecast, with daily outcome
         monitoring
       </Typography>
       <Typography variant="body2">{game.summary}</Typography>
-      <Panel title="Election verdict, blame and likely reactions">
+      <Panel title="What voters rejected, who they blame, and what comes next">
         {Object.entries(game.judgments).map(([key, row]) => (
           <Box key={key}>
             <Typography variant="subtitle1" sx={{ fontWeight: 650 }}>
@@ -120,56 +128,67 @@ export function ForecastWargame({
         ))}
       </Panel>
       <Stack spacing={1}>
-        {game.scenarios.map((s) => (
-          <Panel key={s.id} title={`${s.weight_pct}% weight · ${s.name}`}>
-            <ReadingBlock title="Scenario" text={s.definition} />
-            <ReadingBlock title="Why this weight" text={s.weight_reason} />
-            <ReadingBlock
-              title="Actions, responses and consequences"
-              text={s.sequence}
-            />
-            <Typography variant="subtitle2">
-              Winner shares within this scenario
-            </Typography>
-            <Stack spacing={1.5} divider={<Divider />}>
-              {[...data.nomination.candidates]
-                .sort((a, b) => s.shares_pct[b.id] - s.shares_pct[a.id])
-                .map((c) => (
-                  <Box key={c.id}>
-                    <Typography variant="subtitle2">
-                      {c.name} · {s.shares_pct[c.id]}%
-                    </Typography>
-                    <Typography variant="body2">
-                      {s.candidate_reasoning[c.id]}
-                    </Typography>
-                  </Box>
-                ))}
-            </Stack>
-            <ReadingBlock
-              title="What would undermine this scenario"
-              text={s.falsifier}
-            />
-            {basis(s.name, s)}
-          </Panel>
-        ))}
+        {game.scenarios.map((s) => {
+          const copy = scenarioCopy(
+            s,
+            snapshotId,
+            data.assessment.nomination.scenario_labels,
+          );
+          return (
+            <Panel key={s.id} title={`${s.weight_pct}% chance · ${copy.title}`}>
+              <ReadingBlock title="What happens" text={copy.summary} />
+              <ReadingBlock
+                title="Why we think this scenario is this likely"
+                text={s.weight_reason}
+              />
+              <ReadingBlock title="How this could unfold" text={s.sequence} />
+              <Typography variant="subtitle2">
+                Each candidate’s chance of winning in this scenario
+              </Typography>
+              <Stack spacing={1.5} divider={<Divider />}>
+                {[...data.nomination.candidates]
+                  .sort((a, b) => s.shares_pct[b.id] - s.shares_pct[a.id])
+                  .map((c) => (
+                    <Box key={c.id}>
+                      <Typography variant="subtitle2">
+                        {c.name} · {s.shares_pct[c.id]}%
+                      </Typography>
+                      <Typography variant="body2">
+                        {s.candidate_reasoning[c.id]}
+                      </Typography>
+                    </Box>
+                  ))}
+              </Stack>
+              <ReadingBlock
+                title="What would show this scenario is wrong"
+                text={s.falsifier}
+              />
+              {basis(copy.title, s)}
+            </Panel>
+          );
+        })}
       </Stack>
-      <Panel title="Assumptions, sensitivity and dated tests">
+      <Panel title="What could change these odds">
         <ReadingBlock
-          title="How the scenarios are separated"
+          title="How these scenarios differ"
           text={game.partition_rule}
         />
         <ReadingBlock
-          title="Limits of the numbers"
+          title="How much confidence to place in the numbers"
           text={game.weighting_note}
         />
-        <ReadingBlock title="Unlisted-field risk" text={game.field_risk} />
+        <ReadingBlock
+          title="Candidates we don’t track"
+          text={game.field_risk}
+        />
         <Typography variant="subtitle2">
-          Ten-point scenario-weight stress
+          What if one scenario became more likely?
         </Typography>
         <Typography variant="body2">
-          Moving 10 percentage points of weight from any one scenario to another
-          changes the estimates by up to the amounts below. This is a
-          sensitivity check, not a confidence interval.
+          Making one scenario 10 percentage points more likely and another 10
+          points less likely changes the candidate estimates by up to the
+          amounts below. This tests our assumptions; it is not a statistical
+          confidence interval.
         </Typography>
         {data.nomination.candidates.map((c) => {
           const shifts = game.scenarios

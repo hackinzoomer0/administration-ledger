@@ -65,6 +65,7 @@ export default function Nominees() {
         <ForecastWargame
           game={fullReview.game}
           reviewedAt={fullReview.reviewedAt}
+          snapshotId={fullReview.snapshotId}
         />
       )}
       <Section title="What is still uncertain">

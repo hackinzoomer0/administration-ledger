@@ -9,7 +9,11 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { data } from "../lib/data";
-import { latestWargame, substantiveSnapshots } from "../lib/selectors";
+import {
+  latestWargame,
+  substantiveSnapshots,
+  scenarioCopy,
+} from "../lib/selectors";
 import { ReadingBlock } from "./ReadingBlock";
 
 export function CandidateWargameBasis({
@@ -89,14 +93,17 @@ export function CandidateWargameBasis({
           color="text.secondary"
           sx={{ display: "block", mt: 0.5 }}
         >
-          Subjective nomination chance within the{" "}
-          {data.nomination.candidates.length}-candidate field; not polling
-          support or calibrated odds.
+          Estimated chance of winning among the{" "}
+          {data.nomination.candidates.length} tracked candidates. These are
+          analyst judgments, not polling results.
         </Typography>
       </Box>
-      <ReadingBlock title="The winning path" text={debate.best_case} />
       <ReadingBlock
-        title="The main obstacle"
+        title="How this candidate could win"
+        text={debate.best_case}
+      />
+      <ReadingBlock
+        title="What could stop them"
         text={assessment?.vulnerability ?? debate.failure_case}
       />
       <ReadingBlock
@@ -117,22 +124,25 @@ export function CandidateWargameBasis({
         <AccordionDetails>
           <Stack spacing={2}>
             <ReadingBlock
-              title="Starting political landscape"
+              title="Where the race stands now"
               text={game.projection_review?.current_landscape.assessment}
             />
-            <ReadingBlock title="The wargame judgment" text={debate.verdict} />
             <ReadingBlock
-              title="The strongest challenge"
+              title="Why we chose these odds"
+              text={debate.verdict}
+            />
+            <ReadingBlock
+              title="The strongest argument against these odds"
               text={debate.rebuttal}
             />
             <ReadingBlock
-              title="Entry and organization"
+              title="Running and building a campaign"
               text={debate.entry_assessment}
             />
             {alternative && alternativeScenario && (
               <ReadingBlock
-                title="An alternative judgment tested"
-                text={`A different allocation in “${alternativeScenario.name}” produces ${alternative.probabilities_pct[candidateId].toFixed(2)}% overall, compared with the selected ${snapshot.probabilities_pct[candidateId].toFixed(2)}%. ${alternative.adjudication}`}
+                title="What a different assumption would do"
+                text={`A different assumption in “${scenarioCopy(alternativeScenario, snapshotId, data.assessment.nomination.scenario_labels).title}” produces ${alternative.probabilities_pct[candidateId].toFixed(2)}% overall, compared with the selected ${snapshot.probabilities_pct[candidateId].toFixed(2)}%. ${alternative.adjudication}`}
               />
             )}
           </Stack>
@@ -140,15 +150,20 @@ export function CandidateWargameBasis({
       </Accordion>
       <Box>
         <Typography variant="subtitle1" sx={{ fontWeight: 650 }}>
-          Scenarios behind the estimate
+          How events could change the race
         </Typography>
         <Typography variant="body2" color="text.secondary" sx={{ mb: 1.5 }}>
-          Each row separates the likelihood of a political environment from this
-          candidate’s chance of winning within it. Expand a path to see how
-          support could form or fall apart.
+          Each scenario describes what could happen before the nomination.
+          Expand it to see how the candidate, voters, donors and campaign teams
+          might respond.
         </Typography>
         <Stack spacing={1}>
           {scenarios.map((scenario) => {
+            const copy = scenarioCopy(
+              scenario,
+              snapshotId,
+              data.assessment.nomination.scenario_labels,
+            );
             const projected = game.projection_review?.scenarios[scenario.id];
             const path = projected?.candidate_paths[candidateId];
             return (
@@ -160,56 +175,51 @@ export function CandidateWargameBasis({
               >
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                   <Box sx={{ minWidth: 0 }}>
-                    <Typography variant="subtitle2">{scenario.name}</Typography>
+                    <Typography variant="subtitle2">{copy.title}</Typography>
                     <Typography
                       variant="caption"
                       color="text.secondary"
                       sx={{ display: "block", mt: 0.5 }}
                     >
-                      Environment likelihood: {scenario.weight_pct}%
+                      Chance of this scenario: {scenario.weight_pct}%
                     </Typography>
                     <Typography variant="body2" sx={{ fontWeight: 600 }}>
-                      Candidate’s chance here:{" "}
+                      Chance of winning in this scenario:{" "}
                       {scenario.shares_pct[candidateId]}%
                     </Typography>
                   </Box>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Stack spacing={2}>
-                    <ReadingBlock
-                      title="The projected landscape"
-                      text={
-                        projected?.projected_landscape ?? scenario.definition
-                      }
-                    />
+                    <ReadingBlock title="What happens" text={copy.summary} />
                     {path ? (
                       <>
                         <ReadingBlock
-                          title="Candidate response"
+                          title="What the candidate would do"
                           text={path.candidate_response}
                         />
                         <ReadingBlock
-                          title="Voter response"
+                          title="How voters could react"
                           text={path.voter_response}
                         />
                         <ReadingBlock
-                          title="Donor and media response"
+                          title="How donors and media could react"
                           text={path.donor_media_response}
                         />
                         <ReadingBlock
-                          title="Organization and coalition"
+                          title="How they could recruit staff and win support"
                           text={path.organization_coalition}
                         />
                         <ReadingBlock
-                          title="How the effects reinforce or reverse"
+                          title="What could build or stall momentum"
                           text={path.feedback}
                         />
                         <ReadingBlock
-                          title="Why this chance"
+                          title="Why we assign this chance"
                           text={path.share_justification}
                         />
                         <ReadingBlock
-                          title="What could break this path"
+                          title="Why this plan could fail"
                           text={path.countercase.replace(
                             /\s*See comparison_review numerical_alternative[^.]*\.?/g,
                             "",
@@ -223,7 +233,7 @@ export function CandidateWargameBasis({
                       />
                     )}
                     <ReadingBlock
-                      title="What would undermine the scenario"
+                      title="What would show this scenario is wrong"
                       text={scenario.falsifier}
                     />
                   </Stack>
@@ -237,9 +247,9 @@ export function CandidateWargameBasis({
           color="text.secondary"
           sx={{ display: "block", mt: 1.5 }}
         >
-          The estimate averages these candidate chances using the environment
-          likelihoods. Responses are projections grounded in the linked record,
-          not observed endorsements or voter preferences.
+          We combine the chance of each scenario with the candidate’s chance of
+          winning in it. The reactions above are forecasts, not reported
+          endorsements or measured voter preferences.
         </Typography>
       </Box>
     </Stack>

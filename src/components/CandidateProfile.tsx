@@ -229,6 +229,7 @@ export function CandidateProfile({
         <ForecastWargame
           game={fullReview.game}
           reviewedAt={fullReview.reviewedAt}
+          snapshotId={fullReview.snapshotId}
           candidateId={candidate.id}
         />
       )}

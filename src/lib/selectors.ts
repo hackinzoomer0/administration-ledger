@@ -104,3 +104,16 @@ export function latestWargame(history: import("./types").Snapshot[]) {
   }
   return result;
 }
+
+/** Reader-facing copy is tied to its reviewed game, never applied to a different forecast. */
+export function scenarioCopy(
+  scenario: { id: string; name: string; definition: string },
+  snapshotId: string,
+  labels: import("./types").CurrentAssessment["nomination"]["scenario_labels"],
+) {
+  const copy =
+    labels?.wargame_ref === snapshotId
+      ? labels.scenarios[scenario.id]
+      : undefined;
+  return copy ?? { title: scenario.name, summary: scenario.definition };
+}

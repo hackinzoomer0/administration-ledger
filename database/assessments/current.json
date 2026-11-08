@@ -311,7 +311,32 @@
         "event_ids": [],
         "reviewed_at": "2026-11-07"
       }
-    ]
+    ],
+    "scenario_labels": {
+      "wargame_ref": "2026-11-07-weekly-causal-projection-review",
+      "scenarios": {
+        "recovery": {
+          "title": "The Iran war eases and lower living costs restore support for Trump",
+          "summary": "Fighting related to Iran decreases and households see sustained relief in living expenses. Republican voters give Trump and candidates associated with him more credit, despite continuing scrutiny."
+        },
+        "managed_costs": {
+          "title": "Voters stay unhappy, but Trump’s allies keep donors and campaign support",
+          "summary": "Voters remain dissatisfied with the war and living costs. Trump-aligned candidates keep enough donor support, staff and activists to compete, while challengers struggle to unite unhappy Republicans."
+        },
+        "systemic": {
+          "title": "Policy failures or scandals turn Republicans against Trump’s leadership",
+          "summary": "Continuing policy failures or credible disclosures persuade a meaningful share of Republican voters to blame Trump and senior administration figures. Candidates outside the current federal leadership have an opening to recruit those voters, donors and campaign staff."
+        },
+        "selective": {
+          "title": "Republicans blame specific officials but still back a Trump-aligned successor",
+          "summary": "Republican voters accept that particular officials, rather than the whole administration, are responsible for failures. A Trump-aligned candidate can promise changes without breaking with Trump."
+        },
+        "backlash": {
+          "title": "Republicans rally behind Trump against Democratic investigations",
+          "summary": "Investigations produce little that persuades Republican voters, or are seen as partisan. Opposition to Democrats restores support for Trump-aligned candidates even if the war and living costs do not improve."
+        }
+      }
+    }
   },
   "cross_implications": [
     {

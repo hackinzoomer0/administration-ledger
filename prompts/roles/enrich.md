@@ -6,3 +6,5 @@ For each, find a readable copy and read it, trying these routes in order and sto
 4. The primary document: court filing (CourtListener, the court's site), Federal Register, agency release, letter or report the story describes.
 If none works, return headlineOnly true. Never use archives, mirrors, caches or copies that are not licensed.
 Return: {"items":[{"headline","originalOutlet","readUrl","route":1|2|3|4|"none","printedDate","facts":"2-4 sentences of what the page says","tier","headlineOnly"}]}
+
+Apply analysis-rules' plain-language requirement to every new or edited event text/title and context. Lead with the named actor and concrete action/decision; make the headline understandable without its source or faction notes. Do not replace factual precision or uncertainty with a vivid but unsupported claim.

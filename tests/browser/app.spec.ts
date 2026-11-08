@@ -16,6 +16,12 @@ const assessment = JSON.parse(
 const fullReview = [...nomination.tracking.history]
   .reverse()
   .find((row) => row.wargame);
+function scenarioTitle(scenario: { id: string; name: string }) {
+  const labels = assessment.nomination.scenario_labels;
+  return labels?.wargame_ref === fullReview.id
+    ? (labels.scenarios[scenario.id]?.title ?? scenario.name)
+    : scenario.name;
+}
 const eventsDirectory = new URL("../../database/events/", import.meta.url);
 const eventCount = readdirSync(eventsDirectory)
   .filter((name) => name.endsWith(".json"))
@@ -347,18 +353,22 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
 }) => {
   await page.goto("./#/nominees");
   await expect(
-    page.getByRole("heading", { name: "Paths that drive the forecast" }),
+    page.getByRole("heading", {
+      name: "How events could change the nomination",
+    }),
   ).toBeVisible();
   const scenario = fullReview.wargame.scenarios[0];
   await page
     .getByRole("button", {
-      name: `${scenario.weight_pct}% weight · ${scenario.name}`,
+      name: `${scenario.weight_pct}% chance · ${scenarioTitle(scenario)}`,
       exact: true,
     })
     .click();
   await expect(
     page
-      .getByText("Winner shares within this scenario", { exact: true })
+      .getByText("Each candidate’s chance of winning in this scenario", {
+        exact: true,
+      })
       .filter({ visible: true }),
   ).toBeVisible();
   for (const candidate of nomination.candidates)
@@ -372,12 +382,12 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
     ).toBeVisible();
   await page
     .getByRole("button", {
-      name: "Assumptions, sensitivity and dated tests",
+      name: "What could change these odds",
       exact: true,
     })
     .click();
   await expect(
-    page.getByText("Ten-point scenario-weight stress", { exact: true }),
+    page.getByText("What if one scenario became more likely?", { exact: true }),
   ).toBeVisible();
   await expect(
     page.getByText(fullReview.wargame.predictions[0].claim, { exact: true }),
@@ -393,17 +403,19 @@ test("candidate wargame presents a rebuttal and likely moves on mobile", async (
   await page.getByRole("option", { name: "Wargame", exact: true }).click();
   await expect(
     page.getByRole("heading", {
-      name: "The predictive case and its strongest challenge",
+      name: "How this candidate could win or lose",
     }),
   ).toBeVisible();
   await expect(
-    page.getByText("The strongest rebuttal", { exact: true }),
+    page.getByText("The strongest argument against these odds", {
+      exact: true,
+    }),
   ).toBeVisible();
   await expect(
-    page.getByText("Likely next move", { exact: true }),
+    page.getByText("What the candidate is likely to do next", { exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByText("The attack a rival can make", { exact: true }),
+    page.getByText("How rivals could attack them", { exact: true }),
   ).toBeVisible();
   await page
     .getByRole("button", { name: "Inspect supporting evidence", exact: true })
@@ -441,7 +453,7 @@ test("candidate basis leads with the forecast and explains the causal scenario o
     }),
   ).toBeVisible();
   await expect(
-    drawer.getByText("The winning path", { exact: true }),
+    drawer.getByText("How this candidate could win", { exact: true }),
   ).toBeVisible();
   await expect(
     drawer.getByText(
@@ -450,7 +462,7 @@ test("candidate basis leads with the forecast and explains the causal scenario o
     ),
   ).toBeVisible();
   await expect(
-    drawer.getByText("The main obstacle", { exact: true }),
+    drawer.getByText("What could stop them", { exact: true }),
   ).toBeVisible();
   await expect(
     drawer.getByText("What would change the estimate", { exact: true }),
@@ -459,9 +471,9 @@ test("candidate basis leads with the forecast and explains the causal scenario o
     "Major players, factions, goals & backers",
   );
   const scenario = fullReview.wargame.scenarios[0];
-  const scenarioButton = drawer.getByRole("button", {
-    name: new RegExp(scenario.name),
-  });
+  const scenarioButton = drawer
+    .getByRole("button")
+    .filter({ hasText: scenarioTitle(scenario) });
   await scenarioButton.click();
   const path =
     fullReview.wargame.projection_review.scenarios[scenario.id].candidate_paths[
@@ -476,7 +488,7 @@ test("candidate basis leads with the forecast and explains the causal scenario o
     await expect(drawer.getByText(text, { exact: true })).toBeVisible();
   await expect(
     scenarioButton.getByText(
-      `Environment likelihood: ${scenario.weight_pct}%`,
+      `Chance of this scenario: ${scenario.weight_pct}%`,
       {
         exact: true,
       },
@@ -484,7 +496,7 @@ test("candidate basis leads with the forecast and explains the causal scenario o
   ).toBeVisible();
   await expect(
     scenarioButton.getByText(
-      `Candidate’s chance here: ${scenario.shares_pct[candidate.id]}%`,
+      `Chance of winning in this scenario: ${scenario.shares_pct[candidate.id]}%`,
       { exact: true },
     ),
   ).toBeVisible();
