@@ -1,5 +1,6 @@
 """Prepare, validate, publish and apply one isolated scheduled review."""
 import datetime
+from collections import Counter
 import json
 import subprocess
 import sys
@@ -64,7 +65,12 @@ def finish(stage, section):
               'nominee_forecast': after['collections']['nominations']['republican_2028']['tracking']['history'][-1]}
     atomic_json(stage / 'changes.json', report)
     prompt = (ROOT / 'prompts/execution/completion.md').read_text()
-    (stage / 'completion-prompt.txt').write_text(prompt + json.dumps(report, ensure_ascii=False))
+    # Full before/after documents can exceed mobile chat rendering limits.
+    # Keep the audit on disk and let the reporter read only relevant sections.
+    notice = {'publication': publication, 'details_file': 'changes.json',
+              'changed_record_counts': dict(Counter(row['collection'] for row in report['changes'])),
+              'nominee_snapshot_id': report['nominee_forecast']['id']}
+    (stage / 'completion-prompt.txt').write_text(prompt + json.dumps(notice, ensure_ascii=False))
 
 
 if __name__ == '__main__':

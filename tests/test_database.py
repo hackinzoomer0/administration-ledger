@@ -77,7 +77,8 @@ class DatabaseWorkflow(unittest.TestCase):
             for assessment in snapshot['assessments'].values():
                 assessment['delta_pp'] = 0
             forecast['tracking']['history'].append(snapshot)
-            ledger['collections']['runs']['workflow-fixture'] = {'summary': 'Fixture'}
+            large_detail = 'AUDIT_ONLY_DETAIL' * 20000
+            ledger['collections']['runs']['workflow-fixture'] = {'summary': 'Fixture', 'detail': large_detail}
             current = ledger['collections']['assessments']['current']
             current['review'].update(run_id='workflow-fixture', type='daily_review')
             current['nomination']['snapshot_id'] = 'workflow-fixture'
@@ -94,6 +95,13 @@ class DatabaseWorkflow(unittest.TestCase):
             report = json.loads((stage / 'changes.json').read_text())
             self.assertEqual(report['nominee_forecast']['id'], 'workflow-fixture')
             self.assertIn('all authorized nominee percentages', (stage / 'completion-prompt.txt').read_text())
+            prompt = (stage / 'completion-prompt.txt').read_text()
+            self.assertIn('changes.json', prompt)
+            self.assertIn('workflow-fixture', prompt)
+            self.assertNotIn('AUDIT_ONLY_DETAIL', prompt)
+            self.assertLess(len(prompt.encode()), 20000)
+            self.assertEqual(next(row['after']['detail'] for row in report['changes']
+                                  if row['collection'] == 'runs' and row['id'] == 'workflow-fixture'), large_detail)
 
     def test_owner_local_path_is_removed_from_public_export(self):
         text = screen(f'Local path: {Path.home()}/Downloads/example')
