@@ -4,13 +4,13 @@
   "last_substantive_change": "2026-11-08",
   "review": {
     "date": "2026-11-08",
-    "run_id": "2026-11-08",
-    "type": "daily_review",
-    "scope": "Focused November 7–8 review of post-election positioning, Israel government formation and the Afghan removal deadline, with selected official indexes and a ten-issue pending-outcome screen. Other court, military, finance and campaign-organization findings are carried or unresolved, not newly verified."
+    "run_id": "2026-11-08-weekly-support-appeal-review",
+    "type": "weekly_review",
+    "scope": "Full eight-candidate causal, personal-appeal and support-base adjudication with targeted shared intake. Iran statements, health-activist outreach and data-center decision authority reviewed; other issue and historical audit coverage carried with explicit debt."
   },
   "administration": {
     "headline": "Trump faces a new chief of staff, Justice Department departures and a Congress preparing to investigate him.",
-    "summary": "Trump still controls the executive branch after Republicans lost the midterms. His choice of Stephen Miller to replace Susie Wiles could put immigration enforcement and staffing decisions closer to a key advocate of stricter policies. Justice Department departures could give Attorney General Todd Blanche more room to choose managers and direct cases. When Democrats take control of Congress in January, they can demand records, hold hearings and challenge administration spending. The central question is whether Trump changes policies that voters rejected or continues them despite those pressures. Staffing announcements alone do not show that policy has changed. Vice President JD Vance is also trying to give Republicans a distinct account of the defeat without a demonstrated personal rupture with Trump. Reports of pressure to impeach Defense Secretary Pete Hegseth remain unresolved; this review did not verify a scheduled vote, his removal or a new Justice Department investigation into his critics.",
+    "summary": "Trump still controls the executive branch after Republicans lost the midterms. His choice of Stephen Miller to replace Susie Wiles could put immigration enforcement and staffing decisions closer to a key advocate of stricter policies. Justice Department departures could give Attorney General Todd Blanche more room to choose managers and direct cases. When Democrats take control of Congress in January, they can demand records, hold hearings and challenge administration spending. The central question is whether Trump changes policies that voters rejected or continues them despite those pressures. Staffing announcements alone do not show that policy has changed. Vice President JD Vance is also trying to give Republicans a distinct account of the defeat without a demonstrated personal rupture with Trump. Reports of pressure to impeach Defense Secretary Pete Hegseth remain unresolved; this review did not verify a scheduled vote, his removal or a new Justice Department investigation into his critics. Trump now says renewed Iran attacks are unlikely if talks progress, while keeping the threat of force. That gives diplomacy room without establishing an agreement. Some health-policy activists are also exploring cooperation with Democrats; policy-specific outreach does not yet show a voter realignment.",
     "contests": [
       {
         "id": "white-house-access",
@@ -45,7 +45,7 @@
         "assessment": "Vance can use negotiations and his criticism of the war to argue for a different approach. Rubio offers a competing argument for Trump’s original decision. Those arguments may shape Trump’s options and the nomination contest, but neither establishes that a settlement or another military operation has been approved.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Reuters reports that Vice President JD Vance emphasized his own policy themes before the election and that White House chief of staff Susie Wiles knew about his later Iran post. This gives him a way to argue for a different course while seeking Trump supporters; it does not establish a personal rupture or a gain in primary votes.",
+        "change": "In a November 8 CNN interview, Trump conditionally favored talks while retaining the threat of force. Iran’s acceptance and implementation remain unresolved.",
         "basis": {
           "actions": "Trump reviewed options; Vance has led negotiations.",
           "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
@@ -54,7 +54,8 @@
         "watch": "Look for a military order, a confirmed change in operations or an agreement accepted by the parties.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
-          "irn-2026-11-05-trump-postelection-war-review"
+          "irn-2026-11-05-trump-postelection-war-review",
+          "irn-2026-11-08-trump-conditional-talks"
         ],
         "faction_ids": [
           "vance",
@@ -148,16 +149,16 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vance starts with the strongest Republican fundraising and activist connections, but prolonged war, household costs and damaging disclosures could erode his support. DeSantis and Kemp could appeal to voters seeking governing experience outside Washington; Paul and Massie could gain if opposition to military intervention and executive overreach grows. McEntee could draw on first-term staffing and withdrawal work while facing questions about his later connections and readiness to lead. None of these openings guarantees that voters, donors and campaign organizers will rally behind a single rival.",
-    "snapshot_id": "2026-11-08-daily-monitor",
+    "summary": "Vance leads because existing fundraising and activist relationships can help him organize while rivals compete for overlapping supporters. Policy disagreement alone does not make a rival a preferred president. DeSantis and Kemp can offer governing experience outside Washington; Paul and Massie must broaden support beyond liberty activists. McEntee could use media and personnel contacts to build a campaign, but attention is not a commitment to vote or volunteer. These are conditional forecasts, with most present support relationships still incompletely measured.",
+    "snapshot_id": "2026-11-08-weekly-support-appeal-review",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
-        "path": "Vance has a head start through Republican fundraising and activist networks. He could keep much of that support if the war eases and households see relief. Continued failures or damaging disclosures would make his role in the administration, and his attempts to distance himself from its decisions, central targets for rivals.",
-        "coalition": "He could draw on Trump supporters, conservative activists and donors who already work with his allies. They may disagree about the war or economic policy, so those relationships do not guarantee their votes.",
-        "advantage": "Vance has fundraising and activist connections and is presenting his own explanation of the election defeat. Reuters reports that his separate campaign message began before election day, giving him a way to argue for changes while retaining Trump supporters.",
-        "vulnerability": "Voters may hold Vance responsible for decisions he defended as vice president. If he later criticizes those decisions, rivals can ask why he did not oppose them earlier and whether his change is sincere.",
+        "path": "Vance would claim credit for negotiations and offer corrections while trying to retain Trump’s support. He can recruit early-state staff through existing political relationships; disappointed activists can still defect.",
+        "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
+        "advantage": "He can explain conservative policies in a more measured setting and offer continuity with a change of course.",
+        "vulnerability": "Changing his defense of the war can look like shifting blame rather than independent judgment.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -171,17 +172,18 @@
           "blumenthal_2026_preservation",
           "harris_oct2026_primary",
           "prri",
-          "daily_vance_brand_20261107"
+          "daily_vance_brand_20261107",
+          "weekly_vance_debate_poll"
         ],
         "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
-        "path": "Rubio could draw on foreign-policy experience and relationships with Republican donors and officials if he decides to run. His public commitment to serving Trump makes an independent bid uncertain. A prolonged war would make it harder to convince dissatisfied voters that he offers a different direction.",
-        "coalition": "He could appeal to Republicans who favor a forceful foreign policy and donors who want an experienced candidate. Cruz and Vance could compete for many of the same supporters.",
-        "advantage": "Rubio has foreign-policy experience and relationships with Republican officials and donors who could help him organize a national campaign.",
-        "vulnerability": "Rubio would have to explain his own role in the administration’s foreign policy if the war remains unpopular. He also has to decide whether to run against Vance after publicly signaling that he plans to keep serving Trump.",
+        "path": "Rubio would defend his foreign-policy judgment and decide whether to seek an independent mandate rather than support Vance. Former campaign and official contacts could recruit staff; current office does not supply a presidential delegate team.",
+        "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
+        "advantage": "His family narrative and conversational humor can make a national-security argument approachable.",
+        "vulnerability": "Serving Trump while deferring on a bid can make him seem unwilling to lead independently.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
@@ -193,17 +195,19 @@
           "ap_voter_poll_2026_results",
           "blumenthal_2026_preservation",
           "harris_oct2026_primary",
-          "prri"
+          "prri",
+          "weekly_2015_debate",
+          "causal_rubio_denial"
         ],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "ron_desantis",
         "person_id": null,
-        "path": "DeSantis can offer experience running a state without direct responsibility for current federal decisions. Another presidential bid would depend on rebuilding a campaign after 2024 and convincing voters that his leadership and policies answer their concerns. Kemp and other candidates could attract the same donors and voters.",
-        "coalition": "He could attract social conservatives and Republicans who want an experienced governor instead of another member of Trump’s Washington team. Kemp could compete for that same support.",
-        "advantage": "DeSantis can point to experience as Florida governor while arguing that he was not in charge of the federal decisions now under criticism.",
-        "vulnerability": "DeSantis’s unsuccessful 2024 presidential campaign raises questions about how well he can connect with voters and run a national team. His earlier support for military strikes could also weaken an argument that he would take a different approach to the war.",
+        "path": "DeSantis would contrast Florida governance with federal failures and try to rebuild a more disciplined presidential team. A rebuilt national team could combine former staff with defectors; the 2024 campaign is experience rather than a ready-made operation.",
+        "coalition": "DeSantis could recruit social conservatives and Republicans seeking an experienced governor. Former campaign staff and donors offer a starting point for rebuilding, but they can choose Kemp or another rival instead.",
+        "advantage": "He can present a record of carrying out conservative policies as evidence that he would act decisively.",
+        "vulnerability": "His previous campaign suggests difficulty turning policy approval into enough votes, though Trump’s hold on Republicans was another major obstacle.",
         "positions": "His record includes conservative policies enacted in Florida. His support for limited military strikes means that distance from the White House does not necessarily mean opposition to intervention abroad.",
         "money": "DeSantis has raised substantial money for past campaigns. That shows fundraising experience, but does not establish which donors would back another presidential bid.",
         "event_ids": [],
@@ -213,17 +217,19 @@
           "ap_voter_poll_2026_results",
           "blumenthal_2026_preservation",
           "harris_oct2026_primary",
-          "prri"
+          "prri",
+          "weekly_desantis_campaign",
+          "weekly_ap_entry_recovered"
         ],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "ted_cruz",
         "person_id": "cruz",
-        "path": "Cruz has presidential-campaign experience and relationships among conservative voters and donors. He could attract Republicans who want a familiar conservative alternative, but his foreign-policy positions overlap with Rubio’s and may deter voters seeking less U.S. military involvement. He needs a compelling reason for voters to choose him over those rivals.",
-        "coalition": "He could appeal to religious conservatives and Republicans who favor a strong military and pressure on U.S. adversaries. Other candidates also seek these voters.",
-        "advantage": "Cruz is already known to conservative voters and has experience raising money and competing in presidential primaries.",
-        "vulnerability": "Republicans who want less military involvement abroad may reject Cruz’s foreign-policy views. Rubio competes for some of the same donors, and being well known does not by itself give voters a reason to choose Cruz.",
+        "path": "Cruz would combine conservative credentials with criticism of economic decisions and seek an opening against Vance and Rubio. He could reactivate old organizers and recruit new ones, provided they choose this race over rival campaigns.",
+        "coalition": "Cruz could recruit religious conservatives and activists who value a forceful ideological advocate. Past presidential organizers and donor relationships could help him start, but renewed commitments are uncertain and Rubio competes for security-minded supporters.",
+        "advantage": "His detailed, combative arguments can signal conviction and preparation to conservative activists.",
+        "vulnerability": "Voters tired of partisan combat may see the same style as rigid, while shifts toward Trump invite trust attacks.",
         "positions": "Cruz generally favors a forceful foreign policy but has criticized tariffs. These positions may attract different groups of Republican voters rather than one united base.",
         "money": "Donors supported Cruz in earlier presidential contests. We have not established that those relationships will become financial commitments for 2028.",
         "event_ids": [
@@ -234,17 +240,19 @@
           "ap_voter_poll_2026_results",
           "blumenthal_2026_preservation",
           "harris_oct2026_primary",
-          "prri"
+          "prri",
+          "weekly_2015_debate",
+          "weekly_ap_entry_recovered"
         ],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "john_mcentee",
         "person_id": null,
-        "path": "McEntee could point to his first-term work on staffing and troop withdrawals to argue for Trump’s earlier promises without defending every current administration decision. He would need to become better known as a potential president and turn interest into committed voters, campaign funding and organizers. His later planning connections, business ties and personal record could undermine that distinction.",
-        "coalition": "He could appeal to conservatives who want tighter immigration rules and fewer foreign military commitments under different leadership. His online audience may include younger conservatives, but its age and willingness to vote for him have not been established.",
-        "advantage": "McEntee helped recruit officials for Trump’s first administration and worked on troop-withdrawal proposals. He could use that experience to argue that he understands how to carry out policies that other candidates only promise.",
-        "vulnerability": "McEntee still has to show that people who watch his videos would choose him for president and help fund and organize a campaign. Rivals could use his Project 2025 staffing work and reported lobbying for Chinese technology interests to question his claim to offer a break from today’s administration.",
+        "path": "McEntee could distinguish first-term personnel and withdrawal work from present federal decisions, while defending his Project 2025 work recruiting prospective officials for a later administration. Recruitment experience could help hire election specialists if willing supporters emerge; transition staffing is not delegate organizing.",
+        "coalition": "McEntee could seek culturally conservative Trump supporters who want first-term policies with a different leader. His media audience could introduce him to potential supporters, while former personnel contacts might help recruit campaign specialists. Neither shows that people will donate, volunteer or vote for him.",
+        "advantage": "Informal political communication could make an unfamiliar candidate approachable to some conservative viewers.",
+        "vulnerability": "Attention to short-form content does not show that viewers trust him to govern or will work for a campaign.",
         "positions": "His first-term record includes support for restrictive immigration staffing and troop withdrawals. That record does not establish every position he would take in a presidential campaign today.",
         "money": "Technology investor Peter Thiel invested in McEntee’s dating business. That was a business investment, not a confirmed presidential-campaign contribution or endorsement.",
         "event_ids": [],
@@ -255,86 +263,92 @@
           "ap_voter_poll_2026_results",
           "blumenthal_2026_preservation",
           "harris_oct2026_primary",
-          "prri"
+          "prri",
+          "weekly_mcentee_interview",
+          "weekly_tencent_ld2"
         ],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "rand_paul",
         "person_id": "paul",
-        "path": "Paul could benefit if Republican voters want less military intervention and stronger limits on executive power. His Senate experience and political relationships give him resources for a bid, but agreement with his positions does not establish enthusiasm for him as president. He would need to attract voters beyond his existing supporters while competing with Massie and other administration critics.",
-        "coalition": "He could appeal to Republicans who want less military intervention, fewer trade barriers and stronger limits on federal power. Those voters may disagree with one another about spending cuts or help for struggling households.",
-        "advantage": "Paul criticized military intervention and limits on civil liberties before the latest Republican election defeat. He could argue that his positions reflect long-held beliefs rather than a reaction to bad election results.",
-        "vulnerability": "Voters can agree with Paul about the war without wanting him as president. He would need to attract people beyond his existing supporters, compete with Massie for similar voters and decide whether to enter the race.",
+        "path": "Paul would make a case for limits on war and spending while trying to keep voters who still support much of Trump’s agenda. Political contacts can recruit organizers beyond Kentucky if interest broadens; cooperation with Massie does not guarantee a presidential endorsement.",
+        "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors.",
+        "advantage": "He can argue that constitutional limits deserve loyalty even when Trump disagrees.",
+        "vulnerability": "Voters seeking immediate economic protection may resist his spending agenda or see him as too narrowly focused.",
         "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
         "money": "Paul has historical links to the Protect Freedom political group and donor Jeff Yass. Those connections do not establish a confirmed financial commitment to a 2028 presidential bid.",
         "source_ids": [
           "paul_official_positions",
           "paul_entry_cbs_2026",
-          "paul_protect_freedom"
+          "paul_protect_freedom",
+          "weekly_paul_massie_support",
+          "weekly_2015_debate"
         ],
         "event_ids": [],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "brian_kemp",
         "person_id": null,
-        "path": "Kemp could offer his record as Georgia governor to Republicans who want different leadership from Washington. He would have to decide to run, introduce himself nationally and turn state-level relationships into a presidential campaign. Donors and voters seeking another governor could choose DeSantis instead.",
-        "coalition": "He could attract Republicans who want an experienced governor and believe he could win a general election. Whether that appeal extends beyond Georgia remains uncertain.",
-        "advantage": "Kemp can point to experience governing Georgia without having been responsible for the administration’s military decisions in Washington.",
-        "vulnerability": "Kemp’s popularity in Georgia does not show that Republicans elsewhere would choose him for president. He would need to enter the race, become better known nationally and persuade voters to choose him over DeSantis or Trump-aligned candidates.",
+        "path": "Kemp would emphasize governing results and independence from federal decisions while deciding whether to pursue a national race. Georgia allies could recruit early-state specialists if he enters and attracts national demand.",
+        "coalition": "Kemp’s Georgia supporters and state political relationships offer a base from which to recruit outside the state. Republicans looking for a governor could also choose DeSantis; Georgia approval does not establish national presidential preference.",
+        "advantage": "He can use concrete governing examples and personal experience to make a restrained executive pitch.",
+        "vulnerability": "A strong state reputation may leave national voters unmoved, and Trump loyalists may question him.",
         "positions": "His Georgia record includes tax cuts and conservative immigration, policing and social policies. A state record does not establish a complete presidential platform.",
         "money": "This review has not verified commitments from donors to finance a Kemp presidential campaign.",
         "source_ids": [
           "kemp_2026_ajc",
           "kemp_2026_tax_relief",
           "kemp_2024_enforcement",
-          "kemp_2019_life_act"
+          "kemp_2019_life_act",
+          "weekly_kemp_debate"
         ],
         "event_ids": [],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "thomas_massie",
         "person_id": "massie",
-        "path": "Massie could attract Republicans whose concerns about war powers and government accountability are reinforced by later events. He would need to choose a Republican presidential bid, recruit a national campaign team and persuade voters that his dissent makes him a credible president. Paul competes for some of the same supporters, and Trump’s hostility could help Massie with some voters while alienating others.",
-        "coalition": "He could appeal to Republicans who oppose foreign military intervention and want Congress to limit presidential power. Paul seeks many of the same voters.",
-        "advantage": "Massie has taken specific congressional actions on war powers and government disclosure. He could point to those actions as evidence that he opposed policies before they became politically costly.",
-        "vulnerability": "Massie’s Republican primary defeat and conflict with Trump could discourage voters or donors. He also needs a national campaign team, and a run outside the Republican Party would not give him a path to this nomination.",
+        "path": "Massie would press accountability and war-powers claims and must choose whether a presidential effort would stay inside the Republican Party. Activists could recruit state specialists if he chooses a Republican campaign; oversight publicity alone will not qualify delegates.",
+        "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign.",
+        "advantage": "He can point to opposition taken under pressure as evidence that he means what he says.",
+        "vulnerability": "Admiring dissent does not mean wanting him as president, and a non-Republican route cannot win this nomination.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
         "source_ids": [
           "massie_entry_2026",
           "massie_2026_war_powers",
           "massie_2026_hegseth",
-          "massie_2026_funding"
+          "massie_2026_funding",
+          "weekly_paul_massie_support"
         ],
         "event_ids": [],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       }
     ],
     "scenario_labels": {
-      "wargame_ref": "2026-11-07-weekly-causal-projection-review",
+      "wargame_ref": "2026-11-08-weekly-support-appeal-review",
       "scenarios": {
         "recovery": {
-          "title": "The Iran war eases and lower living costs restore support for Trump",
-          "summary": "Fighting related to Iran decreases and households see sustained relief in living expenses. Republican voters give Trump and candidates associated with him more credit, despite continuing scrutiny."
+          "title": "Peace and lower household costs restore Republican confidence in Trump’s allies",
+          "summary": "War conditions and household costs improve enough that Republican voters regain confidence in Trump’s allies. Later disclosures do not undo that recovery."
         },
         "managed_costs": {
-          "title": "Voters stay unhappy, but Trump’s allies keep donors and campaign support",
-          "summary": "Voters remain dissatisfied with the war and living costs. Trump-aligned candidates keep enough donor support, staff and activists to compete, while challengers struggle to unite unhappy Republicans."
+          "title": "Republicans remain dissatisfied, but Trump’s allies keep voters and campaign teams",
+          "summary": "Republican voters remain unhappy with costs and policy results, but neither investigations nor a rival campaign persuades enough of them to abandon Trump’s allies. Existing campaign relationships help those allies remain competitive."
         },
         "systemic": {
-          "title": "Policy failures or scandals turn Republicans against Trump’s leadership",
-          "summary": "Continuing policy failures or credible disclosures persuade a meaningful share of Republican voters to blame Trump and senior administration figures. Candidates outside the current federal leadership have an opening to recruit those voters, donors and campaign staff."
+          "title": "Republican voters blame senior Trump officials and seek a different leader",
+          "summary": "Continuing policy failures or credible disclosures persuade a consequential group of Republican voters to blame senior Trump officials. Those voters reject an explanation that blames only subordinates and look for different leadership."
         },
         "selective": {
-          "title": "Republicans blame specific officials but still back a Trump-aligned successor",
-          "summary": "Republican voters accept that particular officials, rather than the whole administration, are responsible for failures. A Trump-aligned candidate can promise changes without breaking with Trump."
+          "title": "Republicans blame particular officials while accepting a successor’s corrections",
+          "summary": "Republican voters accept that particular officials deserve blame while a successor offers a believable correction. They neither forgive the whole administration’s record nor reject all its senior allies."
         },
         "backlash": {
-          "title": "Republicans rally behind Trump against Democratic investigations",
-          "summary": "Investigations produce little that persuades Republican voters, or are seen as partisan. Opposition to Democrats restores support for Trump-aligned candidates even if the war and living costs do not improve."
+          "title": "Republicans rally behind Trump’s allies against Democratic investigations",
+          "summary": "Democratic investigations fail to persuade enough Republican voters. Conflict with Democrats becomes a stronger reason to support Trump’s allies, even though policy results have not substantially improved."
         }
       }
     }

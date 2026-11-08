@@ -2856,6 +2856,35 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: the opportunity to negotiate a coalition does not establish a completed government change or a gain for a tracked US faction."
+    },
+    {
+      "id": "irn-2026-11-08-trump-conditional-talks",
+      "date": "2026-11-08",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump says further Iran attacks are unlikely if negotiations make progress, while retaining the threat of force.",
+      "context": "In a November 8 CNN interview, Trump favored a negotiated agreement conditionally. His comments do not establish Iran’s acceptance, an end to the blockade or a military stand-down. His estimates of Iranian military losses remain his claims. Qatar and Iran can still reject terms; progress depends on more than Trump’s preference.",
+      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/08/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: a public preference for talks gives negotiators room to continue, but Iran’s terms and the retained threat of force prevent treating it as a settlement.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-08",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: the statement does not establish an implemented agreement or a demonstrated transfer of supporters.",
+      "challenge": {
+        "reading": "Iran could use Trump’s desire to avoid renewed attacks to seek better terms; the statement is also coercive bargaining.",
+        "resolution": "survives",
+        "countercase_weight": "credible",
+        "mechanism": "Trump keeps a military threat while making talks his public preference; Iran retains bargaining choices.",
+        "precedent": "The 2015 Iran negotiations show that agreements require reciprocal concessions; this review does not equate the military or domestic conditions.",
+        "falsifier": "A mutually accepted agreement and observed implementation would establish a policy result beyond rhetoric."
+      }
     }
   ]
 }

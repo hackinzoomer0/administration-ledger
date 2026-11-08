@@ -2360,6 +2360,27 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: investigative demand with no verified outcome."
+    },
+    {
+      "id": "mid-2026-11-08-health-activist-outreach",
+      "date": "2026-11-08",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Health-policy activists and Democratic lawmakers",
+      "text": "Some health-policy activists seek cooperation with Democrats after Republican losses.",
+      "context": "CNN reports that activists associated with Make America Healthy Again are discussing cooperation on food and environmental policy. The movement includes people with different views on vaccines and party loyalty. Outreach does not establish that voters have changed parties or that Robert F. Kennedy Jr. has left office. Democrats could gain partners on specific policies without accepting the movement’s full agenda.",
+      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/08/maha-makes-its-case-to-democrats-as-blue-wave-crashes-gop-alliance-and-threatens-rfk-jr/",
+      "tier": "reported",
+      "weight": 2,
+      "rationale": "My reading: cooperation offers Democrats a way to divide part of Trump’s coalition by policy priority; the size and durability of any electoral transfer remain unknown.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-08",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: policy outreach does not establish a voter transfer or a change in executive authority."
     }
   ]
 }

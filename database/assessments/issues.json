@@ -1,7 +1,7 @@
 {
   "AI": {
     "policy": "The administration is trying to limit states’ ability to regulate artificial intelligence while allowing commercial chip exports and voluntary safety reviews of advanced AI systems. The Pentagon is also seeking broad permission to use AI for military purposes.",
-    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another.",
+    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -116,8 +116,8 @@
       "ai-2026-11-03-local-data-center-ballots",
       "ai-2026-11-02-cyber-info-sharing"
     ],
-    "research_as_of": "2026-11-07",
-    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
+    "research_as_of": "2026-11-08",
+    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation. November 8 targeted authority review: Berkeley Lab’s October overview supports the general approval structure. Project-specific loan terms and local ballot implementation remain unresolved; other AI findings are carried.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -202,6 +202,9 @@
         "financial_relationships": [],
         "basis_note": "Role-based assessment from the existing issue record; individual intent is analytical, not a newly verified statement."
       }
+    ],
+    "source_ids": [
+      "weekly_siting_authority"
     ]
   },
   "EPS": {
@@ -610,7 +613,7 @@
     ]
   },
   "IRN": {
-    "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive.",
+    "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive. Trump’s November 8 comments favor further talks conditionally, while retaining the threat of force; an accepted agreement is not established.",
     "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice. Israeli President Isaac Herzog has selected opposition leader Gadi Eisenkot to try forming Israel’s government; a coalition and any effect on war negotiations remain unsettled.",
     "player_ids": [
       "donald-trump",
@@ -732,7 +735,8 @@
       "irn-2026-11-04-ofac-designations",
       "irn-2026-11-04-vance-postelection-war-critique",
       "irn-2026-11-03-qeshm-strikes",
-      "irn-2026-11-07-herzog-selects-eisenkot"
+      "irn-2026-11-07-herzog-selects-eisenkot",
+      "irn-2026-11-08-trump-conditional-talks"
     ],
     "research_as_of": "2026-11-08",
     "scope": "Focused November 8 review: Vance’s campaign messaging checked through readable Reuters syndication. Other policy conclusions are carried; no new settlement, military directive or transfer of primary support was verified.",
@@ -869,7 +873,7 @@
   },
   "MID": {
     "policy": "The Associated Press projects that Democrats will control both chambers of the next Congress. They take office in January; current members retain their powers until then.",
-    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended.",
+    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended. Health-policy activists’ outreach to Democrats shows another possible split in Trump’s coalition, but no measured transfer of voters or completed Cabinet removal.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -974,9 +978,10 @@
       "mid-2026-11-05-congress-control",
       "mid-2026-11-05-wiles-hegseth-blame",
       "mid-2026-11-05-blumenthal-preservation-notices",
-      "mid-2026-11-06-doj-departures"
+      "mid-2026-11-06-doj-departures",
+      "mid-2026-11-08-health-activist-outreach"
     ],
-    "research_as_of": "2026-11-07",
+    "research_as_of": "2026-11-08",
     "scope": "Weekly causal review 2026-11-07: targeted evidence recheck; full implementation and court calendar not independently verified. No silence treated as confirmation.",
     "actors": [
       {
