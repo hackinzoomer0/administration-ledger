@@ -9,7 +9,7 @@
     "role": "analyst"
   },
   "auditor-monday": {
-    "asof": "2026-11-03",
+    "asof": "2026-11-07",
     "role": "auditor-monday"
   },
   "challenger": {
@@ -60,7 +60,7 @@
     "role": "lessons"
   },
   "recall": {
-    "asof": "2026-11-01",
+    "asof": "2026-11-07",
     "model": "sonnet",
     "role": "recall"
   },

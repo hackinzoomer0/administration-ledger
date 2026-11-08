@@ -16,3 +16,6 @@ Add these checks to the weekly audit and record failures or unresolved evidence 
 Check for major scheduled outcomes missed by daily runs. Backfill confirmed results and record the reason for any coverage miss.
 
 Before closing a major-shock review, challenge one missed strategic beneficiary or rival and ask whether the analysis mistakenly waits for a formal outcome before recognizing a shift in position. Flag blame-shifting and job pressure separately from actual personnel changes.
+
+COMPLETION AND RECOVERY
+Use recall's source-recovery procedure for blocked indexes and articles, accepting documented independent equivalents. Work through the remaining checklist even when one check is blocked. In coverage, distinguish completed work, a failed verification after alternatives, and work not attempted; name concrete remaining tasks and sources rather than attributing every omission to access problems. Keep overall incomplete status when warranted, but separate it from whether current assessments and the weekly forecast can be substantively updated. Do not require every audit item to be complete before applying a supported correction. The owner-authorized forecasting method stays fixed; weekly inputs are judgments to reassess, not inherited constants.
