@@ -50,7 +50,7 @@ def validate(before, after, section):
     factions = set(after['collections']['factions'])
     prior = {r['id']: r['nomination_likelihood_pct'] for r in old['candidates']}
     seen = {r['id'] for r in previous_history}
-    from wargame import effective_game, validate_case_review
+    from wargame import effective_game, validate_case_review, validate_comparison_review
     previous_game, full_id = effective_game(previous_history) if old['forecast_methodology'].get('version') == 'scenario_wargame_v1' else (None, None)
     processed = list(previous_history)
     for entry in added:
@@ -119,6 +119,8 @@ def validate(before, after, section):
             processed.append(entry)
             game, full_id = effective_game(processed)
             validate_game(game, names, sources, events, entry['date'])
+            if entry.get('type') == 'weekly_review':
+                validate_comparison_review(game, names, sources, events)
             previous_game = game
             if forecast(game, names) != entry['probabilities_pct']:
                 raise ValueError('Nominee estimates must reproduce the scenario mixture')
@@ -127,8 +129,10 @@ def validate(before, after, section):
         prior = entry['probabilities_pct']
     if new['forecast_methodology'].get('version') == 'scenario_wargame_v1':
         from wargame import validate_game, forecast
-        game, _ = effective_game(history)
+        game, game_id = effective_game(history)
         validate_game(game, names, sources, events, new['as_of_date'])
+        if next(row for row in history if row['id'] == game_id).get('type') == 'weekly_review':
+            validate_comparison_review(game, names, sources, events)
         if forecast(game, names) != current:
             raise ValueError('Current forecast must reproduce the scenario mixture')
     latest = history[-1]

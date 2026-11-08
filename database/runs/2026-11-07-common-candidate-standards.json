@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-07",
+  "type": "workflow_setup",
+  "scope": "Owner-approved common comparative standards for weekly nomination forecasts, plus an explicitly hypothetical assessment of McEntee’s potential constituency. No full wargame or numerical update.",
+  "summary": "Require the same entry, resource, coalition, liability and uncertainty standards across all eight contenders before weekly weighting. Narrative attention and correct arithmetic do not establish comparable treatment.",
+  "changes": [
+    "Require a comparison_review for future weekly full games, covering all authorized candidates and actual scenario ranges.",
+    "Require cross-candidate consistency challenges covering everyone and a check against user framing, incumbency and missing-coverage bias.",
+    "Keep historical forecasts, current estimates and the weekly-full/daily-monitor cadence unchanged."
+  ],
+  "mcentee_base_hypothesis": {
+    "status": "Analytical hypothesis; no verified nomination polling or demographic composition.",
+    "potential_core": "Trump-aligned voters seeking younger leadership and continuity with the movement’s original priorities, including culturally conservative online audiences. This is a potential constituency, not established support.",
+    "potential_extension": "Nationalist voters attracted to immigration restriction, less foreign intervention and more control over executive staffing, conditional on current positions and electoral credibility. Do not treat this as Paul/Massie’s entire constituency or infer libertarian views from withdrawal work.",
+    "organizational_assets": "Personnel and transition relationships can be mobilizable resources. They are not a voter base, delegate operation, faction endorsement or guaranteed campaign support.",
+    "overlap": "The potential constituency may overlap substantially with Trump/Vance voters. Loyalty to Trump could also keep those voters with Trump’s preferred successor.",
+    "countercase": "Online familiarity can remain entertainment; current insider and business ties can weaken a renewal argument; contenders may never enter or mobilize delegates.",
+    "what_would_test_it": [
+      "Comparable nomination polling including McEntee and second-choice preferences.",
+      "Verified audience composition and favorable interest beyond engagement counts.",
+      "Actual endorsements, organizers and political funding distinct from business relationships.",
+      "Evidence of how Trump-aligned voters respond to his independent positioning."
+    ],
+    "sources": [
+      {
+        "url": "https://www.john-mcentee.com/about",
+        "publisher": "John McEntee",
+        "status": "Own biography; supports self-presentation and relationships, not independent popularity."
+      },
+      {
+        "url": "https://www.john-mcentee.com/press",
+        "publisher": "John McEntee",
+        "status": "Own promotional page; supports intended cultural/media positioning, not verified vote conversion."
+      },
+      {
+        "url": "https://www.heritage.org/press/former-ppo-director-john-mcentee-joins-project-2025-personnel-database-launches",
+        "publisher": "Heritage Foundation",
+        "status": "Original 2023 organizational announcement; no 2028 endorsement inferred."
+      }
+    ]
+  },
+  "probabilities_changed": false,
+  "nominees_added": [],
+  "next_application": "Next full weekly review; daily monitoring queues evidence without rerunning the comparative forecast.",
+  "validation": "54 Python integrity/workflow tests passed, plus 6 selector tests, lint, production build and database validation. CI browser checks and live revision verification follow publication. Structural validation does not establish analytical truth."
+}

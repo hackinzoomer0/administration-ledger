@@ -28,6 +28,30 @@ class ForecastGuard(unittest.TestCase):
             'predictions': {r['id']: {'decision':'retained','reason':'Still tests the stated mechanism.','replacement_ids':[]} for r in self.entry['wargame']['predictions']},
             'new_scenarios': {}, 'new_predictions': {}
         }
+        game = self.entry['wargame']
+        names = [row['id'] for row in self.forecast['candidates']]
+        source = self.forecast['sources'][0]['id']
+        game['comparison_review'] = {
+            'standard': 'common_candidate_standards_v1',
+            'framing_check': 'Fixture comparison; no preference-driven reweighting.',
+            'candidates': {name: {
+                'entry_and_competitiveness': 'Entry is a separate uncertainty from winning after entry.',
+                'resources_now_and_mobilizable': 'Distinguish current resources from plausible future resources.',
+                'coalition_conversion': 'A constituency must translate into votes and delegates.',
+                'liabilities_and_constituencies': 'Specify which voters or backers respond to a liability.',
+                'uncertainty_accounting': 'Missing coverage is not documented absence; avoid repeated penalties.',
+                'range_justification': 'Fixture defends the actual scenario ceiling without assuming equal outcomes.',
+                'scenario_range_pct': {'min':min(row['shares_pct'][name] for row in game['scenarios']), 'max':max(row['shares_pct'][name] for row in game['scenarios'])},
+                'source_ids':[source], 'event_ids':[]
+            } for name in names},
+            'cross_candidate_challenges': [{
+                'candidate_ids':[name,names[(index+1)%len(names)]],
+                'issue':'Compare treatment of potential organizing capacity.',
+                'countercase':'Future organization is not equally plausible for every contender.',
+                'resolution':'Explain differences using evidence rather than status or missing coverage.',
+                'source_ids':[source], 'event_ids':[]
+            } for index,name in enumerate(names)]
+        }
         for assessment in self.entry['assessments'].values():
             assessment['delta_pp'] = 0
         self.forecast['tracking']['history'].append(self.entry)
@@ -235,6 +259,49 @@ class ForecastGuard(unittest.TestCase):
         snapshot['previous_probabilities_pct']['jd_vance'] = 0
         with self.assertRaisesRegex(ValueError,'previous denominator'):
             module.validate(ledger,ledger,'Integrity')
+
+    def test_weekly_requires_comparison_not_just_candidate_biographies(self):
+        del self.entry['wargame']['comparison_review']
+        with self.assertRaisesRegex(ValueError, 'common-standard'):
+            self.check()
+
+    def test_comparison_cannot_skip_a_disfavored_candidate(self):
+        del self.entry['wargame']['comparison_review']['candidates']['john_mcentee']
+        with self.assertRaisesRegex(ValueError, 'every authorized candidate'):
+            self.check()
+
+    def test_comparison_must_defend_the_actual_ceiling(self):
+        self.entry['wargame']['comparison_review']['candidates']['john_mcentee']['scenario_range_pct']['max'] = 50
+        with self.assertRaisesRegex(ValueError, 'actual scenario shares'):
+            self.check()
+
+    def test_comparison_needs_explicit_uncertainty_accounting(self):
+        self.entry['wargame']['comparison_review']['candidates']['john_mcentee']['uncertainty_accounting']=''
+        with self.assertRaisesRegex(ValueError, 'uncertainty_accounting'):
+            self.check()
+
+    def test_comparative_challenges_cannot_ignore_most_of_the_field(self):
+        self.entry['wargame']['comparison_review']['cross_candidate_challenges'] = self.entry['wargame']['comparison_review']['cross_candidate_challenges'][:1]
+        with self.assertRaisesRegex(ValueError, 'Every candidate needs'):
+            self.check()
+
+    def test_comparison_rejects_unresolved_sources(self):
+        self.entry['wargame']['comparison_review']['candidates']['john_mcentee']['source_ids']=['invented']
+        with self.assertRaisesRegex(ValueError, 'Unresolved comparative'):
+            self.check()
+
+    def test_zero_weight_breakthrough_does_not_fake_a_higher_forecast_ceiling(self):
+        game=self.entry['wargame']
+        added=copy.deepcopy(game['scenarios'][0]);added['id']='unweighted-breakthrough';added['weight_pct']=0
+        transfer=50-added['shares_pct']['john_mcentee']
+        added['shares_pct']['john_mcentee']=50
+        added['shares_pct']['jd_vance']-=transfer
+        game['scenarios'].append(added)
+        game['case_review']['new_scenarios'][added['id']]='A zero-weight branch retained only as a research question.'
+        self.check()
+        game['comparison_review']['candidates']['john_mcentee']['scenario_range_pct']['max']=50
+        with self.assertRaisesRegex(ValueError,'actual scenario shares'):
+            self.check()
 
     def test_rounding_preserves_total_without_last_candidate_bias(self):
         from wargame import forecast

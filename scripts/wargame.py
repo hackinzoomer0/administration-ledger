@@ -143,6 +143,42 @@ def validate_case_review(game, previous):
                     raise ValueError('Retired predictions stay auditable with an explicit retirement reason')
 
 
+
+
+def validate_comparison_review(game, names, sources, events):
+    """Require common evidence standards without pretending prose validation establishes analytical truth."""
+    review = game.get('comparison_review', {})
+    if review.get('standard') != 'common_candidate_standards_v1' or not review.get('framing_check', '').strip():
+        raise ValueError('Weekly forecast requires a common-standard candidate comparison')
+    rows = review.get('candidates', {})
+    if set(rows) != set(names):
+        raise ValueError('Comparative review must cover every authorized candidate')
+    def evidence(row):
+        if not row.get('source_ids') and not row.get('event_ids'):
+            raise ValueError('Candidate comparisons require evidence or sourced coverage limitations')
+        if not set(row.get('source_ids', [])) <= sources or not set(row.get('event_ids', [])) <= events:
+            raise ValueError('Unresolved comparative-review evidence')
+    for name, row in rows.items():
+        for key in ['entry_and_competitiveness', 'resources_now_and_mobilizable', 'coalition_conversion', 'liabilities_and_constituencies', 'uncertainty_accounting', 'range_justification']:
+            if not isinstance(row.get(key), str) or not row[key].strip():
+                raise ValueError(f'Candidate comparison requires {key}')
+        values = [scenario['shares_pct'][name] for scenario in game['scenarios'] if scenario['weight_pct'] > 0]
+        if row.get('scenario_range_pct') != {'min': min(values), 'max': max(values)}:
+            raise ValueError('Declared candidate range must match actual scenario shares')
+        evidence(row)
+    covered = set()
+    for challenge in review.get('cross_candidate_challenges', []):
+        ids = challenge.get('candidate_ids', [])
+        if len(set(ids)) < 2 or not set(ids) <= set(names):
+            raise ValueError('Comparative challenges need at least two known candidates')
+        if not all(challenge.get(key, '').strip() for key in ['issue', 'countercase', 'resolution']):
+            raise ValueError('Comparative challenges need an issue, countercase and resolution')
+        evidence(challenge)
+        covered.update(ids)
+    if covered != set(names):
+        raise ValueError('Every candidate needs a cross-candidate consistency challenge')
+
+
 if __name__ == '__main__':
     doc = json.loads(Path(sys.argv[1]).read_text())
     game, full_id = effective_game(doc['tracking']['history'])
