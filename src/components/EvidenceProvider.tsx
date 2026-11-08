@@ -70,7 +70,8 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
               </IconButton>
             </Stack>
             <ResearchText text={request.summary} />
-            {request.event_ids.length > 0 &&
+            {request.showIssuePlayers !== false &&
+              request.event_ids.length > 0 &&
               (() => {
                 const issue = data.events.find(
                   (row) => row.id === request.event_ids[0],

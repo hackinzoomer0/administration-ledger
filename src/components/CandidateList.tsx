@@ -105,6 +105,7 @@ export function CandidateList({ compact = false }: { compact?: boolean }) {
                       title: `${candidate.name}: nomination assessment`,
                       summary: read.path,
                       event_ids: read.event_ids,
+                      showIssuePlayers: false,
                       source_ids: read.source_ids,
                     })
                   }

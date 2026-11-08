@@ -183,6 +183,7 @@ export function CandidateProfile({
                   title: `${candidate.name}: nomination case`,
                   summary: read.path,
                   event_ids: read.event_ids,
+                  showIssuePlayers: false,
                   source_ids: read.source_ids,
                 })
               }
@@ -457,6 +458,7 @@ export function CandidateProfile({
               open({
                 title: `${candidate.name}: assessment evidence`,
                 event_ids: read.event_ids,
+                showIssuePlayers: false,
                 source_ids: read.source_ids,
               })
             }

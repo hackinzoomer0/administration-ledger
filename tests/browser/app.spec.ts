@@ -44,6 +44,18 @@ test("nominee page shows substantive assessment and readable policy evidence", a
   await expect(page.locator("main")).not.toContainText(
     "Storage and interface migration",
   );
+  await page
+    .getByRole("button", { name: "View basis", exact: true })
+    .first()
+    .click();
+  await expect(page.getByRole("dialog")).toBeVisible();
+  await expect(page.getByRole("dialog")).not.toContainText(
+    "Major players, factions, goals & backers",
+  );
+  await expect(
+    page.getByRole("dialog").getByRole("link").first(),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Close evidence" }).click();
   await page.getByRole("link", { name: "John McEntee", exact: true }).click();
   await page.getByRole("tab", { name: "Positions", exact: true }).click();
   await expect(
