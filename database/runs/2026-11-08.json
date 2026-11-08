@@ -1,0 +1,450 @@
+{
+  "date": "2026-11-08",
+  "type": "daily_review",
+  "added": 1,
+  "summary": "INCOMPLETE: Focused November 7–8 review adds Herzog’s selection of Eisenkot to seek a governing majority, extends the existing Vance positioning episode with Reuters reporting and clarifies that the Afghan court extension supersedes the old expiration. Daily nominee odds hold. Remaining election calls, major court outcomes, military decisions and reported Hegseth impeachment support remain open or unreviewed.",
+  "scope": "Focused November 7–8 review of post-election positioning, Israel government formation and the Afghan removal deadline, with selected official indexes and a ten-issue pending-outcome screen. Other court, military, finance and campaign-organization findings are carried or unresolved, not newly verified.",
+  "reviewed_episode_ids": [
+    "irn-2026-11-04-vance-postelection-war-critique",
+    "irn-2026-11-07-herzog-selects-eisenkot",
+    "imm-2026-10-26-afghan-deportations",
+    "mid-2026-11-05-congress-control",
+    "mid-2026-11-06-miller-chief-staff"
+  ],
+  "changed_entries": [
+    "events/IRN:irn-2026-11-04-vance-postelection-war-critique",
+    "events/IRN:irn-2026-11-07-herzog-selects-eisenkot",
+    "events/IMM:imm-2026-10-26-afghan-deportations",
+    "factions/vance",
+    "assessments/current",
+    "assessments/issues",
+    "nominations/republican_2028"
+  ],
+  "unresolved_claims": [
+    "Focused intake, not a complete daily source census or candidate audit. Current donor pledges, early-state organizers and comparable post-election primary polling remain incompletely checked.",
+    "Axios Hegseth impeachment article could not be opened; search snippets suggest wider support, but no roll call, scheduled vote or removal verified. Trump DOJ/Slotkin demand surfaced in USA TODAY syndication; direct pages failed, and actual investigative action is unverified.",
+    "Reuters says Rubio stayed silent, conflicting with the already stored AP account of his November 5 interview. Do not replace that dated account with an unqualified silence claim.",
+    "Court outcomes on AI, tariffs, Epstein and later immigration orders, Los Angeles grand jury, remaining election calls and new military directives are not fully resolved.",
+    "All shares remain subjective and conditional on the eight authorized nominees; unlisted contenders can win."
+  ],
+  "evidence_needed": [
+    "Israel mandate ceremony and coalition commitments",
+    "Hegseth roll call and job status; actual DOJ investigative steps",
+    "Remaining election certifications and pending legal decisions",
+    "Voter reception, donor pledges and presidential organization"
+  ],
+  "nominee_review": {
+    "probabilities_pct": {
+      "jd_vance": 32.85,
+      "marco_rubio": 11.95,
+      "ron_desantis": 18.55,
+      "ted_cruz": 5.8,
+      "john_mcentee": 5.35,
+      "rand_paul": 9.9,
+      "brian_kemp": 12.1,
+      "thomas_massie": 3.5
+    },
+    "delta_pp": {
+      "jd_vance": 0,
+      "marco_rubio": 0,
+      "ron_desantis": 0,
+      "ted_cruz": 0,
+      "john_mcentee": 0,
+      "rand_paul": 0,
+      "brian_kemp": 0,
+      "thomas_massie": 0
+    },
+    "nominees_added": [],
+    "candidate_coverage": {
+      "jd_vance": "partial",
+      "marco_rubio": "partial",
+      "ron_desantis": "partial",
+      "ted_cruz": "partial",
+      "john_mcentee": "unreviewed",
+      "rand_paul": "unreviewed",
+      "brian_kemp": "unreviewed",
+      "thomas_massie": "partial"
+    },
+    "shared_evidence": [
+      "irn-2026-11-04-vance-postelection-war-critique",
+      "irn-2026-11-07-herzog-selects-eisenkot",
+      "imm-2026-10-26-afghan-deportations"
+    ],
+    "cross_report_implications": "Vance’s message can create room for war-policy differentiation inside the administration; his existing faction channels help explain how it reaches activists. No estimate is used as evidence of faction strength.",
+    "gaps": [
+      "Focused intake, not a complete daily source census or candidate audit. Current donor pledges, early-state organizers and comparable post-election primary polling remain incompletely checked.",
+      "Axios Hegseth impeachment article could not be opened; search snippets suggest wider support, but no roll call, scheduled vote or removal verified. Trump DOJ/Slotkin demand surfaced in USA TODAY syndication; direct pages failed, and actual investigative action is unverified.",
+      "Reuters says Rubio stayed silent, conflicting with the already stored AP account of his November 5 interview. Do not replace that dated account with an unqualified silence claim.",
+      "Court outcomes on AI, tariffs, Epstein and later immigration orders, Los Angeles grand jury, remaining election calls and new military directives are not fully resolved.",
+      "All shares remain subjective and conditional on the eight authorized nominees; unlisted contenders can win."
+    ],
+    "wargame_ref": "2026-11-07-weekly-causal-projection-review"
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Vance differentiation reportedly began before election day; Wiles had advance knowledge of the post.",
+        "event_ids": [
+          "irn-2026-11-04-vance-postelection-war-critique"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "current.administration",
+          "current.nomination.candidates.jd_vance",
+          "issues.SUC",
+          "issues.IRN"
+        ],
+        "reason": "Refines timing and access without establishing voter conversion."
+      },
+      {
+        "finding": "Herzog selects Eisenkot to attempt coalition formation.",
+        "event_ids": [
+          "irn-2026-11-07-herzog-selects-eisenkot"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "issues.IRN"
+        ],
+        "reason": "Negotiating opportunity, not completed government or war-policy change."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      },
+      "IMM": {
+        "status": "reviewed",
+        "reason": "Focused source checks; unresolved downstream outcomes remain explicit."
+      },
+      "IRN": {
+        "status": "reviewed",
+        "reason": "Focused source checks; unresolved downstream outcomes remain explicit."
+      },
+      "MID": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      },
+      "SUC": {
+        "status": "reviewed",
+        "reason": "Focused source checks; unresolved downstream outcomes remain explicit."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Selected indexes and pending-outcome screen did not complete issue-specific verification; previous conclusions are carried, not reconfirmed."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "Executive control, staffing and incoming oversight remain dominant; Vance’s reported positioning adds a consequential response to defeat without establishing a policy reversal.",
+    "dated_assumptions": [
+      {
+        "assumption": "Miller chief-of-staff handover",
+        "date": "2026-11-09",
+        "status": "pending",
+        "reason": "Not yet due."
+      },
+      {
+        "assumption": "Afghan temporary order expiration",
+        "date": "2026-11-07",
+        "status": "verified",
+        "reason": "ECF 21 extends protection for identified clients pending further order; no automatic expiration assumed."
+      },
+      {
+        "assumption": "Eisenkot mandate ceremony",
+        "date": "2026-11-08",
+        "status": "pending",
+        "reason": "Scheduled 17:00 local time; no completed ceremony verified."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Vance’s criticism proves a personal rupture or new primary support.",
+        "finding": "Reuters sources describe continuity of personal ties; voter gains are not measured.",
+        "consequence": "Maintain the distinction between strategic positioning and coalition outcomes."
+      }
+    ]
+  },
+  "coverage": {
+    "scope": "Focused November 7–8 review of post-election positioning, Israel government formation and the Afghan removal deadline, with selected official indexes and a ten-issue pending-outcome screen. Other court, military, finance and campaign-organization findings are carried or unresolved, not newly verified.",
+    "sourcesRead": [
+      "https://new.streetinsider.com/Reuters/After%2Bmidterm%2Brout,%2BVance%2Btries%2Bto%2Bbuild%2Bhis%2Bown%2B2028%2Bbrand/27309273.html",
+      "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
+      "https://www.the-independent.com/news/world/americas/us-politics/jd-vance-iran-war-susie-wiles-trump-b3081105.html",
+      "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2026cv09602/676381/21/0.pdf",
+      "https://www.whitehouse.gov/releases/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://home.treasury.gov/news/press-releases",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.justice.gov/news",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.memeorandum.com/",
+      "https://www.realclearpolitics.com/",
+      "https://www.cbsnews.com/politics/",
+      "https://www.aljazeera.com/news/"
+    ],
+    "queries": 29,
+    "perIssue": {
+      "AI": "targeted source or calendar search; see outcome status",
+      "EPS": "targeted source or calendar search; see outcome status",
+      "FED": "targeted source or calendar search; see outcome status",
+      "IMM": "targeted source or calendar search; see outcome status",
+      "IRN": "targeted source or calendar search; see outcome status",
+      "MID": "targeted source or calendar search; see outcome status",
+      "RUS": "targeted source or calendar search; see outcome status",
+      "SUC": "targeted source or calendar search; see outcome status",
+      "TAR": "targeted source or calendar search; see outcome status",
+      "VEN": "targeted source or calendar search; see outcome status"
+    },
+    "outcomes": {
+      "Outstanding election calls and certifications": {
+        "status": "pending",
+        "finding": "Mississippi and Alaska unresolved in dated reporting; no final margins or certification inferred."
+      },
+      "Israel government formation": {
+        "status": "pending",
+        "finding": "Official November 7 choice of Eisenkot recovered; November 8 17:00 ceremony and subsequent coalition remain pending.",
+        "source": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/"
+      },
+      "Cook court filing and hearing": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Reuters reports December 14 hearing indication and Nov 6 joint status report; process and participation remain pending."
+      },
+      "Iran war decision": {
+        "status": "unreviewed",
+        "finding": "No accepted agreement or new operational directive verified. Targeted search does not resolve the decision."
+      },
+      "House leadership and Pentagon job pressure": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Check Nov 10 conference votes, Massie floor action, Hegseth job status and Tennessee appointment."
+      },
+      "Succession": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure."
+      },
+      "AI": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments."
+      },
+      "Epstein oversight": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing."
+      },
+      "Immigration court decisions": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Verify Nov 6 Venezuela TPS stay disposition and mandate, bond detention and Khalil."
+      },
+      "Tariffs": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Check Section 301 ruling, Section 338 litigation and Canadian negotiations."
+      },
+      "Venezuela": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Check OFAC Citgo decision and Nov 11–15 talks."
+      },
+      "Russia": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration."
+      },
+      "Election enforcement grand jury": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Search surfaced prior subpoena reporting. The specific Nov 4 Los Angeles outcome remains unverified."
+      },
+      "Senate oversight": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Watch for production, subpoenas and committee authority after organization."
+      },
+      "Afghan removal order expiration": {
+        "status": "reviewed",
+        "finding": "Read ECF 21: November 6 extension supersedes November 7 expiration for identified clients. Already recorded in weekly review; no new national ban.",
+        "source": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2026cv09602/676381/21/0.pdf"
+      },
+      "D.C. Guard implementation and litigation": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Check implementation of expanded patrol authority and status of District litigation."
+      },
+      "Chamber control": {
+        "status": "reviewed",
+        "finding": "Current election indexes continue to project Democratic control in January; remaining race calls do not represent current chamber authority."
+      },
+      "Israel consultations": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Herzog reported 67 recommendations for Eisenkot and 46 for Netanyahu. Mutual vetoes still constrain government formation."
+      },
+      "Iran mediation contact": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Carried from Nov 6; not independently resolved this run. Qatar reported the Nov 6 Trump–Tamim call on de-escalation."
+      },
+      "Venezuela TPS administrative stay": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Read Nov 3 order granting temporary stay; mandate issuance and later disposition remain pending."
+      },
+      "Chief of staff": {
+        "status": "pending",
+        "finding": "November 9 handover remains ahead; no completed transfer inferred."
+      },
+      "Iran sanctions": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Eight Canadian businesses designated Nov 6; financial effects unknown."
+      },
+      "Iran diplomacy and operations": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Axios reports Vance mediation and a Qeshm strike; verify further military orders and any agreement."
+      },
+      "Senate leadership timetable": {
+        "status": "unreviewed",
+        "finding": "Carried pending question: Reported Johnson delay request; no postponement or leadership result verified."
+      }
+    },
+    "watchlist": [
+      "Outstanding election calls and certifications",
+      "Israel government formation",
+      "Cook court filing and hearing",
+      "Iran war decision",
+      "House leadership and Pentagon job pressure",
+      "Succession",
+      "AI",
+      "Epstein oversight",
+      "Immigration court decisions",
+      "Tariffs",
+      "Venezuela",
+      "Russia",
+      "Election enforcement grand jury",
+      "Senate oversight",
+      "D.C. Guard implementation and litigation",
+      "Israel consultations",
+      "Iran mediation contact",
+      "Venezuela TPS administrative stay",
+      "Chief of staff",
+      "Iran sanctions",
+      "Iran diplomacy and operations",
+      "Senate leadership timetable",
+      "November 9 Afghan complaint amendment",
+      "November 10 Afghan briefing schedule",
+      "Vance voter reception and recruiter commitments"
+    ],
+    "lookbackDays": 1,
+    "blocked": [
+      "State releases 403",
+      "NewsNow inaccessible",
+      "Hill sitemap restricted",
+      "Axios Hegseth original inaccessible",
+      "Herzog original inaccessible; complete official text recovered by date/domain search",
+      "Media Line 403; official announcement recovered",
+      "USA TODAY AOL and local syndication direct pages inaccessible; claim remains unverified beyond indexed text",
+      "CBS several article pages inaccessible"
+    ],
+    "deviations": [
+      "Focused intake, not full collector enumeration, newsletter census, source pagination or named watch rotation. Sunday has no TVG issue.",
+      "Three legal searches: Lisa Cook lawsuit, Maurene Comey appeal, Hegseth inspector general. Search results alone do not establish no legal change.",
+      "Stored slicer produced zero automated matches; manual inspection of nearby and bundled rows found existing Vance, Israel-results and Afghan episodes. Retain Vance/Afghan updates in place; Herzog’s new selection is a distinct decision linked to the election sequence.",
+      "No new political workflow decision: MEMORY.md unchanged under snapshot-only restriction."
+    ],
+    "enrich": [
+      {
+        "item": "Vance messaging",
+        "route": 2,
+        "readUrl": "https://new.streetinsider.com/Reuters/After%2Bmidterm%2Brout,%2BVance%2Btries%2Bto%2Bbuild%2Bhis%2Bown%2B2028%2Bbrand/27309273.html",
+        "note": "Readable Reuters syndication; Independent retells same reporting, not independent corroboration."
+      },
+      {
+        "item": "Herzog choice",
+        "route": 4,
+        "readUrl": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
+        "note": "Full official search-index text recovered after direct failure; ceremony pending."
+      }
+    ],
+    "checklist": {
+      "collector": "partial: focused indexes",
+      "watch": "partial: calendar and major actors",
+      "duplicates": "done",
+      "validation": "done"
+    },
+    "editorial_notes": [
+      "Clarified superseded Afghan expiration in stored context and named Judge Marrero in headline. New Herzog title distinguishes announced selection from the mandate ceremony and completed coalition. Vance follow-up retains anonymous attribution.",
+      "Second-pass repairs: expanded Vance/Wiles roles, named Hegseth and the unresolved decision, expanded Herzog/Eisenkot roles, and rewrote the Afghan context into a dated sequence explaining the limited protection and next deadlines. No historical forecast or numerical inputs changed."
+    ],
+    "validation_notes": [
+      "Initial preflight rejected prediction resolutions without evidence references. Carried original test references into the daily unresolved updates; these references explain the original test basis and do not represent new verification.",
+      "Second preflight required the established No fx: prefix; repaired the specific no-score reason and regenerated the copy inventory and reviews. Final preflight exited 0."
+    ],
+    "validation_results": "PASS: runner-provided Daily preflight exited 0 after nominee, assessment, event/profile and reader-copy checks. No publication or application performed by the research turn."
+  },
+  "validation_results": "PASS: runner-provided Daily preflight exited 0 after nominee, assessment, event/profile and reader-copy checks. No publication or application performed by the research turn.",
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "ff1b99045d78bec6aab646684d2b05d2145ccef5e8fb5b484d0c97e1bb8a9652",
+        "reader_takeaway": "Trump retains executive authority while staffing changes and incoming oversight constrain his choices; Vance is trying to distinguish his message.",
+        "context_check": "Expanded Vance/Wiles roles and named the unresolved Hegseth vote and investigation questions.",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": [
+          "Named the vice president, chief of staff and defense secretary; replaced generic accountability language with specific unverified actions."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "ae9f74b3918e8c3a7279d7cbde06ccd1dc6b42d1c0a7fe516667747ff9ddc821",
+        "reader_takeaway": "Eisenkot has an opportunity to form a government, not a completed coalition; Vance’s message does not establish a policy reversal.",
+        "context_check": "Expanded Israeli president and opposition leader roles; scope explicitly distinguishes checked reporting from carried policy.",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": [
+          "Expanded Herzog and Eisenkot names and roles in the dispute."
+        ]
+      },
+      "events/IMM": {
+        "fingerprint": "718ce7c354f872738a55e297508c2519d289e7384873f0e2d83c1152824a2cb6",
+        "reader_takeaway": "The court extended protection for specified Afghan clients, with complaint and briefing deadlines ahead.",
+        "context_check": "Named both judges, explained Project Rousseau and described each order in date order.",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": [
+          "Rewrote compressed source fragments as sentences; explained filing numbers, superseded expiration, client-specific scope and next deadlines."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "cefb8c58969e255c106f9f91686894aefd69e6337158246b2a8690395d5bfaaf",
+        "reader_takeaway": "Herzog announced his choice of Eisenkot; Vance’s separate message reportedly began before the defeat.",
+        "context_check": "Reviewed the entire changed context, including carried Rubio interview and Khanna funding leverage. New title identifies the Israeli president, choice and scheduled next step. Prior attribution and existing source links remain; no additional editorial change was necessary after reading the new fields independently. ",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": []
+      },
+      "factions/vance": {
+        "fingerprint": "80c2bf896fd6923b4232a0a9ae91ee3ae1c6cd2fd18288d72cbaab7ea7b41454",
+        "reader_takeaway": "Vance can argue for ending the war while retaining access to Trump allies; votes and endorsements are unmeasured.",
+        "context_check": "The faction page already identifies Vance and Wiles. The added paragraph names Reuters and explains the political gain and limits in full sentences; rereading found no unresolved shorthand requiring a further change.",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": []
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "e0a11888cf61329ba09908108106f49343326a48ce2841a6c73a63419d5932cd",
+        "reader_takeaway": "The November 7 eight-person forecast is held; all six tests remain unresolved before their future deadlines.",
+        "context_check": "Source descriptions identify attribution and recovery limits; test resolutions are in the full evidence record and preserve claims and deadlines. No extra prose edit was needed after reviewing all twelve changed fields.",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": []
+      },
+      "runs/2026-11-08": {
+        "fingerprint": "02819e5ce4f6af1f6049a913d6d35571585f459e62dab1b7038383468fe1d1bc",
+        "reader_takeaway": "This was a focused, incomplete intake with one new event and unchanged daily odds.",
+        "context_check": "Run scope identifies the subjects reviewed and explicitly lists major unresolved outcomes. Record paths are deliberate audit information; the summary explains the political findings without depending on those paths. No further correction was required.",
+        "uncertainty_check": "Attributed reporting, announced decisions, court orders, analyst interpretations and unverified outcomes remain distinguished. Held forecasts are not evidence of changed voter support; research scope does not imply exhaustive verification.",
+        "changes_made": []
+      }
+    }
+  }
+}

@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-07",
-  "last_substantive_change": "2026-11-07",
+  "research_as_of": "2026-11-08",
+  "last_substantive_change": "2026-11-08",
   "review": {
-    "date": "2026-11-07",
-    "run_id": "2026-11-07-weekly-causal-projection-review",
-    "type": "weekly_review",
-    "scope": "The latest review checked the eight tracked nomination candidates and selected staffing, election, war and court developments. It did not finish checking every issue, campaign-finance filing or pending legal outcome. An updated publication date does not mean those gaps have been resolved."
+    "date": "2026-11-08",
+    "run_id": "2026-11-08",
+    "type": "daily_review",
+    "scope": "Focused November 7–8 review of post-election positioning, Israel government formation and the Afghan removal deadline, with selected official indexes and a ten-issue pending-outcome screen. Other court, military, finance and campaign-organization findings are carried or unresolved, not newly verified."
   },
   "administration": {
     "headline": "Trump faces a new chief of staff, Justice Department departures and a Congress preparing to investigate him.",
-    "summary": "Trump still controls the executive branch after Republicans lost the midterms. His choice of Stephen Miller to replace Susie Wiles could put immigration enforcement and staffing decisions closer to a key advocate of stricter policies. Justice Department departures could give Attorney General Todd Blanche more room to choose managers and direct cases. When Democrats take control of Congress in January, they can demand records, hold hearings and challenge administration spending. The central question is whether Trump changes policies that voters rejected or continues them despite those pressures. Staffing announcements alone do not show that policy has changed.",
+    "summary": "Trump still controls the executive branch after Republicans lost the midterms. His choice of Stephen Miller to replace Susie Wiles could put immigration enforcement and staffing decisions closer to a key advocate of stricter policies. Justice Department departures could give Attorney General Todd Blanche more room to choose managers and direct cases. When Democrats take control of Congress in January, they can demand records, hold hearings and challenge administration spending. The central question is whether Trump changes policies that voters rejected or continues them despite those pressures. Staffing announcements alone do not show that policy has changed. Vice President JD Vance is also trying to give Republicans a distinct account of the defeat without a demonstrated personal rupture with Trump. Reports of pressure to impeach Defense Secretary Pete Hegseth remain unresolved; this review did not verify a scheduled vote, his removal or a new Justice Department investigation into his critics.",
     "contests": [
       {
         "id": "white-house-access",
@@ -45,7 +45,7 @@
         "assessment": "Vance can use negotiations and his criticism of the war to argue for a different approach. Rubio offers a competing argument for Trump’s original decision. Those arguments may shape Trump’s options and the nomination contest, but neither establishes that a settlement or another military operation has been approved.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Vance and Rubio have publicly offered different explanations of the war and its political cost. The review has not established a final settlement or a new military decision.",
+        "change": "Reuters reports that Vice President JD Vance emphasized his own policy themes before the election and that White House chief of staff Susie Wiles knew about his later Iran post. This gives him a way to argue for a different course while seeking Trump supporters; it does not establish a personal rupture or a gain in primary votes.",
         "basis": {
           "actions": "Trump reviewed options; Vance has led negotiations.",
           "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
@@ -62,7 +62,7 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-07",
+        "reviewed_at": "2026-11-08",
         "summary": "Vance has argued that the war hurt Republicans in the election and has led negotiations. Rubio has defended Trump’s decision to use force. Trump still decides the next military step."
       },
       {
@@ -73,7 +73,7 @@
         "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
-        "change": "Vance’s criticism of the war gives him a different argument from Rubio. No measured shift of primary support has been established from that statement alone.",
+        "change": "Reuters reports that Vice President JD Vance emphasized his own policy themes before the election and that White House chief of staff Susie Wiles knew about his later Iran post. This gives him a way to argue for a different course while seeking Trump supporters; it does not establish a personal rupture or a gain in primary votes.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
           "positions": "Public deferral, message support and a candidate endorsement mean different things.",
@@ -92,7 +92,7 @@
           "tech-right",
           "operation"
         ],
-        "reviewed_at": "2026-11-07",
+        "reviewed_at": "2026-11-08",
         "summary": "Vance has the strongest documented fundraising and activist connections among the tracked candidates. Rubio and other rivals could recruit some of the same supporters; Trump has not settled the race."
       },
       {
@@ -149,14 +149,14 @@
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
     "summary": "Vance starts with the strongest Republican fundraising and activist connections, but prolonged war, household costs and damaging disclosures could erode his support. DeSantis and Kemp could appeal to voters seeking governing experience outside Washington; Paul and Massie could gain if opposition to military intervention and executive overreach grows. McEntee could draw on first-term staffing and withdrawal work while facing questions about his later connections and readiness to lead. None of these openings guarantees that voters, donors and campaign organizers will rally behind a single rival.",
-    "snapshot_id": "2026-11-07-weekly-causal-projection-review",
+    "snapshot_id": "2026-11-08-daily-monitor",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
         "path": "Vance has a head start through Republican fundraising and activist networks. He could keep much of that support if the war eases and households see relief. Continued failures or damaging disclosures would make his role in the administration, and his attempts to distance himself from its decisions, central targets for rivals.",
         "coalition": "He could draw on Trump supporters, conservative activists and donors who already work with his allies. They may disagree about the war or economic policy, so those relationships do not guarantee their votes.",
-        "advantage": "Vance already has relationships with Republican fundraisers and activist organizations that could supply money, volunteers and campaign staff.",
+        "advantage": "Vance has fundraising and activist connections and is presenting his own explanation of the election defeat. Reuters reports that his separate campaign message began before election day, giving him a way to argue for changes while retaining Trump supporters.",
         "vulnerability": "Voters may hold Vance responsible for decisions he defended as vice president. If he later criticizes those decisions, rivals can ask why he did not oppose them earlier and whether his change is sincere.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
@@ -170,9 +170,10 @@
           "ap_voter_poll_2026_results",
           "blumenthal_2026_preservation",
           "harris_oct2026_primary",
-          "prri"
+          "prri",
+          "daily_vance_brand_20261107"
         ],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-08"
       },
       {
         "candidate_id": "marco_rubio",

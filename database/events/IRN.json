@@ -2772,7 +2772,7 @@
       "kind": "act",
       "actor": "JD Vance and Donald Trump",
       "text": "Vance publicly blamed the Iran war for Republican losses. Trump acknowledged the war’s electoral cost and defended his decision to fight.",
-      "context": "Axios reports that Vance previously defended the campaign publicly while privately questioning it and leading negotiations. Donald Trump Jr. publicly backed his postmortem, giving the message a channel into MAGA grassroots audiences. Rubio retains his State Department platform and is a potential rival. Compare https://www.axios.com/2026/11/05/vance-maga-power-play-2028 On Nov 5 Rubio acknowledged the political cost of higher gasoline prices in a New York Times interview, defended Trump’s decision, and denied that he was leaving State to launch a campaign, as reported by AP. https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002 His Oct 31 press availability had defended the administration’s security rationale. https://www.g20.utoronto.ca/2026/261031-rubio-press-conference.html My reading: after Vance’s voter-facing break, Rubio’s national interview reinforces his alignment with Trump and gives Republicans who defend the war a competing postmortem. It also ties Rubio to the war’s costs. Endorsements, polling, personnel and policy remain open. Khanna used the opening to urge attaching an Iran combat funding cutoff to a short-term spending bill. His channel is the incoming House majority and its spending agenda, contingent on leadership and votes. https://english.udayanews.com/congressman-ro-khanna-urges-cutoff-of-iran-war-funding/ Trump publicly welcomed Vance’s post on Nov 4 while defending his own decision to fight.",
+      "context": "Axios reports that Vance previously defended the campaign publicly while privately questioning it and leading negotiations. Donald Trump Jr. publicly backed his postmortem, giving the message a channel into MAGA grassroots audiences. Rubio retains his State Department platform and is a potential rival. Compare https://www.axios.com/2026/11/05/vance-maga-power-play-2028 On Nov 5 Rubio acknowledged the political cost of higher gasoline prices in a New York Times interview, defended Trump’s decision, and denied that he was leaving State to launch a campaign, as reported by AP. https://apnews.com/article/f1e19f47b21ec9dc57d0c4929b29b002 His Oct 31 press availability had defended the administration’s security rationale. https://www.g20.utoronto.ca/2026/261031-rubio-press-conference.html My reading: after Vance’s voter-facing break, Rubio’s national interview reinforces his alignment with Trump and gives Republicans who defend the war a competing postmortem. It also ties Rubio to the war’s costs. Endorsements, polling, personnel and policy remain open. Khanna used the opening to urge attaching an Iran combat funding cutoff to a short-term spending bill. His channel is the incoming House majority and its spending agenda, contingent on leadership and votes. https://english.udayanews.com/congressman-ro-khanna-urges-cutoff-of-iran-war-funding/ Trump publicly welcomed Vance’s post on Nov 4 while defending his own decision to fight. November 7 follow-up: Reuters reviewed six campaign speeches and reported that Vance emphasized his own policy themes before election day. Three people familiar with communications said Wiles knew about his Iran post beforehand; Reuters could not establish whether Trump knew. This is attributed reporting, not proof of an agreed succession strategy. https://new.streetinsider.com/Reuters/After%2Bmidterm%2Brout,%2BVance%2Btries%2Bto%2Bbuild%2Bhis%2Bown%2B2028%2Bbrand/27309273.html",
       "source": "Associated Press",
       "url": "https://apnews.com/article/e92751dbcdf940c486c8d1e57dafbe99",
       "tier": "reported",
@@ -2834,6 +2834,28 @@
       ],
       "fx": {},
       "fxnote": "No fx: implementation or a durable faction outcome remains to be verified."
+    },
+    {
+      "id": "irn-2026-11-07-herzog-selects-eisenkot",
+      "date": "2026-11-07",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Isaac Herzog; Gadi Eisenkot; Benjamin Netanyahu",
+      "text": "Israeli President Herzog selects Eisenkot to attempt forming a government; formal mandate scheduled for November 8.",
+      "context": "The presidency announced the choice after talks with Eisenkot and Netanyahu. The ceremony is scheduled for 17:00 local time on November 8. Recommendations from 67 lawmakers do not establish a governing coalition. The mandate gives Eisenkot the first opportunity to negotiate a majority; no transfer of government or change in Israeli war policy is established.",
+      "source": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
+      "url": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Netanyahu faces a rival with the first opportunity to assemble a government. US negotiations still require checking who can commit Israel and whether a coalition actually forms.",
+      "origin": "2026-11-08",
+      "added": "2026-11-08",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: the opportunity to negotiate a coalition does not establish a completed government change or a gain for a tracked US faction."
     }
   ]
 }

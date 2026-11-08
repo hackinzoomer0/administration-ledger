@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-07",
+  "as_of_date": "2026-11-08",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2323,6 +2323,24 @@
       "accessed_on": "2026-11-07",
       "description": "Document-based report and candidate interview; subpoena service, denials and an unresolved investigation.",
       "verification_status": "full_text_read"
+    },
+    {
+      "id": "daily_vance_brand_20261107",
+      "url": "https://new.streetinsider.com/Reuters/After%2Bmidterm%2Brout,%2BVance%2Btries%2Bto%2Bbuild%2Bhis%2Bown%2B2028%2Bbrand/27309273.html",
+      "publisher": "Reuters via StreetInsider",
+      "publication_date": "2026-11-07",
+      "description": "Six-speech review and attributed accounts of Vance strategy and Wiles advance knowledge; full readable syndication.",
+      "verification_status": "full_text_read",
+      "accessed_on": "2026-11-08"
+    },
+    {
+      "id": "daily_herzog_choice_20261107",
+      "url": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
+      "publisher": "President of Israel",
+      "publication_date": "2026-11-07",
+      "description": "Official announcement recovered as full search-index text after direct opening failed; ceremony not verified.",
+      "verification_status": "search_index_text_read",
+      "accessed_on": "2026-11-08"
     }
   ],
   "roster_authorization": {
@@ -7946,6 +7964,296 @@
               }
             }
           }
+        }
+      },
+      {
+        "id": "2026-11-08-daily-monitor",
+        "date": "2026-11-08",
+        "run_id": "2026-11-08",
+        "type": "daily_review",
+        "summary": "Daily odds hold at the November 7 weekly assessment. Vance’s reported effort to separate his message from Trump merits follow-up on sincerity, voter reception and recruitment; wider impeachment pressure remains incompletely verified.",
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.95,
+          "ron_desantis": 18.55,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 9.9,
+          "brian_kemp": 12.1,
+          "thomas_massie": 3.5
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. Reported messaging supports selective differentiation, but voter reception and coalition gains remain unmeasured.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "partial",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "partial",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "partial",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "unreviewed",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held under the daily monitoring cadence; November 7 weekly estimates remain the forecast. This focused intake establishes no new candidate-specific outcome that warrants revising the maintained political assessment.",
+            "review_status": "partial",
+            "source_ids": [],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "Focused intake, not a complete daily source census or candidate audit. Current donor pledges, early-state organizers and comparable post-election primary polling remain incompletely checked.",
+          "Axios Hegseth impeachment article could not be opened; search snippets suggest wider support, but no roll call, scheduled vote or removal verified. Trump DOJ/Slotkin demand surfaced in USA TODAY syndication; direct pages failed, and actual investigative action is unverified.",
+          "Reuters says Rubio stayed silent, conflicting with the already stored AP account of his November 5 interview. Do not replace that dated account with an unqualified silence claim.",
+          "Court outcomes on AI, tariffs, Epstein and later immigration orders, Los Angeles grand jury, remaining election calls and new military directives are not fully resolved.",
+          "All shares remain subjective and conditional on the eight authorized nominees; unlisted contenders can win."
+        ],
+        "wargame_ref": "2026-11-07-weekly-causal-projection-review",
+        "monitoring": {
+          "summary": "No prediction is due today; all six future tests were inspected. No full wargame or scenario/debate regeneration.",
+          "developments": [
+            {
+              "finding": "Reuters reports Vance differentiated his message before election day; Wiles knew about the Iran post.",
+              "implication": "Vance can shape the party’s debate while retaining administration relationships. Voter trust, donor response and organization remain prospective.",
+              "weekly_question": "Does this candidate response preserve voter trust or look opportunistic, and do donor and organizer commitments follow? Test both possibilities under the common appeal standard.",
+              "source_ids": [
+                "daily_vance_brand_20261107"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique"
+              ]
+            }
+          ],
+          "prediction_updates": [
+            {
+              "id": "vance-selective-loyalty",
+              "status": "unresolved",
+              "resolution": "No terminal outcome established on November 8; deadline 2027-02-01 remains ahead. New attributed reporting is consistent with differentiation without a personal break, but does not settle the full-period test.",
+              "source_ids": [
+                "daily_vance_brand_20261107"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique"
+              ]
+            },
+            {
+              "id": "congress-accountability",
+              "status": "unresolved",
+              "resolution": "No terminal outcome established on November 8; deadline 2027-04-01 remains ahead. The focused intake does not establish the required future organizational, polling or congressional outcome.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "alternative-coordination",
+              "status": "unresolved",
+              "resolution": "No terminal outcome established on November 8; deadline 2027-04-01 remains ahead. The focused intake does not establish the required future organizational, polling or congressional outcome.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "mcentee-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "No terminal outcome established on November 8; deadline 2027-04-01 remains ahead. The focused intake does not establish the required future organizational, polling or congressional outcome.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "project2025",
+                "mcentee_withdrawal",
+                "mcentee_personnel_record",
+                "weekly_tencent_ld2",
+                "weekly_heritage_personnel"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "kemp-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "No terminal outcome established on November 8; deadline 2027-04-01 remains ahead. The focused intake does not establish the required future organizational, polling or congressional outcome.",
+              "source_ids": [
+                "kemp_2026_ajc",
+                "kemp_2026_tax_relief",
+                "kemp_2024_enforcement",
+                "kemp_2019_life_act"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "coalition-conversion-common-2027-04",
+              "status": "unresolved",
+              "resolution": "No terminal outcome established on November 8; deadline 2027-04-01 remains ahead. The focused intake does not establish the required future organizational, polling or congressional outcome.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "causal_ap_recovery"
+              ],
+              "event_ids": [
+                "mid-2026-11-05-congress-control",
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            }
+          ]
         }
       }
     ],
