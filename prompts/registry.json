@@ -445,15 +445,15 @@
     "role": "nominee-review"
   },
   "current-assessment": {
-    "asof": "2026-11-07",
+    "asof": "2026-11-08",
     "role": "current-assessment"
   },
   "nomination-wargame": {
-    "asof": "2026-11-07",
+    "asof": "2026-11-08",
     "role": "nomination-wargame"
   },
   "nominee-monitor": {
-    "asof": "2026-11-07",
+    "asof": "2026-11-08",
     "role": "nominee-monitor"
   },
   "reader-copy-review": {

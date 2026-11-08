@@ -69,13 +69,21 @@ class ForecastGuard(unittest.TestCase):
                     key: 'Fixture causal judgment, distinct from the documented factual starting point.'
                     for key in ['candidate_response', 'voter_response', 'donor_media_response',
                                 'organization_coalition', 'feedback', 'share_justification', 'countercase']
-                } | {'source_ids': [source], 'event_ids': []} for name in names}
+                } | {'base_effects': {'fixture-supporters': {'response':'Some supporters stay; others could leave after a compromise.',
+                      'leverage':'Volunteers and donors could withhold work or money; the rival response is uncertain.',
+                      'countercase':'Supporters might prioritize defeating the other party.'}}, 'source_ids': [source], 'event_ids': []} for name in names}
             } for scenario in game['scenarios']}
         }
         game['comparison_review'] = {
             'standard': 'common_candidate_standards_v1',
             'framing_check': 'Fixture comparison; no preference-driven reweighting.',
             'candidates': {name: {
+                'base_assessment': {
+                    'constituencies':[{'id':'fixture-supporters','description':'Potential supporters sharing the candidate’s recorded priorities; not measured voters.',
+                                      'status':'potential','evidence_kind':'inferred','confidence':'low','source_ids':[source],'event_ids':[]}],
+                    'loyalty_and_alignment':'Support could depend on the candidate, an issue or an outside commentator.',
+                    'overlap_and_transfer':'A rival endorsement does not guarantee that supporters follow.',
+                    'limits_and_countercase':'An engaged audience may not volunteer, donate or vote.'},
                 'entry_and_competitiveness': 'Entry is a separate uncertainty from winning after entry.',
                 'resources_now_and_mobilizable': 'Distinguish current resources from plausible future resources.',
                 'coalition_conversion': 'A constituency must translate into votes and delegates.',
@@ -453,6 +461,62 @@ class ForecastGuard(unittest.TestCase):
         from wargame import sensitivity
         game = {'scenarios': [{'id':'a','weight_pct':90,'shares_pct':{'x':80,'y':20}}, {'id':'b','weight_pct':10,'shares_pct':{'x':20,'y':80}}]}
         self.assertEqual(sensitivity(game,['x','y'])['x'], {'min_delta_pp':-6,'max_delta_pp':6})
+
+    def test_new_weekly_requires_candidate_base_assessment(self):
+        del self.entry['wargame']['comparison_review']['candidates']['john_mcentee']['base_assessment']
+        with self.assertRaisesRegex(ValueError,'Support-base assessment requires'):
+            self.check()
+
+    def test_base_must_distinguish_actual_support_from_inferred_affinity(self):
+        group=self.entry['wargame']['comparison_review']['candidates']['john_mcentee']['base_assessment']['constituencies'][0]
+        group['status']='observed'
+        with self.assertRaisesRegex(ValueError,'Observed support requires'):
+            self.check()
+        group.update(status='unknown',evidence_kind='unknown',confidence='low',source_ids=[])
+        self.check()
+        group['confidence']='high'
+        with self.assertRaisesRegex(ValueError,'Unknown support requires'):
+            self.check()
+
+    def test_support_base_evidence_must_resolve(self):
+        group=self.entry['wargame']['comparison_review']['candidates']['rand_paul']['base_assessment']['constituencies'][0]
+        group['source_ids']=['not-a-source']
+        with self.assertRaisesRegex(ValueError,'Unresolved support-base evidence'):
+            self.check()
+
+    def test_each_support_group_needs_scenario_response_leverage_and_countercase(self):
+        path=next(iter(self.entry['wargame']['projection_review']['scenarios'].values()))['candidate_paths']['jd_vance']
+        effect=path['base_effects']['fixture-supporters']
+        for key in ['response','leverage','countercase']:
+            saved=effect.pop(key)
+            with self.subTest(field=key), self.assertRaisesRegex(ValueError,'Support-base scenario requires '+key):
+                self.check()
+            effect[key]=saved
+        path['base_effects']={}
+        with self.assertRaisesRegex(ValueError,'every candidate support group'):
+            self.check()
+
+    def test_duplicate_support_group_cannot_hide_missing_coverage(self):
+        groups=self.entry['wargame']['comparison_review']['candidates']['jd_vance']['base_assessment']['constituencies']
+        groups.append(copy.deepcopy(groups[0]))
+        with self.assertRaisesRegex(ValueError,'unique nonempty IDs'):
+            self.check()
+
+    def test_new_requirement_does_not_rewrite_history_or_expand_daily_work(self):
+        module.validate(self.before,self.before,'Integrity')
+        self.daily()
+        self.check()
+
+    def test_scenario_must_cover_each_distinct_group_not_just_one_generic_base(self):
+        base=self.entry['wargame']['comparison_review']['candidates']['jd_vance']['base_assessment']
+        group=copy.deepcopy(base['constituencies'][0]);group['id']='second-group'
+        base['constituencies'].append(group)
+        with self.assertRaisesRegex(ValueError,'every candidate support group'):
+            self.check()
+        for scenario in self.entry['wargame']['projection_review']['scenarios'].values():
+            effects=scenario['candidate_paths']['jd_vance']['base_effects']
+            effects['second-group']=copy.deepcopy(effects['fixture-supporters'])
+        self.check()
 
 
 if __name__ == '__main__':

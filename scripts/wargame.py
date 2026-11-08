@@ -174,6 +174,49 @@ def validate_projection_review(game, names, sources, events):
                          'organization_coalition', 'feedback', 'share_justification', 'countercase'])
 
 
+def validate_support_bases(game, names, sources, events):
+    """Prospective weekly coverage: who supports each contender and what those groups can do."""
+    candidates = game.get('comparison_review', {}).get('candidates', {})
+    for name in names:
+        base = candidates.get(name, {}).get('base_assessment', {})
+        for field in ['loyalty_and_alignment', 'overlap_and_transfer', 'limits_and_countercase']:
+            if not isinstance(base.get(field), str) or not base[field].strip():
+                raise ValueError(f'Support-base assessment requires {field} for {name}')
+        groups = base.get('constituencies')
+        if not isinstance(groups, list) or not groups:
+            raise ValueError(f'Support-base assessment needs constituencies for {name}; explicit unknown is allowed')
+        ids = set()
+        for group in groups:
+            ident = group.get('id')
+            if not isinstance(ident, str) or not ident.strip() or ident in ids:
+                raise ValueError('Support-base constituencies require unique nonempty IDs per candidate')
+            ids.add(ident)
+            if not isinstance(group.get('description'), str) or not group['description'].strip():
+                raise ValueError('Support-base constituency needs a description')
+            status, kind, confidence = group.get('status'), group.get('evidence_kind'), group.get('confidence')
+            if status not in {'observed', 'potential', 'unknown'} or kind not in {'measured', 'behavioral', 'inferred', 'unknown'} or confidence not in {'low', 'medium', 'high'}:
+                raise ValueError('Support-base assessment must distinguish observed/potential/unknown support, evidence kind and confidence')
+            if (status == 'unknown' or kind == 'unknown') and (status != 'unknown' or kind != 'unknown' or confidence != 'low'):
+                raise ValueError('Unknown support requires unknown evidence and low confidence')
+            if status == 'observed' and kind not in {'measured', 'behavioral'}:
+                raise ValueError('Observed support requires measured or behavioral evidence, not inferred affinity')
+            if kind != 'unknown' and not group.get('source_ids') and not group.get('event_ids'):
+                raise ValueError('Support-base claims require sourced premises; polling is not required')
+            if not set(group.get('source_ids', [])) <= sources or not set(group.get('event_ids', [])) <= events:
+                raise ValueError('Unresolved support-base evidence')
+        for scenario in game['scenarios']:
+            if scenario['weight_pct'] <= 0:
+                continue
+            path = game['projection_review']['scenarios'][scenario['id']]['candidate_paths'][name]
+            effects = path.get('base_effects', {})
+            if not isinstance(effects, dict) or set(effects) != ids:
+                raise ValueError('Every positive-weight scenario must assess every candidate support group')
+            for effect in effects.values():
+                for field in ['response', 'leverage', 'countercase']:
+                    if not isinstance(effect.get(field), str) or not effect[field].strip():
+                        raise ValueError(f'Support-base scenario requires {field}')
+
+
 APPEAL_TRAITS = {'likability_and_relatability', 'trust_and_authenticity',
                  'strength_and_competence', 'enthusiasm_and_mobilization', 'presidential_presence'}
 
