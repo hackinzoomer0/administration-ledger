@@ -174,6 +174,40 @@ def validate_projection_review(game, names, sources, events):
                          'organization_coalition', 'feedback', 'share_justification', 'countercase'])
 
 
+APPEAL_TRAITS = {'likability_and_relatability', 'trust_and_authenticity',
+                 'strength_and_competence', 'enthusiasm_and_mobilization', 'presidential_presence'}
+
+
+def validate_appeal_review(game, names, sources, events):
+    """Require early-cycle judgment without requiring polls or certifying its accuracy."""
+    review = game.get('appeal_review', {})
+    if review.get('standard') != 'candidate_appeal_v1' or set(review.get('candidates', {})) != set(names):
+        raise ValueError('Weekly forecast requires a personal-appeal review for every candidate')
+    active = {row['id'] for row in game['scenarios'] if row['weight_pct'] > 0}
+    for row in review['candidates'].values():
+        for field in ['constituency_differences', 'growth_or_limits', 'strongest_countercase']:
+            if not isinstance(row.get(field), str) or not row[field].strip():
+                raise ValueError(f'Personal-appeal review requires {field}')
+        effects = row.get('scenario_effects', {})
+        if set(effects) != active or any(not isinstance(value, str) or not value.strip() for value in effects.values()):
+            raise ValueError('Personal appeal must explain its effect in every positive-weight scenario')
+        traits = row.get('traits', {})
+        if set(traits) != APPEAL_TRAITS:
+            raise ValueError('Personal-appeal review must assess all five traits')
+        for trait in traits.values():
+            if not isinstance(trait.get('assessment'), str) or not trait['assessment'].strip():
+                raise ValueError('Personal appeal needs an assessment, not just a score')
+            kind = trait.get('evidence_kind')
+            if kind not in {'measured', 'behavioral', 'inferred', 'unknown'} or trait.get('confidence') not in {'low', 'medium', 'high'}:
+                raise ValueError('Personal appeal must distinguish evidence kind and confidence')
+            if kind == 'unknown' and trait['confidence'] != 'low':
+                raise ValueError('Unknown appeal cannot carry high confidence')
+            if kind != 'unknown' and not trait.get('source_ids') and not trait.get('event_ids'):
+                raise ValueError('Personal-appeal claims require sourced premises; polls are not required')
+            if not set(trait.get('source_ids', [])) <= sources or not set(trait.get('event_ids', [])) <= events:
+                raise ValueError('Unresolved personal-appeal evidence')
+
+
 def validate_comparison_review(game, names, sources, events):
     """Require common evidence standards without pretending prose validation establishes analytical truth."""
     review = game.get('comparison_review', {})

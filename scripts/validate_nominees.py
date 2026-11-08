@@ -121,8 +121,9 @@ def validate(before, after, section):
             validate_game(game, names, sources, events, entry['date'])
             if entry.get('type') == 'weekly_review':
                 validate_comparison_review(game, names, sources, events)
-                from wargame import validate_projection_review
+                from wargame import validate_projection_review, validate_appeal_review
                 validate_projection_review(game, names, sources, events)
+                validate_appeal_review(game, names, sources, events)
             previous_game = game
             if forecast(game, names) != entry['probabilities_pct']:
                 raise ValueError('Nominee estimates must reproduce the scenario mixture')

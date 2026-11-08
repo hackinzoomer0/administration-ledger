@@ -7,7 +7,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from database import load
-from wargame import effective_game
+from wargame import effective_game, APPEAL_TRAITS
 spec = importlib.util.spec_from_file_location('nominees', Path(__file__).resolve().parents[1] / 'scripts/validate_nominees.py')
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
@@ -36,6 +36,19 @@ class ForecastGuard(unittest.TestCase):
         game = self.entry['wargame']
         names = [row['id'] for row in self.forecast['candidates']]
         source = self.forecast['sources'][0]['id']
+        game['appeal_review'] = {
+            'standard': 'candidate_appeal_v1',
+            'candidates': {name: {
+                'traits': {trait: {'assessment': 'Fixture inference from a sourced public record, not measured enthusiasm.',
+                                   'evidence_kind': 'inferred', 'confidence': 'low',
+                                   'source_ids': [source], 'event_ids': []} for trait in APPEAL_TRAITS},
+                'constituency_differences': 'Different groups can interpret the same presentation differently.',
+                'growth_or_limits': 'A crisis can change appeal; it does not guarantee preference.',
+                'strongest_countercase': 'Issue agreement can coexist with rejection of the candidate.',
+                'scenario_effects': {row['id']: 'Fixture explains how appeal affects preference and the assigned winning chance.'
+                                     for row in game['scenarios'] if row['weight_pct'] > 0}
+            } for name in names}
+        }
         game['projection_review'] = {
             'standard': 'causal_projection_v1',
             'current_landscape': {'assessment': 'Fixture current landscape.', 'as_of': self.entry['date'],
@@ -80,6 +93,10 @@ class ForecastGuard(unittest.TestCase):
         # independently so missing-projection failures don't mask that boundary.
         game = self.entry.get('wargame')
         if game:
+            for row in game['appeal_review']['candidates'].values():
+                effects=row['scenario_effects']
+                row['scenario_effects']={scenario['id']: effects.get(scenario['id'], 'Fixture appeal effect for the replacement case.')
+                                         for scenario in game['scenarios'] if scenario['weight_pct'] > 0}
             rows = game['projection_review']['scenarios']
             template = copy.deepcopy(next(iter(rows.values())))
             game['projection_review']['scenarios'] = {
@@ -305,6 +322,44 @@ class ForecastGuard(unittest.TestCase):
         del self.entry['wargame']['comparison_review']
         with self.assertRaisesRegex(ValueError, 'common-standard'):
             self.check()
+
+    def test_weekly_cannot_omit_personal_appeal(self):
+        del self.entry['wargame']['appeal_review']
+        with self.assertRaisesRegex(ValueError, 'personal-appeal review'):
+            module.validate(self.before,self.after,self.section)
+
+    def test_appeal_inference_is_allowed_before_polls(self):
+        self.check()
+        trait=self.entry['wargame']['appeal_review']['candidates']['rand_paul']['traits']['enthusiasm_and_mobilization']
+        trait.update(evidence_kind='unknown',confidence='low',source_ids=[],event_ids=[])
+        self.check()
+        trait['confidence']='high'
+        with self.assertRaisesRegex(ValueError,'Unknown appeal'):
+            self.check()
+
+    def test_appeal_cannot_skip_a_candidate_or_trait(self):
+        rows=self.entry['wargame']['appeal_review']['candidates']
+        saved=rows.pop('rand_paul')
+        with self.assertRaisesRegex(ValueError,'every candidate'):
+            module.validate(self.before,self.after,self.section)
+        rows['rand_paul']=saved
+        del saved['traits']['enthusiasm_and_mobilization']
+        with self.assertRaisesRegex(ValueError,'all five traits'):
+            self.check()
+
+    def test_appeal_requires_resolved_evidence_for_non_unknown_claims(self):
+        trait=self.entry['wargame']['appeal_review']['candidates']['rand_paul']['traits']['enthusiasm_and_mobilization']
+        trait['source_ids']=[]
+        with self.assertRaisesRegex(ValueError,'sourced premises; polls are not required'):
+            self.check()
+        trait['source_ids']=['invented']
+        with self.assertRaisesRegex(ValueError,'Unresolved personal-appeal evidence'):
+            self.check()
+
+    def test_appeal_must_influence_the_scenarios_not_only_add_a_biography(self):
+        self.entry['wargame']['appeal_review']['candidates']['rand_paul']['scenario_effects'].popitem()
+        with self.assertRaisesRegex(ValueError,'effect in every positive-weight scenario'):
+            module.validate(self.before,self.after,self.section)
 
     def test_weekly_requires_projection_not_only_comparison(self):
         del self.entry['wargame']['projection_review']

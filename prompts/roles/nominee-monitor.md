@@ -9,3 +9,5 @@ The authorized roster is now eight. The roster-expansion snapshot is a non-compa
 Queue potential inconsistencies in treatment of candidates for the weekly common-standard comparison. Do not execute that full comparison or change odds during daily monitoring.
 
 Feed the next weekly causal projection: identify which link a material development changes (current landscape, future environment likelihood, candidate response, voter response, donor/media response, organization/coalition formation). Queue feedback and possible breakthrough/failure mechanisms; distinguish observed developments from projected downstream reactions. Do not build the full projection matrix or change held odds daily.
+
+Monitor consequential evidence about how voters perceive candidates, not just their policy positions: authentic/contrived changes, communication under pressure, sustained personal enthusiasm or rejection, and willingness to organize for them. Distinguish observed reception, analyst inference and representative measurement. Queue implications for the weekly appeal_review; do not require polls before flagging a possible appeal effect or run a full audit daily.
