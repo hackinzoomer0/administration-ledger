@@ -243,9 +243,21 @@ class ForecastGuard(unittest.TestCase):
         game['case_review']['new_predictions'][new['id']]='More informative test of the mechanism.'
         self.check()
 
-    def test_cross_roster_baseline_does_not_report_false_movement(self):
+    def roster_baseline(self):
         ledger=load()
-        snapshot=ledger['collections']['nominations']['republican_2028']['tracking']['history'][-1]
+        nomination=ledger['collections']['nominations']['republican_2028']
+        history=nomination['tracking']['history']
+        index=next(i for i,row in enumerate(history) if row.get('comparison') == 'not_comparable_roster_change')
+        nomination['tracking']['history']=history[:index+1]
+        snapshot=history[index]
+        nomination['as_of_date']=snapshot['date']
+        for candidate in nomination['candidates']:
+            candidate['nomination_likelihood_pct']=snapshot['probabilities_pct'][candidate['id']]
+        module.validate(ledger,ledger,'Integrity')
+        return ledger,snapshot
+
+    def test_cross_roster_baseline_does_not_report_false_movement(self):
+        ledger,snapshot=self.roster_baseline()
         self.assertEqual(len(snapshot['roster_ids']),8)
         self.assertNotIn('tucker_carlson', snapshot['roster_ids'])
         self.assertTrue(all(row['delta_pp'] is None for row in snapshot['assessments'].values()))
@@ -254,8 +266,7 @@ class ForecastGuard(unittest.TestCase):
             module.validate(ledger,ledger,'Integrity')
 
     def test_rebase_cannot_rewrite_the_previous_field(self):
-        ledger=load()
-        snapshot=ledger['collections']['nominations']['republican_2028']['tracking']['history'][-1]
+        ledger,snapshot=self.roster_baseline()
         snapshot['previous_probabilities_pct']['jd_vance'] = 0
         with self.assertRaisesRegex(ValueError,'previous denominator'):
             module.validate(ledger,ledger,'Integrity')
