@@ -227,7 +227,7 @@ test("power changes expose numeric assumptions and topic players", async ({
     page.getByRole("table", { name: "Projected agenda access changes" }),
   ).toBeVisible();
   await expect(
-    page.getByText("Conditional post-handover scenario", { exact: false }),
+    page.getByText(assessment.power_method.status, { exact: true }),
   ).toBeVisible();
   await page.goto("./#/administration/white-house-access");
   await expect(
@@ -253,7 +253,14 @@ test("faction positions have explicit position and structured evidence", async (
   await page.getByRole("button", { name: "AI policy", exact: true }).click();
   await expect(
     page.getByText(
-      "Favor commercial chip exports and investment deals over durable export restrictions.",
+      JSON.parse(
+        readFileSync(
+          new URL("../../database/assessments/issues.json", import.meta.url),
+          "utf8",
+        ),
+      ).AI.factions.find(
+        (row: { faction_id: string }) => row.faction_id === "deal-capital",
+      ).position,
     ),
   ).toBeVisible();
   await expect(

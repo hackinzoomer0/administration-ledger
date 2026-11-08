@@ -1,7 +1,7 @@
 {
   "AI": {
-    "policy": "Federal AI preemption, commercial chip exports and voluntary frontier-model review coexist with Pentagon demands for broad military use.",
-    "dispute": "Tech investors and Commerce push commercial access; security hawks favor China restrictions. The balance differs by instrument.",
+    "policy": "The administration is trying to limit states’ ability to regulate artificial intelligence while allowing commercial chip exports and voluntary safety reviews of advanced AI systems. The Pentagon is also seeking broad permission to use AI for military purposes.",
+    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -12,22 +12,22 @@
     "factions": [
       {
         "faction_id": "deal-capital",
-        "position": "Favor commercial chip exports and investment deals over durable export restrictions.",
-        "actions": "Sells chips to Gulf partners: H200 sales; Mythos controls imposed then lifted (Jun 12-30); license-free chips to the UAE (Jul 10). Interest: Gulf funds that back the envoys' firms and Lutnick's family data-center deals.",
-        "goals": "Documented fit: Aryam and MGX ties to World Liberty, Cantor's $310M Nvidia stake; the White House denies a chip link.",
+        "position": "Allow more advanced-chip sales to Gulf partners and negotiate investment agreements, rather than maintain broad export restrictions.",
+        "actions": "The recorded decisions include H200 chip sales, Mythos export restrictions imposed on June 12 and lifted on June 30, and license-free chip exports to the United Arab Emirates on July 10.",
+        "goals": "Chip sales support the Gulf investment relationships pursued by these officials. Some related investors also have financial ties to their families or businesses; those overlaps raise conflict-of-interest questions but do not establish why a specific decision was made.",
         "actors": [
-          "Lutnick Motives: (1) Family money: his sons’ Cantor and Newmark sit in $25B+ of data-center deals, and Cantor held $310M of Nvidia (documented fit). Warren and 24 Democrats asked the Commerce IG to investigate data-center promotion that could enrich his family, and he has only a limited ethics waiver (NOTUS). Newmark is to buy Lutnick out for $127M (Bisnow). (2) Access: chip policy is a gift he can give Gulf partners.",
-          "Witkoff Motives: Warren and Murphy allege UAE chip-export backing around the time of the $2B UAE-backed investment in World Liberty’s stablecoin. The chips framework allows 500K a year, including 35,000 GB300 chips for G42 in Nov 2025. The White House denies a link (The Block/WSJ)."
+          "Commerce Secretary Howard Lutnick oversees chip-export policy. His sons’ Cantor and Newmark have interests in data-center deals, and Cantor held $310 million of Nvidia shares. Senator Elizabeth Warren and 24 other Democrats asked the Commerce inspector general to investigate whether data-center promotion could benefit his family. The record also describes a limited ethics waiver and a planned $127 million Newmark buyout. These are financial relationships and scrutiny, rather than proof that he traded policy for a benefit.",
+          "Envoy Steve Witkoff has helped negotiate with Gulf partners. Senators Warren and Murphy questioned support for UAE chip exports around a $2 billion UAE-backed investment in World Liberty’s stablecoin. The White House denies a connection. The export framework permits 500,000 chips a year, including the recorded November 2025 allocation of 35,000 GB300 chips for G42."
         ],
         "observations": [
-          "Controls imposed and lifted within 18 days: the flip is the act."
+          "Export restrictions were reversed within 18 days. That reversal shows the administration’s willingness to change the rules; the financial relationships alone do not establish the cause."
         ]
       },
       {
         "faction_id": "hawks",
-        "position": "Curb chips to China",
+        "position": "Restrict advanced-chip exports to China.",
         "actions": "Chip curbs written into law, 42-2 (Jan 22); OVERWATCH in the NDAA (Jul 14).",
-        "goals": "China hawkishness. No donor tied to this position.",
+        "goals": "Limit China’s access to technology that could strengthen its military. The research has not established a donor directing this position.",
         "actors": [
           "Moolenaar, Mast, Banks, Cotton, McCormick passed laws (reported). Motives: Ideology backed by acts. No personal stake found in this research."
         ],
@@ -35,13 +35,12 @@
       },
       {
         "faction_id": "maximalists",
-        "position": "Floated review; dropped",
+        "position": "Hassett accepted a narrower AI-review policy after proposing stronger oversight; Bannon continued to criticize the AI companies.",
         "actions": "Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs.",
-        "goals": "Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift. A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it.",
+        "goals": "Hassett’s acceptance aligns him with Trump’s final policy, while Bannon continues to argue for stronger limits. The record does not establish that a financial backer caused Hassett’s change.",
         "actors": [],
         "observations": [
-          "The faction has no AI act; the Jun 2 order is the Operation's and Treasury's.",
-          "Hassett floated FDA-style review in May and accepted the narrower June approach. Bannon continued to criticize the labs. The proposal and final policy differ. The position record attributes the final approach to the Operation and Treasury. Alignment with Trump can protect appointment prospects. The ledger ties no specific backer to Hassett’s shift. A retreat in policy posture is visible. Preserve the internal split and distinguish accepting the final policy from securing it."
+          "These actors disagree about AI oversight. Their shared faction membership does not establish a single position."
         ]
       },
       {
@@ -341,8 +340,8 @@
     ]
   },
   "FED": {
-    "policy": "The FOMC retains rate-setting authority. The administration’s attempt to remove Cook remains subject to court and hearing procedures.",
-    "dispute": "White House control ambitions conflict with central-bank independence; Treasury’s market concerns are a separate channel.",
+    "policy": "The Federal Open Market Committee still decides interest rates. Trump’s attempt to remove Federal Reserve governor Lisa Cook remains subject to court proceedings and required hearings.",
+    "dispute": "Trump wants more control over the Federal Reserve. Defenders of the bank’s independence oppose political control of its decisions, while Treasury must also consider how investors would react.",
     "player_ids": [
       "lisa-cook",
       "warsh",
@@ -485,8 +484,8 @@
     ]
   },
   "IMM": {
-    "policy": "The administration continues high-volume enforcement and restrictive visa/labor measures, with particular practices constrained by court orders.",
-    "dispute": "Enforcement hardliners favor volume; electoral pragmatists and institutional dissenters contest the costs and methods. The November 6 Afghan order extends client-specific temporary protection; it is not nationwide relief.",
+    "policy": "The administration continues large-scale immigration enforcement and restrictions on visas and foreign labor. Courts have limited particular practices; the November 6 order temporarily protects the Afghan clients covered by that case, rather than granting nationwide relief.",
+    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement.",
     "player_ids": [
       "miller",
       "wiles",
@@ -496,13 +495,13 @@
     "factions": [
       {
         "faction_id": "dissenters",
-        "position": "Distance from raids",
+        "position": "Challenge particular immigration-enforcement methods and their political costs.",
         "actions": "Paul withheld the Schroyer hearing; Salazar ran an ad; Tillis blames Miller.",
-        "goals": "Distance on a toxic issue.",
+        "goals": "These Republicans have different reasons for objecting: limits on executive power, concerns about enforcement practices and pressure from their constituencies. Their objections do not establish a shared immigration platform.",
         "actors": [
-          "Paul Motives: Conviction: withholding the hearing is an act (reported).",
-          "Salazar Motives: Re-election: an ad in a Florida swing seat. Signaling with a district reason.",
-          "Tillis Motives: Freedom from consequences: he is retiring. Words only."
+          "Rand Paul withheld a hearing for Schroyer. That gives him a way to challenge the administration through the confirmation process.",
+          "María Elvira Salazar ran an advertisement distancing herself from the enforcement approach. Electoral concerns are a plausible incentive, rather than an established account of her private motives.",
+          "Thom Tillis publicly blamed Miller. His criticism targets the official driving enforcement rather than showing agreement with every other dissenter."
         ],
         "observations": []
       },
@@ -625,13 +624,12 @@
     "factions": [
       {
         "faction_id": "deal-capital",
-        "position": "Patron-led, war then deal",
+        "position": "Use negotiations to seek a settlement after the outbreak of war.",
         "actions": "Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement.",
-        "goals": "Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem.",
+        "goals": "Negotiators can gain influence by controlling talks and settlement terms. Gulf investment relationships also face risks from continued war. The record does not establish a donor-directed policy reversal.",
         "actors": [],
         "observations": [
-          "The talks were the runway for the strikes before they became the exit: a deal line that bends to the patrons, not a fixed preference (my reading).",
-          "Negotiators moved from prewar talks and reported input to Trump before strikes to brokering a settlement. Trump’s March 9 account names advisers but gives no individual recommendation. Subsequent talks are an observable action. Brokerage preserves access. Gulf investment and business ties create exposure to regional escalation. A change in role is established. A donor-directed reversal remains unsubstantiated. War and its regional effects changed the bargaining problem."
+          "The same negotiators were involved before the war and in later settlement efforts. Their participation does not prove that talks were intended to enable strikes or that financial partners dictated their position."
         ]
       },
       {
@@ -869,8 +867,8 @@
     ]
   },
   "MID": {
-    "policy": "AP projects Democratic control of both chambers in the next Congress. Current officeholders retain authority until the January transition.",
-    "dispute": "Democrats gain prospective oversight and appropriations leverage; the administration faces pressure to change course or defend its agenda through executive action. Justice Department turnover may consolidate management without ending enforcement.",
+    "policy": "The Associated Press projects that Democrats will control both chambers of the next Congress. They take office in January; current members retain their powers until then.",
+    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -1273,8 +1271,8 @@
     ]
   },
   "SUC": {
-    "policy": "No Republican nominee has been selected. Vance has the strongest recorded organization; Trump’s endorsement and candidate entry remain open.",
-    "dispute": "Vance’s national-conservative network competes with Rubio/Cruz hawkish and donor lanes.",
+    "policy": "Republicans have not selected a 2028 nominee. Vance has the strongest organization documented in this research, but Trump has not settled the succession and the final field remains uncertain.",
+    "dispute": "Vance must keep Trump-aligned voters while defending his own record. Rubio and Cruz can compete for voters and donors who favor a more confrontational foreign policy; other contenders offer different ways to move beyond the administration.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -1424,8 +1422,8 @@
     ]
   },
   "TAR": {
-    "policy": "The tariff regime continues through instrument-specific authorities, exemptions and litigation, including Section 301 and 232 measures.",
-    "dispute": "Treasury and Commerce compete over scope and bargaining; industry beneficiaries and trade-exposed constituencies push different outcomes.",
+    "policy": "The administration continues to impose tariffs, grant exemptions and defend its decisions in court. It uses several laws, including Section 301, which addresses unfair foreign trade practices, and Section 232, which concerns national-security threats from imports.",
+    "dispute": "Treasury and Commerce disagree over how broadly to impose tariffs and how to use them in negotiations. Companies protected by tariffs can benefit, while importers and businesses facing higher costs press for exemptions or relief.",
     "player_ids": [
       "bessent",
       "lutnick",
@@ -1564,8 +1562,8 @@
     ]
   },
   "VEN": {
-    "policy": "The administration prioritizes an oil opening and a managed political timetable under Rodríguez; elections and opposition access remain unresolved.",
-    "dispute": "Rubio’s political timetable intersects with Deal-Capital’s commercial opening and Pentagon involvement.",
+    "policy": "The administration is pursuing access to Venezuelan oil and negotiations over a political transition under Rodríguez. The timing of elections and the opposition’s ability to participate remain unresolved.",
+    "dispute": "Rubio’s approach to the political transition must coexist with commercial negotiators seeking oil deals and military officials involved in the operation. An oil agreement does not by itself settle who can compete in an election.",
     "player_ids": [
       "rubio",
       "witkoff",

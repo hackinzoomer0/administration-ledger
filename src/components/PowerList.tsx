@@ -63,11 +63,11 @@ export function PowerList({
           {!compact && (
             <Stack spacing={1.5} sx={{ mt: 2 }}>
               <ReadingBlock title="Who decides" text={contest.authority} />
-              <ReadingBlock title="Who has leverage" text={contest.leverage} />
               <ReadingBlock
-                title="What would change this read"
-                text={contest.watch}
+                title="How they can influence the decision"
+                text={contest.leverage}
               />
+              <ReadingBlock title="What to watch next" text={contest.watch} />
             </Stack>
           )}
           <Stack direction="row" sx={{ gap: 1, mt: 0.5 }}>

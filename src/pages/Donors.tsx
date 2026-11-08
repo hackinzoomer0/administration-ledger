@@ -22,7 +22,7 @@ export default function Donors() {
       <ContextNav area="research" />
       <Directory
         title="Money & access"
-        description="Contributions, investments, clients and access are different relationships. Inspect the recipient and decision channel before drawing an influence conclusion."
+        description="See who gives money, invests or does business with people connected to the administration. Each profile explains the relationship; a financial connection alone does not prove political influence."
         path="donors"
         rows={data.donors}
         subtitle={(row) => row.identity || row.amounts?.[0] || ""}

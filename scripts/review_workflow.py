@@ -13,6 +13,7 @@ from database import ROOT, apply, atomic_json, changes, fingerprint, load, valid
 from publish_review import publish
 from validate_nominees import validate as validate_nominees
 from validate_assessments import validate_review as validate_assessment_review
+from reader_copy import plan as reader_copy_plan, validate as validate_reader_copy
 
 
 def prepare(stage, section):
@@ -24,8 +25,10 @@ def prepare(stage, section):
     prefix = (ROOT / 'prompts/execution/stage.md').read_text()
     command = shlex.join([sys.executable, str(Path(__file__).resolve()), 'check',
                           str(stage.resolve()), section])
+    copy_command = shlex.join([sys.executable, str(Path(__file__).resolve()), 'copy-plan', str(stage.resolve()), section])
     (stage / 'prompt.txt').write_text(prefix + prompt +
-        '\nBefore ending the research turn, run this read-only preflight command and repair any errors in the staged ledger: '
+        '\nAfter drafting research, execute the reader-copy-review role. Generate the exact changed-public-text inventory with: '
+        + copy_command + '\nRead reader-copy-plan.json in manageable sections, complete the second-pass critique, repair the stored text and record reader_copy_review in the new run. Regenerate the inventory after editing and use its final fingerprints.\nBefore ending the research turn, run this read-only preflight command and repair any errors in the staged ledger: '
         + command + '\nIt validates without publishing or applying changes. This runner-provided command is the permitted exception to the sibling-access restriction.\n')
 
 
@@ -58,6 +61,8 @@ def validate_changed_events(before, after, stage):
 def check(stage, section):
     before = json.loads((stage / 'original.json').read_text())
     after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
+    documents = reader_copy_plan(before, after)
+    atomic_json(stage / 'reader-copy-plan.json', documents)
     if before.keys() != after.keys() or before['collections'].keys() != after['collections'].keys():
         raise ValueError('Scheduled review changed collection schema')
     if before['collections']['prompts'] != after['collections']['prompts']:
@@ -65,10 +70,19 @@ def check(stage, section):
     validate(after)
     validate_nominees(before, after, section)
     validate_assessment_review(before, after, section)
+    validate_reader_copy(before, after, documents)
     validate_changed_events(before, after, stage)
     if fingerprint(load()) != fingerprint(before):
         raise RuntimeError('Working data changed during review; retry before publishing')
     return before, after
+
+
+def copy_plan(stage, section):
+    before = json.loads((stage / 'original.json').read_text())
+    after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
+    documents = reader_copy_plan(before, after)
+    atomic_json(stage / 'reader-copy-plan.json', documents)
+    print(json.dumps({'documents': {key: len(row['edits']) for key, row in documents.items()}, 'file': 'reader-copy-plan.json'}))
 
 
 def finish(stage, section):
@@ -91,7 +105,7 @@ def finish(stage, section):
 if __name__ == '__main__':
     command, directory, section = sys.argv[1:]
     try:
-        {'prepare': prepare, 'check': check, 'finish': finish}[command](Path(directory), section)
+        {'prepare': prepare, 'check': check, 'copy-plan': copy_plan, 'finish': finish}[command](Path(directory), section)
     except Exception as error:
         atomic_json(Path(directory) / 'failure.json', {'phase': command, 'error': str(error)})
         raise

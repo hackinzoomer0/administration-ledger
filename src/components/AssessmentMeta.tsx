@@ -36,7 +36,7 @@ export function AssessmentMeta() {
           onClick={() => setOpen(!open)}
           aria-expanded={open}
         >
-          Scope &amp; freshness
+          What this review covers
         </Button>
       </Stack>
       <Collapse in={open}>
@@ -45,7 +45,7 @@ export function AssessmentMeta() {
           color="text.secondary"
           sx={{ mt: 1, maxWidth: "75ch" }}
         >
-          {data.assessment.review.scope} Last substantive change:{" "}
+          {data.assessment.review.scope} Last change to the assessment:{" "}
           {data.assessment.last_substantive_change}. Publication can occur
           without a change in the political assessment.
         </Typography>

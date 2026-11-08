@@ -122,7 +122,6 @@ export function ForecastWargame({
         Full wargame reviewed {reviewedAt} · weekly forecast, with daily outcome
         monitoring
       </Typography>
-      <Typography variant="body2">{game.summary}</Typography>
       <Panel title="What voters rejected, who they blame, and what comes next">
         {Object.entries(game.judgments).map(([key, row]) => (
           <Box key={key}>

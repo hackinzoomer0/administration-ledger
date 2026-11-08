@@ -455,5 +455,9 @@
   "nominee-monitor": {
     "asof": "2026-11-07",
     "role": "nominee-monitor"
+  },
+  "reader-copy-review": {
+    "asof": "2026-11-07",
+    "role": "reader-copy-review"
   }
 }

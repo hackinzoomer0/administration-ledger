@@ -22,3 +22,5 @@ Use recall's source-recovery procedure for blocked indexes and articles, accepti
 
 READABILITY AUDIT
 Review new/edited event headlines and summaries plus current wargame titles/explanations against analysis-rules' plain-language rule. Check that a reader can identify the actor, action/condition and difference between cases without opening their details. Correct opaque titles in maintained UI copy while preserving historical forecast records and numbers. Distinguish editorial changes from political reassessments in the existing run notes; record unresolved wording with the specific clarification needed. Do not claim that structural validators certify readable prose.
+
+Reader-facing database text must pass reader-copy-review before publication. Explain names, roles, decisions, mechanisms and consequences in ordinary sentences; do not assume readers know prior reports or internal shorthand. The required separate editorial pass repairs the stored fields and records final-text fingerprints, context and uncertainty checks in the run. Technical material belongs in explicitly identified methods/full-record sections.

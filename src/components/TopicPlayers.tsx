@@ -64,11 +64,11 @@ export function TopicPlayers({ issue }: { issue: string }) {
               >
                 <Stack spacing={1.5}>
                   <ReadingBlock
-                    title="Position and decision channel"
+                    title="What they want and how they can act"
                     text={actor.position}
                   />
                   <ReadingBlock
-                    title="Issue-specific goal / assessed incentive"
+                    title="What they could gain"
                     text={actor.goal}
                   />
                 </Stack>

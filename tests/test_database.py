@@ -17,6 +17,7 @@ from database import apply, fingerprint, load, validate
 from privacy import screen
 from wargame import effective_game
 from review_workflow import prepare, finish, check, validate_changed_events
+from reader_copy import plan as copy_plan
 
 
 class DatabaseWorkflow(unittest.TestCase):
@@ -96,6 +97,17 @@ class DatabaseWorkflow(unittest.TestCase):
             }
             file.write_text(json.dumps(ledger))
             with patch('review_workflow.publish', return_value={'status': 'verified', 'commit': 'fixture'}) as publish, patch('review_workflow.apply') as apply_data:
+                with self.assertRaisesRegex(ValueError, 'reader-copy second pass'):
+                    finish(stage, 'Daily')
+                publish.assert_not_called()
+                apply_data.assert_not_called()
+                original=json.loads((stage/'original.json').read_text())
+                ledger['collections']['runs']['workflow-fixture']['reader_copy_review']={
+                    'standard':'reader_copy_v1','mode':'single_analyst_second_pass',
+                    'documents':{key:{'fingerprint':row['fingerprint'],'reader_takeaway':'Fixture explains the political state.',
+                                       'context_check':'Names and decisions identified.','uncertainty_check':'Carried evidence is labeled.',
+                                       'changes_made':[]} for key,row in copy_plan(original,ledger).items()}}
+                file.write_text(json.dumps(ledger))
                 finish(stage, 'Daily')
                 publish.assert_called_once()
                 apply_data.assert_called_once()

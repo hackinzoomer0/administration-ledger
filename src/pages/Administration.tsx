@@ -40,7 +40,7 @@ export default function Administration() {
       </Box>
       {contest ? (
         <>
-          <Section title="The current read">
+          <Section title="What is happening and why it matters">
             <Chip
               label={label(contest.status)}
               size="small"
@@ -51,8 +51,11 @@ export default function Administration() {
               factions={contest.faction_ids}
               issues={[contest.issue_id]}
             />
-            <ReadingBlock title="Formal authority" text={contest.authority} />
-            <ReadingBlock title="Other leverage" text={contest.leverage} />
+            <ReadingBlock title="Who can decide" text={contest.authority} />
+            <ReadingBlock
+              title="Who else can shape the decision"
+              text={contest.leverage}
+            />
             <Button
               onClick={() =>
                 evidence({
@@ -88,7 +91,7 @@ export default function Administration() {
             </Typography>
           </Section>
           <Section
-            title="Consequential decision contests"
+            title="Decisions that could change the administration’s direction"
             description="Issue-specific findings. These are not a numerical ranking of faction power."
           >
             <PowerList />

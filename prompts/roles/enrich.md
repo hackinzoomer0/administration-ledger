@@ -8,3 +8,5 @@ If none works, return headlineOnly true. Never use archives, mirrors, caches or 
 Return: {"items":[{"headline","originalOutlet","readUrl","route":1|2|3|4|"none","printedDate","facts":"2-4 sentences of what the page says","tier","headlineOnly"}]}
 
 Apply analysis-rules' plain-language requirement to every new or edited event text/title and context. Lead with the named actor and concrete action/decision; make the headline understandable without its source or faction notes. Do not replace factual precision or uncertainty with a vivid but unsupported claim.
+
+Reader-facing database text must pass reader-copy-review before publication. Explain names, roles, decisions, mechanisms and consequences in ordinary sentences; do not assume readers know prior reports or internal shorthand. The required separate editorial pass repairs the stored fields and records final-text fingerprints, context and uncertainty checks in the run. Technical material belongs in explicitly identified methods/full-record sections.

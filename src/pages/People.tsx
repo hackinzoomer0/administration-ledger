@@ -173,7 +173,7 @@ export default function People() {
       <ContextNav area="research" />
       <Directory
         title="People"
-        description="Roles, incentives and decision channels. Open a profile to understand why an actor matters and follow its evidence."
+        description="Who makes decisions, what they want and how they can influence policy. Open a profile for their record and supporting evidence."
         path="people"
         rows={data.people}
         subtitle={(row) => row.role}

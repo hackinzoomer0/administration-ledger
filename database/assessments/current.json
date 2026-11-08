@@ -6,27 +6,27 @@
     "date": "2026-11-07",
     "run_id": "2026-11-07-weekly-causal-projection-review",
     "type": "weekly_review",
-    "scope": "Full eight-contender causal projection and common comparison; targeted source-recovered personnel, election-constituency and Afghan-order review. Remaining issue calendars, filings and seven-day recall incomplete."
+    "scope": "The latest review checked the eight tracked nomination candidates and selected staffing, election, war and court developments. It did not finish checking every issue, campaign-finance filing or pending legal outcome. An updated publication date does not mean those gaps have been resolved."
   },
   "administration": {
-    "headline": "Defeat opens competing paths: executive confrontation, departmental control and incoming oversight.",
-    "summary": "Trump retains executive authority after the midterm defeat. Miller’s prospective gatekeeping gain points toward confrontation, while Justice Department departures create room for Blanche to consolidate management; neither establishes a uniform policy turn. Incoming Democratic majorities gain oversight and funding leverage after organization. Costs, responsibility and who can credibly correct them remain central. Court constraints are specific: the recovered Afghan order protects identified clients beyond the former cutoff. A permitted correction could preserve an heir’s coalition, while continuing failure could help rivals build new ones. Other policy and court findings remain carried where not freshly checked.",
+    "headline": "Trump faces a new chief of staff, Justice Department departures and a Congress preparing to investigate him.",
+    "summary": "Trump still controls the executive branch after Republicans lost the midterms. His choice of Stephen Miller to replace Susie Wiles could put immigration enforcement and staffing decisions closer to a key advocate of stricter policies. Justice Department departures could give Attorney General Todd Blanche more room to choose managers and direct cases. When Democrats take control of Congress in January, they can demand records, hold hearings and challenge administration spending. The central question is whether Trump changes policies that voters rejected or continues them despite those pressures. Staffing announcements alone do not show that policy has changed.",
     "contests": [
       {
         "id": "white-house-access",
         "issue_id": "MID",
-        "title": "White House access is shifting",
+        "title": "Miller is set to replace Wiles as White House chief of staff",
         "status": "pending",
-        "assessment": "Miller’s announced promotion promises broader access for the Maximalists. Wiles’s move changes the Operation’s White House role; it does not establish a transfer of campaign-money control.",
-        "authority": "Trump appoints the chief of staff. The reported handover is November 9.",
-        "leverage": "Miller gains a prospective agenda channel; Wiles retains a reported political-operation role.",
-        "change": "Appointment announced; exercised authority still pending.",
+        "assessment": "As chief of staff, Miller would have more say over White House staffing and the proposals presented to Trump. Wiles is reported to be moving to Trump’s political team, where she may continue advising him about elections. Her new responsibilities, including any influence over campaign money, are not yet confirmed.",
+        "authority": "Trump chooses his chief of staff. The reported handover from Wiles to Miller is November 9.",
+        "leverage": "The chief of staff helps manage access to Trump and the work of senior White House staff. A role on Trump’s political team may still give Wiles influence, but does not give her the same daily control over White House work.",
+        "change": "Trump has announced the appointment. The review has not yet confirmed the handover or how the two advisers will divide their responsibilities.",
         "basis": {
-          "actions": "Trump named Miller to succeed Wiles.",
-          "positions": "Public congratulations preserve unity; they establish no 2028 endorsement.",
-          "money": "No financial cause for the appointment is established. Campaign resources and White House access are separate channels."
+          "actions": "Trump announced that Miller would replace Wiles as chief of staff.",
+          "positions": "Public congratulations show support for the appointment; they do not establish whom anyone will back for president in 2028.",
+          "money": "No evidence establishes that a payment caused the appointment. Wiles’s possible influence over campaign funds must be checked separately from her White House job."
         },
-        "watch": "Confirm the handover and each adviser’s actual remit.",
+        "watch": "Check whether Miller takes over on November 9, which responsibilities he receives and what role Wiles actually takes.",
         "event_ids": [
           "mid-2026-11-06-miller-chief-staff"
         ],
@@ -35,23 +35,23 @@
           "operation"
         ],
         "reviewed_at": "2026-11-07",
-        "summary": "Miller is positioned to gain agenda access. Wiles’s political remit and the November 9 handover remain to be verified."
+        "summary": "Trump has named Stephen Miller to succeed Susie Wiles. The reported November 9 handover would put Miller in a stronger position to influence which officials and proposals reach Trump."
       },
       {
         "id": "iran-decision",
         "issue_id": "IRN",
-        "title": "Iran policy remains a contested decision",
+        "title": "Vance urges an end to the Iran war while Rubio defends Trump’s decision",
         "status": "contested",
-        "assessment": "Vance has a negotiating channel and a public case for ending the war. Rubio’s defense of Trump supplies a rival position. Neither establishes control over Trump’s next military decision or a completed settlement.",
-        "authority": "Trump directs military decisions; Congress controls appropriations and has war powers.",
-        "leverage": "Negotiators influence the options. Public criticism changes political positioning before it changes policy.",
-        "change": "A visible split over the war’s political costs; the policy outcome remains open.",
+        "assessment": "Vance can use negotiations and his criticism of the war to argue for a different approach. Rubio offers a competing argument for Trump’s original decision. Those arguments may shape Trump’s options and the nomination contest, but neither establishes that a settlement or another military operation has been approved.",
+        "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
+        "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
+        "change": "Vance and Rubio have publicly offered different explanations of the war and its political cost. The review has not established a final settlement or a new military decision.",
         "basis": {
           "actions": "Trump reviewed options; Vance has led negotiations.",
           "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Look for an order, observable operational change or an accepted agreement.",
+        "watch": "Look for a military order, a confirmed change in operations or an agreement accepted by the parties.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review"
@@ -63,23 +63,23 @@
           "pentagon"
         ],
         "reviewed_at": "2026-11-07",
-        "summary": "Vance’s negotiating role competes with hawkish arguments; Trump retains the military decision."
+        "summary": "Vance has argued that the war hurt Republicans in the election and has led negotiations. Rubio has defended Trump’s decision to use force. Trump still decides the next military step."
       },
       {
         "id": "succession-control",
         "issue_id": "SUC",
-        "title": "The succession coalition is still open",
+        "title": "Vance and his rivals compete for Trump’s voters, donors and campaign teams",
         "status": "contested",
-        "assessment": "Vance has the clearest recorded organizational route. Rubio retains a competing institutional and donor lane. Trump has not settled the succession question in the reviewed record.",
-        "authority": "Republican voters and the nomination process decide the nominee. Trump’s support is an influential endorsement channel.",
-        "leverage": "Party fundraising, organizations, donor access and public positioning supply distinct forms of leverage.",
-        "change": "Vance’s post-election argument separates him from hawkish rivals without demonstrating a gain in voter support.",
+        "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment.",
+        "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
+        "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
+        "change": "Vance’s criticism of the war gives him a different argument from Rubio. No measured shift of primary support has been established from that statement alone.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
           "positions": "Public deferral, message support and a candidate endorsement mean different things.",
           "money": "Thiel’s historical backing and Rockbridge access help explain Vance’s network; Griffin’s reported preference is not a Rubio contribution pledge."
         },
-        "watch": "Track entry intentions, endorsements, organizing and new support evidence.",
+        "watch": "Watch for announced campaigns, endorsements, committed funding, named organizers in early-primary states and voter surveys.",
         "event_ids": [
           "suc-2025-03-58b7aa",
           "suc-2026-08-19-b59801",
@@ -93,23 +93,23 @@
           "operation"
         ],
         "reviewed_at": "2026-11-07",
-        "summary": "Vance has the clearest organizational route. Rubio retains a competing donor and institutional lane."
+        "summary": "Vance has the strongest documented fundraising and activist connections among the tracked candidates. Rubio and other rivals could recruit some of the same supporters; Trump has not settled the race."
       },
       {
         "id": "fed-governance",
         "issue_id": "FED",
-        "title": "Fed governance has institutional limits",
+        "title": "Trump’s attempt to remove Lisa Cook faces legal challenges",
         "status": "pending",
-        "assessment": "White House pressure on Cook remains constrained by legal process. Treasury’s policy influence must be distinguished from the FOMC’s authority over rates.",
-        "authority": "The FOMC votes on rates. Removal disputes involve the presidency and courts under the applicable law.",
-        "leverage": "Advisers can shape pressure and process; that does not give a faction control over the rate vote.",
-        "change": "Cook’s hearing schedule and process remain unresolved in the reviewed coverage.",
+        "assessment": "Trump’s effort to remove Cook could affect who serves on the Federal Reserve’s governing board. Courts and the required hearing process limit how that effort proceeds. Interest-rate decisions still belong to the Federal Open Market Committee, which includes Federal Reserve governors and regional bank presidents.",
+        "authority": "The Federal Open Market Committee votes on interest rates. The dispute over Cook’s removal involves the president, the courts and the procedures required by law.",
+        "leverage": "White House officials can press for a change in Fed leadership or lower rates. Treasury officials can advise on the market consequences, but neither group can simply order the committee to change its rate vote.",
+        "change": "The review records a delayed hearing and a later filing about the process. It has not confirmed a completed removal or a changed rate decision.",
         "basis": {
           "actions": "The hearing was delayed; the later filing addressed scheduling and participation.",
           "positions": "Calls for lower rates do not establish a changed vote or removal.",
           "money": "Market exposure can explain interests; no payment causing a rate decision is established."
         },
-        "watch": "Verify the hearing notice, court disposition and any action actually taken.",
+        "watch": "Check the hearing date, court orders, any final removal decision and the committee’s actual rate votes.",
         "event_ids": [
           "fed-2026-10-30-cook-hearing-delay"
         ],
@@ -118,24 +118,24 @@
           "maximalists"
         ],
         "reviewed_at": "2026-11-07",
-        "summary": "White House pressure is constrained by legal process. Rate authority remains with the FOMC."
+        "summary": "The dispute over Federal Reserve governor Lisa Cook’s position remains subject to court and hearing procedures. White House demands for lower rates do not give advisers the authority to set them."
       },
       {
         "id": "justice-department-control",
         "issue_id": "MID",
-        "title": "Justice Department management is changing",
+        "title": "Justice Department departures could give Blanche more control over senior appointments",
         "status": "contested",
-        "summary": "Departures create an opening for Blanche to consolidate management; the program’s direction remains unresolved.",
-        "assessment": "My reading: turnover changes particular enforcement channels before proving any broader retreat. Acting replacements could sustain the program.",
-        "authority": "The attorney general directs the department; appointments, acting authority and confirmations follow separate processes.",
-        "leverage": "Department leadership can replace managers and redirect resources; former officials remain exposed to future oversight.",
-        "change": "Three leadership departures reported; successors and any operational changes unverified.",
+        "summary": "Reported departures leave Attorney General Todd Blanche with opportunities to replace senior managers. New managers could continue the same cases rather than signal a retreat from them.",
+        "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy.",
+        "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
+        "leverage": "Department leaders can choose or propose replacements, assign supervisors and shift resources between cases. Those choices matter more than an announcement of departures on its own.",
+        "change": "Three leadership departures were reported. Their replacements and any resulting changes to investigations remain unverified.",
         "basis": {
-          "actions": "Dated CNN account of the departures.",
-          "positions": "No new public policy reversal established.",
-          "money": "Possible professional incentives are distinct from documented departure reasons; no payment causing the changes is established."
+          "actions": "CNN reported the named leadership departures on November 6.",
+          "positions": "The departures do not by themselves establish a public reversal of Justice Department policy.",
+          "money": "The reviewed reporting does not establish that money caused the departures. Possible career incentives are an interpretation, not a documented explanation from the officials."
         },
-        "watch": "Confirm successors, acting roles, case continuity and actual policy instructions.",
+        "watch": "Identify the replacements, confirm who is acting in each job and check whether cases, staffing or written instructions actually change.",
         "event_ids": [
           "mid-2026-11-06-doj-departures"
         ],
@@ -147,7 +147,7 @@
     ]
   },
   "nomination": {
-    "headline": "Vance leads; future coalition building widens the contest.",
+    "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
     "summary": "Vance starts with the strongest Republican fundraising and activist connections, but prolonged war, household costs and damaging disclosures could erode his support. DeSantis and Kemp could appeal to voters seeking governing experience outside Washington; Paul and Massie could gain if opposition to military intervention and executive overreach grows. McEntee could draw on first-term staffing and withdrawal work while facing questions about his later connections and readiness to lead. None of these openings guarantees that voters, donors and campaign organizers will rally behind a single rival.",
     "snapshot_id": "2026-11-07-weekly-causal-projection-review",
     "candidates": [
@@ -155,11 +155,11 @@
         "candidate_id": "jd_vance",
         "person_id": "vance",
         "path": "Vance has a head start through Republican fundraising and activist networks. He could keep much of that support if the war eases and households see relief. Continued failures or damaging disclosures would make his role in the administration, and his attempts to distance himself from its decisions, central targets for rivals.",
-        "coalition": "RNC fundraising, Rockbridge and Turning Point channels.",
-        "advantage": "A concrete organizational head start.",
-        "vulnerability": "Post-defeat criticism looks retrospective. Documents or a Hegseth confrontation force him to defend conduct he privately questioned, abandon a colleague, or evade. Rivals use that record to make both loyalty and restraint claims untrustworthy.",
-        "positions": "Economic nationalism, immigration restriction and a negotiating role.",
-        "money": "Historical Thiel backing; access does not imply agreement on every policy.",
+        "coalition": "He could draw on Trump supporters, conservative activists and donors who already work with his allies. They may disagree about the war or economic policy, so those relationships do not guarantee their votes.",
+        "advantage": "Vance already has relationships with Republican fundraisers and activist organizations that could supply money, volunteers and campaign staff.",
+        "vulnerability": "Voters may hold Vance responsible for decisions he defended as vice president. If he later criticizes those decisions, rivals can ask why he did not oppose them earlier and whether his change is sincere.",
+        "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
+        "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
           "suc-2025-03-58b7aa",
           "suc-2026-08-19-b59801",
@@ -178,11 +178,11 @@
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "Rubio could draw on foreign-policy experience and relationships with Republican donors and officials if he decides to run. His public commitment to serving Trump makes an independent bid uncertain. A prolonged war would make it harder to convince dissatisfied voters that he offers a different direction.",
-        "coalition": "State/NSC relationships and donors who prefer him.",
-        "advantage": "National visibility and an existing policy network.",
-        "vulnerability": "If the policy itself is repudiated, credentials become ownership. Hearings put his explanations alongside internal warnings, while deference to Vance or failure to enter prevents conversion of donor preference into a campaign.",
-        "positions": "Hawkish commitments coexist with deference to Trump.",
-        "money": "Griffin preference and prospective donor interest are not pledged 2028 funds.",
+        "coalition": "He could appeal to Republicans who favor a forceful foreign policy and donors who want an experienced candidate. Cruz and Vance could compete for many of the same supporters.",
+        "advantage": "Rubio has foreign-policy experience and relationships with Republican officials and donors who could help him organize a national campaign.",
+        "vulnerability": "Rubio would have to explain his own role in the administration’s foreign policy if the war remains unpopular. He also has to decide whether to run against Vance after publicly signaling that he plans to keep serving Trump.",
+        "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
+        "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
           "suc-2026-07-30e83e",
           "irn-2026-11-04-vance-postelection-war-critique"
@@ -200,11 +200,11 @@
         "candidate_id": "ron_desantis",
         "person_id": null,
         "path": "DeSantis can offer experience running a state without direct responsibility for current federal decisions. Another presidential bid would depend on rebuilding a campaign after 2024 and convincing voters that his leadership and policies answer their concerns. Kemp and other candidates could attract the same donors and voters.",
-        "coalition": "Social conservatives and voters seeking distance from Washington.",
-        "advantage": "Executive experience outside the federal decision chain.",
-        "vulnerability": "Distance is mistaken for popularity. His earlier intervention statements, state accountability exposure and past campaign problems prevent a clean break, while donors prefer someone outside the approved roster.",
-        "positions": "Enacted state policies; support for limited strikes complicates a restraint pitch.",
-        "money": "Past fundraising capacity is not a verified current donor coalition.",
+        "coalition": "He could attract social conservatives and Republicans who want an experienced governor instead of another member of Trump’s Washington team. Kemp could compete for that same support.",
+        "advantage": "DeSantis can point to experience as Florida governor while arguing that he was not in charge of the federal decisions now under criticism.",
+        "vulnerability": "DeSantis’s unsuccessful 2024 presidential campaign raises questions about how well he can connect with voters and run a national team. His earlier support for military strikes could also weaken an argument that he would take a different approach to the war.",
+        "positions": "His record includes conservative policies enacted in Florida. His support for limited military strikes means that distance from the White House does not necessarily mean opposition to intervention abroad.",
+        "money": "DeSantis has raised substantial money for past campaigns. That shows fundraising experience, but does not establish which donors would back another presidential bid.",
         "event_ids": [],
         "source_ids": [
           "desantis_donors",
@@ -220,11 +220,11 @@
         "candidate_id": "ted_cruz",
         "person_id": "cruz",
         "path": "Cruz has presidential-campaign experience and relationships among conservative voters and donors. He could attract Republicans who want a familiar conservative alternative, but his foreign-policy positions overlap with Rubio’s and may deter voters seeking less U.S. military involvement. He needs a compelling reason for voters to choose him over those rivals.",
-        "coalition": "Religious conservatives and overlapping hawkish networks.",
-        "advantage": "A recognizable policy identity and donor-facing lane.",
-        "vulnerability": "A hawkish record limits separation from intervention, Rubio competes for donors and recognition does not produce coalition growth. Past repositioning and judgment controversies remain usable.",
-        "positions": "Hawkish foreign policy and tariff skepticism distinguish his pitch.",
-        "money": "Historical presidential donors do not establish present commitments.",
+        "coalition": "He could appeal to religious conservatives and Republicans who favor a strong military and pressure on U.S. adversaries. Other candidates also seek these voters.",
+        "advantage": "Cruz is already known to conservative voters and has experience raising money and competing in presidential primaries.",
+        "vulnerability": "Republicans who want less military involvement abroad may reject Cruz’s foreign-policy views. Rubio competes for some of the same donors, and being well known does not by itself give voters a reason to choose Cruz.",
+        "positions": "Cruz generally favors a forceful foreign policy but has criticized tariffs. These positions may attract different groups of Republican voters rather than one united base.",
+        "money": "Donors supported Cruz in earlier presidential contests. We have not established that those relationships will become financial commitments for 2028.",
         "event_ids": [
           "suc-2025-12-47212e"
         ],
@@ -241,11 +241,11 @@
         "candidate_id": "john_mcentee",
         "person_id": null,
         "path": "McEntee could point to his first-term work on staffing and troop withdrawals to argue for Trump’s earlier promises without defending every current administration decision. He would need to become better known as a potential president and turn interest into committed voters, campaign funding and organizers. His later planning connections, business ties and personal record could undermine that distinction.",
-        "coalition": "Hypothesized younger, culturally conservative Trump-aligned audience seeking program continuity with different leadership; voter composition and conversion remain unverified.",
-        "advantage": "Historical personnel recruitment and withdrawal work can combine with future enthusiasm and acquired electoral staff; this is a prospective conversion path.",
-        "vulnerability": "Entry, political funding and a measured constituency remain unknown. Later planning ties, business scrutiny and personal-record attacks can defeat separation from current leadership.",
-        "positions": "Historical restrictionist staffing and withdrawal advocacy; current specifics need review.",
-        "money": "Thiel’s dating-business investment is not a nomination endorsement.",
+        "coalition": "He could appeal to conservatives who want tighter immigration rules and fewer foreign military commitments under different leadership. His online audience may include younger conservatives, but its age and willingness to vote for him have not been established.",
+        "advantage": "McEntee helped recruit officials for Trump’s first administration and worked on troop-withdrawal proposals. He could use that experience to argue that he understands how to carry out policies that other candidates only promise.",
+        "vulnerability": "McEntee still has to show that people who watch his videos would choose him for president and help fund and organize a campaign. Rivals could use his Project 2025 staffing work and reported lobbying for Chinese technology interests to question his claim to offer a break from today’s administration.",
+        "positions": "His first-term record includes support for restrictive immigration staffing and troop withdrawals. That record does not establish every position he would take in a presidential campaign today.",
+        "money": "Technology investor Peter Thiel invested in McEntee’s dating business. That was a business investment, not a confirmed presidential-campaign contribution or endorsement.",
         "event_ids": [],
         "source_ids": [
           "project2025",
@@ -262,11 +262,11 @@
         "candidate_id": "rand_paul",
         "person_id": "paul",
         "path": "Paul could benefit if Republican voters want less military intervention and stronger limits on executive power. His Senate experience and political relationships give him resources for a bid, but agreement with his positions does not establish enthusiasm for him as president. He would need to attract voters beyond his existing supporters while competing with Massie and other administration critics.",
-        "coalition": "Liberty-oriented conservatives and a potential free-trade business constituency.",
-        "advantage": "A policy identity with dissent predating the defeat.",
-        "vulnerability": "A narrow constituency, overlapping Massie support and an undecided run.",
-        "positions": "Fiscal restraint, free trade and constitutional limits; current immigration specifics remain open.",
-        "money": "Historical Protect Freedom/Yass ties are not confirmed 2028 commitments.",
+        "coalition": "He could appeal to Republicans who want less military intervention, fewer trade barriers and stronger limits on federal power. Those voters may disagree with one another about spending cuts or help for struggling households.",
+        "advantage": "Paul criticized military intervention and limits on civil liberties before the latest Republican election defeat. He could argue that his positions reflect long-held beliefs rather than a reaction to bad election results.",
+        "vulnerability": "Voters can agree with Paul about the war without wanting him as president. He would need to attract people beyond his existing supporters, compete with Massie for similar voters and decide whether to enter the race.",
+        "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
+        "money": "Paul has historical links to the Protect Freedom political group and donor Jeff Yass. Those connections do not establish a confirmed financial commitment to a 2028 presidential bid.",
         "source_ids": [
           "paul_official_positions",
           "paul_entry_cbs_2026",
@@ -279,11 +279,11 @@
         "candidate_id": "brian_kemp",
         "person_id": null,
         "path": "Kemp could offer his record as Georgia governor to Republicans who want different leadership from Washington. He would have to decide to run, introduce himself nationally and turn state-level relationships into a presidential campaign. Donors and voters seeking another governor could choose DeSantis instead.",
-        "coalition": "A strong Georgia foundation and potential electability-focused conservative support.",
-        "advantage": "Executive experience outside federal war decisions.",
-        "vulnerability": "Home-state standing requires national conversion; entry, personality appeal and competition with other executives prevent a guaranteed national floor.",
-        "positions": "State tax relief and enacted enforcement/social policies; no complete federal platform is assumed.",
-        "money": "No current presidential donor commitments verified in this review.",
+        "coalition": "He could attract Republicans who want an experienced governor and believe he could win a general election. Whether that appeal extends beyond Georgia remains uncertain.",
+        "advantage": "Kemp can point to experience governing Georgia without having been responsible for the administration’s military decisions in Washington.",
+        "vulnerability": "Kemp’s popularity in Georgia does not show that Republicans elsewhere would choose him for president. He would need to enter the race, become better known nationally and persuade voters to choose him over DeSantis or Trump-aligned candidates.",
+        "positions": "His Georgia record includes tax cuts and conservative immigration, policing and social policies. A state record does not establish a complete presidential platform.",
+        "money": "This review has not verified commitments from donors to finance a Kemp presidential campaign.",
         "source_ids": [
           "kemp_2026_ajc",
           "kemp_2026_tax_relief",
@@ -297,11 +297,11 @@
         "candidate_id": "thomas_massie",
         "person_id": "massie",
         "path": "Massie could attract Republicans whose concerns about war powers and government accountability are reinforced by later events. He would need to choose a Republican presidential bid, recruit a national campaign team and persuade voters that his dissent makes him a credible president. Paul competes for some of the same supporters, and Trump’s hostility could help Massie with some voters while alienating others.",
-        "coalition": "Libertarian and restraint-oriented audiences overlapping Paul’s.",
-        "advantage": "Specific oversight and war-powers acts before the defeat.",
-        "vulnerability": "Primary loss, national organization and possible non-GOP route limit the nomination path.",
-        "positions": "Congressional war authorization and executive accountability; other current policy gaps remain labeled.",
-        "money": "Historical independent House-primary support is not presidential campaign money.",
+        "coalition": "He could appeal to Republicans who oppose foreign military intervention and want Congress to limit presidential power. Paul seeks many of the same voters.",
+        "advantage": "Massie has taken specific congressional actions on war powers and government disclosure. He could point to those actions as evidence that he opposed policies before they became politically costly.",
+        "vulnerability": "Massie’s Republican primary defeat and conflict with Trump could discourage voters or donors. He also needs a national campaign team, and a run outside the Republican Party would not give him a path to this nomination.",
+        "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
+        "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
         "source_ids": [
           "massie_entry_2026",
           "massie_2026_war_powers",
@@ -341,8 +341,8 @@
   "cross_implications": [
     {
       "id": "war-and-succession",
-      "title": "A negotiating role is also a succession asset.",
-      "assessment": "Vance’s war postmortem offers differentiation from hawkish rivals while his earlier public defenses retain exposure. That is strategic positioning, not a measured transfer of primary support.",
+      "title": "Vance’s war criticism could help him compete with Rubio.",
+      "assessment": "Vance can argue that he wants to end a war Rubio has defended. Rivals can also point to Vance’s earlier public defenses of the administration and question when he changed his position. The statement alone does not show which candidate voters now prefer.",
       "event_ids": [
         "irn-2026-11-04-vance-postelection-war-critique"
       ],
@@ -353,8 +353,8 @@
     },
     {
       "id": "staffing-and-succession",
-      "title": "New gatekeeping changes the channels contenders must navigate.",
-      "assessment": "Miller’s announced promotion could broaden his agenda access. It supplies no evidence that he or the White House has chosen a nominee.",
+      "title": "Miller could shape which advisers and proposals reach Trump.",
+      "assessment": "If Miller takes over as chief of staff, candidates seeking Trump’s help may have to work with him and his staff. The appointment does not establish that Miller or Trump has endorsed a 2028 candidate.",
       "event_ids": [
         "mid-2026-11-06-miller-chief-staff"
       ],
@@ -365,8 +365,8 @@
     },
     {
       "id": "justice-turnover-strategy",
-      "title": "Managerial consolidation can coexist with confrontation.",
-      "assessment": "Blanche is a possible overlooked beneficiary of departures while Miller gains prospective access. Recognizing those positions need not wait for a new prosecution, confirmed successor or completed policy turn.",
+      "title": "Justice Department departures could strengthen Blanche while Miller gains a White House role.",
+      "assessment": "Blanche may be able to choose replacements and direct managers after the reported departures. Miller’s prospective White House role gives him a different way to influence decisions. Neither change alone proves that investigations will stop or policy will change.",
       "event_ids": [
         "mid-2026-11-06-doj-departures",
         "mid-2026-11-06-miller-chief-staff"
@@ -385,8 +385,8 @@
         "IRN",
         "SUC"
       ],
-      "kind": "Competing positions",
-      "assessment": "Different post-election war arguments supply competing succession pitches. No measured support transfer is established.",
+      "kind": "Different positions on the Iran war",
+      "assessment": "Vance’s argument for ending the war competes with the position of advisers who defend military pressure. That gives voters a difference to judge; it does not establish that support has already moved from one candidate to another.",
       "event_ids": [
         "irn-2026-11-04-vance-postelection-war-critique"
       ]
@@ -399,8 +399,8 @@
         "MID",
         "SUC"
       ],
-      "kind": "Access transition",
-      "assessment": "The announced chief-of-staff transition changes prospective access. The handover and allocation of political responsibilities remain to be verified.",
+      "kind": "Wiles would leave the chief-of-staff job to Miller",
+      "assessment": "The reported handover would give Miller the White House staff role Wiles currently holds. Her continued political influence depends on what responsibilities she actually receives outside that job.",
       "event_ids": [
         "mid-2026-11-06-miller-chief-staff"
       ]
@@ -412,8 +412,8 @@
       "issues": [
         "SUC"
       ],
-      "kind": "Financial and organizational ties",
-      "assessment": "Historical backing supplies a channel into the nomination coalition. It does not establish agreement on every policy or a new 2028 pledge.",
+      "kind": "Investors and fundraisers with past links to Vance",
+      "assessment": "Past financial backing and fundraising relationships could help Vance recruit money and staff. They do not establish agreement with him on every policy or a new commitment to a presidential campaign.",
       "event_ids": [
         "suc-2026-08-19-b59801",
         "suc-2026-09-24-11ac54"
@@ -426,24 +426,24 @@
       "actor": "Susie Wiles",
       "before": 4,
       "after": 2,
-      "role_change": "Chief of staff → reported political-operation role",
-      "implication": "Less White House agenda gatekeeping; campaign-resource influence may persist."
+      "role_change": "Wiles is expected to leave the White House chief-of-staff job for Trump’s political team.",
+      "implication": "As chief of staff, Wiles can influence which people and proposals reach Trump. Leaving that job would give her less control over day-to-day White House decisions. She may still advise Trump about elections, but her new responsibilities and any authority over campaign money are not yet confirmed."
     },
     {
       "faction_id": "maximalists",
       "actor": "Stephen Miller",
       "before": 3,
       "after": 4,
-      "role_change": "Deputy chief of staff → announced chief of staff",
-      "implication": "A broader agenda and staffing channel for enforcement hardliners; this does not itself change policy."
+      "role_change": "Miller is expected to take over as White House chief of staff.",
+      "implication": "Miller would gain more influence over the officials, staffing choices and policy proposals presented to Trump. That could help him push stricter immigration enforcement. The appointment itself does not order a policy change or show that he will win every argument about Iran."
     }
   ],
   "power_method": {
-    "title": "Role-based agenda access · 0–5",
-    "scale": "0 no identified channel; 1 outside access; 2 political-operation channel; 3 deputy-level White House role; 4 chief-of-staff gatekeeping; 5 presidential decision authority.",
-    "status": "Conditional post-handover scenario, not an observed transfer or a calibrated measure of total faction power. Scores are ordinal analyst judgments, not percentages.",
-    "condition": "The reported November 9 handover and political-operation remit must occur as described.",
-    "policy_projection": "Greater hardliner access could prioritize enforcement and staffing. It does not guarantee Iran escalation: the ledger also records Miller’s reported exit pitch. Democratic oversight and funding pressure may constrain both camps.",
+    "title": "How the access ratings work",
+    "scale": "The scale compares jobs, not measured shares of political power: 0 means no identified way to influence the decision; 1 means an outside adviser; 2 means a role in Trump’s political team; 3 means a deputy White House role; 4 means the chief of staff; 5 means the president, who makes the final executive decision.",
+    "status": "These are estimates of how much access each job could provide to Trump after the reported handover. They do not mean that either adviser controls a percentage of the administration.",
+    "condition": "This comparison assumes that the reported November 9 handover happens and that Wiles moves to Trump’s political team. Both advisers’ actual responsibilities still need confirmation.",
+    "policy_projection": "Miller could use the chief-of-staff job to prioritize immigration enforcement and staff who favor it. That does not establish that the Iran war will escalate: the record also includes reporting that Miller argued for an exit. Incoming Democratic majorities could demand records and challenge funding once the new Congress begins.",
     "event_ids": [
       "mid-2026-11-06-miller-chief-staff",
       "mid-2026-11-05-congress-control"
