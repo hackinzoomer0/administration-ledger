@@ -97,6 +97,41 @@ export interface Candidate {
   [key: string]: unknown;
 }
 export interface Wargame {
+  comparison_review?: {
+    candidates: Record<
+      string,
+      {
+        numerical_alternative?: {
+          scenario_id: string;
+          probabilities_pct: Record<string, number>;
+          adjudication: string;
+        };
+      }
+    >;
+  };
+  projection_review?: {
+    standard: string;
+    current_landscape: EvidenceRef & { assessment: string; as_of: string };
+    scenarios: Record<
+      string,
+      EvidenceRef & {
+        projected_landscape: string;
+        likelihood_reason: string;
+        candidate_paths: Record<
+          string,
+          EvidenceRef & {
+            candidate_response: string;
+            voter_response: string;
+            donor_media_response: string;
+            organization_coalition: string;
+            feedback: string;
+            share_justification: string;
+            countercase: string;
+          }
+        >;
+      }
+    >;
+  };
   model_version: string;
   summary: string;
   debate_mode: string;

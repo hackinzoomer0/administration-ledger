@@ -22,8 +22,28 @@ import type { EvidenceRequest } from "../lib/evidence-context";
 import { TopicPlayers } from "./TopicPlayers";
 import { EventDetails } from "./EventDetails";
 import { ResearchText } from "./ResearchText";
+import { CandidateWargameBasis } from "./CandidateWargameBasis";
+import { latestWargame } from "../lib/selectors";
+import type { EvidenceRef } from "../lib/types";
 export function EvidenceProvider({ children }: { children: ReactNode }) {
   const [request, setRequest] = useState<EvidenceRequest>();
+  const game = request?.candidateId
+    ? latestWargame(data.nomination.tracking.history)?.game
+    : undefined;
+  const references: EvidenceRef[] = request ? [request] : [];
+  if (game && request?.candidateId) {
+    references.push(game.candidate_debates[request.candidateId]);
+    for (const scenario of Object.values(
+      game.projection_review?.scenarios ?? {},
+    )) {
+      const path = scenario.candidate_paths[request.candidateId];
+      if (path) references.push(path);
+    }
+  }
+  const eventIds = [...new Set(references.flatMap((row) => row.event_ids))];
+  const sourceIds = [
+    ...new Set(references.flatMap((row) => row.source_ids ?? [])),
+  ];
   return (
     <EvidenceContext.Provider value={setRequest}>
       {children}
@@ -69,8 +89,13 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
                 <CloseIcon />
               </IconButton>
             </Stack>
-            <ResearchText text={request.summary} />
-            {request.showIssuePlayers !== false &&
+            {request.candidateId && game ? (
+              <CandidateWargameBasis candidateId={request.candidateId} />
+            ) : (
+              <ResearchText text={request.summary} />
+            )}
+            {!request.candidateId &&
+              request.showIssuePlayers !== false &&
               request.event_ids.length > 0 &&
               (() => {
                 const issue = data.events.find(
@@ -88,7 +113,12 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
                 ) : null;
               })()}
             <Divider />
-            {request.event_ids
+            {request.candidateId && (
+              <Typography variant="subtitle1" sx={{ fontWeight: 650 }}>
+                Supporting evidence
+              </Typography>
+            )}
+            {eventIds
               .map((id) => data.events.find((event) => event.id === id))
               .filter((event) => !!event)
               .map((event) => (
@@ -119,7 +149,7 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
                   </AccordionDetails>
                 </Accordion>
               ))}
-            {(request.source_ids ?? [])
+            {sourceIds
               .map((id) =>
                 data.nomination.sources.find((source) => source.id === id),
               )
@@ -139,7 +169,7 @@ export function EvidenceProvider({ children }: { children: ReactNode }) {
                   </Typography>
                 </Box>
               ))}
-            {!request.event_ids.length && !request.source_ids?.length && (
+            {!eventIds.length && !sourceIds.length && (
               <Typography variant="body2">
                 No linked episode has been established for this claim. Treat it
                 as a research gap.

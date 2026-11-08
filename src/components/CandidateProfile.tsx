@@ -186,6 +186,7 @@ export function CandidateProfile({
               onClick={() =>
                 open({
                   title: `${candidate.name}: nomination case`,
+                  candidateId: candidate.id,
                   summary: read.path,
                   event_ids: read.event_ids,
                   showIssuePlayers: false,

@@ -417,3 +417,92 @@ test("candidate wargame presents a rebuttal and likely moves on mobile", async (
     ),
   ).toBe(true);
 });
+
+test("candidate basis leads with the forecast and explains the causal scenario on mobile", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("./#/nominees");
+  const candidate = nomination.candidates.find(
+    (row: { id: string }) => row.id === "john_mcentee",
+  );
+  const link = page.getByRole("link", { name: candidate.name, exact: true });
+  const card = link.locator("xpath=../..");
+  await card.getByRole("button", { name: "View basis", exact: true }).click();
+  const drawer = page.getByRole("dialog");
+  await expect(
+    drawer.getByText(`${candidate.nomination_likelihood_pct.toFixed(2)}%`, {
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    drawer.getByText(`Full wargame reviewed ${fullReview.date}`, {
+      exact: false,
+    }),
+  ).toBeVisible();
+  await expect(
+    drawer.getByText("The winning path", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    drawer.getByText(
+      fullReview.wargame.candidate_debates[candidate.id].best_case,
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    drawer.getByText("The main obstacle", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    drawer.getByText("What would change the estimate", { exact: true }),
+  ).toBeVisible();
+  await expect(drawer).not.toContainText(
+    "Major players, factions, goals & backers",
+  );
+  const scenario = fullReview.wargame.scenarios[0];
+  const scenarioButton = drawer.getByRole("button", {
+    name: new RegExp(scenario.name),
+  });
+  await scenarioButton.click();
+  const path =
+    fullReview.wargame.projection_review.scenarios[scenario.id].candidate_paths[
+      candidate.id
+    ];
+  for (const text of [
+    path.candidate_response,
+    path.voter_response,
+    path.donor_media_response,
+    path.organization_coalition,
+  ])
+    await expect(drawer.getByText(text, { exact: true })).toBeVisible();
+  await expect(
+    scenarioButton.getByText(
+      `Environment likelihood: ${scenario.weight_pct}%`,
+      {
+        exact: true,
+      },
+    ),
+  ).toBeVisible();
+  await expect(
+    scenarioButton.getByText(
+      `Candidate’s chance here: ${scenario.shares_pct[candidate.id]}%`,
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(drawer).not.toContainText("comparison_review");
+  await expect(
+    drawer.getByText("Supporting evidence", { exact: true }),
+  ).toBeVisible();
+  expect(
+    await drawer.evaluate(
+      (element) => element.scrollWidth <= element.clientWidth + 1,
+    ),
+  ).toBe(true);
+  await drawer.getByRole("button", { name: "Close evidence" }).click();
+  await page.getByRole("link", { name: candidate.name, exact: true }).click();
+  await page
+    .getByRole("button", { name: "Inspect the basis", exact: true })
+    .click();
+  await expect(
+    page.getByRole("dialog").getByText("Wargame result", { exact: true }),
+  ).toBeVisible();
+});

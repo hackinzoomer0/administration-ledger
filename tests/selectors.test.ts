@@ -73,9 +73,10 @@ import forecastRecord from "../database/nominations/republican_2028.json";
 import type { Snapshot } from "../src/lib/types";
 it("keeps the full review date while applying a compact daily test update", () => {
   const full = structuredClone(
-    forecastRecord.tracking.history.at(-1),
+    [...forecastRecord.tracking.history].reverse().find((row) => row.wargame),
   ) as unknown as Snapshot;
   const test = full.wargame!.predictions[0];
+  const originalStatus = test.status;
   const daily = {
     ...full,
     id: "daily-monitor",
@@ -99,5 +100,5 @@ it("keeps the full review date while applying a compact daily test update", () =
   expect(result.reviewedAt).toBe(full.date);
   expect(result.snapshotId).toBe(full.id);
   expect(result.game.predictions[0].status).toBe("unresolved");
-  expect(test.status).toBe("pending");
+  expect(test.status).toBe(originalStatus);
 });

@@ -4,6 +4,7 @@ export interface EvidenceRequest extends EvidenceRef {
   title: string;
   summary?: string;
   showIssuePlayers?: boolean;
+  candidateId?: string;
 }
 export const EvidenceContext = createContext<
   (request: EvidenceRequest) => void

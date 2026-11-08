@@ -104,6 +104,7 @@ export function CandidateList({ compact = false }: { compact?: boolean }) {
                   onClick={() =>
                     evidence({
                       title: `${candidate.name}: nomination assessment`,
+                      candidateId: candidate.id,
                       summary: candidate.forecast_rationale,
                       event_ids: read.event_ids,
                       showIssuePlayers: false,
