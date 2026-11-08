@@ -95,7 +95,10 @@ export default function Nominees() {
             </Typography>
             {history.map((row) => (
               <Box key={row.id}>
-                <Typography variant="subtitle2">{row.date}</Typography>
+                <Typography variant="subtitle2">
+                  {row.date} · {Object.keys(row.probabilities_pct).length}
+                  -candidate field
+                </Typography>
                 <ResearchText text={row.summary} />
               </Box>
             ))}

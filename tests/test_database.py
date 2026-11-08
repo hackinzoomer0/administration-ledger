@@ -18,7 +18,7 @@ class DatabaseWorkflow(unittest.TestCase):
     def test_all_collections_and_nominee_history_load(self):
         ledger = load()
         summary = validate(ledger)
-        self.assertEqual(summary['nominees'], 5)
+        self.assertEqual(summary['nominees'], 8)
         self.assertGreater(summary['events'], 600)
         self.assertIn('nominee-review', ledger['collections']['prompts'])
         self.assertNotIn('prompts', json.loads((ROOT / 'database/manifest.json').read_text())['collections'])
@@ -67,6 +67,7 @@ class DatabaseWorkflow(unittest.TestCase):
             ledger = json.loads(file.read_text())
             forecast = ledger['collections']['nominations']['republican_2028']
             snapshot = copy.deepcopy(forecast['tracking']['history'][-1])
+            snapshot.pop('comparison', None)
             snapshot['id'] = 'workflow-fixture'
             snapshot['run_id'] = 'workflow-fixture'
             snapshot['type'] = 'daily_review'
@@ -92,7 +93,7 @@ class DatabaseWorkflow(unittest.TestCase):
                 apply_data.assert_called_once()
             report = json.loads((stage / 'changes.json').read_text())
             self.assertEqual(report['nominee_forecast']['id'], 'workflow-fixture')
-            self.assertIn('all five nominee percentages', (stage / 'completion-prompt.txt').read_text())
+            self.assertIn('all authorized nominee percentages', (stage / 'completion-prompt.txt').read_text())
 
     def test_owner_local_path_is_removed_from_public_export(self):
         text = screen(f'Local path: {Path.home()}/Downloads/example')

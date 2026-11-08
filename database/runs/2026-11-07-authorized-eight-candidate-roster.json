@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-07",
+  "type": "faction_consistency_review",
+  "scope": "Owner-authorized addition of Paul, Kemp and Massie, targeted profile research and eight-person forecast rebase within existing scenario environments. Tucker excluded by follow-up instruction. No broad daily intake or automatic full wargame rerun; weekly cadence retained. Administration findings carried.",
+  "summary": "Vance retains the strongest starting route in the expanded field. DeSantis and Kemp compete for a conservative executive reset; Paul and Massie contest overlapping restraint and constitutional-limit audiences. Entry, party route and organization remain material gates. This establishes a new eight-person baseline; percentage-point changes from the five-person field are not comparable.",
+  "nominees_added": [
+    "Rand Paul",
+    "Brian Kemp",
+    "Thomas Massie"
+  ],
+  "excluded_by_followup": [
+    "Tucker Carlson"
+  ],
+  "authorization": "Explicit authorization to add Rand Paul, Brian Kemp and Thomas Massie. The follow-up instruction excludes Tucker Carlson and supersedes the preceding request to include him. Further additions still require authorization.",
+  "probabilities_pct": {
+    "jd_vance": 34.3,
+    "marco_rubio": 11.95,
+    "ron_desantis": 18.7,
+    "ted_cruz": 5.65,
+    "john_mcentee": 2.05,
+    "rand_paul": 10.2,
+    "brian_kemp": 14.05,
+    "thomas_massie": 3.1
+  },
+  "comparison": "New eight-person baseline; deltas are null because the conditional roster changed.",
+  "prior_roster_snapshot": "2026-11-07-predictive-nomination-wargame",
+  "sources_checked": [
+    "paul_official_positions",
+    "paul_entry_cbs_2026",
+    "paul_protect_freedom",
+    "kemp_2026_ajc",
+    "kemp_2026_tax_relief",
+    "kemp_2024_enforcement",
+    "kemp_2019_life_act",
+    "massie_entry_2026",
+    "massie_2026_war_powers",
+    "massie_2026_hegseth",
+    "massie_2026_funding"
+  ],
+  "gaps": [
+    "Targeted onboarding, not a full FEC, position or controversy audit. Specific profile gaps are labeled.",
+    "Carlson is excluded under the final authorization; his influence can still affect other contenders.",
+    "Kemp home-state approval is not national preference. Paul and Massie share potential audiences; neither inherits a whole faction automatically.",
+    "Paul’s PAC source full-page recheck returned 403. Massie’s entry transcript was read earlier but failed to reload; descriptions remain qualified.",
+    "Current donor commitments, national organization and actual entry remain unverified for the additions.",
+    "Historical five-person estimates are preserved; no cross-roster pp movement is claimed."
+  ],
+  "cross_report_implications": [
+    "Paul and Massie’s existing dissent/oversight channels inform their candidate cases; no faction endorsement or power rescore follows from their inclusion.",
+    "Kemp competes with the projected DeSantis executive-reset lane; no party-faction affiliation is assigned without a documented channel.",
+    "Shared liberty-oriented funding and audiences are not counted as separate complete coalitions."
+  ],
+  "ten_point_weight_sensitivity": {
+    "jd_vance": {
+      "min_delta_pp": -3.6,
+      "max_delta_pp": 3.6
+    },
+    "marco_rubio": {
+      "min_delta_pp": -1.4,
+      "max_delta_pp": 1.4
+    },
+    "ron_desantis": {
+      "min_delta_pp": -1.9,
+      "max_delta_pp": 1.9
+    },
+    "ted_cruz": {
+      "min_delta_pp": -0.5,
+      "max_delta_pp": 0.5
+    },
+    "john_mcentee": {
+      "min_delta_pp": -0.2,
+      "max_delta_pp": 0.2
+    },
+    "rand_paul": {
+      "min_delta_pp": -0.9,
+      "max_delta_pp": 0.9
+    },
+    "brian_kemp": {
+      "min_delta_pp": -1.0,
+      "max_delta_pp": 1.0
+    },
+    "thomas_massie": {
+      "min_delta_pp": -0.4,
+      "max_delta_pp": 0.4
+    }
+  },
+  "cadence": "Weekly full wargame; daily lightweight monitor. This is an explicitly requested roster rebase.",
+  "validation": "66 automated tests passed: 47 Python integrity/workflow checks, 6 selector tests and 13 browser tests. Production build and database validation passed. Original five-person history, exact eight-person authorization, source privacy screening and desktop/mobile new-profile checks passed; verify the live revision after publication."
+}

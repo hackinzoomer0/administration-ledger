@@ -4,9 +4,9 @@
   "last_substantive_change": "2026-11-07",
   "review": {
     "date": "2026-11-07",
-    "run_id": "2026-11-07-predictive-nomination-wargame",
+    "run_id": "2026-11-07-authorized-eight-candidate-roster",
     "type": "faction_consistency_review",
-    "scope": "Focused predictive nomination wargame. Fresh AP election-survey and official oversight-source checks; candidate detail and administration assessments carried from existing research. No full daily intake, new post-election primary poll or complete donor/organization audit."
+    "scope": "Owner-authorized addition of Paul, Kemp and Massie, targeted profile research and eight-person forecast rebase within existing scenario environments. Tucker excluded by follow-up instruction. No broad daily intake or automatic full wargame rerun; weekly cadence retained. Administration findings carried."
   },
   "administration": {
     "headline": "Midterm defeat forces a fight over personnel, policy and accountability.",
@@ -124,8 +124,8 @@
   },
   "nomination": {
     "headline": "Vance leads; the coalition is not settled.",
-    "summary": "The scenario wargame keeps Vance first but narrows his advantage: policy costs, accountability and the credibility of a partial break compete with organization, a possible successful exit and Trump-authorized correction. DeSantis has the strongest approved alternative route, conditional on campaign rebuilding. These are uncalibrated conditional judgments, not measured support.",
-    "snapshot_id": "2026-11-07-predictive-nomination-wargame",
+    "summary": "Vance retains the strongest starting route in the expanded field. DeSantis and Kemp compete for a conservative executive reset; Paul and Massie contest overlapping restraint and constitutional-limit audiences. Entry, party route and organization remain material gates. Estimates are subjective and conditional on these eight, with a new roster baseline rather than comparable daily changes.",
+    "snapshot_id": "2026-11-07-authorized-eight-candidate-roster",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -232,6 +232,59 @@
           "harris_oct2026_primary",
           "prri"
         ],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "rand_paul",
+        "person_id": "paul",
+        "path": "A free-trade and constitutional-restraint challenge with entry and coalition gates.",
+        "coalition": "Liberty-oriented conservatives and a potential free-trade business constituency.",
+        "advantage": "A policy identity with dissent predating the defeat.",
+        "vulnerability": "A narrow constituency, overlapping Massie support and an undecided run.",
+        "positions": "Fiscal restraint, free trade and constitutional limits; current immigration specifics remain open.",
+        "money": "Historical Protect Freedom/Yass ties are not confirmed 2028 commitments.",
+        "source_ids": [
+          "paul_official_positions",
+          "paul_entry_cbs_2026",
+          "paul_protect_freedom"
+        ],
+        "event_ids": [],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "brian_kemp",
+        "person_id": null,
+        "path": "A conservative executive-reset alternative competing directly with DeSantis.",
+        "coalition": "A strong Georgia foundation and potential electability-focused conservative support.",
+        "advantage": "Executive experience outside federal war decisions.",
+        "vulnerability": "State approval may not transfer nationally; entry and organization are unverified.",
+        "positions": "State tax relief and enacted enforcement/social policies; no complete federal platform is assumed.",
+        "money": "No current presidential donor commitments verified in this review.",
+        "source_ids": [
+          "kemp_2026_ajc",
+          "kemp_2026_tax_relief",
+          "kemp_2024_enforcement",
+          "kemp_2019_life_act"
+        ],
+        "event_ids": [],
+        "reviewed_at": "2026-11-07"
+      },
+      {
+        "candidate_id": "thomas_massie",
+        "person_id": "massie",
+        "path": "A substantive constitutional-limit insurgency with substantial GOP-entry risk.",
+        "coalition": "Libertarian and restraint-oriented audiences overlapping Paul’s.",
+        "advantage": "Specific oversight and war-powers acts before the defeat.",
+        "vulnerability": "Primary loss, national organization and possible non-GOP route limit the nomination path.",
+        "positions": "Congressional war authorization and executive accountability; other current policy gaps remain labeled.",
+        "money": "Historical independent House-primary support is not presidential campaign money.",
+        "source_ids": [
+          "massie_entry_2026",
+          "massie_2026_war_powers",
+          "massie_2026_hegseth",
+          "massie_2026_funding"
+        ],
+        "event_ids": [],
         "reviewed_at": "2026-11-07"
       }
     ]

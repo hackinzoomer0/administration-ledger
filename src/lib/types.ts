@@ -144,6 +144,8 @@ export interface Wargame {
   })[];
 }
 export interface Snapshot {
+  comparison?: string;
+  roster_ids?: string[];
   wargame?: Wargame;
   wargame_ref?: string;
   monitoring?: {
@@ -163,7 +165,7 @@ export interface Snapshot {
   assessments: Record<
     string,
     {
-      delta_pp: number;
+      delta_pp: number | null;
       reason: string;
       review_status: string;
       source_ids: string[];

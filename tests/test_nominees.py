@@ -18,6 +18,7 @@ class ForecastGuard(unittest.TestCase):
         self.after = copy.deepcopy(self.before)
         self.forecast = self.after['collections']['nominations']['republican_2028']
         self.entry = copy.deepcopy(self.forecast['tracking']['history'][-1])
+        self.entry.pop('comparison', None)
         self.entry['id'] = 'guard-test'
         self.entry['type'] = 'weekly_review'
         self.section = 'Weekly'
@@ -217,6 +218,23 @@ class ForecastGuard(unittest.TestCase):
         game['case_review']['predictions'][old['id']]={'decision':'replaced','reason':'Ask a narrower observable question.','replacement_ids':[new['id']]}
         game['case_review']['new_predictions'][new['id']]='More informative test of the mechanism.'
         self.check()
+
+    def test_cross_roster_baseline_does_not_report_false_movement(self):
+        ledger=load()
+        snapshot=ledger['collections']['nominations']['republican_2028']['tracking']['history'][-1]
+        self.assertEqual(len(snapshot['roster_ids']),8)
+        self.assertNotIn('tucker_carlson', snapshot['roster_ids'])
+        self.assertTrue(all(row['delta_pp'] is None for row in snapshot['assessments'].values()))
+        snapshot['assessments']['jd_vance']['delta_pp'] = -7.4
+        with self.assertRaisesRegex(ValueError,'Cross-roster'):
+            module.validate(ledger,ledger,'Integrity')
+
+    def test_rebase_cannot_rewrite_the_previous_field(self):
+        ledger=load()
+        snapshot=ledger['collections']['nominations']['republican_2028']['tracking']['history'][-1]
+        snapshot['previous_probabilities_pct']['jd_vance'] = 0
+        with self.assertRaisesRegex(ValueError,'previous denominator'):
+            module.validate(ledger,ledger,'Integrity')
 
     def test_rounding_preserves_total_without_last_candidate_bias(self):
         from wargame import forecast

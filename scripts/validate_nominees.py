@@ -60,6 +60,8 @@ def validate(before, after, section):
         datetime.date.fromisoformat(entry['date'])
         if entry['run_id'] not in after['collections']['runs']:
             raise ValueError('Nominee snapshot must link to a run log')
+        if entry.get('comparison') == 'not_comparable_roster_change':
+            raise ValueError('Scheduled reviews cannot establish a new roster baseline')
         probabilities(entry['probabilities_pct'])
         if set(entry['assessments']) != set(names):
             raise ValueError('Snapshot must assess every nominee')
@@ -129,6 +131,15 @@ def validate(before, after, section):
         validate_game(game, names, sources, events, new['as_of_date'])
         if forecast(game, names) != current:
             raise ValueError('Current forecast must reproduce the scenario mixture')
+    latest = history[-1]
+    if latest.get('comparison') == 'not_comparable_roster_change':
+        if len(history) < 2 or latest.get('roster_ids') != names or set(latest.get('previous_roster_ids', [])) == set(names):
+            raise ValueError('Roster baseline must identify its different previous field')
+        previous = history[-2]['probabilities_pct']
+        if latest.get('previous_probabilities_pct') != previous or set(latest.get('previous_roster_ids', [])) != set(previous):
+            raise ValueError('Roster baseline must preserve the previous denominator and estimates')
+        if any(row.get('delta_pp') is not None for row in latest['assessments'].values()):
+            raise ValueError('Cross-roster estimates cannot claim comparable percentage-point changes')
     if history[-1]['probabilities_pct'] != current:
         raise ValueError('Latest nominee snapshot and current forecast disagree')
     if history[-1]['date'] != new['as_of_date']:

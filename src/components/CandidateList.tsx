@@ -9,7 +9,8 @@ export function CandidateList({ compact = false }: { compact?: boolean }) {
   return (
     <Stack spacing={compact ? 1.5 : 2} divider={<Divider />}>
       <Typography variant="caption" color="text.secondary">
-        Subjective shares within the five-candidate field.
+        Subjective shares within the {data.nomination.candidates.length}
+        -candidate field.
       </Typography>
       {[...data.nomination.candidates]
         .sort(
@@ -122,17 +123,26 @@ export function CandidateList({ compact = false }: { compact?: boolean }) {
                 <Typography variant="caption" color="text.secondary">
                   {delta === 0
                     ? "Estimate held"
-                    : delta === undefined
-                      ? "Imported estimate"
-                      : `${delta > 0 ? "+" : ""}${delta.toFixed(2)} pp`}
+                    : delta === null
+                      ? "Roster baseline"
+                      : delta === undefined
+                        ? "Imported estimate"
+                        : `${delta > 0 ? "+" : ""}${delta.toFixed(2)} pp`}
                 </Typography>
               </Stack>
             </Box>
           );
         })}
+      {latest?.comparison === "not_comparable_roster_change" && (
+        <Typography variant="caption" color="text.secondary">
+          New roster baseline. Earlier five-person estimates use a different
+          field and are not directly comparable.
+        </Typography>
+      )}
       <Typography variant="caption" color="text.secondary">
-        Subjective estimates, conditional on one of these five winning.
-        Full-field odds and measured polling support are separate.
+        Subjective estimates, conditional on one of these{" "}
+        {data.nomination.candidates.length} winning. Full-field odds and
+        measured polling support are separate.
       </Typography>
     </Stack>
   );

@@ -144,11 +144,13 @@ export function CandidateProfile({
           {read.path}
         </Typography>
         <Typography variant="caption" color="text.secondary">
-          Subjective share among the five tracked candidates · research{" "}
-          {read.reviewed_at} ·{" "}
+          Subjective share among the {data.nomination.candidates.length} tracked
+          candidates · research {read.reviewed_at} ·{" "}
           {latest?.assessments[candidate.id]?.delta_pp === 0
             ? "estimate held"
-            : "see research history"}
+            : latest?.assessments[candidate.id]?.delta_pp === null
+              ? "roster baseline"
+              : "see research history"}
         </Typography>
       </Box>
       <DetailNavigation
@@ -336,6 +338,11 @@ export function CandidateProfile({
                 <Points items={base.constraints} />
               </Box>
             </Box>
+            {sourceButton(
+              "Coalition assessment",
+              read.source_ids ?? [],
+              read.coalition,
+            )}
             {base.documented_organizational_relationships.map((row, index) => (
               <Box key={index}>
                 <ResearchText text={row.text} />
@@ -352,6 +359,13 @@ export function CandidateProfile({
             description="Each relationship keeps its original period and status. Historical funding and business investments are not assumed to be 2028 campaign commitments."
           >
             <Stack spacing={2} divider={<Divider />}>
+              {backers.length === 0 && (
+                <Typography variant="body2">
+                  No named financial backer was verified in this onboarding
+                  review. National campaign financing remains an explicit
+                  research gap.
+                </Typography>
+              )}
               {backers.map((row, index) => (
                 <Box key={index}>
                   <Typography variant="subtitle1" sx={{ fontWeight: 650 }}>

@@ -44,6 +44,14 @@ test("nominee page shows substantive assessment and readable policy evidence", a
   await expect(page.locator("main")).not.toContainText(
     "Storage and interface migration",
   );
+  for (const name of ["Rand Paul", "Brian Kemp", "Thomas Massie"])
+    await expect(page.getByRole("link", { name, exact: true })).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Tucker Carlson", exact: true }),
+  ).toHaveCount(0);
+  await expect(page.getByText("Roster baseline", { exact: true })).toHaveCount(
+    8,
+  );
   await page
     .getByRole("button", { name: "View basis", exact: true })
     .first()
@@ -225,7 +233,7 @@ test("issue players use the issue record rather than unrelated biographies and d
   await expect(page.getByRole("dialog")).toBeVisible();
 });
 
-test("all five candidates expose real base, history and source details", async ({
+test("all eight candidates expose real base, history and source details", async ({
   page,
 }) => {
   const errors: string[] = [];
@@ -236,6 +244,9 @@ test("all five candidates expose real base, history and source details", async (
     "ron_desantis",
     "ted_cruz",
     "john_mcentee",
+    "rand_paul",
+    "brian_kemp",
+    "thomas_massie",
   ]) {
     await page.goto(`./#/nominees/${id}?section=base`);
     await expect(
@@ -308,7 +319,7 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
       .filter({ visible: true }),
   ).toBeVisible();
   await expect(
-    page.getByText("Ron DeSantis · 45%", { exact: true }),
+    page.getByText("Ron DeSantis · 27%", { exact: true }),
   ).toBeVisible();
   await page
     .getByRole("button", {

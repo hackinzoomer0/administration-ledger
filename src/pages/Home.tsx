@@ -41,7 +41,7 @@ export default function Home() {
           {leaderRead.advantage} {leaderRead.vulnerability}
         </Typography>
         <Button component={RouterLink} to="/nominees" size="small">
-          Compare all five
+          Compare all {data.nomination.candidates.length}
         </Button>
       </Box>
       <Box
