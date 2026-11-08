@@ -25,6 +25,12 @@ class ForecastGuard(unittest.TestCase):
                        monitoring={'prediction_updates':[]})
         monitor.pop('wargame', None)
         history.append(monitor)
+        # Default fixture starts without a prior support map. Tests of changes
+        # explicitly construct that baseline instead of inheriting live groups.
+        full_id = effective_game(history)[1]
+        full = next(row['wargame'] for row in history if row['id'] == full_id)
+        for candidate in full.get('comparison_review', {}).get('candidates', {}).values():
+            candidate.pop('base_assessment', None)
         self.after = copy.deepcopy(self.before)
         self.forecast = self.after['collections']['nominations']['republican_2028']
         self.entry = copy.deepcopy(self.forecast['tracking']['history'][-1])
@@ -284,9 +290,10 @@ class ForecastGuard(unittest.TestCase):
         original=self.previous_game['predictions'][0]
         original_status=original['status']
         self.entry['monitoring']['prediction_updates']=[{
-            'id': original['id'], 'status':'unresolved', 'resolution':'Outcome not verified in this fixture; retain gap.',
-            'source_ids':original['source_ids'], 'event_ids':original['event_ids']
-        }]
+            'id': row['id'], 'status':'unresolved', 'resolution':'Outcome not verified in this fixture; retain gap.',
+            'source_ids':row['source_ids'], 'event_ids':row['event_ids']
+        } for row in self.previous_game['predictions']
+          if row['id'] == original['id'] or row['resolve_by'] < self.entry['date'] and row['status'] == 'pending']
         self.check()
         from wargame import effective_game
         game, _=effective_game(self.forecast['tracking']['history'])

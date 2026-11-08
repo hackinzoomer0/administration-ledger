@@ -1,5 +1,6 @@
 """Regression checks for observed audit failures, without network or real publication."""
 import copy
+from datetime import date, timedelta
 import json
 from pathlib import Path
 import shutil
@@ -11,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from database import ROOT, atomic_json, load, validate
 from application import apply_transaction
 from privacy import assert_public, violations
-from research_review import coverage_state, validate as validate_research
+from research_review import coverage_state, plan as research_plan, validate as validate_research
 from research_tools import normalize, receipt_key, record
 from usage import UsageRecorder
 from wargame import candidate_share_sensitivity, effective_game, forecast
@@ -19,16 +20,17 @@ from wargame import candidate_share_sensitivity, effective_game, forecast
 
 def research_fixture(before, after, run_id):
     run = after['collections']['runs'][run_id]
+    next_check = (date.fromisoformat(run['date']) + timedelta(days=1)).isoformat()
     return {'standard': 'question_review_v1', 'priorities': [
         {'id': 'pending-outcome', 'question': 'Has the pending decision happened?', 'importance': 'Changes legal authority.',
          'affected_assessments': ['current.administration'], 'current_answer': 'Not yet independently checked.',
          'explanations': [{'explanation': 'The previous decision still applies.', 'weight': 'credible', 'reason': 'No new verification.', 'discriminating_observation': 'Read the next order.'}],
          'change_triggers': [{'development': 'New order', 'likelihood': 'unknown', 'impact': 'high', 'reason': 'Pending case.', 'assessment_effect': 'Reassess authority.'}],
-         'status': 'deferred', 'outcome': 'Deferred honestly.', 'next_action': 'Read docket.', 'next_check': '2026-11-09', 'source_receipt_ids': []}],
-        'prior_dispositions': {}, 'catch_up_shortfall': 'Fixture explicitly performs no intake; production must explain an actual shortfall.', 'discovery_question': 'Which implementer has a veto?', 'discovery_disposition': 'Research next.',
+         'status': 'deferred', 'outcome': 'Deferred honestly.', 'next_action': 'Read docket.', 'next_check': next_check, 'source_receipt_ids': []}],
+        'prior_dispositions': {row['id']: 'Fixture isolates workflow validation; political question history is preserved in its baseline.' for row in research_plan(before)['carried_priorities'] if row['id'] != 'pending-outcome'}, 'catch_up_shortfall': 'Fixture explicitly performs no intake; production must explain an actual shortfall.', 'discovery_question': 'Which implementer has a veto?', 'discovery_disposition': 'Research next.',
         'premise_reconciliation': 'Use the maintained dated authority map.',
         'coverage_debt': {code: {'last_verified': run['date'] if run['assessment_audit']['issue_coverage'][code]['status'] == 'reviewed' else previous,
-                                 'next_action': 'Verify next decision.', 'next_check': '2026-11-09', 'reason': 'Scheduled follow-up.', 'escalation': 'Catch up next.'}
+                                 'next_action': 'Verify next decision.', 'next_check': next_check, 'reason': 'Scheduled follow-up.', 'escalation': 'Catch up next.'}
                           for code, previous in coverage_state(before).items()}}
 
 
@@ -94,6 +96,9 @@ class AuditRegressions(unittest.TestCase):
         before=load(); after=copy.deepcopy(before)
         run_id=after['collections']['assessments']['current']['review']['run_id']
         run=after['collections']['runs'][run_id]
+        # Arrange carried coverage; do not depend on a live run having a gap.
+        carried = next(iter(after['collections']['issues']))
+        run['assessment_audit']['issue_coverage'][carried]['status'] = 'carried'
         run['research_review']=research_fixture(before,after,run_id)
         validate_research(before,after,'Daily',[])
         run['research_review']['priorities'][0]['explanations'][0]['weight']='equal by default'

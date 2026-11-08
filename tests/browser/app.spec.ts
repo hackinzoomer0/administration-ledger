@@ -492,7 +492,11 @@ test("candidate basis leads with the forecast and explains the causal scenario o
     path.donor_media_response,
     path.organization_coalition,
   ])
-    await expect(drawer.getByText(text, { exact: true })).toBeVisible();
+    await expect(
+      scenarioButton
+        .locator("xpath=ancestor::*[contains(@class, 'MuiAccordion-root')][1]")
+        .getByText(text, { exact: true }),
+    ).toBeVisible();
   await expect(
     scenarioButton.getByText(
       `Chance of this scenario: ${scenario.weight_pct}%`,
@@ -549,7 +553,13 @@ test("nomination explanations describe politics rather than numerical repair ins
     .click();
   const drawer = page.getByRole("dialog");
   await drawer
-    .getByRole("button", { name: "Why this estimate changed", exact: true })
+    .getByRole("button", {
+      name:
+        fullReview.assessments.john_mcentee.delta_pp === 0
+          ? "Why this estimate held"
+          : "Why this estimate changed",
+      exact: true,
+    })
     .click();
   await expect(drawer).not.toContainText(audit);
   for (const scenario of fullReview.wargame.scenarios.filter(
