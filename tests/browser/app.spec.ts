@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 
 const nomination = JSON.parse(
   readFileSync(
@@ -7,6 +7,25 @@ const nomination = JSON.parse(
     "utf8",
   ),
 );
+const assessment = JSON.parse(
+  readFileSync(
+    new URL("../../database/assessments/current.json", import.meta.url),
+    "utf8",
+  ),
+);
+const fullReview = [...nomination.tracking.history]
+  .reverse()
+  .find((row) => row.wargame);
+const eventsDirectory = new URL("../../database/events/", import.meta.url);
+const eventCount = readdirSync(eventsDirectory)
+  .filter((name) => name.endsWith(".json"))
+  .reduce(
+    (total, name) =>
+      total +
+      JSON.parse(readFileSync(new URL(name, eventsDirectory), "utf8")).items
+        .length,
+    0,
+  );
 test("current assessment leads with power and nomination judgments", async ({
   page,
 }) => {
@@ -25,7 +44,9 @@ test("current assessment leads with power and nomination judgments", async ({
       exact: true,
     }),
   ).toBeVisible();
-  await expect(page.getByText("641")).toHaveCount(0);
+  await expect(page.getByText(String(eventCount), { exact: true })).toHaveCount(
+    0,
+  );
   await page
     .getByRole("button", { name: "View basis", exact: true })
     .first()
@@ -100,7 +121,9 @@ test("research is accessible and processing history is separated", async ({
   ).toBeVisible();
   await page.getByRole("link", { name: "Event ledger", exact: true }).click();
   await page.getByLabel("Search events").fill("Vance");
-  await expect(page.getByRole("status")).toContainText("of 641 records");
+  await expect(page.getByRole("status")).toContainText(
+    `of ${eventCount} records`,
+  );
   await expect(page.locator("tbody tr").first()).toBeVisible();
   await page.goto("./#/research?section=operations");
   await expect(
@@ -135,7 +158,7 @@ test("mobile has compact navigation and both assessment summaries near the top",
   const header = await page.locator("header").boundingBox();
   expect(header!.height).toBeLessThan(90);
   const race = await page
-    .getByText("Vance leads; the coalition is not settled.", { exact: true })
+    .getByText(assessment.nomination.headline, { exact: true })
     .first()
     .boundingBox();
   expect(race!.y).toBeLessThan(500);
@@ -326,9 +349,10 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
   await expect(
     page.getByRole("heading", { name: "Paths that drive the forecast" }),
   ).toBeVisible();
+  const scenario = fullReview.wargame.scenarios[0];
   await page
     .getByRole("button", {
-      name: "30% weight · Accountability discredits the federal leadership",
+      name: `${scenario.weight_pct}% weight · ${scenario.name}`,
       exact: true,
     })
     .click();
@@ -337,9 +361,15 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
       .getByText("Winner shares within this scenario", { exact: true })
       .filter({ visible: true }),
   ).toBeVisible();
-  await expect(
-    page.getByText("Ron DeSantis · 27%", { exact: true }),
-  ).toBeVisible();
+  for (const candidate of nomination.candidates)
+    await expect(
+      page
+        .getByText(
+          `${candidate.name} · ${scenario.shares_pct[candidate.id]}%`,
+          { exact: true },
+        )
+        .filter({ visible: true }),
+    ).toBeVisible();
   await page
     .getByRole("button", {
       name: "Assumptions, sensitivity and dated tests",
@@ -350,10 +380,7 @@ test("nomination forecast exposes scenario inputs, countercases and dated tests"
     page.getByText("Ten-point scenario-weight stress", { exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByText(
-      "Vance will initially combine personal loyalty to Trump with policy differentiation rather than make an explicit personal rupture.",
-      { exact: true },
-    ),
+    page.getByText(fullReview.wargame.predictions[0].claim, { exact: true }),
   ).toBeVisible();
 });
 

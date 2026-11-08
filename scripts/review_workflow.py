@@ -2,6 +2,7 @@
 import datetime
 from collections import Counter
 import json
+import shlex
 import subprocess
 import sys
 import tempfile
@@ -21,14 +22,18 @@ def prepare(stage, section):
     (stage / 'MEMORY.md').write_text((ROOT / 'MEMORY.md').read_text())
     prompt = (ROOT / 'prompts' / f'{section.lower()}.md').read_text()
     prefix = (ROOT / 'prompts/execution/stage.md').read_text()
-    (stage / 'prompt.txt').write_text(prefix + prompt)
+    command = shlex.join([sys.executable, str(Path(__file__).resolve()), 'check',
+                          str(stage.resolve()), section])
+    (stage / 'prompt.txt').write_text(prefix + prompt +
+        '\nBefore ending the research turn, run this read-only preflight command and repair any errors in the staged ledger: '
+        + command + '\nIt validates without publishing or applying changes. This runner-provided command is the permitted exception to the sibling-access restriction.\n')
 
 
 def validate_changed_events(before, after, stage):
     old = {row['id']: row for group in before['collections']['events'].values() for row in group['items']}
     new = {row['id']: row for group in after['collections']['events'].values() for row in group['items']}
     changed = [key for key, row in new.items() if old.get(key) != row]
-    if not changed:
+    if not changed and all(before['collections'][name] == after['collections'][name] for name in ['people', 'donors']):
         return
     with tempfile.TemporaryDirectory(dir=stage) as directory:
         out = Path(directory)
@@ -39,13 +44,18 @@ def validate_changed_events(before, after, stage):
         script = out / 'validate.py'
         script.write_text(after['collections']['prompts']['validator']['text'])
         ids = out / 'changed.txt'
-        ids.write_text('\n'.join(changed))
+        ids.write_text('\n'.join(changed or ['__no_event_changes__']))
         today = datetime.datetime.now(ZoneInfo('America/Chicago')).date().isoformat()
-        result = subprocess.run([sys.executable, '-I', str(script), str(out), today, str(ids)], check=True, capture_output=True, text=True)
-        (stage / 'event-validation.txt').write_text(result.stdout)
+        result = subprocess.run([sys.executable, '-I', str(script), str(out), today, str(ids)], capture_output=True, text=True)
+        (stage / 'event-validation.txt').write_text(result.stdout + result.stderr)
+        atomic_json(stage / 'event-validation.json', {
+            'returncode': result.returncode, 'stdout': result.stdout, 'stderr': result.stderr})
+        if result.returncode:
+            reason = '\n'.join(line for line in result.stdout.splitlines() if line.startswith('ERROR'))
+            raise ValueError('Event/profile validation failed: ' + (reason or result.stderr or result.stdout)[-2000:])
 
 
-def finish(stage, section):
+def check(stage, section):
     before = json.loads((stage / 'original.json').read_text())
     after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
     if before.keys() != after.keys() or before['collections'].keys() != after['collections'].keys():
@@ -58,6 +68,11 @@ def finish(stage, section):
     validate_changed_events(before, after, stage)
     if fingerprint(load()) != fingerprint(before):
         raise RuntimeError('Working data changed during review; retry before publishing')
+    return before, after
+
+
+def finish(stage, section):
+    before, after = check(stage, section)
     publication = publish(stage)
     atomic_json(stage / 'publication.json', publication)
     apply(before, after)
@@ -75,4 +90,8 @@ def finish(stage, section):
 
 if __name__ == '__main__':
     command, directory, section = sys.argv[1:]
-    {'prepare': prepare, 'finish': finish}[command](Path(directory), section)
+    try:
+        {'prepare': prepare, 'check': check, 'finish': finish}[command](Path(directory), section)
+    except Exception as error:
+        atomic_json(Path(directory) / 'failure.json', {'phase': command, 'error': str(error)})
+        raise

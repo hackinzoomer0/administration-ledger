@@ -1,8 +1,12 @@
 import copy
 import json
+import os
+import signal
 import shutil
+import subprocess
 import sys
 import tempfile
+import time
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -11,7 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from database import apply, fingerprint, load, validate
 from privacy import screen
-from review_workflow import prepare, finish
+from wargame import effective_game
+from review_workflow import prepare, finish, check, validate_changed_events
 
 
 class DatabaseWorkflow(unittest.TestCase):
@@ -44,6 +49,8 @@ class DatabaseWorkflow(unittest.TestCase):
             prepare(stage, 'Daily')
             self.assertEqual(load(), json.loads((stage / 'original.json').read_text()))
             self.assertIn('nominee-monitor', (stage / 'prompt.txt').read_text())
+            self.assertIn('read-only preflight', (stage / 'prompt.txt').read_text())
+            self.assertIn(str(stage.resolve()), (stage / 'prompt.txt').read_text())
         self.assertEqual(before, fingerprint(load()))
 
     def test_invalid_roster_is_rejected_before_publication(self):
@@ -71,8 +78,8 @@ class DatabaseWorkflow(unittest.TestCase):
             snapshot['id'] = 'workflow-fixture'
             snapshot['run_id'] = 'workflow-fixture'
             snapshot['type'] = 'daily_review'
-            snapshot.pop('wargame')
-            snapshot['wargame_ref'] = forecast['tracking']['history'][-1]['id']
+            snapshot.pop('wargame',None)
+            snapshot['wargame_ref'] = effective_game(forecast['tracking']['history'])[1]
             snapshot['monitoring'] = {'summary':'Daily monitoring; full forecast carried.', 'developments':[], 'prediction_updates':[]}
             for assessment in snapshot['assessments'].values():
                 assessment['delta_pp'] = 0
@@ -107,6 +114,74 @@ class DatabaseWorkflow(unittest.TestCase):
         text = screen(f'Local path: {Path.home()}/Downloads/example')
         self.assertNotIn(str(Path.home()), text)
         self.assertIn('$HOME/Downloads/example', text)
+
+    def test_profile_growth_does_not_hit_an_obsolete_artifact_limit(self):
+        before=load(); after=copy.deepcopy(before)
+        after['collections']['people']['all']['note']='Research retained. ' * 20000
+        with tempfile.TemporaryDirectory() as directory:
+            stage=Path(directory)
+            # No event change: profile-only writes must still be validated.
+            validate_changed_events(before,after,stage)
+            self.assertEqual(json.loads((stage/'event-validation.json').read_text())['returncode'],0)
+
+    def test_real_content_errors_retain_validator_output(self):
+        before=load(); after=copy.deepcopy(before)
+        group=next(iter(after['collections']['events'].values()))
+        item=group['items'][0]
+        del item['source']
+        with tempfile.TemporaryDirectory() as directory:
+            stage=Path(directory)
+            with self.assertRaisesRegex(ValueError,'missing field source'):
+                validate_changed_events(before,after,stage)
+            self.assertIn('missing field source',(stage/'event-validation.txt').read_text())
+            diagnostics=json.loads((stage/'event-validation.json').read_text())
+            self.assertEqual(diagnostics['returncode'],1)
+            self.assertIn(item['id'],diagnostics['stdout'])
+
+    def test_profile_only_changes_still_reject_duplicate_people(self):
+        before=load(); after=copy.deepcopy(before)
+        people=after['collections']['people']['all']['list']
+        people.append(copy.deepcopy(people[0]))
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(ValueError,'duplicate id'):
+                validate_changed_events(before,after,Path(directory))
+
+    def test_preflight_does_not_publish_or_apply(self):
+        with tempfile.TemporaryDirectory() as directory:
+            stage=Path(directory)
+            prepare(stage,'Daily')
+            with patch('review_workflow.publish') as publish, patch('review_workflow.apply') as apply_data:
+                with self.assertRaisesRegex(ValueError,'snapshot'):
+                    check(stage,'Daily')
+                publish.assert_not_called()
+                apply_data.assert_not_called()
+
+    def test_terminated_runner_keeps_recovery_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            scripts=root/'scripts'; scripts.mkdir()
+            shutil.copy(ROOT/'scripts/run-review',scripts/'run-review')
+            (scripts/'review_workflow.py').write_text(
+                'import pathlib,sys\np=pathlib.Path(sys.argv[2])\n'
+                '(p/"prompt.txt").write_text("fixture")\n'
+                '(p/"original.json").write_text("retained")\n')
+            (scripts/'review_chat.py').write_text('import time\ntime.sleep(30)\n')
+            process=subprocess.Popen(['bash',str(scripts/'run-review'),'daily'],
+                                     start_new_session=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+            try:
+                deadline=time.monotonic()+5
+                while time.monotonic()<deadline and not list(root.glob('.runtime/review.*/original.json')):
+                    time.sleep(.02)
+                originals=list(root.glob('.runtime/review.*/original.json'))
+                self.assertEqual(len(originals),1)
+                os.killpg(process.pid,signal.SIGTERM)
+                process.communicate(timeout=5)
+                self.assertNotEqual(process.returncode,0)
+                self.assertEqual(originals[0].read_text(),'retained')
+            finally:
+                if process.poll() is None:
+                    os.killpg(process.pid,signal.SIGKILL)
+                    process.communicate()
 
 
 if __name__ == '__main__':

@@ -22,7 +22,7 @@
     "role": "core"
   },
   "db-shape": {
-    "asof": "2026-10-30",
+    "asof": "2026-11-07",
     "role": "db-shape"
   },
   "enrich": {
@@ -428,7 +428,7 @@
     }
   },
   "validator": {
-    "asof": "2026-10-30",
+    "asof": "2026-11-07",
     "role": "validator"
   },
   "watch": {

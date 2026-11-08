@@ -7,6 +7,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from database import load
+from wargame import effective_game
 spec = importlib.util.spec_from_file_location('nominees', Path(__file__).resolve().parents[1] / 'scripts/validate_nominees.py')
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
@@ -18,6 +19,10 @@ class ForecastGuard(unittest.TestCase):
         self.after = copy.deepcopy(self.before)
         self.forecast = self.after['collections']['nominations']['republican_2028']
         self.entry = copy.deepcopy(self.forecast['tracking']['history'][-1])
+        self.previous_game,self.full_game_id=effective_game(self.forecast['tracking']['history'])
+        self.entry['wargame']=copy.deepcopy(self.previous_game)
+        self.entry.pop('wargame_ref',None)
+        self.entry.pop('monitoring',None)
         self.entry.pop('comparison', None)
         self.entry['id'] = 'guard-test'
         self.entry['type'] = 'weekly_review'
@@ -87,7 +92,7 @@ class ForecastGuard(unittest.TestCase):
         self.section = 'Daily'
         self.entry['type'] = 'daily_review'
         self.entry.pop('wargame')
-        self.entry['wargame_ref'] = self.before['collections']['nominations']['republican_2028']['tracking']['history'][-1]['id']
+        self.entry['wargame_ref'] = self.full_game_id
         self.entry['monitoring'] = {'summary':'No material change; odds carried from full review.', 'developments':[], 'prediction_updates':[]}
 
     def test_daily_hold(self):
@@ -220,7 +225,8 @@ class ForecastGuard(unittest.TestCase):
     def test_daily_updates_a_due_test_without_rewriting_the_forecast(self):
         self.daily()
         self.entry['date'] = self.forecast['as_of_date'] = '2027-02-02'
-        original=self.before['collections']['nominations']['republican_2028']['tracking']['history'][-1]['wargame']['predictions'][0]
+        original=self.previous_game['predictions'][0]
+        original_status=original['status']
         self.entry['monitoring']['prediction_updates']=[{
             'id': original['id'], 'status':'unresolved', 'resolution':'Outcome not verified in this fixture; retain gap.',
             'source_ids':original['source_ids'], 'event_ids':original['event_ids']
@@ -229,7 +235,7 @@ class ForecastGuard(unittest.TestCase):
         from wargame import effective_game
         game, _=effective_game(self.forecast['tracking']['history'])
         self.assertEqual(game['predictions'][0]['status'],'unresolved')
-        self.assertEqual(original['status'],'pending')
+        self.assertEqual(original['status'],original_status)
 
     def test_new_scenario_requires_a_design_reason(self):
         game=self.entry['wargame']
@@ -256,7 +262,7 @@ class ForecastGuard(unittest.TestCase):
         game['case_review']['scenarios'][old['id']]={'decision':'replaced','reason':'New mechanism better explains the same branch.','replacement_ids':[new['id']]}
         game['case_review']['new_scenarios'][new['id']]='New evidence changes the mechanism, not the mixture in this fixture.'
         self.check()
-        self.assertEqual(self.before['collections']['nominations']['republican_2028']['tracking']['history'][-1]['wargame']['scenarios'][0]['id'],old['id'])
+        self.assertEqual(self.previous_game['scenarios'][0]['id'],old['id'])
 
     def test_replacement_prediction_gets_a_new_id_and_old_question_survives(self):
         game=self.entry['wargame'];old=game['predictions'][0]

@@ -54,9 +54,11 @@ def publish(stage):
         git('add', 'database')
         if git('diff', '--cached', '--name-only'):
             git('diff', '--cached', '--check')
+            kind = after['collections']['nominations']['republican_2028']['tracking']['history'][-1].get('type')
+            cadence = 'weekly' if kind == 'weekly_review' else 'daily'
             git('-c', 'user.name=Administration Ledger', '-c',
                 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
-                'commit', '-m', 'Update daily faction and nominee research')
+                'commit', '-m', f'Update {cadence} faction and nominee research')
             atomic_json(stage / 'publication-pending.json', {'commit': git('rev-parse', 'HEAD'), 'database_hash': database_hash(directory), 'url': LIVE})
             gh = shutil.which('gh') or str(Path.home() / '.local/bin/gh')
             git('-c', 'credential.helper=', '-c', f'credential.helper=!{shlex.quote(gh)} auth git-credential', 'push', 'origin', 'main')

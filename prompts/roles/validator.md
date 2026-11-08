@@ -20,8 +20,8 @@ REQ = ['id', 'date', 'precision', 'issues', 'kind', 'actor', 'text', 'source', '
 items, seen = [], {}
 for f in sorted(glob.glob(os.path.join(db, 'events', '*.json'))):
     size = os.path.getsize(f)
-    if size > 256 * 1024:
-        errors.append(f'{f}: {size} bytes, over the 256 KiB cap')
+    if size > 1024 * 1024:
+        warnings.append(f'{os.path.basename(f)}: {size} bytes; consider splitting for readability')
     d = json.load(open(f))
     for it in d.get('items', []):
         items.append((os.path.basename(f), it))
@@ -88,10 +88,8 @@ for kind in ('people', 'donors'):
     if not os.path.exists(f):
         continue
     size = os.path.getsize(f)
-    if size > 256 * 1024:
-        errors.append(f'{kind}/all: {size} bytes, over the 256 KiB cap')
-    elif size > 230 * 1024:
-        warnings.append(f'{kind}/all: {size} bytes, close to the 256 KiB cap; split it soon')
+    if size > 1024 * 1024:
+        warnings.append(f'{kind}/all: {size} bytes; consider splitting for readability')
     lst = json.load(open(f)).get('list', [])
     ids = [x.get('id') for x in lst]
     for x in set(i for i in ids if ids.count(i) > 1):

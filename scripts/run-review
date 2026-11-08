@@ -25,6 +25,8 @@ cleanup() {
     fi
 }
 trap cleanup EXIT
+trap 'exit 143' TERM
+trap 'exit 130' INT
 python3 "$root/scripts/review_workflow.py" prepare "$stage" "$section"
 python3 "$root/scripts/review_chat.py" "$stage" "$section" < "$stage/prompt.txt"
 python3 "$root/scripts/review_workflow.py" finish "$stage" "$section"
