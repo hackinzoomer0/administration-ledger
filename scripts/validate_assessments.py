@@ -7,7 +7,8 @@ STATUSES = {'pending', 'contested', 'strengthening', 'weakening', 'unchanged', '
 AUDIT_COPY = re.compile(
     r'\b(?:projection_review|comparison_review|scenario_range_pct|numerical_alternative)\b'
     r'|\binherited\b[^.!?\n]{0,24}\b(?:ceiling|floor)\b'
-    r'|\bautomatic national floor\b|\brecovery/backlash shares\b|\bsystemic insulation\b', re.I)
+    r'|\bautomatic national floor\b|\brecovery/backlash shares\b|\bsystemic insulation\b'
+    r'|\bmodel correction\b|\bcandidate conversion assumptions\b', re.I)
 
 
 def validate(ledger):
@@ -22,6 +23,9 @@ def validate(ledger):
     if review['run_id'] not in c['runs'] or not review['scope'].strip():
         raise ValueError('Current assessment needs a review record and scope')
     forecast = c['nominations']['republican_2028']
+    for key in ['headline', 'summary']:
+        if AUDIT_COPY.search(current['nomination'][key]):
+            raise ValueError(f'Nomination {key} must explain real-world prospects, not model-audit instructions')
     sources = {row['id'] for row in forecast['sources']}
     events = {row['id'] for group in c['events'].values() for row in group['items']}
     nominees = [row['id'] for row in forecast['candidates']]

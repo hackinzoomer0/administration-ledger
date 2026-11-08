@@ -523,7 +523,7 @@ test("nomination explanations describe politics rather than numerical repair ins
   page,
 }) => {
   const audit =
-    /inherited.{0,30}(ceiling|floor)|automatic national floor|projection_review|comparison_review|numerical_alternative|recovery\/backlash shares|systemic insulation/i;
+    /inherited.{0,30}(ceiling|floor)|automatic national floor|projection_review|comparison_review|numerical_alternative|recovery\/backlash shares|systemic insulation|model correction|candidate conversion assumptions/i;
   for (const candidate of nomination.candidates) {
     await page.goto(`./#/nominees/${candidate.id}`);
     const read = assessment.nomination.candidates.find(

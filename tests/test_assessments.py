@@ -25,12 +25,17 @@ class AssessmentIntegrity(unittest.TestCase):
 
     def test_candidate_summary_rejects_model_audit_leakage(self):
         row=self.current['nomination']['candidates'][0]
+        original=row['path']
         for text in ['Remove the inherited 1–3 ceiling.', 'Reduce the automatic national floor.',
                      'See comparison_review for the numerical_alternative.']:
             with self.subTest(text=text):
                 row['path']=text
                 with self.assertRaisesRegex(ValueError,'real-world prospects'):
                     validate(self.after)
+        row['path']=original
+        self.current['nomination']['summary']='The weekly review revises candidate conversion assumptions. This is a model correction.'
+        with self.assertRaisesRegex(ValueError,'real-world prospects'):
+            validate(self.after)
 
     def test_real_policy_language_is_not_confused_with_forecast_audits(self):
         self.current['nomination']['candidates'][0]['path']='The candidate could support a price ceiling and seek a floor vote on the bill.'
