@@ -1,0 +1,476 @@
+{
+  "date": "2026-11-07",
+  "type": "weekly_review",
+  "added": 0,
+  "summary": "INCOMPLETE: comparative wargame and product reassessment completed; independent recall, full filings/queue audit and all-issue external verification incomplete. Deviations: single-analyst opposition, equivalent local arithmetic because repository scripts are outside the authorized snapshot. Method audit: precise inherited ceilings remain assumption-sensitive; source failure is not negative evidence. Added 0 episodes; held all eight estimates; appended full game, common comparison, case dispositions and paired conversion tests.",
+  "scope": "October 31–November 7 stored decisions and latest daily logs, with targeted primary-source rechecks.",
+  "reviewed_episode_ids": [
+    "mid-2026-11-06-miller-chief-staff",
+    "mid-2026-11-05-congress-control",
+    "mid-2026-11-05-wiles-hegseth-blame",
+    "irn-2026-11-04-vance-postelection-war-critique",
+    "fed-2026-11-05-ap-voter-poll-costs",
+    "irn-2026-11-05-trump-postelection-war-review"
+  ],
+  "changed_entries": [
+    "nominations/republican_2028 tracking.history and forecast rationales",
+    "assessments/current review, summary and nominee projection",
+    "assessments/issues scope labels",
+    "meta/audit scorecard and review_history",
+    "meta/patterns review_history",
+    "changes/2026-11-07"
+  ],
+  "unresolved_claims": [
+    "Full two-index, 15-headline independent recall not completed: CNN restricted and Axios dated index unavailable; supplemental Just Security sampling is not a substitute.",
+    "Current comparable primary polling, campaign pledges and early-state organization remain unverified across the roster. Missing coverage is not absent support.",
+    "McEntee 1–3 scenario ceiling, Kemp 10–20 range and DeSantis relative advantage remain particularly assumption-sensitive; this hold is not quantitative validation.",
+    "All-issue legal outcomes, financial/FARA/ethics filings and personnel status census incomplete. Prior daily unresolved items remain open.",
+    "Unlisted contenders may capture the reset; conditional normalization conceals that risk. No full-field residual estimated."
+  ],
+  "evidence_needed": [
+    "Comparable post-election primary samples and second choices",
+    "Confirmed entry, political funding and named early-state organizers",
+    "Official orders and docket dispositions for carried deadlines",
+    "November 9 exercised remit, actual policy orders and current donor/endorsement commitments"
+  ],
+  "nominee_review": {
+    "probabilities_pct": {
+      "jd_vance": 34.3,
+      "marco_rubio": 11.95,
+      "ron_desantis": 18.7,
+      "ted_cruz": 5.65,
+      "john_mcentee": 2.05,
+      "rand_paul": 10.2,
+      "brian_kemp": 14.05,
+      "thomas_massie": 3.1
+    },
+    "delta_pp": {
+      "jd_vance": 0,
+      "marco_rubio": 0,
+      "ron_desantis": 0,
+      "ted_cruz": 0,
+      "john_mcentee": 0,
+      "rand_paul": 0,
+      "brian_kemp": 0,
+      "thomas_massie": 0
+    },
+    "nominees_added": [],
+    "candidate_coverage": {
+      "jd_vance": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "marco_rubio": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "ron_desantis": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "ted_cruz": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "john_mcentee": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "rand_paul": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "brian_kemp": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified",
+      "thomas_massie": "partial: shared intake plus targeted source or carried profile recheck; current commitments unverified"
+    },
+    "comparison_before_weighting": true,
+    "decision": "Provisional hold; historical facts rechecked are not new positive discoveries.",
+    "scenario_weight_changes": [],
+    "within_scenario_changes": [],
+    "sensitivity": [
+      {
+        "from": "managed_costs",
+        "to": "systemic",
+        "transfer_pp": 10,
+        "probabilities_pct": {
+          "jd_vance": 32.3,
+          "marco_rubio": 11.15,
+          "ron_desantis": 19.6,
+          "ted_cruz": 5.95,
+          "john_mcentee": 2.15,
+          "rand_paul": 10.8,
+          "brian_kemp": 14.75,
+          "thomas_massie": 3.3
+        },
+        "delta_pp": {
+          "jd_vance": -2.0,
+          "marco_rubio": -0.8,
+          "ron_desantis": 0.9,
+          "ted_cruz": 0.3,
+          "john_mcentee": 0.1,
+          "rand_paul": 0.6,
+          "brian_kemp": 0.7,
+          "thomas_massie": 0.2
+        }
+      },
+      {
+        "from": "systemic",
+        "to": "recovery",
+        "transfer_pp": 10,
+        "probabilities_pct": {
+          "jd_vance": 37.8,
+          "marco_rubio": 13.35,
+          "ron_desantis": 16.8,
+          "ted_cruz": 5.15,
+          "john_mcentee": 1.85,
+          "rand_paul": 9.3,
+          "brian_kemp": 13.05,
+          "thomas_massie": 2.7
+        },
+        "delta_pp": {
+          "jd_vance": 3.5,
+          "marco_rubio": 1.4,
+          "ron_desantis": -1.9,
+          "ted_cruz": -0.5,
+          "john_mcentee": -0.2,
+          "rand_paul": -0.9,
+          "brian_kemp": -1.0,
+          "thomas_massie": -0.4
+        }
+      },
+      {
+        "from": "systemic",
+        "to": "backlash",
+        "transfer_pp": 10,
+        "probabilities_pct": {
+          "jd_vance": 37.9,
+          "marco_rubio": 12.95,
+          "ron_desantis": 17.0,
+          "ted_cruz": 5.25,
+          "john_mcentee": 1.85,
+          "rand_paul": 9.3,
+          "brian_kemp": 13.05,
+          "thomas_massie": 2.7
+        },
+        "delta_pp": {
+          "jd_vance": 3.6,
+          "marco_rubio": 1.0,
+          "ron_desantis": -1.7,
+          "ted_cruz": -0.4,
+          "john_mcentee": -0.2,
+          "rand_paul": -0.9,
+          "brian_kemp": -1.0,
+          "thomas_massie": -0.4
+        }
+      }
+    ],
+    "cross_report_implications": "Faction channels inform candidate capacity; forecast numbers do not validate factions. No new endorsement, faction score or financial influence finding. Shared episodes reused once.",
+    "daily_questions_processed": [
+      "McEntee ceiling and correlated entry penalties",
+      "Transferable personnel versus state electoral resources",
+      "Comparable organization allowance across all eight"
+    ],
+    "due_prediction_results": "All three inherited deadlines are in 2027; none due. No terminal result inferred. Two new conversion tests pending."
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Announced chief-of-staff transition; actual handover not yet verified.",
+        "event_ids": [
+          "mid-2026-11-06-miller-chief-staff"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "administration.summary",
+          "power_method"
+        ],
+        "reason": "Official announcement supports prospective access, not an exercised outcome."
+      },
+      {
+        "finding": "Electoral costs and incoming oversight remain shared constraints; no measured primary transfer.",
+        "event_ids": [
+          "mid-2026-11-05-congress-control",
+          "fed-2026-11-05-ap-voter-poll-costs"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "administration.summary",
+          "nomination.summary"
+        ],
+        "reason": "Do not convert general-election survey into nomination odds."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      },
+      "FED": {
+        "status": "reviewed",
+        "reason": "Targeted announcement, nomination comparison or voter-survey recheck; narrower than a complete issue census. Outstanding legal and policy outcomes remain open."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "Targeted announcement, nomination comparison or voter-survey recheck; narrower than a complete issue census. Outstanding legal and policy outcomes remain open."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      },
+      "SUC": {
+        "status": "reviewed",
+        "reason": "Targeted announcement, nomination comparison or voter-survey recheck; narrower than a complete issue census. Outstanding legal and policy outcomes remain open."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Existing issue synthesis and recent episode references screened; full external decision calendar not verified. No policy/outcome change inferred."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "Re-synthesized the same supported dominant constraints and competing paths; qualified incomplete outcomes and separated prospective channels from achieved control. No new political outcome claimed.",
+    "dated_assumptions": [
+      {
+        "assumption": "Miller handover",
+        "date": "2026-11-09",
+        "status": "pending",
+        "reason": "Official appointment rechecked; future exercised authority not established."
+      },
+      {
+        "assumption": "Cook November 6 filing and December hearing detail",
+        "date": "2026-11-06",
+        "status": "unreviewed",
+        "reason": "Latest daily review carried; no new docket determination."
+      },
+      {
+        "assumption": "Afghan removal restraint expiry",
+        "date": "2026-11-07",
+        "status": "unreviewed",
+        "reason": "Extension or implementation unverified; expiry does not prove removals."
+      },
+      {
+        "assumption": "Los Angeles grand jury outcome",
+        "date": "2026-11-04",
+        "status": "unreviewed",
+        "reason": "Prior daily gap unresolved."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "A Trump-authorized correction preserves the successor coalition.",
+        "finding": "Office, fundraising channels and primary-electorate differences survive the national defeat; no automatic outsider transfer.",
+        "consequence": "Retain recovery/selective/backlash branches and provisional Vance lead."
+      },
+      {
+        "alternative": "Overlooked rivals gain position before formal outcomes.",
+        "finding": "Miller’s announced promotion and Vance’s argument-setting move matter before handover or vote transfer.",
+        "consequence": "Keep positioning distinct from achieved authority; no invented endorsement or removal."
+      }
+    ]
+  },
+  "coverage": {
+    "lookbackDays": 7,
+    "queries": 20,
+    "sourcesRead": [
+      "https://www.ap.org/news-highlights/elections/2026/how-trump-and-republicans-lost-the-2026-midterm-elections-according-to-the-ap-voter-poll/",
+      "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+      "https://www.paul.senate.gov/issues/",
+      "https://www.ajc.com/politics/2026/10/ossoff-warnock-kemp-greene-presidential-run/",
+      "https://www.weku.org/the-commonwealth/2026-07-17/a-record-shattering-37m-was-spent-on-kentuckys-massie-gallrein-race-heres-who-funded-it",
+      "https://www.investing.com/news/world-news/factboxdesantis-2024-campaigns-missteps-and-blunders-3148628",
+      "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395853",
+      "https://lda.gov/filings/public/filing/59bc20ce-d1a9-47f3-90a3-5ff926f7262d/print/",
+      "https://www.heritage.org/press/former-ppo-director-john-mcentee-joins-project-2025-personnel-database-launches",
+      "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+    ],
+    "blocked": [
+      "CNN politics restricted URL",
+      "Axios dated November 7 politics index inaccessible",
+      "Three AP November 7 article opens inaccessible",
+      "Blumenthal preservation release 403; prior evidence carried"
+    ],
+    "perIssue": {
+      "AI": "searched, nothing found",
+      "EPS": "not searched",
+      "FED": "searched, nothing found",
+      "IMM": "not searched",
+      "IRN": "searched, nothing found",
+      "MID": "searched, nothing found",
+      "RUS": "searched, nothing found",
+      "SUC": "searched, nothing found",
+      "TAR": "searched, nothing found",
+      "VEN": "searched, nothing found"
+    },
+    "perIssue_note": "Nothing found means no newly verified correction retained, not evidence of no developments. Immigration and Epstein external outcome screens were incomplete.",
+    "unplaced": [
+      "Cuba sanctions lead: original source and tracked-decision linkage unverified."
+    ],
+    "gaps": [
+      "Full two-index, 15-headline independent recall not completed: CNN restricted and Axios dated index unavailable; supplemental Just Security sampling is not a substitute.",
+      "Current comparable primary polling, campaign pledges and early-state organization remain unverified across the roster. Missing coverage is not absent support.",
+      "McEntee 1–3 scenario ceiling, Kemp 10–20 range and DeSantis relative advantage remain particularly assumption-sensitive; this hold is not quantitative validation.",
+      "All-issue legal outcomes, financial/FARA/ethics filings and personnel status census incomplete. Prior daily unresolved items remain open.",
+      "Unlisted contenders may capture the reset; conditional normalization conceals that risk. No full-field residual estimated."
+    ],
+    "watched": [
+      "jd_vance",
+      "marco_rubio",
+      "ron_desantis",
+      "ted_cruz",
+      "john_mcentee",
+      "rand_paul",
+      "brian_kemp",
+      "thomas_massie"
+    ],
+    "queue": {
+      "captured": 0,
+      "triaged": 0,
+      "note": "Stored unresolved queue remains; identity/status/filings verification incomplete."
+    },
+    "deviations": [
+      "No sibling access, prompt edits, publication or production writes.",
+      "No scripts available within authorized snapshot; local integrity/arithmetic checks only."
+    ],
+    "methodAudit": {
+      "stage1": {
+        "sourcesEnumerated": [
+          "CNN politics",
+          "Axios dated index",
+          "Just Security November 6 digest"
+        ],
+        "headlinesTriaged": 15,
+        "kept": 0,
+        "recallSample": {
+          "sampled": 0,
+          "missingFromLedgerOrTriage": null,
+          "items": [],
+          "limitation": "Required independent two-index sample not completed. Supplemental digest sample of 15 is recorded separately, not represented as compliant recall."
+        }
+      },
+      "supplemental_digest_sample": [
+        {
+          "headline": "Iran decision",
+          "issue": "IRN",
+          "disposition": "covered",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Iran proposal",
+          "issue": "IRN",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Ukraine adaptation",
+          "issue": "RUS",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Europe talks representation",
+          "issue": "RUS",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Dmitriev visit",
+          "issue": "RUS",
+          "disposition": "covered",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Starshield renewal",
+          "issue": "RUS",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Election interference review",
+          "issue": "MID",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Market blame",
+          "issue": "FED",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Alaska vote demand",
+          "issue": "MID",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Schumer nominations",
+          "issue": "MID",
+          "disposition": "covered",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Mississippi acceptance",
+          "issue": "MID",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Hegseth job defense",
+          "issue": "MID",
+          "disposition": "covered",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Rubio departure denial",
+          "issue": "SUC",
+          "disposition": "covered",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Venezuela election timing",
+          "issue": "VEN",
+          "disposition": "lead_unverified",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        },
+        {
+          "headline": "Cuba sanctions",
+          "issue": "VEN",
+          "disposition": "link_unplaced",
+          "date": "2026-11-06",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        }
+      ],
+      "rootCause": "Incomplete article access and non-comparable candidate resource coverage.",
+      "proposedFix": "Complete original-source recall and paired conversion checks before numerical confidence claims."
+    },
+    "checklist": {
+      "nominee_comparison": "done",
+      "full_wargame": "done",
+      "case_design": "done",
+      "due_predictions": "done",
+      "current_assessment": "done",
+      "duplicates": "partial: IDs and shared reviewed episodes checked; full semantic sweep incomplete",
+      "recall": "partial: required two-index sample unavailable",
+      "filings_and_queue": "partial: targeted lobbying primary read only",
+      "falsifier_scorecard": "partial: all 100 eligible inventoried, zero defensibly terminally scored",
+      "validation": "done: local integrity checks; runner validators pending"
+    }
+  },
+  "public_update": {
+    "status": "prepared_for_runner_review",
+    "text": "Weekly assessment: policy costs and incoming oversight remain constraints, while the announced staffing shift changes prospective access. Nomination estimates are held provisionally after comparison of all eight contenders. Current organization and exact scenario ceilings remain uncertain.",
+    "screening": "New research fields screened for personal owner identifiers, contact details, local paths, credentials and runtime metadata. No raw source contact details copied. Runner must screen final export."
+  },
+  "validation_results": "Local JSON, unchanged history/prompts/roster/methodology, resolved source/event references, common-comparison coverage/ranges, scenario sums, Decimal mixture and stress arithmetic passed. Repository validators unavailable inside isolated snapshot; runner validation required."
+}

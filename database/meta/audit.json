@@ -12,7 +12,7 @@
     "Updated the midterms decision-holder summary to distinguish current congressional authority from projected control in the next Congress.",
     "Updated Vance’s midterms stance and the existing post-election Iran episode to reflect his public criticism and Trump’s public response."
   ],
-  "asof": "2026-11-02",
+  "asof": "2026-11-07",
   "contradicted": [
     {
       "belief": "People entries for Fed presidents Hammack, Logan and Kashkari had home faction 'hawks' and a combined three-bank role",
@@ -232,5 +232,922 @@
       "structural_errors_reported": 0,
       "scope": "Existing validator checks only. Historical format failures are retained as baseline debt. Validate changed rows separately."
     }
-  }
+  },
+  "scorecard": [
+    {
+      "itemId": "ai-2026-09-24-397424",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-25-56fca7",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-25-553fb0",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-29-255752",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-29-9accc1",
+      "reading": "NET EFFECT (my reading): the accord makes industry self-regulation the policy, which suits the Tech-Right and lets the White House avoid choosing sides; the renaming is now enforced by State but is cosmetic. Falsifier: a binding review rule.",
+      "falsifier": "a binding review rule.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-30-7a1417",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-30-ac04ea",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-04-487c22",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-04-11824f",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-08-c110e6",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-11-245179",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-13-e2ac42",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-13-ae8eb3",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-21-15ee02",
+      "reading": "Seeded from the AI Policy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-21-meta-nm-25b",
+      "reading": "NET EFFECT (my reading): a state court imposing a record penalty on Meta strengthens state enforcers against a donor-active AI firm and supports the case for state action while federal preemption is argued. Evidence: the ruling as reported. Not established: collection. Counter-reading: a consumer-privacy case with no bearing on AI rules. Falsifier: appeal reverses it.",
+      "falsifier": "appeal reverses it.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-14-doe-pjm-data-centers",
+      "reading": "NET EFFECT (my reading): the AI build-out now strains the largest US grid enough to need federal emergency orders, raising the political cost of data centers before Nov 3. Evidence: one outlet. Not established: loads actually shed. Counter: a one-off event. Falsifier: no repeat this winter.",
+      "falsifier": "no repeat this winter.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-16-sandbox-guidance",
+      "reading": "NET EFFECT (my reading): agencies add security advice but keep it voluntary, confirming that the administration will not impose binding pre-release controls. Evidence: one outlet. Not established: uptake by labs. Counter: a first step to rules. Falsifier: guidance made a contract condition.",
+      "falsifier": "guidance made a contract condition.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-10-20-pentagon-neutrality-templates",
+      "reading": "NET EFFECT (my reading): the Pentagon turns a White House order into contract paperwork, adding one more lever over AI vendors on top of the Anthropic designation. Evidence: one outlet. Not established: any vendor excluded. Counter: box-ticking. Falsifier: no contract cites it.",
+      "falsifier": "no contract cites it.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ai-2026-09-30-autonomous-warfare-command",
+      "reading": "NET EFFECT (my reading): Hegseth stakes a claim to run military autonomy and keeps cutting brass, but the command needs Congress and the money is stalled, so the gain is on paper. Evidence: one outlet. Counter: Agincourt starts work now. Falsifier: Congress funds it.",
+      "falsifier": "Congress funds it.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-09-16-44481e",
+      "reading": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-09-16-83a4dd",
+      "reading": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-09-29-3beefe",
+      "reading": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-10-01-7eabdb",
+      "reading": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-10-09-0a52cd",
+      "reading": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-10-16-79445c",
+      "reading": "Seeded from the Economy report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-10-22-dpa-petroleum",
+      "reading": "NET EFFECT (my reading): the White House is using emergency industrial powers to push fuel supply before the Nov 3 vote, which shows the Iran war's price cost is now a political liability for the administration. Evidence: the presidential memo and fuel-price reporting from one outlet. Not established: size of any funding or output effect. Counter-reading: routine follow-on to the April finding. Falsifier: no funded project follows.",
+      "falsifier": "no funded project follows.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-10-05-diesel-tax-relief",
+      "reading": "NET EFFECT (my reading): the White House spends tax receipts to blunt diesel prices through the election, a sign the war-driven fuel shock is a political cost. Evidence: the order. Not established: revenue or pump-price effect. Counter: routine relief. Falsifier: no extension past Dec 31.",
+      "falsifier": "no extension past Dec 31.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "fed-2026-10-22-housing-eo",
+      "reading": "NET EFFECT (my reading): a pre-election cost-of-living order that uses agency pilots, not rates, to show action on housing while the Fed holds. Evidence: the order. Not established: cost or uptake. Counter: long-planned. Falsifier: pilots not launched.",
+      "falsifier": "pilots not launched.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-09-17-404f76",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-09-17-59030e",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-09-17-8ac690",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-09-18-f90b6b",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-09-25-ebfe4f",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-06-94151b",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-06-d7a36d",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-08-6d20db",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-09-dc3386",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-18-c2e43e",
+      "reading": "NET EFFECT (my reading): by not deciding, DHS lets a statutory six-month extension cover over 100,000 Ukrainian and Sudanese holders, avoiding a fight before the election while keeping the option to end it later. Counter-reading: a deliberate delay before ending TPS after Nov 3. Falsifier: a termination notice.",
+      "falsifier": "a termination notice.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-19-cc86f8",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-22-7ee842",
+      "reading": "Seeded from the Immigration report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-23-fifth-circuit",
+      "reading": "Net effect (my reading): in three states ICE can hold people without bond hearings, which supports the Maximalists' detention volume, but the Supreme Court case and conflicting rulings elsewhere keep it reversible. Single secondary summary, so tier is reported and I did not tag fx; the vote count is unverified against the opinion. Counter-reading: the Supreme Court statutory case could override it; falsifier: a ruling requiring bond hearings.",
+      "falsifier": "a ruling requiring bond hearings.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-12-bf15",
+      "reading": "Just Security Early Edition (Oct 13, 14, 15 editions)",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-14-bf16",
+      "reading": "Just Security Early Edition (Oct 15 edition)",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-15-bf17",
+      "reading": "Reuters via Just Security Early Edition",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-23-bf18",
+      "reading": "Just Security Early Edition (Oct 26 edition)",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-21-ads-dhs-loan",
+      "reading": "NET EFFECT (my reading): the Pentagon is lending a crowd-control weapon to border enforcement, which widens the military's role in immigration work. Evidence: one memo reported by one outlet. Not established: deployment site and any use. Counter-reading: a technology test with no operational use. Falsifier: the unit is returned unused.",
+      "falsifier": "the unit is returned unused.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-13-birth-tourism-cable",
+      "reading": "NET EFFECT (my reading): State widens restriction to legal travelers and their families, extending enforcement reach beyond DHS; no new revocations under it are reported yet. Counter-reading: a paper review. Falsifier: no revocations by December.",
+      "falsifier": "no revocations by December.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-21-worship-standing",
+      "reading": "NET EFFECT (my reading): the suit against ICE's houses-of-worship policy goes forward, raising litigation risk for DHS but not limiting arrests now. Counter-reading: standing is a low bar and the merits may fail. Falsifier: en banc or Supreme Court reversal.",
+      "falsifier": "en banc or Supreme Court reversal.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-16-noem-envoy-ends",
+      "reading": "NET EFFECT (my reading): Noem is moved further from any public role as the DHS contract referral advances, which lowers her value as a political asset. Counter-reading: a lateral move. Falsifier: a new public post.",
+      "falsifier": "a new public post.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "imm-2026-10-22-lewandowski-ig-referral",
+      "reading": "NET EFFECT (my reading): a formal referral raises legal risk for Noem's former circle and touches GEO Group, a major ICE contractor and MAGA Inc. donor. Not established: a DOJ case or any GEO wrongdoing. Counter-reading: referrals often die. Falsifier: DOJ declines.",
+      "falsifier": "DOJ declines.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-09-24-e8f57d",
+      "reading": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-08-904876",
+      "reading": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-10-5d7fcd",
+      "reading": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-19-49aada",
+      "reading": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-21-061626",
+      "reading": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-23-57ea5f",
+      "reading": "Seeded from the Iran report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-05-pact-activation",
+      "reading": "Two outlets agree. Counter-reading: the pact's practical force is doubtful (skeptics say it lacks enforcement, and Houthi attacks on Saudi Arabia raised doubts that Turkey and Pakistan would act). I could not confirm any troop movement.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-09-30-fortress",
+      "reading": "NET EFFECT (my reading): the Pentagon gains a standing justification and program to claim energy, reserve and hardening money, and signals it is planning for a long, infrastructure-disrupting war, which fits the post-midterm Iran option but is not shown to be tied to it. Evidence: Pentagon spokesperson on record, five-pillar program reported by SOFX. Not established: funding, deadline, any Iran link or the August freezer incidents link (timing only). Counter-reading: routine resilience planning rebranded for budget season. Falsifier: no FY27 funding request or the program is folded into existing energy plans. Attribution: Pentagon faction authored it. Read from Fox first half verbatim and SOFX; Anadolu and Snopes could not be fetched.",
+      "falsifier": "no FY27 funding request or the program is folded into existing energy plans. Attribution: Pentagon faction authored it. Read from Fox first half verbatim and SOFX; Anadolu and Snopes could not be fetched.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-20-hegseth-betting-memo",
+      "reading": "NET EFFECT (my reading): the Pentagon is tightening control of operational information before possible Iran strikes, which supports the Pentagon camp's leak crackdown but does not change the Iran decision itself. Evidence: the memo as reported by DefenseScoop and the Early Edition; the article was read as a tool summary, not verbatim. Not established: any investigation of a specific bettor on Iran. Counter-reading: an ethics rule prompted by the Maduro case alone. Falsifier: no enforcement follows. Attribution: Hegseth's office.",
+      "falsifier": "no enforcement follows. Attribution: Hegseth's office.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-08-murphy-al-udeid",
+      "reading": "NET EFFECT (my reading): the Pentagon keeps control of what Congress sees of war damage during the strike hold, at the price of a new oversight fight. One outlet; Murphy's damage claims are his own and unverified.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-10-ocean-molica",
+      "reading": "NET EFFECT (my reading): the blockade is now enforced by force against a Chinese-owned ship during the strike hold, showing Trump's Nov 3 pledge does not cover blockade enforcement. CENTCOM's own account via one outlet.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-15-economic-outcast",
+      "reading": "NET EFFECT (my reading): Treasury widens the squeeze to Iran's money channels in Iraq during the strike hold, keeping sanctions central to Iran policy. Primary record; effect on Iraq ties not established.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "irn-2026-10-21-outcast-shadow-fleet",
+      "reading": "NET EFFECT (my reading): the squeeze continues at the shipping level while Energy offers tankers a way out, so sanctions push and pull on the same fleet. Primary record.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-07-6dc57d",
+      "reading": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-09-fca269",
+      "reading": "Seeded from the Midterms report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-14-bf21",
+      "reading": "NET EFFECT (my reading): the administration keeps its position on party ad rates through the election, a marginal help to the party committees. Evidence: SCOTUSblog. Not established: the practical rate difference. Counter-reading: a stay, not a merits ruling.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-15-bf22",
+      "reading": "Just Security Early Edition (Oct 15, 16, 26, 27 editions; NYT)",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-22-lucas-charged",
+      "reading": "NET EFFECT (my reading): charging a Democratic legislator close to Nov 3 feeds claims of politicized prosecution; it does not change counting. Not established: strength of the case. Counter-reading: an ordinary drug case. Falsifier: a judge dismisses it.",
+      "falsifier": "a judge dismisses it.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-22-nh-student-id",
+      "reading": "NET EFFECT (my reading): narrows accepted voter ID in one state before the vote, mildly helping the side that wants stricter ID. Not established: effect on turnout. Counter-reading: a state-law ruling with limited reach. Falsifier: order text shows a narrower holding.",
+      "falsifier": "order text shows a narrower holding.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-23-floris-benavides",
+      "reading": "NET EFFECT (my reading): another prosecution of past FBI officials keeps DOJ's retribution track going, but a judge's criticism shows limits. Not established: trial outcome. Counter-reading: ordinary false-statement cases. Falsifier: conviction on the merits.",
+      "falsifier": "conviction on the merits.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-09-hutchinson-grand-jury",
+      "reading": "NET EFFECT (my reading): DOJ extends criminal process to a key January 6 witness, adding to the retribution docket before the vote; if the reported no-bill holds, it is another failure of that docket. Single outlet. Counter-reading: routine referral. Falsifier: an indictment.",
+      "falsifier": "an indictment.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-13-guilfoyle-resigns",
+      "reading": "NET EFFECT (my reading): the White House cut loose a Trump-family associate within days to contain a donor-access story before the vote, which shows the shield has limits when the cost lands near Nov 3. Counter-reading: a personal matter. Falsifier: reinstatement or a cleared IG review.",
+      "falsifier": "reinstatement or a cleared IG review.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "mid-2026-10-14-press-ban-injunction",
+      "reading": "NET EFFECT (my reading): a court removes the White House's tool for punishing three outlets in the closing weeks, so the press office cannot shape coverage by exclusion. Counter-reading: bans had little effect anyway. Falsifier: an appeals court stays the injunction.",
+      "falsifier": "an appeals court stays the injunction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-09-18-b58c1a",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-09-18-20b3ff",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-09-1a0d78",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-09-90fffc",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-09-6e8d2a",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-10-c5b896",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-13-fa8103",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-16-45d511",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-19-ba15b8",
+      "reading": "NET EFFECT (my reading): Hegseth's reported hold on part of a Patriot transfer gave the Pentagon a pressure lever on Kyiv while Trump kept his distance; Hegseth denied it. Evidence: the Post via SBS; United24. Counter-reading: a routine stock review. Falsifier: deliveries released with no Ukraine concession.",
+      "falsifier": "deliveries released with no Ukraine concession.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-20-65f0ca",
+      "reading": "NET EFFECT (my reading): the White House can turn the Starshield cap on and off through Musk, which raises Musk's leverage on the Russia track; reported by the Journal, not confirmed by Trump. Counter-reading: a commercial decision. Falsifier: SpaceX shows a technical cause.",
+      "falsifier": "SpaceX shows a technical cause.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-21-953d13",
+      "reading": "Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-21-02021f",
+      "reading": "NET EFFECT: the license keeps the Lukoil sale, the deal track's sanctions-relief channel, open another month without approving a buyer, so nothing shifts yet (my reading). Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "rus-2026-10-21-ff597c",
+      "reading": "NET EFFECT (my reading): the Witkoff-Putin meeting and the Kremlin's offer to rejoin three-way talks in mid-November put the envoys in charge of the Russia track and eased pressure on Moscow. Seeded from the Russia report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "suc-2026-09-24-11ac54",
+      "reading": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "suc-2026-10-06-15bb6b",
+      "reading": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "suc-2026-10-06-c2c603",
+      "reading": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "suc-2026-10-20-3c8eef",
+      "reading": "Seeded from the Succession report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-09-23-f16085",
+      "reading": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-15-1f909f",
+      "reading": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score. Duplicate rows of this occurrence were folded in on Oct 29.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-15-2195e8",
+      "reading": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-20-6eeefc",
+      "reading": "Seeded from the Tariffs and Trade report (Oct 24, 2026). Weight set by row type: shifts 4, ledger acts 3, chronology 2. Provisional until the monthly re-score.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-23-8e3abd",
+      "reading": "NET EFFECT (my reading): a net widening, not relief: Maine lines came off but 100 went on days before the vote. Evidence: BDO, Flexport, CNBC. Not established: CBP practice after Oct 30. Counter: a scope tidy-up. Falsifier: added lines cut after Nov 3.",
+      "falsifier": "added lines cut after Nov 3.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-22-wind-232",
+      "reading": "NET EFFECT (my reading): a finding of threat without a tariff shows the 232 tool is being used for leverage rather than immediate cost, which eases pressure on energy prices before the Nov 3 vote. Evidence: the proclamation title and one trade outlet. Not established: the proclamation text was not read. Counter-reading: a delay, not a reprieve. Falsifier: a tariff follows after Nov 3.",
+      "falsifier": "a tariff follows after Nov 3.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-22-outbound-npr",
+      "reading": "NET EFFECT (my reading): widens Treasury's toolkit against China just before the trade truce talks, adding to the BGI ban's pressure on Beijing. Evidence: Treasury's own release. Not established: final scope. Counter-reading: required by statute, not a new choice. Falsifier: final rule narrower than the proposal.",
+      "falsifier": "final rule narrower than the proposal.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-07-anduril-shipyard-stake",
+      "reading": "NET EFFECT (my reading): the government extends its equity-stake model into shipbuilding, putting public capital behind a Thiel-backed defense firm. Evidence: one outlet (Fox). Not established: terms, who negotiated. Counter: ordinary industrial-base finance. Falsifier: stake not finalized.",
+      "falsifier": "stake not finalized.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "tar-2026-10-21-offshore-wind-remands",
+      "reading": "NET EFFECT (my reading): the administration is using litigation to reopen approved offshore-wind projects, extending its anti-wind line without new rules. Evidence: one outlet. Not established: whether judges grant remand. Counter: legal housekeeping. Falsifier: remands denied.",
+      "falsifier": "remands denied.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    },
+    {
+      "itemId": "ven-2026-10-14-jorge-rodriguez-delisted",
+      "reading": "NET EFFECT (my reading): the US rewards the Rodríguez family for cooperating, entrenching the hawks' and dealmakers' arrangement that keeps them in power ahead of any election. Wire reports; terms of the plan not published.",
+      "falsifier": "No explicit falsifier recorded; legacy/provisional claim is not scorable as a prediction.",
+      "outcome": "open",
+      "byWhom": "analyst",
+      "lesson": "Later stored material screened; fresh outcome verification or a discriminating original test is insufficient. No success credited from silence.",
+      "review_run_id": "2026-11-07-weekly-common-candidate-review"
+    }
+  ],
+  "review_history": [
+    {
+      "run_id": "2026-11-07-weekly-common-candidate-review",
+      "date": "2026-11-07",
+      "eligible_items": 100,
+      "terminally_scored": 0,
+      "analyst_hit_rate": null,
+      "challenger_hit_rate": null,
+      "reason": "No defensible common denominator of resolved tests. Historical blind challenger performance cannot be reconstructed from this single-analyst review.",
+      "duplicate_review": "No identical IDs found; shared chamber-control and war episodes reused, not newly credited. Similar URLs alone do not establish duplicate occurrences. Full semantic duplicate census remains incomplete.",
+      "financial_review": "Historical donors, commercial lobbying, political preference and current campaign pledges remain distinct. No causal money-to-decision finding added.",
+      "personnel_review": "Miller appointment rechecked against official release. November 9 handover pending. Wiles blame-shifting and Hegseth job pressure remain separate from a verified removal.",
+      "missed_beneficiary_challenge": "Miller can gain agenda position before the handover is exercised, and rivals can gain argument-setting leverage before votes change. Do not wait for formal policy outcomes to recognize positioning; do not score that as achieved policy. Democratic oversight actors also gain prospective leverage without acquiring executive control."
+    }
+  ]
 }

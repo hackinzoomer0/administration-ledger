@@ -4,13 +4,13 @@
   "last_substantive_change": "2026-11-07",
   "review": {
     "date": "2026-11-07",
-    "run_id": "2026-11-07-authorized-eight-candidate-roster",
-    "type": "faction_consistency_review",
-    "scope": "Owner-authorized addition of Paul, Kemp and Massie, targeted profile research and eight-person forecast rebase within existing scenario environments. Tucker excluded by follow-up instruction. No broad daily intake or automatic full wargame rerun; weekly cadence retained. Administration findings carried."
+    "run_id": "2026-11-07-weekly-common-candidate-review",
+    "type": "weekly_review",
+    "scope": "Weekly common-candidate comparison and structured single-analyst opposition; targeted primary-source rechecks, stored episode/faction audit and supplemental recall. All-issue coverage, filings and court outcomes incomplete; carried issue findings not freshly verified."
   },
   "administration": {
     "headline": "Midterm defeat forces a fight over personnel, policy and accountability.",
-    "summary": "Republicans’ midterm rout has turned personnel changes into a fight over the direction of Trump’s second term. The announced replacement of Wiles with Miller points toward stronger hardliner agenda access, not yet a verified policy reversal. Incoming Democratic majorities will gain subpoena, hearing and funding leverage when the next Congress convenes. The likely near-term contest is over accountability and war costs: Democrats can raise the cost of continuity, while Trump can reshuffle personnel and shift blame without changing course. Watch military orders, enforcement changes and budget concessions to distinguish a policy reset from a change of messengers.",
+    "summary": "The midterm defeat creates pressure over costs, policy responsibility and accountability while Trump retains executive decision authority. Miller’s announced promotion establishes a prospective access shift; the handover remains pending. Incoming Democratic majorities can increase scrutiny and bargain over funding after organization, while vetoes and existing executive powers limit immediate reversal. A negotiated exit or accepted concentration of blame could preserve an heir’s coalition; persistent costs and credible records could instead widen the demand for alternatives. Neither a personnel reshuffle nor a public postmortem establishes changed policy or primary support. Several court and policy outcomes remain unverified in this targeted review.",
     "contests": [
       {
         "id": "white-house-access",
@@ -124,8 +124,8 @@
   },
   "nomination": {
     "headline": "Vance leads; the coalition is not settled.",
-    "summary": "Vance retains the strongest starting route in the expanded field. DeSantis and Kemp compete for a conservative executive reset; Paul and Massie contest overlapping restraint and constitutional-limit audiences. Entry, party route and organization remain material gates. Estimates are subjective and conditional on these eight, with a new roster baseline rather than comparable daily changes.",
-    "snapshot_id": "2026-11-07-authorized-eight-candidate-roster",
+    "summary": "Vance retains the clearest recorded succession route, while executive-reset and restraint rivals compete for overlapping constituencies. The weekly comparison provisionally holds the eight-person scenario mixture. Exact candidate ceilings, entry and organization remain weakly identified; no post-election transfer of primary support is verified.",
+    "snapshot_id": "2026-11-07-weekly-common-candidate-review",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -216,8 +216,8 @@
       {
         "candidate_id": "john_mcentee",
         "person_id": null,
-        "path": "A substantive nationalist opening constrained by insider baggage and entry gates.",
-        "coalition": "A potential audience; an electoral coalition is not established.",
+        "path": "Personnel relationships and withdrawal work offer a substantive route if converted into a Republican campaign; the inherited low ceiling remains provisional.",
+        "coalition": "Hypothesized younger, culturally conservative Trump-aligned audience seeking program continuity with different leadership; voter composition and conversion remain unverified.",
         "advantage": "Substantive personnel authority and actual withdrawal work.",
         "vulnerability": "He is himself a Trump-era insider. Prior conduct, electoral-count work and business scrutiny complicate a clean-accountability pitch, and historical business financing does not supply a campaign.",
         "positions": "Historical restrictionist staffing and withdrawal advocacy; current specifics need review.",

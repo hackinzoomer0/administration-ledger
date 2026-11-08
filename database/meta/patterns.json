@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-02",
+  "asof": "2026-11-07",
   "note": "Cross-event patterns the daily task found by comparing events across issues. Each is a hypothesis labeled my reading; none claims money or motive caused a decision. Needs at least three dated, independent items; each states a test and what would retire it.",
   "patterns": [
     {
@@ -21,11 +21,20 @@
         "RUS"
       ],
       "label": "my reading",
-      "lastChecked": "2026-11-02",
+      "lastChecked": "2026-11-07",
       "status": "open",
       "summary": "Three shifts in six weeks each helped Deal-Capital and hurt the Hawks: the Graham sanctions law signed then waived (Sep 18), the diesel deal (Oct 9), the Witkoff-Putin meeting with a Kremlin offer to rejoin talks (Oct 21). Week of Oct 26 adds: Kremlin confirms talks on sanctions relief for its investment fund (Oct 29), Kyiv pauses refinery strikes under US pressure (Oct 29), envoys pitch Russian gas transit through Ukraine (Nov 2). Counter: State approves a $2.1B Patriot sale to Ukraine (Oct 31).",
       "test": "Supported if the Lukoil licence is extended past Nov 21 or three-way talks resume in mid-November.",
-      "title": "Russia file moving from sanctions camp to the envoys"
+      "title": "Russia file moving from sanctions camp to the envoys",
+      "review_history": [
+        {
+          "run_id": "2026-11-07-weekly-common-candidate-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
+          "coverage": "External test outcome not fully verified."
+        }
+      ]
     },
     {
       "disproof": "Retire if the cap is shown to be a purely commercial or technical decision.",
@@ -43,11 +52,20 @@
         "RUS"
       ],
       "label": "my reading",
-      "lastChecked": "2026-11-02",
+      "lastChecked": "2026-11-07",
       "status": "open",
       "summary": "Cap hits Ukrainian drones (Oct 13); the WSJ says Musk ordered it (Oct 20); Trump calls Musk and Kyiv later says speeds are restored (Oct 21-24). Hegseth and Rubio call it a commercial matter. Tech-Right gains on Russia in the same window.",
       "test": "Supported if SpaceX or the White House confirms a link between the cap and negotiations.",
-      "title": "Starshield speed cap used as a lever in the Russia track"
+      "title": "Starshield speed cap used as a lever in the Russia track",
+      "review_history": [
+        {
+          "run_id": "2026-11-07-weekly-common-candidate-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
+          "coverage": "External test outcome not fully verified."
+        }
+      ]
     },
     {
       "disproof": "Retire if Trump endorses Vance or tech donors publicly recommit.",
@@ -69,11 +87,20 @@
         "IMM"
       ],
       "label": "my reading",
-      "lastChecked": "2026-11-02",
+      "lastChecked": "2026-11-07",
       "status": "open",
       "summary": "Three weak succession signals in seven weeks (Sep 1 donors prefer Rubio, Sep 24 Thiel hedges, Oct 20 Trump leaves Vance-or-Rubio open), while Vance backs eliminating H-1B (Oct 2) against his tech donors' interest and Microsoft rebuts him (Oct 14).",
       "test": "Supported if tech donors publicly shift away from Vance or he softens on H-1B.",
-      "title": "Vance squeezed between his restrictionist base and tech donors"
+      "title": "Vance squeezed between his restrictionist base and tech donors",
+      "review_history": [
+        {
+          "run_id": "2026-11-07-weekly-common-candidate-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
+          "coverage": "External test outcome not fully verified."
+        }
+      ]
     },
     {
       "disproof": "Retire if the delay is explained by another cause or deliveries resume during Iran escalation.",
@@ -94,11 +121,20 @@
         "RUS"
       ],
       "label": "my reading, weakest",
-      "lastChecked": "2026-11-02",
+      "lastChecked": "2026-11-07",
       "status": "open",
       "summary": "Hegseth appears in eight Iran events (secret Israel trip, threats if talks fail) and five Russia events (Patriot transfer held Oct 19 then denied). Possible resource trade-off with Gulf needs. Oct 29: allies fear Patriots for Ukraine are held until after Nov 3; Oct 31: State approves a $2.1B Patriot sale paid by Ukraine and partners (a sale, not deliveries, so the disproof is not met).",
       "test": "Supported if Ukraine deliveries resume only after Iran de-escalates.",
-      "title": "Hegseth hard on Iran, slow on Ukraine arms"
+      "title": "Hegseth hard on Iran, slow on Ukraine arms",
+      "review_history": [
+        {
+          "run_id": "2026-11-07-weekly-common-candidate-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
+          "coverage": "External test outcome not fully verified."
+        }
+      ]
     },
     {
       "disproof": "Retire if the Supreme Court grants DOJ relief on the California ballots or a grand jury indicts in one of this fall's voting probes.",
@@ -121,11 +157,20 @@
         "IMM"
       ],
       "label": "my reading",
-      "lastChecked": "2026-11-02",
+      "lastChecked": "2026-11-07",
       "status": "open",
       "summary": "In one week, seven separate rulings or refusals went against DOJ actions on voting and on Trump critics: Hutchinson no-bill (Oct 27), Essayli ruled unlawfully serving (Oct 27), Ninth Circuit ballot rulings (Oct 26, 30), Thompson order on threats to election officials (Oct 30), Rochon ads order (Oct 30), Alaska suit dismissed (Nov 1). DOJ keeps opening new probes (Arizona Oct 30, North Carolina charges Oct 29), so volume rises as wins fall.",
       "test": "Supported if the Supreme Court denies the California ballot application and the Alaska appeal fails before certification.",
-      "title": "Courts and grand juries check the enforcers' pre-election legal push"
+      "title": "Courts and grand juries check the enforcers' pre-election legal push",
+      "review_history": [
+        {
+          "run_id": "2026-11-07-weekly-common-candidate-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
+          "coverage": "External test outcome not fully verified."
+        }
+      ]
     },
     {
       "disproof": "Retire if none of them happens by Nov 30, which would mean the deferrals were about the talks, not the vote.",
@@ -149,11 +194,20 @@
         "MID"
       ],
       "label": "my reading",
-      "lastChecked": "2026-11-02",
+      "lastChecked": "2026-11-07",
       "status": "open",
       "summary": "Several moves were put off to the same date: Gulf states told to prepare for a short US campaign after Nov 3 (Oct 28); Ukraine pauses refinery strikes until after the vote to keep fuel prices down (Oct 29); allies fear Patriots are held until after Nov 3 (Oct 29); US and Israel weigh large strikes after Nov 3 (Oct 30); Trump says no new Iran attacks before the vote (Nov 1); Netanyahu presses for strikes right after the midterms (Nov 2). The common thread is fuel prices and the vote, not the merits of each file.",
       "test": "Supported if by Nov 17 at least two of the deferred moves happen (a US strike on Iran, resumed Ukrainian refinery strikes, Patriot deliveries released).",
-      "title": "Decisions across Iran and Russia deferred to 'after Nov 3'"
+      "title": "Decisions across Iran and Russia deferred to 'after Nov 3'",
+      "review_history": [
+        {
+          "run_id": "2026-11-07-weekly-common-candidate-review",
+          "date": "2026-11-07",
+          "status": "open",
+          "finding": "Stored subsequent events screened; no newly verified test or disproof. Open status is unresolved, not confirmation. Original retirement criteria retained.",
+          "coverage": "External test outcome not fully verified."
+        }
+      ]
     }
   ]
 }
