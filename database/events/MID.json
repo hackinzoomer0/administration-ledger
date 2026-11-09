@@ -2381,6 +2381,30 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: policy outreach does not establish a voter transfer or a change in executive authority."
+    },
+    {
+      "id": "mid-2026-11-08-blanche-oversight-defense",
+      "date": "2026-11-08",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Todd Blanche; White House",
+      "text": "Attorney General Todd Blanche pledges to defend executive officials against Democrats’ planned investigations.",
+      "context": "The White House’s November 8 account of Attorney General Todd Blanche’s Sunday interviews rejects Democrats’ characterization of their planned investigations and emphasizes Justice Department representation of executive officials. These are the administration’s public legal and political arguments, not a judicial ruling granting immunity from oversight. My reading: Blanche reassures officials and private allies facing scrutiny and seeks to portray incoming Democratic oversight as retaliation. Democrats still need to organize committees and obtain records; the statement does not establish that an investigation has been stopped.",
+      "source": "https://www.whitehouse.gov/releases/2026/11/icymi-ag-todd-blanche-dismantles-democrats-oversight-charade-on-the-sunday-shows/",
+      "url": "https://www.whitehouse.gov/releases/2026/11/icymi-ag-todd-blanche-dismantles-democrats-oversight-charade-on-the-sunday-shows/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: the attorney general signals resistance that may delay or contest oversight; effective obstruction and court outcomes remain unknown.",
+      "origin": "2026-11-09",
+      "added": "2026-11-09",
+      "by": [
+        "maximalists"
+      ],
+      "fx": {},
+      "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy."
     }
   ]
 }

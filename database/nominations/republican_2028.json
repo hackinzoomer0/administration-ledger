@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-08",
+  "as_of_date": "2026-11-09",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2430,6 +2430,51 @@
       "publication_date": "2024-01-22",
       "accessed_on": "2026-11-08",
       "description": "Historical campaign analysis; personality interpretation competes with Trump loyalty and campaign execution.",
+      "verification_status": "read"
+    },
+    {
+      "id": "daily_trump_interview_20261108",
+      "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+      "publisher": "CBS News / Donald Trump",
+      "publication_date": "2026-11-08",
+      "accessed_on": "2026-11-09",
+      "description": "Interview recorded November 6; direct public statement, not implemented policy.",
+      "verification_status": "read"
+    },
+    {
+      "id": "daily_qatar_plan_20261109",
+      "url": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
+      "publisher": "Reuters via StreetInsider",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-09",
+      "description": "Planned Qatar meeting and disputed terms; Iranian strike reports remain attributed.",
+      "verification_status": "read"
+    },
+    {
+      "id": "daily_rubio_memo_20261109",
+      "url": "https://www.aa.com.tr/en/americas/rubio-oversaw-classified-memo-alleging-nvidia-ceo-s-ties-to-suspected-chinese-intelligence-operative-report/4116377",
+      "publisher": "Anadolu relaying New York Times",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-09",
+      "description": "Classified memo account recovered through attributed reporting; not independent corroboration.",
+      "verification_status": "read"
+    },
+    {
+      "id": "daily_nvidia_board_20261108",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "publisher": "Nvidia board",
+      "publication_date": "2026-11-08",
+      "accessed_on": "2026-11-09",
+      "description": "Independent inquiry announced; no proven compromise.",
+      "verification_status": "read"
+    },
+    {
+      "id": "daily_herzog_mandate_20261108",
+      "url": "https://www.president.gov.il/en/president-herzog-tasks-gadi-eisenkot-with-forming-a-government/",
+      "publisher": "Israeli presidency",
+      "publication_date": "2026-11-08",
+      "accessed_on": "2026-11-09",
+      "description": "Completed government-forming mandate, not a completed coalition.",
       "verification_status": "read"
     }
   ],
@@ -12871,6 +12916,369 @@
               }
             }
           }
+        }
+      },
+      {
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.95,
+          "ron_desantis": 18.55,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 9.9,
+          "brian_kemp": 12.1,
+          "thomas_massie": 3.5
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. Trump’s acknowledgment supports room for differentiation while preserving responsibility. Qatar mediation could provide results; no agreement or voter gain verified.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_trump_interview_20261108",
+              "daily_qatar_plan_20261109"
+            ],
+            "event_ids": [
+              "suc-2026-11-08-trump-vance-immigration-interview",
+              "irn-2026-11-09-qatar-meeting-plan"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. Rejection of Iran’s terms maintains his distinct stance. A reported Nvidia warning may support a security argument, but neither its classified basis nor a new coalition is verified.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_rubio_memo_20261109",
+              "daily_qatar_plan_20261109"
+            ],
+            "event_ids": [
+              "ai-2026-11-08-nvidia-board-inquiry",
+              "irn-2026-11-09-qatar-meeting-plan"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. The carried path through governing experience remains plausible; this focused intake did not recheck his campaign recruitment or voter reception.",
+            "review_status": "unreviewed",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. The carried conservative and tariff-critical path remains; new chip scrutiny does not establish support moving from Rubio or Vance to Cruz.",
+            "review_status": "unreviewed",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. Personnel and media contacts remain a possible recruitment route. This intake did not verify presidential organizers, donors or voter commitments.",
+            "review_status": "unreviewed",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. Constitutional restraint remains his carried distinction. Continuing war and oversight disputes do not establish new presidential support.",
+            "review_status": "unreviewed",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. Governing experience remains a carried advantage. State election outcomes do not automatically establish national presidential commitments.",
+            "review_status": "unreviewed",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held under the agreed weekly cadence. Oversight pressure may give his dissent a platform. No completed impeachment vote, presidential recruitment or voter gain established.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              }
+            ]
+          }
+        },
+        "id": "2026-11-09-daily-monitor",
+        "date": "2026-11-09",
+        "run_id": "2026-11-09",
+        "type": "daily_review",
+        "wargame_ref": "2026-11-08-weekly-support-appeal-review",
+        "summary": "Daily estimates hold at the November 8 full review. Trump’s prior discussion with Vance supports room for policy differentiation; mediation and chip-security scrutiny introduce tests of results and responsibility, not measured primary gains.",
+        "gaps": [
+          "Focused shared intake, not full collector enumeration or an all-candidate support audit. No fresh donor, early-state organization or representative primary-voter census.",
+          "Miller’s operational handover, remaining election calls, court dispositions, Hegseth floor action, and the Qatar meeting outcome remain unresolved.",
+          "The Rubio classified memo is attributed reporting; no memo, security breach or resulting export order independently verified.",
+          "Health-policy corruption allegations are disputed; no misconduct finding adopted.",
+          "Conditional on the eight authorized contenders; unlisted candidates can win."
+        ],
+        "monitoring": {
+          "summary": "Seven active tests inspected; all February/April 2027 deadlines remain ahead. No terminal outcome established and no full wargame executed. New developments could age the carried probabilities if negotiations or policy changes produce results before the weekly review.",
+          "developments": [
+            {
+              "finding": "Trump acknowledged a prior discussion of Vance’s Iran criticism.",
+              "implication": "Vance has room to argue for change but remains tied to decisions. Voter reception is unknown.",
+              "weekly_question": "Does permitted differentiation earn voter trust and actual organizers, or look like blame avoidance?",
+              "source_ids": [
+                "daily_trump_interview_20261108"
+              ],
+              "event_ids": [
+                "suc-2026-11-08-trump-vance-immigration-interview"
+              ]
+            },
+            {
+              "finding": "Qatar mediation is planned while Rubio rejects Iran’s terms.",
+              "implication": "Vance can seek a diplomatic result; continued disagreement can preserve costs and challenge that strategy.",
+              "weekly_question": "Does mediation change the likelihood of durable relief, or only candidate rhetoric?",
+              "source_ids": [
+                "daily_qatar_plan_20261109"
+              ],
+              "event_ids": [
+                "irn-2026-11-09-qatar-meeting-plan"
+              ]
+            },
+            {
+              "finding": "Nvidia opens an inquiry; Rubio’s prior warning is reported.",
+              "implication": "Chip-security scrutiny could separate commercial advocates from security hawks; no candidate support gain measured.",
+              "weekly_question": "Do verified records change Rubio’s credibility or produce enforceable export changes?",
+              "source_ids": [
+                "daily_nvidia_board_20261108",
+                "daily_rubio_memo_20261109"
+              ],
+              "event_ids": [
+                "ai-2026-11-08-nvidia-board-inquiry"
+              ]
+            }
+          ],
+          "prediction_updates": [
+            {
+              "id": "vance-selective-loyalty",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-02-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "congress-accountability",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-04-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "alternative-coordination",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-04-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "mcentee-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-04-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "project2025",
+                "mcentee_withdrawal",
+                "mcentee_personnel_record",
+                "weekly_tencent_ld2",
+                "weekly_heritage_personnel"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "kemp-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-04-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "kemp_2026_ajc",
+                "kemp_2026_tax_relief",
+                "kemp_2024_enforcement",
+                "kemp_2019_life_act"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "coalition-conversion-common-2027-04",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-04-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "causal_ap_recovery"
+              ],
+              "event_ids": [
+                "mid-2026-11-05-congress-control",
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "support-recruitment-2027-02",
+              "status": "unresolved",
+              "resolution": "Deadline 2027-02-01 remains ahead. The November 9 focused intake establishes no terminal result; current rhetoric and planned meetings do not settle later organizational, polling or congressional tests.",
+              "source_ids": [
+                "weekly_paul_massie_support",
+                "daily_vance_brand_20261107"
+              ],
+              "event_ids": []
+            }
+          ]
         }
       }
     ],

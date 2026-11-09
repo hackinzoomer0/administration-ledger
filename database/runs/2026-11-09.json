@@ -1,0 +1,1281 @@
+{
+  "date": "2026-11-09",
+  "type": "daily_review",
+  "added": 4,
+  "summary": "Trump permits Vance’s criticism and considers immigration talks while Blanche promises to resist incoming oversight. Nvidia begins an inquiry; Qatar mediation is planned and Israel’s mandate ceremony is complete. No implemented immigration reversal, Iran agreement, security breach or candidate-support gain established. Focused intake leaves Miller’s handover, remaining election calls, court rulings and other major outcomes incompletely verified. All eight nomination estimates hold under weekly cadence.",
+  "scope": "Focused shared intake on post-election statements, Iran mediation, Nvidia’s inquiry and Israel’s mandate ceremony. Remaining election calls, court dispositions, the Miller handover and operational military decisions remain incompletely verified. All other issue findings are carried.",
+  "reviewed_episode_ids": [
+    "ai-2026-11-08-nvidia-board-inquiry",
+    "suc-2026-11-08-trump-vance-immigration-interview",
+    "mid-2026-11-08-blanche-oversight-defense",
+    "irn-2026-11-09-qatar-meeting-plan",
+    "irn-2026-11-07-herzog-selects-eisenkot",
+    "ai-2026-10-29-megaspeed-report",
+    "irn-2026-11-08-trump-conditional-talks"
+  ],
+  "changed_entries": [
+    "events/AI",
+    "events/SUC",
+    "events/MID",
+    "events/IRN",
+    "assessments/current",
+    "assessments/issues",
+    "factions/vance",
+    "factions/maximalists",
+    "factions/tech-right",
+    "nominations/republican_2028",
+    "runs/2026-11-09",
+    "changes/2026-11-09"
+  ],
+  "unresolved_claims": [
+    "Focused shared intake, not full collector enumeration or an all-candidate support audit. No fresh donor, early-state organization or representative primary-voter census.",
+    "Miller’s operational handover, remaining election calls, court dispositions, Hegseth floor action, and the Qatar meeting outcome remain unresolved.",
+    "The Rubio classified memo is attributed reporting; no memo, security breach or resulting export order independently verified.",
+    "Health-policy corruption allegations are disputed; no misconduct finding adopted.",
+    "Conditional on the eight authorized contenders; unlisted candidates can win."
+  ],
+  "evidence_needed": [
+    "Completed Qatar meeting readout and accepted terms",
+    "Verified Miller handover and division of roles",
+    "Nvidia findings and operative export decisions",
+    "Outstanding court orders, election calls and congressional floor action",
+    "Actual voter, donor and organizer commitments"
+  ],
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "weekly-policy-correction",
+        "question": "Can Vance change policy positioning without losing Trump-aligned support?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Trump’s acknowledgment of prior discussion strengthens the interpretation of permitted differentiation. Voter trust and retention remain unknown.",
+        "explanations": [
+          {
+            "explanation": "Strategic differentiation is documented; actual voter retention and recruitment remain unmeasured.",
+            "weight": "dominant",
+            "reason": "The reported strategy and a historical response to sustained debate exposure make adaptation credible, but neither proves present preference.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Voters interpret the change as blame-shifting rather than credible leadership.",
+            "weight": "credible",
+            "reason": "A plausible competing mechanism with incomplete discriminating evidence; not given equal numerical weight by default.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Trump’s acknowledgment of prior discussion strengthens the interpretation of permitted differentiation. Voter trust and retention remain unknown.",
+        "next_action": "Check the specific decisions and commitments rather than repeat a broad narrative.",
+        "next_check": "2026-11-15",
+        "source_receipt_ids": [
+          "2f6cb20a6e3cae49393f215c",
+          "e4f09914015328109ec9f0e1"
+        ]
+      },
+      {
+        "id": "weekly-support-conversion",
+        "question": "Which current or potential supporters can supply campaign workers, money and primary votes across the eight contenders?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "All eight have plausible recruitment routes, with very different evidence of present commitments. Historical alliance and personal appeal do not guarantee transfer.",
+        "explanations": [
+          {
+            "explanation": "All eight have plausible recruitment routes, with very different evidence of present commitments. Historical alliance and personal appeal do not guarantee transfer.",
+            "weight": "dominant",
+            "reason": "Historical Paul–Massie cooperation and health-activist outreach show both overlapping support and alternatives outside a single Republican lane.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Better-known candidates monopolize resources, or disaffected supporters leave the Republican contest entirely.",
+            "weight": "credible",
+            "reason": "A plausible competing mechanism with incomplete discriminating evidence; not given equal numerical weight by default.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "deferred",
+        "outcome": "Carried November 8 support analysis; today’s focused intake did not conduct a fresh endorsement, donor or organizer census. No absence of support is inferred.",
+        "next_action": "Check the specific decisions and commitments rather than repeat a broad narrative.",
+        "next_check": "2026-11-15",
+        "source_receipt_ids": []
+      },
+      {
+        "id": "weekly-siting-chokepoints",
+        "question": "Who can approve or obstruct data-center construction and electricity cost allocation?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "State utility regulators, local governments and environmental agencies hold separate approvals; federal financing cannot alone settle them.",
+        "explanations": [
+          {
+            "explanation": "State utility regulators, local governments and environmental agencies hold separate approvals; federal financing cannot alone settle them.",
+            "weight": "dominant",
+            "reason": "The laboratory review identifies distinct approvals; the federal role remains important but is not a universal local permit.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Federal siting and funding can accelerate selected projects enough to overcome some constraints.",
+            "weight": "credible",
+            "reason": "A plausible competing mechanism with incomplete discriminating evidence; not given equal numerical weight by default.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Actual catch-up search made; no project-specific approval or rate decision verified. Retain the November 8 authority analysis without resetting its evidence date.",
+        "next_action": "Check the specific decisions and commitments rather than repeat a broad narrative.",
+        "next_check": "2026-11-15",
+        "source_receipt_ids": [
+          "db44b347f4671b2a48566f80"
+        ]
+      },
+      {
+        "id": "daily-nvidia-security-authority",
+        "question": "Can corporate scrutiny of Nvidia change who controls chip-export decisions, or only the pressure on decision-makers?",
+        "importance": "Overdue AI catch-up; distinguishes new evidence from a presumed policy reversal and tests Rubio’s security claim.",
+        "affected_assessments": [
+          "assessments/issues/AI",
+          "assessments/current/nomination"
+        ],
+        "current_answer": "The board has initiated a real inquiry, but neither a breach nor an export-policy change is established.",
+        "explanations": [
+          {
+            "explanation": "The inquiry adds scrutiny while officials retain their separate export powers.",
+            "weight": "dominant",
+            "reason": "The primary statement announces a corporate process and continued confidence in Huang, not a government export order.",
+            "discriminating_observation": "Inquiry findings, an operative Commerce license decision or enacted congressional restriction."
+          },
+          {
+            "explanation": "Security officials use verified records to force tighter controls and gain leverage over commercial advocates.",
+            "weight": "credible",
+            "reason": "The reported Rubio warning and existing hawk-commercial disagreement supply a mechanism; the classified document and resulting policy remain unverified.",
+            "discriminating_observation": "Authenticated warning and subsequent decision explicitly citing the security risk."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Inquiry finds material compromise or Commerce changes a license.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Neither outcome follows from opening the inquiry.",
+            "assessment_effect": "Reassess security officials’ leverage, company access and the factual basis of Rubio’s argument."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Add the inquiry as a documented act; keep memo allegations attributed and policy effects conditional.",
+        "next_action": "Check inquiry findings and official export decisions, not repeated headlines.",
+        "next_check": "2026-11-10",
+        "source_receipt_ids": [
+          "e7e10d8427c1c5943cb1058c",
+          "fdb8a6ed366e464bcc5fb10e",
+          "bdfbc5b181e2c0a3ead7b54b",
+          "890d564076599fd14ede8cfc",
+          "fdb8a6ed366e464bcc5fb10e"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "weekly-policy-correction": "Continue at November 15 weekly checkpoint; daily evidence does not settle support conversion or project-specific authority.",
+      "weekly-support-conversion": "Continue at November 15 weekly checkpoint; daily evidence does not settle support conversion or project-specific authority.",
+      "weekly-siting-chokepoints": "Continue at November 15 weekly checkpoint; daily evidence does not settle support conversion or project-specific authority.",
+      "unmatched-mechanism-1": "Deferred to the November 15 weekly discovery selection; no new decision-specific finding established today. Investigate authority, counterparties and implementation using dated decision-specific sources.",
+      "unmatched-mechanism-2": "Deferred to the November 15 weekly discovery selection; no new decision-specific finding established today. Investigate authority, counterparties and implementation using dated decision-specific sources.",
+      "unmatched-mechanism-3": "Deferred to the November 15 weekly discovery selection; no new decision-specific finding established today. Investigate authority, counterparties and implementation using dated decision-specific sources.",
+      "unmatched-mechanism-4": "Deferred to the November 15 weekly discovery selection; no new decision-specific finding established today. Investigate authority, counterparties and implementation using dated decision-specific sources.",
+      "unmatched-mechanism-5": "Deferred to the November 15 weekly discovery selection; no new decision-specific finding established today. Investigate authority, counterparties and implementation using dated decision-specific sources."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": null,
+        "next_action": "Check Nvidia inquiry and chip-export decisions; verify Anthropic and Meta court outcomes and project-specific siting decisions.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "e7e10d8427c1c5943cb1058c",
+          "fdb8a6ed366e464bcc5fb10e",
+          "bdfbc5b181e2c0a3ead7b54b",
+          "890d564076599fd14ede8cfc",
+          "db44b347f4671b2a48566f80"
+        ],
+        "escalation": "Issue-wide baseline date unknown. The new Nvidia inquiry is verified narrowly; other AI decisions and historical sources require follow-up.",
+        "status": "carried"
+      },
+      "EPS": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "2fa2ce17a6eb3186226041aa"
+        ],
+        "escalation": "Baseline verification date unknown; preserve explicit overdue coverage rather than infer no change.",
+        "status": "carried"
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "58abd10c14663c89545b2c30",
+          "8706ec79b851c04c4b966baa",
+          "9a4ae369ec712f7ae2d5547f"
+        ],
+        "status": "carried"
+      },
+      "IMM": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "58abd10c14663c89545b2c30"
+        ],
+        "status": "carried"
+      },
+      "IRN": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "e4f09914015328109ec9f0e1"
+        ],
+        "status": "carried"
+      },
+      "MID": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "1ff1d54ce0e08d9ef278ecbd"
+        ],
+        "status": "carried"
+      },
+      "RUS": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "e75d45e60b17636408db07c3"
+        ],
+        "escalation": "Baseline verification date unknown; Abu Dhabi outcome requires direct follow-up.",
+        "status": "carried"
+      },
+      "SUC": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "2f6cb20a6e3cae49393f215c"
+        ],
+        "status": "carried"
+      },
+      "TAR": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "58abd10c14663c89545b2c30"
+        ],
+        "escalation": "Baseline verification date unknown; preserve explicit overdue coverage rather than infer no change.",
+        "status": "carried"
+      },
+      "VEN": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "e75d45e60b17636408db07c3"
+        ],
+        "escalation": "Baseline verification date unknown; preserve explicit overdue coverage rather than infer no change.",
+        "status": "carried"
+      }
+    },
+    "discovery_question": "Can corporate scrutiny of Nvidia change who controls chip-export decisions, or only the pressure on decision-makers?",
+    "discovery_disposition": "Incorporate corporate directors and outside counsel as evidence gatekeepers; distinguish them from officials authorized to set exports. No nominee addition or new forecast mechanism.",
+    "premise_reconciliation": "Compared current summaries with dated episodes. Updated Vance’s permission/responsibility distinction, Iran meeting status, completed Israeli mandate, Nvidia inquiry and executive oversight resistance. Legacy scores remain unchanged and are not evidence of authority.",
+    "source_receipts": [
+      {
+        "kind": "query",
+        "value": "November 9 2026 Stephen Miller Wiles chief staff handover midterm Trump Vance reactions",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Staff handover and post-election reactions",
+        "status": "read",
+        "result": "Found announcement and reactions; completed operational handover not established.",
+        "reporting_origin": "Web search",
+        "id": "5b8adb31ccd6da62abaa17c1"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 election House Senate results outstanding races",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Direct election outcome check",
+        "status": "read",
+        "result": "Results continue to show incoming Democratic control; open calls require follow-up.",
+        "reporting_origin": "Web search",
+        "id": "2f5621b337b1fb9ec0d1a26a"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 data center utility regulators electricity permitting",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Overdue AI catch-up and discovery outside candidate frame",
+        "status": "read",
+        "result": "Results included new studies, not a verified project-specific regulatory decision.",
+        "reporting_origin": "Web search",
+        "id": "db44b347f4671b2a48566f80"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Lisa Cook hearing court Venezuela TPS tariffs Section 301 court ruling",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Cross-issue calendar screen",
+        "status": "read",
+        "result": "Found earlier TPS orders and legal summaries; no new operative disposition established.",
+        "reporting_origin": "Web search",
+        "id": "58abd10c14663c89545b2c30"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Iran talks strikes Russia Abu Dhabi Venezuela Citgo Israel Eisenkot mandate",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Military and diplomatic calendar screen",
+        "status": "read",
+        "result": "Found scheduled Russia talks and Iranian reports; targeted follow-up required.",
+        "reporting_origin": "Web search",
+        "id": "e75d45e60b17636408db07c3"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Rubio subpoena Nvidia investigation memorandum",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Test Rubio role and chip-export oversight",
+        "status": "read",
+        "result": "AP and Anadolu reports found; Anadolu attributes memo account to NYT.",
+        "reporting_origin": "Web search",
+        "id": "957e9b53afe4d22e741bf12b"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Lisa Cook lawsuit hearing",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Legal watch 1",
+        "status": "read",
+        "result": "Prior process reporting found; new hearing outcome unresolved.",
+        "reporting_origin": "Web search",
+        "id": "8706ec79b851c04c4b966baa"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Pete Hegseth inspector general impeachment",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Legal watch 2",
+        "status": "read",
+        "result": "Impeachment pressure and expected floor action surfaced, not a completed vote or removal.",
+        "reporting_origin": "Web search",
+        "id": "7a3a5d442d2bcf8afdcecaac"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Maurene Comey appeal lawsuit",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Legal watch 3",
+        "status": "read",
+        "result": "Earlier judgment and docket summaries found; new appeal outcome unresolved.",
+        "reporting_origin": "Web search",
+        "id": "2fa2ce17a6eb3186226041aa"
+      },
+      {
+        "kind": "query",
+        "value": "\"November 9, 2026\" \"Miller\" \"chief of staff\" site:whitehouse.gov",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Official handover follow-up",
+        "status": "read",
+        "result": "No decisive official completion record returned.",
+        "reporting_origin": "Web search",
+        "id": "8c16afde0cd1f07e0e4e932c"
+      },
+      {
+        "kind": "query",
+        "value": "\"November 9, 2026\" \"Eisenkot\" mandate Herzog",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Direct outcome check after scheduled mandate",
+        "status": "read",
+        "result": "Multiple reports describe completed ceremony; official primary subsequently read.",
+        "reporting_origin": "Web search",
+        "id": "8eb2ba6ecf0eb425f60a22ab"
+      },
+      {
+        "kind": "query",
+        "value": "\"November 9, 2026\" \"Iran\" \"Qeshm\" talks Reuters",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Accessible original reporting on military and diplomatic developments",
+        "status": "read",
+        "result": "Found readable Reuters syndication on planned Qatar meeting and attributed strike reports.",
+        "reporting_origin": "Web search",
+        "id": "93c211738440ac5f8425d96c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh official index",
+        "status": "read",
+        "result": "Latest November 8 oversight statement; limited focused screen, not exhaustive census.",
+        "reporting_origin": "White House",
+        "id": "e08aaa051ff8e9d8d2f5fc87"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh executive policy index",
+        "status": "read",
+        "result": "Newest visible November 5 proclamation; no current immigration implementation established.",
+        "reporting_origin": "White House",
+        "id": "8c11a8f53692849358a3d9f9"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/politics/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh independent recall index",
+        "status": "read",
+        "result": "November 8 interviews surfaced.",
+        "reporting_origin": "CBS News",
+        "id": "bbaa690c2b79aa3a306e213f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.memeorandum.com/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh shared intake and independent recall",
+        "status": "read",
+        "result": "November 9 7:55 AM ET index; Nvidia inquiry, Rubio memo reporting and Trump interview surfaced. Aggregation not corroboration.",
+        "reporting_origin": "Memeorandum",
+        "id": "f05a9099cfe4b3a0096fe9b7"
+      },
+      {
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-9-nov-2026",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Direct weekday digest",
+        "status": "blocked",
+        "result": "Not accessible via web tool; no substitute digest searched.",
+        "reporting_origin": "TVG",
+        "id": "e61418eff3e68f1cbac74232"
+      },
+      {
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh financial-policy index",
+        "status": "read",
+        "result": "Visible latest items November 6; no new adjudication established.",
+        "reporting_origin": "Treasury",
+        "id": "9e405ca375214ace3b145906"
+      },
+      {
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Check sanctions calendar",
+        "status": "read",
+        "result": "Latest visible November 6 Iran designations; Citgo outcome not resolved.",
+        "reporting_origin": "OFAC",
+        "id": "2eca2535f3dd9be724be2f88"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Check diplomatic primary index",
+        "status": "blocked",
+        "result": "403 Forbidden; Reuters reporting used for Iran meeting instead.",
+        "reporting_origin": "State Department",
+        "id": "177ec3ae67a2dfdf8d90787a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Check Fed policy and Cook calendar",
+        "status": "read",
+        "result": "Index loaded; does not resolve Cook court or hearing process.",
+        "reporting_origin": "Federal Reserve",
+        "id": "9a4ae369ec712f7ae2d5547f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh legal index",
+        "status": "read",
+        "result": "Latest visible November 6; no new removal or investigation inferred.",
+        "reporting_origin": "Justice Department",
+        "id": "72cf9cc6674fa15ea336a6ae"
+      },
+      {
+        "kind": "source",
+        "value": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Read Huang direct statement",
+        "status": "read",
+        "result": "November 8 acknowledgment of infidelity and cooperation with board inquiry; no admission of espionage.",
+        "reporting_origin": "Nvidia / Jensen Huang",
+        "id": "e7e10d8427c1c5943cb1058c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aa.com.tr/en/americas/rubio-oversaw-classified-memo-alleging-nvidia-ceo-s-ties-to-suspected-chinese-intelligence-operative-report/4116377",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Recover Rubio memo report",
+        "status": "read",
+        "result": "November 9 account attributes spring memo supervision to NYT; classified memo not independently available.",
+        "reporting_origin": "New York Times via Anadolu",
+        "id": "fdb8a6ed366e464bcc5fb10e"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Read reporting on Nvidia response",
+        "status": "read",
+        "result": "Readable Al Jazeera/Reuters report; board primary used for finding.",
+        "reporting_origin": "Reuters / Al Jazeera",
+        "id": "bdfbc5b181e2c0a3ead7b54b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/08/todd-blanche-calley-means-susie-wiles-maha-allegations",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Check reactions and competing responsibility accounts",
+        "status": "read",
+        "result": "Allegations disputed; no misconduct finding adopted.",
+        "reporting_origin": "Axios",
+        "id": "f62ed87be02a010610b669c7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/calley-means-health-and-human-services-face-the-nation-transcript-11-08-2026/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Read health activist public reaction",
+        "status": "read",
+        "result": "Means alleges advisers obstructed policy; assertions are not independently proven.",
+        "reporting_origin": "CBS / Calley Means interview",
+        "id": "b6b1830bf4d24ae8f741c622"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/french-hill-arkansas-republican-face-the-nation-11-08-2026/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Read Republican reaction and oversight pressure",
+        "status": "read",
+        "result": "Public interview offers reaction, not impeachment outcome.",
+        "reporting_origin": "CBS / French Hill interview",
+        "id": "99e236dc4a41370eabfb7f66"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/2026/11/icymi-ag-todd-blanche-dismantles-democrats-oversight-charade-on-the-sunday-shows/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Read executive counter-move to incoming oversight",
+        "status": "read",
+        "result": "November 8 release defends executive officials against congressional scrutiny; rhetorical position, not court ruling.",
+        "reporting_origin": "White House / Todd Blanche",
+        "id": "1ff1d54ce0e08d9ef278ecbd"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Read Trump response to loss and Vance criticism",
+        "status": "read",
+        "result": "Interview recorded November 6, published November 8: Trump acknowledged prior discussion of Vance post, contemplated immigration compromise, defended war decision and Hegseth.",
+        "reporting_origin": "CBS / Donald Trump interview",
+        "id": "2f6cb20a6e3cae49393f215c"
+      },
+      {
+        "kind": "source",
+        "value": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Enrich planned Qatar meeting and agreement prospects",
+        "status": "read",
+        "result": "November 9 Reuters: meeting planned later Monday; Rubio rejects Iranian conditions; strike reports attributed to Iranian media, not confirmed by US.",
+        "reporting_origin": "Reuters",
+        "id": "e4f09914015328109ec9f0e1"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.australianjewishnews.com/eisenkot-tasked-with-forming-government/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Recover ceremony outcome through licensed reporting",
+        "status": "read",
+        "result": "Accessible article portion confirms November 8 mandate; lower article metered; official source subsequently read.",
+        "reporting_origin": "Times of Israel via Australian Jewish News",
+        "id": "f4b5151968e089d1625d602a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.president.gov.il/en/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Refresh official Israeli outcome index",
+        "status": "read",
+        "result": "November 8 completed ceremony listed; opened exact release.",
+        "reporting_origin": "Israeli presidency",
+        "id": "d9d6684561087183f0bb6a20"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.president.gov.il/en/president-herzog-tasks-gadi-eisenkot-with-forming-a-government/",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Verify actual mandate after scheduled event",
+        "status": "read",
+        "result": "November 8 official statement confirms mandate; coalition formation still pending.",
+        "reporting_origin": "Israeli presidency",
+        "id": "2febd3bd2869cf65136e9f4a"
+      },
+      {
+        "id": "890d564076599fd14ede8cfc",
+        "kind": "source",
+        "value": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "window": "2026-11-08:2026-11-09",
+        "purpose": "Verify corporate response and distinguish investigation from proven compromise",
+        "status": "read",
+        "result": "November 8 board statement confirms independent investigation and confidence in Huang; board says no reason to believe secrets compromised.",
+        "reporting_origin": "Nvidia board statement"
+      }
+    ],
+    "execution_checkpoints": [
+      "Before intake: selected policy correction, support conversion, siting catch-up and Nvidia authority discovery.",
+      "During adjudication: board primary dominates inquiry finding; memo remains attributed; permission does not prove voter trust.",
+      "Before preflight: retained all unanswered priorities, separated likelihood from impact and checked that no rhetorical change was labeled implementation."
+    ],
+    "receipt_reuse": "Recent source-health entries were dated November 8. No cached receipt was used as fresh verification; mutable official and independent indexes were refreshed today. Lookup returned no reusable current-window White House receipt.",
+    "material_countercases": [
+      {
+        "claim": "Trump’s immigration opening leads to an actual agreement.",
+        "weight": "credible",
+        "reason": "He publicly raises it, but no operative proposal or congressional agreement is verified; Miller’s elevation supports a competing continuation path.",
+        "observation": "A specific bill, negotiated terms and changed instructions."
+      },
+      {
+        "claim": "Blanche’s defense will successfully prevent oversight.",
+        "weight": "limited",
+        "reason": "The public position is documented but outcomes depend on records demands and courts; no success is inferred.",
+        "observation": "Subpoena compliance, privilege rulings and actual production."
+      },
+      {
+        "claim": "Qatar mediation quickly ends the war.",
+        "weight": "limited",
+        "reason": "Reuters reports disputed terms and officials’ doubts; meeting access alone is weak evidence of settlement.",
+        "observation": "Accepted terms and sustained implementation."
+      }
+    ],
+    "preflight_reassessment": "Final research-questions pass: all three carried priorities and five discovery leads have explicit dispositions. Narrow new findings are separated from carried issue-wide syntheses. Actual receipts support attempted priorities and catch-up; support census deferred. Future likelihood, impact and countercase weights remain separate from held nomination probabilities."
+  },
+  "nominee_review": {
+    "probabilities_pct": {
+      "jd_vance": 32.85,
+      "marco_rubio": 11.95,
+      "ron_desantis": 18.55,
+      "ted_cruz": 5.8,
+      "john_mcentee": 5.35,
+      "rand_paul": 9.9,
+      "brian_kemp": 12.1,
+      "thomas_massie": 3.5
+    },
+    "delta_pp": {
+      "jd_vance": 0,
+      "marco_rubio": 0,
+      "ron_desantis": 0,
+      "ted_cruz": 0,
+      "john_mcentee": 0,
+      "rand_paul": 0,
+      "brian_kemp": 0,
+      "thomas_massie": 0
+    },
+    "nominees_added": [],
+    "candidate_coverage": {
+      "jd_vance": "partial",
+      "marco_rubio": "partial",
+      "ron_desantis": "unreviewed",
+      "ted_cruz": "unreviewed",
+      "john_mcentee": "unreviewed",
+      "rand_paul": "unreviewed",
+      "brian_kemp": "unreviewed",
+      "thomas_massie": "partial"
+    },
+    "shared_evidence": [
+      "ai-2026-11-08-nvidia-board-inquiry",
+      "suc-2026-11-08-trump-vance-immigration-interview",
+      "mid-2026-11-08-blanche-oversight-defense",
+      "irn-2026-11-09-qatar-meeting-plan"
+    ],
+    "cross_report_implications": "Permitted disagreement can preserve Vance’s access while raising demands for results; chip-security scrutiny may strengthen hawks’ argument without proving Rubio support or a policy victory. Forecast probabilities are not evidence of faction strength.",
+    "gaps": [
+      "Focused shared intake, not full collector enumeration or an all-candidate support audit. No fresh donor, early-state organization or representative primary-voter census.",
+      "Miller’s operational handover, remaining election calls, court dispositions, Hegseth floor action, and the Qatar meeting outcome remain unresolved.",
+      "The Rubio classified memo is attributed reporting; no memo, security breach or resulting export order independently verified.",
+      "Health-policy corruption allegations are disputed; no misconduct finding adopted.",
+      "Conditional on the eight authorized contenders; unlisted candidates can win."
+    ],
+    "wargame_ref": "2026-11-08-weekly-support-appeal-review"
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Nvidia’s board opens an independent inquiry into reports that foreign intelligence targeted Jensen Huang.",
+        "event_ids": [
+          "ai-2026-11-08-nvidia-board-inquiry"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues"
+        ],
+        "reason": "Reflect the new action while separating announcements, authority and outcomes."
+      },
+      {
+        "finding": "Trump says Vance discussed his Iran criticism with him and raises the possibility of an immigration deal.",
+        "event_ids": [
+          "suc-2026-11-08-trump-vance-immigration-interview"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues"
+        ],
+        "reason": "Reflect the new action while separating announcements, authority and outcomes."
+      },
+      {
+        "finding": "Blanche pledges to defend executive officials against Democrats’ planned investigations.",
+        "event_ids": [
+          "mid-2026-11-08-blanche-oversight-defense"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues"
+        ],
+        "reason": "Reflect the new action while separating announcements, authority and outcomes."
+      },
+      {
+        "finding": "Trump and Vance plan talks with Qatar’s prime minister as Iran’s proposed terms remain disputed.",
+        "event_ids": [
+          "irn-2026-11-09-qatar-meeting-plan"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues"
+        ],
+        "reason": "Reflect the new action while separating announcements, authority and outcomes."
+      },
+      {
+        "finding": "Herzog delivered Eisenkot’s mandate.",
+        "event_ids": [
+          "irn-2026-11-07-herzog-selects-eisenkot"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/IRN",
+          "assessments/current"
+        ],
+        "reason": "Passed scheduled event verified directly; coalition still pending."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. New decision-specific findings are reflected in major_developments and the dispute summary; other outcomes are not freshly verified."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. Calendar/search screen did not resolve substantive outcomes."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. Calendar/search screen did not resolve substantive outcomes."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. New decision-specific findings are reflected in major_developments and the dispute summary; other outcomes are not freshly verified."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. New decision-specific findings are reflected in major_developments and the dispute summary; other outcomes are not freshly verified."
+      },
+      "MID": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. New decision-specific findings are reflected in major_developments and the dispute summary; other outcomes are not freshly verified."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. Calendar/search screen did not resolve substantive outcomes."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. New decision-specific findings are reflected in major_developments and the dispute summary; other outcomes are not freshly verified."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. Calendar/search screen did not resolve substantive outcomes."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Issue-wide synthesis carried with coverage debt. Calendar/search screen did not resolve substantive outcomes."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "New public permission for Vance’s differentiation and immigration talks coexists with executive resistance to oversight, unresolved military bargaining and corporate scrutiny. No implemented reset has been verified.",
+    "dated_assumptions": [
+      {
+        "assumption": "Chief of staff",
+        "date": "2026-11-09",
+        "status": "unreviewed",
+        "reason": "Operational handover due today remains unverified."
+      },
+      {
+        "assumption": "Israel mandate ceremony",
+        "date": "2026-11-08",
+        "status": "verified",
+        "reason": "Presidency confirms completed November 8 ceremony; coalition pending."
+      },
+      {
+        "assumption": "Qatar meeting",
+        "date": "2026-11-08",
+        "status": "pending",
+        "reason": "Reuters reports planned November 9 meeting; outcome pending."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Vance’s criticism means a personal rupture with Trump.",
+        "finding": "Trump acknowledges prior discussion while emphasizing shared decisions.",
+        "consequence": "Limited weight for an immediate rupture; dominant interpretation is permitted differentiation. Voter blame-shifting remains a credible countercase."
+      }
+    ]
+  },
+  "coverage": {
+    "scope": "Focused shared intake on post-election statements, Iran mediation, Nvidia’s inquiry and Israel’s mandate ceremony. Remaining election calls, court dispositions, the Miller handover and operational military decisions remain incompletely verified. All other issue findings are carried.",
+    "sourcesRead": [
+      "https://www.whitehouse.gov/releases/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://www.cbsnews.com/politics/",
+      "https://www.memeorandum.com/",
+      "https://home.treasury.gov/news/press-releases",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.justice.gov/news",
+      "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "https://www.aa.com.tr/en/americas/rubio-oversaw-classified-memo-alleging-nvidia-ceo-s-ties-to-suspected-chinese-intelligence-operative-report/4116377",
+      "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+      "https://www.axios.com/2026/11/08/todd-blanche-calley-means-susie-wiles-maha-allegations",
+      "https://www.cbsnews.com/news/calley-means-health-and-human-services-face-the-nation-transcript-11-08-2026/",
+      "https://www.cbsnews.com/news/french-hill-arkansas-republican-face-the-nation-11-08-2026/",
+      "https://www.whitehouse.gov/releases/2026/11/icymi-ag-todd-blanche-dismantles-democrats-oversight-charade-on-the-sunday-shows/",
+      "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+      "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
+      "https://www.australianjewishnews.com/eisenkot-tasked-with-forming-government/",
+      "https://www.president.gov.il/en/",
+      "https://www.president.gov.il/en/president-herzog-tasks-gadi-eisenkot-with-forming-a-government/",
+      "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    ],
+    "queries": 12,
+    "queriesPerIssue": {
+      "AI": 3,
+      "MID": 3,
+      "SUC": 2,
+      "FED": 2,
+      "IMM": 1,
+      "IRN": 3,
+      "RUS": 1,
+      "TAR": 1,
+      "VEN": 1,
+      "EPS": 1
+    },
+    "perIssue": {
+      "AI": "focused review; other findings carried",
+      "EPS": "calendar screen only; substantive findings carried",
+      "FED": "calendar screen only; substantive findings carried",
+      "IMM": "focused review; other findings carried",
+      "IRN": "focused review; other findings carried",
+      "MID": "focused review; other findings carried",
+      "RUS": "calendar screen only; substantive findings carried",
+      "SUC": "focused review; other findings carried",
+      "TAR": "calendar screen only; substantive findings carried",
+      "VEN": "calendar screen only; substantive findings carried"
+    },
+    "outcomes": {
+      "Outstanding election calls and certifications": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Mississippi and Alaska unresolved in dated reporting; no final margins or certification inferred."
+      },
+      "Israel government formation": {
+        "status": "pending",
+        "finding": "November 8 mandate ceremony verified in presidency primary source. Coalition and transfer of government remain pending.",
+        "source": "https://www.president.gov.il/en/president-herzog-tasks-gadi-eisenkot-with-forming-a-government/"
+      },
+      "Cook court filing and hearing": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Reuters reports December 14 hearing indication and Nov 6 joint status report; process and participation remain pending."
+      },
+      "Iran war decision": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. No accepted agreement or new operational directive verified. Targeted search does not resolve the decision."
+      },
+      "House leadership and Pentagon job pressure": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Check Nov 10 conference votes, Massie floor action, Hegseth job status and Tennessee appointment."
+      },
+      "Succession": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Rubio gave a public response. Check endorsements, organization, polling and any confirmed departure."
+      },
+      "AI": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Check Anthropic rehearing and FTC action, Meta appeal and Nov 15 export-control comments."
+      },
+      "Epstein oversight": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Massie predicted 218 signatures. Verify the actual tally, any floor vote, releases and any Maurene Comey appeal filing."
+      },
+      "Immigration court decisions": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Verify Nov 6 Venezuela TPS stay disposition and mandate, bond detention and Khalil."
+      },
+      "Tariffs": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Check Section 301 ruling, Section 338 litigation and Canadian negotiations."
+      },
+      "Venezuela": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Check OFAC Citgo decision and Nov 11–15 talks."
+      },
+      "Russia": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Check Abu Dhabi talks, deliveries and Nov 21 Lukoil license expiration."
+      },
+      "Election enforcement grand jury": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Search surfaced prior subpoena reporting. The specific Nov 4 Los Angeles outcome remains unverified."
+      },
+      "Senate oversight": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Watch for production, subpoenas and committee authority after organization."
+      },
+      "Afghan removal order expiration": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Read ECF 21: November 6 extension supersedes November 7 expiration for identified clients. Already recorded in weekly review; no new national ban.",
+        "source": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2026cv09602/676381/21/0.pdf"
+      },
+      "D.C. Guard implementation and litigation": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Check implementation of expanded patrol authority and status of District litigation."
+      },
+      "Chamber control": {
+        "status": "reviewed",
+        "finding": "Current search results and November 8 interview context continue to identify incoming Democratic control of both chambers. Remaining individual races and certification not comprehensively verified; authority changes in January."
+      },
+      "Israel consultations": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Herzog reported 67 recommendations for Eisenkot and 46 for Netanyahu. Mutual vetoes still constrain government formation."
+      },
+      "Iran mediation contact": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Carried from Nov 6; not independently resolved this run. Qatar reported the Nov 6 Trump–Tamim call on de-escalation."
+      },
+      "Venezuela TPS administrative stay": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Read Nov 3 order granting temporary stay; mandate issuance and later disposition remain pending."
+      },
+      "Chief of staff": {
+        "status": "unreviewed",
+        "finding": "November 9 operational handover due today. Announcement and reactions located; actual responsibilities and Wiles role not independently confirmed."
+      },
+      "Iran sanctions": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Eight Canadian businesses designated Nov 6; financial effects unknown."
+      },
+      "Iran diplomacy and operations": {
+        "status": "pending",
+        "finding": "November 9 Qatar meeting planned. Outcome and agreement pending; overnight Qeshm reports attributed to Iranian media, not confirmed US orders.",
+        "source": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html"
+      },
+      "Senate leadership timetable": {
+        "status": "unreviewed",
+        "finding": "Carried unresolved calendar item; this focused review did not establish a new outcome. Carried pending question: Reported Johnson delay request; no postponement or leadership result verified."
+      },
+      "Nvidia inquiry": {
+        "status": "pending",
+        "finding": "Board investigation verified; security findings and policy consequences pending.",
+        "source": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+      }
+    },
+    "watchlist": [
+      "Outstanding election calls and certifications",
+      "Israel government formation",
+      "Cook court filing and hearing",
+      "Iran war decision",
+      "House leadership and Pentagon job pressure",
+      "Succession",
+      "AI",
+      "Epstein oversight",
+      "Immigration court decisions",
+      "Tariffs",
+      "Venezuela",
+      "Russia",
+      "Election enforcement grand jury",
+      "Senate oversight",
+      "D.C. Guard implementation and litigation",
+      "Israel consultations",
+      "Iran mediation contact",
+      "Venezuela TPS administrative stay",
+      "Chief of staff",
+      "Iran sanctions",
+      "Iran diplomacy and operations",
+      "Senate leadership timetable",
+      "November 9 Afghan complaint amendment",
+      "November 10 Afghan briefing schedule",
+      "Vance voter reception and recruiter commitments",
+      "November 9 Qatar meeting outcome",
+      "Nvidia inquiry findings and chip licenses",
+      "Miller handover and Wiles responsibilities",
+      "February 1 support recruitment test"
+    ],
+    "lookbackDays": 1,
+    "blocked": [
+      "State releases: 403 Forbidden",
+      "TVG November 9 brief: inaccessible"
+    ],
+    "unplaced": [
+      "Health-policy allegations and denials read as contested context; no independent misconduct finding."
+    ],
+    "gaps": [
+      {
+        "gap": "Diplomatic primary index blocked",
+        "routes": [
+          {
+            "route": "State releases",
+            "tried": true,
+            "whyItFailed": "403 Forbidden"
+          },
+          {
+            "route": "Reuters via licensed StreetInsider",
+            "tried": true,
+            "whyItFailed": "Readable report obtained, but future meeting outcome remains pending"
+          }
+        ]
+      }
+    ],
+    "watched": [
+      "Donald Trump",
+      "JD Vance",
+      "Marco Rubio",
+      "Todd Blanche",
+      "Stephen Miller",
+      "Susie Wiles",
+      "Jensen Huang",
+      "Isaac Herzog",
+      "Gadi Eisenkot",
+      "Lisa Cook",
+      "Pete Hegseth",
+      "Maurene Comey"
+    ],
+    "queue": {
+      "captured": 0,
+      "triaged": 0
+    },
+    "thinDays": [
+      "2026-11-09"
+    ],
+    "deviations": [
+      "Focused intake; not exhaustive collector, newsletter access, source pagination or all-candidate search.",
+      "Slicer input contract required repairs before successful execution. Manual duplicate review retained the existing Herzog episode; Nvidia inquiry and planned Qatar meeting are new decisions rather than duplicates of earlier reports.",
+      "No independent reviewer; second copy pass by the same analyst.",
+      "Snapshot-only scope: no prompts, production documents or memory edited. Targeted retrieval initially requested nonexistent paths, then used key-only shape inspection; no full ledger dump."
+    ],
+    "propagation": {
+      "ai-2026-11-08-nvidia-board-inquiry": [
+        "assessments/current",
+        "assessments/issues",
+        "nominations/republican_2028"
+      ],
+      "suc-2026-11-08-trump-vance-immigration-interview": [
+        "assessments/current",
+        "assessments/issues",
+        "nominations/republican_2028"
+      ],
+      "mid-2026-11-08-blanche-oversight-defense": [
+        "assessments/current",
+        "assessments/issues",
+        "nominations/republican_2028"
+      ],
+      "irn-2026-11-09-qatar-meeting-plan": [
+        "assessments/current",
+        "assessments/issues",
+        "nominations/republican_2028"
+      ]
+    },
+    "fxStats": {
+      "scored": 0,
+      "empty": 4,
+      "emptyWithReason": 4
+    },
+    "checklist": {
+      "collector": "partial: focused official and independent indexes",
+      "watch": "partial: all-issue calendar screen; three legal searches; outcome gaps explicit",
+      "duplicates": "done",
+      "plain_language": "done",
+      "validation": "done"
+    },
+    "editorial_notes": [
+      "Titles name actors and distinct actions. Replaced prospective Israeli ceremony with completed dated mandate; preserved coalition uncertainty. No wargame prose or historical forecast inputs changed.",
+      "Second-pass critique found repeated issue-scope paragraphs and unexplained Megaspeed context. Replaced the repetitions with precise coverage statements, explained Megaspeed as a chip buyer, expanded Vance/Blanche roles and removed duplicate prospective Israeli selection language.",
+      "Reviewed each changed headline alone; names and actions distinguish the inquiry, interview, oversight defense, Qatar meeting and Israeli mandate. No new scenario or wargame title was written.",
+      "All original prediction claims and deadlines preserved; daily monitoring explanations do not resolve future tests."
+    ],
+    "validation_notes": [
+      "Initial preflight required source/query receipts for attempted priorities. Marked the unattempted support-conversion census deferred rather than implying a fresh review.",
+      "Preserved the unknown issue-wide AI verification baseline: the narrowly verified board inquiry does not erase other AI coverage debt.",
+      "Preflight derives issue-wide verification dates from assessment_audit.issue_coverage. Marked those syntheses carried while identifying the newly verified decisions separately in major_developments; preserved plan baselines consistently. Used read-only debugger inspection of validator state to identify the mismatch; no scripts or production files edited."
+    ],
+    "validation_results": "PASS: runner-provided Daily preflight exited 0 after research-priority, nominee, maintained-assessment, event/profile and reader-copy checks. Research turn performed no publication or application."
+  },
+  "validation_results": "PASS: runner-provided Daily preflight exited 0 after research-priority, nominee, maintained-assessment, event/profile and reader-copy checks. Research turn performed no publication or application.",
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "afb56e72e7dbe0d219356820af81aebb4b586524dbcd1fc25b28abd62c54007c",
+        "reader_takeaway": "Trump has room to discuss policy changes while executive officials prepare to contest oversight; Vance has permission to differentiate, not proof of voter gains.",
+        "context_check": "Expanded Vance’s vice-presidential role and Eisenkot’s party role. Cabinet, congressional and corporate actions are distinguished.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": [
+          "Expanded roles for readers; clarified Israel’s mandate as an opportunity to form a government."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "78a71244ee0506f543aefdaadec071280f8c0ae26f89401f67bcfb992d1b7588",
+        "reader_takeaway": "New statements and the Nvidia inquiry affect five issue disputes; all other policy and court findings remain carried.",
+        "context_check": "Replaced repeated findings in scope paragraphs with precise subjects and coverage limits; expanded Rubio and Blanche roles.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": [
+          "Removed duplicate issue-scope narratives and redundant prospective Israeli selection language."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "f30962e7f1da9ee2d42d0e633f3eeb7aa056c3a145c37ccdaf00e34f8e6bc29b",
+        "reader_takeaway": "Nvidia’s board starts an inquiry; the reported Rubio warning remains attributed and a breach is not proven.",
+        "context_check": "Explained Megaspeed as a chip buyer, identified the board and outside counsel, and named Rubio’s office.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": [
+          "Explained the earlier Megaspeed allegations and expanded the headline’s description of Huang."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "a5202cb591ca5a17b9ff7cd6d8b79db099a1510e9f10c9a5b2b984a05161e206",
+        "reader_takeaway": "Israel’s mandate ceremony is complete, but coalition formation and the Qatar meeting outcome remain open.",
+        "context_check": "Both headlines name distinct actions and actors. The planned meeting is dated; the earlier selection episode now records the later completed ceremony.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": [
+          "Replaced the expired prospective mandate description with verified completion while preserving the November 7 selection date."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "e3de1ac54e0881576b1ad0d99e74cab39dccb927c5d46d1f8ac0ceb6ece7b90c",
+        "reader_takeaway": "Attorney General Blanche is defending executive officials publicly; no court ruling or successful obstruction follows.",
+        "context_check": "Expanded Blanche’s name and job in the headline; context explains who can respond and what remains to happen.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": [
+          "Named the attorney general in the standalone headline."
+        ]
+      },
+      "events/SUC": {
+        "fingerprint": "e9cf72f22b762f2547b3aa860ef800f11230c6f4a8fd5ed9c4dff0e3bbea630c",
+        "reader_takeaway": "Trump’s public account supports permitted disagreement by Vance without erasing responsibility or changing immigration law.",
+        "context_check": "Expanded Vance’s job and distinguished interview recording from publication dates.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": [
+          "Expanded the president and vice president roles in context."
+        ]
+      },
+      "factions/maximalists": {
+        "fingerprint": "490dcaec193bbc9a7bb9146799370cd6759e8b3aab49be6f9dabbfa2e9934abe",
+        "reader_takeaway": "Blanche’s response may reassure executive allies but does not establish immunity or halted oversight.",
+        "context_check": "The added paragraph names the attorney general and his action, then explains the audience and political gain. No additional edit needed after separate rereading. ",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": []
+      },
+      "factions/tech-right": {
+        "fingerprint": "31e35a95a9980f7ac71fe266b971daab4771727d5c121f51f3089ad04d76c040",
+        "reader_takeaway": "Nvidia’s inquiry may strengthen demands for chip scrutiny while policy remains unchanged.",
+        "context_check": "The paragraph explains corporate versus government action and the board’s continued support; no unresolved shorthand needed repair after rereading.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": []
+      },
+      "factions/vance": {
+        "fingerprint": "466a65611f3781c4daa3ad8c39b17abd5f37ed990cf9d34644eecc62a7279caf",
+        "reader_takeaway": "Trump’s prior discussion supports a strategy of differentiation while Vance seeks diplomatic results.",
+        "context_check": "Named actors and full sentences explain the political opportunity, responsibility and unmeasured reception. No extra edit needed after rereading.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": []
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "ba80be923745696ca72186d8ed63c6fda6559534d4c01fe9fd68149d6b92098b",
+        "reader_takeaway": "November 8 probabilities remain held for all eight; seven tests have future deadlines and unresolved outcomes.",
+        "context_check": "Source descriptions explain reporting origin and limits. Monitoring resolutions belong to the full forecast evidence record, not claims of completed future outcomes; no extra prose correction required.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": []
+      },
+      "runs/2026-11-09": {
+        "fingerprint": "d95a5ef1b980f52ad4d2063d7b2ec280f4b882386799113d3df3b0ec738d84a6",
+        "reader_takeaway": "The intake has useful findings and explicit major coverage gaps; no daily odds or roster change occurred.",
+        "context_check": "Summary explains actors and consequences. Record paths remain deliberate audit material in changed_entries. No extra public summary edit was needed after rereading.",
+        "uncertainty_check": "Preserved statements versus implementation, attributed reporting versus confirmed acts, and forecasts versus measured support. Dates and pending outcomes remain explicit; no private allegation became a proven fact.",
+        "changes_made": []
+      }
+    }
+  }
+}

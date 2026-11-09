@@ -1,7 +1,7 @@
 {
   "AI": {
     "policy": "The administration is trying to limit states’ ability to regulate artificial intelligence while allowing commercial chip exports and voluntary safety reviews of advanced AI systems. The Pentagon is also seeking broad permission to use AI for military purposes.",
-    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved.",
+    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved. Nvidia’s board opened an independent inquiry on November 8. That creates a route for new evidence about chip-export risks, but establishes neither espionage nor a changed export rule. The reported warning memo supervised by Secretary of State Marco Rubio remains attributed to the New York Times via Anadolu.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -114,10 +114,11 @@
       "ai-2026-11-03-anthropic-ipo-valuation",
       "ai-2026-11-03-permitting-bill-power-groups",
       "ai-2026-11-03-local-data-center-ballots",
-      "ai-2026-11-02-cyber-info-sharing"
+      "ai-2026-11-02-cyber-info-sharing",
+      "ai-2026-11-08-nvidia-board-inquiry"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation. November 8 targeted authority review: Berkeley Lab’s October overview supports the general approval structure. Project-specific loan terms and local ballot implementation remain unresolved; other AI findings are carried.",
+    "scope": "November 9 focused review of Nvidia’s board statement and attributed reporting about Rubio’s warning memo. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -488,7 +489,7 @@
   },
   "IMM": {
     "policy": "The administration continues large-scale immigration enforcement and restrictions on visas and foreign labor. Courts have limited particular practices; the November 6 order temporarily protects the Afghan clients covered by that case, rather than granting nationwide relief.",
-    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement.",
+    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Miller’s planned promotion leaves the administration’s practical direction unresolved.",
     "player_ids": [
       "miller",
       "wiles",
@@ -558,10 +559,11 @@
       "imm-2026-11-01-bronx-visa-claim",
       "imm-2026-10-31-salazar-warning",
       "imm-2026-10-31-north-hollywood-video",
-      "imm-2026-10-26-afghan-deportations"
+      "imm-2026-10-26-afghan-deportations",
+      "suc-2026-11-08-trump-vance-immigration-interview"
     ],
-    "research_as_of": "2026-11-07",
-    "scope": "Weekly causal review 2026-11-07: targeted evidence recheck; full implementation and court calendar not independently verified. No silence treated as confirmation.",
+    "research_as_of": "2026-11-08",
+    "scope": "November 9 focused review of Trump’s public opening to an agreement over some workers without legal status. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
     "actors": [
       {
         "person_id": "miller",
@@ -614,7 +616,7 @@
   },
   "IRN": {
     "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive. Trump’s November 8 comments favor further talks conditionally, while retaining the threat of force; an accepted agreement is not established.",
-    "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice. Israeli President Isaac Herzog has selected opposition leader Gadi Eisenkot to try forming Israel’s government; a coalition and any effect on war negotiations remain unsettled.",
+    "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice. Qatar’s prime minister is scheduled to meet Trump and Vance on November 9; the outcome remains pending. Rubio continues to reject Iran’s terms. Israel’s president formally gave Eisenkot the government-forming mandate on November 8, but a coalition and changed Israeli war policy remain unresolved.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -736,10 +738,11 @@
       "irn-2026-11-04-vance-postelection-war-critique",
       "irn-2026-11-03-qeshm-strikes",
       "irn-2026-11-07-herzog-selects-eisenkot",
-      "irn-2026-11-08-trump-conditional-talks"
+      "irn-2026-11-08-trump-conditional-talks",
+      "irn-2026-11-09-qatar-meeting-plan"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "Focused November 8 review: Vance’s campaign messaging checked through readable Reuters syndication. Other policy conclusions are carried; no new settlement, military directive or transfer of primary support was verified.",
+    "scope": "November 9 focused review of the planned Qatar meeting, disputed Iranian terms and the completed Israeli mandate ceremony. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -873,7 +876,7 @@
   },
   "MID": {
     "policy": "The Associated Press projects that Democrats will control both chambers of the next Congress. They take office in January; current members retain their powers until then.",
-    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended. Health-policy activists’ outreach to Democrats shows another possible split in Trump’s coalition, but no measured transfer of voters or completed Cabinet removal.",
+    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended. Health-policy activists’ outreach to Democrats shows another possible split in Trump’s coalition, but no measured transfer of voters or completed Cabinet removal. Attorney General Todd Blanche’s November 8 public defense of executive officials signals resistance to incoming Democratic oversight. It may reassure administration allies, but no court ruling or successful obstruction was established.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -979,10 +982,11 @@
       "mid-2026-11-05-wiles-hegseth-blame",
       "mid-2026-11-05-blumenthal-preservation-notices",
       "mid-2026-11-06-doj-departures",
-      "mid-2026-11-08-health-activist-outreach"
+      "mid-2026-11-08-health-activist-outreach",
+      "mid-2026-11-08-blanche-oversight-defense"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "Weekly causal review 2026-11-07: targeted evidence recheck; full implementation and court calendar not independently verified. No silence treated as confirmation.",
+    "scope": "November 9 focused review of Blanche’s public response to incoming congressional investigations. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1278,7 +1282,7 @@
   },
   "SUC": {
     "policy": "Republicans have not selected a 2028 nominee. Vance has the strongest organization documented in this research, but Trump has not settled the succession and the final field remains uncertain.",
-    "dispute": "Vance must keep Trump-aligned voters while defending his own record. Rubio and Cruz can compete for voters and donors who favor a more confrontational foreign policy; other contenders offer different ways to move beyond the administration.",
+    "dispute": "Vance must keep Trump-aligned voters while defending his own record. Rubio and Cruz can compete for voters and donors who favor a more confrontational foreign policy; other contenders offer different ways to move beyond the administration. Trump acknowledged discussing Vance’s Iran criticism before its publication while stressing Vance’s role in decisions. Vance can distinguish his message without an immediate rupture; voter trust, endorsements and campaign commitments remain unmeasured.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -1347,10 +1351,11 @@
       "suc-2026-10-31-eve-rallies",
       "suc-2026-10-30-reses-cognition",
       "suc-2026-10-24-nyt-siena",
-      "suc-2026-10-21-vance-ohio-rally"
+      "suc-2026-10-21-vance-ohio-rally",
+      "suc-2026-11-08-trump-vance-immigration-interview"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "Focused November 8 review: Vance’s campaign messaging checked through readable Reuters syndication. Other policy conclusions are carried; no new settlement, military directive or transfer of primary support was verified.",
+    "scope": "November 9 focused review of Trump’s acknowledgment of his prior discussion with Vance. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
     "actors": [
       {
         "person_id": "donald-trump",

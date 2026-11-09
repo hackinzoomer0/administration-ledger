@@ -2844,8 +2844,8 @@
       ],
       "kind": "act",
       "actor": "Isaac Herzog; Gadi Eisenkot; Benjamin Netanyahu",
-      "text": "Israeli President Herzog selects Eisenkot to attempt forming a government; formal mandate scheduled for November 8.",
-      "context": "The presidency announced the choice after talks with Eisenkot and Netanyahu. The ceremony is scheduled for 17:00 local time on November 8. Recommendations from 67 lawmakers do not establish a governing coalition. The mandate gives Eisenkot the first opportunity to negotiate a majority; no transfer of government or change in Israeli war policy is established.",
+      "text": "Israeli President Isaac Herzog selects Gadi Eisenkot to form a government; the mandate was delivered on November 8.",
+      "context": "The presidency announced its choice on November 7 and confirms that President Isaac Herzog formally delivered the mandate to Yashar party leader Gadi Eisenkot on November 8. The ceremony is complete; forming a governing coalition remains pending. Recommendations from 67 lawmakers gave Eisenkot the first opportunity to negotiate, but do not establish a parliamentary majority willing to govern together. Benjamin Netanyahu has not been replaced by a completed new government in the evidence reviewed here. No change in Israeli war policy follows automatically. Follow-up primary source: https://www.president.gov.il/en/president-herzog-tasks-gadi-eisenkot-with-forming-a-government/",
       "source": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
       "url": "https://www.president.gov.il/en/president-herzog-concludes-consultations-and-announces-he-will-task-gadi-eisenkot-with-forming-a-government/",
       "tier": "documented",
@@ -2885,6 +2885,31 @@
         "precedent": "The 2015 Iran negotiations show that agreements require reciprocal concessions; this review does not equate the military or domestic conditions.",
         "falsifier": "A mutually accepted agreement and observed implementation would establish a policy result beyond rhetoric."
       }
+    },
+    {
+      "id": "irn-2026-11-09-qatar-meeting-plan",
+      "date": "2026-11-09",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "chron",
+      "actor": "Donald Trump; JD Vance; Mohammed bin Abdulrahman Al-Thani; Marco Rubio",
+      "text": "Trump and Vance plan talks with Qatar’s prime minister as Iran’s proposed terms remain disputed.",
+      "context": "Reuters reported on November 9 that Qatar’s prime minister, Mohammed bin Abdulrahman Al-Thani, would meet Trump and Vance later Monday. Secretary of State Marco Rubio rejected Iran’s proposed terms and did not expect an imminent breakthrough. The meeting’s completion and any resulting agreement remain unverified. Reuters also relayed Iranian media accounts of overnight strikes on Qeshm; the United States had not commented on those reports. My reading: mediation gives Vance an opportunity to demonstrate results, but incompatible demands and continuing violence constrain the next step. A reported strike is not independent proof of a new US operational directive.",
+      "source": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
+      "url": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: renewed mediation is an opportunity, not a settlement; Iran and Gulf governments retain their own demands.",
+      "origin": "2026-11-09",
+      "added": "2026-11-09",
+      "by": [
+        "vance",
+        "hawks"
+      ],
+      "fx": {},
+      "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy."
     }
   ]
 }

@@ -1688,6 +1688,28 @@
         "reading": "Local restrictions can redirect investment toward already-permitted sites. Verify the local legal effect and project exposure before inferring an aggregate capacity loss.",
         "resolution": "revised"
       }
+    },
+    {
+      "id": "ai-2026-11-08-nvidia-board-inquiry",
+      "date": "2026-11-08",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Nvidia board; Jensen Huang; Marco Rubio",
+      "text": "Nvidia’s board opens an inquiry into reports that foreign intelligence targeted chief executive Jensen Huang.",
+      "context": "Nvidia’s November 8 statement assigns the inquiry to independent directors and outside counsel. The board continues to support chief executive Jensen Huang and says it has no reason to believe national security or company secrets were compromised. The inquiry is a new corporate action following the October 29 reports alleging that Megaspeed, a chip buyer, was involved in diversion to China, not a finding that espionage occurred. On November 9, Anadolu relayed a New York Times report that Secretary of State Marco Rubio supervised a warning memo in spring. The classified memo was not available for this review; that account remains attributed reporting. My reading: the inquiry gives officials seeking tighter chip-export controls a fresh reason to demand answers, but neither an export restriction nor a gain in Rubio’s primary support has been established. https://www.aa.com.tr/en/americas/rubio-oversaw-classified-memo-alleging-nvidia-ceo-s-ties-to-suspected-chinese-intelligence-operative-report/4116377",
+      "source": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: corporate oversight can expose information relevant to chip controls, while the executive branch and Congress retain separate policy powers.",
+      "origin": "2026-11-09",
+      "added": "2026-11-09",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy."
     }
   ]
 }

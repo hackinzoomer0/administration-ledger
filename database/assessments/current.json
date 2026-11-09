@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-08",
-  "last_substantive_change": "2026-11-08",
+  "research_as_of": "2026-11-09",
+  "last_substantive_change": "2026-11-09",
   "review": {
-    "date": "2026-11-08",
-    "run_id": "2026-11-08-weekly-support-appeal-review",
-    "type": "weekly_review",
-    "scope": "Full eight-candidate causal, personal-appeal and support-base adjudication with targeted shared intake. Iran statements, health-activist outreach and data-center decision authority reviewed; other issue and historical audit coverage carried with explicit debt."
+    "date": "2026-11-09",
+    "run_id": "2026-11-09",
+    "type": "daily_review",
+    "scope": "Focused shared intake on post-election statements, Iran mediation, Nvidia’s inquiry and Israel’s mandate ceremony. Remaining election calls, court dispositions, the Miller handover and operational military decisions remain incompletely verified. All other issue findings are carried."
   },
   "administration": {
-    "headline": "Trump faces a new chief of staff, Justice Department departures and a Congress preparing to investigate him.",
-    "summary": "Trump still controls the executive branch after Republicans lost the midterms. His choice of Stephen Miller to replace Susie Wiles could put immigration enforcement and staffing decisions closer to a key advocate of stricter policies. Justice Department departures could give Attorney General Todd Blanche more room to choose managers and direct cases. When Democrats take control of Congress in January, they can demand records, hold hearings and challenge administration spending. The central question is whether Trump changes policies that voters rejected or continues them despite those pressures. Staffing announcements alone do not show that policy has changed. Vice President JD Vance is also trying to give Republicans a distinct account of the defeat without a demonstrated personal rupture with Trump. Reports of pressure to impeach Defense Secretary Pete Hegseth remain unresolved; this review did not verify a scheduled vote, his removal or a new Justice Department investigation into his critics. Trump now says renewed Iran attacks are unlikely if talks progress, while keeping the threat of force. That gives diplomacy room without establishing an agreement. Some health-policy activists are also exploring cooperation with Democrats; policy-specific outreach does not yet show a voter realignment.",
+    "headline": "Trump offers room for policy talks while his advisers prepare to resist congressional investigations.",
+    "summary": "Trump retains executive authority after Republicans lost the midterms, while Democrats prepare to take control of Congress in January. His post-election interview permits Vice President JD Vance to criticize the Iran war and raises the possibility of an immigration agreement, but establishes no implemented policy reversal. Naming Stephen Miller to replace Susie Wiles could strengthen an advocate of stricter immigration enforcement; this review has not confirmed today’s operational handover or Wiles’s new responsibilities. Attorney General Todd Blanche is publicly preparing to defend officials against congressional investigations. Iran mediation offers Vance a chance to show results, but the planned Qatar meeting has not produced a verified agreement. Nvidia’s board has opened an inquiry that could strengthen demands for scrutiny of chip exports, without establishing a security breach or a new export restriction. Israel’s president has delivered a mandate to try forming a government to Yashar party leader Gadi Eisenkot; a new coalition is still unresolved. The Fed dispute, tariffs, Epstein oversight, immigration litigation, Venezuela and Russia retain consequential verification gaps. These limits prevent a claim that the administration has already changed course.",
     "contests": [
       {
         "id": "white-house-access",
@@ -26,7 +26,7 @@
           "positions": "Public congratulations show support for the appointment; they do not establish whom anyone will back for president in 2028.",
           "money": "No evidence establishes that a payment caused the appointment. Wiles’s possible influence over campaign funds must be checked separately from her White House job."
         },
-        "watch": "Check whether Miller takes over on November 9, which responsibilities he receives and what role Wiles actually takes.",
+        "watch": "The reported November 9 handover is due today. Confirm Miller’s actual responsibilities and Wiles’s political role; this intake did not establish operational completion.",
         "event_ids": [
           "mid-2026-11-06-miller-chief-staff"
         ],
@@ -45,17 +45,18 @@
         "assessment": "Vance can use negotiations and his criticism of the war to argue for a different approach. Rubio offers a competing argument for Trump’s original decision. Those arguments may shape Trump’s options and the nomination contest, but neither establishes that a settlement or another military operation has been approved.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "In a November 8 CNN interview, Trump conditionally favored talks while retaining the threat of force. Iran’s acceptance and implementation remain unresolved.",
+        "change": "Reuters reports a planned November 9 meeting with Qatar’s prime minister and continued disagreement over Iran’s terms. No completed meeting, accepted agreement or new US operational order was verified.",
         "basis": {
           "actions": "Trump reviewed options; Vance has led negotiations.",
           "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Look for a military order, a confirmed change in operations or an agreement accepted by the parties.",
+        "watch": "Verify the Qatar meeting’s outcome, the parties’ accepted terms and any military orders; distinguish Iranian strike reports from US confirmation.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review",
-          "irn-2026-11-08-trump-conditional-talks"
+          "irn-2026-11-08-trump-conditional-talks",
+          "irn-2026-11-09-qatar-meeting-plan"
         ],
         "faction_ids": [
           "vance",
@@ -63,7 +64,7 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-08",
+        "reviewed_at": "2026-11-09",
         "summary": "Vance has argued that the war hurt Republicans in the election and has led negotiations. Rubio has defended Trump’s decision to use force. Trump still decides the next military step."
       },
       {
@@ -74,7 +75,7 @@
         "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
-        "change": "Reuters reports that Vice President JD Vance emphasized his own policy themes before the election and that White House chief of staff Susie Wiles knew about his later Iran post. This gives him a way to argue for a different course while seeking Trump supporters; it does not establish a personal rupture or a gain in primary votes.",
+        "change": "In an interview recorded November 6 and published November 8, Trump acknowledged discussing Vance’s Iran post beforehand while emphasizing that Vance participated in decisions. This supports room for disagreement without demonstrating a break or new primary votes.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
           "positions": "Public deferral, message support and a candidate endorsement mean different things.",
@@ -85,7 +86,8 @@
           "suc-2025-03-58b7aa",
           "suc-2026-08-19-b59801",
           "suc-2025-12-18-766631",
-          "irn-2026-11-04-vance-postelection-war-critique"
+          "irn-2026-11-04-vance-postelection-war-critique",
+          "suc-2026-11-08-trump-vance-immigration-interview"
         ],
         "faction_ids": [
           "vance",
@@ -93,7 +95,7 @@
           "tech-right",
           "operation"
         ],
-        "reviewed_at": "2026-11-08",
+        "reviewed_at": "2026-11-09",
         "summary": "Vance has the strongest documented fundraising and activist connections among the tracked candidates. Rubio and other rivals could recruit some of the same supporters; Trump has not settled the race."
       },
       {
@@ -127,7 +129,7 @@
         "title": "Justice Department departures could give Blanche more control over senior appointments",
         "status": "contested",
         "summary": "Reported departures leave Attorney General Todd Blanche with opportunities to replace senior managers. New managers could continue the same cases rather than signal a retreat from them.",
-        "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy.",
+        "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy. Blanche’s November 8 public defense of officials signals resistance to incoming investigations, but does not prove that records will be withheld lawfully or that an investigation will be stopped.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "Department leaders can choose or propose replacements, assign supervisors and shift resources between cases. Those choices matter more than an announcement of departures on its own.",
         "change": "Three leadership departures were reported. Their replacements and any resulting changes to investigations remain unverified.",
@@ -138,33 +140,36 @@
         },
         "watch": "Identify the replacements, confirm who is acting in each job and check whether cases, staffing or written instructions actually change.",
         "event_ids": [
-          "mid-2026-11-06-doj-departures"
+          "mid-2026-11-06-doj-departures",
+          "mid-2026-11-08-blanche-oversight-defense"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-07"
+        "reviewed_at": "2026-11-09"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vance leads because existing fundraising and activist relationships can help him organize while rivals compete for overlapping supporters. Policy disagreement alone does not make a rival a preferred president. DeSantis and Kemp can offer governing experience outside Washington; Paul and Massie must broaden support beyond liberty activists. McEntee could use media and personnel contacts to build a campaign, but attention is not a commitment to vote or volunteer. These are conditional forecasts, with most present support relationships still incompletely measured.",
-    "snapshot_id": "2026-11-08-weekly-support-appeal-review",
+    "summary": "Vance leads because existing fundraising and activist relationships can help him organize while rivals compete for overlapping supporters. Policy disagreement alone does not make a rival a preferred president. DeSantis and Kemp can offer governing experience outside Washington; Paul and Massie must broaden support beyond liberty activists. McEntee could use media and personnel contacts to build a campaign, but attention is not a commitment to vote or volunteer. These are conditional forecasts, with most present support relationships still incompletely measured. Trump’s acknowledgment that Vance discussed his Iran criticism with him strengthens the case that Vance can seek correction without an immediate personal rupture. Whether voters regard that as leadership or shifting blame remains unmeasured. Daily estimates remain those of the November 8 full review.",
+    "snapshot_id": "2026-11-09-daily-monitor",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
         "path": "Vance would claim credit for negotiations and offer corrections while trying to retain Trump’s support. He can recruit early-state staff through existing political relationships; disappointed activists can still defect.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
-        "advantage": "He can explain conservative policies in a more measured setting and offer continuity with a change of course.",
-        "vulnerability": "Changing his defense of the war can look like shifting blame rather than independent judgment.",
+        "advantage": "Trump’s acknowledgment of their prior discussion gives Vance room to argue for correction while retaining access to the president. Talks with Qatar offer a chance to demonstrate results, if they produce an agreement.",
+        "vulnerability": "Trump also emphasizes Vance’s role in decisions. Permission to criticize cannot erase responsibility or establish that voters trust the change.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
           "suc-2025-03-58b7aa",
           "suc-2026-08-19-b59801",
-          "irn-2026-11-04-vance-postelection-war-critique"
+          "irn-2026-11-04-vance-postelection-war-critique",
+          "suc-2026-11-08-trump-vance-immigration-interview",
+          "irn-2026-11-09-qatar-meeting-plan"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -173,22 +178,25 @@
           "harris_oct2026_primary",
           "prri",
           "daily_vance_brand_20261107",
-          "weekly_vance_debate_poll"
+          "weekly_vance_debate_poll",
+          "daily_trump_interview_20261108",
+          "daily_qatar_plan_20261109"
         ],
-        "reviewed_at": "2026-11-08"
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "Rubio would defend his foreign-policy judgment and decide whether to seek an independent mandate rather than support Vance. Former campaign and official contacts could recruit staff; current office does not supply a presidential delegate team.",
         "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
-        "advantage": "His family narrative and conversational humor can make a national-security argument approachable.",
+        "advantage": "His family narrative and conversational humor can make a national-security argument approachable. A reported warning about Nvidia gives him a possible national-security contrast, but the classified account and any voter response remain unverified.",
         "vulnerability": "Serving Trump while deferring on a bid can make him seem unwilling to lead independently.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
           "suc-2026-07-30e83e",
-          "irn-2026-11-04-vance-postelection-war-critique"
+          "irn-2026-11-04-vance-postelection-war-critique",
+          "ai-2026-11-08-nvidia-board-inquiry"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -197,9 +205,10 @@
           "harris_oct2026_primary",
           "prri",
           "weekly_2015_debate",
-          "causal_rubio_denial"
+          "causal_rubio_denial",
+          "daily_rubio_memo_20261109"
         ],
-        "reviewed_at": "2026-11-08"
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "ron_desantis",
@@ -388,6 +397,19 @@
       ],
       "faction_ids": [
         "maximalists"
+      ]
+    },
+    {
+      "id": "vance-permission-and-responsibility",
+      "title": "Trump permits Vance’s Iran criticism while keeping him tied to administration decisions.",
+      "assessment": "The prior discussion preserves Vance’s relationship with Trump while he argues for a different course. Negotiations could strengthen that argument if they deliver results; the planned Qatar meeting has not established an agreement or electoral gain.",
+      "event_ids": [
+        "suc-2026-11-08-trump-vance-immigration-interview",
+        "irn-2026-11-09-qatar-meeting-plan"
+      ],
+      "faction_ids": [
+        "vance",
+        "hawks"
       ]
     }
   ],

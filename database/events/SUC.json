@@ -747,6 +747,33 @@
       "tier": "reported",
       "url": "https://thehill.com/homenews/administration/6185794-vance-hones-2028-campaign-message-midterms/",
       "weight": 2
+    },
+    {
+      "id": "suc-2026-11-08-trump-vance-immigration-interview",
+      "date": "2026-11-08",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "MID",
+        "IMM",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump; JD Vance",
+      "text": "Trump says Vance discussed his Iran criticism with him and raises the possibility of an immigration deal.",
+      "context": "CBS published the interview on November 8 after recording it on November 6. President Trump said Vice President JD Vance consulted him before posting his account of the electoral defeat; Trump nevertheless defended the decision to attack Iran and emphasized Vance’s participation in decisions. He also suggested an agreement with Democrats over some workers living in the country without authorization. No new legal status, enforcement instruction or agreement was established. My reading: Trump gives Vance room to argue for correction while keeping him responsible for the administration’s choices. The immigration opening could help Trump reach dissatisfied voters and employers, but naming Stephen Miller as chief of staff leaves the practical direction unresolved.",
+      "source": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+      "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: permission to criticize creates political room without separating Vance from executive responsibility. A policy concession requires further decisions.",
+      "origin": "2026-11-09",
+      "added": "2026-11-09",
+      "by": [
+        "vance"
+      ],
+      "fx": {},
+      "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy."
     }
   ]
 }
