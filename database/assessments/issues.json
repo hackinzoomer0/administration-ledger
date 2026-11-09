@@ -1,7 +1,7 @@
 {
   "AI": {
     "policy": "The administration is trying to limit states’ ability to regulate artificial intelligence while allowing commercial chip exports and voluntary safety reviews of advanced AI systems. The Pentagon is also seeking broad permission to use AI for military purposes.",
-    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved. Nvidia’s board opened an independent inquiry on November 8. That creates a route for new evidence about chip-export risks, but establishes neither espionage nor a changed export rule. The reported warning memo supervised by Secretary of State Marco Rubio remains attributed to the New York Times via Anadolu.",
+    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved. Nvidia’s board opened an independent inquiry on November 8. That creates a route for new evidence about chip-export risks, but establishes neither espionage nor a changed export rule. The reported warning memo supervised by Secretary of State Marco Rubio remains attributed to the New York Times via Anadolu. Minneapolis’s municipal record supplies a concrete example: the council is considering data-center zoning, with a meeting listed for November 12. The proposed rules concern sites and local impacts; they do not settle utility rates or establish final approval.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -115,7 +115,8 @@
       "ai-2026-11-03-permitting-bill-power-groups",
       "ai-2026-11-03-local-data-center-ballots",
       "ai-2026-11-02-cyber-info-sharing",
-      "ai-2026-11-08-nvidia-board-inquiry"
+      "ai-2026-11-08-nvidia-board-inquiry",
+      "ai-2026-11-09-minneapolis-zoning"
     ],
     "research_as_of": "2026-11-08",
     "scope": "November 9 focused review of Nvidia’s board statement and attributed reporting about Rubio’s warning memo. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",

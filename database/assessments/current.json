@@ -4,13 +4,13 @@
   "last_substantive_change": "2026-11-09",
   "review": {
     "date": "2026-11-09",
-    "run_id": "2026-11-09",
-    "type": "daily_review",
-    "scope": "Focused shared intake on post-election statements, Iran mediation, Nvidia’s inquiry and Israel’s mandate ceremony. Remaining election calls, court dispositions, the Miller handover and operational military decisions remain incompletely verified. All other issue findings are carried."
+    "run_id": "2026-11-09-weekly",
+    "type": "weekly_review",
+    "scope": "Full eight-candidate causal, appeal and support-base reconsideration using a targeted shared intake; municipal AI authority catch-up and selected weekly audit. Filings, comprehensive personnel checks and all-issue external verification remain incomplete."
   },
   "administration": {
     "headline": "Trump offers room for policy talks while his advisers prepare to resist congressional investigations.",
-    "summary": "Trump retains executive authority after Republicans lost the midterms, while Democrats prepare to take control of Congress in January. His post-election interview permits Vice President JD Vance to criticize the Iran war and raises the possibility of an immigration agreement, but establishes no implemented policy reversal. Naming Stephen Miller to replace Susie Wiles could strengthen an advocate of stricter immigration enforcement; this review has not confirmed today’s operational handover or Wiles’s new responsibilities. Attorney General Todd Blanche is publicly preparing to defend officials against congressional investigations. Iran mediation offers Vance a chance to show results, but the planned Qatar meeting has not produced a verified agreement. Nvidia’s board has opened an inquiry that could strengthen demands for scrutiny of chip exports, without establishing a security breach or a new export restriction. Israel’s president has delivered a mandate to try forming a government to Yashar party leader Gadi Eisenkot; a new coalition is still unresolved. The Fed dispute, tariffs, Epstein oversight, immigration litigation, Venezuela and Russia retain consequential verification gaps. These limits prevent a claim that the administration has already changed course.",
+    "summary": "Trump retains executive authority after Republicans lost the midterms, while Democrats prepare to take control of Congress in January. His post-election interview permits Vice President JD Vance to criticize the Iran war and raises the possibility of an immigration agreement, but establishes no implemented policy reversal. Naming Stephen Miller to replace Susie Wiles could strengthen an advocate of stricter immigration enforcement; this review has not confirmed today’s operational handover or Wiles’s new responsibilities. Attorney General Todd Blanche is publicly preparing to defend officials against congressional investigations. Iran mediation offers Vance a chance to show results, but the planned Qatar meeting has not produced a verified agreement. Nvidia’s board has opened an inquiry that could strengthen demands for scrutiny of chip exports, without establishing a security breach or a new export restriction. Israel’s president has delivered a mandate to try forming a government to Yashar party leader Gadi Eisenkot; a new coalition is still unresolved. The Fed dispute, tariffs, Epstein oversight, immigration litigation, Venezuela and Russia retain consequential verification gaps. These limits prevent a claim that the administration has already changed course. Local governments also retain consequential choices over AI construction: Minneapolis is considering data-center zoning, with a November 12 council meeting listed. A municipal proposal is not an adopted restriction.",
     "contests": [
       {
         "id": "white-house-access",
@@ -152,13 +152,13 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vance leads because existing fundraising and activist relationships can help him organize while rivals compete for overlapping supporters. Policy disagreement alone does not make a rival a preferred president. DeSantis and Kemp can offer governing experience outside Washington; Paul and Massie must broaden support beyond liberty activists. McEntee could use media and personnel contacts to build a campaign, but attention is not a commitment to vote or volunteer. These are conditional forecasts, with most present support relationships still incompletely measured. Trump’s acknowledgment that Vance discussed his Iran criticism with him strengthens the case that Vance can seek correction without an immediate personal rupture. Whether voters regard that as leadership or shifting blame remains unmeasured. Daily estimates remain those of the November 8 full review.",
-    "snapshot_id": "2026-11-09-daily-monitor",
+    "summary": "Vance leads because fundraising and activist relationships could help him organize quickly, while Trump gives him room to argue for correction. Trump also keeps responsibility for decisions attached to him. Rubio must decide to run before interested supporters can build a campaign; DeSantis is exploring that choice. Paul could recruit antiwar Republicans who prefer a party primary, while a third-party recruiting effort competes for Massie’s time and potential supporters. No broad transfer of voters is established. The forecast allows all eight contenders to build new coalitions; attention, policy agreement and personal trust remain different things.",
+    "snapshot_id": "2026-11-09-weekly",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
-        "path": "Vance would claim credit for negotiations and offer corrections while trying to retain Trump’s support. He can recruit early-state staff through existing political relationships; disappointed activists can still defect.",
+        "path": "Vice President JD Vance can argue for correcting policy with Trump’s permission, but Trump also reminds voters that Vance took part in the decisions.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "Trump’s acknowledgment of their prior discussion gives Vance room to argue for correction while retaining access to the president. Talks with Qatar offer a chance to demonstrate results, if they produce an agreement.",
         "vulnerability": "Trump also emphasizes Vance’s role in decisions. Permission to criticize cannot erase responsibility or establish that voters trust the change.",
@@ -187,7 +187,7 @@
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
-        "path": "Rubio would defend his foreign-policy judgment and decide whether to seek an independent mandate rather than support Vance. Former campaign and official contacts could recruit staff; current office does not supply a presidential delegate team.",
+        "path": "Secretary of State Marco Rubio must decide to run before interested donors and organizers can build a presidential campaign for him.",
         "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
         "advantage": "His family narrative and conversational humor can make a national-security argument approachable. A reported warning about Nvidia gives him a possible national-security contrast, but the classified account and any voter response remain unverified.",
         "vulnerability": "Serving Trump while deferring on a bid can make him seem unwilling to lead independently.",
@@ -196,7 +196,8 @@
         "event_ids": [
           "suc-2026-07-30e83e",
           "irn-2026-11-04-vance-postelection-war-critique",
-          "ai-2026-11-08-nvidia-board-inquiry"
+          "ai-2026-11-08-nvidia-board-inquiry",
+          "suc-2026-11-08-contender-entry"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -206,20 +207,23 @@
           "prri",
           "weekly_2015_debate",
           "causal_rubio_denial",
-          "daily_rubio_memo_20261109"
+          "daily_rubio_memo_20261109",
+          "weekly_fl_candidates"
         ],
         "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "ron_desantis",
         "person_id": null,
-        "path": "DeSantis would contrast Florida governance with federal failures and try to rebuild a more disciplined presidential team. A rebuilt national team could combine former staff with defectors; the 2024 campaign is experience rather than a ready-made operation.",
+        "path": "DeSantis can use a more open media approach to ask dissatisfied conservatives to reconsider him.",
         "coalition": "DeSantis could recruit social conservatives and Republicans seeking an experienced governor. Former campaign staff and donors offer a starting point for rebuilding, but they can choose Kemp or another rival instead.",
         "advantage": "He can present a record of carrying out conservative policies as evidence that he would act decisively.",
         "vulnerability": "His previous campaign suggests difficulty turning policy approval into enough votes, though Trump’s hold on Republicans was another major obstacle.",
         "positions": "His record includes conservative policies enacted in Florida. His support for limited military strikes means that distance from the White House does not necessarily mean opposition to intervention abroad.",
         "money": "DeSantis has raised substantial money for past campaigns. That shows fundraising experience, but does not establish which donors would back another presidential bid.",
-        "event_ids": [],
+        "event_ids": [
+          "suc-2026-11-08-contender-entry"
+        ],
         "source_ids": [
           "desantis_donors",
           "desantis_2025",
@@ -228,14 +232,15 @@
           "harris_oct2026_primary",
           "prri",
           "weekly_desantis_campaign",
-          "weekly_ap_entry_recovered"
+          "weekly_ap_entry_recovered",
+          "weekly_fl_candidates"
         ],
-        "reviewed_at": "2026-11-08"
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "ted_cruz",
         "person_id": "cruz",
-        "path": "Cruz would combine conservative credentials with criticism of economic decisions and seek an opening against Vance and Rubio. He could reactivate old organizers and recruit new ones, provided they choose this race over rival campaigns.",
+        "path": "Cruz can challenge both the economic record and rivals’ consistency while recruiting former conservative organizers.",
         "coalition": "Cruz could recruit religious conservatives and activists who value a forceful ideological advocate. Past presidential organizers and donor relationships could help him start, but renewed commitments are uncertain and Rubio competes for security-minded supporters.",
         "advantage": "His detailed, combative arguments can signal conviction and preparation to conservative activists.",
         "vulnerability": "Voters tired of partisan combat may see the same style as rigid, while shifts toward Trump invite trust attacks.",
@@ -253,12 +258,12 @@
           "weekly_2015_debate",
           "weekly_ap_entry_recovered"
         ],
-        "reviewed_at": "2026-11-08"
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "john_mcentee",
         "person_id": null,
-        "path": "McEntee could distinguish first-term personnel and withdrawal work from present federal decisions, while defending his Project 2025 work recruiting prospective officials for a later administration. Recruitment experience could help hire election specialists if willing supporters emerge; transition staffing is not delegate organizing.",
+        "path": "John McEntee could campaign on his work staffing Trump’s first administration and supporting troop withdrawals, while defending his Project 2025 role recruiting prospective officials for a later administration.",
         "coalition": "McEntee could seek culturally conservative Trump supporters who want first-term policies with a different leader. His media audience could introduce him to potential supporters, while former personnel contacts might help recruit campaign specialists. Neither shows that people will donate, volunteer or vote for him.",
         "advantage": "Informal political communication could make an unfamiliar candidate approachable to some conservative viewers.",
         "vulnerability": "Attention to short-form content does not show that viewers trust him to govern or will work for a campaign.",
@@ -276,13 +281,13 @@
           "weekly_mcentee_interview",
           "weekly_tencent_ld2"
         ],
-        "reviewed_at": "2026-11-08"
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "rand_paul",
         "person_id": "paul",
-        "path": "Paul would make a case for limits on war and spending while trying to keep voters who still support much of Trump’s agenda. Political contacts can recruit organizers beyond Kentucky if interest broadens; cooperation with Massie does not guarantee a presidential endorsement.",
-        "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors.",
+        "path": "Senator Rand Paul could offer antiwar Republicans a candidate in their own primary, while making his case for limits on spending and presidential power.",
+        "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors. A third-party effort could compete for some antiwar organizers; Paul would still have to persuade them to join his Republican campaign.",
         "advantage": "He can argue that constitutional limits deserve loyalty even when Trump disagrees.",
         "vulnerability": "Voters seeking immediate economic protection may resist his spending agenda or see him as too narrowly focused.",
         "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
@@ -292,15 +297,18 @@
           "paul_entry_cbs_2026",
           "paul_protect_freedom",
           "weekly_paul_massie_support",
-          "weekly_2015_debate"
+          "weekly_2015_debate",
+          "weekly_massie_route"
         ],
-        "event_ids": [],
-        "reviewed_at": "2026-11-08"
+        "event_ids": [
+          "suc-2026-11-08-massie-party-route"
+        ],
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "brian_kemp",
         "person_id": null,
-        "path": "Kemp would emphasize governing results and independence from federal decisions while deciding whether to pursue a national race. Georgia allies could recruit early-state specialists if he enters and attracts national demand.",
+        "path": "Kemp can present a governor’s record and recruit beyond Georgia if he chooses a presidential bid.",
         "coalition": "Kemp’s Georgia supporters and state political relationships offer a base from which to recruit outside the state. Republicans looking for a governor could also choose DeSantis; Georgia approval does not establish national presidential preference.",
         "advantage": "He can use concrete governing examples and personal experience to make a restrained executive pitch.",
         "vulnerability": "A strong state reputation may leave national voters unmoved, and Trump loyalists may question him.",
@@ -314,13 +322,13 @@
           "weekly_kemp_debate"
         ],
         "event_ids": [],
-        "reviewed_at": "2026-11-08"
+        "reviewed_at": "2026-11-09"
       },
       {
         "candidate_id": "thomas_massie",
         "person_id": "massie",
-        "path": "Massie would press accountability and war-powers claims and must choose whether a presidential effort would stay inside the Republican Party. Activists could recruit state specialists if he chooses a Republican campaign; oversight publicity alone will not qualify delegates.",
-        "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign.",
+        "path": "Representative Thomas Massie must choose whether to seek the Republican nomination or pursue another party’s opening.",
+        "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign. An external recruiting effort may draw organizers away from a Republican bid, but his choice and his supporters’ choices remain open.",
         "advantage": "He can point to opposition taken under pressure as evidence that he means what he says.",
         "vulnerability": "Admiring dissent does not mean wanting him as president, and a non-Republican route cannot win this nomination.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
@@ -330,14 +338,17 @@
           "massie_2026_war_powers",
           "massie_2026_hegseth",
           "massie_2026_funding",
-          "weekly_paul_massie_support"
+          "weekly_paul_massie_support",
+          "weekly_massie_route"
         ],
-        "event_ids": [],
-        "reviewed_at": "2026-11-08"
+        "event_ids": [
+          "suc-2026-11-08-massie-party-route"
+        ],
+        "reviewed_at": "2026-11-09"
       }
     ],
     "scenario_labels": {
-      "wargame_ref": "2026-11-08-weekly-support-appeal-review",
+      "wargame_ref": "2026-11-09-weekly",
       "scenarios": {
         "recovery": {
           "title": "Peace and lower household costs restore Republican confidence in Trump’s allies",

@@ -1,0 +1,1635 @@
+{
+  "date": "2026-11-09",
+  "type": "weekly_review",
+  "added": 3,
+  "summary": "INCOMPLETE: Full eight-candidate causal, appeal and support-base reconsideration completed; comprehensive filings/personnel and historical falsifier checks remain unfinished. Deviations: targeted intake and local arithmetic reproduction under staged-only access. Method audit: corrected entry and party-route weighting; no observed voter transfer invented. Added 3 records on contender entry, external Massie recruitment and municipal AI zoning.",
+  "scope": "Full eight-candidate causal, appeal and support-base reconsideration using a targeted shared intake; municipal AI authority catch-up and selected weekly audit. Filings, comprehensive personnel checks and all-issue external verification remain incomplete.",
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "weekly-policy-correction",
+        "question": "Can Vance change policy positioning without losing Trump-aligned support?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Permission to disagree is documented in reporting, but Trump also keeps responsibility attached to Vance. Recruitment and voter trust remain unknown.",
+        "explanations": [
+          {
+            "explanation": "Permission to disagree is documented in reporting, but Trump also keeps responsibility attached to Vance. Recruitment and voter trust remain unknown.",
+            "weight": "dominant",
+            "reason": "Accessible reporting or the municipal record identifies the act; projected audience and organizational consequences remain inferences.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Voters interpret the change as blame-shifting rather than credible leadership.",
+            "weight": "credible",
+            "reason": "A competing response is plausible, but no representative transfer or completed permitting decision was verified.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Permission to disagree is documented in reporting, but Trump also keeps responsibility attached to Vance. Recruitment and voter trust remain unknown.",
+        "next_action": "Verify named commitments and decisions; compare actual behavior with the surviving countercase.",
+        "next_check": "2026-11-16",
+        "source_receipt_ids": [
+          "16973794291556261159dfc3"
+        ]
+      },
+      {
+        "id": "weekly-support-conversion",
+        "question": "Which current or potential supporters can supply campaign workers, money and primary votes across the eight contenders?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Entry choices and the party route affect recruitment: keep Rubio entry risk and Massie’s competing third-party route distinct from personal appeal. No bloc-wide transfer is observed.",
+        "explanations": [
+          {
+            "explanation": "Entry choices and the party route affect recruitment: keep Rubio entry risk and Massie’s competing third-party route distinct from personal appeal. No bloc-wide transfer is observed.",
+            "weight": "dominant",
+            "reason": "Accessible reporting or the municipal record identifies the act; projected audience and organizational consequences remain inferences.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Better-known candidates monopolize resources, or disaffected supporters leave the Republican contest entirely.",
+            "weight": "credible",
+            "reason": "A competing response is plausible, but no representative transfer or completed permitting decision was verified.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Entry choices and the party route affect recruitment: keep Rubio entry risk and Massie’s competing third-party route distinct from personal appeal. No bloc-wide transfer is observed.",
+        "next_action": "Verify named commitments and decisions; compare actual behavior with the surviving countercase.",
+        "next_check": "2026-11-16",
+        "source_receipt_ids": [
+          "952fd11f0c193587f073cca0"
+        ]
+      },
+      {
+        "id": "weekly-siting-chokepoints",
+        "question": "Who can approve or obstruct data-center construction and electricity cost allocation?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "The Minneapolis municipal record identifies a local zoning decision and scheduled council consideration. It does not establish adoption or utility cost allocation.",
+        "explanations": [
+          {
+            "explanation": "The Minneapolis municipal record identifies a local zoning decision and scheduled council consideration. It does not establish adoption or utility cost allocation.",
+            "weight": "dominant",
+            "reason": "Accessible reporting or the municipal record identifies the act; projected audience and organizational consequences remain inferences.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Federal siting and funding can accelerate selected projects enough to overcome some constraints.",
+            "weight": "credible",
+            "reason": "A competing response is plausible, but no representative transfer or completed permitting decision was verified.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The Minneapolis municipal record identifies a local zoning decision and scheduled council consideration. It does not establish adoption or utility cost allocation.",
+        "next_action": "Verify named commitments and decisions; compare actual behavior with the surviving countercase.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "9860016f07013919952ee5d2"
+        ]
+      },
+      {
+        "id": "weekly-opposition-choice",
+        "question": "Could Democratic choices on affordability and oversight change Republican recovery without an Iran settlement?",
+        "importance": "Tests a future path outside the inherited war and insider-blame frame.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Democratic centrists are urging restraint and affordability. Their ability to control the agenda and deliver results is unresolved.",
+        "explanations": [
+          {
+            "explanation": "Competing Democratic priorities constrain a uniform investigative escalation.",
+            "weight": "dominant",
+            "reason": "The accessible report documents disagreement over priorities, rather than a settled agenda.",
+            "discriminating_observation": "Committee and floor scheduling after the new Congress takes office."
+          },
+          {
+            "explanation": "Partisan conflict still produces a Republican rally even if centrists urge restraint.",
+            "weight": "credible",
+            "reason": "Trump and Blanche already offer a resistance message; public response and Democratic execution are uncertain.",
+            "discriminating_observation": "Actual inquiry scope and sustained Republican response, separated from press attention."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Democrats subordinate affordability legislation to repeated impeachment votes.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Internal disagreement and executive veto power constrain the choice.",
+            "assessment_effect": "Increase the plausibility of partisan backlash without assuming policy recovery."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Retain the distinct backlash branch; no new scenario is needed because opposition choices already fit that mechanism.",
+        "next_action": "Check opening legislative and committee agendas.",
+        "next_check": "2026-11-16",
+        "source_receipt_ids": [
+          "f87c5deab5e96ef2c9228dc9"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "weekly-policy-correction": "Continued in the current priority register.",
+      "weekly-support-conversion": "Continued in the current priority register.",
+      "weekly-siting-chokepoints": "Continued in the current priority register.",
+      "daily-nvidia-security-authority": "Retain prior partial finding; next check November 10 for inquiry findings or an export decision. No fresh verification this weekly intake."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": null,
+        "next_action": "Check adopted Minneapolis text after November 12, utility cost decisions, and unresolved AI cases; verify Nvidia inquiry findings and export decisions separately.",
+        "next_check": "2026-11-10",
+        "reason": "Municipal original verified a narrow local zoning mechanism and scheduled consideration; broad AI court/export/project coverage remains carried.",
+        "attempt_receipt_ids": [
+          "9860016f07013919952ee5d2"
+        ],
+        "escalation": "Issue-wide baseline date unknown. The new Nvidia inquiry is verified narrowly; other AI decisions and historical sources require follow-up.",
+        "status": "carried"
+      },
+      "EPS": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "escalation": "Baseline verification date unknown; preserve explicit overdue coverage rather than infer no change.",
+        "status": "carried"
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "status": "carried"
+      },
+      "IMM": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "status": "carried"
+      },
+      "IRN": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "status": "carried"
+      },
+      "MID": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "f87c5deab5e96ef2c9228dc9"
+        ],
+        "status": "carried"
+      },
+      "RUS": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "escalation": "Baseline verification date unknown; Abu Dhabi outcome requires direct follow-up.",
+        "status": "carried"
+      },
+      "SUC": {
+        "last_verified": "2026-11-08",
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [
+          "952fd11f0c193587f073cca0"
+        ],
+        "status": "carried"
+      },
+      "TAR": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "escalation": "Baseline verification date unknown; preserve explicit overdue coverage rather than infer no change.",
+        "status": "carried"
+      },
+      "VEN": {
+        "last_verified": null,
+        "next_action": "Verify decision-specific outcomes, operative orders and implementation rather than repeat the stored synthesis.",
+        "next_check": "2026-11-10",
+        "reason": "Bounded calendar/search screen only; substantive issue findings and the prior verification baseline are carried. No full issue census or outcome verification is claimed.",
+        "attempt_receipt_ids": [],
+        "escalation": "Baseline verification date unknown; preserve explicit overdue coverage rather than infer no change.",
+        "status": "carried"
+      }
+    },
+    "discovery_question": "Could Democratic choices on affordability and oversight change Republican recovery without an Iran settlement?",
+    "discovery_disposition": "Retain the distinct backlash branch; no new scenario is needed because opposition choices already fit that mechanism.",
+    "premise_reconciliation": "Used maintained authority assessments, not legacy scores. Corporate investigation, executive decision, voter reception and campaign commitment remain separate. Daily odds were held; this is the authorized weekly forecast.",
+    "source_receipts": [
+      {
+        "id": "57ad5ac151dcd2647c892f9f",
+        "kind": "query",
+        "value": "Trump Vance November 8 2026 Iran immigration interview",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Test permitted policy differentiation against continued responsibility.",
+        "status": "read",
+        "result": "Search returned interview coverage and related political reporting; article-level verification recorded separately.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "6947351b8e0d1fbf6053bd09",
+        "kind": "query",
+        "value": "2028 Republican candidates Vance Rubio DeSantis Cruz Kemp Paul Massie McEntee endorsements November 2026",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "5ad8097979da18f7de26911a",
+        "kind": "query",
+        "value": "data center electricity state utility regulators permitting November 2026",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "00c60579fa29af866acaa15f",
+        "kind": "query",
+        "value": "site.axios.com November 9 2026 Neuhaus 12 million Vance Don Jr",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "5d81735e084e3e8b899328d6",
+        "kind": "query",
+        "value": "site.apnews.com November 2026 Rand Paul Brian Kemp John McEntee 2028",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "71a2095aaa931f18bd796c10",
+        "kind": "query",
+        "value": "site.axios.com/local Minneapolis council data center zoning November 9 2026",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "6f7268d86d8084e8bf58e1f7",
+        "kind": "query",
+        "value": "Rubio war Iran November 9 2026 needed nuclear threat AP PBS",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "20ad9772fe13898a65fb1005",
+        "kind": "query",
+        "value": "John McEntee 2028 supporters donors organizers November 2026 interview",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "c14e48f0a29965cd2fc1b959",
+        "kind": "query",
+        "value": "Brian Kemp Rand Paul Ted Cruz 2028 donors supporters November 2026",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "38aa7fa3640a37b681eec86a",
+        "kind": "query",
+        "value": "antiwar Republican voters donors Massie Paul November 2026 Libertarian draft",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "6c238f5a4e511764002a42b7",
+        "kind": "query",
+        "value": "Vance American Leadership PAC Neuhaus November 2026 movement",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "8d57b138d5f8d84c901574fd",
+        "kind": "query",
+        "value": "site.cbsnews.com November 8 2026 Trump interview Vance reception Republicans",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "27d50574811b6d89bc773451",
+        "kind": "query",
+        "value": "site.hungarianconservative.com john mcentee interview trump social media 2024",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "9b1b942f8189a584f52af0d9",
+        "kind": "query",
+        "value": "site.gpb.org Brian Kemp 2028 November 2026 donors",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "a2820f517d0aaf6550de0421",
+        "kind": "query",
+        "value": "site.texastribune.org Ted Cruz 2028 November 2026 donors",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Search results screened as leads; full-text findings require separate source receipts.",
+        "reporting_origin": "web search"
+      },
+      {
+        "id": "abbf02c40ba6d23f4f0ab184",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/08/florida-desantis-rubio-2028",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "DeSantis explores a bid; Rubio still publicly defers. Recruitment pressure is not entry.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "952fd11f0c193587f073cca0",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/08/massie-president-2028-libertarian",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Libertarians seek Massie; he has not committed.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "3f3c5d4b548e1f8e3aac5dea",
+        "kind": "source",
+        "value": "https://apnews.com/article/f7b507b55634985d6013d36265b3fbc0",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Direct page inaccessible; search excerpt is a lead. WSOC syndication also inaccessible.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "bd5b14e4d550a58d31cf52bf",
+        "kind": "source",
+        "value": "https://www.axios.com/local/twin-cities/2026/11/09/minneapolis-council-data-center-zoning",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Full text inaccessible; recovered local authority and scheduled November 12 meeting from municipal page.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "0cff1f2c62fabb53e0733822",
+        "kind": "source",
+        "value": "https://www.axios.com/local/arapahoe/2026/11/09/mayor-coffman-data-center-moratorium",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Search returned a proposed moratorium; no final vote established.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "0ed677d3814941a914b5bf5f",
+        "kind": "source",
+        "value": "https://www.axios.com/newsletters/axios-am-137eb9ab-aa9a-4e1f-92fa-f001bf2b8261",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Mutable newsletter refresh attempted; search leads only.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "656974e5893e9c9214832c0c",
+        "kind": "source",
+        "value": "https://www.justsecurity.org/163619/early-edition-november-6-2026/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Dated discovery digest screened against existing episodes; linked original claims remain distinct from verification.",
+        "reporting_origin": "Just Security digest"
+      },
+      {
+        "id": "0d3bc0cf094c065cd793b625",
+        "kind": "source",
+        "value": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Mutable archive refreshed; independent discovery index, duplicate interview syndications count once.",
+        "reporting_origin": "CNN"
+      },
+      {
+        "id": "e395d13bc6e352bc4bceef21",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/trump-60-minutes-interview-transcript-2026-11-08/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Attempted transcript URL inaccessible; corrected canonical URL attempted separately.",
+        "reporting_origin": "CBS"
+      },
+      {
+        "id": "9860016f07013919952ee5d2",
+        "kind": "source",
+        "value": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "City describes proposed data-center zoning and lists council meeting November 12. No final adoption established. Page last-updated label October 16.",
+        "reporting_origin": "City of Minneapolis"
+      },
+      {
+        "id": "c3bbdec8021635f00b0beacd",
+        "kind": "source",
+        "value": "https://cmg-cmg-tv-10030-prod.web.arc-cdn.net/news/politics/rubio-says-trumps/5YTF3764KU5OHHSMR32JRHKY4A/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "AP syndication inaccessible; does not corroborate independently.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "4f82e1f0b903328ff0c95776",
+        "kind": "source",
+        "value": "https://kesq.com/news/national-politics/cnn-us-politics/2026/11/08/trumps-regrets-on-immigration-enforcement-and-other-takeaways-from-his-60-minutes-interview-3/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "CNN syndication inaccessible; recovered accessible ABC17 version.",
+        "reporting_origin": "CNN"
+      },
+      {
+        "id": "854427079df8f911cb7bd938",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/sen-rand-paul-confrontation-trump-senate-gop-iran-strikes/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Historical interview: Paul opposed Iran strikes and warned of electoral costs. Not a new endorsement.",
+        "reporting_origin": "CBS"
+      },
+      {
+        "id": "55f39d36dcb9c4898c13ff4b",
+        "kind": "source",
+        "value": "https://www.axios.com/2025/07/07/gop-possible-contenders-2028",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Historical early-state and fundraising activity supplies recruitment leads, not current presidential commitments.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "11c4c92df1433af2d596ac37",
+        "kind": "source",
+        "value": "https://www.theguardian.com/us-news/2026/nov/09/trump-vance-republicans-2028",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "not_found",
+        "result": "Attempted alternative article URL returned 404; no factual finding.",
+        "reporting_origin": "The Guardian"
+      },
+      {
+        "id": "2f6cb20a6e3cae49393f215c",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Canonical transcript inaccessible this run. Accessible CNN account used with reporting limits.",
+        "reporting_origin": "CBS"
+      },
+      {
+        "id": "16973794291556261159dfc3",
+        "kind": "source",
+        "value": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/08/trumps-regrets-on-immigration-enforcement-and-other-takeaways-from-his-60-minutes-interview/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Trump acknowledges prior discussion with Vance while emphasizing his participation in decisions and withholding automatic succession endorsement. Reporting read, not full interview watched.",
+        "reporting_origin": "CNN"
+      },
+      {
+        "id": "f87c5deab5e96ef2c9228dc9",
+        "kind": "source",
+        "value": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/09/centrist-democrats-warn-party-leaders-not-to-go-too-far-after-midterm-wins/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "read",
+        "result": "Democratic centrists urge affordability and restraint in oversight; progressive demands compete. Stated preferences, not enacted decisions.",
+        "reporting_origin": "CNN"
+      },
+      {
+        "id": "8a225b4e5d47d94b48eb5a26",
+        "kind": "source",
+        "value": "https://thehill.com/homenews/administration/6202174-state-department-denies-rubio-exit/",
+        "window": "2026-11-02/2026-11-09",
+        "purpose": "Weekly nomination, support discovery, recall or overdue AI authority verification.",
+        "status": "blocked",
+        "result": "Recovery from digest link inaccessible; Axios accessible account distinguishes speculation from denial.",
+        "reporting_origin": "The Hill"
+      }
+    ],
+    "omitted_mechanism": "Third-party recruiting competes for campaign participation before a candidate formally chooses it; Democrats can constrain their own oversight agenda.",
+    "test_discrimination": "Poll rankings test coordination outcomes, not a unique cause. Added direct party-route test; retained all original deadlines.",
+    "implementation_counterparty": "Municipal council controls zoning consideration; utilities and state regulators retain separate roles. Candidate and volunteer consent are separate campaign gates.",
+    "motive_alternatives": "Sincere antiwar priorities, career relevance and party-building incentives can coexist. No financial tie proves a directed decision.",
+    "prediction_outcomes": "No nomination tests due November 9. No interim statement upgraded to a terminal pass.",
+    "candidate_share_sensitivity": "Two systemic points for each contender versus a named rival tested: +0.60 mixture points; ten-point environment transfers recorded.",
+    "recall_shortfall": "Two independent discovery indexes refreshed; 15 dated leads screened below. Full-text originals and broad all-issue audit remain incomplete. No blanket claim of verification.",
+    "execution_points": [
+      "before intake",
+      "during causal/base adjudication",
+      "before final preflight"
+    ],
+    "preflight_reassessment": "Priorities remain partial; no claim of a campaign commitment, voter transfer or final local zoning decision. External verification gaps remain visible and do not veto the supported weekly correction.",
+    "receipt_age_review": "Prior morning source-health timestamps were inspected in research-plan.json. Historical candidate evidence is explicitly reused as dated baseline, not refreshed political verification. Mutable CNN archive and discovery digest were retrieved again; canonical CBS transcript retry failed and an accessible CNN account was read. A same-day source lookup records the blocked canonical attempt, not proof that the original content was read."
+  },
+  "reviewed_episode_ids": [
+    "suc-2026-11-08-contender-entry",
+    "suc-2026-11-08-massie-party-route",
+    "ai-2026-11-09-minneapolis-zoning",
+    "suc-2026-11-08-trump-vance-immigration-interview",
+    "mid-2026-11-06-miller-chief-staff",
+    "mid-2026-11-05-wiles-hegseth-blame",
+    "ai-2026-11-08-nvidia-board-inquiry"
+  ],
+  "changed_entries": [
+    "nominations/republican_2028",
+    "assessments/current",
+    "assessments/issues",
+    "events/SUC",
+    "events/AI",
+    "factions/dissenters"
+  ],
+  "unresolved_claims": [
+    "Current presidential pledges, early-state staffing and representative post-election supporter transfers remain incompletely measured.",
+    "FEC/personnel sweeps and full historical falsifier audit remain unfinished.",
+    "Unlisted contenders can win; estimates remain conditional on the eight authorized candidates.",
+    "Miller operational handover, remaining election calls and current military/court outcomes not fully verified."
+  ],
+  "evidence_needed": [
+    "Direct party-route statements, named current presidential donors and organizers, repeated supporter participation, adopted zoning text and utility decisions."
+  ],
+  "nominee_review": {
+    "snapshot_id": "2026-11-09-weekly",
+    "probabilities_pct": {
+      "jd_vance": 32.85,
+      "marco_rubio": 11.05,
+      "ron_desantis": 19.45,
+      "ted_cruz": 5.8,
+      "john_mcentee": 5.35,
+      "rand_paul": 11.05,
+      "brian_kemp": 12.1,
+      "thomas_massie": 2.35
+    },
+    "reason": "Entry and party-route correction after causal/support/appeal review; no daily recalibration.",
+    "roster": "Eight authorized candidates; none added.",
+    "scenario_weights": {
+      "recovery": 15,
+      "managed_costs": 30,
+      "systemic": 30,
+      "selective": 15,
+      "backlash": 10
+    },
+    "sensitivity": {
+      "method": "Local reproduction of prescribed largest-remainder mixture; scripts/wargame.py is outside the expressly permitted sibling exceptions. No claim of executing it. Hypothetical stresses, not confidence intervals.",
+      "environment_stresses": [
+        {
+          "transfer_from": "systemic",
+          "transfer_to": "managed_costs",
+          "weight_pp": 10,
+          "probabilities_pct": {
+            "jd_vance": 34.95,
+            "marco_rubio": 11.85,
+            "ron_desantis": 18.65,
+            "ted_cruz": 5.5,
+            "john_mcentee": 5.05,
+            "rand_paul": 10.45,
+            "brian_kemp": 11.4,
+            "thomas_massie": 2.15
+          },
+          "delta_pp": {
+            "jd_vance": 2.1,
+            "marco_rubio": 0.8,
+            "ron_desantis": -0.8,
+            "ted_cruz": -0.3,
+            "john_mcentee": -0.3,
+            "rand_paul": -0.6,
+            "brian_kemp": -0.7,
+            "thomas_massie": -0.2
+          }
+        },
+        {
+          "transfer_from": "managed_costs",
+          "transfer_to": "systemic",
+          "weight_pp": 10,
+          "probabilities_pct": {
+            "jd_vance": 30.75,
+            "marco_rubio": 10.25,
+            "ron_desantis": 20.25,
+            "ted_cruz": 6.1,
+            "john_mcentee": 5.65,
+            "rand_paul": 11.65,
+            "brian_kemp": 12.8,
+            "thomas_massie": 2.55
+          },
+          "delta_pp": {
+            "jd_vance": -2.1,
+            "marco_rubio": -0.8,
+            "ron_desantis": 0.8,
+            "ted_cruz": 0.3,
+            "john_mcentee": 0.3,
+            "rand_paul": 0.6,
+            "brian_kemp": 0.7,
+            "thomas_massie": 0.2
+          }
+        },
+        {
+          "transfer_from": "systemic",
+          "transfer_to": "recovery",
+          "weight_pp": 10,
+          "probabilities_pct": {
+            "jd_vance": 36.35,
+            "marco_rubio": 12.45,
+            "ron_desantis": 17.75,
+            "ted_cruz": 5.4,
+            "john_mcentee": 4.75,
+            "rand_paul": 10.15,
+            "brian_kemp": 11.1,
+            "thomas_massie": 2.05
+          },
+          "delta_pp": {
+            "jd_vance": 3.5,
+            "marco_rubio": 1.4,
+            "ron_desantis": -1.7,
+            "ted_cruz": -0.4,
+            "john_mcentee": -0.6,
+            "rand_paul": -0.9,
+            "brian_kemp": -1.0,
+            "thomas_massie": -0.3
+          }
+        },
+        {
+          "transfer_from": "managed_costs",
+          "transfer_to": "backlash",
+          "weight_pp": 10,
+          "probabilities_pct": {
+            "jd_vance": 34.45,
+            "marco_rubio": 11.35,
+            "ron_desantis": 18.55,
+            "ted_cruz": 5.7,
+            "john_mcentee": 5.25,
+            "rand_paul": 10.75,
+            "brian_kemp": 11.7,
+            "thomas_massie": 2.25
+          },
+          "delta_pp": {
+            "jd_vance": 1.6,
+            "marco_rubio": 0.3,
+            "ron_desantis": -0.9,
+            "ted_cruz": -0.1,
+            "john_mcentee": -0.1,
+            "rand_paul": -0.3,
+            "brian_kemp": -0.4,
+            "thomas_massie": -0.1
+          }
+        }
+      ],
+      "candidate_share_stresses": [
+        {
+          "candidate_id": "jd_vance",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 16,
+              "marco_rubio": 5,
+              "ron_desantis": 25,
+              "ted_cruz": 8,
+              "john_mcentee": 8,
+              "rand_paul": 16,
+              "brian_kemp": 18,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 33.45,
+              "marco_rubio": 11.05,
+              "ron_desantis": 18.85,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": 0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": -0.6,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the selected range: the established recruitment and appeal case supports meaningful upside, but the alternative assumes more trust and coordination than the current baseline warrants. Missing coverage is not the reason for retention."
+          }
+        },
+        {
+          "candidate_id": "marco_rubio",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 7,
+              "ron_desantis": 27,
+              "ted_cruz": 8,
+              "john_mcentee": 8,
+              "rand_paul": 16,
+              "brian_kemp": 18,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.65,
+              "ron_desantis": 19.45,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.6,
+              "ron_desantis": 0.0,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the modest entry-based revision: willingness to campaign matters, but inherited assets and personal appeal do not guarantee conversion."
+          }
+        },
+        {
+          "candidate_id": "ron_desantis",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 5,
+              "ron_desantis": 29,
+              "ted_cruz": 8,
+              "john_mcentee": 8,
+              "rand_paul": 16,
+              "brian_kemp": 18,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.05,
+              "ron_desantis": 20.05,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": 0.6,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the modest entry-based revision: willingness to campaign matters, but inherited assets and personal appeal do not guarantee conversion."
+          }
+        },
+        {
+          "candidate_id": "ted_cruz",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 5,
+              "ron_desantis": 27,
+              "ted_cruz": 10,
+              "john_mcentee": 8,
+              "rand_paul": 16,
+              "brian_kemp": 18,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.05,
+              "ron_desantis": 19.45,
+              "ted_cruz": 6.4,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": 0.0,
+              "ted_cruz": 0.6,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the selected range: the established recruitment and appeal case supports meaningful upside, but the alternative assumes more trust and coordination than the current baseline warrants. Missing coverage is not the reason for retention."
+          }
+        },
+        {
+          "candidate_id": "john_mcentee",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 5,
+              "ron_desantis": 27,
+              "ted_cruz": 8,
+              "john_mcentee": 10,
+              "rand_paul": 16,
+              "brian_kemp": 18,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.05,
+              "ron_desantis": 19.45,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.95,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": 0.0,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.6,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the selected range: the established recruitment and appeal case supports meaningful upside, but the alternative assumes more trust and coordination than the current baseline warrants. Missing coverage is not the reason for retention."
+          }
+        },
+        {
+          "candidate_id": "rand_paul",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 5,
+              "ron_desantis": 27,
+              "ted_cruz": 8,
+              "john_mcentee": 8,
+              "rand_paul": 18,
+              "brian_kemp": 18,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.05,
+              "ron_desantis": 19.45,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.65,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": 0.0,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.6,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the modest gain: Paul offers an antiwar Republican route, but a third-party draft does not transfer an entire audience."
+          }
+        },
+        {
+          "candidate_id": "brian_kemp",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 5,
+              "ron_desantis": 27,
+              "ted_cruz": 8,
+              "john_mcentee": 8,
+              "rand_paul": 16,
+              "brian_kemp": 20,
+              "thomas_massie": 4
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.05,
+              "ron_desantis": 19.45,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.7,
+              "thomas_massie": 2.35
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": 0.0,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.6,
+              "thomas_massie": 0.0
+            },
+            "adjudication": "Retain the selected range: the established recruitment and appeal case supports meaningful upside, but the alternative assumes more trust and coordination than the current baseline warrants. Missing coverage is not the reason for retention."
+          }
+        },
+        {
+          "candidate_id": "thomas_massie",
+          "alternative": {
+            "scenario_id": "systemic",
+            "shares_pct": {
+              "jd_vance": 12,
+              "marco_rubio": 5,
+              "ron_desantis": 27,
+              "ted_cruz": 8,
+              "john_mcentee": 8,
+              "rand_paul": 16,
+              "brian_kemp": 18,
+              "thomas_massie": 6
+            },
+            "probabilities_pct": {
+              "jd_vance": 32.25,
+              "marco_rubio": 11.05,
+              "ron_desantis": 19.45,
+              "ted_cruz": 5.8,
+              "john_mcentee": 5.35,
+              "rand_paul": 11.05,
+              "brian_kemp": 12.1,
+              "thomas_massie": 2.95
+            },
+            "delta_from_selected_pp": {
+              "jd_vance": -0.6,
+              "marco_rubio": 0.0,
+              "ron_desantis": 0.0,
+              "ted_cruz": 0.0,
+              "john_mcentee": 0.0,
+              "rand_paul": 0.0,
+              "brian_kemp": 0.0,
+              "thomas_massie": 0.6
+            },
+            "adjudication": "Retain the revised lower Republican route: an external recruiting alternative competes for participation, although a refusal could restore this upside."
+          }
+        }
+      ]
+    },
+    "delta_pp": {
+      "jd_vance": 0.0,
+      "marco_rubio": -0.9,
+      "ron_desantis": 0.9,
+      "ted_cruz": 0.0,
+      "john_mcentee": 0.0,
+      "rand_paul": 1.15,
+      "brian_kemp": 0.0,
+      "thomas_massie": -1.15
+    },
+    "nominees_added": [],
+    "candidate_coverage": {
+      "jd_vance": "partial",
+      "marco_rubio": "partial",
+      "ron_desantis": "partial",
+      "ted_cruz": "partial",
+      "john_mcentee": "partial",
+      "rand_paul": "partial",
+      "brian_kemp": "partial",
+      "thomas_massie": "partial"
+    },
+    "wargame_ref": "2026-11-09-weekly",
+    "shared_evidence": [
+      "suc-2026-11-08-contender-entry",
+      "suc-2026-11-08-massie-party-route",
+      "ai-2026-11-09-minneapolis-zoning",
+      "suc-2026-11-08-trump-vance-immigration-interview",
+      "mid-2026-11-06-miller-chief-staff",
+      "mid-2026-11-05-wiles-hegseth-blame",
+      "ai-2026-11-08-nvidia-board-inquiry"
+    ],
+    "cross_report_implications": "Shared evidence updates candidate choices and current political explanations; nominee percentages never establish faction influence.",
+    "gaps": [
+      "Current presidential pledges, early-state staffing and representative post-election supporter transfers remain incompletely measured.",
+      "FEC/personnel sweeps and full historical falsifier audit remain unfinished.",
+      "Unlisted contenders can win; estimates remain conditional on the eight authorized candidates.",
+      "Miller operational handover, remaining election calls and current military/court outcomes not fully verified."
+    ]
+  },
+  "assessment_audit": {
+    "current": "Maintained candidate paths, coalition explanations and AI local authority example updated from shared intake.",
+    "administration": "Executive authority, oversight, Iran, immigration and Nvidia distinctions retained; broad election, court, Fed, Russia, tariff and Venezuela gaps remain.",
+    "factions": "Dissenters’ recruiting option updated; no forecast number treated as evidence of faction influence.",
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "MID": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Dated broad issue baseline carried. Targeted nomination, opposition and local zoning review does not complete the issue."
+      }
+    },
+    "major_developments": [
+      {
+        "finding": "DeSantis explores a presidential bid while Rubio continues to defer.",
+        "event_ids": [
+          "suc-2026-11-08-contender-entry"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "current.nomination"
+        ],
+        "reason": "A pending act changes the projected choices, without establishing the outcome."
+      },
+      {
+        "finding": "Libertarians seek Massie for president; he has not committed.",
+        "event_ids": [
+          "suc-2026-11-08-massie-party-route"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "current.nomination"
+        ],
+        "reason": "A pending act changes the projected choices, without establishing the outcome."
+      },
+      {
+        "finding": "Minneapolis lists a November 12 council meeting on proposed data-center zoning.",
+        "event_ids": [
+          "ai-2026-11-09-minneapolis-zoning"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "issues.AI",
+          "current.administration"
+        ],
+        "reason": "A pending act changes the projected choices, without establishing the outcome."
+      }
+    ],
+    "summary_changed": true,
+    "summary_reason": "Candidate entry and competing party recruitment alter the forecast; the municipal record specifies a local decision.",
+    "dated_assumptions": [
+      {
+        "assumption": "Miller chief-of-staff operational handover",
+        "date": "2026-11-09",
+        "status": "pending",
+        "reason": "Due today; this review did not establish completion."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Wait for formal party choice before considering organizational competition.",
+        "finding": "An outside recruiting effort can compete for time and activists now.",
+        "consequence": "Reflect a modest entry-route risk, without claiming acceptance or voter transfer."
+      }
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://www.axios.com/2026/11/08/florida-desantis-rubio-2028",
+      "https://www.axios.com/2026/11/08/massie-president-2028-libertarian",
+      "https://www.justsecurity.org/163619/early-edition-november-6-2026/",
+      "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+      "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "https://www.cbsnews.com/news/sen-rand-paul-confrontation-trump-senate-gop-iran-strikes/",
+      "https://www.axios.com/2025/07/07/gop-possible-contenders-2028",
+      "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/08/trumps-regrets-on-immigration-enforcement-and-other-takeaways-from-his-60-minutes-interview/",
+      "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/09/centrist-democrats-warn-party-leaders-not-to-go-too-far-after-midterm-wins/"
+    ],
+    "queries": 15,
+    "perIssue": {
+      "AI": "found 1",
+      "EPS": "not searched",
+      "FED": "not searched",
+      "IMM": "not searched",
+      "IRN": "searched, nothing found",
+      "MID": "searched, nothing found",
+      "RUS": "not searched",
+      "SUC": "found 2",
+      "TAR": "not searched",
+      "VEN": "not searched"
+    },
+    "unplaced": [
+      "American Ascent funding report remains a search lead; original source and funding not verified."
+    ],
+    "blocked": [
+      "https://apnews.com/article/f7b507b55634985d6013d36265b3fbc0",
+      "https://www.axios.com/local/twin-cities/2026/11/09/minneapolis-council-data-center-zoning",
+      "https://www.axios.com/local/arapahoe/2026/11/09/mayor-coffman-data-center-moratorium",
+      "https://www.axios.com/newsletters/axios-am-137eb9ab-aa9a-4e1f-92fa-f001bf2b8261",
+      "https://www.cbsnews.com/news/trump-60-minutes-interview-transcript-2026-11-08/",
+      "https://cmg-cmg-tv-10030-prod.web.arc-cdn.net/news/politics/rubio-says-trumps/5YTF3764KU5OHHSMR32JRHKY4A/",
+      "https://kesq.com/news/national-politics/cnn-us-politics/2026/11/08/trumps-regrets-on-immigration-enforcement-and-other-takeaways-from-his-60-minutes-interview-3/",
+      "https://www.theguardian.com/us-news/2026/nov/09/trump-vance-republicans-2028",
+      "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+      "https://thehill.com/homenews/administration/6202174-state-department-denies-rubio-exit/"
+    ],
+    "lookbackDays": 7,
+    "deviations": [
+      "No comprehensive FEC, lobbying, personnel or 2–8-week external falsifier audit completed.",
+      "scripts/wargame.py is outside permitted sibling exceptions; arithmetic reproduced locally, not claimed as tool execution.",
+      "No prompt edits, publication or production-database access."
+    ],
+    "checklist": {
+      "research_questions": "done",
+      "shared_intake": "partial: targeted priority intake",
+      "appeal_review": "done",
+      "support_base_review": "done",
+      "causal_projection": "done",
+      "comparison_and_adjudication": "done",
+      "recall": "partial: two indexes and 15 leads, not all originals verified",
+      "historical_falsifier_audit": "partial: selected consequences screened, no hit rate invented",
+      "filings_and_personnel": "skipped: comprehensive sweep not attempted",
+      "reader_copy": "done",
+      "validation": "done"
+    },
+    "methodAudit": {
+      "stage1": {
+        "sourcesEnumerated": [
+          "CNN archive via ABC17",
+          "Just Security November 6 digest"
+        ],
+        "headlinesTriaged": 15,
+        "kept": 0,
+        "recallSample": {
+          "sampled": 15,
+          "missingFromLedgerOrTriage": null,
+          "items": [
+            {
+              "date": "2026-11-09",
+              "headline": "Democratic centrists urge affordability",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-09",
+              "headline": "More women in next Congress",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-09",
+              "headline": "Texas immigration cooperation faces change",
+              "issue": "IMM",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-08",
+              "headline": "Trump interview on deportations",
+              "issue": "SUC",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-08",
+              "headline": "Biden limits memoir appearances",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-08",
+              "headline": "Trump conditions further Iran attacks",
+              "issue": "IRN",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-08",
+              "headline": "Health activists approach Democrats",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-08",
+              "headline": "Senate election map changes",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-07",
+              "headline": "Schumer leadership skepticism",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-07",
+              "headline": "Dana White declines press role",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-07",
+              "headline": "Judge plans ethics inquiry",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-07",
+              "headline": "Church-state legal trend",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-07",
+              "headline": "Miller chief-of-staff analysis",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-07",
+              "headline": "Voters describe election response",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            },
+            {
+              "date": "2026-11-06",
+              "headline": "Alaska subpoena reporting",
+              "issue": "MID",
+              "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/",
+              "status": "dated discovery lead; original not fully verified or completeness-classified"
+            }
+          ]
+        }
+      },
+      "rootCause": "Repeated syndications can obscure distinct political choices; indexed leads are not verified outcomes.",
+      "proposedFix": "Complete original-source verification and episode matching for consequential unmatched leads."
+    },
+    "editorial_notes": [
+      "Replaced five opaque scenario titles with distinct descriptions of Republican voter behavior.",
+      "Replaced maintained candidate forecast summaries that spoke about numerical ceilings with political paths, attractions and obstacles.",
+      "Rotating existing-copy sample: AI dispute and all eight current coalition summaries. Added decision-makers and distinguished recruitable contacts from committed voters.",
+      "Existing legacy faction and person shorthand outside this sample remains a future editorial task.",
+      "Second pass removed repeated recruiting clauses from coalition paragraphs and named Griffin’s reported preference.",
+      "Expanded McEntee’s Project 2025 connection into its actual personnel-recruitment role.",
+      "Rewrote five scenario definitions to explain what Republican voters would do; clarified media attention separately from donor and organizer commitments.",
+      "Qualified the DeSantis campaign interpretation by retaining Trump loyalty as a competing explanation.",
+      "Final event no-credit notes use the required No fx prefix and explain the missing implemented or electoral outcome. Broad issue verification dates remain carried where only a mechanism was checked."
+    ],
+    "gaps": [
+      {
+        "gap": "Full original verification and historical falsifier audit incomplete",
+        "routes": [
+          {
+            "route": "Independent dated CNN archive and Just Security digest",
+            "tried": true,
+            "whyItFailed": "Discovery succeeded, but full original review and all-issue matching were not completed."
+          }
+        ]
+      }
+    ],
+    "watched": [],
+    "queue": {
+      "captured": 0,
+      "triaged": 0
+    },
+    "thinDays": [],
+    "fxStats": {
+      "scored": 0,
+      "empty": 3,
+      "emptyWithReason": 3
+    },
+    "propagation": {
+      "suc-2026-11-08-contender-entry": [
+        "nominations/republican_2028",
+        "assessments/current"
+      ],
+      "suc-2026-11-08-massie-party-route": [
+        "nominations/republican_2028",
+        "assessments/current",
+        "factions/dissenters"
+      ],
+      "ai-2026-11-09-minneapolis-zoning": [
+        "assessments/current",
+        "assessments/issues"
+      ]
+    },
+    "queriesPerIssue": {
+      "SUC": 11,
+      "AI": 3,
+      "MID": 1
+    }
+  },
+  "pattern_review": {
+    "scope": "All six open pattern tests read alongside shared intake; full original verification remains incomplete.",
+    "outcomes": {
+      "rus-envoy-shift": {
+        "status": "open",
+        "finding": "No verified terminal test or disproof in the targeted intake. Open does not mean supported.",
+        "next_check": "2026-11-16"
+      },
+      "starshield-lever": {
+        "status": "open",
+        "finding": "No verified terminal test or disproof in the targeted intake. Open does not mean supported.",
+        "next_check": "2026-11-16"
+      },
+      "vance-squeeze": {
+        "status": "open",
+        "finding": "No verified terminal test or disproof in the targeted intake. Open does not mean supported.",
+        "next_check": "2026-11-16"
+      },
+      "hegseth-trade-off": {
+        "status": "open",
+        "finding": "No verified terminal test or disproof in the targeted intake. Open does not mean supported.",
+        "next_check": "2026-11-16"
+      },
+      "enforcer-court-wall": {
+        "status": "open",
+        "finding": "No verified terminal test or disproof in the targeted intake. Open does not mean supported.",
+        "next_check": "2026-11-10"
+      },
+      "after-nov-3": {
+        "status": "open",
+        "finding": "No verified terminal test or disproof in the targeted intake. Open does not mean supported.",
+        "next_check": "2026-11-10"
+      }
+    },
+    "design_warning": "The Vance squeeze test conflates a donor/immigration relationship with a presidential endorsement. Preserve it as historical, do not auto-resolve; test actual backer choices under a specific policy disagreement. Hegseth timing and post-election pattern outcomes also do not uniquely establish causes."
+  },
+  "weekly_audit": {
+    "selected_decisions": [
+      "Vance public differentiation versus shared responsibility",
+      "Rubio entry denial versus supporter interest",
+      "Massie external recruitment versus actual party choice",
+      "Municipal zoning versus federal promotion"
+    ],
+    "duplicate_credit": "New occurrences stored once; interview reused in its existing episode. One antiwar audience not granted independently to Paul and Massie. No new fx scores.",
+    "stance_changes": "No formal new candidate entry, endorsement, firing or operational handover inferred.",
+    "financial_motives": "Investor, lobbyist, campaign donor and outside spending remain distinct; no new financial influence finding.",
+    "falsifier_scorecard": "Selected major conclusions tested against later dated records; full 2–8-week audit incomplete, no numerical hit rate.",
+    "missed_beneficiary": "Paul may offer antiwar Republicans a party route when external organizers seek Massie; he does not automatically receive them. Democratic centrists may influence oversight scope before formal committee control.",
+    "queued_questions": "Vance permission versus trust, Rubio entry, supporter recruitment and coalition exit reviewed. Nvidia inquiry and Miller handover remain open.",
+    "omitted_leads": {
+      "No stored belief about who decides power supply and siting for AI data centers (states, utilities, DOE loans).": "partly incorporated through Minneapolis authority record",
+      "No belief about US standing with European partners on Russia; Europeans are acting apart from Washington (G20 photo, Black Sea truce call).": "deferred to November 16; no fresh verification",
+      "No belief about public-health entry bars as a border tool.": "deferred to November 16; no fresh verification",
+      "No belief about state equity and loan stakes in minerals and energy as industrial policy; no faction tagged.": "deferred to November 16; no fresh verification",
+      "No belief about who in State trades aid for deportation deals.": "deferred to November 16; no fresh verification"
+    },
+    "editorial_sample": "Read all changed public copy plus existing McEntee, Rubio and Massie candidate profiles and all five scenario titles. Replaced unexplained later planning with Project 2025 personnel recruitment; removed forecaster instructions from candidate responses and organizational explanations; supplied offices and full names in new event copy.",
+    "clarity_gaps": "Historical faction slogans and broader issue/person copy need continued rotation; not fully edited or externally reverified."
+  },
+  "validation_results": {
+    "status": "passed",
+    "command": "review_workflow.py check (Weekly)",
+    "result": "Read-only preflight exited 0 after receipt projection, coverage baseline and reader-copy repairs. No publication or application performed."
+  },
+  "public_update": {
+    "warranted": true,
+    "summary": "Vance still leads; entry choices and competition for antiwar organizers change the conditional nomination forecast. Minneapolis’s pending zoning review illustrates local authority over AI construction.",
+    "privacy_screen": "Research-only copy; no owner identity, private contacts, local paths, credentials or runtime metadata in public fields.",
+    "publication": "Prepared for runner; not published by research turn."
+  },
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "c53ba3f55dc827ecb248ecf6d3b9cafe94e792ca94ba5ed39ec1ee56059de153",
+        "reader_takeaway": "Vance leads while candidate willingness and competition for organizers shape the race; Minneapolis retains a local zoning choice.",
+        "context_check": "Candidate offices and McEntee’s Project 2025 recruitment role are explained; coalition sentences name voters, donors and workers.",
+        "uncertainty_check": "Statements and possible recruitment remain separate from commitments, voter transfer, an adopted rule or implemented policy.",
+        "changes_made": [
+          "Explained Project 2025 work and replaced shorthand about a party route with a Republican primary choice.",
+          "Trimmed incidental whitespace from carried coalition copy."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "52c524eec2dbcd1bd3496145d89e8efd94e976a206df42886734edad682b5ac5",
+        "reader_takeaway": "Federal promotion of AI construction does not settle municipal land-use rules.",
+        "context_check": "Named Minneapolis council, proposed zoning and the scheduled November 12 meeting; existing chip-export dispute remains in context.",
+        "uncertainty_check": "Kept proposed rules separate from final approval and utility prices.",
+        "changes_made": [
+          "Added a concrete municipal example rather than an abstract assertion about local authority."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "3bd2aee0823f8bcd37f8d247ea7518e2b86955a4014662e16e57da90a8a3c850",
+        "reader_takeaway": "Minneapolis lists a future council meeting about rules for data-center locations and impacts.",
+        "context_check": "Title names institution, date and subject; context explains land use and keeps the older page-update label visible.",
+        "uncertainty_check": "A scheduled meeting is not final adoption or an electricity-price decision.",
+        "changes_made": [
+          "Replaced generic campaign scoring language with the specific local authority consequence."
+        ]
+      },
+      "events/SUC": {
+        "fingerprint": "9add422e461867775026d684dcda07983f28f6d772a05c0cfc3abd9218d0e8e1",
+        "reader_takeaway": "DeSantis is exploring entry; Rubio defers; an external Massie recruitment effort does not establish his choice.",
+        "context_check": "Added full names and offices, explained what a recruiting effort could change, and made each title distinguish a different action.",
+        "uncertainty_check": "Attributed reporting remains distinct from candidate declaration, acceptance and voter exit.",
+        "changes_made": [
+          "Added offices and full names to new event prose.",
+          "Replaced process shorthand about entry positions with the actual choice of running."
+        ]
+      },
+      "factions/dissenters": {
+        "fingerprint": "ecf76e833d5505d4f53883d7e72962830fb4d31174aeacd2f95dfd0b9ba1cb25",
+        "reader_takeaway": "An external Massie campaign could compete for antiwar organizers without automatically helping Paul.",
+        "context_check": "Named Massie, Paul and the organizers, and explained competition for campaign participation.",
+        "uncertainty_check": "Explicitly says neither acceptance nor support transfer is established.",
+        "changes_made": [
+          "No further edit after critique: the paragraph already identifies the actors, mechanism and unresolved choice in ordinary sentences."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "bf20e9f81b0bafcf3da3bc10ec4410411db912e593df12ff144ed4d5d26710f5",
+        "reader_takeaway": "Vance’s lead survives; entry and the competition for antiwar workers modestly change four candidates’ conditional chances.",
+        "context_check": "Reviewed final public candidate text, all five scenario titles and explanations, projected responses and campaign-building sentences. Named McEntee’s later staffing work and replaced forecaster-directed instructions.",
+        "uncertainty_check": "Qualitative appeal remains a forecast, sources support starting premises, and no campaign pledge or transfer rate is invented. Historical snapshots were preserved.",
+        "changes_made": [
+          "Removed numerical-method instructions from campaign explanations.",
+          "Replaced vague later planning with Project 2025 personnel recruitment.",
+          "Replaced future-building permission language with what candidates could actually do.",
+          "Kept numerical alternative adjudications in audit fields."
+        ]
+      },
+      "runs/2026-11-09-weekly": {
+        "fingerprint": "a77a77f308197d9b52a070c3747a19343c2caceb8b09d369883e57f7304e7a4e",
+        "reader_takeaway": "The weekly forecast was reconsidered, with three new records and explicit unfinished verification.",
+        "context_check": "The run summary identifies the scope, entry and party-route correction, and audit limits; technical details are deliberately in the research record.",
+        "uncertainty_check": "Incomplete status, unverified claims and broader historical audit debt remain visible.",
+        "changes_made": [
+          "Replaced inherited prior-run coverage claims with the actual queries, discovery sample and limitations."
+        ]
+      }
+    }
+  },
+  "challenger_review": {
+    "mode": "single-analyst structured opposition",
+    "challenges": [
+      {
+        "itemId": "suc-2026-11-08-massie-party-route",
+        "mechanism": "Another party’s recruiters compete for willing organizers, not Republican delegates.",
+        "otherSide": "Organizers want an antiwar candidate; Massie may decline or gain bargaining room.",
+        "claimedBy": [
+          "Libertarian organizers"
+        ],
+        "realBeneficiaries": [
+          "Potentially Rand Paul, if Republican antiwar activists choose his campaign"
+        ],
+        "realLosers": [
+          "A Massie Republican campaign, only if time and staff divert"
+        ],
+        "precedent": {
+          "case": "Ron Paul sought different parties’ nominations in different cycles.",
+          "maps": "Policy sympathy can coexist with a choice of party route.",
+          "breaks": "It does not establish Massie’s decision or any transferable voter count."
+        },
+        "reading": "An outside option can change positioning before acceptance; no automatic transfer.",
+        "countercase_weight": "credible",
+        "resolution": "Use modest conditional share revisions, preserving a Republican breakthrough path and adding a direct party-choice test."
+      },
+      {
+        "itemId": "suc-2026-11-08-contender-entry",
+        "mechanism": "Candidate consent is a gate between interest and a campaign.",
+        "otherSide": "Backers can press Rubio, choose DeSantis or wait.",
+        "reading": "Entry is not permanently fixed; Rubio can reverse, and DeSantis can fail to rebuild.",
+        "countercase_weight": "credible",
+        "resolution": "One-point conditional revision in four environments; national visibility alone does not erase entry risk."
+      }
+    ],
+    "major_shock_check": "Paul is a possible missed rival beneficiary, not an automatic recipient. Present credibility and recruiting options can change before a firing, hearing outcome or formal entry. Job pressure and blame-shifting remain separate from personnel changes."
+  }
+}

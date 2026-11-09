@@ -1710,6 +1710,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy."
+    },
+    {
+      "id": "ai-2026-11-09-minneapolis-zoning",
+      "date": "2026-11-09",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Minneapolis City Council",
+      "text": "Minneapolis lists a November 12 council meeting on proposed data-center zoning.",
+      "context": "The city describes a temporary pause on most new proposals and proposed rules on location, size, noise and resource reporting. Its page lists the November 12 meeting but carries an October 16 update label. My reading: local land-use authority can constrain construction even when federal officials favor investment. The page does not establish final adoption or a decision about electricity prices.",
+      "source": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "url": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "tier": "documented",
+      "weight": 2,
+      "rationale": "My reading: local land-use authority can constrain construction even when federal officials favor investment. The page does not establish final adoption or a decision about electricity prices.",
+      "origin": "2026-11-09-weekly",
+      "added": "2026-11-09",
+      "by": [],
+      "fx": {},
+      "fxnote": "No change assigned to faction authority: the record identifies a pending local decision, not a final restriction or a shift in federal control."
     }
   ]
 }
