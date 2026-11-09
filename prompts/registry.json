@@ -1,6 +1,6 @@
 {
   "analysis-rules": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "role": "analysis-rules"
   },
   "analyst": {
@@ -440,15 +440,15 @@
     "role": "nominee-review"
   },
   "current-assessment": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "role": "current-assessment"
   },
   "nomination-wargame": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "role": "nomination-wargame"
   },
   "nominee-monitor": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "role": "nominee-monitor"
   },
   "reader-copy-review": {
@@ -456,11 +456,11 @@
     "role": "reader-copy-review"
   },
   "support-base-research": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "role": "support-base-research"
   },
   "research-questions": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "role": "research-questions"
   }
 }

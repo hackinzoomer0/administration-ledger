@@ -8,7 +8,29 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from publish_review import wait_for_deployment, deployment_status
+from publish_review import wait_for_deployment, deployment_status, require_same_state, check_remote_baseline
+
+
+class BaselineReconciliation(unittest.TestCase):
+    def test_unpublished_prompts_and_process_records_are_identified(self):
+        remote = {'collections': {'prompts': {'rules': {'text': 'old'}}, 'runs': {}}}
+        local = {'collections': {'prompts': {'rules': {'text': 'private text'}},
+                                 'runs': {'process-update': {'summary': 'private text'}}}}
+        with self.assertRaisesRegex(RuntimeError, 'prompts/rules.*runs/process-update') as error:
+            require_same_state(remote, local, 'Baseline differs')
+        self.assertNotIn('private text', str(error.exception))
+
+    def test_remote_only_documents_are_not_silently_dropped(self):
+        with self.assertRaisesRegex(RuntimeError, 'runs/remote-only'):
+            require_same_state({'collections': {'runs': {'remote-only': {}}}},
+                               {'collections': {'runs': {}}}, 'Baseline differs')
+
+    def test_baseline_checks_composed_state_before_success(self):
+        ledger = {'collections': {'prompts': {}, 'runs': {}}}
+        with patch('publish_review.identifiers'), patch('publish_review.public_value', side_effect=lambda x: x), \
+             patch('publish_review.load', side_effect=[ledger, ledger]), \
+             patch('publish_review.subprocess.check_output', side_effect=['', 'revision\n']):
+            self.assertEqual(check_remote_baseline(), {'status': 'matched', 'commit': 'revision'})
 
 
 class DeploymentDiagnostics(unittest.TestCase):

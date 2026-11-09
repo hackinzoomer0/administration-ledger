@@ -8,6 +8,18 @@ Explanations receive dominant, credible, limited, negligible or contradicted pla
 
 Future developments receive separate likelihood and impact judgments. Research priorities depend on the consequence and usefulness of resolving a question. These three judgments are distinct and are never multiplied into nomination shares.
 
+## Beliefs, reputation and political consequences
+
+Factual verification and political effect are separate judgments. A disputed allegation can damage credibility, legitimacy or perceived competence; an accurate finding can have little immediate effect if relevant audiences do not encounter or accept it. Public beliefs can dominate electoral and reputational consequences, while authority and implementation retain separate evidence requirements.
+
+For consequential allegations, insider defections and prominent interviews, trace the underlying claim and its verification status; the dated speaker/amplifiers and relevant audience; observed reception; supported inference about present vulnerability; and possible later behavior. Exposure is not acceptance, and self-selected reactions are not representative opinion. A direct episode, transcript, extracts and reporting have different coverage; identify what was actually reviewed. Search reception and counter-moves alongside factual corroboration, recording actual attempts and unattempted gaps.
+
+Do not make polling, legal adjudication, completed policy changes or measured defections prerequisites for recognizing a well-grounded vulnerability. Uncertain reception limits confidence and magnitude. Conversely, do not assert mass persuasion or automatic support transfers from the existence of an attack. Use existing event/assessment fields and research-review explanations; explicitly weigh serious competing mechanisms and identify a discriminating observation.
+
+Claims about administrative corruption or obstruction also test who can choose and supervise personnel. Trace responsibility through officials, their faction and the appointing leader; an accuser shielding the leader does not establish that audiences absolve the leader. Examine documented staffing capability and prior personnel decisions across rivals rather than automatically benefiting an outsider or personnel specialist.
+
+Daily monitoring updates supported political summaries and queues weekly questions while holding odds. Weekly review incorporates these mechanisms once within the existing scenario mixture and common candidate standards. No new multiplier, roster change, automatic score or historical forecast rewrite is introduced. A held authority score or daily estimate must not be presented as evidence of unchanged credibility. Structural validation cannot establish audience beliefs or the quality of this inference.
+
 ## Small question register
 
 Start with `research-plan.json` and choose one to five consequential questions. Shared questions link to affected assessments rather than being copied for every candidate. Attempted work has actual private intake receipts and an explicitly projected public evidence record. Deferred work remains labeled. Unanswered IDs must continue or have a disposition. Seven-day/unknown issue gaps require escalation, not an invented fresh verification date. These checks establish accountability, not completeness or political truth.

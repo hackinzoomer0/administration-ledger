@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-09",
+  "type": "workflow_setup",
+  "summary": "Research instructions now assess factual verification separately from audience beliefs, faction credibility and perceived personnel competence. A disputed allegation can expose a supported political vulnerability without establishing misconduct or representative persuasion.",
+  "scope": "Prospective process correction across shared analysis, research priorities, maintained assessments, daily nominee monitoring, weekly projection and support-base research.",
+  "changes": [
+    "Added separate judgments for underlying conduct, exposure, observed reception, inferred present vulnerability and projected behavior.",
+    "Required consequential reception and counter-move searches, with original-episode versus excerpt/reporting coverage explicit.",
+    "Added responsibility tracing through officials, factions and the appointing leader, plus common-standard personnel competence comparisons.",
+    "Required supported political implications in maintained summaries; score or daily odds holds explain their dimension or cadence.",
+    "Updated prompt metadata, research-workflow documentation and impersonal project memory."
+  ],
+  "changed_entries": [
+    "prompts/analysis-rules",
+    "prompts/research-questions",
+    "prompts/current-assessment",
+    "prompts/nominee-monitor",
+    "prompts/nomination-wargame",
+    "prompts/support-base-research",
+    "prompts/registry",
+    "MEMORY.md",
+    "docs/research-workflow.md"
+  ],
+  "limitations": [
+    "This is a process correction, not a new political intake or claim about audience agreement.",
+    "The completed daily research and forecast history remain unchanged; no nominees, numerical formula, scenario inputs or odds were changed.",
+    "Existing record fields carry the analysis; no new mandatory schema or automatic reputation score was added.",
+    "Future reviews must obtain reception evidence and qualify the breadth of inferred effects."
+  ],
+  "validation_results": "PASS: database validation (13 collections, 650 events, eight nominees); two existing database/prompt-composition tests; git diff --check. No application code or forecast inputs changed."
+}

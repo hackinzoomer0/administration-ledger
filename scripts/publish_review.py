@@ -29,6 +29,32 @@ def database_hash(root):
     return digest.hexdigest()
 
 
+def require_same_state(actual, expected, context):
+    """Report document identifiers only; never echo private research contents."""
+    mismatches = changes(actual, expected)
+    # changes() iterates target collections; include removed collections as well.
+    removed = set(actual['collections']) ^ set(expected['collections'])
+    names = [f"{row['collection']}/{row['id']}" for row in mismatches]
+    names.extend(f'{key}/*' for key in sorted(removed))
+    if names:
+        raise RuntimeError(f'{context}: ' + ', '.join(names) +
+                           '; reconcile and publish the baseline before starting research')
+
+
+def check_remote_baseline():
+    """Fail before research if local data or composed prompts are unpublished."""
+    identifiers(required=True)
+    expected = public_value(load())
+    with tempfile.TemporaryDirectory(prefix='ledger-baseline-') as directory:
+        subprocess.check_output(['git', 'clone', '--depth=1', '--branch=main',
+                                 f'https://github.com/{REPO}.git', '.'],
+                                cwd=directory, text=True)
+        require_same_state(load(directory), expected, 'Remote/local baseline differs')
+        commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'],
+                                         cwd=directory, text=True).strip()
+    return {'status': 'matched', 'commit': commit}
+
+
 def publish(stage):
     identifiers(required=True)
     stage = Path(stage)
@@ -52,8 +78,9 @@ def publish(stage):
             else:
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_text(json.dumps(public_value(edit['after']), ensure_ascii=False, indent=2) + '\n')
-        if load(directory) != {'collections': {key: public_value(value) for key, value in after['collections'].items()}}:
-            raise RuntimeError('Remote/local state differs outside changed documents; sync the checkout before publication')
+        require_same_state(load(directory),
+                           {'collections': {key: public_value(value) for key, value in after['collections'].items()}},
+                           'Remote/local state differs outside changed documents')
         scan(Path(directory), require_config=True)
         git('add', 'database')
         if git('diff', '--cached', '--name-only'):

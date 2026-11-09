@@ -9,10 +9,14 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from database import ROOT, apply, atomic_json, changes, fingerprint, load, validate
-from publish_review import publish
+from publish_review import publish, check_remote_baseline
 from validate_nominees import validate as validate_nominees
 from validate_assessments import validate_review as validate_assessment_review
 from reader_copy import plan as reader_copy_plan, validate as validate_reader_copy
+
+
+def baseline(stage, section):
+    atomic_json(stage / 'baseline.json', check_remote_baseline())
 
 
 def prepare(stage, section):
@@ -110,7 +114,7 @@ def finish(stage, section):
 if __name__ == '__main__':
     command, directory, section = sys.argv[1:]
     try:
-        {'prepare': prepare, 'check': check, 'copy-plan': copy_plan, 'finish': finish}[command](Path(directory), section)
+        {'baseline': baseline, 'prepare': prepare, 'check': check, 'copy-plan': copy_plan, 'finish': finish}[command](Path(directory), section)
     except Exception as error:
         atomic_json(Path(directory) / 'failure.json', {'phase': command, 'error': str(error)})
         raise

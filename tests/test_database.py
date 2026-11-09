@@ -202,6 +202,27 @@ class DatabaseWorkflow(unittest.TestCase):
                     os.killpg(process.pid,signal.SIGKILL)
                     process.communicate()
 
+    def test_baseline_failure_stops_before_research_and_retains_diagnostic(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            scripts = root / 'scripts'
+            scripts.mkdir()
+            shutil.copy(ROOT / 'scripts/run-review', scripts / 'run-review')
+            (scripts / 'review_workflow.py').write_text(
+                'import json,pathlib,sys\np=pathlib.Path(sys.argv[2])\n'
+                'assert sys.argv[1]=="baseline"\n'
+                '(p/"failure.json").write_text(json.dumps({"phase":"baseline","error":"prompts/rules differs"}))\n'
+                'sys.exit(1)\n')
+            (scripts / 'review_chat.py').write_text(
+                'import pathlib\npathlib.Path("unexpected-research").touch()\n')
+            result = subprocess.run(['bash', str(scripts / 'run-review'), 'daily'],
+                                    cwd=root, capture_output=True)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertFalse((root / 'unexpected-research').exists())
+            failures = list(root.glob('.runtime/review.*/failure.json'))
+            self.assertEqual(len(failures), 1)
+            self.assertEqual(json.loads(failures[0].read_text())['phase'], 'baseline')
+
 
 if __name__ == '__main__':
     unittest.main()
