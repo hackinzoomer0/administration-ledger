@@ -1430,5 +1430,24 @@
         ]
       }
     }
+  },
+  "deployment_recovery": {
+    "type": "deployment_recovery",
+    "failed_commit": "98aaf33069449e57cc2089a7b108d91c0cb15105",
+    "failed_workflow": "https://github.com/hackinzoomer0/administration-ledger/actions/runs/42822270883",
+    "cause": [
+      "The assessment browser test hard-coded an old Miller event headline instead of resolving the linked current event.",
+      "The forecast archive assertion exceeded its five-second timeout in CI while collapsed nested records were mounted; this timeout did not reproduce in the initial single-worker local run."
+    ],
+    "changes": [
+      "Resolve the assessment evidence headlines from their stable event references.",
+      "Unmount collapsed nested full-record sections until opened.",
+      "Verify that old forecast details stay unmounted before expansion and become readable when Tracking is opened."
+    ],
+    "validation": [
+      "All 16 browser tests passed on the failed daily research revision with the fixes.",
+      "Lint, TypeScript, production build, seven selector tests and 107 Python tests passed."
+    ],
+    "research_preservation": "Reused the retained daily review. No new intake, prompt edits, nominee additions, probability changes or historical forecast rewrite."
   }
 }

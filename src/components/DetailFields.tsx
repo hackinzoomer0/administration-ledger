@@ -102,6 +102,7 @@ export function DetailFields({
               disableGutters
               elevation={0}
               variant="outlined"
+              slotProps={{ transition: { unmountOnExit: true } }}
             >
               <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography variant="subtitle2">{title}</Typography>

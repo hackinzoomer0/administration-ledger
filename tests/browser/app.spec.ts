@@ -23,15 +23,13 @@ function scenarioTitle(scenario: { id: string; name: string }) {
     : scenario.name;
 }
 const eventsDirectory = new URL("../../database/events/", import.meta.url);
-const eventCount = readdirSync(eventsDirectory)
+const events = readdirSync(eventsDirectory)
   .filter((name) => name.endsWith(".json"))
-  .reduce(
-    (total, name) =>
-      total +
-      JSON.parse(readFileSync(new URL(name, eventsDirectory), "utf8")).items
-        .length,
-    0,
+  .flatMap(
+    (name) =>
+      JSON.parse(readFileSync(new URL(name, eventsDirectory), "utf8")).items,
   );
+const eventCount = events.length;
 test("current assessment leads with power and nomination judgments", async ({
   page,
 }) => {
@@ -58,11 +56,15 @@ test("current assessment leads with power and nomination judgments", async ({
     .first()
     .click();
   await expect(page.getByRole("dialog")).toBeVisible();
-  await expect(
-    page
-      .getByRole("dialog")
-      .getByRole("button", { name: /Trump named Miller/ }),
-  ).toBeVisible();
+  for (const id of assessment.administration.contests[0].event_ids) {
+    const event = events.find((row: { id: string }) => row.id === id);
+    expect(event, `Evidence event ${id} must exist`).toBeDefined();
+    await expect(
+      page.getByRole("dialog").getByRole("button", {
+        name: event.text,
+      }),
+    ).toBeVisible();
+  }
   await page.getByRole("button", { name: "Close evidence" }).click();
   await expect(
     page.getByRole("heading", { name: "Current assessment", exact: true }),
@@ -594,5 +596,14 @@ test("review archive loads after navigation and retains historical forecast acce
   await page.getByText("Historical forecast records", { exact: true }).click();
   await expect(
     page.getByText("Forecast rationale", { exact: true }).first(),
+  ).toBeVisible();
+  await expect(
+    page.getByText(nomination.tracking.history[0].summary, { exact: true }),
+  ).toHaveCount(0);
+  await page.getByRole("button", { name: "Tracking", exact: true }).click();
+  await expect(
+    page
+      .getByText(nomination.tracking.history[0].summary, { exact: true })
+      .first(),
   ).toBeVisible();
 });
