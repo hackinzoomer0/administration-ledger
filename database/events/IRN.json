@@ -2895,13 +2895,13 @@
       ],
       "kind": "chron",
       "actor": "Donald Trump; JD Vance; Mohammed bin Abdulrahman Al-Thani; Marco Rubio",
-      "text": "Trump and Vance plan talks with Qatar’s prime minister as Iran’s proposed terms remain disputed.",
-      "context": "Reuters reported on November 9 that Qatar’s prime minister, Mohammed bin Abdulrahman Al-Thani, would meet Trump and Vance later Monday. Secretary of State Marco Rubio rejected Iran’s proposed terms and did not expect an imminent breakthrough. The meeting’s completion and any resulting agreement remain unverified. Reuters also relayed Iranian media accounts of overnight strikes on Qeshm; the United States had not commented on those reports. My reading: mediation gives Vance an opportunity to demonstrate results, but incompatible demands and continuing violence constrain the next step. A reported strike is not independent proof of a new US operational directive.",
-      "source": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
+      "text": "Qatar’s prime minister reportedly meets Trump and Vance; an Iran agreement remains unverified.",
+      "context": "Earlier Reuters reporting scheduled separate November 9 meetings and described disputed Iranian terms. Iran International later relayed Al Jazeera’s report that the meetings occurred and an informed source’s claim of progress. This review read that report, not a direct joint readout. No accepted terms, ceasefire or blockade removal were verified. Earlier Iranian accounts of Qeshm strikes remain attributed reports. https://www.iranintl.com/en/202611097687",
+      "source": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html ; https://www.iranintl.com/en/202611097687",
       "url": "https://new.streetinsider.com/Reuters/Trump%2Bto%2Bmeet%2BIran%2Bwar%2Bmediator%2BQatar,%2Bno%2Bimminent%2Bdeal%2Bseen%2Bto%2Bend%2Bthe%2Bwar/27310568.html",
       "tier": "reported",
       "weight": 3,
-      "rationale": "My reading: renewed mediation is an opportunity, not a settlement; Iran and Gulf governments retain their own demands.",
+      "rationale": "My reading: the reported meetings keep Vance’s diplomatic role active. A mediator’s claim of progress does not show that Iran or the United States accepted a settlement or that Republican voters credit Vance.",
       "origin": "2026-11-09",
       "added": "2026-11-09",
       "by": [
@@ -2909,7 +2909,10 @@
         "hawks"
       ],
       "fx": {},
-      "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy."
+      "fxnote": "No fx: this development establishes a statement or review, not a demonstrated change in a tracked faction’s control of policy.",
+      "source_ids": [
+        "daily_qatar_20261110"
+      ]
     }
   ]
 }

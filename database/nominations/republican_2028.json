@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-09",
+  "as_of_date": "2026-11-10",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2535,6 +2535,114 @@
       "verification_status": "read_this_run",
       "receipt_ids": [
         "9860016f07013919952ee5d2"
+      ]
+    },
+    {
+      "id": "daily_massie_20261110",
+      "url": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/",
+      "publisher": "CQ Roll Call",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "description": "Representative Thomas Massie read impeachment articles against Defense Secretary Pete Hegseth. The House’s response remains pending. Hakeem Jeffries and federal-employees’ union president Everett Kelley support the effort.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "ca0c5c57eafc4911fba52e2e"
+      ]
+    },
+    {
+      "id": "daily_defense_trump_20261110",
+      "url": "https://www.marketscreener.com/news/trump-says-he-will-stand-by-hegseth-if-he-is-impeached-ce785fd3d181f42d",
+      "publisher": "Reuters",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "description": "Reuters transcript: Trump says he will stand by Hegseth; claims military success. Those claims not independently adopted.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "3c7eca7f782fd0dd9ea85cdb"
+      ]
+    },
+    {
+      "id": "daily_qatar_20261110",
+      "url": "https://www.iranintl.com/en/202611097687",
+      "publisher": "Al Jazeera via Iran International",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "description": "The November 9 report says Trump and Vance met Qatar’s prime minister separately. Al Jazeera’s informed source claims progress; accepted settlement terms remain unverified.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "ae2a14b718693499907f00c7"
+      ]
+    },
+    {
+      "id": "daily_miller_20261110",
+      "url": "https://www.washingtonpost.com/politics/2026/11/09/stephen-miller-begins-new-role-trump-chief-staff/",
+      "publisher": "Washington Post",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "description": "Miller started Monday, November 9. Detailed division of staff duties not established.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "8996d9c48a4dca1fd37967ea"
+      ]
+    },
+    {
+      "id": "daily_stutzman_20261110",
+      "url": "https://www.realclearpolitics.com/video/2026/11/08/indiana_gop_rep_marlin_stutzman_promoting_stephen_miller_a_bad_mistake.html",
+      "publisher": "CNN via RealClearPolitics",
+      "publication_date": "2026-11-08",
+      "accessed_on": "2026-11-10",
+      "description": "CNN interview extract records Stutzman opposing Miller promotion; full episode not reviewed.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "dad737e27f35ad3155cad160"
+      ]
+    },
+    {
+      "id": "daily_opinion_20261110",
+      "url": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf",
+      "publisher": "Supreme Court",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "description": "The original Supreme Court opinion temporarily lifts the construction injunction and explains why the government is likely to prevail on its argument that the lower court could not hear this claim.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "5fd8c7cd5dabc2098245fe72"
+      ]
+    },
+    {
+      "id": "daily_docket_20261110",
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a560.html",
+      "publisher": "Supreme Court",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "description": "The Supreme Court temporarily lifted the construction injunction November 9 while it considers whether to hear the case. Justice Jackson would have denied the stay.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "c30162a599c8159b456e36ca"
+      ]
+    },
+    {
+      "id": "daily_city_20261110",
+      "url": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "publisher": "City of Minneapolis",
+      "publication_date": null,
+      "accessed_on": "2026-11-10",
+      "description": "Proposal describes local zoning, temporary pause and November 12 council meeting. Updated October 16; not proof of November 9 action or final adoption.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "9860016f07013919952ee5d2"
+      ]
+    },
+    {
+      "id": "daily_appointment_20261110",
+      "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+      "publisher": "White House/direct public statements",
+      "publication_date": "2026-11-06",
+      "accessed_on": "2026-11-10",
+      "description": "Official November 6 appointment and public praise by Vance, Rubio and Hegseth; not evidence of voter agreement.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "fdb10a8533e023e6195c01be"
       ]
     }
   ],
@@ -17971,6 +18079,378 @@
               }
             }
           }
+        }
+      },
+      {
+        "id": "2026-11-10-daily",
+        "date": "2026-11-10",
+        "run_id": "2026-11-10",
+        "type": "daily_review",
+        "wargame_ref": "2026-11-09-weekly",
+        "summary": "The November 9 full review still supplies all eight conditional estimates. Vance retains a diplomatic opportunity without a verified settlement. Massie’s House action gives him a concrete accountability argument, while Trump’s defense of Hegseth keeps the personnel dispute open. No new voter, donor or organizer transfer is established; today’s numerical holds reflect the weekly cadence.",
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.05,
+          "ron_desantis": 19.45,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The reported Qatar meeting preserves a chance to show negotiating results; no agreement or voter gain is verified.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The carried entry, appeal and recruitment assessment remains partial; this intake did not freshly verify this candidate’s donors or organizers.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The carried entry, appeal and recruitment assessment remains partial; this intake did not freshly verify this candidate’s donors or organizers.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The carried entry, appeal and recruitment assessment remains partial; this intake did not freshly verify this candidate’s donors or organizers.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The carried entry, appeal and recruitment assessment remains partial; this intake did not freshly verify this candidate’s donors or organizers.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The carried entry, appeal and recruitment assessment remains partial; this intake did not freshly verify this candidate’s donors or organizers.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. The carried entry, appeal and recruitment assessment remains partial; this intake did not freshly verify this candidate’s donors or organizers.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held under the weekly cadence from the November 9 full review. His House action supplies a concrete accountability argument, but passage, support for a presidential bid and party route remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "Conditional on the eight authorized contenders; unlisted candidates can win.",
+          "No fresh all-candidate donor, endorsement or early-state organization census.",
+          "Qatar progress is attributed; no settlement or voter transfer verified.",
+          "Leadership results, remaining election calls, Russia talks and several major court outcomes remain incomplete."
+        ],
+        "monitoring": {
+          "summary": "Daily estimates held under weekly cadence. New floor pressure and reported diplomacy change the evidence, without demonstrating changed nomination support. Latest full wargame: November 9.",
+          "developments": [
+            {
+              "finding": "Massie read Hegseth impeachment articles on the House floor.",
+              "implication": "This strengthens his visible accountability argument and pressures the Pentagon; it does not establish support for his presidential candidacy.",
+              "weekly_question": "Will support for Massie’s impeachment effort become campaign commitments, or remain limited to the policy dispute?",
+              "source_ids": [
+                "daily_massie_20261110",
+                "daily_defense_trump_20261110"
+              ],
+              "event_ids": [
+                "mid-2026-11-09-massie-hegseth-floor-action"
+              ]
+            },
+            {
+              "finding": "Trump and Vance reportedly met Qatar’s prime minister.",
+              "implication": "Vance retains an opportunity to demonstrate results; the claim of progress is attributed.",
+              "weekly_question": "Would an accepted settlement change voter judgments of Vance’s earlier war responsibility?",
+              "source_ids": [
+                "daily_qatar_20261110"
+              ],
+              "event_ids": [
+                "irn-2026-11-09-qatar-meeting-plan"
+              ]
+            },
+            {
+              "finding": "Miller reportedly began as chief of staff; Stutzman criticized the promotion.",
+              "implication": "Greater staff access coexists with a documented Republican criticism of Trump’s personnel choice.",
+              "weekly_question": "Do further defenses or distancing show a broader competence dispute, and how do Vance and Rubio answer for welcoming Miller?",
+              "source_ids": [
+                "daily_miller_20261110",
+                "daily_stutzman_20261110",
+                "daily_appointment_20261110"
+              ],
+              "event_ids": [
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            }
+          ],
+          "prediction_updates": [
+            {
+              "id": "vance-selective-loyalty",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-02-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "congress-accountability",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "alternative-coordination",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "mcentee-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "project2025",
+                "mcentee_withdrawal",
+                "mcentee_personnel_record",
+                "weekly_tencent_ld2",
+                "weekly_heritage_personnel"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "kemp-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "kemp_2026_ajc",
+                "kemp_2026_tax_relief",
+                "kemp_2024_enforcement",
+                "kemp_2019_life_act"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "coalition-conversion-common-2027-04",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "causal_ap_recovery"
+              ],
+              "event_ids": [
+                "mid-2026-11-05-congress-control",
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "support-recruitment-2027-02",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-02-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "weekly_paul_massie_support",
+                "daily_vance_brand_20261107"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "massie-party-choice-2027-02",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-02-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "weekly_massie_route"
+              ],
+              "event_ids": [
+                "suc-2026-11-08-massie-party-route"
+              ]
+            }
+          ]
         }
       }
     ],

@@ -1,0 +1,1434 @@
+{
+  "date": "2026-11-10",
+  "type": "daily_review",
+  "added": 2,
+  "summary": "Trump retains executive authority while Democrats prepare to take control of Congress in January. Stephen Miller reportedly began as chief of staff on November 9, giving him more ability to manage White House staff and proposals reaching Trump; Susie Wiles’s political responsibilities remain unclear. Representative Thomas Massie has moved his Hegseth impeachment effort onto the House floor, while Trump defends his defense secretary. That dispute creates pressure over the war and the president’s personnel choices without establishing a vote result or removal. The Supreme Court has temporarily lifted the injunction blocking Big Bend border-wall construction, a specific legal opening rather than proof of completed building or broader enforcement success. Qatar’s prime minister reportedly met Trump and Vice President JD Vance, but an Iran settlement remains unverified. Nvidia’s inquiry, Israel’s government formation and Minneapolis’s November 12 data-center zoning decision remain open. Today’s Republican leadership results, outstanding election calls, Russia-Ukraine talks and major unresolved court proceedings require follow-up. Tariffs, the Fed, Epstein oversight and Venezuela retain carried findings and incomplete fresh coverage. All eight estimates hold at November 9 levels under the weekly cadence.",
+  "scope": "Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete.",
+  "reviewed_episode_ids": [
+    "mid-2026-11-06-miller-chief-staff",
+    "irn-2026-11-09-qatar-meeting-plan",
+    "mid-2026-11-09-massie-hegseth-floor-action",
+    "imm-2026-11-09-big-bend-stay"
+  ],
+  "changed_entries": [
+    "changes/2026-11-10",
+    "events/IMM",
+    "events/IRN",
+    "events/MID",
+    "factions/dissenters",
+    "factions/maximalists",
+    "factions/operation",
+    "factions/pentagon",
+    "factions/vance",
+    "people/all",
+    "runs/2026-11-10",
+    "nominations/republican_2028",
+    "assessments/current",
+    "assessments/issues"
+  ],
+  "unresolved_claims": [
+    "Conditional on the eight authorized contenders; unlisted candidates can win.",
+    "No fresh all-candidate donor, endorsement or early-state organization census.",
+    "Qatar progress is attributed; no settlement or voter transfer verified.",
+    "Leadership results, remaining election calls, Russia talks and several major court outcomes remain incomplete.",
+    "Cook archive returned 429; no completed hearing or new disposition established.",
+    "Russia talks surfaced in search, but full readable reporting attempts failed. No settlement adopted.",
+    "Nvidia shareholder-lawsuit headline and export-scrutiny leads require enrichment; the board inquiry remains carried.",
+    "Collector coverage was focused: several index bodies and deeper archives were not enumerated; inbox and full watch rotation not accessed."
+  ],
+  "evidence_needed": [
+    "Recorded House disposition and leadership results",
+    "Accepted Iran terms and implementation",
+    "Miller instructions and Wiles’s remit",
+    "Current remaining election calls and Russia talks reporting",
+    "Cook docket and consequential court outcomes",
+    "Representative voter, donor and organizer commitments"
+  ],
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "weekly-policy-correction",
+        "question": "Can Vance change policy positioning without losing Trump-aligned support?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Reported Qatar meetings preserve Vance’s negotiating role; no agreement or measured support gain is established.",
+        "explanations": [
+          {
+            "explanation": "Vance remains involved in negotiations while retaining a working relationship with Trump.",
+            "weight": "dominant",
+            "reason": "Reported Qatar meetings follow Trump’s previously reported permission to disagree; neither establishes a settlement or voter acceptance.",
+            "discriminating_observation": "A joint readout, accepted terms, implementation and consequential Republican responses."
+          },
+          {
+            "explanation": "Voters may see Vance’s correction as an attempt to escape responsibility.",
+            "weight": "credible",
+            "reason": "Trump previously emphasized Vance’s participation in decisions. No representative reception evidence was obtained today.",
+            "discriminating_observation": "Defenses or distancing by consequential supporters, and comparable voter evidence."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Diplomatic participation is supported at reported level. Credible voter distrust survives because participation does not erase prior responsibility; reception breadth remains unmeasured.",
+        "next_action": "Check accepted terms and consequential defenses, distancing or campaign commitments.",
+        "next_check": "2026-11-11",
+        "source_receipt_ids": [
+          "ae2a14b718693499907f00c7"
+        ]
+      },
+      {
+        "id": "weekly-support-conversion",
+        "question": "Which current or potential supporters can supply campaign workers, money and primary votes across the eight contenders?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Entry choices and the party route affect recruitment: keep Rubio entry risk and Massie’s competing third-party route distinct from personal appeal. No bloc-wide transfer is observed.",
+        "explanations": [
+          {
+            "explanation": "Entry choices and the party route affect recruitment: keep Rubio entry risk and Massie’s competing third-party route distinct from personal appeal. No bloc-wide transfer is observed.",
+            "weight": "dominant",
+            "reason": "Accessible reporting or the municipal record identifies the act; projected audience and organizational consequences remain inferences.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Better-known candidates monopolize resources, or disaffected supporters leave the Republican contest entirely.",
+            "weight": "credible",
+            "reason": "A competing response is plausible, but no representative transfer or completed permitting decision was verified.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "deferred",
+        "outcome": "Carried question retained for weekly follow-up; no broad new support census or committee agenda review completed today.",
+        "next_action": "Verify named commitments and decisions; compare actual behavior with the surviving countercase.",
+        "next_check": "2026-11-16",
+        "source_receipt_ids": []
+      },
+      {
+        "id": "weekly-siting-chokepoints",
+        "question": "Who can approve or obstruct data-center construction and electricity cost allocation?",
+        "importance": "Could change the current authority assessment, candidate comparison or next consequential observation.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "Minneapolis retains a local zoning decision; the municipal page lists November 12. Adoption and utility cost allocation remain unresolved.",
+        "explanations": [
+          {
+            "explanation": "The Minneapolis municipal record identifies a local zoning decision and scheduled council consideration. It does not establish adoption or utility cost allocation.",
+            "weight": "dominant",
+            "reason": "Accessible reporting or the municipal record identifies the act; projected audience and organizational consequences remain inferences.",
+            "discriminating_observation": "Named commitments, operative orders, regulator decisions and verified implementation rather than repeating announcements."
+          },
+          {
+            "explanation": "Federal siting and funding can accelerate selected projects enough to overcome some constraints.",
+            "weight": "credible",
+            "reason": "A competing response is plausible, but no representative transfer or completed permitting decision was verified.",
+            "discriminating_observation": "Observe actual choices by the affected voters, backers or permitting institutions."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Verified commitments or implemented decisions replace the present conditional statements.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant actors retain choices not determined by the current evidence.",
+            "assessment_effect": "Reconsider responsibility, coalition formation or implementation likelihood without automatically treating attention as support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The primary page supports municipal authority and a pending council date. The November 9 local report could not be read; no final adoption is inferred.",
+        "next_action": "Read the council’s final action after November 12; check a separate utility decision for costs.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "106ff995c84b544497b85b0e",
+          "5ead5d9dc44777cccbd60504",
+          "9860016f07013919952ee5d2"
+        ]
+      },
+      {
+        "id": "weekly-opposition-choice",
+        "question": "Could Democratic choices on affordability and oversight change Republican recovery without an Iran settlement?",
+        "importance": "Tests a future path outside the inherited war and insider-blame frame.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Democratic centrists are urging restraint and affordability. Their ability to control the agenda and deliver results is unresolved.",
+        "explanations": [
+          {
+            "explanation": "Competing Democratic priorities constrain a uniform investigative escalation.",
+            "weight": "dominant",
+            "reason": "The accessible report documents disagreement over priorities, rather than a settled agenda.",
+            "discriminating_observation": "Committee and floor scheduling after the new Congress takes office."
+          },
+          {
+            "explanation": "Partisan conflict still produces a Republican rally even if centrists urge restraint.",
+            "weight": "credible",
+            "reason": "Trump and Blanche already offer a resistance message; public response and Democratic execution are uncertain.",
+            "discriminating_observation": "Actual inquiry scope and sustained Republican response, separated from press attention."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Democrats subordinate affordability legislation to repeated impeachment votes.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Internal disagreement and executive veto power constrain the choice.",
+            "assessment_effect": "Increase the plausibility of partisan backlash without assuming policy recovery."
+          }
+        ],
+        "status": "deferred",
+        "outcome": "Carried question retained for weekly follow-up; no broad new support census or committee agenda review completed today.",
+        "next_action": "Check opening legislative and committee agendas.",
+        "next_check": "2026-11-16",
+        "source_receipt_ids": []
+      },
+      {
+        "id": "daily-institutional-check",
+        "question": "Can courts and current House members change administration choices before the incoming Congress takes office?",
+        "importance": "Separates exercised legal and procedural authority from anticipated January oversight.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/IMM",
+          "assessments/issues/MID"
+        ],
+        "current_answer": "The Supreme Court temporarily removes a Big Bend construction obstacle; Massie advances a House procedure without a verified vote result.",
+        "explanations": [
+          {
+            "explanation": "Institutions can change a specific legal constraint or force procedural choices before January.",
+            "weight": "dominant",
+            "reason": "The original stay and reported floor action identify concrete decisions rather than general pressure.",
+            "discriminating_observation": "Construction instructions and the House’s actual disposition."
+          },
+          {
+            "explanation": "Trump’s backing and House procedural alternatives can protect Hegseth despite the challenge.",
+            "weight": "credible",
+            "reason": "Trump publicly supports Hegseth and the House can table or refer the resolution.",
+            "discriminating_observation": "Recorded votes and a personnel decision, separately."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The House impeaches Hegseth.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "No reliable vote count or completed vote was established.",
+            "assessment_effect": "Raise formal congressional pressure; removal would still require a separate Senate outcome."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Specific legal and procedural changes are supported; completion, popularity and eventual removal remain unknown.",
+        "next_action": "Check the House disposition and Homeland Security implementation.",
+        "next_check": "2026-11-11",
+        "source_receipt_ids": [
+          "ca0c5c57eafc4911fba52e2e",
+          "3c7eca7f782fd0dd9ea85cdb",
+          "5fd8c7cd5dabc2098245fe72",
+          "c30162a599c8159b456e36ca"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "weekly-policy-correction": "Continued in this run’s priority register.",
+      "weekly-support-conversion": "Continued in this run’s priority register.",
+      "weekly-siting-chokepoints": "Continued in this run’s priority register.",
+      "weekly-opposition-choice": "Continued in this run’s priority register."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": null,
+        "next_action": "Check Minneapolis final zoning action and utility cost allocation separately.",
+        "next_check": "2026-11-12",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "106ff995c84b544497b85b0e",
+          "5ead5d9dc44777cccbd60504",
+          "9860016f07013919952ee5d2"
+        ],
+        "escalation": "Unknown full-coverage date; prioritize the next consequential decision.",
+        "status": "carried"
+      },
+      "EPS": {
+        "last_verified": null,
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "7f0155a461556b34f9e26b1d"
+        ],
+        "escalation": "Unknown full-coverage date; prioritize the next consequential decision.",
+        "status": "carried"
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "b7de24b774e0934f102a679f",
+          "9d4bedf90417425381b0678d",
+          "9a4ae369ec712f7ae2d5547f"
+        ],
+        "status": "carried"
+      },
+      "IMM": {
+        "last_verified": "2026-11-08",
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "5fd8c7cd5dabc2098245fe72"
+        ],
+        "status": "carried"
+      },
+      "IRN": {
+        "last_verified": "2026-11-08",
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "ae2a14b718693499907f00c7",
+          "538a073cad83ae05f9790750"
+        ],
+        "status": "carried"
+      },
+      "MID": {
+        "last_verified": "2026-11-08",
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "ce614b5772b4845153936035",
+          "59af2fcf4d41f34832f36ec1",
+          "6a690e8ff6e7f23629cac6c1",
+          "ca0c5c57eafc4911fba52e2e"
+        ],
+        "status": "carried"
+      },
+      "RUS": {
+        "last_verified": null,
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "fd1b38543a8ad7b6aa1be0ed",
+          "8b2aebfa6c29dff599fbcfba",
+          "6b4aa428902cf46727527127",
+          "cb450fc1df6332f51af91332",
+          "4520da3f1253e8e27ab12da7"
+        ],
+        "escalation": "Unknown full-coverage date; prioritize the next consequential decision.",
+        "status": "carried"
+      },
+      "SUC": {
+        "last_verified": "2026-11-08",
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "ae2a14b718693499907f00c7",
+          "ca0c5c57eafc4911fba52e2e"
+        ],
+        "status": "carried"
+      },
+      "TAR": {
+        "last_verified": null,
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "7f0155a461556b34f9e26b1d"
+        ],
+        "escalation": "Unknown full-coverage date; prioritize the next consequential decision.",
+        "status": "carried"
+      },
+      "VEN": {
+        "last_verified": null,
+        "next_action": "Complete issue-specific outcome and implementation checks; do not count a broad recall query as coverage.",
+        "next_check": "2026-11-11",
+        "reason": "Focused daily intake; carried gaps remain visible.",
+        "attempt_receipt_ids": [
+          "7f0155a461556b34f9e26b1d"
+        ],
+        "escalation": "Unknown full-coverage date; prioritize the next consequential decision.",
+        "status": "carried"
+      }
+    },
+    "discovery_question": "Can a court decision change a specific border project independently of White House personnel and deportation rhetoric?",
+    "discovery_disposition": "Original Big Bend stay reviewed; legal opening incorporated without claiming completed construction.",
+    "premise_reconciliation": "Maintained assessments distinguish reported office access, a temporary judicial order, floor procedure and attributed diplomacy. Legacy faction summaries are historical context; daily odds remain the November 9 weekly estimates.",
+    "source_receipts": [
+      {
+        "kind": "query",
+        "value": "November 10 2026 Trump Vance Miller Wiles election Iran Qatar",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Surfaced Qatar completed-meeting report and post-election reactions.",
+        "reporting_origin": "Web search",
+        "id": "9aa1193f2fa1414f108ad7d8"
+      },
+      {
+        "kind": "query",
+        "value": "November 10 2026 election House Senate control results Trump reactions",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Democratic control reported; Republican leadership votes scheduled today.",
+        "reporting_origin": "Web search",
+        "id": "ce614b5772b4845153936035"
+      },
+      {
+        "kind": "query",
+        "value": "site.mofa.gov.qa November 9 2026 Prime Minister Trump Vance",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "No matching primary readout isolated in returned results.",
+        "reporting_origin": "Web search",
+        "id": "aad9a21faed0681f295cc607"
+      },
+      {
+        "kind": "query",
+        "value": "November 10 2026 Republican leadership Johnson Thune Scalise Jordan election Hegseth",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Pre-vote reporting; no leadership result established.",
+        "reporting_origin": "Web search",
+        "id": "59af2fcf4d41f34832f36ec1"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Stephen Miller first day Wiles chief staff Trump",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Surfaced November 9 start report and appointment announcement.",
+        "reporting_origin": "Web search",
+        "id": "16fd2c6aafbc3285c3867918"
+      },
+      {
+        "kind": "query",
+        "value": "Minneapolis data center zoning November 12 2026 council",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Catch-up: primary proposal and November 12 vote; November 9 local coverage surfaced.",
+        "reporting_origin": "Web search",
+        "id": "106ff995c84b544497b85b0e"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Stutzman Miller mistake CNN chief staff",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Surfaced CNN clip/extract of Republican criticism.",
+        "reporting_origin": "Web search",
+        "id": "0647f3e77986bc13d51ab954"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Trump Hegseth impeachment Massie defense Reuters",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Surfaced floor action and presidential defense.",
+        "reporting_origin": "Web search",
+        "id": "56b538e8c53a3613a6797fec"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Lisa Cook hearing lawsuit",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "No new completed hearing established.",
+        "reporting_origin": "Web search",
+        "id": "7707fbbe05253176f5ae8f0b"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Trump tariffs Russia Venezuela immigration court ruling Epstein",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Broad recall query; not comprehensive issue verification.",
+        "reporting_origin": "Web search",
+        "id": "b69ba664b835a327d2d169cd"
+      },
+      {
+        "kind": "query",
+        "value": "\"Lisa Cook\" hearing November 9 2026 lawsuit order",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Court archive hit; access subsequently 429. Hearing outcome unverified.",
+        "reporting_origin": "Web search",
+        "id": "b7de24b774e0934f102a679f"
+      },
+      {
+        "kind": "query",
+        "value": "\"Pete Hegseth\" subpoena November 9 2026",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Impeachment coverage found; no separately verified subpoena.",
+        "reporting_origin": "Web search",
+        "id": "958a1d4a66266f0ec27e58fc"
+      },
+      {
+        "kind": "query",
+        "value": "\"Jensen Huang\" investigation November 9 2026 ethics",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Board inquiry and shareholder-lawsuit headline surfaced; lawsuit not adjudicated or enriched.",
+        "reporting_origin": "Web search",
+        "id": "cc7936602159ba8593bda62b"
+      },
+      {
+        "kind": "query",
+        "value": "November 10 2026 Alaska Mississippi Senate governor Kansas election results pending",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Outstanding contests still appear unresolved; no final calls adopted.",
+        "reporting_origin": "Web search",
+        "id": "6a690e8ff6e7f23629cac6c1"
+      },
+      {
+        "kind": "query",
+        "value": "site.mofa.gov.qa \"November\" \"2026\" \"Washington\" \"9\" Prime Minister",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Primary Qatar readout not isolated.",
+        "reporting_origin": "Web search",
+        "id": "b8085c5cbe9c21a3f7fd8815"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Trump Hegseth impeachment Reuters local news",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Accessible licensed Reuters transcript located.",
+        "reporting_origin": "Web search",
+        "id": "ae406a0bc0df14e6569213ee"
+      },
+      {
+        "kind": "query",
+        "value": "November 9 2026 Trump immigration Supreme Court tariffs court ruling Epstein Russia Venezuela",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Located updated emergency docket tracker and Big Bend decision.",
+        "reporting_origin": "Web search",
+        "id": "7f0155a461556b34f9e26b1d"
+      },
+      {
+        "kind": "query",
+        "value": "November 10 2026 Russia Ukraine Abu Dhabi peace talks Witkoff Kushner Reuters",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Search reports talks beginning; full readable story not secured.",
+        "reporting_origin": "Web search",
+        "id": "fd1b38543a8ad7b6aa1be0ed"
+      },
+      {
+        "kind": "query",
+        "value": "Mullin Friends Ruidosa Church November 9 2026 Supreme Court border wall",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Located original Supreme Court opinion and docket.",
+        "reporting_origin": "Web search",
+        "id": "1a87b3015feef74fd993857d"
+      },
+      {
+        "kind": "query",
+        "value": "\"Trump envoys bring Russia and Ukraine\" \"November 10\" -site:marketscreener.com -site:reuters.com",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Alternative search surfaced Helsinki Times and RBC Ukraine; both direct access attempts failed.",
+        "reporting_origin": "Web search",
+        "id": "8b2aebfa6c29dff599fbcfba"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Mutable index refreshed; page loaded; not a full archive enumeration.",
+        "reporting_origin": "White House",
+        "id": "e08aaa051ff8e9d8d2f5fc87"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Mutable index refreshed; no full operative-action inventory completed.",
+        "reporting_origin": "White House",
+        "id": "8c11a8f53692849358a3d9f9"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.memeorandum.com/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "November 10 morning index; Nvidia scrutiny dominant; headlines remain leads.",
+        "reporting_origin": "Memeorandum/original outlets",
+        "id": "f05a9099cfe4b3a0096fe9b7"
+      },
+      {
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-10-nov-2026",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Tool reported inaccessible; no substitute digest sought.",
+        "reporting_origin": "TVG",
+        "id": "47e787c460f19b80cb25d685"
+      },
+      {
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Mutable index loaded; no full archive enumeration.",
+        "reporting_origin": "Treasury",
+        "id": "9e405ca375214ace3b145906"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.iranintl.com/en/202611097687",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "November 9 report says Trump and Vance met Qatar PM separately; progress attributed to Al Jazeera informed source, not accepted settlement.",
+        "reporting_origin": "Al Jazeera via Iran International",
+        "id": "ae2a14b718693499907f00c7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.fox9.com/news/minneapolis-set-pass-sweeping-data-center-regulations",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Direct local report inaccessible; used accessible municipal proposal for authority and pending date only.",
+        "reporting_origin": "FOX 9",
+        "id": "5ead5d9dc44777cccbd60504"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Proposal describes local zoning, temporary pause and November 12 council meeting. Updated October 16; not proof of November 9 action or final adoption.",
+        "reporting_origin": "City of Minneapolis",
+        "id": "9860016f07013919952ee5d2"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/politics/2026/11/09/stephen-miller-begins-new-role-trump-chief-staff/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Miller started Monday, November 9. Detailed division of staff duties not established.",
+        "reporting_origin": "Washington Post",
+        "id": "8996d9c48a4dca1fd37967ea"
+      },
+      {
+        "kind": "source",
+        "value": "https://abcnews.com/amp/Politics/jordan-scalise-face-off-house-gop-leader-after/story?id=137980555",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Direct article inaccessible; leadership contest remains pending after alternate NPR attempt also failed.",
+        "reporting_origin": "ABC News",
+        "id": "fd77b4c78a3bb18e225eecb1"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Official November 6 appointment and public praise by Vance, Rubio and Hegseth; not evidence of voter agreement.",
+        "reporting_origin": "White House/direct public statements",
+        "id": "fdb10a8533e023e6195c01be"
+      },
+      {
+        "kind": "source",
+        "value": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Massie read articles on floor; privilege ruling and vote options remain; Jeffries and AFGE leader support; no vote result.",
+        "reporting_origin": "CQ Roll Call",
+        "id": "ca0c5c57eafc4911fba52e2e"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.realclearpolitics.com/video/2026/11/08/indiana_gop_rep_marlin_stutzman_promoting_stephen_miller_a_bad_mistake.html",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "CNN interview extract records Stutzman opposing Miller promotion; full episode not reviewed.",
+        "reporting_origin": "CNN via RealClearPolitics",
+        "id": "dad737e27f35ad3155cad160"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.mainepublic.org/npr-news/2026-11-10/house-republicans-to-elect-a-new-leader-as-they-look-to-rebuild-from-midterm-defeat",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Licensed NPR page inaccessible; search extract only.",
+        "reporting_origin": "NPR via Maine Public",
+        "id": "7d1a560739665c892c6e6776"
+      },
+      {
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Mutable index November 9 Iran designation update surfaced.",
+        "reporting_origin": "OFAC",
+        "id": "2eca2535f3dd9be724be2f88"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "403 Forbidden; independent diplomacy reporting searched instead.",
+        "reporting_origin": "State Department",
+        "id": "177ec3ae67a2dfdf8d90787a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Index loaded; not full case/outcome coverage.",
+        "reporting_origin": "Justice Department",
+        "id": "72cf9cc6674fa15ea336a6ae"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "November 9 banking application item; does not resolve Cook case or establish a rate decision.",
+        "reporting_origin": "Federal Reserve",
+        "id": "9a4ae369ec712f7ae2d5547f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Mutable world index refreshed; Russia diplomacy headline surfaced; not enriched from this index.",
+        "reporting_origin": "Al Jazeera",
+        "id": "b5aa50cf29c305003c3cc523"
+      },
+      {
+        "kind": "source",
+        "value": "https://defensescoop.com/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Index loaded; headline screening only, no operational military orders verified.",
+        "reporting_origin": "DefenseScoop",
+        "id": "5229d246ebac2ad2e160043f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.brennancenter.org/our-work/research-reports/supreme-court-shadow-docket-tracker-challenges-trump-administration?stream=top",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Updated November 9 tracker identifies Big Bend stay; followed original opinion.",
+        "reporting_origin": "Brennan Center",
+        "id": "ce86b56e8e563424a65db554"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.investing.com/news/politics-news/hegseth-faces-expected-us-house-impeachment-vote-this-week-5013081",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Licensed Reuters page inaccessible; accessible Reuters transcript found on MarketScreener.",
+        "reporting_origin": "Reuters",
+        "id": "543755535a95425ae8816308"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.marketscreener.com/news/trump-says-he-will-stand-by-hegseth-if-he-is-impeached-ce785fd3d181f42d",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Reuters transcript: Trump says he will stand by Hegseth; claims military success. Those claims not independently adopted.",
+        "reporting_origin": "Reuters",
+        "id": "3c7eca7f782fd0dd9ea85cdb"
+      },
+      {
+        "kind": "source",
+        "value": "https://clearinghouse.net/case/46876/",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "429 Too Many Requests; current hearing and filing outcomes unresolved.",
+        "reporting_origin": "Civil Rights Litigation Clearinghouse",
+        "id": "9d4bedf90417425381b0678d"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a560.html",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "November 9 stay granted pending certiorari disposition; Jackson would deny.",
+        "reporting_origin": "Supreme Court",
+        "id": "c30162a599c8159b456e36ca"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Original per curiam opinion stays construction injunction; jurisdiction rationale and temporary scope reviewed.",
+        "reporting_origin": "Supreme Court",
+        "id": "5fd8c7cd5dabc2098245fe72"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.law.cornell.edu/supremecourt/text/26A560",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Original opinion reproduced; same underlying record, not independent corroboration.",
+        "reporting_origin": "Supreme Court via Cornell LII",
+        "id": "f32baf939de739b173569936"
+      },
+      {
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions/20261109",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "read",
+        "result": "Updates alias of already-listed Volta Shipping Services; no policy relaxation inferred.",
+        "reporting_origin": "OFAC",
+        "id": "538a073cad83ae05f9790750"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.marketscreener.com/news/trump-envoys-bring-russia-and-ukraine-together-for-first-peace-talks-in-9-months-ce785edadc89f623",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "headline_only",
+        "result": "Initial page shell loaded; body retrieval and repeated direct open failed. Talk outcome not verified.",
+        "reporting_origin": "Reuters",
+        "id": "6b4aa428902cf46727527127"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.helsinkitimes.fi/world-int/29473-russia-and-ukraine-resume-us-led-peace-talks-in-abu-dhabi.html",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Alternative readable-copy attempt inaccessible.",
+        "reporting_origin": "Helsinki Times",
+        "id": "cb450fc1df6332f51af91332"
+      },
+      {
+        "kind": "source",
+        "value": "https://newsukraine.rbc.ua/news/us-pushes-russia-to-bring-europe-into-next-1794298910.html",
+        "window": "2026-11-09:2026-11-10",
+        "purpose": "Check consequential outcomes and reactions in shared daily intake",
+        "status": "blocked",
+        "result": "Alternative reporting page inaccessible; search extract only; attributed Politico claim not adopted.",
+        "reporting_origin": "Politico via RBC Ukraine",
+        "id": "4520da3f1253e8e27ab12da7"
+      }
+    ],
+    "execution_phases": [
+      "Before intake: selected policy correction, institutional outcomes and municipal siting catch-up.",
+      "During adjudication: checked rival explanations against actual decisions and reception extracts.",
+      "Before preflight: reconciled attributed progress, reported handover and narrow legal scope; retained unresolved outcomes."
+    ],
+    "reception_scope": "Read CNN clip description via RealClearPolitics, official welcomes, Roll Call reporting of Jeffries/union support, and Reuters transcript of Trump’s defense. Full CNN episode and representative reception not reviewed. No new private-blame claim adopted.",
+    "strategic_reactions": [
+      {
+        "actor": "Marlin Stutzman",
+        "prior_stance": "No earlier personal stance on this promotion was retrieved; no conversion is claimed.",
+        "timing": "November 8, after the election loss and before the announced handover.",
+        "audience": "CNN viewers and Republican officials debating accountability.",
+        "incentive": "Calling for a different personnel response lets him challenge the administration’s handling of the defeat; motive is an inference.",
+        "observed": "Public criticism of the promotion in a CNN extract.",
+        "consequence": "Supported present disagreement over competence; wider voter acceptance remains unknown.",
+        "source_receipt_ids": [
+          "dad737e27f35ad3155cad160"
+        ]
+      },
+      {
+        "actor": "Donald Trump",
+        "prior_stance": "Earlier public backing of Hegseth is recorded in the November 5 episode.",
+        "timing": "November 9, as Massie advances the House challenge.",
+        "audience": "Lawmakers, military audiences and administration supporters.",
+        "incentive": "Defending claimed military success protects the official he retained and his own decisions; audience response is unresolved.",
+        "observed": "Reuters transcript records continued defense.",
+        "consequence": "Counterevidence to an imminent voluntary dismissal; no guarantee against congressional action."
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-10-daily",
+    "wargame_ref": "2026-11-09-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Daily cadence; no full wargame run. All active prediction deadlines checked and not due."
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Trump names Stephen Miller chief of staff; Miller reportedly starts November 9.",
+        "event_ids": [
+          "mid-2026-11-06-miller-chief-staff"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID"
+        ],
+        "reason": "Reflect the concrete act and its limits without claiming downstream outcomes."
+      },
+      {
+        "finding": "Qatar’s prime minister reportedly meets Trump and Vance; an Iran agreement remains unverified.",
+        "event_ids": [
+          "irn-2026-11-09-qatar-meeting-plan"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/IRN"
+        ],
+        "reason": "Reflect the concrete act and its limits without claiming downstream outcomes."
+      },
+      {
+        "finding": "Massie reads Hegseth impeachment articles on the House floor; Trump pledges support for Hegseth.",
+        "event_ids": [
+          "mid-2026-11-09-massie-hegseth-floor-action"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID"
+        ],
+        "reason": "Reflect the concrete act and its limits without claiming downstream outcomes."
+      },
+      {
+        "finding": "Supreme Court temporarily lifts the block on Big Bend border-wall construction.",
+        "event_ids": [
+          "imm-2026-11-09-big-bend-stay"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/IMM"
+        ],
+        "reason": "Reflect the concrete act and its limits without claiming downstream outcomes."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Limited screen or catch-up only; prior evidence dates retained, no comprehensive external re-verification."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Limited screen or catch-up only; prior evidence dates retained, no comprehensive external re-verification."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Limited screen or catch-up only; prior evidence dates retained, no comprehensive external re-verification."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete."
+      },
+      "MID": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Limited screen or catch-up only; prior evidence dates retained, no comprehensive external re-verification."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Limited screen or catch-up only; prior evidence dates retained, no comprehensive external re-verification."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Narrow developments reviewed as listed in major_developments; issue-wide coverage and its prior full-verification date remain carried. Limited screen or catch-up only; prior evidence dates retained, no comprehensive external re-verification."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "The handover, temporary border-project legal opening and House action now alter concrete constraints; no verified war settlement or electoral support transfer justifies a recovery claim.",
+    "dated_assumptions": [
+      {
+        "assumption": "Republican House and Senate leadership elections",
+        "date": "2026-11-10",
+        "status": "pending",
+        "reason": "Pre-vote reports surfaced; no winner verified."
+      },
+      {
+        "assumption": "Qatar meetings",
+        "date": "2026-11-09",
+        "status": "verified",
+        "reason": "Reported as completed; accepted agreement remains pending."
+      },
+      {
+        "assumption": "Miller chief-of-staff start",
+        "date": "2026-11-09",
+        "status": "verified",
+        "reason": "Reported start; detailed exercise of authority remains unverified."
+      },
+      {
+        "assumption": "Hegseth House disposition",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "Floor action reported; procedural ruling, vote and any removal remain separate."
+      },
+      {
+        "assumption": "Big Bend construction injunction",
+        "date": "2026-11-09",
+        "status": "verified",
+        "reason": "Original Supreme Court stay reviewed; construction not checked."
+      },
+      {
+        "assumption": "Minneapolis data-center zoning vote",
+        "date": "2026-11-12",
+        "status": "pending",
+        "reason": "Primary page lists council meeting; no adoption inferred."
+      },
+      {
+        "assumption": "Alaska and Mississippi Senate and Alaska/Kansas governor calls",
+        "date": "2026-11-10",
+        "status": "unreviewed",
+        "reason": "Direct results query surfaced unresolved counts; no current definitive calls established."
+      },
+      {
+        "assumption": "Cook hearing and new court rulings",
+        "date": "2026-11-10",
+        "status": "unreviewed",
+        "reason": "Current archive access failed; prior delay not treated as resolved."
+      },
+      {
+        "assumption": "Abu Dhabi Russia-Ukraine talks",
+        "date": "2026-11-10",
+        "status": "unreviewed",
+        "reason": "Search leads found; multiple full-text routes failed; outcome pending."
+      },
+      {
+        "assumption": "Venezuela talks",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "Carried November 11–15 watch; no fresh negotiating result."
+      },
+      {
+        "assumption": "Lukoil license expiry",
+        "date": "2026-11-21",
+        "status": "pending",
+        "reason": "Carried expiry; no fresh extension verification."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Personnel promotion and resumed diplomacy show successful political recovery.",
+        "finding": "Office access and meetings are supported; a settlement, broader acceptance and support transfers are not.",
+        "consequence": "Limited weight for achieved recovery; credible future opportunity retained without changing daily odds."
+      },
+      {
+        "alternative": "Massie’s floor action means Hegseth will be removed.",
+        "finding": "House alternatives remain and Trump defends him.",
+        "consequence": "Limited weight for imminent removal; credible pressure and reputation consequence reflected now."
+      }
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://www.whitehouse.gov/releases/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://www.memeorandum.com/",
+      "https://home.treasury.gov/news/press-releases",
+      "https://www.iranintl.com/en/202611097687",
+      "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "https://www.washingtonpost.com/politics/2026/11/09/stephen-miller-begins-new-role-trump-chief-staff/",
+      "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+      "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/",
+      "https://www.realclearpolitics.com/video/2026/11/08/indiana_gop_rep_marlin_stutzman_promoting_stephen_miller_a_bad_mistake.html",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.justice.gov/news",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.aljazeera.com/news/",
+      "https://defensescoop.com/",
+      "https://www.brennancenter.org/our-work/research-reports/supreme-court-shadow-docket-tracker-challenges-trump-administration?stream=top",
+      "https://www.marketscreener.com/news/trump-says-he-will-stand-by-hegseth-if-he-is-impeached-ce785fd3d181f42d",
+      "https://www.supremecourt.gov/docket/docketfiles/html/public/26a560.html",
+      "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf",
+      "https://www.law.cornell.edu/supremecourt/text/26A560",
+      "https://ofac.treasury.gov/recent-actions/20261109"
+    ],
+    "queries": 20,
+    "queriesPerIssue": {
+      "MID": 6,
+      "IRN": 3,
+      "IMM": 2,
+      "AI": 2,
+      "FED": 2,
+      "RUS": 3,
+      "SUC": 2
+    },
+    "perIssue": {
+      "AI": "limited catch-up or screen; coverage carried",
+      "EPS": "limited catch-up or screen; coverage carried",
+      "FED": "limited catch-up or screen; coverage carried",
+      "IMM": "focused findings; see scope",
+      "IRN": "focused findings; see scope",
+      "MID": "focused findings; see scope",
+      "RUS": "limited catch-up or screen; coverage carried",
+      "SUC": "focused findings; see scope",
+      "TAR": "limited catch-up or screen; coverage carried",
+      "VEN": "limited catch-up or screen; coverage carried"
+    },
+    "blocked": [
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-10-nov-2026",
+      "https://www.fox9.com/news/minneapolis-set-pass-sweeping-data-center-regulations",
+      "https://abcnews.com/amp/Politics/jordan-scalise-face-off-house-gop-leader-after/story?id=137980555",
+      "https://www.mainepublic.org/npr-news/2026-11-10/house-republicans-to-elect-a-new-leader-as-they-look-to-rebuild-from-midterm-defeat",
+      "https://www.state.gov/press-releases/",
+      "https://www.investing.com/news/politics-news/hegseth-faces-expected-us-house-impeachment-vote-this-week-5013081",
+      "https://clearinghouse.net/case/46876/",
+      "https://www.helsinkitimes.fi/world-int/29473-russia-and-ukraine-resume-us-led-peace-talks-in-abu-dhabi.html",
+      "https://newsukraine.rbc.ua/news/us-pushes-russia-to-bring-europe-into-next-1794298910.html"
+    ],
+    "gaps": [
+      {
+        "gap": "Conditional on the eight authorized contenders; unlisted candidates can win.",
+        "routes": []
+      },
+      {
+        "gap": "No fresh all-candidate donor, endorsement or early-state organization census.",
+        "routes": []
+      },
+      {
+        "gap": "Qatar progress is attributed; no settlement or voter transfer verified.",
+        "routes": []
+      },
+      {
+        "gap": "Leadership results, remaining election calls, Russia talks and several major court outcomes remain incomplete.",
+        "routes": []
+      },
+      {
+        "gap": "Cook archive returned 429; no completed hearing or new disposition established.",
+        "routes": []
+      },
+      {
+        "gap": "Russia talks surfaced in search, but full readable reporting attempts failed. No settlement adopted.",
+        "routes": []
+      },
+      {
+        "gap": "Nvidia shareholder-lawsuit headline and export-scrutiny leads require enrichment; the board inquiry remains carried.",
+        "routes": []
+      },
+      {
+        "gap": "Collector coverage was focused: several index bodies and deeper archives were not enumerated; inbox and full watch rotation not accessed.",
+        "routes": []
+      }
+    ],
+    "watched": [
+      "Stephen Miller",
+      "Susie Wiles",
+      "Thomas Massie",
+      "Pete Hegseth",
+      "JD Vance",
+      "Lisa Cook",
+      "Jensen Huang"
+    ],
+    "queue": {
+      "captured": 4,
+      "triaged": 4
+    },
+    "lookbackDays": 1,
+    "thinDays": [],
+    "deviations": [
+      "Focused intake rather than full collector/index enumeration and watch rotation; no absence claims inferred.",
+      "Slicer input schema required correction before successful execution; manual episode comparison confirmed updating Qatar and Miller and adding the separate floor action and court order.",
+      "No full wargame, scenario/debate regeneration, prompt edit, roster change or deployment."
+    ],
+    "propagation": {
+      "mid-2026-11-06-miller-chief-staff": [
+        "assessments/current",
+        "assessments/issues",
+        "people/all",
+        "factions/maximalists",
+        "factions/operation"
+      ],
+      "irn-2026-11-09-qatar-meeting-plan": [
+        "assessments/current",
+        "assessments/issues",
+        "factions/vance"
+      ],
+      "mid-2026-11-09-massie-hegseth-floor-action": [
+        "assessments/current",
+        "assessments/issues",
+        "factions/dissenters",
+        "factions/pentagon"
+      ],
+      "imm-2026-11-09-big-bend-stay": [
+        "assessments/current",
+        "assessments/issues",
+        "factions/maximalists"
+      ]
+    },
+    "fxStats": {
+      "scored": 0,
+      "empty": 4,
+      "emptyWithReason": 4
+    },
+    "methodAudit": {
+      "stage1": {
+        "sourcesEnumerated": [
+          "https://www.whitehouse.gov/releases/",
+          "https://www.whitehouse.gov/presidential-actions/",
+          "https://www.memeorandum.com/",
+          "https://home.treasury.gov/news/press-releases",
+          "https://ofac.treasury.gov/recent-actions",
+          "https://www.state.gov/press-releases/",
+          "https://www.justice.gov/news",
+          "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+          "https://www.aljazeera.com/news/",
+          "https://defensescoop.com/"
+        ],
+        "headlinesTriaged": 4,
+        "kept": 4,
+        "recallSample": {
+          "sampled": 0,
+          "missingFromLedgerOrTriage": 0,
+          "items": []
+        }
+      },
+      "stage2": {
+        "itemsKept": 4
+      },
+      "foundOnlyByStage1": [],
+      "foundOnlyByStage2": [
+        "imm-2026-11-09-big-bend-stay"
+      ],
+      "missedByBoth": [
+        "Russia talks lead remained incompletely enriched"
+      ],
+      "rootCause": "Focused outcome-led review; broad index bodies and archives incomplete.",
+      "proposedFix": "Next run prioritize pending results and readable original or independent Russia reporting."
+    },
+    "checklist": {
+      "research_questions": "done",
+      "nominee_monitor": "done",
+      "current_assessment": "done",
+      "collector": "partial: focused indexes and outcome checks",
+      "watch": "partial: targeted legal and personnel checks",
+      "slicer": "done",
+      "reader_copy": "done",
+      "validator": "done"
+    }
+  },
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Daily read-only preflight",
+    "result": "Exit 0; staged database, nomination monitoring, research review, reader-copy fingerprints and privacy checks accepted. No publication or application performed.",
+    "repairs": [
+      "Attached original carried evidence to daily prediction observations; terminal claims/tests/deadlines unchanged.",
+      "Marked issue-wide coverage as carried while listing new narrowly reviewed developments separately, retaining the research-plan verification dates."
+    ]
+  },
+  "editorial_notes": [
+    "Replaced the Qatar meeting plan with attributed completion language; retained the historical event ID.",
+    "Updated the Miller handover and personnel roles without rewriting historical evidence.",
+    "New headlines identify Massie’s floor action and the Supreme Court’s temporary Big Bend order.",
+    "Single-analyst reader-copy second pass follows drafting.",
+    "Second pass expanded faction fragments into dated sentences and labeled carried findings.",
+    "Explained privileged House consideration as a prompt-response procedure, removed vague political remit wording, and identified officeholders in new copy.",
+    "The administration headline now names Miller and Massie; the Big Bend order remains explicitly temporary."
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "2fe287cda3bfe35593d4159ff65061528325ef15c1c831fb04d45b3dee831336",
+        "reader_takeaway": "Miller’s reported start changes staff access, while House pressure and a narrow court ruling leave policy outcomes open.",
+        "context_check": "Named the officials and explained staff management, war-powers pressure and the construction ruling.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Updated the headline and clarified Wiles’s responsibilities and the job-access rubric."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "17df004667d4786883ecd9ab4acefcf40cff587cd946fbaa939ca4ec0a44dabf",
+        "reader_takeaway": "Immigration, Iran and congressional developments have distinct legal, diplomatic and political effects.",
+        "context_check": "Retained the policy context and identified the reported roles; other issue evidence remains carried.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Replaced vague references to Wiles’s remit with political responsibilities."
+        ]
+      },
+      "events/IMM": {
+        "fingerprint": "69755680f4d8cab6768124065c371b93148f66731cf2b7794facbb00281009c4",
+        "reader_takeaway": "The Supreme Court temporarily removed a construction block, without establishing building or final victory.",
+        "context_check": "Identified the case, Homeland Security Secretary Mullin and the limited legal mechanism.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Explained the injunction as a block on construction and identified Mullin’s office."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "432e8e80dcf941f2b60997da13030707dd5c1887747ae5c807f1b5df31cce6fc",
+        "reader_takeaway": "The Qatar meetings are reported as completed, but progress and settlement are separate claims.",
+        "context_check": "Explained Reuters’ earlier scheduling and Al Jazeera’s later attributed report.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Replaced the plan headline and prospective text with qualified completion language."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "e5c664fae21caaff2e8bf1e4e7f18ef7575488f89df5c87dd5c2117f49654a8b",
+        "reader_takeaway": "Miller’s start and Massie’s House action create different political pressures.",
+        "context_check": "Identified the officials and explained the House response options; the full CNN episode was not reviewed.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Replaced abstract gatekeeper language, clarified prompt House consideration and named Hegseth’s office."
+        ]
+      },
+      "factions/dissenters": {
+        "fingerprint": "3bff519aab39247ec1ba82d50cefed0e692e4dbbb7c2b1fcb72d6488c2f90a0c",
+        "reader_takeaway": "Massie’s action provides a concrete challenge without proving passage or nomination support.",
+        "context_check": "Expanded earlier dated records into ordinary sentences and identified Collins, Massie and Hegseth.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Replaced the semicolon list with dated prose and a political consequence."
+        ]
+      },
+      "factions/maximalists": {
+        "fingerprint": "d216edb4d068fb248225b8b64ebc35ec80c5e4fe0fb5af4ba03dcce7f3297bfd",
+        "reader_takeaway": "Miller gains a staff role and Homeland Security a narrow legal opening, while Republican criticism remains limited in observed breadth.",
+        "context_check": "Explained the older appointments and cases, and labeled them carried; identified Stutzman.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Expanded two fragment lists and separated new access, legal scope and political criticism."
+        ]
+      },
+      "factions/operation": {
+        "fingerprint": "2745e05158dd6eb3f9540775a1e8b2ddcf56d47aad400d511115ad1483354fc9",
+        "reader_takeaway": "Wiles loses the chief-of-staff role; continued political duties remain unclear.",
+        "context_check": "Explained the earlier departures, lawsuits and historical poll without presenting them as fresh evidence.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Rewrote fragments and distinguished pre-election polling from post-election standing."
+        ]
+      },
+      "factions/pentagon": {
+        "fingerprint": "da98151d10a909003b9eab38ddae96efd0b413e54daa6addfd260426e4047c06",
+        "reader_takeaway": "Hegseth faces a concrete House challenge while Trump continues to defend him.",
+        "context_check": "Named Massie, Hegseth, Jeffries and Kelley and explained that action support is not proof of allegations.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Expanded earlier legal and resource fragments and qualified the unresolved House result."
+        ]
+      },
+      "factions/vance": {
+        "fingerprint": "2222dbc8663cc055e5a161bc5d7e698e14f1bb5941e121d42fc3043982719a60",
+        "reader_takeaway": "Vance retains a negotiating opportunity without a verified agreement or new voter gain.",
+        "context_check": "Expanded the Republican National Committee title and dated the historical poll and reports.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Rewrote fragments to distinguish prior contacts, provisional reporting and current diplomacy."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "aedd288902b7178fcc5907c520a0033085f7ca53971f4e4c1a93e0a98299efa0",
+        "reader_takeaway": "The eight estimates remain those of the November 9 full review, with a new daily monitoring record.",
+        "context_check": "Source descriptions identify actors and limits; prediction updates state deadlines are not due.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Expanded technical source descriptions about the Court’s temporary order and explained the union leader’s identity."
+        ]
+      },
+      "people/all": {
+        "fingerprint": "38bf3b4af1bb0bd58f2b4c700c26c7e984569df39ec307f309df10526555c33d",
+        "reader_takeaway": "Miller reportedly takes the chief-of-staff role; Wiles’s historical issue positions remain historical.",
+        "context_check": "Explained job roles and retained historical claims with qualifications.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Updated the two personnel roles and replaced vague responsibilities language."
+        ]
+      },
+      "runs/2026-11-10": {
+        "fingerprint": "72065e8b65ef5fe28d26e42f06cf5af2e0f384af5db075f104befb8ebdab8f97",
+        "reader_takeaway": "This is a focused daily review with explicit unresolved outcomes and unchanged conditional estimates.",
+        "context_check": "The summary identifies officials, actions and consequence; source access and coverage limits remain explicit.",
+        "uncertainty_check": "Reported actions, attributed progress, temporary legal authority, analyst inference and unverified later outcomes remain distinct. Daily numerical holds do not imply unchanged political standing.",
+        "changes_made": [
+          "Aligned the run summary with the maintained assessment; technical receipt and audit records remain separate."
+        ]
+      }
+    }
+  }
+}

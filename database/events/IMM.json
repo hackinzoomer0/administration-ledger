@@ -2097,6 +2097,34 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: implementation or a durable faction outcome remains to be verified."
+    },
+    {
+      "id": "imm-2026-11-09-big-bend-stay",
+      "date": "2026-11-09",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Supreme Court; Markwayne Mullin",
+      "text": "Supreme Court temporarily lifts the block on Big Bend border-wall construction.",
+      "context": "The November 9 order in Mullin v. Friends of the Ruidosa Church temporarily lifts the district court’s block on construction while the government seeks Supreme Court review. The Court found the government likely to prevail on its jurisdiction argument under the border-barrier statute. Justice Jackson would have denied the stay. This removes a legal obstacle to the project pursued by Homeland Security Secretary Markwayne Mullin; actual construction, final judgment and effects on crossings were not verified.",
+      "source": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf ; https://www.supremecourt.gov/docket/docketfiles/html/public/26a560.html",
+      "url": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf",
+      "source_ids": [
+        "daily_opinion_20261110",
+        "daily_docket_20261110"
+      ],
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: Homeland Security gains a concrete legal opening for the Big Bend project. This narrow construction ruling does not resolve other immigration lawsuits or establish that enforcement has become more popular.",
+      "origin": "daily shared intake",
+      "added": "2026-11-10",
+      "by": [
+        "maximalists"
+      ],
+      "fx": {},
+      "fxnote": "No fx: the specific action is recorded without inferring an unverified policy result or transfer of supporters."
     }
   ]
 }

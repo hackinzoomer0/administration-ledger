@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-09",
-  "last_substantive_change": "2026-11-09",
+  "research_as_of": "2026-11-10",
+  "last_substantive_change": "2026-11-10",
   "review": {
-    "date": "2026-11-09",
-    "run_id": "2026-11-09-weekly",
-    "type": "weekly_review",
-    "scope": "Full eight-candidate causal, appeal and support-base reconsideration using a targeted shared intake; municipal AI authority catch-up and selected weekly audit. Filings, comprehensive personnel checks and all-issue external verification remain incomplete."
+    "date": "2026-11-10",
+    "run_id": "2026-11-10",
+    "type": "daily_review",
+    "scope": "Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete."
   },
   "administration": {
-    "headline": "Trump offers room for policy talks while his advisers prepare to resist congressional investigations.",
-    "summary": "Trump retains executive authority after Republicans lost the midterms, while Democrats prepare to take control of Congress in January. His post-election interview permits Vice President JD Vance to criticize the Iran war and raises the possibility of an immigration agreement, but establishes no implemented policy reversal. Naming Stephen Miller to replace Susie Wiles could strengthen an advocate of stricter immigration enforcement; this review has not confirmed today’s operational handover or Wiles’s new responsibilities. Attorney General Todd Blanche is publicly preparing to defend officials against congressional investigations. Iran mediation offers Vance a chance to show results, but the planned Qatar meeting has not produced a verified agreement. Nvidia’s board has opened an inquiry that could strengthen demands for scrutiny of chip exports, without establishing a security breach or a new export restriction. Israel’s president has delivered a mandate to try forming a government to Yashar party leader Gadi Eisenkot; a new coalition is still unresolved. The Fed dispute, tariffs, Epstein oversight, immigration litigation, Venezuela and Russia retain consequential verification gaps. These limits prevent a claim that the administration has already changed course. Local governments also retain consequential choices over AI construction: Minneapolis is considering data-center zoning, with a November 12 council meeting listed. A municipal proposal is not an adopted restriction.",
+    "headline": "Stephen Miller takes the chief-of-staff role as Thomas Massie seeks Hegseth’s impeachment.",
+    "summary": "Trump retains executive authority while Democrats prepare to take control of Congress in January. Stephen Miller reportedly began as chief of staff on November 9, giving him more ability to manage White House staff and proposals reaching Trump; Susie Wiles’s political responsibilities remain unclear. Representative Thomas Massie has moved his Hegseth impeachment effort onto the House floor, while Trump defends his defense secretary. That dispute creates pressure over the war and the president’s personnel choices without establishing a vote result or removal. The Supreme Court has temporarily lifted the injunction blocking Big Bend border-wall construction, a specific legal opening rather than proof of completed building or broader enforcement success. Qatar’s prime minister reportedly met Trump and Vice President JD Vance, but an Iran settlement remains unverified. Nvidia’s inquiry, Israel’s government formation and Minneapolis’s November 12 data-center zoning decision remain open. Today’s Republican leadership results, outstanding election calls, Russia-Ukraine talks and major unresolved court proceedings require follow-up. Tariffs, the Fed, Epstein oversight and Venezuela retain carried findings and incomplete fresh coverage.",
     "contests": [
       {
         "id": "white-house-access",
         "issue_id": "MID",
-        "title": "Miller is set to replace Wiles as White House chief of staff",
-        "status": "pending",
-        "assessment": "As chief of staff, Miller would have more say over White House staffing and the proposals presented to Trump. Wiles is reported to be moving to Trump’s political team, where she may continue advising him about elections. Her new responsibilities, including any influence over campaign money, are not yet confirmed.",
-        "authority": "Trump chooses his chief of staff. The reported handover from Wiles to Miller is November 9.",
-        "leverage": "The chief of staff helps manage access to Trump and the work of senior White House staff. A role on Trump’s political team may still give Wiles influence, but does not give her the same daily control over White House work.",
-        "change": "Trump has announced the appointment. The review has not yet confirmed the handover or how the two advisers will divide their responsibilities.",
+        "title": "Miller reportedly starts as White House chief of staff after Wiles’s departure",
+        "status": "strengthening",
+        "assessment": "Miller gains the staff-management role that Wiles held. Republican Representative Marlin Stutzman’s public criticism challenges the promotion after the election defeat, while Vance and Rubio have publicly welcomed it. Those contrasting reactions show disagreement among officials, not the balance of Republican voter opinion.",
+        "authority": "Trump chooses his chief of staff; Miller reportedly began November 9.",
+        "leverage": "The chief of staff manages access to Trump and senior White House work. Wiles may still advise Trump through his political team, but her new responsibilities remain unclear.",
+        "change": "The announced handover is now reported as completed. Its policy consequences and Wiles’s new responsibilities remain open.",
         "basis": {
-          "actions": "Trump announced that Miller would replace Wiles as chief of staff.",
-          "positions": "Public congratulations show support for the appointment; they do not establish whom anyone will back for president in 2028.",
+          "actions": "The official appointment is followed by reporting that Miller began November 9.",
+          "positions": "Vance and Rubio welcomed Miller; Stutzman publicly opposed the promotion. The full CNN episode was not reviewed.",
           "money": "No evidence establishes that a payment caused the appointment. Wiles’s possible influence over campaign funds must be checked separately from her White House job."
         },
-        "watch": "The reported November 9 handover is due today. Confirm Miller’s actual responsibilities and Wiles’s political role; this intake did not establish operational completion.",
+        "watch": "Check Miller’s written instructions and staffing choices, Wiles’s political responsibilities and further Republican defenses or criticism.",
         "event_ids": [
           "mid-2026-11-06-miller-chief-staff"
         ],
@@ -34,8 +34,8 @@
           "maximalists",
           "operation"
         ],
-        "reviewed_at": "2026-11-07",
-        "summary": "Trump has named Stephen Miller to succeed Susie Wiles. The reported November 9 handover would put Miller in a stronger position to influence which officials and proposals reach Trump."
+        "reviewed_at": "2026-11-10",
+        "summary": "Stephen Miller reportedly began the chief-of-staff job on November 9. That gives him more ability to manage White House staff; Wiles’s political role remains unclear."
       },
       {
         "id": "iran-decision",
@@ -45,13 +45,13 @@
         "assessment": "Vance can use negotiations and his criticism of the war to argue for a different approach. Rubio offers a competing argument for Trump’s original decision. Those arguments may shape Trump’s options and the nomination contest, but neither establishes that a settlement or another military operation has been approved.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Reuters reports a planned November 9 meeting with Qatar’s prime minister and continued disagreement over Iran’s terms. No completed meeting, accepted agreement or new US operational order was verified.",
+        "change": "Trump and Vance reportedly met Qatar’s prime minister November 9. The mediator-side claim of progress remains attributed; no accepted settlement or new operational order was verified.",
         "basis": {
           "actions": "Trump reviewed options; Vance has led negotiations.",
           "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Verify the Qatar meeting’s outcome, the parties’ accepted terms and any military orders; distinguish Iranian strike reports from US confirmation.",
+        "watch": "Check a joint readout, accepted terms and implemented orders; keep the settlement pending.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review",
@@ -64,7 +64,7 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-09",
+        "reviewed_at": "2026-11-10",
         "summary": "Vance has argued that the war hurt Republicans in the election and has led negotiations. Rubio has defended Trump’s decision to use force. Trump still decides the next military step."
       },
       {
@@ -129,7 +129,7 @@
         "title": "Justice Department departures could give Blanche more control over senior appointments",
         "status": "contested",
         "summary": "Reported departures leave Attorney General Todd Blanche with opportunities to replace senior managers. New managers could continue the same cases rather than signal a retreat from them.",
-        "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy. Blanche’s November 8 public defense of officials signals resistance to incoming investigations, but does not prove that records will be withheld lawfully or that an investigation will be stopped.",
+        "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy. Blanche’s November 8 public defense of officials signals resistance to incoming investigations, but does not prove that records will be withheld lawfully or that an investigation will be stopped. Massie’s separate floor action against Hegseth shows that congressional pressure is already being pursued before the new Congress takes office; it does not establish how Blanche will respond to a specific demand.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "Department leaders can choose or propose replacements, assign supervisors and shift resources between cases. Those choices matter more than an announcement of departures on its own.",
         "change": "Three leadership departures were reported. Their replacements and any resulting changes to investigations remain unverified.",
@@ -141,7 +141,8 @@
         "watch": "Identify the replacements, confirm who is acting in each job and check whether cases, staffing or written instructions actually change.",
         "event_ids": [
           "mid-2026-11-06-doj-departures",
-          "mid-2026-11-08-blanche-oversight-defense"
+          "mid-2026-11-08-blanche-oversight-defense",
+          "mid-2026-11-09-massie-hegseth-floor-action"
         ],
         "faction_ids": [
           "maximalists"
@@ -152,15 +153,15 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vance leads because fundraising and activist relationships could help him organize quickly, while Trump gives him room to argue for correction. Trump also keeps responsibility for decisions attached to him. Rubio must decide to run before interested supporters can build a campaign; DeSantis is exploring that choice. Paul could recruit antiwar Republicans who prefer a party primary, while a third-party recruiting effort competes for Massie’s time and potential supporters. No broad transfer of voters is established. The forecast allows all eight contenders to build new coalitions; attention, policy agreement and personal trust remain different things.",
-    "snapshot_id": "2026-11-09-weekly",
+    "summary": "The November 9 full review still supplies all eight conditional estimates. Vance retains a diplomatic opportunity without a verified settlement. Massie’s House action gives him a concrete accountability argument, while Trump’s defense of Hegseth keeps the personnel dispute open. No new voter, donor or organizer transfer is established; today’s numerical holds reflect the weekly cadence.",
+    "snapshot_id": "2026-11-10-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
         "path": "Vice President JD Vance can argue for correcting policy with Trump’s permission, but Trump also reminds voters that Vance took part in the decisions.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
-        "advantage": "Trump’s acknowledgment of their prior discussion gives Vance room to argue for correction while retaining access to the president. Talks with Qatar offer a chance to demonstrate results, if they produce an agreement.",
+        "advantage": "His reported November 9 meeting with Qatar’s prime minister gives Vance another opportunity to show that negotiation can produce results. No agreement or electoral benefit is verified.",
         "vulnerability": "Trump also emphasizes Vance’s role in decisions. Permission to criticize cannot erase responsibility or establish that voters trust the change.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
@@ -180,9 +181,10 @@
           "daily_vance_brand_20261107",
           "weekly_vance_debate_poll",
           "daily_trump_interview_20261108",
-          "daily_qatar_plan_20261109"
+          "daily_qatar_plan_20261109",
+          "daily_qatar_20261110"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-10"
       },
       {
         "candidate_id": "marco_rubio",
@@ -329,8 +331,8 @@
         "person_id": "massie",
         "path": "Representative Thomas Massie must choose whether to seek the Republican nomination or pursue another party’s opening.",
         "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign. An external recruiting effort may draw organizers away from a Republican bid, but his choice and his supporters’ choices remain open.",
-        "advantage": "He can point to opposition taken under pressure as evidence that he means what he says.",
-        "vulnerability": "Admiring dissent does not mean wanting him as president, and a non-Republican route cannot win this nomination.",
+        "advantage": "Massie can point to his November 9 House floor action against Hegseth as a concrete attempt to challenge the administration over war powers. House Democratic leader Hakeem Jeffries and federal-employees’ union president Everett Kelley support impeachment; that is support for this action, not his presidential candidacy.",
+        "vulnerability": "Trump continues to defend Hegseth, and the House can dispose of Massie’s resolution without impeachment. Admiration for dissent does not establish presidential support or settle whether Massie would run as a Republican.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
         "source_ids": [
@@ -339,12 +341,15 @@
           "massie_2026_hegseth",
           "massie_2026_funding",
           "weekly_paul_massie_support",
-          "weekly_massie_route"
+          "weekly_massie_route",
+          "daily_massie_20261110",
+          "daily_defense_trump_20261110"
         ],
         "event_ids": [
-          "suc-2026-11-08-massie-party-route"
+          "suc-2026-11-08-massie-party-route",
+          "mid-2026-11-09-massie-hegseth-floor-action"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-10"
       }
     ],
     "scenario_labels": {
@@ -389,7 +394,7 @@
     {
       "id": "staffing-and-succession",
       "title": "Miller could shape which advisers and proposals reach Trump.",
-      "assessment": "If Miller takes over as chief of staff, candidates seeking Trump’s help may have to work with him and his staff. The appointment does not establish that Miller or Trump has endorsed a 2028 candidate.",
+      "assessment": "Miller reportedly began as chief of staff November 9. Candidates seeking Trump’s help may have to work with his staff, but no 2028 endorsement follows from the appointment.",
       "event_ids": [
         "mid-2026-11-06-miller-chief-staff"
       ],
@@ -413,7 +418,7 @@
     {
       "id": "vance-permission-and-responsibility",
       "title": "Trump permits Vance’s Iran criticism while keeping him tied to administration decisions.",
-      "assessment": "The prior discussion preserves Vance’s relationship with Trump while he argues for a different course. Negotiations could strengthen that argument if they deliver results; the planned Qatar meeting has not established an agreement or electoral gain.",
+      "assessment": "Trump’s acknowledgment of their prior discussion leaves Vance room to argue for correction while retaining ties to the president. Separate Qatar meetings are now reported, but no settlement or voter gain is established.",
       "event_ids": [
         "suc-2026-11-08-trump-vance-immigration-interview",
         "irn-2026-11-09-qatar-meeting-plan"
@@ -447,8 +452,8 @@
         "MID",
         "SUC"
       ],
-      "kind": "Wiles would leave the chief-of-staff job to Miller",
-      "assessment": "The reported handover would give Miller the White House staff role Wiles currently holds. Her continued political influence depends on what responsibilities she actually receives outside that job.",
+      "kind": "Miller replaces Wiles as White House chief of staff",
+      "assessment": "Miller reportedly began November 9, taking the White House staff-management role from Wiles. Her continuing influence depends on political responsibilities that remain unclear.",
       "event_ids": [
         "mid-2026-11-06-miller-chief-staff"
       ]
@@ -474,23 +479,23 @@
       "actor": "Susie Wiles",
       "before": 4,
       "after": 2,
-      "role_change": "Wiles is expected to leave the White House chief-of-staff job for Trump’s political team.",
-      "implication": "As chief of staff, Wiles can influence which people and proposals reach Trump. Leaving that job would give her less control over day-to-day White House decisions. She may still advise Trump about elections, but her new responsibilities and any authority over campaign money are not yet confirmed."
+      "role_change": "Miller has reportedly replaced Wiles as chief of staff; her political responsibilities remain unclear.",
+      "implication": "Wiles no longer holds the reported White House staff-management role. A continued political relationship may preserve influence, but her responsibilities and authority over campaign money remain unverified."
     },
     {
       "faction_id": "maximalists",
       "actor": "Stephen Miller",
       "before": 3,
       "after": 4,
-      "role_change": "Miller is expected to take over as White House chief of staff.",
-      "implication": "Miller would gain more influence over the officials, staffing choices and policy proposals presented to Trump. That could help him push stricter immigration enforcement. The appointment itself does not order a policy change or show that he will win every argument about Iran."
+      "role_change": "Miller reportedly began as White House chief of staff on November 9.",
+      "implication": "Miller now has the reported staff-management role, which can help him decide which officials and proposals reach Trump. Specific new policy instructions and results remain unverified."
     }
   ],
   "power_method": {
     "title": "How the access ratings work",
     "scale": "The scale compares jobs, not measured shares of political power: 0 means no identified way to influence the decision; 1 means an outside adviser; 2 means a role in Trump’s political team; 3 means a deputy White House role; 4 means the chief of staff; 5 means the president, who makes the final executive decision.",
-    "status": "These are estimates of how much access each job could provide to Trump after the reported handover. They do not mean that either adviser controls a percentage of the administration.",
-    "condition": "This comparison assumes that the reported November 9 handover happens and that Wiles moves to Trump’s political team. Both advisers’ actual responsibilities still need confirmation.",
+    "status": "The 0–5 ratings compare the access associated with the jobs. Miller’s start is reported; the ratings are analytical judgments, not measured shares or probabilities.",
+    "condition": "Reporting supports Miller’s November 9 start. The 0–5 ratings compare access associated with the jobs, not measured overall power. Wiles’s political responsibilities and the policy effects remain unresolved.",
     "policy_projection": "Miller could use the chief-of-staff job to prioritize immigration enforcement and staff who favor it. That does not establish that the Iran war will escalate: the record also includes reporting that Miller argued for an exit. Incoming Democratic majorities could demand records and challenge funding once the new Congress begins.",
     "event_ids": [
       "mid-2026-11-06-miller-chief-staff",

@@ -519,36 +519,37 @@
         "Won the ICE-pick fight over Mullin and Homan.",
         "Named as an aspirant for Wiles's job (Oct 16).",
         "Iran: 'hellish price'; Venezuela: treat as a criminal state.",
-        "Nov 6: named to succeed Wiles from Nov 9 (White House; CNN)."
+        "Nov 6: named to succeed Wiles from Nov 9 (White House; CNN).",
+        "Nov 9: reportedly began as chief of staff; new policy instructions remain unverified (Washington Post)."
       ],
       "positions": {
         "IMM": {
           "label": "Restrictionist Core",
-          "role": "Deputy chief of staff and homeland security adviser",
+          "role": "White House chief of staff",
           "status": "",
           "view": "Fewer admissions at every level; 3,000 arrests a day"
         },
         "IRN": {
           "label": "Go Big",
-          "role": "Deputy Chief of Staff for policy",
+          "role": "White House chief of staff",
           "status": "",
           "view": "Mid-July: Iran will pay a \"hellish price\"; Iran must abandon nuclear ambitions before lasting peace (Daily Beast)"
         },
         "MID": {
           "label": "The Enforcers; The Rivals [S]",
-          "role": "Deputy chief of staff",
+          "role": "White House chief of staff",
           "status": "Current",
-          "view": "Named next chief of staff Nov 6, effective Nov 9; verify handover."
+          "view": "Miller reportedly began as chief of staff November 9; specific new policy decisions remain unverified."
         },
         "VEN": {
           "label": "REGIME-CHANGE HAWKS [S]",
-          "role": "Deputy chief of staff",
+          "role": "White House chief of staff",
           "status": "In working group",
           "view": "Treat Venezuela as a criminal state; earlier favoured the deportation channel"
         }
       },
       "read": "A power-builder. The deportation mission is real, but he also controls who runs enforcement and funds his own legal arm, so mission and empire grow together.",
-      "role": "Deputy chief of staff; named next chief of staff, effective Nov 9",
+      "role": "White House chief of staff (reported start November 9, 2026)",
       "rosters": [
         {
           "backs": "Immigration, Iran hard terms, midterm enforcement, Venezuela",
@@ -576,7 +577,7 @@
       "why": {
         "IMM": "Life's project; every win extends his reach.",
         "IRN": "Allied with Hegseth on force.",
-        "MID": "Wants Wiles's job.",
+        "MID": "The chief-of-staff role gives him more ability to manage staff and proposals reaching Trump.",
         "VEN": "Hardline posture."
       }
     },
@@ -1787,54 +1788,55 @@
         "Her daughter's firm Continental Strategy is paid $35,000 a month by Republika Srpska; no source shows Wiles acted on it.",
         "Oct 15: Politico reported Trump asked allies about replacing her; Trump denied it Oct 15-16; she made no confirmed statement.",
         "Oct 16: Trump told CNN 'zero chance' he replaces her; Politico later reports he also blames her for the midterm outlook (anonymous); no departure through Oct 30.",
-        "Nov 6: Trump named Miller successor; political-operation move announced (White House; CNN)."
+        "Nov 6: Trump named Miller successor; political-operation move announced (White House; CNN).",
+        "Nov 9: Miller reportedly began as chief of staff; Wiles’s political responsibilities remain unclear (Washington Post)."
       ],
       "positions": {
         "AI": {
           "label": "Oversight-first",
-          "role": "Chief of staff",
-          "status": "In office",
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
           "view": "Rebuked FDA-style licensing in May; with Bessent pressed for the June 2 order"
         },
         "EPS": {
           "label": "THE COURT",
-          "role": "Chief of staff",
-          "status": "",
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
           "view": "Trump is in the file but nothing awful; Bondi \"whiffed\" (Dec 2025)"
         },
         "IMM": {
           "label": "Electoral Protectors",
-          "role": "Chief of staff",
-          "status": "",
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
           "view": "Lower the profile of deportations before the midterms"
         },
         "IRN": {
           "label": "The Court",
-          "role": "Chief of Staff",
-          "status": "",
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
           "view": "Reported worry about a \"rose-colored\" view (carried)"
         },
         "MID": {
           "label": "The Operation",
-          "role": "White House chief of staff",
-          "status": "Current",
-          "view": "Trump named Miller successor Nov 6 for Nov 9; Wiles’s political-operation move announced."
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
+          "view": "Miller reportedly took over November 9; Wiles’s political responsibilities remain unclear."
         },
         "RUS": {
           "label": "Unplaced",
-          "role": "White House chief of staff",
-          "status": "",
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
           "view": "Named in the CREW suit in her official capacity; no position found"
         },
         "SUC": {
           "label": "The Gatekeepers",
-          "role": "Chief of staff",
-          "status": "",
+          "role": "Former chief of staff; historical position unless otherwise dated",
+          "status": "Carried position; current political remit unverified",
           "view": "Said Vance's turn to Trump was \"sort of political\" and Rubio would not violate his principles (Vanity Fair, Dec 2025); no stated pick"
         }
       },
-      "read": "An operator whose announced departure threatens White House gatekeeping; the political-operation move may preserve access, but its scope remains unverified.",
-      "role": "Chief of staff; announced transition to Trump political operation Nov 9",
+      "read": "Wiles has lost the chief-of-staff role to Miller. A continuing political relationship may preserve influence, but her new responsibilities and authority over money remain unclear.",
+      "role": "Former White House chief of staff; political responsibilities not yet clear",
       "rosters": [
         {
           "backs": "Midterms, succession, Epstein, AI, immigration timing",

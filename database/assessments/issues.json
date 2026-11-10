@@ -489,8 +489,8 @@
     ]
   },
   "IMM": {
-    "policy": "The administration continues large-scale immigration enforcement and restrictions on visas and foreign labor. Courts have limited particular practices; the November 6 order temporarily protects the Afghan clients covered by that case, rather than granting nationwide relief.",
-    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Miller’s planned promotion leaves the administration’s practical direction unresolved.",
+    "policy": "The administration continues large-scale immigration enforcement and restrictions on visas and foreign labor. Courts have limited particular practices; the November 6 order temporarily protects the Afghan clients covered by that case, rather than granting nationwide relief. The Supreme Court’s November 9 stay temporarily removes the injunction blocking Big Bend border-wall construction; actual building and final judgment remain unverified.",
+    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Miller reportedly began as chief of staff November 9. His promotion strengthens his staff access, while Stutzman’s criticism exposes Republican disagreement over the personnel response to defeat. No new deportation directive is established.",
     "player_ids": [
       "miller",
       "wiles",
@@ -513,7 +513,7 @@
       {
         "faction_id": "maximalists",
         "position": "3,000 arrests a day",
-        "actions": "Posture: the nation decides who belongs. Interest: control of ICE (Venturella, Jun 1), a legal arm funded by Bradley and DonorsTrust, and contractors' beds. 3,000 a day ordered Oct 6 after a spring pullback.",
+        "actions": "Posture: the nation decides who belongs. Interest: control of ICE (Venturella, Jun 1), a legal arm funded by Bradley and DonorsTrust, and contractors' beds. 3,000 a day ordered Oct 6 after a spring pullback. The Supreme Court temporarily lifted the injunction blocking Homeland Security’s Big Bend construction project November 9; implementation remains unverified.",
         "goals": "Documented grants: Bradley $27.1M (2022), DonorsTrust $21.3M (2024). Reported: Atlantic (May 11) on the spring pullback. Contractor tie is a documented fit, no causation.",
         "actors": [],
         "observations": [
@@ -561,14 +561,16 @@
       "imm-2026-10-31-salazar-warning",
       "imm-2026-10-31-north-hollywood-video",
       "imm-2026-10-26-afghan-deportations",
-      "suc-2026-11-08-trump-vance-immigration-interview"
+      "suc-2026-11-08-trump-vance-immigration-interview",
+      "imm-2026-11-09-big-bend-stay",
+      "mid-2026-11-06-miller-chief-staff"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "November 9 focused review of Trump’s public opening to an agreement over some workers without legal status. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
+    "scope": "November 10 focused review of linked developments; the remaining policy, financial and implementation findings retain their prior evidence dates. This is not a full issue verification.",
     "actors": [
       {
         "person_id": "miller",
-        "role": "Deputy chief of staff and homeland security adviser",
+        "role": "White House chief of staff (reported start November 9)",
         "faction_id": "maximalists",
         "position": "Fewer admissions at every level; 3,000 arrests a day",
         "goal": "Life's project; every win extends his reach.",
@@ -584,16 +586,16 @@
             "relevance": "Undisclosed donors fund Miller's legal arm without being named; the same conduit funds groups on the other side of the visa fight (NOTUS)."
           }
         ],
-        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates. November 9 start reported; detailed duties and policy changes remain unverified."
       },
       {
         "person_id": "wiles",
-        "role": "Chief of staff",
+        "role": "Former White House chief of staff; political role not fully specified",
         "faction_id": "operation",
         "position": "Lower the profile of deportations before the midterms",
         "goal": "Lower the deportation profile before Nov 3 to protect seats.",
         "financial_relationships": [],
-        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates. Miller reportedly took over November 9; Wiles’s new responsibilities remains unverified."
       },
       {
         "person_id": "vance",
@@ -617,7 +619,7 @@
   },
   "IRN": {
     "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive. Trump’s November 8 comments favor further talks conditionally, while retaining the threat of force; an accepted agreement is not established.",
-    "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice. Qatar’s prime minister is scheduled to meet Trump and Vance on November 9; the outcome remains pending. Rubio continues to reject Iran’s terms. Israel’s president formally gave Eisenkot the government-forming mandate on November 8, but a coalition and changed Israeli war policy remain unresolved.",
+    "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice. Qatar’s prime minister reportedly met Trump and Vance separately on November 9; the reported progress is attributed, and accepted terms remain unverified. Rubio continues to reject Iran’s terms. Israel’s president formally gave Eisenkot the government-forming mandate on November 8, but a coalition and changed Israeli war policy remain unresolved.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -724,7 +726,7 @@
       {
         "faction_id": "vance",
         "position": "Conditional force, negotiations, then public criticism",
-        "actions": "At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations. On Nov 4 he publicly blamed the war for the midterm losses and questioned its electoral price.",
+        "actions": "At his July 2024 rollout Vance backed hard strikes conditionally. He later reportedly opposed the opening strikes privately, defended Trump publicly, and led negotiations. On Nov 4 he publicly blamed the war for the midterm losses and questioned its electoral price. His separate meeting with Qatar’s prime minister November 9 is reported; no settlement is established.",
         "goals": "Succession rewards alignment with Trump. Thiel’s reported war criticism and the defense exposure of some backers point to distinct incentives. Strategic accommodation is a strong reading of the public-private split. Conditional force and opposition to this particular launch can coexist. The evidence leaves the cause of each shift open.",
         "actors": [],
         "observations": [
@@ -743,7 +745,7 @@
       "irn-2026-11-09-qatar-meeting-plan"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "November 9 focused review of the planned Qatar meeting, disputed Iranian terms and the completed Israeli mandate ceremony. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
+    "scope": "November 10 focused review of linked developments; the remaining policy, financial and implementation findings retain their prior evidence dates. This is not a full issue verification.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -877,7 +879,7 @@
   },
   "MID": {
     "policy": "The Associated Press projects that Democrats will control both chambers of the next Congress. They take office in January; current members retain their powers until then.",
-    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended. Health-policy activists’ outreach to Democrats shows another possible split in Trump’s coalition, but no measured transfer of voters or completed Cabinet removal. Attorney General Todd Blanche’s November 8 public defense of executive officials signals resistance to incoming Democratic oversight. It may reassure administration allies, but no court ruling or successful obstruction was established.",
+    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended. Health-policy activists’ outreach to Democrats shows another possible split in Trump’s coalition, but no measured transfer of voters or completed Cabinet removal. Attorney General Todd Blanche’s November 8 public defense of executive officials signals resistance to incoming Democratic oversight. It may reassure administration allies, but no court ruling or successful obstruction was established. Miller reportedly began as chief of staff November 9. Massie read Hegseth impeachment articles on the House floor, while Trump pledged support for Hegseth. The House’s procedural choice and final vote remain pending.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -893,7 +895,7 @@
       {
         "faction_id": "dissenters",
         "position": "Costs first; distance",
-        "actions": "Put costs first and criticize the ICE push.",
+        "actions": "Put costs first and criticize the ICE push. Massie read Hegseth impeachment articles on the House floor November 9; the House disposition remains pending.",
         "goals": "Distance from Trump in swing seats.",
         "actors": [
           "Fitzpatrick, Salazar Motives: Re-election in swing seats (reported).",
@@ -917,7 +919,7 @@
       {
         "faction_id": "maximalists",
         "position": "Enforcement push",
-        "actions": "Posture: a citizens-only vote. Interest: each suit or charge is an audition for a bigger post; Bannon attacks the Operation's money. Both ballot suits lost by Nov 2; TRO bars DOJ threats to Nov 16.",
+        "actions": "Posture: a citizens-only vote. Interest: each suit or charge is an audition for a bigger post; Bannon attacks the Operation's money. Both ballot suits lost by Nov 2; TRO bars DOJ threats to Nov 16. Miller reportedly began as chief of staff November 9; specific new instructions remain unverified.",
         "goals": "Documented court record; reported (Politico, Oct 15, anonymous) on Miller and Pulte for Wiles's job; Bannon's audit demand (Oct 7, Playbook as carried).",
         "actors": [],
         "observations": [
@@ -984,10 +986,11 @@
       "mid-2026-11-05-blumenthal-preservation-notices",
       "mid-2026-11-06-doj-departures",
       "mid-2026-11-08-health-activist-outreach",
-      "mid-2026-11-08-blanche-oversight-defense"
+      "mid-2026-11-08-blanche-oversight-defense",
+      "mid-2026-11-09-massie-hegseth-floor-action"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "November 9 focused review of Blanche’s public response to incoming congressional investigations. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
+    "scope": "November 10 focused review of linked developments; the remaining policy, financial and implementation findings retain their prior evidence dates. This is not a full issue verification.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1000,7 +1003,7 @@
       },
       {
         "person_id": "wiles",
-        "role": "White House chief of staff",
+        "role": "Former White House chief of staff; political role not fully specified",
         "faction_id": "operation",
         "position": "Her announced replacement changes White House gatekeeping; the November 9 handover remains prospective.",
         "goal": "Retain political influence through the reported move to the political operation.",
@@ -1011,16 +1014,16 @@
             "relevance": "A foreign client buys proximity to Trump, and the operators are paid on the side while running his PAC. Wiles’s daughter’s firm is paid $35,000 a month by Srpska, which exposes the chief of staff’s family (reported)."
           }
         ],
-        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates. Miller reportedly took over November 9; Wiles’s new responsibilities remains unverified."
       },
       {
         "person_id": "miller",
-        "role": "Deputy chief of staff",
+        "role": "White House chief of staff (reported start November 9)",
         "faction_id": "maximalists",
         "position": "The promotion provides a prospective channel, not proof of changed policy.",
         "goal": "Broaden agenda and staffing control through the announced chief-of-staff role.",
         "financial_relationships": [],
-        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates."
+        "basis_note": "Position and incentive drawn from existing issue research; incentives are analytical judgments. Historical statements retain their original dates. November 9 start reported; detailed duties and policy changes remain unverified."
       },
       {
         "person_id": "vance",
