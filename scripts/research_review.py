@@ -46,7 +46,13 @@ def plan(ledger):
     linked(ledger['collections']['assessments'])
     missing = [row['id'] for group in ledger['collections']['events'].values() for row in group['items']
                if row['id'] in active and 'http' not in json.dumps(row)]
+    impeachment = ledger['collections'].get('impeachments', {}).get('all', {})
+    history = impeachment.get('history', [])
     return {'standard': STANDARD, 'recent_source_health': health[:20], 'active_event_traceability_gaps': missing,
+            'personnel_review': {'document': 'impeachments/all',
+                                'last_review': history[-1]['as_of'] if history else None,
+                                'tests': impeachment.get('tests', []),
+                                'instruction': 'Execute impeachment-review with shared intake; append a linked review, assess outcomes and shared momentum even for unrelated cases.'},
             'note': 'Missing inline URLs require targeted source recovery; this is not proof a claim is false.', 'last_verified_by_issue': coverage_state(ledger),
             'carried_priorities': [row for row in previous.get('priorities', ledger['collections']['meta'].get('research_questions', {}).get('priorities', [])) if row['status'] != 'answered'],
             'discovery_leads': ledger['collections']['meta'].get('audit', {}).get('unmatched', []),

@@ -98,6 +98,8 @@ def validate(ledger, *, check_events=True):
     validate_nominees(ledger, ledger, 'Integrity')
     from validate_assessments import validate as validate_assessments
     validate_assessments(ledger)
+    from validate_impeachments import validate as validate_impeachments
+    validate_impeachments(ledger)
     legacy_runs = set(json.loads((ROOT / 'scripts/legacy_review_runs.json').read_text()))
     for key, scheduled in collections['runs'].items():
         if scheduled.get('type') in {'daily_review', 'weekly_review'} and key not in legacy_runs and scheduled.get('research_review', {}).get('standard') != 'question_review_v1':

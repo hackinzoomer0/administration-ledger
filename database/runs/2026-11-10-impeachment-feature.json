@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-10-impeachment-feature",
+  "date": "2026-11-10",
+  "type": "feature_implementation",
+  "summary": "Added traceable personnel impeachment forecasts with shared political momentum, case evidence and preserved pilot/comparative history.",
+  "scope": "Imports the dated subjective dry run; implementation is not new external political verification. Watchlist coverage is explicitly incomplete.",
+  "changes": [
+    "Added four initial numerical forecasts and five watchlist cases.",
+    "Added append-only proceeding/momentum registers and review history.",
+    "Existing nomination estimates, roster and historical research remain unchanged."
+  ],
+  "unresolved_claims": [
+    "No complete Senate whip count or calibrated model.",
+    "Wiles civil-officer eligibility and specific personal-conduct evidence remain unresolved.",
+    "No numerical first-conviction momentum effect has been established."
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "impeachments/all": {
+        "fingerprint": "e643d3af7e8cd19fa97a3bab040fa7762637f6e70abca366accae0bec2a9ed87",
+        "reader_takeaway": "Understand the initial personnel forecasts and their limits, with evidence and shared political feedback kept distinct.",
+        "context_check": "Named offices and alleged acts, explained the Senate conditional probability and departure issues, and distinguished the imported historical dry runs from the new prospective momentum assessment.",
+        "uncertainty_check": "Retained defenses, interested-source qualifications, subjective estimates and unestimated watchlists; no conviction or numerical momentum effect was invented.",
+        "changes_made": [
+          "Labeled momentum as unassessed in the original dry runs rather than retroactively claiming the method was used.",
+          "Added a separate feature-baseline review carrying the original probabilities and explicit future momentum pathways."
+        ]
+      },
+      "runs/2026-11-10-impeachment-feature": {
+        "fingerprint": "747f5d175602e1c7e0c1d67ec6f6214b767107b973e597934a2243f364a032ee",
+        "reader_takeaway": "Understand the initial personnel forecasts and their limits, with evidence and shared political feedback kept distinct.",
+        "context_check": "Named offices and alleged acts, explained the Senate conditional probability and departure issues, and distinguished the imported historical dry runs from the new prospective momentum assessment.",
+        "uncertainty_check": "Retained defenses, interested-source qualifications, subjective estimates and unestimated watchlists; no conviction or numerical momentum effect was invented.",
+        "changes_made": [
+          "Labeled momentum as unassessed in the original dry runs rather than retroactively claiming the method was used.",
+          "Added a separate feature-baseline review carrying the original probabilities and explicit future momentum pathways."
+        ]
+      }
+    }
+  },
+  "validation": {
+    "scope": "Data/source integrity, meaningful arithmetic and momentum-transition tests, desktop/mobile navigation and synthetic conviction rendering. Live verification follows publication.",
+    "political_limit": "Implementation and structural checks do not independently validate imported probabilities."
+  }
+}

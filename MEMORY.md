@@ -1,5 +1,7 @@
 # Current project policy
 
+- November 10 personnel feature: Administration/personnel links impeachment forecasts, case evidence/defenses, person profiles, proceeding milestones, follow-up checks and immutable history. Canonical collection is impeachments/all; stored impeachment-review runs with existing daily/weekly intake. Shared conviction momentum explicitly assesses normalization, exceptional-case containment and backlash, including unrelated cases; every new observation requires each case's response or hold, not a fixed numerical uplift. Departure is not automatic immunity. Initial four numerical dry-run estimates remain provisional; five watchlist cases are unestimated, and earlier snapshots label momentum as unassessed. No nomination roster, estimates, formula or cadence changes.
+
 Canonical research lives in database/, prompts in prompts/, React in src/ and review tools in scripts/. Historical source snapshots remain in Git; personal conversational and operational memory belongs in ignored private storage.
 
 The product leads with current administration power assessments and conditional 2028 nomination judgments. Keep evidence, inference, unknowns, announcements, implementation and outcomes distinct. Use decision-specific authority, leverage, incentives and opposition rather than shared slogans or activity scores.

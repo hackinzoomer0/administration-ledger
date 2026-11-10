@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 
-PUBLIC = {'assessments', 'events', 'people', 'donors', 'factions', 'issues', 'nominations', 'report', 'runs'}
+PUBLIC = {'assessments', 'events', 'people', 'donors', 'factions', 'issues', 'nominations', 'impeachments', 'report', 'runs'}
 METADATA = {'id', 'kind', 'tier', 'status', 'precision', 'home', 'also', 'issues', 'supports',
             'factions', 'model_version', 'standard', 'schema_version', 'type', 'url', 'source',
             'publication_date', 'accessed_on', 'added', 'date', 'reviewed_at', 'asof', 'as_of',

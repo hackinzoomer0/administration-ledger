@@ -29,6 +29,7 @@ import { Search } from "./components/Search";
 import { EvidenceProvider } from "./components/EvidenceProvider";
 const Home = lazy(() => import("./pages/Home"));
 const Administration = lazy(() => import("./pages/Administration"));
+const Personnel = lazy(() => import("./pages/Personnel"));
 const Research = lazy(() => import("./pages/Research"));
 const Issues = lazy(() => import("./pages/Issues"));
 const Factions = lazy(() => import("./pages/Factions"));
@@ -95,11 +96,13 @@ export function App() {
   }, [location.pathname]);
   const [searchOpen, setSearchOpen] = useState(false);
   const segment = location.pathname.split("/")[1];
-  const selected = ["administration", "issues", "factions"].includes(segment)
+  const selected = ["administration", "issues", "factions", "people"].includes(
+    segment,
+  )
     ? "/administration"
     : segment === "nominees"
       ? "/nominees"
-      : ["research", "ledger", "people", "donors"].includes(segment)
+      : ["research", "ledger", "donors"].includes(segment)
         ? "/research"
         : "/";
   return (
@@ -217,6 +220,10 @@ export function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Navigate to="/" replace />} />
               <Route path="/administration/:id?" element={<Administration />} />
+              <Route
+                path="/administration/personnel/:caseId?"
+                element={<Personnel />}
+              />
               <Route path="/research" element={<Research />} />
               <Route path="/issues/:id?" element={<Issues />} />
               <Route path="/factions/:id?" element={<Factions />} />
@@ -248,8 +255,9 @@ export function App() {
       >
         <Container maxWidth="xl">
           <Typography variant="caption" color="text.secondary">
-            Authority, access and analyst judgment are distinguished. Estimates
-            are conditional on the tracked field.{" "}
+            Authority, access and analyst judgment are distinguished. Nomination
+            estimates are conditional on the tracked field; impeachment
+            forecasts use their stated deadline.{" "}
             <Link to="/research?section=methods">Methods &amp; limits</Link>
           </Typography>
         </Container>

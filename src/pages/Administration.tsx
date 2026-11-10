@@ -7,6 +7,7 @@ import { ContextNav } from "../components/ContextNav";
 import { TopicPlayers } from "../components/TopicPlayers";
 import { PowerShifts } from "../components/PowerShifts";
 import { PowerList } from "../components/PowerList";
+import { ImpeachmentSummary } from "../components/ImpeachmentSummary";
 import { ReadingBlock } from "../components/ReadingBlock";
 import { Section } from "../components/Section";
 import { EntityChips } from "../components/EntityChips";
@@ -85,6 +86,7 @@ export default function Administration() {
       ) : (
         <>
           <PowerShifts />
+          <ImpeachmentSummary />
           <Section title={data.assessment.administration.headline}>
             <Typography variant="body2" sx={{ maxWidth: "75ch" }}>
               {data.assessment.administration.summary}

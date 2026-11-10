@@ -12,6 +12,7 @@ export function ContextNav({ area }: { area: "research" | "administration" }) {
         ]
       : [
           ["/administration", "Power assessment"],
+          ["/administration/personnel", "Personnel & impeachment"],
           ["/issues", "Issues"],
           ["/factions", "Factions"],
         ];

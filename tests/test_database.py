@@ -97,6 +97,11 @@ class DatabaseWorkflow(unittest.TestCase):
             }
             from test_remediation import research_fixture
             ledger['collections']['runs']['workflow-fixture']['date'] = snapshot['date']
+            impeachment_history = ledger['collections']['impeachments']['all']['history']
+            impeachment_review = copy.deepcopy(impeachment_history[-1])
+            impeachment_review.update(id='workflow-fixture', run_id='workflow-fixture', type='daily',
+                                      as_of=snapshot['date'] + 'T23:59:00Z')
+            impeachment_history.append(impeachment_review)
             ledger['collections']['runs']['workflow-fixture']['research_review'] = research_fixture(json.loads((stage/'original.json').read_text()), ledger, 'workflow-fixture')
             file.write_text(json.dumps(ledger))
             with patch('review_workflow.publish', return_value={'status': 'verified', 'commit': 'fixture'}) as publish, patch('review_workflow.apply') as apply_data:

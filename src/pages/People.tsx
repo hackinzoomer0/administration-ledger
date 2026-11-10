@@ -20,7 +20,11 @@ import { EntityChips } from "../components/EntityChips";
 import { ReadingBlock } from "../components/ReadingBlock";
 import { Section } from "../components/Section";
 import { ContextNav } from "../components/ContextNav";
+import { impeachments } from "../lib/impeachments";
 function Profile({ person }: { person: Person }) {
+  const impeachment = impeachments.cases.find(
+    (row) => row.person_id === person.id,
+  );
   const [tab, setTab] = useState("assessment");
   const candidate = data.assessment.nomination.candidates.find(
     (row) => row.person_id === person.id,
@@ -79,6 +83,15 @@ function Profile({ person }: { person: Person }) {
                 variant="outlined"
               >
                 View the 2028 assessment
+              </Button>
+            )}
+            {impeachment && (
+              <Button
+                component={RouterLink}
+                to={`/administration/personnel/${impeachment.id}`}
+                variant="outlined"
+              >
+                View impeachment forecast & evidence
               </Button>
             )}
           </Section>
@@ -170,7 +183,7 @@ function Profile({ person }: { person: Person }) {
 export default function People() {
   return (
     <>
-      <ContextNav area="research" />
+      <ContextNav area="administration" />
       <Directory
         title="People"
         description="Who makes decisions, what they want and how they can influence policy. Open a profile for their record and supporting evidence."

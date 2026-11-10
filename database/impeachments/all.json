@@ -1,0 +1,1030 @@
+{
+  "schema_version": 1,
+  "methodology": {
+    "id": "impeachment_judgment_v1",
+    "target": "House adoption of at least one article and Senate conviction on at least one article by the stated deadline, including proceedings after departure.",
+    "limits": "Subjective political estimates, not calibrated odds or criminal-guilt judgments. Cases are not independent. Watchlist entries have no estimate; they are not zero risk. Close rankings are uncertain.",
+    "arithmetic": "Overall conviction equals House impeachment multiplied by conviction conditional on impeachment. Probabilities across people do not sum to 100%.",
+    "momentum_rule": "Assess changes in the political cost and feasibility of later proceedings, including unrelated cases. Record normalization, exceptional-case and backlash explanations; update every affected case with evidence or an explicit hold. Never apply a fixed uplift or infer guilt from another official’s conviction.",
+    "departure_rule": "Resignation or dismissal does not automatically preclude impeachment or trial. Consider continuing accountability and disqualification incentives, contested jurisdiction and timing of alleged acts.",
+    "cadence": "Daily: resolve procedural outcomes and assess material case or momentum developments; append a dated review even on holds. Reassess odds when material evidence warrants, otherwise hold explicitly. Weekly: compare all cases, discover omitted officials, challenge coalitions and momentum pathways, and review dated tests. No separate scheduled job."
+  },
+  "sources": [
+    {
+      "id": "massie",
+      "title": "Massie announces Hegseth articles",
+      "url": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395863",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "limitation": "Sponsor allegations; not findings."
+    },
+    {
+      "id": "rollcall",
+      "title": "House procedure and support for Hegseth impeachment",
+      "url": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "limitation": "Reporting; no completed disposition verified."
+    },
+    {
+      "id": "noem-referral",
+      "title": "Judiciary leaders refer Noem for investigation",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/senate-house-judiciary-leaders-refer-kristi-noem-to-justice-department-for-perjury-investigation",
+      "publication_date": "2026-03-16",
+      "accessed_on": "2026-11-10",
+      "limitation": "Committee leaders allege false testimony; not an adjudication."
+    },
+    {
+      "id": "noem-articles",
+      "title": "Filed Noem impeachment articles",
+      "url": "https://mcgarvey.house.gov/imo/media/doc/articles_of_impeachment_against_kristi_noem.pdf",
+      "publication_date": "2026-01-13",
+      "accessed_on": "2026-11-10",
+      "limitation": "Sponsor allegations include self-dealing."
+    },
+    {
+      "id": "noem-reuters",
+      "title": "Trump disputes approving Noem advertising campaign",
+      "url": "https://www.investing.com/news/economy-news/trump-says-he-didnt-sign-off-on-200-million-border-security-ad-campaign-4544916",
+      "publication_date": "2026-03-05",
+      "accessed_on": "2026-11-10",
+      "limitation": "Reuters reporting, syndicated; conflicting accounts are not proof of knowing deception."
+    },
+    {
+      "id": "guilfoyle-letter",
+      "title": "Oversight seeks records on alleged donor-access arrangement",
+      "url": "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+      "publication_date": "2026-10-30",
+      "accessed_on": "2026-11-10",
+      "limitation": "Investigators describe communications; allegations not findings."
+    },
+    {
+      "id": "guilfoyle-continuation",
+      "title": "Congressional inquiry continues after Guilfoyle departure",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-from-kimberly-guilfoyles-staffer-in-pay-to-play-scheme",
+      "publication_date": "2026-10-30",
+      "accessed_on": "2026-11-10",
+      "limitation": "Committee account of continuing inquiry."
+    },
+    {
+      "id": "guilfoyle-defense",
+      "title": "Guilfoyle lawyers dispute payment and travel allegations",
+      "url": "https://www.tovima.com/politics/guilfoyle-lawyers-deny-wrongdoing-dispute-travel-allegations/",
+      "publication_date": "2026-10-12",
+      "accessed_on": "2026-11-10",
+      "limitation": "Reports the defense: unpaid professional fees and compliance with travel guidance."
+    },
+    {
+      "id": "barrasso",
+      "title": "Barrasso expresses concern about Guilfoyle allegations",
+      "url": "https://www.washingtonexaminer.com/news/white-house/4762609/barrasso-inquiry-guilfoyle-white-house/",
+      "publication_date": "2026-10-11",
+      "accessed_on": "2026-11-10",
+      "limitation": "Concern and expected inquiry, not a commitment to convict."
+    },
+    {
+      "id": "blanche-support",
+      "title": "Two House Democrats support Blanche impeachment",
+      "url": "https://www.aol.com/articles/2-house-democrats-float-idea-020829000.html",
+      "publication_date": "2026-11-06",
+      "accessed_on": "2026-11-10",
+      "limitation": "The Hill syndicated reporting; statements are not a vote count."
+    },
+    {
+      "id": "wiles-means",
+      "title": "Means accuses Wiles of lobbyist influence",
+      "url": "https://apnews.com/article/e9d863b422d88269436c51cc9c4324ff",
+      "publication_date": "2026-11-09",
+      "accessed_on": "2026-11-10",
+      "limitation": "Indexed AP reporting; insider allegations, not verified corrupt exchanges."
+    },
+    {
+      "id": "senate-rules",
+      "title": "Senate impeachment procedure",
+      "url": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+      "publication_date": null,
+      "accessed_on": "2026-11-10",
+      "limitation": "Official indexed summary; direct retrieval blocked."
+    },
+    {
+      "id": "belknap",
+      "title": "Belknap trial after resignation",
+      "url": "https://www.senate.gov/about/powers-procedures/impeachment/impeachment-belknap.htm?stream=top",
+      "publication_date": null,
+      "accessed_on": "2026-11-10",
+      "limitation": "Official historical precedent; former-official jurisdiction can still be contested."
+    }
+  ],
+  "cases": [
+    {
+      "id": "hegseth",
+      "person_id": "hegseth",
+      "name": "Pete Hegseth",
+      "office": "Secretary of Defense",
+      "eligibility": "eligible",
+      "tenure": "in_office",
+      "title": "War powers and alleged operational abuses",
+      "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence.",
+      "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+      "source_ids": [
+        "massie",
+        "rollcall"
+      ],
+      "event_ids": [
+        "mid-2026-11-09-massie-hegseth-floor-action"
+      ],
+      "watch": "A completed House disposition, named senators’ positions and evidence addressing specific articles."
+    },
+    {
+      "id": "noem",
+      "person_id": "kristi-noem",
+      "name": "Kristi Noem",
+      "office": "Former Homeland Security secretary; later State adviser",
+      "eligibility": "eligible",
+      "tenure": "left_relevant_office",
+      "title": "Contracting and alleged false testimony",
+      "allegations": "Filed articles include self-dealing. A separate congressional referral alleges false testimony; neither establishes wrongdoing.",
+      "defense": "Noem defended the contracting process and described presidential approval. Contradictory accounts do not establish knowing deception or personal enrichment.",
+      "source_ids": [
+        "noem-referral",
+        "noem-articles",
+        "noem-reuters"
+      ],
+      "event_ids": [],
+      "watch": "Contract records, responsibility and intent, final investigative findings and actual support for proceeding after departure."
+    },
+    {
+      "id": "guilfoyle",
+      "person_id": "kimberly-guilfoyle",
+      "name": "Kimberly Guilfoyle",
+      "office": "Former ambassador to Greece",
+      "eligibility": "eligible",
+      "tenure": "left_relevant_office",
+      "title": "Alleged donor-access payments and gifts",
+      "allegations": "Oversight Democrats continue an inquiry after her departure into an alleged financial arrangement. Republican concern is not a conviction pledge.",
+      "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+      "source_ids": [
+        "guilfoyle-letter",
+        "guilfoyle-continuation",
+        "guilfoyle-defense",
+        "barrasso"
+      ],
+      "event_ids": [
+        "mid-2026-10-13-guilfoyle-resigns"
+      ],
+      "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+    },
+    {
+      "id": "blanche",
+      "person_id": "blanche",
+      "name": "Todd Blanche",
+      "office": "Attorney General",
+      "eligibility": "eligible",
+      "tenure": "in_office",
+      "title": "Alleged misuse of Justice Department authority",
+      "allegations": "House members have explicitly supported impeachment. Oversight may develop a case, but hypothetical future obstruction is not present misconduct.",
+      "defense": "Executive direction, official representation and disputed legal arguments are not by themselves proof of impeachable abuse.",
+      "source_ids": [
+        "blanche-support"
+      ],
+      "event_ids": [
+        "mid-2026-11-08-blanche-oversight-defense"
+      ],
+      "watch": "Specific evidence of personal acts, court findings, congressional agenda and cross-party Senate support."
+    },
+    {
+      "id": "wiles",
+      "person_id": "wiles",
+      "name": "Susie Wiles",
+      "office": "Former White House chief of staff",
+      "eligibility": "unresolved",
+      "tenure": "left_relevant_office",
+      "title": "Lobbying influence allegations",
+      "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+      "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+      "source_ids": [
+        "wiles-means"
+      ],
+      "event_ids": [],
+      "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+    },
+    {
+      "id": "patel",
+      "person_id": "patel",
+      "name": "Kash Patel",
+      "office": "FBI director",
+      "eligibility": "eligible",
+      "tenure": "in_office",
+      "title": "Justice and FBI oversight",
+      "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+      "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+      "source_ids": [],
+      "event_ids": [],
+      "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+    },
+    {
+      "id": "kennedy-jr",
+      "person_id": null,
+      "name": "Robert F. Kennedy Jr.",
+      "office": "Health and Human Services secretary",
+      "eligibility": "eligible",
+      "tenure": "in_office",
+      "title": "Health-policy oversight",
+      "allegations": "Calls for accountability merit case discovery; policy opposition alone does not establish a conviction coalition.",
+      "defense": "No complete article-specific evidence and defense review has been completed in this feature.",
+      "source_ids": [],
+      "event_ids": [],
+      "watch": "Specific conduct, underlying evidence, defenses and congressional agenda."
+    },
+    {
+      "id": "lutnick",
+      "person_id": "lutnick",
+      "name": "Howard Lutnick",
+      "office": "Commerce secretary",
+      "eligibility": "eligible",
+      "tenure": "in_office",
+      "title": "Financial and access controversies",
+      "allegations": "Existing ledger controversies require specific evidence and current congressional follow-up.",
+      "defense": "Association, criticism or a resignation demand does not establish wrongdoing or conviction support.",
+      "source_ids": [],
+      "event_ids": [],
+      "watch": "Current evidence of personal acts, defenses and legislative follow-up."
+    },
+    {
+      "id": "bondi",
+      "person_id": "bondi",
+      "name": "Pam Bondi",
+      "office": "Former Attorney General",
+      "eligibility": "eligible",
+      "tenure": "left_relevant_office",
+      "title": "Justice Department and disclosure oversight",
+      "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+      "defense": "Departure is not immunity, but a complete case-specific forecast has not been performed.",
+      "source_ids": [],
+      "event_ids": [],
+      "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+    }
+  ],
+  "proceedings": [
+    {
+      "id": "hegseth-articles-2026-11-09",
+      "case_id": "hegseth",
+      "date": "2026-11-09",
+      "kind": "articles_introduced",
+      "summary": "Massie read articles on the House floor and sought privileged consideration; no adoption verified here.",
+      "source_ids": [
+        "massie",
+        "rollcall"
+      ],
+      "event_ids": [
+        "mid-2026-11-09-massie-hegseth-floor-action"
+      ],
+      "supersedes": null
+    },
+    {
+      "id": "guilfoyle-inquiry-2026-10-30",
+      "case_id": "guilfoyle",
+      "date": "2026-10-30",
+      "kind": "inquiry",
+      "summary": "Oversight Democrats sought additional records after her departure. Investigation is not impeachment.",
+      "source_ids": [
+        "guilfoyle-letter"
+      ],
+      "event_ids": [],
+      "supersedes": null
+    }
+  ],
+  "momentum_observations": [],
+  "history": [
+    {
+      "id": "impeachment-pilot-2026-11-10",
+      "as_of": "2026-11-10T16:03:00Z",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-10-impeachment-feature",
+      "type": "pilot",
+      "summary": "Initial Hegseth pilot; other cases were not numerically assessed.",
+      "coverage": "Targeted research; no complete Senate whip count or calibration. Shared conviction momentum was not explicitly assessed in this original dry run; momentum fields are a retrospective statement of that limitation.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The original dry run did not explicitly assess shared conviction momentum. No numerical feedback effect was estimated.",
+        "observation_ids": [],
+        "source_ids": [],
+        "event_ids": [],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A conviction makes another conviction easier",
+            "assessment": "Not explicitly assessed in the original dry run; retained here as a limitation, not a historical finding."
+          },
+          {
+            "id": "exception",
+            "title": "Senators treat the first case as exceptional",
+            "assessment": "Not explicitly assessed in the original dry run; retained here as a limitation, not a historical finding."
+          },
+          {
+            "id": "backlash",
+            "title": "Backlash makes the next case harder",
+            "assessment": "Not explicitly assessed in the original dry run; retained here as a limitation, not a historical finding."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 60,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 15.0,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "An active House route and incoming leadership support favor adoption. A Senate supermajority remains much harder to assemble.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action"
+            ],
+            "watch": "A completed House disposition, named senators’ positions and evidence addressing specific articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
+    },
+    {
+      "id": "impeachment-comparison-2026-11-10",
+      "as_of": "2026-11-10T16:30:00Z",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-10-impeachment-feature",
+      "type": "baseline",
+      "summary": "Hegseth leads House impeachment; Noem narrowly leads overall conviction; Guilfoyle leads conditional conviction. Overall estimates of 18%, about 16% and 15% form a close tier.",
+      "coverage": "Initial comparative judgments from targeted sources and existing ledger records. No complete Senate vote census; several watchlist cases remain unestimated. Momentum has not received a separate numerical adjustment. Shared conviction momentum was not explicitly assessed in this original dry run; momentum fields are a retrospective statement of that limitation.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The original dry run did not explicitly assess shared conviction momentum. No numerical feedback effect was estimated.",
+        "observation_ids": [],
+        "source_ids": [],
+        "event_ids": [],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A conviction makes another conviction easier",
+            "assessment": "Not explicitly assessed in the original dry run; retained here as a limitation, not a historical finding."
+          },
+          {
+            "id": "exception",
+            "title": "Senators treat the first case as exceptional",
+            "assessment": "Not explicitly assessed in the original dry run; retained here as a limitation, not a historical finding."
+          },
+          {
+            "id": "backlash",
+            "title": "Backlash makes the next case harder",
+            "assessment": "Not explicitly assessed in the original dry run; retained here as a limitation, not a historical finding."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 60,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 15.0,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "An active House route and incoming leadership support favor adoption. A Senate supermajority remains much harder to assemble.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action"
+            ],
+            "watch": "A completed House disposition, named senators’ positions and evidence addressing specific articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "Contracting and testimony could attract Republicans without requiring rejection of immigration enforcement. Continued House appetite after departure remains less established.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Filed articles include self-dealing. A separate congressional referral alleges false testimony; neither establishes wrongdoing.",
+            "defense": "Noem defended the contracting process and described presidential approval. Contradictory accounts do not establish knowing deception or personal enrichment.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters"
+            ],
+            "event_ids": [],
+            "watch": "Contract records, responsibility and intent, final investigative findings and actual support for proceeding after departure."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "A substantiated personal-financial case could attract a broader Senate coalition. Getting to impeachment is less likely because of disputed evidence, timing and congressional priorities.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Oversight Democrats continue an inquiry after her departure into an alleged financial arrangement. Republican concern is not a conviction pledge.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns"
+            ],
+            "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "House interest makes proceedings plausible. Conviction could more directly challenge Trump’s direction of Justice and face stronger party resistance.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "House members have explicitly supported impeachment. Oversight may develop a case, but hypothetical future obstruction is not present misconduct.",
+            "defense": "Executive direction, official representation and disputed legal arguments are not by themselves proof of impeachable abuse.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense"
+            ],
+            "watch": "Specific evidence of personal acts, court findings, congressional agenda and cross-party Senate support."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: personal-conduct evidence and office eligibility are not sufficiently resolved for comparable odds.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means"
+            ],
+            "event_ids": [],
+            "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: case-specific evidence and congressional coalition require a fuller assessment.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+            "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: no comparable numerical forecast yet. This is a coverage gap, not a low-risk estimate.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Calls for accountability merit case discovery; policy opposition alone does not establish a conviction coalition.",
+            "defense": "No complete article-specific evidence and defense review has been completed in this feature.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific conduct, underlying evidence, defenses and congressional agenda."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: no comparable numerical forecast yet.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Existing ledger controversies require specific evidence and current congressional follow-up.",
+            "defense": "Association, criticism or a resignation demand does not establish wrongdoing or conviction support.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Current evidence of personal acts, defenses and legislative follow-up."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: former-office issues, evidence and continued congressional interest need assessment.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Shared conviction momentum was not explicitly assessed in this original dry run."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Departure is not immunity, but a complete case-specific forecast has not been performed.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
+    },
+    {
+      "id": "impeachment-feature-2026-11-10",
+      "as_of": "2026-11-10T17:01:43Z",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-10-impeachment-feature",
+      "type": "material_update",
+      "summary": "Hegseth leads House impeachment; Noem narrowly leads overall conviction; Guilfoyle leads conditional conviction. Overall estimates of 18%, about 16% and 15% form a close tier.",
+      "coverage": "Carries the initial comparative probabilities without numerical changes. Shared momentum pathways are now explicit; no verified new conviction or measured numerical uplift is established. Several watchlist cases remain unestimated.",
+      "context": {
+        "state": "unverified",
+        "assessment": "No Senate conviction has been verified in the reviewed cases. A first conviction could affect unrelated cases, but the numerical effect is unquantified.",
+        "observation_ids": [],
+        "source_ids": [],
+        "event_ids": [],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A conviction makes another conviction easier",
+            "assessment": "A sustainable bipartisan vote could reduce the cost of defection, encourage witnesses and give the House a credible route even for unrelated allegations."
+          },
+          {
+            "id": "exception",
+            "title": "Senators treat the first case as exceptional",
+            "assessment": "A narrow personal case could leave protection intact elsewhere; a one-time coalition may not carry over."
+          },
+          {
+            "id": "backlash",
+            "title": "Backlash makes the next case harder",
+            "assessment": "Political punishment or public fatigue could discourage further impeachment and conviction votes."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 60,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 15.0,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "An active House route and incoming leadership support favor adoption. A Senate supermajority remains much harder to assemble.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action"
+            ],
+            "watch": "A completed House disposition, named senators’ positions and evidence addressing specific articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "Contracting and testimony could attract Republicans without requiring rejection of immigration enforcement. Continued House appetite after departure remains less established.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Filed articles include self-dealing. A separate congressional referral alleges false testimony; neither establishes wrongdoing.",
+            "defense": "Noem defended the contracting process and described presidential approval. Contradictory accounts do not establish knowing deception or personal enrichment.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters"
+            ],
+            "event_ids": [],
+            "watch": "Contract records, responsibility and intent, final investigative findings and actual support for proceeding after departure."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "A substantiated personal-financial case could attract a broader Senate coalition. Getting to impeachment is less likely because of disputed evidence, timing and congressional priorities.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Oversight Democrats continue an inquiry after her departure into an alleged financial arrangement. Republican concern is not a conviction pledge.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns"
+            ],
+            "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "House interest makes proceedings plausible. Conviction could more directly challenge Trump’s direction of Justice and face stronger party resistance.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "House members have explicitly supported impeachment. Oversight may develop a case, but hypothetical future obstruction is not present misconduct.",
+            "defense": "Executive direction, official representation and disputed legal arguments are not by themselves proof of impeachable abuse.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense"
+            ],
+            "watch": "Specific evidence of personal acts, court findings, congressional agenda and cross-party Senate support."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: personal-conduct evidence and office eligibility are not sufficiently resolved for comparable odds.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means"
+            ],
+            "event_ids": [],
+            "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: case-specific evidence and congressional coalition require a fuller assessment.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+            "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: no comparable numerical forecast yet. This is a coverage gap, not a low-risk estimate.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Calls for accountability merit case discovery; policy opposition alone does not establish a conviction coalition.",
+            "defense": "No complete article-specific evidence and defense review has been completed in this feature.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific conduct, underlying evidence, defenses and congressional agenda."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: no comparable numerical forecast yet.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Existing ledger controversies require specific evidence and current congressional follow-up.",
+            "defense": "Association, criticism or a resignation demand does not establish wrongdoing or conviction support.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Current evidence of personal acts, defenses and legislative follow-up."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Watchlist: former-office issues, evidence and continued congressional interest need assessment.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A prior conviction of another official could normalize cross-party votes and encourage House action. An exceptional case or backlash could instead limit further proceedings. The original estimate is carried; no separate numerical effect has been established."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Departure is not immunity, but a complete case-specific forecast has not been performed.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
+    }
+  ],
+  "tests": [
+    {
+      "id": "hegseth-floor-outcome",
+      "case_id": "hegseth",
+      "resolve_by": "2026-11-12",
+      "claim": "Verify the House disposition and individual votes; procedural tabling or referral is not impeachment.",
+      "status": "pending",
+      "resolution": "",
+      "source_ids": [
+        "rollcall"
+      ],
+      "event_ids": []
+    },
+    {
+      "id": "guilfoyle-records",
+      "case_id": "guilfoyle",
+      "resolve_by": "2026-11-14",
+      "claim": "Check responses to the November 13 records deadline; record missing or inaccessible material honestly.",
+      "status": "pending",
+      "resolution": "",
+      "source_ids": [
+        "guilfoyle-letter"
+      ],
+      "event_ids": []
+    },
+    {
+      "id": "incoming-agenda",
+      "case_id": null,
+      "resolve_by": "2027-01-15",
+      "claim": "Verify chamber composition, actual office status and leadership priorities for all cases; do not carry outgoing senators’ votes forward.",
+      "status": "pending",
+      "resolution": "",
+      "source_ids": [],
+      "event_ids": []
+    }
+  ]
+}

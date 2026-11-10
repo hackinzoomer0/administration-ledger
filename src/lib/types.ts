@@ -385,3 +385,106 @@ export interface CandidateExposure {
   political_implication: string;
   source_ids: string[];
 }
+
+export interface ImpeachmentSource {
+  id: string;
+  title: string;
+  url: string;
+  publication_date: string | null;
+  accessed_on: string;
+  limitation: string;
+}
+export interface ImpeachmentCase extends EvidenceRef {
+  id: string;
+  person_id: string | null;
+  name: string;
+  office: string;
+  eligibility: "eligible" | "unresolved" | "ineligible";
+  tenure: "in_office" | "left_relevant_office" | "unverified";
+  title: string;
+  allegations: string;
+  defense: string;
+  watch: string;
+}
+export interface ImpeachmentForecast {
+  outcomes: {
+    house: "pending" | "occurred";
+    conviction: "pending" | "occurred";
+    proceeding_ids: string[];
+  };
+  house_pct: number | null;
+  conviction_given_impeachment_pct: number | null;
+  joint_pct: number | null;
+  joint_range_pct: [number, number] | null;
+  reason: string;
+  confidence: string;
+  momentum: {
+    direction: string;
+    assessment: string;
+    observation_ids: string[];
+  };
+  basis: EvidenceRef & {
+    allegations: string;
+    defense: string;
+    office: string;
+    eligibility: string;
+    watch: string;
+  };
+}
+export interface ImpeachmentReview {
+  id: string;
+  as_of: string;
+  deadline: string;
+  run_id: string;
+  type: string;
+  summary: string;
+  coverage: string;
+  context: EvidenceRef & {
+    state: string;
+    assessment: string;
+    observation_ids: string[];
+    pathways: { id: string; title: string; assessment: string }[];
+  };
+  forecasts: Record<string, ImpeachmentForecast>;
+}
+export interface ImpeachmentData {
+  methodology: {
+    id: string;
+    target: string;
+    limits: string;
+    arithmetic: string;
+    momentum_rule: string;
+    departure_rule: string;
+    cadence: string;
+  };
+  sources: ImpeachmentSource[];
+  cases: ImpeachmentCase[];
+  proceedings: (EvidenceRef & {
+    id: string;
+    case_id: string;
+    date: string;
+    kind: string;
+    summary: string;
+    supersedes: string | null;
+  })[];
+  momentum_observations: (EvidenceRef & {
+    id: string;
+    date: string;
+    kind: string;
+    assessment: string;
+    countercase: string;
+    political_response: string;
+    coalition: string;
+    scope: string;
+    proceeding_ids: string[];
+  })[];
+  history: ImpeachmentReview[];
+  tests: (EvidenceRef & {
+    id: string;
+    case_id: string | null;
+    resolve_by: string;
+    claim: string;
+    status: string;
+    resolution: string;
+  })[];
+}

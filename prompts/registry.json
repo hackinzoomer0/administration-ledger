@@ -462,5 +462,9 @@
   "research-questions": {
     "asof": "2026-11-09",
     "role": "research-questions"
+  },
+  "impeachment-review": {
+    "asof": "2026-11-10",
+    "role": "impeachment-review"
   }
 }

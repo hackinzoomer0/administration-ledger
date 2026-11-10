@@ -60,6 +60,7 @@ export default function Research() {
     "workflow_setup",
     "workflow_and_framework_migration",
     "product_assessment_projection",
+    "feature_implementation",
   ];
   const filtered = runs.filter(([, value]) => {
     const row = value as Record<string, Json>;
@@ -131,6 +132,7 @@ export default function Research() {
             return (
               <Accordion
                 key={id}
+                defaultExpanded={params.get("run") === id}
                 disableGutters
                 elevation={0}
                 variant="outlined"

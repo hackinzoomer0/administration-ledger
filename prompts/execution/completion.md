@@ -2,6 +2,8 @@ The runner has validated, finished publication and applied this review. Provide 
 
 Lead with the maintained current administration power assessment and nomination assessment when summarizing the review. Explain any changes or holds to collections.assessments.current, the evidence basis, research scope and conditions that could change the read. Briefing and processing details support those assessments.
 
+Report the personnel impeachment review: actual procedural outcomes, material probability changes or explicit holds, shared momentum and its effect on other cases, due tests and coverage gaps. Distinguish House impeachment, conditional Senate conviction and overall conviction; name the deadline and label subjective estimates. No automatic nomination odds adjustment follows an impeachment outcome.
+
 Match the run cadence: daily report the lightweight monitor, last full-review date, held odds, due-test outcomes and queued scenario/design questions; do not imply a new full wargame. Weekly report the full predictive nomination wargame and scenario/test-case changes: all authorized conditional estimates and deltas, why scenario judgments changed or held, the strongest surviving countercase, consequential dated tests, and any unlisted-field authorization question. Explicitly confirm no nominees added; do not describe subjective scenario outputs as measured support or calibrated probabilities.
 
 For a weekly run, explain material corrections from the common-candidate comparison, including whether changed numbers reflect new evidence or corrected assumptions. A daily run reports only queued questions and carried estimates, without claiming a fresh comparative wargame.

@@ -66,6 +66,8 @@ def check(stage, section):
     validate(after, check_events=False)
     validate_nominees(before, after, section)
     validate_assessment_review(before, after, section)
+    from validate_impeachments import validate as validate_impeachments
+    validate_impeachments(after, before, section)
     validate_reader_copy(before, after, documents)
     from research_review import validate as validate_research
     from research_tools import receipts
@@ -100,6 +102,7 @@ def finish(stage, section):
         apply(before, after, publication=publication)
     atomic_json(stage / 'application-success.json', {'phase': 'applied', 'fingerprint': fingerprint(after), 'publication': publication})
     report = {'publication': publication, 'changes': changes(before, after),
+              'impeachment_review': after['collections']['impeachments']['all']['history'][-1],
               'nominee_forecast': after['collections']['nominations']['republican_2028']['tracking']['history'][-1]}
     atomic_json(stage / 'changes.json', report)
     prompt = (ROOT / 'prompts/execution/completion.md').read_text()
