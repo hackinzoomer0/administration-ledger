@@ -444,11 +444,11 @@
     "role": "current-assessment"
   },
   "nomination-wargame": {
-    "asof": "2026-11-09",
+    "asof": "2026-11-10",
     "role": "nomination-wargame"
   },
   "nominee-monitor": {
-    "asof": "2026-11-09",
+    "asof": "2026-11-10",
     "role": "nominee-monitor"
   },
   "reader-copy-review": {
@@ -456,7 +456,7 @@
     "role": "reader-copy-review"
   },
   "support-base-research": {
-    "asof": "2026-11-09",
+    "asof": "2026-11-10",
     "role": "support-base-research"
   },
   "research-questions": {

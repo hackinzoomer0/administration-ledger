@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-10-impeachment-primary-inference",
+  "date": "2026-11-10",
+  "type": "workflow_setup",
+  "summary": "Impeachment-to-primary reviews now consider policy correction and accountability among voters who continue supporting Trump.",
+  "scope": "Instructional correction following comparison of handling approval and desired next policy action. No full nomination rerun, numerical forecast change or new exclusive voter-share estimate.",
+  "changes": [
+    "Separate leader approval, movement identity, initial-decision support, desired next action, accountability and candidate choice.",
+    "Evaluate conviction-driven correction within continuing supporters, insider responses, early critics, backlash and actual primary participation.",
+    "Match polling questions, dates and populations; do not infer overlap from separate marginals or automatic candidate transfers."
+  ],
+  "unresolved_claims": [
+    "The size of overlapping constituencies and their actual primary candidate choices remain unmeasured here.",
+    "Political judgment still requires comparison of evidence and competing mechanisms; instructions do not certify unbiased forecasts."
+  ],
+  "evidence_context": [
+    {
+      "url": "https://www.pewresearch.org/short-reads/2026/10/08/iran-conflict-remains-deeply-unpopular-as-many-americans-expect-it-to-go-on-for-months/",
+      "scope": "September28–October4 handling approval and initial-decision questions."
+    },
+    {
+      "url": "https://www.investing.com/news/politics-news/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-reutersipsos-poll-finds-5014731",
+      "scope": "Reuters indexed syndicated report of survey endingNovember9:51% of Republicans favor congressional legislation ending the war; full article retrieval failed."
+    }
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "runs/2026-11-10-impeachment-primary-inference": {
+        "fingerprint": "dbd54ea508d7039de0c488e9b9d28eadd811a709e922baf60c00e878de61e461",
+        "reader_takeaway": "Continuing presidential support can coexist with demands for correction and accountability; candidate transfers remain a separate inference.",
+        "context_check": "Identified the distinct voter attitudes and how the review changes; described the actual institutional and candidate responses.",
+        "uncertainty_check": "No voter shares, candidate transfers or new probability estimates were asserted; source access and overlap limits are explicit.",
+        "changes_made": []
+      }
+    }
+  }
+}
