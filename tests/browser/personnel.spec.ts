@@ -44,7 +44,7 @@ test("administration exposes personnel forecasts, evidence, history and person l
   await page.getByRole("tab", { name: "Forecast history" }).click();
   await page
     .getByRole("button", {
-      name: new RegExp(latest.as_of.replace("T", " ").replace("Z", " UTC")),
+      name: latest.as_of.replace("T", " ").replace("Z", " UTC"),
     })
     .click();
   await expect(
