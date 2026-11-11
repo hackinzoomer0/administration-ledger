@@ -2913,6 +2913,51 @@
       "source_ids": [
         "daily_qatar_20261110"
       ]
+    },
+    {
+      "id": "irn-2026-11-10-rubio-economic-pressure",
+      "date": "2026-11-10",
+      "precision": "day",
+      "issues": [
+        "IRN",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump and Marco Rubio",
+      "text": "Trump favors continued pressure on Iran, and Rubio reportedly explains the plan to allies",
+      "context": "Axios reported that Trump publicly favored continuing the economic crackdown and naval blockade and described renewed strikes as unlikely. Three attendees said Rubio told his Group of Seven counterparts in Paris that Trump had considered renewed war and a deal before choosing sustained pressure. U.S. officials told Axios that Rubio had advocated the approach. Qatar’s prime minister continued to pursue mediation.",
+      "source": "https://www.axios.com/2026/11/10/trump-iran-war-diplomacy-economic-crackdown",
+      "url": "https://www.axios.com/2026/11/10/trump-iran-war-diplomacy-economic-crackdown",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Rubio can argue that economic pressure offers a way to avoid immediate new strikes while defending Trump’s earlier decision. Vance still has a negotiating role. The reporting establishes a stated preference and attributed advocacy. Implementation and Iran’s response remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-11",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The reported account identifies Rubio’s advocacy, while any additional restrictions or military orders remain unverified."
+    },
+    {
+      "id": "irn-2026-11-10-israel-parliament-sworn-in",
+      "date": "2026-11-10",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Israeli parliament and Gadi Eisenkot",
+      "text": "Israel swears in its new parliament as Gadi Eisenkot seeks coalition partners",
+      "context": "Reuters reported that newly elected lawmakers took their oaths on November 10. Eisenkot and his allies introduced bills including a proposed inquiry into the October 7, 2023, attacks. His bloc lacks a majority, and he has until December 6 to form a government under the initial timetable.",
+      "source": "https://www.investing.com/news/world-news/israels-parliament-sworn-in-as-eisenkot-tries-to-forge-a-government-5016104",
+      "url": "https://www.investing.com/news/world-news/israels-parliament-sworn-in-as-eisenkot-tries-to-forge-a-government-5016104",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Eisenkot can use the new parliament to test support for oversight proposals while negotiating for a majority. Netanyahu remains caretaker prime minister while the coalition bid continues.",
+      "origin": "daily shared intake",
+      "added": "2026-11-11",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The parliament took office while coalition negotiations continued. No change in Israeli war policy was established."
     }
   ]
 }

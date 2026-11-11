@@ -211,7 +211,7 @@
   },
   "EPS": {
     "policy": "DOJ has released part of the Epstein record and says its statutory duty is met; further disclosure remains contested.",
-    "dispute": "Executive control of releases faces congressional discharge and oversight pressure.",
+    "dispute": "The Republican House Oversight majority staff says the Justice Department exposed survivors’ personal information by failing to black out identifying details before releasing records. It calls for further witness interviews and a process for survivors to see their own records. Those recommendations give Congress specific agency actions to examine. Whether the Justice Department will act on them remains open.",
     "player_ids": [
       "blanche",
       "donald-trump",
@@ -301,10 +301,11 @@
       "eps-2026-10-31-wsj-suit-dismissed",
       "eps-2026-10-28-appeals-pause",
       "eps-2026-10-26-maurene-comey-ruling",
-      "eps-2026-10-26-judiciary-dems-report"
+      "eps-2026-10-26-judiciary-dems-report",
+      "eps-2026-11-10-oversight-majority-report"
     ],
     "research_as_of": "2026-11-07",
-    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
+    "scope": "November 11 review of the Republican staff report on the Epstein records. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "blanche",
@@ -618,8 +619,8 @@
     ]
   },
   "IRN": {
-    "policy": "The war, blockade and sanctions continue alongside negotiations. The reviewed record establishes no accepted settlement or new post-review military directive. Trump’s November 8 comments favor further talks conditionally, while retaining the threat of force; an accepted agreement is not established.",
-    "dispute": "Vance’s negotiating channel, hawkish pressure and sanctions advocates compete over Trump’s next choice. Qatar’s prime minister reportedly met Trump and Vance separately on November 9; the reported progress is attributed, and accepted terms remain unverified. Rubio continues to reject Iran’s terms. Israel’s president formally gave Eisenkot the government-forming mandate on November 8, but a coalition and changed Israeli war policy remain unresolved.",
+    "policy": "Trump publicly favors maintaining the naval blockade and economic pressure on Iran, according to Axios. Qatar is still pursuing an agreement, and implementation of any additional restrictions remains open.",
+    "dispute": "Qatar continues to mediate after its prime minister reportedly met Trump and Vance on November 9. Axios reported that Rubio explained Trump’s choice of sustained pressure to allies and that U.S. officials credited Rubio with advocating it. Israel’s new parliament has taken office. Gadi Eisenkot is seeking a coalition while Benjamin Netanyahu remains caretaker prime minister.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -653,8 +654,8 @@
       },
       {
         "faction_id": "hawks",
-        "position": "Push for strikes; follow Trump",
-        "actions": "Rubio reportedly doubted the June agreement, then defended it and signaled a pause on new strikes.",
+        "position": "Rubio defended Trump’s decision to use force and reportedly favors continuing pressure on Iran.",
+        "actions": "Rubio publicly defended the earlier use of force. Axios reported that he explained Trump’s preference for continued economic and naval pressure to allies on November 10.",
         "goals": "Loyalty and succession standing can reward defending Trump. Adelson and other pro-Israel backers give parts of the faction electoral leverage. Strategic accommodation is plausible. A change in Rubio’s private view or a donor instruction remains unresolved.",
         "actors": [],
         "observations": [
@@ -742,10 +743,12 @@
       "irn-2026-11-03-qeshm-strikes",
       "irn-2026-11-07-herzog-selects-eisenkot",
       "irn-2026-11-08-trump-conditional-talks",
-      "irn-2026-11-09-qatar-meeting-plan"
+      "irn-2026-11-09-qatar-meeting-plan",
+      "irn-2026-11-10-rubio-economic-pressure",
+      "irn-2026-11-10-israel-parliament-sworn-in"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "November 10 focused review of linked developments; the remaining policy, financial and implementation findings retain their prior evidence dates. This is not a full issue verification.",
+    "scope": "November 11 review of Trump’s stated Iran policy and the Israeli parliament’s opening. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -879,7 +882,7 @@
   },
   "MID": {
     "policy": "The Associated Press projects that Democrats will control both chambers of the next Congress. They take office in January; current members retain their powers until then.",
-    "dispute": "Democrats will be able to open congressional investigations and challenge administration spending. Trump must decide whether to change policy, negotiate or rely more heavily on executive powers. Justice Department leadership changes can alter who manages cases without establishing that any case has ended. Health-policy activists’ outreach to Democrats shows another possible split in Trump’s coalition, but no measured transfer of voters or completed Cabinet removal. Attorney General Todd Blanche’s November 8 public defense of executive officials signals resistance to incoming Democratic oversight. It may reassure administration allies, but no court ruling or successful obstruction was established. Miller reportedly began as chief of staff November 9. Massie read Hegseth impeachment articles on the House floor, while Trump pledged support for Hegseth. The House’s procedural choice and final vote remain pending.",
+    "dispute": "Stephen Miller reportedly began as White House chief of staff on November 9. Republicans chose Jim Jordan to coordinate their response in the next House and kept John Thune in the Senate. Before the new Congress takes office, the current House sent Thomas Massie’s resolution to impeach Defense Secretary Pete Hegseth to Judiciary by 211–204. Trump backed Hegseth, and the incoming Democratic majority can decide whether to pursue the allegations again.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -895,7 +898,7 @@
       {
         "faction_id": "dissenters",
         "position": "Costs first; distance",
-        "actions": "Put costs first and criticize the ICE push. Massie read Hegseth impeachment articles on the House floor November 9; the House disposition remains pending.",
+        "actions": "Massie introduced articles against Hegseth and was the only Republican to oppose sending the resolution to committee. Other Republican dissenters have criticized immigration enforcement or urged a focus on prices.",
         "goals": "Distance from Trump in swing seats.",
         "actors": [
           "Fitzpatrick, Salazar Motives: Re-election in swing seats (reported).",
@@ -987,10 +990,12 @@
       "mid-2026-11-06-doj-departures",
       "mid-2026-11-08-health-activist-outreach",
       "mid-2026-11-08-blanche-oversight-defense",
-      "mid-2026-11-09-massie-hegseth-floor-action"
+      "mid-2026-11-09-massie-hegseth-floor-action",
+      "mid-2026-11-10-hegseth-judiciary-referral",
+      "mid-2026-11-10-republican-leadership-results"
     ],
     "research_as_of": "2026-11-08",
-    "scope": "November 10 focused review of linked developments; the remaining policy, financial and implementation findings retain their prior evidence dates. This is not a full issue verification.",
+    "scope": "November 11 review of the Hegseth vote and Republican leadership elections. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "donald-trump",

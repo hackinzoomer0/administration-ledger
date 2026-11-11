@@ -1,0 +1,1988 @@
+{
+  "date": "2026-11-11",
+  "type": "daily_review",
+  "added": 5,
+  "summary": "The outgoing House sent the Hegseth impeachment resolution to committee after Trump backed the defense secretary. Hegseth remains in office. House Republicans chose Jim Jordan to lead their response to the incoming Democratic majority. Senate Republicans kept John Thune. The leadership votes settle who will coordinate Republican opposition in January, when Democrats are projected to control both chambers. Trump publicly favors continued economic and naval pressure on Iran, according to Axios, while Qatar still seeks a deal. In Israel, the new parliament was sworn in while Gadi Eisenkot sought a governing coalition. House Oversight Republicans faulted the Justice Department’s handling of Epstein records, giving incoming investigators specific decisions to examine. News reports attributed a planned prisoner exchange to Russian and Ukrainian negotiators. The available extracts left the terms and timing uncertain. Minneapolis’s data-center zoning vote is due November 12. Several election calls are still outstanding. The review also left open the status of proceedings over Trump’s attempt to remove Federal Reserve Governor Lisa Cook and the outcome of the Venezuela talks.",
+  "scope": "Focused November 10–11 review of the Hegseth House vote, Republican leadership and reactions, Iran, Israel, Epstein oversight and pending decisions. Final election calls, the Cook case, Venezuela talks, Nvidia’s inquiry and several implementation checks remain incomplete.",
+  "reviewed_episode_ids": [
+    "mid-2026-11-10-hegseth-judiciary-referral",
+    "mid-2026-11-10-republican-leadership-results",
+    "eps-2026-11-10-oversight-majority-report",
+    "irn-2026-11-10-rubio-economic-pressure",
+    "irn-2026-11-10-israel-parliament-sworn-in"
+  ],
+  "changed_entries": [
+    "assessments/current",
+    "assessments/issues",
+    "events/MID",
+    "events/IRN",
+    "events/EPS",
+    "impeachments/all",
+    "nominations/republican_2028",
+    "factions/pentagon",
+    "factions/dissenters",
+    "factions/hawks",
+    "factions/party"
+  ],
+  "unresolved_claims": [
+    "Kansas governor",
+    "Alaska Senate and governor; Mississippi Senate",
+    "Israel government formation",
+    "Minneapolis data-center zoning",
+    "Qatar mediation and Iran policy",
+    "Lisa Cook court and hearing outcomes",
+    "Abu Dhabi exchange and ceasefire",
+    "Venezuela talks",
+    "Lukoil license expiry",
+    "Guilfoyle records",
+    "Nvidia inquiry",
+    "Tariff and trade implementation"
+  ],
+  "evidence_needed": [
+    "Kansas governor. Axios reports the hand count and county audit are in progress. Next check November 16.",
+    "Alaska Senate and governor; Mississippi Senate. AP and independent leads surfaced. The Alaska count PDF timed out. Recheck November 12.",
+    "Israel government formation. New parliament took office. Reuters reports the initial coalition deadline.",
+    "Minneapolis data-center zoning. Municipal calendar lists the vote. Recheck after the meeting.",
+    "Qatar mediation and Iran policy. The stated U.S. preference was reviewed. Accepted terms and additional military or enforcement orders remain open.",
+    "Lisa Cook court and hearing outcomes. The court orders index and Fed releases did not establish a new disposition. Recheck November 12.",
+    "Abu Dhabi exchange and ceasefire. Attributed exchange leads could not be confirmed in readable material. Check November 12.",
+    "Venezuela talks. Outcome remains unverified. Check November 12 and during the remaining window.",
+    "Lukoil license expiry. Carried expiry. A new extension was not verified.",
+    "Guilfoyle records. Check the response after the deadline.",
+    "Nvidia inquiry. No inquiry outcome or changed export rule was verified. Check November 12.",
+    "Tariff and trade implementation. Indexes and headlines screened. Recheck operative notices November 12."
+  ],
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "daily-institutional-check",
+        "question": "What did the outgoing House decide about Hegseth, and does that change his position?",
+        "importance": "The answer can change who controls the next decision or which political consequence to expect.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "impeachments/all"
+        ],
+        "current_answer": "The House sent the resolution to Judiciary by 211–204, reducing the immediate threat.",
+        "explanations": [
+          {
+            "explanation": "Republican support for referral protected Hegseth from an immediate vote on the articles.",
+            "weight": "dominant",
+            "reason": "The roll call and White House position establish the procedure and support.",
+            "discriminating_observation": "A new floor or committee vote."
+          },
+          {
+            "explanation": "The current vote closes the case through 2027.",
+            "weight": "limited",
+            "reason": "A different House majority takes office in January.",
+            "discriminating_observation": "Committee and floor scheduling after January."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The incoming House takes up Hegseth articles.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "Projected majority control gives Democrats a route, and competing priorities can delay it.",
+            "assessment_effect": "Reassess the probability of House adoption and check Senate votes separately."
+          }
+        ],
+        "status": "answered",
+        "outcome": "Referral is established. Senate conviction and any future House action remain open.",
+        "next_action": "Watch committee action and the next Congress.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "70d3a50f54f1bfd36406e11b",
+          "6b8548acafc9bb35e2ec0bef",
+          "94e353889d48cb0c0464fc7d",
+          "8273ce0e037a8102ceb3fc10",
+          "e854f21fe74485ecb2fc1ed2",
+          "79c998bc095f4316ee2b5b8f"
+        ]
+      },
+      {
+        "id": "weekly-policy-correction",
+        "question": "Which approach to Iran is Trump favoring, and what does it mean for Rubio and Vance?",
+        "importance": "The answer can change who controls the next decision or which political consequence to expect.",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "assessments/issues/IRN"
+        ],
+        "current_answer": "Trump publicly favored continued pressure. Axios attributed Rubio’s advocacy to U.S. officials. Vance retains access through mediation.",
+        "explanations": [
+          {
+            "explanation": "Sustained pressure is the stated immediate course.",
+            "weight": "dominant",
+            "reason": "Trump’s public remarks and Rubio’s attributed account point to continued pressure.",
+            "discriminating_observation": "Written orders and enforcement changes."
+          },
+          {
+            "explanation": "Qatar’s mediation can still lead to accepted terms.",
+            "weight": "credible",
+            "reason": "Qatar continues to work on an agreement, and Trump publicly downplayed immediate renewed strikes.",
+            "discriminating_observation": "A joint readout or accepted agreement."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Iran and the United States accept and implement terms.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Qatar has an open channel and acceptance remains unverified.",
+            "assessment_effect": "Reassess which officials can credibly claim a role and whether voters credit them."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The stated approach and attributed advocacy support an update. Support transfers and implementation remain open.",
+        "next_action": "Check accepted terms, actions and Republican reception.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "177ec3ae67a2dfdf8d90787a",
+          "bd7a4434244be497bda84276",
+          "7d3783f802eb7bc79ad7b2ad",
+          "22c93180a0afceef64495d36",
+          "a7d05b52bd0a586d66f43c3d"
+        ]
+      },
+      {
+        "id": "weekly-siting-chokepoints",
+        "question": "Will Minneapolis require a council vote on each new data center?",
+        "importance": "The answer can change who controls the next decision or which political consequence to expect.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "City rules can decide which projects need local approval. November 12 consideration remains pending.",
+        "explanations": [
+          {
+            "explanation": "Local zoning is a separate decision that can determine whether a project proceeds.",
+            "weight": "dominant",
+            "reason": "Municipal materials and local reporting describe the two regulatory options.",
+            "discriminating_observation": "Council vote and adopted ordinance."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Council requires project-specific approval.",
+            "likelihood": "unknown",
+            "impact": "moderate",
+            "reason": "Local reporting describes competing positions.",
+            "assessment_effect": "Update who can block an individual project and assess any state or utility decision separately."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The municipal timetable and choice are established. Adoption and electricity costs remain open.",
+        "next_action": "Read the council’s disposition and look for a utility decision.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "1b89133471fbbfe84aa4baaa",
+          "bd5b14e4d550a58d31cf52bf",
+          "1d178949618b3ee1187dc46e"
+        ]
+      },
+      {
+        "id": "daily-postelection-leadership",
+        "question": "Who will coordinate Republicans after the midterm losses, and what do the choices show?",
+        "importance": "The answer can change who controls the next decision or which political consequence to expect.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/current/nomination"
+        ],
+        "current_answer": "Jordan wins the House leadership contest, and Thune retains the Senate leadership.",
+        "explanations": [
+          {
+            "explanation": "House members chose a new leader experienced in fighting committee investigations while senators kept continuity.",
+            "weight": "dominant",
+            "reason": "The results and Jordan’s pitch identify distinct caucus choices.",
+            "discriminating_observation": "Committee assignments, minority messaging and actual cooperation."
+          },
+          {
+            "explanation": "The losses produced a unified Republican break with Trump.",
+            "weight": "limited",
+            "reason": "Jordan is a Trump ally, and the Hegseth procedural roll call showed cohesion.",
+            "discriminating_observation": "Public breaks, funding withdrawals or votes against the administration."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Democrats make repeated impeachment votes a priority.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Republican leaders are preparing for investigations while Democratic scheduling remains open.",
+            "assessment_effect": "Reassess the risk of partisan backlash and the effect on candidates who champion oversight."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The leadership choices are reported by NBC and Roll Call. Private blame is attributed, and voter reaction was not measured.",
+        "next_action": "Check opening agendas and public moves across both caucuses.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "3885616c143c745297d7ae88",
+          "368312a00271882d73fc1b27",
+          "93d8add3ea4c9dd95be77cb0",
+          "5a9c7555adc45556f8f4c83e",
+          "75cd4412d145a10064672ce4"
+        ]
+      },
+      {
+        "id": "daily-russia-exchange",
+        "question": "Did the Abu Dhabi talks deliver an implementable agreement?",
+        "importance": "The answer can change who controls the next decision or which political consequence to expect.",
+        "affected_assessments": [
+          "assessments/issues/RUS"
+        ],
+        "current_answer": "Search extracts attribute a planned exchange to negotiators. Readable corroboration was not obtained.",
+        "explanations": [
+          {
+            "explanation": "The talks may have delivered a limited humanitarian agreement.",
+            "weight": "credible",
+            "reason": "Multiple leads attribute an exchange announcement to named representatives, but the accessible evidence was limited to extracts.",
+            "discriminating_observation": "A readable original statement or documented handover."
+          },
+          {
+            "explanation": "The talks resolved the war.",
+            "weight": "limited",
+            "reason": "The surfaced accounts concern prisoners and provide no ceasefire or territorial agreement.",
+            "discriminating_observation": "An operative ceasefire and accepted terms."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The delegations complete a prisoner handover.",
+            "likelihood": "unknown",
+            "impact": "moderate",
+            "reason": "Reports describe a plan. No completed transfer was established.",
+            "assessment_effect": "Credit the humanitarian result while assessing wider policy separately."
+          }
+        ],
+        "status": "partial",
+        "outcome": "AP, Euronews, Interfax, syndications and another reporting route were tried. No completed exchange or settlement credited.",
+        "next_action": "Seek a readable delegation statement and transfer evidence.",
+        "next_check": "2026-11-12",
+        "source_receipt_ids": [
+          "0af45fba922751b946231757",
+          "3c86cbff171151bb0faa985d",
+          "f82d5167a424c2f92bb71fd4",
+          "90a75560445bfe72ac75a181",
+          "1759a1c8b434b0231cebd71f",
+          "1491f116ff03b1382e545f06",
+          "98e8005432f1596d13401faa",
+          "d3da3177be79f3b6bf17dec3",
+          "6b525cd3d9cf0333931627f5",
+          "e4e1bd1f62e52c8ffccad12f",
+          "f9932bc565fefa7bf0403452"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "weekly-support-conversion": "Deferred to the weekly review. The referral vote and reported Rubio advocacy identify arguments. Donor and organizer commitments remain unverified.",
+      "weekly-opposition-choice": "Continues under daily-postelection-leadership. Incoming Democratic priorities remain open.",
+      "weekly-policy-correction": "Continued in today’s priorities with the Axios account.",
+      "weekly-siting-chokepoints": "Continued in today’s priorities and carried to November 12.",
+      "daily-institutional-check": "Continued in today’s priorities. The House procedure is resolved. Big Bend implementation remains open."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": null,
+        "reason": "Minneapolis zoning timetable checked. Final adoption, utility rates and Nvidia inquiry outcomes remain open.",
+        "next_action": "Check Minneapolis council disposition and Nvidia board or regulator action.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "1b89133471fbbfe84aa4baaa",
+          "bd5b14e4d550a58d31cf52bf",
+          "1d178949618b3ee1187dc46e"
+        ],
+        "escalation": "The issue-wide verification baseline is unknown. Prioritize the next observable decision listed here."
+      },
+      "EPS": {
+        "last_verified": null,
+        "reason": "The majority staff report release was reviewed. Agency follow-through, survivors’ access and any new subpoenas remain open.",
+        "next_action": "Check Justice Department response, the complete staff report and incoming committee plans.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "3acedc732f4e95d0931009bb",
+          "8273ce0e037a8102ceb3fc10",
+          "0ffd29c535d06e96e91faf09",
+          "638666bc8c165066e21852a3"
+        ],
+        "escalation": "The issue-wide verification baseline is unknown. Prioritize the next observable decision listed here."
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "reason": "Orders and release indexes were screened. A new Lisa Cook disposition was not established.",
+        "next_action": "Check Cook docket and hearing record directly.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "90b1e9a8c0e6eaa9d274388a",
+          "9a4ae369ec712f7ae2d5547f",
+          "2a0111f4845726e9f0689dbd",
+          "28212f6169307acb33778298"
+        ]
+      },
+      "IMM": {
+        "last_verified": "2026-11-08",
+        "reason": "The Big Bend legal opening carries forward. Construction instructions or work on site were not verified.",
+        "next_action": "Check Homeland Security and contractor notices on Big Bend.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "72cf9cc6674fa15ea336a6ae",
+          "2a0111f4845726e9f0689dbd",
+          "28212f6169307acb33778298"
+        ]
+      },
+      "IRN": {
+        "last_verified": "2026-11-08",
+        "reason": "Reviewed Rubio reporting and Israeli parliament. Operative orders and acceptance of terms remain open.",
+        "next_action": "Check Iranian response, supply-route orders, Qatar mediation and Israeli coalition agreements.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "177ec3ae67a2dfdf8d90787a",
+          "bd7a4434244be497bda84276",
+          "7d3783f802eb7bc79ad7b2ad",
+          "808b30c08d9d7670d1c96a86"
+        ]
+      },
+      "MID": {
+        "last_verified": "2026-11-08",
+        "reason": "Reviewed Hegseth procedure, GOP leadership and Kansas audit. Exact Alaska and Mississippi calls remain open.",
+        "next_action": "Check Alaska and Mississippi counts, Kansas audit, other remaining calls, and January agendas.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "70d3a50f54f1bfd36406e11b",
+          "93d8add3ea4c9dd95be77cb0",
+          "5a9c7555adc45556f8f4c83e",
+          "75cd4412d145a10064672ce4",
+          "70ad7a47c940582b96b0b379",
+          "79c998bc095f4316ee2b5b8f",
+          "ad9c186dc5599a8e8f21e2a5",
+          "7f155392f475a289499b0467",
+          "5e22a6071f304077ea0819e3",
+          "1ffeb398743b77658370ff55",
+          "95919adf837e2e8a6a7cddba"
+        ]
+      },
+      "RUS": {
+        "last_verified": null,
+        "reason": "Exchange reports surfaced; alternate full-text routes failed. No transfer or settlement verified.",
+        "next_action": "Locate readable delegation statements or independent reporting and track implementation.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "0af45fba922751b946231757",
+          "3c86cbff171151bb0faa985d",
+          "f82d5167a424c2f92bb71fd4",
+          "90a75560445bfe72ac75a181",
+          "1759a1c8b434b0231cebd71f",
+          "1491f116ff03b1382e545f06",
+          "98e8005432f1596d13401faa",
+          "d3da3177be79f3b6bf17dec3",
+          "6b525cd3d9cf0333931627f5",
+          "e4e1bd1f62e52c8ffccad12f",
+          "f9932bc565fefa7bf0403452"
+        ],
+        "escalation": "The issue-wide verification baseline is unknown. Prioritize the next observable decision listed here."
+      },
+      "SUC": {
+        "last_verified": "2026-11-08",
+        "reason": "Candidate roles in Iran and the Hegseth vote were reviewed. Donors, organizers and representative primary reception were not surveyed.",
+        "next_action": "Check named commitments and evidence separating war preferences from candidate preference.",
+        "next_check": "2026-11-16",
+        "attempt_receipt_ids": [
+          "70d3a50f54f1bfd36406e11b",
+          "93d8add3ea4c9dd95be77cb0",
+          "7d3783f802eb7bc79ad7b2ad",
+          "5a9c7555adc45556f8f4c83e",
+          "75cd4412d145a10064672ce4",
+          "79c998bc095f4316ee2b5b8f"
+        ]
+      },
+      "TAR": {
+        "last_verified": null,
+        "reason": "Treasury and trade headlines were screened. No tariff implementation finding was verified in this intake.",
+        "next_action": "Check dated operative changes and what they cover.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "9e405ca375214ace3b145906",
+          "2eca2535f3dd9be724be2f88",
+          "2a0111f4845726e9f0689dbd"
+        ],
+        "escalation": "The issue-wide verification baseline is unknown. Prioritize the next observable decision listed here."
+      },
+      "VEN": {
+        "last_verified": null,
+        "reason": "Searched the November talks and policy developments. No negotiating outcome or operative change was verified.",
+        "next_action": "Check official notices and readable independent coverage during the November 11–15 window.",
+        "next_check": "2026-11-12",
+        "attempt_receipt_ids": [
+          "2eca2535f3dd9be724be2f88",
+          "22c93180a0afceef64495d36",
+          "3fccc3c956e077dc35c62482",
+          "00081a6e4e97ffab4ca75665"
+        ],
+        "escalation": "The issue-wide verification baseline is unknown. Prioritize the next observable decision listed here."
+      }
+    },
+    "discovery_question": "Can local zoning give Minneapolis residents a way to contest new data centers even when federal agencies support construction?",
+    "discovery_disposition": "Municipal timetable and independent reporting show that the city is choosing between project-by-project approval and allowing projects at designated sites. Utility cost allocation and the final vote are separate open questions.",
+    "premise_reconciliation": "House procedure and future House and Senate thresholds are separate. Rubio’s reported advocacy, Vance’s access, public support for the war and votes for a nominee describe different things. Replaced the prospective floor and leadership language with sourced outcomes. Kept the older issue-wide verification dates. The outgoing House roll call weighs strongly against immediate adoption. A new Democratic majority keeps later adoption plausible. The roll call contains no Senate evidence for transferring protection or conviction risk to other cases.",
+    "source_receipts": [
+      {
+        "id": "724c6ce8cf804d694b3be475",
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "clerk.house.gov"
+      },
+      {
+        "id": "c4ca2870ff1bc39a6216c68b",
+        "kind": "source",
+        "value": "https://www.congress.gov/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "Failed to fetch https://www.congress.gov/: Failed to fetch restricted URL",
+        "reporting_origin": "www.congress.gov"
+      },
+      {
+        "id": "d3a20da605b4c141f2ab8475",
+        "kind": "source",
+        "value": "https://apnews.com/hub/2026-midterm-elections",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://apnews.com/hub/2026-midterm-elections is not accessible via this tool.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "90b1e9a8c0e6eaa9d274388a",
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/orders/ordersofthecourt.aspx",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.supremecourt.gov"
+      },
+      {
+        "id": "e08aaa051ff8e9d8d2f5fc87",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "8c11a8f53692849358a3d9f9",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "9e405ca375214ace3b145906",
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "home.treasury.gov"
+      },
+      {
+        "id": "2eca2535f3dd9be724be2f88",
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "ofac.treasury.gov"
+      },
+      {
+        "id": "177ec3ae67a2dfdf8d90787a",
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "Failed to fetch https://www.state.gov/press-releases/: (403) Forbidden",
+        "reporting_origin": "www.state.gov"
+      },
+      {
+        "id": "bd7a4434244be497bda84276",
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/page/2/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "Failed to fetch https://www.state.gov/press-releases/page/2/: (403) Forbidden",
+        "reporting_origin": "www.state.gov"
+      },
+      {
+        "id": "72cf9cc6674fa15ea336a6ae",
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.justice.gov"
+      },
+      {
+        "id": "9a4ae369ec712f7ae2d5547f",
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.federalreserve.gov"
+      },
+      {
+        "id": "f05a9099cfe4b3a0096fe9b7",
+        "kind": "source",
+        "value": "https://www.memeorandum.com/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.memeorandum.com"
+      },
+      {
+        "id": "7380ade21c6ac816d17431e8",
+        "kind": "source",
+        "value": "https://www.newsnow.com/us/News/US+Politics",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.newsnow.com/us/News/US%2BPolitics is not accessible via this tool.",
+        "reporting_origin": "www.newsnow.com"
+      },
+      {
+        "id": "1e0015a7b711579bdd51fbd5",
+        "kind": "source",
+        "value": "https://www.realclearpolitics.com/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.realclearpolitics.com"
+      },
+      {
+        "id": "b5aa50cf29c305003c3cc523",
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.aljazeera.com"
+      },
+      {
+        "id": "1f3510705f7f9985ec0e6b25",
+        "kind": "source",
+        "value": "https://www.euronews.com/news/international",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.euronews.com"
+      },
+      {
+        "id": "5239581e1fb7055648e5f807",
+        "kind": "source",
+        "value": "https://www.aa.com.tr/en/world",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.aa.com.tr"
+      },
+      {
+        "id": "bbaa690c2b79aa3a306e213f",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/politics/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "5229d246ebac2ad2e160043f",
+        "kind": "source",
+        "value": "https://defensescoop.com/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "defensescoop.com"
+      },
+      {
+        "id": "b49e049d15db44124c46427f",
+        "kind": "source",
+        "value": "https://www.sofx.com/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.sofx.com"
+      },
+      {
+        "id": "9e3b56993a920fdc85907c36",
+        "kind": "source",
+        "value": "https://federalnewsnetwork.com/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "federalnewsnetwork.com"
+      },
+      {
+        "id": "5bc718e2042b9303d3b27464",
+        "kind": "source",
+        "value": "https://www.europarl.europa.eu/news/en",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "read",
+        "result": "Page returned for a focused screen. No decision from this page was used as a new finding.",
+        "reporting_origin": "www.europarl.europa.eu"
+      },
+      {
+        "id": "fd2e287be730228745bc5e8f",
+        "kind": "source",
+        "value": "https://thehill.com/news-sitemap.xml",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "Failed to fetch https://thehill.com/news-sitemap.xml: Unsupported content-type (https://thehill.com/news-sitemap.xml): application/xml",
+        "reporting_origin": "thehill.com"
+      },
+      {
+        "id": "47e787c460f19b80cb25d685",
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-10-nov-2026",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://theverardogroup.substack.com/p/tvg-daily-brief-10-nov-2026 is not accessible via this tool.",
+        "reporting_origin": "theverardogroup.substack.com"
+      },
+      {
+        "id": "fc25c3f24cf311904f8647f5",
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-11-nov-2026",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://theverardogroup.substack.com/p/tvg-daily-brief-11-nov-2026 is not accessible via this tool.",
+        "reporting_origin": "theverardogroup.substack.com"
+      },
+      {
+        "id": "70d3a50f54f1bfd36406e11b",
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "House Clerk roll call: 211–204 for referral, Massie sole Republican nay; 18 did not vote.",
+        "reporting_origin": "clerk.house.gov"
+      },
+      {
+        "id": "5ba4a85ecaa41bb663fdb91a",
+        "kind": "source",
+        "value": "https://apnews.com/article/272515c4fca92435224406593a892e69",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://apnews.com/article/272515c4fca92435224406593a892e69 is not accessible via this tool.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "6b8548acafc9bb35e2ec0bef",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/wp-content/uploads/2026/11/SAP-Impeachment-Resolution.pdf",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "White House statement opposed impeachment and defended executive authority.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "52b493ca803054c71aba7a9f",
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/2026/11/11/did-democrats-save-pete-hegseth-from-impeachment",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.aljazeera.com/news/2026/11/11/did-democrats-save-pete-hegseth-from-impeachment is not accessible via this tool.",
+        "reporting_origin": "www.aljazeera.com"
+      },
+      {
+        "id": "dfbd09187cdee6fa6d069e49",
+        "kind": "source",
+        "value": "https://apnews.com/article/90ce111a971a0f70ba938d27fe69f65d",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://apnews.com/article/90ce111a971a0f70ba938d27fe69f65d is not accessible via this tool.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "ee2c56858269b192290af249",
+        "kind": "source",
+        "value": "https://www.axios.com/newsletters/axios-am-f3ac7a8d-1023-4394-98d8-0a9b0c165ae3",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.axios.com/newsletters/axios-am-f3ac7a8d-1023-4394-98d8-0a9b0c165ae3 is not accessible via this tool.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "2dd119563d6f1d4414344c76",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/trump-ultra-loyalist-seizes-control-of-shattered-house-republicans",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Reported Jordan defeated Scalise; Emmer retained whip.",
+        "reporting_origin": "www.thedailybeast.com"
+      },
+      {
+        "id": "3885616c143c745297d7ae88",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/white-house-staffers-play-the-blame-game-as-purge-begins",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Attributed private post-election blame and job pressure.",
+        "reporting_origin": "www.thedailybeast.com"
+      },
+      {
+        "id": "c04d7a5bc9f3a4e05ed4b0d4",
+        "kind": "source",
+        "value": "https://apnews.com/article/7c8d1024302e0c6ad8be064eec852a64",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://apnews.com/article/7c8d1024302e0c6ad8be064eec852a64 is not accessible via this tool.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "c5d10480cdc946da08114b13",
+        "kind": "source",
+        "value": "https://apnews.com/article/6a3f7b8772aab100a7888661d6e31cba",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://apnews.com/article/6a3f7b8772aab100a7888661d6e31cba is not accessible via this tool.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "1b89133471fbbfe84aa4baaa",
+        "kind": "source",
+        "value": "https://www.ci.minneapolis.mn.us/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Municipal zoning timetable lists November 12.",
+        "reporting_origin": "www.ci.minneapolis.mn.us"
+      },
+      {
+        "id": "bd5b14e4d550a58d31cf52bf",
+        "kind": "source",
+        "value": "https://www.axios.com/local/twin-cities/2026/11/09/minneapolis-council-data-center-zoning",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Reporting describes the choice between council review of individual projects and zoning that permits certain sites.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "3acedc732f4e95d0931009bb",
+        "kind": "source",
+        "value": "https://oversight.house.gov/release/house-oversight-committee-releases-report-on-the-federal-governments-mishandling-of-epstein-and-maxwell-criminal-investigations/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Committee majority staff report release faults federal investigations and Justice Department redactions.",
+        "reporting_origin": "oversight.house.gov"
+      },
+      {
+        "id": "368312a00271882d73fc1b27",
+        "kind": "source",
+        "value": "https://www.nbcwashington.com/news/politics/republicans-vote-leadership-in-congress/4180504/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Jordan defeated Scalise; Thune returned as Senate Republican leader.",
+        "reporting_origin": "www.nbcwashington.com"
+      },
+      {
+        "id": "93d8add3ea4c9dd95be77cb0",
+        "kind": "source",
+        "value": "https://rollcall.com/2026/11/10/thune-will-lead-republicans-through-the-minority/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Thune returned without a challenger; Paul rejected blaming him for state-level results.",
+        "reporting_origin": "rollcall.com"
+      },
+      {
+        "id": "0af45fba922751b946231757",
+        "kind": "source",
+        "value": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu is not accessible via this tool.",
+        "reporting_origin": "www.euronews.com"
+      },
+      {
+        "id": "3c86cbff171151bb0faa985d",
+        "kind": "source",
+        "value": "https://en.interfax.com.ua/news/general/1234514.html",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://en.interfax.com.ua/news/general/1234514.html is not accessible via this tool.",
+        "reporting_origin": "en.interfax.com.ua"
+      },
+      {
+        "id": "7d3783f802eb7bc79ad7b2ad",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/10/trump-iran-war-diplomacy-economic-crackdown",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Attendees attributed Rubio’s account of Trump choosing economic pressure; Trump publicly described his preferred course.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "ca6b54f1fc0440058f5938da",
+        "kind": "source",
+        "value": "https://www.iranintl.com/en/202611116771",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.iranintl.com/en/202611116771 is not accessible via this tool.",
+        "reporting_origin": "www.iranintl.com"
+      },
+      {
+        "id": "808b30c08d9d7670d1c96a86",
+        "kind": "source",
+        "value": "https://www.investing.com/news/world-news/israels-parliament-sworn-in-as-eisenkot-tries-to-forge-a-government-5016104",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Reuters reported Israeli parliament sworn in and Eisenkot coalition bid still open.",
+        "reporting_origin": "Reuters"
+      },
+      {
+        "id": "35c3af8e24b9983b5c429bc8",
+        "kind": "source",
+        "value": "https://www.gpb.org/news/2026/11/11/house-effectively-ends-hegseth-impeachment-and-3-men-accused-of-plotting-uk-attacks",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.gpb.org/news/2026/11/11/house-effectively-ends-hegseth-impeachment-and-3-men-accused-of-plotting-uk-attacks is not accessible via this tool.",
+        "reporting_origin": "www.gpb.org"
+      },
+      {
+        "id": "5831717725950fc02a4071e2",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "CBS House control projection and Johnson withdrawal.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "5a9c7555adc45556f8f4c83e",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/john-thune-reelected-senate-republican-leader/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Verify cited decision or reaction",
+        "status": "read",
+        "result": "Thune retained the position by acclamation.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "cf672d39c11367236cc7ac66",
+        "kind": "source",
+        "value": "https://www.aol.com/articles/russia-ukraine-hold-second-day-093945000.html",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.aol.com/articles/russia-ukraine-hold-second-day-093945000.html is not accessible via this tool.",
+        "reporting_origin": "Associated Press"
+      },
+      {
+        "id": "0c5a4acc36b0fde538b67a60",
+        "kind": "source",
+        "value": "https://www.alaskasnewssource.com/2026/11/11/these-key-races-remain-too-early-call-one-week-after-election-day/",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://www.alaskasnewssource.com/2026/11/11/these-key-races-remain-too-early-call-one-week-after-election-day/ is not accessible via this tool.",
+        "reporting_origin": "www.alaskasnewssource.com"
+      },
+      {
+        "id": "f82d5167a424c2f92bb71fd4",
+        "kind": "source",
+        "value": "https://en.apa.az/cis-countries/presidential-aide-russia-and-ukraine-agree-on-large-scale-prisoner-exchange-535449",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://en.apa.az/cis-countries/presidential-aide-russia-and-ukraine-agree-on-large-scale-prisoner-exchange-535449 is not accessible via this tool.",
+        "reporting_origin": "en.apa.az"
+      },
+      {
+        "id": "90a75560445bfe72ac75a181",
+        "kind": "source",
+        "value": "https://en.interfax.com.ua/news/general/1234775-amp.html",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Refresh index or seek readable full text",
+        "status": "blocked",
+        "result": "URL https://en.interfax.com.ua/news/general/1234775-amp.html is not accessible via this tool.",
+        "reporting_origin": "en.interfax.com.ua"
+      },
+      {
+        "id": "94e353889d48cb0c0464fc7d",
+        "kind": "query",
+        "value": "Thomas Massie Pete Hegseth impeachment House motion table vote November 10 11 2026",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "House Clerk roll call and presidential defense coverage surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "414440c3f3a29192594de862",
+        "kind": "query",
+        "value": "2026 midterm election results November 11 2026 AP House Senate remaining races Trump blame Republican leadership",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "AP remaining race leads and CBS House projection.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "8273ce0e037a8102ceb3fc10",
+        "kind": "query",
+        "value": "November 11 2026 Trump Wiles White House handover Republican midterm losses private blame Hegseth Massie Blanche",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Attributed private blame, job pressure and GOP leadership coverage.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "22c93180a0afceef64495d36",
+        "kind": "query",
+        "value": "November 11 2026 Vance Qatar Iran talks Russia Ukraine Venezuela Trump latest Reuters",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Qatar and reported Russia-Ukraine exchange leads.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "1d178949618b3ee1187dc46e",
+        "kind": "query",
+        "value": "Minneapolis data center zoning November 12 2026 council",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Municipal zoning timetable and reporting on council options.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "2a0111f4845726e9f0689dbd",
+        "kind": "query",
+        "value": "November 10 11 2026 Trump tariffs immigration Big Bend Supreme Court Lisa Cook Federal Reserve Epstein files news",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Big Bend stay, Epstein report and tariff leads; Cook unresolved.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "ffd83fc12d0ef864bcce9f39",
+        "kind": "query",
+        "value": "November 11 2026 Kimberly Guilfoyle ethics November 13 records Congress",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Departure coverage; no dated response to records request verified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "e854f21fe74485ecb2fc1ed2",
+        "kind": "query",
+        "value": "November 11 2026 Pete Hegseth impeachment investigation Thomas Massie retaliation",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Administration opposition, sponsor allegations and floor vote surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "0ffd29c535d06e96e91faf09",
+        "kind": "query",
+        "value": "November 11 2026 Todd Blanche subpoena Epstein Congress",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Oversight report and older proceedings; no new personal subpoena verified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "638666bc8c165066e21852a3",
+        "kind": "query",
+        "value": "site:oversight.house.gov November 10 2026 Epstein committee report Comer files release",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "House Oversight majority report located.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "75cd4412d145a10064672ce4",
+        "kind": "query",
+        "value": "November 10 2026 House Senate Republican leadership election results Johnson Emmer Thune Barrasso",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "NBC and Roll Call leadership coverage located.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "1759a1c8b434b0231cebd71f",
+        "kind": "query",
+        "value": "November 11 2026 Abu Dhabi prisoner exchange Russia Ukraine Kushner official Umerov 1000",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "AP, Interfax and Euronews exchange leads.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "3fccc3c956e077dc35c62482",
+        "kind": "query",
+        "value": "November 11 2026 Venezuela military oil sanctions Trump Reuters November 10",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Policy commentary; Venezuela outcome unresolved.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "28212f6169307acb33778298",
+        "kind": "query",
+        "value": "November 10 2026 Supreme Court Lisa Cook Trump Big Bend construction DHS November 11",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Big Bend stay located; Cook and construction progress unresolved.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "a7d05b52bd0a586d66f43c3d",
+        "kind": "query",
+        "value": "November 11 2026 Rubio Iran strangulation strategy Qatar Vance Axios Reuters",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Axios original account located.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "d38083a198123aaafe701551",
+        "kind": "query",
+        "value": "November 10 2026 Netanyahu Israel government formation coalition election latest Reuters",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Readable Reuters syndication located.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "1491f116ff03b1382e545f06",
+        "kind": "query",
+        "value": "Russia Ukraine agree large exchange prisoners Abu Dhabi November 11 2026 AP local licensed WTOP ABC Yahoo",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "AP wire syndication surfaced; access failed.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "98e8005432f1596d13401faa",
+        "kind": "query",
+        "value": "November 11 2026 Abu Dhabi prisoner exchange site:president.gov.ua OR site:mod.gov.ua OR site:reuters.com",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Attributed exchange accounts surfaced; full text pursued.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "70ad7a47c940582b96b0b379",
+        "kind": "query",
+        "value": "November 11 2026 Alaska Mississippi Senate Kansas Alaska governor AP too early call results",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Regional syndication of AP remaining races story surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "00081a6e4e97ffab4ca75665",
+        "kind": "query",
+        "value": "November 11 2026 Venezuela talks November 11 15 Trump Caracas outcome Reuters OFAC",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "No verified Venezuela talks result surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "79c998bc095f4316ee2b5b8f",
+        "kind": "query",
+        "value": "site:clerk.house.gov 2026317 Massie Kiley House vote Hegseth November 10",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Roll call used to verify vote and individual positions.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "d3da3177be79f3b6bf17dec3",
+        "kind": "query",
+        "value": "November 11 2026 Russia Ukraine Abu Dhabi prisoner exchange Medinsky Umerov AP syndicated local November 11 WTOP",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Alternate Russia exchange reporting searched.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "ad9c186dc5599a8e8f21e2a5",
+        "kind": "query",
+        "value": "November 11 2026 Alaska election results Sullivan Peltola site:elections.alaska.gov November 11",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Official Alaska count update sought.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "7f155392f475a289499b0467",
+        "kind": "query",
+        "value": "November 11 2026 Mississippi Kansas elections latest results Colom Hyde Smith Masterson Holscher",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Kansas and Mississippi calls sought.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "6b525cd3d9cf0333931627f5",
+        "kind": "query",
+        "value": "Russia Ukraine Abu Dhabi 11 November 2026 prisoner exchange 1000 Umerov Kushner results",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Alternate search surfaced AP and Interfax exchange accounts.",
+        "reporting_origin": "Alternative web search"
+      },
+      {
+        "id": "5e22a6071f304077ea0819e3",
+        "kind": "query",
+        "value": "Alaska Mississippi Senate Kansas Alaska governor November 11 2026 election uncalled AP",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Check major outcome, reaction, due test or overdue issue",
+        "status": "headline_only",
+        "result": "Alternate search surfaced older AP syndications; exact current remaining calls still open.",
+        "reporting_origin": "Alternative web search"
+      },
+      {
+        "id": "e4e1bd1f62e52c8ffccad12f",
+        "kind": "source",
+        "value": "https://www.themoscowtimes.com/2026/11/11/russia-and-ukraine-agreed-to-prisoner-exchange-after-latest-peace-talks-kremlin-adviser-says-a94227",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Resolve an outstanding election or Russia talks outcome",
+        "status": "blocked",
+        "result": "Full article unavailable.",
+        "reporting_origin": "Moscow Times"
+      },
+      {
+        "id": "1ffeb398743b77658370ff55",
+        "kind": "source",
+        "value": "https://www.axios.com/local/kansas-city/2026/11/10/kansas-governor-race-hand-count-audit",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Resolve an outstanding election or Russia talks outcome",
+        "status": "read",
+        "result": "November 10 report says AP had not called Kansas governor; counties were auditing and the statewide certification meeting was scheduled December 1.",
+        "reporting_origin": "Axios Kansas City"
+      },
+      {
+        "id": "95919adf837e2e8a6a7cddba",
+        "kind": "source",
+        "value": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Resolve an outstanding election or Russia talks outcome",
+        "status": "blocked",
+        "result": "Official Alaska count PDF timed out.",
+        "reporting_origin": "Alaska Division of Elections"
+      },
+      {
+        "id": "f9932bc565fefa7bf0403452",
+        "kind": "source",
+        "value": "https://www.nampa.org/text/23063546",
+        "window": "2026-11-10:2026-11-11",
+        "purpose": "Resolve an outstanding election or Russia talks outcome",
+        "status": "blocked",
+        "result": "AFP syndication was unavailable.",
+        "reporting_origin": "AFP"
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-11-daily",
+    "wargame_ref": "2026-11-09-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Weekly forecast schedule. Active terminal deadlines remain in 2027. Referral is an interim observation about Congress."
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "House Oversight Republicans fault the Justice Department’s handling of Epstein records",
+        "event_ids": [
+          "eps-2026-11-10-oversight-majority-report"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/EPS",
+          "impeachments/all"
+        ],
+        "reason": "Republican oversight staff supplied specific criticisms that incoming investigators can pursue. The report also offers Trump a public defense. Its recommendations still depend on action by Congress or the Justice Department."
+      },
+      {
+        "finding": "Trump favors continued economic pressure on Iran, and Rubio relays the approach to allies",
+        "event_ids": [
+          "irn-2026-11-10-rubio-economic-pressure"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/IRN",
+          "assessments/current/nomination",
+          "nominations/republican_2028",
+          "factions/hawks"
+        ],
+        "reason": "Rubio can argue that economic pressure offers a way to avoid immediate new strikes while defending Trump’s earlier decision. Vance still has a negotiating role. The reporting establishes a stated preference and attributed advocacy. Implementation and Iran’s response remain open."
+      },
+      {
+        "finding": "Israel swears in its new parliament as Gadi Eisenkot seeks coalition partners",
+        "event_ids": [
+          "irn-2026-11-10-israel-parliament-sworn-in"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/IRN"
+        ],
+        "reason": "Eisenkot can use the new parliament to test support for oversight proposals while negotiating for a majority. Netanyahu remains caretaker prime minister while the coalition bid continues."
+      },
+      {
+        "finding": "House votes 211–204 to send the Hegseth impeachment resolution to the Judiciary Committee",
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID",
+          "assessments/current/nomination",
+          "nominations/republican_2028",
+          "factions/pentagon",
+          "impeachments/all",
+          "factions/dissenters"
+        ],
+        "reason": "Massie moved the dispute onto the floor. Trump’s public defense was followed by a nearly unified Republican procedural vote, which reduced the immediate threat to Hegseth. The roll call measured support for referral."
+      },
+      {
+        "finding": "House Republicans choose Jim Jordan as their next leader, and Senate Republicans keep John Thune",
+        "event_ids": [
+          "mid-2026-11-10-republican-leadership-results"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID",
+          "assessments/current/nomination",
+          "nominations/republican_2028",
+          "factions/party"
+        ],
+        "reason": "Jordan gains the ability to coordinate House Republicans’ response to investigations in January. Thune keeps that role in the Senate. Democrats are projected to control committee and floor scheduling in both chambers."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Minneapolis zoning timetable checked. Final adoption, utility rates and Nvidia inquiry outcomes remain open."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "The majority staff report release was reviewed. Agency follow-through, survivors’ access and any new subpoenas remain open."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Orders and release indexes were screened. A new Lisa Cook disposition was not established."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "The Big Bend legal opening carries forward. Construction instructions or work on site were not verified."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Reviewed Rubio reporting and Israeli parliament. Operative orders and acceptance of terms remain open."
+      },
+      "MID": {
+        "status": "carried",
+        "reason": "Reviewed Hegseth procedure, GOP leadership and Kansas audit. Exact Alaska and Mississippi calls remain open."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Exchange reports surfaced; alternate full-text routes failed. No transfer or settlement verified."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Candidate roles in Iran and the Hegseth vote were reviewed. Donors, organizers and representative primary reception were not surveyed."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Treasury and trade headlines were screened. No tariff implementation finding was verified in this intake."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Searched the November talks and policy developments. No negotiating outcome or operative change was verified."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "Recorded votes and leadership decisions now show who can control the immediate procedure and who will coordinate Republican opposition in January. Iran remains a choice between sustained pressure and negotiations that could still yield terms.",
+    "dated_assumptions": [
+      {
+        "assumption": "Hegseth House procedure",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Roll call 317 passed a motion to refer to Judiciary."
+      },
+      {
+        "assumption": "Republican House and Senate leadership elections",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Jordan defeated Scalise and Thune retained his role."
+      },
+      {
+        "assumption": "Incoming U.S. chamber control",
+        "date": "2026-11-11",
+        "status": "verified",
+        "reason": "Current reporting sustains projected Democratic control of both chambers. Exact seat counts remain open."
+      },
+      {
+        "assumption": "Kansas governor",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "Axios reports the hand count and county audit are in progress. Next check November 16."
+      },
+      {
+        "assumption": "Alaska Senate and governor; Mississippi Senate",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "AP and independent leads surfaced. The Alaska count PDF timed out. Recheck November 12."
+      },
+      {
+        "assumption": "Israel government formation",
+        "date": "2026-12-06",
+        "status": "pending",
+        "reason": "New parliament took office. Reuters reports the initial coalition deadline."
+      },
+      {
+        "assumption": "Minneapolis data-center zoning",
+        "date": "2026-11-12",
+        "status": "pending",
+        "reason": "Municipal calendar lists the vote. Recheck after the meeting."
+      },
+      {
+        "assumption": "Qatar mediation and Iran policy",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "The stated U.S. preference was reviewed. Accepted terms and additional military or enforcement orders remain open."
+      },
+      {
+        "assumption": "Big Bend injunction and construction",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Prior stay is linked. New construction remains unreviewed and is on the watchlist."
+      },
+      {
+        "assumption": "Lisa Cook court and hearing outcomes",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "The court orders index and Fed releases did not establish a new disposition. Recheck November 12."
+      },
+      {
+        "assumption": "Abu Dhabi exchange and ceasefire",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "Attributed exchange leads could not be confirmed in readable material. Check November 12."
+      },
+      {
+        "assumption": "Venezuela talks",
+        "date": "2026-11-15",
+        "status": "pending",
+        "reason": "Outcome remains unverified. Check November 12 and during the remaining window."
+      },
+      {
+        "assumption": "Lukoil license expiry",
+        "date": "2026-11-21",
+        "status": "pending",
+        "reason": "Carried expiry. A new extension was not verified."
+      },
+      {
+        "assumption": "Guilfoyle records",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Check the response after the deadline."
+      },
+      {
+        "assumption": "Nvidia inquiry",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "No inquiry outcome or changed export rule was verified. Check November 12."
+      },
+      {
+        "assumption": "Epstein oversight report",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Read the Republican majority staff release. Agency follow-through remains open."
+      },
+      {
+        "assumption": "Tariff and trade implementation",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "Indexes and headlines screened. Recheck operative notices November 12."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "House referral proves Hegseth is secure throughout the forecast window.",
+        "finding": "The current vote blocks immediate consideration of the articles. Democrats are projected to take control in January.",
+        "consequence": "Limited weight for lasting immunity. The personnel estimate falls while the later House route stays open."
+      },
+      {
+        "alternative": "Republican leadership results demonstrate a break with Trump.",
+        "finding": "Jordan is a Trump ally and Thune retained his role. Some senators wanted more time to debate the defeat.",
+        "consequence": "Limited weight for a broad break. Disagreement over timing and political strategy remains credible."
+      }
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://clerk.house.gov/Votes",
+      "https://www.supremecourt.gov/orders/ordersofthecourt.aspx",
+      "https://www.whitehouse.gov/releases/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://home.treasury.gov/news/press-releases",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.justice.gov/news",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.memeorandum.com/",
+      "https://www.realclearpolitics.com/",
+      "https://www.aljazeera.com/news/",
+      "https://www.euronews.com/news/international",
+      "https://www.aa.com.tr/en/world",
+      "https://www.cbsnews.com/politics/",
+      "https://defensescoop.com/",
+      "https://www.sofx.com/",
+      "https://federalnewsnetwork.com/",
+      "https://www.europarl.europa.eu/news/en",
+      "https://clerk.house.gov/Votes/2026317",
+      "https://www.whitehouse.gov/wp-content/uploads/2026/11/SAP-Impeachment-Resolution.pdf",
+      "https://www.thedailybeast.com/trump-ultra-loyalist-seizes-control-of-shattered-house-republicans",
+      "https://www.thedailybeast.com/white-house-staffers-play-the-blame-game-as-purge-begins",
+      "https://www.ci.minneapolis.mn.us/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "https://www.axios.com/local/twin-cities/2026/11/09/minneapolis-council-data-center-zoning",
+      "https://oversight.house.gov/release/house-oversight-committee-releases-report-on-the-federal-governments-mishandling-of-epstein-and-maxwell-criminal-investigations/",
+      "https://www.nbcwashington.com/news/politics/republicans-vote-leadership-in-congress/4180504/",
+      "https://rollcall.com/2026/11/10/thune-will-lead-republicans-through-the-minority/",
+      "https://www.axios.com/2026/11/10/trump-iran-war-diplomacy-economic-crackdown",
+      "https://www.investing.com/news/world-news/israels-parliament-sworn-in-as-eisenkot-tries-to-forge-a-government-5016104",
+      "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+      "https://www.cbsnews.com/news/john-thune-reelected-senate-republican-leader/",
+      "https://www.axios.com/local/kansas-city/2026/11/10/kansas-governor-race-hand-count-audit"
+    ],
+    "queries": 26,
+    "queriesPerIssue": {},
+    "perIssue": {
+      "AI": "Minneapolis zoning timetable checked. Final adoption, utility rates and Nvidia inquiry outcomes remain open.",
+      "EPS": "The majority staff report release was reviewed. Agency follow-through, survivors’ access and any new subpoenas remain open.",
+      "FED": "Orders and release indexes were screened. A new Lisa Cook disposition was not established.",
+      "IMM": "The Big Bend legal opening carries forward. Construction instructions or work on site were not verified.",
+      "IRN": "Reviewed Rubio reporting and Israeli parliament. Operative orders and acceptance of terms remain open.",
+      "MID": "Reviewed Hegseth procedure, GOP leadership and Kansas audit. Exact Alaska and Mississippi calls remain open.",
+      "RUS": "Exchange reports surfaced; alternate full-text routes failed. No transfer or settlement verified.",
+      "SUC": "Candidate roles in Iran and the Hegseth vote were reviewed. Donors, organizers and representative primary reception were not surveyed.",
+      "TAR": "Treasury and trade headlines were screened. No tariff implementation finding was verified in this intake.",
+      "VEN": "Searched the November talks and policy developments. No negotiating outcome or operative change was verified."
+    },
+    "blocked": [
+      "https://www.congress.gov/",
+      "https://apnews.com/hub/2026-midterm-elections",
+      "https://www.state.gov/press-releases/",
+      "https://www.state.gov/press-releases/page/2/",
+      "https://www.newsnow.com/us/News/US+Politics",
+      "https://thehill.com/news-sitemap.xml",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-10-nov-2026",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-11-nov-2026",
+      "https://apnews.com/article/272515c4fca92435224406593a892e69",
+      "https://www.aljazeera.com/news/2026/11/11/did-democrats-save-pete-hegseth-from-impeachment",
+      "https://apnews.com/article/90ce111a971a0f70ba938d27fe69f65d",
+      "https://www.axios.com/newsletters/axios-am-f3ac7a8d-1023-4394-98d8-0a9b0c165ae3",
+      "https://apnews.com/article/7c8d1024302e0c6ad8be064eec852a64",
+      "https://apnews.com/article/6a3f7b8772aab100a7888661d6e31cba",
+      "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+      "https://en.interfax.com.ua/news/general/1234514.html",
+      "https://www.iranintl.com/en/202611116771",
+      "https://www.gpb.org/news/2026/11/11/house-effectively-ends-hegseth-impeachment-and-3-men-accused-of-plotting-uk-attacks",
+      "https://www.aol.com/articles/russia-ukraine-hold-second-day-093945000.html",
+      "https://www.alaskasnewssource.com/2026/11/11/these-key-races-remain-too-early-call-one-week-after-election-day/",
+      "https://en.apa.az/cis-countries/presidential-aide-russia-and-ukraine-agree-on-large-scale-prisoner-exchange-535449",
+      "https://en.interfax.com.ua/news/general/1234775-amp.html",
+      "https://www.themoscowtimes.com/2026/11/11/russia-and-ukraine-agreed-to-prisoner-exchange-after-latest-peace-talks-kremlin-adviser-says-a94227",
+      "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+      "https://www.nampa.org/text/23063546"
+    ],
+    "gaps": [
+      {
+        "gap": "Minneapolis zoning timetable checked. Final adoption, utility rates and Nvidia inquiry outcomes remain open.",
+        "routes": []
+      },
+      {
+        "gap": "The majority staff report release was reviewed. Agency follow-through, survivors’ access and any new subpoenas remain open.",
+        "routes": []
+      },
+      {
+        "gap": "Orders and release indexes were screened. A new Lisa Cook disposition was not established.",
+        "routes": []
+      },
+      {
+        "gap": "The Big Bend legal opening carries forward. Construction instructions or work on site were not verified.",
+        "routes": []
+      },
+      {
+        "gap": "Reviewed Rubio reporting and Israeli parliament. Operative orders and acceptance of terms remain open.",
+        "routes": []
+      },
+      {
+        "gap": "Reviewed Hegseth procedure, GOP leadership and Kansas audit. Exact Alaska and Mississippi calls remain open.",
+        "routes": []
+      },
+      {
+        "gap": "Exchange reports surfaced; alternate full-text routes failed. No transfer or settlement verified.",
+        "routes": []
+      },
+      {
+        "gap": "Candidate roles in Iran and the Hegseth vote were reviewed. Donors, organizers and representative primary reception were not surveyed.",
+        "routes": []
+      },
+      {
+        "gap": "Treasury and trade headlines were screened. No tariff implementation finding was verified in this intake.",
+        "routes": []
+      },
+      {
+        "gap": "Searched the November talks and policy developments. No negotiating outcome or operative change was verified.",
+        "routes": []
+      }
+    ],
+    "watched": [
+      "Pete Hegseth",
+      "Thomas Massie",
+      "Jim Jordan",
+      "John Thune",
+      "Rand Paul",
+      "Marco Rubio",
+      "JD Vance",
+      "Kimberly Guilfoyle",
+      "Todd Blanche",
+      "Lisa Cook"
+    ],
+    "outcomes": [
+      {
+        "item": "Hegseth House procedure",
+        "date": "2026-11-10",
+        "status": "reviewed",
+        "reason": "Roll call 317 passed a motion to refer to Judiciary."
+      },
+      {
+        "item": "Republican House and Senate leadership elections",
+        "date": "2026-11-10",
+        "status": "reviewed",
+        "reason": "Jordan defeated Scalise and Thune retained his role."
+      },
+      {
+        "item": "Incoming U.S. chamber control",
+        "date": "2026-11-11",
+        "status": "reviewed",
+        "reason": "Current reporting sustains projected Democratic control of both chambers. Exact seat counts remain open."
+      },
+      {
+        "item": "Kansas governor",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "Axios reports the hand count and county audit are in progress. Next check November 16."
+      },
+      {
+        "item": "Alaska Senate and governor; Mississippi Senate",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "AP and independent leads surfaced. The Alaska count PDF timed out. Recheck November 12."
+      },
+      {
+        "item": "Israel government formation",
+        "date": "2026-12-06",
+        "status": "pending",
+        "reason": "New parliament took office. Reuters reports the initial coalition deadline."
+      },
+      {
+        "item": "Minneapolis data-center zoning",
+        "date": "2026-11-12",
+        "status": "pending",
+        "reason": "Municipal calendar lists the vote. Recheck after the meeting."
+      },
+      {
+        "item": "Qatar mediation and Iran policy",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "The stated U.S. preference was reviewed. Accepted terms and additional military or enforcement orders remain open."
+      },
+      {
+        "item": "Big Bend injunction and construction",
+        "date": "2026-11-10",
+        "status": "reviewed",
+        "reason": "Prior stay is linked. New construction remains unreviewed and is on the watchlist."
+      },
+      {
+        "item": "Lisa Cook court and hearing outcomes",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "The court orders index and Fed releases did not establish a new disposition. Recheck November 12."
+      },
+      {
+        "item": "Abu Dhabi exchange and ceasefire",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "Attributed exchange leads could not be confirmed in readable material. Check November 12."
+      },
+      {
+        "item": "Venezuela talks",
+        "date": "2026-11-15",
+        "status": "pending",
+        "reason": "Outcome remains unverified. Check November 12 and during the remaining window."
+      },
+      {
+        "item": "Lukoil license expiry",
+        "date": "2026-11-21",
+        "status": "pending",
+        "reason": "Carried expiry. A new extension was not verified."
+      },
+      {
+        "item": "Guilfoyle records",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Check the response after the deadline."
+      },
+      {
+        "item": "Nvidia inquiry",
+        "date": "2026-11-11",
+        "status": "pending",
+        "reason": "No inquiry outcome or changed export rule was verified. Check November 12."
+      },
+      {
+        "item": "Epstein oversight report",
+        "date": "2026-11-10",
+        "status": "reviewed",
+        "reason": "Read the Republican majority staff release. Agency follow-through remains open."
+      },
+      {
+        "item": "Tariff and trade implementation",
+        "date": "2026-11-11",
+        "status": "unreviewed",
+        "reason": "Indexes and headlines screened. Recheck operative notices November 12."
+      }
+    ],
+    "next_watchlist": [
+      {
+        "item": "Kansas governor",
+        "next_check": "2026-11-12",
+        "reason": "Axios reports the hand count and county audit are in progress. Next check November 16."
+      },
+      {
+        "item": "Alaska Senate and governor; Mississippi Senate",
+        "next_check": "2026-11-12",
+        "reason": "AP and independent leads surfaced. The Alaska count PDF timed out. Recheck November 12."
+      },
+      {
+        "item": "Israel government formation",
+        "next_check": "2026-11-12",
+        "reason": "New parliament took office. Reuters reports the initial coalition deadline."
+      },
+      {
+        "item": "Minneapolis data-center zoning",
+        "next_check": "2026-11-12",
+        "reason": "Municipal calendar lists the vote. Recheck after the meeting."
+      },
+      {
+        "item": "Qatar mediation and Iran policy",
+        "next_check": "2026-11-12",
+        "reason": "The stated U.S. preference was reviewed. Accepted terms and additional military or enforcement orders remain open."
+      },
+      {
+        "item": "Lisa Cook court and hearing outcomes",
+        "next_check": "2026-11-12",
+        "reason": "The court orders index and Fed releases did not establish a new disposition. Recheck November 12."
+      },
+      {
+        "item": "Abu Dhabi exchange and ceasefire",
+        "next_check": "2026-11-12",
+        "reason": "Attributed exchange leads could not be confirmed in readable material. Check November 12."
+      },
+      {
+        "item": "Venezuela talks",
+        "next_check": "2026-11-12",
+        "reason": "Outcome remains unverified. Check November 12 and during the remaining window."
+      },
+      {
+        "item": "Lukoil license expiry",
+        "next_check": "2026-11-12",
+        "reason": "Carried expiry. A new extension was not verified."
+      },
+      {
+        "item": "Guilfoyle records",
+        "next_check": "2026-11-12",
+        "reason": "Check the response after the deadline."
+      },
+      {
+        "item": "Nvidia inquiry",
+        "next_check": "2026-11-12",
+        "reason": "No inquiry outcome or changed export rule was verified. Check November 12."
+      },
+      {
+        "item": "Tariff and trade implementation",
+        "next_check": "2026-11-12",
+        "reason": "Indexes and headlines screened. Recheck operative notices November 12."
+      }
+    ],
+    "queue": {
+      "captured": 5,
+      "triaged": 5
+    },
+    "lookbackDays": 1,
+    "thinDays": [],
+    "deviations": [
+      "Focused index screening and targeted reactions. No newsletter inbox, complete index enumeration, broad donor survey or full watch rotation.",
+      "The slicer identified the prior House introduction and leadership campaign. The new House vote and leadership selections are distinct decisions."
+    ],
+    "propagation": {
+      "eps-2026-11-10-oversight-majority-report": [
+        "assessments/current/administration",
+        "assessments/issues/EPS",
+        "impeachments/all"
+      ],
+      "irn-2026-11-10-rubio-economic-pressure": [
+        "assessments/current/administration",
+        "assessments/issues/IRN",
+        "assessments/current/nomination",
+        "nominations/republican_2028",
+        "factions/hawks"
+      ],
+      "irn-2026-11-10-israel-parliament-sworn-in": [
+        "assessments/current/administration",
+        "assessments/issues/IRN"
+      ],
+      "mid-2026-11-10-hegseth-judiciary-referral": [
+        "assessments/current/administration",
+        "assessments/issues/MID",
+        "assessments/current/nomination",
+        "nominations/republican_2028",
+        "factions/pentagon",
+        "impeachments/all",
+        "factions/dissenters"
+      ],
+      "mid-2026-11-10-republican-leadership-results": [
+        "assessments/current/administration",
+        "assessments/issues/MID",
+        "assessments/current/nomination",
+        "nominations/republican_2028",
+        "factions/party"
+      ]
+    },
+    "fxStats": {
+      "scored": 0,
+      "empty": 5,
+      "emptyWithReason": 5
+    },
+    "checklist": {
+      "research_questions": "done",
+      "collector": "partial: focused index screen",
+      "watch": "partial: outcome and targeted legal checks",
+      "slicer": "done",
+      "nominee_monitor": "done",
+      "current_assessment": "done",
+      "reader_copy": "done",
+      "validator": "done"
+    }
+  },
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Daily read-only preflight",
+    "result": "Staged data, reader-copy fingerprints and review linkage checked before handoff.",
+    "repairs": [
+      "Corrected event evidence tiers and explained why the observations do not warrant faction score changes.",
+      "Reconciled assessment contest links and reviewed changed prose against the final inventory."
+    ]
+  },
+  "editorial_notes": [
+    "Read new event titles on their own. Retain attributed private claims and distinguish referral from adoption, stated Iran policy from implementation, and government formation from a parliamentary oath.",
+    "Restored the Justice Department assessment to its own decision and gave the Hegseth vote a separate contest.",
+    "Named the defense secretary, explained what a vote to send the resolution to committee does, attributed Rubio’s account, and added the year of the October 7 attacks.",
+    "Replaced inherited shorthand in changed faction fields and explained what the impeachment estimates measure and how a first conviction could affect other cases.",
+    "Restated Rubio’s reported position in the Iran issue, retained earlier faction evidence in ordinary sentences, and explained why Hegseth’s House risk is now near even odds."
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "21f70f02b9409f5929f6d854611db29d6ef3668e3abd84a278164844bbb3fa2b",
+        "reader_takeaway": "The House referral shielded Hegseth from an immediate vote, and the incoming Congress has its own choices.",
+        "context_check": "Separated the Hegseth and Justice Department contests, named the committee and added Federal Reserve Governor Lisa Cook’s role.",
+        "uncertainty_check": "Separated the Iran preference and attributed advocacy from operational orders, and the referral from adoption.",
+        "changes_made": [
+          "Separated the Hegseth and Justice Department contests, named the committee and added Federal Reserve Governor Lisa Cook’s role."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "7049e09c755b73925f096df0eb1cb78b71d397bfc252c8cda202f7b92717ff3d",
+        "reader_takeaway": "Three issue pages explain the latest changes in oversight, congressional procedure and Iran diplomacy.",
+        "context_check": "Replaced generic scope language with the specific decisions and explained what redactions failed to conceal.",
+        "uncertainty_check": "Other issue evidence keeps its prior dates. Coalition formation and agency follow-through remain open.",
+        "changes_made": [
+          "Replaced generic scope language with the specific decisions and explained what redactions failed to conceal."
+        ]
+      },
+      "events/EPS": {
+        "fingerprint": "3e92e18ade0f4a4ddb781a5cdc969992dcb32c1688fad672e15e22f93f915d77",
+        "reader_takeaway": "Republican oversight staff identified harms to Epstein survivors and proposed steps the Justice Department could take.",
+        "context_check": "Explained that released records exposed survivors’ identifying details.",
+        "uncertainty_check": "Attributed conclusions to majority staff and distinguished recommendations from action.",
+        "changes_made": [
+          "Explained that released records exposed survivors’ identifying details."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "9a83d3506860fb44b80fbde6018f7e3acd018fe5c2e41080525e009163b740d1",
+        "reader_takeaway": "Trump favored keeping pressure on Iran while Israel’s newly seated parliament began work before a coalition formed.",
+        "context_check": "Attributed Rubio’s remarks in the headline and dated the attacks in the proposed Israeli inquiry.",
+        "uncertainty_check": "Reported conversations remain attributed and coalition and operational outcomes remain open.",
+        "changes_made": [
+          "Attributed Rubio’s remarks in the headline and dated the attacks in the proposed Israeli inquiry."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "19b7f32b035e32f3adff388b595098dbf1993d674e45642e1656c40e14a5e780",
+        "reader_takeaway": "The outgoing House sent Hegseth’s resolution to committee, and Republicans selected leaders for the next Congress.",
+        "context_check": "Named the defense secretary in the title, explained the vote, and added named Senate reactions and their source.",
+        "uncertainty_check": "The roll call concerns sending the resolution to committee. Leadership selection does not establish future cooperation or voter approval.",
+        "changes_made": [
+          "Named the defense secretary in the title, explained the vote, and added named Senate reactions and their source."
+        ]
+      },
+      "factions/dissenters": {
+        "fingerprint": "f5b1c02d22a86a20cd8038f86701cc036697c71487403fd0d65b8133e7cc3878",
+        "reader_takeaway": "Massie recorded a distinct position on war accountability despite little Republican support on the floor procedure.",
+        "context_check": "The revised field names Massie, Hegseth and the committee action in full.",
+        "uncertainty_check": "Distinguished recorded dissent from campaign recruitment.",
+        "changes_made": [
+          "The revised field names Massie, Hegseth and the committee action in full."
+        ]
+      },
+      "factions/hawks": {
+        "fingerprint": "47fc50afcebcfd1f331f27373cb16b06784bb3c8d07e7b7c02a616c2d66d68f7",
+        "reader_takeaway": "Rubio reportedly helped shape Trump’s approach to Iran.",
+        "context_check": "Replaced inherited shorthand with named officials and dated decisions.",
+        "uncertainty_check": "Attributed Rubio’s advocacy and kept implementation open.",
+        "changes_made": [
+          "Replaced inherited shorthand with named officials and dated decisions."
+        ]
+      },
+      "factions/party": {
+        "fingerprint": "fbc914955761a7a3a9eac3e0835d34df8324349aeca368ec4d87e8b9acc7b71a",
+        "reader_takeaway": "Jordan and Thune will coordinate Republicans in the next Congress.",
+        "context_check": "Replaced the inherited list of shorthand campaign notes with the leadership outcomes and Jordan’s stated pitch.",
+        "uncertainty_check": "Democratic control remains a projection and legislative success is open.",
+        "changes_made": [
+          "Replaced the inherited list of shorthand campaign notes with the leadership outcomes and Jordan’s stated pitch."
+        ]
+      },
+      "factions/pentagon": {
+        "fingerprint": "3ca8b3cebd21405cbec94ac4668a34fec0a5ffb79c5c849cc993706f0d75c9f2",
+        "reader_takeaway": "Hegseth survived the immediate floor challenge and could face renewed scrutiny in January.",
+        "context_check": "Named the committee, explained what the vote protected Hegseth from, and clarified the unrelated contractor issue.",
+        "uncertainty_check": "Kept accusations, House procedure and prospective action distinct.",
+        "changes_made": [
+          "Named the committee, explained what the vote protected Hegseth from, and clarified the unrelated contractor issue."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "b2ebfa0d3753a2523586f22b8270a36c8e17e6937e8e0215cb1d1723e18ab7d9",
+        "reader_takeaway": "The Hegseth referral lowered the estimate of House adoption. The Senate estimate and other cases retain their prior status.",
+        "context_check": "Explained the conditional and joint estimates, the three possible responses to a future conviction and what evidence the unestimated cases still need.",
+        "uncertainty_check": "Case allegations, defenses, verified procedure and subjective estimates remain distinct.",
+        "changes_made": [
+          "Explained the conditional and joint estimates, the three possible responses to a future conviction and what evidence the unestimated cases still need."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "fc9541d890fc0846a2e51f552f53c31af99eb53c909005b723407842f58fdbdb",
+        "reader_takeaway": "The new sources show what the House vote measured and why the next Congress remains the relevant forecast test.",
+        "context_check": "Clarified the roll call description and read the updated interim test resolution.",
+        "uncertainty_check": "The test and its deadline remain intact, with the outcome unresolved.",
+        "changes_made": [
+          "Clarified the roll call description and read the updated interim test resolution."
+        ]
+      },
+      "runs/2026-11-11": {
+        "fingerprint": "5f6bf7a6a304a605563eeede7e90cd8338dcf14103f15630d5c9e725e3444248",
+        "reader_takeaway": "The summary identifies the main verified decisions and the pending election, court and foreign-policy checks.",
+        "context_check": "Named the committee action, expanded Cook’s role and described the limits of the Russia extracts.",
+        "uncertainty_check": "Identified what remains open and kept technical details in the run record.",
+        "changes_made": [
+          "Named the committee action, expanded Cook’s role and described the limits of the Russia extracts."
+        ]
+      }
+    }
+  }
+}

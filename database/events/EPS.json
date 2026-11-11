@@ -816,6 +816,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "eps-2026-11-10-oversight-majority-report",
+      "date": "2026-11-10",
+      "precision": "day",
+      "issues": [
+        "EPS",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "House Oversight Committee Republican staff",
+      "text": "House Oversight Republicans fault the Justice Department’s handling of Epstein records",
+      "context": "The Republican majority staff report says the Justice Department failed to black out some survivors’ identifying details before releasing records, exposing survivors’ personal information. It recommends further witness interviews and a process for survivors to obtain their own records. The majority staff also said its investigation found no evidence that Trump participated in Epstein’s crimes.",
+      "source": "https://oversight.house.gov/release/house-oversight-committee-releases-report-on-the-federal-governments-mishandling-of-epstein-and-maxwell-criminal-investigations/",
+      "url": "https://oversight.house.gov/release/house-oversight-committee-releases-report-on-the-federal-governments-mishandling-of-epstein-and-maxwell-criminal-investigations/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Republican oversight staff supplied specific criticisms that incoming investigators can pursue. The report also offers Trump a public defense. Its recommendations still depend on action by Congress or the Justice Department.",
+      "origin": "daily shared intake",
+      "added": "2026-11-11",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The staff report gives incoming investigators specific failures to examine. It does not establish that the Justice Department has acted on the recommendations."
     }
   ]
 }

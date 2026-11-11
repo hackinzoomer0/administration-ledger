@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-10",
-  "last_substantive_change": "2026-11-10",
+  "research_as_of": "2026-11-11",
+  "last_substantive_change": "2026-11-11",
   "review": {
-    "date": "2026-11-10",
-    "run_id": "2026-11-10",
+    "date": "2026-11-11",
+    "run_id": "2026-11-11",
     "type": "daily_review",
-    "scope": "Focused shared review of the White House handover, Qatar meeting reports, Hegseth impeachment procedure, Republican reactions and the Big Bend ruling. Minneapolis zoning catch-up checked; remaining election calls, leadership results, Russia talks, Cook proceedings and other issue outcomes remain incomplete."
+    "scope": "Focused November 10–11 review of the Hegseth House vote, Republican leadership and reactions, Iran, Israel, Epstein oversight and pending decisions. Final election calls, the Cook case, Venezuela talks, Nvidia’s inquiry and several implementation checks remain incomplete."
   },
   "administration": {
-    "headline": "Stephen Miller takes the chief-of-staff role as Thomas Massie seeks Hegseth’s impeachment.",
-    "summary": "Trump retains executive authority while Democrats prepare to take control of Congress in January. Stephen Miller reportedly began as chief of staff on November 9, giving him more ability to manage White House staff and proposals reaching Trump; Susie Wiles’s political responsibilities remain unclear. Representative Thomas Massie has moved his Hegseth impeachment effort onto the House floor, while Trump defends his defense secretary. That dispute creates pressure over the war and the president’s personnel choices without establishing a vote result or removal. The Supreme Court has temporarily lifted the injunction blocking Big Bend border-wall construction, a specific legal opening rather than proof of completed building or broader enforcement success. Qatar’s prime minister reportedly met Trump and Vice President JD Vance, but an Iran settlement remains unverified. Nvidia’s inquiry, Israel’s government formation and Minneapolis’s November 12 data-center zoning decision remain open. Today’s Republican leadership results, outstanding election calls, Russia-Ukraine talks and major unresolved court proceedings require follow-up. Tariffs, the Fed, Epstein oversight and Venezuela retain carried findings and incomplete fresh coverage.",
+    "headline": "House sends Hegseth impeachment bid to committee as Republicans choose their January leaders",
+    "summary": "The outgoing House sent the Hegseth impeachment resolution to committee after Trump backed the defense secretary. Hegseth remains in office. House Republicans chose Jim Jordan to lead their response to the incoming Democratic majority. Senate Republicans kept John Thune. The leadership votes settle who will coordinate Republican opposition in January, when Democrats are projected to control both chambers. Trump publicly favors continued economic and naval pressure on Iran, according to Axios, while Qatar still seeks a deal. In Israel, the new parliament was sworn in while Gadi Eisenkot sought a governing coalition. House Oversight Republicans faulted the Justice Department’s handling of Epstein records, giving incoming investigators specific decisions to examine. News reports attributed a planned prisoner exchange to Russian and Ukrainian negotiators. The available extracts left the terms and timing uncertain. Minneapolis’s data-center zoning vote is due November 12. Several election calls are still outstanding. The review also left open the status of proceedings over Trump’s attempt to remove Federal Reserve Governor Lisa Cook and the outcome of the Venezuela talks.",
     "contests": [
       {
         "id": "white-house-access",
@@ -40,23 +40,24 @@
       {
         "id": "iran-decision",
         "issue_id": "IRN",
-        "title": "Vance urges an end to the Iran war while Rubio defends Trump’s decision",
+        "title": "Trump favors continued pressure on Iran while Qatar keeps mediating",
         "status": "contested",
-        "assessment": "Vance can use negotiations and his criticism of the war to argue for a different approach. Rubio offers a competing argument for Trump’s original decision. Those arguments may shape Trump’s options and the nomination contest, but neither establishes that a settlement or another military operation has been approved.",
+        "assessment": "Trump has publicly favored keeping pressure on Iran while avoiding immediate renewed strikes. Axios attributed to U.S. officials that Rubio helped advocate this course. Vance retains an opportunity to show what negotiations can deliver.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Trump and Vance reportedly met Qatar’s prime minister November 9. The mediator-side claim of progress remains attributed; no accepted settlement or new operational order was verified.",
+        "change": "Rubio reportedly described the decision to Group of Seven counterparts on November 10. No agreement or new operational order was verified.",
         "basis": {
-          "actions": "Trump reviewed options; Vance has led negotiations.",
-          "positions": "Vance publicly blamed the war for electoral losses; Rubio defended Trump’s decision.",
+          "actions": "Trump met Qatar’s prime minister and publicly described continuing pressure on Iran. Axios reported Rubio’s subsequent account to allies.",
+          "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Check a joint readout, accepted terms and implemented orders; keep the settlement pending.",
+        "watch": "Check sanctions enforcement, any orders concerning supply routes, and whether Iran accepts terms.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review",
           "irn-2026-11-08-trump-conditional-talks",
-          "irn-2026-11-09-qatar-meeting-plan"
+          "irn-2026-11-09-qatar-meeting-plan",
+          "irn-2026-11-10-rubio-economic-pressure"
         ],
         "faction_ids": [
           "vance",
@@ -64,8 +65,8 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-10",
-        "summary": "Vance has argued that the war hurt Republicans in the election and has led negotiations. Rubio has defended Trump’s decision to use force. Trump still decides the next military step."
+        "reviewed_at": "2026-11-11",
+        "summary": "Trump publicly favored the economic crackdown and naval blockade, according to Axios. Secretary of State Marco Rubio explained the approach to allies, and Qatar continued to seek an agreement."
       },
       {
         "id": "succession-control",
@@ -132,29 +133,57 @@
         "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy. Blanche’s November 8 public defense of officials signals resistance to incoming investigations, but does not prove that records will be withheld lawfully or that an investigation will be stopped. Massie’s separate floor action against Hegseth shows that congressional pressure is already being pursued before the new Congress takes office; it does not establish how Blanche will respond to a specific demand.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "Department leaders can choose or propose replacements, assign supervisors and shift resources between cases. Those choices matter more than an announcement of departures on its own.",
-        "change": "Three leadership departures were reported. Their replacements and any resulting changes to investigations remain unverified.",
+        "change": "House Oversight Republicans reported that the Justice Department exposed survivors’ identifying details when releasing Epstein records. Their recommendations give the incoming Congress specific agency decisions to follow up.",
         "basis": {
           "actions": "CNN reported the named leadership departures on November 6.",
           "positions": "The departures do not by themselves establish a public reversal of Justice Department policy.",
           "money": "The reviewed reporting does not establish that money caused the departures. Possible career incentives are an interpretation, not a documented explanation from the officials."
         },
-        "watch": "Identify the replacements, confirm who is acting in each job and check whether cases, staffing or written instructions actually change.",
+        "watch": "Check how Attorney General Todd Blanche responds to requests for further interviews and better access for survivors, and what incoming committee chairs put on their agenda.",
         "event_ids": [
           "mid-2026-11-06-doj-departures",
           "mid-2026-11-08-blanche-oversight-defense",
-          "mid-2026-11-09-massie-hegseth-floor-action"
+          "mid-2026-11-09-massie-hegseth-floor-action",
+          "eps-2026-11-10-oversight-majority-report"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-11"
+      },
+      {
+        "id": "hegseth-house-referral",
+        "issue_id": "MID",
+        "title": "House sends the bid to impeach Defense Secretary Pete Hegseth to committee",
+        "status": "contested",
+        "summary": "The House voted 211–204 to send Representative Thomas Massie’s resolution to the Judiciary Committee. Defense Secretary Pete Hegseth remains in office.",
+        "assessment": "The vote showed that nearly all Republicans who voted favored keeping the articles off the floor at this stage. Democrats are projected to control the House in January and could revisit the allegations.",
+        "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
+        "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
+        "change": "The November 10 vote ended the immediate floor contest over this resolution.",
+        "basis": {
+          "actions": "The House voted 211–204 to send the resolution to committee.",
+          "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
+          "money": "The available evidence establishes how members voted."
+        },
+        "watch": "Watch the Judiciary Committee’s next action and the January House agenda. Track senators’ stated positions separately.",
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "mid-2026-11-10-republican-leadership-results"
+        ],
+        "faction_ids": [
+          "pentagon",
+          "dissenters",
+          "party"
+        ],
+        "reviewed_at": "2026-11-11"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The November 9 full review still supplies all eight conditional estimates. Vance retains a diplomatic opportunity without a verified settlement. Massie’s House action gives him a concrete accountability argument, while Trump’s defense of Hegseth keeps the personnel dispute open. No new voter, donor or organizer transfer is established; today’s numerical holds reflect the weekly cadence.",
-    "snapshot_id": "2026-11-10-daily",
+    "summary": "The November 9 full review supplies the estimates for the eight authorized contenders. Massie forced a recorded House vote on the Hegseth resolution and stood alone among Republicans against sending it to committee. Rubio reportedly backed continued economic pressure on Iran while Vance retains a negotiating role. These developments give the candidates distinct arguments about the war and accountability. Their ability to recruit primary voters, donors or organizers on those arguments remains open.",
+    "snapshot_id": "2026-11-11-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -162,7 +191,7 @@
         "path": "Vice President JD Vance can argue for correcting policy with Trump’s permission, but Trump also reminds voters that Vance took part in the decisions.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "His reported November 9 meeting with Qatar’s prime minister gives Vance another opportunity to show that negotiation can produce results. No agreement or electoral benefit is verified.",
-        "vulnerability": "Trump also emphasizes Vance’s role in decisions. Permission to criticize cannot erase responsibility or establish that voters trust the change.",
+        "vulnerability": "Trump has emphasized that Vance took part in administration decisions on Iran. Rubio reportedly helped shape Trump’s preference for sustained pressure, giving Republicans another official who can claim influence over the next step.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -170,7 +199,8 @@
           "suc-2026-08-19-b59801",
           "irn-2026-11-04-vance-postelection-war-critique",
           "suc-2026-11-08-trump-vance-immigration-interview",
-          "irn-2026-11-09-qatar-meeting-plan"
+          "irn-2026-11-09-qatar-meeting-plan",
+          "irn-2026-11-10-rubio-economic-pressure"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -182,24 +212,26 @@
           "weekly_vance_debate_poll",
           "daily_trump_interview_20261108",
           "daily_qatar_plan_20261109",
-          "daily_qatar_20261110"
+          "daily_qatar_20261110",
+          "daily_rubio_iran_20261111"
         ],
-        "reviewed_at": "2026-11-10"
+        "reviewed_at": "2026-11-11"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "Secretary of State Marco Rubio must decide to run before interested donors and organizers can build a presidential campaign for him.",
         "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
-        "advantage": "His family narrative and conversational humor can make a national-security argument approachable. A reported warning about Nvidia gives him a possible national-security contrast, but the classified account and any voter response remain unverified.",
-        "vulnerability": "Serving Trump while deferring on a bid can make him seem unwilling to lead independently.",
+        "advantage": "Secretary of State Marco Rubio explained Trump’s preference for continued pressure on Iran to allies, according to meeting attendees. U.S. officials told Axios that Rubio helped advocate the policy.",
+        "vulnerability": "Rubio defended Trump’s initial decision to use force. Voters who blame the administration for the war may also hold him responsible. His plans to run and any donor commitments remain uncertain.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
           "suc-2026-07-30e83e",
           "irn-2026-11-04-vance-postelection-war-critique",
           "ai-2026-11-08-nvidia-board-inquiry",
-          "suc-2026-11-08-contender-entry"
+          "suc-2026-11-08-contender-entry",
+          "irn-2026-11-10-rubio-economic-pressure"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -210,9 +242,10 @@
           "weekly_2015_debate",
           "causal_rubio_denial",
           "daily_rubio_memo_20261109",
-          "weekly_fl_candidates"
+          "weekly_fl_candidates",
+          "daily_rubio_iran_20261111"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-11"
       },
       {
         "candidate_id": "ron_desantis",
@@ -290,7 +323,7 @@
         "person_id": "paul",
         "path": "Senator Rand Paul could offer antiwar Republicans a candidate in their own primary, while making his case for limits on spending and presidential power.",
         "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors. A third-party effort could compete for some antiwar organizers; Paul would still have to persuade them to join his Republican campaign.",
-        "advantage": "He can argue that constitutional limits deserve loyalty even when Trump disagrees.",
+        "advantage": "Paul can criticize the administration’s use of military power and still work with Senate Republicans. He publicly rejected blaming John Thune for state-level election results after Republicans lost the Senate majority.",
         "vulnerability": "Voters seeking immediate economic protection may resist his spending agenda or see him as too narrowly focused.",
         "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
         "money": "Paul has historical links to the Protect Freedom political group and donor Jeff Yass. Those connections do not establish a confirmed financial commitment to a 2028 presidential bid.",
@@ -300,12 +333,14 @@
           "paul_protect_freedom",
           "weekly_paul_massie_support",
           "weekly_2015_debate",
-          "weekly_massie_route"
+          "weekly_massie_route",
+          "daily_thune_paul_20261111"
         ],
         "event_ids": [
-          "suc-2026-11-08-massie-party-route"
+          "suc-2026-11-08-massie-party-route",
+          "mid-2026-11-10-republican-leadership-results"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-11"
       },
       {
         "candidate_id": "brian_kemp",
@@ -331,8 +366,8 @@
         "person_id": "massie",
         "path": "Representative Thomas Massie must choose whether to seek the Republican nomination or pursue another party’s opening.",
         "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign. An external recruiting effort may draw organizers away from a Republican bid, but his choice and his supporters’ choices remain open.",
-        "advantage": "Massie can point to his November 9 House floor action against Hegseth as a concrete attempt to challenge the administration over war powers. House Democratic leader Hakeem Jeffries and federal-employees’ union president Everett Kelley support impeachment; that is support for this action, not his presidential candidacy.",
-        "vulnerability": "Trump continues to defend Hegseth, and the House can dispose of Massie’s resolution without impeachment. Admiration for dissent does not establish presidential support or settle whether Massie would run as a Republican.",
+        "advantage": "Massie challenged the Iran war and was the only Republican to oppose referral of his Hegseth impeachment resolution. Voters who want congressional checks on Trump’s war powers have a recorded example of his position.",
+        "vulnerability": "Nearly all House Republicans who voted backed referral. Massie still needs to show that voters who agree with him will join a Republican presidential campaign, and he has yet to choose a party route.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
         "source_ids": [
@@ -343,13 +378,15 @@
           "weekly_paul_massie_support",
           "weekly_massie_route",
           "daily_massie_20261110",
-          "daily_defense_trump_20261110"
+          "daily_defense_trump_20261110",
+          "daily_hegseth_referral_20261111"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
-          "mid-2026-11-09-massie-hegseth-floor-action"
+          "mid-2026-11-09-massie-hegseth-floor-action",
+          "mid-2026-11-10-hegseth-judiciary-referral"
         ],
-        "reviewed_at": "2026-11-10"
+        "reviewed_at": "2026-11-11"
       }
     ],
     "scenario_labels": {

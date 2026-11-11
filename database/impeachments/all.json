@@ -113,6 +113,30 @@
       "publication_date": null,
       "accessed_on": "2026-11-10",
       "limitation": "Official historical precedent; former-official jurisdiction can still be contested."
+    },
+    {
+      "id": "hegseth-house-roll-317",
+      "title": "House roll call 317 on the Hegseth resolution",
+      "url": "https://clerk.house.gov/Votes/2026317",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "limitation": "Official vote on referral to Judiciary. The House did not vote on adopting the articles."
+    },
+    {
+      "id": "hegseth-white-house-opposition",
+      "title": "White House opposition to H.Res. 1655",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/11/SAP-Impeachment-Resolution.pdf",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "limitation": "The administration’s defense of Hegseth and presidential authority states its position."
+    },
+    {
+      "id": "oversight-epstein-majority",
+      "title": "House Oversight Republican staff report on the Epstein and Maxwell investigations",
+      "url": "https://oversight.house.gov/release/house-oversight-committee-releases-report-on-the-federal-governments-mishandling-of-epstein-and-maxwell-criminal-investigations/",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "limitation": "Majority staff findings and recommendations. The report release does not establish case-specific misconduct by the officials monitored here."
     }
   ],
   "cases": [
@@ -128,12 +152,15 @@
       "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
       "source_ids": [
         "massie",
-        "rollcall"
+        "rollcall",
+        "hegseth-house-roll-317",
+        "hegseth-white-house-opposition"
       ],
       "event_ids": [
-        "mid-2026-11-09-massie-hegseth-floor-action"
+        "mid-2026-11-09-massie-hegseth-floor-action",
+        "mid-2026-11-10-hegseth-judiciary-referral"
       ],
-      "watch": "A completed House disposition, named senators’ positions and evidence addressing specific articles."
+      "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles."
     },
     {
       "id": "noem",
@@ -291,6 +318,20 @@
         "guilfoyle-letter"
       ],
       "event_ids": [],
+      "supersedes": null
+    },
+    {
+      "id": "hegseth-referral-2026-11-10",
+      "case_id": "hegseth",
+      "date": "2026-11-10",
+      "kind": "procedural_vote",
+      "summary": "The House voted 211–204 to send the Hegseth impeachment resolution to the Judiciary Committee. Eighteen members did not vote. Thomas Massie was the only Republican to oppose referral.",
+      "source_ids": [
+        "hegseth-house-roll-317"
+      ],
+      "event_ids": [
+        "mid-2026-11-10-hegseth-judiciary-referral"
+      ],
       "supersedes": null
     }
   ],
@@ -989,6 +1030,337 @@
           }
         }
       }
+    },
+    {
+      "id": "2026-11-11-personnel-daily",
+      "as_of": "2026-11-11T13:09:53+00:00",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-11",
+      "type": "daily",
+      "summary": "The House sent the resolution to impeach Defense Secretary Pete Hegseth to the Judiciary Committee. The estimated chance that the House impeaches him by November 10, 2027 fell from 60% to 50%. If the House impeaches him, his estimated chance of Senate conviction remains 25%. The estimated chance of both outcomes fell from 15% to 12.5%. The other cases retain their previous estimates or remain unestimated.",
+      "coverage": "Focused review of the House roll call, White House position, Republican leadership and Epstein report. The Guilfoyle records deadline and the January congressional agenda remain open. These probabilities are judgments about outcomes by November 10, 2027.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The House referral shows Republican cohesion on one procedural vote in the outgoing Congress. It supplies no direct evidence about a Senate conviction coalition or about how senators would respond to an unrelated case. The incoming House can revisit the issue in January.",
+        "observation_ids": [],
+        "source_ids": [
+          "hegseth-house-roll-317"
+        ],
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral"
+        ],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A Senate conviction could make it easier to pursue another case",
+            "assessment": "If voters and party leaders accept a bipartisan conviction, lawmakers may feel freer to support another case and witnesses may be more willing to come forward."
+          },
+          {
+            "id": "exception",
+            "title": "Senators could limit their support to one unusual case",
+            "assessment": "Senators may agree to convict over a particular official’s actions while continuing to defend other officials facing different allegations."
+          },
+          {
+            "id": "backlash",
+            "title": "Voter backlash could discourage another impeachment",
+            "assessment": "If lawmakers lose backing after supporting a conviction, colleagues may be less willing to vote for another impeachment or conviction."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 50,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 12.5,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The outgoing House blocked an immediate vote on the articles. A projected Democratic majority gives a new effort a viable route after January, and its agenda is still open. Those competing facts put House impeachment near even odds by November 10, 2027. The referral supplies no direct evidence about whether two-thirds of senators present would convict.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Trump’s backing and the referral block the immediate route to adoption. The incoming Democratic House still has a route to take up the allegations. The vote supplies no direct evidence of a Senate conviction coalition."
+          },
+          "basis": {
+            "allegations": "The eight articles allege that Hegseth violated congressional war powers and committed other abuses. Several concern the same decisions about Iran.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall",
+              "hegseth-house-roll-317",
+              "hegseth-white-house-opposition"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action",
+              "mid-2026-11-10-hegseth-judiciary-referral"
+            ],
+            "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": [
+              "hegseth-referral-2026-11-10"
+            ]
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "The contracting and testimony allegations could draw Republican support from members who favor immigration enforcement. It remains unclear whether the House will pursue the case after Noem left office.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The Hegseth procedure did not address Noem’s contracting or testimony. A comparable coalition on her case remains unverified."
+          },
+          "basis": {
+            "allegations": "Filed articles include self-dealing. A separate congressional referral alleges false testimony; neither establishes wrongdoing.",
+            "defense": "Noem defended the contracting process and described presidential approval. Contradictory accounts do not establish knowing deception or personal enrichment.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters"
+            ],
+            "event_ids": [],
+            "watch": "Contract records, responsibility and intent, final investigative findings and actual support for proceeding after departure."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "Credible records of a financial arrangement could draw support from senators in both parties. The disputed evidence, timing and competing House priorities make an impeachment vote less certain.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The Hegseth vote supplies no evidence about the alleged donor-access arrangement. The November 13 records deadline is the next case-specific test."
+          },
+          "basis": {
+            "allegations": "Oversight Democrats continue an inquiry after her departure into an alleged financial arrangement. Republican concern is not a conviction pledge.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns"
+            ],
+            "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "The House Oversight majority criticized Justice Department redactions. Its release does not establish a case-specific decision by Blanche or a coalition for articles against him.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The House Oversight majority criticized Justice Department redactions. Its release does not establish a case-specific decision by Blanche or a coalition for articles against him."
+          },
+          "basis": {
+            "allegations": "House members have explicitly supported impeachment. Oversight may develop a case, but hypothetical future obstruction is not present misconduct.",
+            "defense": "Executive direction, official representation and disputed legal arguments are not by themselves proof of impeachable abuse.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support",
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense",
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific evidence of personal acts, court findings, congressional agenda and cross-party Senate support."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Reported post-election blame gives no new evidence that resolves Wiles’s eligibility or identifies an impeachable personal act.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Reported post-election blame gives no new evidence that resolves Wiles’s eligibility or identifies an impeachable personal act."
+          },
+          "basis": {
+            "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means"
+            ],
+            "event_ids": [],
+            "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The oversight report gives investigators specific failures to examine. This review did not establish a case-specific coalition or a verified new proceeding against Patel.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The oversight report gives investigators specific failures to examine. This review did not establish a case-specific coalition or a verified new proceeding against Patel."
+          },
+          "basis": {
+            "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+            "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The Hegseth procedure did not address Kennedy’s conduct. A case-specific forecast still needs evidence and a congressional path.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The Hegseth procedure did not address Kennedy’s conduct. A case-specific forecast still needs evidence and a congressional path."
+          },
+          "basis": {
+            "allegations": "Calls for accountability merit case discovery; policy opposition alone does not establish a conviction coalition.",
+            "defense": "The review has yet to establish which specific acts could support articles of impeachment or how Kennedy would answer them.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific conduct, underlying evidence, defenses and congressional agenda."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Reports of private criticism after the election do not establish a proceeding or substantiate a personal allegation. A comparable estimate remains open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Reports of private criticism after the election do not establish a proceeding or substantiate a personal allegation. A comparable estimate remains open."
+          },
+          "basis": {
+            "allegations": "The watchlist tracks public criticism of Lutnick. An impeachment case would require evidence of specific conduct and congressional action.",
+            "defense": "Association, criticism or a resignation demand does not establish wrongdoing or conviction support.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Current evidence of personal acts, defenses and legislative follow-up."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The report examines federal handling of Epstein records. This review did not establish new House action against Bondi or resolve the Senate jurisdiction question for a former official.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The report examines federal handling of Epstein records. This review did not establish new House action against Bondi or resolve the Senate jurisdiction question for a former official."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Senators have disputed when they can try a former official. Evidence and congressional support specific to Bondi remain uncertain.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
     }
   ],
   "tests": [
@@ -997,12 +1369,15 @@
       "case_id": "hegseth",
       "resolve_by": "2026-11-12",
       "claim": "Verify the House disposition and individual votes; procedural tabling or referral is not impeachment.",
-      "status": "pending",
-      "resolution": "",
+      "status": "met",
+      "resolution": "House roll call 317 recorded a 211–204 referral to Judiciary. Massie joined 203 Democrats in voting against referral. The House did not adopt articles.",
       "source_ids": [
-        "rollcall"
+        "rollcall",
+        "hegseth-house-roll-317"
       ],
-      "event_ids": []
+      "event_ids": [
+        "mid-2026-11-10-hegseth-judiciary-referral"
+      ]
     },
     {
       "id": "guilfoyle-records",

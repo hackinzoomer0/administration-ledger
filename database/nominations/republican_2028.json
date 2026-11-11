@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-10",
+  "as_of_date": "2026-11-11",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2643,6 +2643,54 @@
       "verification_status": "read_this_run",
       "receipt_ids": [
         "fdb10a8533e023e6195c01be"
+      ]
+    },
+    {
+      "id": "daily_hegseth_referral_20261111",
+      "url": "https://clerk.house.gov/Votes/2026317",
+      "publisher": "House Clerk",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "description": "The official roll call lists each member’s vote on sending the Hegseth resolution to the Judiciary Committee.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "70d3a50f54f1bfd36406e11b"
+      ]
+    },
+    {
+      "id": "daily_rubio_iran_20261111",
+      "url": "https://www.axios.com/2026/11/10/trump-iran-war-diplomacy-economic-crackdown",
+      "publisher": "Axios",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "description": "Public account of Trump’s preference and attributed accounts of Rubio’s role.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "7d3783f802eb7bc79ad7b2ad"
+      ]
+    },
+    {
+      "id": "daily_gop_leadership_20261111",
+      "url": "https://www.nbcwashington.com/news/politics/republicans-vote-leadership-in-congress/4180504/",
+      "publisher": "NBC News",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "description": "House and Senate Republican leadership results.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "368312a00271882d73fc1b27"
+      ]
+    },
+    {
+      "id": "daily_thune_paul_20261111",
+      "url": "https://rollcall.com/2026/11/10/thune-will-lead-republicans-through-the-minority/",
+      "publisher": "Roll Call",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-11",
+      "description": "Thune returned as leader. Rand Paul rejected attributing state-level losses to Thune.",
+      "verification_status": "read_this_run",
+      "receipt_ids": [
+        "93d8add3ea4c9dd95be77cb0"
       ]
     }
   ],
@@ -18367,6 +18415,437 @@
                 "irn-2026-11-04-vance-postelection-war-critique",
                 "mid-2026-11-05-wiles-hegseth-blame",
                 "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "alternative-coordination",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "mcentee-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri",
+                "project2025",
+                "mcentee_withdrawal",
+                "mcentee_personnel_record",
+                "weekly_tencent_ld2",
+                "weekly_heritage_personnel"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "kemp-electoral-conversion",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "kemp_2026_ajc",
+                "kemp_2026_tax_relief",
+                "kemp_2024_enforcement",
+                "kemp_2019_life_act"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "coalition-conversion-common-2027-04",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-04-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "causal_ap_recovery"
+              ],
+              "event_ids": [
+                "mid-2026-11-05-congress-control",
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "support-recruitment-2027-02",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-02-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "weekly_paul_massie_support",
+                "daily_vance_brand_20261107"
+              ],
+              "event_ids": []
+            },
+            {
+              "id": "massie-party-choice-2027-02",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-02-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "weekly_massie_route"
+              ],
+              "event_ids": [
+                "suc-2026-11-08-massie-party-route"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2026-11-11-daily",
+        "date": "2026-11-11",
+        "run_id": "2026-11-11",
+        "type": "daily_review",
+        "wargame_ref": "2026-11-09-weekly",
+        "summary": "The November 9 full review supplies the estimates for the eight authorized contenders. Massie forced a recorded House vote on the Hegseth resolution and stood alone among Republicans against sending it to committee. Rubio reportedly backed continued economic pressure on Iran while Vance retains a negotiating role. These developments give the candidates distinct arguments about the war and accountability. Their ability to recruit primary voters, donors or organizers on those arguments remains open.",
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.05,
+          "ron_desantis": 19.45,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. Trump publicly favored continued pressure after meeting Qatar’s prime minister. Vance retains the chance to demonstrate what negotiations can deliver, while Rubio can claim a role in the policy Trump described.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_rubio_iran_20261111"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "irn-2026-11-10-rubio-economic-pressure"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance retains a negotiating role. Trump’s publicly stated preference for economic pressure gives Rubio another way to claim a role in shaping policy.",
+                "event_ids": [
+                  "irn-2026-11-10-rubio-economic-pressure"
+                ],
+                "source_ids": [
+                  "daily_rubio_iran_20261111"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. Axios attributed to U.S. officials that Rubio pushed to keep economic pressure on Iran. That gives him a case for avoiding renewed strikes while defending Trump’s earlier use of force. Its reception among Republicans remains unknown.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "daily_rubio_iran_20261111"
+            ],
+            "event_ids": [
+              "irn-2026-11-10-rubio-economic-pressure"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio’s access to foreign counterparts gives him a way to explain sustained pressure. His reported advocacy gives Republicans who favor that approach a reason to pay attention to him, while campaign commitments remain open.",
+                "event_ids": [
+                  "irn-2026-11-10-rubio-economic-pressure"
+                ],
+                "source_ids": [
+                  "daily_rubio_iran_20261111"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. This intake did not establish a change in the candidate’s plans to run, campaign organization or backing.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. This intake did not establish a change in the candidate’s plans to run, campaign organization or backing.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. This intake did not establish a change in the candidate’s plans to run, campaign organization or backing.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. Paul publicly rejected blaming Senate leader John Thune for state-level election losses. This distinguishes his criticism of administration policy from a bid to remove the Senate Republican leader.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "daily_thune_paul_20261111"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-republican-leadership-results"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Paul’s defense of Thune on the election results can preserve working relationships while he contests administration policy.",
+                "event_ids": [
+                  "mid-2026-11-10-republican-leadership-results"
+                ],
+                "source_ids": [
+                  "daily_thune_paul_20261111"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. This intake did not establish a change in the candidate’s plans to run, campaign organization or backing.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly review schedule. Massie was the sole Republican to oppose referral of his Hegseth impeachment resolution. The vote gives him a public record of challenging Trump’s defense secretary, while showing how little Republican support he drew on the floor.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "daily_hegseth_referral_20261111"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Massie gives Republican war critics a recorded example of congressional dissent. The near-unified Republican referral vote shows his limits inside the outgoing House.",
+                "event_ids": [
+                  "mid-2026-11-10-hegseth-judiciary-referral"
+                ],
+                "source_ids": [
+                  "daily_hegseth_referral_20261111"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "The estimates are conditional on the eight authorized contenders. Other candidates can enter or win.",
+          "The Hegseth vote and Rubio’s reported role warrant a fresh look at the November 9 estimates in the weekly review.",
+          "This focused review did not establish how Republican primary voters, donors or organizers responded. Several election calls, court proceedings and foreign-policy outcomes remain open."
+        ],
+        "monitoring": {
+          "summary": "The November 9 estimates held. The Hegseth referral and Rubio’s reported Iran role may affect how voters compare the candidates. Their effects on campaign support remain unknown.",
+          "developments": [
+            {
+              "finding": "Massie was the sole Republican to oppose referral of his Hegseth impeachment resolution. The vote gives him a public record of challenging Trump’s defense secretary, while showing how little Republican support he drew on the floor.",
+              "implication": "Massie gives war critics a recorded example of dissent. The Pentagon retains Republican protection on this House procedure.",
+              "weekly_question": "Can Massie recruit Republicans who oppose the war but still support Trump, and would those supporters participate in a Republican primary?",
+              "source_ids": [
+                "daily_hegseth_referral_20261111"
+              ],
+              "event_ids": [
+                "mid-2026-11-10-hegseth-judiciary-referral"
+              ]
+            },
+            {
+              "finding": "Axios attributed to U.S. officials that Rubio pushed to keep economic pressure on Iran. That gives him a case for avoiding renewed strikes while defending Trump’s earlier use of force. Its reception among Republicans remains unknown.",
+              "implication": "Rubio’s reported advocacy gives Republicans who favor sustained pressure a candidate who can explain the policy.",
+              "weekly_question": "Do Republican voters see continued economic pressure as a different course from the war, and does Rubio receive credit or blame for it?",
+              "source_ids": [
+                "daily_rubio_iran_20261111"
+              ],
+              "event_ids": [
+                "irn-2026-11-10-rubio-economic-pressure"
+              ]
+            },
+            {
+              "finding": "Trump publicly favored continued pressure after meeting Qatar’s prime minister. Vance retains the chance to demonstrate what negotiations can deliver, while Rubio can claim a role in the policy Trump described.",
+              "implication": "Negotiating access gives Vance a chance to demonstrate results. Rubio’s reported role gives him a competing claim to influence.",
+              "weekly_question": "Would a negotiated result distinguish Vance from Rubio among voters who want to end the war and still approve of Trump?",
+              "source_ids": [
+                "daily_rubio_iran_20261111"
+              ],
+              "event_ids": [
+                "irn-2026-11-10-rubio-economic-pressure"
+              ]
+            },
+            {
+              "finding": "Paul publicly rejected blaming Senate leader John Thune for state-level election losses. This distinguishes his criticism of administration policy from a bid to remove the Senate Republican leader.",
+              "implication": "Paul’s defense of Thune on this point can preserve working relationships while Paul contests specific policies.",
+              "weekly_question": "Can Paul keep working relationships with Senate Republicans while recruiting primary voters who want to constrain the president’s war powers?",
+              "source_ids": [
+                "daily_thune_paul_20261111"
+              ],
+              "event_ids": [
+                "mid-2026-11-10-republican-leadership-results"
+              ]
+            }
+          ],
+          "prediction_updates": [
+            {
+              "id": "vance-selective-loyalty",
+              "status": "unresolved",
+              "resolution": "Terminal deadline 2027-02-01 is not due. This focused intake establishes no terminal resolution; original claim, test and deadline remain intact.",
+              "source_ids": [
+                "ap_voter_poll_2026_results",
+                "blumenthal_2026_preservation",
+                "harris_oct2026_primary",
+                "prri"
+              ],
+              "event_ids": [
+                "irn-2026-11-04-vance-postelection-war-critique",
+                "mid-2026-11-05-wiles-hegseth-blame",
+                "mid-2026-11-06-miller-chief-staff"
+              ]
+            },
+            {
+              "id": "congress-accountability",
+              "status": "unresolved",
+              "resolution": "The outgoing House referred the Hegseth resolution to Judiciary on November 10. This interim vote shows current Republican cohesion on procedure. The April 1 test concerning the next Congress remains open.",
+              "source_ids": [
+                "daily_hegseth_referral_20261111",
+                "daily_gop_leadership_20261111"
+              ],
+              "event_ids": [
+                "mid-2026-11-10-hegseth-judiciary-referral",
+                "mid-2026-11-10-republican-leadership-results"
               ]
             },
             {

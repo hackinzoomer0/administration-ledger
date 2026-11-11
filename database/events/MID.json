@@ -2441,6 +2441,52 @@
       ],
       "fx": {},
       "fxnote": "No fx: the specific action is recorded without inferring an unverified policy result or transfer of supporters."
+    },
+    {
+      "id": "mid-2026-11-10-hegseth-judiciary-referral",
+      "date": "2026-11-10",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "IRN",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "U.S. House of Representatives",
+      "text": "House votes 211–204 to send the bid to impeach Defense Secretary Pete Hegseth to committee",
+      "context": "On November 10, 210 Republicans and independent Kevin Kiley voted to send the resolution to the House Judiciary Committee. Thomas Massie was the only Republican to oppose the motion, joining 203 Democrats. Eighteen members did not vote. The White House opposed impeachment. The House took no vote on the articles, and Hegseth remains in office.",
+      "source": "https://clerk.house.gov/Votes/2026317",
+      "url": "https://clerk.house.gov/Votes/2026317",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Massie moved the dispute onto the floor. Trump’s public defense was followed by a nearly unified Republican procedural vote, which reduced the immediate threat to Hegseth. The roll call measured support for referral.",
+      "origin": "daily shared intake",
+      "added": "2026-11-11",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The House took a specific procedural action. The vote does not establish Senate support for conviction or future action by the incoming House."
+    },
+    {
+      "id": "mid-2026-11-10-republican-leadership-results",
+      "date": "2026-11-10",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "House Republican Conference and Senate Republican Conference",
+      "text": "House Republicans choose Jim Jordan as their next leader, and Senate Republicans keep John Thune",
+      "context": "NBC News reported that Judiciary Chairman Jim Jordan defeated Majority Leader Steve Scalise after Speaker Mike Johnson withdrew. Jordan told Republican colleagues that his committee experience would help him counter Democratic investigations. Senators retained Thune despite calls to delay the election after the party’s losses. Roll Call reported that Senator Rand Paul rejected blaming Thune for state-level losses, even as Senator Ron Johnson objected to holding the leadership vote before the party had debated the results.",
+      "source": "https://www.nbcwashington.com/news/politics/republicans-vote-leadership-in-congress/4180504/ ; https://rollcall.com/2026/11/10/thune-will-lead-republicans-through-the-minority/",
+      "url": "https://www.nbcwashington.com/news/politics/republicans-vote-leadership-in-congress/4180504/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Jordan gains the ability to coordinate House Republicans’ response to investigations in January. Thune keeps that role in the Senate. Democrats are projected to control committee and floor scheduling in both chambers.",
+      "origin": "daily shared intake",
+      "added": "2026-11-11",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Republican caucus leadership was decided. The January committee agenda and subsequent votes remain open."
     }
   ]
 }
