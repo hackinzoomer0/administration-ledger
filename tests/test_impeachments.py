@@ -94,10 +94,22 @@ class ImpeachmentTests(unittest.TestCase):
             validate(self.after, self.before)
 
     def test_due_tests_and_original_deadlines_remain_auditable(self):
-        self.doc['tests'][0]['resolve_by'] = '2026-11-09'
+        original = dict(
+            id='fixture-dated-test',
+            case_id='hegseth',
+            claim='Verify the House disposition in the test fixture.',
+            resolve_by='2026-11-12',
+            status='pending',
+            resolution='',
+            source_ids=[],
+            event_ids=[],
+        )
+        self.before['collections']['impeachments']['all']['tests'].append(original)
+        current = dict(original, resolve_by='2026-11-09')
+        self.doc['tests'].append(current)
         with self.assertRaisesRegex(ValueError, 'due test'):
             validate(self.after)
-        self.doc['tests'][0].update(status='unresolved', resolution='Official result inaccessible; must recover it.')
+        current.update(status='unresolved', resolution='The official result was unavailable in the fixture.')
         validate(self.after)
         with self.assertRaisesRegex(ValueError, 'claims/deadlines'):
             validate(self.after, self.before)
