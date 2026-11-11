@@ -24,7 +24,13 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run database:validate
-      - run: npx playwright install --with-deps chromium
+      - name: Prepare browser for Playwright
+        run: |
+          if chrome="$(command -v google-chrome)"; then
+            echo "CHROME_PATH=$chrome" >> "$GITHUB_ENV"
+          else
+            npx playwright install --with-deps chromium
+          fi
       - run: npm run test:e2e
       - run: python3 scripts/privacy.py --require-config --dist dist
         env:
