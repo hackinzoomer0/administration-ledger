@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-11",
+  "as_of_date": "2026-11-12",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2691,6 +2691,78 @@
       "verification_status": "read_this_run",
       "receipt_ids": [
         "93d8add3ea4c9dd95be77cb0"
+      ]
+    },
+    {
+      "id": "daily_massie_petition_20261112",
+      "url": "https://clerk.house.gov/DischargePetition/2026083127",
+      "publisher": "House Clerk",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-12",
+      "description": "The House clerk lists the petition’s 218th signature on November 11.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "d271e0dc9bb69199111a3cba"
+      ]
+    },
+    {
+      "id": "daily_massie_axios_20261112",
+      "url": "https://www.axios.com/2026/11/11/massie-epstein-files-second-vote",
+      "publisher": "Axios",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-12",
+      "description": "Explains who could sue for Epstein records under Massie’s bill and reports the White House response.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "0330039df8f8110233d58d5d"
+      ]
+    },
+    {
+      "id": "daily_chip_axios_20261112",
+      "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+      "publisher": "Axios",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-12",
+      "description": "Attributes internal talks and delays to sources and reports Commerce’s denial of the confrontation.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "17fcf8e402376fbab360d0ef"
+      ]
+    },
+    {
+      "id": "daily_oversight_ap_20261112",
+      "url": "https://apnews.com/article/12acd4e233792f687b80eb9636aea18d",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-12",
+      "description": "Reports the White House warning over planned congressional investigations and lawmakers’ public replies.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "432446437fc446bb5863bd0b"
+      ]
+    },
+    {
+      "id": "daily_judges_ap_20261112",
+      "url": "https://apnews.com/article/d277bc62b82507c2e9a5499070e4cce3",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-12",
+      "description": "Reports Senate resistance to Trump’s Arkansas appeals court nominee and the timing of Senator Ted Cruz’s staff outreach about a Texas vacancy.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "1a636a1cae8ac10fc2cd546a"
+      ]
+    },
+    {
+      "id": "daily_durbin_judges_20261112",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-slams-senate-judiciary-republicans-for-attempting-to-jam-through-extreme-judicial-nominees-before-democrats-take-senate-majority",
+      "publisher": "Senate Judiciary Committee Democrats",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-12",
+      "description": "Senator Dick Durbin describes the questionnaire and objects to the pace of the Texas nomination process.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "1aa87b028c31720ea80cd155"
       ]
     }
   ],
@@ -18927,6 +18999,362 @@
               ],
               "event_ids": [
                 "suc-2026-11-08-massie-party-route"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2026-11-12-daily",
+        "date": "2026-11-12",
+        "run_id": "2026-11-12",
+        "type": "daily_review",
+        "wargame_ref": "2026-11-09-weekly",
+        "summary": "The November 9 full review supplies the odds for the eight authorized contenders. Representative Thomas Massie secured enough signatures to seek a House vote on a second Epstein records bill. That gives him another example of working with Democrats on oversight. Secretary of State Marco Rubio took part in internal discussions about Nvidia chip restrictions, according to Axios. The available evidence leaves open how either development affects primary voters, donors or organizers.",
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.05,
+          "ron_desantis": 19.45,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The available reporting leaves open whether Qatar’s mediation will yield terms Vance can help deliver.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_rubio_iran_20261111"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "irn-2026-11-10-rubio-economic-pressure"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance retains a negotiating role. Trump’s publicly stated preference for economic pressure gives Rubio another way to claim a role in shaping policy.",
+                "event_ids": [
+                  "irn-2026-11-10-rubio-economic-pressure"
+                ],
+                "source_ids": [
+                  "daily_rubio_iran_20261111"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Axios places Rubio in discussions over chip restrictions. Commerce’s reported delay shows why participation alone may yield little electoral credit.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "daily_rubio_iran_20261111",
+              "daily_chip_axios_20261112"
+            ],
+            "event_ids": [
+              "irn-2026-11-10-rubio-economic-pressure",
+              "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio’s access to foreign counterparts gives him a way to explain sustained pressure. His reported advocacy gives Republicans who favor that approach a reason to pay attention to him, while campaign commitments remain open.",
+                "event_ids": [
+                  "irn-2026-11-10-rubio-economic-pressure"
+                ],
+                "source_ids": [
+                  "daily_rubio_iran_20261111"
+                ]
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Axios places Rubio in discussions over chip restrictions. Commerce’s reported delay shows why participation alone may yield little electoral credit.",
+                "event_ids": [
+                  "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+                ],
+                "source_ids": [
+                  "daily_chip_axios_20261112"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The review found no new evidence about his decision to run or ability to recruit outside Florida.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Cruz’s staff moved early on a Texas judicial opening. Cornyn questioned the vetting, and neither confirmation nor presidential backing was established.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "daily_judges_ap_20261112",
+              "daily_durbin_judges_20261112"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-rudofsky-nomination-withdrawn"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Cruz’s staff can help identify judicial candidates before the Senate changes hands. Other Republican senators can challenge those choices, as Cornyn did on the vetting process.",
+                "event_ids": [
+                  "mid-2026-11-10-rudofsky-nomination-withdrawn"
+                ],
+                "source_ids": [
+                  "daily_judges_ap_20261112",
+                  "daily_durbin_judges_20261112"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The congressional disputes leave his ability to build a presidential campaign untested.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Massie’s petition shows what a House ally can do on disclosure. It supplies no evidence of a joint presidential effort or a transfer of supporters.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "daily_thune_paul_20261111"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-republican-leadership-results"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Paul’s defense of Thune on the election results can preserve working relationships while he contests administration policy.",
+                "event_ids": [
+                  "mid-2026-11-10-republican-leadership-results"
+                ],
+                "source_ids": [
+                  "daily_thune_paul_20261111"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The review found no new evidence that his Georgia relationships have produced a national campaign.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The petition shows Massie can work with Democrats on disclosure. Whether that helps him recruit Republican presidential supporters remains open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "daily_hegseth_referral_20261111",
+              "daily_massie_petition_20261112",
+              "daily_massie_axios_20261112"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "eps-2026-11-11-massie-epstein-petition-threshold"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Massie gives Republican war critics a recorded example of congressional dissent. The near-unified Republican referral vote shows his limits inside the outgoing House.",
+                "event_ids": [
+                  "mid-2026-11-10-hegseth-judiciary-referral"
+                ],
+                "source_ids": [
+                  "daily_hegseth_referral_20261111"
+                ]
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "The petition shows Massie can work with Democrats on disclosure. Whether that helps him recruit Republican presidential supporters remains open.",
+                "event_ids": [
+                  "eps-2026-11-11-massie-epstein-petition-threshold"
+                ],
+                "source_ids": [
+                  "daily_massie_petition_20261112",
+                  "daily_massie_axios_20261112"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "No representative Republican primary reaction, donor commitments or early-state organizing were established.",
+          "Iran negotiations and any resulting changes to Rubio’s or Vance’s role remain open.",
+          "Massie’s floor vote and choice of party remain open. Commerce’s response to the proposed chip controls remains unverified.",
+          "The November 9 odds may understate or overstate candidates’ ability to benefit from congressional investigations. The next weekly review should test that possibility."
+        ],
+        "monitoring": {
+          "summary": "The eight active terminal tests were checked against the calendar. The earliest deadline is February 1, 2027. The petition is an interim observation on oversight cooperation. It leaves Massie’s party choice and presidential recruiting tests open.",
+          "prediction_updates": [],
+          "developments": [
+            {
+              "finding": "Massie gathered 218 signatures for another Epstein records vote.",
+              "implication": "He can show disclosure advocates a result from working across parties. Only four Republicans signed.",
+              "weekly_question": "Can Massie turn support for disclosure into named presidential organizers while keeping a Republican route open? Compare with Rand Paul under the same recruiting standard.",
+              "source_ids": [
+                "daily_massie_petition_20261112",
+                "daily_massie_axios_20261112"
+              ],
+              "event_ids": [
+                "eps-2026-11-11-massie-epstein-petition-threshold"
+              ]
+            },
+            {
+              "finding": "Axios reported that Commerce delayed proposed chip controls despite discussions involving Rubio and other senior officials.",
+              "implication": "Republicans who favor stronger export controls may judge Rubio by the rule Commerce actually implements.",
+              "weekly_question": "Which candidate can show a concrete policy result on chip exports or Iran, and which relevant groups give that candidate credit?",
+              "source_ids": [
+                "daily_chip_axios_20261112"
+              ],
+              "event_ids": [
+                "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+              ]
+            },
+            {
+              "finding": "Cruz’s staff contacted a prospective Texas judicial nominee the day after the election.",
+              "implication": "The move shows Cruz can participate in judicial selection. Confirmation, credit among conservative legal groups and any campaign benefit remain open.",
+              "weekly_question": "Does action on judicial appointments give Cruz a distinct recruiting argument with conservative legal groups? Check named commitments and compare with other contenders.",
+              "event_ids": [
+                "mid-2026-11-10-rudofsky-nomination-withdrawn"
+              ],
+              "source_ids": [
+                "daily_judges_ap_20261112",
+                "daily_durbin_judges_20261112"
               ]
             }
           ]

@@ -1,0 +1,1562 @@
+{
+  "date": "2026-11-12",
+  "type": "daily_review",
+  "added": 6,
+  "summary": "The White House warned Democrats over their planned investigations, and incoming oversight leaders publicly said they would proceed. Representative Thomas Massie gathered enough signatures to seek another House vote on Epstein records, a day after the House sent his effort to impeach Defense Secretary Pete Hegseth to committee. The Associated Press called Mississippi’s Senate race for Democrat Scott Colom, widening the projected Democratic majority to 55 seats. Trump withdrew appeals court nominee Lee Rudofsky and nominated Cody Hiland after Republican senators resisted the original choice. Ukraine and Russia announced a prisoner exchange agreement in Abu Dhabi and still had to arrange a transfer. Axios reported that Commerce Secretary Howard Lutnick delayed proposed restrictions on companies suspected of diverting Nvidia chips to China. The Minneapolis zoning vote, Alaska and Kansas election calls, negotiations over Iran and Venezuela, and Federal Reserve Governor Lisa Cook’s hearing remain open.",
+  "scope": "Focused November 11–12 review of congressional oversight and election calls, the Abu Dhabi prisoner agreement, the Nvidia export dispute and pending decisions. The Minneapolis vote, Alaska and Kansas calls, Iran and Venezuela negotiating outcomes, and the latest court and hearing developments for Federal Reserve Governor Lisa Cook remain open.",
+  "reviewed_episode_ids": [
+    "mid-2026-11-10-hegseth-judiciary-referral",
+    "eps-2026-11-11-massie-epstein-petition-threshold",
+    "rus-2026-11-11-abu-dhabi-exchange-agreement",
+    "mid-2026-11-11-colom-mississippi-senate-call",
+    "mid-2026-11-11-white-house-oversight-warning",
+    "ai-2026-11-11-lutnick-nvidia-export-delay-report",
+    "mid-2026-11-10-rudofsky-nomination-withdrawn"
+  ],
+  "changed_entries": [
+    "assessments/current",
+    "assessments/issues",
+    "events/EPS",
+    "events/RUS",
+    "events/MID",
+    "events/AI",
+    "factions/dissenters",
+    "factions/treasury",
+    "nominations/republican_2028",
+    "impeachments/all"
+  ],
+  "unresolved_claims": [
+    "Alaska Senate and governor",
+    "Kansas governor",
+    "Massie Epstein records bill",
+    "Abu Dhabi prisoner exchange",
+    "Minneapolis data-center zoning",
+    "Israel government formation",
+    "Qatar mediation and U.S. military or enforcement orders",
+    "Lisa Cook hearing and lower-court case",
+    "Venezuela negotiations",
+    "Big Bend construction",
+    "Lukoil authorization",
+    "Guilfoyle records request",
+    "Nvidia board inquiry and chip rule",
+    "Tariff and trade implementation"
+  ],
+  "evidence_needed": [
+    "Alaska Senate and governor. AP reported ongoing counting and a ruling declining the Peltola campaign’s request for absentee ballot data. The state count and ranked tabulation remain on watch.",
+    "Kansas governor. AP reporting describes an audit. No later call was established in this intake.",
+    "Massie Epstein records bill. The House clerk recorded enough signatures to seek floor consideration.",
+    "Abu Dhabi prisoner exchange. Both sides announced an agreement in principle. A handover has yet to be verified.",
+    "Minneapolis data-center zoning. City schedule lists November 12 consideration. The legislative file was inaccessible.",
+    "Israel government formation. Eisenkot is negotiating after parliament convened. No governing coalition was verified.",
+    "Qatar mediation and U.S. military or enforcement orders. Searched for accepted terms and new orders. They remain unverified.",
+    "Lisa Cook hearing and lower-court case. June stay denial rechecked. The new hearing date and latest district court order were not confirmed.",
+    "Venezuela negotiations. Searched twice. The result remains unverified.",
+    "Big Bend construction. Prior legal permission carries forward. Work on site was not established.",
+    "Lukoil authorization. Treasury’s existing authorization runs through November 21. A later extension was not verified.",
+    "Guilfoyle records request. House Oversight Democrats’ letter sets a November 13 deadline.",
+    "Nvidia board inquiry and chip rule. Internal delay reported. Neither a board conclusion nor an operative restriction was verified.",
+    "Tariff and trade implementation. Screened indexes. No operative change credited."
+  ],
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "daily-oversight-response",
+        "question": "Can Congress bring records disputes to a vote despite White House opposition?",
+        "importance": "The answer can change who controls the next decision or what the political consequence is.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/current/nomination",
+          "impeachments/all"
+        ],
+        "current_answer": "The petition gives Massie a way to seek floor time. The White House warning prompted public resistance from Garcia and Blumenthal. Vote timing and audience response remain open.",
+        "explanations": [
+          {
+            "explanation": "Members can use the petition procedure independently of the speaker’s preference.",
+            "weight": "dominant",
+            "reason": "The House clerk records 218 signatures.",
+            "discriminating_observation": "A floor motion and the roll call."
+          },
+          {
+            "explanation": "The warning could make a politically costly inquiry harder to sustain.",
+            "weight": "credible",
+            "reason": "The White House is publicly challenging investigators, but named lawmakers publicly say they will proceed.",
+            "discriminating_observation": "A chair withdraws a request or members publicly distance themselves."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The House passes the second Epstein records bill.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Petition signatures show willingness to seek consideration.",
+            "assessment_effect": "Reassess survivors’ practical access to court and whether the bill can pass the Senate."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The petition gives Massie a way to seek floor time. The White House warning prompted public resistance from Garcia and Blumenthal. Vote timing and audience response remain open.",
+        "next_action": "Check the floor calendar and responses from leaders, Republicans and survivors.",
+        "next_check": "2026-11-13",
+        "source_receipt_ids": [
+          "d271e0dc9bb69199111a3cba",
+          "0330039df8f8110233d58d5d",
+          "432446437fc446bb5863bd0b"
+        ]
+      },
+      {
+        "id": "daily-russia-exchange",
+        "question": "Did the Abu Dhabi talks produce an agreement the parties can carry out?",
+        "importance": "The answer can change who controls the next decision or what the political consequence is.",
+        "affected_assessments": [
+          "assessments/issues/RUS"
+        ],
+        "current_answer": "Both delegations publicly described an agreement in principle. A handover and exact terms remain unverified.",
+        "explanations": [
+          {
+            "explanation": "The talks delivered a limited humanitarian agreement.",
+            "weight": "dominant",
+            "reason": "Readable reporting attributes the agreement to both lead negotiators.",
+            "discriminating_observation": "A date, lists or a verified handover."
+          },
+          {
+            "explanation": "The talks delivered a wider settlement.",
+            "weight": "limited",
+            "reason": "Publicly described results concern prisoners and continued negotiation.",
+            "discriminating_observation": "A published operative ceasefire or accepted settlement."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "A documented prisoner transfer takes place.",
+            "likelihood": "moderate",
+            "impact": "moderate",
+            "reason": "Both delegations announced agreement, with details still open.",
+            "assessment_effect": "Credit the humanitarian outcome and check whether wider talks advance."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Both delegations publicly described an agreement in principle. A handover and exact terms remain unverified.",
+        "next_action": "Check for announced terms and actual transfer.",
+        "next_check": "2026-11-13",
+        "source_receipt_ids": [
+          "b18eb2195fdbe58c3a3ac5c5",
+          "5c7a3779c92bbd3ffb46adf9",
+          "923f3addec3ed975fd6b5ddd"
+        ]
+      },
+      {
+        "id": "daily-chip-implementation",
+        "question": "Who can turn presidential support for chip restrictions into a rule that companies must follow?",
+        "importance": "The answer can change who controls the next decision or what the political consequence is.",
+        "affected_assessments": [
+          "assessments/issues/AI",
+          "assessments/current/nomination",
+          "impeachments/all"
+        ],
+        "current_answer": "Axios’s attributed reporting gives weight to Commerce’s ability to delay a decision. The department disputed part of the account and an operative restriction is unverified.",
+        "explanations": [
+          {
+            "explanation": "Commerce can hold up implementation while the president’s decision is revisited.",
+            "weight": "credible",
+            "reason": "Several sources described approvals followed by delays.",
+            "discriminating_observation": "A signed rule or a documented instruction to hold it."
+          },
+          {
+            "explanation": "The delays reflect unresolved policy or evidentiary questions.",
+            "weight": "credible",
+            "reason": "The report describes repeated White House discussions and a partial denial. The internal documents are unavailable.",
+            "discriminating_observation": "A documented reason for withholding or narrowing the action."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Commerce publishes restrictions on identified companies.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The reporting describes approval and delay but gives no publication timetable.",
+            "assessment_effect": "Reassess which officials delivered policy and the effect on sales."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Axios’s attributed reporting gives weight to Commerce’s ability to delay a decision. The department disputed part of the account and an operative restriction is unverified.",
+        "next_action": "Check the Bureau of Industry and Security and seek an independent account of the delay.",
+        "next_check": "2026-11-13",
+        "source_receipt_ids": [
+          "17fcf8e402376fbab360d0ef"
+        ]
+      },
+      {
+        "id": "daily-postelection-leadership",
+        "question": "Does the Hegseth referral show that House leaders can sustain party discipline after the midterms?",
+        "importance": "The answer can change who controls the next decision or what the political consequence is.",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "impeachments/all"
+        ],
+        "current_answer": "The roll call shows broad Republican support for referral among those voting. Some Democrats publicly apologized for missing it. Anonymous criticism of preparation does not establish how members would vote on articles.",
+        "explanations": [
+          {
+            "explanation": "Republican backing for referral and Democratic absences jointly shaped the outcome.",
+            "weight": "dominant",
+            "reason": "The clerk’s tally and membership breakdown establish both facts.",
+            "discriminating_observation": "Attendance and votes on the next comparable procedure."
+          },
+          {
+            "explanation": "The roll call shows the Senate would reject conviction.",
+            "weight": "limited",
+            "reason": "The vote involved House referral and the outgoing chamber.",
+            "discriminating_observation": "Named senators take positions on specific articles."
+          },
+          {
+            "explanation": "Home-state consultation explains the Arkansas judicial dispute better than a general revolt against Trump.",
+            "weight": "credible",
+            "reason": "This concerns a separate Senate decision. Boozman publicly defended state senators’ input. The White House substituted another Arkansas judge for the same seat.",
+            "discriminating_observation": "Check whether the same senators oppose Trump on unrelated nominations or policy votes."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Incoming House leaders schedule a vote on Hegseth articles.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Control changes in January, and the new agenda remains open.",
+            "assessment_effect": "Reassess House adoption separately from Senate support."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The roll call shows broad Republican support for referral among those voting. Some Democrats publicly apologized for missing it. Anonymous criticism of preparation does not establish how members would vote on articles. The separate judicial withdrawal shows that Republican senators still contest some presidential choices.",
+        "next_action": "Check floor scheduling, public commitments and continued pressure on leadership.",
+        "next_check": "2026-11-13",
+        "source_receipt_ids": [
+          "70d3a50f54f1bfd36406e11b",
+          "ada6a90af84bc0d5c5ddf9c8",
+          "8f7c3830f6382209150bdefa",
+          "0a1f875b7499b72f8c0088ff",
+          "4e58ad49f8b786b8be4312c2",
+          "1a636a1cae8ac10fc2cd546a",
+          "f0a2452cb4e7ccc3db3b2eeb",
+          "1aa87b028c31720ea80cd155"
+        ]
+      },
+      {
+        "id": "weekly-siting-chokepoints",
+        "question": "Will Minneapolis require a separate council vote on each new data center?",
+        "importance": "The answer can change who controls the next decision or what the political consequence is.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "The city listed November 12 consideration. The council disposition was still pending at intake.",
+        "explanations": [
+          {
+            "explanation": "The council can make local approval a separate hurdle for projects.",
+            "weight": "dominant",
+            "reason": "The city has a zoning proposal on its calendar.",
+            "discriminating_observation": "Adopted ordinance and vote record."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The city adopts project-specific review.",
+            "likelihood": "unknown",
+            "impact": "moderate",
+            "reason": "The local proposal is under consideration.",
+            "assessment_effect": "Update who can block a project and keep utility approvals separate."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The city listed November 12 consideration. The council disposition was still pending at intake.",
+        "next_action": "Check council action and the adopted text after the meeting.",
+        "next_check": "2026-11-13",
+        "source_receipt_ids": [
+          "d63560920395dca44aac9333",
+          "ca3615f0705cef7d52158bda",
+          "9860016f07013919952ee5d2"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "weekly-policy-correction": "Continued in the Iran coverage check. Accepted terms and their reception remain open. Recheck November 13."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-12",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Reviewed the reported Commerce delay and Minneapolis timetable. An operative chip rule and the city vote remain open.",
+        "attempt_receipt_ids": [
+          "17fcf8e402376fbab360d0ef"
+        ]
+      },
+      "EPS": {
+        "last_verified": "2026-11-12",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Verified the petition threshold and read the White House response. No later floor disposition established.",
+        "attempt_receipt_ids": [
+          "d271e0dc9bb69199111a3cba"
+        ]
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Rechecked the June Supreme Court stay denial. The later hearing and lower-court disposition remain unverified.",
+        "attempt_receipt_ids": [
+          "c6cc8bf9a3c8cbf6037f98b2"
+        ]
+      },
+      "IMM": {
+        "last_verified": "2026-11-08",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "AP reported continued enforcement. Big Bend construction and any operational change remain open.",
+        "attempt_receipt_ids": [
+          "aa340971d356cb1a5c569e7d"
+        ]
+      },
+      "IRN": {
+        "last_verified": "2026-11-08",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Searched for accepted terms and reviewed Israeli coalition coverage. New Iran terms and an Israeli government remain pending.",
+        "attempt_receipt_ids": [
+          "cb9285066911dc937f9dfc53"
+        ]
+      },
+      "MID": {
+        "last_verified": "2026-11-12",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Reviewed the Mississippi call, the Hegseth roll call and oversight reactions. Alaska and Kansas remain open.",
+        "attempt_receipt_ids": [
+          "0a1f875b7499b72f8c0088ff"
+        ]
+      },
+      "RUS": {
+        "last_verified": "2026-11-12",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Verified public agreement in principle through readable reporting. Transfer and wider terms remain open.",
+        "attempt_receipt_ids": [
+          "b18eb2195fdbe58c3a3ac5c5"
+        ]
+      },
+      "SUC": {
+        "last_verified": "2026-11-08",
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Reviewed Massie and Rubio developments. Primary reception, donor commitments and organizing remain unverified.",
+        "attempt_receipt_ids": [
+          "0330039df8f8110233d58d5d"
+        ]
+      },
+      "TAR": {
+        "last_verified": null,
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Screened Treasury and trade leads. No new operative trade measure credited.",
+        "attempt_receipt_ids": [
+          "aa340971d356cb1a5c569e7d"
+        ],
+        "escalation": "Seek an operative document or independent dated reporting in the next intake."
+      },
+      "VEN": {
+        "last_verified": null,
+        "next_action": "Follow up on the open decision described in this coverage note.",
+        "next_check": "2026-11-13",
+        "reason": "Two targeted searches did not establish a current negotiating outcome. The November 15 watch remains open.",
+        "attempt_receipt_ids": [
+          "f2297789aaf3556d7d016b01"
+        ],
+        "escalation": "Seek an operative document or independent dated reporting in the next intake."
+      }
+    },
+    "discovery_question": "Can Commerce delay chip restrictions despite repeated presidential approvals, and who can compel implementation?",
+    "discovery_disposition": "Incorporated the reported separation between approval and implementation. An agency rule or written instruction would distinguish a temporary hold from settled policy.",
+    "premise_reconciliation": "House referral measures procedure. The petition measures access to the House floor. The Senate count informs the general coalition threshold. None supplies a tally on articles. The prisoner exchange announcement and chip approval reports each require separate implementation evidence.",
+    "source_receipts": [
+      {
+        "id": "d63560920395dca44aac9333",
+        "kind": "query",
+        "value": "November 12 2026 Minneapolis city council data center zoning vote ordinance",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Scheduled vote surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "b4cfad5a865d94271fc64d31",
+        "kind": "query",
+        "value": "November 11 12 2026 midterm results Alaska Senate House Jim Jordan Thune Trump election blame Hegseth",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Election calls and reactions surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "31d2e5e37b0259dab2f87476",
+        "kind": "query",
+        "value": "November 11 12 2026 Iran Qatar Vance Rubio agreement Venezuela talks Trump",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Prior Iran mediation surfaced. Venezuela outcome unverified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "d96c26bf6ff7c1eb839dcd33",
+        "kind": "query",
+        "value": "November 11 12 2026 Ukraine Russia Abu Dhabi prisoner exchange",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Exchange announcement surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "e4b2c518cea8ec138662bd49",
+        "kind": "query",
+        "value": "November 12 2026 Lisa Cook Supreme Court removal ruling tariffs Trump immigration Epstein documents",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Prior Cook ruling and oversight leads surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "15621ee82d3949ce48938e6a",
+        "kind": "query",
+        "value": "November 12 2026 Venezuela talks Qatar Iran Vance Rubio truce Trump",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Prior mediation reporting surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "ee9d0de99e7af66340d326fa",
+        "kind": "query",
+        "value": "November 12 2026 Guilfoyle records deadline Hegseth impeachment ethics subpoena Trump blame Jim Jordan",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Records deadline and oversight leads surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "bb9ce891121e41e5588b432e",
+        "kind": "query",
+        "value": "November 12 2026 Israel Eisenkot coalition Minneapolis 2026-00639 council Alaska election results",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "State index and coalition leads surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "f2297789aaf3556d7d016b01",
+        "kind": "query",
+        "value": "November 12 2026 Venezuela United States negotiations oil sanctions Maduro Rodriguez November 11 Reuters",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "No Venezuelan outcome surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "88b2fc9bd7a098b03dfd32bd",
+        "kind": "query",
+        "value": "November 12 2026 Eisenkot coalition Israel government negotiations latest November 11",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Coalition bargaining surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "cb9285066911dc937f9dfc53",
+        "kind": "query",
+        "value": "November 12 2026 Iran Qatar Iran negotiations ceasefire November 11 Trump Rubio Reuters",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "No accepted Iran terms surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "d6907cf54f260df266deb9a8",
+        "kind": "query",
+        "value": "November 12 2026 Minneapolis council data center 2026-00639 meeting vote site:minneapolismn.gov",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "City timetable surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "8de3bfc56ac81633ab69b82c",
+        "kind": "query",
+        "value": "November 12 2026 Kansas governor hand count Alaska governor AP election results",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Pending governor races surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "aa340971d356cb1a5c569e7d",
+        "kind": "query",
+        "value": "November 12 2026 Lukoil OFAC license extension tariffs Greer Big Bend border wall construction",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Prior Lukoil authorization surfaced. No new construction or tariff decision isolated.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "99aa39408c6687cf4ac0b9a6",
+        "kind": "query",
+        "value": "November 12 2026 Todd Blanche Epstein impeachment subpoena November 11 White House",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "White House warning and Blanche comments surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "a45975b816c317d4c52cd2e8",
+        "kind": "query",
+        "value": "November 12 2026 Hegseth Judiciary impeachment subpoena Jeffries November 11 reaction",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Attendance criticism surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "8539d26861824e60e4300f19",
+        "kind": "query",
+        "value": "November 11 2026 Iran enriched uranium naval reactors Reuters Iran IAEA inspection nuclear fleet",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Nuclear dispute leads surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "5e1894a4884fd08313dcacca",
+        "kind": "query",
+        "value": "November 11 2026 Trump Venezuela talks November 15 negotiations oil Reuters Caracas",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "No new Venezuela result surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "2d04c0155945d257ea054ded",
+        "kind": "query",
+        "value": "November 2026 Lisa Cook removal hearing November filing Cook Trump Fed hearing docket",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Daily decision and reaction screen",
+        "status": "read",
+        "result": "Cook case tracker surfaced.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "70d3a50f54f1bfd36406e11b",
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Office of the Clerk, U.S. House of Representatives opened and screened.",
+        "reporting_origin": "clerk.house.gov"
+      },
+      {
+        "id": "0330039df8f8110233d58d5d",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/11/massie-epstein-files-second-vote",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Epstein files vote: Thomas Massie gets 218 signatures for new bill opened and screened.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "b18eb2195fdbe58c3a3ac5c5",
+        "kind": "source",
+        "value": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says opened and screened.",
+        "reporting_origin": "kyivindependent.com"
+      },
+      {
+        "id": "9918967a4db031416991e1a5",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/dems-blow-up-over-11-reps-who-missed-critical-pentagon-pete-hegseth-vote",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Dems Blow Up Over 11 Reps Who Missed Critical Pentagon Pete Hegseth Vote opened and screened.",
+        "reporting_origin": "www.thedailybeast.com"
+      },
+      {
+        "id": "0a1f875b7499b72f8c0088ff",
+        "kind": "source",
+        "value": "https://apnews.com/article/9a0e54363b4c74761212ad55785d2733",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "The Latest: Democrat Scott Colom wins election to US Senate from Mississippi | AP News opened and screened.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "3a49fd92aa544c76059deab5",
+        "kind": "source",
+        "value": "https://apnews.com/article/f42a49a45a2870786f36086c7ad02824",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Judge rules request by Peltola campaign for ballot data in Senate race 'not reasonable' | AP News opened and screened.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "17fcf8e402376fbab360d0ef",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Trump backed Nvidia chip controls aimed at China 3 times as Lutnick stalled opened and screened.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "432446437fc446bb5863bd0b",
+        "kind": "source",
+        "value": "https://apnews.com/article/12acd4e233792f687b80eb9636aea18d",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "White House warns Democrats over planned probes into administration | AP News opened and screened.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "ca3615f0705cef7d52158bda",
+        "kind": "source",
+        "value": "https://lims.minneapolismn.gov/File/2026-00639",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "blocked",
+        "result": "URL https://lims.minneapolismn.gov/File/2026 00639 is not accessible via this tool.  Docket for 25A312 (https://www.supremecourt.gov/docket/docketfiles/html/public/25a312",
+        "reporting_origin": "lims.minneapolismn.gov"
+      },
+      {
+        "id": "c6cc8bf9a3c8cbf6037f98b2",
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/docket/docketfiles/html/public/25a312.html",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Docket for 25A312 opened and screened.",
+        "reporting_origin": "www.supremecourt.gov"
+      },
+      {
+        "id": "d271e0dc9bb69199111a3cba",
+        "kind": "source",
+        "value": "https://clerk.house.gov/DischargePetition/2026083127",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Office of the Clerk, U.S. House of Representatives opened and screened.",
+        "reporting_origin": "clerk.house.gov"
+      },
+      {
+        "id": "5c7a3779c92bbd3ffb46adf9",
+        "kind": "source",
+        "value": "https://t.me/s/umerov_rustem/607",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Рустем Умєров / Rustem Umerov – Telegram opened and screened.",
+        "reporting_origin": "t.me"
+      },
+      {
+        "id": "8f7c3830f6382209150bdefa",
+        "kind": "source",
+        "value": "https://www.washingtonsun.com/the-stakeout/schumers-phone-flips",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "The Stakeout: Schumer’s Phone Flips - The Washington Sun opened and screened.",
+        "reporting_origin": "www.washingtonsun.com"
+      },
+      {
+        "id": "9860016f07013919952ee5d2",
+        "kind": "source",
+        "value": "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Data Centers - City of Minneapolis opened and screened.",
+        "reporting_origin": "www.minneapolismn.gov"
+      },
+      {
+        "id": "fe71541f243f2e85674d0064",
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "2026-10-30.Garcia to Drew Lynch re Guilfoyle CLEAN opened and screened.",
+        "reporting_origin": "oversightdemocrats.house.gov"
+      },
+      {
+        "id": "e7aff2060976b79705024b8c",
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-12-nov-2026",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "blocked",
+        "result": "URL https://theverardogroup.substack.com/p/tvg daily brief 12 nov 2026 is not accessible via this tool.  Office of the Clerk, U.S. House of Representatives (https://clerk",
+        "reporting_origin": "theverardogroup.substack.com"
+      },
+      {
+        "id": "8eb6453f155f1ca199a1a0f8",
+        "kind": "source",
+        "value": "https://apnews.com/article/4d4d5c96d3e0413a0e37742bf012b08e",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Guard reprimands Hegseth and staff at Tomb of the Unknown Soldier | AP News opened and screened.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "ada6a90af84bc0d5c5ddf9c8",
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/politics/2026/11/11/democratic-lawmakers-apologize-after-absences-hegseth-vote/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Democratic lawmakers apologize after absences on Hegseth vote - The Washington Post opened and screened.",
+        "reporting_origin": "www.washingtonpost.com"
+      },
+      {
+        "id": "0c5a4acc36b0fde538b67a60",
+        "kind": "source",
+        "value": "https://www.alaskasnewssource.com/2026/11/11/these-key-races-remain-too-early-call-one-week-after-election-day/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "These key races remain too early to call one week after Election Day opened and screened.",
+        "reporting_origin": "www.alaskasnewssource.com"
+      },
+      {
+        "id": "752227ded3ac18dee557717e",
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/faqs/updated/2026-10-21",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Frequently Asked Questions - Recently Updated | Office of Foreign Assets Control opened and screened.",
+        "reporting_origin": "ofac.treasury.gov"
+      },
+      {
+        "id": "02e44b03da952c980f2b7481",
+        "kind": "source",
+        "value": "https://apnews.com/article/68e96ea53ad8614f1e2aa6a546c64ad9",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Eisenkot rolls out agenda to undo Netanyahu's policies | AP News opened and screened.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "923f3addec3ed975fd6b5ddd",
+        "kind": "source",
+        "value": "https://apnews.com/article/683810203340077f33611fd1d1757b23",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Read decision record or corroborating reporting",
+        "status": "read",
+        "result": "Trump envoys visit the Kremlin for Ukraine talks with Putin | AP News opened and screened.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "e08aaa051ff8e9d8d2f5fc87",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "Releases – The White House opened and screened.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "8c11a8f53692849358a3d9f9",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "Presidential Actions – The White House opened and screened.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "9e405ca375214ace3b145906",
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "Press Releases | U.S. Department of the Treasury opened and screened.",
+        "reporting_origin": "home.treasury.gov"
+      },
+      {
+        "id": "2eca2535f3dd9be724be2f88",
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "Recent Actions | Office of Foreign Assets Control opened and screened.",
+        "reporting_origin": "ofac.treasury.gov"
+      },
+      {
+        "id": "177ec3ae67a2dfdf8d90787a",
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "blocked",
+        "result": "Failed to fetch https://www.state.gov/press releases/: (403) Forbidden  All News | United States Department of Justice (https://www.justice.gov/news) citeturn6view5 [w",
+        "reporting_origin": "www.state.gov"
+      },
+      {
+        "id": "72cf9cc6674fa15ea336a6ae",
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "All News | United States Department of Justice opened and screened.",
+        "reporting_origin": "www.justice.gov"
+      },
+      {
+        "id": "9a4ae369ec712f7ae2d5547f",
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "blocked",
+        "result": "L0: 【0†Skip to main content】 【1†Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides the nation with a sa",
+        "reporting_origin": "www.federalreserve.gov"
+      },
+      {
+        "id": "f05a9099cfe4b3a0096fe9b7",
+        "kind": "source",
+        "value": "https://www.memeorandum.com/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "memeorandum opened and screened.",
+        "reporting_origin": "www.memeorandum.com"
+      },
+      {
+        "id": "7380ade21c6ac816d17431e8",
+        "kind": "source",
+        "value": "https://www.newsnow.com/us/News/US+Politics",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "blocked",
+        "result": "URL https://www.newsnow.com/us/News/US%2BPolitics is not accessible via this tool.  RealClearPolitics   Live Opinion, News, Analysis, Video and Polls (https://www.realcle",
+        "reporting_origin": "www.newsnow.com"
+      },
+      {
+        "id": "1e0015a7b711579bdd51fbd5",
+        "kind": "source",
+        "value": "https://www.realclearpolitics.com/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "RealClearPolitics - Live Opinion, News, Analysis, Video and Polls opened and screened.",
+        "reporting_origin": "www.realclearpolitics.com"
+      },
+      {
+        "id": "b5aa50cf29c305003c3cc523",
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "News | Today's latest from Al Jazeera opened and screened.",
+        "reporting_origin": "www.aljazeera.com"
+      },
+      {
+        "id": "1f3510705f7f9985ec0e6b25",
+        "kind": "source",
+        "value": "https://www.euronews.com/news/international",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "international news and breaking news | Euronews opened and screened.",
+        "reporting_origin": "www.euronews.com"
+      },
+      {
+        "id": "5239581e1fb7055648e5f807",
+        "kind": "source",
+        "value": "https://www.aa.com.tr/en/world",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "www.aa.com.tr opened and screened.",
+        "reporting_origin": "www.aa.com.tr"
+      },
+      {
+        "id": "bbaa690c2b79aa3a306e213f",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/politics/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "Politics News: Political parties, election news, policies, and news from the Trump administration from CBS News opened and screened.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "5229d246ebac2ad2e160043f",
+        "kind": "source",
+        "value": "https://defensescoop.com/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "DefenseScoop | Breaking US Military Tech News, Modern Defense News opened and screened.",
+        "reporting_origin": "defensescoop.com"
+      },
+      {
+        "id": "b49e049d15db44124c46427f",
+        "kind": "source",
+        "value": "https://www.sofx.com/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "SOFX | Special Operations, Defense & Security News opened and screened.",
+        "reporting_origin": "www.sofx.com"
+      },
+      {
+        "id": "9e3b56993a920fdc85907c36",
+        "kind": "source",
+        "value": "https://federalnewsnetwork.com/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "read",
+        "result": "Federal News Network | Breaking Federal News & Information opened and screened.",
+        "reporting_origin": "federalnewsnetwork.com"
+      },
+      {
+        "id": "5bc718e2042b9303d3b27464",
+        "kind": "source",
+        "value": "https://www.europarl.europa.eu/news/en",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "blocked",
+        "result": "L0: # JavaScript is disabled L1:  L2: In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the pag",
+        "reporting_origin": "www.europarl.europa.eu"
+      },
+      {
+        "id": "fd2e287be730228745bc5e8f",
+        "kind": "source",
+        "value": "https://thehill.com/news-sitemap.xml",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "blocked",
+        "result": "Failed to fetch https://thehill.com/news sitemap.xml: Failed to fetch restricted URL  Internal Error () citeturn7view5 [wordlim: 200] Source: open({\"ref_id\":\"https://t",
+        "reporting_origin": "thehill.com"
+      },
+      {
+        "id": "fc25c3f24cf311904f8647f5",
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-11-nov-2026",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Refresh shared collector index",
+        "status": "blocked",
+        "result": "URL https://theverardogroup.substack.com/p/tvg daily brief 11 nov 2026 is not accessible via this tool.",
+        "reporting_origin": "theverardogroup.substack.com"
+      },
+      {
+        "id": "0eee4d0ea3a9cd806cb40cf9",
+        "kind": "query",
+        "value": "Lee Rudofsky nomination withdrawn November 10 2026 congress.gov White House",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Verify post-election leverage over judicial appointments",
+        "status": "read",
+        "result": "Found the official withdrawal and replacement.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "e929784da61b6538c064817e",
+        "kind": "query",
+        "value": "Elliot Gaiser nomination November 2026 questionnaire Ted Cruz senate judiciary",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Verify post-election leverage over judicial appointments",
+        "status": "read",
+        "result": "Found Durbin’s account and Associated Press reporting on the questionnaire.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "1a636a1cae8ac10fc2cd546a",
+        "kind": "source",
+        "value": "https://apnews.com/article/d277bc62b82507c2e9a5499070e4cce3",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Verify post-election leverage over judicial appointments",
+        "status": "read",
+        "result": "Read the reported committee objections, withdrawal and recruitment account.",
+        "reporting_origin": "Associated Press"
+      },
+      {
+        "id": "4e58ad49f8b786b8be4312c2",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-and-withdrawals-sent-to-the-senate-b6a4/",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Verify post-election leverage over judicial appointments",
+        "status": "read",
+        "result": "Verified the withdrawal of Rudofsky and the nomination of Hiland for the same seat.",
+        "reporting_origin": "White House"
+      },
+      {
+        "id": "f0a2452cb4e7ccc3db3b2eeb",
+        "kind": "source",
+        "value": "https://www.investing.com/news/general-news/trump-replaces-judicial-nominee-in-lastditch-bid-to-reshape-us-appeals-court-5017486",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Verify post-election leverage over judicial appointments",
+        "status": "read",
+        "result": "Read Boozman’s statement about consultation and reports of Republican resistance.",
+        "reporting_origin": "Reuters"
+      },
+      {
+        "id": "1aa87b028c31720ea80cd155",
+        "kind": "source",
+        "value": "https://www.judiciary.senate.gov/press/dem/releases/durbin-slams-senate-judiciary-republicans-for-attempting-to-jam-through-extreme-judicial-nominees-before-democrats-take-senate-majority",
+        "window": "2026-11-11/2026-11-12",
+        "purpose": "Verify post-election leverage over judicial appointments",
+        "status": "read",
+        "result": "Read Durbin’s account of Cruz’s staff contacting Gaiser and his objection to the timetable.",
+        "reporting_origin": "Senate Judiciary Committee Democrats"
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-12-daily",
+    "wargame_ref": "2026-11-09-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Weekly cadence. Active terminal tests fall in 2027."
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Thomas Massie’s petition for another Epstein records vote reaches 218 House signatures",
+        "event_ids": [
+          "eps-2026-11-11-massie-epstein-petition-threshold"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/current/nomination",
+          "assessments/issues/EPS",
+          "nominations/republican_2028"
+        ],
+        "reason": "My reading: Massie can use a House petition to seek floor time without the speaker’s agreement. The House still has to vote on the bill."
+      },
+      {
+        "finding": "Ukraine and Russia announce a prisoner exchange agreement after Abu Dhabi talks",
+        "event_ids": [
+          "rus-2026-11-11-abu-dhabi-exchange-agreement"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/RUS"
+        ],
+        "reason": "My reading: The envoys helped convene talks that produced a limited humanitarian agreement. A ceasefire and a settlement still depend on decisions by Russia and Ukraine."
+      },
+      {
+        "finding": "Associated Press calls Mississippi’s Senate race for Democrat Scott Colom",
+        "event_ids": [
+          "mid-2026-11-11-colom-mississippi-senate-call"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID",
+          "impeachments/all"
+        ],
+        "reason": "My reading: The seat widens Democrats’ margin for scheduling and ordinary votes in January. Conviction in an impeachment trial would still require two-thirds of senators present."
+      },
+      {
+        "finding": "White House warns Democrats over planned investigations and Representative Robert Garcia pledges to proceed",
+        "event_ids": [
+          "mid-2026-11-11-white-house-oversight-warning"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID",
+          "impeachments/all"
+        ],
+        "reason": "My reading: The White House can give supporters a reason to distrust the inquiries before hearings begin. Garcia and Blumenthal can use their replies to reassure oversight supporters. The exchanges leave committee powers intact and establish neither audience agreement nor formal charges."
+      },
+      {
+        "finding": "Axios reports Commerce Secretary Howard Lutnick delayed controls on suspected Nvidia chip diversions to China",
+        "event_ids": [
+          "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/nomination",
+          "assessments/issues/AI",
+          "nominations/republican_2028",
+          "impeachments/all"
+        ],
+        "reason": "My reading: The account suggests Commerce can delay implementation even when senior officials seek restrictions. The president can still settle the dispute. The report leaves the reasons for delay and the suspected diversion open."
+      },
+      {
+        "finding": "House Democrats apologize after missing the Hegseth referral vote",
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "impeachments/all"
+        ],
+        "reason": "Public apologies and attributed private criticism identify an attendance and scheduling problem. They do not resolve support for the articles."
+      },
+      {
+        "finding": "Trump replaces appeals court nominee Lee Rudofsky with Cody Hiland after Republican resistance",
+        "event_ids": [
+          "mid-2026-11-10-rudofsky-nomination-withdrawn"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID",
+          "assessments/current/nomination",
+          "nominations/republican_2028"
+        ],
+        "reason": "The Arkansas withdrawal shows Republican senators can influence who gets nominated while their party still runs the Senate. Cruz’s staff moved early on a separate Texas opening. Whether either replacement or prospect wins confirmation remains open."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "reviewed",
+        "reason": "Reviewed the reported Commerce delay and Minneapolis timetable. An operative chip rule and the city vote remain open."
+      },
+      "EPS": {
+        "status": "reviewed",
+        "reason": "Verified the petition threshold and read the White House response. No later floor disposition established."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Rechecked the June Supreme Court stay denial. The later hearing and lower-court disposition remain unverified."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "AP reported continued enforcement. Big Bend construction and any operational change remain open."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Searched for accepted terms and reviewed Israeli coalition coverage. New Iran terms and an Israeli government remain pending."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "Reviewed the Mississippi call, the Hegseth roll call and oversight reactions. Alaska and Kansas remain open."
+      },
+      "RUS": {
+        "status": "reviewed",
+        "reason": "Verified public agreement in principle through readable reporting. Transfer and wider terms remain open."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Reviewed Massie and Rubio developments. Primary reception, donor commitments and organizing remain unverified."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Screened Treasury and trade leads. No new operative trade measure credited."
+      },
+      "VEN": {
+        "status": "unreviewed",
+        "reason": "Two targeted searches did not establish a current negotiating outcome. The November 15 watch remains open."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "Petition signatures, public oversight countermoves and the Mississippi result sharpen the near-term congressional picture. The exchange announcement and export dispute show where implementation remains open.",
+    "dated_assumptions": [
+      {
+        "assumption": "Mississippi Senate and projected chamber control",
+        "date": "2026-11-12",
+        "status": "verified",
+        "reason": "AP called Mississippi for Colom and reported Hyde-Smith’s concession. Democrats are projected to control both chambers."
+      },
+      {
+        "assumption": "Alaska Senate and governor",
+        "date": "2026-11-18",
+        "status": "pending",
+        "reason": "AP reported ongoing counting and a ruling declining the Peltola campaign’s request for absentee ballot data. The state count and ranked tabulation remain on watch."
+      },
+      {
+        "assumption": "Kansas governor",
+        "date": "2026-11-16",
+        "status": "pending",
+        "reason": "AP reporting describes an audit. No later call was established in this intake."
+      },
+      {
+        "assumption": "Hegseth House procedure",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "House clerk roll call 317 records referral."
+      },
+      {
+        "assumption": "Massie Epstein records bill",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "The House clerk recorded enough signatures to seek floor consideration."
+      },
+      {
+        "assumption": "Abu Dhabi prisoner exchange",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Both sides announced an agreement in principle. A handover has yet to be verified."
+      },
+      {
+        "assumption": "Minneapolis data-center zoning",
+        "date": "2026-11-12",
+        "status": "pending",
+        "reason": "City schedule lists November 12 consideration. The legislative file was inaccessible."
+      },
+      {
+        "assumption": "Israel government formation",
+        "date": "2026-12-06",
+        "status": "pending",
+        "reason": "Eisenkot is negotiating after parliament convened. No governing coalition was verified."
+      },
+      {
+        "assumption": "Qatar mediation and U.S. military or enforcement orders",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Searched for accepted terms and new orders. They remain unverified."
+      },
+      {
+        "assumption": "Lisa Cook hearing and lower-court case",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "June stay denial rechecked. The new hearing date and latest district court order were not confirmed."
+      },
+      {
+        "assumption": "Venezuela negotiations",
+        "date": "2026-11-15",
+        "status": "pending",
+        "reason": "Searched twice. The result remains unverified."
+      },
+      {
+        "assumption": "Big Bend construction",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Prior legal permission carries forward. Work on site was not established."
+      },
+      {
+        "assumption": "Lukoil authorization",
+        "date": "2026-11-21",
+        "status": "pending",
+        "reason": "Treasury’s existing authorization runs through November 21. A later extension was not verified."
+      },
+      {
+        "assumption": "Guilfoyle records request",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "House Oversight Democrats’ letter sets a November 13 deadline."
+      },
+      {
+        "assumption": "Nvidia board inquiry and chip rule",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Internal delay reported. Neither a board conclusion nor an operative restriction was verified."
+      },
+      {
+        "assumption": "Tariff and trade implementation",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Screened indexes. No operative change credited."
+      },
+      {
+        "assumption": "Eighth Circuit nomination",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "The White House withdrew Lee Rudofsky and nominated Cody Hiland for the same seat. Confirmation remains open."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Trump’s public claim that referral vindicated Hegseth.",
+        "finding": "The official vote sent the resolution to committee. No vote on articles was held.",
+        "consequence": "The procedure protected Hegseth from an immediate vote and gives little evidence about conviction in the next Senate."
+      },
+      {
+        "alternative": "Republican senators are breaking with Trump across the board after the election.",
+        "finding": "The Arkansas withdrawal and public objections over Texas fit a longstanding dispute over home-state input and Senate vetting.",
+        "consequence": "Credit the senators with influence over these choices and keep broader party discipline as a separate question."
+      }
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://clerk.house.gov/Votes/2026317",
+      "https://www.axios.com/2026/11/11/massie-epstein-files-second-vote",
+      "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+      "https://www.thedailybeast.com/dems-blow-up-over-11-reps-who-missed-critical-pentagon-pete-hegseth-vote",
+      "https://apnews.com/article/9a0e54363b4c74761212ad55785d2733",
+      "https://apnews.com/article/f42a49a45a2870786f36086c7ad02824",
+      "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+      "https://apnews.com/article/12acd4e233792f687b80eb9636aea18d",
+      "https://www.supremecourt.gov/docket/docketfiles/html/public/25a312.html",
+      "https://clerk.house.gov/DischargePetition/2026083127",
+      "https://t.me/s/umerov_rustem/607",
+      "https://www.washingtonsun.com/the-stakeout/schumers-phone-flips",
+      "https://www.minneapolismn.gov/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+      "https://apnews.com/article/4d4d5c96d3e0413a0e37742bf012b08e",
+      "https://www.washingtonpost.com/politics/2026/11/11/democratic-lawmakers-apologize-after-absences-hegseth-vote/",
+      "https://www.alaskasnewssource.com/2026/11/11/these-key-races-remain-too-early-call-one-week-after-election-day/",
+      "https://ofac.treasury.gov/faqs/updated/2026-10-21",
+      "https://apnews.com/article/68e96ea53ad8614f1e2aa6a546c64ad9",
+      "https://apnews.com/article/683810203340077f33611fd1d1757b23",
+      "https://www.whitehouse.gov/releases/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://home.treasury.gov/news/press-releases",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.justice.gov/news",
+      "https://www.memeorandum.com/",
+      "https://www.realclearpolitics.com/",
+      "https://www.aljazeera.com/news/",
+      "https://www.euronews.com/news/international",
+      "https://www.aa.com.tr/en/world",
+      "https://www.cbsnews.com/politics/",
+      "https://defensescoop.com/",
+      "https://www.sofx.com/",
+      "https://federalnewsnetwork.com/",
+      "https://apnews.com/article/d277bc62b82507c2e9a5499070e4cce3",
+      "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-and-withdrawals-sent-to-the-senate-b6a4/",
+      "https://www.investing.com/news/general-news/trump-replaces-judicial-nominee-in-lastditch-bid-to-reshape-us-appeals-court-5017486",
+      "https://www.judiciary.senate.gov/press/dem/releases/durbin-slams-senate-judiciary-republicans-for-attempting-to-jam-through-extreme-judicial-nominees-before-democrats-take-senate-majority"
+    ],
+    "queries": 21,
+    "queriesPerIssue": {},
+    "perIssue": {
+      "AI": "Reviewed the reported Commerce delay and Minneapolis timetable. An operative chip rule and the city vote remain open.",
+      "EPS": "Verified the petition threshold and read the White House response. No later floor disposition established.",
+      "FED": "Rechecked the June Supreme Court stay denial. The later hearing and lower-court disposition remain unverified.",
+      "IMM": "AP reported continued enforcement. Big Bend construction and any operational change remain open.",
+      "IRN": "Searched for accepted terms and reviewed Israeli coalition coverage. New Iran terms and an Israeli government remain pending.",
+      "MID": "Reviewed the Mississippi call, the Hegseth roll call and oversight reactions. Alaska and Kansas remain open.",
+      "RUS": "Verified public agreement in principle through readable reporting. Transfer and wider terms remain open.",
+      "SUC": "Reviewed Massie and Rubio developments. Primary reception, donor commitments and organizing remain unverified.",
+      "TAR": "Screened Treasury and trade leads. No new operative trade measure credited.",
+      "VEN": "Two targeted searches did not establish a current negotiating outcome. The November 15 watch remains open."
+    },
+    "blocked": [
+      "https://lims.minneapolismn.gov/File/2026-00639",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-12-nov-2026",
+      "https://www.state.gov/press-releases/",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.newsnow.com/us/News/US+Politics",
+      "https://www.europarl.europa.eu/news/en",
+      "https://thehill.com/news-sitemap.xml",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-11-nov-2026"
+    ],
+    "gaps": [
+      {
+        "gap": "Focused coverage left some scheduled outcomes and implementation questions open.",
+        "routes": [
+          {
+            "route": "Targeted searches and official indexes",
+            "tried": true,
+            "whyItFailed": "Read the available documents and recorded each remaining gap under dated assumptions."
+          }
+        ]
+      }
+    ],
+    "watched": [
+      "Thomas Massie",
+      "Pete Hegseth",
+      "Todd Blanche",
+      "Howard Lutnick",
+      "Kimberly Guilfoyle",
+      "Lisa Cook"
+    ],
+    "queue": {
+      "captured": 6,
+      "triaged": 6
+    },
+    "lookbackDays": 2,
+    "thinDays": [],
+    "deviations": [
+      "Focused source review. No exhaustive headline recall or newsletter intake.",
+      "AP reported criticism after a Tomb of the Unknown Soldier guard reprimanded Hegseth and staff. It was screened as a reputational item. Broader reaction and any effect on the impeachment coalition remain unverified."
+    ],
+    "propagation": {
+      "eps-2026-11-11-massie-epstein-petition-threshold": [
+        "assessments/current/administration",
+        "assessments/current/nomination",
+        "assessments/issues/EPS",
+        "nominations/republican_2028"
+      ],
+      "rus-2026-11-11-abu-dhabi-exchange-agreement": [
+        "assessments/current/administration",
+        "assessments/issues/RUS"
+      ],
+      "mid-2026-11-11-colom-mississippi-senate-call": [
+        "assessments/current/administration",
+        "assessments/issues/MID",
+        "impeachments/all"
+      ],
+      "mid-2026-11-11-white-house-oversight-warning": [
+        "assessments/current/administration",
+        "assessments/issues/MID",
+        "impeachments/all"
+      ],
+      "ai-2026-11-11-lutnick-nvidia-export-delay-report": [
+        "assessments/current/nomination",
+        "assessments/issues/AI",
+        "nominations/republican_2028",
+        "impeachments/all"
+      ],
+      "mid-2026-11-10-rudofsky-nomination-withdrawn": [
+        "assessments/current/administration",
+        "assessments/issues/MID",
+        "assessments/current/nomination",
+        "nominations/republican_2028"
+      ]
+    }
+  },
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Daily read-only preflight",
+    "result": "Daily read-only preflight checked the final staged data, reader-copy fingerprints and review links.",
+    "repairs": [
+      "Restored the validator-required explanation prefix for events with no faction score."
+    ]
+  },
+  "editorial_notes": [
+    "Read event headlines apart from context. Distinguish House petition signatures from a floor vote, referral from impeachment, exchange agreement from handover, and reported chip delays from an operative rule.",
+    "Restored the existing descriptions of separate local data-center approvals, Nvidia’s board inquiry and selective Russia sanctions relief alongside the new findings.",
+    "Named the actors and proposed plaintiffs, explained the House petition and Senate voting thresholds, and distinguished the White House’s position from the actions available to Congress.",
+    "Named the withdrawn and replacement judges and distinguished the Arkansas appointment from Cruz’s involvement in a separate Texas opening."
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "d428559094f18e97c9414b7e39d2a8d38251d3f8aa7a0672f19cbb49431cbadb",
+        "reader_takeaway": "The petition gives House members a way to seek a vote while committee leaders prepare investigations and the White House challenges them.",
+        "context_check": "Named Thomas Massie and Robert Garcia and explained how the petition, hearings and record demands work.",
+        "uncertainty_check": "Kept the vote, policy implementation and voter response open.",
+        "changes_made": [
+          "Named the potential plaintiffs, explained what incoming committee chairs can do, and distinguished the two judicial openings in the Cruz assessment."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "2ce7f49b5599c33c4b527870e5dc68170d96d183f8f80ef2af0d8e3c1fea16b7",
+        "reader_takeaway": "Congress, Commerce and the negotiating delegations each control different next steps.",
+        "context_check": "Restored background on existing Russia sanctions and independent local and corporate decisions about data centers and chip sales.",
+        "uncertainty_check": "Separated selective sanctions relief, reported delays, legal proposals and unresolved implementation.",
+        "changes_made": [
+          "Rewrote four scope lines as ordinary sentences and restored carried policy context."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "3a07cc12bc4f828424699af8e2bce09849bd3e5c18798ab9d5a22a4f9ad70393",
+        "reader_takeaway": "Commerce can slow the publication of chip restrictions, according to Axios’s account.",
+        "context_check": "Named Lutnick as commerce secretary and explained the suspected diversion.",
+        "uncertainty_check": "Retained Commerce’s denial and the absence of a verified new rule.",
+        "changes_made": [
+          "Added Lutnick’s job to the headline and explained the reason for holding the faction score."
+        ]
+      },
+      "events/EPS": {
+        "fingerprint": "bb2185e84648caaa980fa3f28447b10af60beb7b412bafdf6fbd4ed22faad055",
+        "reader_takeaway": "A second Epstein records bill can move toward a floor vote after the petition reached 218 signatures.",
+        "context_check": "Named Massie and Garamendi and identified who could sue under the proposal.",
+        "uncertainty_check": "Kept signatures, passage and access to records distinct.",
+        "changes_made": [
+          "Named the potential plaintiffs and explained the speaker’s role."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "ad45394949dd0a86ae08c4fc3c83ce60e4fd0ea70430a9213a4bfd9e3932ec3a",
+        "reader_takeaway": "Colom’s projected seat widens the incoming Senate majority while the White House and lawmakers dispute oversight.",
+        "context_check": "Named Garcia, clarified the Senate threshold, and linked the reporting on apologies and private criticism.",
+        "uncertainty_check": "Distinguished an AP race call, public reactions, attributed criticism and the procedural roll call.",
+        "changes_made": [
+          "Named Garcia in the headline, removed a repeated description of the referral vote, and stated who Trump withdrew and nominated for the Arkansas seat."
+        ]
+      },
+      "events/RUS": {
+        "fingerprint": "6bed82aacefd6bee02890a7799843f7864594dda39a1c88c3d8eda96f145ee1c",
+        "reader_takeaway": "Both delegations announced an agreement in principle to exchange prisoners.",
+        "context_check": "Named both negotiators and linked the report on the subsequent Kremlin meeting.",
+        "uncertainty_check": "Identified the transfer date, number of prisoners and actual handover as open.",
+        "changes_made": [
+          "Added direct attribution for the follow-up talks and separated the vote-score note from the rationale."
+        ]
+      },
+      "factions/dissenters": {
+        "fingerprint": "b3194dfdfb4a484957ef8e4f4370ac3e7f0635bdcc814c1664cbf213807663b1",
+        "reader_takeaway": "Massie assembled enough support to seek another Epstein records vote.",
+        "context_check": "Identified him as a House member and spelled out the split between Republican and Democratic signers.",
+        "uncertainty_check": "Separated bringing the proposal forward from passing it.",
+        "changes_made": [
+          "Added his first name and job to the faction overview."
+        ]
+      },
+      "factions/treasury": {
+        "fingerprint": "30585e9238eda013f794e308d20841df5172cb266539b9d6325119dd41d41aaa",
+        "reader_takeaway": "Bessent reportedly pressed the department that can implement restrictions.",
+        "context_check": "Named Bessent and explained the implementation step.",
+        "uncertainty_check": "Retained the Commerce denial.",
+        "changes_made": [
+          "Replaced an abstract reference to an operative change with a sentence about imposing restrictions."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "fb535b796f5a4a80e568ad2a7b23953120a6e13b0acb464fb70269315a8ee4d0",
+        "reader_takeaway": "The House referral stands and the incoming Senate would still require votes from outside the Democratic caucus to convict with full attendance.",
+        "context_check": "Explained the 67-vote threshold, identified the allegations and defenses in the carried case basis and named the committee seeking Guilfoyle records.",
+        "uncertainty_check": "Kept every estimate and case outcome distinct from attributed political reactions, uncertain eligibility and pending records.",
+        "changes_made": [
+          "Replaced compressed labels with prose in the forecast reasons and explained the 67-vote threshold."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "aff6a7ee5892a5727c7d260ff1ae99eb974cfd5e89a6295975ec31b96fc79f08",
+        "reader_takeaway": "The new source entries support the Massie and Rubio developments behind the daily monitor.",
+        "context_check": "Named the House clerk and the publications, and described the proposed right to sue and lawmakers’ replies.",
+        "uncertainty_check": "Distinguished the official signature count from reporting on internal deliberations.",
+        "changes_made": [
+          "Made the two oversight source descriptions identify the bill and the investigations and separated the judicial withdrawal from accounts of Cruz’s staff outreach."
+        ]
+      },
+      "runs/2026-11-12": {
+        "fingerprint": "81399b9fc23d4e6f8922c3e32023949e678e7a49a4101ce7ffd72de8d846ffdc",
+        "reader_takeaway": "The review advances specific congressional and foreign-policy findings while leaving the named decisions open.",
+        "context_check": "Named the governor, offices, investigations and proposals and described the focused intake.",
+        "uncertainty_check": "Kept source attribution and the unresolved outcome list visible.",
+        "changes_made": [
+          "Identified Lisa Cook’s role and named the original and replacement appeals court nominees."
+        ]
+      }
+    }
+  }
+}

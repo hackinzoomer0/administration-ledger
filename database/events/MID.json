@@ -2454,7 +2454,7 @@
       "kind": "act",
       "actor": "U.S. House of Representatives",
       "text": "House votes 211–204 to send the bid to impeach Defense Secretary Pete Hegseth to committee",
-      "context": "On November 10, 210 Republicans and independent Kevin Kiley voted to send the resolution to the House Judiciary Committee. Thomas Massie was the only Republican to oppose the motion, joining 203 Democrats. Eighteen members did not vote. The White House opposed impeachment. The House took no vote on the articles, and Hegseth remains in office.",
+      "context": "On November 10, 210 Republicans and independent Kevin Kiley voted to send the resolution to the House Judiciary Committee. Thomas Massie was the only Republican to oppose the motion, joining 203 Democrats. Eighteen members did not vote. The White House opposed impeachment. The House took no vote on the articles, and Hegseth remains in office. On November 11, some absent Democrats publicly apologized, The Washington Post reported. The Washington Sun reported anonymous Democratic criticism of leadership’s preparation. Trump portrayed the referral as vindication in a public post, The Daily Beast reported. https://www.thedailybeast.com/dems-blow-up-over-11-reps-who-missed-critical-pentagon-pete-hegseth-vote https://www.washingtonpost.com/politics/2026/11/11/democratic-lawmakers-apologize-after-absences-hegseth-vote/ https://www.washingtonsun.com/the-stakeout/schumers-phone-flips",
       "source": "https://clerk.house.gov/Votes/2026317",
       "url": "https://clerk.house.gov/Votes/2026317",
       "tier": "documented",
@@ -2487,6 +2487,74 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Republican caucus leadership was decided. The January committee agenda and subsequent votes remain open."
+    },
+    {
+      "id": "mid-2026-11-11-colom-mississippi-senate-call",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Scott Colom and Cindy Hyde-Smith",
+      "text": "Associated Press calls Mississippi’s Senate race for Democrat Scott Colom",
+      "context": "The Associated Press called the race after Jackson County updated its count. Republican Senator Cindy Hyde-Smith called Colom to concede. The call brings the projected incoming Democratic Senate majority to 55 seats. Alaska’s Senate race remained uncalled.",
+      "source": "https://apnews.com/article/9a0e54363b4c74761212ad55785d2733",
+      "url": "https://apnews.com/article/9a0e54363b4c74761212ad55785d2733",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The seat widens Democrats’ margin for scheduling and ordinary votes in January. Conviction in an impeachment trial would still require two-thirds of senators present.",
+      "origin": "daily shared intake",
+      "added": "2026-11-12",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The race call changes the projected January Senate margin. It supplies no case-specific votes."
+    },
+    {
+      "id": "mid-2026-11-11-white-house-oversight-warning",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "EPS"
+      ],
+      "kind": "act",
+      "actor": "White House counsel, Robert Garcia and Richard Blumenthal",
+      "text": "White House warns Democrats over planned investigations and Representative Robert Garcia pledges to proceed",
+      "context": "The Associated Press reported that White House counsel warned Representative Robert Garcia that planned investigations could cross into criminal conduct. Garcia publicly defended Congress’s oversight authority. U.S. Attorney Aaron Reitz separately told Senator Richard Blumenthal to preserve records related to his investigations. Blumenthal said he would continue.",
+      "source": "https://apnews.com/article/12acd4e233792f687b80eb9636aea18d",
+      "url": "https://apnews.com/article/12acd4e233792f687b80eb9636aea18d",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The White House can give supporters a reason to distrust the inquiries before hearings begin. Garcia and Blumenthal can use their replies to reassure oversight supporters. The exchanges leave committee powers intact and establish neither audience agreement nor formal charges.",
+      "origin": "daily shared intake",
+      "added": "2026-11-12",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The public responses establish continued disagreement. No change in congressional authority or cooperation was verified."
+    },
+    {
+      "id": "mid-2026-11-10-rudofsky-nomination-withdrawn",
+      "date": "2026-11-10",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump, John Boozman, Tom Cotton and Senate Judiciary Committee members",
+      "text": "Trump replaces appeals court nominee Lee Rudofsky with Cody Hiland after Republican resistance",
+      "context": "The White House withdrew Rudofsky and nominated Arkansas Supreme Court Justice Cody Hiland for the same federal appeals court seat. Arkansas Senators John Boozman and Tom Cotton did not back Rudofsky, the Associated Press reported. Boozman told Reuters that home-state senators should have a meaningful role. AP attributed opposition from Senators John Cornyn and Thom Tillis on the Judiciary Committee to people familiar with private discussions. On a separate Texas district court vacancy, AP and Democratic Senator Dick Durbin cited a questionnaire saying Senator Ted Cruz’s staff contacted Justice Department official Elliot Gaiser the day after the election. Cornyn publicly questioned the vetting process. https://apnews.com/article/d277bc62b82507c2e9a5499070e4cce3 https://www.investing.com/news/general-news/trump-replaces-judicial-nominee-in-lastditch-bid-to-reshape-us-appeals-court-5017486 https://www.judiciary.senate.gov/press/dem/releases/durbin-slams-senate-judiciary-republicans-for-attempting-to-jam-through-extreme-judicial-nominees-before-democrats-take-senate-majority",
+      "source": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-and-withdrawals-sent-to-the-senate-b6a4/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-and-withdrawals-sent-to-the-senate-b6a4/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The Arkansas withdrawal shows Republican senators can influence who gets nominated while their party still runs the Senate. Cruz’s staff moved early on a separate Texas opening. Whether either replacement or prospect wins confirmation remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-12",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The White House changed its nominee for one seat. The Senate has yet to confirm Hiland."
     }
   ]
 }

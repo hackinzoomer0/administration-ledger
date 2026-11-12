@@ -839,6 +839,30 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The staff report gives incoming investigators specific failures to examine. It does not establish that the Justice Department has acted on the recommendations."
+    },
+    {
+      "id": "eps-2026-11-11-massie-epstein-petition-threshold",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "EPS",
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Thomas Massie and John Garamendi",
+      "text": "Thomas Massie’s petition for another Epstein records vote reaches 218 House signatures",
+      "context": "Representative John Garamendi supplied the final signature on November 11. Four Republicans and 214 Democrats signed. The proposal would let survivors, state prosecutors and lawmakers sue the Justice Department over records they believe it unlawfully withheld. The White House defended its existing disclosures in a statement to Axios. Speaker Mike Johnson’s office did not respond to Axios.",
+      "source": "https://clerk.house.gov/DischargePetition/2026083127",
+      "url": "https://clerk.house.gov/DischargePetition/2026083127",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Massie can use a House petition to seek floor time without the speaker’s agreement. The House still has to vote on the bill.",
+      "origin": "daily shared intake",
+      "added": "2026-11-12",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The petition reached the signature threshold. The House has yet to vote."
     }
   ]
 }

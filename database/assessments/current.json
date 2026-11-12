@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-11",
-  "last_substantive_change": "2026-11-11",
+  "research_as_of": "2026-11-12",
+  "last_substantive_change": "2026-11-12",
   "review": {
-    "date": "2026-11-11",
-    "run_id": "2026-11-11",
+    "date": "2026-11-12",
+    "run_id": "2026-11-12",
     "type": "daily_review",
-    "scope": "Focused November 10–11 review of the Hegseth House vote, Republican leadership and reactions, Iran, Israel, Epstein oversight and pending decisions. Final election calls, the Cook case, Venezuela talks, Nvidia’s inquiry and several implementation checks remain incomplete."
+    "scope": "Focused November 11–12 review of congressional oversight and election calls, the Abu Dhabi prisoner agreement, the Nvidia export dispute and pending decisions. The Minneapolis vote, Alaska and Kansas calls, Iran and Venezuela negotiating outcomes, and the latest court and hearing developments for Federal Reserve Governor Lisa Cook remain open."
   },
   "administration": {
-    "headline": "House sends Hegseth impeachment bid to committee as Republicans choose their January leaders",
-    "summary": "The outgoing House sent the Hegseth impeachment resolution to committee after Trump backed the defense secretary. Hegseth remains in office. House Republicans chose Jim Jordan to lead their response to the incoming Democratic majority. Senate Republicans kept John Thune. The leadership votes settle who will coordinate Republican opposition in January, when Democrats are projected to control both chambers. Trump publicly favors continued economic and naval pressure on Iran, according to Axios, while Qatar still seeks a deal. In Israel, the new parliament was sworn in while Gadi Eisenkot sought a governing coalition. House Oversight Republicans faulted the Justice Department’s handling of Epstein records, giving incoming investigators specific decisions to examine. News reports attributed a planned prisoner exchange to Russian and Ukrainian negotiators. The available extracts left the terms and timing uncertain. Minneapolis’s data-center zoning vote is due November 12. Several election calls are still outstanding. The review also left open the status of proceedings over Trump’s attempt to remove Federal Reserve Governor Lisa Cook and the outcome of the Venezuela talks.",
+    "headline": "White House challenges incoming investigators as Thomas Massie seeks another Epstein records vote",
+    "summary": "The White House warned Democrats over their planned investigations, and incoming oversight leaders publicly said they would proceed. Representative Thomas Massie gathered enough signatures to seek another House vote on Epstein records, a day after the House sent his effort to impeach Defense Secretary Pete Hegseth to committee. The Associated Press called Mississippi’s Senate race for Democrat Scott Colom, widening the projected Democratic majority to 55 seats. Trump withdrew appeals court nominee Lee Rudofsky and nominated Cody Hiland after Republican senators resisted the original choice. Ukraine and Russia announced a prisoner exchange agreement in Abu Dhabi and still had to arrange a transfer. Axios reported that Commerce Secretary Howard Lutnick delayed proposed restrictions on companies suspected of diverting Nvidia chips to China. The Minneapolis zoning vote, Alaska and Kansas election calls, negotiations over Iran and Venezuela, and Federal Reserve Governor Lisa Cook’s hearing remain open.",
     "contests": [
       {
         "id": "white-house-access",
@@ -107,7 +107,7 @@
         "assessment": "Trump’s effort to remove Cook could affect who serves on the Federal Reserve’s governing board. Courts and the required hearing process limit how that effort proceeds. Interest-rate decisions still belong to the Federal Open Market Committee, which includes Federal Reserve governors and regional bank presidents.",
         "authority": "The Federal Open Market Committee votes on interest rates. The dispute over Cook’s removal involves the president, the courts and the procedures required by law.",
         "leverage": "White House officials can press for a change in Fed leadership or lower rates. Treasury officials can advise on the market consequences, but neither group can simply order the committee to change its rate vote.",
-        "change": "The review records a delayed hearing and a later filing about the process. It has not confirmed a completed removal or a changed rate decision.",
+        "change": "The Supreme Court refused in June to lift the order that kept Cook in office while the case proceeds. A later White House hearing was delayed. A new ruling or completed hearing remains unverified.",
         "basis": {
           "actions": "The hearing was delayed; the later filing addressed scheduling and participation.",
           "positions": "Calls for lower rates do not establish a changed vote or removal.",
@@ -122,34 +122,36 @@
           "maximalists"
         ],
         "reviewed_at": "2026-11-07",
-        "summary": "The dispute over Federal Reserve governor Lisa Cook’s position remains subject to court and hearing procedures. White House demands for lower rates do not give advisers the authority to set them."
+        "summary": "Federal Reserve Governor Lisa Cook remained in office under a court order while Trump pursued a separate White House inquiry. The hearing date and any decision to remove her remain open."
       },
       {
         "id": "justice-department-control",
         "issue_id": "MID",
-        "title": "Justice Department departures could give Blanche more control over senior appointments",
+        "title": "Congress presses for Epstein records as the White House challenges planned investigations",
         "status": "contested",
-        "summary": "Reported departures leave Attorney General Todd Blanche with opportunities to replace senior managers. New managers could continue the same cases rather than signal a retreat from them.",
-        "assessment": "Replacing senior Justice Department officials can change who supervises cases and where staff and resources are assigned. Blanche could gain more control over those choices. Departures alone do not establish that a case has ended or that the administration has changed its enforcement policy. Blanche’s November 8 public defense of officials signals resistance to incoming investigations, but does not prove that records will be withheld lawfully or that an investigation will be stopped. Massie’s separate floor action against Hegseth shows that congressional pressure is already being pursued before the new Congress takes office; it does not establish how Blanche will respond to a specific demand.",
+        "summary": "Massie’s petition gives House members a way to seek a vote on access to Epstein records. White House counsel warned Representative Robert Garcia over planned investigations. Garcia pledged to proceed.",
+        "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
-        "leverage": "Department leaders can choose or propose replacements, assign supervisors and shift resources between cases. Those choices matter more than an announcement of departures on its own.",
-        "change": "House Oversight Republicans reported that the Justice Department exposed survivors’ identifying details when releasing Epstein records. Their recommendations give the incoming Congress specific agency decisions to follow up.",
+        "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
+        "change": "Massie’s petition reached 218 signatures, including four Republicans. The White House defended its disclosures and challenged Democrats’ broader investigation plans.",
         "basis": {
-          "actions": "CNN reported the named leadership departures on November 6.",
-          "positions": "The departures do not by themselves establish a public reversal of Justice Department policy.",
-          "money": "The reviewed reporting does not establish that money caused the departures. Possible career incentives are an interpretation, not a documented explanation from the officials."
+          "actions": "The House clerk recorded 218 signatures. The Associated Press reported the White House warning and Garcia’s public reply.",
+          "positions": "The White House defended its prior release of records. Garcia says Congress will exercise its oversight authority.",
+          "money": "The White House warning and the petition do not establish that a financial relationship drove a particular records decision."
         },
-        "watch": "Check how Attorney General Todd Blanche responds to requests for further interviews and better access for survivors, and what incoming committee chairs put on their agenda.",
+        "watch": "Check for a floor motion, the actual roll call and how Blanche responds to a specific request from a committee or court.",
         "event_ids": [
           "mid-2026-11-06-doj-departures",
           "mid-2026-11-08-blanche-oversight-defense",
           "mid-2026-11-09-massie-hegseth-floor-action",
-          "eps-2026-11-10-oversight-majority-report"
+          "eps-2026-11-10-oversight-majority-report",
+          "eps-2026-11-11-massie-epstein-petition-threshold",
+          "mid-2026-11-11-white-house-oversight-warning"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-11"
+        "reviewed_at": "2026-11-12"
       },
       {
         "id": "hegseth-house-referral",
@@ -160,13 +162,13 @@
         "assessment": "The vote showed that nearly all Republicans who voted favored keeping the articles off the floor at this stage. Democrats are projected to control the House in January and could revisit the allegations.",
         "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
         "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
-        "change": "The November 10 vote ended the immediate floor contest over this resolution.",
+        "change": "Some Democrats who missed the vote apologized publicly, and unnamed members faulted leadership’s preparation. Trump cast the referral as a vindication of Hegseth. The roll call shows how the outgoing House handled this resolution. It supplies no count of votes on the articles themselves.",
         "basis": {
           "actions": "The House voted 211–204 to send the resolution to committee.",
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
           "money": "The available evidence establishes how members voted."
         },
-        "watch": "Watch the Judiciary Committee’s next action and the January House agenda. Track senators’ stated positions separately.",
+        "watch": "Watch for Judiciary Committee action and whether incoming House leaders schedule another vote. Check whether senators publicly commit to a position on specific articles.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
           "mid-2026-11-10-republican-leadership-results"
@@ -176,14 +178,14 @@
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-11"
+        "reviewed_at": "2026-11-12"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The November 9 full review supplies the estimates for the eight authorized contenders. Massie forced a recorded House vote on the Hegseth resolution and stood alone among Republicans against sending it to committee. Rubio reportedly backed continued economic pressure on Iran while Vance retains a negotiating role. These developments give the candidates distinct arguments about the war and accountability. Their ability to recruit primary voters, donors or organizers on those arguments remains open.",
-    "snapshot_id": "2026-11-11-daily",
+    "summary": "The November 9 full review supplies the odds for the eight authorized contenders. Representative Thomas Massie secured enough signatures to seek a House vote on a second Epstein records bill. That gives him another example of working with Democrats on oversight. Secretary of State Marco Rubio took part in internal discussions about Nvidia chip restrictions, according to Axios. The available evidence leaves open how either development affects primary voters, donors or organizers.",
+    "snapshot_id": "2026-11-12-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -223,7 +225,7 @@
         "path": "Secretary of State Marco Rubio must decide to run before interested donors and organizers can build a presidential campaign for him.",
         "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
         "advantage": "Secretary of State Marco Rubio explained Trump’s preference for continued pressure on Iran to allies, according to meeting attendees. U.S. officials told Axios that Rubio helped advocate the policy.",
-        "vulnerability": "Rubio defended Trump’s initial decision to use force. Voters who blame the administration for the war may also hold him responsible. His plans to run and any donor commitments remain uncertain.",
+        "vulnerability": "Rubio defended Trump’s initial use of force in Iran and could share responsibility in voters’ eyes. Axios reported that he took part in talks about restricting Nvidia chip diversions. Commerce’s reported delays leave open what Rubio and other supporters of restrictions can deliver.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
@@ -231,7 +233,8 @@
           "irn-2026-11-04-vance-postelection-war-critique",
           "ai-2026-11-08-nvidia-board-inquiry",
           "suc-2026-11-08-contender-entry",
-          "irn-2026-11-10-rubio-economic-pressure"
+          "irn-2026-11-10-rubio-economic-pressure",
+          "ai-2026-11-11-lutnick-nvidia-export-delay-report"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -243,9 +246,10 @@
           "causal_rubio_denial",
           "daily_rubio_memo_20261109",
           "weekly_fl_candidates",
-          "daily_rubio_iran_20261111"
+          "daily_rubio_iran_20261111",
+          "daily_chip_axios_20261112"
         ],
-        "reviewed_at": "2026-11-11"
+        "reviewed_at": "2026-11-12"
       },
       {
         "candidate_id": "ron_desantis",
@@ -277,12 +281,13 @@
         "person_id": "cruz",
         "path": "Cruz can challenge both the economic record and rivals’ consistency while recruiting former conservative organizers.",
         "coalition": "Cruz could recruit religious conservatives and activists who value a forceful ideological advocate. Past presidential organizers and donor relationships could help him start, but renewed commitments are uncertain and Rubio competes for security-minded supporters.",
-        "advantage": "His detailed, combative arguments can signal conviction and preparation to conservative activists.",
-        "vulnerability": "Voters tired of partisan combat may see the same style as rigid, while shifts toward Trump invite trust attacks.",
+        "advantage": "His detailed, combative arguments can signal conviction and preparation to conservative activists. Senator Ted Cruz’s staff contacted Justice Department official Elliot Gaiser about a Texas judgeship the day after the election, according to reporting on Gaiser’s questionnaire. The outreach shows how Cruz can act on judicial appointments before Democrats take the Senate.",
+        "vulnerability": "Voters tired of partisan combat may see the same style as rigid, while shifts toward Trump invite trust attacks. Senator John Cornyn raised objections about the vetting process. Cruz’s ability to see the appointment through, and its value to a presidential campaign, remain open.",
         "positions": "Cruz generally favors a forceful foreign policy but has criticized tariffs. These positions may attract different groups of Republican voters rather than one united base.",
         "money": "Donors supported Cruz in earlier presidential contests. We have not established that those relationships will become financial commitments for 2028.",
         "event_ids": [
-          "suc-2025-12-47212e"
+          "suc-2025-12-47212e",
+          "mid-2026-11-10-rudofsky-nomination-withdrawn"
         ],
         "source_ids": [
           "cruz_donor_positioning",
@@ -291,9 +296,11 @@
           "harris_oct2026_primary",
           "prri",
           "weekly_2015_debate",
-          "weekly_ap_entry_recovered"
+          "weekly_ap_entry_recovered",
+          "daily_judges_ap_20261112",
+          "daily_durbin_judges_20261112"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-12"
       },
       {
         "candidate_id": "john_mcentee",
@@ -366,8 +373,8 @@
         "person_id": "massie",
         "path": "Representative Thomas Massie must choose whether to seek the Republican nomination or pursue another party’s opening.",
         "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign. An external recruiting effort may draw organizers away from a Republican bid, but his choice and his supporters’ choices remain open.",
-        "advantage": "Massie challenged the Iran war and was the only Republican to oppose referral of his Hegseth impeachment resolution. Voters who want congressional checks on Trump’s war powers have a recorded example of his position.",
-        "vulnerability": "Nearly all House Republicans who voted backed referral. Massie still needs to show that voters who agree with him will join a Republican presidential campaign, and he has yet to choose a party route.",
+        "advantage": "Massie secured enough signatures to seek a House vote on a second Epstein records bill. The petition gives him a concrete example of working with Democrats on disclosure while opposing the Trump administration on other issues.",
+        "vulnerability": "Four Republicans signed his petition. He still has to show that Republicans who value his oversight work would organize for his presidential campaign, and he has yet to choose a party route.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
         "source_ids": [
@@ -379,14 +386,17 @@
           "weekly_massie_route",
           "daily_massie_20261110",
           "daily_defense_trump_20261110",
-          "daily_hegseth_referral_20261111"
+          "daily_hegseth_referral_20261111",
+          "daily_massie_petition_20261112",
+          "daily_massie_axios_20261112"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
           "mid-2026-11-09-massie-hegseth-floor-action",
-          "mid-2026-11-10-hegseth-judiciary-referral"
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "eps-2026-11-11-massie-epstein-petition-threshold"
         ],
-        "reviewed_at": "2026-11-11"
+        "reviewed_at": "2026-11-12"
       }
     ],
     "scenario_labels": {
@@ -463,6 +473,17 @@
       "faction_ids": [
         "vance",
         "hawks"
+      ]
+    },
+    {
+      "id": "massie-epstein-petition",
+      "title": "Massie’s Epstein petition shows how Republicans can work with Democrats on disclosure",
+      "assessment": "Four Republicans joined 214 Democrats on the petition. That gives Massie and other Republicans who challenge Trump a concrete example to show disclosure advocates. Support for the proposal and willingness to recruit for a Republican presidential campaign remain separate questions.",
+      "event_ids": [
+        "eps-2026-11-11-massie-epstein-petition-threshold"
+      ],
+      "faction_ids": [
+        "dissenters"
       ]
     }
   ],

@@ -1732,6 +1732,30 @@
       "by": [],
       "fx": {},
       "fxnote": "No change assigned to faction authority: the record identifies a pending local decision, not a final restriction or a shift in federal control."
+    },
+    {
+      "id": "ai-2026-11-11-lutnick-nvidia-export-delay-report",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "TAR",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Howard Lutnick, Scott Bessent and Marco Rubio",
+      "text": "Axios reports Commerce Secretary Howard Lutnick delayed controls on suspected Nvidia chip diversions to China",
+      "context": "Axios cited six sources briefed on or familiar with the discussions. They said President Trump authorized action repeatedly and the Commerce Department held back. Commerce denied Axios’s account of a confrontation between Treasury Secretary Scott Bessent and Lutnick. The reported discussions included Secretary of State Marco Rubio. An operative restriction and the outcome of Nvidia’s separate board inquiry remain unverified.",
+      "source": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+      "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The account suggests Commerce can delay implementation even when senior officials seek restrictions. The president can still settle the dispute. The report leaves the reasons for delay and the suspected diversion open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-12",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The reported deliberations leave the final Commerce decision open."
     }
   ]
 }

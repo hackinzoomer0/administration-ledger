@@ -1,7 +1,7 @@
 {
   "AI": {
     "policy": "The administration is trying to limit states’ ability to regulate artificial intelligence while allowing commercial chip exports and voluntary safety reviews of advanced AI systems. The Pentagon is also seeking broad permission to use AI for military purposes.",
-    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved. Nvidia’s board opened an independent inquiry on November 8. That creates a route for new evidence about chip-export risks, but establishes neither espionage nor a changed export rule. The reported warning memo supervised by Secretary of State Marco Rubio remains attributed to the New York Times via Anadolu. Minneapolis’s municipal record supplies a concrete example: the council is considering data-center zoning, with a meeting listed for November 12. The proposed rules concern sites and local impacts; they do not settle utility rates or establish final approval.",
+    "dispute": "Commerce officials and technology investors favor sales and investment. Security hawks want tighter restrictions on chips reaching China. These groups can agree on one AI decision while fighting over another. Data-center construction also depends on separate state utility, local land-use and environmental approvals. Federal promotion does not settle who pays for grid upgrades or whether a particular site is approved. Nvidia’s board opened an independent inquiry on November 8. That creates a route for new evidence about chip-export risks, but establishes neither espionage nor a changed export rule. The reported warning memo supervised by Secretary of State Marco Rubio remains attributed to the New York Times via Anadolu. Minneapolis’s municipal record supplies a concrete example: the council is considering data-center zoning, with a meeting listed for November 12. The proposed rules concern sites and local impacts; they do not settle utility rates or establish final approval. Axios separately reported that Commerce Secretary Howard Lutnick held back restrictions on companies suspected of diverting Nvidia chips to China. Commerce disputed the reported confrontation with Treasury Secretary Scott Bessent. A new rule remains unverified.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -116,10 +116,11 @@
       "ai-2026-11-03-local-data-center-ballots",
       "ai-2026-11-02-cyber-info-sharing",
       "ai-2026-11-08-nvidia-board-inquiry",
-      "ai-2026-11-09-minneapolis-zoning"
+      "ai-2026-11-09-minneapolis-zoning",
+      "ai-2026-11-11-lutnick-nvidia-export-delay-report"
     ],
-    "research_as_of": "2026-11-08",
-    "scope": "November 9 focused review of Nvidia’s board statement and attributed reporting about Rubio’s warning memo. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
+    "research_as_of": "2026-11-12",
+    "scope": "Reviewed the reported delay in Nvidia chip restrictions and the Minneapolis council schedule. Other findings retain their prior evidence dates.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -210,8 +211,8 @@
     ]
   },
   "EPS": {
-    "policy": "DOJ has released part of the Epstein record and says its statutory duty is met; further disclosure remains contested.",
-    "dispute": "The Republican House Oversight majority staff says the Justice Department exposed survivors’ personal information by failing to black out identifying details before releasing records. It calls for further witness interviews and a process for survivors to see their own records. Those recommendations give Congress specific agency actions to examine. Whether the Justice Department will act on them remains open.",
+    "policy": "The Justice Department has released some Epstein records and says it fulfilled its legal obligation. A new House bill would let survivors, state prosecutors and lawmakers sue for records they believe the department unlawfully withheld.",
+    "dispute": "Survivors and lawmakers dispute the completeness and handling of the records. Massie has secured enough signatures to seek a floor vote. The White House defends the administration’s existing disclosures.",
     "player_ids": [
       "blanche",
       "donald-trump",
@@ -302,10 +303,11 @@
       "eps-2026-10-28-appeals-pause",
       "eps-2026-10-26-maurene-comey-ruling",
       "eps-2026-10-26-judiciary-dems-report",
-      "eps-2026-11-10-oversight-majority-report"
+      "eps-2026-11-10-oversight-majority-report",
+      "eps-2026-11-11-massie-epstein-petition-threshold"
     ],
-    "research_as_of": "2026-11-07",
-    "scope": "November 11 review of the Republican staff report on the Epstein records. Other findings retain their earlier evidence dates.",
+    "research_as_of": "2026-11-12",
+    "scope": "Verified the House petition signatures and reviewed the White House response. Other findings retain their prior evidence dates.",
     "actors": [
       {
         "person_id": "blanche",
@@ -881,8 +883,8 @@
     ]
   },
   "MID": {
-    "policy": "The Associated Press projects that Democrats will control both chambers of the next Congress. They take office in January; current members retain their powers until then.",
-    "dispute": "Stephen Miller reportedly began as White House chief of staff on November 9. Republicans chose Jim Jordan to coordinate their response in the next House and kept John Thune in the Senate. Before the new Congress takes office, the current House sent Thomas Massie’s resolution to impeach Defense Secretary Pete Hegseth to Judiciary by 211–204. Trump backed Hegseth, and the incoming Democratic majority can decide whether to pursue the allegations again.",
+    "policy": "Democrats are projected to control both chambers in January. The Associated Press call in Mississippi brings their projected Senate majority to 55 seats, with Alaska still uncalled.",
+    "dispute": "Incoming Democrats plan investigations, and the White House is challenging them publicly. The outgoing Congress still controls the floor and committees until January. Republican senators also helped shape an appeals court choice before the handover. Trump withdrew Lee Rudofsky and nominated Cody Hiland for the same seat.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -992,10 +994,13 @@
       "mid-2026-11-08-blanche-oversight-defense",
       "mid-2026-11-09-massie-hegseth-floor-action",
       "mid-2026-11-10-hegseth-judiciary-referral",
-      "mid-2026-11-10-republican-leadership-results"
+      "mid-2026-11-10-republican-leadership-results",
+      "mid-2026-11-11-colom-mississippi-senate-call",
+      "mid-2026-11-11-white-house-oversight-warning",
+      "mid-2026-11-10-rudofsky-nomination-withdrawn"
     ],
-    "research_as_of": "2026-11-08",
-    "scope": "November 11 review of the Hegseth vote and Republican leadership elections. Other findings retain their earlier evidence dates.",
+    "research_as_of": "2026-11-12",
+    "scope": "Reviewed Mississippi’s Senate race call and the public dispute over congressional investigations. Other findings retain their prior evidence dates.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1104,8 +1109,8 @@
     ]
   },
   "RUS": {
-    "policy": "Negotiations and selective sanctions relief remain central to the Russia approach, with pressure on Kyiv and disputes over enforcement and military support.",
-    "dispute": "Deal negotiators and restraint advocates favor a settlement; hawks and congressional dissenters press sanctions and support for Ukraine.",
+    "policy": "The United States continues to mediate and selectively ease sanctions. Ukraine and Russia announced a prisoner exchange agreement in principle. Transfer details and a wider settlement remain open.",
+    "dispute": "The U.S. approach still includes pressure on Kyiv and disagreements over sanctions enforcement and military support. Washington can convene talks. Russia and Ukraine still decide which prisoners they will release, when to transfer them and whether to agree to a ceasefire.",
     "player_ids": [
       "witkoff",
       "kushner",
@@ -1195,10 +1200,11 @@
       "rus-2026-11-05-oleshky-white-house-followup",
       "rus-2026-11-03-black-sea-widens",
       "rus-2026-11-02-alert-app-hacks",
-      "rus-2026-11-02-azov-resorts"
+      "rus-2026-11-02-azov-resorts",
+      "rus-2026-11-11-abu-dhabi-exchange-agreement"
     ],
-    "research_as_of": "2026-11-07",
-    "scope": "Weekly causal review 2026-11-07: carried policy synthesis with stored-episode screen; full implementation and court calendar not independently verified. No silence treated as confirmation.",
+    "research_as_of": "2026-11-12",
+    "scope": "Read the accounts of the prisoner exchange agreement announced in Abu Dhabi. Other findings retain their prior evidence dates.",
     "actors": [
       {
         "person_id": "witkoff",

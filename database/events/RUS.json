@@ -1539,6 +1539,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "rus-2026-11-11-abu-dhabi-exchange-agreement",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "Rustem Umerov and Vladimir Medinsky",
+      "text": "Ukraine and Russia announce a prisoner exchange agreement after Abu Dhabi talks",
+      "context": "Ukrainian negotiator Rustem Umerov and Russian negotiator Vladimir Medinsky announced an agreement in principle after two days of U.S.-mediated talks, The Kyiv Independent reported. The number of prisoners, transfer date and completed handover were unverified at this review. The Associated Press reported that U.S. envoys went to the Kremlin on November 12 for further talks. https://apnews.com/article/683810203340077f33611fd1d1757b23",
+      "source": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+      "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The envoys helped convene talks that produced a limited humanitarian agreement. A ceasefire and a settlement still depend on decisions by Russia and Ukraine.",
+      "origin": "daily shared intake",
+      "added": "2026-11-12",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The negotiators announced an agreement in principle. A completed handover remains unverified."
     }
   ]
 }
