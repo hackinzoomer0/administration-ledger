@@ -818,6 +818,30 @@
       "by": [],
       "fx": {},
       "fxnote": "No change assigned to faction authority: recruitment does not establish a campaign, primary support or control of policy."
+    },
+    {
+      "id": "suc-2026-11-12-kennedy-challenges-vance-war-blame",
+      "date": "2026-11-12",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "IRN",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "John Kennedy",
+      "text": "Senator John Kennedy disputes JD Vance’s account of why Republicans lost the midterms",
+      "context": "Louisiana Republican Senator John Kennedy told CNN that the Iran war might have contributed to the losses, but argued that it could not explain the breadth of Republican defeats. The Daily Beast published excerpts of the interview.",
+      "source": "https://www.thedailybeast.com/republican-senator-lobs-jaw-dropping-insult-at-vance",
+      "url": "https://www.thedailybeast.com/republican-senator-lobs-jaw-dropping-insult-at-vance",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Kennedy’s criticism gives Republicans who emphasize domestic concerns an argument against Vance’s explanation. The available reporting shows disagreement among elected Republicans. Primary voter response remains unknown.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
     }
   ]
 }

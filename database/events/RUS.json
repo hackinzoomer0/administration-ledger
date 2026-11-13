@@ -1561,6 +1561,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The negotiators announced an agreement in principle. A completed handover remains unverified."
+    },
+    {
+      "id": "rus-2026-11-12-us-envoys-moscow-dublin",
+      "date": "2026-11-12",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "Steve Witkoff, Jared Kushner, Vladimir Putin and Volodymyr Zelenskyy",
+      "text": "U.S. envoys meet Putin and Zelenskyy after the Abu Dhabi prisoner exchange talks",
+      "context": "AP reported that Steve Witkoff and Jared Kushner met Russian President Vladimir Putin in Moscow and Ukrainian President Volodymyr Zelenskyy in Dublin. Kushner described an effort to involve European representatives. Putin publicly rejected the prospect of European troops in Ukraine after a ceasefire.",
+      "source": "https://apnews.com/article/683810203340077f33611fd1d1757b23",
+      "url": "https://apnews.com/article/683810203340077f33611fd1d1757b23",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Bringing European representatives into the talks could give governments that might help defend Ukraine a say in the terms. Putin’s opposition to European troops leaves a ceasefire unresolved. The announced prisoner deal still awaits a verified transfer.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
     }
   ]
 }

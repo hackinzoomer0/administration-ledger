@@ -2958,6 +2958,30 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The parliament took office while coalition negotiations continued. No change in Israeli war policy was established."
+    },
+    {
+      "id": "irn-2026-11-12-trump-redirects-vance",
+      "date": "2026-11-12",
+      "precision": "day",
+      "issues": [
+        "IRN",
+        "SUC",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump and JD Vance",
+      "text": "Trump pulls JD Vance away from Iran talks and directs him to focus on alleged crime and corruption at home",
+      "context": "Trump publicly said the United States did not need an Iran deal and instructed the vice president to focus on alleged crime and corruption in Democratic-run cities and states. Vance had blamed the Iran war for much of the Republican midterm defeat. Axios reported no immediate reply from his office.",
+      "source": "https://apnews.com/article/d9671cbf66e3c2e337f4fb3485ad07d0",
+      "url": "https://apnews.com/article/d9671cbf66e3c2e337f4fb3485ad07d0",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Trump can narrow Vance’s role in making a deal. Vance’s next assignment could keep him in front of Republican voters, while his ability to deliver a diplomatic result has weakened. A new military order or domestic enforcement program remains unverified.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
     }
   ]
 }

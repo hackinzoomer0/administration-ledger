@@ -1258,6 +1258,28 @@
       "tier": "reported",
       "url": "",
       "weight": 1
+    },
+    {
+      "id": "tar-2026-11-12-canada-stellantis-notice",
+      "date": "2026-11-12",
+      "precision": "day",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "actor": "Mélanie Joly and Stellantis",
+      "text": "Canada gives Stellantis 30 days to address alleged breaches of its Brampton auto plant funding agreement",
+      "context": "Canadian Industry Minister Mélanie Joly said Ottawa gave Stellantis 30 days to address alleged breaches of its funding agreement. Stellantis had shifted planned vehicle production to the United States and agreed to sell its idled assembly plant in Brampton, Ontario, AP reported.",
+      "source": "https://apnews.com/article/9463fe4c0af159c8881fe5b00fb59ff4",
+      "url": "https://apnews.com/article/9463fe4c0af159c8881fe5b00fb59ff4",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Canada can use the funding agreement to seek repayment or a remedy as manufacturers adjust production. The notice leaves both a lawsuit and repayment open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
     }
   ]
 }

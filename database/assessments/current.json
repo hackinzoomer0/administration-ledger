@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-12",
-  "last_substantive_change": "2026-11-12",
+  "research_as_of": "2026-11-13",
+  "last_substantive_change": "2026-11-13",
   "review": {
-    "date": "2026-11-12",
-    "run_id": "2026-11-12",
+    "date": "2026-11-13",
+    "run_id": "2026-11-13",
     "type": "daily_review",
-    "scope": "Focused November 11–12 review of congressional oversight and election calls, the Abu Dhabi prisoner agreement, the Nvidia export dispute and pending decisions. The Minneapolis vote, Alaska and Kansas calls, Iran and Venezuela negotiating outcomes, and the latest court and hearing developments for Federal Reserve Governor Lisa Cook remain open."
+    "scope": "Focused November 12–13 review of Trump’s instruction to Vance, post-election reactions, oversight, Nvidia, local zoning, election calls, Russia talks and a Canadian trade response. The latest court orders on immigration and tariffs, Iran military operations, Venezuela talks and Lisa Cook’s hearing remain unverified."
   },
   "administration": {
-    "headline": "White House challenges incoming investigators as Thomas Massie seeks another Epstein records vote",
-    "summary": "The White House warned Democrats over their planned investigations, and incoming oversight leaders publicly said they would proceed. Representative Thomas Massie gathered enough signatures to seek another House vote on Epstein records, a day after the House sent his effort to impeach Defense Secretary Pete Hegseth to committee. The Associated Press called Mississippi’s Senate race for Democrat Scott Colom, widening the projected Democratic majority to 55 seats. Trump withdrew appeals court nominee Lee Rudofsky and nominated Cody Hiland after Republican senators resisted the original choice. Ukraine and Russia announced a prisoner exchange agreement in Abu Dhabi and still had to arrange a transfer. Axios reported that Commerce Secretary Howard Lutnick delayed proposed restrictions on companies suspected of diverting Nvidia chips to China. The Minneapolis zoning vote, Alaska and Kansas election calls, negotiations over Iran and Venezuela, and Federal Reserve Governor Lisa Cook’s hearing remain open.",
+    "headline": "Trump redirects JD Vance from Iran talks as Democrats prepare to oversee the administration",
+    "summary": "President Donald Trump told Vice President JD Vance to focus on alleged crime and corruption in Democratic-led cities and states after Vance blamed the Iran war for Republican losses. The instruction weakens Vance’s ability to deliver an agreement with Iran, while further military orders and Qatar’s role remain open. Democrats are projected to control both chambers in January. A federal prosecutor warned Senator Richard Blumenthal about his inquiry into White House ballroom donors, and Blumenthal sought the prosecutor’s records. House Democrats questioned their leadership’s floor preparation after the vote to send Defense Secretary Pete Hegseth’s impeachment resolution to committee. Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Minneapolis council members voted for project-by-project review of data centers. AP called the Kansas governor’s race for Cindy Holscher. U.S. envoys continued talks with Russia and Ukraine, and an actual prisoner transfer remains unverified. Canada warned Stellantis it could sue over an auto plant funding agreement. Alaska race results, the Venezuela talks, major immigration and tariff court developments and Lisa Cook’s hearing remain open.",
     "contests": [
       {
         "id": "white-house-access",
@@ -40,24 +40,26 @@
       {
         "id": "iran-decision",
         "issue_id": "IRN",
-        "title": "Trump favors continued pressure on Iran while Qatar keeps mediating",
+        "title": "Trump redirects Vance from Iran talks and says the United States does not need a deal",
         "status": "contested",
-        "assessment": "Trump has publicly favored keeping pressure on Iran while avoiding immediate renewed strikes. Axios attributed to U.S. officials that Rubio helped advocate this course. Vance retains an opportunity to show what negotiations can deliver.",
+        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Rubio reportedly described the decision to Group of Seven counterparts on November 10. No agreement or new operational order was verified.",
+        "change": "Trump publicly said the United States did not need an Iran deal and instructed the vice president to focus on alleged crime and corruption in Democratic-run cities and states. Vance had blamed the Iran war for much of the Republican midterm defeat. Axios reported no immediate reply from his office.",
         "basis": {
-          "actions": "Trump met Qatar’s prime minister and publicly described continuing pressure on Iran. Axios reported Rubio’s subsequent account to allies.",
+          "actions": "Trump redirected Vance publicly on November 12. Qatar had previously sought terms, and Axios reported Rubio’s account of sustained pressure to allies.",
           "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Check sanctions enforcement, any orders concerning supply routes, and whether Iran accepts terms.",
+        "watch": "Check who conducts the next contact with Qatar or Iran, whether Trump authorizes new operations, and what Vance is asked to do domestically.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review",
           "irn-2026-11-08-trump-conditional-talks",
           "irn-2026-11-09-qatar-meeting-plan",
-          "irn-2026-11-10-rubio-economic-pressure"
+          "irn-2026-11-10-rubio-economic-pressure",
+          "irn-2026-11-12-trump-redirects-vance",
+          "suc-2026-11-12-kennedy-challenges-vance-war-blame"
         ],
         "faction_ids": [
           "vance",
@@ -65,8 +67,8 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-11",
-        "summary": "Trump publicly favored the economic crackdown and naval blockade, according to Axios. Secretary of State Marco Rubio explained the approach to allies, and Qatar continued to seek an agreement."
+        "reviewed_at": "2026-11-13",
+        "summary": "Trump directed Vance to focus on alleged crime and corruption in Democratic-led cities and states. Qatar’s future role and any change in military operations remain open."
       },
       {
         "id": "succession-control",
@@ -133,7 +135,7 @@
         "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
-        "change": "Massie’s petition reached 218 signatures, including four Republicans. The White House defended its disclosures and challenged Democrats’ broader investigation plans.",
+        "change": "AP reported that Reitz, the U.S. attorney in Houston, told Blumenthal to preserve records about his inquiry into White House ballroom donors. Blumenthal rejected the warning and asked Reitz to preserve communications about his letter, including any with the White House and senior Justice Department officials. Blumenthal asked for confirmation by November 12. A reply remains unverified.",
         "basis": {
           "actions": "The House clerk recorded 218 signatures. The Associated Press reported the White House warning and Garcia’s public reply.",
           "positions": "The White House defended its prior release of records. Garcia says Congress will exercise its oversight authority.",
@@ -146,12 +148,13 @@
           "mid-2026-11-09-massie-hegseth-floor-action",
           "eps-2026-11-10-oversight-majority-report",
           "eps-2026-11-11-massie-epstein-petition-threshold",
-          "mid-2026-11-11-white-house-oversight-warning"
+          "mid-2026-11-11-white-house-oversight-warning",
+          "mid-2026-11-11-blumenthal-reitz-preservation"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-12"
+        "reviewed_at": "2026-11-13"
       },
       {
         "id": "hegseth-house-referral",
@@ -162,7 +165,7 @@
         "assessment": "The vote showed that nearly all Republicans who voted favored keeping the articles off the floor at this stage. Democrats are projected to control the House in January and could revisit the allegations.",
         "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
         "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
-        "change": "Some Democrats who missed the vote apologized publicly, and unnamed members faulted leadership’s preparation. Trump cast the referral as a vindication of Hegseth. The roll call shows how the outgoing House handled this resolution. It supplies no count of votes on the articles themselves.",
+        "change": "Axios reported that Representative Delia Ramirez and Representative-elect Melat Kiros publicly questioned Democratic leadership’s performance after floor setbacks that included the Hegseth referral. Axios also attributed criticism to unnamed Democrats. Minority Leader Hakeem Jeffries pointed to a veterans bill his party brought to a successful vote through a discharge petition.",
         "basis": {
           "actions": "The House voted 211–204 to send the resolution to committee.",
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
@@ -171,29 +174,30 @@
         "watch": "Watch for Judiciary Committee action and whether incoming House leaders schedule another vote. Check whether senators publicly commit to a position on specific articles.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
-          "mid-2026-11-10-republican-leadership-results"
+          "mid-2026-11-10-republican-leadership-results",
+          "mid-2026-11-13-democrats-criticize-floor-preparation"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-12"
+        "reviewed_at": "2026-11-13"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
     "summary": "The November 9 full review supplies the odds for the eight authorized contenders. Representative Thomas Massie secured enough signatures to seek a House vote on a second Epstein records bill. That gives him another example of working with Democrats on oversight. Secretary of State Marco Rubio took part in internal discussions about Nvidia chip restrictions, according to Axios. The available evidence leaves open how either development affects primary voters, donors or organizers.",
-    "snapshot_id": "2026-11-12-daily",
+    "snapshot_id": "2026-11-13-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
-        "path": "Vice President JD Vance can argue for correcting policy with Trump’s permission, but Trump also reminds voters that Vance took part in the decisions.",
+        "path": "JD Vance can argue that Republicans should change course on Iran after the midterms. Trump’s public instruction shifts Vance’s work toward alleged crime and corruption in Democratic-led cities and states.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
-        "advantage": "His reported November 9 meeting with Qatar’s prime minister gives Vance another opportunity to show that negotiation can produce results. No agreement or electoral benefit is verified.",
-        "vulnerability": "Trump has emphasized that Vance took part in administration decisions on Iran. Rubio reportedly helped shape Trump’s preference for sustained pressure, giving Republicans another official who can claim influence over the next step.",
+        "advantage": "Vance can use a domestic assignment to speak to Republican voters about crime and government conduct if he is given a role with visible results.",
+        "vulnerability": "Trump’s instruction makes it harder for Vance to claim credit for an Iran agreement. Senator John Kennedy’s public criticism shows that his account faces public opposition within the party. Kennedy rejected Vance’s explanation of the defeat. The reaction among primary voters remains unknown.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -202,7 +206,9 @@
           "irn-2026-11-04-vance-postelection-war-critique",
           "suc-2026-11-08-trump-vance-immigration-interview",
           "irn-2026-11-09-qatar-meeting-plan",
-          "irn-2026-11-10-rubio-economic-pressure"
+          "irn-2026-11-10-rubio-economic-pressure",
+          "irn-2026-11-12-trump-redirects-vance",
+          "suc-2026-11-12-kennedy-challenges-vance-war-blame"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -215,16 +221,18 @@
           "daily_trump_interview_20261108",
           "daily_qatar_plan_20261109",
           "daily_qatar_20261110",
-          "daily_rubio_iran_20261111"
+          "daily_rubio_iran_20261111",
+          "daily_vance_20261113",
+          "daily_kennedy_20261113"
         ],
-        "reviewed_at": "2026-11-11"
+        "reviewed_at": "2026-11-13"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "Secretary of State Marco Rubio must decide to run before interested donors and organizers can build a presidential campaign for him.",
         "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
-        "advantage": "Secretary of State Marco Rubio explained Trump’s preference for continued pressure on Iran to allies, according to meeting attendees. U.S. officials told Axios that Rubio helped advocate the policy.",
+        "advantage": "Secretary of State Marco Rubio defended the original decision to fight Iran and reportedly argued for continued pressure. Trump’s move away from Vance’s talks gives Rubio more room to make that case, with the next negotiating or military decisions still open.",
         "vulnerability": "Rubio defended Trump’s initial use of force in Iran and could share responsibility in voters’ eyes. Axios reported that he took part in talks about restricting Nvidia chip diversions. Commerce’s reported delays leave open what Rubio and other supporters of restrictions can deliver.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
@@ -234,7 +242,8 @@
           "ai-2026-11-08-nvidia-board-inquiry",
           "suc-2026-11-08-contender-entry",
           "irn-2026-11-10-rubio-economic-pressure",
-          "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+          "ai-2026-11-11-lutnick-nvidia-export-delay-report",
+          "irn-2026-11-12-trump-redirects-vance"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -247,9 +256,11 @@
           "daily_rubio_memo_20261109",
           "weekly_fl_candidates",
           "daily_rubio_iran_20261111",
-          "daily_chip_axios_20261112"
+          "daily_chip_axios_20261112",
+          "daily_vance_20261113",
+          "daily_rubio_20261113"
         ],
-        "reviewed_at": "2026-11-12"
+        "reviewed_at": "2026-11-13"
       },
       {
         "candidate_id": "ron_desantis",
@@ -464,11 +475,12 @@
     },
     {
       "id": "vance-permission-and-responsibility",
-      "title": "Trump permits Vance’s Iran criticism while keeping him tied to administration decisions.",
-      "assessment": "Trump’s acknowledgment of their prior discussion leaves Vance room to argue for correction while retaining ties to the president. Separate Qatar meetings are now reported, but no settlement or voter gain is established.",
+      "title": "Trump redirects Vance after his criticism of the Iran war",
+      "assessment": "Vance can still argue that the Iran war hurt Republicans. Trump’s November 12 instruction makes a diplomatic result harder for Vance to deliver. Actual domestic responsibilities and voter reaction remain open.",
       "event_ids": [
         "suc-2026-11-08-trump-vance-immigration-interview",
-        "irn-2026-11-09-qatar-meeting-plan"
+        "irn-2026-11-09-qatar-meeting-plan",
+        "irn-2026-11-12-trump-redirects-vance"
       ],
       "faction_ids": [
         "vance",

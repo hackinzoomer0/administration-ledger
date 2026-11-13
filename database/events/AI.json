@@ -1756,6 +1756,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The reported deliberations leave the final Commerce decision open."
+    },
+    {
+      "id": "ai-2026-11-11-huang-resigns-kress-interim",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Nvidia board, Jensen Huang and Colette Kress",
+      "text": "Nvidia names Colette Kress interim chief executive after Jensen Huang resigns",
+      "context": "Nvidia’s securities filing says the board accepted Huang’s resignation as president, chief executive and director on November 11. Chief financial officer Colette Kress will lead the company while the board seeks a permanent successor. AP reported that Trump praised Huang and proposed Apple chief Tim Cook, and that House Democratic leader Hakeem Jeffries criticized Trump’s emphasis on corporate interests.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Huang’s departure removes a chief executive who had dealt directly with Trump. The board controls the succession, and the filing leaves the board inquiry and any security allegations unresolved.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "ai-2026-11-12-minneapolis-council-zoning-vote",
+      "date": "2026-11-12",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Minneapolis City Council",
+      "text": "Minneapolis City Council votes 7–6 for project-by-project review of new data centers",
+      "context": "CBS Minnesota reported that council members approved rules for two downtown districts and would decide on individual facilities. The council rejected a complete ban. The city’s zoning page lists the meeting, but the legislative file was inaccessible during this review.",
+      "source": "https://www.cbsnews.com/minnesota/news/minneapolis-city-council-vote-on-data-centers/",
+      "url": "https://www.cbsnews.com/minnesota/news/minneapolis-city-council-vote-on-data-centers/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The vote gives council members a way to deny specific projects if the ordinance takes effect. State building rules and decisions about supplying power remain separate.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
     }
   ]
 }

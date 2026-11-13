@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-12",
+  "as_of_date": "2026-11-13",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2763,6 +2763,42 @@
       "verification_status": "read_full",
       "receipt_ids": [
         "1aa87b028c31720ea80cd155"
+      ]
+    },
+    {
+      "id": "daily_vance_20261113",
+      "url": "https://apnews.com/article/d9671cbf66e3c2e337f4fb3485ad07d0",
+      "publisher": "AP",
+      "publication_date": "2026-11-12",
+      "accessed_on": "2026-11-13",
+      "description": "Trump redirected Vance from Iran to alleged domestic corruption and crime.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "53ddad3f76210c180ad34c56"
+      ]
+    },
+    {
+      "id": "daily_kennedy_20261113",
+      "url": "https://www.thedailybeast.com/republican-senator-lobs-jaw-dropping-insult-at-vance",
+      "publisher": "The Daily Beast",
+      "publication_date": "2026-11-12",
+      "accessed_on": "2026-11-13",
+      "description": "The Daily Beast published excerpts of Senator John Kennedy’s CNN interview disputing JD Vance’s explanation of Republican losses.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "36d056f50469c6dc8178ba69"
+      ]
+    },
+    {
+      "id": "daily_rubio_20261113",
+      "url": "https://apnews.com/article/f7b507b55634985d6013d36265b3fbc0",
+      "publisher": "AP",
+      "publication_date": "2026-11-08",
+      "accessed_on": "2026-11-13",
+      "description": "Rubio defended original war decision on security grounds.",
+      "verification_status": "read_full",
+      "receipt_ids": [
+        "3f3c5d4b548e1f8e3aac5dea"
       ]
     }
   ],
@@ -19355,6 +19391,349 @@
               "source_ids": [
                 "daily_judges_ap_20261112",
                 "daily_durbin_judges_20261112"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2026-11-13-daily",
+        "date": "2026-11-13",
+        "run_id": "2026-11-13",
+        "type": "daily_review",
+        "wargame_ref": "2026-11-09-weekly",
+        "summary": "Trump moved Vice President JD Vance away from Iran talks after Vance blamed the war for much of the Republican defeat. Senator John Kennedy disputed that diagnosis, and Secretary of State Marco Rubio has defended Trump’s decision to fight. The change could make the November 9 estimates stale if voters, donors or organizers respond. All eight estimates are held under the weekly schedule and are conditional on the authorized roster.",
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.05,
+          "ron_desantis": 19.45,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Trump’s public instruction makes it harder for Vance to deliver an Iran agreement. Kennedy’s criticism shows a dispute among elected Republicans. Voter and donor response remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_rubio_iran_20261111",
+              "daily_vance_20261113",
+              "daily_kennedy_20261113"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "irn-2026-11-10-rubio-economic-pressure",
+              "irn-2026-11-12-trump-redirects-vance",
+              "suc-2026-11-12-kennedy-challenges-vance-war-blame"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance gave Republican critics of the war a public argument after the election. Trump’s instruction reduces Vance’s ability to show that his approach can produce an agreement.",
+                "event_ids": [
+                  "irn-2026-11-12-trump-redirects-vance",
+                  "suc-2026-11-12-kennedy-challenges-vance-war-blame"
+                ],
+                "source_ids": [
+                  "daily_vance_20261113",
+                  "daily_kennedy_20261113"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Trump’s shift gives Rubio’s case for pressure more room. Any new duties for Rubio and any campaign benefit remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "daily_rubio_iran_20261111",
+              "daily_chip_axios_20261112",
+              "daily_vance_20261113",
+              "daily_rubio_20261113"
+            ],
+            "event_ids": [
+              "irn-2026-11-10-rubio-economic-pressure",
+              "ai-2026-11-11-lutnick-nvidia-export-delay-report",
+              "irn-2026-11-12-trump-redirects-vance"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio’s access to foreign counterparts gives him a way to explain sustained pressure. His reported advocacy gives Republicans who favor that approach a reason to pay attention to him, while campaign commitments remain open.",
+                "event_ids": [
+                  "irn-2026-11-10-rubio-economic-pressure"
+                ],
+                "source_ids": [
+                  "daily_rubio_iran_20261111"
+                ]
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Axios places Rubio in discussions over chip restrictions. Commerce’s reported delay shows why participation alone may yield little electoral credit.",
+                "event_ids": [
+                  "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+                ],
+                "source_ids": [
+                  "daily_chip_axios_20261112"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Florida-based political strength and recruitment outside the state carry forward. Entry and new organizing were outside focused coverage.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. His work on judicial nominations remains relevant to conservative legal groups. New commitments or campaign organization were outside focused coverage.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "daily_judges_ap_20261112",
+              "daily_durbin_judges_20261112"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-rudofsky-nomination-withdrawn"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Cruz’s staff can help identify judicial candidates before the Senate changes hands. Other Republican senators can challenge those choices, as Cornyn did on the vetting process.",
+                "event_ids": [
+                  "mid-2026-11-10-rudofsky-nomination-withdrawn"
+                ],
+                "source_ids": [
+                  "daily_judges_ap_20261112",
+                  "daily_durbin_judges_20261112"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. His experience recruiting executive personnel remains an argument he could offer. Entry and evidence of an organization were outside focused coverage.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The public dispute over Iran gives restraint advocates a subject to organize around. The review did not establish a shift toward Paul among Republican primary voters.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "daily_thune_paul_20261111",
+              "daily_vance_20261113"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-republican-leadership-results",
+              "irn-2026-11-12-trump-redirects-vance"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Paul’s defense of Thune on the election results can preserve working relationships while he contests administration policy.",
+                "event_ids": [
+                  "mid-2026-11-10-republican-leadership-results"
+                ],
+                "source_ids": [
+                  "daily_thune_paul_20261111"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. His Georgia record remains the basis for a campaign argument. Recruitment outside Georgia and entry were outside focused coverage.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. The petition gives Massie a route to seek a vote. House Republicans’ near-unified referral vote shows the limits of his leverage over his party. Evidence of new presidential supporters remains open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "daily_hegseth_referral_20261111",
+              "daily_massie_petition_20261112",
+              "daily_massie_axios_20261112"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "eps-2026-11-11-massie-epstein-petition-threshold"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Massie gives Republican war critics a recorded example of congressional dissent. The near-unified Republican referral vote shows his limits inside the outgoing House.",
+                "event_ids": [
+                  "mid-2026-11-10-hegseth-judiciary-referral"
+                ],
+                "source_ids": [
+                  "daily_hegseth_referral_20261111"
+                ]
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "The petition shows Massie can work with Democrats on disclosure. Whether that helps him recruit Republican presidential supporters remains open.",
+                "event_ids": [
+                  "eps-2026-11-11-massie-epstein-petition-threshold"
+                ],
+                "source_ids": [
+                  "daily_massie_petition_20261112",
+                  "daily_massie_axios_20261112"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "Direct evidence of Republican primary voters’ reaction, donor commitments, early-state organizing and the scope of Vance’s new domestic work remains limited."
+        ],
+        "monitoring": {
+          "summary": "The earliest active terminal deadline is February 1, 2027. Trump’s instruction is an interim observation about Vance’s ability to deliver an agreement. It leaves the existing tests of voter support and campaign organization open.",
+          "prediction_updates": [],
+          "developments": [
+            {
+              "finding": "Trump publicly said the United States did not need an Iran deal and instructed the vice president to focus on alleged crime and corruption in Democratic-run cities and states. Vance had blamed the Iran war for much of the Republican midterm defeat. Axios reported no immediate reply from his office.",
+              "implication": "Vance’s route to demonstrating a diplomatic result has weakened. A visible domestic result could give him another argument. Rubio and early war critics have different ways to claim credit, depending on what voters want next.",
+              "weekly_question": "Test when a Trump-aligned voter who wants to end the war would credit Vance, Rubio, Paul or Massie. Compare direct policy-preference and candidate questions and seek evidence on the same voters. Also test whether concrete domestic responsibility could offset Vance’s loss of negotiating influence.",
+              "source_ids": [
+                "daily_vance_20261113",
+                "daily_kennedy_20261113",
+                "daily_rubio_20261113"
+              ],
+              "event_ids": [
+                "irn-2026-11-12-trump-redirects-vance",
+                "suc-2026-11-12-kennedy-challenges-vance-war-blame"
               ]
             }
           ]

@@ -2555,6 +2555,72 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The White House changed its nominee for one seat. The Senate has yet to confirm Hiland."
+    },
+    {
+      "id": "mid-2026-11-12-holscher-kansas-governor-call",
+      "date": "2026-11-12",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Associated Press, Cindy Holscher and Ty Masterson",
+      "text": "Associated Press calls Kansas governor’s race for Democrat Cindy Holscher",
+      "context": "AP projected that Democratic state Senator Cindy Holscher defeated Republican state Senate leader Ty Masterson. The result keeps the governor’s office in Democratic hands after Governor Laura Kelly’s term.",
+      "source": "https://apnews.com/article/c9bb46dfd593fa7182a6bc93722ce552",
+      "url": "https://apnews.com/article/c9bb46dfd593fa7182a6bc93722ce552",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Kansas Republicans still face a Democratic governor who can veto legislation. This call concerns the state executive branch and leaves federal chamber totals where they were.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "mid-2026-11-11-blumenthal-reitz-preservation",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Aaron Reitz and Richard Blumenthal",
+      "text": "Senator Richard Blumenthal asks U.S. Attorney Aaron Reitz to preserve records about the White House ballroom inquiry",
+      "context": "AP reported that Reitz, the U.S. attorney in Houston, told Blumenthal to preserve records about his inquiry into White House ballroom donors. Blumenthal rejected the warning and asked Reitz to preserve communications about his letter, including any with the White House and senior Justice Department officials. Blumenthal asked for confirmation by November 12. A reply remains unverified.",
+      "source": "https://www.blumenthal.senate.gov/imo/media/doc/20261111_letter_from_rm_blumenthal_to_aaron_reitzpdf.pdf",
+      "url": "https://www.blumenthal.senate.gov/imo/media/doc/20261111_letter_from_rm_blumenthal_to_aaron_reitzpdf.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The exchange exposes the prosecutor’s role to congressional scrutiny. Preservation can protect records for later demands. Whether either side obtains the documents or takes compulsory action remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "mid-2026-11-13-democrats-criticize-floor-preparation",
+      "date": "2026-11-13",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Delia Ramirez, Melat Kiros and Hakeem Jeffries",
+      "text": "Democrats Delia Ramirez and Melat Kiros question House leaders’ preparation after the Hegseth vote",
+      "context": "Axios reported that Representative Delia Ramirez and Representative-elect Melat Kiros publicly questioned Democratic leadership’s performance after floor setbacks that included the Hegseth referral. Axios also attributed criticism to unnamed Democrats. Minority Leader Hakeem Jeffries pointed to a veterans bill his party brought to a successful vote through a discharge petition.",
+      "source": "https://www.axios.com/2026/11/13/house-democrats-hegseth-impeachment-vote-jeffries",
+      "url": "https://www.axios.com/2026/11/13/house-democrats-hegseth-impeachment-vote-jeffries",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Members who want more influence over floor planning can use the losses to press their case. Jeffries’s example shows the party could still organize a vote on another issue. January scheduling and support for articles remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-13",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
     }
   ]
 }
