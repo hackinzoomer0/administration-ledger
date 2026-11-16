@@ -2,7 +2,7 @@
   "date": "2026-11-13",
   "type": "daily_review",
   "added": 9,
-  "summary": "President Donald Trump told Vice President JD Vance to focus on alleged crime and corruption in Democratic-led cities and states after Vance blamed the Iran war for Republican losses. The instruction weakens Vance’s ability to deliver an agreement with Iran, while further military orders and Qatar’s role remain open. Democrats are projected to control both chambers in January. A federal prosecutor warned Senator Richard Blumenthal about his inquiry into White House ballroom donors, and Blumenthal sought the prosecutor’s records. House Democrats questioned their leadership’s floor preparation after the vote to send Defense Secretary Pete Hegseth’s impeachment resolution to committee. Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Minneapolis council members voted for project-by-project review of data centers. AP called the Kansas governor’s race for Cindy Holscher. U.S. envoys continued talks with Russia and Ukraine, and an actual prisoner transfer remains unverified. Canada warned Stellantis it could sue over an auto plant funding agreement. Alaska race results, the Venezuela talks, major immigration and tariff court developments and Lisa Cook’s hearing remain open.",
+  "summary": "President Donald Trump told Vice President JD Vance to focus on alleged crime and corruption in Democratic-led cities and states after Vance blamed the Iran war for Republican losses. The instruction weakens Vance’s ability to deliver an agreement with Iran, while further military orders and Qatar’s role remain open. Democrats are projected to control both chambers in January. A federal prosecutor warned Senator Richard Blumenthal about his inquiry into White House ballroom donors, and Blumenthal sought the prosecutor’s records. House Democrats questioned their leadership’s floor preparation after the vote to send Defense Secretary Pete Hegseth’s impeachment resolution to committee. Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. His departure removes a prominent defender of models that developers can download and run themselves. Nvidia’s future support and any change in government policy on those models remain open. Minneapolis council members voted for project-by-project review of data centers. AP called the Kansas governor’s race for Cindy Holscher. U.S. envoys continued talks with Russia and Ukraine, and an actual prisoner transfer remains unverified. Canada warned Stellantis it could sue over an auto plant funding agreement. Alaska race results, the Venezuela talks, major immigration and tariff court developments and Lisa Cook’s hearing remain open.",
   "scope": "Focused November 12–13 review of Trump’s instruction to Vance, post-election reactions, oversight, Nvidia, local zoning, election calls, Russia talks and a Canadian trade response. The latest court orders on immigration and tariffs, Iran military operations, Venezuela talks and Lisa Cook’s hearing remain unverified.",
   "reviewed_episode_ids": [
     "irn-2026-11-12-trump-redirects-vance",
@@ -1103,9 +1103,10 @@
         "disposition": "reflected",
         "affected_assessments": [
           "assessments/issues/AI",
-          "impeachments/all"
+          "impeachments/all",
+          "assessments/current/administration"
         ],
-        "reason": "My reading: Huang’s departure removes a chief executive who had dealt directly with Trump. The board controls the succession, and the filing leaves the board inquiry and any security allegations unresolved."
+        "reason": "My reading: Nvidia loses a chief executive who dealt directly with Trump and used that visibility to defend open-weight AI. Nvidia still has a commercial reason to support companies running models on its hardware. A reduction in its funding or advocacy could give providers that sell access to proprietary models more leverage and leave some U.S. developers more reliant on Chinese open-weight models. The board’s plans and any new limits on model releases remain open."
       },
       {
         "finding": "Minneapolis City Council votes 7–6 for project-by-project review of new data centers",
@@ -1466,7 +1467,8 @@
       ],
       "ai-2026-11-11-huang-resigns-kress-interim": [
         "assessments/issues/AI",
-        "impeachments/all"
+        "impeachments/all",
+        "assessments/current/administration"
       ],
       "ai-2026-11-12-minneapolis-council-zoning-vote": [
         "assessments/issues/AI"
@@ -1612,5 +1614,37 @@
         ]
       }
     }
+  },
+  "post_publication_amendment": {
+    "date": "2026-11-13",
+    "event_ids": [
+      "ai-2026-11-11-huang-resigns-kress-interim"
+    ],
+    "reason": "The original review followed board succession and chip export enforcement. It did not trace the separate policy dispute in which Huang used his position to support open-weight models.",
+    "evidence": [
+      {
+        "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+        "finding": "Nvidia presented open weights as a contributor to American AI leadership."
+      },
+      {
+        "url": "https://www.axios.com/2026/07/22/nvidia-jensen-huang-china-open-source-ai",
+        "finding": "Huang publicly opposed broad restrictions after the reaction to Chinese models and called for broader access to Anthropic’s cyber model."
+      },
+      {
+        "url": "https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/",
+        "finding": "Nvidia described established resources and support for open models."
+      },
+      {
+        "url": "https://www.anthropic.com/news/position-open-weights-models",
+        "finding": "Anthropic states that the risks and potential mitigations of open-weight releases should be tested."
+      },
+      {
+        "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+        "finding": "The reported Hugging Face deal was pending. Future spending and institutional backing remain uncertain."
+      }
+    ],
+    "follow_up": "Check Nvidia’s open-model investment, releases, tooling and public advocacy after the leadership transition, including the reported Hugging Face deal. Track chip export enforcement, model use in sensitive systems and limits on releasing weights separately.",
+    "workflow_correction": "For consequential departures or losses of access, retrieve the actor’s issue positions and commitments before writing their implications. Ask which live decision loses an advocate or funder, who inherits the resources, who gains leverage, and what observable action would establish a change. Check public positions, material commitments and whether the successor can maintain them.",
+    "editorial_check": "Kept the corporate decision in the headline. Explained what downloadable weights let developers do and distinguished a lost advocate from a future policy or funding decision."
   }
 }
