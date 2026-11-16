@@ -305,6 +305,15 @@
       "publication_date": "2026-11-11",
       "accessed_on": "2026-11-16",
       "limitation": "The statement documents the advocacy group’s request and allegations. It leaves Carr’s response and congressional support open."
+    },
+    {
+      "id": "weekly-20261116-faa-title-correction",
+      "title": "Sam Graves and Rick Larsen respond to the nationwide ground stop",
+      "url": "https://transportation.house.gov/news/documentsingle.aspx?DocumentID=410342",
+      "publication_date": "2026-11-13",
+      "accessed_on": "2026-11-16",
+      "limitation": "Title correction naming both committee leaders. The original statement, date and URL are the same.",
+      "supersedes": "weekly-20261116-faa"
     }
   ],
   "cases": [
