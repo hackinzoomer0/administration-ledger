@@ -865,6 +865,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Private reporting describes possible timing. A campaign decision and its effect on recruitment remain open."
+    },
+    {
+      "id": "suc-2026-11-16-cruz-prepares-presidential-run",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Ted Cruz",
+      "text": "Reuters reports Senator Ted Cruz has begun preparing for a 2028 presidential run",
+      "context": "Conservative economist Stephen Moore told Reuters that Cruz said he planned to run. Two people familiar with the activity described early preparations. Reuters also reported that Florida Governor Ron DeSantis is keeping his options open and that several Republican donors want Secretary of State Marco Rubio to enter.",
+      "source": "https://uk.marketscreener.com/news/republican-2028-field-takes-shape-after-midterm-drubbing-ce785edfd988f621",
+      "url": "https://uk.marketscreener.com/news/republican-2028-field-takes-shape-after-midterm-drubbing-ce785edfd988f621",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: An early start gives Cruz time to recruit Republican organizers while other contenders weigh their options. Donor interest and private discussions leave entry, staffing and voter support open.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Reported preparations do not establish a faction endorsement or a delegate commitment."
     }
   ]
 }

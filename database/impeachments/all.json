@@ -233,6 +233,78 @@
       "publication_date": "2026-11-15",
       "accessed_on": "2026-11-16",
       "limitation": "Operative licensing requirements and transition provisions."
+    },
+    {
+      "id": "weekly-20261116-cantwell",
+      "title": "Maria Cantwell asks Howard Lutnick to curb advanced chip diversion",
+      "url": "https://www.commerce.senate.gov/press/dem/release/cantwell-tells-lutnick-you-failed-to-protect-national-security-americas-tech-edge/",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-16",
+      "limitation": "Cantwell addressed demands on advanced chip diversion to Lutnick. This is a documented oversight act."
+    },
+    {
+      "id": "weekly-20261116-lutnick",
+      "title": "Trump advisers reportedly direct blame at Howard Lutnick",
+      "url": "https://d2dr22b2lm4tvw.cloudfront.net/wsj/2026-11-14/front-page.pdf",
+      "publication_date": "2026-11-14",
+      "accessed_on": "2026-11-16",
+      "limitation": "Front page reports that some advisers are shifting blame to Lutnick; departure is unverified."
+    },
+    {
+      "id": "weekly-20261116-kennedy",
+      "title": "House Democrats weigh impeachment of Robert F. Kennedy Jr.",
+      "url": "https://apnews.com/article/1ce376052d40c797cfb9c9137a9fad45",
+      "publication_date": "2026-11-13",
+      "accessed_on": "2026-11-16",
+      "limitation": "Clyburn named Kennedy as an impeachment priority, Raskin pledged investigation and MAHA Institute president warned of alienating supporters."
+    },
+    {
+      "id": "weekly-20261116-samoa",
+      "title": "Senators seek records on Robert F. Kennedy Jr.’s Samoa trip",
+      "url": "https://apnews.com/article/e4b97becad6d2951d9e84ea584979c41",
+      "publication_date": "2026-11-12",
+      "accessed_on": "2026-11-16",
+      "limitation": "Senators seek documents about Kennedy’s Samoa trip and testimony."
+    },
+    {
+      "id": "weekly-20261116-gifts",
+      "title": "Ron Wyden and Angela Alsobrooks ask about gifts to Robert F. Kennedy Jr.",
+      "url": "https://www.finance.senate.gov/ranking-members-news/wyden-and-alsobrooks-probe-gifts-to-rfk-jr-from-top-donor/",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-16",
+      "limitation": "Search result establishes announced gifts inquiry."
+    },
+    {
+      "id": "weekly-20261116-stevens",
+      "title": "Haley Stevens announces articles of impeachment against Robert F. Kennedy Jr.",
+      "url": "https://stevens.house.gov/media/press-releases/michigan-congresswoman-haley-stevens-introduces-articles-impeachment-against",
+      "publication_date": "2025-12-10",
+      "accessed_on": "2026-11-16",
+      "limitation": "Official search excerpt dates introduction of articles."
+    },
+    {
+      "id": "weekly-20261116-faa",
+      "title": "House Transportation Committee leaders respond to the nationwide FAA ground stop",
+      "url": "https://transportation.house.gov/news/documentsingle.aspx?DocumentID=410342",
+      "publication_date": "2026-11-13",
+      "accessed_on": "2026-11-16",
+      "limitation": "Graves and Larsen responded jointly to the FAA ground stop."
+    },
+    {
+      "id": "weekly-20261116-aviation",
+      "title": "Rick Larsen plans renewed oversight of air traffic modernization",
+      "url": "https://rollcall.com/2026/11/16/aviation-funding-becomes-political-football-in-lame-duck-session/",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-16",
+      "limitation": "Budget dispute and planned Bedford oversight hearing; Larsen says he will revive oversight staff."
+    },
+    {
+      "id": "weekly-20261116-rsf",
+      "title": "Reporters Without Borders calls on Congress to impeach Brendan Carr",
+      "url": "https://rsf.org/en/usa-rsf-urges-congress-impeach-fcc-chairman-brendan-carr",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-16",
+      "limitation": "The statement documents the advocacy group’s request and allegations. It leaves Carr’s response and congressional support open."
     }
   ],
   "cases": [
@@ -352,12 +424,19 @@
       "office": "Health and Human Services secretary",
       "eligibility": "eligible",
       "tenure": "in_office",
-      "title": "Health-policy oversight",
-      "allegations": "Calls for accountability merit case discovery; policy opposition alone does not establish a conviction coalition.",
-      "defense": "No complete article-specific evidence and defense review has been completed in this feature.",
-      "source_ids": [],
-      "event_ids": [],
-      "watch": "Specific conduct, underlying evidence, defenses and congressional agenda."
+      "title": "Senators seek records and House Democrats discuss impeachment",
+      "allegations": "Representative Haley Stevens introduced articles in December 2025. Senators are now examining Kennedy’s testimony about Samoa and gifts from a donor.",
+      "defense": "The inquiries raise distinct factual questions about testimony and gifts. AP reports that the leader of an allied health-policy group warned that pursuing Kennedy could alienate its supporters.",
+      "source_ids": [
+        "weekly-20261116-kennedy",
+        "weekly-20261116-samoa",
+        "weekly-20261116-gifts",
+        "weekly-20261116-stevens"
+      ],
+      "event_ids": [
+        "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+      ],
+      "watch": "Watch for records, Kennedy’s replies and whether House leaders schedule articles or choose hearings first."
     },
     {
       "id": "lutnick",
@@ -366,12 +445,17 @@
       "office": "Commerce secretary",
       "eligibility": "eligible",
       "tenure": "in_office",
-      "title": "Financial and access controversies",
-      "allegations": "Existing ledger controversies require specific evidence and current congressional follow-up.",
-      "defense": "Association, criticism or a resignation demand does not establish wrongdoing or conviction support.",
-      "source_ids": [],
-      "event_ids": [],
-      "watch": "Current evidence of personal acts, defenses and legislative follow-up."
+      "title": "Senator Maria Cantwell presses Lutnick over advanced chip diversion",
+      "allegations": "Cantwell asked Lutnick to stop chip diversion to firms tied to China. The Wall Street Journal reported that some Trump advisers were shifting blame for the Nvidia controversy toward Lutnick.",
+      "defense": "The public letter establishes scrutiny. Licensing records and Lutnick’s response are needed to assess his individual responsibility, and reports described pressure on his job.",
+      "source_ids": [
+        "weekly-20261116-cantwell",
+        "weekly-20261116-lutnick"
+      ],
+      "event_ids": [
+        "ai-2026-11-16-cantwell-demands-chip-enforcement"
+      ],
+      "watch": "Watch for Commerce’s reply, licensing records, a hearing date and formal personnel action."
     },
     {
       "id": "bondi",
@@ -2517,6 +2601,379 @@
           }
         }
       }
+    },
+    {
+      "id": "2026-11-16-weekly",
+      "as_of": "2026-11-16T16:09:49.885558+00:00",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-16-weekly",
+      "type": "weekly",
+      "summary": "The House referred Hegseth’s resolution. House Democrats are considering action involving Kennedy, and Cantwell pressed Lutnick on chip exports. The evidence shows several routes to investigate officials and no verified Senate commitment to convict.",
+      "coverage": "Reviewed all nine tracked cases, with deeper intake on Hegseth, Kennedy, Lutnick and the Guilfoyle records deadline. Duffy and Bedford are leads for oversight after the ground stop. Reporters Without Borders also urged Congress to impeach Federal Communications Commission Chair Brendan Carr. This review records that request and leaves open whether any lawmaker will act on it.",
+      "context": {
+        "state": "unverified",
+        "assessment": "If all 100 senators attend, 67 votes are needed. If 55 Democrats and aligned senators all vote to convict, 12 additional votes are needed. Projected seats and votes remain conditional. The Hegseth referral and the separate inquiries involving Kennedy and Lutnick establish different stages of congressional action.",
+        "observation_ids": [],
+        "source_ids": [
+          "hegseth-house-roll-317",
+          "daily-house-attendance",
+          "daily-white-house-warning",
+          "daily-colom-call",
+          "daily-20261113-house",
+          "daily-20261113-doj",
+          "daily-20261116-house",
+          "daily-20261116-warren",
+          "weekly-20261116-kennedy",
+          "weekly-20261116-cantwell",
+          "weekly-20261116-rsf"
+        ],
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "mid-2026-11-11-white-house-oversight-warning",
+          "mid-2026-11-11-colom-mississippi-senate-call",
+          "mid-2026-11-13-democrats-criticize-floor-preparation",
+          "mid-2026-11-11-blumenthal-reitz-preservation",
+          "mid-2026-11-16-reitz-warren-preservation",
+          "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment",
+          "ai-2026-11-16-cantwell-demands-chip-enforcement",
+          "mid-2026-11-11-rsf-urges-carr-impeachment"
+        ],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A Senate conviction could make it easier to pursue another case",
+            "assessment": "A bipartisan conviction could encourage lawmakers and witnesses in later cases. The Hegseth referral and new inquiries show lower barriers to airing complaints. They provide limited evidence of lower barriers to conviction."
+          },
+          {
+            "id": "exception",
+            "title": "Senators could limit their support to one unusual case",
+            "assessment": "The strongest current explanation is case-specific action. Hegseth faces war-powers articles, Kennedy faces questions about testimony and gifts, and Lutnick faces questions about export enforcement. A vote in one case would require new reasons to carry across."
+          },
+          {
+            "id": "backlash",
+            "title": "Voter backlash could discourage another impeachment",
+            "assessment": "A Kennedy ally’s warning gives backlash a concrete audience and some credibility, and the White House’s defense of Hegseth shows how the administration could rally supporters. Actual voter or senator movement remains unmeasured."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 50,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 12.5,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "Thomas Massie used a House procedure to force a vote. The House sent the resolution to committee, and only Massie among Republicans voted against referral. Hakeem Jeffries has backed impeachment. A vote to adopt articles and a Senate vote to convict remain separate decisions.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Thomas Massie used a House procedure to force a vote. The House sent the resolution to committee, and only Massie among Republicans voted against referral. Hakeem Jeffries has backed impeachment. A vote to adopt articles and a Senate vote to convict remain separate decisions."
+          },
+          "basis": {
+            "allegations": "The resolution proposes eight articles against Defense Secretary Pete Hegseth. Several allege that his decisions about Iran violated Congress’s war powers.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall",
+              "hegseth-house-roll-317",
+              "hegseth-white-house-opposition",
+              "daily-house-attendance",
+              "daily-20261113-house",
+              "daily-20261116-house"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action",
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-13-democrats-criticize-floor-preparation"
+            ],
+            "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": [
+              "hegseth-referral-2026-11-10"
+            ]
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "New inquiries into other officials may make hearings easier to organize. No verified new contract evidence, House scheduling commitment or former-office conviction coalition changes this estimate.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "New inquiries into other officials may make hearings easier to organize. No verified new contract evidence, House scheduling commitment or former-office conviction coalition changes this estimate."
+          },
+          "basis": {
+            "allegations": "Filed articles against former Homeland Security Secretary Kristi Noem allege self-dealing. A separate congressional referral alleges false testimony. Both allegations remain disputed.",
+            "defense": "Noem defended the contracting process and said Trump approved it. Conflicting accounts leave her intent and any personal benefit unresolved.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters"
+            ],
+            "event_ids": [],
+            "watch": "Check contract records, any findings about her role and whether lawmakers would proceed after her departure."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "Garcia’s deadline passed and his letter does not show whether Lynch complied privately. A proceeding elsewhere would not resolve the production question or the political obstacle to pursuing a former ambassador.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Garcia’s deadline passed and his letter does not show whether Lynch complied privately. A proceeding elsewhere would not resolve the production question or the political obstacle to pursuing a former ambassador."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrats are investigating whether former ambassador Kimberly Guilfoyle sought money from a donor in exchange for access to senior administration officials. The allegation is disputed.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso",
+              "daily-20261113-guilfoyle",
+              "daily-20261116-lynch"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns"
+            ],
+            "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "The Reitz letter and White House defense show officials putting pressure on investigators. The available record leaves open whether Blanche directed the action or lawmakers will pursue articles against him.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The Reitz letter and White House defense show officials putting pressure on investigators. The available record leaves open whether Blanche directed the action or lawmakers will pursue articles against him."
+          },
+          "basis": {
+            "allegations": "House members have expressed support for impeaching Attorney General Todd Blanche. The current oversight dispute leaves open whether he personally directed the prosecutor’s warning.",
+            "defense": "Lawyers can act on behalf of the government and dispute Congress’s legal arguments. Evidence that Blanche misused his authority would require a specific act and its circumstances.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support",
+              "oversight-epstein-majority",
+              "daily-white-house-warning",
+              "daily-20261113-doj",
+              "daily-20261116-warren"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense",
+              "eps-2026-11-10-oversight-majority-report",
+              "mid-2026-11-11-white-house-oversight-warning",
+              "mid-2026-11-11-blumenthal-reitz-preservation",
+              "mid-2026-11-16-reitz-warren-preservation"
+            ],
+            "watch": "Check for records of Blanche’s own decisions, court findings and lawmakers’ commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The change in chief of staff raises questions about who controlled access and decisions. Proceedings against Cabinet officers would leave eligibility in Wiles’s former role and case-specific evidence open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The change in chief of staff raises questions about who controlled access and decisions. Proceedings against Cabinet officers would leave eligibility in Wiles’s former role and case-specific evidence open."
+          },
+          "basis": {
+            "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means"
+            ],
+            "event_ids": [],
+            "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The other cases increase scrutiny of administration personnel. A Patel forecast would require evidence of his own conduct and a congressional commitment to act on it.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The other cases increase scrutiny of administration personnel. A Patel forecast would require evidence of his own conduct and a congressional commitment to act on it."
+          },
+          "basis": {
+            "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+            "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Kennedy moves up the oversight agenda. Stevens’s earlier filing, Clyburn’s remarks and senators’ records requests establish distinct steps. A possible backlash among Kennedy-aligned health activists gives leaders a reason to seek records before deciding on a House vote. This watchlist case stays unestimated.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Kennedy moves up the oversight agenda. Stevens’s earlier filing, Clyburn’s remarks and senators’ records requests establish distinct steps. A possible backlash among Kennedy-aligned health activists gives leaders a reason to seek records before deciding on a House vote. This watchlist case stays unestimated."
+          },
+          "basis": {
+            "allegations": "Representative Haley Stevens introduced articles in December 2025. Senators are now examining Kennedy’s testimony about Samoa and gifts from a donor.",
+            "defense": "The inquiries raise distinct factual questions about testimony and gifts. AP reports that the leader of an allied health-policy group warned that pursuing Kennedy could alienate its supporters.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [
+              "weekly-20261116-kennedy",
+              "weekly-20261116-samoa",
+              "weekly-20261116-gifts",
+              "weekly-20261116-stevens"
+            ],
+            "event_ids": [
+              "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+            ],
+            "watch": "Watch for records, Kennedy’s replies and whether House leaders schedule articles or choose hearings first."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Cantwell’s letter makes Commerce enforcement a specific line of inquiry. Reported blame inside the administration raises job pressure. Records of individual decisions, leadership action on articles and Senate support remain open. This watchlist case stays unestimated.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Cantwell’s letter makes Commerce enforcement a specific line of inquiry. Reported blame inside the administration raises job pressure. Records of individual decisions, leadership action on articles and Senate support remain open. This watchlist case stays unestimated."
+          },
+          "basis": {
+            "allegations": "Cantwell asked Lutnick to stop chip diversion to firms tied to China. The Wall Street Journal reported that some Trump advisers were shifting blame for the Nvidia controversy toward Lutnick.",
+            "defense": "The public letter establishes scrutiny. Licensing records and Lutnick’s response are needed to assess his individual responsibility, and reports described pressure on his job.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [
+              "weekly-20261116-cantwell",
+              "weekly-20261116-lutnick"
+            ],
+            "event_ids": [
+              "ai-2026-11-16-cantwell-demands-chip-enforcement"
+            ],
+            "watch": "Watch for Commerce’s reply, licensing records, a hearing date and formal personnel action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "A vote to release Epstein records can proceed independently of an impeachment effort. Even if the Senate convicts another official, lawmakers would need evidence about Bondi’s actions and a willingness to try a former attorney general.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A vote to release Epstein records can proceed independently of an impeachment effort. Even if the Senate convicts another official, lawmakers would need evidence about Bondi’s actions and a willingness to try a former attorney general."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Senators have disputed when they can try a former official. Evidence and congressional support specific to Bondi remain uncertain.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
     }
   ],
   "tests": [
@@ -2541,7 +2998,7 @@
       "resolve_by": "2026-11-14",
       "claim": "Check responses to the November 13 records deadline; record missing or inaccessible material honestly.",
       "status": "unresolved",
-      "resolution": "Garcia’s letter sets a November 13 deadline for producer Drew Lynch. The committee release and post-deadline searches provided no public response or confirmation that records were delivered privately. Check for a committee update or a statement from Lynch.",
+      "resolution": "Garcia’s letter establishes the November 13 deadline. Post-deadline search did not surface a response from Lynch or the committee. Private production remains unresolved.",
       "source_ids": [
         "guilfoyle-letter",
         "daily-20261113-guilfoyle",

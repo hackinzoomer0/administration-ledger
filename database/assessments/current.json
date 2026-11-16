@@ -4,13 +4,13 @@
   "last_substantive_change": "2026-11-16",
   "review": {
     "date": "2026-11-16",
-    "run_id": "2026-11-16",
-    "type": "daily_review",
-    "scope": "Focused November 13–16 intake on congressional control, Republican leadership and 2028 positioning, congressional oversight, Iran diplomacy and advanced chip rules, with scheduled-outcome checks for all ten tracked issues. The latest immigration and tariff court orders, Cook’s hearing, Venezuela’s closing talks and actual Russia–Ukraine prisoner transfers remain unverified."
+    "run_id": "2026-11-16-weekly",
+    "type": "weekly_review",
+    "scope": "Weekly review of Republican campaign preparation, congressional oversight, the air traffic shutdown and Venezuelan election negotiations. Full filings, court orders and election results remain incompletely checked."
   },
   "administration": {
     "headline": "Trump’s choice to lead the Republican Party faces a challenge after the midterms",
-    "summary": "Democrats are projected to control both chambers of Congress in January. After the defeats, Republican National Committee deputy KC Crosbie challenged party chair Joe Gruters and called for a review of what went wrong. Gruters defended his spending to committee members, and President Donald Trump backed him. The committee’s January vote will test whether Trump can keep his choice in charge of national party fundraising and campaign operations. In Congress, Democratic investigators face White House and Justice Department pressure as they prepare to lead committees. Axios reported that U.S. attorney Aaron Reitz asked Senator Elizabeth Warren to preserve records concerning her inquiries. The House vote to send Defense Secretary Pete Hegseth’s impeachment resolution to the Judiciary Committee remains the latest verified step in that case. Pakistan says it is awaiting a U.S. reply to Iran’s proposals. Commerce released rules for licensing some remote uses of advanced U.S. chips. Alaska’s final results, recent immigration and tariff court orders, and the result of Venezuela’s latest talks remain open.",
+    "summary": "Democrats are projected to control both chambers of Congress in January. After the defeats, Republican National Committee deputy KC Crosbie challenged party chair Joe Gruters and called for a review of what went wrong. Gruters defended his spending to committee members, and President Donald Trump backed him. The committee’s January vote will test whether Trump can keep his choice in charge of national party fundraising and campaign operations. In Congress, Democratic investigators face White House and Justice Department pressure as they prepare to lead committees. Axios reported that U.S. attorney Aaron Reitz asked Senator Elizabeth Warren to preserve records concerning her inquiries. The House sent Defense Secretary Pete Hegseth’s impeachment resolution to the Judiciary Committee. Pakistan says it is awaiting a U.S. reply to Iran’s proposals. Commerce released rules for licensing some remote uses of advanced U.S. chips. Senator Maria Cantwell asked Commerce Secretary Howard Lutnick to stop advanced chip diversion to China. House Democrats are weighing action on Health Secretary Robert F. Kennedy Jr. as senators seek records on his testimony and gifts. After the Federal Aviation Administration halted departures nationwide, Representative Rick Larsen said he would revive committee investigators to scrutinize the agency’s modernization program. Further reporting is needed on Alaska’s final results, the immigration and tariff court cases, and Venezuela’s election timetable.",
     "contests": [
       {
         "id": "white-house-access",
@@ -192,16 +192,16 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The November 9 full review supplies the odds for the eight authorized contenders. Vice President JD Vance’s fundraising relationships could help him start a campaign quickly. Axios reported that he may wait until spring to announce his plans, giving rivals time to approach donors and potential staff. The Republican National Committee’s January vote will decide who runs the party’s national operation. Trump’s endorsement and the response of primary voters remain open.",
-    "snapshot_id": "2026-11-16-daily",
+    "summary": "Vice President JD Vance leads the Republican nomination forecast. Reuters reported that Texas Senator Ted Cruz has started preparing for a 2028 run, giving him time to recruit while Vance and Florida Governor Ron DeSantis weigh when to decide. Their prospects depend in part on whether Republican voters want a change in the approach to the Iran war and rising household costs.",
+    "snapshot_id": "2026-11-16-weekly",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
-        "path": "JD Vance can argue that Republicans should change course on Iran after the midterms. Trump’s public instruction shifts Vance’s work toward alleged crime and corruption in Democratic-led cities and states.",
+        "path": "Axios reports that Vance may wait until spring to declare. His advisers can still recruit quietly, but Cruz can offer early-state activists work sooner.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "Vance can use a domestic assignment to speak to Republican voters about crime and government conduct if he is given a role with visible results.",
-        "vulnerability": "Trump’s direction to focus on domestic issues makes it harder for Vance to claim credit for an Iran agreement. Republican Senator John Kennedy publicly disputed Vance’s account of the party’s defeat. Axios reported that Vance might wait until spring to announce his plans. Waiting could preserve his relationship with Trump and give rivals time to recruit. Primary voters’ reactions remain unknown.",
+        "vulnerability": "Waiting gives Cruz time to recruit. Vance can limit that cost if his advisers keep donors and organizers on board while he weighs how to handle his relationship with Trump.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -214,7 +214,8 @@
           "irn-2026-11-12-trump-redirects-vance",
           "suc-2026-11-12-kennedy-challenges-vance-war-blame",
           "suc-2026-11-15-vance-2028-timing-report",
-          "mid-2026-11-15-gruters-defends-rnc-spending"
+          "mid-2026-11-15-gruters-defends-rnc-spending",
+          "suc-2026-11-16-cruz-prepares-presidential-run"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -231,17 +232,18 @@
           "daily_vance_20261113",
           "daily_kennedy_20261113",
           "daily_20261116_vance",
-          "daily_20261116_rnc"
+          "daily_20261116_rnc",
+          "weekly-20261116-poll"
         ],
         "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
-        "path": "Secretary of State Marco Rubio must decide to run before interested donors and organizers can build a presidential campaign for him. Axios reported that Rubio has repeatedly said he would support Vance if he runs. Vance’s possible delay could give Rubio time to assess donors’ interest.",
-        "coalition": "Rubio could recruit Republicans who favor a forceful foreign policy and donors who want an experienced official. Ken Griffin’s reported preference offers a possible fundraising opening, not a contribution pledge. Rubio would compete with Vance and Cruz for some of the same people.",
+        "path": "Reuters found several donors who want Rubio in the race. He would need to enter, recruit a team and explain the decisions he made as secretary of state.",
+        "coalition": "Some Republican donors want Rubio to run. Robert Bigelow also likes Vance, and Cruz can ask overlapping donors to back a campaign that starts sooner.",
         "advantage": "Secretary of State Marco Rubio defended the original decision to fight Iran and reportedly argued for continued pressure. Trump’s move away from Vance’s talks gives Rubio more room to make that case, with the next negotiating or military decisions still open.",
-        "vulnerability": "Rubio defended Trump’s initial use of force in Iran and could share responsibility in voters’ eyes. Axios reported that he took part in talks about restricting Nvidia chip diversions. Commerce’s reported delays leave open what Rubio and other supporters of restrictions can deliver.",
+        "vulnerability": "Donor interest overlaps with Vance and Cruz, and it could stay a preference without money or staff.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
@@ -252,7 +254,8 @@
           "irn-2026-11-10-rubio-economic-pressure",
           "ai-2026-11-11-lutnick-nvidia-export-delay-report",
           "irn-2026-11-12-trump-redirects-vance",
-          "suc-2026-11-15-vance-2028-timing-report"
+          "suc-2026-11-15-vance-2028-timing-report",
+          "suc-2026-11-16-cruz-prepares-presidential-run"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -268,22 +271,25 @@
           "daily_chip_axios_20261112",
           "daily_vance_20261113",
           "daily_rubio_20261113",
-          "daily_20261116_vance"
+          "daily_20261116_vance",
+          "weekly-20261116-reuters",
+          "weekly-20261116-poll"
         ],
         "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "ron_desantis",
         "person_id": null,
-        "path": "DeSantis can use a more open media approach to ask dissatisfied conservatives to reconsider him.",
+        "path": "Reuters reported that DeSantis is exploring a campaign but could wait until 2032. Florida organizers offer a starting point if he enters.",
         "coalition": "DeSantis could recruit social conservatives and Republicans seeking an experienced governor. Former campaign staff and donors offer a starting point for rebuilding, but they can choose Kemp or another rival instead.",
         "advantage": "He can present a record of carrying out conservative policies as evidence that he would act decisively. Axios reported that Florida Governor Ron DeSantis has pointed to his party’s victories in Florida as a model for recovering after the midterms.",
-        "vulnerability": "His previous campaign suggests difficulty turning policy approval into enough votes, though Trump’s hold on Republicans was another major obstacle.",
+        "vulnerability": "Early conversations could reflect genuine preparation. A named presidential team would distinguish it from keeping his options open.",
         "positions": "His record includes conservative policies enacted in Florida. His support for limited military strikes means that distance from the White House does not necessarily mean opposition to intervention abroad.",
         "money": "DeSantis has raised substantial money for past campaigns. That shows fundraising experience, but does not establish which donors would back another presidential bid.",
         "event_ids": [
           "suc-2026-11-08-contender-entry",
-          "suc-2026-11-15-vance-2028-timing-report"
+          "suc-2026-11-15-vance-2028-timing-report",
+          "suc-2026-11-16-cruz-prepares-presidential-run"
         ],
         "source_ids": [
           "desantis_donors",
@@ -295,23 +301,26 @@
           "weekly_desantis_campaign",
           "weekly_ap_entry_recovered",
           "weekly_fl_candidates",
-          "daily_20261116_vance"
+          "daily_20261116_vance",
+          "weekly-20261116-reuters",
+          "weekly-20261116-poll"
         ],
         "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "ted_cruz",
         "person_id": "cruz",
-        "path": "Cruz can challenge both the economic record and rivals’ consistency while recruiting former conservative organizers. Axios reported that his team has met about a possible campaign. Starting that work early could help Cruz recruit staff while Vance weighs a bid.",
-        "coalition": "Cruz could recruit religious conservatives and activists who value a forceful ideological advocate. Past presidential organizers and donor relationships could help him start, but renewed commitments are uncertain and Rubio competes for security-minded supporters.",
-        "advantage": "His detailed, combative arguments can signal conviction and preparation to conservative activists. Senator Ted Cruz’s staff contacted Justice Department official Elliot Gaiser about a Texas judgeship the day after the election, according to reporting on Gaiser’s questionnaire. The outreach shows how Cruz can act on judicial appointments before Democrats take the Senate.",
-        "vulnerability": "Voters tired of partisan combat may see the same style as rigid, while shifts toward Trump invite trust attacks. Senator John Cornyn raised objections about the vetting process. Cruz’s ability to see the appointment through, and its value to a presidential campaign, remain open.",
+        "path": "Conservative economist Stephen Moore told Reuters that Senator Ted Cruz said he intended to run for president. Cruz could use the time before other candidates decide to contact Iowa activists who know him.",
+        "coalition": "Cruz could recruit social conservatives and Republicans who want limits on the Iran war. He competes with Vance for activists and with Rubio for donors who value national experience.",
+        "advantage": "Cruz won Iowa’s Republican caucuses in 2016. An early decision to run could give him a chance to call activists who worked with him before other campaigns hire them.",
+        "vulnerability": "Cruz’s Iowa contacts give him a place to start. He would still have to win voters outside that group, especially if Trump backs Vance.",
         "positions": "Cruz generally favors a forceful foreign policy but has criticized tariffs. These positions may attract different groups of Republican voters rather than one united base.",
         "money": "Donors supported Cruz in earlier presidential contests. We have not established that those relationships will become financial commitments for 2028.",
         "event_ids": [
           "suc-2025-12-47212e",
           "mid-2026-11-10-rudofsky-nomination-withdrawn",
-          "suc-2026-11-15-vance-2028-timing-report"
+          "suc-2026-11-15-vance-2028-timing-report",
+          "suc-2026-11-16-cruz-prepares-presidential-run"
         ],
         "source_ids": [
           "cruz_donor_positioning",
@@ -323,17 +332,19 @@
           "weekly_ap_entry_recovered",
           "daily_judges_ap_20261112",
           "daily_durbin_judges_20261112",
-          "daily_20261116_vance"
+          "daily_20261116_vance",
+          "weekly-20261116-reuters",
+          "weekly-20261116-poll"
         ],
         "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "john_mcentee",
         "person_id": null,
-        "path": "John McEntee could campaign on his work staffing Trump’s first administration and supporting troop withdrawals, while defending his Project 2025 role recruiting prospective officials for a later administration.",
+        "path": "John McEntee could ask people he worked with in Trump’s first-term personnel office and in Project 2025 to help build a campaign. He can already reach viewers through his conservative media business.",
         "coalition": "McEntee could seek culturally conservative Trump supporters who want first-term policies with a different leader. His media audience could introduce him to potential supporters, while former personnel contacts might help recruit campaign specialists. Neither shows that people will donate, volunteer or vote for him.",
         "advantage": "Informal political communication could make an unfamiliar candidate approachable to some conservative viewers.",
-        "vulnerability": "Attention to short-form content does not show that viewers trust him to govern or will work for a campaign.",
+        "vulnerability": "People McEntee helped recruit for government posts would have to choose to join a presidential campaign. His online audience gives him a way to reach potential supporters. Its willingness to vote or volunteer remains unknown.",
         "positions": "His first-term record includes support for restrictive immigration staffing and troop withdrawals. That record does not establish every position he would take in a presidential campaign today.",
         "money": "Technology investor Peter Thiel invested in McEntee’s dating business. That was a business investment, not a confirmed presidential-campaign contribution or endorsement.",
         "event_ids": [],
@@ -346,17 +357,19 @@
           "harris_oct2026_primary",
           "prri",
           "weekly_mcentee_interview",
-          "weekly_tencent_ld2"
+          "weekly_tencent_ld2",
+          "weekly-20261116-mcentee",
+          "weekly-20261116-heritage"
         ],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "rand_paul",
         "person_id": "paul",
-        "path": "Senator Rand Paul could offer antiwar Republicans a candidate in their own primary, while making his case for limits on spending and presidential power.",
+        "path": "Paul has said he is considering a run. He can ask old campaign contacts and antiwar activists to organize around Congress’s authority over military action.",
         "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors. A third-party effort could compete for some antiwar organizers; Paul would still have to persuade them to join his Republican campaign.",
         "advantage": "Paul can criticize the administration’s use of military power and still work with Senate Republicans. He publicly rejected blaming John Thune for state-level election results after Republicans lost the Senate majority.",
-        "vulnerability": "Voters seeking immediate economic protection may resist his spending agenda or see him as too narrowly focused.",
+        "vulnerability": "Republicans who want the war ended could credit an official who delivers a deal or stay with Trump while urging a policy change.",
         "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
         "money": "Paul has historical links to the Protect Freedom political group and donor Jeff Yass. Those connections do not establish a confirmed financial commitment to a 2028 presidential bid.",
         "source_ids": [
@@ -366,21 +379,22 @@
           "weekly_paul_massie_support",
           "weekly_2015_debate",
           "weekly_massie_route",
-          "daily_thune_paul_20261111"
+          "daily_thune_paul_20261111",
+          "weekly-20261116-paul"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
           "mid-2026-11-10-republican-leadership-results"
         ],
-        "reviewed_at": "2026-11-11"
+        "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "brian_kemp",
         "person_id": null,
-        "path": "Kemp can present a governor’s record and recruit beyond Georgia if he chooses a presidential bid.",
+        "path": "Kemp has reportedly weighed a campaign. He could ask Georgia donors and organizers to help him build a team outside the state.",
         "coalition": "Kemp’s Georgia supporters and state political relationships offer a base from which to recruit outside the state. Republicans looking for a governor could also choose DeSantis; Georgia approval does not establish national presidential preference.",
         "advantage": "He can use concrete governing examples and personal experience to make a restrained executive pitch.",
-        "vulnerability": "A strong state reputation may leave national voters unmoved, and Trump loyalists may question him.",
+        "vulnerability": "A choice to wait or local loyalties that stop at the state line would limit the value of his Georgia network.",
         "positions": "His Georgia record includes tax cuts and conservative immigration, policing and social policies. A state record does not establish a complete presidential platform.",
         "money": "This review has not verified commitments from donors to finance a Kemp presidential campaign.",
         "source_ids": [
@@ -388,18 +402,20 @@
           "kemp_2026_tax_relief",
           "kemp_2024_enforcement",
           "kemp_2019_life_act",
-          "weekly_kemp_debate"
+          "weekly_kemp_debate",
+          "weekly-20261116-kemp",
+          "weekly-20261116-poll"
         ],
         "event_ids": [],
-        "reviewed_at": "2026-11-09"
+        "reviewed_at": "2026-11-16"
       },
       {
         "candidate_id": "thomas_massie",
         "person_id": "massie",
-        "path": "Representative Thomas Massie must choose whether to seek the Republican nomination or pursue another party’s opening.",
+        "path": "Massie can point to forcing a vote on the Hegseth resolution. Libertarian recruiters offer a separate party route, and he has not committed to it.",
         "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign. An external recruiting effort may draw organizers away from a Republican bid, but his choice and his supporters’ choices remain open.",
         "advantage": "Massie secured enough signatures to seek a House vote on a second Epstein records bill. The petition gives him a concrete example of working with Democrats on disclosure while opposing the Trump administration on other issues.",
-        "vulnerability": "Four Republicans signed his petition. He still has to show that Republicans who value his oversight work would organize for his presidential campaign, and he has yet to choose a party route.",
+        "vulnerability": "Coverage of a congressional vote or outside draft can raise his visibility without yielding Republican delegates.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
         "source_ids": [
@@ -413,7 +429,8 @@
           "daily_defense_trump_20261110",
           "daily_hegseth_referral_20261111",
           "daily_massie_petition_20261112",
-          "daily_massie_axios_20261112"
+          "daily_massie_axios_20261112",
+          "weekly-20261116-massie"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
@@ -421,30 +438,30 @@
           "mid-2026-11-10-hegseth-judiciary-referral",
           "eps-2026-11-11-massie-epstein-petition-threshold"
         ],
-        "reviewed_at": "2026-11-12"
+        "reviewed_at": "2026-11-16"
       }
     ],
     "scenario_labels": {
-      "wargame_ref": "2026-11-09-weekly",
+      "wargame_ref": "2026-11-16-weekly",
       "scenarios": {
         "recovery": {
           "title": "Peace and lower household costs restore Republican confidence in Trump’s allies",
           "summary": "War conditions and household costs improve enough that Republican voters regain confidence in Trump’s allies. Later disclosures do not undo that recovery."
         },
         "managed_costs": {
-          "title": "Republicans remain dissatisfied, but Trump’s allies keep voters and campaign teams",
+          "title": "Republican voters stay with Trump’s allies despite anger over costs",
           "summary": "Republican voters remain unhappy with costs and policy results, but neither investigations nor a rival campaign persuades enough of them to abandon Trump’s allies. Existing campaign relationships help those allies remain competitive."
         },
         "systemic": {
-          "title": "Republican voters blame senior Trump officials and seek a different leader",
+          "title": "Republican voters blame senior Trump officials and look for a new leader",
           "summary": "Continuing policy failures or credible disclosures persuade a consequential group of Republican voters to blame senior Trump officials. Those voters reject an explanation that blames only subordinates and look for different leadership."
         },
         "selective": {
-          "title": "Republicans blame particular officials while accepting a successor’s corrections",
-          "summary": "Republican voters accept that particular officials deserve blame while a successor offers a believable correction. They neither forgive the whole administration’s record nor reject all its senior allies."
+          "title": "Republican voters keep backing Trump while demanding changes from his successor",
+          "summary": "Republican voters continue to support Trump while asking his successor to replace particular officials or change policies like the approach to Iran. Candidates gain support if voters trust them to make those changes."
         },
         "backlash": {
-          "title": "Republicans rally behind Trump’s allies against Democratic investigations",
+          "title": "Republican voters rally behind Trump’s allies against Democratic investigations",
           "summary": "Democratic investigations fail to persuade enough Republican voters. Conflict with Democrats becomes a stronger reason to support Trump’s allies, even though policy results have not substantially improved."
         }
       }

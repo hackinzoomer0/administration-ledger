@@ -1,0 +1,1603 @@
+{
+  "date": "2026-11-16",
+  "type": "weekly_review",
+  "added": 5,
+  "summary": "INCOMPLETE: Targeted weekly review completed with broad recall, filings and several current outcomes outstanding. Deviations: Original indexes and articles were replaced where accessible. Method audit: Five consequential episodes were identified and recorded. Reuters’s reporting on Cruz’s preparatory work increased his conditional nomination chance. Congressional scrutiny broadened to Kennedy, Lutnick and FAA modernization.",
+  "scope": "Weekly review of Republican campaign preparation, congressional oversight, the air traffic shutdown and Venezuelan election negotiations. Full filings, court orders and election results remain incompletely checked.",
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "weekly-entry",
+        "question": "Who could recruit presidential organizers during Vance’s wait?",
+        "importance": "The answer could change candidate recruitment, congressional action or the election timetable.",
+        "affected_assessments": [
+          "assessments/current/nomination"
+        ],
+        "current_answer": "Reuters reports early preparations and quotes Stephen Moore saying Cruz told him he planned to run. Cruz can approach Iowa contacts before less certain rivals commit.",
+        "explanations": [
+          {
+            "explanation": "Cruz has a credible opening to recruit",
+            "weight": "dominant",
+            "reason": "A named interlocutor and attributed preparatory work combine with past Iowa experience.",
+            "discriminating_observation": "A named early-state hire."
+          },
+          {
+            "explanation": "Vance can lock up staff privately",
+            "weight": "credible",
+            "reason": "He retains senior political and fundraising relationships.",
+            "discriminating_observation": "Confirmed roles filled before his announcement."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check named early-state presidential staff and financing.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The relevant decision-makers have a route to act. Existing evidence establishes only the current stage.",
+            "assessment_effect": "Reassess who can deliver the result and who can claim credit."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Reuters reports early preparations and quotes Stephen Moore saying Cruz told him he planned to run. Cruz can approach Iowa contacts before less certain rivals commit.",
+        "next_action": "Check named early-state presidential staff and financing.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "a46ec444b9bec6f66829073a",
+          "f63ee5b18f59cd6b06a8e543",
+          "667c746dc7a84d484ef6c18a",
+          "af49ed645dcc62c48b858331",
+          "cecac9c02f9eaa917f54809c",
+          "952fd11f0c193587f073cca0",
+          "4c7213ba0e1a800519480196",
+          "3060e82ef2b6d793ba55fef0",
+          "d21d7d46957f1f7fbf45f54d",
+          "f7e005d3bae12bf99ae22f5f",
+          "72ffc2f4d9d0f9095cb10bf0",
+          "32202ce7573d3375781a25ff",
+          "e92fe0cbe17a8562809cd696",
+          "111788ce5ec845be73fc858c",
+          "954b305918991e4e7ef331a2",
+          "a7f19bf227b397ae373ad7b8",
+          "768d8f4f26921551f13f1de0"
+        ]
+      },
+      {
+        "id": "weekly-personnel",
+        "question": "Do recent congressional moves indicate a common coalition to remove officials?",
+        "importance": "The answer could change candidate recruitment, congressional action or the election timetable.",
+        "affected_assessments": [
+          "impeachments/all"
+        ],
+        "current_answer": "The record shows a referral, case-specific inquiries and pressure. A Senate conviction coalition remains unverified.",
+        "explanations": [
+          {
+            "explanation": "Congress is pursuing each official through distinct channels",
+            "weight": "dominant",
+            "reason": "The recorded House vote and the letters make different demands.",
+            "discriminating_observation": "Scheduled action on distinct articles."
+          },
+          {
+            "explanation": "A conviction could reduce barriers elsewhere",
+            "weight": "limited",
+            "reason": "No conviction has established a transferable coalition.",
+            "discriminating_observation": "Named cross-party senators explain willingness to consider unrelated misconduct."
+          },
+          {
+            "explanation": "A pursuit can rally allies around a targeted official",
+            "weight": "credible",
+            "reason": "A Kennedy ally publicly warned of backlash. Its reach is unknown.",
+            "discriminating_observation": "A named ally changes support or voters organize in response."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check leadership scheduling and named senators’ positions.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The relevant decision-makers have a route to act. Existing evidence establishes only the current stage.",
+            "assessment_effect": "Reassess who can deliver the result and who can claim credit."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The record shows a referral, case-specific inquiries and pressure. A Senate conviction coalition remains unverified.",
+        "next_action": "Check leadership scheduling and named senators’ positions.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "769539f5a9bc4bded1e1305c",
+          "fe71541f243f2e85674d0064",
+          "a106949698725f61ed6f2ab9",
+          "1ed741208581323057b3005e",
+          "9f20c5118aaee4ef15e84347",
+          "b54d8796cd6249ee5a80b706",
+          "4047e99b14d10ea9f02f4b5e",
+          "ea3ff653213c06787cec0509",
+          "0cab0a18f919b7053d9fd859",
+          "b6e46f5af0a21c7e8389e9de",
+          "d57fa5bc83a54d1bcbaa2fe0",
+          "bcfec6aa0ece80b941f9215c",
+          "f2a6a6120e974d45d9063fc7",
+          "22766ca278ac020aef037f2a",
+          "7063ff69532ef294619789c7",
+          "a9671098457664a5b39e4eb4",
+          "3e5c8b75cbe871dfd2bca244",
+          "6a612f889c71e9b83ffb9ad4",
+          "aa4d9f2f6b6e181caef3c65b",
+          "df75ad2b9cb7f17ae4a88120",
+          "5cba44b8d4e6ca7c33ca9938"
+        ]
+      },
+      {
+        "id": "weekly-aviation",
+        "question": "Who can change the government’s response to the FAA shutdown?",
+        "importance": "The answer could change candidate recruitment, congressional action or the election timetable.",
+        "affected_assessments": [
+          "assessments/current/administration"
+        ],
+        "current_answer": "Transportation officials can request funding. Congress can demand a spending plan and question the FAA administrator.",
+        "explanations": [
+          {
+            "explanation": "The shutdown creates an opening for committee oversight",
+            "weight": "dominant",
+            "reason": "Larsen described renewed investigative staffing and an expected hearing.",
+            "discriminating_observation": "Hearing testimony and proposed spending conditions."
+          },
+          {
+            "explanation": "More funding alone settles the modernization failure",
+            "weight": "limited",
+            "reason": "Planning and execution remain open even if Congress authorizes a new sum.",
+            "discriminating_observation": "Award, implementation and safety milestones."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check whether lawmakers hold the hearing and tie money to a delivery plan.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The relevant decision-makers have a route to act. Existing evidence establishes only the current stage.",
+            "assessment_effect": "Reassess who can deliver the result and who can claim credit."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Transportation officials can request funding. Congress can demand a spending plan and question the FAA administrator.",
+        "next_action": "Check whether lawmakers hold the hearing and tie money to a delivery plan.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "a69feac2d48db55c9a5b80f1",
+          "5c2f3de044e73025e8b1142d",
+          "02a8529e0a4509594837d722",
+          "6d442bba075277583db61e07",
+          "336947f792856c8c729de555"
+        ]
+      },
+      {
+        "id": "weekly-venezuela",
+        "question": "Did the fourth round settle Venezuela’s election authorities or date?",
+        "importance": "The answer could change candidate recruitment, congressional action or the election timetable.",
+        "affected_assessments": [
+          "assessments/issues/VEN"
+        ],
+        "current_answer": "The United States is backing negotiations between Venezuelan authorities and part of the opposition. Participants agreed in principle to replace Supreme Court judges and opened a fourth round on November 13. A local outlet reported the talks continued on November 15. The composition of the electoral council and an election date remain open.",
+        "explanations": [
+          {
+            "explanation": "Judicial replacement is further along than election arrangements",
+            "weight": "dominant",
+            "reason": "EFE describes a judicial timetable and an open election agenda.",
+            "discriminating_observation": "Judge appointments and a joint statement naming electoral authorities."
+          },
+          {
+            "explanation": "Negotiators settled details privately",
+            "weight": "limited",
+            "reason": "Local reporting still described talks underway on Sunday.",
+            "discriminating_observation": "A dated agreement from both sides."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Seek the negotiators’ closing statement and official appointments.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The relevant decision-makers have a route to act. Existing evidence establishes only the current stage.",
+            "assessment_effect": "Reassess who can deliver the result and who can claim credit."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The United States is backing negotiations between Venezuelan authorities and part of the opposition. Participants agreed in principle to replace Supreme Court judges and opened a fourth round on November 13. A local outlet reported the talks continued on November 15. The composition of the electoral council and an election date remain open.",
+        "next_action": "Seek the negotiators’ closing statement and official appointments.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "372e54899ee14c744ab3b876",
+          "3c152b2af47e5cff39aaaf22",
+          "555adaa8190c8be7fcc2f95f",
+          "fa3cfb6d3cea0321bac5b0d8"
+        ]
+      },
+      {
+        "id": "weekly-chair",
+        "question": "Does the party chair challenge already affect the succession contest?",
+        "importance": "The answer could change candidate recruitment, congressional action or the election timetable.",
+        "affected_assessments": [
+          "assessments/current/nomination"
+        ],
+        "current_answer": "Crosbie has named support and a January vote. The chair helps manage national campaign operations. No chair candidate has established a 2028 endorsement or transferred voters.",
+        "explanations": [
+          {
+            "explanation": "Crosbie gives committee members a concrete channel to demand an accounting",
+            "weight": "dominant",
+            "reason": "AP reports named support and cites the party’s authority over nomination rules.",
+            "discriminating_observation": "Nomination support by delegation and the January vote."
+          },
+          {
+            "explanation": "Gruters can retain control with Trump’s endorsement and fundraising argument",
+            "weight": "credible",
+            "reason": "He can cite his work to members who worry about disruption.",
+            "discriminating_observation": "Public endorsements and the vote tally."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check January nomination signatures and committee votes.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The relevant decision-makers have a route to act. Existing evidence establishes only the current stage.",
+            "assessment_effect": "Reassess who can deliver the result and who can claim credit."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Crosbie has named support and a January vote. The chair helps manage national campaign operations. No chair candidate has established a 2028 endorsement or transferred voters.",
+        "next_action": "Check January nomination signatures and committee votes.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "ce8adca5edc664e7371f459a",
+          "9fe039a53360903b5014b722",
+          "f27e37d17acbc819070c432e",
+          "5f5d56e5350941a9a63f6acb"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "daily-party-chair": "Continued in weekly-chair.",
+      "daily-vance-authority": "Carry mediation and a U.S. reply as unresolved. Current nomination paths separate a delivered agreement from advocacy.",
+      "daily-oversight-response": "Continued in weekly-personnel. No new conclusion about private production or witness deterrence.",
+      "daily-cloud-enforcement": "Cantwell’s letter adds oversight. Carry publication, licenses and enforcement as distinct follow-up questions.",
+      "daily-venezuela-talks": "Continued in weekly-venezuela."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "EPS": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Seek the inquiry committee’s statement, findings and Cook’s response.",
+        "next_check": "2026-11-20",
+        "escalation": "Hearing outcome and official disposition remain overdue.",
+        "attempt_receipt_ids": [
+          "641df7cc350f8a3b95ec2804",
+          "4ee2137800c8d24aae644f10",
+          "72568837f298ace8ae843a0f"
+        ]
+      },
+      "IMM": {
+        "last_verified": "2026-11-08",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Retrieve the operative asylum order and any stay from the court docket.",
+        "next_check": "2026-11-20",
+        "escalation": "Latest court order remains overdue.",
+        "attempt_receipt_ids": [
+          "c37a62cff4be2eed8cdd247b"
+        ]
+      },
+      "IRN": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "MID": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "RUS": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "SUC": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "TAR": {
+        "last_verified": "2026-11-16",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20"
+      },
+      "VEN": {
+        "last_verified": null,
+        "reason": "Verified recent round chronology and the continuing distinction between judicial and electoral arrangements. The closing outcome remains open.",
+        "next_action": "Check current original decisions and implementation records.",
+        "next_check": "2026-11-20",
+        "attempt_receipt_ids": [
+          "372e54899ee14c744ab3b876",
+          "3c152b2af47e5cff39aaaf22"
+        ],
+        "escalation": "The targeted round check clarified the chronology. Full issue verification and the closing outcome remain due."
+      }
+    },
+    "discovery_question": "Who can demand changes to the FAA modernization plan after the ground stop?",
+    "discovery_disposition": "Incorporated the House Transportation Committee and FAA administrator as actors who can condition funding or execute changes.",
+    "premise_reconciliation": "The latest assessment now separates entry activity, committee oversight, blame, personnel status and implemented policy. The Reuters/Ipsos survey fielded November 6–9 among U.S. adults. Among 689 Republican or Republican-leaning respondents, 52% favored a different governing approach and 46% a similar one. The subgroup result cannot establish overlap with Trump approval, turnout or nomination odds.",
+    "source_receipts": [
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/evs/2026/roll317",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Hegseth referral passed 211–204 with 18 not voting.",
+        "reporting_origin": "House Clerk",
+        "id": "769539f5a9bc4bded1e1305c"
+      },
+      {
+        "kind": "source",
+        "value": "https://uk.marketscreener.com/news/republican-2028-field-takes-shape-after-midterm-drubbing-ce785edfd988f621",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Moore attributes an intention to run to Cruz; Reuters describes early preparations, DeSantis considering timing, donor interest in Rubio and Bigelow favoring both Rubio and Vance.",
+        "reporting_origin": "Reuters",
+        "id": "a46ec444b9bec6f66829073a"
+      },
+      {
+        "kind": "source",
+        "value": "https://wsau.com/2026/11/16/republican-2028-field-takes-shape-after-midterm-drubbing/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "blocked",
+        "result": "403 at WSAU; MarketScreener carries the same wire report and is not independent confirmation.",
+        "reporting_origin": "Reuters",
+        "id": "f8183a5bf84e5bbd16391bcf"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/15/vance-2028-campaign-president-announce",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Private sources describe waiting on a decision and possibly announcing in spring.",
+        "reporting_origin": "Axios",
+        "id": "f63ee5b18f59cd6b06a8e543"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/9227f58e61910975d84d066c856c6684",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Crosbie has named support; committee members oversee nomination rules and calendar.",
+        "reporting_origin": "Associated Press",
+        "id": "ce8adca5edc664e7371f459a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Reuters%20Ipsos%20Post%20Election%20November%20Survey%20Topline.pdf",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Candidate quality and governance preference items among Republicans and leaners; these are not vote choice or probability.",
+        "reporting_origin": "Ipsos",
+        "id": "667c746dc7a84d484ef6c18a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/politics/2026/11/08/potential-vance-challengers-smell-blood-water-after-brutal-gop-losses/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Kemp reportedly weighing a bid; donors continue to urge Rubio to enter.",
+        "reporting_origin": "Washington Post",
+        "id": "cecac9c02f9eaa917f54809c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/politics/2026/09/22/republicans-start-making-moves-take-jd-vance-2028-nomination/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Paul said he was considering a run; Cruz had visited Iowa.",
+        "reporting_origin": "Washington Post",
+        "id": "af49ed645dcc62c48b858331"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.foxnews.com/politics/rand-paul-floats-possible-2028-run-pushes-back-trump-era-protectionism/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "blocked",
+        "result": "Restricted URL; Washington Post report independently documents Paul considering entry.",
+        "reporting_origin": "Fox News",
+        "id": "2e43346636fb8e41496ef8bf"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/08/massie-president-2028-libertarian",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Libertarian recruitment is an outside option for Massie, without a reported acceptance.",
+        "reporting_origin": "Axios",
+        "id": "952fd11f0c193587f073cca0"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.wired.com/story/teens-john-mcentee-trump-aide-project-2025-chats/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Historical account documents Project 2025 personnel involvement and online distribution, alongside allegations about chats.",
+        "reporting_origin": "WIRED",
+        "id": "4c7213ba0e1a800519480196"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.commerce.senate.gov/press/dem/release/cantwell-tells-lutnick-you-failed-to-protect-national-security-americas-tech-edge/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Cantwell addressed demands on advanced chip diversion to Lutnick. This is a documented oversight act.",
+        "reporting_origin": "Senate Commerce Committee Democrats",
+        "id": "1ed741208581323057b3005e"
+      },
+      {
+        "kind": "source",
+        "value": "https://d2dr22b2lm4tvw.cloudfront.net/wsj/2026-11-14/front-page.pdf",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Front page reports that some advisers are shifting blame to Lutnick; departure is unverified.",
+        "reporting_origin": "Wall Street Journal",
+        "id": "881368e4f5a65abdea10dc20"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/1ce376052d40c797cfb9c9137a9fad45",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Clyburn named Kennedy as an impeachment priority, Raskin pledged investigation and MAHA Institute president warned of alienating supporters.",
+        "reporting_origin": "Associated Press",
+        "id": "a106949698725f61ed6f2ab9"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.finance.senate.gov/ranking-members-news/wyden-and-alsobrooks-probe-gifts-to-rfk-jr-from-top-donor/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "headline_only",
+        "result": "Search result establishes announced gifts inquiry.",
+        "reporting_origin": "Senate Finance Committee",
+        "id": "9f20c5118aaee4ef15e84347"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/e4b97becad6d2951d9e84ea584979c41",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Senators seek documents about Kennedy’s Samoa trip and testimony.",
+        "reporting_origin": "Associated Press",
+        "id": "b54d8796cd6249ee5a80b706"
+      },
+      {
+        "kind": "source",
+        "value": "https://stevens.house.gov/media/press-releases/michigan-congresswoman-haley-stevens-introduces-articles-impeachment-against",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "headline_only",
+        "result": "Official search excerpt dates introduction of articles.",
+        "reporting_origin": "Office of Haley Stevens",
+        "id": "4047e99b14d10ea9f02f4b5e"
+      },
+      {
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Confirms November 13 deadline but provides no response.",
+        "reporting_origin": "House Oversight Democrats",
+        "id": "fe71541f243f2e85674d0064"
+      },
+      {
+        "kind": "source",
+        "value": "https://efe.com/mundo/2026-11-13/acordado-pendiente-dialogo-venezuela-eeuu-transicion/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "The new round opened with Supreme Court replacement agreed in principle and election calendar still open.",
+        "reporting_origin": "EFE",
+        "id": "372e54899ee14c744ab3b876"
+      },
+      {
+        "kind": "source",
+        "value": "https://ultimahoraven.com/la-cuarta-ronda-de-dialogo-sigue-en-caracas-sin-vente-y-sin-comunicado-publico-con-el-cne-en-el-centro-de-la-agenda/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Reported talks still in progress on Sunday and no official announcement about election authorities or dates.",
+        "reporting_origin": "Última Hora Venezuela",
+        "id": "3c152b2af47e5cff39aaaf22"
+      },
+      {
+        "kind": "source",
+        "value": "https://rollcall.com/2026/11/16/aviation-funding-becomes-political-football-in-lame-duck-session/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Budget dispute and planned Bedford oversight hearing; Larsen says he will revive oversight staff.",
+        "reporting_origin": "Roll Call",
+        "id": "a69feac2d48db55c9a5b80f1"
+      },
+      {
+        "kind": "source",
+        "value": "https://transportation.house.gov/news/documentsingle.aspx?DocumentID=410342",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Graves and Larsen responded jointly to the FAA ground stop.",
+        "reporting_origin": "House Transportation and Infrastructure Committee",
+        "id": "5c2f3de044e73025e8b1142d"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/6f58e64d9ced2543aaaf7317ec389d06",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Trump attributed grounding to old technology and Biden; Duffy requested additional money.",
+        "reporting_origin": "Associated Press",
+        "id": "02a8529e0a4509594837d722"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.memeorandum.com/261116/h1500",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "blocked",
+        "result": "Index unavailable through browser.",
+        "reporting_origin": "Memeorandum",
+        "id": "b1546839f52c9662cac9246a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justsecurity.org/163775/early-edition-november-9-2026/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Discovery index includes conflicting Iran advice and Huang’s statement.",
+        "reporting_origin": "Just Security",
+        "id": "2c2e5633d871e1515f935318"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Discovery index covers Rubio’s public distinction between sanctions and major combat.",
+        "reporting_origin": "Just Security",
+        "id": "5cb25d6c2305724f657a9ff4"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justsecurity.org/164226/early-edition-november-12-2026/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Discovery leads on Lutnick and White House counsel’s oversight warning.",
+        "reporting_origin": "Just Security",
+        "id": "e850b5497e43296d9c4eccf6"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justsecurity.org/164727/early-edition-november-16-2026/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Discovery index includes announced trilateral summit and unrelated Democratic ethics inquiry.",
+        "reporting_origin": "Just Security",
+        "id": "3cff93e3405ca2f9205925a5"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/a31165456bf217de16f1c4e646b72bd2",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Independent live news index surfaced Cantwell’s oversight letter.",
+        "reporting_origin": "Associated Press",
+        "id": "8b8e94965dc6c2414ad9c37f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.govinfo.gov/content/pkg/CREC-2026-11-09/pdf/CREC-2026-11-09-dailydigest.pdf",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "read",
+        "result": "Senate agreed to vote by November 20 on House Iran war powers measure.",
+        "reporting_origin": "Congressional Record",
+        "id": "3bbd2f4b35c6543f7bfbd918"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.govinfo.gov/content/pkg/FR-2026-10-14/pdf/2026-21061.pdf",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly comparison, source recovery and decision audit",
+        "status": "headline_only",
+        "result": "Scheduled Cook hearing and submission date; latest outcome not established.",
+        "reporting_origin": "Federal Register",
+        "id": "641df7cc350f8a3b95ec2804"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 RNC Crosbie Gruters chair AP Trump Republicans January committee vote",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "AP original recovered and Axios reported the November 6 challenge.",
+        "reporting_origin": "Web search",
+        "id": "9fe039a53360903b5014b722"
+      },
+      {
+        "kind": "query",
+        "value": "Hegseth House roll call 317 Massie impeachment November 2026 Drew Lynch Guilfoyle records",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "House Clerk confirmed the referral. No production confirmation in initial results.",
+        "reporting_origin": "Web search",
+        "id": "ea3ff653213c06787cec0509"
+      },
+      {
+        "kind": "query",
+        "value": "2028 Republican primary Vance Rubio DeSantis Cruz Kemp Rand Paul Massie McEntee donors organizers 2026",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Reuters and Axios supplied named and attributed entry and donor reporting.",
+        "reporting_origin": "Web search",
+        "id": "3060e82ef2b6d793ba55fef0"
+      },
+      {
+        "kind": "query",
+        "value": "EFE Venezuela gobierno oposición negociación reforma TSJ CNE noviembre 2026 conclusión",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "EFE reported judicial replacement agreed in principle and electoral timetable open.",
+        "reporting_origin": "Web search",
+        "id": "555adaa8190c8be7fcc2f95f"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 Reuters Republican 2028 Rand Paul Thomas Massie Brian Kemp John McEntee campaign supporters donors",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Candidate coverage was uneven; alternative Reuters mirror recovered.",
+        "reporting_origin": "Web search",
+        "id": "d21d7d46957f1f7fbf45f54d"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 AP Crosbie Gruters RNC challenger national committee January",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Located AP original and independently reported Axios account.",
+        "reporting_origin": "Web search",
+        "id": "f27e37d17acbc819070c432e"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 Drew Lynch Guilfoyle Garcia records committee Lutnick impeachment November oversight hearing personnel November 16",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Recovered the dated Garcia letter. No private production evidence.",
+        "reporting_origin": "Web search",
+        "id": "0cab0a18f919b7053d9fd859"
+      },
+      {
+        "kind": "query",
+        "value": "Venezuela cuarto ciclo diálogo 16 noviembre 2026 TSJ CNE acuerdo cierre oposición EFE Reuters",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Local reporting describes continuation on November 15.",
+        "reporting_origin": "Web search",
+        "id": "fa3cfb6d3cea0321bac5b0d8"
+      },
+      {
+        "kind": "query",
+        "value": "2026 November Rand Paul 2028 donors New Hampshire Thomas Massie libertarian presidential supporters organizers polling",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found Paul’s previously expressed interest and Massie’s reported third-party recruitment.",
+        "reporting_origin": "Web search",
+        "id": "f7e005d3bae12bf99ae22f5f"
+      },
+      {
+        "kind": "query",
+        "value": "John McEntee 2028 conservative Project 2025 dating Right Stuff audience Trump donors campaign 2026 Brian Kemp Georgia political organization 2028 November",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found historical McEntee reporting and attributed interest in Kemp.",
+        "reporting_origin": "Web search",
+        "id": "72ffc2f4d9d0f9095cb10bf0"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 Lutnick Senate Commerce Cantwell hearings impeachment cabinet Trump pressure departure FAA grounding November 16 2026",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found Roll Call aviation report and WSJ front page on Lutnick.",
+        "reporting_origin": "Web search",
+        "id": "6d442bba075277583db61e07"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 Massie Libertarian presidential nomination Kemp Rand Paul John McEntee presidential plans early state endorsement Republican 2028",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found Massie recruitment and previously reported entry discussions.",
+        "reporting_origin": "Web search",
+        "id": "32202ce7573d3375781a25ff"
+      },
+      {
+        "kind": "query",
+        "value": "site:commerce.senate.gov Cantwell Lutnick Nvidia Huang November 16 2026 hearing chip export",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found the official Cantwell letter announcement.",
+        "reporting_origin": "Web search",
+        "id": "b6e46f5af0a21c7e8389e9de"
+      },
+      {
+        "kind": "query",
+        "value": "Reuters November 16 2026 Republican 2028 field takes shape after midterm drubbing Vance Cruz DeSantis Rubio Reuters original",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found a readable Reuters syndication and separate Reuters factbox.",
+        "reporting_origin": "Web search",
+        "id": "e92fe0cbe17a8562809cd696"
+      },
+      {
+        "kind": "query",
+        "value": "November 16 2026 Memeorandum November 2026 political headlines Reuters AP NOTUS Crosbie campaign",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Original index access failed; AP reporting supplies the direct chair story.",
+        "reporting_origin": "Web search",
+        "id": "5f5d56e5350941a9a63f6acb"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 November 9 10 11 12 13 14 15 Reuters November Iran Vance Qatar Huang Nvidia impeachment Senate Alaska Colom",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found Congressional Record on the war powers vote and dated discovery leads.",
+        "reporting_origin": "Web search",
+        "id": "d57fa5bc83a54d1bcbaa2fe0"
+      },
+      {
+        "kind": "query",
+        "value": "Sean Duffy Bryan Bedford House Transportation Larsen Carson FAA ground stop November 2026 site:transportation.house.gov",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found joint Graves and Larsen statement.",
+        "reporting_origin": "Web search",
+        "id": "336947f792856c8c729de555"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 RFK Kennedy Samoa impeachment resolution November 13 House article",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found AP’s evidence of current inquiries and lawmaker reception.",
+        "reporting_origin": "Web search",
+        "id": "bcfec6aa0ece80b941f9215c"
+      },
+      {
+        "kind": "query",
+        "value": "site:justsecurity.org early edition November 2026 November 9 10 11 12 13 Trump Iran Nvidia archive",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Found accessible dated roundups.",
+        "reporting_origin": "Web search",
+        "id": "f2a6a6120e974d45d9063fc7"
+      },
+      {
+        "kind": "query",
+        "value": "November 16 2026 Federal Reserve Lisa Cook hearing Colom Alaska Senate election immigration court tariff Supreme Court",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Located the official Cook hearing schedule; outcome not established.",
+        "reporting_origin": "Web search",
+        "id": "4ee2137800c8d24aae644f10"
+      },
+      {
+        "kind": "query",
+        "value": "site:congress.gov Kennedy Robert F Secretary impeachment H.Res December 2025 Stevens",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Congress.gov blocked direct access; the Stevens office confirmed introduction after alternative search.",
+        "reporting_origin": "Web search",
+        "id": "22766ca278ac020aef037f2a"
+      },
+      {
+        "kind": "query",
+        "value": "site:help.senate.gov November 2026 Kennedy Samoa testimony gifts Sanders November 2026",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Initial query located older statements; alternative searches found current senators’ letters.",
+        "reporting_origin": "Web search",
+        "id": "7063ff69532ef294619789c7"
+      },
+      {
+        "kind": "query",
+        "value": "Haley Stevens introduces articles of impeachment Robert Kennedy December 2025 site:stevens.house.gov OR site:govinfo.gov",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Stevens office confirmed the December 2025 filing.",
+        "reporting_origin": "Web search",
+        "id": "a9671098457664a5b39e4eb4"
+      },
+      {
+        "kind": "query",
+        "value": "Bernie Sanders Kennedy Samoa gifts November 2026 November 12 official letter Sanders senate",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Located Finance Committee announcement and Wyden and Alsobrooks letter.",
+        "reporting_origin": "Web search",
+        "id": "3e5c8b75cbe871dfd2bca244"
+      },
+      {
+        "kind": "query",
+        "value": "Haley Stevens December 10 2025 RFK impeachment H Res govinfo bill number",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Confirmed introduction through Stevens office. Resolution number not established in this retrieval.",
+        "reporting_origin": "Web search",
+        "id": "6a612f889c71e9b83ffb9ad4"
+      },
+      {
+        "kind": "query",
+        "value": "Drew Lynch Kimberly Guilfoyle November 13 2026 records response after deadline November 16 Robert Garcia",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "No attributed response surfaced; results returned the original request and unrelated Stephen Lynch.",
+        "reporting_origin": "Web search",
+        "id": "aa4d9f2f6b6e181caef3c65b"
+      },
+      {
+        "kind": "query",
+        "value": "Lisa Cook November 5 2026 hearing outcome November 16 Fed inquiry removal exact",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "Results confirmed the schedule but not the hearing outcome.",
+        "reporting_origin": "Web search",
+        "id": "72568837f298ace8ae843a0f"
+      },
+      {
+        "kind": "query",
+        "value": "November 13 2026 asylum Supreme Court DHS order November 16 tariff court latest Reuters AP November 2026",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly source discovery and recovery",
+        "status": "read",
+        "result": "AP and Reuters report Supreme Court review accepted. Other operative orders require separate verification.",
+        "reporting_origin": "Web search",
+        "id": "c37a62cff4be2eed8cdd247b"
+      },
+      {
+        "kind": "query",
+        "value": "site:heritage.org John McEntee Project 2025 senior advisor personnel 2023 John McEntee",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly entry, staffing and records verification",
+        "status": "read",
+        "result": "Heritage announced his staff-recruitment role in May 2023.",
+        "reporting_origin": "Web search",
+        "id": "111788ce5ec845be73fc858c"
+      },
+      {
+        "kind": "query",
+        "value": "site:fec.gov John McEntee 2028 Rand Paul Brian Kemp Ted Cruz DeSantis Thomas Massie presidential campaign 2028 November 16 2026",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly entry, staffing and records verification",
+        "status": "read",
+        "result": "Located the FEC 2028 election overview; individual filings remained incompletely checked.",
+        "reporting_origin": "Web search",
+        "id": "954b305918991e4e7ef331a2"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.heritage.org/node/25155175/print-display",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly entry, staffing and records verification",
+        "status": "read",
+        "result": "Heritage announced that John McEntee would help recruit and vet possible appointees for a future conservative administration.",
+        "reporting_origin": "Heritage Foundation",
+        "id": "a7f19bf227b397ae373ad7b8"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.fec.gov/data/elections/president/2028/",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly entry, staffing and records verification",
+        "status": "read",
+        "result": "The accessible candidate and finance tables displayed no rows. The index warns about filing lags and is not an individual filing check.",
+        "reporting_origin": "Federal Election Commission",
+        "id": "768d8f4f26921551f13f1de0"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 Reporters Without Borders impeach FCC Brendan Carr November 9 RSF Congress Carr response",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly personnel discovery and scheduled outcome audit",
+        "status": "read",
+        "result": "Recovered the original advocacy statement and reporting by The Hill.",
+        "reporting_origin": "Web search",
+        "id": "fb18d3b1b0ade27cd79fbaf6"
+      },
+      {
+        "kind": "query",
+        "value": "November 16 2026 Alaska Senate election Peltola Sullivan AP latest result Peltola absentee judge",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly personnel discovery and scheduled outcome audit",
+        "status": "read",
+        "result": "AP and later reporting verify a rejected records request. Final Senate results remain open.",
+        "reporting_origin": "Web search",
+        "id": "769d9e4531f75268e61c83ed"
+      },
+      {
+        "kind": "source",
+        "value": "https://rsf.org/en/usa-rsf-urges-congress-impeach-fcc-chairman-brendan-carr",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly personnel discovery and scheduled outcome audit",
+        "status": "read",
+        "result": "The advocacy group called for impeachment and alleged misuse of licensing authority.",
+        "reporting_origin": "Reporters Without Borders",
+        "id": "df75ad2b9cb7f17ae4a88120"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aol.com/articles/reporters-without-borders-calls-carr-021146000.html",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly personnel discovery and scheduled outcome audit",
+        "status": "read",
+        "result": "The Hill identifies the call as coming from the advocacy group. It does not establish a House proceeding.",
+        "reporting_origin": "The Hill",
+        "id": "5cba44b8d4e6ca7c33ca9938"
+      },
+      {
+        "kind": "source",
+        "value": "https://alaskapublic.org/news/politics/elections/2026-11-11/alaska-judge-rules-a-request-by-peltola-campaign-for-ballot-data-in-senate-race-is-not-reasonable",
+        "window": "2026-11-09/2026-11-16",
+        "purpose": "Weekly personnel discovery and scheduled outcome audit",
+        "status": "read",
+        "result": "Judge Thomas Matthews denied a request for rejected-ballot records during the count. The Senate race outcome is separate.",
+        "reporting_origin": "Associated Press",
+        "id": "9093d2a39e4108dbd47e0e22"
+      }
+    ],
+    "omitted_mechanism": "A committee chair can allocate investigative staff and condition funding after a shutdown. Cruz can recruit before deciding rivals announce.",
+    "test_discrimination": "Keep nomination poll, financing and organizer tests distinct. The Hegseth referral is a poor proxy for Senate conviction.",
+    "implementation_counterparty": "FAA under Bryan Bedford must deliver modernization. Commerce must implement license and end-use controls. Venezuelan authorities must make appointments.",
+    "motive_alternatives": "Cruz can pursue office while voicing genuine policy disagreements. Duffy’s case for resources can coexist with a defense of his agency’s performance. Donor preferences do not establish official direction.",
+    "prediction_outcomes": "No terminal nomination forecast was due. Hegseth referral outcome was met. Lynch production remains unresolved.",
+    "candidate_share_sensitivity": "Moving two scenario points from Cruz back to Vance under continued dissatisfaction changes the mixture by 0.60 points each. Moving ten environment points from a broad break to continued dissatisfaction raises Vance by 1.80 points; the full perturbations are in the wargame.",
+    "recall_shortfall": "Screened 16 dated index entries. AP and Just Security were accessible after Memeorandum was blocked. The sample is concentrated on four roundup dates. Broad original-source verification and exact episode matching for several leads remain incomplete.",
+    "execution_points": [
+      "before_intake",
+      "during_adjudication",
+      "before_preflight"
+    ],
+    "preflight_reassessment": "Evidence supports the relative Cruz revision and narrower policy updates. Access gaps limit other conclusions without vetoing supported changes.",
+    "receipt_age_review": "New accesses refresh the mutable AP and Just Security indexes. Historical sources are dated and used only for the claims they establish."
+  },
+  "reviewed_episode_ids": [
+    "suc-2026-11-16-cruz-prepares-presidential-run",
+    "ai-2026-11-16-cantwell-demands-chip-enforcement",
+    "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment",
+    "mid-2026-11-16-larsen-plans-faa-oversight",
+    "mid-2026-11-10-hegseth-judiciary-referral",
+    "mid-2026-11-11-rsf-urges-carr-impeachment"
+  ],
+  "changed_entries": [
+    "nominations/republican_2028",
+    "impeachments/all",
+    "assessments/current",
+    "assessments/issues",
+    "events/SUC",
+    "events/AI",
+    "events/MID"
+  ],
+  "unresolved_claims": [
+    "Early-state staff rosters and presidential fundraising are incompletely verified.",
+    "Lynch’s private response and the closing Venezuela statement remain unresolved.",
+    "Fed hearing outcome, immigration and tariffs orders, Russia prisoner transfers, Alaska result and broad weekly recall remain incomplete.",
+    "The standalone wargame command is outside the authorized sibling commands. Calculations were reproduced locally."
+  ],
+  "evidence_needed": [
+    "Named early-state organizers and presidential financing; committee actions and published votes; original agency and court outcomes."
+  ],
+  "assessment_audit": {
+    "current": "Updated nomination paths and congressional oversight.",
+    "administration": "Duffy’s funding request, FAA execution and oversight are distinct. Cantwell’s letter adds pressure without establishing Lutnick’s departure.",
+    "factions": "Compared continuity, war-powers dissent, hawks and governor networks through named acts. Donor overlap and old faction associations do not establish votes.",
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "MID": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Carry dated broad issue baseline. The weekly intake focused on specific decisions."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Verified recent round chronology and the continuing distinction between judicial and electoral arrangements. The closing outcome remains open."
+      }
+    },
+    "major_developments": [
+      {
+        "finding": "Reuters reports exploration and early preparations around Cruz.",
+        "event_ids": [
+          "suc-2026-11-16-cruz-prepares-presidential-run"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "current.nomination"
+        ],
+        "reason": "Recruitment can begin before candidates declare."
+      },
+      {
+        "finding": "Cantwell presses Lutnick and Democrats discuss Kennedy.",
+        "event_ids": [
+          "ai-2026-11-16-cantwell-demands-chip-enforcement",
+          "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "current.administration"
+        ],
+        "reason": "Named lawmakers have used distinct oversight channels."
+      }
+    ],
+    "summary_changed": true,
+    "summary_reason": "Updated the candidate recruitment comparison and named congressional oversight actions.",
+    "dated_assumptions": [
+      {
+        "assumption": "Alaska absentee-ballot records request",
+        "date": "2026-11-11",
+        "status": "verified",
+        "reason": "AP reports that Judge Thomas Matthews denied the Peltola campaign’s records request during counting. The final Senate result and separate federal certification dispute are open."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Wait for Cruz to declare or for Congress to vote.",
+        "finding": "Donors and organizers can respond to credible preparations, and lawmakers can build a record before voting.",
+        "consequence": "Revised Cruz’s scenario prospects and updated congressional watch items."
+      }
+    ]
+  },
+  "nominee_review": {
+    "probabilities_pct": {
+      "jd_vance": 31.15,
+      "marco_rubio": 11.05,
+      "ron_desantis": 18.55,
+      "ted_cruz": 8.4,
+      "john_mcentee": 5.35,
+      "rand_paul": 11.05,
+      "brian_kemp": 12.1,
+      "thomas_massie": 2.35
+    },
+    "delta_pp": {
+      "jd_vance": -1.7,
+      "marco_rubio": 0.0,
+      "ron_desantis": -0.9,
+      "ted_cruz": 2.6,
+      "john_mcentee": 0.0,
+      "rand_paul": 0.0,
+      "brian_kemp": 0.0,
+      "thomas_massie": 0.0
+    },
+    "nominees_added": [],
+    "candidate_coverage": {
+      "jd_vance": "partial",
+      "marco_rubio": "partial",
+      "ron_desantis": "partial",
+      "ted_cruz": "partial",
+      "john_mcentee": "partial",
+      "rand_paul": "partial",
+      "brian_kemp": "partial",
+      "thomas_massie": "partial"
+    },
+    "wargame_ref": "2026-11-16-weekly",
+    "shared_evidence": [
+      "suc-2026-11-16-cruz-prepares-presidential-run",
+      "ai-2026-11-16-cantwell-demands-chip-enforcement",
+      "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+    ],
+    "cross_report_implications": "Compared continuity, war-powers dissent, hawks and governor networks through named acts. Donor overlap and old faction associations do not establish votes.",
+    "gaps": [
+      "Early-state staff rosters and presidential fundraising are incompletely verified.",
+      "Lynch’s private response and the closing Venezuela statement remain unresolved.",
+      "Fed hearing outcome, immigration and tariffs orders, Russia prisoner transfers, Alaska result and broad weekly recall remain incomplete.",
+      "The standalone wargame command is outside the authorized sibling commands. Calculations were reproduced locally."
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://clerk.house.gov/evs/2026/roll317",
+      "https://uk.marketscreener.com/news/republican-2028-field-takes-shape-after-midterm-drubbing-ce785edfd988f621",
+      "https://www.axios.com/2026/11/15/vance-2028-campaign-president-announce",
+      "https://apnews.com/article/9227f58e61910975d84d066c856c6684",
+      "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Reuters%20Ipsos%20Post%20Election%20November%20Survey%20Topline.pdf",
+      "https://www.washingtonpost.com/politics/2026/11/08/potential-vance-challengers-smell-blood-water-after-brutal-gop-losses/",
+      "https://www.washingtonpost.com/politics/2026/09/22/republicans-start-making-moves-take-jd-vance-2028-nomination/",
+      "https://www.axios.com/2026/11/08/massie-president-2028-libertarian",
+      "https://www.wired.com/story/teens-john-mcentee-trump-aide-project-2025-chats/",
+      "https://www.commerce.senate.gov/press/dem/release/cantwell-tells-lutnick-you-failed-to-protect-national-security-americas-tech-edge/",
+      "https://d2dr22b2lm4tvw.cloudfront.net/wsj/2026-11-14/front-page.pdf",
+      "https://apnews.com/article/1ce376052d40c797cfb9c9137a9fad45",
+      "https://apnews.com/article/e4b97becad6d2951d9e84ea584979c41",
+      "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+      "https://efe.com/mundo/2026-11-13/acordado-pendiente-dialogo-venezuela-eeuu-transicion/",
+      "https://ultimahoraven.com/la-cuarta-ronda-de-dialogo-sigue-en-caracas-sin-vente-y-sin-comunicado-publico-con-el-cne-en-el-centro-de-la-agenda/",
+      "https://rollcall.com/2026/11/16/aviation-funding-becomes-political-football-in-lame-duck-session/",
+      "https://transportation.house.gov/news/documentsingle.aspx?DocumentID=410342",
+      "https://apnews.com/article/6f58e64d9ced2543aaaf7317ec389d06",
+      "https://www.justsecurity.org/163775/early-edition-november-9-2026/",
+      "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+      "https://www.justsecurity.org/164226/early-edition-november-12-2026/",
+      "https://www.justsecurity.org/164727/early-edition-november-16-2026/",
+      "https://apnews.com/article/a31165456bf217de16f1c4e646b72bd2",
+      "https://www.govinfo.gov/content/pkg/CREC-2026-11-09/pdf/CREC-2026-11-09-dailydigest.pdf"
+    ],
+    "queries": 32,
+    "perIssue": {
+      "AI": "found 1",
+      "EPS": "not searched",
+      "FED": "searched, nothing found",
+      "IMM": "searched, nothing found",
+      "IRN": "searched, nothing found",
+      "MID": "found 3",
+      "RUS": "not searched",
+      "SUC": "found 1",
+      "TAR": "searched, nothing found",
+      "VEN": "found 1"
+    },
+    "unplaced": [
+      "Duffy and Bedford are oversight leads. No formal removal action was verified.",
+      "Brendan Carr is a new personnel watch lead. The request from Reporters Without Borders warrants checking his response, the licensing record and congressional uptake before adding an assessed case."
+    ],
+    "blocked": [
+      "https://wsau.com/2026/11/16/republican-2028-field-takes-shape-after-midterm-drubbing/",
+      "https://www.foxnews.com/politics/rand-paul-floats-possible-2028-run-pushes-back-trump-era-protectionism/",
+      "https://www.memeorandum.com/261116/h1500"
+    ],
+    "lookbackDays": 7,
+    "deviations": [
+      "Early-state staff rosters and presidential fundraising are incompletely verified.",
+      "Lynch’s private response and the closing Venezuela statement remain unresolved.",
+      "Fed hearing outcome, immigration and tariffs orders, Russia prisoner transfers, Alaska result and broad weekly recall remain incomplete.",
+      "The standalone wargame command is outside the authorized sibling commands. Calculations were reproduced locally."
+    ],
+    "checklist": {
+      "research_questions": "done",
+      "shared_intake": "partial",
+      "weekly_forecast": "done",
+      "weekly_impeachment": "done",
+      "recall": "partial",
+      "filings_and_personnel": "partial",
+      "reader_copy": "done",
+      "validation": "done"
+    },
+    "methodAudit": {
+      "rootCause": "Indexed leads and syndications may repeat one episode or miss a later outcome.",
+      "proposedFix": "Compare dated original records with independent discovery indexes.",
+      "stage1": {
+        "recallSample": {
+          "sampled": 16,
+          "missingFromLedgerOrTriage": null,
+          "items": [
+            {
+              "date": "2026-11-09",
+              "headline": "Vance and others offered competing advice on Iran",
+              "issue": "IRN",
+              "url": "https://www.justsecurity.org/163775/early-edition-november-9-2026/",
+              "status": "Existing Iran and Vance records."
+            },
+            {
+              "date": "2026-11-09",
+              "headline": "Judge orders disclosure of homeless shelter information",
+              "issue": "IMM",
+              "url": "https://www.justsecurity.org/163775/early-edition-november-9-2026/",
+              "status": "No matching wording found. Recover the order before updating."
+            },
+            {
+              "date": "2026-11-09",
+              "headline": "Heritage reportedly removes Robert Rector",
+              "issue": "SUC",
+              "url": "https://www.justsecurity.org/163775/early-edition-november-9-2026/",
+              "status": "No matching wording found. Check organization and direct response."
+            },
+            {
+              "date": "2026-11-09",
+              "headline": "Calley Means accuses Wiles of favoring industry lobbyists",
+              "issue": "MID",
+              "url": "https://www.justsecurity.org/163775/early-edition-november-9-2026/",
+              "status": "MID contains Means material. Verify reception before inferring a coalition reaction."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Rubio describes sanctions as an alternative to combat",
+              "issue": "IRN",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Carried daily finding."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Negotiators announce a prisoner exchange",
+              "issue": "RUS",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Ledger has an exchange agreement. Transfers remain open."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Nvidia hires Joon H. Kim to investigate Huang",
+              "issue": "AI",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Exact-name search did not return an event. Compare with the existing board inquiry episode."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Reuters reports a Chinese university acquired Nvidia chips through a supplier",
+              "issue": "AI",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Potential diversion example. Procurement record follow-up remains due."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "House Republicans choose Jim Jordan as minority leader",
+              "issue": "MID",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Present in the daily log and MID."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Alaska judge hears Peltola absentee-records request",
+              "issue": "MID",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Followed through to AP’s report of the denial."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Reporters Without Borders calls for Brendan Carr’s impeachment",
+              "issue": "MID",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Omission verified from original advocacy and separate reporting. Added."
+            },
+            {
+              "date": "2026-11-11",
+              "headline": "Iranian official rejects transfer of enriched nuclear material",
+              "issue": "IRN",
+              "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/",
+              "status": "Rezaei appears in issue event records."
+            },
+            {
+              "date": "2026-11-12",
+              "headline": "Lutnick reportedly delayed action against suspected chip diversion",
+              "issue": "AI",
+              "url": "https://www.justsecurity.org/164226/early-edition-november-12-2026/",
+              "status": "Daily log records this attributed finding."
+            },
+            {
+              "date": "2026-11-12",
+              "headline": "Massie reportedly obtains signatures for a floor vote on Epstein records",
+              "issue": "EPS",
+              "url": "https://www.justsecurity.org/164226/early-edition-november-12-2026/",
+              "status": "Daily run records reaching the threshold. Floor action remains separate."
+            },
+            {
+              "date": "2026-11-16",
+              "headline": "AP calls Alaska governor race for Jonathan Kreiss-Tomkins",
+              "issue": "MID",
+              "url": "https://www.justsecurity.org/164727/early-edition-november-16-2026/",
+              "status": "Index lead. No exact-name match. Governor result is separate from Senate count."
+            },
+            {
+              "date": "2026-11-16",
+              "headline": "DCCC commissions an outside inquiry into allegations against an incoming Democrat",
+              "issue": "MID",
+              "url": "https://www.justsecurity.org/164727/early-edition-november-16-2026/",
+              "status": "Exact-name search did not return a match. Original follow-up outside this priority intake."
+            }
+          ]
+        },
+        "sourcesEnumerated": [
+          "Just Security dated roundups",
+          "Associated Press live coverage"
+        ]
+      }
+    },
+    "editorial_notes": [
+      "Named lawmakers and their roles in the new headlines. Distinguished a committee’s request from a vote or personnel action. Reworked the scenario about Republicans who support Trump and want policy changes, and explained Cruz’s prospects separately in each scenario.",
+      "Replaced repeated entry summaries with the choices each candidate could make in each scenario. Kept numerical alternative inputs in the comparison record.",
+      "The Carr headline identifies the advocacy group and regulator. The context explains the licensing and merger dispute and leaves congressional uptake open.",
+      "Clarified the FAA source title by naming the committee and agency. The source link and reported action stay the same."
+    ]
+  },
+  "pattern_review": {
+    "scope": "Focused on Hegseth referral, donor and organizer coordination, chip enforcement and Venezuelan election authority.",
+    "outcomes": [
+      {
+        "id": "rus-envoy-shift",
+        "disposition": "defer",
+        "reason": "Announced summit access does not establish change in negotiator authority. Check who leads talks and negotiates any license decision."
+      },
+      {
+        "id": "starshield-lever",
+        "disposition": "defer",
+        "reason": "No direct counterparty evidence reviewed. Seek contract language or a participant linking terms to concessions."
+      },
+      {
+        "id": "vance-squeeze",
+        "disposition": "defer",
+        "reason": "Bigelow retains interest in Vance. Seek named funder decisions or a dated reversal on visas. A donor can dislike the administration’s direction and support him."
+      },
+      {
+        "id": "hegseth-trade-off",
+        "disposition": "defer",
+        "reason": "The referral does not establish a link between Iran operations and deliveries to Ukraine. Seek supply records and authoritative allocation decisions."
+      },
+      {
+        "id": "enforcer-court-wall",
+        "disposition": "defer",
+        "reason": "The operative orders were not verified. Separate each case and remedy."
+      },
+      {
+        "id": "after-nov-3",
+        "disposition": "defer",
+        "reason": "The deadline is November 17. The separate military outcomes each require evidence and would not by themselves identify common intent."
+      }
+    ],
+    "design_warning": "Historical open patterns and their original tests remain subject to a more complete audit."
+  },
+  "weekly_audit": {
+    "selected_decisions": [
+      "House referral",
+      "Cruz entry preparation",
+      "Lutnick scrutiny",
+      "FAA shutdown response",
+      "Venezuelan talks"
+    ],
+    "duplicate_credit": "The Reuters mirror is one origin. The AP live index does not independently corroborate Cantwell’s own letter. The Hegseth judgment uses one House roll.",
+    "stance_changes": [
+      "Crosbie challenges Trump’s preferred chair while supporting Trump. Vance’s war criticism and Hegseth defense are compatible decisions."
+    ],
+    "financial_motives": [
+      "Bigelow’s past spending and current candidate preferences do not establish new funding. Cantwell raised a reported Lutnick family financial exposure. Licensing and conflict records are needed to identify any decision influenced by it."
+    ],
+    "falsifier_scorecard": [
+      "Hegseth: referral verified; vote on articles and conviction not established.",
+      "Nomination tests: none due. Named organizer and financial records distinguish activity from conversion.",
+      "Peltola’s state records request was denied, as AP reported. This does not resolve the separate federal appeal or election result."
+    ],
+    "missed_beneficiary": "Cruz can use Vance’s possible wait and DeSantis’s unresolved timing to recruit now. Rick Larsen can use restored investigative staffing to press for conditions on FAA spending.",
+    "queued_questions": [
+      "RNC chair changes can influence rules and fundraising without an endorsement.",
+      "Track who negotiates and implements an Iran agreement before assigning credit.",
+      "Cruz and Rubio compete for donors while Rubio weighs entry.",
+      "The November 10–13 logs separate legislative access, incoming leadership, Trump’s Iran directive and Huang’s exit. Track January action and named diplomatic responsibility. A more comprehensive review of individual queue items remains due."
+    ],
+    "omitted_leads": [
+      "No stored belief about who decides power supply and siting for AI data centers (states, utilities, DOE loans).",
+      "No belief about US standing with European partners on Russia; Europeans are acting apart from Washington (G20 photo, Black Sea truce call).",
+      "No belief about public-health entry bars as a border tool.",
+      "No belief about state equity and loan stakes in minerals and energy as industrial policy; no faction tagged.",
+      "No belief about who in State trades aid for deportation deals."
+    ],
+    "editorial_sample": [
+      "Venezuela issue assessment, Kennedy and Lutnick case records, current candidate paths, and five wargame scenarios.",
+      "Vance and hawks faction overviews: both retain historical program descriptions. Their broad claims were not used as evidence of voter transfer."
+    ],
+    "clarity_gaps": [
+      "Historical issue, faction and profile entries still contain dated shorthand."
+    ],
+    "memory_note": "Reported preparations and donor interest can alter recruitment opportunities before a public launch. Use named organizers and presidential financing to test whether that advantage appears. Retain a distinct watch lead when an advocacy organization calls for impeachment without House action."
+  },
+  "challenger_review": {
+    "mode": "single-analyst structured opposition",
+    "challenges": [
+      {
+        "itemId": "suc-2026-11-16-cruz-prepares-presidential-run",
+        "mechanism": "Named accounts of Cruz’s preparation open a staffing path before declarations.",
+        "otherSide": "Vance can retain staff privately. Moore’s account is not campaign confirmation.",
+        "reading": "Cruz gains a modest advantage across scenarios pending named hires.",
+        "countercase_weight": "credible",
+        "resolution": "Rebalance Cruz against Vance and DeSantis where they compete for staff and support."
+      },
+      {
+        "itemId": "ai-2026-11-16-cantwell-demands-chip-enforcement",
+        "mechanism": "A committee ranking member targets an individual decision channel.",
+        "otherSide": "The Commerce secretary can defend enforcement decisions and Trump can retain him.",
+        "reading": "Add job pressure and a documented oversight step.",
+        "countercase_weight": "credible",
+        "resolution": "Keep scrutiny separate from personnel change and conviction."
+      },
+      {
+        "itemId": "mid-2026-11-11-rsf-urges-carr-impeachment",
+        "mechanism": "A press freedom group can supply Congress with issues to investigate.",
+        "otherSide": "Carr or the FCC could defend the decisions through regulatory authority and administrative records. No response or congressional commitment was verified in this intake.",
+        "reading": "Document the request and pursue the governing records.",
+        "countercase_weight": "credible",
+        "resolution": "Record a discovery lead without inferring an impeachment coalition."
+      }
+    ],
+    "major_shock_check": "Cruz and Larsen can gain an opportunity before a formal outcome. Lutnick faces pressure; no change of office is established."
+  },
+  "public_update": {
+    "warranted": true,
+    "summary": "Senator Ted Cruz’s preparations give him an opening to recruit for 2028 while Vice President JD Vance weighs when to announce. Lawmakers are also pressing Health Secretary Robert F. Kennedy Jr. and Commerce Secretary Howard Lutnick for answers and preparing to question the Federal Aviation Administration about modernization.",
+    "privacy_screen": "Screened changed research prose for owner identity, personal contact details, local paths, credentials and runtime metadata.",
+    "publication": "Prepared for the runner."
+  },
+  "validation_results": {
+    "status": "checked",
+    "method": "Runner read-only Weekly preflight"
+  },
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "553930acf774f6596e12228cda869469ba65af9e61e6d0194fe91d8c0a6a0529",
+        "reader_takeaway": "Cruz can start recruiting while other contenders decide. Lawmakers have separate ways to scrutinize Kennedy, Lutnick and aviation funding.",
+        "context_check": "Named the relevant federal posts, explained the party chair’s role and distinguished state networks from national campaign teams.",
+        "uncertainty_check": "Attributed early preparations and private decisions. Described prospective governing and congressional choices as conditional.",
+        "changes_made": [
+          "Clarified Cruz’s Iowa opportunity and McEntee’s staffing and audience paths. Put unresolved government outcomes at the end."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "1d7235d3293747aca9b118c772431fdb76b912afb1e8f3ccfdb76d9408fed414",
+        "reader_takeaway": "Venezuela’s negotiators have proceeded further on replacing judges than on setting an election.",
+        "context_check": "Named the Supreme Court, electoral council and scope of the talks.",
+        "uncertainty_check": "Separated the agreement in principle, reporting that talks continued and the unresolved election date.",
+        "changes_made": [
+          "Replaced a generic transition description with the sequence that affects candidates’ access to an election."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "c687917f3ea1aff45cb17a6392e106598a7de04daf75a6664d6d31c1a65adc83",
+        "reader_takeaway": "Cantwell’s demand creates a specific line of Senate questions over Commerce’s chip decisions.",
+        "context_check": "Named Cantwell, Lutnick and the suspected route by which advanced chips reach China.",
+        "uncertainty_check": "Attributed previous delays to reporting and identified the records that could establish actual decisions.",
+        "changes_made": [
+          "Clarified the oversight mechanism and what Commerce would have to answer."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "2d5e8f960aa9e1ebd703806c90be7a0a5bf3a449a88666cd137e8c5df30b6de1",
+        "reader_takeaway": "Lawmakers are weighing action on Kennedy and aviation modernization. A press freedom group separately wants Congress to impeach Carr.",
+        "context_check": "Named House and Senate roles, expanded the health policy group’s name and identified the official who would answer aviation questions.",
+        "uncertainty_check": "Separated criticism, requests and hearing plans from a vote, appropriation or finding.",
+        "changes_made": [
+          "Expanded the health group name and explained the consequence of each oversight channel. Clarified who called for Carr’s impeachment and who could act on it."
+        ]
+      },
+      "events/SUC": {
+        "fingerprint": "6e576320d87d3794aae30a17355b0fa4d60fddfadf12c1cc11b4d278a246d696",
+        "reader_takeaway": "Reuters’s account gives Cruz a chance to recruit before rivals decide.",
+        "context_check": "Identified Moore as the attributed source and named the competing candidates and their jobs.",
+        "uncertainty_check": "A reported conversation and early preparation leave formal entry and staff commitments open.",
+        "changes_made": [
+          "Clarified what the reported preparation can buy Cruz while preserving attribution."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "fa217641611b7a8e5f3e953d3c99f74ec29b3070b48b16884043dd5ed8b6c361",
+        "reader_takeaway": "The House vote and new actions warrant scrutiny of individual officials. A Senate conviction still needs its own coalition.",
+        "context_check": "Named the lawmakers and officials in source titles and explained what the Hegseth vote decided.",
+        "uncertainty_check": "Separated in-office and former-office cases, support for records and articles, blame and departures, and unknown private production.",
+        "changes_made": [
+          "Rewrote source titles, the Hegseth and Bondi explanations, and the reasons for individual holds.",
+          "Identified the House Transportation Committee and FAA in the source title and preserved the underlying link and attribution."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "4512c859ef98c0ee441d8e57ebadd34e32e7be6e92b91ea8b21bb9a449428dd1",
+        "reader_takeaway": "Cruz has a stronger route to build a campaign. Vance leads, and each candidate faces different incentives if party voters react differently to the administration.",
+        "context_check": "Each scenario title identifies what voters respond to. Candidate explanations distinguish money, audience, past organizing and potential votes.",
+        "uncertainty_check": "Distinguished expressed preferences and current evidence from future entry, hiring, coalition growth and delegates.",
+        "changes_made": [
+          "Rewrote the five Cruz scenario explanations and candidate choices throughout the projection. Kept input stress tests in the audit."
+        ]
+      },
+      "runs/2026-11-16-weekly": {
+        "fingerprint": "23b542f0cbf2e6f2cad71e2bf327e8dfe5415ab0fefe885cab0e9aca340c5e96",
+        "reader_takeaway": "The targeted review found consequential recruitment and oversight developments. Several verification tasks remain open.",
+        "context_check": "The summary names the changes and the scope identifies which outcomes remain outstanding.",
+        "uncertainty_check": "Distinguished findings, reported activity and incomplete intake.",
+        "changes_made": [
+          "Expanded the scope to name missing filings, court orders and election coverage."
+        ]
+      }
+    }
+  }
+}

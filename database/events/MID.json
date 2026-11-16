@@ -2667,6 +2667,72 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Miller shared the letter. Effects on Warren’s access to records or witnesses remain open."
+    },
+    {
+      "id": "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment",
+      "date": "2026-11-13",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Jim Clyburn",
+      "text": "Representative Jim Clyburn names Health Secretary Robert F. Kennedy Jr. as an impeachment priority",
+      "context": "The Associated Press reported that Clyburn backed making Kennedy a priority for the incoming House majority. Representative Jamie Raskin pledged to investigate Kennedy, and senators sought records on Kennedy’s testimony about a trip to Samoa and on gifts from a donor. Mark Gorton, who leads the Make America Healthy Again Institute, which supports Kennedy, warned that pursuing Kennedy could alienate the group’s supporters.",
+      "source": "https://apnews.com/article/1ce376052d40c797cfb9c9137a9fad45",
+      "url": "https://apnews.com/article/1ce376052d40c797cfb9c9137a9fad45",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Democrats have several ways to question Kennedy and obtain records. A House vote would require a separate leadership decision. Gorton’s warning identifies a political cost lawmakers may consider, and its reach among voters remains unknown.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Lawmakers expressed priorities and asked for records. Scheduling and vote commitments remain open."
+    },
+    {
+      "id": "mid-2026-11-16-larsen-plans-faa-oversight",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Rick Larsen",
+      "text": "Representative Rick Larsen plans to scrutinize air traffic modernization after the nationwide ground stop",
+      "context": "Roll Call reported that Larsen plans to revive the House Transportation Committee’s investigative staff when Democrats take control. House lawmakers expect to question Federal Aviation Administration chief Bryan Bedford in December. Transportation Secretary Sean Duffy is seeking additional modernization funds.",
+      "source": "https://rollcall.com/2026/11/16/aviation-funding-becomes-political-football-in-lame-duck-session/",
+      "url": "https://rollcall.com/2026/11/16/aviation-funding-becomes-political-football-in-lame-duck-session/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Lawmakers can press the agency on what caused the shutdown and how it would spend new funds. A planned hearing and a funding request leave the cause of the shutdown and the funding decision open.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The planned hearing and staffing change have yet to alter funding or modernization delivery."
+    },
+    {
+      "id": "mid-2026-11-11-rsf-urges-carr-impeachment",
+      "date": "2026-11-11",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Reporters Without Borders",
+      "text": "Reporters Without Borders urges Congress to impeach Federal Communications Commission Chair Brendan Carr",
+      "context": "The Hill reported on November 11 that the press freedom group asked the incoming Congress to impeach Carr. The group said he used broadcast licensing, investigations and reviews of media mergers to pressure news organizations critical of President Donald Trump. Its statement cites disputes with ABC and other broadcasters.",
+      "source": "https://www.aol.com/articles/reporters-without-borders-calls-carr-021146000.html",
+      "url": "https://www.aol.com/articles/reporters-without-borders-calls-carr-021146000.html",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The group gives lawmakers specific regulatory decisions to examine. Its request establishes a public challenge to Carr’s leadership, while a congressional inquiry or articles would require action by lawmakers.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The group asked Congress to act. Lawmakers’ response and the status of the licensing decisions remain open."
     }
   ]
 }

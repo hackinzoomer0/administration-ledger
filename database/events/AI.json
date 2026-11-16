@@ -1823,6 +1823,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Commerce released the measure. Individual licensing decisions and changes in access remain open."
+    },
+    {
+      "id": "ai-2026-11-16-cantwell-demands-chip-enforcement",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Maria Cantwell",
+      "text": "Senator Maria Cantwell presses Commerce Secretary Howard Lutnick to stop advanced chip diversion",
+      "context": "Cantwell, the top Democrat on the Senate Commerce Committee, sent Lutnick a letter asking him to stop advanced U.S. chips from reaching companies tied to China. The letter follows reports of delays in restricting exports to firms suspected of diverting chips.",
+      "source": "https://www.commerce.senate.gov/press/dem/release/cantwell-tells-lutnick-you-failed-to-protect-national-security-americas-tech-edge/",
+      "url": "https://www.commerce.senate.gov/press/dem/release/cantwell-tells-lutnick-you-failed-to-protect-national-security-americas-tech-edge/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Cantwell is setting out questions Commerce may have to answer when Democrats take control of the Senate. The letter establishes her demand. Records of licensing and enforcement decisions would show who made them and who benefited.",
+      "origin": "weekly shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The letter sets an oversight agenda. Commerce’s response and enforcement decisions remain open."
     }
   ]
 }
