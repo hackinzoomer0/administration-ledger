@@ -201,6 +201,38 @@
       "publication_date": "2026-11-12",
       "accessed_on": "2026-11-13",
       "limitation": "The filing establishes the board’s personnel decisions. It does not resolve the underlying allegations or establish action by Commerce."
+    },
+    {
+      "id": "daily-20261116-house",
+      "title": "House calendar records referral of the Hegseth resolution",
+      "url": "https://www.govinfo.gov/content/pkg/CCAL-119hcal-2026-11-13/pdf/CCAL-119hcal-2026-11-13.pdf",
+      "publication_date": "2026-11-13",
+      "accessed_on": "2026-11-16",
+      "limitation": "Official calendar records referral of H.Res.1655."
+    },
+    {
+      "id": "daily-20261116-lynch",
+      "title": "Representative Robert Garcia requests records from Drew Lynch",
+      "url": "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+      "publication_date": "2026-10-30",
+      "accessed_on": "2026-11-16",
+      "limitation": "Original letter establishes deadline. Later response unverified."
+    },
+    {
+      "id": "daily-20261116-warren",
+      "title": "Axios reports Aaron Reitz’s request to Senator Elizabeth Warren",
+      "url": "https://www.axios.com/2026/11/16/warren-us-attorney-investigations-threat",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-16",
+      "limitation": "New preservation demand to Warren and White House response to Axios."
+    },
+    {
+      "id": "daily-20261116-bis",
+      "title": "Commerce Department rule on remote access to advanced chips",
+      "url": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "publication_date": "2026-11-15",
+      "accessed_on": "2026-11-16",
+      "limitation": "Operative licensing requirements and transition provisions."
     }
   ],
   "cases": [
@@ -2122,6 +2154,369 @@
           }
         }
       }
+    },
+    {
+      "id": "2026-11-16-personnel-daily",
+      "as_of": "2026-11-16T15:56:41.774331+00:00",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-16",
+      "type": "daily",
+      "summary": "The House referral of Defense Secretary Pete Hegseth’s impeachment resolution remains the latest verified proceeding. Axios reported that U.S. attorney Aaron Reitz asked Senator Elizabeth Warren to preserve records concerning her oversight work. Oversight searches did not establish whether producer Drew Lynch responded to the records deadline in the Kimberly Guilfoyle inquiry. Four estimates through November 10, 2027 stay in place, and five cases remain unestimated.",
+      "coverage": "Reviewed the House calendar, post-election reaction, the Warren preservation request, Commerce’s chip rule and the Guilfoyle deadline. Searches did not establish new case-specific Senate commitments or a reply from Lynch.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The House voted 211–204 to send the resolution against Defense Secretary Pete Hegseth to the Judiciary Committee. In the incoming Senate, if all 100 senators attend and 55 Democrats and aligned senators vote to convict, they would still need 12 additional votes. A Senate coalition for any of the cases remains unverified.",
+        "observation_ids": [],
+        "source_ids": [
+          "hegseth-house-roll-317",
+          "daily-house-attendance",
+          "daily-white-house-warning",
+          "daily-colom-call",
+          "daily-20261113-house",
+          "daily-20261113-doj",
+          "daily-20261116-house",
+          "daily-20261116-warren"
+        ],
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "mid-2026-11-11-white-house-oversight-warning",
+          "mid-2026-11-11-colom-mississippi-senate-call",
+          "mid-2026-11-13-democrats-criticize-floor-preparation",
+          "mid-2026-11-11-blumenthal-reitz-preservation",
+          "mid-2026-11-16-reitz-warren-preservation"
+        ],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A Senate conviction could make it easier to pursue another case",
+            "assessment": "A bipartisan Senate conviction could make lawmakers more willing to pursue another case and witnesses more willing to cooperate. This review found no such vote or coalition."
+          },
+          {
+            "id": "exception",
+            "title": "Senators could limit their support to one unusual case",
+            "assessment": "The House disputes concern one referral and how Democratic leaders prepare for close votes. They give little reason to expect senators to carry a coalition over to another official’s case."
+          },
+          {
+            "id": "backlash",
+            "title": "Voter backlash could discourage another impeachment",
+            "assessment": "Reitz’s requests and the White House defense of them show pressure on oversight lawmakers. Blumenthal’s reply demonstrates resistance. Whether the pressure deters witnesses, affects votes or changes voter behavior remains open."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 50,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 12.5,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The House calendar confirms Judiciary referral. The outgoing House result offers limited evidence about whether incoming leaders will schedule articles or whether senators will vote to convict.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The House calendar confirms Judiciary referral. The outgoing House result offers limited evidence about whether incoming leaders will schedule articles or whether senators will vote to convict."
+          },
+          "basis": {
+            "allegations": "The resolution proposes eight articles against Defense Secretary Pete Hegseth. Several allege that his decisions about Iran violated Congress’s war powers.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall",
+              "hegseth-house-roll-317",
+              "hegseth-white-house-opposition",
+              "daily-house-attendance",
+              "daily-20261113-house",
+              "daily-20261116-house"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action",
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-13-democrats-criticize-floor-preparation"
+            ],
+            "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": [
+              "hegseth-referral-2026-11-10"
+            ]
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "The new preservation request concerns other congressional inquiries. It adds little to whether members would pursue the former Homeland Security secretary over contracts or how senators would respond.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The new preservation request concerns other congressional inquiries. It adds little to whether members would pursue the former Homeland Security secretary over contracts or how senators would respond."
+          },
+          "basis": {
+            "allegations": "Filed articles against former Homeland Security Secretary Kristi Noem allege self-dealing. A separate congressional referral alleges false testimony. Both allegations remain disputed.",
+            "defense": "Noem defended the contracting process and said Trump approved it. Conflicting accounts leave her intent and any personal benefit unresolved.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters"
+            ],
+            "event_ids": [],
+            "watch": "Check contract records, any findings about her role and whether lawmakers would proceed after her departure."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The records deadline passed. Public searches and the committee material leave open whether producer Drew Lynch supplied records privately. Without his response or a leadership commitment, the case for moving either estimate remains limited.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The records deadline passed. Public searches and the committee material leave open whether producer Drew Lynch supplied records privately. Without his response or a leadership commitment, the case for moving either estimate remains limited."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrats are investigating whether former ambassador Kimberly Guilfoyle sought money from a donor in exchange for access to senior administration officials. The allegation is disputed.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso",
+              "daily-20261113-guilfoyle",
+              "daily-20261116-lynch"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns"
+            ],
+            "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "Reitz’s request to Warren raises pressure on congressional investigators and scrutiny of the Justice Department. A direction from Attorney General Todd Blanche or a new commitment to pursue articles remains unverified.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Reitz’s request to Warren raises pressure on congressional investigators and scrutiny of the Justice Department. A direction from Attorney General Todd Blanche or a new commitment to pursue articles remains unverified."
+          },
+          "basis": {
+            "allegations": "House members have expressed support for impeaching Attorney General Todd Blanche. The current oversight dispute leaves open whether he personally directed the prosecutor’s warning.",
+            "defense": "Lawyers can act on behalf of the government and dispute Congress’s legal arguments. Evidence that Blanche misused his authority would require a specific act and its circumstances.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support",
+              "oversight-epstein-majority",
+              "daily-white-house-warning",
+              "daily-20261113-doj",
+              "daily-20261116-warren"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense",
+              "eps-2026-11-10-oversight-majority-report",
+              "mid-2026-11-11-white-house-oversight-warning",
+              "mid-2026-11-11-blumenthal-reitz-preservation",
+              "mid-2026-11-16-reitz-warren-preservation"
+            ],
+            "watch": "Check for records of Blanche’s own decisions, court findings and lawmakers’ commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The current oversight dispute supplies no new evidence about Susie Wiles’s personal actions or whether her former job qualifies for impeachment.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The current oversight dispute supplies no new evidence about Susie Wiles’s personal actions or whether her former job qualifies for impeachment."
+          },
+          "basis": {
+            "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means"
+            ],
+            "event_ids": [],
+            "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The latest dispute concerns congressional oversight and the Justice Department. It supplies no new attributable action by FBI Director Kash Patel or evidence of a coalition to pursue articles against him.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The latest dispute concerns congressional oversight and the Justice Department. It supplies no new attributable action by FBI Director Kash Patel or evidence of a coalition to pursue articles against him."
+          },
+          "basis": {
+            "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+            "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The floor action and preservation requests do not concern the health secretary. Case-specific evidence and legislative commitments remain too limited for an estimate.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The floor action and preservation requests do not concern the health secretary. Case-specific evidence and legislative commitments remain too limited for an estimate."
+          },
+          "basis": {
+            "allegations": "The review has tracked calls to hold Health and Human Services Secretary Robert F. Kennedy Jr. accountable. A case would require identifying the conduct lawmakers would cite in articles.",
+            "defense": "The specific acts and Kennedy’s response remain open.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Check for named lawmakers, specific allegations and any filed articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Commerce released a rule covering remote use of advanced chips. That gives Congress a decision to examine, while leaving the separate Megaspeed investigation and Lutnick’s personal role unresolved. There is insufficient case-specific evidence to estimate impeachment odds.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Commerce released a rule covering remote use of advanced chips. That gives Congress a decision to examine, while leaving the separate Megaspeed investigation and Lutnick’s personal role unresolved. There is insufficient case-specific evidence to estimate impeachment odds."
+          },
+          "basis": {
+            "allegations": "The watchlist tracks public criticism of Lutnick. An impeachment case would require evidence of specific conduct and congressional action.",
+            "defense": "Association, criticism or a resignation demand does not establish wrongdoing or conviction support.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [
+              "daily-commerce-delay",
+              "daily-20261113-nvidia",
+              "daily-20261116-bis"
+            ],
+            "event_ids": [
+              "ai-2026-11-11-lutnick-nvidia-export-delay-report",
+              "ai-2026-11-11-huang-resigns-kress-interim",
+              "ai-2026-11-15-commerce-remote-chip-rule"
+            ],
+            "watch": "Current evidence of personal acts, defenses and legislative follow-up."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The Epstein records petition provides a route to the floor. This review found no new proceeding against former Attorney General Pam Bondi or evidence of a coalition willing to proceed after she left office.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The Epstein records petition provides a route to the floor. This review found no new proceeding against former Attorney General Pam Bondi or evidence of a coalition willing to proceed after she left office."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Senators have disputed when they can try a former official. Evidence and congressional support specific to Bondi remain uncertain.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
     }
   ],
   "tests": [
@@ -2145,11 +2540,12 @@
       "case_id": "guilfoyle",
       "resolve_by": "2026-11-14",
       "claim": "Check responses to the November 13 records deadline; record missing or inaccessible material honestly.",
-      "status": "pending",
-      "resolution": "Representative Robert Garcia’s letter gives Drew Lynch until November 13 to supply records. The search did not establish his response. Check after the deadline and distinguish a public response from private production.",
+      "status": "unresolved",
+      "resolution": "Garcia’s letter sets a November 13 deadline for producer Drew Lynch. The committee release and post-deadline searches provided no public response or confirmation that records were delivered privately. Check for a committee update or a statement from Lynch.",
       "source_ids": [
         "guilfoyle-letter",
-        "daily-20261113-guilfoyle"
+        "daily-20261113-guilfoyle",
+        "daily-20261116-lynch"
       ],
       "event_ids": []
     },

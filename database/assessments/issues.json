@@ -1,7 +1,7 @@
 {
   "AI": {
-    "policy": "The administration is trying to limit states’ ability to regulate artificial intelligence while allowing commercial chip exports and voluntary safety reviews of advanced AI systems. The Pentagon is also seeking broad permission to use AI for military purposes.",
-    "dispute": "Nvidia’s board appointed Colette Kress as interim chief executive after Jensen Huang resigned. The board’s conclusions about the underlying allegations and Commerce’s proposed chip restrictions remain open. Minneapolis council members voted to review new data centers one project at a time. Final municipal action and electricity supply approvals require separate checks. Huang’s exit weakens public advocacy for models that developers can download and run themselves. Nvidia’s support for those models could continue under interim chief executive Colette Kress. Watch its funding, model releases and policy work. Congress and Commerce are scrutinizing where advanced chips go. Any limits on releasing model weights or using particular models on government systems would be separate decisions.",
+    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The released text ties effectiveness to Federal Register publication. The Pentagon continues to seek broad permission to use AI for military purposes.",
+    "dispute": "Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Huang had publicly backed AI models that developers can download and run themselves. Kress and the board can continue supporting those models through funding and releases. Meanwhile, Commerce’s newly released rule would let regulators check who rents computing power abroad. Whether Commerce takes separate action involving Singapore-based Megaspeed or Nvidia changes support for downloadable models remains open. In Minneapolis, council members voted for project-by-project review of data centers. The mayor’s decision and the electricity supply for individual projects remain separate questions.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -119,10 +119,11 @@
       "ai-2026-11-09-minneapolis-zoning",
       "ai-2026-11-11-lutnick-nvidia-export-delay-report",
       "ai-2026-11-11-huang-resigns-kress-interim",
-      "ai-2026-11-12-minneapolis-council-zoning-vote"
+      "ai-2026-11-12-minneapolis-council-zoning-vote",
+      "ai-2026-11-15-commerce-remote-chip-rule"
     ],
-    "research_as_of": "2026-11-13",
-    "scope": "Reviewed the reported delay in Nvidia chip restrictions and the Minneapolis council schedule. Other findings retain their prior evidence dates.",
+    "research_as_of": "2026-11-16",
+    "scope": "The November 16 review covered the released chip rule and the Minneapolis mayor’s pending decision. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -624,7 +625,7 @@
   },
   "IRN": {
     "policy": "Trump publicly says the United States does not need an agreement with Iran and has redirected Vance to domestic work. Earlier U.S. economic and naval pressure remains the basis of the policy assessment while any new orders are verified.",
-    "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open.",
+    "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open. Pakistan’s foreign minister Ishaq Dar says his government is still mediating and is awaiting a U.S. reply. Washington’s next diplomatic lead and any change in military operations remain open.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -751,10 +752,11 @@
       "irn-2026-11-10-rubio-economic-pressure",
       "irn-2026-11-10-israel-parliament-sworn-in",
       "irn-2026-11-12-trump-redirects-vance",
-      "suc-2026-11-12-kennedy-challenges-vance-war-blame"
+      "suc-2026-11-12-kennedy-challenges-vance-war-blame",
+      "irn-2026-11-16-pakistan-awaits-us-iran-reply"
     ],
-    "research_as_of": "2026-11-13",
-    "scope": "November 11 review of Trump’s stated Iran policy and the Israeli parliament’s opening. Other findings retain their earlier evidence dates.",
+    "research_as_of": "2026-11-16",
+    "scope": "The November 16 review covered Pakistan’s stated diplomatic role. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -888,7 +890,7 @@
   },
   "MID": {
     "policy": "Democrats are projected to control both chambers in January. The Associated Press call in Mississippi brings their projected Senate majority to 55 seats, with Alaska still uncalled.",
-    "dispute": "Democrats are projected to take both chambers in January. The Kansas call keeps the governorship in Democratic hands, while Alaska’s races remain pending. The Hegseth referral exposed disagreement over House Democrats’ floor preparation. Senator Richard Blumenthal and U.S. Attorney Aaron Reitz each sought preservation of records in a dispute over oversight of ballroom donations.",
+    "dispute": "Democrats are projected to take both chambers in January. The Kansas call keeps the governorship in Democratic hands, while Alaska’s races remain pending. The Hegseth referral exposed disagreement over House Democrats’ floor preparation. Senator Richard Blumenthal and U.S. Attorney Aaron Reitz each sought preservation of records in a dispute over oversight of ballroom donations. Republican National Committee deputy KC Crosbie is challenging Trump-backed chair Joe Gruters. The January vote will determine who manages the party’s national fundraising and field operation. U.S. attorney Aaron Reitz has also sought records from Senator Elizabeth Warren about her congressional inquiries.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -1004,10 +1006,12 @@
       "mid-2026-11-10-rudofsky-nomination-withdrawn",
       "mid-2026-11-12-holscher-kansas-governor-call",
       "mid-2026-11-11-blumenthal-reitz-preservation",
-      "mid-2026-11-13-democrats-criticize-floor-preparation"
+      "mid-2026-11-13-democrats-criticize-floor-preparation",
+      "mid-2026-11-15-gruters-defends-rnc-spending",
+      "mid-2026-11-16-reitz-warren-preservation"
     ],
-    "research_as_of": "2026-11-13",
-    "scope": "Reviewed Mississippi’s Senate race call and the public dispute over congressional investigations. Other findings retain their prior evidence dates.",
+    "research_as_of": "2026-11-16",
+    "scope": "The November 16 review covered the national party chair race, House procedure and congressional oversight. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1305,7 +1309,7 @@
   },
   "SUC": {
     "policy": "Republicans have not selected a 2028 nominee. Vance has the strongest organization documented in this research, but Trump has not settled the succession and the final field remains uncertain.",
-    "dispute": "Trump redirected Vance from Iran talks after Vance blamed the war for Republican losses. Senator John Kennedy publicly disputed that explanation and Rubio had defended Trump’s initial decision. The political effect depends on whom Republican voters credit for changing policy or blame for the war, and on who can recruit campaign support.",
+    "dispute": "Trump redirected Vance from Iran talks after Vance blamed the war for Republican losses. Senator John Kennedy publicly disputed that explanation and Rubio had defended Trump’s initial decision. The political effect depends on whom Republican voters credit for changing policy or blame for the war, and on who can recruit campaign support. Axios reported that Vice President JD Vance could wait until late spring to announce his plans. People familiar with his thinking said the timetable predated the midterms. A challenge to Republican National Committee chair Joe Gruters puts the future leadership of a party organization where Vance has raised money up for a January vote.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -1377,10 +1381,12 @@
       "suc-2026-10-21-vance-ohio-rally",
       "suc-2026-11-08-trump-vance-immigration-interview",
       "irn-2026-11-12-trump-redirects-vance",
-      "suc-2026-11-12-kennedy-challenges-vance-war-blame"
+      "suc-2026-11-12-kennedy-challenges-vance-war-blame",
+      "suc-2026-11-15-vance-2028-timing-report",
+      "mid-2026-11-15-gruters-defends-rnc-spending"
     ],
-    "research_as_of": "2026-11-13",
-    "scope": "November 9 focused review of Trump’s acknowledgment of his prior discussion with Vance. The dispute above explains the new finding. Other policies, court decisions and implementation remain carried from their dated evidence; this was not a full issue review.",
+    "research_as_of": "2026-11-16",
+    "scope": "The November 16 review covered party leadership and possible campaign timing. Other findings retain their earlier evidence dates.",
     "actors": [
       {
         "person_id": "donald-trump",

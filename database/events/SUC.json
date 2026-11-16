@@ -842,6 +842,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "suc-2026-11-15-vance-2028-timing-report",
+      "date": "2026-11-15",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "JD Vance",
+      "text": "Axios reports Vice President JD Vance may wait until spring to announce his 2028 plans",
+      "context": "Axios cited two people familiar with the vice president’s plans who said he would decide after the new year and might wait until late spring to announce publicly. People familiar with his thinking said the timetable predated the midterms. Republicans close to Vance also described concern that an early campaign could alienate President Donald Trump. Vance’s spokesperson declined to comment. In the same report, Axios attributed meetings about a possible Ted Cruz campaign to people familiar with his operation. It also reported that Florida Governor Ron DeSantis was pointing to Republican victories in Florida as a recovery model.",
+      "source": "https://www.axios.com/2026/11/15/vance-2028-campaign-president-announce",
+      "url": "https://www.axios.com/2026/11/15/vance-2028-campaign-president-announce",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Waiting would give Vance more time to keep working with Trump while he weighs a campaign. It could also give rivals time to recruit. The report leaves his decision, campaign staffing and Trump’s endorsement open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Private reporting describes possible timing. A campaign decision and its effect on recruitment remain open."
     }
   ]
 }

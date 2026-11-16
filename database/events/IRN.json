@@ -2982,6 +2982,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "irn-2026-11-16-pakistan-awaits-us-iran-reply",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Ishaq Dar",
+      "text": "Pakistan says it is awaiting a U.S. reply to Iran’s proposals",
+      "context": "Pakistan’s foreign minister Ishaq Dar told reporters that his government would continue its efforts to ease U.S.–Iran tensions and was awaiting a U.S. response to proposals he said drew on the June interim agreement. The Associated Press reported his remarks from Islamabad.",
+      "source": "https://apnews.com/article/pakistan-economic-bloch-eco-diplomats-meeting-islamabad-fff3bfdcebb7ef084f0f29dd04d239ee",
+      "url": "https://apnews.com/article/pakistan-economic-bloch-eco-diplomats-meeting-islamabad-fff3bfdcebb7ef084f0f29dd04d239ee",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Pakistan can carry proposals after Trump redirected Vice President JD Vance. Dar’s announcement leaves open who speaks for Washington and whether either government will accept new terms.",
+      "origin": "daily shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Pakistan’s announcement leaves open who will respond for the United States."
     }
   ]
 }

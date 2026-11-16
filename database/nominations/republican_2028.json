@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-13",
+  "as_of_date": "2026-11-16",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2799,6 +2799,66 @@
       "verification_status": "read_full",
       "receipt_ids": [
         "3f3c5d4b548e1f8e3aac5dea"
+      ]
+    },
+    {
+      "id": "daily_20261116_bis",
+      "url": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "publisher": "Commerce",
+      "publication_date": "2026-11-15",
+      "accessed_on": "2026-11-16",
+      "description": "Operative licensing requirements and transition provisions.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "e6de2741afd0d2c48fcd66af"
+      ]
+    },
+    {
+      "id": "daily_20261116_rnc",
+      "url": "https://www.newstimes.com/news/politics/article/trump-s-handpicked-party-chair-faces-a-rebellion-22532128.php",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-15",
+      "accessed_on": "2026-11-16",
+      "description": "Named support for Crosbie, Gruters’s defense, privately reported fears of White House reprisal.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "252e8418360e84ad4bd7e861"
+      ]
+    },
+    {
+      "id": "daily_20261116_vance",
+      "url": "https://www.axios.com/2026/11/15/vance-2028-campaign-president-announce",
+      "publisher": "Axios",
+      "publication_date": "2026-11-15",
+      "accessed_on": "2026-11-16",
+      "description": "Attributed private deliberations over announcing a 2028 campaign.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "f63ee5b18f59cd6b06a8e543"
+      ]
+    },
+    {
+      "id": "daily_20261116_dar",
+      "url": "https://apnews.com/article/pakistan-economic-bloch-eco-diplomats-meeting-islamabad-fff3bfdcebb7ef084f0f29dd04d239ee",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-16",
+      "description": "Pakistan’s foreign minister publicly said mediation would continue and awaited a U.S. response.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "c87661080d4cf46c1f10d312"
+      ]
+    },
+    {
+      "id": "daily_20261116_warren",
+      "url": "https://www.axios.com/2026/11/16/warren-us-attorney-investigations-threat",
+      "publisher": "Axios",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-16",
+      "description": "New preservation demand to Warren and White House response to Axios.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "4ae01559b1dbf41e7b779d84"
       ]
     }
   ],
@@ -19734,6 +19794,366 @@
               "event_ids": [
                 "irn-2026-11-12-trump-redirects-vance",
                 "suc-2026-11-12-kennedy-challenges-vance-war-blame"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2026-11-16-daily",
+        "date": "2026-11-16",
+        "run_id": "2026-11-16",
+        "type": "daily_review",
+        "wargame_ref": "2026-11-09-weekly",
+        "summary": "Republican National Committee members will vote in January on whether to keep Trump-backed chair Joe Gruters. Axios reported that Vice President JD Vance may wait until spring to say whether he will run. The November 9 estimates could become stale if organizers, donors or voters respond to these developments. All eight estimates remain held under the weekly schedule and are conditional on the authorized roster.",
+        "probabilities_pct": {
+          "jd_vance": 32.85,
+          "marco_rubio": 11.05,
+          "ron_desantis": 19.45,
+          "ted_cruz": 5.8,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Vance’s access to Republican donors and organizers gives him room to wait. Axios reported that he might wait until spring to announce his decision. Waiting could preserve his relationship with Trump and give rivals time to recruit. The contest for party chair leaves the future of the committee’s operation open.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_rubio_iran_20261111",
+              "daily_vance_20261113",
+              "daily_kennedy_20261113",
+              "daily_20261116_vance",
+              "daily_20261116_rnc"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "irn-2026-11-10-rubio-economic-pressure",
+              "irn-2026-11-12-trump-redirects-vance",
+              "suc-2026-11-12-kennedy-challenges-vance-war-blame",
+              "suc-2026-11-15-vance-2028-timing-report",
+              "mid-2026-11-15-gruters-defends-rnc-spending"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance gave Republican critics of the war a public argument after the election. Trump’s instruction reduces Vance’s ability to show that his approach can produce an agreement.",
+                "event_ids": [
+                  "irn-2026-11-12-trump-redirects-vance",
+                  "suc-2026-11-12-kennedy-challenges-vance-war-blame"
+                ],
+                "source_ids": [
+                  "daily_vance_20261113",
+                  "daily_kennedy_20261113"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Axios reported that Rubio has repeatedly said he would support Vance if Vance runs. Time before Vance declares could leave donors open to Rubio. A Rubio bid and any new donor commitments remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "daily_rubio_iran_20261111",
+              "daily_chip_axios_20261112",
+              "daily_vance_20261113",
+              "daily_rubio_20261113",
+              "daily_20261116_vance"
+            ],
+            "event_ids": [
+              "irn-2026-11-10-rubio-economic-pressure",
+              "ai-2026-11-11-lutnick-nvidia-export-delay-report",
+              "irn-2026-11-12-trump-redirects-vance"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio’s access to foreign counterparts gives him a way to explain sustained pressure. His reported advocacy gives Republicans who favor that approach a reason to pay attention to him, while campaign commitments remain open.",
+                "event_ids": [
+                  "irn-2026-11-10-rubio-economic-pressure"
+                ],
+                "source_ids": [
+                  "daily_rubio_iran_20261111"
+                ]
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Axios places Rubio in discussions over chip restrictions. Commerce’s reported delay shows why participation alone may yield little electoral credit.",
+                "event_ids": [
+                  "ai-2026-11-11-lutnick-nvidia-export-delay-report"
+                ],
+                "source_ids": [
+                  "daily_chip_axios_20261112"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Axios reported that Florida Governor Ron DeSantis is using Republican victories in his state to argue that the party can recover by following Florida’s example. He still has to show he can recruit supporters outside his state.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors",
+              "daily_20261116_vance"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. Axios reported that the Texas senator’s team has met about a possible campaign. That gives him time to prepare while Vance weighs his plans. A campaign launch, voter support and a Trump endorsement remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "daily_judges_ap_20261112",
+              "daily_durbin_judges_20261112",
+              "daily_20261116_vance"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-rudofsky-nomination-withdrawn"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Cruz’s staff can help identify judicial candidates before the Senate changes hands. Other Republican senators can challenge those choices, as Cornyn did on the vetting process.",
+                "event_ids": [
+                  "mid-2026-11-10-rudofsky-nomination-withdrawn"
+                ],
+                "source_ids": [
+                  "daily_judges_ap_20261112",
+                  "daily_durbin_judges_20261112"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. This intake found no fresh evidence that changed the carried assessment. His experience recruiting executive personnel remains an argument he could offer. Entry and evidence of an organization were outside focused coverage.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. This intake found no fresh evidence that changed the carried assessment. The public dispute over Iran gives restraint advocates a subject to organize around. The review did not establish a shift toward Paul among Republican primary voters.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "daily_thune_paul_20261111",
+              "daily_vance_20261113"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-republican-leadership-results",
+              "irn-2026-11-12-trump-redirects-vance"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "party",
+                "direction": "both",
+                "mechanism": "Paul’s defense of Thune on the election results can preserve working relationships while he contests administration policy.",
+                "event_ids": [
+                  "mid-2026-11-10-republican-leadership-results"
+                ],
+                "source_ids": [
+                  "daily_thune_paul_20261111"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. This intake found no fresh evidence that changed the carried assessment. His Georgia record remains the basis for a campaign argument. Recruitment outside Georgia and entry were outside focused coverage.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held at the November 9 estimate under the weekly schedule. This intake found no fresh evidence that changed the carried assessment. The petition gives Massie a route to seek a vote. House Republicans’ near-unified referral vote shows the limits of his leverage over his party. Evidence of new presidential supporters remains open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "daily_hegseth_referral_20261111",
+              "daily_massie_petition_20261112",
+              "daily_massie_axios_20261112"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "eps-2026-11-11-massie-epstein-petition-threshold"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Massie gives Republican war critics a recorded example of congressional dissent. The near-unified Republican referral vote shows his limits inside the outgoing House.",
+                "event_ids": [
+                  "mid-2026-11-10-hegseth-judiciary-referral"
+                ],
+                "source_ids": [
+                  "daily_hegseth_referral_20261111"
+                ]
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "The petition shows Massie can work with Democrats on disclosure. Whether that helps him recruit Republican presidential supporters remains open.",
+                "event_ids": [
+                  "eps-2026-11-11-massie-epstein-petition-threshold"
+                ],
+                "source_ids": [
+                  "daily_massie_petition_20261112",
+                  "daily_massie_axios_20261112"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "Primary voter reception, new campaign staffing and donor commitments remain lightly covered. Axios’s reporting on private campaign deliberations establishes no decision to enter. The Republican National Committee chair vote is still ahead."
+        ],
+        "monitoring": {
+          "summary": "The active terminal tests have yet to come due. Possible campaign timing and the January party chair vote are interim evidence about whether candidates can recruit staff and donors.",
+          "prediction_updates": [],
+          "developments": [
+            {
+              "finding": "Axios reported that Vance may wait until spring to announce his intentions. Separately, his party’s chair faces a challenge from his deputy.",
+              "implication": "Vance retains his fundraising relationships. A drawn-out decision could leave room for other candidates to hire staff and recruit donors. The party vote could change who manages the national committee.",
+              "weekly_question": "Test when a later announcement protects Vance’s relationship with Trump and when it costs him staff, organizers or donors. Compare what a Gruters or Crosbie win would do to the operation without assuming an endorsement.",
+              "source_ids": [
+                "daily_20261116_vance",
+                "daily_20261116_rnc"
+              ],
+              "event_ids": [
+                "suc-2026-11-15-vance-2028-timing-report",
+                "mid-2026-11-15-gruters-defends-rnc-spending"
+              ]
+            },
+            {
+              "finding": "Pakistan’s foreign minister said he was awaiting a U.S. response to Iran’s proposals.",
+              "implication": "A diplomatic route remains available after Trump redirected Vance. Credit for reaching an agreement depends on who can deliver it and whom voters credit.",
+              "weekly_question": "If talks progress, compare the roles of Vance, Rubio and other U.S. officials. Test whether Trump supporters who want the war ended respond to early critics Paul and Massie or to officials who can deliver a deal.",
+              "source_ids": [
+                "daily_20261116_dar"
+              ],
+              "event_ids": [
+                "irn-2026-11-16-pakistan-awaits-us-iran-reply"
               ]
             }
           ]

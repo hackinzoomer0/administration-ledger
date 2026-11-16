@@ -1800,6 +1800,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "ai-2026-11-15-commerce-remote-chip-rule",
+      "date": "2026-11-15",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "TAR"
+      ],
+      "kind": "act",
+      "actor": "Commerce Department",
+      "text": "Commerce releases a rule to license remote access to advanced U.S. chips",
+      "context": "The Commerce Department released an interim rule covering large amounts of computing power supplied to companies based in China and other restricted destinations, including through data centers in third countries. The rule also adds license requirements for certain advanced chip shipments to Indonesia, Malaysia, Singapore, Thailand and Brazil. The released text ties effectiveness to Federal Register publication.",
+      "source": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "url": "https://media.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The rule gives Commerce a way to review access to computing power even when the chips stay abroad. License decisions, checks on customers and actual access to chips will show how much the rule changes.",
+      "origin": "daily shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Commerce released the measure. Individual licensing decisions and changes in access remain open."
     }
   ]
 }

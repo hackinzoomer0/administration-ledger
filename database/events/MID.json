@@ -2621,6 +2621,52 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "mid-2026-11-15-gruters-defends-rnc-spending",
+      "date": "2026-11-15",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Joe Gruters",
+      "text": "AP reports Republican Party chair Joe Gruters defended spending as KC Crosbie seeks his job",
+      "context": "The Associated Press reported on November 15 that Republican National Committee chair Joe Gruters defended party spending in a letter he sent on November 12. His deputy, KC Crosbie, launched her challenge on November 5 and called for a review of the defeat. Committee member Oscar Brock publicly backed Crosbie. President Donald Trump endorsed Gruters. AP separately reported that some potential Crosbie supporters privately feared White House backlash. The committee votes in January.",
+      "source": "https://www.newstimes.com/news/politics/article/trump-s-handpicked-party-chair-faces-a-rebellion-22532128.php",
+      "url": "https://www.newstimes.com/news/politics/article/trump-s-handpicked-party-chair-faces-a-rebellion-22532128.php",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: Crosbie gives committee members who still support Trump a way to oppose his choice of chair. Gruters can point to Trump’s backing and argue that keeping his team protects fundraising. The challenge puts Trump’s influence over the committee to a public test.",
+      "origin": "daily shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The challenger has named supporters. January’s vote will determine who leads the party."
+    },
+    {
+      "id": "mid-2026-11-16-reitz-warren-preservation",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Aaron Reitz",
+      "text": "Axios reports U.S. attorney Aaron Reitz asked Senator Elizabeth Warren to preserve oversight records",
+      "context": "Axios reported on November 16 that U.S. attorney Aaron Reitz sent Senator Elizabeth Warren a letter on November 15 asking her to retain records. He cited inquiries into White House ballroom fundraising and tax breaks for AI investment. White House chief of staff Stephen Miller shared the letter, and the White House pointed to counsel Will Scharf’s earlier warning to Representative Robert Garcia. The Justice Department declined to say whether it had opened an investigation.",
+      "source": "https://www.axios.com/2026/11/16/warren-us-attorney-investigations-threat",
+      "url": "https://www.axios.com/2026/11/16/warren-us-attorney-investigations-threat",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The request extends the administration’s pressure to a senator positioned to lead the Banking Committee. It gives the White House a public argument against the inquiries. Any change in Warren’s work, a criminal filing or a binding order remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-16",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Miller shared the letter. Effects on Warren’s access to records or witnesses remain open."
     }
   ]
 }
