@@ -57,6 +57,26 @@ def assert_public(text, private=None):
     return text
 
 
+
+def validate_public_ledger(ledger):
+    """Screen the publication payload, identifying affected documents without quoting text."""
+    private = identifiers(required=True)
+    issues = violations(json.dumps(ledger, ensure_ascii=False), private)
+    if not issues:
+        return
+    documents = []
+    for collection_index, (collection, rows) in enumerate(ledger['collections'].items()):
+        for row_index, (key, value) in enumerate(rows.items()):
+            if not violations(json.dumps({collection: {key: value}}, ensure_ascii=False), private):
+                continue
+            label = f'{collection}/{key}'
+            if violations(label, private):
+                label = f'collection {collection_index + 1}, document {row_index + 1}'
+            documents.append(label)
+    detail = f' (affected documents: {", ".join(documents)})' if documents else ''
+    raise ValueError('Privacy check failed: ' + ', '.join(issues) + detail)
+
+
 def scan(root=ROOT, require_config=False, output=None):
     private = identifiers(required=require_config)
     paths = subprocess.check_output(['git', 'ls-files', '-z', '--cached', '--others', '--exclude-standard'], cwd=root).decode().split('\0')

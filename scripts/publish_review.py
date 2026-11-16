@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.request import urlopen
 
 from database import atomic_json, changes, load
-from privacy import assert_public, identifiers, scan
+from privacy import assert_public, identifiers, scan, validate_public_ledger
 
 REPO = 'hackinzoomer0/administration-ledger'
 LIVE = 'https://hackinzoomer0.github.io/administration-ledger/'
@@ -56,10 +56,10 @@ def check_remote_baseline():
 
 
 def publish(stage, *, message=None):
-    identifiers(required=True)
     stage = Path(stage)
     before = json.loads((stage / 'original.json').read_text())
     after = json.loads((stage / 'ledger-owner-redacted.json').read_text())
+    validate_public_ledger(after)
     edits = [row for row in changes(before, after) if row['collection'] != 'prompts']
     if not edits:
         return {'status': 'unchanged', 'url': LIVE}

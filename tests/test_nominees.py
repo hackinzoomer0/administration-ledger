@@ -467,9 +467,8 @@ class ForecastGuard(unittest.TestCase):
     def test_zero_weight_breakthrough_does_not_fake_a_higher_forecast_ceiling(self):
         game=self.entry['wargame']
         added=copy.deepcopy(game['scenarios'][0]);added['id']='unweighted-breakthrough';added['weight_pct']=0
-        transfer=50-added['shares_pct']['john_mcentee']
-        added['shares_pct']['john_mcentee']=50
-        added['shares_pct']['jd_vance']-=transfer
+        added['shares_pct'] = dict.fromkeys(added['shares_pct'], 0)
+        added['shares_pct'].update(john_mcentee=50, jd_vance=50)
         game['scenarios'].append(added)
         game['case_review']['new_scenarios'][added['id']]='A zero-weight branch retained only as a research question.'
         self.check()

@@ -85,7 +85,7 @@ class DatabaseWorkflow(unittest.TestCase):
             for assessment in snapshot['assessments'].values():
                 assessment['delta_pp'] = 0
             forecast['tracking']['history'].append(snapshot)
-            large_detail = 'AUDIT_ONLY_DETAIL' * 20000
+            large_detail = 'AUDIT_ONLY_DETAIL ' * 20000
             ledger['collections']['runs']['workflow-fixture'] = {'summary': 'Fixture', 'detail': large_detail}
             current = ledger['collections']['assessments']['current']
             current['review'].update(run_id='workflow-fixture', type='daily_review')
@@ -120,7 +120,14 @@ class DatabaseWorkflow(unittest.TestCase):
                 ledger['collections']['runs']['workflow-fixture']['date'] = snapshot['date']
                 ledger['collections']['runs']['workflow-fixture']['research_review'] = research_fixture(original, ledger, 'workflow-fixture')
                 file.write_text(json.dumps(ledger))
-                finish(stage, 'Daily')
+                with patch('privacy.identifiers', return_value=['AUDIT_ONLY_DETAIL']):
+                    with self.assertRaisesRegex(ValueError, 'configured owner identifier.*runs/workflow-fixture') as error:
+                        check(stage, 'Daily')
+                    self.assertNotIn('AUDIT_ONLY_DETAIL', str(error.exception))
+                    publish.assert_not_called()
+                    apply_data.assert_not_called()
+                with patch('privacy.identifiers', return_value=['fixture-private-token']):
+                    finish(stage, 'Daily')
                 publish.assert_called_once()
                 apply_data.assert_called_once()
             report = json.loads((stage / 'changes.json').read_text())

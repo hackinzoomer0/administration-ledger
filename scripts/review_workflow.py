@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 from database import ROOT, apply, atomic_json, changes, fingerprint, load, validate
 from publish_review import publish, check_remote_baseline
+from privacy import validate_public_ledger
 from validate_nominees import validate as validate_nominees
 from validate_assessments import validate_review as validate_assessment_review
 from reader_copy import plan as reader_copy_plan, validate as validate_reader_copy
@@ -72,6 +73,7 @@ def check(stage, section):
     from research_review import validate as validate_research
     from research_tools import receipts
     validate_research(before, after, section, receipts(stage))
+    validate_public_ledger(after)
     if fingerprint(load()) != fingerprint(before):
         raise RuntimeError('Working data changed during review; retry before publishing')
     return before, after
