@@ -38,7 +38,10 @@ class ReviewFollowupTests(unittest.TestCase):
             self.addCleanup(override.stop)
 
     def queue(self):
-        (self.chat / followup.REQUEST).write_text(json.dumps([self.proposal]))
+        self.request_id = 'a' * 32
+        (self.chat / followup.REQUEST).write_text(json.dumps({
+            'id': self.request_id, 'changes': [self.proposal],
+        }))
 
     def test_disjoint_review_edits_are_preserved(self):
         result = followup.amendment(self.current, [self.proposal])
@@ -74,7 +77,7 @@ class ReviewFollowupTests(unittest.TestCase):
             followup.process()
         self.assertEqual(ordered_calls, ['publish', 'apply'])
         apply.assert_called_once_with(self.current, expected, publication=publication)
-        self.assertEqual(followup.read(self.chat / followup.STATUS), publication)
+        self.assertEqual(followup.read(self.chat / followup.STATUS), {**publication, 'id': self.request_id})
 
     def test_failed_deployment_rolls_back_and_preserves_the_draft(self):
         self.queue()

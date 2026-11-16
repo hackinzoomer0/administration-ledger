@@ -89,7 +89,10 @@ def publish_draft(job):
         return publish_draft(job)
 
     before = load()
-    after = amendment(before, read(job / REQUEST))
+    proposal = read(job / REQUEST)
+    if not re.fullmatch(r'[0-9a-f]{32}', proposal['id']):
+        raise ValueError('Follow-up request requires a unique 32-character hexadecimal id')
+    after = amendment(before, proposal['changes'])
     if before == after:
         return {'status': 'already applied'}
     validate(after)
@@ -141,16 +144,18 @@ def process(*, recover=False):
                 # Snapshot the submitted request before publication. The chat keeps its draft.
                 request.replace(active / REQUEST)
             if not (active / 'result.json').exists():
+                request_id = None
                 try:
+                    request_id = read(active / REQUEST).get('id')
                     result = publish_draft(active)
                 except Exception as error:
                     if (active / 'publication.json').exists() or (
                             (active / 'publication-pending.json').exists()
                             and not (active / 'rollback.json').exists()):
-                        atomic_json(directory / STATUS, {'status': 'retrying', 'error': str(error)})
+                        atomic_json(directory / STATUS, {'status': 'retrying', 'id': request_id, 'error': str(error)})
                         raise
                     result = {'status': 'pending correction', 'error': str(error)}
-                atomic_json(active / 'result.json', result)
+                atomic_json(active / 'result.json', {**result, 'id': request_id})
             result = read(active / 'result.json')
             atomic_json(directory / STATUS, result)
             atomic_json(directory / 'ledger-owner-redacted.json', load())
