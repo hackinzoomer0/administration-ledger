@@ -49,6 +49,18 @@ class AuditRegressions(unittest.TestCase):
             assert_public('PrivateExample', ['PrivateExample'])
         self.assertEqual(violations('morningwire@apnews.com', []), [])
 
+    def test_public_shared_name_requires_owner_context(self):
+        legacy = ['Morgan', 'ledgerowner-fixture']
+        self.assertEqual(violations('Representative Morgan Ellis responds to the ground stop', legacy), [])
+        self.assertEqual(violations('The ledger owner is Morgan.', legacy),
+                         ['configured owner identifier'])
+        self.assertEqual(violations('Account ledgerowner-fixture', legacy),
+                         ['configured owner identifier'])
+        explicit = {'exact': ['Morgan Sample'], 'ambiguous_names': ['Morgan']}
+        self.assertEqual(violations('Representative Morgan Ellis responds', explicit), [])
+        self.assertEqual(violations('Contact Morgan Sample', explicit),
+                         ['configured owner identifier'])
+
     def test_partial_application_resumes_and_refuses_unrelated_edits(self):
         before = load(); after = copy.deepcopy(before)
         after['collections']['runs']['recovery-a'] = {'summary': 'A'}

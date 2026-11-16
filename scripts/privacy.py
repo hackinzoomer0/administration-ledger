@@ -21,15 +21,36 @@ def identifiers(required=False):
             raise ValueError('Private publication identifiers are not configured')
         return []
     values = json.loads(raw)
-    if not isinstance(values, list) or not values or any(not isinstance(v, str) or not v.strip() for v in values):
+    groups = values.values() if isinstance(values, dict) else [values]
+    if (isinstance(values, dict) and set(values) != {'exact', 'ambiguous_names'}
+            or any(not isinstance(group, list)
+                   or any(not isinstance(value, str) or not value.strip() for value in group)
+                   for group in groups)
+            or not any(groups)):
         raise ValueError('Invalid private identifier configuration')
     return values
 
 
+def owner_identifiers(private):
+    if isinstance(private, dict):
+        return private['exact'], private['ambiguous_names']
+
+    # Older lists store a title-cased given name alongside distinctive identifiers.
+    names = [value for value in private if value.isalpha() and value.istitle()]
+    return [value for value in private if value not in names], names
+
+
 def violations(text, private=None):
     issues = set()
-    for value in identifiers() if private is None else private:
+    exact, ambiguous_names = owner_identifiers(identifiers() if private is None else private)
+    for value in exact:
         if re.search(r'(?<![\w])' + re.escape(value) + r'(?![\w])', text, re.I):
+            issues.add('configured owner identifier')
+    for name in ambiguous_names:
+        # Link a shared name to the ledger owner before treating it as identifying.
+        owner = r'(?:(?:ledger|repository|project)\s+owner|(?:the|this)\s+owner)'
+        if re.search(r'\b' + owner + r'(?:\s+(?:is|named)|\s*:)\s*["\']?'
+                     + re.escape(name) + r'(?![\w])', text, re.I):
             issues.add('configured owner identifier')
     if re.search(r'(?:/home/|/Users/)[A-Za-z0-9_.-]+' + r'|/tmp/' + 'codex-remote-attachments/', text):
         issues.add('machine-local identifying path')
