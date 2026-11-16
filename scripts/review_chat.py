@@ -108,6 +108,8 @@ def run_chat(connection, stream, stage, section, prompt, usage=None):
     turn = call("turn/start", {
         "threadId": thread_id,
         "cwd": workspace,
+        "approvalPolicy": "never",
+        "sandboxPolicy": {"type": "workspaceWrite", "writableRoots": [workspace]},
         "input": [{"type": "text", "text": prompt, "text_elements": []}],
     }, 4)["turn"]
     while True:
