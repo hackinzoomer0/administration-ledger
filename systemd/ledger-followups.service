@@ -1,0 +1,7 @@
+[Unit]
+Description=Publish queued Administration Ledger follow-ups
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/ledger-review followups
+TimeoutStartSec=15min

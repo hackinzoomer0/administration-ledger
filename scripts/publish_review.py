@@ -55,7 +55,7 @@ def check_remote_baseline():
     return {'status': 'matched', 'commit': commit}
 
 
-def publish(stage):
+def publish(stage, *, message=None):
     identifiers(required=True)
     stage = Path(stage)
     before = json.loads((stage / 'original.json').read_text())
@@ -89,13 +89,37 @@ def publish(stage):
             cadence = 'weekly' if kind == 'weekly_review' else 'daily'
             git('-c', 'user.name=Administration Ledger', '-c',
                 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
-                'commit', '-m', f'Update {cadence} faction and nominee research')
-            atomic_json(stage / 'publication-pending.json', {'commit': git('rev-parse', 'HEAD'), 'database_hash': database_hash(directory), 'url': LIVE})
+                'commit', '-m', message or f'Update {cadence} faction and nominee research')
+            atomic_json(stage / 'publication-pending.json', {'commit': git('rev-parse', 'HEAD'), 'parent': git('rev-parse', 'HEAD^'),
+                                                              'database_hash': database_hash(directory), 'url': LIVE})
             gh = shutil.which('gh') or str(Path.home() / '.local/bin/gh')
             git('-c', 'credential.helper=', '-c', f'credential.helper=!{shlex.quote(gh)} auth git-credential', 'push', 'origin', 'main')
         commit = git('rev-parse', 'HEAD')
         expected = database_hash(directory)
         return wait_for_deployment(stage, commit, expected)
+
+
+def recover_followup_push(stage):
+    """Restore the prior database on main if this unverified draft is still its tip."""
+    stage = Path(stage)
+    pending = json.loads((stage / 'publication-pending.json').read_text())
+    before = json.loads((stage / 'original.json').read_text())
+    with tempfile.TemporaryDirectory(prefix='ledger-followup-recovery-') as directory:
+        def git(*args):
+            return subprocess.check_output(['git', *args], cwd=directory, text=True).strip()
+        git('clone', '--branch=main', f'https://github.com/{REPO}.git', '.')
+        tip = git('rev-parse', 'HEAD')
+        if tip == pending['commit']:
+            git('-c', 'user.name=Administration Ledger', '-c',
+                'user.email=41898282+github-actions[bot]@users.noreply.github.com',
+                'revert', '--no-edit', tip)
+            require_same_state(load(directory), public_value(before), 'Follow-up rollback differs')
+            gh = shutil.which('gh') or str(Path.home() / '.local/bin/gh')
+            git('-c', 'credential.helper=', '-c', f'credential.helper=!{shlex.quote(gh)} auth git-credential',
+                'push', 'origin', 'main')
+        else:
+            require_same_state(load(directory), public_value(before), 'Main advanced after follow-up')
+        atomic_json(stage / 'rollback.json', {'status': 'baseline restored', 'commit': git('rev-parse', 'HEAD')})
 
 
 def deployment_status(commit):

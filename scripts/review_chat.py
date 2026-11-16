@@ -85,9 +85,15 @@ def run_chat(connection, stream, stage, section, prompt, usage=None):
     call("initialize", {"clientInfo": {"name": "ledger-cli", "version": "1.0"}}, 1)
     call("initialized", {})
     metadata = Path(stage) / "chat.json"
+    workspace = stage
     if section == "report":
         thread_id = json.loads(metadata.read_text())["threadId"]
-        call("thread/resume", {"threadId": thread_id, "cwd": stage}, 2)
+        if (Path(stage) / 'application-success.json').is_file():
+            from review_followup import workspace as followup_workspace
+            workspace = str(followup_workspace(Path(stage)))
+            prompt += '\nFor later turns, use this workspace and follow its AGENTS.md. Do not edit the working ledger.\n'
+        call("thread/resume", {"threadId": thread_id, "cwd": workspace,
+                               "sandbox": "workspace-write", "approvalPolicy": "never"}, 2)
     else:
         result = call("thread/start", {
             "cwd": stage,
@@ -101,6 +107,7 @@ def run_chat(connection, stream, stage, section, prompt, usage=None):
         call("thread/name/set", {"threadId": thread_id, "name": f"Ledger {section.lower()} review"}, 3)
     turn = call("turn/start", {
         "threadId": thread_id,
+        "cwd": workspace,
         "input": [{"type": "text", "text": prompt, "text_elements": []}],
     }, 4)["turn"]
     while True:

@@ -1,0 +1,10 @@
+[Unit]
+Description=Check for queued Administration Ledger follow-ups
+
+[Timer]
+OnStartupSec=1min
+OnUnitInactiveSec=1min
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target

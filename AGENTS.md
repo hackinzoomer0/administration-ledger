@@ -9,3 +9,5 @@ Research may be published when authorized, provided it does not personally ident
 Use established Material UI components, React Flow and Recharts before writing custom interaction primitives. Preserve evidence distinctions and label legacy scores. No nominee roster or forecast methodology changes without explicit owner authorization.
 
 Validate changed data, run checks appropriate to source changes, and verify the live revision after an authorized deployment. Respect .runtime/review.lock when editing production data during scheduled work. See docs/architecture.md and docs/operations.md for the review transaction and deployment contract.
+
+For follow-ups in a completed scheduled review chat, draft research corrections in that chat’s private workspace and use its follow-up queue. The review runner validates and applies changes after verified publication. Older chats without an assigned workspace must leave the working database untouched until their workspace is assigned.
