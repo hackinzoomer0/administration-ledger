@@ -2733,6 +2733,51 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The group asked Congress to act. Lawmakers’ response and the status of the licensing decisions remain open."
+    },
+    {
+      "id": "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+      "date": "2026-11-15",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Richard Blumenthal",
+      "text": "Senator Richard Blumenthal asks Pentagon for records on defenses at Kuwait post where six soldiers died",
+      "context": "CBS News obtained Army Major Stephen Ramsbottom’s complaint to the House and Senate Armed Services Committees. Ramsbottom says Army leaders dismissed concerns about defenses at Port Shuaiba before an Iranian drone attack killed six U.S. soldiers on March 1. Blumenthal requested records and a classified briefing on November 15. Hegseth had described the post as fortified. A Pentagon spokesperson declined to address the allegations.",
+      "source": "https://www.cbsnews.com/news/army-whistleblower-military-officials-kuwait-attack-iran-war/",
+      "url": "https://www.cbsnews.com/news/army-whistleblower-military-officials-kuwait-attack-iran-war/",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: The request gives Congress a way to check what defense officials knew before the strike and what they did to protect troops. The complaint leaves Hegseth’s personal role open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-17",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: A senator requested evidence. Production, testimony and a change in congressional support remain open."
+    },
+    {
+      "id": "mid-2026-11-16-scharf-testimony-clearance",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Will Scharf",
+      "text": "White House counsel Will Scharf reportedly requires approval before agency staff agree to testify to Congress",
+      "context": "The Associated Press and Axios reported that White House counsel Will Scharf sent agency lawyers a memo on November 16. A separate account quoting the memo says agencies must obtain approval from the White House counsel and legislative affairs offices before an employee agrees to appear before a congressional committee. Scharf described the process as established.",
+      "source": "https://apnews.com/article/a31165456bf217de16f1c4e646b72bd2",
+      "url": "https://political.org/2026/11/16/white-house-orders-agencies-to-get-its-approval-before-employees-agree-to-testify-to-congress/",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: The White House can coordinate or slow voluntary testimony as Democrats prepare to chair committees. The effect of the instruction on a specific hearing or subpoena remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-17",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The reported instruction addresses clearance for testimony. No specific witness refusal or change in Congress’s formal powers was verified."
     }
   ]
 }

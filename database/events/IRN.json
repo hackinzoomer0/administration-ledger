@@ -3004,6 +3004,52 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Pakistan’s announcement leaves open who will respond for the United States."
+    },
+    {
+      "id": "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+      "date": "2026-11-16",
+      "precision": "day",
+      "issues": [
+        "IRN",
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump disputes CBS report on damage from Iran’s strikes and defends U.S. air defenses",
+      "context": "The Daily Beast reported that President Donald Trump challenged the November 15 CBS broadcast in a public post the following morning. He cited interception and fatality figures while CBS examined damage at military sites and reported a survivor’s account of the deadly March attack in Kuwait.",
+      "source": "https://www.thedailybeast.com/trump-melts-down-over-devastating-60-minutes-revelations",
+      "url": "https://www.thedailybeast.com/trump-melts-down-over-devastating-60-minutes-revelations",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Trump can use his public defense to reassure supporters about U.S. military performance. By answering personally, he also makes his own assessment of the Pentagon’s performance part of the dispute. The breadth of agreement with either account is unknown.",
+      "origin": "daily shared intake",
+      "added": "2026-11-17",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Trump publicly defended U.S. air defenses. The effect on lawmakers and voters remains unclear."
+    },
+    {
+      "id": "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones",
+      "date": "2026-11-15",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Bahrain",
+      "text": "Bahrain says it intercepted Iranian drones after Tehran claimed it targeted U.S. radar",
+      "context": "AFP reported that Iran’s Revolutionary Guards said they targeted a U.S. radar system at Bahrain’s Al-Riffa base on November 15. Bahrain’s military said it intercepted attacks before they reached their targets. Authorities urged residents to take shelter.",
+      "source": "https://www.dawn.com/news/2044789",
+      "url": "https://www.dawn.com/news/2044789",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Renewed attacks give Tehran a way to raise the cost of the war for Gulf partners while mediators seek a U.S. reply. Radar damage and a new U.S. response order remain unverified.",
+      "origin": "daily shared intake",
+      "added": "2026-11-17",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The incident raises risks for bases and Gulf partners. Changes in U.S. decision authority or policy remain open."
     }
   ]
 }

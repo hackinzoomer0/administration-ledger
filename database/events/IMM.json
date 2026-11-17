@@ -2125,6 +2125,28 @@
       ],
       "fx": {},
       "fxnote": "No fx: the specific action is recorded without inferring an unverified policy result or transfer of supporters."
+    },
+    {
+      "id": "imm-2026-11-13-supreme-court-takes-up-border-asylum-ban",
+      "date": "2026-11-13",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "U.S. Supreme Court",
+      "text": "Supreme Court agrees to hear Trump’s case for suspending asylum access at the southern border",
+      "context": "The Supreme Court’s docket shows that the justices agreed to hear the challenge over Trump’s directive suspending access to asylum and other protections for people crossing the southern border outside authorized channels. A lower court had found that immigration law did not allow the administration to replace the process Congress enacted. CBS News reported that the appeals court paused its ruling while the justices review the dispute, and the administration has continued to enforce the restrictions.",
+      "source": "https://www.supremecourt.gov/search.aspx?filename=%2Fdocket%2Fdocketfiles%2Fhtml%2Fpublic%2F26-239.html",
+      "url": "https://www.cbsnews.com/news/supreme-court-trump-asylum-u-s-mexico-border/",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The justices will decide how far presidential entry powers allow the administration to restrict access to a process created by Congress. The grant of review leaves the ultimate ruling open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-17",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The justices agreed to hear the dispute. The lower court’s ruling remains on hold."
     }
   ]
 }

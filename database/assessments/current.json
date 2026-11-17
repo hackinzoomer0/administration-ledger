@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-16",
-  "last_substantive_change": "2026-11-16",
+  "research_as_of": "2026-11-17",
+  "last_substantive_change": "2026-11-17",
   "review": {
-    "date": "2026-11-16",
-    "run_id": "2026-11-16-weekly",
-    "type": "weekly_review",
-    "scope": "Weekly review of Republican campaign preparation, congressional oversight, the air traffic shutdown and Venezuelan election negotiations. Full filings, court orders and election results remain incompletely checked."
+    "date": "2026-11-17",
+    "run_id": "2026-11-17",
+    "type": "daily_review",
+    "scope": "Focused review of troop protection and the response to CBS, Iran diplomacy and military operations, congressional proceedings, election and party leadership, asylum litigation and chip rules. Venezuela’s closing agreement, the Russia–Ukraine prisoner handover and several court and government decisions remain unverified."
   },
   "administration": {
-    "headline": "Trump’s choice to lead the Republican Party faces a challenge after the midterms",
-    "summary": "Democrats are projected to control both chambers of Congress in January. After the defeats, Republican National Committee deputy KC Crosbie challenged party chair Joe Gruters and called for a review of what went wrong. Gruters defended his spending to committee members, and President Donald Trump backed him. The committee’s January vote will test whether Trump can keep his choice in charge of national party fundraising and campaign operations. In Congress, Democratic investigators face White House and Justice Department pressure as they prepare to lead committees. Axios reported that U.S. attorney Aaron Reitz asked Senator Elizabeth Warren to preserve records concerning her inquiries. The House sent Defense Secretary Pete Hegseth’s impeachment resolution to the Judiciary Committee. Pakistan says it is awaiting a U.S. reply to Iran’s proposals. Commerce released rules for licensing some remote uses of advanced U.S. chips. Senator Maria Cantwell asked Commerce Secretary Howard Lutnick to stop advanced chip diversion to China. House Democrats are weighing action on Health Secretary Robert F. Kennedy Jr. as senators seek records on his testimony and gifts. After the Federal Aviation Administration halted departures nationwide, Representative Rick Larsen said he would revive committee investigators to scrutinize the agency’s modernization program. Further reporting is needed on Alaska’s final results, the immigration and tariff court cases, and Venezuela’s election timetable.",
+    "headline": "Senator Richard Blumenthal asks Pete Hegseth how the Pentagon protected troops at a Kuwait post",
+    "summary": "Democrats are projected to control both chambers of Congress in January. Senator Richard Blumenthal asked Defense Secretary Pete Hegseth for a classified briefing and records on defenses at the Kuwait post where six U.S. soldiers died. A survivor says Army leaders dismissed warnings. Trump disputed CBS coverage and defended the military. His response ties his own credibility to the Pentagon’s account of how well it protected troops. The House previously sent a separate bid to impeach Hegseth to committee. White House counsel Will Scharf also reportedly instructed agencies to obtain White House approval before employees agree to testify in Congress. That gives Trump’s staff a way to delay or shape voluntary testimony. Abroad, Bahrain said it intercepted Iranian drones and Pakistan’s foreign minister says he is waiting for a U.S. reply to Iranian proposals. At home, the Supreme Court agreed to hear Trump’s asylum case and the Federal Register scheduled publication of Commerce’s chip licensing rule. Republican National Committee members will decide in January whether to retain Trump-backed chair Joe Gruters or elect his deputy, KC Crosbie. Alaska’s final tabulation, Venezuela’s election talks and several court and oversight outcomes still need follow-up.",
     "contests": [
       {
         "id": "white-house-access",
@@ -42,16 +42,16 @@
         "issue_id": "IRN",
         "title": "Trump redirects Vance from Iran talks and says the United States does not need a deal",
         "status": "contested",
-        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure.",
+        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. The attacks add pressure to protect bases and keep Gulf partners engaged while the United States weighs its reply.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Pakistan’s foreign minister Ishaq Dar said on November 16 that his government would continue mediating and was waiting for a U.S. response. His remarks show a route for exchanging proposals after Trump redirected Vance.",
+        "change": "Bahrain’s November 15 account shows renewed threats to military facilities in the Gulf. CBS also reported that a U.S. military official confirmed a third carrier in the region during a rotation.",
         "basis": {
           "actions": "Trump redirected Vance publicly on November 12. Qatar had previously sought terms, and Axios reported Rubio’s account of sustained pressure to allies.",
           "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Check who conducts the next contact with Qatar or Iran, whether Trump authorizes new operations, and what Vance is asked to do domestically.",
+        "watch": "Check for a U.S. reply to the mediators, any order changing operations, and confirmation of damage or interceptions after the latest reported attack.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review",
@@ -60,7 +60,8 @@
           "irn-2026-11-10-rubio-economic-pressure",
           "irn-2026-11-12-trump-redirects-vance",
           "suc-2026-11-12-kennedy-challenges-vance-war-blame",
-          "irn-2026-11-16-pakistan-awaits-us-iran-reply"
+          "irn-2026-11-16-pakistan-awaits-us-iran-reply",
+          "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones"
         ],
         "faction_ids": [
           "vance",
@@ -68,8 +69,8 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-16",
-        "summary": "Trump redirected Vice President JD Vance toward domestic issues. Pakistan’s foreign minister says he is awaiting a U.S. response to Iranian proposals, leaving open who will answer for Washington."
+        "reviewed_at": "2026-11-17",
+        "summary": "Bahrain says it intercepted Iranian drones while Pakistan says it awaits a U.S. reply. President Trump had assigned Vice President JD Vance to work on domestic issues."
       },
       {
         "id": "succession-control",
@@ -134,17 +135,17 @@
         "issue_id": "MID",
         "title": "Congress presses for Epstein records as the White House challenges planned investigations",
         "status": "contested",
-        "summary": "Massie’s petition gives House members a way to seek a vote on access to Epstein records. White House counsel warned Representative Robert Garcia over planned investigations. Garcia pledged to proceed.",
-        "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first.",
+        "summary": "Massie’s petition gives House members a way to seek a vote on access to Epstein records. White House counsel warned Representative Robert Garcia over planned investigations. Garcia pledged to proceed. A reported White House memo puts decisions about voluntary testimony before two White House offices.",
+        "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first. The clearance requirement could delay voluntary appearances. Its effect on a subpoena or a specific witness remains open.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
-        "change": "U.S. attorney Aaron Reitz extended his requests to Senator Elizabeth Warren after asking Senator Richard Blumenthal to preserve records. Warren’s inquiries include how tech companies benefit from tax breaks for AI investments. Blumenthal had asked Reitz for his own records. A reply to Blumenthal or a decision to pursue charges remains unverified.",
+        "change": "News outlets reported that White House counsel Will Scharf told agencies to obtain clearance from his office and the White House legislative affairs office before an employee agrees to testify to Congress.",
         "basis": {
           "actions": "The House clerk recorded 218 signatures. The Associated Press reported the White House warning and Garcia’s public reply.",
           "positions": "The White House defended its prior release of records. Garcia says Congress will exercise its oversight authority.",
           "money": "The White House warning and the petition do not establish that a financial relationship drove a particular records decision."
         },
-        "watch": "Check for a floor motion, the actual roll call and how Blanche responds to a specific request from a committee or court.",
+        "watch": "Check for a floor motion, the actual roll call and how Blanche responds to a specific request from a committee or court. Check whether an agency delays, limits or declines an appearance after seeking White House clearance.",
         "event_ids": [
           "mid-2026-11-06-doj-departures",
           "mid-2026-11-08-blanche-oversight-defense",
@@ -153,47 +154,50 @@
           "eps-2026-11-11-massie-epstein-petition-threshold",
           "mid-2026-11-11-white-house-oversight-warning",
           "mid-2026-11-11-blumenthal-reitz-preservation",
-          "mid-2026-11-16-reitz-warren-preservation"
+          "mid-2026-11-16-reitz-warren-preservation",
+          "mid-2026-11-16-scharf-testimony-clearance"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-16"
+        "reviewed_at": "2026-11-17"
       },
       {
         "id": "hegseth-house-referral",
         "issue_id": "MID",
         "title": "House sends the bid to impeach Defense Secretary Pete Hegseth to committee",
         "status": "contested",
-        "summary": "The House voted 211–204 to send Representative Thomas Massie’s resolution to the Judiciary Committee. Defense Secretary Pete Hegseth remains in office.",
-        "assessment": "The vote showed that nearly all Republicans who voted favored keeping the articles off the floor at this stage. Democrats are projected to control the House in January and could revisit the allegations.",
+        "summary": "The House sent the impeachment resolution to the House Judiciary Committee. Senator Richard Blumenthal separately requested a briefing and records on defenses at a Kuwait post where six soldiers died.",
+        "assessment": "Lawmakers can ask who received warnings about defenses at Port Shuaiba and who could have acted on them. Hegseth had called the post fortified. Trump’s defense of the military gives congressional investigators a second public account to test against the records.",
         "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
         "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
-        "change": "Axios reported that Representative Delia Ramirez and Representative-elect Melat Kiros publicly questioned Democratic leadership’s performance after floor setbacks that included the Hegseth referral. Axios also attributed criticism to unnamed Democrats. Minority Leader Hakeem Jeffries pointed to a veterans bill his party brought to a successful vote through a discharge petition.",
+        "change": "An Army whistleblower complained to both armed services committees. Blumenthal requested military records and a classified briefing. Trump defended the military publicly.",
         "basis": {
-          "actions": "The House voted 211–204 to send the resolution to committee.",
+          "actions": "The House voted 211–204 to send the resolution to committee. Blumenthal requested troop-protection records after CBS obtained the whistleblower complaint.",
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
           "money": "The available evidence establishes how members voted."
         },
-        "watch": "Watch for Judiciary Committee action and whether incoming House leaders schedule another vote. Check whether senators publicly commit to a position on specific articles.",
+        "watch": "Check whether the Pentagon supplies records or briefs senators, and whether House Judiciary schedules action on the separate impeachment articles.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
           "mid-2026-11-10-republican-leadership-results",
-          "mid-2026-11-13-democrats-criticize-floor-preparation"
+          "mid-2026-11-13-democrats-criticize-floor-preparation",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-13"
+        "reviewed_at": "2026-11-17"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vice President JD Vance leads the Republican nomination forecast. Reuters reported that Texas Senator Ted Cruz has started preparing for a 2028 run, giving him time to recruit while Vance and Florida Governor Ron DeSantis weigh when to decide. Their prospects depend in part on whether Republican voters want a change in the approach to the Iran war and rising household costs.",
-    "snapshot_id": "2026-11-16-weekly",
+    "summary": "Vice President JD Vance leads the Republican nomination forecast. Reuters reported that Texas Senator Ted Cruz has started preparing for a 2028 run, giving him time to recruit while Vance and Florida Governor Ron DeSantis weigh when to decide. Their prospects depend in part on whether Republican voters want a change in the approach to the Iran war and rising household costs. The November 16 estimates carry forward. The dispute over troop protection puts new pressure on candidates who defend the administration’s handling of the war and gives its critics a specific subject to raise.",
+    "snapshot_id": "2026-11-17-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -201,7 +205,7 @@
         "path": "Axios reports that Vance may wait until spring to declare. His advisers can still recruit quietly, but Cruz can offer early-state activists work sooner.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "Vance can use a domestic assignment to speak to Republican voters about crime and government conduct if he is given a role with visible results.",
-        "vulnerability": "Waiting gives Cruz time to recruit. Vance can limit that cost if his advisers keep donors and organizers on board while he weighs how to handle his relationship with Trump.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Vance can limit that cost by retaining donors and organizers. Trump has redirected him to domestic work, reducing his ability to deliver an Iran agreement. If Vance takes up the complaint about defenses in Kuwait, he may have to challenge Trump’s public defense of the Pentagon.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -215,7 +219,9 @@
           "suc-2026-11-12-kennedy-challenges-vance-war-blame",
           "suc-2026-11-15-vance-2028-timing-report",
           "mid-2026-11-15-gruters-defends-rnc-spending",
-          "suc-2026-11-16-cruz-prepares-presidential-run"
+          "suc-2026-11-16-cruz-prepares-presidential-run",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -233,9 +239,11 @@
           "daily_kennedy_20261113",
           "daily_20261116_vance",
           "daily_20261116_rnc",
-          "weekly-20261116-poll"
+          "weekly-20261116-poll",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs"
         ],
-        "reviewed_at": "2026-11-16"
+        "reviewed_at": "2026-11-17"
       },
       {
         "candidate_id": "marco_rubio",
@@ -243,7 +251,7 @@
         "path": "Reuters found several donors who want Rubio in the race. He would need to enter, recruit a team and explain the decisions he made as secretary of state.",
         "coalition": "Some Republican donors want Rubio to run. Robert Bigelow also likes Vance, and Cruz can ask overlapping donors to back a campaign that starts sooner.",
         "advantage": "Secretary of State Marco Rubio defended the original decision to fight Iran and reportedly argued for continued pressure. Trump’s move away from Vance’s talks gives Rubio more room to make that case, with the next negotiating or military decisions still open.",
-        "vulnerability": "Donor interest overlaps with Vance and Cruz, and it could stay a preference without money or staff.",
+        "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
@@ -255,7 +263,9 @@
           "ai-2026-11-11-lutnick-nvidia-export-delay-report",
           "irn-2026-11-12-trump-redirects-vance",
           "suc-2026-11-15-vance-2028-timing-report",
-          "suc-2026-11-16-cruz-prepares-presidential-run"
+          "suc-2026-11-16-cruz-prepares-presidential-run",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -273,9 +283,11 @@
           "daily_rubio_20261113",
           "daily_20261116_vance",
           "weekly-20261116-reuters",
-          "weekly-20261116-poll"
+          "weekly-20261116-poll",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs"
         ],
-        "reviewed_at": "2026-11-16"
+        "reviewed_at": "2026-11-17"
       },
       {
         "candidate_id": "ron_desantis",
@@ -368,7 +380,7 @@
         "person_id": "paul",
         "path": "Paul has said he is considering a run. He can ask old campaign contacts and antiwar activists to organize around Congress’s authority over military action.",
         "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors. A third-party effort could compete for some antiwar organizers; Paul would still have to persuade them to join his Republican campaign.",
-        "advantage": "Paul can criticize the administration’s use of military power and still work with Senate Republicans. He publicly rejected blaming John Thune for state-level election results after Republicans lost the Senate majority.",
+        "advantage": "Paul can criticize the administration’s use of military power and still work with Senate Republicans. He publicly rejected blaming John Thune for state-level election results after Republicans lost the Senate majority. The complaint about defenses in Kuwait gives Paul a specific example to raise when arguing for military oversight. Voter response remains unknown.",
         "vulnerability": "Republicans who want the war ended could credit an official who delivers a deal or stay with Trump while urging a policy change.",
         "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
         "money": "Paul has historical links to the Protect Freedom political group and donor Jeff Yass. Those connections do not establish a confirmed financial commitment to a 2028 presidential bid.",
@@ -380,13 +392,17 @@
           "weekly_2015_debate",
           "weekly_massie_route",
           "daily_thune_paul_20261111",
-          "weekly-20261116-paul"
+          "weekly-20261116-paul",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
-          "mid-2026-11-10-republican-leadership-results"
+          "mid-2026-11-10-republican-leadership-results",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
         ],
-        "reviewed_at": "2026-11-16"
+        "reviewed_at": "2026-11-17"
       },
       {
         "candidate_id": "brian_kemp",
@@ -414,7 +430,7 @@
         "person_id": "massie",
         "path": "Massie can point to forcing a vote on the Hegseth resolution. Libertarian recruiters offer a separate party route, and he has not committed to it.",
         "coalition": "Massie could recruit Republicans who value his challenges to presidential war-making and his oversight efforts. Past House-race fundraising shows some willingness to act, but Paul competes for overlapping supporters and Massie has not settled on a Republican presidential campaign. An external recruiting effort may draw organizers away from a Republican bid, but his choice and his supporters’ choices remain open.",
-        "advantage": "Massie secured enough signatures to seek a House vote on a second Epstein records bill. The petition gives him a concrete example of working with Democrats on disclosure while opposing the Trump administration on other issues.",
+        "advantage": "Massie secured enough signatures to seek a House vote on a second Epstein records bill. The petition gives him a concrete example of working with Democrats on disclosure while opposing the Trump administration on other issues. After Massie forced a vote on Hegseth’s impeachment resolution, the Kuwait complaint gave lawmakers a separate reason to request military records. His ability to turn congressional visibility into Republican campaign organization remains uncertain.",
         "vulnerability": "Coverage of a congressional vote or outside draft can raise his visibility without yielding Republican delegates.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
@@ -430,15 +446,19 @@
           "daily_hegseth_referral_20261111",
           "daily_massie_petition_20261112",
           "daily_massie_axios_20261112",
-          "weekly-20261116-massie"
+          "weekly-20261116-massie",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
           "mid-2026-11-09-massie-hegseth-floor-action",
           "mid-2026-11-10-hegseth-judiciary-referral",
-          "eps-2026-11-11-massie-epstein-petition-threshold"
+          "eps-2026-11-11-massie-epstein-petition-threshold",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
         ],
-        "reviewed_at": "2026-11-16"
+        "reviewed_at": "2026-11-17"
       }
     ],
     "scenario_labels": {

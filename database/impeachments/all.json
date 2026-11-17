@@ -314,6 +314,38 @@
       "accessed_on": "2026-11-16",
       "limitation": "Title correction naming both committee leaders. The original statement, date and URL are the same.",
       "supersedes": "weekly-20261116-faa"
+    },
+    {
+      "id": "daily-20261117-kuwait-complaint",
+      "title": "Army whistleblower complaint and Senator Blumenthal’s request",
+      "url": "https://www.cbsnews.com/news/army-whistleblower-military-officials-kuwait-attack-iran-war/",
+      "publication_date": "2026-11-15",
+      "accessed_on": "2026-11-17",
+      "limitation": "CBS reviewed the complaint. The allegations remain unresolved."
+    },
+    {
+      "id": "daily-20261117-trump-cbs",
+      "title": "Trump’s public response to reporting on the Iran war",
+      "url": "https://www.thedailybeast.com/trump-melts-down-over-devastating-60-minutes-revelations",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-17",
+      "limitation": "Reports Trump’s public account. His figures do not independently establish results at the individual sites."
+    },
+    {
+      "id": "daily-20261117-lynch-search",
+      "title": "House Oversight Democrats’ records request to Drew Lynch",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-from-kimberly-guilfoyles-staffer-in-pay-to-play-scheme",
+      "publication_date": "2026-10-30",
+      "accessed_on": "2026-11-17",
+      "limitation": "The committee announcement describes its request. Follow-up searches found no public disclosure of Lynch’s response. Private production remains unresolved."
+    },
+    {
+      "id": "daily-20261117-scharf-memo",
+      "title": "Reports on White House approval for agency testimony to Congress",
+      "url": "https://political.org/2026/11/16/white-house-orders-agencies-to-get-its-approval-before-employees-agree-to-testify-to-congress/",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-17",
+      "limitation": "Reporting describes and quotes the memo. We have no verified example of an agency declining a specific appearance under the instruction."
     }
   ],
   "cases": [
@@ -325,19 +357,23 @@
       "eligibility": "eligible",
       "tenure": "in_office",
       "title": "War powers and alleged operational abuses",
-      "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence.",
-      "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition.",
+      "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence. An Army whistleblower separately alleges that military leaders dismissed concerns about defenses at a Kuwait command post before a fatal strike. Hegseth’s personal involvement remains unestablished.",
+      "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition. Hegseth described the site as fortified. Trump publicly defended U.S. interception performance after the CBS report.",
       "source_ids": [
         "massie",
         "rollcall",
         "hegseth-house-roll-317",
-        "hegseth-white-house-opposition"
+        "hegseth-white-house-opposition",
+        "daily-20261117-kuwait-complaint",
+        "daily-20261117-trump-cbs"
       ],
       "event_ids": [
         "mid-2026-11-09-massie-hegseth-floor-action",
-        "mid-2026-11-10-hegseth-judiciary-referral"
+        "mid-2026-11-10-hegseth-judiciary-referral",
+        "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+        "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
       ],
-      "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles."
+      "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles. Check whether the Pentagon provides records or briefs senators on defenses at Port Shuaiba."
     },
     {
       "id": "noem",
@@ -2983,6 +3019,385 @@
           }
         }
       }
+    },
+    {
+      "id": "2026-11-17",
+      "as_of": "2026-11-17T13:08:48.337895+00:00",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-17",
+      "type": "daily",
+      "summary": "The House referral stands. An Army whistleblower raised separate questions about troop protection before the deadly strike in Kuwait. Senator Richard Blumenthal requested records and a briefing. Trump defended the military publicly. All four numerical estimates hold.",
+      "coverage": "Reviewed all nine cases using shared intake. Searches concentrated on Hegseth, Guilfoyle, Kennedy, Lutnick and the Justice Department. The other cases were reassessed against the available evidence on congressional action. Individual votes to convict and private production of records remain unverified. The reported testimony memo was considered for each case. Its implementation remains open.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The available record shows separate inquiries and no Senate conviction in the cases reviewed. A bipartisan vote to convict could make later witnesses more willing to testify. Senators could also confine their support to one case or face pressure from voters who defend the official. The reported White House clearance requirement could slow voluntary testimony across cases. No specific refusal or change in support for conviction was established.",
+        "observation_ids": [],
+        "source_ids": [
+          "hegseth-house-roll-317",
+          "daily-house-attendance",
+          "daily-white-house-warning",
+          "daily-colom-call",
+          "daily-20261113-house",
+          "daily-20261113-doj",
+          "daily-20261116-house",
+          "daily-20261116-warren",
+          "weekly-20261116-kennedy",
+          "weekly-20261116-cantwell",
+          "weekly-20261116-rsf",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs",
+          "daily-20261117-scharf-memo"
+        ],
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "mid-2026-11-11-white-house-oversight-warning",
+          "mid-2026-11-11-colom-mississippi-senate-call",
+          "mid-2026-11-13-democrats-criticize-floor-preparation",
+          "mid-2026-11-11-blumenthal-reitz-preservation",
+          "mid-2026-11-16-reitz-warren-preservation",
+          "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment",
+          "ai-2026-11-16-cantwell-demands-chip-enforcement",
+          "mid-2026-11-11-rsf-urges-carr-impeachment",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "mid-2026-11-16-scharf-testimony-clearance"
+        ],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A Senate conviction could make it easier to pursue another case",
+            "assessment": "A bipartisan conviction could encourage lawmakers and witnesses in later cases. So far, the House has referred Hegseth’s resolution to committee and senators have asked for records. Those steps show how Congress can take up complaints before senators decide whether to convict."
+          },
+          {
+            "id": "exception",
+            "title": "Senators could limit their support to one unusual case",
+            "assessment": "The strongest explanation is that Congress is using different tools for different cases. Hegseth faces war-powers articles, Kennedy faces questions about testimony and gifts, and Lutnick faces questions about chip export enforcement. Each would require its own evidence and votes."
+          },
+          {
+            "id": "backlash",
+            "title": "Voter backlash could discourage another impeachment",
+            "assessment": "An ally of Health Secretary Robert F. Kennedy Jr. warned of a backlash among his supporters. Trump’s defense of military performance shows how the White House can answer criticism of Hegseth. The response from voters and senators remains unclear."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 50,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 12.5,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The Kuwait complaint gives Congress a separate reason to scrutinize Pentagon leaders. The House previously referred the impeachment articles to committee. Jeffries’s stated support keeps a later House vote plausible, while Hegseth’s individual role and Senate support remain open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The Kuwait complaint gives Congress a separate reason to scrutinize Pentagon leaders. The House previously referred the impeachment articles to committee. Jeffries’s stated support keeps a later House vote plausible, while Hegseth’s individual role and Senate support remain open. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence. An Army whistleblower separately alleges that military leaders dismissed concerns about defenses at a Kuwait command post before a fatal strike. Hegseth’s personal involvement remains unestablished.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition. Hegseth described the site as fortified. Trump publicly defended U.S. interception performance after the CBS report.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall",
+              "hegseth-house-roll-317",
+              "hegseth-white-house-opposition",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action",
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+            ],
+            "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles. Check whether the Pentagon provides records or briefs senators on defenses at Port Shuaiba."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": [
+              "hegseth-referral-2026-11-10"
+            ]
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "The Kuwait records request offers little direct leverage over a former homeland security secretary. Contract evidence and willingness to pursue a former official still govern this case.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The Kuwait records request offers little direct leverage over a former homeland security secretary. Contract evidence and willingness to pursue a former official still govern this case. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Filed articles against former Homeland Security Secretary Kristi Noem allege self-dealing. A separate congressional referral alleges false testimony. Both allegations remain disputed.",
+            "defense": "Noem defended the contracting process and said Trump approved it. Conflicting accounts leave her intent and any personal benefit unresolved.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters"
+            ],
+            "event_ids": [],
+            "watch": "Check contract records, any findings about her role and whether lawmakers would proceed after her departure."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The deadline passed and Drew Lynch’s response remains unknown. The Kuwait inquiry leaves open whether the former ambassador sought money in exchange for access and whether lawmakers would act after she left office.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The deadline passed and Drew Lynch’s response remains unknown. The Kuwait inquiry leaves open whether the former ambassador sought money in exchange for access and whether lawmakers would act after she left office. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrats are investigating whether former ambassador Kimberly Guilfoyle sought money from a donor in exchange for access to senior administration officials. The allegation is disputed.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso",
+              "daily-20261113-guilfoyle",
+              "daily-20261116-lynch"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns"
+            ],
+            "watch": "Fee agreements, payment and communication records, in-office conduct and continued congressional action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "Senators are seeking records in another department. This gives little evidence about whether Attorney General Todd Blanche directed pressure on congressional investigators or whether House leaders will pursue articles.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Senators are seeking records in another department. This gives little evidence about whether Attorney General Todd Blanche directed pressure on congressional investigators or whether House leaders will pursue articles. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "House members have expressed support for impeaching Attorney General Todd Blanche. The current oversight dispute leaves open whether he personally directed the prosecutor’s warning.",
+            "defense": "Lawyers can act on behalf of the government and dispute Congress’s legal arguments. Evidence that Blanche misused his authority would require a specific act and its circumstances.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support",
+              "oversight-epstein-majority",
+              "daily-white-house-warning",
+              "daily-20261113-doj",
+              "daily-20261116-warren"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense",
+              "eps-2026-11-10-oversight-majority-report",
+              "mid-2026-11-11-white-house-oversight-warning",
+              "mid-2026-11-11-blumenthal-reitz-preservation",
+              "mid-2026-11-16-reitz-warren-preservation"
+            ],
+            "watch": "Check for records of Blanche’s own decisions, court findings and lawmakers’ commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Congress’s scrutiny of troop protection leaves open what Susie Wiles did in any disputed White House decision and whether her former chief-of-staff position is subject to impeachment.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Congress’s scrutiny of troop protection leaves open what Susie Wiles did in any disputed White House decision and whether her former chief-of-staff position is subject to impeachment. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Insider accusations and access relationships warrant tracing particular communications, decisions and benefits.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means"
+            ],
+            "event_ids": [],
+            "watch": "Specific personal acts, contrary evidence, congressional action and civil-officer eligibility."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The military complaint gives lawmakers a way to seek defense records. The FBI case would require evidence of Patel’s own conduct and a decision by lawmakers to act.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The military complaint gives lawmakers a way to seek defense records. The FBI case would require evidence of Patel’s own conduct and a decision by lawmakers to act. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Tracked for oversight of specific FBI actions; no comparable full case forecast has been completed.",
+            "defense": "Criticism, requests for investigation and association with another case do not establish personal impeachable conduct.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific alleged acts, defenses, findings and congressional commitments."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The inquiries into Kennedy’s testimony and gifts have their own witnesses. A Kennedy ally has warned lawmakers they risk losing support by pursuing him. House scheduling and Senate support remain open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The inquiries into Kennedy’s testimony and gifts have their own witnesses. A Kennedy ally has warned lawmakers they risk losing support by pursuing him. House scheduling and Senate support remain open. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Representative Haley Stevens introduced articles in December 2025. Senators are now examining Kennedy’s testimony about Samoa and gifts from a donor.",
+            "defense": "The inquiries raise distinct factual questions about testimony and gifts. AP reports that the leader of an allied health-policy group warned that pursuing Kennedy could alienate its supporters.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [
+              "weekly-20261116-kennedy",
+              "weekly-20261116-samoa",
+              "weekly-20261116-gifts",
+              "weekly-20261116-stevens"
+            ],
+            "event_ids": [
+              "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+            ],
+            "watch": "Watch for records, Kennedy’s replies and whether House leaders schedule articles or choose hearings first."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The chip licensing rule gives Commerce a tool to control remote access. It leaves responsibility for specific enforcement delays unresolved. The Kuwait complaint supplies no such evidence.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The chip licensing rule gives Commerce a tool to control remote access. It leaves responsibility for specific enforcement delays unresolved. The Kuwait complaint supplies no such evidence. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Cantwell asked Lutnick to stop chip diversion to firms tied to China. The Wall Street Journal reported that some Trump advisers were shifting blame for the Nvidia controversy toward Lutnick.",
+            "defense": "The public letter establishes scrutiny. Licensing records and Lutnick’s response are needed to assess his individual responsibility, and reports described pressure on his job.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [
+              "weekly-20261116-cantwell",
+              "weekly-20261116-lutnick"
+            ],
+            "event_ids": [
+              "ai-2026-11-16-cantwell-demands-chip-enforcement"
+            ],
+            "watch": "Watch for Commerce’s reply, licensing records, a hearing date and formal personnel action."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "A separate drive to release Epstein records gives lawmakers a route to obtain evidence. The Hegseth referral leaves both evidence about Bondi and Senate willingness to try a former official open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A separate drive to release Epstein records gives lawmakers a route to obtain evidence. The Hegseth referral leaves both evidence about Bondi and Senate willingness to try a former official open. The reported testimony rule could delay access to agency staff. No witness in this case was verified as having declined testimony under the rule."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Senators have disputed when they can try a former official. Evidence and congressional support specific to Bondi remain uncertain.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [
+              "oversight-epstein-majority"
+            ],
+            "event_ids": [
+              "eps-2026-11-10-oversight-majority-report"
+            ],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
     }
   ],
   "tests": [
@@ -3007,11 +3422,12 @@
       "resolve_by": "2026-11-14",
       "claim": "Check responses to the November 13 records deadline; record missing or inaccessible material honestly.",
       "status": "unresolved",
-      "resolution": "Garcia’s letter establishes the November 13 deadline. Post-deadline search did not surface a response from Lynch or the committee. Private production remains unresolved.",
+      "resolution": "Garcia’s November 13 deadline passed. Follow-up searches found the request and no public account of production from Lynch or the committee. Private production remains unresolved.",
       "source_ids": [
         "guilfoyle-letter",
         "daily-20261113-guilfoyle",
-        "daily-20261116-lynch"
+        "daily-20261116-lynch",
+        "daily-20261117-lynch-search"
       ],
       "event_ids": []
     },

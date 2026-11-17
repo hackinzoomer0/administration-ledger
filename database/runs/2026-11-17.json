@@ -1,0 +1,1843 @@
+{
+  "date": "2026-11-17",
+  "type": "daily_review",
+  "added": 5,
+  "summary": "Blumenthal’s request and Trump’s public response put responsibility for troop protection in view. Bahrain reported intercepting Iranian drones, the Supreme Court took up the asylum case and the chip rule has an expected publication date. This focused review leaves the November 17 Bahrain episode, Alaska’s final tabulation, the Venezuela talks and prisoner handovers open. The White House reportedly asserted control over whether staff agree to testify before Congress. Application to a named witness remains open.",
+  "scope": "Focused review of troop protection and the response to CBS, Iran diplomacy and military operations, congressional proceedings, election and party leadership, asylum litigation and chip rules. Venezuela’s closing agreement, the Russia–Ukraine prisoner handover and several court and government decisions remain unverified.",
+  "reviewed_episode_ids": [
+    "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+    "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+    "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones",
+    "imm-2026-11-13-supreme-court-takes-up-border-asylum-ban",
+    "ai-2026-11-15-commerce-remote-chip-rule",
+    "mid-2026-11-10-hegseth-judiciary-referral",
+    "mid-2026-11-16-scharf-testimony-clearance",
+    "mid-2026-11-10-republican-leadership-results"
+  ],
+  "changed_entries": [
+    "assessments/current",
+    "assessments/issues",
+    "events/AI",
+    "events/IMM",
+    "events/IRN",
+    "events/MID",
+    "impeachments/all",
+    "nominations/republican_2028",
+    "factions/pentagon"
+  ],
+  "unresolved_claims": [
+    "Whether Drew Lynch supplied records privately and whether any Senate coalition would vote to convict.",
+    "Latest Bahrain strike result and any new U.S. order",
+    "Venezuela negotiations and Russia–Ukraine prisoner transfers",
+    "Alaska’s final count, later immigration and tariff court orders, a White House hearing for Federal Reserve Governor Lisa Cook, and construction at Big Bend.",
+    "The effect of the White House testimony instruction on specific witnesses and the details of proposed House Republican conference rules."
+  ],
+  "evidence_needed": [
+    "Pentagon records and committee schedules",
+    "Alaska tabulation and leadership votes",
+    "Operative court orders and official negotiation outcomes"
+  ],
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "troop-protection",
+        "question": "Does the Kuwait complaint change who can demand accountability?",
+        "importance": "The answer affects which officials, lawmakers or organizers can act next.",
+        "affected_assessments": [
+          "impeachments/all",
+          "assessments/current/administration"
+        ],
+        "current_answer": "Blumenthal requested records and a briefing. Trump disputed the reporting. No new evidence verified a decision by Hegseth personally or a change in congressional votes.",
+        "explanations": [
+          {
+            "explanation": "The complaint creates a concrete line of oversight",
+            "weight": "dominant",
+            "reason": "A named survivor gave his account and a senator requested records.",
+            "discriminating_observation": "Production of the assessments and testimony about who received warnings."
+          },
+          {
+            "explanation": "Trump’s public defense may rally supporters behind the Pentagon",
+            "weight": "credible",
+            "reason": "He answered promptly and emphasized intercepts. The available record gives little evidence of audience agreement.",
+            "discriminating_observation": "Public defenses by legislators or responses from Republican primary organizers."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Pentagon produces records or briefs lawmakers",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "A senator has identified the evidence to request and incoming committees may press for it.",
+            "assessment_effect": "Check defenses at the post and who authorized them."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Blumenthal requested records and a briefing. Trump disputed the reporting. No new evidence verified a decision by Hegseth personally or a change in congressional votes.",
+        "next_action": "Check defenses at the post and who authorized them.",
+        "next_check": "2026-11-19",
+        "source_receipt_ids": [
+          "e883f4fc92b6378b384cae2c",
+          "70d3a50f54f1bfd36406e11b",
+          "2b247800777f53c38015a0a2",
+          "1f3c688a58e21424618b66e0",
+          "91b532debc325413fc5b3e1d",
+          "ef4612dfd12a60d44174b693",
+          "c4e5481dcaff1b189f3f83e4"
+        ]
+      },
+      {
+        "id": "gulf-reaction",
+        "question": "Can Bahrain and other Gulf partners shape the next U.S. war decision?",
+        "importance": "The answer affects which officials, lawmakers or organizers can act next.",
+        "affected_assessments": [
+          "assessments/issues/IRN"
+        ],
+        "current_answer": "Bahrain reported interceptions and publicly rejected becoming a target in the conflict. Renewed threats give regional governments grounds to press Washington on base defense and diplomacy. No resulting U.S. decision was verified.",
+        "explanations": [
+          {
+            "explanation": "Renewed attacks complicate mediation and base protection",
+            "weight": "dominant",
+            "reason": "AFP and CBS describe the attack and Bahrain’s account of interceptions.",
+            "discriminating_observation": "Changes to protection of bases, regional access or negotiations."
+          },
+          {
+            "explanation": "Military forces can maintain present operations while talks continue",
+            "weight": "credible",
+            "reason": "The United States retains military capacity and Pakistan says it is still mediating.",
+            "discriminating_observation": "Continued operations on existing orders alongside documented talks."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Washington issues new military orders or sends an answer through mediators",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Several parties retain the ability to act. Their next choices remain unclear.",
+            "assessment_effect": "Verify instructions and who speaks for Washington."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Bahrain reported interceptions and publicly rejected becoming a target in the conflict. Renewed threats give regional governments grounds to press Washington on base defense and diplomacy. No resulting U.S. decision was verified.",
+        "next_action": "Verify instructions and who speaks for Washington.",
+        "next_check": "2026-11-19",
+        "source_receipt_ids": [
+          "228cded00b8046328b3f05e8",
+          "b40bc5a528ff0cfe9e6491df",
+          "1e3831ced109b19278fdd2fd",
+          "79e8e1f0885f25a1cdad554e",
+          "a5ca00835c227ee594f1058c",
+          "fd7e434cf3c90e4d487e941a",
+          "9501ab62ba4df329c1b21f97",
+          "e9fe2697c52bd27cd2156520",
+          "c32d51a5242d153cdcb45395",
+          "67150fcff588dd06755f1e5a"
+        ]
+      },
+      {
+        "id": "incoming-oversight",
+        "question": "Does the emerging congressional agenda create a common coalition to remove officials?",
+        "importance": "The answer affects which officials, lawmakers or organizers can act next.",
+        "affected_assessments": [
+          "impeachments/all"
+        ],
+        "current_answer": "The House referral, records requests and congressional concerns demonstrate distinct oversight routes. No common Senate commitment to convict was verified. The reported Scharf memo gives the White House a way to delay or shape voluntary testimony. A specific refusal or vote change remains unverified.",
+        "explanations": [
+          {
+            "explanation": "Lawmakers are pursuing case-specific remedies",
+            "weight": "dominant",
+            "reason": "The roll call and the Kuwait request seek different results.",
+            "discriminating_observation": "Named senators publicly condition support for articles or conviction."
+          },
+          {
+            "explanation": "A conviction could lower barriers across cases",
+            "weight": "limited",
+            "reason": "No conviction or reusable cross-party vote coalition was established.",
+            "discriminating_observation": "A cross-party conviction followed by commitments in an unrelated case."
+          },
+          {
+            "explanation": "White House clearance could delay hearings across agencies",
+            "weight": "credible",
+            "reason": "The reported memo puts approval before a voluntary appearance. Evidence of its application to a witness is still missing.",
+            "discriminating_observation": "An agency turns down or narrows a specific request after White House review."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Incoming leaders schedule action on specific articles",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "Projected control gives them a path to schedule action.",
+            "assessment_effect": "Check committee calendars and named commitments."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The House referral, records requests and congressional concerns demonstrate distinct oversight routes. No common Senate commitment to convict was verified. The reported Scharf memo gives the White House a way to delay or shape voluntary testimony. A specific refusal or vote change remains unverified.",
+        "next_action": "Check committee calendars and named commitments.",
+        "next_check": "2026-11-19",
+        "source_receipt_ids": [
+          "b1b0cc5a090afad469401b37",
+          "4937fd21e2598ae50c1c04e0",
+          "335ab554dc25dff9235d1ab6",
+          "ccccde25f40e063d7aa7b5e3",
+          "499d2171561913f52878eca4",
+          "bc77302a7f3402464d73eae4",
+          "1630fb36911ba36c26b2e57a",
+          "c4e5481dcaff1b189f3f83e4"
+        ]
+      },
+      {
+        "id": "venezuela-close",
+        "question": "Did Venezuela’s fourth round produce a public election agreement?",
+        "importance": "The answer affects which officials, lawmakers or organizers can act next.",
+        "affected_assessments": [
+          "assessments/issues/VEN"
+        ],
+        "current_answer": "Earlier reporting describes talks under way on November 15. A result on election dates or authorities remains unverified.",
+        "explanations": [
+          {
+            "explanation": "The parties remain divided on election details",
+            "weight": "dominant",
+            "reason": "The reports reviewed describe an open agenda.",
+            "discriminating_observation": "A public agreement on election administration and timing."
+          },
+          {
+            "explanation": "Parties may have agreed privately",
+            "weight": "limited",
+            "reason": "The talks are closed, and no released agreement was found.",
+            "discriminating_observation": "A joint statement or actual appointments."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Negotiators announce election authorities",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Authority over appointments and the timing of an agreement remain contested.",
+            "assessment_effect": "Find a joint statement and verify appointments."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Earlier reporting describes talks under way on November 15. A result on election dates or authorities remains unverified.",
+        "next_action": "Find a joint statement and verify appointments.",
+        "next_check": "2026-11-19",
+        "source_receipt_ids": [
+          "e71126b9d4be2c35ca9d2ba3",
+          "2578a46bfd46eccc3d138f6e",
+          "3c152b2af47e5cff39aaaf22"
+        ]
+      },
+      {
+        "id": "local-data-center",
+        "question": "Can Minneapolis constrain where data centers open regardless of federal chip rules?",
+        "importance": "The answer affects which officials, lawmakers or organizers can act next.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "The city council approved project-by-project review. The mayoral decision and specific approvals remain open.",
+        "explanations": [
+          {
+            "explanation": "Local zoning can independently constrain sites",
+            "weight": "dominant",
+            "reason": "The council’s action addresses land use. Federal licensing addresses computing access.",
+            "discriminating_observation": "Final ordinance and a decision on a named project."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The city finalizes the ordinance and applies it to a project",
+            "likelihood": "moderate",
+            "impact": "moderate",
+            "reason": "Council action is documented. The mayor’s disposition and the project decisions remain open.",
+            "assessment_effect": "Check the mayor and city permit records."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The city council approved project-by-project review. The mayoral decision and specific approvals remain open.",
+        "next_action": "Check the mayor and city permit records.",
+        "next_check": "2026-11-19",
+        "source_receipt_ids": [
+          "32e4401b908eaf8be31bafdf",
+          "1b89133471fbbfe84aa4baaa"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "weekly-entry": "Carried to weekly review for named hires.",
+      "weekly-personnel": "Continues through the incoming oversight question.",
+      "weekly-aviation": "Carried with no verified funding condition or hearing in focused intake.",
+      "weekly-venezuela": "Continues through the closing-agreement question.",
+      "weekly-chair": "Carried for January chair vote and organizer response."
+    },
+    "coverage_debt": {
+      "EPS": {
+        "last_verified": "2026-11-16",
+        "next_action": "Check the House calendar for a vote after the discharge petition.",
+        "next_check": "2026-11-18",
+        "reason": "Prior discharge signatures found; subsequent vote unverified.",
+        "attempt_receipt_ids": [
+          "b1b0cc5a090afad469401b37"
+        ]
+      },
+      "FED": {
+        "last_verified": "2026-11-07",
+        "next_action": "Check the Cook docket and whether the White House confirms a hearing.",
+        "next_check": "2026-11-18",
+        "reason": "Reuters describes Cook counsel’s questions; hearing unconfirmed.",
+        "attempt_receipt_ids": [
+          "61dc7af3c455cd7d1e4ad2fb",
+          "9d4bedf90417425381b0678d",
+          "488cedcec141345e767eac12"
+        ],
+        "escalation": "Prior verified coverage is missing or more than seven days old. A focused follow-up remains open."
+      },
+      "RUS": {
+        "last_verified": "2026-11-16",
+        "next_action": "Seek official prisoner handover confirmation and check the Lukoil authorization.",
+        "next_check": "2026-11-18",
+        "reason": "Prior exchange agreement found; actual transfer unverified.",
+        "attempt_receipt_ids": [
+          "f3b23d109df22e477a49032a"
+        ]
+      },
+      "SUC": {
+        "last_verified": "2026-11-16",
+        "next_action": "Check party leadership and named recruits in early voting states.",
+        "next_check": "2026-11-18",
+        "reason": "Existing chair reports and new Axios leads; private organizing remains uncertain.",
+        "attempt_receipt_ids": [
+          "fd0a86ca20afbc298fa98572"
+        ]
+      },
+      "TAR": {
+        "last_verified": "2026-11-16",
+        "next_action": "Verify operative court orders and any signed U.S.–Canada agreement.",
+        "next_check": "2026-11-18",
+        "reason": "AP leads on Canada’s trade options; no new ruling verified.",
+        "attempt_receipt_ids": [
+          "194317cbdef8e04df149ee11"
+        ]
+      },
+      "VEN": {
+        "last_verified": null,
+        "next_action": "Seek a joint statement or appointments after the fourth round.",
+        "next_check": "2026-11-18",
+        "reason": "Talks documented November 15; closing agreement unverified.",
+        "attempt_receipt_ids": [
+          "e71126b9d4be2c35ca9d2ba3",
+          "3c152b2af47e5cff39aaaf22"
+        ],
+        "escalation": "Prior verified coverage is missing or more than seven days old. A focused follow-up remains open."
+      },
+      "AI": {
+        "last_verified": "2026-11-17",
+        "next_action": "Commerce release and advance rule read. Check publication and subsequent license decisions.",
+        "next_check": "2026-11-19",
+        "reason": "Commerce release and advance rule read. Check publication and subsequent license decisions."
+      },
+      "IMM": {
+        "last_verified": "2026-11-17",
+        "next_action": "Supreme Court docket and reporting read. Check a briefing schedule and separate operative orders.",
+        "next_check": "2026-11-19",
+        "reason": "Supreme Court docket and reporting read. Check a briefing schedule and separate operative orders."
+      },
+      "IRN": {
+        "last_verified": "2026-11-17",
+        "next_action": "Bahrain and the Kuwait oversight response reviewed. Check the later reported attack and U.S. reply.",
+        "next_check": "2026-11-19",
+        "reason": "Bahrain and the Kuwait oversight response reviewed. Check the later reported attack and U.S. reply."
+      },
+      "MID": {
+        "last_verified": "2026-11-17",
+        "next_action": "Reviewed official referral and reporting on the White House memo and leadership. Check specific witnesses and final Alaska tabulation.",
+        "next_check": "2026-11-19",
+        "reason": "Reviewed official referral and reporting on the White House memo and leadership. Check specific witnesses and final Alaska tabulation."
+      }
+    },
+    "discovery_question": "Can Minneapolis constrain sites even if federal licenses allow overseas chip access?",
+    "discovery_disposition": "Council action established. Mayor’s decision, final zoning and site permits remain open.",
+    "premise_reconciliation": "Used maintained assessments for authority and the November 16 full forecast for odds. Congress can request records and the executive can respond. A request, receipt of records, formal articles and conviction require distinct evidence.",
+    "source_receipts": [
+      {
+        "id": "ea883a9faf1fa81f08a77f39",
+        "kind": "query",
+        "value": "November 17 2026 Alaska Senate governor election results November 18 ranked choice Kansas Holscher House Senate Democrats leadership",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Election and leadership leads found; checked Alaska state tabulation separately.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "fd0a86ca20afbc298fa98572",
+        "kind": "query",
+        "value": "November 17 2026 after midterms Republican leadership RNC KC Crosbie Gruters Trump blame private Vance Cruz organizer",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Existing chair reports and new Axios leads; private organizing remains uncertain.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "b1b0cc5a090afad469401b37",
+        "kind": "query",
+        "value": "November 17 2026 Massie Epstein files second discharge 218 House vote Hegseth 1655 Judiciary",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Prior discharge signatures found; subsequent vote unverified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "4982bb7b1c0cb0791477b880",
+        "kind": "query",
+        "value": "November 17 2026 Iran US Qatar Pakistan response strikes CENTCOM Israel Eisenkot coalition",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Reported Bahrain attacks; no new US order or Israeli coalition verified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "f3b23d109df22e477a49032a",
+        "kind": "query",
+        "value": "November 17 2026 Russia Ukraine Abu Dhabi prisoner exchange Lukoil OFAC November 21",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Prior exchange agreement found; actual transfer unverified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "e71126b9d4be2c35ca9d2ba3",
+        "kind": "query",
+        "value": "November 17 2026 Venezuela diálogo cuarta ronda acuerdos CNE cierre 15 noviembre EFE",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Talks documented November 15; closing agreement unverified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "2578a46bfd46eccc3d138f6e",
+        "kind": "query",
+        "value": "November 17 2026 Venezuela TPS 14 day stay Supreme Court Project Rousseau Big Bend construction",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Secondary TPS date leads; operative orders and site work unverified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "61dc7af3c455cd7d1e4ad2fb",
+        "kind": "query",
+        "value": "November 17 2026 Lisa Cook Hassett December hearing Clearinghouse court order November 13",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Reuters describes Cook counsel’s questions; hearing unconfirmed.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "194317cbdef8e04df149ee11",
+        "kind": "query",
+        "value": "November 17 2026 tariffs Section 301 Section 338 court order Canada Carney Stellantis",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "AP leads on Canada’s trade options; no new ruling verified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "32e4401b908eaf8be31bafdf",
+        "kind": "query",
+        "value": "November 17 2026 Minneapolis Frey veto data centers zoning council ordinance effective",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Council action confirmed in multiple reports; mayoral disposition unresolved.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "f008ce4a0eb6aeb4d36a80d1",
+        "kind": "query",
+        "value": "November 17 2026 Commerce BIS remote access chips Federal Register Megaspeed Nvidia rule",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Public inspection document surfaced with November 19 publication date.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "4937fd21e2598ae50c1c04e0",
+        "kind": "query",
+        "value": "November 17 2026 Guilfoyle Drew Lynch November 13 response Garcia oversight subpoena",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Garcia request found; private production unresolved.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "335ab554dc25dff9235d1ab6",
+        "kind": "query",
+        "value": "November 17 2026 Kennedy impeachment Reitz Warren lawsuit Blumenthal judiciary Hegseth inspector general",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "No new conviction or named vote pledge verified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "228cded00b8046328b3f05e8",
+        "kind": "query",
+        "value": "\"2-month lull\" Bahrain Iran November 17 AP strike licensed",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Licensed AP copies identified; opened separately.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "b40bc5a528ff0cfe9e6491df",
+        "kind": "query",
+        "value": "Bahrain November 16 2026 Iranian strike CENTCOM Bahrain BDF missiles",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Independent reporting identified on earlier Bahrain episodes.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "059e26d0c7a3f5deb6e256cd",
+        "kind": "query",
+        "value": "Jim Jordan November 17 2026 House GOP punish rebels rules Massie conference leadership",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Axios reports a GOP rules dispute; full article blocked.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "d6bfc4415baafb21454305a0",
+        "kind": "query",
+        "value": "\"signoff\" testimony White House Congress November 2026 agency staffers letter",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Reported testimony clearance directive; operative text unverified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "4689a94a71eb95ad2e7f2914",
+        "kind": "query",
+        "value": "Canada China tariff relief November 17 2026 Canada government China expanded canola AP",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Canadian backgrounder indexed; direct page blocked.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "ccccde25f40e063d7aa7b5e3",
+        "kind": "query",
+        "value": "Guilfoyle Drew Lynch November 2026 Garcia response lawsuit subpoena",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Public records request found; no later response verified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "499d2171561913f52878eca4",
+        "kind": "query",
+        "value": "Hegseth H Res 1655 November 17 judiciary articles committee action inspector general",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "House calendar shows prior referral.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "bc77302a7f3402464d73eae4",
+        "kind": "query",
+        "value": "Todd Blanche Reitz Warren November 17 testimony subpoena response",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "No subsequent response verified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "0d8d9c8d5d82ca69a546fcd7",
+        "kind": "query",
+        "value": "November 17 2026 Megaspeed probe began 2024 Lutnick Commerce released findings Nvidia Singapore",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "AP and Anadolu cite departments’ timeline; full joint statement unverified.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "e883f4fc92b6378b384cae2c",
+        "kind": "query",
+        "value": "60 Minutes November 15 2026 Ramsbottom Kuwait Trump Hegseth response Congress lawmakers reaction hearing",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "CBS complaint and responses found; broad reception unknown.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "1e3831ced109b19278fdd2fd",
+        "kind": "query",
+        "value": "November 17 2026 Iran Bahrain third drones Associated Press local Journal radar Bahrain says",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Tuesday episode surfaced; direct pages blocked.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "dc10ed183690f2a0f08bd215",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/17/jim-jordan-house-gop-rules",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "b81980e80abe736eaf649a86",
+        "kind": "source",
+        "value": "https://apnews.com/article/582e0b5d51be06f0ed630fac24f39b72",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "83297a725030371944c3a047",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/16/exclusive-white-house-requires-signoff-before-agency-staffers-testify-to-congress",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "588de1bf3c8f10e69cf8baba",
+        "kind": "source",
+        "value": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Public inspection states November 19 scheduled publication and effect on publication.",
+        "reporting_origin": "public-inspection.federalregister.gov"
+      },
+      {
+        "id": "5ec77806635aef29cf387745",
+        "kind": "source",
+        "value": "https://apnews.com/article/1427deb4175e27c61efec6ee8eef36e8",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "c372fe03d04348990b61087e",
+        "kind": "source",
+        "value": "https://www.elections.alaska.gov/election-results/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "State page shows unofficial results, updated November 16.",
+        "reporting_origin": "www.elections.alaska.gov"
+      },
+      {
+        "id": "f111b8ca66b51619a143fc24",
+        "kind": "source",
+        "value": "https://www.alaskasnewssource.com/politics/election-results/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.alaskasnewssource.com"
+      },
+      {
+        "id": "70d3a50f54f1bfd36406e11b",
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Roll call 317 records 211–204 referral.",
+        "reporting_origin": "clerk.house.gov"
+      },
+      {
+        "id": "9d4bedf90417425381b0678d",
+        "kind": "source",
+        "value": "https://clearinghouse.net/case/46876/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Targeted lookup was rate limited after initial docket index access.",
+        "reporting_origin": "Civil Rights Litigation Clearinghouse"
+      },
+      {
+        "id": "1b89133471fbbfe84aa4baaa",
+        "kind": "source",
+        "value": "https://www.ci.minneapolis.mn.us/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.ci.minneapolis.mn.us"
+      },
+      {
+        "id": "135ab79fe00b308a765782cb",
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-17-nov-2026",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "theverardogroup.substack.com"
+      },
+      {
+        "id": "8c11a8f53692849358a3d9f9",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "2eca2535f3dd9be724be2f88",
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "ofac.treasury.gov"
+      },
+      {
+        "id": "9a4ae369ec712f7ae2d5547f",
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.federalreserve.gov"
+      },
+      {
+        "id": "f05a9099cfe4b3a0096fe9b7",
+        "kind": "source",
+        "value": "https://www.memeorandum.com/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.memeorandum.com"
+      },
+      {
+        "id": "bbaa690c2b79aa3a306e213f",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/politics/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "b5aa50cf29c305003c3cc523",
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.aljazeera.com"
+      },
+      {
+        "id": "177ec3ae67a2dfdf8d90787a",
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.state.gov"
+      },
+      {
+        "id": "72cf9cc6674fa15ea336a6ae",
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.justice.gov"
+      },
+      {
+        "id": "9e405ca375214ace3b145906",
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "home.treasury.gov"
+      },
+      {
+        "id": "e08aaa051ff8e9d8d2f5fc87",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Opened and screened returned source.",
+        "reporting_origin": "www.whitehouse.gov"
+      },
+      {
+        "id": "252e8418360e84ad4bd7e861",
+        "kind": "source",
+        "value": "https://www.newstimes.com/news/politics/article/trump-s-handpicked-party-chair-faces-a-rebellion-22532128.php",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "AP reports chair challenge, Trump’s defense and attributed private reaction.",
+        "reporting_origin": "Associated Press"
+      },
+      {
+        "id": "7c26c5b54eaf515c73a5f1e8",
+        "kind": "source",
+        "value": "https://apnews.com/article/9463fe4c0af159c8881fe5b00fb59ff4",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "488cedcec141345e767eac12",
+        "kind": "source",
+        "value": "https://www.streetinsider.com/Reuters/Feds%2BCook%2Blawyer%2Bseeks%2Bclarity%2Bahead%2Bof%2Bany%2BWhite%2BHouse%2Bhearing/27301987.html",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Reuters reports Cook counsel’s request for clarity.",
+        "reporting_origin": "Reuters"
+      },
+      {
+        "id": "3c152b2af47e5cff39aaaf22",
+        "kind": "source",
+        "value": "https://ultimahoraven.com/la-cuarta-ronda-de-dialogo-sigue-en-caracas-sin-vente-y-sin-comunicado-publico-con-el-cne-en-el-centro-de-la-agenda/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Talks continued November 15 with no public outcome in this report.",
+        "reporting_origin": "ultimahoraven.com"
+      },
+      {
+        "id": "79e8e1f0885f25a1cdad554e",
+        "kind": "source",
+        "value": "https://www.local10.com/business/2026/11/17/a-2-month-lull-ends-with-irans-third-strike-on-us-targets-in-bahrain/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.local10.com"
+      },
+      {
+        "id": "a5ca00835c227ee594f1058c",
+        "kind": "source",
+        "value": "https://www.dawn.com/news/2044789",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "AFP reports Iran claimed a radar strike while Bahrain reported interceptions.",
+        "reporting_origin": "Agence France-Presse"
+      },
+      {
+        "id": "fd7e434cf3c90e4d487e941a",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/?intcid=CNI-00-10aaa3a",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "CBS reports a military official confirmed the third carrier. Bahrain said it intercepted attacks.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "9501ab62ba4df329c1b21f97",
+        "kind": "source",
+        "value": "https://www.aljazeera.com/amp/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.aljazeera.com"
+      },
+      {
+        "id": "1bc2501d90f91cc5f8675b79",
+        "kind": "source",
+        "value": "https://www.international.gc.ca/country_news-pays_nouvelles/2026-11-16-china-chine.aspx?lang=eng",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.international.gc.ca"
+      },
+      {
+        "id": "e84aae86214b199c0ccec748",
+        "kind": "source",
+        "value": "https://www.aa.com.tr/en/world/us-confirms-criminal-probe-into-singapores-megaspeed-over-nvidia-chip-exports/4127470",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.aa.com.tr"
+      },
+      {
+        "id": "2d52dcb3b5be3d60604dcbb5",
+        "kind": "source",
+        "value": "https://www.axios.com/newsletters/axios-hill-leaders-8bde82e0-e207-11f1-983d-4790cc0b9999",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.axios.com"
+      },
+      {
+        "id": "e9fe2697c52bd27cd2156520",
+        "kind": "source",
+        "value": "https://www.the-journal.com/articles/associated-press/a-2-month-lull-ends-with-irans-third-strike-on-us-targets-in-bahrain/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.the-journal.com"
+      },
+      {
+        "id": "c32d51a5242d153cdcb45395",
+        "kind": "source",
+        "value": "https://drgnews.com/2026/11/17/a-2-month-lull-ends-with-irans-third-strike-on-us-targets-in-bahrain/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "drgnews.com"
+      },
+      {
+        "id": "67150fcff588dd06755f1e5a",
+        "kind": "source",
+        "value": "https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "blocked",
+        "result": "Direct page could not be retrieved.",
+        "reporting_origin": "www.aljazeera.com"
+      },
+      {
+        "id": "2b247800777f53c38015a0a2",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/trump-melts-down-over-devastating-60-minutes-revelations",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Reports Trump’s public dispute of CBS and defense of interception performance.",
+        "reporting_origin": "www.thedailybeast.com"
+      },
+      {
+        "id": "980d5cd0d7074c15593d020c",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/iran-war-kuwait-drone-attack-survivors-us-army/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "April CBS report documents earlier survivor disputes of Hegseth’s explanation.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "b438579f714a25f08eec3897",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/iran-attack-kuwait-camp-buehring-u-s-new-footage/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "Separate Kuwaiti facility, excluded from the Port Shuaiba episode.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "e88026658382db6ba5a9167d",
+        "kind": "source",
+        "value": "https://www.govinfo.gov/content/pkg/CCAL-119hcal-2026-11-17/pdf/CCAL-119hcal-2026-11-17.pdf",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "House calendar checked for Hegseth referral.",
+        "reporting_origin": "www.govinfo.gov"
+      },
+      {
+        "id": "1f3c688a58e21424618b66e0",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/army-whistleblower-military-officials-kuwait-attack-iran-war/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Shared intake and verification of scheduled or consequential developments",
+        "status": "read",
+        "result": "CBS obtained the November 13 complaint and reported Blumenthal’s November 15 request for assessments and a classified briefing.",
+        "reporting_origin": "CBS News"
+      },
+      {
+        "id": "9cc096f159e45a73618f5618",
+        "kind": "query",
+        "value": "November 13 2026 Supreme Court asylum suspension grant cert Trump boundary order docket Supreme Court",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "CBS confirmed grant and continuing restrictions.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "91b532debc325413fc5b3e1d",
+        "kind": "query",
+        "value": "site:blumenthal.senate.gov November 15 2026 Port Shuaiba Hegseth Ramsbottom classified briefing",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "CBS identifies senator’s dated request; primary letter not independently located.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "f884e238bd42cc823e276a5d",
+        "kind": "query",
+        "value": "November 17 2026 Alaska Peltola Kreiss Tomkins AP calls ranked choice November 18 official",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "State lists November 18 tabulation and unofficial results.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "2fc095b749249b01cbae5115",
+        "kind": "query",
+        "value": "November 17 2026 Congress House Jordan Senate Thune Schumer Van Hollen November election official leadership results",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "CBS confirms Jordan and Thune; remaining leadership decisions open.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "3c33813c0259e93d58e31288",
+        "kind": "query",
+        "value": "site:supremecourt.gov Mullin v Refugee and Immigrant Center for Education and Legal Services November 13 2026 asylum granted",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "Court’s docket confirms grant limited to first two questions.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "ef4612dfd12a60d44174b693",
+        "kind": "query",
+        "value": "November 16 2026 memo Will Scharf clearance congressional testimony agency White House AP licensed",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "AP and Axios reporting on the memo surfaced; secondary fallback consulted.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "edcf30bbf96228e7e226eebe",
+        "kind": "query",
+        "value": "November 16 2026 Megaspeed DOJ Commerce joint statement site:justice.gov OR site:bis.gov",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "Commerce release confirmed rule authorship and date; no primary joint probe statement retrieved.",
+        "reporting_origin": "Web search results"
+      },
+      {
+        "id": "e8cd99fb6832e58b804ce77f",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/supreme-court-trump-asylum-u-s-mexico-border/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "CBS describes asylum grant and confirms policy continues while ruling is paused.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "1630fb36911ba36c26b2e57a",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "CBS confirms Jordan and Thune results and reports response to Hegseth vote.",
+        "reporting_origin": "www.cbsnews.com"
+      },
+      {
+        "id": "8b8e94965dc6c2414ad9c37f",
+        "kind": "source",
+        "value": "https://apnews.com/article/a31165456bf217de16f1c4e646b72bd2",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "blocked",
+        "result": "AP live coverage direct page inaccessible.",
+        "reporting_origin": "apnews.com"
+      },
+      {
+        "id": "101e2ca6162268463c330bd8",
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/search.aspx?filename=%2Fdocket%2Fdocketfiles%2Fhtml%2Fpublic%2F26-239.html",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "Court docket records November 13 grant limited to questions one and two.",
+        "reporting_origin": "Supreme Court"
+      },
+      {
+        "id": "c4e5481dcaff1b189f3f83e4",
+        "kind": "source",
+        "value": "https://political.org/2026/11/16/white-house-orders-agencies-to-get-its-approval-before-employees-agree-to-testify-to-congress/",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "Readable secondary account quotes and attributes passages of Scharf's memo. The original memo was not retrieved.",
+        "reporting_origin": "political.org"
+      },
+      {
+        "id": "872650ae2e8c3842e5a01897",
+        "kind": "source",
+        "value": "https://www.lawcommentary.com/articles/white-house-approval-congressional-testimony",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "blocked",
+        "result": "Alternative secondary route inaccessible.",
+        "reporting_origin": "www.lawcommentary.com"
+      },
+      {
+        "id": "54941b5f5d62929584e994c0",
+        "kind": "source",
+        "value": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "window": "2026-11-16/2026-11-17",
+        "purpose": "Follow-up verification of major procedural and policy developments",
+        "status": "read",
+        "result": "Commerce announced rule November 16 and credits Treasury and National Security Council with writing it.",
+        "reporting_origin": "Commerce Department"
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-17-daily",
+    "wargame_ref": "2026-11-16-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "November 16 weekly estimates held. The war accountability dispute is a staleness risk if voters or organizers respond."
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Blumenthal requested records after an Army complaint about the Kuwait attack.",
+        "event_ids": [
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "impeachments/all",
+          "assessments/current/nomination",
+          "factions/pentagon"
+        ],
+        "reason": "A named request and presidential response sharpen accountability without demonstrating a new vote."
+      },
+      {
+        "finding": "Bahrain reported intercepting Iranian drones.",
+        "event_ids": [
+          "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/IRN"
+        ],
+        "reason": "A Gulf partner faces renewed risk while diplomatic contacts continue."
+      },
+      {
+        "finding": "The Supreme Court agreed to hear the asylum dispute.",
+        "event_ids": [
+          "imm-2026-11-13-supreme-court-takes-up-border-asylum-ban"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/IMM"
+        ],
+        "reason": "The court will review the president’s authority over asylum access. The merits remain open."
+      },
+      {
+        "finding": "The Federal Register scheduled the chip rule for publication.",
+        "event_ids": [
+          "ai-2026-11-15-commerce-remote-chip-rule"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "reason": "The date fixes the next implementation check."
+      },
+      {
+        "finding": "The White House reportedly told agencies to clear voluntary employee testimony.",
+        "event_ids": [
+          "mid-2026-11-16-scharf-testimony-clearance"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current/administration",
+          "assessments/issues/MID",
+          "impeachments/all"
+        ],
+        "reason": "Clearance could delay or shape congressional access to witnesses. A specific refusal or vote shift is unverified."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "reviewed",
+        "reason": "Checked the advance text of Commerce’s remote chip-access rule and its expected publication date. Individual license and enforcement decisions remain open."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Prior discharge signatures found; subsequent vote unverified."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Reuters describes Cook counsel’s questions; hearing unconfirmed."
+      },
+      "IMM": {
+        "status": "reviewed",
+        "reason": "Checked the Supreme Court’s decision to hear the asylum dispute. Later temporary-protection orders and construction at Big Bend remain unverified."
+      },
+      "IRN": {
+        "status": "reviewed",
+        "reason": "The review checked the Bahrain attack, claims about troop protection in Kuwait and Trump’s public response. Washington’s reply to Iran and a new military order remain unverified."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "The review checked the formal Hegseth referral, troop-protection oversight and post-election leadership reporting. Alaska’s official results remain pending."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Prior exchange agreement found; actual transfer unverified."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Existing chair reports and new Axios leads; private organizing remains uncertain."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "AP leads on Canada’s trade options; no new ruling verified."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Talks documented November 15; closing agreement unverified."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "The Kuwait complaint and response put troop protection and congressional access to records alongside Trump’s effort to retain the party chair.",
+    "dated_assumptions": [
+      {
+        "assumption": "Mississippi Senate and projected chamber control",
+        "date": "2026-11-12",
+        "status": "verified",
+        "reason": "AP called Mississippi for Colom and reported Hyde-Smith’s concession. Democrats are projected to control both chambers."
+      },
+      {
+        "assumption": "Alaska Senate and governor",
+        "date": "2026-11-18",
+        "status": "pending",
+        "reason": "Alaska lists results as unofficial and schedules required ranked-choice counts for November 18."
+      },
+      {
+        "assumption": "Kansas governor",
+        "date": "2026-11-16",
+        "status": "verified",
+        "reason": "AP called the race for Cindy Holscher."
+      },
+      {
+        "assumption": "Hegseth House procedure",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Official House calendar records referral to Judiciary."
+      },
+      {
+        "assumption": "Massie Epstein records bill",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "The petition has 218 signatures. Roll Call describes seven legislative days before a signer can call it up. A vote remains unverified."
+      },
+      {
+        "assumption": "Abu Dhabi prisoner exchange",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "The agreement remains the latest verified milestone. Neither a handover nor the number transferred was confirmed."
+      },
+      {
+        "assumption": "Minneapolis data-center zoning",
+        "date": "2026-11-12",
+        "status": "pending",
+        "reason": "Council passage still stands. Mayor Jacob Frey’s decision remains open in reporting."
+      },
+      {
+        "assumption": "Israel government formation",
+        "date": "2026-12-06",
+        "status": "pending",
+        "reason": "Eisenkot is negotiating after parliament convened. No governing coalition was verified."
+      },
+      {
+        "assumption": "Qatar mediation and U.S. military or enforcement orders",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Pakistan’s foreign minister remains involved and awaits a reply. The next Qatar contact and military orders remain open."
+      },
+      {
+        "assumption": "Lisa Cook hearing and lower-court case",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "The Clearinghouse index showed a November 13 minute order concerning a January status report. Direct access failed and the White House hearing remains unconfirmed."
+      },
+      {
+        "assumption": "Venezuela negotiations",
+        "date": "2026-11-15",
+        "status": "unreviewed",
+        "reason": "EFE described disagreements while the round was under way. The scheduled closing outcome remains unverified after follow-up searches."
+      },
+      {
+        "assumption": "Big Bend construction",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Prior legal permission carries forward. Work on site was not established."
+      },
+      {
+        "assumption": "Lukoil authorization",
+        "date": "2026-11-21",
+        "status": "pending",
+        "reason": "Treasury’s existing authorization runs through November 21. A later extension was not verified."
+      },
+      {
+        "assumption": "Guilfoyle records request",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "The deadline passed. The public search and original request do not establish a response or private production."
+      },
+      {
+        "assumption": "Nvidia board inquiry and chip rule",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Commerce released rule text. Federal Register effectiveness, Nvidia findings and action against Megaspeed remain open."
+      },
+      {
+        "assumption": "Tariff and trade implementation",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Carney publicly discussed a Chinese automaker alternative. Later U.S. court orders remain unverified."
+      },
+      {
+        "assumption": "Eighth Circuit nomination",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "The White House withdrew Lee Rudofsky and nominated Cody Hiland for the same seat. Confirmation remains open."
+      },
+      {
+        "assumption": "Blumenthal’s request for confirmation",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Axios documented a separate Reitz request to Warren. A reply to Blumenthal remains unverified."
+      },
+      {
+        "assumption": "October consumer price report",
+        "date": "2026-11-13",
+        "status": "verified",
+        "reason": "BLS published the October CPI on November 10; missing prior-year survey data limit 12-month comparisons."
+      },
+      {
+        "assumption": "Project Rousseau court filings",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Earlier relief remains documented. Later operative order and scope require docket verification."
+      },
+      {
+        "assumption": "Republican National Committee chair vote",
+        "date": "2027-01-15",
+        "status": "pending",
+        "reason": "AP reports a January winter meeting. Exact vote date and commitments remain open."
+      },
+      {
+        "assumption": "Southern border asylum case",
+        "date": "2026-11-13",
+        "status": "verified",
+        "reason": "CBS reported the grant of review. No final ruling on the merits."
+      },
+      {
+        "assumption": "Port Shuaiba records and briefing",
+        "date": "2026-11-15",
+        "status": "pending",
+        "reason": "Blumenthal requested documents and a briefing. Production and testimony remain open."
+      },
+      {
+        "assumption": "Latest Bahrain episode and U.S. operational response",
+        "date": "2026-11-17",
+        "status": "unreviewed",
+        "reason": "Search extracts described November 17 attacks. Direct routes for that episode failed. November 15 attack accounts were reviewed."
+      },
+      {
+        "assumption": "2027 congressional leadership and committee assignments",
+        "date": "2026-11-18",
+        "status": "pending",
+        "reason": "Reporting confirms the House Republican leader choice. Outstanding leadership choices and committee assignments could affect oversight."
+      },
+      {
+        "assumption": "White House approval for agency testimony",
+        "date": "2026-11-16",
+        "status": "pending",
+        "reason": "The memo is attributed in multiple reports. Its application to a specific witness or subpoena remains open."
+      },
+      {
+        "assumption": "House and Senate Republican leadership choices",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "CBS confirmed House Republicans chose Jim Jordan and Senate Republicans kept John Thune. The existing election event carries those results."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "The Kuwait disclosures immediately change conviction support.",
+        "finding": "A complaint, oversight request and public rebuttal were observed. Voting commitments were not established.",
+        "consequence": "Strengthen the oversight assessment and hold the personnel probabilities."
+      }
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://public-inspection.federalregister.gov/2026-23529.pdf",
+      "https://www.elections.alaska.gov/election-results/",
+      "https://www.alaskasnewssource.com/politics/election-results/",
+      "https://clerk.house.gov/Votes/2026317",
+      "https://www.ci.minneapolis.mn.us/business-services/planning-zoning/amendments/proposed-adopted/data-centers/",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://ofac.treasury.gov/recent-actions",
+      "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+      "https://www.memeorandum.com/",
+      "https://www.cbsnews.com/politics/",
+      "https://www.aljazeera.com/news/",
+      "https://www.justice.gov/news",
+      "https://home.treasury.gov/news/press-releases",
+      "https://www.whitehouse.gov/releases/",
+      "https://www.newstimes.com/news/politics/article/trump-s-handpicked-party-chair-faces-a-rebellion-22532128.php",
+      "https://www.streetinsider.com/Reuters/Feds%2BCook%2Blawyer%2Bseeks%2Bclarity%2Bahead%2Bof%2Bany%2BWhite%2BHouse%2Bhearing/27301987.html",
+      "https://ultimahoraven.com/la-cuarta-ronda-de-dialogo-sigue-en-caracas-sin-vente-y-sin-comunicado-publico-con-el-cne-en-el-centro-de-la-agenda/",
+      "https://www.dawn.com/news/2044789",
+      "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/?intcid=CNI-00-10aaa3a",
+      "https://www.thedailybeast.com/trump-melts-down-over-devastating-60-minutes-revelations",
+      "https://www.cbsnews.com/news/iran-war-kuwait-drone-attack-survivors-us-army/",
+      "https://www.cbsnews.com/news/iran-attack-kuwait-camp-buehring-u-s-new-footage/",
+      "https://www.govinfo.gov/content/pkg/CCAL-119hcal-2026-11-17/pdf/CCAL-119hcal-2026-11-17.pdf",
+      "https://www.cbsnews.com/news/army-whistleblower-military-officials-kuwait-attack-iran-war/",
+      "https://www.cbsnews.com/news/supreme-court-trump-asylum-u-s-mexico-border/",
+      "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/",
+      "https://www.supremecourt.gov/search.aspx?filename=%2Fdocket%2Fdocketfiles%2Fhtml%2Fpublic%2F26-239.html",
+      "https://political.org/2026/11/16/white-house-orders-agencies-to-get-its-approval-before-employees-agree-to-testify-to-congress/",
+      "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+    ],
+    "queries": 31,
+    "queriesPerIssue": {},
+    "perIssue": {
+      "AI": "searched",
+      "EPS": "searched",
+      "FED": "searched",
+      "IMM": "searched",
+      "IRN": "searched",
+      "MID": "searched",
+      "RUS": "searched",
+      "SUC": "searched",
+      "TAR": "searched",
+      "VEN": "searched"
+    },
+    "unplaced": [
+      "The November 17 Bahrain reports and proposed House Republican rules need further direct evidence."
+    ],
+    "blocked": [
+      "https://www.axios.com/2026/11/17/jim-jordan-house-gop-rules",
+      "https://apnews.com/article/582e0b5d51be06f0ed630fac24f39b72",
+      "https://www.axios.com/2026/11/16/exclusive-white-house-requires-signoff-before-agency-staffers-testify-to-congress",
+      "https://apnews.com/article/1427deb4175e27c61efec6ee8eef36e8",
+      "https://clearinghouse.net/case/46876/",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-17-nov-2026",
+      "https://www.state.gov/press-releases/",
+      "https://apnews.com/article/9463fe4c0af159c8881fe5b00fb59ff4",
+      "https://www.local10.com/business/2026/11/17/a-2-month-lull-ends-with-irans-third-strike-on-us-targets-in-bahrain/",
+      "https://www.aljazeera.com/amp/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar",
+      "https://www.international.gc.ca/country_news-pays_nouvelles/2026-11-16-china-chine.aspx?lang=eng",
+      "https://www.aa.com.tr/en/world/us-confirms-criminal-probe-into-singapores-megaspeed-over-nvidia-chip-exports/4127470",
+      "https://www.axios.com/newsletters/axios-hill-leaders-8bde82e0-e207-11f1-983d-4790cc0b9999",
+      "https://www.the-journal.com/articles/associated-press/a-2-month-lull-ends-with-irans-third-strike-on-us-targets-in-bahrain/",
+      "https://drgnews.com/2026/11/17/a-2-month-lull-ends-with-irans-third-strike-on-us-targets-in-bahrain/",
+      "https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar",
+      "https://apnews.com/article/a31165456bf217de16f1c4e646b72bd2",
+      "https://www.lawcommentary.com/articles/white-house-approval-congressional-testimony"
+    ],
+    "gaps": [
+      {
+        "gap": "Venezuela closing agreement",
+        "routes": []
+      },
+      {
+        "gap": "Prisoner transfers",
+        "routes": []
+      },
+      {
+        "gap": "Private records production",
+        "routes": []
+      },
+      {
+        "gap": "Final Alaska tabulation",
+        "routes": []
+      },
+      {
+        "gap": "Latest Bahrain attack outcome",
+        "routes": []
+      }
+    ],
+    "watched": [
+      "Pete Hegseth",
+      "Richard Blumenthal",
+      "Drew Lynch",
+      "JD Vance",
+      "Ted Cruz",
+      "Jim Jordan",
+      "Lisa Cook",
+      "Howard Lutnick"
+    ],
+    "queue": {
+      "captured": 0,
+      "triaged": 0
+    },
+    "lookbackDays": 2,
+    "thinDays": [],
+    "deviations": [
+      "Focused intake with older direct catch-up on asylum, troop protection and leadership. Newsletter coverage and several direct sources were unavailable."
+    ],
+    "propagation": {
+      "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records": [
+        "assessments/current/administration",
+        "impeachments/all",
+        "assessments/current/nomination"
+      ],
+      "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones": [
+        "assessments/current/administration",
+        "assessments/issues/IRN"
+      ],
+      "imm-2026-11-13-supreme-court-takes-up-border-asylum-ban": [
+        "assessments/issues/IMM"
+      ],
+      "ai-2026-11-15-commerce-remote-chip-rule": [
+        "assessments/issues/AI"
+      ],
+      "mid-2026-11-16-scharf-testimony-clearance": [
+        "assessments/current/administration",
+        "assessments/issues/MID",
+        "impeachments/all"
+      ]
+    },
+    "outcome_watch": [
+      {
+        "outcome": "Mississippi Senate and projected chamber control",
+        "status": "reviewed",
+        "date": "2026-11-12",
+        "finding": "AP called Mississippi for Colom and reported Hyde-Smith’s concession. Democrats are projected to control both chambers."
+      },
+      {
+        "outcome": "Alaska Senate and governor",
+        "status": "pending",
+        "date": "2026-11-18",
+        "finding": "Alaska lists results as unofficial and schedules required ranked-choice counts for November 18."
+      },
+      {
+        "outcome": "Kansas governor",
+        "status": "reviewed",
+        "date": "2026-11-16",
+        "finding": "AP called the race for Cindy Holscher."
+      },
+      {
+        "outcome": "Hegseth House procedure",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "Official House calendar records referral to Judiciary."
+      },
+      {
+        "outcome": "Massie Epstein records bill",
+        "status": "pending",
+        "date": "2026-11-13",
+        "finding": "The petition has 218 signatures. Roll Call describes seven legislative days before a signer can call it up. A vote remains unverified."
+      },
+      {
+        "outcome": "Abu Dhabi prisoner exchange",
+        "status": "pending",
+        "date": "2026-11-13",
+        "finding": "The agreement remains the latest verified milestone. Neither a handover nor the number transferred was confirmed."
+      },
+      {
+        "outcome": "Minneapolis data-center zoning",
+        "status": "pending",
+        "date": "2026-11-12",
+        "finding": "Council passage still stands. Mayor Jacob Frey’s decision remains open in reporting."
+      },
+      {
+        "outcome": "Israel government formation",
+        "status": "pending",
+        "date": "2026-12-06",
+        "finding": "Eisenkot is negotiating after parliament convened. No governing coalition was verified."
+      },
+      {
+        "outcome": "Qatar mediation and U.S. military or enforcement orders",
+        "status": "pending",
+        "date": "2026-11-13",
+        "finding": "Pakistan’s foreign minister remains involved and awaits a reply. The next Qatar contact and military orders remain open."
+      },
+      {
+        "outcome": "Lisa Cook hearing and lower-court case",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "The Clearinghouse index showed a November 13 minute order concerning a January status report. Direct access failed and the White House hearing remains unconfirmed."
+      },
+      {
+        "outcome": "Venezuela negotiations",
+        "status": "unreviewed",
+        "date": "2026-11-15",
+        "finding": "EFE described disagreements while the round was under way. The scheduled closing outcome remains unverified after follow-up searches."
+      },
+      {
+        "outcome": "Big Bend construction",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Prior legal permission carries forward. Work on site was not established."
+      },
+      {
+        "outcome": "Lukoil authorization",
+        "status": "pending",
+        "date": "2026-11-21",
+        "finding": "Treasury’s existing authorization runs through November 21. A later extension was not verified."
+      },
+      {
+        "outcome": "Guilfoyle records request",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "The deadline passed. The public search and original request do not establish a response or private production."
+      },
+      {
+        "outcome": "Nvidia board inquiry and chip rule",
+        "status": "pending",
+        "date": "2026-11-13",
+        "finding": "Commerce released rule text. Federal Register effectiveness, Nvidia findings and action against Megaspeed remain open."
+      },
+      {
+        "outcome": "Tariff and trade implementation",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Carney publicly discussed a Chinese automaker alternative. Later U.S. court orders remain unverified."
+      },
+      {
+        "outcome": "Eighth Circuit nomination",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "The White House withdrew Lee Rudofsky and nominated Cody Hiland for the same seat. Confirmation remains open."
+      },
+      {
+        "outcome": "Blumenthal’s request for confirmation",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Axios documented a separate Reitz request to Warren. A reply to Blumenthal remains unverified."
+      },
+      {
+        "outcome": "October consumer price report",
+        "status": "reviewed",
+        "date": "2026-11-13",
+        "finding": "BLS published the October CPI on November 10; missing prior-year survey data limit 12-month comparisons."
+      },
+      {
+        "outcome": "Project Rousseau court filings",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Earlier relief remains documented. Later operative order and scope require docket verification."
+      },
+      {
+        "outcome": "Republican National Committee chair vote",
+        "status": "pending",
+        "date": "2027-01-15",
+        "finding": "AP reports a January winter meeting. Exact vote date and commitments remain open."
+      },
+      {
+        "outcome": "Southern border asylum case",
+        "status": "reviewed",
+        "date": "2026-11-13",
+        "finding": "CBS reported the grant of review. No final ruling on the merits."
+      },
+      {
+        "outcome": "Port Shuaiba records and briefing",
+        "status": "pending",
+        "date": "2026-11-15",
+        "finding": "Blumenthal requested documents and a briefing. Production and testimony remain open."
+      },
+      {
+        "outcome": "Latest Bahrain episode and U.S. operational response",
+        "status": "unreviewed",
+        "date": "2026-11-17",
+        "finding": "Search extracts described November 17 attacks. Direct routes for that episode failed. November 15 attack accounts were reviewed."
+      },
+      {
+        "outcome": "2027 congressional leadership and committee assignments",
+        "status": "pending",
+        "date": "2026-11-18",
+        "finding": "Reporting confirms the House Republican leader choice. Outstanding leadership choices and committee assignments could affect oversight."
+      },
+      {
+        "outcome": "White House approval for agency testimony",
+        "status": "pending",
+        "date": "2026-11-16",
+        "finding": "The memo is attributed in multiple reports. Its application to a specific witness or subpoena remains open."
+      },
+      {
+        "outcome": "House and Senate Republican leadership choices",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "CBS confirmed House Republicans chose Jim Jordan and Senate Republicans kept John Thune. The existing election event carries those results."
+      }
+    ]
+  },
+  "editorial_notes": [
+    "Named the senator, officials and decisions in headlines. Clarified the difference between the two Bahrain episodes, the current asylum restrictions, actual oversight requests and possible changes in votes.",
+    "Explained who must approve testimony, which staff appearances the memo addresses and why a particular refusal remains unverified. Corrected the chip-rule announcement date by using Commerce’s release."
+  ],
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Daily read-only preflight",
+    "result": "Changed records and final public text reviewed together.",
+    "repairs": [
+      "Completed source limitation fields for the new personnel evidence.",
+      "Matched the receipt projection to the helper’s recorded values and removed the duplicate projection for a rate-limited court lookup.",
+      "Completed rolling coverage entries for all ten tracked issues."
+    ]
+  },
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "b3fa324624c5d7d68fdd25c6c23b322270a7cec7f35ee11a1469c417e46ab498",
+        "reader_takeaway": "The Kuwait complaint and the White House’s testimony instruction give Congress and Trump’s staff different ways to shape oversight. The dispute also changes what Republican candidates can credibly argue about the war.",
+        "context_check": "Named Blumenthal, Hegseth and Scharf, explained what each controls, and explained why a response could matter to Vance and Rubio.",
+        "uncertainty_check": "Separated the referral, the records request, reported White House action and future responses from witnesses or voters.",
+        "changes_made": [
+          "Named Blumenthal and Kuwait in the headline.",
+          "Explained why Trump’s rebuttal puts his credibility at stake.",
+          "Clarified the risks and options for Vance, Rubio, Paul and Massie."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "02a3b763e186816b5481f701f4177176d0e52b212ef4a0604552f6f3e0597efe",
+        "reader_takeaway": "The Court will review asylum restrictions that remain enforced, while troop protection and chip licensing have their own decision-makers.",
+        "context_check": "Named the White House testimony process, the court dispute and the departments that wrote and administer the chip rule.",
+        "uncertainty_check": "Distinguished a grant of review, the continuing policy, scheduled publication and later enforcement.",
+        "changes_made": [
+          "Explained that asylum restrictions continue while the ruling is on hold.",
+          "Replaced an abstract sentence about the records request with the question the records could answer."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "525506be54f83ddc692de93adc51313ea83969a3d58594b36f12857066c1fb03",
+        "reader_takeaway": "Commerce plans checks on overseas use of advanced U.S. chips. The rule takes effect on publication.",
+        "context_check": "Named the five shipment destinations, the use of overseas data centers and who drafted the rule.",
+        "uncertainty_check": "Distinguished the announcement and scheduled publication from license decisions.",
+        "changes_made": [
+          "Removed redundant effective-date wording and corrected the announcement date using Commerce’s release."
+        ]
+      },
+      "events/IMM": {
+        "fingerprint": "a9f6d38f1078607be1ae9b8d5d1eb80ec3eb2d55c6d9293989771513a378ead4",
+        "reader_takeaway": "The Supreme Court agreed to hear Trump’s asylum case while the administration continues to enforce his restrictions.",
+        "context_check": "Named the border restriction, the administration and the two different court actions.",
+        "uncertainty_check": "The hearing is pending and the legal outcome remains open.",
+        "changes_made": [
+          "Added the continuing enforcement and explained that the lower court’s ruling is on hold."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "ac38c15314fcf2f2d83bf1acbc7f164e26a2176b2c223a91b9b323fa15c1e1c2",
+        "reader_takeaway": "Bahrain says it intercepted Iranian drones, and Trump separately defended U.S. air defenses against a CBS account of wartime damage.",
+        "context_check": "Named the Iranian claim, Bahrain’s response and the action Trump took after the broadcast.",
+        "uncertainty_check": "Attributed accounts and left damage, military orders and audience response open.",
+        "changes_made": [
+          "Removed the separate November 17 Bahrain lead from the November 15 event and made Trump’s headline identify what he disputed."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "53b2c993269378b7b3c943e79eb940baad58a557b316afd9b3dea51201108e7a",
+        "reader_takeaway": "Blumenthal wants to know how the Pentagon protected soldiers in Kuwait. A reported White House instruction adds an approval step before federal employees agree to testify.",
+        "context_check": "Named the senator, Pentagon, White House counsel, agencies and congressional committees.",
+        "uncertainty_check": "A complaint, request and reported instruction establish distinct steps. Testimony and evidence production remain open.",
+        "changes_made": [
+          "Identified the Kuwait post and the six soldiers in the headline.",
+          "Made Scharf’s headline name the approval requirement and qualify its source."
+        ]
+      },
+      "factions/pentagon": {
+        "fingerprint": "09200088fdd8fa7c945130178d8322abac35ae17c713d665e3f63e37aa2dd68b",
+        "reader_takeaway": "The Pentagon and President Trump now face separate questions about the defense of the U.S. post in Kuwait.",
+        "context_check": "Named the senator requesting records, the defense secretary, the president and the actions that exposed their accounts to scrutiny.",
+        "uncertainty_check": "The complaint remains an allegation, and the records that could establish responsibility have been requested.",
+        "changes_made": [
+          "Explained what the requested records could establish and kept Hegseth’s personal role unresolved."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "55769dcebd51c7e41e18f41013a185f974bb538e189482c8ca283dff7b4cf1fc",
+        "reader_takeaway": "The Hegseth referral stands and congressional scrutiny has broadened. Conviction support and the outcome of records requests remain open.",
+        "context_check": "Explained the different routes involving officials and what the House referral and White House testimony process do.",
+        "uncertainty_check": "Distinguished the reported complaint and approval process, the recorded referral, future testimony and subjective estimates.",
+        "changes_made": [
+          "Rewrote the shared pathways and case-specific holds in ordinary language.",
+          "Clarified that the Guilfoyle records deadline passed and that private production remains unknown."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "57b1ed4da973f308185a29874e8367207c4b218707d10ba960423d67d42a4f31",
+        "reader_takeaway": "The linked sources establish the Kuwait complaint, a senator’s request and Trump’s public response. The nomination shares are carried from the weekly forecast.",
+        "context_check": "Named the outlets and the distinct purpose of each source. The new monitoring entry connects the developments to real choices facing candidates.",
+        "uncertainty_check": "Survey response and candidate organization remain open. All eight estimates are conditional and held under the weekly schedule.",
+        "changes_made": [
+          "Described the source evidence as a complaint, request and rebuttal and wrote political reasons for each hold."
+        ]
+      },
+      "runs/2026-11-17": {
+        "fingerprint": "c37443822deb8e21b5e351b43de1815ce79352b72a2bbe5f285514d91ff53f16",
+        "reader_takeaway": "This focused review tracked specific oversight, military, immigration and chip-rule outcomes and left named gaps on the watchlist.",
+        "context_check": "Named the relevant official, court decision and pending disclosures instead of relying on initials or ledger jargon.",
+        "uncertainty_check": "Distinguished verified procedural action, attributed reporting and missing results.",
+        "changes_made": [
+          "Named Drew Lynch and Lisa Cook in the open questions and described the Gulf finding as an interception account."
+        ]
+      }
+    }
+  }
+}

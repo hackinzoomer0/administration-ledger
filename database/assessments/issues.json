@@ -1,7 +1,7 @@
 {
   "AI": {
-    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The released text ties effectiveness to Federal Register publication. The Pentagon continues to seek broad permission to use AI for military purposes.",
-    "dispute": "Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Huang had publicly backed AI models that developers can download and run themselves. Kress and the board can continue supporting those models through funding and releases. Meanwhile, Commerce’s newly released rule would let regulators check who rents computing power abroad. Whether Commerce takes separate action involving Singapore-based Megaspeed or Nvidia changes support for downloadable models remains open. In Minneapolis, council members voted for project-by-project review of data centers. The mayor’s decision and the electricity supply for individual projects remain separate questions.",
+    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The Federal Register scheduled publication for November 19. The rule is set to take effect on publication. The Pentagon continues to seek broad permission to use AI for military purposes.",
+    "dispute": "Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Huang had publicly backed AI models that developers can download and run themselves. Kress and the board can continue supporting those models through funding and releases. Meanwhile, Commerce’s newly released rule would let regulators check who rents computing power abroad. Whether Commerce takes separate action involving Singapore-based Megaspeed or Nvidia changes support for downloadable models remains open. In Minneapolis, council members voted for project-by-project review of data centers. The mayor’s decision and the electricity supply for individual projects remain separate questions. Commerce credited Treasury and the National Security Council with writing the rule. Commerce is responsible for administering it.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -122,8 +122,8 @@
       "ai-2026-11-12-minneapolis-council-zoning-vote",
       "ai-2026-11-15-commerce-remote-chip-rule"
     ],
-    "research_as_of": "2026-11-16",
-    "scope": "The November 16 review covered the released chip rule and the Minneapolis mayor’s pending decision. Other findings retain their earlier evidence dates.",
+    "research_as_of": "2026-11-17",
+    "scope": "Checked the advance text of Commerce’s remote chip-access rule and its expected publication date. Individual license and enforcement decisions remain open.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -496,7 +496,7 @@
   },
   "IMM": {
     "policy": "The administration continues large-scale immigration enforcement and restrictions on visas and foreign labor. Courts have limited particular practices; the November 6 order temporarily protects the Afghan clients covered by that case, rather than granting nationwide relief. The Supreme Court’s November 9 stay temporarily removes the injunction blocking Big Bend border-wall construction; actual building and final judgment remain unverified.",
-    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Miller reportedly began as chief of staff November 9. His promotion strengthens his staff access, while Stutzman’s criticism exposes Republican disagreement over the personnel response to defeat. No new deportation directive is established.",
+    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Miller reportedly began as chief of staff November 9. His promotion strengthens his staff access, while Stutzman’s criticism exposes Republican disagreement over the personnel response to defeat. No new deportation directive is established. The Supreme Court agreed to hear the challenge to Trump’s restrictions on asylum access at the southern border. The justices have yet to rule on presidential authority in that case. The administration has continued to enforce the restrictions while the lower court’s ruling is on hold.",
     "player_ids": [
       "miller",
       "wiles",
@@ -569,10 +569,11 @@
       "imm-2026-10-26-afghan-deportations",
       "suc-2026-11-08-trump-vance-immigration-interview",
       "imm-2026-11-09-big-bend-stay",
-      "mid-2026-11-06-miller-chief-staff"
+      "mid-2026-11-06-miller-chief-staff",
+      "imm-2026-11-13-supreme-court-takes-up-border-asylum-ban"
     ],
-    "research_as_of": "2026-11-08",
-    "scope": "November 10 focused review of linked developments; the remaining policy, financial and implementation findings retain their prior evidence dates. This is not a full issue verification.",
+    "research_as_of": "2026-11-17",
+    "scope": "Checked the Supreme Court’s decision to hear the asylum dispute. Later temporary-protection orders and construction at Big Bend remain unverified.",
     "actors": [
       {
         "person_id": "miller",
@@ -625,7 +626,7 @@
   },
   "IRN": {
     "policy": "Trump publicly says the United States does not need an agreement with Iran and has redirected Vance to domestic work. Earlier U.S. economic and naval pressure remains the basis of the policy assessment while any new orders are verified.",
-    "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open. Pakistan’s foreign minister Ishaq Dar says his government is still mediating and is awaiting a U.S. reply. Washington’s next diplomatic lead and any change in military operations remain open.",
+    "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open. Pakistan’s foreign minister Ishaq Dar says his government is still mediating and is awaiting a U.S. reply. Washington’s next diplomatic lead and any change in military operations remain open. Bahrain reported intercepting Iranian drones. A U.S. military official confirmed to CBS that a third carrier was in the region during a rotation. An Army whistleblower’s complaint and a senator’s records request also put the protection of U.S. troops before Congress.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -753,10 +754,13 @@
       "irn-2026-11-10-israel-parliament-sworn-in",
       "irn-2026-11-12-trump-redirects-vance",
       "suc-2026-11-12-kennedy-challenges-vance-war-blame",
-      "irn-2026-11-16-pakistan-awaits-us-iran-reply"
+      "irn-2026-11-16-pakistan-awaits-us-iran-reply",
+      "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones",
+      "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+      "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
     ],
-    "research_as_of": "2026-11-16",
-    "scope": "The November 16 review covered Pakistan’s stated diplomatic role. Other findings retain their earlier evidence dates.",
+    "research_as_of": "2026-11-17",
+    "scope": "The review checked the Bahrain attack, claims about troop protection in Kuwait and Trump’s public response. Washington’s reply to Iran and a new military order remain unverified.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -890,7 +894,7 @@
   },
   "MID": {
     "policy": "Democrats are projected to control both chambers in January. The Associated Press call in Mississippi brings their projected Senate majority to 55 seats, with Alaska still uncalled.",
-    "dispute": "Democrats are projected to take both chambers in January. The Kansas call keeps the governorship in Democratic hands, while Alaska’s races remain pending. The Hegseth referral exposed disagreement over House Democrats’ floor preparation. Senator Richard Blumenthal and U.S. Attorney Aaron Reitz each sought preservation of records in a dispute over oversight of ballroom donations. Republican National Committee deputy KC Crosbie is challenging Trump-backed chair Joe Gruters. The January vote will determine who manages the party’s national fundraising and field operation. U.S. attorney Aaron Reitz has also sought records from Senator Elizabeth Warren about her congressional inquiries.",
+    "dispute": "Democrats are projected to take both chambers in January. The Kansas call keeps the governorship in Democratic hands, while Alaska’s races remain pending. The Hegseth referral exposed disagreement over House Democrats’ floor preparation. Senator Richard Blumenthal and U.S. Attorney Aaron Reitz each sought preservation of records in a dispute over oversight of ballroom donations. Republican National Committee deputy KC Crosbie is challenging Trump-backed chair Joe Gruters. The January vote will determine who manages the party’s national fundraising and field operation. U.S. attorney Aaron Reitz has also sought records from Senator Elizabeth Warren about her congressional inquiries. Senator Richard Blumenthal requested records and a classified briefing on a March strike that killed six U.S. soldiers in Kuwait. The records could show who knew about the danger to troops before the attack. The Pentagon’s response remains open. A reported memo from White House counsel Will Scharf requires agencies to obtain White House approval before employees agree to testify. Congress retains its ability to seek records and use subpoenas.",
     "player_ids": [
       "donald-trump",
       "wiles",
@@ -1008,10 +1012,13 @@
       "mid-2026-11-11-blumenthal-reitz-preservation",
       "mid-2026-11-13-democrats-criticize-floor-preparation",
       "mid-2026-11-15-gruters-defends-rnc-spending",
-      "mid-2026-11-16-reitz-warren-preservation"
+      "mid-2026-11-16-reitz-warren-preservation",
+      "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+      "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+      "mid-2026-11-16-scharf-testimony-clearance"
     ],
-    "research_as_of": "2026-11-16",
-    "scope": "The November 16 review covered the national party chair race, House procedure and congressional oversight. Other findings retain their earlier evidence dates.",
+    "research_as_of": "2026-11-17",
+    "scope": "The review checked the formal Hegseth referral, troop-protection oversight and post-election leadership reporting. Alaska’s official results remain pending.",
     "actors": [
       {
         "person_id": "donald-trump",
