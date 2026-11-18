@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-17",
+  "as_of_date": "2026-11-18",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -2991,6 +2991,78 @@
       "verification_status": "read",
       "receipt_ids": [
         "2b247800777f53c38015a0a2"
+      ]
+    },
+    {
+      "id": "daily-20261118-garcia",
+      "url": "https://apnews.com/article/6cfa31f11051c52e567523e27ee5803e",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-18",
+      "accessed_on": "2026-11-18",
+      "description": "Garcia sent preliminary records-preservation notices ahead of January committee control.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "a910f4953d55806924f6806f"
+      ]
+    },
+    {
+      "id": "daily-20261118-atlantic",
+      "url": "https://www.theatlantic.com/politics/2026/11/democrat-investigations-trump-allies/689484/",
+      "publisher": "The Atlantic",
+      "publication_date": "2026-11-18",
+      "accessed_on": "2026-11-18",
+      "description": "The Atlantic reports what records Representative Robert Garcia asked officials to preserve and describes White House counsel Will Scharf’s earlier warning.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "20c0ddff6da9c587cd7d8fa4"
+      ]
+    },
+    {
+      "id": "daily-20261118-akgo",
+      "url": "https://apnews.com/article/f1fd4d243bf764ec46ff94db4c792953",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-17",
+      "accessed_on": "2026-11-18",
+      "description": "AP called Alaska’s Senate race for Mary Peltola, bringing the Democrats’ projected majority to 56 seats. It also reported the Democratic win in the governor’s race.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "c64365c10893e007aea63855"
+      ]
+    },
+    {
+      "id": "daily-20261118-iran",
+      "url": "https://au.investing.com/news/commodities-news/iran-attacks-us-military-radar-system-in-bahrain-despite-talks-with-mediators-4776828",
+      "publisher": "Reuters",
+      "publication_date": "2026-11-17",
+      "accessed_on": "2026-11-18",
+      "description": "Reuters cites a U.S. military official speaking anonymously about the strike on Qeshm Island and reports that Qatar and Oman continued talks with Iran.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "d9440b8def433fd8d21db8e3"
+      ]
+    },
+    {
+      "id": "daily-20261118-kuwait",
+      "url": "https://apnews.com/article/b1f0b530cffe951e6fcc1e27b2e1af94",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-18",
+      "accessed_on": "2026-11-18",
+      "description": "Reports November 18 Kuwait and Bahrain attacks after U.S. strike on Qeshm, with initial limits on damage information.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "c02abbde59e3fcd7dffb36ce"
+      ]
+    },
+    {
+      "id": "daily-20261118-desantis",
+      "url": "https://abcnews.com/Politics/everybodys-shell-shocked-republican-operatives-face-2028-prospects/story?id=138117916",
+      "publisher": "ABC News",
+      "publication_date": "2026-11-16",
+      "accessed_on": "2026-11-18",
+      "description": "November 16 interviews show Republican strategists stressed affordability and White House defended Trump’s record.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "5c9a7888ba03e46ab0391d0a"
       ]
     }
   ],
@@ -25553,6 +25625,362 @@
               "event_ids": [
                 "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
                 "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2026-11-18-daily",
+        "date": "2026-11-18",
+        "run_id": "2026-11-18",
+        "type": "daily_review",
+        "summary": "The November 16 weekly estimates carry forward for the eight authorized candidates. A House records request puts Vance’s handling of the Epstein files under potential scrutiny. The renewed exchange of strikes with Iran keeps the war in the debate about why Republicans lost and what they should change.",
+        "probabilities_pct": {
+          "jd_vance": 31.15,
+          "marco_rubio": 11.05,
+          "ron_desantis": 18.55,
+          "ted_cruz": 8.4,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 estimate under the weekly schedule. Vance’s Republican fundraising relationships still give him a way to recruit. Garcia’s request for White House meeting records gives lawmakers a specific way to examine Vance’s decisions about the Epstein files. There is no measured change in primary support.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_20261116_vance",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance has Republican fundraising relationships and has publicly questioned the war’s electoral cost. Trump’s domestic assignment limits Vance’s ability to deliver a diplomatic result. The Kuwait complaint gives his argument about the costs of the war a new subject while risking a public dispute with Trump.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance can recruit through relationships built in office. His White House role also gives investigators a concrete basis for asking about his part in decisions on the Epstein files.",
+                "event_ids": [
+                  "mid-2026-11-18-garcia-requests-records-preservation"
+                ],
+                "source_ids": [
+                  "daily-20261118-garcia",
+                  "daily-20261118-atlantic"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. Rubio defended the decision to go to war and could still benefit if diplomacy succeeds. Questions about how troops were protected make it harder to rely on the administration’s record alone. His personal role in decisions on base defenses remains unestablished.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio defended the decision to go to war and could still benefit if diplomacy succeeds. Questions about how troops were protected make it harder to rely on the administration’s record alone. His personal role in decisions on base defenses remains unestablished.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. DeSantis can point to his Florida governing record and campaign infrastructure. His reported option of waiting until 2032 leaves rivals time to recruit.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. Stephen Moore’s account of Cruz’s plans and Cruz’s Iowa experience give him a credible route to recruit while rivals wait. Named hires and evidence of wider support remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. McEntee’s prior Trump staffing work gives him a case for managing appointments. Evidence that he can recruit presidential organizers and win delegates remains limited.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2",
+              "weekly-20261116-mcentee",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. Paul can use his Senate platform and past campaign ties to argue for ending the war and improving accountability. The Kuwait complaint makes troop protection a more concrete issue, but voter response to his argument remains unknown.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "weekly-20261116-paul",
+              "weekly-20261116-reuters",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs"
+            ],
+            "event_ids": [
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Paul can use his Senate platform and past campaign ties to argue for ending the war and improving accountability. The Kuwait complaint makes troop protection a more concrete issue, but voter response to his argument remains unknown.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. Kemp can point to victories in difficult Georgia elections. A sustained presidential operation outside Georgia remains unverified.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief",
+              "weekly-20261116-kemp",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held at the November 16 weekly estimate. Massie used House procedure to force a vote on the Hegseth resolution. The Kuwait complaint gives lawmakers a separate subject for oversight. His ability to turn congressional visibility into Republican campaign organization remains uncertain.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "weekly-20261116-massie",
+              "weekly-20261116-reuters",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Massie used House procedure to force a vote on the Hegseth resolution. The Kuwait complaint gives lawmakers a separate subject for oversight. His ability to turn congressional visibility into Republican campaign organization remains uncertain.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "Direct committee letters to Vance and Guilfoyle could not be read. New primary polling, organizer or donor commitments, and Republican responses to the November 18 letters remain unverified. These developments can make the November 16 estimates stale if they change who can recruit or mobilize support."
+        ],
+        "wargame_ref": "2026-11-16-weekly",
+        "monitoring": {
+          "summary": "All nine tests were checked for deadlines. The earliest closes February 1, 2027. Garcia’s preservation letters are interim evidence for the congressional accountability test. Subpoenas, findings and removal remain open.",
+          "prediction_updates": [],
+          "developments": [
+            {
+              "finding": "Representative Robert Garcia asks Vance and other Trump officials to keep records for House inquiries.",
+              "implication": "Vance’s White House relationships help him recruit. The records request also gives investigators a specific way to question his decisions. Massie can point to his separate effort to widen access to the files. Organizers’ and voters’ responses remain unknown.",
+              "weekly_question": "Check whether the vice president answers the request, whether a rival presses him about the meetings, and whether any Republican organizers or endorsers respond. Separate calls for disclosure from support for a candidate.",
+              "source_ids": [
+                "daily-20261118-garcia",
+                "daily-20261118-atlantic"
+              ],
+              "event_ids": [
+                "mid-2026-11-18-garcia-requests-records-preservation",
+                "eps-2026-11-11-massie-epstein-petition-threshold"
+              ]
+            },
+            {
+              "finding": "U.S. and Iranian forces exchanged strikes while Qatar and Oman continued talks.",
+              "implication": "Vance and other war critics have a concrete example to raise. Rubio and officials defending pressure can point to the U.S. response and ongoing mediation. The exchange gives neither side evidence that Republican primary voters have switched candidates.",
+              "weekly_question": "Compare which candidate can credibly protect troops and help end the fighting, and whether voters who support Trump also want a change in the conduct of the war. Seek direct questions on the next policy decision and named organizing commitments.",
+              "source_ids": [
+                "daily-20261118-iran",
+                "daily-20261118-kuwait"
+              ],
+              "event_ids": [
+                "irn-2026-11-17-us-strikes-qeshm-after-bahrain-radar-attack",
+                "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain"
               ]
             }
           ]

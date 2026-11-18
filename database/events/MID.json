@@ -2778,6 +2778,53 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The reported instruction addresses clearance for testimony. No specific witness refusal or change in Congress’s formal powers was verified."
+    },
+    {
+      "id": "mid-2026-11-17-peltola-alaska-senate-call",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Associated Press",
+      "text": "Associated Press calls Alaska’s Senate race for Mary Peltola, projecting 56 Democratic seats",
+      "context": "The Associated Press called the last unresolved Senate contest after Democrat Mary Peltola passed 50 percent of first-choice votes in Alaska’s unofficial count. Republican Senator Dan Sullivan trailed. AP also reported Democrat Jonathan Kreiss-Tomkins won the governor’s race.",
+      "source": "https://apnews.com/article/a2aa5e50cd22783b6f539a576c75aeb3",
+      "url": "https://apnews.com/article/a2aa5e50cd22783b6f539a576c75aeb3",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: An additional Democratic senator increases the majority’s room to manage ordinary Senate business. With all senators present, conviction would still require at least 11 Republican votes if all 56 Democrats voted to convict.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The projection concerns seats in the incoming Congress. It does not establish how senators will vote on a particular measure."
+    },
+    {
+      "id": "mid-2026-11-18-garcia-requests-records-preservation",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "EPS",
+        "IMM",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Robert Garcia",
+      "text": "Representative Robert Garcia asks Vance and other Trump officials to keep records for House inquiries",
+      "context": "Garcia, the top Democrat on the House Oversight Committee, sent records-preservation letters ahead of the new Congress. The Atlantic reported that he sought records of White House meetings about releasing the Jeffrey Epstein files from Vice President JD Vance and former chief of staff Susie Wiles. Separate letters addressed Attorney General Todd Blanche’s handling of Ghislaine Maxwell’s interview and prison transfer, former Homeland Security Secretary Kristi Noem’s contracting and former Ambassador Kimberly Guilfoyle’s alleged financial arrangements.",
+      "source": "https://apnews.com/article/6cfa31f11051c52e567523e27ee5803e",
+      "url": "https://apnews.com/article/6cfa31f11051c52e567523e27ee5803e",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: Garcia is identifying witnesses and records before Democrats are expected to control the committee. His letters can help frame hearings and later subpoenas. They establish neither compelled production nor findings of misconduct.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The requests identify records and potential witnesses. Production, any subpoena and changes in officials’ authority remain open."
     }
   ]
 }

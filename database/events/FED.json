@@ -1393,6 +1393,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: direct faction impact remains unresolved."
+    },
+    {
+      "id": "fed-2026-11-17-cook-conditions-white-house-appearance",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "FED"
+      ],
+      "kind": "act",
+      "actor": "Lisa Cook",
+      "text": "Federal Reserve Governor Lisa Cook declines White House removal hearing unless procedures change",
+      "context": "Cook’s lawyer Abbe Lowell told White House counsel Will Scharf she would not appear under the current rules. He challenged the panel’s impartiality and the timetable for seeing evidence. Cook denies the mortgage allegations. Axios reported the hearing was set for December 14.",
+      "source": "https://www.cbsnews.com/news/lisa-cook-federal-reserve-white-house-hearing/",
+      "url": "https://www.cbsnews.com/news/lisa-cook-federal-reserve-white-house-hearing/",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: Cook is contesting how the panel will hear the case. A court order from the earlier removal effort keeps her in office. Trump’s panel could proceed in her absence, and any decision on removal could face another court challenge.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Cook remains on the Federal Reserve board. No change in a rate vote or in control of her seat was established."
     }
   ]
 }

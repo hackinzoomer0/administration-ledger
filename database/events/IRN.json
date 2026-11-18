@@ -3050,6 +3050,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The incident raises risks for bases and Gulf partners. Changes in U.S. decision authority or policy remain open."
+    },
+    {
+      "id": "irn-2026-11-17-us-strikes-qeshm-after-bahrain-radar-attack",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "United States and Iran",
+      "text": "U.S. strikes missile site on Iran’s Qeshm Island after Iran targets a radar installation in Bahrain",
+      "context": "Reuters attributed the U.S. strike on Qeshm Island to a U.S. military official speaking anonymously. Iran’s Revolutionary Guard claimed the radar attack. Bahrain said it intercepted the attack. Qatar and Oman continued separate contacts with Iran.",
+      "source": "https://au.investing.com/news/commodities-news/iran-attacks-us-military-radar-system-in-bahrain-despite-talks-with-mediators-4776828",
+      "url": "https://au.investing.com/news/commodities-news/iran-attacks-us-military-radar-system-in-bahrain-despite-talks-with-mediators-4776828",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: The exchange shows Washington used military force while Gulf mediators kept talking. It leaves open whether the United States will carry out further strikes or give mediators terms for a settlement.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: A U.S. military response was reported. The source does not establish which adviser shaped the decision."
+    },
+    {
+      "id": "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Iran",
+      "text": "Iran targets an air base in Kuwait and sites in Bahrain after the U.S. strike on Qeshm",
+      "context": "The Associated Press reported new attacks early November 18 on a Kuwait air base used by U.S. forces and sites in Bahrain. The U.S. military had yet to respond to the Associated Press’s inquiry. Initial accounts leave the extent of damage open.",
+      "source": "https://apnews.com/article/b1f0b530cffe951e6fcc1e27b2e1af94",
+      "url": "https://apnews.com/article/b1f0b530cffe951e6fcc1e27b2e1af94",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The attacks put protection of Gulf bases back before the Pentagon and its regional partners. They are separate from the March attack that prompted a congressional request for records on troop protection.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The attacks establish renewed threats to bases. The U.S. response and any change in regional access remain open."
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-17",
-  "last_substantive_change": "2026-11-17",
+  "research_as_of": "2026-11-18",
+  "last_substantive_change": "2026-11-18",
   "review": {
-    "date": "2026-11-17",
-    "run_id": "2026-11-17",
+    "date": "2026-11-18",
+    "run_id": "2026-11-18",
     "type": "daily_review",
-    "scope": "Focused review of troop protection and the response to CBS, Iran diplomacy and military operations, congressional proceedings, election and party leadership, asylum litigation and chip rules. Venezuela’s closing agreement, the Russia–Ukraine prisoner handover and several court and government decisions remain unverified."
+    "scope": "Focused review of the Alaska election calls, incoming congressional oversight, Iran operations, Lisa Cook’s hearing, chip enforcement, Ukraine military assistance and U.S.–Thailand trade talks. The Alaska final count, House leadership votes, homeland security hearing, Venezuela election agreement and several court and diplomatic outcomes remain open."
   },
   "administration": {
-    "headline": "Senator Richard Blumenthal asks Pete Hegseth how the Pentagon protected troops at a Kuwait post",
-    "summary": "Democrats are projected to control both chambers of Congress in January. Senator Richard Blumenthal asked Defense Secretary Pete Hegseth for a classified briefing and records on defenses at the Kuwait post where six U.S. soldiers died. A survivor says Army leaders dismissed warnings. Trump disputed CBS coverage and defended the military. His response ties his own credibility to the Pentagon’s account of how well it protected troops. The House previously sent a separate bid to impeach Hegseth to committee. White House counsel Will Scharf also reportedly instructed agencies to obtain White House approval before employees agree to testify in Congress. That gives Trump’s staff a way to delay or shape voluntary testimony. Abroad, Bahrain said it intercepted Iranian drones and Pakistan’s foreign minister says he is waiting for a U.S. reply to Iranian proposals. At home, the Supreme Court agreed to hear Trump’s asylum case and the Federal Register scheduled publication of Commerce’s chip licensing rule. Republican National Committee members will decide in January whether to retain Trump-backed chair Joe Gruters or elect his deputy, KC Crosbie. Alaska’s final tabulation, Venezuela’s election talks and several court and oversight outcomes still need follow-up.",
+    "headline": "Democrats are projected to hold 56 Senate seats as Robert Garcia prepares House inquiries into Trump’s administration",
+    "summary": "The Associated Press called Alaska’s Senate race for Democrat Mary Peltola. Democrats are projected to control both chambers in January, when they can decide which hearings and legislation to schedule. Representative Robert Garcia, the top Democrat on the House Oversight Committee, has asked Vice President JD Vance and other officials to keep records for inquiries into the Epstein files, immigration enforcement and potential financial conflicts. The letters give Democrats a way to identify records and witnesses. White House counsel Will Scharf had warned Garcia against inquiries he considers abusive, and a reported White House instruction could delay voluntary agency testimony. In the Gulf, the United States struck an Iranian missile site after Iran targeted a U.S. radar installation in Bahrain, and Iran later attacked sites in Kuwait and Bahrain. Qatar and Oman continued talking to Iran. Federal Reserve Governor Lisa Cook challenged the terms of the White House hearing on her removal. In Europe, Britain and Germany defended Ukraine’s long-range strikes after the Pentagon urged a focus on front-line support. The next House leadership votes, the Alaska final count and the outcome of Venezuela’s election talks remain open.",
     "contests": [
       {
         "id": "white-house-access",
@@ -40,18 +40,18 @@
       {
         "id": "iran-decision",
         "issue_id": "IRN",
-        "title": "Trump redirects Vance from Iran talks and says the United States does not need a deal",
+        "title": "The United States strikes an Iranian missile site while Gulf countries keep talks open",
         "status": "contested",
-        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. The attacks add pressure to protect bases and keep Gulf partners engaged while the United States weighs its reply.",
+        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. U.S. forces struck an Iranian missile site, and Iran attacked Gulf bases again. Qatar and Oman continued diplomatic contacts, while Washington’s terms for an agreement remain unclear.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Bahrain’s November 15 account shows renewed threats to military facilities in the Gulf. CBS also reported that a U.S. military official confirmed a third carrier in the region during a rotation.",
+        "change": "Reuters reported the U.S. military response on November 17. AP reported new Iranian attacks on a Kuwait air base and sites in Bahrain on November 18.",
         "basis": {
-          "actions": "Trump redirected Vance publicly on November 12. Qatar had previously sought terms, and Axios reported Rubio’s account of sustained pressure to allies.",
+          "actions": "Trump redirected Vance publicly on November 12. Qatar and Oman held contacts with Iran as U.S. and Iranian forces exchanged strikes.",
           "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
           "money": "Deal-Capital’s business exposure is relevant context, not proof of donor direction of negotiations."
         },
-        "watch": "Check for a U.S. reply to the mediators, any order changing operations, and confirmation of damage or interceptions after the latest reported attack.",
+        "watch": "Check damage assessments, new military orders, changes to base defenses and any U.S. reply to the mediators.",
         "event_ids": [
           "irn-2026-11-04-vance-postelection-war-critique",
           "irn-2026-11-05-trump-postelection-war-review",
@@ -61,7 +61,9 @@
           "irn-2026-11-12-trump-redirects-vance",
           "suc-2026-11-12-kennedy-challenges-vance-war-blame",
           "irn-2026-11-16-pakistan-awaits-us-iran-reply",
-          "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones"
+          "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones",
+          "irn-2026-11-17-us-strikes-qeshm-after-bahrain-radar-attack",
+          "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain"
         ],
         "faction_ids": [
           "vance",
@@ -69,8 +71,8 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-17",
-        "summary": "Bahrain says it intercepted Iranian drones while Pakistan says it awaits a U.S. reply. President Trump had assigned Vice President JD Vance to work on domestic issues."
+        "reviewed_at": "2026-11-18",
+        "summary": "The United States struck a missile site on Qeshm Island after Iran targeted a U.S. radar installation in Bahrain. Qatar and Oman continued contacts with Iran. The Pentagon faces renewed questions about defending bases after further attacks."
       },
       {
         "id": "succession-control",
@@ -108,44 +110,45 @@
       {
         "id": "fed-governance",
         "issue_id": "FED",
-        "title": "Trump’s attempt to remove Lisa Cook faces legal challenges",
+        "title": "Federal Reserve Governor Lisa Cook challenges the terms of the White House hearing on her removal",
         "status": "pending",
         "assessment": "Trump’s effort to remove Cook could affect who serves on the Federal Reserve’s governing board. Courts and the required hearing process limit how that effort proceeds. Interest-rate decisions still belong to the Federal Open Market Committee, which includes Federal Reserve governors and regional bank presidents.",
         "authority": "The Federal Open Market Committee votes on interest rates. The dispute over Cook’s removal involves the president, the courts and the procedures required by law.",
         "leverage": "White House officials can press for a change in Fed leadership or lower rates. Treasury officials can advise on the market consequences, but neither group can simply order the committee to change its rate vote.",
-        "change": "The Supreme Court refused in June to lift the order that kept Cook in office while the case proceeds. A later White House hearing was delayed. A new ruling or completed hearing remains unverified.",
+        "change": "Axios reported a December 14 hearing date. Cook’s lawyer told White House counsel she objects to the panel and evidence rules. A court order from the earlier removal effort remains in place.",
         "basis": {
-          "actions": "The hearing was delayed; the later filing addressed scheduling and participation.",
+          "actions": "Cook’s lawyer set out her objections in a letter obtained by CBS News. The Supreme Court had kept the order protecting her seat in place while litigation continues.",
           "positions": "Calls for lower rates do not establish a changed vote or removal.",
           "money": "Market exposure can explain interests; no payment causing a rate decision is established."
         },
-        "watch": "Check the hearing date, court orders, any final removal decision and the committee’s actual rate votes.",
+        "watch": "Check whether the White House changes the panel or evidence rules, holds the hearing without Cook, or issues a decision on her office.",
         "event_ids": [
-          "fed-2026-10-30-cook-hearing-delay"
+          "fed-2026-10-30-cook-hearing-delay",
+          "fed-2026-11-17-cook-conditions-white-house-appearance"
         ],
         "faction_ids": [
           "treasury",
           "maximalists"
         ],
-        "reviewed_at": "2026-11-07",
-        "summary": "Federal Reserve Governor Lisa Cook remained in office under a court order while Trump pursued a separate White House inquiry. The hearing date and any decision to remove her remain open."
+        "reviewed_at": "2026-11-18",
+        "summary": "Lisa Cook remains on the Federal Reserve board. Her lawyer says she will appear before Trump’s panel only if the White House addresses objections about its members and access to evidence."
       },
       {
         "id": "justice-department-control",
         "issue_id": "MID",
         "title": "Congress presses for Epstein records as the White House challenges planned investigations",
         "status": "contested",
-        "summary": "Massie’s petition gives House members a way to seek a vote on access to Epstein records. White House counsel warned Representative Robert Garcia over planned investigations. Garcia pledged to proceed. A reported White House memo puts decisions about voluntary testimony before two White House offices.",
-        "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first. The clearance requirement could delay voluntary appearances. Its effect on a subpoena or a specific witness remains open.",
+        "summary": "Representative Robert Garcia asked Vice President JD Vance and Attorney General Todd Blanche, among others, to keep records for future House inquiries. Representative Thomas Massie is separately seeking a floor vote on his Epstein records bill.",
+        "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first. The clearance requirement could delay voluntary appearances. Its effect on a subpoena or a specific witness remains open. Garcia’s November 18 letters specify which records he wants preserved before the new Congress. Recipients’ replies and any evidence of compliance remain open.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
-        "change": "News outlets reported that White House counsel Will Scharf told agencies to obtain clearance from his office and the White House legislative affairs office before an employee agrees to testify to Congress.",
+        "change": "Garcia’s letters identify witnesses and records across several planned inquiries. They ask recipients to preserve evidence ahead of January committee control. The White House can still review voluntary agency testimony.",
         "basis": {
           "actions": "The House clerk recorded 218 signatures. The Associated Press reported the White House warning and Garcia’s public reply.",
           "positions": "The White House defended its prior release of records. Garcia says Congress will exercise its oversight authority.",
           "money": "The White House warning and the petition do not establish that a financial relationship drove a particular records decision."
         },
-        "watch": "Check for a floor motion, the actual roll call and how Blanche responds to a specific request from a committee or court. Check whether an agency delays, limits or declines an appearance after seeking White House clearance.",
+        "watch": "Look for responses from the recipients, formal committee assignments, subpoenas or a House vote on Massie’s bill.",
         "event_ids": [
           "mid-2026-11-06-doj-departures",
           "mid-2026-11-08-blanche-oversight-defense",
@@ -155,12 +158,14 @@
           "mid-2026-11-11-white-house-oversight-warning",
           "mid-2026-11-11-blumenthal-reitz-preservation",
           "mid-2026-11-16-reitz-warren-preservation",
-          "mid-2026-11-16-scharf-testimony-clearance"
+          "mid-2026-11-16-scharf-testimony-clearance",
+          "mid-2026-11-18-garcia-requests-records-preservation",
+          "mid-2026-11-17-peltola-alaska-senate-call"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-17"
+        "reviewed_at": "2026-11-18"
       },
       {
         "id": "hegseth-house-referral",
@@ -177,13 +182,14 @@
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
           "money": "The available evidence establishes how members voted."
         },
-        "watch": "Check whether the Pentagon supplies records or briefs senators, and whether House Judiciary schedules action on the separate impeachment articles.",
+        "watch": "Check whether the Pentagon supplies records or briefs senators, and whether House Judiciary schedules action on the separate impeachment articles. Check separately for reports on the November attacks and steps to protect bases against further strikes.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
           "mid-2026-11-10-republican-leadership-results",
           "mid-2026-11-13-democrats-criticize-floor-preparation",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
-          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain"
         ],
         "faction_ids": [
           "pentagon",
@@ -196,8 +202,8 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vice President JD Vance leads the Republican nomination forecast. Reuters reported that Texas Senator Ted Cruz has started preparing for a 2028 run, giving him time to recruit while Vance and Florida Governor Ron DeSantis weigh when to decide. Their prospects depend in part on whether Republican voters want a change in the approach to the Iran war and rising household costs. The November 16 estimates carry forward. The dispute over troop protection puts new pressure on candidates who defend the administration’s handling of the war and gives its critics a specific subject to raise.",
-    "snapshot_id": "2026-11-17-daily",
+    "summary": "Vice President JD Vance leads the November 16 forecast. His fundraising and activist relationships could help him recruit while Texas Senator Ted Cruz prepares for a run. The latest Iran attacks renew arguments about how to protect troops and end the war. Representative Robert Garcia’s request for meeting records could also make Vance answer publicly for his part in White House decisions about the Epstein files. Neither development establishes a change in Republican primary support.",
+    "snapshot_id": "2026-11-18-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -205,7 +211,7 @@
         "path": "Axios reports that Vance may wait until spring to declare. His advisers can still recruit quietly, but Cruz can offer early-state activists work sooner.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "Vance can use a domestic assignment to speak to Republican voters about crime and government conduct if he is given a role with visible results.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Vance can limit that cost by retaining donors and organizers. Trump has redirected him to domestic work, reducing his ability to deliver an Iran agreement. If Vance takes up the complaint about defenses in Kuwait, he may have to challenge Trump’s public defense of the Pentagon.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response remain unclear.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -221,7 +227,8 @@
           "mid-2026-11-15-gruters-defends-rnc-spending",
           "suc-2026-11-16-cruz-prepares-presidential-run",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
-          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "mid-2026-11-18-garcia-requests-records-preservation"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -241,9 +248,11 @@
           "daily_20261116_rnc",
           "weekly-20261116-poll",
           "daily-20261117-kuwait-complaint",
-          "daily-20261117-trump-cbs"
+          "daily-20261117-trump-cbs",
+          "daily-20261118-garcia",
+          "daily-20261118-atlantic"
         ],
-        "reviewed_at": "2026-11-17"
+        "reviewed_at": "2026-11-18"
       },
       {
         "candidate_id": "marco_rubio",
@@ -546,6 +555,19 @@
         "eps-2026-11-11-massie-epstein-petition-threshold"
       ],
       "faction_ids": [
+        "dissenters"
+      ]
+    },
+    {
+      "id": "garcia-vance-records",
+      "title": "Representative Robert Garcia seeks JD Vance’s records on White House meetings about the Epstein files",
+      "assessment": "As vice president, JD Vance was in a position to weigh in on the White House response to calls for the Epstein files. Representative Robert Garcia’s request gives House investigators a way to ask what Vance actually did. If Republican organizers press for answers, Vance may have to explain his own part in the administration’s decisions. The records and voter response remain open.",
+      "event_ids": [
+        "mid-2026-11-18-garcia-requests-records-preservation",
+        "eps-2026-11-11-massie-epstein-petition-threshold"
+      ],
+      "faction_ids": [
+        "vance",
         "dissenters"
       ]
     }

@@ -1280,6 +1280,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "tar-2026-11-17-us-thailand-trade-negotiations",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump and Anutin Charnvirakul",
+      "text": "Trump and Thai Prime Minister Anutin Charnvirakul say trade talks are nearly complete",
+      "context": "The White House said both leaders confirmed that negotiations on a reciprocal trade agreement had substantially concluded at a meeting in Manila.",
+      "source": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The announcement gives the two governments a basis to finish the agreement. Actual changes to import duties or access depend on final terms and implementation.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The negotiating announcement leaves actual tariff rates and the terms of market access to later implementation."
     }
   ]
 }

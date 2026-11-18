@@ -1583,6 +1583,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Evidence supports the specific decision or response. A broader faction outcome remains open."
+    },
+    {
+      "id": "rus-2026-11-17-colby-and-allies-dispute-ukraine-deep-strikes",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "Elbridge Colby",
+      "text": "Pentagon official Elbridge Colby urges Ukraine’s backers to prioritize front-line equipment",
+      "context": "At a meeting of governments providing arms to Ukraine, Colby argued that strikes deep inside Russia had failed to slow Russian forces or end the war. German Defense Minister Boris Pistorius and British Defense Secretary Wes Streeting defended Ukraine’s use of long-range strikes.",
+      "source": "https://apnews.com/article/e570c549277a14f97ad24319f2f1bf7e",
+      "url": "https://apnews.com/article/e570c549277a14f97ad24319f2f1bf7e",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: The public disagreement shows Britain and Germany are willing to dispute U.S. advice in the group that coordinates arms for Ukraine. Future pledges and deliveries will show whether they act on that disagreement.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Allied officials disputed the U.S. recommendation publicly. They have yet to show whether their arms commitments will change."
     }
   ]
 }

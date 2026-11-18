@@ -1845,6 +1845,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The letter sets an oversight agenda. Commerce’s response and enforcement decisions remain open."
+    },
+    {
+      "id": "ai-2026-11-17-agencies-describe-megaspeed-investigation",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Departments of Commerce and Justice",
+      "text": "Commerce and Justice describe their chip investigation as Representative Brian Mast asks for records",
+      "context": "The departments said Commerce opened the probe in 2024 and inspected Singaporean firm Megaspeed with Singaporean authorities in June 2025. They said Nvidia put Megaspeed on its list of companies barred from buying its products that month and Justice later took the lead in the criminal investigation. House Foreign Affairs Chair Brian Mast separately requested licensing and enforcement information from Commerce.",
+      "source": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation",
+      "url": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The agencies have offered a timeline that Congress can test against records of licenses, inspections and referrals. The statement leaves the scale of any diversion and individual responsibility open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The statement gives Commerce and Justice a public defense. Its effect on enforcement and support for either secretary remains open."
+    },
+    {
+      "id": "ai-2026-11-17-huang-teter-house-interviews",
+      "date": "2026-11-17",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Jensen Huang and Tim Teter",
+      "text": "Former Nvidia CEO Jensen Huang and company lawyer Tim Teter agree to House interviews",
+      "context": "Three House committees announced that Huang would appear December 1 and Nvidia General Counsel Tim Teter December 2. Both agreed to transcribed interviews about whether advanced chips reached buyers barred from receiving them and Nvidia’s dealings with Megaspeed.",
+      "source": "https://foreignaffairs.house.gov/news/press-releases/jensen-huang-and-nvidia-agree-to-appear-before-congress",
+      "url": "https://foreignaffairs.house.gov/news/press-releases/jensen-huang-and-nvidia-agree-to-appear-before-congress",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Lawmakers can question the former executive and company counsel about decisions and records. An agreed interview does not establish attendance, answers or a finding of wrongdoing.",
+      "origin": "daily shared intake",
+      "added": "2026-11-18",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The committees gained scheduled interviews. Attendance, answers and any consequence for chip policy remain open."
     }
   ]
 }
