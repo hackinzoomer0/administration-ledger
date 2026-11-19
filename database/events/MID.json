@@ -2814,10 +2814,10 @@
       "kind": "act",
       "actor": "Robert Garcia",
       "text": "Representative Robert Garcia asks Vance and other Trump officials to keep records for House inquiries",
-      "context": "Garcia, the top Democrat on the House Oversight Committee, sent records-preservation letters ahead of the new Congress. The Atlantic reported that he sought records of White House meetings about releasing the Jeffrey Epstein files from Vice President JD Vance and former chief of staff Susie Wiles. Separate letters addressed Attorney General Todd Blanche’s handling of Ghislaine Maxwell’s interview and prison transfer, former Homeland Security Secretary Kristi Noem’s contracting and former Ambassador Kimberly Guilfoyle’s alleged financial arrangements.",
-      "source": "https://apnews.com/article/6cfa31f11051c52e567523e27ee5803e",
-      "url": "https://apnews.com/article/6cfa31f11051c52e567523e27ee5803e",
-      "tier": "reported",
+      "context": "Garcia, the top Democrat on the House Oversight Committee, sent records-preservation letters ahead of the new Congress. The Atlantic reported that he sought records of White House meetings about releasing the Jeffrey Epstein files from Vice President JD Vance and former chief of staff Susie Wiles. Separate letters addressed Attorney General Todd Blanche’s handling of Ghislaine Maxwell’s interview and prison transfer, former Homeland Security Secretary Kristi Noem’s contracting and former Ambassador Kimberly Guilfoyle’s alleged financial arrangements. Garcia’s letter to Guilfoyle asks her to preserve records and respond to earlier inquiries. The letter leaves open whether her former producer Drew Lynch supplied the records Garcia requested separately.",
+      "source": "https://oversightdemocrats.house.gov/news/press-releases/incoming-oversight-chairman-robert-garcia-launches-document-preservation-letters-on-trump-family-corruption-corporate-corruption-dhs-misconduct-and-epstein-cover-up",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/incoming-oversight-chairman-robert-garcia-launches-document-preservation-letters-on-trump-family-corruption-corporate-corruption-dhs-misconduct-and-epstein-cover-up",
+      "tier": "documented",
       "weight": 4,
       "rationale": "My reading: Garcia is identifying witnesses and records before Democrats are expected to control the committee. His letters can help frame hearings and later subpoenas. They establish neither compelled production nor findings of misconduct.",
       "origin": "daily shared intake",
@@ -2825,6 +2825,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The requests identify records and potential witnesses. Production, any subpoena and changes in officials’ authority remain open."
+    },
+    {
+      "id": "mid-2026-11-18-democrats-nominate-jeffries",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Hakeem Jeffries",
+      "text": "House Democrats nominate Hakeem Jeffries for speaker and choose Katherine Clark as leader and Pete Aguilar as whip",
+      "context": "Democrats chose Jeffries for speaker, Clark for majority leader and Aguilar for majority whip in the incoming Congress. The three used their November 18 press conference to put prices, health care and oversight on their agenda.",
+      "source": "https://jeffries.house.gov/2026/11/18/speaker-designate-jeffries-were-committed-to-delivering-the-change-that-the-american-people-deserve/",
+      "url": "https://jeffries.house.gov/2026/11/18/speaker-designate-jeffries-were-committed-to-delivering-the-change-that-the-american-people-deserve/",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The caucus choice gives Jeffries a clearer path to set the House calendar in January. The full House still has to elect a speaker, and committee assignments and hearing dates remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The caucus choice gives Jeffries a clearer path to set the House calendar in January. The full House still has to elect a speaker, and committee assignments and hearing dates remain open."
+    },
+    {
+      "id": "mid-2026-11-18-house-leaders-criticize-patel-absence",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Andrew Garbarino and Bennie Thompson",
+      "text": "House Homeland Security leaders criticize FBI Director Kash Patel for missing a threats hearing",
+      "context": "The Daily Beast reported that Republican committee chair Andrew Garbarino and senior Democrat Bennie Thompson criticized Patel for missing the November 18 hearing. Homeland Security Secretary Markwayne Mullin, FBI Deputy Director Christopher Raia and Director of National Intelligence Jay Clayton appeared.",
+      "source": "https://www.thedailybeast.com/keystone-kash-ripped-for-skipping-testimony-amid-cyber-chaos",
+      "url": "https://www.thedailybeast.com/keystone-kash-ripped-for-skipping-testimony-amid-cyber-chaos",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: Lawmakers heard from other officials but could not question Patel directly. Criticism from the Republican chair makes it harder for Patel to dismiss the dispute as partisan. A later appearance, compulsory process or any change in support for his removal remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Lawmakers heard from other officials but could not question Patel directly. Criticism from the Republican chair makes it harder for Patel to dismiss the dispute as partisan. A later appearance, compulsory process or any change in support for his removal remains open."
     }
   ]
 }

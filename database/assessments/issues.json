@@ -1,7 +1,7 @@
 {
   "AI": {
-    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The Federal Register scheduled publication for November 19. The rule is set to take effect on publication. The Pentagon continues to seek broad permission to use AI for military purposes.",
-    "dispute": "Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Huang had publicly backed AI models that developers can download and run themselves. Kress and the board can continue supporting those models through funding and releases. Meanwhile, Commerce’s newly released rule would let regulators check who rents computing power abroad. Commerce and Justice publicly described their Megaspeed investigation, including a 2025 site visit with Singaporean authorities. Representative Brian Mast requested licensing and enforcement records from Commerce. Three House committees scheduled interviews with former Nvidia chief executive Jensen Huang and company counsel Tim Teter. Findings about whether chips reached buyers barred from receiving them, new penalties and Nvidia’s funding or release decisions for downloadable models remain open. In Minneapolis, council members voted for project-by-project review of data centers. The mayor’s decision and the electricity supply for individual projects remain separate questions. Commerce credited Treasury and the National Security Council with writing the rule. Commerce is responsible for administering it.",
+    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The Federal Register published the rule on November 19, and it took effect that day. The Pentagon continues to seek broad permission to use AI for military purposes.",
+    "dispute": "Nvidia’s board named Colette Kress interim chief executive after Jensen Huang resigned. Huang had publicly backed AI models that developers can download and run themselves. Kress and the board can continue supporting those models through funding and releases. Meanwhile, Commerce’s rule now lets regulators check who rents computing power abroad. Commerce and Justice publicly described their Megaspeed investigation, including a 2025 site visit with Singaporean authorities. Representative Brian Mast requested licensing and enforcement records from Commerce. Three House committees scheduled interviews with former Nvidia chief executive Jensen Huang and company counsel Tim Teter. Findings about whether chips reached buyers barred from receiving them, new penalties and Nvidia’s funding or release decisions for downloadable models remain open. In Minneapolis, council members voted for project-by-project review of data centers. The mayor’s decision and the electricity supply for individual projects remain separate questions. Commerce credited Treasury and the National Security Council with writing the rule. Commerce is responsible for administering it.",
     "player_ids": [
       "lutnick",
       "witkoff",
@@ -124,8 +124,8 @@
       "ai-2026-11-17-agencies-describe-megaspeed-investigation",
       "ai-2026-11-17-huang-teter-house-interviews"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Read the departments’ account and the House committee releases. Check the scheduled November 19 rule publication, December witness appearances and actual licensing decisions.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed the effective rule and Singapore’s response. Other findings carry forward.",
     "actors": [
       {
         "person_id": "lutnick",
@@ -217,7 +217,7 @@
   },
   "EPS": {
     "policy": "The Justice Department has released some Epstein records and says it fulfilled its legal obligation. A new House bill would let survivors, state prosecutors and lawmakers sue for records they believe the department unlawfully withheld.",
-    "dispute": "Survivors and lawmakers dispute the completeness and handling of the records. Massie has secured enough signatures to seek a floor vote. The White House defends the administration’s existing disclosures. Representative Robert Garcia asked Vice President JD Vance and former chief of staff Susie Wiles for records about White House meetings on the files and asked Attorney General Todd Blanche to preserve records concerning Ghislaine Maxwell’s interview and transfer. A subpoena could compel a response. Production would show whether investigators obtained the records.",
+    "dispute": "Survivors and lawmakers dispute the completeness and handling of the records. Massie has secured enough signatures to seek a floor vote. The White House defends the administration’s existing disclosures. Representative Robert Garcia asked Vice President JD Vance and former chief of staff Susie Wiles for records about White House meetings on the files and asked Attorney General Todd Blanche to preserve records concerning Ghislaine Maxwell’s interview and transfer. A subpoena could compel a response. Production would show whether investigators obtained the records. Garcia published the letters. The November 18 House floor record does not establish a new vote on Massie’s bill.",
     "player_ids": [
       "blanche",
       "donald-trump",
@@ -310,10 +310,11 @@
       "eps-2026-10-26-judiciary-dems-report",
       "eps-2026-11-10-oversight-majority-report",
       "eps-2026-11-11-massie-epstein-petition-threshold",
-      "mid-2026-11-18-garcia-requests-records-preservation"
+      "mid-2026-11-18-garcia-requests-records-preservation",
+      "mid-2026-11-18-democrats-nominate-jeffries"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Reviewed independent accounts of Garcia’s letters and screened the November 17 House floor record. Direct access to the letter to Vance failed. A floor vote remains open.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed Garcia’s preservation letters and the November 18 House floor record. A later vote on Massie’s bill remains open.",
     "actors": [
       {
         "person_id": "blanche",
@@ -500,7 +501,7 @@
   },
   "IMM": {
     "policy": "The administration continues large-scale immigration enforcement and restrictions on visas and foreign labor. Courts have limited particular practices; the November 6 order temporarily protects the Afghan clients covered by that case, rather than granting nationwide relief. The Supreme Court’s November 9 stay temporarily removes the injunction blocking Big Bend border-wall construction; actual building and final judgment remain unverified.",
-    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Stephen Miller reportedly began as White House chief of staff November 9, giving him more control over staff and access to Trump. Representative Marlin Stutzman’s criticism shows Republican disagreement over Trump’s decision to promote him. No new deportation directive is established. The Supreme Court agreed to hear the challenge to Trump’s restrictions on asylum access at the southern border. The justices have yet to rule on presidential authority in that case. The administration has continued to enforce the restrictions while the lower court’s ruling is on hold. Representative Robert Garcia sent preservation requests involving White House chief of staff Stephen Miller and former Homeland Security Secretary Kristi Noem. Committee records could clarify responsibility for enforcement practices and contracts. The letters themselves leave the policies and contracts in place.",
+    "dispute": "Enforcement hardliners want more arrests and fewer admissions. Other Republicans question the methods, legal risks and electoral costs. These disagreements do not mean all critics favor less immigration enforcement. Trump’s November 6 interview, published November 8, raised the possibility of an agreement covering some workers without legal status. That changes his public signal, not their legal protection or an enforcement instruction. Stephen Miller reportedly began as White House chief of staff November 9, giving him more control over staff and access to Trump. Representative Marlin Stutzman’s criticism shows Republican disagreement over Trump’s decision to promote him. No new deportation directive is established. The Supreme Court agreed to hear the challenge to Trump’s restrictions on asylum access at the southern border. The justices have yet to rule on presidential authority in that case. The administration has continued to enforce the restrictions while the lower court’s ruling is on hold. Representative Robert Garcia sent preservation requests involving White House chief of staff Stephen Miller and former Homeland Security Secretary Kristi Noem. Committee records could clarify responsibility for enforcement practices and contracts. The letters themselves leave the policies and contracts in place. The Trump administration has asked the Supreme Court to pause lower-court relief for Venezuelans with Temporary Protected Status. A stay could affect their ability to work or remain in the country while the appeal proceeds. The Court’s response remains pending in the coverage reviewed.",
     "player_ids": [
       "miller",
       "wiles",
@@ -575,10 +576,11 @@
       "imm-2026-11-09-big-bend-stay",
       "mid-2026-11-06-miller-chief-staff",
       "imm-2026-11-13-supreme-court-takes-up-border-asylum-ban",
-      "mid-2026-11-18-garcia-requests-records-preservation"
+      "mid-2026-11-18-garcia-requests-records-preservation",
+      "imm-2026-11-18-administration-seeks-venezuela-tps-stay"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Reviewed Garcia’s reported requests on immigration enforcement and contracts and checked the House Homeland Security hearing calendar. Later court orders, Big Bend construction and hearing testimony were not verified.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed the application for a Supreme Court stay. The response, later Big Bend construction and Project Rousseau orders remain open.",
     "actors": [
       {
         "person_id": "miller",
@@ -631,7 +633,7 @@
   },
   "IRN": {
     "policy": "Trump has redirected Vance to domestic work and continues to put naval and economic pressure on Iran. U.S. forces struck a missile site on Qeshm Island after Iran targeted a radar installation in Bahrain. Qatar and Oman continued contacts with Iran.",
-    "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open. Pakistan’s foreign minister Ishaq Dar says his government is still mediating and is awaiting a U.S. reply. Washington’s next diplomatic lead remains unclear. A U.S. official told Reuters the strike on Qeshm was a response to attacks on U.S. personnel and assets. Further Iranian attacks put U.S. base protection and shipping back before Washington and its Gulf partners. Bahrain reported intercepting Iranian drones. A U.S. military official confirmed to CBS that a third carrier was in the region during a rotation. An Army whistleblower’s complaint and a senator’s records request also put the protection of U.S. troops before Congress.",
+    "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open. Pakistan’s foreign minister Ishaq Dar says his government is still mediating and is awaiting a U.S. reply. Washington’s next diplomatic lead remains unclear. A U.S. official told Reuters the strike on Qeshm was a response to attacks on U.S. personnel and assets. Further Iranian attacks put U.S. base protection and shipping back before Washington and its Gulf partners. Bahrain reported intercepting Iranian drones. A U.S. military official confirmed to CBS that a third carrier was in the region during a rotation. An Army whistleblower’s complaint and a senator’s records request also put the protection of U.S. troops before Congress. The November 19 Shenzhen declaration contains no terms for ending the Iran war. Axios reports Trump has heard competing advice about renewed major strikes. A new order remains unverified.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -764,10 +766,11 @@
       "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
       "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
       "irn-2026-11-17-us-strikes-qeshm-after-bahrain-radar-attack",
-      "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain"
+      "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain",
+      "rus-2026-11-19-trump-xi-putin-shenzhen-meeting"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Read Reuters and AP coverage of the November 17 and 18 attacks. U.S. terms for talks and the effects of the latest strikes remain open.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed the Shenzhen declaration and reporting on further attacks and U.S. policy. Basing decisions and mediator replies remain open.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -900,7 +903,7 @@
     ]
   },
   "MID": {
-    "policy": "Democrats are projected to control both chambers in January. The Associated Press called Alaska for Mary Peltola, bringing the projected Senate split to 56 Democrats and 44 Republicans.",
+    "policy": "Democrats are projected to control both chambers in January. House Democrats nominated Hakeem Jeffries for speaker and chose Katherine Clark and Pete Aguilar for their leadership team. The full House still has to elect a speaker.",
     "dispute": "Democrats are projected to take both chambers in January. The Kansas call keeps the governorship in Democratic hands. The Associated Press also reported that Democrat Jonathan Kreiss-Tomkins won Alaska’s governorship. State results remain unofficial. The Hegseth referral exposed disagreement over House Democrats’ floor preparation. Senator Richard Blumenthal and U.S. Attorney Aaron Reitz each sought preservation of records in a dispute over oversight of ballroom donations. Republican National Committee deputy KC Crosbie is challenging Trump-backed chair Joe Gruters. The January vote will determine who manages the party’s national fundraising and field operation. U.S. attorney Aaron Reitz has also sought records from Senator Elizabeth Warren about her congressional inquiries. Senator Richard Blumenthal requested records and a classified briefing on a March strike that killed six U.S. soldiers in Kuwait. The records could show who knew about the danger to troops before the attack. The Pentagon’s response remains open. A reported memo from White House counsel Will Scharf requires agencies to obtain White House approval before employees agree to testify. Congress retains its ability to seek records and use subpoenas. Representative Robert Garcia asked officials and Trump relatives to preserve records. His letters identify subjects for hearings and potential subpoenas after Democrats take over the House Oversight Committee. Replies and actual production remain open.",
     "player_ids": [
       "donald-trump",
@@ -1024,10 +1027,14 @@
       "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
       "mid-2026-11-16-scharf-testimony-clearance",
       "mid-2026-11-17-peltola-alaska-senate-call",
-      "mid-2026-11-18-garcia-requests-records-preservation"
+      "mid-2026-11-18-garcia-requests-records-preservation",
+      "mid-2026-11-18-democrats-nominate-jeffries",
+      "mid-2026-11-18-house-leaders-criticize-patel-absence",
+      "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+      "suc-2026-11-18-trump-praises-rubio-in-manila"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Reviewed Alaska’s unofficial-results index, AP’s calls, Garcia’s letters as described by two outlets, and the House floor record. Final count and committee assignments are open.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed House Democratic leadership, Alaska’s unofficial returns and the November 18 hearing. The full House vote, assignments and certification remain open.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1137,7 +1144,7 @@
   },
   "RUS": {
     "policy": "The United States continues to mediate and selectively ease sanctions. Ukraine and Russia announced a prisoner exchange agreement in principle. Transfer details and a wider settlement remain open.",
-    "dispute": "U.S. envoys met Putin and Zelenskyy after the Abu Dhabi talks and discussed a European role. Putin rejected a European troop deployment after a ceasefire. The announced prisoner agreement is still awaiting a verified transfer, and wider terms remain open. At a meeting of Ukraine’s military backers, Pentagon official Elbridge Colby urged the governments supplying arms to prioritize equipment for front-line combat. Britain and Germany defended Ukraine’s deep strikes, showing that Washington faces open opposition from governments that can make their own arms commitments.",
+    "dispute": "U.S. envoys met Putin and Zelenskyy after the Abu Dhabi talks and discussed a European role. Putin rejected a European troop deployment after a ceasefire. The announced prisoner agreement is still awaiting a verified transfer, and wider terms remain open. At a meeting of Ukraine’s military backers, Pentagon official Elbridge Colby urged the governments supplying arms to prioritize equipment for front-line combat. Britain and Germany defended Ukraine’s deep strikes, showing that Washington faces open opposition from governments that can make their own arms commitments. Trump, Xi and Putin met in Shenzhen and committed to further talks on nuclear risks. Their declaration contains no terms for ending the war in Ukraine.",
     "player_ids": [
       "witkoff",
       "kushner",
@@ -1230,10 +1237,11 @@
       "rus-2026-11-02-azov-resorts",
       "rus-2026-11-11-abu-dhabi-exchange-agreement",
       "rus-2026-11-12-us-envoys-moscow-dublin",
-      "rus-2026-11-17-colby-and-allies-dispute-ukraine-deep-strikes"
+      "rus-2026-11-17-colby-and-allies-dispute-ukraine-deep-strikes",
+      "rus-2026-11-19-trump-xi-putin-shenzhen-meeting"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Read the account of the Ukraine arms coordination meeting. The prisoner handover, later sanctions decisions and summit outcomes remain open.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed the Shenzhen declaration. A prisoner handover and new oil license remain open.",
     "actors": [
       {
         "person_id": "witkoff",
@@ -1326,7 +1334,7 @@
   },
   "SUC": {
     "policy": "Republicans have not selected a 2028 nominee. Vance has the strongest organization documented in this research, but Trump has not settled the succession and the final field remains uncertain.",
-    "dispute": "Trump redirected Vance from Iran talks after Vance blamed the war for Republican losses. Senator John Kennedy publicly disputed that explanation and Rubio had defended Trump’s initial decision. The political effect depends on whom Republican voters credit for changing policy or blame for the war, and on who can recruit campaign support. Axios reported that Vice President JD Vance could wait until late spring to announce his plans. People familiar with his thinking said the timetable predated the midterms. A challenge to Republican National Committee chair Joe Gruters puts the future leadership of a party organization where Vance has raised money up for a January vote. Representative Robert Garcia has asked Vance to preserve records about White House meetings on the Epstein files. Vance’s position inside the administration gives him relationships that could help a campaign and exposes his own handling of the files to questioning. Republican voters’ response is unclear.",
+    "dispute": "Trump redirected Vance from Iran talks after Vance blamed the war for Republican losses. Senator John Kennedy publicly disputed that explanation and Rubio had defended Trump’s initial decision. The political effect depends on whom Republican voters credit for changing policy or blame for the war, and on who can recruit campaign support. Axios reported that Vice President JD Vance could wait until late spring to announce his plans. People familiar with his thinking said the timetable predated the midterms. A challenge to Republican National Committee chair Joe Gruters puts the future leadership of a party organization where Vance has raised money up for a January vote. Representative Robert Garcia has asked Vance to preserve records about White House meetings on the Epstein files. Vance’s position inside the administration gives him relationships that could help a campaign and exposes his own handling of the files to questioning. Republican voters’ response is unclear. Vice President JD Vance and Michigan senator-elect Abdul El-Sayed are open to meeting after trading campaign attacks. Trump publicly praised Secretary of State Marco Rubio in Manila. These moves give both Republicans a way to make their case to voters while Trump’s endorsement remains open.",
     "player_ids": [
       "donald-trump",
       "vance",
@@ -1402,10 +1410,12 @@
       "suc-2026-11-15-vance-2028-timing-report",
       "mid-2026-11-15-gruters-defends-rnc-spending",
       "mid-2026-11-18-garcia-requests-records-preservation",
-      "mid-2026-11-17-peltola-alaska-senate-call"
+      "mid-2026-11-17-peltola-alaska-senate-call",
+      "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+      "suc-2026-11-18-trump-praises-rubio-in-manila"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Reviewed the Alaska election calls and reported records request to Vance. November 16 reporting on Republican strategists supplies context. Fresh donor commitments and early-state recruitment remain unverified.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed Vance’s outreach and Trump’s public praise of Rubio. Republican voter and organizer responses remain open.",
     "actors": [
       {
         "person_id": "donald-trump",
@@ -1484,7 +1494,7 @@
   },
   "TAR": {
     "policy": "The administration continues to impose tariffs, grant exemptions and defend its decisions in court. It uses several laws, including Section 301, which addresses unfair foreign trade practices, and Section 232, which concerns national-security threats from imports.",
-    "dispute": "Canada gave Stellantis 30 days to address claimed breaches of its funding agreement after the automaker shifted planned production to the United States. The notice concerns Canadian industrial funding. The U.S. tariff court challenges and any revised trade agreement remain open. Trump and Thai Prime Minister Anutin Charnvirakul announced that negotiations on a reciprocal agreement had substantially concluded. The announcement leaves implementation and any actual change in duties for later verification.",
+    "dispute": "Canada gave Stellantis 30 days to address claimed breaches of its funding agreement after the automaker shifted planned production to the United States. The notice concerns Canadian industrial funding. The U.S. tariff court challenges and any revised trade agreement remain open. Trump and Thai Prime Minister Anutin Charnvirakul announced that negotiations on a reciprocal agreement had substantially concluded. The announcement leaves implementation and any actual change in duties for later verification. The Shenzhen declaration states that the United States, China and Russia plan to increase refined fuel supplies. It leaves the steps and timing open.",
     "player_ids": [
       "bessent",
       "lutnick",
@@ -1569,10 +1579,11 @@
       "tar-2026-11-02-kaz-resources-listing",
       "tar-2026-11-02-automakers-china-ban",
       "tar-2026-11-12-canada-stellantis-notice",
-      "tar-2026-11-17-us-thailand-trade-negotiations"
+      "tar-2026-11-17-us-thailand-trade-negotiations",
+      "rus-2026-11-19-trump-xi-putin-shenzhen-meeting"
     ],
-    "research_as_of": "2026-11-18",
-    "scope": "Read the White House joint statement on talks with Thailand. Final terms, court decisions and other trade negotiations remain open.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed the Shenzhen declaration on fuel supply. Tariff litigation and implementation of trade agreements carry forward.",
     "actors": [
       {
         "person_id": "bessent",
@@ -1625,8 +1636,8 @@
     ]
   },
   "VEN": {
-    "policy": "The United States is backing negotiations between Venezuelan authorities and part of the opposition. Participants agreed in principle to replace Supreme Court judges and opened a fourth round on November 13. A local outlet reported the talks continued on November 15. The composition of the electoral council and an election date remain open.",
-    "dispute": "Rubio’s approach to the political transition must coexist with commercial negotiators seeking oil deals and military officials involved in the operation. An oil agreement does not by itself settle who can compete in an election.",
+    "policy": "The United States is backing negotiations between Venezuelan authorities and part of the opposition. Participants agreed in principle to replace Supreme Court judges and opened a fourth round on November 13. A local outlet reported the talks continued on November 15. The composition of the electoral council and an election date remain open. The Pentagon has separately announced an agreement to restore military ties with Venezuela.",
+    "dispute": "Secretary of State Marco Rubio has backed talks over Venezuela’s elections. Defense Secretary Pete Hegseth announced an agreement to restore military ties with acting President Delcy Rodríguez’s government. The agreement opens a channel for training and intelligence sharing while the timing of cooperation, the electoral council’s membership and the next election date remain open.",
     "player_ids": [
       "rubio",
       "witkoff",
@@ -1720,10 +1731,11 @@
       "ven-2026-11-02-oil-workers",
       "ven-2026-11-02-rubio-blanco",
       "ven-2026-11-02-bessent-blanco",
-      "ven-2026-10-28-boat-strike"
+      "ven-2026-10-28-boat-strike",
+      "ven-2026-11-18-hegseth-announces-venezuela-military-deal"
     ],
-    "research_as_of": "2026-11-07",
-    "scope": "The review checked the start and expected length of the fourth round. Europa Press reported that the November 13 talks were expected to last roughly a week. A closing statement and election agreement remain unverified.",
+    "research_as_of": "2026-11-19",
+    "scope": "Reviewed the military announcement and election reporting. The closing record and election date remain open.",
     "actors": [
       {
         "person_id": "rubio",

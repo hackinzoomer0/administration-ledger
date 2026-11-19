@@ -887,6 +887,53 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Reported preparations do not establish a faction endorsement or a delegate commitment."
+    },
+    {
+      "id": "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "JD Vance and Abdul El-Sayed",
+      "text": "JD Vance and Michigan senator-elect Abdul El-Sayed say they are open to meeting after trading campaign attacks",
+      "context": "The Associated Press reported that Vice President JD Vance and Democratic senator-elect Abdul El-Sayed expressed willingness to meet. El-Sayed offered to work on household costs and getting money out of politics. They disagree over his proposal for Medicare for All.",
+      "source": "https://apnews.com/article/85508b6083e05786221b73d2c8db600c",
+      "url": "https://apnews.com/article/85508b6083e05786221b73d2c8db600c",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: After Republicans lost both chambers, Vance can use the offer to show he is willing to work on costs with an incoming Democratic senator. El-Sayed can press his own agenda. It is too early to tell whether they will meet, work together or persuade either party’s voters.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: After Republicans lost both chambers, Vance can use the offer to show he is willing to work on costs with an incoming Democratic senator. El-Sayed can press his own agenda. It is too early to tell whether they will meet, work together or persuade either party’s voters."
+    },
+    {
+      "id": "suc-2026-11-18-trump-praises-rubio-in-manila",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "IRN",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump praises Marco Rubio in Manila, and news reports describe private friction with JD Vance",
+      "context": "The Daily Beast reported that Trump praised Secretary of State Marco Rubio during his Asia trip, which Rubio joined. It cited the New York Times for accounts of Trump privately criticizing Vice President JD Vance’s decision to blame the Iran war for Republican midterm losses. The original Times report was inaccessible.",
+      "source": "https://www.thedailybeast.com/trumps-behind-the-scenes-beef-with-vance-revealed",
+      "url": "https://www.thedailybeast.com/trumps-behind-the-scenes-beef-with-vance-revealed",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: Rubio’s travel and public praise give him visibility with Trump’s supporters. His job also explains why he traveled with the president. The private account raises the risk that Vance’s war criticism costs him access, while Trump’s nomination endorsement and any transfer of donors or voters remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Rubio’s travel and public praise give him visibility with Trump’s supporters. His job also explains why he traveled with the president. The private account raises the risk that Vance’s war criticism costs him access, while Trump’s nomination endorsement and any transfer of donors or voters remain open."
     }
   ]
 }

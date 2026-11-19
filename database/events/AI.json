@@ -1812,17 +1812,17 @@
       "kind": "act",
       "actor": "Commerce Department",
       "text": "Commerce releases a rule to license remote access to advanced U.S. chips",
-      "context": "The Commerce Department released an interim rule on November 16 covering large amounts of computing power supplied to companies based in China and other restricted destinations, including through data centers in third countries. The rule also adds license requirements for certain advanced chip shipments to Indonesia, Malaysia, Singapore, Thailand and Brazil. The Federal Register’s advance copy schedules publication for November 19. The rule is set to take effect on publication. Commerce credited the Treasury Department and National Security Council with writing the rule.",
-      "source": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
-      "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+      "context": "The Commerce Department released an interim rule on November 16 covering large amounts of computing power supplied to companies based in China and other restricted destinations, including through data centers in third countries. The rule also adds license requirements for certain advanced chip shipments to Indonesia, Malaysia, Singapore, Thailand and Brazil. Commerce credited the Treasury Department and National Security Council with writing the rule. The Federal Register published the rule on November 19, and it took effect that day. Singapore’s government said it would enforce its laws while working to protect legitimate access. Whether the rule stops diversion remains open.",
+      "source": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
       "tier": "documented",
       "weight": 4,
-      "rationale": "My reading: Commerce can review who rents computing power abroad. License decisions and customer checks will show whether restricted companies lose access.",
+      "rationale": "My reading: Commerce can now review transactions covered by the rule. Whether it stops diversion depends on enforcement, including cooperation from local authorities and records from chip suppliers and data centers.",
       "origin": "daily shared intake",
       "added": "2026-11-16",
       "by": [],
       "fx": {},
-      "fxnote": "No fx: The advance copy establishes the expected publication date. License decisions and changes in access remain open."
+      "fxnote": "No fx: Commerce gained authority to review covered transactions. Enforcement outcomes and the relative role of White House advisers remain open."
     },
     {
       "id": "ai-2026-11-16-cantwell-demands-chip-enforcement",

@@ -1605,6 +1605,30 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Allied officials disputed the U.S. recommendation publicly. They have yet to show whether their arms commitments will change."
+    },
+    {
+      "id": "rus-2026-11-19-trump-xi-putin-shenzhen-meeting",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "RUS",
+        "TAR",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump, Xi Jinping and Vladimir Putin",
+      "text": "Trump, Xi and Putin agree to further nuclear-risk talks at their meeting in Shenzhen",
+      "context": "China’s Foreign Ministry published a declaration after the three leaders met. It commits them to further dialogue on nuclear risks and states an intention to increase production and supply of refined fuels. Reuters reported that Trump also met separately with Xi and Putin.",
+      "source": "https://www.mfa.gov.cn/zyxw/202611/t20261119_12063191.shtml",
+      "url": "https://www.mfa.gov.cn/zyxw/202611/t20261119_12063191.shtml",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The leaders opened a channel for further talks. The declaration leaves open how they would increase fuel supply and contains no terms for ending the wars in Ukraine or Iran.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The leaders opened a channel for further talks. The declaration leaves open how they would increase fuel supply and contains no terms for ending the wars in Ukraine or Iran."
     }
   ]
 }

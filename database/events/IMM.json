@@ -2147,6 +2147,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The justices agreed to hear the dispute. The lower court’s ruling remains on hold."
+    },
+    {
+      "id": "imm-2026-11-18-administration-seeks-venezuela-tps-stay",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "U.S. Department of Justice",
+      "text": "Trump administration asks Supreme Court to pause a ruling protecting Venezuelan migrants",
+      "context": "The Justice Department asked the Supreme Court to pause a district court judgment while the government appeals. The judgment concerns Temporary Protected Status for Venezuelans, which allows eligible people to work and protects them from removal. The department also asked the justices for an immediate pause while they consider the request.",
+      "source": "https://www.supremecourt.gov/DocketPDF/26/26A714/433148/20261118141121255_20261118_Mullin_v_NTSPA_Stay_App_FILE.pdf",
+      "url": "https://www.supremecourt.gov/DocketPDF/26/26A714/433148/20261118141121255_20261118_Mullin_v_NTSPA_Stay_App_FILE.pdf",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: A stay could change who can retain work authorization or protection from removal while the appeal proceeds. The filing asks for relief. The Court’s response remains pending in the coverage reviewed.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: A stay could change who can retain work authorization or protection from removal while the appeal proceeds. The filing asks for relief. The Court’s response remains pending in the coverage reviewed."
     }
   ]
 }

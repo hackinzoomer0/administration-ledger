@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-18",
-  "last_substantive_change": "2026-11-18",
+  "research_as_of": "2026-11-19",
+  "last_substantive_change": "2026-11-19",
   "review": {
-    "date": "2026-11-18",
-    "run_id": "2026-11-18",
+    "date": "2026-11-19",
+    "run_id": "2026-11-19",
     "type": "daily_review",
-    "scope": "Focused review of the Alaska election calls, incoming congressional oversight, Iran operations, Lisa Cook’s hearing, chip enforcement, Ukraine military assistance and U.S.–Thailand trade talks. The Alaska final count, House leadership votes, homeland security hearing, Venezuela election agreement and several court and diplomatic outcomes remain open."
+    "scope": "Focused review of November 18–19 outcomes and reactions. It covered House leadership and oversight, Republican succession, chip licensing, Gulf tensions, the Shenzhen talks, temporary protection for Venezuelans and military cooperation with Caracas. Several court and implementation outcomes remain open."
   },
   "administration": {
-    "headline": "Democrats are projected to hold 56 Senate seats as Robert Garcia prepares House inquiries into Trump’s administration",
-    "summary": "The Associated Press called Alaska’s Senate race for Democrat Mary Peltola. Democrats are projected to control both chambers in January, when they can decide which hearings and legislation to schedule. Representative Robert Garcia, the top Democrat on the House Oversight Committee, has asked Vice President JD Vance and other officials to keep records for inquiries into the Epstein files, immigration enforcement and potential financial conflicts. The letters give Democrats a way to identify records and witnesses. White House counsel Will Scharf had warned Garcia against inquiries he considers abusive, and a reported White House instruction could delay voluntary agency testimony. In the Gulf, the United States struck an Iranian missile site after Iran targeted a U.S. radar installation in Bahrain, and Iran later attacked sites in Kuwait and Bahrain. Qatar and Oman continued talking to Iran. Federal Reserve Governor Lisa Cook challenged the terms of the White House hearing on her removal. In Europe, Britain and Germany defended Ukraine’s long-range strikes after the Pentagon urged a focus on front-line support. The next House leadership votes, the Alaska final count and the outcome of Venezuela’s election talks remain open.",
+    "headline": "House Democrats nominate Hakeem Jeffries for speaker as Trump meets Xi Jinping and Vladimir Putin",
+    "summary": "House Democrats nominated Hakeem Jeffries for speaker and chose Katherine Clark and Pete Aguilar for their leadership team. Together with a projected 56-seat Democratic Senate majority, the result puts Democrats in position to set the congressional agenda in January. The full House still has to elect a speaker. Oversight Democrat Robert Garcia has identified records he wants from Trump officials. Their production and support for any impeachment remain open. Abroad, Trump joined Xi Jinping and Vladimir Putin in Shenzhen. They committed to further talks about nuclear risks, while their declaration leaves the wars in Ukraine and Iran unresolved. The Pentagon announced new military cooperation with Venezuela while Venezuela’s election timetable remains open. Commerce also began requiring licenses for specified chip transfers in five countries. At home, Vice President JD Vance is exploring talks with a Democratic senator-elect after blaming the Iran war for Republican losses. Secretary of State Marco Rubio traveled with Trump in Asia and received public praise from the president.",
     "contests": [
       {
         "id": "white-house-access",
@@ -45,7 +45,7 @@
         "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. U.S. forces struck an Iranian missile site, and Iran attacked Gulf bases again. Qatar and Oman continued diplomatic contacts, while Washington’s terms for an agreement remain unclear.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Reuters reported the U.S. military response on November 17. AP reported new Iranian attacks on a Kuwait air base and sites in Bahrain on November 18.",
+        "change": "Trump joined Xi and Putin in Shenzhen. Their declaration commits to talks about nuclear risks but gives no terms for ending the Iran war. Axios reported competing advice within the administration about resuming major strikes.",
         "basis": {
           "actions": "Trump redirected Vance publicly on November 12. Qatar and Oman held contacts with Iran as U.S. and Iranian forces exchanged strikes.",
           "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
@@ -63,7 +63,9 @@
           "irn-2026-11-16-pakistan-awaits-us-iran-reply",
           "irn-2026-11-15-bahrain-reports-intercepting-iranian-drones",
           "irn-2026-11-17-us-strikes-qeshm-after-bahrain-radar-attack",
-          "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain"
+          "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain",
+          "rus-2026-11-19-trump-xi-putin-shenzhen-meeting",
+          "suc-2026-11-18-trump-praises-rubio-in-manila"
         ],
         "faction_ids": [
           "vance",
@@ -71,7 +73,7 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-18",
+        "reviewed_at": "2026-11-19",
         "summary": "The United States struck a missile site on Qeshm Island after Iran targeted a U.S. radar installation in Bahrain. Qatar and Oman continued contacts with Iran. The Pentagon faces renewed questions about defending bases after further attacks."
       },
       {
@@ -82,13 +84,13 @@
         "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
-        "change": "KC Crosbie’s bid puts Trump’s choice of party chair to a committee vote in January. Axios reported that Vance might wait until spring to say whether he will run, on a timetable people familiar with his thinking said preceded the election. Gruters still chairs the committee, and Vance’s finance role continues to give him access to donors.",
+        "change": "Vance and Abdul El-Sayed said they were open to talking after attacking one another during the campaign. Trump publicly praised Rubio in Manila. A secondary account of New York Times reporting describes Trump as privately frustrated with Vance’s criticism of the Iran war.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
           "positions": "Public deferral, message support and a candidate endorsement mean different things.",
           "money": "Thiel’s historical backing and Rockbridge access help explain Vance’s network; Griffin’s reported preference is not a Rubio contribution pledge."
         },
-        "watch": "Watch for announced campaigns, endorsements, committed funding, named organizers in early-primary states and voter surveys.",
+        "watch": "Watch for a Vance–El-Sayed meeting or joint proposal, evidence of which officials Trump assigns to major decisions, and public commitments by donors or early-state organizers.",
         "event_ids": [
           "suc-2025-03-58b7aa",
           "suc-2026-08-19-b59801",
@@ -96,7 +98,9 @@
           "irn-2026-11-04-vance-postelection-war-critique",
           "suc-2026-11-08-trump-vance-immigration-interview",
           "mid-2026-11-15-gruters-defends-rnc-spending",
-          "suc-2026-11-15-vance-2028-timing-report"
+          "suc-2026-11-15-vance-2028-timing-report",
+          "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+          "suc-2026-11-18-trump-praises-rubio-in-manila"
         ],
         "faction_ids": [
           "vance",
@@ -104,8 +108,8 @@
           "tech-right",
           "operation"
         ],
-        "reviewed_at": "2026-11-16",
-        "summary": "Vance has the strongest documented fundraising and activist connections among the tracked candidates. Rubio and other rivals could recruit some of the same supporters; Trump has not settled the race."
+        "reviewed_at": "2026-11-19",
+        "summary": "Vance can draw on existing Republican fundraising and activist relationships and is exploring a meeting with Michigan’s Democratic senator-elect. Rubio has Trump’s public praise and the visibility of traveling with him in Asia. Trump’s eventual endorsement remains open."
       },
       {
         "id": "fed-governance",
@@ -142,7 +146,7 @@
         "assessment": "Attorney General Todd Blanche controls how the Justice Department responds to demands for records, subject to law and court orders. Representative Thomas Massie’s bill would give survivors, state prosecutors and lawmakers a way to sue for records they believe the department unlawfully withheld. The White House warning gives Republicans a public argument against the inquiries. Garcia’s public reply shows he intends to proceed. Incoming committee chairs will decide which requests to pursue first. The clearance requirement could delay voluntary appearances. Its effect on a subpoena or a specific witness remains open. Garcia’s November 18 letters specify which records he wants preserved before the new Congress. Recipients’ replies and any evidence of compliance remain open.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
-        "change": "Garcia’s letters identify witnesses and records across several planned inquiries. They ask recipients to preserve evidence ahead of January committee control. The White House can still review voluntary agency testimony.",
+        "change": "Garcia has published the preservation letters. Jeffries and the incoming Democratic leadership made oversight part of their public agenda. The committee still needs to obtain records or schedule testimony. The White House can still review whether agency officials testify voluntarily.",
         "basis": {
           "actions": "The House clerk recorded 218 signatures. The Associated Press reported the White House warning and Garcia’s public reply.",
           "positions": "The White House defended its prior release of records. Garcia says Congress will exercise its oversight authority.",
@@ -160,12 +164,13 @@
           "mid-2026-11-16-reitz-warren-preservation",
           "mid-2026-11-16-scharf-testimony-clearance",
           "mid-2026-11-18-garcia-requests-records-preservation",
-          "mid-2026-11-17-peltola-alaska-senate-call"
+          "mid-2026-11-17-peltola-alaska-senate-call",
+          "mid-2026-11-18-democrats-nominate-jeffries"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-18"
+        "reviewed_at": "2026-11-19"
       },
       {
         "id": "hegseth-house-referral",
@@ -182,36 +187,38 @@
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
           "money": "The available evidence establishes how members voted."
         },
-        "watch": "Check whether the Pentagon supplies records or briefs senators, and whether House Judiciary schedules action on the separate impeachment articles. Check separately for reports on the November attacks and steps to protect bases against further strikes.",
+        "watch": "Watch for Judiciary action or an announced House vote, evidence about Hegseth’s decisions on troop protection and named Senate trial commitments. His announcement of a military deal in Caracas confirms he continues to act as defense secretary.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
           "mid-2026-11-10-republican-leadership-results",
           "mid-2026-11-13-democrats-criticize-floor-preparation",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
           "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-          "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain"
+          "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain",
+          "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
+          "mid-2026-11-18-democrats-nominate-jeffries"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-17"
+        "reviewed_at": "2026-11-19"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vice President JD Vance leads the November 16 forecast. His fundraising and activist relationships could help him recruit while Texas Senator Ted Cruz prepares for a run. The latest Iran attacks renew arguments about how to protect troops and end the war. Representative Robert Garcia’s request for meeting records could also make Vance answer publicly for his part in White House decisions about the Epstein files. Neither development establishes a change in Republican primary support.",
-    "snapshot_id": "2026-11-18-daily",
+    "summary": "The eight November 16 forecasts carry forward. Vance is exploring talks with a Michigan Democrat after Republican losses. Rubio traveled with Trump in Asia and received public praise. These moves may alter how Republican voters and organizers compare them. Evidence of changed primary support remains limited. The estimates may be stale pending the next weekly review.",
+    "snapshot_id": "2026-11-19-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
         "person_id": "vance",
         "path": "Axios reports that Vance may wait until spring to declare. His advisers can still recruit quietly, but Cruz can offer early-state activists work sooner.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
-        "advantage": "Vance can use a domestic assignment to speak to Republican voters about crime and government conduct if he is given a role with visible results.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response remain unclear.",
+        "advantage": "Vance’s existing fundraising and activist relationships could help him launch a campaign. A meeting with Michigan senator-elect Abdul El-Sayed could give him a chance to work on household costs after the Republican losses.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -228,7 +235,10 @@
           "suc-2026-11-16-cruz-prepares-presidential-run",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
           "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-          "mid-2026-11-18-garcia-requests-records-preservation"
+          "mid-2026-11-18-garcia-requests-records-preservation",
+          "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+          "suc-2026-11-18-trump-praises-rubio-in-manila",
+          "mid-2026-11-18-democrats-nominate-jeffries"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -250,17 +260,20 @@
           "daily-20261117-kuwait-complaint",
           "daily-20261117-trump-cbs",
           "daily-20261118-garcia",
-          "daily-20261118-atlantic"
+          "daily-20261118-atlantic",
+          "daily-20261119-vance",
+          "daily-20261119-trump",
+          "daily-20261119-jeff"
         ],
-        "reviewed_at": "2026-11-18"
+        "reviewed_at": "2026-11-19"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "Reuters found several donors who want Rubio in the race. He would need to enter, recruit a team and explain the decisions he made as secretary of state.",
         "coalition": "Some Republican donors want Rubio to run. Robert Bigelow also likes Vance, and Cruz can ask overlapping donors to back a campaign that starts sooner.",
-        "advantage": "Secretary of State Marco Rubio defended the original decision to fight Iran and reportedly argued for continued pressure. Trump’s move away from Vance’s talks gives Rubio more room to make that case, with the next negotiating or military decisions still open.",
-        "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open.",
+        "advantage": "Rubio traveled with Trump in Asia and received public praise. His job as secretary of state gives him a way to stay visible to the president and to voters who judge the administration by its diplomacy.",
+        "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open. Trump’s praise leaves open whether he will endorse Rubio or whether Republican donors and organizers will commit to a campaign.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
@@ -274,7 +287,8 @@
           "suc-2026-11-15-vance-2028-timing-report",
           "suc-2026-11-16-cruz-prepares-presidential-run",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
-          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "suc-2026-11-18-trump-praises-rubio-in-manila"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -294,9 +308,10 @@
           "weekly-20261116-reuters",
           "weekly-20261116-poll",
           "daily-20261117-kuwait-complaint",
-          "daily-20261117-trump-cbs"
+          "daily-20261117-trump-cbs",
+          "daily-20261119-trump"
         ],
-        "reviewed_at": "2026-11-17"
+        "reviewed_at": "2026-11-19"
       },
       {
         "candidate_id": "ron_desantis",
@@ -569,6 +584,20 @@
       "faction_ids": [
         "vance",
         "dissenters"
+      ]
+    },
+    {
+      "id": "vance-outreach-rubio-access-nov19",
+      "title": "Vance offers to meet a Michigan Democrat as Trump praises Rubio in Asia",
+      "assessment": "Vice President JD Vance can draw on Republican fundraisers and activists to publicize any work with Michigan senator-elect Abdul El-Sayed on household costs. Marco Rubio’s role as secretary of state gives him access to Trump and a chance to make the case for the administration’s foreign policy to Republican voters. Trump’s praise could help Rubio recruit, while a secondary report of private friction over Iran raises questions about Vance’s access. A meeting, change in duties or new campaign commitments would provide stronger evidence of a political shift.",
+      "event_ids": [
+        "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+        "suc-2026-11-18-trump-praises-rubio-in-manila"
+      ],
+      "faction_ids": [
+        "vance",
+        "hawks",
+        "operation"
       ]
     }
   ],

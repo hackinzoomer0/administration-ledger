@@ -1046,6 +1046,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: the notice establishes no faction-specific gain or loss."
+    },
+    {
+      "id": "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "actor": "Pete Hegseth",
+      "text": "Pete Hegseth announces a U.S.–Venezuela military agreement in Caracas",
+      "context": "Defense Secretary Pete Hegseth said the two governments signed an agreement to restore military ties, including joint training and intelligence sharing. Acting President Delcy Rodríguez said she wanted deeper cooperation. The Associated Press reported few details on how the agreement would work and no date for Venezuela’s next presidential election.",
+      "source": "https://apnews.com/article/e02dd6173e575c644a37dd417d84296d",
+      "url": "https://apnews.com/article/e02dd6173e575c644a37dd417d84296d",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: The Pentagon has a new channel for working with Rodríguez’s government while electoral guarantees remain unsettled. The announcement leaves the timing and scope of actual military cooperation open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-19",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The Pentagon has a new channel for working with Rodríguez’s government while electoral guarantees remain unsettled. The announcement leaves the timing and scope of actual military cooperation open."
     }
   ]
 }
