@@ -1,5 +1,7 @@
 # Current project policy
 
+- November 20 daily coverage correction: Start with a broad news scan across independent sources and official announcements, then prioritize standing questions. Before preflight, refresh the scan and reconcile major stories against staged and prior records. This addresses the missed outage cluster, national cyber director change and public Iran agreement remarks. Preserve the weekly nomination odds cadence.
+
 - November 11 deployment recovery: the impeachment due-test regression must use a synthetic pending test with a fixed deadline. The live Hegseth test correctly resolved after the House referral, exposing the fixture’s dependence on current research. Keep the resolved research and verify the fix against both baseline and retained review data before retrying deployment.
 
 - November10 inference correction: leader approval, movement identity, past-action approval, desired next policy action, accountability and candidate choice can coexist. Impeachment/conviction can enable correction among continuing Trump supporters without prior partisan or ideological defection. Match polling dates, populations and questions; separate marginals do not establish overlap. Existing daily monitor queues the mechanism and weekly nomination review adjudicates all candidates; no automatic transfers, numerical changes, roster/formula changes or extra runs. See docs/impeachments.md and the impeachment-primary-inference run.
