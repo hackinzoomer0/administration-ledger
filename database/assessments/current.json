@@ -87,7 +87,7 @@
         "status": "contested",
         "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment. Trump defended the initial decision to fight on Fox News and criticized the June deal Vance helped negotiate. He also praised Vance’s work and denied the deal explained his reassignment. That gives Rubio and supporters of continued pressure a stronger case for alignment with Trump on Iran, while leaving a succession endorsement open.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
-        "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
+        "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support. Elon Musk’s midterm spending shows the scale of resources he can bring to Republican candidates. His public distancing makes that support less predictable for a successor. Trump publicly kept the relationship open, and Musk has made no verified commitment to a 2028 candidate in the evidence reviewed.",
         "change": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
@@ -106,7 +106,8 @@
           "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
           "suc-2026-11-18-trump-praises-rubio-in-manila",
           "suc-2026-11-19-polls-split-on-rubio-and-vance",
-          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum"
+          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
+          "suc-2026-11-18-musk-distances-himself-from-maga"
         ],
         "faction_ids": [
           "vance",
@@ -640,6 +641,18 @@
       "faction_ids": [
         "vance",
         "hawks"
+      ]
+    },
+    {
+      "id": "musk-maga-midterms-nov20-follow-up",
+      "title": "Musk distances himself from MAGA after funding Trump-aligned candidates",
+      "assessment": "Elon Musk’s public break with the MAGA label and regret about his midterm spending make his future backing less predictable for Trump-aligned Republicans. Trump called Musk a friend and noted that Musk had traveled with him, leaving room for continued cooperation. No new funding cutoff or commitment to any 2028 candidate was confirmed.",
+      "event_ids": [
+        "suc-2026-11-18-musk-distances-himself-from-maga"
+      ],
+      "faction_ids": [
+        "tech-right",
+        "party"
       ]
     }
   ],

@@ -956,6 +956,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Rubio has a credible claim to voter interest alongside his support inside the administration. Differences in samples and candidate lists limit conclusions about who leads nationally. Neither survey measures organizing or delegate commitments."
+    },
+    {
+      "id": "suc-2026-11-18-musk-distances-himself-from-maga",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Elon Musk",
+      "text": "Elon Musk distances himself from MAGA and says he would have spent less on the midterms",
+      "context": "At the New York Times DealBook Summit on November 18, Elon Musk said he did not identify with MAGA, described himself as politically moderate and said he probably would have spent less on the midterms. AP reported he spent more than $400 million supporting Trump-aligned Republicans in November. On November 19, Trump told NBC News that Musk remained a friend and noted that Musk had traveled with him. The interview remarks are corroborated by CBS reporting.",
+      "source": "https://apnews.com/article/b8bb6796cad315517dec4b31a4715c05",
+      "url": "https://apnews.com/article/b8bb6796cad315517dec4b31a4715c05",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Musk’s public distancing gives him room to work with Democrats after Republican losses and makes his future support less predictable for Trump allies. Trump’s public response keeps the relationship open. Future spending, campaign commitments and policy cooperation remain unverified.",
+      "origin": "November 20 follow-up",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Musk’s public distancing gives him room to work with Democrats after Republican losses and makes his future support less predictable for Trump allies. Trump’s public response keeps the relationship open. Future spending, campaign commitments and policy cooperation remain unverified."
     }
   ]
 }
