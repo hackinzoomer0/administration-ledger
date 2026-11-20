@@ -1,5 +1,7 @@
 # Current project policy
 
+- November 20 major-news preflight: The original daily run recorded no Musk or DealBook attempt. Daily preflight now requires receipt-backed opening and closing scans, a reconciled inventory, and visible follow-up for open major stories. The gate checks the recorded coverage process. Editorial discovery still determines which stories enter the inventory.
+
 - November 20 daily coverage correction: Start with a broad news scan across independent sources and official announcements, then prioritize standing questions. Before preflight, refresh the scan and reconcile major stories against staged and prior records. This addresses the missed outage cluster, national cyber director change and public Iran agreement remarks. Preserve the weekly nomination odds cadence.
 
 - November 11 deployment recovery: the impeachment due-test regression must use a synthetic pending test with a fixed deadline. The live Hegseth test correctly resolved after the House referral, exposing the fixture’s dependence on current research. Keep the resolved research and verify the fix against both baseline and retained review data before retrying deployment.

@@ -72,7 +72,12 @@ def check(stage, section):
     validate_reader_copy(before, after, documents)
     from research_review import validate as validate_research
     from research_tools import receipts
-    validate_research(before, after, section, receipts(stage))
+    staged_receipts = receipts(stage)
+    validate_research(before, after, section, staged_receipts)
+    if section.casefold() == 'daily':
+        from daily_coverage import validate_daily_coverage
+        run_id = after['collections']['assessments']['current']['review']['run_id']
+        validate_daily_coverage(after['collections']['runs'][run_id], staged_receipts)
     validate_public_ledger(after)
     if fingerprint(load()) != fingerprint(before):
         raise RuntimeError('Working data changed during review; retry before publishing')
