@@ -1629,6 +1629,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The leaders opened a channel for further talks. The declaration leaves open how they would increase fuel supply and contains no terms for ending the wars in Ukraine or Iran."
+    },
+    {
+      "id": "rus-2026-11-19-treasury-extends-lukoil-sale-talks",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "U.S. Treasury",
+      "text": "Treasury extends the deadline for talks on selling Lukoil’s international business",
+      "context": "Treasury extended permission to negotiate or sign contracts conditioned on later approval through December 19. A buyer still needs separate Treasury approval to complete a sale.",
+      "source": "https://ofac.treasury.gov/faqs/updated/2026-11-19",
+      "url": "https://ofac.treasury.gov/faqs/updated/2026-11-19",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Treasury gives bidders more time while retaining control over whether a sale can close and under what conditions.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Treasury gives bidders more time while retaining control over whether a sale can close and under what conditions."
     }
   ]
 }

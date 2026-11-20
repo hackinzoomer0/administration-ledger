@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-19",
-  "last_substantive_change": "2026-11-19",
+  "research_as_of": "2026-11-20",
+  "last_substantive_change": "2026-11-20",
   "review": {
-    "date": "2026-11-19",
-    "run_id": "2026-11-19",
+    "date": "2026-11-20",
+    "run_id": "2026-11-20",
     "type": "daily_review",
-    "scope": "Focused review of November 18–19 outcomes and reactions. It covered House leadership and oversight, Republican succession, chip licensing, Gulf tensions, the Shenzhen talks, temporary protection for Venezuelans and military cooperation with Caracas. Several court and implementation outcomes remain open."
+    "scope": "Focused November 19–20 review of congressional votes, Alaska litigation, House Oversight, Republican voter preferences, Venezuelan temporary protection, data-center permitting and Russia sanctions. The Venezuela dialogue closing record, House Epstein bill disposition, new Iran orders and Friday trade announcements were unverified."
   },
   "administration": {
     "headline": "House Democrats nominate Hakeem Jeffries for speaker as Trump meets Xi Jinping and Vladimir Putin",
-    "summary": "House Democrats nominated Hakeem Jeffries for speaker and chose Katherine Clark and Pete Aguilar for their leadership team. Together with a projected 56-seat Democratic Senate majority, the result puts Democrats in position to set the congressional agenda in January. The full House still has to elect a speaker. Oversight Democrat Robert Garcia has identified records he wants from Trump officials. Their production and support for any impeachment remain open. Abroad, Trump joined Xi Jinping and Vladimir Putin in Shenzhen. They committed to further talks about nuclear risks, while their declaration leaves the wars in Ukraine and Iran unresolved. The Pentagon announced new military cooperation with Venezuela while Venezuela’s election timetable remains open. Commerce also began requiring licenses for specified chip transfers in five countries. At home, Vice President JD Vance is exploring talks with a Democratic senator-elect after blaming the Iran war for Republican losses. Secretary of State Marco Rubio traveled with Trump in Asia and received public praise from the president.",
+    "summary": "Senate Republicans blocked a resolution to withdraw U.S. forces from hostilities with Iran, though three Republicans backed it. Senator Joni Ernst’s criticism gives lawmakers more leverage to press the Pentagon for information. House Republicans are competing over who will defend the administration on Oversight as Democrats prepare investigations.",
     "contests": [
       {
         "id": "white-house-access",
@@ -40,12 +40,12 @@
       {
         "id": "iran-decision",
         "issue_id": "IRN",
-        "title": "The United States strikes an Iranian missile site while Gulf countries keep talks open",
+        "title": "Senate rejects Iran withdrawal resolution as Pentagon faces questions about the war",
         "status": "contested",
-        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. U.S. forces struck an Iranian missile site, and Iran attacked Gulf bases again. Qatar and Oman continued diplomatic contacts, while Washington’s terms for an agreement remain unclear.",
+        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. U.S. forces struck an Iranian missile site, and Iran attacked Gulf bases again. Qatar and Oman continued diplomatic contacts, while Washington’s terms for an agreement remain unclear. The Senate vote preserves Trump’s immediate discretion. It also gives Republicans who want withdrawal a clear record of which senators backed it.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "Trump joined Xi and Putin in Shenzhen. Their declaration commits to talks about nuclear risks but gives no terms for ending the Iran war. Axios reported competing advice within the administration about resuming major strikes.",
+        "change": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified.",
         "basis": {
           "actions": "Trump redirected Vance publicly on November 12. Qatar and Oman held contacts with Iran as U.S. and Iranian forces exchanged strikes.",
           "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
@@ -65,7 +65,9 @@
           "irn-2026-11-17-us-strikes-qeshm-after-bahrain-radar-attack",
           "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain",
           "rus-2026-11-19-trump-xi-putin-shenzhen-meeting",
-          "suc-2026-11-18-trump-praises-rubio-in-manila"
+          "suc-2026-11-18-trump-praises-rubio-in-manila",
+          "irn-2026-11-19-iran-senate-vote",
+          "mid-2026-11-19-ernst-questions-pentagon-disclosure"
         ],
         "faction_ids": [
           "vance",
@@ -73,8 +75,8 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-19",
-        "summary": "The United States struck a missile site on Qeshm Island after Iran targeted a U.S. radar installation in Bahrain. Qatar and Oman continued contacts with Iran. The Pentagon faces renewed questions about defending bases after further attacks."
+        "reviewed_at": "2026-11-20",
+        "summary": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified."
       },
       {
         "id": "succession-control",
@@ -84,7 +86,7 @@
         "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
-        "change": "Vance and Abdul El-Sayed said they were open to talking after attacking one another during the campaign. Trump publicly praised Rubio in Manila. A secondary account of New York Times reporting describes Trump as privately frustrated with Vance’s criticism of the Iran war.",
+        "change": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
           "positions": "Public deferral, message support and a candidate endorsement mean different things.",
@@ -100,7 +102,8 @@
           "mid-2026-11-15-gruters-defends-rnc-spending",
           "suc-2026-11-15-vance-2028-timing-report",
           "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
-          "suc-2026-11-18-trump-praises-rubio-in-manila"
+          "suc-2026-11-18-trump-praises-rubio-in-manila",
+          "suc-2026-11-19-polls-split-on-rubio-and-vance"
         ],
         "faction_ids": [
           "vance",
@@ -108,8 +111,8 @@
           "tech-right",
           "operation"
         ],
-        "reviewed_at": "2026-11-19",
-        "summary": "Vance can draw on existing Republican fundraising and activist relationships and is exploring a meeting with Michigan’s Democratic senator-elect. Rubio has Trump’s public praise and the visibility of traveling with him in Asia. Trump’s eventual endorsement remains open."
+        "reviewed_at": "2026-11-20",
+        "summary": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled."
       },
       {
         "id": "fed-governance",
@@ -177,11 +180,11 @@
         "issue_id": "MID",
         "title": "House sends the bid to impeach Defense Secretary Pete Hegseth to committee",
         "status": "contested",
-        "summary": "The House sent the impeachment resolution to the House Judiciary Committee. Senator Richard Blumenthal separately requested a briefing and records on defenses at a Kuwait post where six soldiers died.",
+        "summary": "Retiring Republican Senator Joni Ernst questioned how much the Pentagon has disclosed about the Iran war. The House sent the articles against Defense Secretary Pete Hegseth to the Judiciary Committee, where they remain. Democrats can use her criticism to press for records. Support in the Senate for removing Hegseth remains unverified.",
         "assessment": "Lawmakers can ask who received warnings about defenses at Port Shuaiba and who could have acted on them. Hegseth had called the post fortified. Trump’s defense of the military gives congressional investigators a second public account to test against the records.",
         "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
         "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
-        "change": "An Army whistleblower complained to both armed services committees. Blumenthal requested military records and a classified briefing. Trump defended the military publicly.",
+        "change": "Retiring Republican Senator Joni Ernst questioned how much the Pentagon has disclosed about the Iran war. The House sent the articles against Defense Secretary Pete Hegseth to the Judiciary Committee, where they remain.",
         "basis": {
           "actions": "The House voted 211–204 to send the resolution to committee. Blumenthal requested troop-protection records after CBS obtained the whistleblower complaint.",
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
@@ -196,21 +199,22 @@
           "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
           "irn-2026-11-18-iran-targets-kuwait-air-base-and-bahrain",
           "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
-          "mid-2026-11-18-democrats-nominate-jeffries"
+          "mid-2026-11-18-democrats-nominate-jeffries",
+          "mid-2026-11-19-ernst-questions-pentagon-disclosure"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-19"
+        "reviewed_at": "2026-11-20"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The eight November 16 forecasts carry forward. Vance is exploring talks with a Michigan Democrat after Republican losses. Rubio traveled with Trump in Asia and received public praise. These moves may alter how Republican voters and organizers compare them. Evidence of changed primary support remains limited. The estimates may be stale pending the next weekly review.",
-    "snapshot_id": "2026-11-19-daily",
+    "summary": "The eight November 16 nomination estimates carry forward. Emerson found Rubio ahead of Vance, while Echelon found Vance ahead. Senator Rand Paul voted for withdrawal from hostilities with Iran. These findings matter for the next weekly comparison because voter preference and a public record on the war can affect recruitment. The estimates are conditional on the eight authorized candidates.",
+    "snapshot_id": "2026-11-20-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -218,7 +222,7 @@
         "path": "Axios reports that Vance may wait until spring to declare. His advisers can still recruit quietly, but Cruz can offer early-state activists work sooner.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "Vance’s existing fundraising and activist relationships could help him launch a campaign. A meeting with Michigan senator-elect Abdul El-Sayed could give him a chance to work on household costs after the Republican losses.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -238,7 +242,8 @@
           "mid-2026-11-18-garcia-requests-records-preservation",
           "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
           "suc-2026-11-18-trump-praises-rubio-in-manila",
-          "mid-2026-11-18-democrats-nominate-jeffries"
+          "mid-2026-11-18-democrats-nominate-jeffries",
+          "suc-2026-11-19-polls-split-on-rubio-and-vance"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -263,15 +268,17 @@
           "daily-20261118-atlantic",
           "daily-20261119-vance",
           "daily-20261119-trump",
-          "daily-20261119-jeff"
+          "daily-20261119-jeff",
+          "daily-20261120-polls-split-on-rubio-and-vance",
+          "daily-20261120-echelon"
         ],
-        "reviewed_at": "2026-11-19"
+        "reviewed_at": "2026-11-20"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "Reuters found several donors who want Rubio in the race. He would need to enter, recruit a team and explain the decisions he made as secretary of state.",
-        "coalition": "Some Republican donors want Rubio to run. Robert Bigelow also likes Vance, and Cruz can ask overlapping donors to back a campaign that starts sooner.",
+        "coalition": "Some Republican donors want Rubio to run. Robert Bigelow also likes Vance, and Cruz can ask overlapping donors to back a campaign that starts sooner. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
         "advantage": "Rubio traveled with Trump in Asia and received public praise. His job as secretary of state gives him a way to stay visible to the president and to voters who judge the administration by its diplomacy.",
         "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open. Trump’s praise leaves open whether he will endorse Rubio or whether Republican donors and organizers will commit to a campaign.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
@@ -288,7 +295,8 @@
           "suc-2026-11-16-cruz-prepares-presidential-run",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
           "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-          "suc-2026-11-18-trump-praises-rubio-in-manila"
+          "suc-2026-11-18-trump-praises-rubio-in-manila",
+          "suc-2026-11-19-polls-split-on-rubio-and-vance"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -309,9 +317,11 @@
           "weekly-20261116-poll",
           "daily-20261117-kuwait-complaint",
           "daily-20261117-trump-cbs",
-          "daily-20261119-trump"
+          "daily-20261119-trump",
+          "daily-20261120-polls-split-on-rubio-and-vance",
+          "daily-20261120-echelon"
         ],
-        "reviewed_at": "2026-11-19"
+        "reviewed_at": "2026-11-20"
       },
       {
         "candidate_id": "ron_desantis",
@@ -404,7 +414,7 @@
         "person_id": "paul",
         "path": "Paul has said he is considering a run. He can ask old campaign contacts and antiwar activists to organize around Congress’s authority over military action.",
         "coalition": "Paul could recruit Republicans who want limits on spending and presidential war powers. His support for Massie shows cooperation despite Trump’s opposition, but a presidential contest could divide their overlapping activists and donors. A third-party effort could compete for some antiwar organizers; Paul would still have to persuade them to join his Republican campaign.",
-        "advantage": "Paul can criticize the administration’s use of military power and still work with Senate Republicans. He publicly rejected blaming John Thune for state-level election results after Republicans lost the Senate majority. The complaint about defenses in Kuwait gives Paul a specific example to raise when arguing for military oversight. Voter response remains unknown.",
+        "advantage": "Paul can criticize the administration’s use of military power and still work with Senate Republicans. He publicly rejected blaming John Thune for state-level election results after Republicans lost the Senate majority. The complaint about defenses in Kuwait gives Paul a specific example to raise when arguing for military oversight. Voter response remains unknown. Rand Paul voted for withdrawal from hostilities with Iran when the Senate rejected the House-passed resolution. The vote gives him a way to show war skeptics he used his Senate seat to oppose continued fighting.",
         "vulnerability": "Republicans who want the war ended could credit an official who delivers a deal or stay with Trump while urging a policy change.",
         "positions": "Paul advocates limits on executive power, lower federal spending and freer trade. The review has not established all the immigration policies he would propose in a new presidential campaign.",
         "money": "Paul has historical links to the Protect Freedom political group and donor Jeff Yass. Those connections do not establish a confirmed financial commitment to a 2028 presidential bid.",
@@ -418,15 +428,17 @@
           "daily_thune_paul_20261111",
           "weekly-20261116-paul",
           "daily-20261117-kuwait-complaint",
-          "daily-20261117-trump-cbs"
+          "daily-20261117-trump-cbs",
+          "daily-20261120-iran-senate-vote"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
           "mid-2026-11-10-republican-leadership-results",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
-          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "irn-2026-11-19-iran-senate-vote"
         ],
-        "reviewed_at": "2026-11-17"
+        "reviewed_at": "2026-11-20"
       },
       {
         "candidate_id": "brian_kemp",
@@ -598,6 +610,19 @@
         "vance",
         "hawks",
         "operation"
+      ]
+    },
+    {
+      "id": "iran-vote-and-republican-war-critics-nov20",
+      "title": "Rand Paul backs withdrawal while the Senate leaves Trump’s Iran policy in place",
+      "assessment": "Rand Paul voted for withdrawal from hostilities with Iran when the Senate rejected the House-passed resolution. The vote gives him a way to show war skeptics he used his Senate seat to oppose continued fighting. Vice President Vance has criticized the war’s political cost, while Secretary of State Rubio defended Trump’s initial decision. Those records give each a different argument to make to Republican voters. Evidence that voters will organize around any of them remains limited.",
+      "event_ids": [
+        "irn-2026-11-19-iran-senate-vote"
+      ],
+      "faction_ids": [
+        "dissenters",
+        "vance",
+        "hawks"
       ]
     }
   ],

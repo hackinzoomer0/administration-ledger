@@ -1889,6 +1889,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The committees gained scheduled interviews. Attendance, answers and any consequence for chip policy remain open."
+    },
+    {
+      "id": "ai-2026-11-19-senate-passes-permitting-bill",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "U.S. Senate",
+      "text": "Senate passes bill to speed energy permits and require data centers to cover power costs",
+      "context": "The Senate passed amended H.R. 2347 by 62–33. AP reports the proposal would speed federal reviews and require data centers to cover power costs. The House previously passed a different version.",
+      "source": "https://apnews.com/article/b41c2017e4a9fe2e6de92ec77a4cdd0a",
+      "url": "https://apnews.com/article/b41c2017e4a9fe2e6de92ec77a4cdd0a",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The vote shows bipartisan support for changing permitting rules. The House still has to act before the Senate proposal can become law.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The vote shows bipartisan support for changing permitting rules. The House still has to act before the Senate proposal can become law."
+    },
+    {
+      "id": "ai-2026-11-19-frey-vetoes-data-center-ordinance",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Jacob Frey",
+      "text": "Minneapolis Mayor Jacob Frey vetoes data-center zoning restrictions",
+      "context": "Axios reports that Minneapolis Mayor Jacob Frey vetoed the City Council’s 7–6 decision to require approval for each new data center. Frey argued that the restrictions would effectively prevent development. The council was due to consider an override November 20.",
+      "source": "https://www.axios.com/local/twin-cities/2026/11/19/frey-vetoes-council-police-chief-data-center",
+      "url": "https://www.axios.com/local/twin-cities/2026/11/19/frey-vetoes-council-police-chief-data-center",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The veto gives supporters of downtown development leverage over siting rules. An override would require nine votes. The outcome was unverified at review time.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The veto gives supporters of downtown development leverage over siting rules. An override would require nine votes. The outcome was unverified at review time."
     }
   ]
 }

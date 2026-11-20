@@ -934,6 +934,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Rubio’s travel and public praise give him visibility with Trump’s supporters. His job also explains why he traveled with the president. The private account raises the risk that Vance’s war criticism costs him access, while Trump’s nomination endorsement and any transfer of donors or voters remain open."
+    },
+    {
+      "id": "suc-2026-11-19-polls-split-on-rubio-and-vance",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "chron",
+      "actor": "Emerson College Polling and Echelon Insights",
+      "text": "Republican primary surveys disagree on whether Rubio or Vance leads",
+      "context": "Emerson’s November 14–16 survey put Secretary of State Marco Rubio ahead of Vice President JD Vance, 44% to 24% with names supplied and 36% to 20% without names supplied. Echelon’s November 12–16 survey put Vance ahead 40% to 26% among Republican and Republican-leaning registered voters using a different list.",
+      "source": "https://emersoncollegepolling.com/national-poll-rubio-leads-2028-gop-nomination-contest-ossoff-rises-among-democrats/",
+      "url": "https://emersoncollegepolling.com/national-poll-rubio-leads-2028-gop-nomination-contest-ossoff-rises-among-democrats/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Rubio has a credible claim to voter interest alongside his support inside the administration. Differences in samples and candidate lists limit conclusions about who leads nationally. Neither survey measures organizing or delegate commitments.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Rubio has a credible claim to voter interest alongside his support inside the administration. Differences in samples and candidate lists limit conclusions about who leads nationally. Neither survey measures organizing or delegate commitments."
     }
   ]
 }

@@ -1,0 +1,1604 @@
+{
+  "date": "2026-11-20",
+  "type": "daily_review",
+  "scope": "Focused November 19–20 review of congressional votes, Alaska litigation, House Oversight, Republican voter preferences, Venezuelan temporary protection, data-center permitting and Russia sanctions. The Venezuela dialogue closing record, House Epstein bill disposition, new Iran orders and Friday trade announcements were unverified.",
+  "summary": "Senate Republicans blocked a resolution to withdraw U.S. forces from hostilities with Iran, though three Republicans backed it. Senator Joni Ernst’s criticism gives lawmakers more leverage to press the Pentagon for information. House Republicans are competing over who will defend the administration on Oversight as Democrats prepare investigations. Venezuela’s talks, the House Epstein bill, further Iran orders and Friday’s trade announcements remain open.",
+  "added": 9,
+  "changed_entries": [
+    "assessments/current",
+    "assessments/issues",
+    "impeachments/all",
+    "nominations/republican_2028",
+    "events/IRN",
+    "events/MID",
+    "events/IMM",
+    "events/AI",
+    "events/RUS",
+    "events/SUC"
+  ],
+  "reviewed_episode_ids": [
+    "irn-2026-11-19-iran-senate-vote",
+    "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+    "mid-2026-11-19-gill-fallon-seek-oversight-post",
+    "mid-2026-11-19-justice-seeks-dismissal-alaska-suit",
+    "imm-2026-11-18-venezuela-tps-stay-extended",
+    "ai-2026-11-19-senate-passes-permitting-bill",
+    "ai-2026-11-19-frey-vetoes-data-center-ordinance",
+    "rus-2026-11-19-treasury-extends-lukoil-sale-talks",
+    "suc-2026-11-19-polls-split-on-rubio-and-vance"
+  ],
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Daily read-only preflight",
+    "result": "Changed event rows, linked assessments, personnel and nomination snapshots, receipts and final reader-copy fingerprints.",
+    "repairs": [
+      "Plain-language event and assessment review."
+    ]
+  },
+  "editorial_notes": [
+    "Checked new headlines and explanations for named actors, standalone actions and specific political consequences. Kept original wargame labels and numerical history.",
+    "Removed the superseded reference to a pending Minneapolis mayoral decision, named the courts and officials in new event text, and clarified the scope of the claim about Republican voters’ response to the Epstein inquiry."
+  ],
+  "evidence_needed": [
+    "House vote on Massie’s second bill and disclosure implementation remain unverified.",
+    "Federal Reserve Governor Lisa Cook’s response to the White House was corroborated. A later ruling and any revised hearing terms remain unverified.",
+    "Fourth-round closing record remains unverified.",
+    "Prospective trade announcement and operative implementation or court terms were not verified."
+  ],
+  "unresolved_claims": [
+    "House vote on Massie’s second bill and disclosure implementation remain unverified.",
+    "Cook’s old response was corroborated. A later ruling and any revised hearing terms remain unverified.",
+    "Fourth-round closing record remains unverified.",
+    "Prospective trade announcement and operative implementation or court terms were not verified.",
+    "No verified confirmation of Lynch’s records production, the Minneapolis override, Alaska certification, a named conviction coalition or a new Iran operation."
+  ],
+  "nominee_review": {
+    "snapshot_id": "2026-11-20-daily",
+    "wargame_ref": "2026-11-16-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Weekly cadence. No terminal test due. Vance and Rubio developments may make estimates stale.",
+    "summary": "The eight November 16 nomination estimates carry forward. Emerson found Rubio ahead of Vance, while Echelon found Vance ahead. Senator Rand Paul voted for withdrawal from hostilities with Iran. These findings matter for the next weekly comparison because voter preference and a public record on the war can affect recruitment."
+  },
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "incoming-oversight",
+        "question": "Does post-election oversight give lawmakers a path to removing Hegseth?",
+        "importance": "The answer affects the decisions and political assessments listed here.",
+        "affected_assessments": [
+          "impeachments/all",
+          "assessments/current"
+        ],
+        "current_answer": "Senator Joni Ernst’s criticism of Pentagon disclosures adds pressure on Pete Hegseth. The House referral remains the latest verified action on his articles. The four numerical personnel forecasts hold, and five cases remain unestimated.",
+        "outcome": "Senator Joni Ernst’s criticism of Pentagon disclosures adds pressure on Pete Hegseth. The House referral remains the latest verified action on his articles. The four numerical personnel forecasts hold, and five cases remain unestimated.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Lawmakers are preparing for more scrutiny",
+            "weight": "dominant",
+            "reason": "Ernst called out Pentagon disclosure and the House Republican contest is for a committee post.",
+            "discriminating_observation": "Incoming senators take public positions on specific articles"
+          },
+          {
+            "explanation": "Cross-party criticism broadens into a removal coalition",
+            "weight": "limited",
+            "reason": "Ernst is retiring and the evidence contains no trial commitment.",
+            "discriminating_observation": "Incoming senators take public positions on specific articles"
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Incoming senators take public positions on specific articles",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Ernst called out Pentagon disclosure and the House Republican contest is for a committee post.",
+            "assessment_effect": "Check House scheduling, committee assignments, records production and named votes."
+          }
+        ],
+        "next_action": "Check House scheduling, committee assignments, records production and named votes.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "bb33462b3aeba6dc7a8188d7",
+          "bd5ddfe3922d0e0d47d050bf",
+          "d44b93ec295a34b2891dd150",
+          "4ea751a0bf495c2cd19b17c8",
+          "3297b822007ad22a2a9be48c"
+        ]
+      },
+      {
+        "id": "gulf-reaction",
+        "question": "Did the Senate vote or summit change who can direct the Iran war?",
+        "importance": "The answer affects the decisions and political assessments listed here.",
+        "affected_assessments": [
+          "assessments/issues/IRN"
+        ],
+        "current_answer": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified.",
+        "outcome": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Trump keeps discretion while opposition gets a recorded vote",
+            "weight": "dominant",
+            "reason": "The Senate rejected the concurrent resolution.",
+            "discriminating_observation": "Trump issues a withdrawal order or publishes terms with a mediator"
+          },
+          {
+            "explanation": "Republican dissent forces an immediate policy reversal",
+            "weight": "limited",
+            "reason": "Only three Republicans voted for the resolution and no new executive order was verified.",
+            "discriminating_observation": "Trump issues a withdrawal order or publishes terms with a mediator"
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Trump issues a withdrawal order or publishes terms with a mediator",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The Senate rejected the concurrent resolution.",
+            "assessment_effect": "Check diplomatic replies and changes in orders, basing and force protection."
+          }
+        ],
+        "next_action": "Check diplomatic replies and changes in orders, basing and force protection.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "72afc05f2b11ce2aa12bbf84",
+          "23a2d35faca3fccbf0540732",
+          "177ec3ae67a2dfdf8d90787a",
+          "4edc7351f7d30aafaf1fec17"
+        ]
+      },
+      {
+        "id": "venezuela-close",
+        "question": "Did Venezuela’s fourth round set an election timetable?",
+        "importance": "The answer affects the decisions and political assessments listed here.",
+        "affected_assessments": [
+          "assessments/issues/VEN"
+        ],
+        "current_answer": "A November 20 preview reported that the parties expected to close that day. The closing text and any election date remain unverified.",
+        "outcome": "A November 20 preview reported that the parties expected to close that day. The closing text and any election date remain unverified.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "The timetable remains unclear",
+            "weight": "dominant",
+            "reason": "The latest dated result in the prior review still left the election date open. The current source is a preview.",
+            "discriminating_observation": "The government and participating opposition parties publish a joint timetable"
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The government and participating opposition parties publish a joint timetable",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The latest dated result in the prior review still left the election date open. The current source is a preview.",
+            "assessment_effect": "Recover the closing record and determine who can appoint electoral authorities."
+          }
+        ],
+        "next_action": "Recover the closing record and determine who can appoint electoral authorities.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "4ee8f8d987f3025ae33a02ae",
+          "53a2c5288a48b0e7b4a32660",
+          "3c133957a75c4ac98fdb2cac"
+        ]
+      },
+      {
+        "id": "post-election-voter-preference",
+        "question": "Is there evidence Rubio can compete with Vance for voters as well as party insiders?",
+        "importance": "The answer affects the decisions and political assessments listed here.",
+        "affected_assessments": [
+          "nominations/republican_2028",
+          "assessments/current"
+        ],
+        "current_answer": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
+        "outcome": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Both candidates have measurable support, with the lead sensitive to survey design",
+            "weight": "dominant",
+            "reason": "Two surveys with overlapping field dates and different questions or electorates gave opposite rankings.",
+            "discriminating_observation": "A comparable repeated poll or named early-state commitments show a durable shift"
+          },
+          {
+            "explanation": "Rubio has overtaken Vance across Republican electorates",
+            "weight": "limited",
+            "reason": "The Emerson results support this in one sample, while Echelon puts Vance first.",
+            "discriminating_observation": "A comparable repeated poll or named early-state commitments show a durable shift"
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "A comparable repeated poll or named early-state commitments show a durable shift",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "Two surveys with overlapping field dates and different questions or electorates gave opposite rankings.",
+            "assessment_effect": "Compare questionnaire, population and dates, then check named organizers and donors."
+          }
+        ],
+        "next_action": "Compare questionnaire, population and dates, then check named organizers and donors.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "80a1220bd1766a91031363be",
+          "2f0c2c262921368b612eabed",
+          "b3294e564150bcf1ef9719b9"
+        ]
+      },
+      {
+        "id": "local-permitting-authority",
+        "question": "Who can block a data-center project after federal permitting changes?",
+        "importance": "The answer affects the decisions and political assessments listed here.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "The Senate passed a permitting bill that would require data centers to cover power costs. The House has yet to agree to the Senate version. In Minneapolis, Mayor Jacob Frey vetoed a separate local ordinance that would have required project-by-project approval. The council’s response remains open.",
+        "outcome": "The Senate passed a permitting bill that would require data centers to cover power costs. The House has yet to agree to the Senate version. In Minneapolis, Mayor Jacob Frey vetoed a separate local ordinance that would have required project-by-project approval. The council’s response remains open.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Congress and local officials decide different requirements",
+            "weight": "dominant",
+            "reason": "The Senate vote concerns a federal bill, while Frey used his authority over a city zoning ordinance.",
+            "discriminating_observation": "The Minneapolis council votes on the override"
+          },
+          {
+            "explanation": "Federal streamlining settles local project approval",
+            "weight": "limited",
+            "reason": "The evidence shows independent local zoning decisions and an unresolved federal bill.",
+            "discriminating_observation": "The Minneapolis council votes on the override"
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The Minneapolis council votes on the override",
+            "likelihood": "high",
+            "impact": "high",
+            "reason": "The Senate vote concerns a federal bill, while Frey used his authority over a city zoning ordinance.",
+            "assessment_effect": "Check the city vote, interim zoning and the House response to the federal bill."
+          }
+        ],
+        "next_action": "Check the city vote, interim zoning and the House response to the federal bill.",
+        "next_check": "2026-11-20",
+        "source_receipt_ids": [
+          "b97f13985aa57c5498e6ae31",
+          "23a2d35faca3fccbf0540732",
+          "6f5b2963908798ed7f7200a2",
+          "d48979817406ef1deca1b4b3"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "chip-enforcement-counterparty": "Deferred. Prior Commerce rule remains in force. Next check enforcement, the Nvidia inquiry and December interviews.",
+      "post-election-bipartisan-costs": "Carried. Meeting and joint action remain unverified. The current voter preference priority has more immediate evidence for the weekly comparison."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-20",
+        "next_action": "Check chip rule publication, Minneapolis mayoral disposition and December interviews.",
+        "next_check": "2026-11-20",
+        "reason": "The Senate passed a permitting bill that would require data centers to cover power costs. The House has yet to agree to the Senate version. In Minneapolis, Mayor Jacob Frey vetoed a separate local ordinance that would have required project-by-project approval. The council’s response remains open.",
+        "attempt_receipt_ids": [
+          "23a2d35faca3fccbf0540732",
+          "6f5b2963908798ed7f7200a2",
+          "d48979817406ef1deca1b4b3"
+        ]
+      },
+      "EPS": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check for Massie’s floor motion and responses to investigation letters.",
+        "next_check": "2026-11-20",
+        "reason": "House vote on Massie’s second bill and disclosure implementation remain unverified.",
+        "attempt_receipt_ids": [
+          "b19f04d0a3bd988aacea3574",
+          "f6252df74ab88ad49ae5d131"
+        ]
+      },
+      "FED": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check the Cook docket and any new White House hearing notice.",
+        "next_check": "2026-11-20",
+        "reason": "Cook’s old response was corroborated. A later ruling and any revised hearing terms remain unverified.",
+        "attempt_receipt_ids": [
+          "249777122dcb7bbae3d51025",
+          "af4a04f91b22909560815916"
+        ]
+      },
+      "IMM": {
+        "last_verified": "2026-11-20",
+        "next_action": "Check Mullin hearing outcome, Project Rousseau operative orders and Big Bend construction.",
+        "next_check": "2026-11-20",
+        "reason": "The Ninth Circuit extended its pause on restoring Venezuelans’ temporary protected status until seven days after it publishes judgment. The Justice Department withdrew its emergency Supreme Court application. The existing termination remains in effect during the pause.",
+        "attempt_receipt_ids": [
+          "8d11aa204c0d2abf88e2e05e"
+        ]
+      },
+      "IRN": {
+        "last_verified": "2026-11-20",
+        "next_action": "Check official damage accounts, troop-defense records, new orders and a U.S. reply.",
+        "next_check": "2026-11-20",
+        "reason": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified.",
+        "attempt_receipt_ids": [
+          "72afc05f2b11ce2aa12bbf84"
+        ]
+      },
+      "MID": {
+        "last_verified": "2026-11-20",
+        "next_action": "Confirm Alaska count, House leadership and committee assignments.",
+        "next_check": "2026-11-20",
+        "reason": "The Justice Department asked an appeals court to end its challenge to Alaska’s Senate result after Mary Peltola secured a majority in unofficial returns. Jim Jordan’s ally Brandon Gill and Steve Scalise supporter Pat Fallon are competing to lead Republicans on House Oversight. Senator Joni Ernst’s criticism gives lawmakers from both parties a basis to press Pete Hegseth for information about the Iran war.",
+        "attempt_receipt_ids": [
+          "bb33462b3aeba6dc7a8188d7",
+          "d44b93ec295a34b2891dd150",
+          "bd5ddfe3922d0e0d47d050bf",
+          "4ea751a0bf495c2cd19b17c8"
+        ]
+      },
+      "RUS": {
+        "last_verified": "2026-11-20",
+        "next_action": "Check a dated handover, APEC statements, and Lukoil license.",
+        "next_check": "2026-11-20",
+        "reason": "Treasury extended permission for negotiations and contingent contracts involving Lukoil’s international assets to December 19. Completing a sale requires separate Treasury approval.",
+        "attempt_receipt_ids": [
+          "52d5d736a708b51f1a412d52",
+          "3ffe47f9f7f260edccdb58c7"
+        ]
+      },
+      "SUC": {
+        "last_verified": "2026-11-20",
+        "next_action": "Check RNC leadership, candidate replies and named organizers or donor commitments.",
+        "next_check": "2026-11-20",
+        "reason": "Two November surveys gave opposite rankings of Rubio and Vance. Emerson put Rubio first in its open-ended and named questions. Echelon put Vance first with a different list and electorate. The polls establish a live contest for voter support. State organizing and Trump’s endorsement remain open.",
+        "attempt_receipt_ids": [
+          "80a1220bd1766a91031363be",
+          "2f0c2c262921368b612eabed"
+        ]
+      },
+      "TAR": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check operative tariff orders and signed or implemented agreements.",
+        "next_check": "2026-11-20",
+        "reason": "Prospective trade announcement and operative implementation or court terms were not verified.",
+        "attempt_receipt_ids": [
+          "f3d464a9b309421b86f092ed",
+          "b3a2213524c576860b537c63"
+        ]
+      },
+      "VEN": {
+        "last_verified": "2026-11-19",
+        "next_action": "Obtain the fourth-round closing record and check implementation of announced military cooperation.",
+        "next_check": "2026-11-20",
+        "reason": "Fourth-round closing record remains unverified.",
+        "attempt_receipt_ids": [
+          "53a2c5288a48b0e7b4a32660",
+          "4ee8f8d987f3025ae33a02ae",
+          "3c133957a75c4ac98fdb2cac"
+        ]
+      }
+    },
+    "discovery_question": "Who can block a data-center project after federal permitting changes?",
+    "discovery_disposition": "The Senate passed a permitting bill that would require data centers to cover power costs. The House has yet to agree to the Senate version. In Minneapolis, Mayor Jacob Frey vetoed a separate local ordinance that would have required project-by-project approval. The council’s response remains open.",
+    "premise_reconciliation": "Used the November 19 maintained assessments and November 16 full review. Updated the Venezuelan court posture and Lukoil deadline from primary records. Retained the House referral and 56-seat projection. Current polls are preference measures with different designs. They leave the roster and weekly probability method unchanged.",
+    "source_receipts": [
+      {
+        "kind": "source",
+        "value": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "iran senate vote",
+        "status": "read",
+        "result": "The Senate rejected the House-passed resolution 48–51. Republicans Susan Collins, Lisa Murkowski and Rand Paul voted for it.",
+        "reporting_origin": "U.S. Senate",
+        "id": "72afc05f2b11ce2aa12bbf84"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/19/joni-ernst-hegseth-iran-war",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "ernst questions pentagon disclosure",
+        "status": "read",
+        "result": "In an Axios interview, the retiring Republican senator said the Pentagon had shared too little about its discussions with the White House. She said House Democrats might revisit Pete Hegseth’s impeachment in January.",
+        "reporting_origin": "Axios",
+        "id": "bb33462b3aeba6dc7a8188d7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/19/republicans-house-oversight-gill-fallon",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "gill fallon seek oversight post",
+        "status": "read",
+        "result": "Axios reports that Gill, who backed Jim Jordan for party leader, and Fallon, who backed Steve Scalise, want the ranking Republican post. Republican whip Tom Emmer publicly backs Gill.",
+        "reporting_origin": "Axios",
+        "id": "d44b93ec295a34b2891dd150"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "justice seeks dismissal alaska suit",
+        "status": "read",
+        "result": "AP reports that the department asked the appeals court to vacate the lower court ruling and dismiss the case as moot after Mary Peltola won an outright majority in unofficial returns. Trump had pressed for the suit before the result.",
+        "reporting_origin": "Associated Press",
+        "id": "bd5ddfe3922d0e0d47d050bf"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/DocketPDF/26/26A714/433333/20261119155558543_26A714%20-%20Mullin%20v.%20National%20TPS%20Alliance.pdf",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "venezuela tps stay extended",
+        "status": "read",
+        "result": "The solicitor general told the Supreme Court that the appeals court kept the lower court’s order on hold until seven days after the appeals court publishes judgment. The government withdrew its emergency Supreme Court request on November 19.",
+        "reporting_origin": "Solicitor General filing",
+        "id": "8d11aa204c0d2abf88e2e05e"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/b41c2017e4a9fe2e6de92ec77a4cdd0a",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "senate passes permitting bill",
+        "status": "read",
+        "result": "The Senate passed amended H.R. 2347 by 62–33. AP reports the proposal would speed federal reviews and require data centers to cover power costs. The House previously passed a different version.",
+        "reporting_origin": "Associated Press",
+        "id": "b97f13985aa57c5498e6ae31"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/local/twin-cities/2026/11/19/frey-vetoes-council-police-chief-data-center",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "frey vetoes data center ordinance",
+        "status": "read",
+        "result": "Axios reports that Frey vetoed the ordinance after it passed 7–6. He argued that the council’s restrictions would effectively prevent development. The council was due to consider an override November 20.",
+        "reporting_origin": "Axios",
+        "id": "6f5b2963908798ed7f7200a2"
+      },
+      {
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/faqs/updated/2026-11-19",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "treasury extends lukoil sale talks",
+        "status": "read",
+        "result": "Treasury extended permission to negotiate and sign contingent contracts through December 19. A buyer still needs separate Treasury approval to complete a sale.",
+        "reporting_origin": "Office of Foreign Assets Control",
+        "id": "52d5d736a708b51f1a412d52"
+      },
+      {
+        "kind": "source",
+        "value": "https://emersoncollegepolling.com/national-poll-rubio-leads-2028-gop-nomination-contest-ossoff-rises-among-democrats/",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "polls split on rubio and vance",
+        "status": "read",
+        "result": "Emerson’s November 14–16 survey put Marco Rubio ahead of JD Vance, 44% to 24% with names supplied and 36% to 20% without names supplied. Echelon’s November 12–16 survey put Vance ahead 40% to 26% among Republican and Republican-leaning registered voters with a different list.",
+        "reporting_origin": "Emerson College Polling",
+        "id": "80a1220bd1766a91031363be"
+      },
+      {
+        "kind": "source",
+        "value": "https://echeloninsights.com/hubfs/_Media%20for%20Insights%20Blog/November%202026%20-%20Voter%20Omnibus%20Topline%20-%20External.pdf",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "echelon",
+        "status": "read",
+        "result": "Vance leads 40–26 on the named Republican list.",
+        "reporting_origin": "Echelon Insights",
+        "id": "2f0c2c262921368b612eabed"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.infobae.com/venezuela/2026/11/20/el-chavismo-y-la-oposicion-preven-cerrar-este-viernes-en-caracas-una-ronda-de-dialogo-centrada-en-las-leyes-de-derechos-politicos/?outputType=amp-type",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "venezuela close",
+        "status": "headline_only",
+        "result": "The two sides expected to close round four on November 20. Closing terms were not in the preview.",
+        "reporting_origin": "Infobae",
+        "id": "4ee8f8d987f3025ae33a02ae"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "senate index",
+        "status": "read",
+        "result": "Refreshed roll calls 269 and 270 for Iran and amended H.R. 2347.",
+        "reporting_origin": "U.S. Senate",
+        "id": "23a2d35faca3fccbf0540732"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/20/trump-pushes-putin-ukraine-war-deal",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "ukraine",
+        "status": "headline_only",
+        "result": "Axios reports Trump joined a discussion by phone with Ukraine and European leaders and sought European involvement.",
+        "reporting_origin": "Axios",
+        "id": "09afc4232204ae69750c47d9"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/1831ff1aba03a67f368e9fb5f942e849",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "cook",
+        "status": "headline_only",
+        "result": "AP reports Cook’s conditional refusal to attend. No later hearing or merits order was established from this route.",
+        "reporting_origin": "Associated Press",
+        "id": "af4a04f91b22909560815916"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.elections.alaska.gov/election-results/",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "alaska",
+        "status": "headline_only",
+        "result": "Refreshed results index. Certification was not verified from the returned extract.",
+        "reporting_origin": "Alaska Division of Elections",
+        "id": "c372fe03d04348990b61087e"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "state",
+        "status": "blocked",
+        "result": "Direct access was attempted. No usable dated release was recovered. AP and Axios searches supplied alternative coverage of summit diplomacy.",
+        "reporting_origin": "U.S. Department of State",
+        "id": "177ec3ae67a2dfdf8d90787a"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "white house",
+        "status": "headline_only",
+        "result": "Mutable index opened for focused headline screening. No exhaustive dated inventory was completed.",
+        "reporting_origin": "White House",
+        "id": "e08aaa051ff8e9d8d2f5fc87"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "doj",
+        "status": "headline_only",
+        "result": "Mutable index opened for focused headline screening. No exhaustive dated inventory was completed.",
+        "reporting_origin": "Justice Department",
+        "id": "72cf9cc6674fa15ea336a6ae"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "fed",
+        "status": "headline_only",
+        "result": "Mutable index opened for focused headline screening. No exhaustive dated inventory was completed.",
+        "reporting_origin": "Federal Reserve",
+        "id": "9a4ae369ec712f7ae2d5547f"
+      },
+      {
+        "kind": "source",
+        "value": "https://ofac.treasury.gov/recent-actions",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "ofac",
+        "status": "headline_only",
+        "result": "Mutable index opened for focused headline screening. No exhaustive dated inventory was completed.",
+        "reporting_origin": "OFAC",
+        "id": "2eca2535f3dd9be724be2f88"
+      },
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/static/",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "house",
+        "status": "headline_only",
+        "result": "Mutable index opened for focused headline screening. No exhaustive dated inventory was completed.",
+        "reporting_origin": "House Clerk",
+        "id": "9e92f0a876b9aa869f516466"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.memeorandum.com/",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "memeorandum",
+        "status": "headline_only",
+        "result": "Mutable index opened for focused headline screening. No exhaustive dated inventory was completed.",
+        "reporting_origin": "Memeorandum",
+        "id": "f05a9099cfe4b3a0096fe9b7"
+      },
+      {
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-20-nov-2026",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "digest",
+        "status": "blocked",
+        "result": "Direct attempt yielded no usable digest text.",
+        "reporting_origin": "The Verardo Group",
+        "id": "b82cd21d6160ba2dd43134ca"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Alaska election results Senate Peltola House Jeffries Trump Patel Guilfoyle Lynch November 19 20 2026",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "opening election",
+        "status": "read",
+        "result": "Found Alaska election reporting and Justice Department filing coverage.",
+        "reporting_origin": "web search",
+        "id": "59735b055d767a332412ce6e"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Trump Vance El-Sayed Rubio midterms reaction House Senate Supreme Court rulings November 19 20 2026",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "opening succession",
+        "status": "read",
+        "result": "Broad screen returned Alaska reporting and stale court hits.",
+        "reporting_origin": "web search",
+        "id": "bd25184ce84229690f806cc9"
+      },
+      {
+        "kind": "query",
+        "value": "November 19 20 2026 Iran Gulf US strikes Venezuela election fourth talks Ukraine Russia ceasefire Reuters AP",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "opening wars",
+        "status": "read",
+        "result": "Broad screen surfaced Senate war powers reporting.",
+        "reporting_origin": "web search",
+        "id": "4edc7351f7d30aafaf1fec17"
+      },
+      {
+        "kind": "query",
+        "value": "November 19 20 2026 Trump tariffs immigration AI data centers permits Epstein Federal Reserve congressional oversight news",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "opening policy",
+        "status": "read",
+        "result": "Found AP permitting coverage and other leads.",
+        "reporting_origin": "web search",
+        "id": "f9ae91713d08fbb1e88357c1"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Drew Lynch Guilfoyle records production Kash Patel Hegseth Judiciary Garcia impeachment November 19 Republican backlash",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "lynch",
+        "status": "read",
+        "result": "Earlier correspondence surfaced. No public confirmation of Lynch production was established.",
+        "reporting_origin": "web search",
+        "id": "4ea751a0bf495c2cd19b17c8"
+      },
+      {
+        "kind": "query",
+        "value": "20 noviembre 2026 cierre cuarta ronda dialogo Venezuela CNE cronograma Figuera gobierno",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "venezuela query",
+        "status": "read",
+        "result": "Found a scheduled closing preview. No verified closing text or timetable.",
+        "reporting_origin": "web search",
+        "id": "53a2c5288a48b0e7b4a32660"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Massie Epstein records bill House floor November 19 Reitz Blumenthal",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "massie",
+        "status": "read",
+        "result": "Found earlier discharge reporting and a November 19 floor speech reference. A passage vote and Reitz response remain unverified.",
+        "reporting_origin": "web search",
+        "id": "b19f04d0a3bd988aacea3574"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Ukraine Abu Dhabi prisoner exchange Eisenkot coalition Qatar Iran latest talks",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "putin",
+        "status": "read",
+        "result": "Earlier exchange agreement and mediation surfaced. Handover and coalition remain unverified.",
+        "reporting_origin": "web search",
+        "id": "3ffe47f9f7f260edccdb58c7"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 El-Sayed Vance meeting Rubio November 19 Pew post midterm Trump Vance Iran Republicans poll war continue",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "post shock",
+        "status": "read",
+        "result": "Found Emerson and Ernst leads. Meeting and voter overlap remained unverified.",
+        "reporting_origin": "web search",
+        "id": "b3294e564150bcf1ef9719b9"
+      },
+      {
+        "kind": "query",
+        "value": "November 19 20 2026 Trump China trade tariffs agreement White House",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "trade",
+        "status": "read",
+        "result": "Summit coverage and prospective trade announcement surfaced. Operative new tariff or implementation terms remain unverified.",
+        "reporting_origin": "web search",
+        "id": "f3d464a9b309421b86f092ed"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Kash Patel lawsuit subpoena Garcia Drew Lynch Guilfoyle ethics complaint",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "legal guilfoyle",
+        "status": "read",
+        "result": "Recovered the earlier Garcia letter as a lead. No new production established.",
+        "reporting_origin": "web search",
+        "id": "4fdc1695a25fd7e5d3c81688"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Pete Hegseth Judiciary impeachment subpoena House clerk November 19 1655",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "legal hegseth",
+        "status": "read",
+        "result": "Found primary record of November 10 referral. No later action verified in this search.",
+        "reporting_origin": "web search",
+        "id": "3297b822007ad22a2a9be48c"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Elaine Lisa Cook court White House hearing December 14",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "legal cook",
+        "status": "read",
+        "result": "Found AP’s earlier report of conditional refusal and reporting on the December 14 date. No later operative ruling confirmed.",
+        "reporting_origin": "web search",
+        "id": "249777122dcb7bbae3d51025"
+      },
+      {
+        "kind": "query",
+        "value": "Minneapolis November 20 2026 City Council override veto data centers Frey result 9 votes",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "check scheduled or pending outcome before preflight",
+        "status": "read",
+        "result": "Local reporting confirmed the veto and nine-vote threshold. No override result was verified.",
+        "reporting_origin": "web search",
+        "id": "d48979817406ef1deca1b4b3"
+      },
+      {
+        "kind": "query",
+        "value": "Venezuela 20 noviembre 2026 culminó cuarto ciclo diálogo Jorge Rodríguez Figuera 20 noviembre cierre fecha elección",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "check scheduled or pending outcome before preflight",
+        "status": "read",
+        "result": "El Diario’s completion-style headline led to an EFE-attributed preview. A closing text and election date remain unverified.",
+        "reporting_origin": "web search",
+        "id": "3c133957a75c4ac98fdb2cac"
+      },
+      {
+        "kind": "query",
+        "value": "November 20 2026 Trump trade deals Friday press conference announced China tariffs",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "check scheduled or pending outcome before preflight",
+        "status": "read",
+        "result": "An announcement preview surfaced. New operative trade terms remain unverified.",
+        "reporting_origin": "web search",
+        "id": "b3a2213524c576860b537c63"
+      },
+      {
+        "kind": "query",
+        "value": "site:oversight.house.gov OR site:govinfo.gov November 19 2026 Thomas Massie Epstein Files Transparency Act II passed 2026 11 19",
+        "window": "2026-11-19/2026-11-20",
+        "purpose": "check scheduled or pending outcome before preflight",
+        "status": "read",
+        "result": "No official passage result was verified in the targeted search.",
+        "reporting_origin": "web search",
+        "id": "f6252df74ab88ad49ae5d131"
+      }
+    ]
+  },
+  "coverage": {
+    "sourcesRead": [
+      "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+      "https://www.axios.com/2026/11/19/joni-ernst-hegseth-iran-war",
+      "https://www.axios.com/2026/11/19/republicans-house-oversight-gill-fallon",
+      "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+      "https://www.supremecourt.gov/DocketPDF/26/26A714/433333/20261119155558543_26A714%20-%20Mullin%20v.%20National%20TPS%20Alliance.pdf",
+      "https://apnews.com/article/b41c2017e4a9fe2e6de92ec77a4cdd0a",
+      "https://www.axios.com/local/twin-cities/2026/11/19/frey-vetoes-council-police-chief-data-center",
+      "https://ofac.treasury.gov/faqs/updated/2026-11-19",
+      "https://emersoncollegepolling.com/national-poll-rubio-leads-2028-gop-nomination-contest-ossoff-rises-among-democrats/",
+      "https://echeloninsights.com/hubfs/_Media%20for%20Insights%20Blog/November%202026%20-%20Voter%20Omnibus%20Topline%20-%20External.pdf",
+      "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm"
+    ],
+    "queries": 17,
+    "perIssue": {
+      "AI": "reviewed",
+      "EPS": "carried",
+      "FED": "carried",
+      "IMM": "reviewed",
+      "IRN": "reviewed",
+      "MID": "reviewed",
+      "RUS": "reviewed",
+      "SUC": "reviewed",
+      "TAR": "carried",
+      "VEN": "carried"
+    },
+    "lookbackDays": 2,
+    "outcome_watch": [
+      {
+        "outcome": "Mississippi Senate and projected chamber control",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "AP’s Alaska report continues to put Democrats at 56 projected Senate seats. Mississippi’s earlier call carries forward."
+      },
+      {
+        "outcome": "Alaska Senate and governor",
+        "status": "reviewed",
+        "date": "2026-11-18",
+        "finding": "Carried from prior review. AP called both races. Alaska still labels its count unofficial. Final count and certification remain pending."
+      },
+      {
+        "outcome": "Kansas governor",
+        "status": "reviewed",
+        "date": "2026-11-16",
+        "finding": "Carried from prior review. AP called the race for Cindy Holscher."
+      },
+      {
+        "outcome": "Hegseth House procedure",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "House roll call 317 remains the latest verified disposition. A search for later action yielded no newer verified proceeding."
+      },
+      {
+        "outcome": "Massie Epstein records bill",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "House vote on Massie’s second bill and disclosure implementation remain unverified."
+      },
+      {
+        "outcome": "Abu Dhabi prisoner exchange",
+        "status": "pending",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. The agreement remains the latest verified milestone. Neither a handover nor the number transferred was confirmed."
+      },
+      {
+        "outcome": "Minneapolis data-center zoning",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "Frey vetoed the ordinance. The November 20 override vote remains unverified."
+      },
+      {
+        "outcome": "Israel government formation",
+        "status": "pending",
+        "date": "2026-12-06",
+        "finding": "Carried from prior review. Eisenkot is negotiating after parliament convened. No governing coalition was verified."
+      },
+      {
+        "outcome": "Qatar mediation and U.S. military or enforcement orders",
+        "status": "pending",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. Pakistan’s foreign minister remains involved and awaits a reply. The next Qatar contact and military orders remain open."
+      },
+      {
+        "outcome": "Lisa Cook hearing and lower-court case",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "Cook’s old response was corroborated. A later ruling and any revised hearing terms remain unverified."
+      },
+      {
+        "outcome": "Venezuela negotiations",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "A November 20 preview reported that the parties expected to close that day. The closing text and any election date remain unverified."
+      },
+      {
+        "outcome": "Big Bend construction",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. Prior legal permission carries forward. Work on site was not established."
+      },
+      {
+        "outcome": "Lukoil authorization",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "Treasury extended permission for negotiations and contingent contracts involving Lukoil’s international assets to December 19. Completing a sale requires separate Treasury approval."
+      },
+      {
+        "outcome": "Guilfoyle records request",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "Lynch’s production remains unverified after searches for a response or later compulsory action."
+      },
+      {
+        "outcome": "Nvidia board inquiry and chip rule",
+        "status": "pending",
+        "date": "2026-11-19",
+        "finding": "Carried from earlier coverage. Commerce rule effective November 19. Nvidia board findings, enforcement outcomes and December testimony remain pending."
+      },
+      {
+        "outcome": "Tariff and trade implementation",
+        "status": "unreviewed",
+        "date": "2026-11-20",
+        "finding": "Prospective trade announcement and operative implementation or court terms were not verified."
+      },
+      {
+        "outcome": "Eighth Circuit nomination",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "Carried from prior review. The White House withdrew Lee Rudofsky and nominated Cody Hiland for the same seat. Confirmation remains open."
+      },
+      {
+        "outcome": "Blumenthal’s request for confirmation",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. Axios documented a separate Reitz request to Warren. A reply to Blumenthal remains unverified."
+      },
+      {
+        "outcome": "October consumer price report",
+        "status": "reviewed",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. BLS published the October CPI on November 10; missing prior-year survey data limit 12-month comparisons."
+      },
+      {
+        "outcome": "Project Rousseau court filings",
+        "status": "unreviewed",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. Earlier relief remains documented. Later operative order and scope require docket verification."
+      },
+      {
+        "outcome": "Republican National Committee chair vote",
+        "status": "pending",
+        "date": "2027-01-15",
+        "finding": "Carried from prior review. AP reports a January winter meeting. Exact vote date and commitments remain open."
+      },
+      {
+        "outcome": "Southern border asylum case",
+        "status": "reviewed",
+        "date": "2026-11-13",
+        "finding": "Carried from prior review. CBS reported the grant of review. No final ruling on the merits."
+      },
+      {
+        "outcome": "Port Shuaiba records and briefing",
+        "status": "pending",
+        "date": "2026-11-15",
+        "finding": "Carried from prior review. Blumenthal requested documents and a briefing. Production and testimony remain open."
+      },
+      {
+        "outcome": "Latest Bahrain episode and U.S. operational response",
+        "status": "reviewed",
+        "date": "2026-11-17",
+        "finding": "Carried from prior review. Reuters and AP report the November 17 exchange and AP reports the ensuing November 18 attacks. Damage and next orders remain open."
+      },
+      {
+        "outcome": "2027 congressional leadership and committee assignments",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "Gill and Fallon are seeking the ranking Republican Oversight post. Full House and committee outcomes remain open."
+      },
+      {
+        "outcome": "White House approval for agency testimony",
+        "status": "pending",
+        "date": "2026-11-16",
+        "finding": "Carried from prior review. The memo is attributed in multiple reports. Its application to a specific witness or subpoena remains open."
+      },
+      {
+        "outcome": "House and Senate Republican leadership choices",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "Carried from prior review. CBS confirmed House Republicans chose Jim Jordan and Senate Republicans kept John Thune. The existing election event carries those results."
+      },
+      {
+        "outcome": "Alaska certification and any necessary ranked-choice tabulation",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "The Justice Department asked for dismissal of its challenge. Official certification remains unverified."
+      },
+      {
+        "outcome": "Mullin and FBI deputy director at House homeland security hearing",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "Carried from earlier coverage. Mullin and Raia testified with Clayton. Garbarino and Thompson criticized Patel for missing the hearing."
+      },
+      {
+        "outcome": "Trump–Xi and Trump–Xi–Putin meetings at APEC",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "Carried from earlier coverage. Meetings held. China published a joint declaration on nuclear-risk dialogue and other shared aims. Implementation and any war settlement remain open."
+      },
+      {
+        "outcome": "Huang and Teter House interviews",
+        "status": "pending",
+        "date": "2026-12-01",
+        "finding": "Carried from prior review. The committees announced December 1 and 2. Actual testimony remains open."
+      },
+      {
+        "outcome": "U.S.–Thailand trade agreement",
+        "status": "pending",
+        "date": "2026-11-17",
+        "finding": "Carried from prior review. The joint statement announces substantial conclusion of talks. Final terms and implementation remain open."
+      },
+      {
+        "outcome": "Iran attacks on November 18 and damage at Gulf bases",
+        "status": "pending",
+        "date": "2026-11-18",
+        "finding": "Carried from prior review. AP reports additional attacks. Damage, retaliation and access changes remain open."
+      },
+      {
+        "outcome": "Supreme Court Venezuelan temporary protection stay request",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "The Ninth Circuit extended its pause on restoring Venezuelans’ temporary protected status until seven days after it publishes judgment. The Justice Department withdrew its emergency Supreme Court application. The existing termination remains in effect during the pause."
+      },
+      {
+        "outcome": "U.S.–Venezuela military agreement",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "Carried from earlier coverage. Hegseth announced the signing. Text and implementing steps remain open."
+      },
+      {
+        "outcome": "November 19 chip-rule effective date",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "Carried from earlier coverage. Federal Register gives November 19 as the effective date."
+      },
+      {
+        "outcome": "Ninth Circuit Venezuelan temporary protection merits decision",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "The pause lasts until seven days after judgment. The government says it may return to the Supreme Court if it loses."
+      },
+      {
+        "outcome": "Iran war powers resolution",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified."
+      },
+      {
+        "outcome": "House response to Senate permitting bill",
+        "status": "pending",
+        "date": "2026-11-20",
+        "finding": "Senate passage is verified. House agreement and enactment remain open."
+      }
+    ],
+    "propagation": {
+      "irn-2026-11-19-iran-senate-vote": [
+        "assessments/issues"
+      ],
+      "mid-2026-11-19-ernst-questions-pentagon-disclosure": [
+        "assessments/issues"
+      ],
+      "mid-2026-11-19-gill-fallon-seek-oversight-post": [
+        "assessments/issues"
+      ],
+      "mid-2026-11-19-justice-seeks-dismissal-alaska-suit": [
+        "assessments/issues"
+      ],
+      "imm-2026-11-18-venezuela-tps-stay-extended": [
+        "assessments/issues"
+      ],
+      "ai-2026-11-19-senate-passes-permitting-bill": [
+        "assessments/issues"
+      ],
+      "ai-2026-11-19-frey-vetoes-data-center-ordinance": [
+        "assessments/issues"
+      ],
+      "rus-2026-11-19-treasury-extends-lukoil-sale-talks": [
+        "assessments/issues"
+      ],
+      "suc-2026-11-19-polls-split-on-rubio-and-vance": [
+        "assessments/issues"
+      ]
+    },
+    "blocked": [
+      "https://www.state.gov/press-releases/",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-20-nov-2026"
+    ],
+    "deviations": [
+      "Focused review. Several source index groups and the newsletter inbox were not comprehensively enumerated. See pending and unreviewed outcomes."
+    ],
+    "gaps": [
+      {
+        "gap": "Inaccessible source pages and incomplete original or independent coverage.",
+        "routes": [
+          {
+            "route": "https://www.state.gov/press-releases/",
+            "tried": true,
+            "whyItFailed": "Direct access was attempted. No usable dated release was recovered. AP and Axios searches supplied alternative coverage of summit diplomacy."
+          },
+          {
+            "route": "https://theverardogroup.substack.com/p/tvg-daily-brief-20-nov-2026",
+            "tried": true,
+            "whyItFailed": "Direct attempt yielded no usable digest text."
+          }
+        ]
+      }
+    ]
+  },
+  "assessment_audit": {
+    "issue_coverage": {
+      "AI": {
+        "status": "reviewed",
+        "reason": "The Senate passed a permitting bill that would require data centers to cover power costs. The House has yet to agree to the Senate version. In Minneapolis, Mayor Jacob Frey vetoed a separate local ordinance that would have required project-by-project approval. The council’s response remains open."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "House vote on Massie’s second bill and disclosure implementation remain unverified."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Cook’s old response was corroborated. A later ruling and any revised hearing terms remain unverified."
+      },
+      "IMM": {
+        "status": "reviewed",
+        "reason": "The Ninth Circuit extended its pause on restoring Venezuelans’ temporary protected status until seven days after it publishes judgment. The Justice Department withdrew its emergency Supreme Court application. The existing termination remains in effect during the pause."
+      },
+      "IRN": {
+        "status": "reviewed",
+        "reason": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "The Justice Department asked an appeals court to end its challenge to Alaska’s Senate result after Mary Peltola secured a majority in unofficial returns. Jim Jordan’s ally Brandon Gill and Steve Scalise supporter Pat Fallon are competing to lead Republicans on House Oversight. Senator Joni Ernst’s criticism gives lawmakers from both parties a basis to press Pete Hegseth for information about the Iran war."
+      },
+      "RUS": {
+        "status": "reviewed",
+        "reason": "Treasury extended permission for negotiations and contingent contracts involving Lukoil’s international assets to December 19. Completing a sale requires separate Treasury approval."
+      },
+      "SUC": {
+        "status": "reviewed",
+        "reason": "Two November surveys gave opposite rankings of Rubio and Vance. Emerson put Rubio first in its open-ended and named questions. Echelon put Vance first with a different list and electorate. The polls establish a live contest for voter support. State organizing and Trump’s endorsement remain open."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Prospective trade announcement and operative implementation or court terms were not verified."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Fourth-round closing record remains unverified."
+      }
+    },
+    "dated_assumptions": [
+      {
+        "assumption": "Mississippi Senate and projected chamber control",
+        "date": "2026-11-20",
+        "status": "verified",
+        "reason": "AP’s Alaska report continues to put Democrats at 56 projected Senate seats. Mississippi’s earlier call carries forward."
+      },
+      {
+        "assumption": "Alaska Senate and governor",
+        "date": "2026-11-18",
+        "status": "verified",
+        "reason": "Carried from prior review. AP called both races. Alaska still labels its count unofficial. Final count and certification remain pending."
+      },
+      {
+        "assumption": "Kansas governor",
+        "date": "2026-11-16",
+        "status": "verified",
+        "reason": "Carried from prior review. AP called the race for Cindy Holscher."
+      },
+      {
+        "assumption": "Hegseth House procedure",
+        "date": "2026-11-20",
+        "status": "verified",
+        "reason": "House roll call 317 remains the latest verified disposition. A search for later action yielded no newer verified proceeding."
+      },
+      {
+        "assumption": "Massie Epstein records bill",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "House vote on Massie’s second bill and disclosure implementation remain unverified."
+      },
+      {
+        "assumption": "Abu Dhabi prisoner exchange",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Carried from prior review. The agreement remains the latest verified milestone. Neither a handover nor the number transferred was confirmed."
+      },
+      {
+        "assumption": "Minneapolis data-center zoning",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "Frey vetoed the ordinance. The November 20 override vote remains unverified."
+      },
+      {
+        "assumption": "Israel government formation",
+        "date": "2026-12-06",
+        "status": "pending",
+        "reason": "Carried from prior review. Eisenkot is negotiating after parliament convened. No governing coalition was verified."
+      },
+      {
+        "assumption": "Qatar mediation and U.S. military or enforcement orders",
+        "date": "2026-11-13",
+        "status": "pending",
+        "reason": "Carried from prior review. Pakistan’s foreign minister remains involved and awaits a reply. The next Qatar contact and military orders remain open."
+      },
+      {
+        "assumption": "Lisa Cook hearing and lower-court case",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "Cook’s old response was corroborated. A later ruling and any revised hearing terms remain unverified."
+      },
+      {
+        "assumption": "Venezuela negotiations",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "A November 20 preview reported that the parties expected to close that day. The closing text and any election date remain unverified."
+      },
+      {
+        "assumption": "Big Bend construction",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Carried from prior review. Prior legal permission carries forward. Work on site was not established."
+      },
+      {
+        "assumption": "Lukoil authorization",
+        "date": "2026-11-20",
+        "status": "verified",
+        "reason": "Treasury extended permission for negotiations and contingent contracts involving Lukoil’s international assets to December 19. Completing a sale requires separate Treasury approval."
+      },
+      {
+        "assumption": "Guilfoyle records request",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "Lynch’s production remains unverified after searches for a response or later compulsory action."
+      },
+      {
+        "assumption": "Nvidia board inquiry and chip rule",
+        "date": "2026-11-19",
+        "status": "pending",
+        "reason": "Carried from earlier coverage. Commerce rule effective November 19. Nvidia board findings, enforcement outcomes and December testimony remain pending."
+      },
+      {
+        "assumption": "Tariff and trade implementation",
+        "date": "2026-11-20",
+        "status": "unreviewed",
+        "reason": "Prospective trade announcement and operative implementation or court terms were not verified."
+      },
+      {
+        "assumption": "Eighth Circuit nomination",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Carried from prior review. The White House withdrew Lee Rudofsky and nominated Cody Hiland for the same seat. Confirmation remains open."
+      },
+      {
+        "assumption": "Blumenthal’s request for confirmation",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Carried from prior review. Axios documented a separate Reitz request to Warren. A reply to Blumenthal remains unverified."
+      },
+      {
+        "assumption": "October consumer price report",
+        "date": "2026-11-13",
+        "status": "verified",
+        "reason": "Carried from prior review. BLS published the October CPI on November 10; missing prior-year survey data limit 12-month comparisons."
+      },
+      {
+        "assumption": "Project Rousseau court filings",
+        "date": "2026-11-13",
+        "status": "unreviewed",
+        "reason": "Carried from prior review. Earlier relief remains documented. Later operative order and scope require docket verification."
+      },
+      {
+        "assumption": "Republican National Committee chair vote",
+        "date": "2027-01-15",
+        "status": "pending",
+        "reason": "Carried from prior review. AP reports a January winter meeting. Exact vote date and commitments remain open."
+      },
+      {
+        "assumption": "Southern border asylum case",
+        "date": "2026-11-13",
+        "status": "verified",
+        "reason": "Carried from prior review. CBS reported the grant of review. No final ruling on the merits."
+      },
+      {
+        "assumption": "Port Shuaiba records and briefing",
+        "date": "2026-11-15",
+        "status": "pending",
+        "reason": "Carried from prior review. Blumenthal requested documents and a briefing. Production and testimony remain open."
+      },
+      {
+        "assumption": "Latest Bahrain episode and U.S. operational response",
+        "date": "2026-11-17",
+        "status": "verified",
+        "reason": "Carried from prior review. Reuters and AP report the November 17 exchange and AP reports the ensuing November 18 attacks. Damage and next orders remain open."
+      },
+      {
+        "assumption": "2027 congressional leadership and committee assignments",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "Gill and Fallon are seeking the ranking Republican Oversight post. Full House and committee outcomes remain open."
+      },
+      {
+        "assumption": "White House approval for agency testimony",
+        "date": "2026-11-16",
+        "status": "pending",
+        "reason": "Carried from prior review. The memo is attributed in multiple reports. Its application to a specific witness or subpoena remains open."
+      },
+      {
+        "assumption": "House and Senate Republican leadership choices",
+        "date": "2026-11-10",
+        "status": "verified",
+        "reason": "Carried from prior review. CBS confirmed House Republicans chose Jim Jordan and Senate Republicans kept John Thune. The existing election event carries those results."
+      },
+      {
+        "assumption": "Alaska certification and any necessary ranked-choice tabulation",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "The Justice Department asked for dismissal of its challenge. Official certification remains unverified."
+      },
+      {
+        "assumption": "Mullin and FBI deputy director at House homeland security hearing",
+        "date": "2026-11-19",
+        "status": "verified",
+        "reason": "Carried from earlier coverage. Mullin and Raia testified with Clayton. Garbarino and Thompson criticized Patel for missing the hearing."
+      },
+      {
+        "assumption": "Trump–Xi and Trump–Xi–Putin meetings at APEC",
+        "date": "2026-11-19",
+        "status": "verified",
+        "reason": "Carried from earlier coverage. Meetings held. China published a joint declaration on nuclear-risk dialogue and other shared aims. Implementation and any war settlement remain open."
+      },
+      {
+        "assumption": "Huang and Teter House interviews",
+        "date": "2026-12-01",
+        "status": "pending",
+        "reason": "Carried from prior review. The committees announced December 1 and 2. Actual testimony remains open."
+      },
+      {
+        "assumption": "U.S.–Thailand trade agreement",
+        "date": "2026-11-17",
+        "status": "pending",
+        "reason": "Carried from prior review. The joint statement announces substantial conclusion of talks. Final terms and implementation remain open."
+      },
+      {
+        "assumption": "Iran attacks on November 18 and damage at Gulf bases",
+        "date": "2026-11-18",
+        "status": "pending",
+        "reason": "Carried from prior review. AP reports additional attacks. Damage, retaliation and access changes remain open."
+      },
+      {
+        "assumption": "Supreme Court Venezuelan temporary protection stay request",
+        "date": "2026-11-20",
+        "status": "verified",
+        "reason": "The Ninth Circuit extended its pause on restoring Venezuelans’ temporary protected status until seven days after it publishes judgment. The Justice Department withdrew its emergency Supreme Court application. The existing termination remains in effect during the pause."
+      },
+      {
+        "assumption": "U.S.–Venezuela military agreement",
+        "date": "2026-11-19",
+        "status": "verified",
+        "reason": "Carried from earlier coverage. Hegseth announced the signing. Text and implementing steps remain open."
+      },
+      {
+        "assumption": "November 19 chip-rule effective date",
+        "date": "2026-11-19",
+        "status": "verified",
+        "reason": "Carried from earlier coverage. Federal Register gives November 19 as the effective date."
+      },
+      {
+        "assumption": "Ninth Circuit Venezuelan temporary protection merits decision",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "The pause lasts until seven days after judgment. The government says it may return to the Supreme Court if it loses."
+      },
+      {
+        "assumption": "Iran war powers resolution",
+        "date": "2026-11-20",
+        "status": "verified",
+        "reason": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified."
+      },
+      {
+        "assumption": "House response to Senate permitting bill",
+        "date": "2026-11-20",
+        "status": "pending",
+        "reason": "Senate passage is verified. House agreement and enactment remain open."
+      }
+    ],
+    "major_developments": [
+      {
+        "finding": "Senate rejects resolution to withdraw U.S. forces from hostilities with Iran",
+        "event_ids": [
+          "irn-2026-11-19-iran-senate-vote"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/IRN"
+        ],
+        "reason": "Trump retains immediate military discretion. Paul can point to a recorded vote for withdrawal when speaking to Republican opponents of the war."
+      },
+      {
+        "finding": "Senator Joni Ernst criticizes Pentagon disclosures about the Iran war",
+        "event_ids": [
+          "mid-2026-11-19-ernst-questions-pentagon-disclosure"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "reason": "Criticism from a Republican on the Armed Services Committee makes it harder for Hegseth to dismiss demands for information as partisan. Ernst gave no trial commitment in the published account."
+      },
+      {
+        "finding": "Brandon Gill and Pat Fallon seek the top Republican seat on House Oversight",
+        "event_ids": [
+          "mid-2026-11-19-gill-fallon-seek-oversight-post"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "reason": "The post would give its holder a platform to defend Trump during Democratic inquiries. Republican committee recommendations and the conference vote still lie ahead."
+      },
+      {
+        "finding": "Justice Department asks appeals court to end its challenge to Alaska’s Senate result",
+        "event_ids": [
+          "mid-2026-11-19-justice-seeks-dismissal-alaska-suit"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "reason": "Peltola can point to a clear lead as she calls for moving on. The filing reduces the immediate threat to certification. The court disposition, certification and disputed campaign allegations remain separate questions."
+      },
+      {
+        "finding": "Appeals court extends the pause on restoring temporary protection for Venezuelans",
+        "event_ids": [
+          "imm-2026-11-18-venezuela-tps-stay-extended"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/IMM"
+        ],
+        "reason": "The administration can continue to enforce the termination while the pause lasts. The appeals court still has to decide the case."
+      },
+      {
+        "finding": "Senate passes bill to speed energy permits and require data centers to cover power costs",
+        "event_ids": [
+          "ai-2026-11-19-senate-passes-permitting-bill"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "reason": "The vote shows bipartisan support for changing permitting rules. The House still has to act before the Senate proposal can become law."
+      },
+      {
+        "finding": "Minneapolis Mayor Jacob Frey vetoes data-center zoning restrictions",
+        "event_ids": [
+          "ai-2026-11-19-frey-vetoes-data-center-ordinance"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "reason": "The veto gives supporters of downtown development leverage over siting rules. An override would require nine votes. The outcome was unverified at review time."
+      },
+      {
+        "finding": "Treasury extends the deadline for talks on selling Lukoil’s international business",
+        "event_ids": [
+          "rus-2026-11-19-treasury-extends-lukoil-sale-talks"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/RUS"
+        ],
+        "reason": "Treasury gives bidders more time while retaining control over whether a sale can close and under what conditions."
+      },
+      {
+        "finding": "Republican primary surveys disagree on whether Rubio or Vance leads",
+        "event_ids": [
+          "suc-2026-11-19-polls-split-on-rubio-and-vance"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/SUC"
+        ],
+        "reason": "Rubio has a credible claim to voter interest alongside his support inside the administration. Differences in samples and candidate lists limit conclusions about who leads nationally. Neither survey measures organizing or delegate commitments."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "A Republican senator’s public criticism implies support for conviction.",
+        "finding": "Ernst criticized disclosures and is retiring. She gave no trial commitment in published coverage.",
+        "consequence": "Record broader pressure for records and hold the removal estimates."
+      },
+      {
+        "alternative": "A single post-election survey establishes the national primary leader.",
+        "finding": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
+        "consequence": "Recognize Rubio’s voter support and test persistence in the weekly review."
+      }
+    ],
+    "summary_changed": true,
+    "summary_reason": "The Senate votes, court stay, polling and oversight pressure change the current picture."
+  },
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "7aed0c0e486047f94915c9aaec6506a128dad7e234d0f9141453d55c53f43aeb",
+        "reader_takeaway": "The Senate vote preserves Trump’s discretion, while Republican criticism gives Congress grounds to demand records. The nomination race has mixed polling evidence.",
+        "context_check": "Expanded the Hegseth referral and named what the Pentagon was being asked to disclose. Clarified that voter reaction to the Epstein inquiry remains unclear.",
+        "uncertainty_check": "Separated congressional pressure, trial support, poll results and campaign organization.",
+        "changes_made": [
+          "Expanded the Hegseth referral and named what the Pentagon was being asked to disclose. Clarified that voter reaction to the Epstein inquiry remains unclear."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "3f5c1d59afbfa6d6212779a5f22030e87a96b4d3da9858fe5c0db6f2c5e78a9f",
+        "reader_takeaway": "Lawmakers, courts, regulators and local officials made different decisions that affect what happens next.",
+        "context_check": "Removed the superseded question about Frey’s decision and the repeated reference to new Iran orders. Dated the scope descriptions.",
+        "uncertainty_check": "Preserved House action, city override, court merits and Treasury sale approval as open.",
+        "changes_made": [
+          "Removed the superseded question about Frey’s decision and the repeated reference to new Iran orders. Dated the scope descriptions."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "e0ce3ef21e624edcfdd34c6cc284d60b28269116567c8ee9014e3d5e9d39e377",
+        "reader_takeaway": "Senators backed federal permitting changes while the Minneapolis mayor used local zoning authority.",
+        "context_check": "Named what federal permits and local project approvals would change.",
+        "uncertainty_check": "Distinguished Senate passage from enactment and the veto from the unresolved override.",
+        "changes_made": [
+          "Named what federal permits and local project approvals would change."
+        ]
+      },
+      "events/IMM": {
+        "fingerprint": "7038c63c0d0a7bc3c8c03fc68c358d46bf16346dfac6c6d62edac6f6e44bef69",
+        "reader_takeaway": "The Ninth Circuit kept Venezuelan temporary protected status from being restored for now.",
+        "context_check": "Named the solicitor general, appeals court and the order whose effect is paused.",
+        "uncertainty_check": "Distinguished the procedural pause from the merits and the withdrawn application.",
+        "changes_made": [
+          "Named the solicitor general, appeals court and the order whose effect is paused."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "b097ffbd34cccfc9a0ff9ff437b8d5d16bc7e3afb2ce0d667c26519425372738",
+        "reader_takeaway": "The Senate rejected the House-passed resolution after three Republican senators voted for it.",
+        "context_check": "Named the three Republican senators and their states.",
+        "uncertainty_check": "A recorded vote shows parliamentary support for the resolution. It cannot establish voter response or a military order.",
+        "changes_made": [
+          "Named the three Republican senators and their states."
+        ]
+      },
+      "events/MID": {
+        "fingerprint": "a141e0225ff1ccff0410862e3a3991cdd7436a5725f6c91499a8ff49e5f51595",
+        "reader_takeaway": "Republicans are competing for a House oversight role, Ernst is pressing the Pentagon and Justice is moving to end its Alaska challenge.",
+        "context_check": "Identified Ernst and Hegseth by office, explained the ranking member job and put the Justice motion in ordinary language.",
+        "uncertainty_check": "Kept the election returns unofficial and distinguished public criticism from a trial commitment.",
+        "changes_made": [
+          "Identified Ernst and Hegseth by office, explained the ranking member job and put the Justice motion in ordinary language."
+        ]
+      },
+      "events/RUS": {
+        "fingerprint": "452f88952aafe9908a3c5c97996cefb5138791cd3542f95fc444bd0ae20648a3",
+        "reader_takeaway": "Treasury is allowing longer talks on a Lukoil sale while retaining approval over completion.",
+        "context_check": "Explained what a contingent contract does.",
+        "uncertainty_check": "The license covers negotiation and conditional contracts. A completed sale remains unverified.",
+        "changes_made": [
+          "Explained what a contingent contract does."
+        ]
+      },
+      "events/SUC": {
+        "fingerprint": "4d68029f87cf0f910ed80992f593d3357c6be13978aee48f4e3686a21e8e4e8a",
+        "reader_takeaway": "Two surveys returned opposite rankings of Rubio and Vance.",
+        "context_check": "Named the candidates’ offices and moved the Echelon link into the forecast source record.",
+        "uncertainty_check": "Retained the samples and question differences and the limits on organizational inference.",
+        "changes_made": [
+          "Named the candidates’ offices and moved the Echelon link into the forecast source record."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "3549310ccf00f69af837044b4ba711bdc667a6d604690f61434335fc7ff4dafc",
+        "reader_takeaway": "Ernst broadened pressure for Pentagon information. The nine case judgments carry forward.",
+        "context_check": "Used standalone source titles identifying the senator, committee candidates, Justice Department and Senate action.",
+        "uncertainty_check": "Separated verified procedure, oversight demands, alleged misconduct and Senate conviction support.",
+        "changes_made": [
+          "Used standalone source titles identifying the senator, committee candidates, Justice Department and Senate action."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "1955f070cbda28bf7463d0d15373096d8dd464371a11aae9d2e514aa8b820221",
+        "reader_takeaway": "Primary preference evidence varies across surveys, while Paul has a new public vote to point to.",
+        "context_check": "Identified candidates, survey field dates, voting groups and the vote in the source descriptions.",
+        "uncertainty_check": "Preserved the weekly hold and kept support measures separate from election probabilities.",
+        "changes_made": [
+          "Identified candidates, survey field dates, voting groups and the vote in the source descriptions."
+        ]
+      },
+      "runs/2026-11-20": {
+        "fingerprint": "9a3ba657a21349076e480f6a8da1d8e59dba9bd880d8696944535403198ebe7f",
+        "reader_takeaway": "The review establishes selected developments and identifies unresolved outcomes.",
+        "context_check": "Named Cook’s office and clarified the White House hearing gap.",
+        "uncertainty_check": "The scope explicitly flags incomplete court, legislation, diplomacy and trade coverage.",
+        "changes_made": [
+          "Named Cook’s office and clarified the White House hearing gap."
+        ]
+      }
+    }
+  }
+}

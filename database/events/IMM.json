@@ -2169,6 +2169,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: A stay could change who can retain work authorization or protection from removal while the appeal proceeds. The filing asks for relief. The Court’s response remains pending in the coverage reviewed."
+    },
+    {
+      "id": "imm-2026-11-18-venezuela-tps-stay-extended",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "U.S. Court of Appeals for the Ninth Circuit",
+      "text": "Appeals court extends the pause on restoring temporary protection for Venezuelans",
+      "context": "Solicitor General John Sauer told the Supreme Court that the Ninth Circuit had put the order restoring temporary protected status on hold until seven days after the appeals court publishes its judgment. The Justice Department withdrew its emergency request on November 19.",
+      "source": "https://www.supremecourt.gov/DocketPDF/26/26A714/433333/20261119155558543_26A714%20-%20Mullin%20v.%20National%20TPS%20Alliance.pdf",
+      "url": "https://www.supremecourt.gov/DocketPDF/26/26A714/433333/20261119155558543_26A714%20-%20Mullin%20v.%20National%20TPS%20Alliance.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The administration can continue to enforce the termination while the pause lasts. The appeals court still has to decide the case.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The administration can continue to enforce the termination while the pause lasts. The appeals court still has to decide the case."
     }
   ]
 }

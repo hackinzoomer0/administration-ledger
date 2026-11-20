@@ -450,6 +450,38 @@
       "publication_date": "2026-11-10",
       "accessed_on": "2026-11-19",
       "limitation": "Roll call 317 concerned referral. Correa’s later statement of intended vote was separate from the roll call."
+    },
+    {
+      "id": "daily-20261120-ernst-questions-pentagon-disclosure",
+      "title": "Senator Joni Ernst criticizes Pentagon disclosures about the Iran war",
+      "url": "https://www.axios.com/2026/11/19/joni-ernst-hegseth-iran-war",
+      "publication_date": "2026-11-19",
+      "accessed_on": "2026-11-20",
+      "limitation": "In an Axios interview, retiring Iowa Republican Senator Joni Ernst said the Pentagon had shared too little about its discussions with the White House. She said House Democrats might revisit Defense Secretary Pete Hegseth’s impeachment in January."
+    },
+    {
+      "id": "daily-20261120-justice-seeks-dismissal-alaska-suit",
+      "title": "Justice Department asks appeals court to end its challenge to Alaska’s Senate result",
+      "url": "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+      "publication_date": "2026-11-19",
+      "accessed_on": "2026-11-20",
+      "limitation": "AP reports the Justice Department asked the appeals court to set aside the lower court’s ruling and dismiss the case because it no longer presented a live dispute. Democrat Mary Peltola won an outright majority in unofficial returns. Trump had pressed for the suit before election officials counted the votes."
+    },
+    {
+      "id": "daily-20261120-gill-fallon-seek-oversight-post",
+      "title": "Brandon Gill and Pat Fallon seek the top Republican seat on House Oversight",
+      "url": "https://www.axios.com/2026/11/19/republicans-house-oversight-gill-fallon",
+      "publication_date": "2026-11-19",
+      "accessed_on": "2026-11-20",
+      "limitation": "Axios reports that Texas Representatives Brandon Gill and Pat Fallon want to lead Republicans on the House Oversight Committee. Gill backed Jim Jordan for party leader and has Republican whip Tom Emmer’s endorsement. Fallon backed Steve Scalise."
+    },
+    {
+      "id": "daily-20261120-iran-senate-vote",
+      "title": "Senate rejects resolution to withdraw U.S. forces from hostilities with Iran",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+      "publication_date": "2026-11-19",
+      "accessed_on": "2026-11-20",
+      "limitation": "The Senate rejected the House-passed resolution 48–51 on November 19. Republican senators Susan Collins of Maine, Lisa Murkowski of Alaska and Rand Paul of Kentucky voted for it."
     }
   ],
   "cases": [
@@ -471,16 +503,20 @@
         "daily-20261117-kuwait-complaint",
         "daily-20261117-trump-cbs",
         "daily-20261119-vene",
-        "daily-20261119-ref"
+        "daily-20261119-ref",
+        "daily-20261120-ernst-questions-pentagon-disclosure",
+        "daily-20261120-iran-senate-vote"
       ],
       "event_ids": [
         "mid-2026-11-09-massie-hegseth-floor-action",
         "mid-2026-11-10-hegseth-judiciary-referral",
         "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
         "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-        "ven-2026-11-18-hegseth-announces-venezuela-military-deal"
+        "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
+        "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+        "irn-2026-11-19-iran-senate-vote"
       ],
-      "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles. Check whether the Pentagon provides records or briefs senators on defenses at Port Shuaiba."
+      "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles. Check whether the Pentagon provides records or briefs senators on defenses at Port Shuaiba. Check whether the Pentagon answers Ernst and whether senators who will serve in January call for records or take a position on removal."
     },
     {
       "id": "noem",
@@ -4324,6 +4360,423 @@
           }
         }
       }
+    },
+    {
+      "id": "2026-11-20-daily",
+      "as_of": "2026-11-20T13:05:55.845208+00:00",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-20",
+      "type": "daily",
+      "summary": "Senator Joni Ernst’s criticism of Pentagon disclosures adds pressure on Pete Hegseth. The House referral remains the latest verified action on his articles. The four numerical personnel forecasts hold, and five cases remain unestimated.",
+      "coverage": "All nine cases were reassessed against the Ernst interview, Alaska litigation, the contest over Republican Oversight leadership and the Iran vote. The review did not establish new articles, trial commitments or Drew Lynch’s production of records.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The Alaska filing reduces an obstacle to certification. Democrats are still projected to hold 56 Senate seats. If 100 senators attend and all 56 Democrats vote to convict, they need 11 Republicans. Ernst’s criticism concerns Pentagon disclosures. The Iran vote concerns military policy. Neither establishes a conviction coalition.",
+        "observation_ids": [],
+        "source_ids": [
+          "hegseth-house-roll-317",
+          "daily-house-attendance",
+          "daily-white-house-warning",
+          "daily-colom-call",
+          "daily-20261113-house",
+          "daily-20261113-doj",
+          "daily-20261116-house",
+          "daily-20261116-warren",
+          "weekly-20261116-kennedy",
+          "weekly-20261116-cantwell",
+          "weekly-20261116-rsf",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs",
+          "daily-20261117-scharf-memo",
+          "daily-20261118-akgo",
+          "daily-20261118-garcia",
+          "daily-20261118-atlantic",
+          "daily-20261118-mast",
+          "daily-20261118-chip",
+          "daily-20261119-jeff",
+          "daily-20261119-patel",
+          "daily-20261119-guil",
+          "daily-20261119-ref",
+          "daily-20261120-ernst-questions-pentagon-disclosure",
+          "daily-20261120-justice-seeks-dismissal-alaska-suit",
+          "daily-20261120-gill-fallon-seek-oversight-post",
+          "daily-20261120-iran-senate-vote"
+        ],
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "mid-2026-11-11-white-house-oversight-warning",
+          "mid-2026-11-11-colom-mississippi-senate-call",
+          "mid-2026-11-13-democrats-criticize-floor-preparation",
+          "mid-2026-11-11-blumenthal-reitz-preservation",
+          "mid-2026-11-16-reitz-warren-preservation",
+          "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment",
+          "ai-2026-11-16-cantwell-demands-chip-enforcement",
+          "mid-2026-11-11-rsf-urges-carr-impeachment",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "mid-2026-11-16-scharf-testimony-clearance",
+          "mid-2026-11-17-peltola-alaska-senate-call",
+          "mid-2026-11-18-garcia-requests-records-preservation",
+          "ai-2026-11-17-agencies-describe-megaspeed-investigation",
+          "mid-2026-11-18-democrats-nominate-jeffries",
+          "mid-2026-11-18-house-leaders-criticize-patel-absence",
+          "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+          "mid-2026-11-19-justice-seeks-dismissal-alaska-suit",
+          "mid-2026-11-19-gill-fallon-seek-oversight-post",
+          "irn-2026-11-19-iran-senate-vote"
+        ],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A Senate conviction could make it easier to pursue another case",
+            "assessment": "A first cross-party conviction could make later trials easier. The House oversight contest and the Senate policy vote give no direct evidence of that happening."
+          },
+          {
+            "id": "exception",
+            "title": "Senators could limit their support to one unusual case",
+            "assessment": "Ernst’s criticism is best explained by concern over the Pentagon’s disclosures. Her retirement and the absence of a trial commitment limit what it says about the next Senate or other officials."
+          },
+          {
+            "id": "backlash",
+            "title": "Voter backlash could discourage another impeachment",
+            "assessment": "Gill and Fallon are seeking a job that would let them defend the administration. Their contest shows how Republicans may respond in the House. Evidence of voter backlash or changes in Senate trial positions remains limited."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 50,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 12.5,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "Ernst’s criticism broadens pressure for information about the war. Because she is retiring and gave no trial commitment in the published interview, the evidence supports holding the removal forecast. The House referral still stands.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Ernst’s criticism broadens pressure for information about the war. Because she is retiring and gave no trial commitment in the published interview, the evidence supports holding the removal forecast. The House referral still stands."
+          },
+          "basis": {
+            "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence. An Army whistleblower separately alleges that military leaders dismissed concerns about defenses at a Kuwait command post before a fatal strike. Hegseth’s personal involvement remains unestablished.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition. Hegseth described the site as fortified. Trump publicly defended U.S. interception performance after the CBS report.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall",
+              "hegseth-house-roll-317",
+              "hegseth-white-house-opposition",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs",
+              "daily-20261119-vene",
+              "daily-20261119-ref",
+              "daily-20261120-ernst-questions-pentagon-disclosure",
+              "daily-20261120-iran-senate-vote"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action",
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+              "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
+              "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+              "irn-2026-11-19-iran-senate-vote"
+            ],
+            "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles. Check whether the Pentagon provides records or briefs senators on defenses at Port Shuaiba. Check whether the Pentagon answers Ernst and whether senators who will serve in January call for records or take a position on removal."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": [
+              "hegseth-referral-2026-11-10"
+            ]
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "Jeffries and Garcia have clearer paths to schedule hearings in January. The coverage supplies no new records about Noem’s contracts and leaves votes and any decision to proceed against a former official open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. Jeffries and Garcia have clearer paths to schedule hearings in January. The coverage supplies no new records about Noem’s contracts and leaves votes and any decision to proceed against a former official open."
+          },
+          "basis": {
+            "allegations": "Filed articles include self-dealing. A separate congressional referral alleges false testimony; neither establishes wrongdoing.",
+            "defense": "Noem defended the contracting process and described presidential approval. Contradictory accounts do not establish knowing deception or personal enrichment.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic"
+            ],
+            "event_ids": [
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "watch": "Check whether former Homeland Security Secretary Kristi Noem supplies the contracting records Garcia requested, whether those records show who approved the contracts, and whether members of Congress will pursue a former secretary."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The latest public committee letter asks Guilfoyle to preserve records. Targeted searches did not establish whether Drew Lynch met the November 13 production deadline. The forecast holds.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. The recovered letter confirms Garcia wants records kept and earlier requests answered. Production by Drew Lynch and corroboration of the alleged payment arrangement remain open. Her departure leaves jurisdiction and senators’ willingness to proceed contested."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrats are investigating an allegation that former ambassador Kimberly Guilfoyle sought payment in exchange for access to senior Trump officials. The preservation letter leaves the allegation unresolved.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic",
+              "daily-20261119-guil",
+              "daily-20261119-lynch"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns",
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "watch": "Look for contracts, payment records and messages about the alleged financial arrangement. Check Guilfoyle’s response to Garcia separately from whether Drew Lynch supplied the records due November 13."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "Garcia’s preservation letters identify decisions the committee intends to examine. This review adds no evidence about Blanche’s role in the transfer or an incoming Senate coalition.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. Garcia’s preservation letters identify decisions the committee intends to examine. This review adds no evidence about Blanche’s role in the transfer or an incoming Senate coalition."
+          },
+          "basis": {
+            "allegations": "House members have supported impeaching Attorney General Todd Blanche. Representative Robert Garcia is seeking records on Ghislaine Maxwell’s interview and prison transfer to establish Blanche’s role.",
+            "defense": "Executive direction, official representation and disputed legal arguments are not by themselves proof of impeachable abuse.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support",
+              "daily-20261118-atlantic",
+              "daily-20261118-chip"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense",
+              "mid-2026-11-18-garcia-requests-records-preservation",
+              "ai-2026-11-17-agencies-describe-megaspeed-investigation"
+            ],
+            "watch": "Check whether the committee receives records about Ghislaine Maxwell’s interview and prison transfer, what those records show about Blanche’s decisions, and whether lawmakers support pursuing articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "A records request identifies meetings the committee may examine. The evidence leaves Wiles’s individual decisions, eligibility and any interest in bringing articles open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. A records request identifies meetings the committee may examine. The evidence leaves Wiles’s individual decisions, eligibility and any interest in bringing articles open."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrat Robert Garcia asked former chief of staff Susie Wiles for records of White House meetings about the Epstein files. The request leaves her personal role in the decisions open.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic"
+            ],
+            "event_ids": [
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "watch": "Check whether Wiles supplies records about White House meetings on the Epstein files and what they show about her own actions. It remains unclear whether the former chief of staff can be impeached for conduct in that office."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Leaders from both parties objected to Patel missing a hearing. That gives lawmakers a concrete oversight grievance. His deputy testified. A verified explanation from the FBI and support for articles remain open, so the case stays unestimated.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. Leaders from both parties objected to Patel missing a hearing. That gives lawmakers a concrete oversight grievance. His deputy testified. A verified explanation from the FBI and support for articles remain open, so the case stays unestimated."
+          },
+          "basis": {
+            "allegations": "House Homeland Security Committee leaders from both parties criticized FBI Director Kash Patel for missing the November 18 hearing. His deputy testified in his place.",
+            "defense": "FBI Deputy Director Christopher Raia testified. The reporting reviewed here did not establish why Patel did not appear or whether lawmakers plan to bring articles.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [
+              "daily-20261119-patel",
+              "daily-20261119-hear"
+            ],
+            "event_ids": [
+              "mid-2026-11-18-house-leaders-criticize-patel-absence"
+            ],
+            "watch": "Check whether FBI Director Kash Patel explains his absence from the November 18 House hearing, appears later or receives a subpoena."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The leadership result creates a path to schedule hearings. There is no newly verified hearing or article in this case and no named trial coalition.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. The leadership result creates a path to schedule hearings. There is no newly verified hearing or article in this case and no named trial coalition."
+          },
+          "basis": {
+            "allegations": "Representative Haley Stevens introduced articles in December 2025. Senators are now examining Kennedy’s testimony about Samoa and gifts from a donor.",
+            "defense": "The inquiries raise distinct factual questions about testimony and gifts. AP reports that the leader of an allied health-policy group warned that pursuing Kennedy could alienate its supporters.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [
+              "weekly-20261116-kennedy",
+              "weekly-20261116-samoa",
+              "weekly-20261116-gifts",
+              "weekly-20261116-stevens"
+            ],
+            "event_ids": [
+              "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+            ],
+            "watch": "Watch for records, Kennedy’s replies and whether House leaders schedule articles or choose hearings first."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Commerce’s new rule changes licensing. The rule leaves open what Lutnick personally did in past licensing cases and whether Congress would pursue him.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. Commerce’s new rule changes licensing. The rule leaves open what Lutnick personally did in past licensing cases and whether Congress would pursue him."
+          },
+          "basis": {
+            "allegations": "Cantwell asked Lutnick to stop chip diversion to firms tied to China. The Wall Street Journal reported that some Trump advisers were shifting blame for the Nvidia controversy toward Lutnick.",
+            "defense": "Commerce and Justice say investigators sought Nvidia records and inspected Megaspeed with Singaporean authorities. Commerce’s licensing records and Secretary Howard Lutnick’s own account could clarify his role.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [
+              "weekly-20261116-cantwell",
+              "weekly-20261116-lutnick",
+              "daily-20261118-chip",
+              "daily-20261118-mast",
+              "daily-20261119-chips"
+            ],
+            "event_ids": [
+              "ai-2026-11-16-cantwell-demands-chip-enforcement",
+              "ai-2026-11-17-agencies-describe-megaspeed-investigation",
+              "ai-2026-11-15-commerce-remote-chip-rule"
+            ],
+            "watch": "Check whether Commerce gives Representative Brian Mast the Megaspeed licensing and investigation records he requested, and whether lawmakers schedule a hearing or Trump changes Lutnick’s responsibilities."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The agenda makes Justice Department oversight more likely. This review adds no case-specific proceeding or evidence about whether lawmakers would act against a former attorney general.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Hold. Ernst’s remarks concern Pentagon disclosures and the Alaska filing leaves the projected Senate count at 56 Democrats. No new trial commitment tied to this case was verified. The agenda makes Justice Department oversight more likely. This review adds no case-specific proceeding or evidence about whether lawmakers would act against a former attorney general."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Lawmakers would need to decide whether to pursue a former attorney general, and the case would require evidence of actions Pam Bondi took while in office.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Specific articles, evidence, defenses and support for post-departure proceedings."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
     }
   ],
   "tests": [
@@ -4348,7 +4801,7 @@
       "resolve_by": "2026-11-14",
       "claim": "Check responses to the November 13 records deadline; record missing or inaccessible material honestly.",
       "status": "unresolved",
-      "resolution": "The committee’s October 30 request set a November 13 deadline for Drew Lynch. The newly accessible November 18 letter asks Guilfoyle to preserve records and answer earlier requests. Lynch’s production remains unverified.",
+      "resolution": "The committee’s October 30 request set a November 13 deadline for Drew Lynch. The newly accessible November 18 letter asks Guilfoyle to preserve records and answer earlier requests. Lynch’s production remains unverified. A November 20 search for a response or later compulsory action did not establish whether Lynch supplied the requested records.",
       "source_ids": [
         "guilfoyle-letter",
         "daily-20261113-guilfoyle",

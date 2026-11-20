@@ -3094,6 +3094,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The attacks establish renewed threats to bases. The U.S. response and any change in regional access remain open."
+    },
+    {
+      "id": "irn-2026-11-19-iran-senate-vote",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "U.S. Senate",
+      "text": "Senate rejects resolution to withdraw U.S. forces from hostilities with Iran",
+      "context": "The Senate rejected the House-passed resolution 48–51 on November 19. Republican senators Susan Collins of Maine, Lisa Murkowski of Alaska and Rand Paul of Kentucky voted for it.",
+      "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Trump retains immediate military discretion. Paul can point to a recorded vote for withdrawal when speaking to Republican opponents of the war.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Trump retains immediate military discretion. Paul can point to a recorded vote for withdrawal when speaking to Republican opponents of the war."
     }
   ]
 }

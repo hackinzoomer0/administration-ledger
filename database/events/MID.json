@@ -2869,6 +2869,72 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Lawmakers heard from other officials but could not question Patel directly. Criticism from the Republican chair makes it harder for Patel to dismiss the dispute as partisan. A later appearance, compulsory process or any change in support for his removal remains open."
+    },
+    {
+      "id": "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Joni Ernst",
+      "text": "Senator Joni Ernst criticizes Pentagon disclosures about the Iran war",
+      "context": "In an Axios interview, retiring Iowa Republican Senator Joni Ernst said the Pentagon had shared too little about its discussions with the White House. She said House Democrats might revisit Defense Secretary Pete Hegseth’s impeachment in January.",
+      "source": "https://www.axios.com/2026/11/19/joni-ernst-hegseth-iran-war",
+      "url": "https://www.axios.com/2026/11/19/joni-ernst-hegseth-iran-war",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Criticism from a Republican on the Armed Services Committee makes it harder for Hegseth to dismiss demands for information as partisan. Ernst gave no trial commitment in the published account.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Criticism from a Republican on the Armed Services Committee makes it harder for Hegseth to dismiss demands for information as partisan. Ernst gave no trial commitment in the published account."
+    },
+    {
+      "id": "mid-2026-11-19-gill-fallon-seek-oversight-post",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Brandon Gill and Pat Fallon",
+      "text": "Brandon Gill and Pat Fallon seek the top Republican seat on House Oversight",
+      "context": "Axios reports that Texas Representatives Brandon Gill and Pat Fallon want to lead Republicans on the House Oversight Committee. Gill backed Jim Jordan for party leader and has Republican whip Tom Emmer’s endorsement. Fallon backed Steve Scalise.",
+      "source": "https://www.axios.com/2026/11/19/republicans-house-oversight-gill-fallon",
+      "url": "https://www.axios.com/2026/11/19/republicans-house-oversight-gill-fallon",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The post would give its holder a platform to defend Trump during Democratic inquiries. Republican committee recommendations and the conference vote still lie ahead.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The post would give its holder a platform to defend Trump during Democratic inquiries. Republican committee recommendations and the conference vote still lie ahead."
+    },
+    {
+      "id": "mid-2026-11-19-justice-seeks-dismissal-alaska-suit",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Justice Department",
+      "text": "Justice Department asks appeals court to end its challenge to Alaska’s Senate result",
+      "context": "AP reports the Justice Department asked the appeals court to set aside the lower court’s ruling and dismiss the case because it no longer presented a live dispute. Democrat Mary Peltola won an outright majority in unofficial returns. Trump had pressed for the suit before election officials counted the votes.",
+      "source": "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+      "url": "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Peltola can point to a clear lead as she calls for moving on. The filing reduces the immediate threat to certification. The court disposition, certification and disputed campaign allegations remain separate questions.",
+      "origin": "daily shared intake",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Peltola can point to a clear lead as she calls for moving on. The filing reduces the immediate threat to certification. The court disposition, certification and disputed campaign allegations remain separate questions."
     }
   ]
 }
