@@ -3116,6 +3116,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Trump retains immediate military discretion. Paul can point to a recorded vote for withdrawal when speaking to Republican opponents of the war."
+    },
+    {
+      "id": "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump criticizes the Iran ceasefire agreement JD Vance helped negotiate",
+      "context": "In a Fox News interview in Shenzhen, Trump called the June memorandum of understanding a waste of time, then said pursuing it had not been a mistake. He denied the agreement was why he redirected Vance and praised Vance’s work. Trump also said Vance’s election analysis should have defended the original decision to use force. The June truce had already expired. The interview did not establish a new termination order.",
+      "source": "https://rollcall.com/factbase/trump/transcript/donald-trump-interview-jacqui-heinrich-fox-news-china-november-19-2026/",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-interview-jacqui-heinrich-fox-news-china-november-19-2026/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Trump’s remarks give proponents of continued pressure a public argument against returning to the June framework. The criticism makes it harder for Vance to present his negotiations as an achievement Trump still backs.",
+      "origin": "November 20 follow-up",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Trump’s remarks give proponents of continued pressure a public argument against returning to the June framework. The criticism makes it harder for Vance to present his negotiations as an achievement Trump still backs."
     }
   ]
 }

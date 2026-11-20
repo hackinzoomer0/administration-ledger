@@ -10,7 +10,7 @@
   },
   "administration": {
     "headline": "House Democrats nominate Hakeem Jeffries for speaker as Trump meets Xi Jinping and Vladimir Putin",
-    "summary": "Senate Republicans blocked a resolution to withdraw U.S. forces from hostilities with Iran, though three Republicans backed it. Senator Joni Ernst’s criticism gives lawmakers more leverage to press the Pentagon for information. House Republicans are competing over who will defend the administration on Oversight as Democrats prepare investigations.",
+    "summary": "Senate Republicans blocked a resolution to withdraw U.S. forces from hostilities with Iran, though three Republicans backed it. Senator Joni Ernst’s criticism gives lawmakers more leverage to press the Pentagon for information. House Republicans are competing over who will defend the administration on Oversight as Democrats prepare investigations. Separately, the White House selected Pentagon Chief Information Officer Kirsten Davies for the federal cybersecurity coordination job after disruptions affected businesses and government agencies. Her confirmation and the administration’s response to reliability problems remain open.",
     "contests": [
       {
         "id": "white-house-access",
@@ -20,7 +20,7 @@
         "assessment": "Miller gains the staff-management role that Wiles held. Republican Representative Marlin Stutzman’s public criticism challenges the promotion after the election defeat, while Vance and Rubio have publicly welcomed it. Those contrasting reactions show disagreement among officials, not the balance of Republican voter opinion.",
         "authority": "Trump chooses his chief of staff; Miller reportedly began November 9.",
         "leverage": "The chief of staff manages access to Trump and senior White House work. Wiles may still advise Trump through his political team, but her new responsibilities remain unclear.",
-        "change": "The announced handover is now reported as completed. Its policy consequences and Wiles’s new responsibilities remain open.",
+        "change": "The announced handover is now reported as completed. Its policy consequences and Wiles’s new responsibilities remain open. Axios reported that White House officials credited Miller with seeking Cairncross’s replacement. The White House chose Kirsten Davies, who still needs Senate confirmation for the new role.",
         "basis": {
           "actions": "The official appointment is followed by reporting that Miller began November 9.",
           "positions": "Vance and Rubio welcomed Miller; Stutzman publicly opposed the promotion. The full CNN episode was not reviewed.",
@@ -28,7 +28,8 @@
         },
         "watch": "Check Miller’s written instructions and staffing choices, Wiles’s political responsibilities and further Republican defenses or criticism.",
         "event_ids": [
-          "mid-2026-11-06-miller-chief-staff"
+          "mid-2026-11-06-miller-chief-staff",
+          "ai-2026-11-19-white-house-selects-davies-for-national-cyber-director"
         ],
         "faction_ids": [
           "maximalists",
@@ -42,7 +43,7 @@
         "issue_id": "IRN",
         "title": "Senate rejects Iran withdrawal resolution as Pentagon faces questions about the war",
         "status": "contested",
-        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. U.S. forces struck an Iranian missile site, and Iran attacked Gulf bases again. Qatar and Oman continued diplomatic contacts, while Washington’s terms for an agreement remain unclear. The Senate vote preserves Trump’s immediate discretion. It also gives Republicans who want withdrawal a clear record of which senators backed it.",
+        "assessment": "Trump’s public instruction narrows Vance’s role in seeking an agreement. Rubio has defended the war on security grounds and has reportedly advocated sustained pressure. U.S. forces struck an Iranian missile site, and Iran attacked Gulf bases again. Qatar and Oman continued diplomatic contacts, while Washington’s terms for an agreement remain unclear. The Senate vote preserves Trump’s immediate discretion. It also gives Republicans who want withdrawal a clear record of which senators backed it. Trump publicly criticized the expired June deal. His comments make a return to that framework harder to defend inside the administration. A new instruction to mediators remains unverified.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
         "change": "The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified.",
@@ -67,7 +68,8 @@
           "rus-2026-11-19-trump-xi-putin-shenzhen-meeting",
           "suc-2026-11-18-trump-praises-rubio-in-manila",
           "irn-2026-11-19-iran-senate-vote",
-          "mid-2026-11-19-ernst-questions-pentagon-disclosure"
+          "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum"
         ],
         "faction_ids": [
           "vance",
@@ -83,7 +85,7 @@
         "issue_id": "SUC",
         "title": "Vance and his rivals compete for Trump’s voters, donors and campaign teams",
         "status": "contested",
-        "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment.",
+        "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment. Trump defended the initial decision to fight on Fox News and criticized the June deal Vance helped negotiate. He also praised Vance’s work and denied the deal explained his reassignment. That gives Rubio and supporters of continued pressure a stronger case for alignment with Trump on Iran, while leaving a succession endorsement open.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support.",
         "change": "Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
@@ -103,7 +105,8 @@
           "suc-2026-11-15-vance-2028-timing-report",
           "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
           "suc-2026-11-18-trump-praises-rubio-in-manila",
-          "suc-2026-11-19-polls-split-on-rubio-and-vance"
+          "suc-2026-11-19-polls-split-on-rubio-and-vance",
+          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum"
         ],
         "faction_ids": [
           "vance",
@@ -222,7 +225,7 @@
         "path": "Axios reports that Vance may wait until spring to declare. His advisers can still recruit quietly, but Cruz can offer early-state activists work sooner.",
         "coalition": "Vance could retain Trump-aligned voters who want tighter immigration rules and relief from war and household costs. Existing Republican fundraising and activist relationships could help recruit staff and volunteers, but an introduction or endorsement does not guarantee votes.",
         "advantage": "Vance’s existing fundraising and activist relationships could help him launch a campaign. A meeting with Michigan senator-elect Abdul El-Sayed could give him a chance to work on household costs after the Republican losses.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -243,7 +246,8 @@
           "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
           "suc-2026-11-18-trump-praises-rubio-in-manila",
           "mid-2026-11-18-democrats-nominate-jeffries",
-          "suc-2026-11-19-polls-split-on-rubio-and-vance"
+          "suc-2026-11-19-polls-split-on-rubio-and-vance",
+          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum"
         ],
         "source_ids": [
           "vance_postmortem_faction_pass",
@@ -279,7 +283,7 @@
         "person_id": "rubio",
         "path": "Reuters found several donors who want Rubio in the race. He would need to enter, recruit a team and explain the decisions he made as secretary of state.",
         "coalition": "Some Republican donors want Rubio to run. Robert Bigelow also likes Vance, and Cruz can ask overlapping donors to back a campaign that starts sooner. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled.",
-        "advantage": "Rubio traveled with Trump in Asia and received public praise. His job as secretary of state gives him a way to stay visible to the president and to voters who judge the administration by its diplomacy.",
+        "advantage": "Rubio traveled with Trump in Asia and received public praise. His job as secretary of state gives him a way to stay visible to the president and to voters who judge the administration by its diplomacy. Trump’s public defense of the initial Iran strikes gives Rubio and Republicans who support continued pressure a common position to defend. Trump’s endorsement remains open.",
         "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open. Trump’s praise leaves open whether he will endorse Rubio or whether Republican donors and organizers will commit to a campaign.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
@@ -296,7 +300,8 @@
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
           "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
           "suc-2026-11-18-trump-praises-rubio-in-manila",
-          "suc-2026-11-19-polls-split-on-rubio-and-vance"
+          "suc-2026-11-19-polls-split-on-rubio-and-vance",
+          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum"
         ],
         "source_ids": [
           "griffin_rubio",
@@ -621,6 +626,18 @@
       ],
       "faction_ids": [
         "dissenters",
+        "vance",
+        "hawks"
+      ]
+    },
+    {
+      "id": "trump-iran-mou-succession-nov20-follow-up",
+      "title": "Trump criticizes the Iran agreement Vance helped negotiate",
+      "assessment": "Vance can still argue that Republican losses show the political cost of the war. Trump’s public remarks make it harder for Vance to present the June agreement as a shared accomplishment. Rubio’s defense of the initial strikes aligns with Trump’s position and gives Republicans who favor continued pressure an argument for backing him. The evidence leaves endorsements, assignments and campaign commitments open.",
+      "event_ids": [
+        "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum"
+      ],
+      "faction_ids": [
         "vance",
         "hawks"
       ]

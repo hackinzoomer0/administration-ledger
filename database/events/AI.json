@@ -1933,6 +1933,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The veto gives supporters of downtown development leverage over siting rules. An override would require nine votes. The outcome was unverified at review time."
+    },
+    {
+      "id": "ai-2026-11-18-white-house-addresses-technology-outages",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Director of National Intelligence and Secretary of State",
+      "text": "White House says it sees no evidence of a coordinated attack behind widespread outages",
+      "context": "Separate disruptions affected Microsoft 365, U.S. air traffic operations, and a National Security Agency communications network between November 12 and 17. Chase also experienced disruption. On November 18, Director of National Intelligence Clayton and Secretary of State Marco Rubio said the administration had seen no sign of a coordinated attack. Federal News Network reported distinct explanations for the Microsoft, FAA and NSA incidents.",
+      "source": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
+      "url": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The disruptions make service reliability and incident reporting immediate tests for the administration and providers. The reviewed evidence does not establish a shared cause or a role for AI in causing the outages.",
+      "origin": "November 20 follow-up",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The disruptions make service reliability and incident reporting immediate tests for the administration and providers. The reviewed evidence does not establish a shared cause or a role for AI in causing the outages."
+    },
+    {
+      "id": "ai-2026-11-19-white-house-selects-davies-for-national-cyber-director",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "White House",
+      "text": "White House selects Pentagon technology chief Kirsten Davies to replace Sean Cairncross",
+      "context": "The White House named Pentagon Chief Information Officer Kirsten Davies as its choice for national cyber director. The role coordinates federal cybersecurity policy and requires Senate confirmation. Axios cited White House officials who said Chief of Staff Stephen Miller pushed for the change. Michael LoSapio’s November 19 hearing was for the separate job of leading the Cybersecurity and Infrastructure Security Agency.",
+      "source": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
+      "url": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The selection shows a preference for technical experience in the White House coordination role. The timing puts pressure on the White House to explain how it will improve reliability. The public record leaves the role of the outages in the personnel decision open.",
+      "origin": "November 20 follow-up",
+      "added": "2026-11-20",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The selection shows a preference for technical experience in the White House coordination role. The timing puts pressure on the White House to explain how it will improve reliability. The public record leaves the role of the outages in the personnel decision open."
     }
   ]
 }
