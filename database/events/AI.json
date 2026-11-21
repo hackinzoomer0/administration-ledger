@@ -1944,7 +1944,7 @@
       "kind": "act",
       "actor": "Director of National Intelligence and Secretary of State",
       "text": "White House says it sees no evidence of a coordinated attack behind widespread outages",
-      "context": "Separate disruptions affected Microsoft 365, U.S. air traffic operations, and a National Security Agency communications network between November 12 and 17. Chase also experienced disruption. On November 18, Director of National Intelligence Clayton and Secretary of State Marco Rubio said the administration had seen no sign of a coordinated attack. Federal News Network reported distinct explanations for the Microsoft, FAA and NSA incidents.",
+      "context": "Separate disruptions affected Microsoft 365, U.S. air traffic operations, and a National Security Agency communications network between November 12 and 17. Chase also experienced disruption. On November 18, Director of National Intelligence Clayton and Secretary of State Marco Rubio said the administration had seen no sign of a coordinated attack. Federal News Network reported distinct explanations for the Microsoft, FAA and NSA incidents. At the November 20 briefing, Trump said the incidents were separate and described the air-traffic system as outdated. Transportation Secretary Sean Duffy separately said contractor L3Harris could have detected the malfunction sooner during the nationwide halt to departures. The equipment investigation continued.",
       "source": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
       "url": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/",
       "tier": "documented",
@@ -1966,7 +1966,7 @@
       "kind": "act",
       "actor": "White House",
       "text": "White House selects Pentagon technology chief Kirsten Davies to replace Sean Cairncross",
-      "context": "The White House named Pentagon Chief Information Officer Kirsten Davies as its choice for national cyber director. The role coordinates federal cybersecurity policy and requires Senate confirmation. Axios cited White House officials who said Chief of Staff Stephen Miller pushed for the change. Michael LoSapio’s November 19 hearing was for the separate job of leading the Cybersecurity and Infrastructure Security Agency.",
+      "context": "The White House named Pentagon Chief Information Officer Kirsten Davies as its choice for national cyber director. The role coordinates federal cybersecurity policy and requires Senate confirmation. Axios cited White House officials who said Chief of Staff Stephen Miller pushed for the change. Michael LoSapio’s November 19 hearing was for the separate job of leading the Cybersecurity and Infrastructure Security Agency. CBS News subsequently reported that the White House announced Davies on Friday and cited sources who said Cairncross was fired. Sources told CBS that Miller had questioned Cairncross’s qualifications before the outages. The available accounts leave the outages’ role in the decision unresolved.",
       "source": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
       "url": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
       "tier": "reported",
@@ -1977,6 +1977,74 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The selection shows a preference for technical experience in the White House coordination role. The timing puts pressure on the White House to explain how it will improve reliability. The public record leaves the role of the outages in the personnel decision open."
+    },
+    {
+      "id": "ai-2026-11-20-trump-defends-lutnick",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump publicly backs Commerce Secretary Howard Lutnick amid criticism of chip export enforcement",
+      "context": "Trump said he still had confidence in Lutnick after Treasury Secretary Scott Bessent criticized Commerce’s delay in restricting Nvidia chip exports to Megaspeed. Earlier reporting attributed private blame for the Nvidia controversy to some Trump advisers.",
+      "source": "https://apnews.com/article/540e631e21d003b83877ee4174cde2c0",
+      "url": "https://apnews.com/article/540e631e21d003b83877ee4174cde2c0",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Trump’s public defense gives Lutnick room to stay in charge of Commerce’s response. It also ties Trump to the choice to retain him. Licensing records and the response to congressional demands remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Trump’s public defense gives Lutnick room to stay in charge of Commerce’s response. It also ties Trump to the choice to retain him. Licensing records and the response to congressional demands remain open."
+    },
+    {
+      "id": "ai-2026-11-20-minneapolis-council-sustains-frey-veto",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Minneapolis City Council",
+      "text": "Minneapolis City Council fails to override Jacob Frey’s veto of data-center rules",
+      "context": "The council failed to overturn Mayor Jacob Frey’s veto of an ordinance that would have required council approval for each new data center. Local reporting says the council plans to revisit regulations in December as the temporary moratorium ends.",
+      "source": "https://www.mprnews.org/story/2026/11/20/data-center-regulations-will-go-before-minneapolis-city-council-again-next-month",
+      "url": "https://www.mprnews.org/story/2026/11/20/data-center-regulations-will-go-before-minneapolis-city-council-again-next-month",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The mayor blocked one set of local siting rules. Developers still have to meet existing requirements, and a revised ordinance could change those requirements. The Senate permitting bill is a separate decision.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The mayor blocked one set of local siting rules. Developers still have to meet existing requirements, and a revised ordinance could change those requirements. The Senate permitting bill is a separate decision."
+    },
+    {
+      "id": "ai-2026-11-20-trump-floats-overseas-data-center-tax",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "TAR"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump threatens a tax on U.S. companies building artificial intelligence data centers abroad",
+      "context": "Trump proposed a tax during his White House news conference and said he had yet to tell his officials about the idea. He gave no rate, legal mechanism or implementation date.",
+      "source": "https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas",
+      "url": "https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The proposal signals that Trump wants companies to build inside the United States. It leaves unresolved who would authorize a tax and how domestic projects would secure power and local approval.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The proposal signals that Trump wants companies to build inside the United States. It leaves unresolved who would authorize a tax and how domestic projects would secure power and local approval."
     }
   ]
 }

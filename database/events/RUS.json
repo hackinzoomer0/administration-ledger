@@ -1651,6 +1651,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Treasury gives bidders more time while retaining control over whether a sale can close and under what conditions."
+    },
+    {
+      "id": "rus-2026-11-19-berlin-leaders-set-conditions-on-russia-talks",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "Ukraine and European partners",
+      "text": "Ukraine and European partners rule out wider security deals while Russia continues its war",
+      "context": "The Berlin statement says wider European security agreements are unavailable while Russia continues its war and that Russian state assets will stay frozen until Russia ends the war and compensates Ukraine. Trump said Friday that Putin wanted a settlement. AP reported that Moscow restated longstanding security demands.",
+      "source": "https://www.bundeskanzler.de/resource/blob/1832584/2461956/d8ca129d517686c27bc6f3fb06ca0bca/2026-11-19-cow-data.pdf?download=1",
+      "url": "https://www.bundeskanzler.de/resource/blob/1832584/2461956/d8ca129d517686c27bc6f3fb06ca0bca/2026-11-19-cow-data.pdf?download=1",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: European governments can withhold cooperation and keep Russian assets immobilized. Trump’s contact with Putin keeps negotiations open, while the parties still disagree about the conditions for a deal.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: European governments can withhold cooperation and keep Russian assets immobilized. Trump’s contact with Putin keeps negotiations open, while the parties still disagree about the conditions for a deal."
     }
   ]
 }

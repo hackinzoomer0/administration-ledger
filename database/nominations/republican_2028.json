@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-20",
+  "as_of_date": "2026-11-21",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -3159,6 +3159,54 @@
       "verification_status": "read",
       "receipt_ids": [
         "bb33462b3aeba6dc7a8188d7"
+      ]
+    },
+    {
+      "id": "daily-20261121-succ",
+      "url": "https://apnews.com/article/478fca96eee4ff8ba2f13f05b5e1e31c",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-20",
+      "accessed_on": "2026-11-21",
+      "description": "Vance and Rubio both appeared alongside Trump. Access and attention are observable. Voter response is unknown.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "47304ad12fe4eb3741146669"
+      ]
+    },
+    {
+      "id": "daily-20261121-cbv",
+      "url": "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20/",
+      "publisher": "CBS News",
+      "publication_date": "2026-11-20",
+      "accessed_on": "2026-11-21",
+      "description": "CBS covered Trump’s November 20 briefing alongside Vance and Rubio, including their remarks on the war.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "e4867f7492ec0e458450da75"
+      ]
+    },
+    {
+      "id": "daily-20261121-ap",
+      "url": "https://apnews.com/article/540e631e21d003b83877ee4174cde2c0",
+      "publisher": "Associated Press",
+      "publication_date": "2026-11-20",
+      "accessed_on": "2026-11-21",
+      "description": "AP reported Trump’s November 20 remarks about Lutnick, Iran and the talks with Russia.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "76e27987ef6f6ac25320ad48"
+      ]
+    },
+    {
+      "id": "daily-20261121-qat",
+      "url": "https://www.axios.com/2026/11/20/witkoff-kushner-meet-qatari-mediators-iran",
+      "publisher": "Axios",
+      "publication_date": "2026-11-20",
+      "accessed_on": "2026-11-21",
+      "description": "Two sources told Axios U.S. envoys met senior Qatari officials in Berlin on Thursday.",
+      "verification_status": "read",
+      "receipt_ids": [
+        "d21263bf2311fcd0cd29ade5"
       ]
     }
   ],
@@ -26914,6 +26962,453 @@
               ]
             }
           ]
+        }
+      },
+      {
+        "id": "2026-11-21-daily",
+        "date": "2026-11-21",
+        "run_id": "2026-11-21",
+        "type": "daily_review",
+        "summary": "The November 16 estimates carry forward. JD Vance and Marco Rubio shared Trump’s briefing. Vance maintained his criticism of the war’s electoral cost while Rubio retained a visible diplomatic role. The joint appearance showed their access to Trump. The polls still disagree, and an endorsement and campaign commitments remain open.",
+        "probabilities_pct": {
+          "jd_vance": 31.15,
+          "marco_rubio": 11.05,
+          "ron_desantis": 18.55,
+          "ted_cruz": 8.4,
+          "john_mcentee": 5.35,
+          "rand_paul": 11.05,
+          "brian_kemp": 12.1,
+          "thomas_massie": 2.35
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. He shared Trump’s briefing and preserved room to criticize the war’s political cost. His ability to turn that position into votes remains unverified.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_20261116_vance",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic",
+              "daily-20261119-vance",
+              "daily-20261119-trump",
+              "daily-20261119-jeff",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261121-succ",
+              "daily-20261121-cbv"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+              "mid-2026-11-18-garcia-requests-records-preservation",
+              "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
+              "suc-2026-11-18-trump-praises-rubio-in-manila",
+              "mid-2026-11-18-democrats-nominate-jeffries",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance has Republican fundraising relationships and has publicly questioned the war’s electoral cost. Trump’s domestic assignment limits Vance’s ability to deliver a diplomatic result. The Kuwait complaint gives his argument about the costs of the war a new subject while risking a public dispute with Trump.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance can recruit through relationships built in office. His White House role also gives investigators a concrete basis for asking about his part in decisions on the Epstein files.",
+                "event_ids": [
+                  "mid-2026-11-18-garcia-requests-records-preservation"
+                ],
+                "source_ids": [
+                  "daily-20261118-garcia",
+                  "daily-20261118-atlantic"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Republican fundraising ties could help Vance recruit. His offer to speak with El-Sayed gives his allies a way to argue that he can address prices after the midterm losses.",
+                "event_ids": [
+                  "suc-2026-11-18-vance-and-el-sayed-open-to-meeting"
+                ],
+                "source_ids": [
+                  "daily-20261119-vance"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Fundraising relationships still help Vance recruit. The divided surveys give allies a reason to test whether his support holds among voters they can turn out.",
+                "event_ids": [
+                  "suc-2026-11-19-polls-split-on-rubio-and-vance"
+                ],
+                "source_ids": [
+                  "daily-20261120-polls-split-on-rubio-and-vance",
+                  "daily-20261120-echelon"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "Vance can signal loyalty while preserving his argument about the war’s electoral cost. Rubio can point to his role in diplomacy. Neither appearance establishes what voters or organizers will do.",
+                "event_ids": [
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ",
+                  "daily-20261121-cbv"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. His role at the briefing shows continued diplomatic visibility. The conflicting November polls leave the relative strength of his voter support open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs",
+              "daily-20261119-trump",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261121-succ",
+              "daily-20261121-cbv"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+              "suc-2026-11-18-trump-praises-rubio-in-manila",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio defended the decision to go to war and could still benefit if diplomacy succeeds. Questions about how troops were protected make it harder to rely on the administration’s record alone. His personal role in decisions on base defenses remains unestablished.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio’s role in diplomacy gives him access to Trump. The president’s public praise gives Republicans who supported the war a visible candidate to consider.",
+                "event_ids": [
+                  "suc-2026-11-18-trump-praises-rubio-in-manila"
+                ],
+                "source_ids": [
+                  "daily-20261119-trump"
+                ]
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Rubio’s official access gives him visibility. His stronger Emerson result gives allies a voter-facing argument for recruiting, while Echelon gives Vance’s allies grounds to contest it.",
+                "event_ids": [
+                  "suc-2026-11-19-polls-split-on-rubio-and-vance"
+                ],
+                "source_ids": [
+                  "daily-20261120-polls-split-on-rubio-and-vance",
+                  "daily-20261120-echelon"
+                ]
+              },
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Vance can signal loyalty while preserving his argument about the war’s electoral cost. Rubio can point to his role in diplomacy. Neither appearance establishes what voters or organizers will do.",
+                "event_ids": [
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ",
+                  "daily-20261121-cbv"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. His Florida governing record remains his strongest documented argument. New commitments from early-state organizers were outside this focused review.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. Reported preparations still give him time to recruit. A named organizer or launch was not verified.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. His staffing relationships could help recruit a campaign team. A presidential organization or funding vehicle remains unverified.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2",
+              "weekly-20261116-mcentee",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. His recorded withdrawal vote gives war skeptics a concrete comparison with the administration contenders. The daily evidence did not measure support for his candidacy.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "weekly-20261116-paul",
+              "weekly-20261116-reuters",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs",
+              "daily-20261120-iran-senate-vote"
+            ],
+            "event_ids": [
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+              "irn-2026-11-19-iran-senate-vote"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Paul can use his Senate platform and past campaign ties to argue for ending the war and improving accountability. The Kuwait complaint makes troop protection a more concrete issue, but voter response to his argument remains unknown.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Paul’s Senate vote gives Republicans who oppose the war a public action around which to organize. The vote does not establish campaign commitments.",
+                "event_ids": [
+                  "irn-2026-11-19-iran-senate-vote"
+                ],
+                "source_ids": [
+                  "daily-20261120-iran-senate-vote"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. His governing record and Georgia relationships remain the basis of his case. Organizing commitments beyond Georgia were outside this focused review.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief",
+              "weekly-20261116-kemp",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "Held on the November 16 weekly schedule. His Hegseth referral vote and records campaign remain visible examples of opposition. A new vote on his records bill and presidential organizing remain unverified.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "weekly-20261116-massie",
+              "weekly-20261116-reuters",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              },
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Massie used House procedure to force a vote on the Hegseth resolution. The Kuwait complaint gives lawmakers a separate subject for oversight. His ability to turn congressional visibility into Republican campaign organization remains uncertain.",
+                "event_ids": [
+                  "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+                  "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks"
+                ],
+                "source_ids": [
+                  "daily-20261117-kuwait-complaint",
+                  "daily-20261117-trump-cbs"
+                ]
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "The Emerson and Echelon surveys used different questions and samples. The conflict in their results and the contenders’ changed public roles may make the November 16 estimates stale.",
+          "No representative voter response to the briefing was found in this focused intake. State-level organizers, donor commitments and national entry decisions were outside broad verification.",
+          "The latest full review has no terminal tests due before February 1. Massie’s Epstein records bill and passage remain open."
+        ],
+        "wargame_ref": "2026-11-16-weekly",
+        "monitoring": {
+          "summary": "No terminal test in the November 16 full review was due. The press conference adds a public comparison for the next weekly review. The carried estimates may be stale.",
+          "developments": [
+            {
+              "finding": "Vance and Rubio appeared beside Trump at the White House after his trip to Asia. Trump accepted Vance’s account of the political cost of the Iran war while defending his own decision to start it.",
+              "implication": "Vance can signal loyalty while preserving his argument about the war’s electoral cost. Rubio can point to his role in diplomacy. Neither appearance establishes what voters or organizers will do.",
+              "weekly_question": "Do Republicans who approve of Trump and want a different Iran policy prefer an insider who can press for changes, or congressional critics who voted to limit the war?",
+              "source_ids": [
+                "daily-20261121-succ",
+                "daily-20261121-cbv"
+              ],
+              "event_ids": [
+                "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+              ]
+            }
+          ],
+          "prediction_updates": []
         }
       }
     ],

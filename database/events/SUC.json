@@ -979,6 +979,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Musk’s public distancing gives him room to work with Democrats after Republican losses and makes his future support less predictable for Trump allies. Trump’s public response keeps the relationship open. Future spending, campaign commitments and policy cooperation remain unverified."
+    },
+    {
+      "id": "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "JD Vance and Marco Rubio",
+      "text": "Vance defers to Trump on the decision to fight Iran at a briefing he shares with Rubio",
+      "context": "Both appeared alongside Trump after his Asia trip. Trump publicly accepted Vance’s account that the war hurt Republicans and defended his own decision to start it. When asked about the political cost, Vance emphasized Trump’s decision-making authority. Rubio, who had previously defended the initial decision, also spoke at the briefing.",
+      "source": "https://apnews.com/article/478fca96eee4ff8ba2f13f05b5e1e31c",
+      "url": "https://apnews.com/article/478fca96eee4ff8ba2f13f05b5e1e31c",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Vance can keep access to Trump while leaving room to criticize the war’s electoral cost. Rubio can show access through his diplomatic role. The appearance gives neither contender a presidential endorsement or demonstrated voter support.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Vance can keep access to Trump while leaving room to criticize the war’s electoral cost. Rubio can show access through his diplomatic role. The appearance gives neither contender a presidential endorsement or demonstrated voter support."
     }
   ]
 }

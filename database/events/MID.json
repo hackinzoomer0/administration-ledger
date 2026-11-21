@@ -2935,6 +2935,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Peltola can point to a clear lead as she calls for moving on. The filing reduces the immediate threat to certification. The court disposition, certification and disputed campaign allegations remain separate questions."
+    },
+    {
+      "id": "mid-2026-11-20-rochon-declines-injunction-on-midterm-ads",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "U.S. District Judge Jennifer L. Rochon",
+      "text": "Judge Jennifer Rochon declines to block taxpayer-funded Trump ads after the midterms",
+      "context": "Rochon said the plaintiffs had not shown an immediate harm the court could only prevent by acting before a final decision. The ads were funded in part through a Department of Homeland Security contract. A separate request to block the ads while litigation continued remained pending in Washington, D.C.",
+      "source": "https://apnews.com/article/422486bbd1d7be2586f28b3374322531",
+      "url": "https://apnews.com/article/422486bbd1d7be2586f28b3374322531",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The ruling gives the administration relief in this case. The legality of the ads and the parallel request remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The ruling gives the administration relief in this case. The legality of the ads and the parallel request remain open."
+    },
+    {
+      "id": "mid-2026-11-20-johnson-presses-republicans-to-attend-votes",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Mike Johnson",
+      "text": "Speaker Mike Johnson urges House Republicans to show up for votes",
+      "context": "Johnson publicly urged Republican members to attend votes. Axios and CBS reported the warning as Republicans prepared to hand over the House after their midterm losses.",
+      "source": "https://www.axios.com/2026/11/20/house-republicans-mike-johnson-attendance-midterms",
+      "url": "https://www.axios.com/2026/11/20/house-republicans-mike-johnson-attendance-midterms",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Attendance affects what Republicans can pass while they still run the House. The warning puts pressure on members to show up without establishing how they will vote on any particular motion.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Attendance affects what Republicans can pass while they still run the House. The warning puts pressure on members to show up without establishing how they will vote on any particular motion."
     }
   ]
 }

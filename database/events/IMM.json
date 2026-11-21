@@ -2191,6 +2191,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The administration can continue to enforce the termination while the pause lasts. The appeals court still has to decide the case."
+    },
+    {
+      "id": "imm-2026-11-18-sweeney-holds-ice-in-contempt",
+      "date": "2026-11-18",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "U.S. District Judge Charlotte Sweeney",
+      "text": "Colorado judge holds immigration officials in contempt after they rearrested a man she ordered released",
+      "context": "Colorado Public Radio reported that Judge Charlotte Sweeney found immigration officials in contempt after they immediately rearrested Ramón Quintero Álvarez. She declined further action after officials told her they had stopped the practice. The Guardian separately reported the ruling on November 20.",
+      "source": "https://www.cpr.org/2026/11/18/ice-immigration-agents-contempt-of-court/",
+      "url": "https://www.cpr.org/2026/11/18/ice-immigration-agents-contempt-of-court/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Federal judges can enforce release orders. This decision puts officials in Colorado on notice that further violations could lead to sanctions.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The ruling concerns compliance with a federal release order in Colorado."
     }
   ]
 }

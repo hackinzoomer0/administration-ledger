@@ -1068,6 +1068,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The Pentagon has a new channel for working with Rodríguez’s government while electoral guarantees remain unsettled. The announcement leaves the timing and scope of actual military cooperation open."
+    },
+    {
+      "id": "ven-2026-11-20-fourth-dialogue-round-reported-extended",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "actor": "Venezuelan government and participating opposition",
+      "text": "Venezuelan government and opposition extend talks, EFE reports",
+      "context": "Sources linked to the talks told EFE that negotiators would extend the fourth round for several days while working on political guarantees, freedom of expression and other issues. Local reporting also described an extension.",
+      "source": "https://www.ecuavisa.com/amp/mundo/chavismo-oposicion-abren-cuarto-ciclo-dialogo-allanar-camino-elecciones-20261120-0003.html",
+      "url": "https://www.ecuavisa.com/amp/mundo/chavismo-oposicion-abren-cuarto-ciclo-dialogo-allanar-camino-elecciones-20261120-0003.html",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The report says the talks will continue beyond Friday, when they were expected to end. A timetable and the process for appointing electoral authorities still depend on decisions by the participants.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The report says the talks will continue beyond Friday, when they were expected to end. A timetable and the process for appointing electoral authorities still depend on decisions by the participants."
     }
   ]
 }

@@ -3138,6 +3138,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Trump’s remarks give proponents of continued pressure a public argument against returning to the June framework. The criticism makes it harder for Vance to present his negotiations as an achievement Trump still backs."
+    },
+    {
+      "id": "irn-2026-11-19-envoys-meet-qatari-mediators",
+      "date": "2026-11-19",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Steve Witkoff and Jared Kushner",
+      "text": "Axios reports U.S. envoys met Qatari mediators in Berlin",
+      "context": "Two sources with knowledge of the meeting told Axios that U.S. envoys Steve Witkoff and Jared Kushner met senior Qatari officials on Thursday. On Friday, Trump said Iran wanted a deal but was unwilling to make one he could accept.",
+      "source": "https://www.axios.com/2026/11/20/witkoff-kushner-meet-qatari-mediators-iran",
+      "url": "https://www.axios.com/2026/11/20/witkoff-kushner-meet-qatari-mediators-iran",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Qatar still has a channel to the officials who present options to Trump. The meeting leaves open whether Trump authorized new terms or whether Iran would accept them.",
+      "origin": "daily shared intake",
+      "added": "2026-11-21",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Qatar still has a channel to the officials who present options to Trump. The meeting leaves open whether Trump authorized new terms or whether Iran would accept them."
     }
   ]
 }
