@@ -18,6 +18,7 @@ from privacy import screen
 from wargame import effective_game
 from review_workflow import prepare, finish, check, validate_changed_events
 from reader_copy import plan as copy_plan
+from research_tools import receipts, record
 
 
 class DatabaseWorkflow(unittest.TestCase):
@@ -95,6 +96,25 @@ class DatabaseWorkflow(unittest.TestCase):
                 'summary_changed': False, 'summary_reason': 'Fixture hold after reassessment.',
                 'issue_coverage': {code: {'status': 'reviewed', 'reason': 'Fixture coverage.'} for code in ledger['collections']['issues']}
             }
+            source_ids = [
+                record(stage, {
+                    'kind': 'source', 'value': f'https://example.{domain}/news',
+                    'window': snapshot['date'], 'purpose': 'Workflow test fixture',
+                    'status': 'read', 'result': 'No consequential story in this fixture.',
+                    'reporting_origin': origin,
+                })
+                for domain, origin in [('com', 'Fixture Wire'), ('net', 'Fixture Daily'),
+                                       ('org', 'Fixture News')]
+            ]
+            ledger['collections']['runs']['workflow-fixture']['coverage'] = {
+                'major_news': {
+                    'opening': {'source_receipt_ids': source_ids[:2], 'story_ids': [],
+                                'empty_reason': 'No major story in the opening fixture.'},
+                    'closing': {'source_receipt_ids': source_ids[1:], 'story_ids': [],
+                                'empty_reason': 'No major story in the closing fixture.'},
+                    'stories': {},
+                },
+            }
             from test_remediation import research_fixture
             ledger['collections']['runs']['workflow-fixture']['date'] = snapshot['date']
             impeachment_history = ledger['collections']['impeachments']['all']['history']
@@ -103,6 +123,10 @@ class DatabaseWorkflow(unittest.TestCase):
                                       as_of=snapshot['date'] + 'T23:59:00Z')
             impeachment_history.append(impeachment_review)
             ledger['collections']['runs']['workflow-fixture']['research_review'] = research_fixture(json.loads((stage/'original.json').read_text()), ledger, 'workflow-fixture')
+            receipt_fields = ('id', 'kind', 'value', 'window', 'purpose', 'status', 'result', 'reporting_origin')
+            ledger['collections']['runs']['workflow-fixture']['research_review']['source_receipts'] = [
+                {field: row[field] for field in receipt_fields} for row in receipts(stage)
+            ]
             file.write_text(json.dumps(ledger))
             with patch('review_workflow.publish', return_value={'status': 'verified', 'commit': 'fixture'}) as publish, patch('review_workflow.apply') as apply_data:
                 with self.assertRaisesRegex(ValueError, 'reader-copy second pass'):
@@ -115,10 +139,6 @@ class DatabaseWorkflow(unittest.TestCase):
                     'documents':{key:{'fingerprint':row['fingerprint'],'reader_takeaway':'Fixture explains the political state.',
                                        'context_check':'Names and decisions identified.','uncertainty_check':'Carried evidence is labeled.',
                                        'changes_made':[]} for key,row in copy_plan(original,ledger).items()}}
-                file.write_text(json.dumps(ledger))
-                from test_remediation import research_fixture
-                ledger['collections']['runs']['workflow-fixture']['date'] = snapshot['date']
-                ledger['collections']['runs']['workflow-fixture']['research_review'] = research_fixture(original, ledger, 'workflow-fixture')
                 file.write_text(json.dumps(ledger))
                 with patch('privacy.identifiers', return_value=['AUDIT_ONLY_DETAIL']):
                     with self.assertRaisesRegex(ValueError, 'configured owner identifier.*runs/workflow-fixture') as error:
