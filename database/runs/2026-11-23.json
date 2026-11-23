@@ -1,0 +1,1978 @@
+{
+  "date": "2026-11-23",
+  "type": "daily_review",
+  "scope": "Focused November 21–23 review of the incoming House, executive oversight, Iran funding, Nvidia and cybersecurity leadership, with checks on court, military and election outcomes. Full donor, organizer, trade and immigration implementation coverage remains incomplete.",
+  "summary": "Nvidia’s board restored Jensen Huang as chief executive after receiving input from senior U.S. officials. Trump separately ordered agencies to coordinate contractors’ replies to Congress. Incoming House Democrats gained room to act after Virginia Foxx conceded, and senators are discussing whether to tie new Pentagon funds to limits on Iran operations. The Iran funding terms and changes to military orders remain open. The Justice Department’s Supreme Court request on Venezuelan protections was withdrawn on November 19. Follow-up is open on New Iran military orders, Venezuela election timetable, Alaska election certification, Lisa Cook hearing and litigation, Massie’s Epstein records bill and Drew Lynch’s response, Implementation of Trump’s announced trade terms, Army’s planned Iowa disposal and Ueland and LoSapio confirmation. No new comparable Republican primary poll or organizer commitments were verified.",
+  "added": 6,
+  "changed_entries": [
+    "events/AI",
+    "events/IRN",
+    "events/MID",
+    "assessments/current",
+    "assessments/issues",
+    "nominations/republican_2028",
+    "impeachments/all"
+  ],
+  "reviewed_episode_ids": [
+    "ai-2026-11-22-nvidia-board-reinstates-huang",
+    "mid-2026-11-20-trump-orders-contractor-coordination",
+    "mid-2026-11-22-ap-calls-hubbard-foxx-race",
+    "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+    "ai-2026-11-23-axios-reports-clayton-interim-cyber-role",
+    "mid-2026-11-20-post-reports-hegseth-canada-guidance"
+  ],
+  "unresolved_claims": [
+    "New Iran military orders",
+    "Venezuela election timetable",
+    "Alaska election certification",
+    "Lisa Cook hearing and litigation",
+    "Massie’s Epstein records bill and Drew Lynch’s response",
+    "Implementation of Trump’s announced trade terms",
+    "Army’s planned Iowa disposal",
+    "Ueland and LoSapio confirmation"
+  ],
+  "evidence_needed": [
+    "Conditional remarks reported by The Daily Beast do not establish an order. Check the original interview, official orders and any public U.S. or Iranian acknowledgement.",
+    "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date.",
+    "AP’s race call and DOJ’s dismissal move remain distinct from the state’s certification. Check Alaska’s certified statewide report.",
+    "Public court routes did not verify an updated hearing or operative order. Check the current lower-court docket and any White House notice.",
+    "The House floor index and targeted search did not establish floor action or production. Check Congress and House Oversight directly.",
+    "The White House reported terms. Check USTR and the Federal Register for an operative instrument and effective dates.",
+    "The Army announced plans for Wednesday while litigation continues. Check the court and Army for whether the action occurred or was stayed.",
+    "Recent floor and nomination results did not establish confirmation. Check the Senate Executive Calendar after recess."
+  ],
+  "editorial_notes": [
+    "The second pass distinguished the Nvidia vote from the announcement, distinguished Thune’s public remarks from attributed negotiations, and explained the contractor order’s effect on particular congressional requests. Titles name the actor and decision.",
+    "Repaired the immigration dispute text to match the verified Supreme Court withdrawal already reflected in the policy."
+  ],
+  "coverage": {
+    "major_news": {
+      "opening": {
+        "source_receipt_ids": [
+          "a2c726d2a8134cc9b60e58a6",
+          "4656aed2a41ec5b47b3ff0e2",
+          "3a6f9f638fc716f743a5acb6"
+        ],
+        "story_ids": [
+          "house",
+          "contractors",
+          "iran-spending",
+          "iran-orders",
+          "canada",
+          "libya",
+          "ak"
+        ]
+      },
+      "closing": {
+        "source_receipt_ids": [
+          "8726936773ea2e0ef80a1e38",
+          "e3bab8dc88ca83b6773ed024",
+          "063f7a8f3496281e08958bb7",
+          "b02c72c006df1125285382af"
+        ],
+        "story_ids": [
+          "house",
+          "contractors",
+          "iran-spending",
+          "iran-orders",
+          "huang",
+          "cyber",
+          "canada",
+          "delta",
+          "quorum",
+          "ven",
+          "ak",
+          "cook",
+          "massie",
+          "trade",
+          "iowa",
+          "ice",
+          "libya",
+          "debates",
+          "confirmation",
+          "schumer",
+          "health",
+          "ven-tps"
+        ]
+      },
+      "stories": {
+        "house": {
+          "headline": "Chuck Hubbard defeats Virginia Foxx",
+          "status": "reflected",
+          "reason": "AP called the race after recount and concession. Coverage differs on the aggregate, so the assessment uses AP’s dated floor of at least 258 seats.",
+          "source_receipt_ids": [
+            "a2c726d2a8134cc9b60e58a6",
+            "50bb99bed82fea746ce63cd2",
+            "a1152e8b39307b18c6c72250",
+            "8726936773ea2e0ef80a1e38"
+          ]
+        },
+        "contractors": {
+          "headline": "Trump orders agencies to coordinate contractors’ replies to Congress",
+          "status": "reflected",
+          "reason": "Signed order affects covered federal work. Application to particular requests or subpoenas remains open.",
+          "source_receipt_ids": [
+            "41ad5e8860cce5999524beb8",
+            "dbc99093521159e3fe5b0abc"
+          ]
+        },
+        "iran-spending": {
+          "headline": "Senators discuss limits on Iran war spending",
+          "status": "reflected",
+          "reason": "Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified.",
+          "source_receipt_ids": [
+            "063f7a8f3496281e08958bb7",
+            "50b9697fad8a63e9ad499476",
+            "0ffd8183aa677b01b1a00af3"
+          ]
+        },
+        "iran-orders": {
+          "headline": "New Iran military orders",
+          "status": "unverified",
+          "reason": "Conditional remarks reported by The Daily Beast do not establish an order. Check the original interview, official orders and any public U.S. or Iranian acknowledgement.",
+          "source_receipt_ids": [
+            "2c913e08fc1ea2f238d5cf49",
+            "4656aed2a41ec5b47b3ff0e2",
+            "92d346cec9835ab199b5459f",
+            "540d6ddf247c27c8d0ce2df2"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "huang": {
+          "headline": "Nvidia restores Jensen Huang as CEO",
+          "status": "reflected",
+          "reason": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate.",
+          "source_receipt_ids": [
+            "aed1342d61914b8fa2b474de",
+            "a02b6d43a6fdb73025b3d53f",
+            "b02c72c006df1125285382af",
+            "0d3eebc6f800a093fc8a8802",
+            "e3bab8dc88ca83b6773ed024"
+          ]
+        },
+        "cyber": {
+          "headline": "Axios reports Jay Clayton will serve as acting national cyber director",
+          "status": "reflected",
+          "reason": "The attributed interim arrangement changes the likely coordinator before Davies is confirmed. No operational repair mandate or common cause of outages was established.",
+          "source_receipt_ids": [
+            "46f8bb92cca10bca08752e0d",
+            "0d96b1e9b6dfecfd4944cc38",
+            "e3bab8dc88ca83b6773ed024"
+          ]
+        },
+        "canada": {
+          "headline": "Pete Hegseth reportedly restricts U.S. military contacts with Canada",
+          "status": "reflected",
+          "reason": "The Post’s attributed account and Pentagon response are distinct from Canada’s observation that it had seen no operational change.",
+          "source_receipt_ids": [
+            "eb22a9df83566c1c85c1137d",
+            "707828fad0106aeed62a9d8e",
+            "9c29c99242f783e429bc491b"
+          ]
+        },
+        "delta": {
+          "headline": "Delta restores automation after flight delays",
+          "status": "held",
+          "reason": "AP quotes Delta on service restoration. No evidence connected the incident to the earlier FAA stop or showed changes in government repair authority.",
+          "source_receipt_ids": [
+            "bca1c4826a92c32edcb297d7",
+            "e3bab8dc88ca83b6773ed024"
+          ]
+        },
+        "quorum": {
+          "headline": "Fifth Circuit rules the House could not establish a quorum by proxy",
+          "status": "held",
+          "reason": "The decision changes the legal position of the pregnancy accommodations statute in the case. It supplies no direct ruling on another law or a current impeachment vote.",
+          "source_receipt_ids": [
+            "8453bf7f4f4d41d8d7229987",
+            "4ac032915d29cb8329a1a4de"
+          ]
+        },
+        "ven": {
+          "headline": "Venezuela election timetable",
+          "status": "pending",
+          "reason": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date.",
+          "source_receipt_ids": [
+            "5e7f26a9f536bc8093bbb46e",
+            "826eddda532cbae87f956dae"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "ak": {
+          "headline": "Alaska election certification",
+          "status": "pending",
+          "reason": "AP’s race call and DOJ’s dismissal move remain distinct from the state’s certification. Check Alaska’s certified statewide report.",
+          "source_receipt_ids": [
+            "bd5ddfe3922d0e0d47d050bf"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "cook": {
+          "headline": "Lisa Cook hearing and litigation",
+          "status": "unverified",
+          "reason": "Public court routes did not verify an updated hearing or operative order. Check the current lower-court docket and any White House notice.",
+          "source_receipt_ids": [
+            "e0372ea7857fd5119dec6c9b",
+            "524a5767fb6d1ff670075206"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "massie": {
+          "headline": "Massie’s Epstein records bill and Drew Lynch’s response",
+          "status": "unverified",
+          "reason": "The House floor index and targeted search did not establish floor action or production. Check Congress and House Oversight directly.",
+          "source_receipt_ids": [
+            "454216e958d31a1babb9e4db",
+            "ab5992491193b85b49752263",
+            "c4ca2870ff1bc39a6216c68b"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "trade": {
+          "headline": "Implementation of Trump’s announced trade terms",
+          "status": "unverified",
+          "reason": "The White House reported terms. Check USTR and the Federal Register for an operative instrument and effective dates.",
+          "source_receipt_ids": [
+            "64a768fa83b795e52e569cb3",
+            "ab5992491193b85b49752263",
+            "b356b1c9c7afaa2da4a1206e"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "iowa": {
+          "headline": "Army’s planned Iowa disposal",
+          "status": "pending",
+          "reason": "The Army announced plans for Wednesday while litigation continues. Check the court and Army for whether the action occurred or was stayed.",
+          "source_receipt_ids": [
+            "8726936773ea2e0ef80a1e38",
+            "602e9588d1cc4c37899d40b7"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "ice": {
+          "headline": "ICE use of license-plate records",
+          "status": "held",
+          "reason": "The Atlantic documents a line of oversight. The intake did not establish a nationwide change in agency policy or what ICE told lawmakers.",
+          "source_receipt_ids": [
+            "a9ec4cf446b47b0acd0d136d"
+          ]
+        },
+        "libya": {
+          "headline": "Ukraine and Russia war reaches a Libyan port",
+          "status": "held",
+          "reason": "AP reported the incident and Tripoli’s sovereignty objection. Neither establishes a change in U.S. negotiating policy or implementation of the Berlin position.",
+          "source_receipt_ids": [
+            "92d346cec9835ab199b5459f",
+            "4656aed2a41ec5b47b3ff0e2"
+          ]
+        },
+        "debates": {
+          "headline": "Democrats announce 2028 primary debates",
+          "status": "held",
+          "reason": "The announced calendar applies to Democrats and supplies no evidence of changes in Republican entry or support.",
+          "source_receipt_ids": [
+            "100f989686b133933451f284"
+          ]
+        },
+        "confirmation": {
+          "headline": "Ueland and LoSapio confirmation",
+          "status": "pending",
+          "reason": "Recent floor and nomination results did not establish confirmation. Check the Senate Executive Calendar after recess.",
+          "source_receipt_ids": [
+            "454216e958d31a1babb9e4db",
+            "ab5992491193b85b49752263"
+          ],
+          "next_check": "2026-11-24"
+        },
+        "schumer": {
+          "headline": "Trump criticizes Schumer as Democrats choose Senate leaders",
+          "status": "held",
+          "reason": "Public criticism followed Trump’s earlier willingness to discuss deals. The remarks increase pressure over who will lead negotiations without identifying a leadership vote, changed spending terms or a breakdown in talks.",
+          "source_receipt_ids": [
+            "19cf057873a518ac910d4f9a",
+            "64a768fa83b795e52e569cb3"
+          ]
+        },
+        "health": {
+          "headline": "Jeffries puts health affordability on the incoming House agenda",
+          "status": "held",
+          "reason": "Jeffries is using the new majority to press a priority he had already announced. AP reported Trump’s openness to talks. Neither establishes an agreed bill.",
+          "source_receipt_ids": [
+            "04e8fa3a73dfbe5f36026431",
+            "a1152e8b39307b18c6c72250"
+          ]
+        },
+        "ven-tps": {
+          "headline": "Justice Department withdrew its Supreme Court request on Venezuelan protections",
+          "status": "already_covered",
+          "reason": "The November 19 docket confirms that the Justice Department withdrew its request after the Ninth Circuit extended the pause. The maintained policy already records the outcome. Repaired the issue text that still described the request as pending.",
+          "source_receipt_ids": [
+            "692a82757a545fb9428109bc",
+            "8d11aa204c0d2abf88e2e05e",
+            "fe88761c67bed25cd5a784b9"
+          ],
+          "prior_reference": "2026-11-18 appeals court extension in events/IMM and the maintained immigration policy reviewed 2026-11-21"
+        }
+      }
+    },
+    "lookbackDays": 2,
+    "queries": 3,
+    "sourcesRead": [
+      "https://apnews.com/article/721096a4d9ba2cd68683692361798cdb",
+      "https://www.aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974",
+      "https://ktvz.com/politics/cnn-us-politics/2026/",
+      "https://www.democracynow.org/2026/11/23/headlines",
+      "https://www.cbsnews.com/news/full-transcript-of-face-the-nation-with-margaret-brennan-nov-22-2026/",
+      "https://clerk.house.gov/Static/",
+      "https://clerk.house.gov/Votes/2026317",
+      "https://www.supremecourt.gov/orders/ordersofthecourt/",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+      "https://www.axios.com/2026/11/23/schumer-trump-nvidia-huang-reinstated",
+      "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f",
+      "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+      "https://apnews.com/article/9546e1d7acdf3e65b654d1c5162cb0bd",
+      "https://apnews.com/article/23732afcd78a853e98acd9b72d0cbd14",
+      "https://www.thedailybeast.com/scale-of-trumps-humiliation-revealed-as-maga-loser-virginia-foxx-falls",
+      "https://www.washingtonpost.com/business/2026/11/23/senate-gop-leaders-signal-openness-cutting-off-iran-war-funding/",
+      "https://ktvz.com/politics/cnn-us-politics/2026/11/23/republicans-mulling-deal-that-would-fund-military-but-limit-operations-in-iran/",
+      "https://www.investing.com/news/economy-news/congress-struggles-to-avert-us-shutdown-as-iran-war-divides-lawmakers-5041259",
+      "https://www.thedailybeast.com/trump-drops-ominous-hint-about-his-new-years-plans-for-iran",
+      "https://apnews.com/article/c2cb6de3515f887a5786c1147e918489",
+      "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director",
+      "https://abcnews.com/Politics/week-transcript-11-22-26-director-national-intelligence/story?_apiEnv=preview&cb=1k81r72v3&id=138345755",
+      "https://apnews.com/article/d4bdb732da930205ec3453d35c28daa2",
+      "https://www.washingtonpost.com/national-security/2026/11/20/secret-hegseth-memo-restricts-us-canada-defense-relationship/",
+      "https://www.axios.com/2026/11/22/pentagon-canada-defense-restrictions-fact-sheet",
+      "https://vancouver.citynews.ca/2026/11/21/mcguinty-not-aware-u-s-has-changed-military-co-operation-policy-with-canada/",
+      "https://www.govinfo.gov/content/pkg/USCOURTS-ca5-24-10386/pdf/USCOURTS-ca5-24-10386-1.pdf",
+      "https://apnews.com/article/c3b964c0f0cafaed2f20099055eb79cd",
+      "https://efe.com/mundo/2026-11-22/chavismo-oposicion-concluir-cuarta-ronda-dialogo/",
+      "https://grancaracasnews.com/politica/cuarta-ronda-dialogo-cierre-lunes/",
+      "https://apnews.com/article/2149f665a6116ab41490f8bda560e9fa",
+      "https://www.theatlantic.com/politics/2026/11/license-plate-readers-ice/689515/",
+      "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+      "https://www.whitehouse.gov/releases/2026/11/at-press-briefing-president-trump-touts-historic-wins-for-americans-signals-deal-making-on-healthcare/",
+      "https://apnews.com/article/76416b8c489b544ab18c6f180f742720",
+      "https://www.cbsnews.com/news/jd-vance-2026-midterms-iran/",
+      "https://www.foxnews.com/politics/rubios-defense-trumps-iran-war-draws-sharp-contrast-vances-midterm-blame",
+      "https://www.supremecourt.gov/Search.aspx?Search=lisa+cook",
+      "https://www.aol.com/articles/trump-says-very-hard-schumer-023126000.html",
+      "https://apnews.com/article/8b60b5fa8c1af9c0a87950100a1d0153",
+      "https://www.supremecourt.gov/docket/docketfiles/html/public/26a714.html",
+      "https://www.supremecourt.gov/DocketPDF/26/26A714/433333/20261119155558543_26A714%20-%20Mullin%20v.%20National%20TPS%20Alliance.pdf",
+      "https://apnews.com/article/4c169e7c4d6e80145f39863e17f9f305"
+    ],
+    "blocked": [
+      "https://adn.com",
+      "https://www.congress.gov/"
+    ],
+    "gaps": [
+      "New Iran military orders",
+      "Venezuela election timetable",
+      "Alaska election certification",
+      "Lisa Cook hearing and litigation",
+      "Massie’s Epstein records bill and Drew Lynch’s response",
+      "Implementation of Trump’s announced trade terms",
+      "Army’s planned Iowa disposal",
+      "Ueland and LoSapio confirmation"
+    ],
+    "deviations": [
+      "Donor and state organizer checks focused on leads arising from the shared intake. The original Fox interview and classified Canada guidance were not recovered."
+    ],
+    "outcome_watch": [
+      {
+        "outcome": "Chuck Hubbard defeats Virginia Foxx",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "AP called the race after recount and concession. Coverage differs on the aggregate, so the assessment uses AP’s dated floor of at least 258 seats."
+      },
+      {
+        "outcome": "Trump orders agencies to coordinate contractors’ replies to Congress",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      {
+        "outcome": "Senators discuss limits on Iran war spending",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      {
+        "outcome": "New Iran military orders",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "Conditional remarks reported by The Daily Beast do not establish an order. Check the original interview, official orders and any public U.S. or Iranian acknowledgement."
+      },
+      {
+        "outcome": "Nvidia restores Jensen Huang as CEO",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      {
+        "outcome": "Axios reports Jay Clayton will serve as acting national cyber director",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The attributed interim arrangement changes the likely coordinator before Davies is confirmed. No operational repair mandate or common cause of outages was established."
+      },
+      {
+        "outcome": "Pete Hegseth reportedly restricts U.S. military contacts with Canada",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The Post’s attributed account and Pentagon response are distinct from Canada’s observation that it had seen no operational change."
+      },
+      {
+        "outcome": "Delta restores automation after flight delays",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "AP quotes Delta on service restoration. No evidence connected the incident to the earlier FAA stop or showed changes in government repair authority."
+      },
+      {
+        "outcome": "Fifth Circuit rules the House could not establish a quorum by proxy",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The decision changes the legal position of the pregnancy accommodations statute in the case. It supplies no direct ruling on another law or a current impeachment vote."
+      },
+      {
+        "outcome": "Venezuela election timetable",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date."
+      },
+      {
+        "outcome": "Alaska election certification",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "AP’s race call and DOJ’s dismissal move remain distinct from the state’s certification. Check Alaska’s certified statewide report."
+      },
+      {
+        "outcome": "Lisa Cook hearing and litigation",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "Public court routes did not verify an updated hearing or operative order. Check the current lower-court docket and any White House notice."
+      },
+      {
+        "outcome": "Massie’s Epstein records bill and Drew Lynch’s response",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "The House floor index and targeted search did not establish floor action or production. Check Congress and House Oversight directly."
+      },
+      {
+        "outcome": "Implementation of Trump’s announced trade terms",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "The White House reported terms. Check USTR and the Federal Register for an operative instrument and effective dates."
+      },
+      {
+        "outcome": "Army’s planned Iowa disposal",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "The Army announced plans for Wednesday while litigation continues. Check the court and Army for whether the action occurred or was stayed."
+      },
+      {
+        "outcome": "ICE use of license-plate records",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The Atlantic documents a line of oversight. The intake did not establish a nationwide change in agency policy or what ICE told lawmakers."
+      },
+      {
+        "outcome": "Ukraine and Russia war reaches a Libyan port",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "AP reported the incident and Tripoli’s sovereignty objection. Neither establishes a change in U.S. negotiating policy or implementation of the Berlin position."
+      },
+      {
+        "outcome": "Democrats announce 2028 primary debates",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The announced calendar applies to Democrats and supplies no evidence of changes in Republican entry or support."
+      },
+      {
+        "outcome": "Ueland and LoSapio confirmation",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "Recent floor and nomination results did not establish confirmation. Check the Senate Executive Calendar after recess."
+      },
+      {
+        "outcome": "Trump criticizes Schumer as Democrats choose Senate leaders",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "Public criticism followed Trump’s earlier willingness to discuss deals. The remarks increase pressure over who will lead negotiations without identifying a leadership vote, changed spending terms or a breakdown in talks."
+      },
+      {
+        "outcome": "Jeffries puts health affordability on the incoming House agenda",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "Jeffries is using the new majority to press a priority he had already announced. AP reported Trump’s openness to talks. Neither establishes an agreed bill."
+      },
+      {
+        "outcome": "Hegseth House procedure",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "House Clerk roll call 317 establishes referral. No later verified disposition."
+      },
+      {
+        "outcome": "Mississippi Senate and projected chamber control",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "November 21 record carried forward. Earlier review carries forward. AP’s Alaska report continues to put Democrats at 56 projected Senate seats. Mississippi’s earlier call carries forward."
+      },
+      {
+        "outcome": "Alaska Senate and governor",
+        "status": "reviewed",
+        "date": "2026-11-18",
+        "finding": "November 21 record carried forward. Earlier review carries forward. AP called both races. Alaska still labels its count unofficial. Final count and certification remain pending."
+      },
+      {
+        "outcome": "Kansas governor",
+        "status": "reviewed",
+        "date": "2026-11-16",
+        "finding": "November 21 record carried forward. Earlier review carries forward. AP called the race for Cindy Holscher."
+      },
+      {
+        "outcome": "Massie Epstein records bill",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. House vote on Massie’s second bill and disclosure implementation remain unverified."
+      },
+      {
+        "outcome": "Abu Dhabi prisoner exchange",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. The agreement remains the latest verified milestone. Neither a handover nor the number transferred was confirmed."
+      },
+      {
+        "outcome": "Minneapolis data-center zoning",
+        "status": "reviewed",
+        "date": "2026-11-21",
+        "finding": "November 21 record carried forward. The City Council failed to override Mayor Frey’s veto. Revised regulations are expected to return in December."
+      },
+      {
+        "outcome": "Israel government formation",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. Eisenkot is negotiating after parliament convened. No governing coalition was verified."
+      },
+      {
+        "outcome": "Qatar mediation and U.S. military or enforcement orders",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. Pakistan’s foreign minister remains involved and awaits a reply. The next Qatar contact and military orders remain open."
+      },
+      {
+        "outcome": "Lisa Cook hearing and lower-court case",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "Public court routes did not verify an updated hearing or operative order. Check the current lower-court docket and any White House notice."
+      },
+      {
+        "outcome": "Venezuela negotiations",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date."
+      },
+      {
+        "outcome": "Big Bend construction",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. Prior legal permission carries forward. Work on site was not established."
+      },
+      {
+        "outcome": "Lukoil authorization",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "November 21 record carried forward. Earlier review carries forward. Treasury extended permission for negotiations and contingent contracts involving Lukoil’s international assets to December 19. Completing a sale requires separate Treasury approval."
+      },
+      {
+        "outcome": "Guilfoyle records request",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Lynch’s production remains unverified after searches for a response or later compulsory action."
+      },
+      {
+        "outcome": "Nvidia board inquiry and chip rule",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      {
+        "outcome": "Tariff and trade implementation",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Prospective trade announcement and operative implementation or court terms were not verified."
+      },
+      {
+        "outcome": "Eighth Circuit nomination",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "November 21 record carried forward. Earlier review carries forward. The White House withdrew Lee Rudofsky and nominated Cody Hiland for the same seat. Confirmation remains open."
+      },
+      {
+        "outcome": "Blumenthal’s request for confirmation",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. Axios documented a separate Reitz request to Warren. A reply to Blumenthal remains unverified."
+      },
+      {
+        "outcome": "October consumer price report",
+        "status": "reviewed",
+        "date": "2026-11-13",
+        "finding": "November 21 record carried forward. Earlier review carries forward. BLS published the October CPI on November 10; missing prior-year survey data limit 12-month comparisons."
+      },
+      {
+        "outcome": "Project Rousseau court filings",
+        "status": "unreviewed",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. Earlier relief remains documented. Later operative order and scope require docket verification."
+      },
+      {
+        "outcome": "Republican National Committee chair vote",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. AP reports a January winter meeting. Exact vote date and commitments remain open."
+      },
+      {
+        "outcome": "Southern border asylum case",
+        "status": "reviewed",
+        "date": "2026-11-13",
+        "finding": "November 21 record carried forward. Earlier review carries forward. CBS reported the grant of review. No final ruling on the merits."
+      },
+      {
+        "outcome": "Port Shuaiba records and briefing",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. Blumenthal requested documents and a briefing. Production and testimony remain open."
+      },
+      {
+        "outcome": "Latest Bahrain episode and U.S. operational response",
+        "status": "reviewed",
+        "date": "2026-11-17",
+        "finding": "November 21 record carried forward. Earlier review carries forward. Reuters and AP report the November 17 exchange and AP reports the ensuing November 18 attacks. Damage and next orders remain open."
+      },
+      {
+        "outcome": "2027 congressional leadership and committee assignments",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "Projected House margin updated. Election of leaders and committee assignments remain open."
+      },
+      {
+        "outcome": "White House approval for agency testimony",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. The memo is attributed in multiple reports. Its application to a specific witness or subpoena remains open."
+      },
+      {
+        "outcome": "House and Senate Republican leadership choices",
+        "status": "reviewed",
+        "date": "2026-11-10",
+        "finding": "November 21 record carried forward. Earlier review carries forward. CBS confirmed House Republicans chose Jim Jordan and Senate Republicans kept John Thune. The existing election event carries those results."
+      },
+      {
+        "outcome": "Alaska certification and any necessary ranked-choice tabulation",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "AP’s race call and DOJ’s dismissal move remain distinct from the state’s certification. Check Alaska’s certified statewide report."
+      },
+      {
+        "outcome": "Mullin and FBI deputy director at House homeland security hearing",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "November 21 record carried forward. Earlier review carries forward. Mullin and Raia testified with Clayton. Garbarino and Thompson criticized Patel for missing the hearing."
+      },
+      {
+        "outcome": "Trump–Xi and Trump–Xi–Putin meetings at APEC",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "November 21 record carried forward. Earlier review carries forward. Meetings held. China published a joint declaration on nuclear-risk dialogue and other shared aims. Implementation and any war settlement remain open."
+      },
+      {
+        "outcome": "Huang and Teter House interviews",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "Reinstatement changes Huang’s job. Keep watching for the scheduled House interviews."
+      },
+      {
+        "outcome": "U.S.–Thailand trade agreement",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. The joint statement announces substantial conclusion of talks. Final terms and implementation remain open."
+      },
+      {
+        "outcome": "Iran attacks on November 18 and damage at Gulf bases",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Carried from prior review. AP reports additional attacks. Damage, retaliation and access changes remain open."
+      },
+      {
+        "outcome": "Supreme Court Venezuelan temporary protection stay request",
+        "status": "reviewed",
+        "date": "2026-11-23",
+        "finding": "The November 19 docket confirms that the Justice Department withdrew its request after the Ninth Circuit extended the pause. The maintained policy already records the outcome. Repaired the issue text that still described the request as pending."
+      },
+      {
+        "outcome": "U.S.–Venezuela military agreement",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "November 21 record carried forward. Earlier review carries forward. Hegseth announced the signing. Text and implementing steps remain open."
+      },
+      {
+        "outcome": "November 19 chip-rule effective date",
+        "status": "reviewed",
+        "date": "2026-11-19",
+        "finding": "November 21 record carried forward. Earlier review carries forward. Federal Register gives November 19 as the effective date."
+      },
+      {
+        "outcome": "Ninth Circuit Venezuelan temporary protection merits decision",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "The extended pause continues until seven days after the appeals court publishes judgment. The merits decision remains open."
+      },
+      {
+        "outcome": "Iran war powers resolution",
+        "status": "reviewed",
+        "date": "2026-11-20",
+        "finding": "The November 19 result carries forward. New funding negotiations concern a distinct decision."
+      },
+      {
+        "outcome": "House response to Senate permitting bill",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Senate passage is verified. House agreement and enactment remain open."
+      },
+      {
+        "outcome": "Midterm advertisements litigation",
+        "status": "reviewed",
+        "date": "2026-11-21",
+        "finding": "November 21 record carried forward. Rochon denied preliminary relief. The separate D.C. request remains pending."
+      },
+      {
+        "outcome": "Ueland and LoSapio Senate confirmation",
+        "status": "pending",
+        "date": "2026-11-24",
+        "finding": "November 21 record carried forward. Hold reported. No final outcome verified."
+      },
+      {
+        "outcome": "Colorado contempt ruling over immigration rearrest",
+        "status": "reviewed",
+        "date": "2026-11-21",
+        "finding": "November 21 record carried forward. Sweeney found contempt and declined further action after officials said the rearrests had stopped."
+      }
+    ],
+    "perIssue": {
+      "AI": "reviewed",
+      "EPS": "carried",
+      "FED": "carried",
+      "IMM": "reviewed",
+      "IRN": "reviewed",
+      "MID": "reviewed",
+      "RUS": "carried",
+      "SUC": "carried",
+      "TAR": "carried",
+      "VEN": "carried"
+    },
+    "propagation": {
+      "ai-2026-11-22-nvidia-board-reinstates-huang": [
+        "assessments/current",
+        "assessments/issues/AI",
+        "impeachments/all"
+      ],
+      "mid-2026-11-20-trump-orders-contractor-coordination": [
+        "assessments/current",
+        "assessments/issues/MID"
+      ],
+      "mid-2026-11-22-ap-calls-hubbard-foxx-race": [
+        "assessments/issues/MID",
+        "impeachments/all"
+      ],
+      "irn-2026-11-23-senators-discuss-restricting-iran-funding": [
+        "assessments/current",
+        "assessments/issues/IRN",
+        "nominations/republican_2028"
+      ],
+      "ai-2026-11-23-axios-reports-clayton-interim-cyber-role": [
+        "assessments/issues/AI"
+      ],
+      "mid-2026-11-20-post-reports-hegseth-canada-guidance": [
+        "assessments/current",
+        "impeachments/all"
+      ]
+    }
+  },
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Chuck Hubbard defeats Virginia Foxx",
+        "event_ids": [
+          "mid-2026-11-22-ap-calls-hubbard-foxx-race"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID",
+          "impeachments/all"
+        ],
+        "reason": "AP called the race after recount and concession. Coverage differs on the aggregate, so the assessment uses AP’s dated floor of at least 258 seats."
+      },
+      {
+        "finding": "Trump orders agencies to coordinate contractors’ replies to Congress",
+        "event_ids": [
+          "mid-2026-11-20-trump-orders-contractor-coordination"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/MID"
+        ],
+        "reason": "Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      {
+        "finding": "Senators discuss limits on Iran war spending",
+        "event_ids": [
+          "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/IRN",
+          "nominations/republican_2028"
+        ],
+        "reason": "Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      {
+        "finding": "Nvidia restores Jensen Huang as CEO",
+        "event_ids": [
+          "ai-2026-11-22-nvidia-board-reinstates-huang"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/AI",
+          "impeachments/all"
+        ],
+        "reason": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      {
+        "finding": "Axios reports Jay Clayton will serve as acting national cyber director",
+        "event_ids": [
+          "ai-2026-11-23-axios-reports-clayton-interim-cyber-role"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "reason": "The attributed interim arrangement changes the likely coordinator before Davies is confirmed. No operational repair mandate or common cause of outages was established."
+      },
+      {
+        "finding": "Pete Hegseth reportedly restricts U.S. military contacts with Canada",
+        "event_ids": [
+          "mid-2026-11-20-post-reports-hegseth-canada-guidance"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "impeachments/all"
+        ],
+        "reason": "The Post’s attributed account and Pentagon response are distinct from Canada’s observation that it had seen no operational change."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "reviewed",
+        "reason": "Material new evidence reviewed. The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "House floor and preservation searches did not establish passage of Massie’s bill or a new production of records."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Cook litigation remains unresolved. The sentiment release does not change Fed authority."
+      },
+      "IMM": {
+        "status": "reviewed",
+        "reason": "Verified the withdrawal and continuing stay. The Ninth Circuit merits and changes in broader enforcement remain open."
+      },
+      "IRN": {
+        "status": "reviewed",
+        "reason": "Material new evidence reviewed. Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "Material new evidence reviewed. Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "AP reported the incident and Tripoli’s sovereignty objection. Neither establishes a change in U.S. negotiating policy or implementation of the Berlin position."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Reviewed candidate implications of the Iran spending fight. No comparable polling or organizer commitments."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "November 21 review of overseas data-center tax remarks. Friday trade implementation remains unverified."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "The new contractor order, election result and funding talks change the levers available to Trump and incoming Democrats. Huang’s reinstatement reverses a current assessment about corporate leadership.",
+    "dated_assumptions": [
+      {
+        "assumption": "Chuck Hubbard defeats Virginia Foxx",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "AP called the race after recount and concession. Coverage differs on the aggregate, so the assessment uses AP’s dated floor of at least 258 seats."
+      },
+      {
+        "assumption": "Trump orders agencies to coordinate contractors’ replies to Congress",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      {
+        "assumption": "Senators discuss limits on Iran war spending",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      {
+        "assumption": "New Iran military orders",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "Conditional remarks reported by The Daily Beast do not establish an order. Check the original interview, official orders and any public U.S. or Iranian acknowledgement."
+      },
+      {
+        "assumption": "Nvidia restores Jensen Huang as CEO",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      {
+        "assumption": "Axios reports Jay Clayton will serve as acting national cyber director",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The attributed interim arrangement changes the likely coordinator before Davies is confirmed. No operational repair mandate or common cause of outages was established."
+      },
+      {
+        "assumption": "Pete Hegseth reportedly restricts U.S. military contacts with Canada",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The Post’s attributed account and Pentagon response are distinct from Canada’s observation that it had seen no operational change."
+      },
+      {
+        "assumption": "Delta restores automation after flight delays",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "AP quotes Delta on service restoration. No evidence connected the incident to the earlier FAA stop or showed changes in government repair authority."
+      },
+      {
+        "assumption": "Fifth Circuit rules the House could not establish a quorum by proxy",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The decision changes the legal position of the pregnancy accommodations statute in the case. It supplies no direct ruling on another law or a current impeachment vote."
+      },
+      {
+        "assumption": "Venezuela election timetable",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date."
+      },
+      {
+        "assumption": "Alaska election certification",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "AP’s race call and DOJ’s dismissal move remain distinct from the state’s certification. Check Alaska’s certified statewide report."
+      },
+      {
+        "assumption": "Lisa Cook hearing and litigation",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "Public court routes did not verify an updated hearing or operative order. Check the current lower-court docket and any White House notice."
+      },
+      {
+        "assumption": "Massie’s Epstein records bill and Drew Lynch’s response",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "The House floor index and targeted search did not establish floor action or production. Check Congress and House Oversight directly."
+      },
+      {
+        "assumption": "Implementation of Trump’s announced trade terms",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "The White House reported terms. Check USTR and the Federal Register for an operative instrument and effective dates."
+      },
+      {
+        "assumption": "Army’s planned Iowa disposal",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "The Army announced plans for Wednesday while litigation continues. Check the court and Army for whether the action occurred or was stayed."
+      },
+      {
+        "assumption": "ICE use of license-plate records",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The Atlantic documents a line of oversight. The intake did not establish a nationwide change in agency policy or what ICE told lawmakers."
+      },
+      {
+        "assumption": "Ukraine and Russia war reaches a Libyan port",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "AP reported the incident and Tripoli’s sovereignty objection. Neither establishes a change in U.S. negotiating policy or implementation of the Berlin position."
+      },
+      {
+        "assumption": "Democrats announce 2028 primary debates",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The announced calendar applies to Democrats and supplies no evidence of changes in Republican entry or support."
+      },
+      {
+        "assumption": "Ueland and LoSapio confirmation",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "Recent floor and nomination results did not establish confirmation. Check the Senate Executive Calendar after recess."
+      },
+      {
+        "assumption": "Trump criticizes Schumer as Democrats choose Senate leaders",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Public criticism followed Trump’s earlier willingness to discuss deals. The remarks increase pressure over who will lead negotiations without identifying a leadership vote, changed spending terms or a breakdown in talks."
+      },
+      {
+        "assumption": "Jeffries puts health affordability on the incoming House agenda",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Jeffries is using the new majority to press a priority he had already announced. AP reported Trump’s openness to talks. Neither establishes an agreed bill."
+      },
+      {
+        "assumption": "Hegseth House procedure",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "House Clerk roll call 317 establishes referral. No later verified disposition."
+      },
+      {
+        "assumption": "Justice Department withdrew its Supreme Court request on Venezuelan protections",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The November 19 docket confirms that the Justice Department withdrew its request after the Ninth Circuit extended the pause. The maintained policy already records the outcome. Repaired the issue text that still described the request as pending."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "The House gain establishes support for removal.",
+        "finding": "House control shapes scheduling. The referral and Senate funding talks do not identify Senate trial commitments.",
+        "consequence": "Hold personnel forecasts and continue to watch named commitments."
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-23-daily",
+    "wargame_ref": "2026-11-16-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Weekly cadence. Congressional Iran funding talks could affect the arguments nominees make. Fresh evidence of voter and organizer effects remains limited.",
+    "summary": "The November 16 estimates still apply. Talks about restricting Iran funding press Vice President JD Vance and Secretary of State Marco Rubio to explain how they would end the war. Vance blamed the war for Republican losses, and Rubio defended the initial decision to fight. The talks leave open whether voters prefer a change in policy, whom they trust to deliver it and whether organizers will commit."
+  },
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "incoming-oversight",
+        "question": "How will House Democrats obtain records when agencies can intervene in contractor responses?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "current_answer": "Congress gains room to schedule inquiries, while the signed order gives agencies a way to coordinate replies and assert privilege for covered work. The first contested request will show how much delay the order causes.",
+        "outcome": "Congress gains room to schedule inquiries, while the signed order gives agencies a way to coordinate replies and assert privilege for covered work. The first contested request will show how much delay the order causes.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "The order adds a procedural obstacle to obtaining some records",
+            "weight": "dominant",
+            "reason": "The text requires agency coordination and allows agencies to consider contract sanctions.",
+            "discriminating_observation": "Check a named contractor’s response and any subpoena or judicial ruling."
+          },
+          {
+            "explanation": "The order forecloses all oversight",
+            "weight": "contradicted",
+            "reason": "It covers requests related to federal contract work and is subject to applicable law.",
+            "discriminating_observation": "Check a named contractor’s response and any subpoena or judicial ruling."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check a named contractor’s response and any subpoena or judicial ruling.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The next decision would establish whether the reported leverage can be exercised.",
+            "assessment_effect": "Reassess the affected decision and the actors who can direct or block it."
+          }
+        ],
+        "next_action": "Check a named contractor’s response and any subpoena or judicial ruling.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "41ad5e8860cce5999524beb8",
+          "dbc99093521159e3fe5b0abc",
+          "a2c726d2a8134cc9b60e58a6",
+          "70d3a50f54f1bfd36406e11b"
+        ]
+      },
+      {
+        "id": "gulf-reaction",
+        "question": "Can Congress bargain for a limit on offensive operations in Iran?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/IRN"
+        ],
+        "current_answer": "Negotiators have a route through funding. The Senate’s withdrawal vote did not settle whether Congress will impose spending conditions.",
+        "outcome": "Negotiators have a route through funding. The Senate’s withdrawal vote did not settle whether Congress will impose spending conditions.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Funding negotiations provide leverage that the withdrawal vote did not",
+            "weight": "dominant",
+            "reason": "Thune publicly signaled openness to talks and CNN attributed specific discussions to both parties.",
+            "discriminating_observation": "Check for funding text limiting expenditures and an explicit White House response."
+          },
+          {
+            "explanation": "Congress and Trump have already settled restrictions",
+            "weight": "limited",
+            "reason": "No agreed text or presidential acceptance was verified.",
+            "discriminating_observation": "Check for funding text limiting expenditures and an explicit White House response."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check for funding text limiting expenditures and an explicit White House response.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The next decision would establish whether the reported leverage can be exercised.",
+            "assessment_effect": "Reassess the affected decision and the actors who can direct or block it."
+          }
+        ],
+        "next_action": "Check for funding text limiting expenditures and an explicit White House response.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "063f7a8f3496281e08958bb7",
+          "50b9697fad8a63e9ad499476",
+          "0ffd8183aa677b01b1a00af3",
+          "2c913e08fc1ea2f238d5cf49",
+          "92d346cec9835ab199b5459f"
+        ]
+      },
+      {
+        "id": "venezuela-close",
+        "question": "Did Venezuela’s fourth round produce an election timetable?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/VEN"
+        ],
+        "current_answer": "EFE reported a Monday closing plan. A closing statement, appointments and election date remain open.",
+        "outcome": "EFE reported a Monday closing plan. A closing statement, appointments and election date remain open.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Monday scheduling is evidence of continued talks",
+            "weight": "dominant",
+            "reason": "The date came from a reported ministry invitation, not a signed outcome.",
+            "discriminating_observation": "Check the delegations’ closing statement and electoral council appointments."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check the delegations’ closing statement and electoral council appointments.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The next decision would establish whether the reported leverage can be exercised.",
+            "assessment_effect": "Reassess the affected decision and the actors who can direct or block it."
+          }
+        ],
+        "next_action": "Check the delegations’ closing statement and electoral council appointments.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "5e7f26a9f536bc8093bbb46e",
+          "826eddda532cbae87f956dae"
+        ]
+      },
+      {
+        "id": "post-election-voter-preference",
+        "question": "Do Republican voters and organizers prefer insiders or congressional critics on Iran?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "nominations/republican_2028"
+        ],
+        "current_answer": "The funding talks provide a concrete test of the candidates’ positions. Fresh comparable voter evidence and named commitments remain unverified.",
+        "outcome": "The funding talks provide a concrete test of the candidates’ positions. Fresh comparable voter evidence and named commitments remain unverified.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Policy disagreement gives the contenders different arguments",
+            "weight": "dominant",
+            "reason": "Vance blamed the war for losses, Rubio defended starting it, and congressional critics can press a spending limit.",
+            "discriminating_observation": "Check comparable polling and named organizer commitments after the next funding decision."
+          },
+          {
+            "explanation": "The political argument has already shifted voter support",
+            "weight": "limited",
+            "reason": "The sources do not measure Republican preference or organizer response.",
+            "discriminating_observation": "Check comparable polling and named organizer commitments after the next funding decision."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check comparable polling and named organizer commitments after the next funding decision.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The next decision would establish whether the reported leverage can be exercised.",
+            "assessment_effect": "Reassess the affected decision and the actors who can direct or block it."
+          }
+        ],
+        "next_action": "Check comparable polling and named organizer commitments after the next funding decision.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "063f7a8f3496281e08958bb7",
+          "974588287e55d3879531742c",
+          "eeb53a444eb2fb09b186d294",
+          "a1152e8b39307b18c6c72250"
+        ]
+      },
+      {
+        "id": "nvidia-board-independence",
+        "question": "What changed when Nvidia restored Jensen Huang, and what can Congress still affect?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "current_answer": "The board returned company authority to Huang after receiving government input. Congress can press for enforcement records and pursue new legislation.",
+        "outcome": "The board returned company authority to Huang after receiving government input. Congress can press for enforcement records and pursue new legislation.",
+        "status": "answered",
+        "explanations": [
+          {
+            "explanation": "White House backing materially supported the board’s reversal",
+            "weight": "dominant",
+            "reason": "The company acknowledged government input and Trump endorsed the return.",
+            "discriminating_observation": "Check the House interviews, company funding and release decisions, and Commerce enforcement records."
+          },
+          {
+            "explanation": "The board independently found the return served the business",
+            "weight": "credible",
+            "reason": "Directors reported renewed confidence after meetings with Huang. That can coexist with political influence.",
+            "discriminating_observation": "Check the House interviews, company funding and release decisions, and Commerce enforcement records."
+          },
+          {
+            "explanation": "Reinstatement resolves export compliance",
+            "weight": "contradicted",
+            "reason": "The filing is a corporate decision and does not determine compliance.",
+            "discriminating_observation": "Check the House interviews, company funding and release decisions, and Commerce enforcement records."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check the House interviews, company funding and release decisions, and Commerce enforcement records.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The next decision would establish whether the reported leverage can be exercised.",
+            "assessment_effect": "Reassess the affected decision and the actors who can direct or block it."
+          }
+        ],
+        "next_action": "Check the House interviews, company funding and release decisions, and Commerce enforcement records.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "aed1342d61914b8fa2b474de",
+          "a02b6d43a6fdb73025b3d53f",
+          "b02c72c006df1125285382af",
+          "0d3eebc6f800a093fc8a8802",
+          "e3bab8dc88ca83b6773ed024"
+        ]
+      }
+    ],
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check Nvidia’s House interviews, Commerce licensing records and the Office of the National Cyber Director’s acting designation.",
+        "next_check": "2026-11-24",
+        "reason": "Material new evidence reviewed. The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate.",
+        "attempt_receipt_ids": [
+          "aed1342d61914b8fa2b474de",
+          "46f8bb92cca10bca08752e0d"
+        ]
+      },
+      "EPS": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check for Massie’s floor motion and responses to investigation letters.",
+        "next_check": "2026-11-24",
+        "reason": "House floor and preservation searches did not establish passage of Massie’s bill or a new production of records.",
+        "attempt_receipt_ids": [
+          "454216e958d31a1babb9e4db",
+          "ab5992491193b85b49752263"
+        ]
+      },
+      "FED": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check the Cook docket and any new White House hearing notice.",
+        "next_check": "2026-11-24",
+        "reason": "Cook litigation remains unresolved. The sentiment release does not change Fed authority.",
+        "attempt_receipt_ids": [
+          "e0372ea7857fd5119dec6c9b",
+          "524a5767fb6d1ff670075206"
+        ]
+      },
+      "IMM": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check Mullin hearing outcome, Project Rousseau operative orders and Big Bend construction.",
+        "next_check": "2026-11-24",
+        "reason": "Verified the withdrawal and continuing stay. The Ninth Circuit merits and changes in broader enforcement remain open.",
+        "attempt_receipt_ids": [
+          "692a82757a545fb9428109bc",
+          "8d11aa204c0d2abf88e2e05e",
+          "fe88761c67bed25cd5a784b9"
+        ]
+      },
+      "IRN": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check any funding text, White House response and official military orders.",
+        "next_check": "2026-11-24",
+        "reason": "Material new evidence reviewed. Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified.",
+        "attempt_receipt_ids": [
+          "063f7a8f3496281e08958bb7",
+          "50b9697fad8a63e9ad499476"
+        ]
+      },
+      "MID": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check Alaska certification, House leadership votes and contractor replies to committees.",
+        "next_check": "2026-11-24",
+        "reason": "Material new evidence reviewed. Signed order affects covered federal work. Application to particular requests or subpoenas remains open.",
+        "attempt_receipt_ids": [
+          "a2c726d2a8134cc9b60e58a6",
+          "41ad5e8860cce5999524beb8"
+        ]
+      },
+      "RUS": {
+        "last_verified": "2026-11-21",
+        "next_action": "Check a dated handover, APEC statements, and Lukoil license.",
+        "next_check": "2026-11-24",
+        "reason": "AP reported the incident and Tripoli’s sovereignty objection. Neither establishes a change in U.S. negotiating policy or implementation of the Berlin position.",
+        "attempt_receipt_ids": [
+          "92d346cec9835ab199b5459f"
+        ]
+      },
+      "SUC": {
+        "last_verified": "2026-11-21",
+        "next_action": "Check RNC leadership, candidate replies and named organizers or donor commitments.",
+        "next_check": "2026-11-24",
+        "reason": "Reviewed candidate implications of the Iran spending fight. No comparable polling or organizer commitments.",
+        "attempt_receipt_ids": [
+          "974588287e55d3879531742c",
+          "eeb53a444eb2fb09b186d294",
+          "063f7a8f3496281e08958bb7"
+        ]
+      },
+      "TAR": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check operative tariff orders and signed or implemented agreements.",
+        "next_check": "2026-11-24",
+        "reason": "November 21 review of overseas data-center tax remarks. Friday trade implementation remains unverified.",
+        "attempt_receipt_ids": [
+          "64a768fa83b795e52e569cb3",
+          "ab5992491193b85b49752263",
+          "b356b1c9c7afaa2da4a1206e"
+        ]
+      },
+      "VEN": {
+        "last_verified": "2026-11-21",
+        "next_action": "Check for the delegations’ closing statement and electoral council decisions.",
+        "next_check": "2026-11-24",
+        "reason": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date.",
+        "attempt_receipt_ids": [
+          "5e7f26a9f536bc8093bbb46e",
+          "826eddda532cbae87f956dae"
+        ]
+      }
+    },
+    "prior_dispositions": {
+      "local-permitting-authority": "Carried. November 21 council outcome stands. Check December council text and the House response to the Senate bill."
+    },
+    "discovery_question": "What changed when Nvidia restored Jensen Huang, and what can Congress still affect?",
+    "discovery_disposition": "The board returned company authority to Huang after receiving government input. Congress can press for enforcement records and pursue new legislation.",
+    "premise_reconciliation": "Read the November 21 issue and contest assessments against the SEC filing, executive order, AP race call and reports of funding talks. The new company and House developments do not establish implementation of a spending limit or a Senate trial coalition.",
+    "source_receipts": [
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/721096a4d9ba2cd68683692361798cdb",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "AP race call puts Democrats at at least 258 House seats.",
+        "reporting_origin": "AP",
+        "id": "a2c726d2a8134cc9b60e58a6"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aa.com.tr/en/world/morning-briefing-nov-23-2026/4133974",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Morning headlines include Iran, Libya, climate talks and the House race.",
+        "reporting_origin": "Anadolu",
+        "id": "4656aed2a41ec5b47b3ff0e2"
+      },
+      {
+        "kind": "source",
+        "value": "https://ktvz.com/politics/cnn-us-politics/2026/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Politics index leads with negotiations on military funding and Iran.",
+        "reporting_origin": "CNN",
+        "id": "3a6f9f638fc716f743a5acb6"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.democracynow.org/2026/11/23/headlines",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Closing headlines include disputed House tally and planned Iowa disposal.",
+        "reporting_origin": "Democracy Now!",
+        "id": "8726936773ea2e0ef80a1e38"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/full-transcript-of-face-the-nation-with-margaret-brennan-nov-22-2026/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Interview transcript covers disruptions and Bessent on export enforcement.",
+        "reporting_origin": "CBS News",
+        "id": "e3bab8dc88ca83b6773ed024"
+      },
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/Static/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "House floor index lists November 24 as next meeting.",
+        "reporting_origin": "House Clerk",
+        "id": "454216e958d31a1babb9e4db"
+      },
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Official roll call records referral by 211 to 204.",
+        "reporting_origin": "House Clerk",
+        "id": "70d3a50f54f1bfd36406e11b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/orders/ordersofthecourt/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Orders index checked for relevant developments.",
+        "reporting_origin": "Supreme Court",
+        "id": "e0372ea7857fd5119dec6c9b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Board reinstated Huang on November 22. Kress continues as CFO.",
+        "reporting_origin": "Nvidia SEC filing",
+        "id": "aed1342d61914b8fa2b474de"
+      },
+      {
+        "kind": "source",
+        "value": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Nvidia announced unanimous reinstatement and acknowledged senior government input.",
+        "reporting_origin": "Nvidia",
+        "id": "a02b6d43a6fdb73025b3d53f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/23/schumer-trump-nvidia-huang-reinstated",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Schumer publicly called for congressional action in response to reinstatement.",
+        "reporting_origin": "Axios",
+        "id": "0d3eebc6f800a093fc8a8802"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Trump endorsed reinstatement and cited Blanche’s account of evidence.",
+        "reporting_origin": "AP",
+        "id": "b02c72c006df1125285382af"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Agencies directed to require notice and coordinate congressional responses concerning covered work.",
+        "reporting_origin": "White House",
+        "id": "41ad5e8860cce5999524beb8"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/9546e1d7acdf3e65b654d1c5162cb0bd",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Independent account of contractor order and White House privilege rationale.",
+        "reporting_origin": "AP",
+        "id": "dbc99093521159e3fe5b0abc"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/23732afcd78a853e98acd9b72d0cbd14",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "AP calls Hubbard after recount. Foxx conceded.",
+        "reporting_origin": "AP",
+        "id": "50bb99bed82fea746ce63cd2"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/scale-of-trumps-humiliation-revealed-as-maga-loser-virginia-foxx-falls",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports Jeffries emphasizing affordability and Trump publicly defending election record.",
+        "reporting_origin": "Daily Beast",
+        "id": "a1152e8b39307b18c6c72250"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/business/2026/11/23/senate-gop-leaders-signal-openness-cutting-off-iran-war-funding/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Thune publicly signals willingness to negotiate to keep government funded.",
+        "reporting_origin": "Washington Post",
+        "id": "50b9697fad8a63e9ad499476"
+      },
+      {
+        "kind": "source",
+        "value": "https://ktvz.com/politics/cnn-us-politics/2026/11/23/republicans-mulling-deal-that-would-fund-military-but-limit-operations-in-iran/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Attributes talks over funding limits to lawmakers and aides from both parties.",
+        "reporting_origin": "CNN",
+        "id": "063f7a8f3496281e08958bb7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.investing.com/news/economy-news/congress-struggles-to-avert-us-shutdown-as-iran-war-divides-lawmakers-5041259",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports funding deadline risk and separate Pentagon spending request.",
+        "reporting_origin": "Reuters",
+        "id": "0ffd8183aa677b01b1a00af3"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/trump-drops-ominous-hint-about-his-new-years-plans-for-iran",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Attributes conditional New Year strike remarks to Fox interview. Original not recovered.",
+        "reporting_origin": "Daily Beast",
+        "id": "2c913e08fc1ea2f238d5cf49"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/c2cb6de3515f887a5786c1147e918489",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports Tripoli government’s public objection and Iranian spokesperson’s conditional warning.",
+        "reporting_origin": "AP",
+        "id": "92d346cec9835ab199b5459f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports Clayton will act as national cyber director pending Davies confirmation.",
+        "reporting_origin": "Axios",
+        "id": "46f8bb92cca10bca08752e0d"
+      },
+      {
+        "kind": "source",
+        "value": "https://abcnews.com/Politics/week-transcript-11-22-26-director-national-intelligence/story?_apiEnv=preview&cb=1k81r72v3&id=138345755",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Clayton’s public interview addresses outages and Trump’s Putin remarks.",
+        "reporting_origin": "ABC News",
+        "id": "0d96b1e9b6dfecfd4944cc38"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/d4bdb732da930205ec3453d35c28daa2",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Delta said it restored an automation system after flight delays.",
+        "reporting_origin": "AP",
+        "id": "bca1c4826a92c32edcb297d7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/national-security/2026/11/20/secret-hegseth-memo-restricts-us-canada-defense-relationship/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Attributes restricted contacts guidance to officials and quotes Pentagon response.",
+        "reporting_origin": "Washington Post",
+        "id": "eb22a9df83566c1c85c1137d"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/22/pentagon-canada-defense-restrictions-fact-sheet",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports Pentagon rationale based on a fact sheet it obtained.",
+        "reporting_origin": "Axios",
+        "id": "707828fad0106aeed62a9d8e"
+      },
+      {
+        "kind": "source",
+        "value": "https://vancouver.citynews.ca/2026/11/21/mcguinty-not-aware-u-s-has-changed-military-co-operation-policy-with-canada/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Canadian defense minister had not observed an operational change.",
+        "reporting_origin": "CityNews",
+        "id": "9c29c99242f783e429bc491b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.govinfo.gov/content/pkg/USCOURTS-ca5-24-10386/pdf/USCOURTS-ca5-24-10386-1.pdf",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Opinion addresses use of proxy votes to constitute the House quorum.",
+        "reporting_origin": "Fifth Circuit",
+        "id": "8453bf7f4f4d41d8d7229987"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/c3b964c0f0cafaed2f20099055eb79cd",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports ruling and separates possible challenges to other laws.",
+        "reporting_origin": "AP",
+        "id": "4ac032915d29cb8329a1a4de"
+      },
+      {
+        "kind": "source",
+        "value": "https://efe.com/mundo/2026-11-22/chavismo-oposicion-concluir-cuarta-ronda-dialogo/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports ministry scheduled Monday closing. Electoral council and election date unresolved.",
+        "reporting_origin": "EFE",
+        "id": "5e7f26a9f536bc8093bbb46e"
+      },
+      {
+        "kind": "source",
+        "value": "https://grancaracasnews.com/politica/cuarta-ronda-dialogo-cierre-lunes/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Local follow-up still describes an expected closing and attributes scheduling to EFE.",
+        "reporting_origin": "Gran Caracas News",
+        "id": "826eddda532cbae87f956dae"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/2149f665a6116ab41490f8bda560e9fa",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports Army announcement of planned Wednesday hazardous-material disposal and emergency authority claim.",
+        "reporting_origin": "AP",
+        "id": "602e9588d1cc4c37899d40b7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.theatlantic.com/politics/2026/11/license-plate-readers-ice/689515/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports ICE accessing plate-reader records and congressional requests. Scope of changes remains open.",
+        "reporting_origin": "The Atlantic",
+        "id": "a9ec4cf446b47b0acd0d136d"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/8b47f0b452442933bdc2bda9cbc6d915",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "DOJ moved to drop its case. Separate state certification remains to verify.",
+        "reporting_origin": "AP",
+        "id": "bd5ddfe3922d0e0d47d050bf"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/2026/11/at-press-briefing-president-trump-touts-historic-wins-for-americans-signals-deal-making-on-healthcare/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Trump described signed trade terms. Operative implementation instrument not established.",
+        "reporting_origin": "White House",
+        "id": "64a768fa83b795e52e569cb3"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/76416b8c489b544ab18c6f180f742720",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Democrats announced 2028 debate schedule.",
+        "reporting_origin": "AP",
+        "id": "100f989686b133933451f284"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/jd-vance-2026-midterms-iran/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Contemporaneous reporting of Vance blaming the war for Republican losses.",
+        "reporting_origin": "CBS News",
+        "id": "974588287e55d3879531742c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.foxnews.com/politics/rubios-defense-trumps-iran-war-draws-sharp-contrast-vances-midterm-blame",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Prior contrast between Vance’s war criticism and Rubio’s defense.",
+        "reporting_origin": "Fox News",
+        "id": "eeb53a444eb2fb09b186d294"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/Search.aspx?Search=lisa+cook",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Search surfaced existing Cook records and did not establish new relief.",
+        "reporting_origin": "Supreme Court",
+        "id": "524a5767fb6d1ff670075206"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aol.com/articles/trump-says-very-hard-schumer-023126000.html",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Trump publicly criticized Schumer after previously describing possible deals.",
+        "reporting_origin": "USA Today",
+        "id": "19cf057873a518ac910d4f9a"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/8b60b5fa8c1af9c0a87950100a1d0153",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Daily shared intake and scheduled outcome verification",
+        "status": "read",
+        "result": "Reports Jeffries prioritizing health affordability and Trump’s public comments about talks.",
+        "reporting_origin": "AP",
+        "id": "04e8fa3a73dfbe5f36026431"
+      },
+      {
+        "kind": "query",
+        "value": "November 23 2026 Lisa Cook Massie Epstein Guilfoyle Drew Lynch House Judiciary Hegseth LoSapio Ueland tariff implementation November",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Verify open daily outcomes and recover original evidence",
+        "status": "headline_only",
+        "result": "Results surfaced Senate hearing and older referral material without proving records production or operative trade implementation.",
+        "reporting_origin": "Web search",
+        "id": "ab5992491193b85b49752263"
+      },
+      {
+        "kind": "query",
+        "value": "site:foxnews.com OR site:whitehouse.gov Trump November 22 Fox News November 2026 Schumer Iran resume strikes after New Year interview",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Verify open daily outcomes and recover original evidence",
+        "status": "not_found",
+        "result": "Original November 22 interview not located. Secondary reports were found separately.",
+        "reporting_origin": "Web search",
+        "id": "540d6ddf247c27c8d0ce2df2"
+      },
+      {
+        "kind": "source",
+        "value": "https://adn.com",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Verify open daily outcomes and recover original evidence",
+        "status": "blocked",
+        "result": "Search reported site access blocked by robots. AP and Axios alternatives did not establish certification.",
+        "reporting_origin": "ADN",
+        "id": "2000efbf9d3943e6ccf3b8f5"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a714.html",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Resolve carried outcomes and closing scan leads",
+        "status": "read",
+        "result": "The docket records withdrawal of the November 18 stay request on November 19.",
+        "reporting_origin": "Supreme Court",
+        "id": "692a82757a545fb9428109bc"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/DocketPDF/26/26A714/433333/20261119155558543_26A714%20-%20Mullin%20v.%20National%20TPS%20Alliance.pdf",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Resolve carried outcomes and closing scan leads",
+        "status": "read",
+        "result": "The withdrawal letter cites the Ninth Circuit extension to seven days after publication of its judgment.",
+        "reporting_origin": "Solicitor General",
+        "id": "8d11aa204c0d2abf88e2e05e"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/4c169e7c4d6e80145f39863e17f9f305",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Resolve carried outcomes and closing scan leads",
+        "status": "read",
+        "result": "Independently reported the pause on restoring protections.",
+        "reporting_origin": "AP",
+        "id": "fe88761c67bed25cd5a784b9"
+      },
+      {
+        "kind": "query",
+        "value": "site:ustr.gov November 2026 Thailand November 20 2026 reciprocal trade agreement OR site:federalregister.gov November 23 2026 Thailand tariff Trump",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Resolve carried outcomes and closing scan leads",
+        "status": "headline_only",
+        "result": "Found a 2025 framework and a separate 2026 tariff notice. No instrument implementing the terms described November 20 was established.",
+        "reporting_origin": "Web search",
+        "id": "b356b1c9c7afaa2da4a1206e"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.congress.gov/",
+        "window": "2026-11-21/2026-11-23",
+        "purpose": "Resolve carried outcomes and closing scan leads",
+        "status": "blocked",
+        "result": "Search blocked by robots. House Clerk calendar and roll call provided an alternative for public floor procedure.",
+        "reporting_origin": "Congress.gov",
+        "id": "c4ca2870ff1bc39a6216c68b"
+      }
+    ]
+  },
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Daily read-only preflight",
+    "result": "Staged records and reader-copy fingerprints checked with the runner’s Daily preflight."
+  },
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "55e6ec9198a23345bb002f0b0a574c139016ce1748f1db735938aba1f16e9678",
+        "reader_takeaway": "The House can bargain over funding while Trump still directs military decisions and agencies gain a role in contractor responses.",
+        "context_check": "Explained who restored Huang, what the executive order directs, and how Congress could constrain the Pentagon.",
+        "uncertainty_check": "Distinguished the board vote and signed order from reported talks, a prospective funding limit and unknown voter reaction.",
+        "changes_made": [
+          "Rewrote the headline and summary to name the board decision and scope of the order.",
+          "Named Vance and Rubio and explained the competing arguments about the war."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "4f0de0ea56e8c92336a8de3d35789a7fd4189268d38933e2dc618b2172c44481",
+        "reader_takeaway": "Nvidia’s leadership, the incoming House margin, and negotiations about funding are separate changes with separate decisions ahead.",
+        "context_check": "The issue text names the institutions and explains why each development changes a specific decision.",
+        "uncertainty_check": "The Nvidia vote is documented, the House count is projected, and the spending terms remain under negotiation.",
+        "changes_made": [
+          "Shortened scope fields and corrected the immigration dispute to match the confirmed Supreme Court withdrawal."
+        ]
+      },
+      "events/AI": {
+        "fingerprint": "cd31f62247ee502303febf728b7f23a89de696b23ddf2d85800f17d40c65399c",
+        "reader_takeaway": "Nvidia restored Huang and Axios reported an interim role for Jay Clayton.",
+        "context_check": "Identified the board and spelled out the Securities and Exchange Commission. Explained Clayton’s coordination role and responsibility for restoring services.",
+        "uncertainty_check": "Distinguished the company filing from attributed reporting about interim government staffing.",
+        "changes_made": [
+          "Spelled out the regulator and explained who would coordinate cybersecurity and who restores services."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "33ee3b44623aba0762b3773a589ac5eba4e0c0aa775e335ee8983d4ef188af2c",
+        "reader_takeaway": "Senators are discussing limits on what Pentagon funding could pay for.",
+        "context_check": "The text identifies Senate Majority Leader John Thune and explains why a funding deadline gives lawmakers leverage. The draft already names who reported each part and what decision remains open.",
+        "uncertainty_check": "Separated Thune’s quoted position, attributed talks and an unlocated original interview.",
+        "changes_made": []
+      },
+      "events/MID": {
+        "fingerprint": "0684d18fc94c731899a94ca4539b5641ebffeb59220b3279879418c16d929fcd",
+        "reader_takeaway": "House Democrats gained a seat, Trump signed a contractor order, and Pentagon guidance about Canada was reported.",
+        "context_check": "Explained what contractors must report and why the House margin matters. Named the newspaper that reported the classified Canada guidance.",
+        "uncertainty_check": "Separated AP’s race call, White House order, attributed claims, and the Canadian minister’s own observation.",
+        "changes_made": [
+          "Clarified the 258-seat projection and named the newspaper in the account of the Canada guidance."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "ea06901ecc8f5ca897d4d2700f8f05f7f79f57c530c2a566cd652290815685ac",
+        "reader_takeaway": "The referral stands, investigative opportunities have widened and no cross-case Senate conviction coalition was verified.",
+        "context_check": "Covered all nine cases and named the case-specific issue behind each hold. Explained the Senate arithmetic and source limitations.",
+        "uncertainty_check": "Separated procedural referral, records requests, allegation, presidential defense and conviction estimates.",
+        "changes_made": [
+          "Rewrote the Blanche and Guilfoyle holds and supplied claim-specific limitations for newly added sources."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "2f85eca456a55c241d7872276e32ca7c6550ebfcdb3f189d63feb220c45fbdc0",
+        "reader_takeaway": "The Iran funding dispute gives the weekly review a way to compare how contenders would change policy.",
+        "context_check": "Source descriptions name the publishers and explain their distinct contributions to the funding and election findings.",
+        "uncertainty_check": "Recorded public comments separately from accounts attributed to aides and legislators. The odds and roster carry forward.",
+        "changes_made": [
+          "Clarified the AP source description to identify the date and projected House seat minimum."
+        ]
+      },
+      "runs/2026-11-23": {
+        "fingerprint": "bcf82fdb0b3c7b0bdf1fc24b610d52fc58a4c39512499c268d78e9253d11f998",
+        "reader_takeaway": "Readers can see which decisions changed and which scheduled outcomes still need follow-up.",
+        "context_check": "Named pending outcomes, the dates covered and the main decisions driving the current assessment.",
+        "uncertainty_check": "Distinguished projected seats, negotiations and unsigned or unverified outcomes.",
+        "changes_made": [
+          "Aligned the run summary with the revised administration assessment and retained all open outcomes by name."
+        ]
+      }
+    }
+  }
+}

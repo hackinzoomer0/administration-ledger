@@ -2045,6 +2045,50 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The proposal signals that Trump wants companies to build inside the United States. It leaves unresolved who would authorize a tax and how domestic projects would secure power and local approval."
+    },
+    {
+      "id": "ai-2026-11-22-nvidia-board-reinstates-huang",
+      "date": "2026-11-22",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Nvidia Board of Directors",
+      "text": "Nvidia’s board reinstates Jensen Huang as chief executive and director",
+      "context": "Nvidia’s filing with the Securities and Exchange Commission dates the vote to November 22. The company announced it November 23 and said the board had received input from senior U.S. officials. Colette Kress continues as chief financial officer. AP reported that President Donald Trump welcomed Huang’s return and cited Attorney General Todd Blanche’s account of the evidence. Axios reported Senate Democratic leader Chuck Schumer’s public call for Congress to act.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Huang can again direct Nvidia’s investment and advocacy for AI models developers can run themselves. The board decision leaves Commerce licensing, congressional interviews and Nvidia’s next funding or release decisions open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-23",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Huang can again direct Nvidia’s investment and advocacy for AI models developers can run themselves. The board decision leaves Commerce licensing, congressional interviews and Nvidia’s next funding or release decisions open."
+    },
+    {
+      "id": "ai-2026-11-23-axios-reports-clayton-interim-cyber-role",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Jay Clayton",
+      "text": "Axios reports that intelligence chief Jay Clayton will temporarily lead the national cyber office",
+      "context": "Axios reported that Clayton would serve until Senate confirmation of Kirsten Davies, the Pentagon technology official Trump picked to succeed Sean Cairncross. Davies would advise the office in the interim. Clayton separately discussed recent outages on Sunday television.",
+      "source": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director",
+      "url": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Clayton would coordinate federal cybersecurity policy until the Senate confirms Davies. Agencies and companies remain responsible for restoring their own services.",
+      "origin": "daily shared intake",
+      "added": "2026-11-23",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Clayton would coordinate federal cybersecurity policy until the Senate confirms Davies. Agencies and companies remain responsible for restoring their own services."
     }
   ]
 }

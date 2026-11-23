@@ -3160,6 +3160,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Qatar still has a channel to the officials who present options to Trump. The meeting leaves open whether Trump authorized new terms or whether Iran would accept them."
+    },
+    {
+      "id": "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "John Thune and Senate negotiators",
+      "text": "Senators discuss funding the Pentagon while limiting future Iran strikes",
+      "context": "CNN attributed the talks to lawmakers and aides from both parties. Senate Majority Leader John Thune told The Washington Post he was open to an agreement that keeps the government funded and meets military needs. Separately, The Daily Beast attributed to Trump a conditional warning about resuming strikes after New Year if there is no deal. The original Fox interview was not located.",
+      "source": "https://ktvz.com/politics/cnn-us-politics/2026/11/23/republicans-mulling-deal-that-would-fund-military-but-limit-operations-in-iran/",
+      "url": "https://ktvz.com/politics/cnn-us-politics/2026/11/23/republicans-mulling-deal-that-would-fund-military-but-limit-operations-in-iran/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: A deadline to fund the government gives lawmakers a way to bargain over future operations after the Senate rejected a withdrawal resolution. The reporting established neither agreed language nor a new military order.",
+      "origin": "daily shared intake",
+      "added": "2026-11-23",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: A deadline to fund the government gives lawmakers a way to bargain over future operations after the Senate rejected a withdrawal resolution. The reporting established neither agreed language nor a new military order."
     }
   ]
 }

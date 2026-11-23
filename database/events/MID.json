@@ -2979,6 +2979,72 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Attendance affects what Republicans can pass while they still run the House. The warning puts pressure on members to show up without establishing how they will vote on any particular motion."
+    },
+    {
+      "id": "mid-2026-11-20-trump-orders-contractor-coordination",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump orders agencies to coordinate federal contractors’ responses to Congress",
+      "context": "The November 20 order tells agencies to require covered contractors and subcontractors to notify them about congressional requests concerning federal work. Agencies are to coordinate responses with the White House and may consider contract sanctions consistent with law. The White House says the order protects executive privilege.",
+      "source": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Agencies gain a way to intervene before lawmakers receive records about federal work. Whether a contractor withholds documents, Congress issues a subpoena or courts sustain a particular privilege remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-23",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Agencies gain a way to intervene before lawmakers receive records about federal work. Whether a contractor withholds documents, Congress issues a subpoena or courts sustain a particular privilege remains open."
+    },
+    {
+      "id": "mid-2026-11-22-ap-calls-hubbard-foxx-race",
+      "date": "2026-11-22",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Associated Press",
+      "text": "AP calls North Carolina House race for Chuck Hubbard after Virginia Foxx concedes",
+      "context": "A recount left Democrat Chuck Hubbard ahead of Republican Representative Virginia Foxx. AP’s November 22 call gave Democrats a projected minimum of 258 projected House seats. House Democratic leader Hakeem Jeffries framed the result as a mandate to address costs.",
+      "source": "https://apnews.com/article/23732afcd78a853e98acd9b72d0cbd14",
+      "url": "https://apnews.com/article/23732afcd78a853e98acd9b72d0cbd14",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The wider majority gives incoming House leaders more room to lose votes on spending and oversight. It does not establish the final seat total or how individual members would vote on articles of impeachment.",
+      "origin": "daily shared intake",
+      "added": "2026-11-23",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The wider majority gives incoming House leaders more room to lose votes on spending and oversight. It does not establish the final seat total or how individual members would vote on articles of impeachment."
+    },
+    {
+      "id": "mid-2026-11-20-post-reports-hegseth-canada-guidance",
+      "date": "2026-11-20",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Pete Hegseth",
+      "text": "Washington Post reports that Pete Hegseth restricted U.S. military contacts with Canada",
+      "context": "The Washington Post attributed the classified guidance to unnamed officials. A Pentagon spokesperson said contacts should serve specific U.S. defense goals. Axios independently reported the rationale from a Pentagon fact sheet. Canadian Defense Minister David McGuinty said he had seen no operational change.",
+      "source": "https://www.washingtonpost.com/national-security/2026/11/20/secret-hegseth-memo-restricts-us-canada-defense-relationship/",
+      "url": "https://www.washingtonpost.com/national-security/2026/11/20/secret-hegseth-memo-restricts-us-canada-defense-relationship/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The guidance adds a distinct subject for questions about Hegseth’s judgment and oversight. The classified text and changes to joint operations remain unverified.",
+      "origin": "daily shared intake",
+      "added": "2026-11-23",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The guidance adds a distinct subject for questions about Hegseth’s judgment and oversight. The classified text and changes to joint operations remain unverified."
     }
   ]
 }
