@@ -1,0 +1,1150 @@
+{
+  "date": "2026-11-23",
+  "type": "weekly_review",
+  "added": [],
+  "summary": "INCOMPLETE: Weekly recall, full filings and historical pattern coverage remain open. The House referral and Senate withdrawal vote were checked against official records. The nomination forecast weighs conflicting polls, the public roles of Vance and Rubio, and new opportunities for challengers to recruit.",
+  "scope": "Weekly comparison of eight candidates and nine personnel cases, with new checks on Iran appropriations, contractor oversight, Nvidia and Venezuelan talks. Other issue findings carry their earlier dates.",
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "incoming-oversight",
+        "question": "How will House Democrats obtain records when agencies can intervene in contractor responses?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "current_answer": "The signed order gives agencies a way to intervene in contractors’ responses about covered federal work. House Oversight is already seeking preservation of records, and no first contested demand under the new order was verified.",
+        "outcome": "The signed order gives agencies a way to intervene in contractors’ responses about covered federal work. House Oversight is already seeking preservation of records, and no first contested demand under the new order was verified.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Agencies can slow or narrow replies",
+            "weight": "dominant",
+            "reason": "The order directs contractors to notify agencies and follow instructions on privileged material.",
+            "discriminating_observation": "Find a contractor’s public response to a named request and any formal assertion of privilege."
+          },
+          {
+            "explanation": "Congress loses all oversight tools",
+            "weight": "contradicted",
+            "reason": "The order is limited to covered work and contains legal conditions. Garcia’s preservation requests show a separate route to pursue potential evidence.",
+            "discriminating_observation": "Find a contractor’s public response to a named request and any formal assertion of privilege."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Find a contractor’s public response to a named request and any formal assertion of privilege.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "Preservation requests and the incoming House majority make a direct contest plausible.",
+            "assessment_effect": "Reassess the practical ability of Congress to obtain records."
+          }
+        ],
+        "next_action": "Find a contractor’s public response to a named request and any formal assertion of privilege.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "41ad5e8860cce5999524beb8",
+          "a910f4953d55806924f6806f",
+          "f7cec69e3626ba89e67b28a1"
+        ]
+      },
+      {
+        "id": "gulf-reaction",
+        "question": "Can Congress bargain for a limit on offensive operations in Iran?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/IRN"
+        ],
+        "current_answer": "The Senate rejected withdrawal 48–51. The Post and CNN report preliminary bipartisan talks about replenishing supplies while restricting offensive operations. Collins and Hoeven’s comments show room to bargain, with no agreed text or approval from Trump verified.",
+        "outcome": "The Senate rejected withdrawal 48–51. The Post and CNN report preliminary bipartisan talks about replenishing supplies while restricting offensive operations. Collins and Hoeven’s comments show room to bargain, with no agreed text or approval from Trump verified.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "Funding needs give lawmakers room to negotiate",
+            "weight": "dominant",
+            "reason": "Collins described a potential exchange. Van Hollen distinguished protecting shipping from imposing a blockade, and Kaine said he could accept spending to replenish supplies. These positions create room for a deal before final terms exist.",
+            "discriminating_observation": "Check published appropriations language for a specific restriction on offensive operations."
+          },
+          {
+            "explanation": "Negotiators can defer or use another vehicle",
+            "weight": "credible",
+            "reason": "Presidential approval and the difference between defensive and offensive operations can stall agreement.",
+            "discriminating_observation": "Check published appropriations language for a specific restriction on offensive operations."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check published appropriations language for a specific restriction on offensive operations.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The funding deadline creates pressure, while the parties still disagree about scope.",
+            "assessment_effect": "A negotiated text would increase the credibility of policy correction through Congress."
+          }
+        ],
+        "next_action": "Check published appropriations language for a specific restriction on offensive operations.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "7df7adae0236a4c01e730f9e",
+          "50b9697fad8a63e9ad499476",
+          "cc7247f2d723680393c110b3",
+          "9bb06b85fc49a02a9b5774ab",
+          "86697ad52a48efaf47958f51",
+          "1a07d3223c4b9fa47c6d3432"
+        ]
+      },
+      {
+        "id": "venezuela-close",
+        "question": "Did Venezuela’s fourth round produce an election timetable?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "assessments/issues/VEN"
+        ],
+        "current_answer": "EFE reported a ministry invitation to close the round on Monday. The inspected coverage did not establish a signed agreement, appointments to the electoral council or an election date.",
+        "outcome": "EFE reported a ministry invitation to close the round on Monday. The inspected coverage did not establish a signed agreement, appointments to the electoral council or an election date.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "The talks were scheduled to continue through Monday",
+            "weight": "dominant",
+            "reason": "The ministry invitation establishes reported scheduling.",
+            "discriminating_observation": "Find a dated closing statement, appointments or a formal election calendar."
+          },
+          {
+            "explanation": "The delegations settled an election timetable",
+            "weight": "limited",
+            "reason": "The cited council changes were still described as future steps.",
+            "discriminating_observation": "Find a dated closing statement, appointments or a formal election calendar."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Find a dated closing statement, appointments or a formal election calendar.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The invitation cannot establish what the parties agreed.",
+            "assessment_effect": "Reassess the negotiating power of the government and opposition separately."
+          }
+        ],
+        "next_action": "Find a dated closing statement, appointments or a formal election calendar.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "5e7f26a9f536bc8093bbb46e",
+          "8087cacc52729ad53e29edee"
+        ]
+      },
+      {
+        "id": "post-election-voter-preference",
+        "question": "Do Republican voters and organizers prefer insiders or congressional critics on Iran?",
+        "importance": "The answer affects who can make or constrain the decision.",
+        "affected_assessments": [
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Emerson put Rubio first and Echelon put Vance first on different lists or populations. The two surveys support meaningful competition. Neither shows who would win after candidates enter or how support changes after Iran negotiations.",
+        "outcome": "Emerson put Rubio first and Echelon put Vance first on different lists or populations. The two surveys support meaningful competition. Neither shows who would win after candidates enter or how support changes after Iran negotiations.",
+        "status": "partial",
+        "explanations": [
+          {
+            "explanation": "The field remains open between two visible insiders",
+            "weight": "dominant",
+            "reason": "The opposing survey results and shared briefing access are compatible with meaningful competition.",
+            "discriminating_observation": "Check comparable repeat polling and named staff or donor commitments after a candidate signals entry."
+          },
+          {
+            "explanation": "Rubio is already forming a durable lead",
+            "weight": "credible",
+            "reason": "He led on two question formats in one poll. His conditional entry and the other poll limit that inference.",
+            "discriminating_observation": "Check comparable repeat polling and named staff or donor commitments after a candidate signals entry."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check comparable repeat polling and named staff or donor commitments after a candidate signals entry.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "Both men have been publicly discussed, while neither has established a campaign in the sources reviewed.",
+            "assessment_effect": "Change candidate shares if voters and organizers align behind a credible entrant."
+          }
+        ],
+        "next_action": "Check comparable repeat polling and named staff or donor commitments after a candidate signals entry.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "80a1220bd1766a91031363be",
+          "13c933687ce6e50dfaf7d521",
+          "47304ad12fe4eb3741146669",
+          "827caade7d7040433f95938b",
+          "50b9697fad8a63e9ad499476"
+        ]
+      },
+      {
+        "id": "organizers-beyond-incumbents",
+        "question": "Can an invitation from a conservative organizer give an unannounced contender a route to state campaigns?",
+        "importance": "An activist network could open a route outside the presumed Vance–Rubio competition.",
+        "affected_assessments": [
+          "nominations/republican_2028"
+        ],
+        "current_answer": "Axios reported that Turning Point USA invited John McEntee to speak and that he has publicly left a run open. The invitation is a real channel to meet activists. It leaves campaign work, endorsements and primary voters untested.",
+        "outcome": "Axios reported that Turning Point USA invited John McEntee to speak and that he has publicly left a run open. The invitation is a real channel to meet activists. It leaves campaign work, endorsements and primary voters untested.",
+        "explanations": [
+          {
+            "explanation": "The appearance creates a way to find early recruits",
+            "weight": "dominant",
+            "reason": "A dated speaking slot connects a media figure to an in-person activist audience.",
+            "discriminating_observation": "Check the AmericaFest appearance and look for named early-state organizers and returning volunteers."
+          },
+          {
+            "explanation": "The activity primarily builds an audience for his media business",
+            "weight": "credible",
+            "reason": "Reported assessments of his intentions conflict, and the same content can grow reach without a campaign.",
+            "discriminating_observation": "Check the AmericaFest appearance and look for named early-state organizers and returning volunteers."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check the AmericaFest appearance and look for named early-state organizers and returning volunteers.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The booking supplies a near-term observation. Actual staffing is uncertain.",
+            "assessment_effect": "If volunteers or state organizers appear, reassess McEntee’s ability to contest delegates."
+          }
+        ],
+        "status": "partial",
+        "next_action": "Check the AmericaFest appearance and look for named early-state organizers and returning volunteers.",
+        "next_check": "2026-11-24",
+        "source_receipt_ids": [
+          "86f9e94bc3359659ca63fefd",
+          "3ec951748fea360280926c7e",
+          "827caade7d7040433f95938b"
+        ]
+      }
+    ],
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check Nvidia’s House interviews, Commerce licensing records and the Office of the National Cyber Director’s acting designation.",
+        "next_check": "2026-11-24",
+        "reason": "Material new evidence reviewed. The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate.",
+        "attempt_receipt_ids": [
+          "e51ba3428a41c05a98258030",
+          "63eb2756219a09477a16e0d6",
+          "e0c469852c83b7771789d034"
+        ]
+      },
+      "EPS": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check for Massie’s floor motion and responses to investigation letters.",
+        "next_check": "2026-11-24",
+        "reason": "House floor and preservation searches did not establish passage of Massie’s bill or a new production of records.",
+        "attempt_receipt_ids": [
+          "a910f4953d55806924f6806f",
+          "f7cec69e3626ba89e67b28a1"
+        ]
+      },
+      "FED": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check the Cook docket and any new White House hearing notice.",
+        "next_check": "2026-11-24",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here.",
+        "attempt_receipt_ids": []
+      },
+      "IMM": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check Mullin hearing outcome, Project Rousseau operative orders and Big Bend construction.",
+        "next_check": "2026-11-24",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here.",
+        "attempt_receipt_ids": []
+      },
+      "IRN": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check any funding text, White House response and official military orders.",
+        "next_check": "2026-11-24",
+        "reason": "Material new evidence reviewed. Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified.",
+        "attempt_receipt_ids": [
+          "7df7adae0236a4c01e730f9e",
+          "50b9697fad8a63e9ad499476",
+          "cc7247f2d723680393c110b3",
+          "1a07d3223c4b9fa47c6d3432"
+        ]
+      },
+      "MID": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check Alaska certification, House leadership votes and contractor replies to committees.",
+        "next_check": "2026-11-24",
+        "reason": "Material new evidence reviewed. Signed order affects covered federal work. Application to particular requests or subpoenas remains open.",
+        "attempt_receipt_ids": [
+          "70d3a50f54f1bfd36406e11b",
+          "41ad5e8860cce5999524beb8",
+          "a910f4953d55806924f6806f"
+        ]
+      },
+      "RUS": {
+        "last_verified": "2026-11-21",
+        "next_action": "Check a dated handover, APEC statements, and Lukoil license.",
+        "next_check": "2026-11-24",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here.",
+        "attempt_receipt_ids": []
+      },
+      "SUC": {
+        "last_verified": "2026-11-23",
+        "next_action": "Check RNC leadership, candidate replies and named organizers or donor commitments.",
+        "next_check": "2026-11-24",
+        "reason": "Reopened the original Emerson release and read new reporting on campaign activity. Comparable samples, actual entry and named staff remain the next tests.",
+        "attempt_receipt_ids": [
+          "80a1220bd1766a91031363be",
+          "86f9e94bc3359659ca63fefd",
+          "18ef35eb52d65618f0081f73",
+          "47304ad12fe4eb3741146669"
+        ]
+      },
+      "TAR": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check operative tariff orders and signed or implemented agreements.",
+        "next_check": "2026-11-24",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here.",
+        "attempt_receipt_ids": []
+      },
+      "VEN": {
+        "last_verified": "2026-11-21",
+        "next_action": "Check for the delegations’ closing statement and electoral council decisions.",
+        "next_check": "2026-11-24",
+        "reason": "EFE reported a ministry invitation to close the round on Monday. The inspected coverage did not establish a signed agreement, appointments to the electoral council or an election date.",
+        "attempt_receipt_ids": [
+          "5e7f26a9f536bc8093bbb46e",
+          "8087cacc52729ad53e29edee"
+        ]
+      }
+    },
+    "prior_dispositions": {
+      "local-permitting-authority": "Carried from the daily review. Verify the next council text and the House response to the Senate bill."
+    },
+    "discovery_question": "Can an invitation from a conservative organizer give an unannounced contender a route to state campaigns?",
+    "discovery_disposition": "Axios reported that Turning Point USA invited John McEntee to speak and that he has publicly left a run open. The invitation is a real channel to meet activists. It leaves campaign work, endorsements and primary voters untested.",
+    "premise_reconciliation": "Verified the Clerk’s referral rather than relying on a syndicated story’s description of the vote. Separated congressional appropriation, presidential direction, an agreed text and an actual trial. Reopened Emerson and compared the existing Echelon record.",
+    "source_receipts": [
+      {
+        "kind": "query",
+        "value": "November 23 2026 House Hegseth impeachment roll call 317 Guilfoyle Drew Lynch November 13 records Garcia",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found the Clerk roll and later Garcia coverage.",
+        "reporting_origin": "Web search",
+        "id": "8d0b52620368afa6ddcadc1c"
+      },
+      {
+        "kind": "query",
+        "value": "November 23 2026 Congress Iran funding Thune Collins Senate AP CNN funding constraints war",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found independent Post interviews and an accessible CNN mirror.",
+        "reporting_origin": "Web search",
+        "id": "9bb06b85fc49a02a9b5774ab"
+      },
+      {
+        "kind": "query",
+        "value": "November 23 2026 House oversight Drew Lynch Guilfoyle Garcia response subpoena records",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found initial request and preservation coverage, no verified production or subpoena in results.",
+        "reporting_origin": "Web search",
+        "id": "f7cec69e3626ba89e67b28a1"
+      },
+      {
+        "kind": "query",
+        "value": "November 23 2026 Venezuela diálogo cuarta ronda comunicado cierre CNE elecciones EFE Reuters",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found EFE and derivative reporting on a planned closing, no signed timetable in inspected results.",
+        "reporting_origin": "Web search",
+        "id": "8087cacc52729ad53e29edee"
+      },
+      {
+        "kind": "query",
+        "value": "November 2026 GOP 2028 Rand Paul Thomas Massie Brian Kemp Ted Cruz DeSantis donors organizers November 16 23 Republican primary",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found polls and leads about the prominent contenders. Results did not establish new presidential organizers for Paul, Kemp or Massie.",
+        "reporting_origin": "Web search",
+        "id": "827caade7d7040433f95938b"
+      },
+      {
+        "kind": "query",
+        "value": "November 23 2026 House impeachment new articles cabinet Hegseth Noem Mullin Patel Kennedy Carr Bondi resolutions",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found Hegseth primary documents and a Mullin contracting lead, without a verified new roll call on articles in these results.",
+        "reporting_origin": "Web search",
+        "id": "aa3034a582626036a8536d73"
+      },
+      {
+        "kind": "query",
+        "value": "November 23 2026 politico Playbook Priorities USA Vance Rubio 30 million ads turkey 2028",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found secondary accounts of a paid persuasion effort. The group’s original June announcement describes the overall program, not measured Republican response.",
+        "reporting_origin": "Web search",
+        "id": "06e0432b5aad50504e051008"
+      },
+      {
+        "kind": "query",
+        "value": "Jensen Huang reinstated Nvidia board November 23 2026 Reuters semiconductor Lai China export political response",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Found the Nvidia statement and named reactions from Trump, Musk and Warren.",
+        "reporting_origin": "Web search",
+        "id": "e0c469852c83b7771789d034"
+      },
+      {
+        "kind": "query",
+        "value": "\"National Poll: Rubio Leads 2028 GOP Nomination Contest\" Emerson November 2026 Rubio Vance results",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Weekly discovery and verification",
+        "status": "headline_only",
+        "result": "Located original toplines and field dates.",
+        "reporting_origin": "Web search",
+        "id": "13c933687ce6e50dfaf7d521"
+      },
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Verify the actual disposition",
+        "status": "read",
+        "result": "November 10 motion to refer passed 211–204. 18 members did not vote.",
+        "reporting_origin": "House Clerk",
+        "id": "70d3a50f54f1bfd36406e11b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Verify legal text and scope",
+        "status": "read",
+        "result": "Order requires notification and compliance with relevant privilege instructions and directs agencies to consider sanctions consistent with law.",
+        "reporting_origin": "White House",
+        "id": "41ad5e8860cce5999524beb8"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonpost.com/business/2026/11/23/senate-gop-leaders-signal-openness-cutting-off-iran-war-funding/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Test Senate leverage and implementation",
+        "status": "read",
+        "result": "Collins described exploring a split between replenishment and Iran operations. Thune said he was open to a funding agreement.",
+        "reporting_origin": "Washington Post",
+        "id": "50b9697fad8a63e9ad499476"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cnn.com/politics",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Independent recall index",
+        "status": "blocked",
+        "result": "Index access restricted.",
+        "reporting_origin": "CNN",
+        "id": "03ccb90179d36b492a52d735"
+      },
+      {
+        "kind": "source",
+        "value": "site:cnn.com 2026/11/23 politics Senate Iran appropriations Trump ICE November 23",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Recover blocked CNN index",
+        "status": "blocked",
+        "result": "The provider reported a robots restriction for the domain.",
+        "reporting_origin": "Web search",
+        "id": "86697ad52a48efaf47958f51"
+      },
+      {
+        "kind": "source",
+        "value": "site:congress.gov H.Res. 1655 Hegseth November 2026",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Recover bill status from an accessible original",
+        "status": "blocked",
+        "result": "Domain restricted. Recovered vote at House Clerk.",
+        "reporting_origin": "Web search",
+        "id": "90b26a455c0e99eb76e64db6"
+      },
+      {
+        "kind": "source",
+        "value": "https://kesq.com/news/national-politics/cnn-us-politics/2026/11/23/republicans-mulling-deal-that-would-fund-military-but-limit-operations-in-iran/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Recover CNN reporting and cross-check the procedural claim",
+        "status": "read",
+        "result": "Talks are early. Hoeven described administration acceptability as a constraint. The account mislabels the House referral vote as a vote on impeachment.",
+        "reporting_origin": "CNN",
+        "id": "cc7247f2d723680393c110b3"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.dailypress.senate.gov/thursday-november-19-2026/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Confirm legislative result and Republican dissent",
+        "status": "read",
+        "result": "Withdrawal resolution failed 48–51. Paul, Collins and Murkowski voted yes.",
+        "reporting_origin": "Senate Daily Press",
+        "id": "7df7adae0236a4c01e730f9e"
+      },
+      {
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-from-kimberly-guilfoyles-staffer-in-pay-to-play-scheme",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Verify origin of records request",
+        "status": "read",
+        "result": "Garcia requested material from Drew Lynch. The release alleges misconduct and does not establish production.",
+        "reporting_origin": "House Oversight Democrats",
+        "id": "d9897b57124537f04084b358"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/6cfa31f11051c52e567523e27ee5803e",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Verify observed actions and limits",
+        "status": "read",
+        "result": "Garcia sent preservation notices including to former DHS Secretary Noem and former ambassador Guilfoyle. AP distinguishes preservation from compulsory production.",
+        "reporting_origin": "AP",
+        "id": "a910f4953d55806924f6806f"
+      },
+      {
+        "kind": "source",
+        "value": "https://efe.com/mundo/2026-11-22/chavismo-oposicion-concluir-cuarta-ronda-dialogo/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Check the Venezuela timetable",
+        "status": "read",
+        "result": "November 22 ministry invitation provided for a Monday close. Election council renewal was described as future business.",
+        "reporting_origin": "EFE",
+        "id": "5e7f26a9f536bc8093bbb46e"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/politics-policy/2026/11/23",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Independent recall index",
+        "status": "read",
+        "result": "Dated politics index surfaced McEntee and DeSantis reporting.",
+        "reporting_origin": "Axios",
+        "id": "3ec951748fea360280926c7e"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.notus.org/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Independent replacement discovery index",
+        "status": "read",
+        "result": "Redirected to The Washington Sun. Its index surfaced Iran legislation, Nvidia, state Grok suits, DNC debate rules, Social Security and the intelligence director’s defense of Trump’s Putin remarks.",
+        "reporting_origin": "The Washington Sun",
+        "id": "bbf75404ad6b5ebe5147bc1c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.npr.org/sections/politics/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Alternate independent discovery index",
+        "status": "blocked",
+        "result": "Robots restriction.",
+        "reporting_origin": "NPR",
+        "id": "89f7ab3eb932c665411bb97c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/22/trump-mcentee-maga-tiktok",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Test entry, media, organizer and appeal pathways",
+        "status": "read",
+        "result": "McEntee floated a bid in an interview, criticized Rubio and Vance, and received a Turning Point USA speaking slot. A draft site surfaced. Candidate intent remains disputed among sources.",
+        "reporting_origin": "Axios",
+        "id": "86f9e94bc3359659ca63fefd"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/22/scoop-desantis-secret-book-project-fuels-2028-speculation",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Check DeSantis entry and public platform",
+        "status": "read",
+        "result": "Two sources reported a book project. Some allies doubt another bid.",
+        "reporting_origin": "Axios",
+        "id": "18ef35eb52d65618f0081f73"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/478fca96eee4ff8ba2f13f05b5e1e31c",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Compare public appeal and shared presidential access",
+        "status": "read",
+        "result": "Trump gave both Vance and Rubio the lectern. AP reports Vance declined to defend the cost of war and Rubio made the case for diplomacy. AP reports Rubio previously said he would not run if Vance does.",
+        "reporting_origin": "AP",
+        "id": "47304ad12fe4eb3741146669"
+      },
+      {
+        "kind": "source",
+        "value": "https://emersoncollegepolling.com/national-poll-rubio-leads-2028-gop-nomination-contest-ossoff-rises-among-democrats/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Read original poll and methodological limits",
+        "status": "read",
+        "result": "November 14–16 survey. Rubio 36 and Vance 20 on open-ended Republican question. Massie and DeSantis each 7. In named question Rubio 44, Vance 24 and DeSantis 9.",
+        "reporting_origin": "Emerson College Polling",
+        "id": "80a1220bd1766a91031363be"
+      },
+      {
+        "kind": "source",
+        "value": "https://nvidianews.nvidia.com/_gallery/download_pdf/6b04462d3d63321add7499dc/",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Verify appointment and a possible oversight counterweight",
+        "status": "read",
+        "result": "Company says board reinstated Huang immediately and kept an independent committee for export controls.",
+        "reporting_origin": "Nvidia",
+        "id": "e51ba3428a41c05a98258030"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.investing.com/news/stock-market-news/political-and-corporate-leaders-react-to-huangs-return-as-nvidia-ceo-5045985",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Test reception and actors who gained leverage",
+        "status": "read",
+        "result": "Musk welcomed the decision. Warren called for answers on officials’ input and continued export controls scrutiny.",
+        "reporting_origin": "Reuters",
+        "id": "63eb2756219a09477a16e0d6"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.washingtonsun.com/congress/democrats-weigh-how-to-end-the-iran-war",
+        "window": "2026-11-16/2026-11-23",
+        "purpose": "Check whether lawmakers on the other side of the talks can accept the trade",
+        "status": "read",
+        "result": "Van Hollen distinguished protecting commercial passage from a blockade. Kaine said he could accept funds to replenish munitions. Rounds emphasized presidential acceptance and military defense.",
+        "reporting_origin": "The Washington Sun",
+        "id": "1a07d3223c4b9fa47c6d3432"
+      }
+    ],
+    "execution_points": [
+      "before_intake",
+      "during_adjudication",
+      "before_preflight"
+    ],
+    "omitted_mechanism": "Turning Point USA can give a media figure an opportunity to meet state organizers even if Trump never invites him into the succession conversation.",
+    "test_discrimination": "A dated appropriations draft distinguishes working on a restriction from protest votes. A future enactment requires a separate observation. The existing coalition and entry tests retain their original deadlines.",
+    "implementation_counterparty": "Contracting agencies would issue instructions and contractors would choose their replies subject to law. In the funding talks, Senate appropriators can bargain but would need agreement in both chambers and a decision from Trump.",
+    "motive_alternatives": "Collins’s proposal fits protecting supplies while curbing the war. It also offers a way to vote for government funding. The options may coexist. A willingness to publish and vote for specific language would help distinguish them.",
+    "prediction_outcomes": "No active nomination terminal test was due. The House referral test is met and the Lynch production test remains unresolved. The November 19 Senate withdrawal vote failed, a distinct observed result.",
+    "candidate_share_sensitivity": "Four ten-point environment transfers and one within-environment allocation alternative per candidate are recorded with their exact forecasts. They illustrate assumptions rather than confidence intervals.",
+    "recall_shortfall": "CNN direct index and domain search were blocked. An accessible affiliate restored the original reporting for the funding claim. Axios and The Washington Sun provided independent discovery. Fewer than 15 individually dated items were checked against the complete weekly lists. The headline audit remains incomplete.",
+    "receipt_age_review": "Prior daily receipts are dated November 20–23. The original Emerson release was reopened, and mutable news indexes were refreshed. Source IDs in prior records remain historical evidence.",
+    "preflight_reassessment": "Main conclusions survive: Iran funding is a bargaining opportunity, voter preference supports a smaller Rubio discount, and a media appearance can facilitate recruiting. No final bill, fresh trial coalition or declared campaign was established."
+  },
+  "reviewed_episode_ids": [
+    "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+    "suc-2026-11-19-polls-split-on-rubio-and-vance",
+    "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+    "mid-2026-11-10-hegseth-judiciary-referral",
+    "mid-2026-11-20-trump-orders-contractor-coordination"
+  ],
+  "changed_entries": [
+    "assessments/current",
+    "impeachments/all",
+    "nominations/republican_2028"
+  ],
+  "unresolved_claims": [
+    "Weekly recall did not match 15 dated headlines to the prior intake.",
+    "Early-state staff, current presidential commitments and complete financial filings remain unverified across parts of the field.",
+    "Whether Drew Lynch supplied House Oversight Democrats with the records they requested remains open.",
+    "A Venezuela closing statement, election council appointments and a date remain unverified.",
+    "The full pattern scorecard, original impeachment omission census and several older issue traceability gaps remain open."
+  ],
+  "evidence_needed": [
+    "Published Iran appropriations language and a White House reaction",
+    "A reply or acknowledgment documenting whether Lynch supplied the records",
+    "Named early-state hires and disclosed financial commitments",
+    "Dated Venezuelan closing statement, council appointments and election schedule"
+  ],
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Chuck Hubbard defeats Virginia Foxx",
+        "event_ids": [
+          "mid-2026-11-22-ap-calls-hubbard-foxx-race"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID",
+          "impeachments/all"
+        ],
+        "reason": "AP called the race after recount and concession. Coverage differs on the aggregate, so the assessment uses AP’s dated floor of at least 258 seats."
+      },
+      {
+        "finding": "Trump orders agencies to coordinate contractors’ replies to Congress",
+        "event_ids": [
+          "mid-2026-11-20-trump-orders-contractor-coordination"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/MID"
+        ],
+        "reason": "Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      {
+        "finding": "Senators discuss limits on Iran war spending",
+        "event_ids": [
+          "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/IRN",
+          "nominations/republican_2028"
+        ],
+        "reason": "Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      {
+        "finding": "Nvidia restores Jensen Huang as CEO",
+        "event_ids": [
+          "ai-2026-11-22-nvidia-board-reinstates-huang"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/AI",
+          "impeachments/all"
+        ],
+        "reason": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      {
+        "finding": "Axios reports Jay Clayton will serve as acting national cyber director",
+        "event_ids": [
+          "ai-2026-11-23-axios-reports-clayton-interim-cyber-role"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/AI"
+        ],
+        "reason": "The attributed interim arrangement changes the likely coordinator before Davies is confirmed. No operational repair mandate or common cause of outages was established."
+      },
+      {
+        "finding": "Pete Hegseth reportedly restricts U.S. military contacts with Canada",
+        "event_ids": [
+          "mid-2026-11-20-post-reports-hegseth-canada-guidance"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "impeachments/all"
+        ],
+        "reason": "The Post’s attributed account and Pentagon response are distinct from Canada’s observation that it had seen no operational change."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "reviewed",
+        "reason": "Material new evidence reviewed. The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "House floor and preservation searches did not establish passage of Massie’s bill or a new production of records."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here."
+      },
+      "IMM": {
+        "status": "carried",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here."
+      },
+      "IRN": {
+        "status": "reviewed",
+        "reason": "Material new evidence reviewed. Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "Material new evidence reviewed. Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      "RUS": {
+        "status": "carried",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here."
+      },
+      "SUC": {
+        "status": "reviewed",
+        "reason": "Reopened the original Emerson release and read new reporting on campaign activity. Comparable samples, actual entry and named staff remain the next tests."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Carried forward from the earlier review. No new claim-level verification of the tracked disputed decision was completed here."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "EFE reported a ministry invitation to close the round on Monday. The inspected coverage did not establish a signed agreement, appointments to the electoral council or an election date."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "Put the Iran funding decision and contractor order first because they define what lawmakers can do now. Warren’s response to the Nvidia board shows that renewed corporate authority has increased the target’s ability to act while oversight continues.",
+    "dated_assumptions": [
+      {
+        "assumption": "Chuck Hubbard defeats Virginia Foxx",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "AP called the race after recount and concession. Coverage differs on the aggregate, so the assessment uses AP’s dated floor of at least 258 seats."
+      },
+      {
+        "assumption": "Trump orders agencies to coordinate contractors’ replies to Congress",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Signed order affects covered federal work. Application to particular requests or subpoenas remains open."
+      },
+      {
+        "assumption": "Senators discuss limits on Iran war spending",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Attributed negotiations and Thune’s public comments show a route through spending, with no agreed restriction verified."
+      },
+      {
+        "assumption": "New Iran military orders",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "Conditional remarks reported by The Daily Beast do not establish an order. Check the original interview, official orders and any public U.S. or Iranian acknowledgement."
+      },
+      {
+        "assumption": "Nvidia restores Jensen Huang as CEO",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The SEC filing confirms the board vote. The return changes corporate authority. Schumer’s public objection raises oversight pressure while licensing and the investigation remain separate."
+      },
+      {
+        "assumption": "Axios reports Jay Clayton will serve as acting national cyber director",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The attributed interim arrangement changes the likely coordinator before Davies is confirmed. No operational repair mandate or common cause of outages was established."
+      },
+      {
+        "assumption": "Pete Hegseth reportedly restricts U.S. military contacts with Canada",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The Post’s attributed account and Pentagon response are distinct from Canada’s observation that it had seen no operational change."
+      },
+      {
+        "assumption": "Delta restores automation after flight delays",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "AP quotes Delta on service restoration. No evidence connected the incident to the earlier FAA stop or showed changes in government repair authority."
+      },
+      {
+        "assumption": "Fifth Circuit rules the House could not establish a quorum by proxy",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The decision changes the legal position of the pregnancy accommodations statute in the case. It supplies no direct ruling on another law or a current impeachment vote."
+      },
+      {
+        "assumption": "Venezuela election timetable",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "EFE reported a Monday closing plan. Check for the participants’ statement, election council appointments and a date."
+      },
+      {
+        "assumption": "Alaska election certification",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "AP’s race call and DOJ’s dismissal move remain distinct from the state’s certification. Check Alaska’s certified statewide report."
+      },
+      {
+        "assumption": "Lisa Cook hearing and litigation",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "Public court routes did not verify an updated hearing or operative order. Check the current lower-court docket and any White House notice."
+      },
+      {
+        "assumption": "Massie’s Epstein records bill and Drew Lynch’s response",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "The House floor index and targeted search did not establish floor action or production. Check Congress and House Oversight directly."
+      },
+      {
+        "assumption": "Implementation of Trump’s announced trade terms",
+        "date": "2026-11-24",
+        "status": "unreviewed",
+        "reason": "The White House reported terms. Check USTR and the Federal Register for an operative instrument and effective dates."
+      },
+      {
+        "assumption": "Army’s planned Iowa disposal",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "The Army announced plans for Wednesday while litigation continues. Check the court and Army for whether the action occurred or was stayed."
+      },
+      {
+        "assumption": "ICE use of license-plate records",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The Atlantic documents a line of oversight. The intake did not establish a nationwide change in agency policy or what ICE told lawmakers."
+      },
+      {
+        "assumption": "Ukraine and Russia war reaches a Libyan port",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "AP reported the incident and Tripoli’s sovereignty objection. Neither establishes a change in U.S. negotiating policy or implementation of the Berlin position."
+      },
+      {
+        "assumption": "Democrats announce 2028 primary debates",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The announced calendar applies to Democrats and supplies no evidence of changes in Republican entry or support."
+      },
+      {
+        "assumption": "Ueland and LoSapio confirmation",
+        "date": "2026-11-24",
+        "status": "pending",
+        "reason": "Recent floor and nomination results did not establish confirmation. Check the Senate Executive Calendar after recess."
+      },
+      {
+        "assumption": "Trump criticizes Schumer as Democrats choose Senate leaders",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Public criticism followed Trump’s earlier willingness to discuss deals. The remarks increase pressure over who will lead negotiations without identifying a leadership vote, changed spending terms or a breakdown in talks."
+      },
+      {
+        "assumption": "Jeffries puts health affordability on the incoming House agenda",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "Jeffries is using the new majority to press a priority he had already announced. AP reported Trump’s openness to talks. Neither establishes an agreed bill."
+      },
+      {
+        "assumption": "Hegseth House procedure",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "House Clerk roll call 317 establishes referral. No later verified disposition."
+      },
+      {
+        "assumption": "Justice Department withdrew its Supreme Court request on Venezuelan protections",
+        "date": "2026-11-23",
+        "status": "verified",
+        "reason": "The November 19 docket confirms that the Justice Department withdrew its request after the Ninth Circuit extended the pause. The maintained policy already records the outcome. Repaired the issue text that still described the request as pending."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Huang’s return settles the dispute over chips.",
+        "finding": "Warren called for details about the officials who weighed in. Nvidia retained an independent board committee overseeing export controls.",
+        "consequence": "Both the senator and independent directors have routes to seek answers while Huang has regained day-to-day corporate authority."
+      },
+      {
+        "alternative": "The House vote already established broad support for removing Hegseth.",
+        "finding": "The Clerk records a motion to refer. The Senate vote concerned withdrawal.",
+        "consequence": "Both actions can increase the pressure to respond without establishing trial commitments."
+      }
+    ]
+  },
+  "nominee_review": {
+    "probabilities_pct": {
+      "jd_vance": 29.3,
+      "marco_rubio": 12.6,
+      "ron_desantis": 18.55,
+      "ted_cruz": 8.4,
+      "john_mcentee": 6.1,
+      "rand_paul": 10.6,
+      "brian_kemp": 11.5,
+      "thomas_massie": 2.95
+    },
+    "delta_pp": {
+      "jd_vance": -1.85,
+      "marco_rubio": 1.55,
+      "ron_desantis": 0.0,
+      "ted_cruz": 0.0,
+      "john_mcentee": 0.75,
+      "rand_paul": -0.45,
+      "brian_kemp": -0.6,
+      "thomas_massie": 0.6
+    },
+    "nominees_added": [],
+    "candidate_coverage": {
+      "jd_vance": "partial",
+      "marco_rubio": "partial",
+      "ron_desantis": "partial",
+      "ted_cruz": "partial",
+      "john_mcentee": "partial",
+      "rand_paul": "partial",
+      "brian_kemp": "partial",
+      "thomas_massie": "partial"
+    },
+    "wargame_ref": "2026-11-23-weekly",
+    "shared_evidence": [
+      "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+      "suc-2026-11-19-polls-split-on-rubio-and-vance",
+      "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+    ],
+    "cross_report_implications": "Trump gave both Vance and Rubio time at the briefing. Voters gave conflicting answers in two surveys. Rubio has a stronger route if he enters, while Paul and Massie can point to distinct votes and McEntee has a chance to recruit activists. The candidates’ actions can give factions a public representative. They do not establish how a faction’s backers will vote.",
+    "gaps": [
+      "Weekly recall did not match 15 dated headlines to the prior intake.",
+      "Early-state staff, current presidential commitments and complete financial filings remain unverified across parts of the field.",
+      "Whether Lynch supplied records remains open.",
+      "A Venezuela closing statement, election council appointments and a date remain unverified.",
+      "The full pattern scorecard, original impeachment omission census and several older issue traceability gaps remain open."
+    ]
+  },
+  "coverage": {
+    "AI": "Focused verification of named decisions and sources.",
+    "EPS": "Focused verification of named decisions and sources.",
+    "FED": "Earlier findings carried. Fresh issue verification remains open.",
+    "IMM": "Earlier findings carried. Fresh issue verification remains open.",
+    "IRN": "Focused verification of named decisions and sources.",
+    "MID": "Focused verification of named decisions and sources.",
+    "RUS": "Earlier findings carried. Fresh issue verification remains open.",
+    "SUC": "Focused verification of named decisions and sources.",
+    "TAR": "Earlier findings carried. Fresh issue verification remains open.",
+    "VEN": "Focused verification of named decisions and sources."
+  },
+  "pattern_review": {
+    "scope": "Rechecked selected carried hypotheses against the verified House vote, new funding reporting and the Nvidia return. Full aging and original test review remain open.",
+    "outcomes": [
+      {
+        "id": "rus-envoy-shift",
+        "disposition": "defer",
+        "reason": "Announced summit access does not establish change in negotiator authority. Check who leads talks and negotiates any license decision."
+      },
+      {
+        "id": "starshield-lever",
+        "disposition": "defer",
+        "reason": "No direct counterparty evidence reviewed. Seek contract language or a participant linking terms to concessions."
+      },
+      {
+        "id": "vance-squeeze",
+        "disposition": "defer",
+        "reason": "Bigelow retains interest in Vance. Seek named funder decisions or a dated reversal on visas. A donor can dislike the administration’s direction and support him."
+      },
+      {
+        "id": "hegseth-trade-off",
+        "disposition": "defer",
+        "reason": "The referral does not establish a link between Iran operations and deliveries to Ukraine. Seek supply records and authoritative allocation decisions."
+      },
+      {
+        "id": "enforcer-court-wall",
+        "disposition": "defer",
+        "reason": "The operative orders were not verified. Separate each case and remedy."
+      },
+      {
+        "id": "after-nov-3",
+        "disposition": "defer",
+        "reason": "The deadline is November 17. The separate military outcomes each require evidence and would not by themselves identify common intent."
+      }
+    ],
+    "design_warning": "Carry historical compound tests with their original dates. A subset of observations cannot establish the common causal explanation."
+  },
+  "weekly_audit": {
+    "selected_decisions": [
+      "House referral and possible Iran spending restriction",
+      "Contractor instructions on congressional requests",
+      "Nvidia reinstatement and reception",
+      "Possible candidate recruitment"
+    ],
+    "duplicate_credit": "The Clerk is the authority on referral. CNN’s affiliate carries the same reporting origin. Emerson and Echelon are different surveys. Do not count repeat clips as distinct audiences.",
+    "stance_changes": [
+      "Vance assigned the war decision to Trump while criticizing its political cost. Rubio defended diplomacy and had defended starting the war. Trump’s joint appearance gave both access."
+    ],
+    "financial_motives": [
+      "Pentagon replenishment can matter to senators independently of the withdrawal question. Nvidia has a commercial interest in chip sales, while Warren has a public route to press for enforcement."
+    ],
+    "falsifier_scorecard": [
+      "A Senate withdrawal vote was lost 48–51. The new question concerns explicit funding text.",
+      "The House referral remains confirmed. Lynch production was not verified.",
+      "No active nomination terminal prediction was due."
+    ],
+    "missed_beneficiary": "Independent Nvidia directors, especially the export-control committee, can request information and shape compliance even after reinstatement. Warren gained a specific target for questions about government involvement before any formal hearing.",
+    "queued_questions": [
+      "Use the Iran appropriations test for Paul, Massie and the insiders’ competing claims of influence. Examine voter overlap directly.",
+      "Watch whether Vance gains a concrete role on prices, whether Rubio’s access becomes decision authority or organizer backing and whether disclosure changes Republican perceptions.",
+      "Treat money, staff, voter preference and the decision to enter as distinct tests.",
+      "Check whether Rounds, Kaine and Van Hollen will back the same provisions on protecting service members and commercial shipping. A compromise could change the war without settling personnel accountability."
+    ],
+    "omitted_leads": [
+      "No stored belief about who decides power supply and siting for AI data centers (states, utilities, DOE loans).",
+      "No belief about US standing with European partners on Russia; Europeans are acting apart from Washington (G20 photo, Black Sea truce call).",
+      "No belief about public-health entry bars as a border tool.",
+      "No belief about state equity and loan stakes in minerals and energy as industrial policy; no faction tagged.",
+      "No belief about who in State trades aid for deportation deals."
+    ],
+    "editorial_sample": [
+      "Reviewed current administration summary, contender paths, scenario labels and all nine personnel assessments."
+    ],
+    "clarity_gaps": [
+      "Older issue and profile copy still needs a broader review."
+    ],
+    "memory_note": "Use the Clerk’s exact vote question when reporting conflates procedure and adoption. Count an invitation as a way to meet activists. Look for separate evidence of a campaign endorsement or commitment. Read body text against the source headline before identifying an officeholder.",
+    "personnel_alternatives": {
+      "hegseth": "35% conditional conviction rejected because spending talks do not establish personal attribution or trial votes.",
+      "noem": "55% House rejected pending evidence about her own decisions or a leadership commitment.",
+      "guilfoyle": "25% House rejected because departure alone does not foreclose a disqualification incentive.",
+      "blanche": "30% conditional conviction rejected pending records and cross-party responses."
+    }
+  },
+  "challenger_review": {
+    "mode": "structured single-analyst opposition",
+    "findings": [
+      "Republican openness to an Iran spending restriction may be a way to replenish Pentagon stockpiles and avoid shutdown. It still creates a channel for Congress to set conditions.",
+      "Huang’s restored title shifts authority immediately. Warren and independent directors can press disputes over export compliance before hearings or licensing decisions.",
+      "The CNN mirror’s statement about the Hegseth vote conflicts with the Clerk. Use the recorded referral."
+    ]
+  },
+  "public_update": {
+    "warranted": true,
+    "summary": "Congress is weighing a deal to replenish Pentagon supplies while restricting offensive operations in Iran. The House’s earlier vote sent the Pete Hegseth resolution to committee. In the Republican nomination forecast, JD Vance still leads the eight candidates under review, but conflicting polls and shared access to President Trump give Marco Rubio a stronger chance if he runs.",
+    "privacy_screen": "Screened changed research prose for owner identity, personal contact details, local paths, credentials and runtime metadata.",
+    "publication": "Prepared for runner review."
+  },
+  "validation_results": {
+    "status": "passed",
+    "command": "Runner-provided Weekly read-only preflight",
+    "result": "Weekly stage and reader-copy fingerprints passed the runner’s read-only preflight."
+  },
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "cf0b8908dabea7d5073a5c80f38776292bb266ddc171bd8084f194996f91b75d",
+        "reader_takeaway": "Senators can bargain over Iran funding and agencies can intervene in some contractors’ replies to Congress. Candidate paths identify distinct ways to recruit.",
+        "context_check": "Named the government and campaign roles of the people involved and made clear what McEntee could gain from an invitation.",
+        "uncertainty_check": "The administration summary distinguishes signed orders, negotiations and regained corporate authority. Candidate paths preserve reported activity and uncertain entry.",
+        "changes_made": [
+          "Spelled out McEntee’s hiring and lobbying exposure and the activist conference.",
+          "Defined the House action Massie forced and what his Emerson percentage measures.",
+          "Explained the relevance of Georgia’s campaign organization to Kemp."
+        ]
+      },
+      "impeachments/all": {
+        "fingerprint": "bd04cb83a0ef6c1b3c99d0f94479c952b77454ebc00b42beaa5b80ef3f3f9946",
+        "reader_takeaway": "The House sent the Hegseth resolution to committee. Later position-taking on military spending creates no trial votes.",
+        "context_check": "The nine entries identify officeholders, case-specific records or decisions, and the action that would change the assessment.",
+        "uncertainty_check": "The Senate pathways are conditional. Conduct allegations remain distinct from evidence and an actual trial. The records request and response are separate.",
+        "changes_made": [
+          "Rewrote all nine forecast explanations to name the officials and their particular evidence.",
+          "Explained what voter backlash would look like and what a cross-party trial coalition might change.",
+          "Clarified what would establish a case against former Attorney General Pam Bondi."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "193c0f1a983d963ed4999395ef32b83035cb92b1aac506338ca7ccf6dfce1958",
+        "reader_takeaway": "Rubio has a stronger conditional route while Vance leads the forecast. Each future environment offers contenders different choices about how to respond and recruit.",
+        "context_check": "The new forecast text names the contenders’ decisions, the activists and donors they could approach, and the actions that would bring them closer to a campaign.",
+        "uncertainty_check": "Competing polling results, reported book plans and an actual invitation support different claims. The five environments and their candidate responses describe forecasts.",
+        "changes_made": [
+          "Rewrote projected candidate responses to reflect each scenario’s political conditions.",
+          "Named the constitutional and electoral constraints in the personnel and campaign explanations.",
+          "Clarified that published appropriations language, rather than talks or a general war powers proposal, is the new test."
+        ]
+      },
+      "runs/2026-11-23-weekly": {
+        "fingerprint": "824a005e611337353cb50c578e5615a45940236199cfaf336e6ec0271c7b9b96",
+        "reader_takeaway": "The review confirmed two procedural results and reports where the evidence still needs work.",
+        "context_check": "The run summary identifies the House referral and Senate withdrawal vote. The open records question names the person and committee involved.",
+        "uncertainty_check": "The run states that recall and parts of the audit are incomplete and identifies the specific missing Venezuelan outcome documents.",
+        "changes_made": [
+          "Named Drew Lynch and House Oversight Democrats in the outstanding production question."
+        ]
+      }
+    }
+  },
+  "editorial_notes": [
+    "Named the people and actions behind the candidate paths, explained what the McEntee invitation could lead to, and clarified Massie’s motion and the basis for his polling figure.",
+    "Rewrote the personnel momentum pathways to distinguish a trial coalition, a policy vote and an observable backlash. All five scenario titles identify the different voter response. Older profile prose remains outside the focused edit."
+  ]
+}
