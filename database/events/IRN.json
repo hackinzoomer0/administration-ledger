@@ -3182,6 +3182,51 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: A deadline to fund the government gives lawmakers a way to bargain over future operations after the Senate rejected a withdrawal resolution. The reporting established neither agreed language nor a new military order."
+    },
+    {
+      "id": "irn-2026-11-24-vance-rubio-meet-qatar",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "IRN",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "JD Vance and Marco Rubio",
+      "text": "Vance and Rubio meet Qatar’s prime minister separately as Iran talks stall",
+      "context": "The Associated Press reported that Vice President JD Vance and Secretary of State Marco Rubio met Qatari Prime Minister Mohammed bin Abdulrahman Al Thani separately on November 23. Qatar confirmed Rubio’s meeting. Trump had redirected Vance toward domestic work after the midterms.",
+      "source": "https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f",
+      "url": "https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The meetings show Qatar can still reach both officials. Authority to agree to new terms and Iran’s willingness to negotiate remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-24",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The meetings show Qatar can still reach both officials. Authority to agree to new terms and Iran’s willingness to negotiate remain open."
+    },
+    {
+      "id": "irn-2026-11-24-treasury-designates-iran-exchange-center",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "U.S. Treasury",
+      "text": "U.S. Treasury sanctions Iran’s Currency and Gold Exchange Center",
+      "context": "The Treasury Department’s Office of Foreign Assets Control published sanctions designations on November 23 that include Iran’s Currency and Gold Exchange Center.",
+      "source": "https://ofac.treasury.gov/recent-actions/20261123",
+      "url": "https://ofac.treasury.gov/recent-actions/20261123",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The designation adds pressure on Iran’s financial channels while Qatar continues diplomacy. Its effect on settlement and Iranian bargaining remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-24",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The designation adds pressure on Iran’s financial channels while Qatar continues diplomacy. Its effect on settlement and Iranian bargaining remains open."
     }
   ]
 }

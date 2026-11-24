@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-23",
-  "last_substantive_change": "2026-11-23",
+  "research_as_of": "2026-11-24",
+  "last_substantive_change": "2026-11-24",
   "review": {
-    "date": "2026-11-23",
-    "run_id": "2026-11-23-weekly",
-    "type": "weekly_review",
-    "scope": "Weekly comparison of eight candidates and nine personnel cases, with new checks on Iran appropriations, contractor oversight, Nvidia and Venezuelan talks. Other issue findings carry their earlier dates."
+    "date": "2026-11-24",
+    "run_id": "2026-11-24",
+    "type": "daily_review",
+    "scope": "Focused review of Iran diplomacy, Venezuela’s talks, the Vitol records request and Alaska’s official results. Other tracked issues carry earlier conclusions or received a limited outcome check. The closing scan also verified Commerce’s Megaspeed rule and Treasury’s Iran designations."
   },
   "administration": {
-    "headline": "Senators seek a say on Iran spending as Trump directs contractors to coordinate replies to Congress",
-    "summary": "Republican senators are discussing whether to replenish Pentagon supplies while restricting money for offensive operations in Iran. Congress has yet to agree on a limit. Trump also directed contractors to notify agencies about requests concerning their federal work and follow instructions on privileged records. Incoming House Democrats will have the votes to pursue inquiries, but the order gives agencies a way to intervene in some replies. At Nvidia, the board restored Jensen Huang as chief executive. Senator Elizabeth Warren is asking which U.S. officials weighed in and says Congress still needs answers on chip exports.",
+    "headline": "Vance and Rubio meet Qatar as senators weigh Iran spending and seek Venezuelan oil records",
+    "summary": "Vice President JD Vance and Secretary of State Marco Rubio met Qatar’s prime minister separately while talks with Iran remained stalled. Trump still decides whether to authorize new U.S. terms. Senators are considering limits on funding for offensive operations. Senator Maggie Hassan’s request for Venezuelan oil records gives the incoming Senate majority a way to examine how the administration chose its contractors. Venezuela’s government and part of the opposition closed a round of talks with pledges to review laws governing parties and media, while leaving the election date open. Democrats’ projected Senate majority also carries through Alaska’s official results. Commerce filed a rule naming Megaspeed and six other companies for export restrictions after lawmakers pressed for action. Its effect on shipments and licenses remains open. Earlier findings on the Fed, immigration, tariffs, Russia and the Epstein files remain in the detailed assessments with their own evidence dates.",
     "contests": [
       {
         "id": "white-house-access",
@@ -46,7 +46,7 @@
         "assessment": "Republicans seeking to avoid a shutdown can negotiate with Democrats over spending. Congress would have to pass a restriction before it could constrain how the Pentagon spends the money.",
         "authority": "Trump makes executive military decisions. Congress can authorize military action and decide funding; negotiations also require agreement from the other side.",
         "leverage": "Officials negotiating with Iran can shape the terms presented to Trump. Advisers arguing for more military pressure can offer competing options. Public criticism can change who receives blame even before policy changes.",
-        "change": "The funding deadline gives lawmakers another way to seek limits after the Senate rejected a withdrawal resolution.",
+        "change": "Vance and Rubio separately met Qatar’s prime minister. Qatar retains access to both officials while Trump controls U.S. terms and Congress debates spending.",
         "basis": {
           "actions": "Trump redirected Vance publicly on November 12. Qatar and Oman held contacts with Iran as U.S. and Iranian forces exchanged strikes.",
           "positions": "Vance criticized the war’s electoral cost. Rubio defended Trump’s initial decision and reportedly advocated continued pressure.",
@@ -72,7 +72,8 @@
           "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
           "irn-2026-11-19-envoys-meet-qatari-mediators",
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
-          "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+          "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+          "irn-2026-11-24-vance-rubio-meet-qatar"
         ],
         "faction_ids": [
           "vance",
@@ -80,7 +81,7 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-23",
+        "reviewed_at": "2026-11-24",
         "summary": "Trump still directs U.S. military decisions on Iran. Senate leaders are discussing whether to attach limits on future offensive operations to Pentagon funding."
       },
       {
@@ -226,8 +227,8 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "Vice President JD Vance remains the most likely nominee among the eight contenders reviewed. Pollsters found different leaders, and President Trump gave both Vance and Secretary of State Marco Rubio time at his briefing. Rubio has a stronger chance if he enters. Turning Point USA invited John McEntee to speak, giving him a way to meet activists. Senator Rand Paul and Representative Thomas Massie can point to specific actions they took to challenge the Iran war.",
-    "snapshot_id": "2026-11-23-weekly",
+    "summary": "The November 23 estimates carry forward. The request for Vitol records puts Vice President JD Vance’s dealings with a political donor under scrutiny. Vance and Secretary of State Marco Rubio both retain access to Qatar, while President Trump decides whether to offer Iran new terms.",
+    "snapshot_id": "2026-11-24-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -235,120 +236,60 @@
         "path": "The vice president can still launch with national fundraising contacts and Trump’s attention. His November 20 remarks showed he can criticize the political cost of the Iran war while deferring to Trump’s authority.",
         "coalition": "A recent Echelon list still led with Vance, while Emerson favored Rubio. Vance can recruit people who want both Trump’s immigration program and an end to the war, but successive criticism without a credible next step could cost him their trust.",
         "advantage": "Humor and familiarity at Trump’s briefing can make Vance approachable to voters who identify with the administration.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
-          "suc-2025-03-58b7aa",
-          "suc-2026-08-19-b59801",
           "irn-2026-11-04-vance-postelection-war-critique",
-          "suc-2026-11-08-trump-vance-immigration-interview",
-          "irn-2026-11-09-qatar-meeting-plan",
-          "irn-2026-11-10-rubio-economic-pressure",
-          "irn-2026-11-12-trump-redirects-vance",
-          "suc-2026-11-12-kennedy-challenges-vance-war-blame",
-          "suc-2026-11-15-vance-2028-timing-report",
-          "mid-2026-11-15-gruters-defends-rnc-spending",
           "suc-2026-11-16-cruz-prepares-presidential-run",
-          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
-          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-          "mid-2026-11-18-garcia-requests-records-preservation",
-          "suc-2026-11-18-vance-and-el-sayed-open-to-meeting",
-          "suc-2026-11-18-trump-praises-rubio-in-manila",
-          "mid-2026-11-18-democrats-nominate-jeffries",
-          "suc-2026-11-19-polls-split-on-rubio-and-vance",
-          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
-          "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+          "suc-2026-11-19-polls-split-on-rubio-and-vance",
+          "ven-2026-11-24-hassan-requests-vitol-records",
+          "irn-2026-11-24-vance-rubio-meet-qatar"
         ],
         "source_ids": [
-          "vance_postmortem_faction_pass",
-          "ap_voter_poll_2026_results",
-          "blumenthal_2026_preservation",
-          "harris_oct2026_primary",
-          "prri",
           "daily_vance_brand_20261107",
           "weekly_vance_debate_poll",
-          "daily_trump_interview_20261108",
-          "daily_qatar_plan_20261109",
-          "daily_qatar_20261110",
-          "daily_rubio_iran_20261111",
-          "daily_vance_20261113",
-          "daily_kennedy_20261113",
           "daily_20261116_vance",
-          "daily_20261116_rnc",
           "weekly-20261116-poll",
-          "daily-20261117-kuwait-complaint",
-          "daily-20261117-trump-cbs",
-          "daily-20261118-garcia",
-          "daily-20261118-atlantic",
-          "daily-20261119-vance",
-          "daily-20261119-trump",
-          "daily-20261119-jeff",
+          "weekly-20261116-reuters",
+          "daily-20261121-succ",
           "daily-20261120-polls-split-on-rubio-and-vance",
           "daily-20261120-echelon",
-          "daily-20261121-succ",
-          "daily-20261121-cbv",
-          "daily-20261123-cnn",
-          "daily-20261123-vance"
+          "daily-20261124-qatar",
+          "daily-20261124-hassan",
+          "daily-20261124-vitol"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-24"
       },
       {
         "candidate_id": "marco_rubio",
         "person_id": "rubio",
         "path": "The secretary of state can cite direct experience negotiating abroad and can ask former campaign staff and interested donors to return. His stated deference to Vance constrains entry even when voters name him first.",
         "coalition": "Emerson found Rubio ahead both with and without a supplied list. Echelon found Vance ahead on a different list. Some donors have expressed interest in Rubio. He needs to decide to run and show that people willing to name him will also vote or work for him.",
-        "advantage": "As secretary of state, Rubio can point to his direct role in talks with foreign governments. At Trump’s November 20 briefing he made the case for negotiating with China and Russia.",
+        "advantage": "As secretary of state, Rubio can point to his direct role in talks with foreign governments. At Trump’s November 20 briefing he made the case for negotiating with China and Russia. Rubio’s November 23 meeting with Qatar’s prime minister shows he retains direct access to a mediator while talks with Iran remain stalled.",
         "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open. Trump’s praise leaves open whether he will endorse Rubio or whether Republican donors and organizers will commit to a campaign. A congressional funding fight gives Rubio a reason to explain how he would defend the original decision to use force while securing a settlement voters will accept.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
-          "suc-2026-07-30e83e",
-          "irn-2026-11-04-vance-postelection-war-critique",
-          "ai-2026-11-08-nvidia-board-inquiry",
-          "suc-2026-11-08-contender-entry",
-          "irn-2026-11-10-rubio-economic-pressure",
-          "ai-2026-11-11-lutnick-nvidia-export-delay-report",
-          "irn-2026-11-12-trump-redirects-vance",
-          "suc-2026-11-15-vance-2028-timing-report",
           "suc-2026-11-16-cruz-prepares-presidential-run",
-          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
-          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-          "suc-2026-11-18-trump-praises-rubio-in-manila",
-          "suc-2026-11-19-polls-split-on-rubio-and-vance",
-          "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
-          "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+          "suc-2026-11-19-polls-split-on-rubio-and-vance",
+          "irn-2026-11-24-vance-rubio-meet-qatar"
         ],
         "source_ids": [
-          "griffin_rubio",
-          "ap_voter_poll_2026_results",
-          "blumenthal_2026_preservation",
-          "harris_oct2026_primary",
-          "prri",
           "weekly_2015_debate",
+          "griffin_rubio",
           "causal_rubio_denial",
-          "daily_rubio_memo_20261109",
-          "weekly_fl_candidates",
-          "daily_rubio_iran_20261111",
-          "daily_chip_axios_20261112",
-          "daily_vance_20261113",
-          "daily_rubio_20261113",
-          "daily_20261116_vance",
           "weekly-20261116-reuters",
           "weekly-20261116-poll",
-          "daily-20261117-kuwait-complaint",
-          "daily-20261117-trump-cbs",
-          "daily-20261119-trump",
+          "daily-20261121-succ",
           "daily-20261120-polls-split-on-rubio-and-vance",
           "daily-20261120-echelon",
-          "daily-20261121-succ",
-          "daily-20261121-cbv",
-          "daily-20261123-cnn",
-          "daily-20261123-rubio"
+          "daily-20261124-qatar",
+          "daily-20261124-mofa"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-24"
       },
       {
         "candidate_id": "ron_desantis",

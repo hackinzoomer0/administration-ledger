@@ -1090,6 +1090,52 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The report says the talks will continue beyond Friday, when they were expected to end. A timetable and the process for appointing electoral authorities still depend on decisions by the participants."
+    },
+    {
+      "id": "ven-2026-11-24-hassan-requests-vitol-records",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "VEN",
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Maggie Hassan",
+      "text": "Senator Maggie Hassan asks JD Vance for records on Venezuelan oil sales",
+      "context": "Hassan, the incoming chair of the Senate Homeland Security and Governmental Affairs Committee, asked Vice President JD Vance to provide records by December 14 about contacts with oil trader John Addison and Vitol. Reuters reported a December 2025 meeting that Vance’s office and Addison dispute. The Energy Department confirmed a separate January 5 call between Energy Secretary Chris Wright and Addison.",
+      "source": "https://www.hassan.senate.gov/imo/media/doc/vitol_letter_to_vice_president_vance.pdf",
+      "url": "https://www.hassan.senate.gov/imo/media/doc/vitol_letter_to_vice_president_vance.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The request gives Hassan a specific way to test how the administration chose Vitol to sell Venezuelan oil. Vance’s role in that decision remains disputed.",
+      "origin": "daily shared intake",
+      "added": "2026-11-24",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The request gives Hassan a specific way to test how the administration chose Vitol to sell Venezuelan oil. Vance’s role in that decision remains disputed."
+    },
+    {
+      "id": "ven-2026-11-24-fourth-round-closes",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "actor": "Jorge Rodríguez and Dinorah Figuera",
+      "text": "Venezuelan negotiators agree to review party restrictions and leave the election date open",
+      "context": "Government negotiator Jorge Rodríguez and opposition negotiator Dinorah Figuera presented eight commitments on November 23, including work on party rules and legal changes. The talks include part of the opposition. The commitments leave the process for replacing electoral authorities and an election date open.",
+      "source": "https://elpais.com/america/2026-11-24/la-mesa-de-dialogo-en-venezuela-se-compromete-a-revisar-el-estatus-de-los-partidos-politicos.html?outputType=amp",
+      "url": "https://elpais.com/america/2026-11-24/la-mesa-de-dialogo-en-venezuela-se-compromete-a-revisar-el-estatus-de-los-partidos-politicos.html?outputType=amp",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The parties can keep talks going while the decisions that would allow a competitive election remain unsettled.",
+      "origin": "daily shared intake",
+      "added": "2026-11-24",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The parties can keep talks going while the decisions that would allow a competitive election remain unsettled."
     }
   ]
 }

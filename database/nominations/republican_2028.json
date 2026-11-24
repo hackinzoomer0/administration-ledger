@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-23",
+  "as_of_date": "2026-11-24",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -3272,6 +3272,38 @@
       "publication_date": "2026-11-22",
       "accessed_on": "2026-11-23",
       "description": "Two sources reported a book project. Some allies doubt another bid."
+    },
+    {
+      "id": "daily-20261124-hassan",
+      "url": "https://www.hassan.senate.gov/imo/media/doc/vitol_letter_to_vice_president_vance.pdf",
+      "publisher": "Sen. Maggie Hassan",
+      "publication_date": "2026-11-23",
+      "accessed_on": "2026-11-24",
+      "description": "Letter asks for records and Vance’s role, if any, in selecting Vitol."
+    },
+    {
+      "id": "daily-20261124-qatar",
+      "url": "https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f",
+      "publisher": "AP",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-24",
+      "description": "Reports separate meetings and Trump’s reported previous instructions."
+    },
+    {
+      "id": "daily-20261124-vitol",
+      "url": "https://www.investing.com/news/commodities-news/exclusivehow-a-vitol-traders-ties-jd-vance-helped-land-a-prized-venezuela-oil-contract-5018354",
+      "publisher": "Reuters",
+      "publication_date": "2026-11-11",
+      "accessed_on": "2026-11-24",
+      "description": "Earlier account reports a disputed meeting. Energy Department confirmed Wright’s January 5 call."
+    },
+    {
+      "id": "daily-20261124-mofa",
+      "url": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/11/23/prime-minister-and-minister-of-foreign-affairs--us-secretary-of-state-chair-8th-qatar-us-strategic-dialogue",
+      "publisher": "Qatar Ministry of Foreign Affairs",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-24",
+      "description": "Confirms Rubio co-chaired Monday’s dialogue."
     }
   ],
   "roster_authorization": {
@@ -33167,6 +33199,313 @@
               }
             }
           }
+        }
+      },
+      {
+        "id": "2026-11-24-daily",
+        "date": "2026-11-24",
+        "run_id": "2026-11-24",
+        "type": "daily_review",
+        "summary": "The November 23 estimates carry forward. The request for Vitol records puts Vice President JD Vance’s dealings with a political donor under scrutiny. Vance and Secretary of State Marco Rubio both retain access to Qatar, while President Trump decides whether to offer Iran new terms.",
+        "probabilities_pct": {
+          "jd_vance": 29.3,
+          "marco_rubio": 12.6,
+          "ron_desantis": 18.55,
+          "ted_cruz": 8.4,
+          "john_mcentee": 6.1,
+          "rand_paul": 10.6,
+          "brian_kemp": 11.5,
+          "thomas_massie": 2.95
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. An incoming chair has publicly taken up the allegation. That gives critics a way to challenge Vance on fair access to federal decisions. Vance’s office and the donor disputed the reported meeting, and Republican voter reaction remains unknown.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_20261116_vance",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters",
+              "daily-20261121-succ",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261124-qatar",
+              "daily-20261124-hassan",
+              "daily-20261124-vitol"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "ven-2026-11-24-hassan-requests-vitol-records",
+              "irn-2026-11-24-vance-rubio-meet-qatar"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique",
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ"
+                ]
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Vance can point to continuing diplomacy after blaming the war for Republican losses. Rubio can point to his own contact with the mediator while defending Trump’s initial decision. Neither meeting established authority to offer new terms.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "daily-20261121-succ",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261124-qatar",
+              "daily-20261124-mofa"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "irn-2026-11-24-vance-rubio-meet-qatar"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique",
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "weekly-20261123-desantis-book"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "weekly-20261116-paul"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2",
+              "weekly-20261116-mcentee",
+              "weekly-20261116-reuters",
+              "weekly-20261123-mcentee-axios"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "weekly-20261116-paul",
+              "weekly-20261116-reuters",
+              "daily-20261120-iran-senate-vote"
+            ],
+            "event_ids": [
+              "irn-2026-11-19-iran-senate-vote"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom",
+                  "daily-20261120-iran-senate-vote"
+                ],
+                "event_ids": [
+                  "irn-2026-11-19-iran-senate-vote"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief",
+              "weekly-20261116-kemp",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "weekly-20261116-massie",
+              "weekly-20261116-reuters",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "massie_2026_funding"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "No new comparable primary poll, voter response to the Vitol request or named state organizing commitments were verified.",
+          "Coverage of donors, staffing and the other six candidates was limited."
+        ],
+        "wargame_ref": "2026-11-23-weekly",
+        "monitoring": {
+          "summary": "The November 23 estimates carry forward. The request for Vitol records puts Vice President JD Vance’s dealings with a political donor under scrutiny. Vance and Secretary of State Marco Rubio both retain access to Qatar, while President Trump decides whether to offer Iran new terms.",
+          "developments": [
+            {
+              "finding": "Senator Maggie Hassan asked Vice President JD Vance for records about Vitol’s selection to sell Venezuelan oil.",
+              "implication": "An incoming chair has publicly taken up the allegation. That gives critics a way to challenge Vance on fair access to federal decisions. Vance’s office and the donor disputed the reported meeting, and Republican voter reaction remains unknown.",
+              "weekly_question": "Do Vance’s response and Republicans’ reactions make donor access a lasting trust issue for voters, or does the request remain a dispute between elected officials?",
+              "source_ids": [
+                "daily-20261124-hassan",
+                "daily-20261124-vitol"
+              ],
+              "event_ids": [
+                "ven-2026-11-24-hassan-requests-vitol-records"
+              ]
+            },
+            {
+              "finding": "Vance and Rubio met separately with Qatar’s prime minister while U.S.–Iran talks remained stalled.",
+              "implication": "Vance can point to continuing diplomacy after blaming the war for Republican losses. Rubio can point to his own contact with the mediator while defending Trump’s initial decision. Neither meeting established authority to offer new terms.",
+              "weekly_question": "Whom would war-weary Republican voters credit if talks resume, and can an early critic recruit those voters if Trump keeps the current policy?",
+              "source_ids": [
+                "daily-20261124-qatar",
+                "daily-20261124-mofa"
+              ],
+              "event_ids": [
+                "irn-2026-11-24-vance-rubio-meet-qatar"
+              ]
+            }
+          ],
+          "prediction_updates": []
         }
       }
     ],

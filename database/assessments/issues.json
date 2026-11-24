@@ -1,6 +1,6 @@
 {
   "AI": {
-    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The Federal Register published the rule on November 19, and it took effect that day. The Pentagon continues to seek broad permission to use AI for military purposes.",
+    "policy": "The administration seeks to limit state regulation of artificial intelligence and uses export licenses to govern access to advanced U.S. chips. Commerce released an interim rule extending licensing to some remote access through data centers and to certain shipments to five countries. The Federal Register published the rule on November 19, and it took effect that day. The Pentagon continues to seek broad permission to use AI for military purposes. A Commerce Department rule placed on public inspection November 23 names Megaspeed and six other companies in new export restrictions. The reach of the rule and how Commerce will enforce it remain open.",
     "dispute": "Commerce’s rule now lets regulators check who rents computing power abroad. Commerce and Justice publicly described their Megaspeed investigation, including a 2025 site visit with Singaporean authorities. Representative Brian Mast requested licensing and enforcement records from Commerce. Three House committees scheduled interviews with Nvidia chief executive Jensen Huang and company counsel Tim Teter. Findings about whether chips reached buyers barred from receiving them, new penalties and Nvidia’s funding or release decisions for downloadable models remain open. Commerce credited Treasury and the National Security Council with writing the rule. Commerce is responsible for administering it. The Senate passed a permitting bill that would require data centers to cover power costs. The House has yet to agree to the Senate version. In Minneapolis, Mayor Jacob Frey vetoed a separate local ordinance that would have required project-by-project approval. Separate outages affected Microsoft, air traffic operations, Chase and the National Security Agency. The White House said it saw no evidence of a coordinated attack. It selected Pentagon technology chief Kirsten Davies to replace national cyber director Sean Cairncross. Her Senate confirmation and any changes to how agencies and companies handle outages remain open. Minneapolis’s council fell short of overriding Mayor Jacob Frey’s veto and is expected to revisit the zoning rules in December. Trump threatened a tax on overseas data centers, with no details on how it would take effect. He separately backed Commerce Secretary Howard Lutnick after criticism of chip export enforcement. CBS reported that the White House announced Kirsten Davies as its choice for national cyber director. The role of the outages in Sean Cairncross’s departure remains unsettled. Nvidia’s SEC filing says its board reinstated Jensen Huang on November 22. Colette Kress returned to her sole role as chief financial officer. Huang can again direct the company’s investments and advocate for models developers can run themselves. Schumer called for congressional action. The reinstatement leaves Commerce licensing and the House interviews open. Axios reports that intelligence chief Jay Clayton will coordinate cybersecurity temporarily while Kirsten Davies awaits confirmation.",
     "player_ids": [
       "lutnick",
@@ -131,9 +131,10 @@
       "ai-2026-11-20-trump-floats-overseas-data-center-tax",
       "ai-2026-11-20-trump-defends-lutnick",
       "ai-2026-11-22-nvidia-board-reinstates-huang",
-      "ai-2026-11-23-axios-reports-clayton-interim-cyber-role"
+      "ai-2026-11-23-axios-reports-clayton-interim-cyber-role",
+      "ai-2026-11-24-commerce-lists-megaspeed"
     ],
-    "research_as_of": "2026-11-23",
+    "research_as_of": "2026-11-24",
     "scope": "Reviewed Nvidia’s leadership and cybersecurity coordination. House interviews and any export penalties remain open.",
     "actors": [
       {
@@ -643,7 +644,7 @@
     ]
   },
   "IRN": {
-    "policy": "Trump has redirected Vance to domestic work and continues to put naval and economic pressure on Iran. U.S. forces struck a missile site on Qeshm Island after Iran targeted a radar installation in Bahrain. Qatar and Oman continued contacts with Iran.",
+    "policy": "Trump has redirected Vance to domestic work and continues to put naval and economic pressure on Iran. U.S. forces struck a missile site on Qeshm Island after Iran targeted a radar installation in Bahrain. Qatar and Oman continued contacts with Iran. On November 23, Vance and Rubio separately met Qatar’s prime minister. Qatar confirmed Rubio’s meeting. Iran’s chief negotiator subsequently reiterated conditions for talks, according to the Associated Press. On November 23, the U.S. Treasury sanctioned Iran’s Currency and Gold Exchange Center, adding pressure on financial channels while diplomacy continued.",
     "dispute": "Trump reassigned Vance after the vice president blamed the Iran war for Republican losses. Rubio has defended the initial decision to fight, and Senator John Kennedy disputed Vance’s account of the election. Whether Qatar can keep talks open and whether Israel’s Gadi Eisenkot can form a government remain open. Pakistan’s foreign minister Ishaq Dar says his government is still mediating and is awaiting a U.S. reply. Washington’s next diplomatic lead remains unclear. A U.S. official told Reuters the strike on Qeshm was a response to attacks on U.S. personnel and assets. Further Iranian attacks put U.S. base protection and shipping back before Washington and its Gulf partners. Bahrain reported intercepting Iranian drones. A U.S. military official confirmed to CBS that a third carrier was in the region during a rotation. An Army whistleblower’s complaint and a senator’s records request also put the protection of U.S. troops before Congress. The November 19 Shenzhen declaration contains no terms for ending the Iran war. Axios reports Trump has heard competing advice about renewed major strikes. The Senate rejected the House-passed Iran withdrawal resolution 48–51. Rand Paul, Susan Collins and Lisa Murkowski backed it. The vote leaves Trump free to continue the current operation. A new strike order or response to Gulf mediators remains unverified. Trump publicly criticized the expired June agreement that Vice President JD Vance helped negotiate. He defended the initial decision to fight and denied the agreement was why he reassigned Vance. A new directive ending negotiations remains unverified. Axios reported that Witkoff and Kushner met Qatari mediators in Berlin on November 19. Trump said the next day that Iran wanted an agreement on terms he could not accept. A new negotiating mandate or strike order remains unverified. CNN reported talks about limiting future offensive operations through a Pentagon funding deal. Senate Republican leader John Thune publicly expressed openness to a funding agreement without endorsing a specific restriction. The talks create a route for Congress to constrain spending while Trump still directs immediate military decisions.",
     "player_ids": [
       "donald-trump",
@@ -783,9 +784,11 @@
       "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
       "irn-2026-11-19-envoys-meet-qatari-mediators",
       "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
-      "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+      "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+      "irn-2026-11-24-vance-rubio-meet-qatar",
+      "irn-2026-11-24-treasury-designates-iran-exchange-center"
     ],
-    "research_as_of": "2026-11-23",
+    "research_as_of": "2026-11-24",
     "scope": "Reviewed public and attributed reporting on Pentagon funding talks. Agreed terms and new orders remain open.",
     "actors": [
       {
@@ -919,7 +922,7 @@
     ]
   },
   "MID": {
-    "policy": "Democrats are projected to control both chambers in January. House Democrats nominated Hakeem Jeffries for speaker and chose Katherine Clark and Pete Aguilar for their leadership team. The full House still has to elect a speaker.",
+    "policy": "Democrats are projected to control both chambers in January. House Democrats nominated Hakeem Jeffries for speaker and chose Katherine Clark and Pete Aguilar for their leadership team. The full House still has to elect a speaker. Alaska’s election office posted official November results on November 23, following the Associated Press call for Democrat Mary Peltola.",
     "dispute": "Democrats are projected to take both chambers in January. The Kansas call keeps the governorship in Democratic hands. The Associated Press also reported that Democrat Jonathan Kreiss-Tomkins won Alaska’s governorship. State results remain unofficial. The Hegseth referral exposed disagreement over House Democrats’ floor preparation. Senator Richard Blumenthal and U.S. Attorney Aaron Reitz each sought preservation of records in a dispute over oversight of ballroom donations. Republican National Committee deputy KC Crosbie is challenging Trump-backed chair Joe Gruters. The January vote will determine who manages the party’s national fundraising and field operation. U.S. attorney Aaron Reitz has also sought records from Senator Elizabeth Warren about her congressional inquiries. Senator Richard Blumenthal requested records and a classified briefing on a March strike that killed six U.S. soldiers in Kuwait. The records could show who knew about the danger to troops before the attack. The Pentagon’s response remains open. A reported memo from White House counsel Will Scharf requires agencies to obtain White House approval before employees agree to testify. Congress retains its ability to seek records and use subpoenas. Representative Robert Garcia asked officials and Trump relatives to preserve records. His letters identify subjects for hearings and potential subpoenas after Democrats take over the House Oversight Committee. Replies and actual production remain open. The Justice Department asked an appeals court to end its challenge to Alaska’s Senate result after Mary Peltola secured a majority in unofficial returns. Jim Jordan’s ally Brandon Gill and Steve Scalise supporter Pat Fallon are competing to lead Republicans on House Oversight. Senator Joni Ernst’s criticism gives lawmakers from both parties a basis to press Pete Hegseth for information about the Iran war. Elon Musk rejected the MAGA label after spending more than $400 million on Trump-aligned Republicans in the midterms, according to AP. Trump publicly called Musk a friend. Whether Musk changes his spending or backs a 2028 candidate remains open. Speaker Mike Johnson urged Republican members to attend votes while his party still controls the House. Judge Jennifer Rochon declined to block taxpayer-funded Trump ads after the election, and a parallel request remains open. Alaska’s result still projects a 56-seat Democratic Senate majority while certification remains open. AP’s call for Chuck Hubbard brings Democrats to at least 258 projected House seats. The wider margin gives incoming leaders room to pursue spending and oversight even if some Democrats dissent. Trump directed agencies to coordinate contractors’ responses to Congress about covered work. Actual document production, subpoenas and court rulings will show how much that changes investigators’ access.",
     "player_ids": [
       "donald-trump",
@@ -1056,9 +1059,10 @@
       "mid-2026-11-20-rochon-declines-injunction-on-midterm-ads",
       "mid-2026-11-22-ap-calls-hubbard-foxx-race",
       "mid-2026-11-20-trump-orders-contractor-coordination",
-      "mid-2026-11-20-post-reports-hegseth-canada-guidance"
+      "mid-2026-11-20-post-reports-hegseth-canada-guidance",
+      "mid-2026-11-24-alaska-posts-official-results"
     ],
-    "research_as_of": "2026-11-23",
+    "research_as_of": "2026-11-24",
     "scope": "Reviewed the North Carolina House race call and the federal contractor order. Committee assignments and enforcement remain open.",
     "actors": [
       {
@@ -1668,7 +1672,7 @@
     ]
   },
   "VEN": {
-    "policy": "The United States is backing negotiations between Venezuelan authorities and part of the opposition. Participants agreed in principle to replace Supreme Court judges and opened a fourth round on November 13. EFE reported on November 20 that the parties would keep working for several more days. The composition of the electoral council and an election date remain open. The Pentagon has separately announced an agreement to restore military ties with Venezuela.",
+    "policy": "The United States is backing talks between Venezuela’s government and part of the opposition. On November 23, Jorge Rodríguez and Dinorah Figuera presented commitments to review party and media rules and continue legal reforms. They left the election date and electoral council unresolved. The Pentagon has separately announced an agreement to restore military ties. In Washington, Senator Maggie Hassan asked Vice President JD Vance for records about how the administration selected Vitol to sell Venezuelan oil.",
     "dispute": "Secretary of State Marco Rubio has backed talks over Venezuela’s elections. Defense Secretary Pete Hegseth announced an agreement to restore military ties with acting President Delcy Rodríguez’s government. The agreement opens a channel for training and intelligence sharing while the timing of cooperation, the electoral council’s membership and the next election date remain open. The reported extension leaves the fourth round open. The participants have yet to publish a timetable or specify who will appoint the electoral council in the materials reviewed.",
     "player_ids": [
       "rubio",
@@ -1765,9 +1769,11 @@
       "ven-2026-11-02-bessent-blanco",
       "ven-2026-10-28-boat-strike",
       "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
-      "ven-2026-11-20-fourth-dialogue-round-reported-extended"
+      "ven-2026-11-20-fourth-dialogue-round-reported-extended",
+      "ven-2026-11-24-fourth-round-closes",
+      "ven-2026-11-24-hassan-requests-vitol-records"
     ],
-    "research_as_of": "2026-11-21",
+    "research_as_of": "2026-11-24",
     "scope": "November 21 review of EFE and Venezuelan reporting about the extension. The closing text and military agreement implementation remain open.",
     "actors": [
       {

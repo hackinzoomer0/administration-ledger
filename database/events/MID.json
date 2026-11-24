@@ -3045,6 +3045,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The guidance adds a distinct subject for questions about Hegseth’s judgment and oversight. The classified text and changes to joint operations remain unverified."
+    },
+    {
+      "id": "mid-2026-11-24-alaska-posts-official-results",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Alaska Division of Elections",
+      "text": "Alaska posts official results for the November general election",
+      "context": "Alaska’s election office marked its November general-election results official in a November 23 update. The Associated Press previously called the Senate race for Democrat Mary Peltola.",
+      "source": "https://www.elections.alaska.gov/election-results/e/",
+      "url": "https://www.elections.alaska.gov/election-results/e/",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The state’s posting is a separate step from the earlier media call. Democrats’ projected 56-seat Senate majority carries forward.",
+      "origin": "daily shared intake",
+      "added": "2026-11-24",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The state’s posting is a separate step from the earlier media call. Democrats’ projected 56-seat Senate majority carries forward."
     }
   ]
 }

@@ -2089,6 +2089,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Clayton would coordinate federal cybersecurity policy until the Senate confirms Davies. Agencies and companies remain responsible for restoring their own services."
+    },
+    {
+      "id": "ai-2026-11-24-commerce-lists-megaspeed",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "Bureau of Industry and Security",
+      "text": "Commerce files export restrictions naming Megaspeed and six other companies",
+      "context": "A Commerce Department rule placed on public inspection November 23 lists companies in Singapore, Malaysia and Thailand, including Megaspeed. The Washington Post reported a former official’s concern that the wording could limit the rule’s practical reach.",
+      "source": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+      "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Commerce moved from investigating the companies to naming them in an export rule. Licensing decisions and shipments will show how far the restrictions reach.",
+      "origin": "daily shared intake",
+      "added": "2026-11-24",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Commerce moved from investigating the companies to naming them in an export rule. Licensing decisions and shipments will show how far the restrictions reach."
     }
   ]
 }
