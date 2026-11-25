@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-24",
+  "as_of_date": "2026-11-25",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -3304,6 +3304,70 @@
       "publication_date": "2026-11-24",
       "accessed_on": "2026-11-24",
       "description": "Confirms Rubio co-chaired Monday’s dialogue."
+    },
+    {
+      "id": "daily-20261125-post",
+      "url": "https://www.washingtonpost.com/politics/2026/11/24/who-stayed-home-who-showed-up-who-switched-inside-2026-democratic-wave/",
+      "publisher": "The Washington Post",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "description": "The Washington Post used precinct returns in 13 states to estimate that differences in who turned out explained about 70 percent of the Democratic gains in the Senate races it studied."
+    },
+    {
+      "id": "daily-20261125-cygnal",
+      "url": "https://www.cygn.al/news/post-mortem-poll-turnout-dips-and-trump-defectors-each-drove-half-of-democrats-win-as-rubio-edges-vance-for-2028/",
+      "publisher": "Cygnal",
+      "publication_date": "2026-11-13",
+      "accessed_on": "2026-11-25",
+      "description": "Cygnal’s November 4–5 survey of midterm voters attributed about half of the Democratic margin to differences in turnout and half to voters who switched."
+    },
+    {
+      "id": "daily-20261125-youth",
+      "url": "https://apnews.com/article/0e823c8c8beedc8f2deccc707c7bb0da",
+      "publisher": "AP",
+      "publication_date": "2026-11-25",
+      "accessed_on": "2026-11-25",
+      "description": "AP interviews attendees and organizers at a Fort Worth Republican gathering."
+    },
+    {
+      "id": "daily-20261125-house",
+      "url": "https://apnews.com/article/07b3ccbe60db7c1d3d3f3087d8fca721",
+      "publisher": "AP",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "description": "AP projects at least 259 Democratic seats and quotes differing Democratic agenda priorities."
+    },
+    {
+      "id": "daily-20261125-nvstock",
+      "url": "https://www.cbsnews.com/news/trump-nvidia-stock-jensen-huang/",
+      "publisher": "CBS News",
+      "publication_date": "2026-11-25",
+      "accessed_on": "2026-11-25",
+      "description": "Reports Trump Nvidia holdings, the White House independent-management response and ethics criticism."
+    },
+    {
+      "id": "daily-20261125-nvreaction",
+      "url": "https://apnews.com/article/jensen-huang-nvidia-trump-democrats-presidential-candidates-7c83c2f90e924291e435e0fb0d51f524",
+      "publisher": "AP",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "description": "Attributes public criticism to Democratic governors and senator, including Pritzker's criticism of Vance."
+    },
+    {
+      "id": "daily-20261125-cnbc",
+      "url": "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-transcript-president-donald-trump-speaks-cnbcs-eamon-javers-and-squawk",
+      "publisher": "CNBC",
+      "publication_date": "2026-11-23",
+      "accessed_on": "2026-11-25",
+      "description": "Interview transcript records Trump taking credit for pressing the board and defending Huang."
+    },
+    {
+      "id": "daily-20261125-oge",
+      "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS%2BIndex/20A6220DE9740AF085258EB400334364/%24FILE/Donald-J-Trump-11.01.2026-278T%20optimized%20version.pdf",
+      "publisher": "Office of Government Ethics",
+      "publication_date": "2026-11-01",
+      "accessed_on": "2026-11-25",
+      "description": "Periodic disclosure provides an example of a reported Nvidia transaction. It does not establish the current balance."
     }
   ],
   "roster_authorization": {
@@ -33502,6 +33566,335 @@
               ],
               "event_ids": [
                 "irn-2026-11-24-vance-rubio-meet-qatar"
+              ]
+            }
+          ],
+          "prediction_updates": []
+        }
+      },
+      {
+        "id": "2026-11-25-daily",
+        "date": "2026-11-25",
+        "run_id": "2026-11-25",
+        "type": "daily_review",
+        "summary": "The November 23 estimates carry forward. New analysis challenges JD Vance and Ted Cruz’s explanation of the midterm losses and gives Republican organizers reason to examine who turned out as well as who switched sides.",
+        "probabilities_pct": {
+          "jd_vance": 29.3,
+          "marco_rubio": 12.6,
+          "ron_desantis": 18.55,
+          "ted_cruz": 8.4,
+          "john_mcentee": 6.1,
+          "rand_paul": 10.6,
+          "brian_kemp": 11.5,
+          "thomas_massie": 2.95
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Pritzker’s public criticism also puts Vance’s relationships with technology executives under scrutiny. Republican primary reaction remains open.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_20261116_vance",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters",
+              "daily-20261121-succ",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261124-qatar",
+              "daily-20261124-hassan",
+              "daily-20261124-vitol",
+              "daily-20261125-post",
+              "daily-20261125-nvstock",
+              "daily-20261125-nvreaction"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "ven-2026-11-24-hassan-requests-vitol-records",
+              "irn-2026-11-24-vance-rubio-meet-qatar",
+              "suc-2026-11-25-post-examines-midterm-turnout",
+              "ai-2026-11-25-trump-disclosures-and-huang-reaction"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique",
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ"
+                ]
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Vance can point to continuing diplomacy after blaming the war for Republican losses. Rubio can point to his own contact with the mediator while defending Trump’s initial decision. Neither meeting established authority to offer new terms.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "daily-20261121-succ",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261124-qatar",
+              "daily-20261124-mofa"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "irn-2026-11-24-vance-rubio-meet-qatar"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique",
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "weekly-20261123-desantis-book"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run"
+            ],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Cruz echoed Vance’s emphasis on voters switching parties. A precinct study gives that explanation more weight in Texas than across the 13 states it studied. Cruz still needs evidence that his approach can also bring back people who sat out.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "weekly-20261116-paul",
+              "daily-20261125-post"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-25-post-examines-midterm-turnout"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2",
+              "weekly-20261116-mcentee",
+              "weekly-20261116-reuters",
+              "weekly-20261123-mcentee-axios"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "weekly-20261116-paul",
+              "weekly-20261116-reuters",
+              "daily-20261120-iran-senate-vote"
+            ],
+            "event_ids": [
+              "irn-2026-11-19-iran-senate-vote"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom",
+                  "daily-20261120-iran-senate-vote"
+                ],
+                "event_ids": [
+                  "irn-2026-11-19-iran-senate-vote"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. The focused intake provided limited additional evidence about this candidate.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief",
+              "weekly-20261116-kemp",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Incoming House Democrats may have more room to cooperate with Massie on records or war powers. House cooperation leaves Republican primary support and presidential organization open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "weekly-20261116-massie",
+              "weekly-20261116-reuters",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "massie_2026_funding",
+              "daily-20261125-house"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "mid-2026-11-25-ap-calls-broderick-race"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "The precinct analysis covers selected Senate races and cannot establish 2028 primary support. The Fort Worth interviews show local views with unknown breadth.",
+          "This focused review did not verify new comparable primary polling, named early-state presidential commitments or donor and staffing changes across the field."
+        ],
+        "wargame_ref": "2026-11-23-weekly",
+        "monitoring": {
+          "summary": "The November 23 estimates carry forward. New analysis challenges JD Vance and Ted Cruz’s explanation of the midterm losses and gives Republican organizers reason to examine who turned out as well as who switched sides.",
+          "developments": [
+            {
+              "finding": "The Washington Post estimated that differences in who voted explained around 70 percent of Democratic gains across the Senate races it studied. Vice President JD Vance and Texas Senator Ted Cruz publicly emphasized voters who switched parties. The analysis found that switching mattered more in some states, including Texas.",
+              "implication": "Vance and Cruz can use their public account to make a case for changing policies to win back voters. Their diagnosis becomes more vulnerable if party organizers find they also need to recover turnout. The Texas results give the switching argument more support there than across the studied races.",
+              "weekly_question": "Which contender has evidence of being able to mobilize Republicans who sat out and persuade voters who switched, and how should the next weekly review distinguish these tasks from primary recruitment?",
+              "source_ids": [
+                "daily-20261125-post",
+                "daily-20261125-cygnal",
+                "daily-20261125-youth"
+              ],
+              "event_ids": [
+                "suc-2026-11-25-post-examines-midterm-turnout"
+              ]
+            },
+            {
+              "finding": "AP projects at least 259 Democratic House seats after its call for Victoria Broderick.",
+              "implication": "A wider majority gives incoming Democrats more freedom to pursue oversight. Representative Thomas Massie may find more allies for records votes, while leaders retain discretion over timing and issue priorities.",
+              "weekly_question": "Can Massie turn cooperation on oversight into sustained help from Republican primary organizers, and can Vance answer investigations without losing credibility among Republicans who want a change in policy?",
+              "source_ids": [
+                "daily-20261125-house"
+              ],
+              "event_ids": [
+                "mid-2026-11-25-ap-calls-broderick-race"
+              ]
+            },
+            {
+              "finding": "Illinois Governor JB Pritzker publicly tied Vice President JD Vance to President Trump’s successful push to restore Jensen Huang as Nvidia’s chief executive.",
+              "implication": "The criticism gives Democrats a way to challenge Vance’s ties to technology donors. Public criticism establishes that the attack has begun. The sources reviewed leave Vance’s role in the board decision and Republican voters’ response open.",
+              "weekly_question": "What would distinguish Vance’s ability to draw on technology donors from a loss of trust among Republican voters who think executives receive special treatment?",
+              "source_ids": [
+                "daily-20261125-nvstock",
+                "daily-20261125-nvreaction",
+                "daily-20261125-cnbc"
+              ],
+              "event_ids": [
+                "ai-2026-11-25-trump-disclosures-and-huang-reaction"
               ]
             }
           ],

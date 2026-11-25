@@ -602,6 +602,54 @@
       "publication_date": "2026-11-23",
       "accessed_on": "2026-11-24",
       "limitation": "The filing establishes the companies named by Commerce. Implementation and individual responsibility require separate records."
+    },
+    {
+      "id": "daily-20261125-house",
+      "title": "AP projects at least 259 Democratic seats and quotes differing Democratic agenda priorities.",
+      "url": "https://apnews.com/article/07b3ccbe60db7c1d3d3f3087d8fca721",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "limitation": "This source does not establish an adopted article or a Senate conviction."
+    },
+    {
+      "id": "daily-20261125-canada",
+      "title": "Reports Pentagon fact sheet and quotes Canadian defense minister spokesperson citing NORAD.",
+      "url": "https://time.com/article/2026/11/24/hegseth-pentagon-accuses-canada-failing-credible-defense-partner/",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "limitation": "This source does not establish an adopted article or a Senate conviction."
+    },
+    {
+      "id": "daily-20261125-clerk",
+      "title": "November 24 floor votes page displayed no roll-call entries.",
+      "url": "https://clerk.house.gov/Home/ViewVotes",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "limitation": "This source does not establish an adopted article or a Senate conviction."
+    },
+    {
+      "id": "daily-20261125-oversight",
+      "title": "Searched committee announcements for contractor or Lynch production.",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases",
+      "publication_date": "2026-11-25",
+      "accessed_on": "2026-11-25",
+      "limitation": "This source does not establish an adopted article or a Senate conviction."
+    },
+    {
+      "id": "daily-20261125-roll",
+      "title": "Hegseth referral roll call remains the verified disposition.",
+      "url": "https://clerk.house.gov/evs/2026/roll317",
+      "publication_date": "2026-11-10",
+      "accessed_on": "2026-11-25",
+      "limitation": "This source does not establish an adopted article or a Senate conviction."
+    },
+    {
+      "id": "daily-20261125-habeas",
+      "url": "https://www.cbsnews.com/news/ice-detainee-lawsuits-justice-department-non-immigration-attorneys/",
+      "title": "CBS News reports Attorney General Todd Blanche’s memo on detention cases",
+      "publication_date": "2026-11-24",
+      "accessed_on": "2026-11-25",
+      "limitation": "The memo identifies a staffing directive and does not establish individual reassignments or any impeachment action."
     }
   ],
   "cases": [
@@ -6663,6 +6711,463 @@
           }
         }
       }
+    },
+    {
+      "id": "2026-11-25-daily",
+      "as_of": "2026-11-25T13:06:28.512097+00:00",
+      "deadline": "2027-11-10",
+      "run_id": "2026-11-25",
+      "type": "daily",
+      "summary": "All nine personnel judgments carry forward. The wider projected Democratic House majority gives incoming leaders more room to pursue investigations. The House’s most recent verified disposition of the Hegseth resolution is its referral to Judiciary. No new Senate conviction or coalition for conviction was verified.",
+      "coverage": "Checked House votes, the Hegseth roll call, Oversight Democrats’ releases and the Guilfoyle records request. Compared congressional capacity with the Pentagon’s public criticism of Canada. Fresh case-specific evidence was limited for the other officials.",
+      "context": {
+        "state": "unverified",
+        "assessment": "The incoming House majority strengthens the ability to conduct oversight. The Hegseth referral remains the verified disposition, and the Senate coalition needed for conviction remains unverified. A first bipartisan conviction could encourage witnesses and lawmakers to pursue further cases. The better-supported interpretation today is that lawmakers can support an inquiry without committing to a trial. Backlash remains possible if voters see a case as partisan, with no new trial vote from which to judge that reaction.",
+        "observation_ids": [],
+        "source_ids": [
+          "hegseth-house-roll-317",
+          "daily-house-attendance",
+          "daily-white-house-warning",
+          "daily-colom-call",
+          "daily-20261113-house",
+          "daily-20261113-doj",
+          "daily-20261116-house",
+          "daily-20261116-warren",
+          "weekly-20261116-kennedy",
+          "weekly-20261116-cantwell",
+          "weekly-20261116-rsf",
+          "daily-20261117-kuwait-complaint",
+          "daily-20261117-trump-cbs",
+          "daily-20261117-scharf-memo",
+          "daily-20261118-akgo",
+          "daily-20261118-garcia",
+          "daily-20261118-atlantic",
+          "daily-20261118-mast",
+          "daily-20261118-chip",
+          "daily-20261119-jeff",
+          "daily-20261119-patel",
+          "daily-20261119-guil",
+          "daily-20261119-ref",
+          "daily-20261120-ernst-questions-pentagon-disclosure",
+          "daily-20261120-justice-seeks-dismissal-alaska-suit",
+          "daily-20261120-gill-fallon-seek-oversight-post",
+          "daily-20261120-iran-senate-vote",
+          "daily-20261121-ap",
+          "daily-20261123-roll",
+          "daily-20261123-ap",
+          "daily-20261123-eo",
+          "daily-20261123-cnn",
+          "daily-20261123-can",
+          "daily-20261124-hassan",
+          "daily-20261124-roll",
+          "daily-20261125-house",
+          "daily-20261125-canada",
+          "daily-20261125-clerk",
+          "daily-20261125-oversight",
+          "daily-20261125-habeas"
+        ],
+        "event_ids": [
+          "mid-2026-11-10-hegseth-judiciary-referral",
+          "mid-2026-11-11-white-house-oversight-warning",
+          "mid-2026-11-11-colom-mississippi-senate-call",
+          "mid-2026-11-13-democrats-criticize-floor-preparation",
+          "mid-2026-11-11-blumenthal-reitz-preservation",
+          "mid-2026-11-16-reitz-warren-preservation",
+          "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment",
+          "ai-2026-11-16-cantwell-demands-chip-enforcement",
+          "mid-2026-11-11-rsf-urges-carr-impeachment",
+          "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+          "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+          "mid-2026-11-16-scharf-testimony-clearance",
+          "mid-2026-11-17-peltola-alaska-senate-call",
+          "mid-2026-11-18-garcia-requests-records-preservation",
+          "ai-2026-11-17-agencies-describe-megaspeed-investigation",
+          "mid-2026-11-18-democrats-nominate-jeffries",
+          "mid-2026-11-18-house-leaders-criticize-patel-absence",
+          "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+          "mid-2026-11-19-justice-seeks-dismissal-alaska-suit",
+          "mid-2026-11-19-gill-fallon-seek-oversight-post",
+          "irn-2026-11-19-iran-senate-vote",
+          "ai-2026-11-20-trump-defends-lutnick",
+          "mid-2026-11-20-johnson-presses-republicans-to-attend-votes",
+          "mid-2026-11-22-ap-calls-hubbard-foxx-race",
+          "mid-2026-11-20-trump-orders-contractor-coordination",
+          "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+          "mid-2026-11-20-post-reports-hegseth-canada-guidance",
+          "ven-2026-11-24-hassan-requests-vitol-records",
+          "mid-2026-11-25-ap-calls-broderick-race",
+          "mid-2026-11-25-pentagon-criticizes-canada",
+          "imm-2026-11-25-blanche-directs-detention-case-help"
+        ],
+        "pathways": [
+          {
+            "id": "normalization",
+            "title": "A Senate conviction could make it easier to pursue another case",
+            "assessment": "A conviction that attracts senators from both parties could encourage witnesses and make lawmakers more willing to pursue another official. The Hegseth referral and the Iran funding talks have yet to produce evidence of such a coalition."
+          },
+          {
+            "id": "exception",
+            "title": "Senators could limit their support to one unusual case",
+            "assessment": "This best fits the evidence so far. Senators can vote to restrict spending or ask the Pentagon for records while reserving judgment on any article. A later conviction might depend on evidence specific to one official."
+          },
+          {
+            "id": "backlash",
+            "title": "Voter backlash could discourage another impeachment",
+            "assessment": "Trump could call a weakly supported impeachment partisan and make it harder for Republicans to vote with Democrats. A senator changing position in response to constituents or an organized challenge over a trial vote would support this reading."
+          }
+        ]
+      },
+      "forecasts": {
+        "hegseth": {
+          "house_pct": 50,
+          "conviction_given_impeachment_pct": 25,
+          "joint_pct": 12.5,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "The Canada dispute gives lawmakers a new question for Hegseth. It establishes neither a new House proceeding nor Republican commitments to convict.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The Canada dispute gives lawmakers a new question for Hegseth. It establishes neither a new House proceeding nor Republican commitments to convict."
+          },
+          "basis": {
+            "allegations": "Eight articles allege war-powers violations and other abuses. Several concern the same Iran episode; article count is not independent evidence. An Army whistleblower separately alleges that military leaders dismissed concerns about defenses at a Kuwait command post before a fatal strike. Hegseth’s personal involvement remains unestablished.",
+            "defense": "He rejects the effort as a policy disagreement. Presidential protection and shared responsibility for military decisions constrain a conviction coalition. Hegseth described the site as fortified. Trump publicly defended U.S. interception performance after the CBS report.",
+            "eligibility": "eligible",
+            "office": "Secretary of Defense",
+            "source_ids": [
+              "massie",
+              "rollcall",
+              "hegseth-house-roll-317",
+              "hegseth-white-house-opposition",
+              "daily-20261117-kuwait-complaint",
+              "daily-20261117-trump-cbs",
+              "daily-20261119-vene",
+              "daily-20261119-ref",
+              "daily-20261120-ernst-questions-pentagon-disclosure",
+              "daily-20261120-iran-senate-vote",
+              "daily-20261123-can",
+              "daily-20261123-canr",
+              "daily-20261123-roll",
+              "daily-20261123-cnn"
+            ],
+            "event_ids": [
+              "mid-2026-11-09-massie-hegseth-floor-action",
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
+              "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
+              "ven-2026-11-18-hegseth-announces-venezuela-military-deal",
+              "mid-2026-11-19-ernst-questions-pentagon-disclosure",
+              "irn-2026-11-19-iran-senate-vote",
+              "mid-2026-11-20-post-reports-hegseth-canada-guidance",
+              "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+            ],
+            "watch": "Watch for Judiciary Committee action, incoming House leadership’s agenda, named senators’ positions and evidence addressing specific articles. Check whether the Pentagon provides records or briefs senators on defenses at Port Shuaiba. Check whether the Pentagon answers Ernst and whether senators who will serve in January call for records or take a position on removal."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": [
+              "hegseth-referral-2026-11-10"
+            ]
+          }
+        },
+        "noem": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 40,
+          "joint_pct": 18.0,
+          "joint_range_pct": [
+            8,
+            35
+          ],
+          "reason": "A wider House majority helps schedule hearings. No new evidence reviewed ties Noem to a specific contracting decision or establishes House scheduling.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "A wider House majority helps schedule hearings. No new evidence reviewed ties Noem to a specific contracting decision or establishes House scheduling."
+          },
+          "basis": {
+            "allegations": "Filed articles include self-dealing. A separate congressional referral alleges false testimony; neither establishes wrongdoing.",
+            "defense": "Noem defended the contracting process and described presidential approval. Contradictory accounts do not establish knowing deception or personal enrichment.",
+            "eligibility": "eligible",
+            "office": "Former Homeland Security secretary; later State adviser",
+            "source_ids": [
+              "noem-referral",
+              "noem-articles",
+              "noem-reuters",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic"
+            ],
+            "event_ids": [
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "watch": "Check whether former Homeland Security Secretary Kristi Noem supplies the contracting records Garcia requested, whether those records show who approved the contracts, and whether members of Congress will pursue a former secretary."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "guilfoyle": {
+          "house_pct": 35,
+          "conviction_given_impeachment_pct": 45,
+          "joint_pct": 15.75,
+          "joint_range_pct": [
+            5,
+            30
+          ],
+          "reason": "Representative Robert Garcia’s request for records on former Ambassador Kimberly Guilfoyle remains unresolved. If the House pursues articles, senators would still have to decide whether they can try her after she left office.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "Representative Robert Garcia’s request for records on former Ambassador Kimberly Guilfoyle remains unresolved. If the House pursues articles, senators would still have to decide whether they can try her after she left office."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrats are investigating an allegation that former ambassador Kimberly Guilfoyle sought payment in exchange for access to senior Trump officials. The preservation letter leaves the allegation unresolved.",
+            "defense": "Her lawyers describe unpaid prior professional fees and compliance with travel guidance. The central demand reportedly preceded confirmation, complicating an impeachment case.",
+            "eligibility": "eligible",
+            "office": "Former ambassador to Greece",
+            "source_ids": [
+              "guilfoyle-letter",
+              "guilfoyle-continuation",
+              "guilfoyle-defense",
+              "barrasso",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic",
+              "daily-20261119-guil",
+              "daily-20261119-lynch"
+            ],
+            "event_ids": [
+              "mid-2026-10-13-guilfoyle-resigns",
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "watch": "Look for contracts, payment records and messages about the alleged financial arrangement. Check Guilfoyle’s response to Garcia separately from whether Drew Lynch supplied the records due November 13."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "blanche": {
+          "house_pct": 45,
+          "conviction_given_impeachment_pct": 20,
+          "joint_pct": 9.0,
+          "joint_range_pct": [
+            3,
+            25
+          ],
+          "reason": "The House majority has more room to seek records on Ghislaine Maxwell’s interview and prison transfer. The evidence reviewed leaves Attorney General Todd Blanche’s own decisions unresolved. CBS reported that Blanche directed civil litigation divisions to help defend detention cases. That gives oversight a specific staffing decision to examine and leaves the separate Maxwell allegations and any Senate coalition unresolved.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "hold",
+            "observation_ids": [],
+            "assessment": "The House majority has more room to seek records on Ghislaine Maxwell’s interview and prison transfer. The evidence reviewed leaves Attorney General Todd Blanche’s own decisions unresolved. CBS reported that Blanche directed civil litigation divisions to help defend detention cases. That gives oversight a specific staffing decision to examine and leaves the separate Maxwell allegations and any Senate coalition unresolved."
+          },
+          "basis": {
+            "allegations": "House members have supported impeaching Attorney General Todd Blanche. Representative Robert Garcia is seeking records on Ghislaine Maxwell’s interview and prison transfer to establish Blanche’s role.",
+            "defense": "Executive direction, official representation and disputed legal arguments are not by themselves proof of impeachable abuse.",
+            "eligibility": "eligible",
+            "office": "Attorney General",
+            "source_ids": [
+              "blanche-support",
+              "daily-20261118-atlantic",
+              "daily-20261118-chip",
+              "daily-20261123-aph",
+              "daily-20261125-habeas"
+            ],
+            "event_ids": [
+              "mid-2026-11-08-blanche-oversight-defense",
+              "mid-2026-11-18-garcia-requests-records-preservation",
+              "ai-2026-11-17-agencies-describe-megaspeed-investigation",
+              "ai-2026-11-22-nvidia-board-reinstates-huang",
+              "imm-2026-11-25-blanche-directs-detention-case-help"
+            ],
+            "watch": "Check whether the committee receives records about Ghislaine Maxwell’s interview and prison transfer, what those records show about Blanche’s decisions, and whether lawmakers support pursuing articles."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "wiles": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Oversight can reach a former aide through records and testimony, while eligibility and case-specific evidence remain open.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Oversight can reach a former aide through records and testimony, while eligibility and case-specific evidence remain open."
+          },
+          "basis": {
+            "allegations": "House Oversight Democrat Robert Garcia asked former chief of staff Susie Wiles for records of White House meetings about the Epstein files. The request leaves her personal role in the decisions open.",
+            "defense": "Lobbying relationships or a relative’s client do not themselves establish a corrupt exchange. Her particular position’s civil-officer eligibility needs resolution.",
+            "eligibility": "unresolved",
+            "office": "Former White House chief of staff",
+            "source_ids": [
+              "wiles-means",
+              "daily-20261118-garcia",
+              "daily-20261118-atlantic"
+            ],
+            "event_ids": [
+              "mid-2026-11-18-garcia-requests-records-preservation"
+            ],
+            "watch": "Check whether Wiles supplies records about White House meetings on the Epstein files and what they show about her own actions. It remains unclear whether the former chief of staff can be impeached for conduct in that office."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "patel": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "House leaders have more votes to pursue oversight. New testimony or records would still be needed to identify Patel’s own conduct.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "House leaders have more votes to pursue oversight. New testimony or records would still be needed to identify Patel’s own conduct."
+          },
+          "basis": {
+            "allegations": "House Homeland Security Committee leaders from both parties criticized FBI Director Kash Patel for missing the November 18 hearing. His deputy testified in his place.",
+            "defense": "FBI Deputy Director Christopher Raia testified. The reporting reviewed here did not establish why Patel did not appear or whether lawmakers plan to bring articles.",
+            "eligibility": "eligible",
+            "office": "FBI director",
+            "source_ids": [
+              "daily-20261119-patel",
+              "daily-20261119-hear"
+            ],
+            "event_ids": [
+              "mid-2026-11-18-house-leaders-criticize-patel-absence"
+            ],
+            "watch": "Check whether FBI Director Kash Patel explains his absence from the November 18 House hearing, appears later or receives a subpoena."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "kennedy-jr": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "A larger majority can choose to schedule a hearing. This review did not verify such a decision or new case-specific evidence.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "A larger majority can choose to schedule a hearing. This review did not verify such a decision or new case-specific evidence."
+          },
+          "basis": {
+            "allegations": "Representative Haley Stevens introduced articles in December 2025. Senators are now examining Kennedy’s testimony about Samoa and gifts from a donor.",
+            "defense": "The inquiries raise distinct factual questions about testimony and gifts. AP reports that the leader of an allied health-policy group warned that pursuing Kennedy could alienate its supporters.",
+            "eligibility": "eligible",
+            "office": "Health and Human Services secretary",
+            "source_ids": [
+              "weekly-20261116-kennedy",
+              "weekly-20261116-samoa",
+              "weekly-20261116-gifts",
+              "weekly-20261116-stevens"
+            ],
+            "event_ids": [
+              "mid-2026-11-13-house-democrats-weigh-kennedy-impeachment"
+            ],
+            "watch": "Watch for records, Kennedy’s replies and whether House leaders schedule articles or choose hearings first."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "lutnick": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "Committee scrutiny of chip enforcement can continue, while the Huawei verdict adds no finding about Lutnick’s licensing choices.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "Committee scrutiny of chip enforcement can continue, while the Huawei verdict adds no finding about Lutnick’s licensing choices."
+          },
+          "basis": {
+            "allegations": "Cantwell asked Lutnick to stop chip diversion to firms tied to China. The Wall Street Journal reported that some Trump advisers were shifting blame for the Nvidia controversy toward Lutnick.",
+            "defense": "Commerce and Justice say investigators sought Nvidia records and inspected Megaspeed with Singaporean authorities. Commerce’s licensing records and Secretary Howard Lutnick’s own account could clarify his role. Trump said on November 20 that he retained confidence in Lutnick.",
+            "eligibility": "eligible",
+            "office": "Commerce secretary",
+            "source_ids": [
+              "weekly-20261116-cantwell",
+              "weekly-20261116-lutnick",
+              "daily-20261118-chip",
+              "daily-20261118-mast",
+              "daily-20261119-chips",
+              "daily-20261121-ap",
+              "daily-20261123-schumer",
+              "daily-20261123-aph",
+              "daily-20261124-bis"
+            ],
+            "event_ids": [
+              "ai-2026-11-16-cantwell-demands-chip-enforcement",
+              "ai-2026-11-17-agencies-describe-megaspeed-investigation",
+              "ai-2026-11-15-commerce-remote-chip-rule",
+              "ai-2026-11-20-trump-defends-lutnick",
+              "ai-2026-11-22-nvidia-board-reinstates-huang",
+              "ai-2026-11-24-commerce-lists-megaspeed"
+            ],
+            "watch": "Check whether Commerce gives Representative Brian Mast the Megaspeed licensing and investigation records he requested, and whether lawmakers schedule a hearing or Trump changes Lutnick’s responsibilities."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        },
+        "bondi": {
+          "house_pct": null,
+          "conviction_given_impeachment_pct": null,
+          "joint_pct": null,
+          "joint_range_pct": null,
+          "reason": "The wider House majority has more room to investigate former Attorney General Pam Bondi. Senators would still have to decide whether they can try her after she left office, and lawmakers would need evidence about her own decisions.",
+          "confidence": "low",
+          "momentum": {
+            "direction": "unquantified",
+            "observation_ids": [],
+            "assessment": "The wider House majority has more room to investigate former Attorney General Pam Bondi. Senators would still have to decide whether they can try her after she left office, and lawmakers would need evidence about her own decisions."
+          },
+          "basis": {
+            "allegations": "Her prior official actions remain subject to scrutiny after departure.",
+            "defense": "Lawmakers would need to decide whether to pursue a former attorney general, and the case would require evidence of actions Pam Bondi took while in office.",
+            "eligibility": "eligible",
+            "office": "Former Attorney General",
+            "source_ids": [],
+            "event_ids": [],
+            "watch": "Check whether a member introduces articles about former Attorney General Pam Bondi, what evidence the member cites, and whether other lawmakers support trying her after she left office."
+          },
+          "outcomes": {
+            "house": "pending",
+            "conviction": "pending",
+            "proceeding_ids": []
+          }
+        }
+      }
     }
   ],
   "tests": [
@@ -6687,7 +7192,7 @@
       "resolve_by": "2026-11-14",
       "claim": "Check responses to the November 13 records deadline; record missing or inaccessible material honestly.",
       "status": "unresolved",
-      "resolution": "Representative Robert Garcia requested records from Drew Lynch by November 13 and later asked former ambassador Kimberly Guilfoyle to preserve records. The November 24 search and committee release review did not establish production, acknowledgment or compulsory action.",
+      "resolution": "Representative Robert Garcia’s request for records from Drew Lynch had a November 13 deadline. The November 25 committee release check and follow-up search did not establish production, acknowledgment or compulsory action. Private correspondence could remain undisclosed.",
       "source_ids": [
         "guilfoyle-letter",
         "daily-20261113-guilfoyle",
@@ -6698,7 +7203,8 @@
         "daily-20261119-guil",
         "daily-20261119-lynch",
         "daily-20261123-house",
-        "daily-20261124-oversight"
+        "daily-20261124-oversight",
+        "daily-20261125-oversight"
       ],
       "event_ids": [
         "mid-2026-11-18-garcia-requests-records-preservation"

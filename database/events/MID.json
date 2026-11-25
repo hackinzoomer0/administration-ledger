@@ -3067,6 +3067,95 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The state’s posting is a separate step from the earlier media call. Democrats’ projected 56-seat Senate majority carries forward."
+    },
+    {
+      "id": "mid-2026-11-25-ap-calls-broderick-race",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Associated Press",
+      "text": "AP calls Tennessee race for Victoria Broderick, projecting at least 259 Democratic House seats",
+      "context": "AP called the race for Democrat Victoria Broderick over Republican Representative Scott DesJarlais. AP reports that Democratic leaders are preparing an affordability agenda alongside investigations. Representative Tom Suozzi publicly urged the party to devote most of its time to affordability.",
+      "source": "https://apnews.com/article/07b3ccbe60db7c1d3d3f3087d8fca721",
+      "url": "https://apnews.com/article/07b3ccbe60db7c1d3d3f3087d8fca721",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The larger projected majority gives incoming House leaders more room to lose some Democratic votes on bills or resolutions. The next House still has to choose its speaker and decide what to bring to a vote.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The larger projected majority gives incoming House leaders more room to lose some Democratic votes on bills or resolutions. The next House still has to choose its speaker and decide what to bring to a vote."
+    },
+    {
+      "id": "mid-2026-11-25-pentagon-criticizes-canada",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "TAR"
+      ],
+      "kind": "chron",
+      "actor": "Pentagon and Canadian Department of National Defence",
+      "text": "Pentagon criticizes Canadian defense spending and Canada defends joint air defense",
+      "context": "A Pentagon fact sheet criticized Canadian military readiness and Canada’s review of its F-35 procurement. In comments to TIME on November 24, a spokesperson for Canadian Defence Minister David McGuinty emphasized both countries’ role in the North American Aerospace Defense Command, which monitors and defends their shared airspace. The Washington Post previously reported a separate classified Pentagon memorandum restricting cooperation.",
+      "source": "https://time.com/article/2026/11/24/hegseth-pentagon-accuses-canada-failing-credible-defense-partner/",
+      "url": "https://time.com/article/2026/11/24/hegseth-pentagon-accuses-canada-failing-credible-defense-partner/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The public criticism gives U.S. officials a way to press Canada on spending and procurement. Canada’s response invokes an existing joint command. The public exchange does not establish further changes in joint operations or Canada’s aircraft purchase.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The public criticism gives U.S. officials a way to press Canada on spending and procurement. Canada’s response invokes an existing joint command. The public exchange does not establish further changes in joint operations or Canada’s aircraft purchase."
+    },
+    {
+      "id": "mid-2026-11-25-faa-lifts-ohare-ground-stop",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Federal Aviation Administration",
+      "text": "FAA lifts O’Hare ground stop while radar outage continues to delay flights",
+      "context": "The Federal Aviation Administration temporarily held some flights headed to Chicago O’Hare after an outage in the radar used to track aircraft and vehicles on the ground. It switched to delays while technicians worked on the equipment. The previous day’s stop was attributed to a shortage of controllers.",
+      "source": "https://www.aerotime.aero/articles/chicago-ohare-radar-outage-ground-stop-thanksgiving/amp",
+      "url": "https://www.aerotime.aero/articles/chicago-ohare-radar-outage-ground-stop-thanksgiving/amp",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Lawmakers can ask what the FAA is doing about the radar and controller staffing. The underlying equipment failure and any link to November’s nationwide FAA ground stop remain unclear.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The repairs and staffing response remain open."
+    },
+    {
+      "id": "mid-2026-11-25-ends-voter-data-agreement",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Alaska Division of Elections",
+      "text": "Alaska ends voter-data agreement and asks the Justice Department to destroy shared records",
+      "context": "The office of Alaska Lieutenant Governor Nancy Dahlstrom said Alaska rescinded the agreement and directed the Justice Department to destroy the confidential information the state provided. Alaska’s News Source reported that a state lawmaker questioned whether the department would comply.",
+      "source": "https://apnews.com/article/b3ba0862276b69469a4b72b433db1013",
+      "url": "https://apnews.com/article/b3ba0862276b69469a4b72b433db1013",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Alaska has withdrawn its agreement to share data. Whether the department has relinquished information it already received is a separate question about implementation.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Alaska has withdrawn its agreement to share data. Whether the department has relinquished information it already received is a separate question about implementation."
     }
   ]
 }

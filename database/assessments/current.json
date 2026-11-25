@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-24",
-  "last_substantive_change": "2026-11-24",
+  "research_as_of": "2026-11-25",
+  "last_substantive_change": "2026-11-25",
   "review": {
-    "date": "2026-11-24",
-    "run_id": "2026-11-24",
+    "date": "2026-11-25",
+    "run_id": "2026-11-25",
     "type": "daily_review",
-    "scope": "Focused review of Iran diplomacy, Venezuela’s talks, the Vitol records request and Alaska’s official results. Other tracked issues carry earlier conclusions or received a limited outcome check. The closing scan also verified Commerce’s Megaspeed rule and Treasury’s Iran designations."
+    "scope": "Focused review of the incoming House majority, Republican reactions to the midterms, Pentagon relations with Canada, flight disruptions, housing litigation and China technology enforcement. Other tracked decisions received limited checks or carry earlier findings."
   },
   "administration": {
-    "headline": "Vance and Rubio meet Qatar as senators weigh Iran spending and seek Venezuelan oil records",
-    "summary": "Vice President JD Vance and Secretary of State Marco Rubio met Qatar’s prime minister separately while talks with Iran remained stalled. Trump still decides whether to authorize new U.S. terms. Senators are considering limits on funding for offensive operations. Senator Maggie Hassan’s request for Venezuelan oil records gives the incoming Senate majority a way to examine how the administration chose its contractors. Venezuela’s government and part of the opposition closed a round of talks with pledges to review laws governing parties and media, while leaving the election date open. Democrats’ projected Senate majority also carries through Alaska’s official results. Commerce filed a rule naming Megaspeed and six other companies for export restrictions after lawmakers pressed for action. Its effect on shipments and licenses remains open. Earlier findings on the Fed, immigration, tariffs, Russia and the Epstein files remain in the detailed assessments with their own evidence dates.",
+    "headline": "Democrats gain a wider projected House majority as Republicans debate why they lost",
+    "summary": "The Associated Press projects at least 259 Democratic House seats after calling a Tennessee race for Victoria Broderick. The larger majority gives incoming leaders more room to press legislation and investigate the administration even if some Democrats disagree. A Washington Post analysis of Senate races in 13 states found that differences in who voted explained more Democratic gains than switching parties. That complicates Vice President JD Vance and Senator Ted Cruz’s argument that Republicans mainly lost voters to Democrats. The Pentagon publicly pressed Canada over defense spending and aircraft procurement, and Canada pointed to the countries’ joint air defense. President Trump still controls U.S. terms for Iran talks and senators have yet to agree on spending limits in the evidence reviewed. The administration faces a new court challenge over federal housing aid, while a jury convicted Huawei and three subsidiaries in a federal sanctions and trade-secret case. Trump’s Nvidia holdings, reported by CBS News after he took credit for pressing the company to bring back Jensen Huang, give congressional investigators a specific financial interest to examine. The White House says independent managers run Trump’s investments. Attorney General Todd Blanche directed Justice Department lawyers to help respond to challenges to immigration detention, according to a memo obtained by CBS.",
     "contests": [
       {
         "id": "white-house-access",
@@ -89,7 +89,7 @@
         "issue_id": "SUC",
         "title": "Vance and his rivals compete for Trump’s voters, donors and campaign teams",
         "status": "contested",
-        "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment. Trump defended the initial decision to fight on Fox News and criticized the June deal Vance helped negotiate. He also praised Vance’s work and denied the deal explained his reassignment. That gives Rubio and supporters of continued pressure a stronger case for alignment with Trump on Iran, while leaving a succession endorsement open. Sharing the briefing gives each a visible role. Their different accounts of the war matter to Republicans deciding whom to credit or blame. Organizer commitments and voter response remain open.",
+        "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment. Trump defended the initial decision to fight on Fox News and criticized the June deal Vance helped negotiate. He also praised Vance’s work and denied the deal explained his reassignment. That gives Rubio and supporters of continued pressure a stronger case for alignment with Trump on Iran, while leaving a succession endorsement open. Sharing the briefing gives each a visible role. Their different accounts of the war matter to Republicans deciding whom to credit or blame. Organizer commitments and voter response remain open. A Washington Post study of 13 states challenges Vance and Senator Ted Cruz’s emphasis on vote switching. Republicans deciding where to spend and recruit face both a turnout problem and, in some states, a persuasion problem.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support. Elon Musk’s midterm spending shows the scale of resources he can bring to Republican candidates. His public distancing makes that support less predictable for a successor. Trump publicly kept the relationship open, and Musk has made no verified commitment to a 2028 candidate in the evidence reviewed.",
         "change": "Trump publicly accepted Vance’s assessment of the war’s electoral cost while defending his own decision to fight. Rubio retained a visible role in presenting the administration’s diplomacy.",
@@ -112,7 +112,8 @@
           "suc-2026-11-19-polls-split-on-rubio-and-vance",
           "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
           "suc-2026-11-18-musk-distances-himself-from-maga",
-          "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+          "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+          "suc-2026-11-25-post-examines-midterm-turnout"
         ],
         "faction_ids": [
           "vance",
@@ -120,7 +121,7 @@
           "tech-right",
           "operation"
         ],
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-25",
         "summary": "Vance and Rubio both joined Trump at his White House briefing. Vance avoided endorsing the political cost of the Iran war, and Rubio had previously defended starting it. November surveys still disagree about which man leads among Republicans."
       },
       {
@@ -155,7 +156,7 @@
         "title": "Congress presses for Epstein records as the White House challenges planned investigations",
         "status": "contested",
         "summary": "Trump directed agencies to coordinate federal contractors’ replies to Congress. House Democrats are already asking people inside and outside government to preserve records.",
-        "assessment": "The order gives agencies and the White House a role before contractors answer questions about covered federal work. Congress retains its power to seek records. How particular privilege claims fare remains open.",
+        "assessment": "The order gives agencies and the White House a role before contractors answer questions about covered federal work. Congress retains its power to seek records. How particular privilege claims fare remains open. The wider projected House majority gives incoming leaders room to pursue investigations alongside bills on living costs. Committee leaders still need to decide which requests to enforce.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
         "change": "Watch whether an agency directs a contractor to withhold documents and whether a committee challenges the decision.",
@@ -179,12 +180,13 @@
           "mid-2026-11-17-peltola-alaska-senate-call",
           "mid-2026-11-18-democrats-nominate-jeffries",
           "mid-2026-11-20-trump-orders-contractor-coordination",
-          "mid-2026-11-22-ap-calls-hubbard-foxx-race"
+          "mid-2026-11-22-ap-calls-hubbard-foxx-race",
+          "mid-2026-11-25-ap-calls-broderick-race"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-25"
       },
       {
         "id": "hegseth-house-referral",
@@ -192,7 +194,7 @@
         "title": "House sends the bid to impeach Defense Secretary Pete Hegseth to committee",
         "status": "contested",
         "summary": "The House referred articles against Defense Secretary Pete Hegseth to Judiciary. Reporting on restrictions concerning Canada and negotiations over Iran spending gives lawmakers additional subjects for oversight.",
-        "assessment": "The projected House majority gives Democrats room to schedule inquiries. A records request or a funding negotiation supplies little evidence about who would vote to remove Hegseth.",
+        "assessment": "AP now projects at least 259 Democratic House seats, giving incoming leaders more room to schedule oversight and act even if some members break ranks. The Pentagon’s public criticism of Canada adds a subject lawmakers can question Hegseth about. The sources reviewed do not establish new votes to impeach or convict him.",
         "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
         "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
         "change": "The Clerk’s recorded referral stands. No later adoption or trial coalition was verified.",
@@ -214,21 +216,23 @@
           "mid-2026-11-19-ernst-questions-pentagon-disclosure",
           "mid-2026-11-20-post-reports-hegseth-canada-guidance",
           "mid-2026-11-22-ap-calls-hubbard-foxx-race",
-          "irn-2026-11-23-senators-discuss-restricting-iran-funding"
+          "irn-2026-11-23-senators-discuss-restricting-iran-funding",
+          "mid-2026-11-25-ap-calls-broderick-race",
+          "mid-2026-11-25-pentagon-criticizes-canada"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-25"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The November 23 estimates carry forward. The request for Vitol records puts Vice President JD Vance’s dealings with a political donor under scrutiny. Vance and Secretary of State Marco Rubio both retain access to Qatar, while President Trump decides whether to offer Iran new terms.",
-    "snapshot_id": "2026-11-24-daily",
+    "summary": "The November 23 estimates carry forward. New analysis challenges JD Vance and Ted Cruz’s explanation of the midterm losses and gives Republican organizers reason to examine who turned out as well as who switched sides.",
+    "snapshot_id": "2026-11-25-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -236,7 +240,7 @@
         "path": "The vice president can still launch with national fundraising contacts and Trump’s attention. His November 20 remarks showed he can criticize the political cost of the Iran war while deferring to Trump’s authority.",
         "coalition": "A recent Echelon list still led with Vance, while Emerson favored Rubio. Vance can recruit people who want both Trump’s immigration program and an end to the war, but successive criticism without a credible next step could cost him their trust.",
         "advantage": "Humor and familiarity at Trump’s briefing can make Vance approachable to voters who identify with the administration.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -245,7 +249,9 @@
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
           "suc-2026-11-19-polls-split-on-rubio-and-vance",
           "ven-2026-11-24-hassan-requests-vitol-records",
-          "irn-2026-11-24-vance-rubio-meet-qatar"
+          "irn-2026-11-24-vance-rubio-meet-qatar",
+          "suc-2026-11-25-post-examines-midterm-turnout",
+          "ai-2026-11-25-trump-disclosures-and-huang-reaction"
         ],
         "source_ids": [
           "daily_vance_brand_20261107",
@@ -258,9 +264,12 @@
           "daily-20261120-echelon",
           "daily-20261124-qatar",
           "daily-20261124-hassan",
-          "daily-20261124-vitol"
+          "daily-20261124-vitol",
+          "daily-20261125-post",
+          "daily-20261125-nvstock",
+          "daily-20261125-nvreaction"
         ],
-        "reviewed_at": "2026-11-24"
+        "reviewed_at": "2026-11-25"
       },
       {
         "candidate_id": "marco_rubio",
@@ -328,14 +337,15 @@
         "path": "The Texas senator can call Iowa contacts from his earlier bid and ask hawkish donors and tariff skeptics to back a new campaign. The reported intention to run gives him a reason to recruit while other candidates wait.",
         "coalition": "Former Iowa organizers are a plausible source of experienced staff. Some security-minded voters could pick Rubio and fiscal critics can consider Paul. If Cruz recruits first, earlier ties may matter before Trump gives any endorsement.",
         "advantage": "Cruz’s willingness to debate policy in detail can attract activists who want a confrontational candidate.",
-        "vulnerability": "Cruz’s Iowa contacts give him a place to start. He would still have to win voters outside that group, especially if Trump backs Vance.",
+        "vulnerability": "Cruz’s Iowa contacts give him a place to start. He would still have to win voters outside that group, especially if Trump backs Vance. Cruz echoed Vance’s emphasis on voters switching parties. A precinct study gives that explanation more weight in Texas than across the 13 states it studied. Cruz still needs evidence that his approach can also bring back people who sat out.",
         "positions": "Cruz generally favors a forceful foreign policy but has criticized tariffs. These positions may attract different groups of Republican voters rather than one united base.",
         "money": "Donors supported Cruz in earlier presidential contests. We have not established that those relationships will become financial commitments for 2028.",
         "event_ids": [
           "suc-2025-12-47212e",
           "mid-2026-11-10-rudofsky-nomination-withdrawn",
           "suc-2026-11-15-vance-2028-timing-report",
-          "suc-2026-11-16-cruz-prepares-presidential-run"
+          "suc-2026-11-16-cruz-prepares-presidential-run",
+          "suc-2026-11-25-post-examines-midterm-turnout"
         ],
         "source_ids": [
           "cruz_donor_positioning",
@@ -350,9 +360,10 @@
           "daily_20261116_vance",
           "weekly-20261116-reuters",
           "weekly-20261116-poll",
-          "weekly-20261116-paul"
+          "weekly-20261116-paul",
+          "daily-20261125-post"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-25"
       },
       {
         "candidate_id": "john_mcentee",
@@ -437,7 +448,7 @@
         "person_id": "massie",
         "path": "The Kentucky representative forced a House vote on the Hegseth resolution. His own primary defeat and a reported Libertarian draft complicate a Republican route even if more voters are willing to hear him.",
         "coalition": "Seven percent on Emerson’s open-ended Republican question named Massie. That gives him a starting point among voters interested in his candidacy. Some people who support his opposition to the war could prefer Rand Paul or urge Massie to run as a Libertarian.",
-        "advantage": "Representative Thomas Massie forced the House to vote on referring his impeachment resolution against Defense Secretary Pete Hegseth. The roll call gives voters a public record of which members resisted sending the case to committee.",
+        "advantage": "Representative Thomas Massie forced the House to vote on referring his impeachment resolution against Defense Secretary Pete Hegseth. The roll call gives voters a public record of which members resisted sending the case to committee. Incoming House Democrats may have more room to cooperate with Massie on records or war powers. Republican voters, donors and state organizers would still have to choose to support a presidential bid.",
         "vulnerability": "Coverage of a congressional vote or outside draft can raise his visibility without yielding Republican delegates.",
         "positions": "Massie has pushed for congressional approval of military action and disclosure of government records. The review has not established a complete current presidential platform.",
         "money": "Groups spent money supporting Massie in his House primary. That does not establish that he controls those funds or that the same groups would finance a presidential campaign.",
@@ -456,7 +467,8 @@
           "weekly-20261116-massie",
           "daily-20261117-kuwait-complaint",
           "daily-20261117-trump-cbs",
-          "daily-20261120-polls-split-on-rubio-and-vance"
+          "daily-20261120-polls-split-on-rubio-and-vance",
+          "daily-20261125-house"
         ],
         "event_ids": [
           "suc-2026-11-08-massie-party-route",
@@ -465,9 +477,10 @@
           "eps-2026-11-11-massie-epstein-petition-threshold",
           "mid-2026-11-15-blumenthal-requests-kuwait-base-defense-records",
           "irn-2026-11-16-trump-disputes-cbs-account-of-iran-attacks",
-          "suc-2026-11-19-polls-split-on-rubio-and-vance"
+          "suc-2026-11-19-polls-split-on-rubio-and-vance",
+          "mid-2026-11-25-ap-calls-broderick-race"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-25"
       }
     ],
     "scenario_labels": {

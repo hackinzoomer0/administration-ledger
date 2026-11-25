@@ -1002,6 +1002,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Vance can keep access to Trump while leaving room to criticize the war’s electoral cost. Rubio can show access through his diplomatic role. The appearance gives neither contender a presidential endorsement or demonstrated voter support."
+    },
+    {
+      "id": "suc-2026-11-25-post-examines-midterm-turnout",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "SUC",
+        "MID"
+      ],
+      "kind": "chron",
+      "actor": "The Washington Post",
+      "text": "Washington Post finds turnout explained more Democratic gains than vote switching in 13 states",
+      "context": "The Washington Post estimated that differences in who voted explained around 70 percent of Democratic gains across the Senate races it studied. Vice President JD Vance and Texas Senator Ted Cruz publicly emphasized voters who switched parties. The analysis found that switching mattered more in some states, including Texas.",
+      "source": "https://www.washingtonpost.com/politics/2026/11/24/who-stayed-home-who-showed-up-who-switched-inside-2026-democratic-wave/",
+      "url": "https://www.washingtonpost.com/politics/2026/11/24/who-stayed-home-who-showed-up-who-switched-inside-2026-democratic-wave/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Republicans deciding where to spend money and recruit volunteers have reason to examine who stayed home, alongside why some Trump voters switched. Precinct estimates do not reveal individual moves directly or measure 2028 primary preferences.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Republicans deciding where to spend money and recruit volunteers have reason to examine who stayed home, alongside why some Trump voters switched. Precinct estimates do not reveal individual moves directly or measure 2028 primary preferences."
     }
   ]
 }

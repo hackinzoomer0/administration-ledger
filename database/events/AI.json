@@ -2111,6 +2111,54 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Commerce moved from investigating the companies to naming them in an export rule. Licensing decisions and shipments will show how far the restrictions reach."
+    },
+    {
+      "id": "ai-2026-11-25-jury-convicts-huawei",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "TAR",
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "Federal jury in Brooklyn",
+      "text": "U.S. jury convicts Huawei and three subsidiaries in sanctions and trade-secret case",
+      "context": "The Justice Department announced guilty verdicts against Huawei and three subsidiaries on charges including conspiracy to steal trade secrets, fraud and sanctions violations. Sentencing remains ahead.",
+      "source": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
+      "url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Prosecutors won a verdict in a case begun under Trump’s first administration. The court will decide penalties. The verdict does not itself change the administration’s chip licensing rules.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Prosecutors won a verdict in a case begun under Trump’s first administration. The court will decide penalties. The verdict does not itself change the administration’s chip licensing rules."
+    },
+    {
+      "id": "ai-2026-11-25-trump-disclosures-and-huang-reaction",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "SUC",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump, White House and Democratic elected officials",
+      "text": "Trump’s Nvidia holdings draw scrutiny after he helped bring back Jensen Huang",
+      "context": "President Trump told CNBC he pressed Nvidia’s board to bring back chief executive Jensen Huang and argued that Huang’s leadership helps the United States compete with China. CBS News reported that Trump’s disclosures showed substantial Nvidia stock holdings at the end of 2025. The White House told CBS that independent managers make his investment decisions. Illinois Governor JB Pritzker publicly accused Trump and Vice President JD Vance of favoring technology billionaires.",
+      "source": "https://www.cbsnews.com/news/trump-nvidia-stock-jensen-huang/",
+      "url": "https://www.cbsnews.com/news/trump-nvidia-stock-jensen-huang/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The combination gives congressional investigators and Democrats a specific reason to ask whose interests the intervention served. The disclosures establish a financial interest at a point in time. The reports leave Trump’s current holdings, his motive, Vance’s role and voter reaction unresolved.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The combination gives congressional investigators and Democrats a specific reason to ask whose interests the intervention served. The disclosures establish a financial interest at a point in time. The reports leave Trump’s current holdings, his motive, Vance’s role and voter reaction unresolved."
     }
   ]
 }

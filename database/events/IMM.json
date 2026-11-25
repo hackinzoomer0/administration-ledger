@@ -2213,6 +2213,73 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The ruling concerns compliance with a federal release order in Colorado."
+    },
+    {
+      "id": "imm-2026-11-25-states-challenge-hud-housing-rule",
+      "date": "2026-11-23",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Massachusetts, California and New York attorneys general",
+      "text": "States sue HUD over federal housing aid for families with mixed immigration status",
+      "context": "A coalition led by Massachusetts, California and New York asked a federal court to block a Department of Housing and Urban Development rule that would end aid for households with both eligible and ineligible members. The states argue federal law permits these households to receive reduced aid based on how many people qualify.",
+      "source": "https://www.mass.gov/news/ag-campbell-sues-to-protect-housing-assistance-for-mixed-status-families",
+      "url": "https://www.mass.gov/news/ag-campbell-sues-to-protect-housing-assistance-for-mixed-status-families",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The plaintiffs are asking a federal court to constrain HUD’s implementation. Filing the suit creates a route to relief for affected households, while the court’s response and any actual loss of aid remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The plaintiffs are asking a federal court to constrain HUD’s implementation. Filing the suit creates a route to relief for affected households, while the court’s response and any actual loss of aid remain open."
+    },
+    {
+      "id": "imm-2026-11-25-blanche-directs-detention-case-help",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "IMM",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Attorney General Todd Blanche",
+      "text": "Blanche orders Justice Department lawyers to help defend immigration detention cases",
+      "context": "CBS News obtained a November 24 memo in which Attorney General Todd Blanche directed civil litigation divisions to help defend the government against challenges to immigration detention. The memo describes pressure on federal prosecutors’ offices and gives no count of individual attorneys who will be reassigned.",
+      "source": "https://www.cbsnews.com/news/ice-detainee-lawsuits-justice-department-non-immigration-attorneys/",
+      "url": "https://www.cbsnews.com/news/ice-detainee-lawsuits-justice-department-non-immigration-attorneys/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The order gives the Justice Department more ways to staff its defense of detention policies. Judges still decide whether detention is lawful. Effects on case delays and other Justice Department work remain open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The order gives the Justice Department more ways to staff its defense of detention policies. Judges still decide whether detention is lawful. Effects on case delays and other Justice Department work remain open."
+    },
+    {
+      "id": "imm-2026-11-25-abrego-garcia-leaves-for-spain",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Kilmar Abrego Garcia",
+      "text": "Kilmar Abrego Garcia leaves the United States for Spain after deportation fight",
+      "context": "The Associated Press reported that Kilmar Abrego Garcia voluntarily left for Spain after a dispute over his mistaken deportation to El Salvador. CBS News reported that the Department of Homeland Security confirmed his departure and arrival.",
+      "source": "https://apnews.com/article/kilmar-abrego-garcia-deportation-trump-immigration-790f160a85f279d7bb4105412f0ce367",
+      "url": "https://apnews.com/article/kilmar-abrego-garcia-deportation-trump-immigration-790f160a85f279d7bb4105412f0ce367",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The move resolves where he went after the government’s effort to send him to another country. It leaves the broader rules governing deportation and court review to other cases.",
+      "origin": "daily shared intake",
+      "added": "2026-11-25",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The move resolves where he went after the government’s effort to send him to another country. It leaves the broader rules governing deportation and court review to other cases."
     }
   ]
 }
