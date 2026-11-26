@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-25",
-  "last_substantive_change": "2026-11-25",
+  "research_as_of": "2026-11-26",
+  "last_substantive_change": "2026-11-26",
   "review": {
-    "date": "2026-11-25",
-    "run_id": "2026-11-25",
+    "date": "2026-11-26",
+    "run_id": "2026-11-26",
     "type": "daily_review",
-    "scope": "Focused review of the incoming House majority, Republican reactions to the midterms, Pentagon relations with Canada, flight disruptions, housing litigation and China technology enforcement. Other tracked decisions received limited checks or carry earlier findings."
+    "scope": "Focused Thanksgiving review of court rulings, federal service interruptions, trade proposals, congressional oversight and reactions to Nvidia leadership. Election certification, active court dockets, Iran funding, Venezuela’s election timetable and nomination organizing received limited checks."
   },
   "administration": {
-    "headline": "Democrats gain a wider projected House majority as Republicans debate why they lost",
-    "summary": "The Associated Press projects at least 259 Democratic House seats after calling a Tennessee race for Victoria Broderick. The larger majority gives incoming leaders more room to press legislation and investigate the administration even if some Democrats disagree. A Washington Post analysis of Senate races in 13 states found that differences in who voted explained more Democratic gains than switching parties. That complicates Vice President JD Vance and Senator Ted Cruz’s argument that Republicans mainly lost voters to Democrats. The Pentagon publicly pressed Canada over defense spending and aircraft procurement, and Canada pointed to the countries’ joint air defense. President Trump still controls U.S. terms for Iran talks and senators have yet to agree on spending limits in the evidence reviewed. The administration faces a new court challenge over federal housing aid, while a jury convicted Huawei and three subsidiaries in a federal sanctions and trade-secret case. Trump’s Nvidia holdings, reported by CBS News after he took credit for pressing the company to bring back Jensen Huang, give congressional investigators a specific financial interest to examine. The White House says independent managers run Trump’s investments. Attorney General Todd Blanche directed Justice Department lawyers to help respond to challenges to immigration detention, according to a memo obtained by CBS.",
+    "headline": "Judge halts ABC license review as Republican senators call for Nvidia oversight",
+    "summary": "A federal judge halted the Federal Communications Commission’s early review of eight ABC station licenses. The injunction limits one way the administration can press a broadcaster during litigation. Democrats’ projected House majority gives incoming leaders more room to investigate, and Republican senators’ calls for oversight of Nvidia give them a point of agreement. Vice President JD Vance defended the company’s importance to U.S. competition with China and played down the need for a pardon for its chief executive, Jensen Huang. Congress can question Huang and other witnesses about Trump’s role in bringing him back. The Army reported destroying unstable explosives at its Iowa ammunition plant, while state leaders and residents still have reason to press for environmental results and a clear account of who knew about the hazard. U.S. Trade Representative Jamieson Greer’s new tariff proposals give him leverage with trading partners. They leave the rates importers will actually pay open.",
     "contests": [
       {
         "id": "white-house-access",
@@ -92,7 +92,7 @@
         "assessment": "Vance’s Republican fundraising role and connections to donors and activist organizations could help him start a presidential campaign quickly. Rubio and other rivals have their own relationships and reasons to run. Public praise, donor interest and a formal endorsement are different levels of commitment. Trump defended the initial decision to fight on Fox News and criticized the June deal Vance helped negotiate. He also praised Vance’s work and denied the deal explained his reassignment. That gives Rubio and supporters of continued pressure a stronger case for alignment with Trump on Iran, while leaving a succession endorsement open. Sharing the briefing gives each a visible role. Their different accounts of the war matter to Republicans deciding whom to credit or blame. Organizer commitments and voter response remain open. A Washington Post study of 13 states challenges Vance and Senator Ted Cruz’s emphasis on vote switching. Republicans deciding where to spend and recruit face both a turnout problem and, in some states, a persuasion problem.",
         "authority": "Republican primary voters and convention delegates select the nominee. Trump can endorse a candidate and encourage his supporters to back that person, but he does not select the nominee on his own.",
         "leverage": "Fundraisers can supply campaign money; activists can recruit volunteers; endorsements can help voters choose among candidates. A relationship helps only if the people involved actually commit support. Elon Musk’s midterm spending shows the scale of resources he can bring to Republican candidates. His public distancing makes that support less predictable for a successor. Trump publicly kept the relationship open, and Musk has made no verified commitment to a 2028 candidate in the evidence reviewed.",
-        "change": "Trump publicly accepted Vance’s assessment of the war’s electoral cost while defending his own decision to fight. Rubio retained a visible role in presenting the administration’s diplomacy.",
+        "change": "Trump publicly accepted Vance’s assessment of the war’s electoral cost while defending his own decision to fight. Rubio retained a visible role in presenting the administration’s diplomacy. Vance publicly defended Nvidia’s importance as Republican senators called for oversight. This gives those senators a point of disagreement with Vance without establishing a new presidential endorsement or change in duties.",
         "basis": {
           "actions": "The RNC finance role, Malik fundraiser and Turning Point backing are concrete channels.",
           "positions": "Public deferral, message support and a candidate endorsement mean different things.",
@@ -113,7 +113,8 @@
           "irn-2026-11-18-trump-criticizes-iran-ceasefire-memorandum",
           "suc-2026-11-18-musk-distances-himself-from-maga",
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
-          "suc-2026-11-25-post-examines-midterm-turnout"
+          "suc-2026-11-25-post-examines-midterm-turnout",
+          "ai-2026-11-25-vance-downplays-huang-pardon"
         ],
         "faction_ids": [
           "vance",
@@ -121,7 +122,7 @@
           "tech-right",
           "operation"
         ],
-        "reviewed_at": "2026-11-25",
+        "reviewed_at": "2026-11-26",
         "summary": "Vance and Rubio both joined Trump at his White House briefing. Vance avoided endorsing the political cost of the Iran war, and Rubio had previously defended starting it. November surveys still disagree about which man leads among Republicans."
       },
       {
@@ -203,7 +204,7 @@
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
           "money": "The available evidence establishes how members voted."
         },
-        "watch": "Watch for Judiciary action or an announced House vote, evidence about Hegseth’s decisions on troop protection and named Senate trial commitments. His announcement of a military deal in Caracas confirms he continues to act as defense secretary.",
+        "watch": "Watch for Judiciary action or an announced House vote, evidence about Hegseth’s decisions on troop protection and named Senate trial commitments. His announcement of a military deal in Caracas confirms he continues to act as defense secretary. Check Army notification records and the Iowa environmental results. CBS attributed the alleged failure to notify Hegseth to unnamed officials.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
           "mid-2026-11-10-republican-leadership-results",
@@ -218,21 +219,22 @@
           "mid-2026-11-22-ap-calls-hubbard-foxx-race",
           "irn-2026-11-23-senators-discuss-restricting-iran-funding",
           "mid-2026-11-25-ap-calls-broderick-race",
-          "mid-2026-11-25-pentagon-criticizes-canada"
+          "mid-2026-11-25-pentagon-criticizes-canada",
+          "mid-2026-11-25-army-completes-iowa-disposal"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-25"
+        "reviewed_at": "2026-11-26"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The November 23 estimates carry forward. New analysis challenges JD Vance and Ted Cruz’s explanation of the midterm losses and gives Republican organizers reason to examine who turned out as well as who switched sides.",
-    "snapshot_id": "2026-11-25-daily",
+    "summary": "The November 23 estimates carry forward. Vance’s public defense of Nvidia puts his judgment in focus as Republicans call for stronger oversight of the company’s exports.",
+    "snapshot_id": "2026-11-26-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -240,7 +242,7 @@
         "path": "The vice president can still launch with national fundraising contacts and Trump’s attention. His November 20 remarks showed he can criticize the political cost of the Iran war while deferring to Trump’s authority.",
         "coalition": "A recent Echelon list still led with Vance, while Emerson favored Rubio. Vance can recruit people who want both Trump’s immigration program and an end to the war, but successive criticism without a credible next step could cost him their trust.",
         "advantage": "Humor and familiarity at Trump’s briefing can make Vance approachable to voters who identify with the administration.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open. Vance’s public defense of Nvidia’s role in competition with China ties him to Trump’s decision to press for Huang’s return. Republican calls for oversight give senators a reason to question how Vance would enforce chip export controls. Primary voters’ response remains open.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -251,7 +253,8 @@
           "ven-2026-11-24-hassan-requests-vitol-records",
           "irn-2026-11-24-vance-rubio-meet-qatar",
           "suc-2026-11-25-post-examines-midterm-turnout",
-          "ai-2026-11-25-trump-disclosures-and-huang-reaction"
+          "ai-2026-11-25-trump-disclosures-and-huang-reaction",
+          "ai-2026-11-25-vance-downplays-huang-pardon"
         ],
         "source_ids": [
           "daily_vance_brand_20261107",
@@ -267,9 +270,13 @@
           "daily-20261124-vitol",
           "daily-20261125-post",
           "daily-20261125-nvstock",
-          "daily-20261125-nvreaction"
+          "daily-20261125-nvreaction",
+          "daily-20261126-vance",
+          "daily-20261126-axios",
+          "daily-20261126-hearing",
+          "daily-20261126-interviews"
         ],
-        "reviewed_at": "2026-11-25"
+        "reviewed_at": "2026-11-26"
       },
       {
         "candidate_id": "marco_rubio",

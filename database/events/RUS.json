@@ -1673,6 +1673,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: European governments can withhold cooperation and keep Russian assets immobilized. Trump’s contact with Putin keeps negotiations open, while the parties still disagree about the conditions for a deal."
+    },
+    {
+      "id": "rus-2026-11-25-consortium-signs-lukoil-deal",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "U.S. International Development Finance Corporation and consortium partners",
+      "text": "Consortium including a U.S. government lender signs a deal for Lukoil’s overseas assets",
+      "context": "Todd Boehly told Reuters that a consortium including the U.S. International Development Finance Corporation signed a deal to acquire the overseas assets of the sanctioned Russian oil company Lukoil.",
+      "source": "https://live.euronext.com/en/financial-news/exclusive-us-billionaire-boehly-signs-us-backed-share-swap-deal-buy-lukoil-global",
+      "url": "https://live.euronext.com/en/financial-news/exclusive-us-billionaire-boehly-signs-us-backed-share-swap-deal-buy-lukoil-global",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The agreement puts a U.S. government lender inside the proposed purchase. A signed deal leaves Treasury clearance and the transfer of assets open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-26",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The reported agreement leaves Treasury clearance and control of the assets open."
     }
   ]
 }

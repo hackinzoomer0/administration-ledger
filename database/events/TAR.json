@@ -1302,6 +1302,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The negotiating announcement leaves actual tariff rates and the terms of market access to later implementation."
+    },
+    {
+      "id": "tar-2026-11-25-ustr-proposes-industrial-tariffs",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "TAR"
+      ],
+      "kind": "act",
+      "actor": "Jamieson Greer",
+      "text": "U.S. trade representative proposes tariffs on 14 economies over manufacturing subsidies and excess capacity",
+      "context": "U.S. Trade Representative Jamieson Greer determined that practices in 14 economies burden U.S. commerce and proposed responses under Section 301 of the Trade Act. Japan publicly disputed the premise. Thailand’s government spokesperson said its proposed cap was more favorable than expected.",
+      "source": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+      "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The proposals give Greer specific terms to negotiate. Duties remain subject to further action. Japan’s objection and Thailand’s response point to different bargaining positions.",
+      "origin": "daily shared intake",
+      "added": "2026-11-26",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The published proposals leave final tariff rates and bargaining outcomes open."
     }
   ]
 }

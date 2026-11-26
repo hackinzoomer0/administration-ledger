@@ -3156,6 +3156,72 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Alaska has withdrawn its agreement to share data. Whether the department has relinquished information it already received is a separate question about implementation."
+    },
+    {
+      "id": "mid-2026-11-25-court-blocks-fcc-abc-review",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "U.S. District Judge Loren AliKhan",
+      "text": "Federal judge blocks early FCC license review of eight ABC stations",
+      "context": "Judge Loren AliKhan found ABC likely to succeed on its First Amendment claim and barred the Federal Communications Commission from continuing early renewals during litigation. An FCC spokesperson disputed the decision.",
+      "source": "https://thedesk.net/wp-content/uploads/2026/11/2026-11-Disney-v-Fcc-Injunction-Order.pdf",
+      "url": "https://thedesk.net/wp-content/uploads/2026/11/2026-11-Disney-v-Fcc-Injunction-Order.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: ABC won immediate protection from this license review. The ruling leaves the merits and any appeal open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-26",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The operational or court decision affects this episode. The sources leave wider shifts in faction influence open."
+    },
+    {
+      "id": "mid-2026-11-25-army-completes-iowa-disposal",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "U.S. Army and Iowa Governor-elect Rob Sand",
+      "text": "Army reports completing disposal of unstable explosives at its Iowa ammunition plant",
+      "context": "The Army said it completed the November 25 disposal at its Iowa ammunition plant. Governor-elect Rob Sand thanked the safety experts and criticized the lead-up. CBS News cited unnamed officials who said then-Army Secretary Dan Driscoll failed to alert Defense Secretary Pete Hegseth or other senior officials. A separate CBS source said the Army notified Hegseth’s office early, and other officials said the notice never reached Hegseth personally.",
+      "source": "https://apnews.com/article/77fa69b9e88b46c5d1adc29841d2b4cc",
+      "url": "https://apnews.com/article/77fa69b9e88b46c5d1adc29841d2b4cc",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The Army’s announcement settles whether the operation went ahead. Environmental measurements and notification records will test safety and who knew about the hazard. Sand’s public criticism puts the administration under pressure to explain how it informed residents.",
+      "origin": "daily shared intake",
+      "added": "2026-11-26",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The operational or court decision affects this episode. The sources leave wider shifts in faction influence open."
+    },
+    {
+      "id": "mid-2026-11-24-fincen-extends-reporting-deadlines",
+      "date": "2026-11-24",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Financial Crimes Enforcement Network",
+      "text": "Treasury extends some reporting deadlines after its financial crimes office takes systems offline",
+      "context": "The Financial Crimes Enforcement Network disclosed unauthorized access to a limited group of systems and said some were taken offline. Its order extends certain deadlines to December 30 for institutions that used an affected filing channel.",
+      "source": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+      "url": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The order gives affected institutions time to file. The agency has yet to establish publicly what information was exposed or how long normal filing will take to restore.",
+      "origin": "daily shared intake",
+      "added": "2026-11-26",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The operational or court decision affects this episode. The sources leave wider shifts in faction influence open."
     }
   ]
 }

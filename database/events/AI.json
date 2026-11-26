@@ -2159,6 +2159,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The combination gives congressional investigators and Democrats a specific reason to ask whose interests the intervention served. The disclosures establish a financial interest at a point in time. The reports leave Trump’s current holdings, his motive, Vance’s role and voter reaction unresolved."
+    },
+    {
+      "id": "ai-2026-11-25-vance-downplays-huang-pardon",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "AI",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "JD Vance",
+      "text": "Vice President JD Vance says Nvidia chief Jensen Huang is unlikely to need a pardon",
+      "context": "Speaking to reporters at an Ohio air base, Vice President JD Vance defended Nvidia’s role in competition with China and played down a pardon. President Trump had named Vance among the officials enlisted to make the case to Nvidia’s board for reinstating Huang. Axios reported that Republican Senators John Cornyn, John Curtis and Kevin Cramer called for close oversight.",
+      "source": "https://apnews.com/article/a8d3d781f182317cbff28863d56add5d",
+      "url": "https://apnews.com/article/a8d3d781f182317cbff28863d56add5d",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Vance has put his own judgment behind the effort to restore Huang. Republican calls for oversight give senators a way to press the administration for evidence on export enforcement. The remarks leave Huang’s legal exposure and voters’ response open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-26",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Public support and oversight demands do not yet establish a change in who makes export decisions."
     }
   ]
 }
