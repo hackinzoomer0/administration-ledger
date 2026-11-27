@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "title": "2028 Republican nomination candidate wargame",
-  "as_of_date": "2026-11-26",
+  "as_of_date": "2026-11-27",
   "timezone": "America/Chicago",
   "scope": {
     "candidates": [
@@ -3399,6 +3399,38 @@
       "publication_date": "2026-11-23",
       "accessed_on": "2026-11-26",
       "description": "Chairs confirmed December 1 Huang and December 2 Teter interviews."
+    },
+    {
+      "id": "daily-20261127-port",
+      "url": "https://www.thedailybeast.com/barstool-boss-dave-portnoy-writes-off-jd-vance-with-ron-desantis-as-2028-pick",
+      "publication_date": "2026-11-26",
+      "accessed_on": "2026-11-27",
+      "publisher": "The Daily Beast",
+      "description": "Reports Dave Portnoy’s stated preference for Ron DeSantis and for Marco Rubio over JD Vance."
+    },
+    {
+      "id": "daily-20261127-portclip",
+      "url": "https://www.mediaite.com/media/news/jds-done-dave-portnoy-tells-scott-jennings-his-top-presidential-pick-for-2028/",
+      "publication_date": "2026-11-25",
+      "accessed_on": "2026-11-27",
+      "publisher": "Mediaite",
+      "description": "Quotes the same interview and embeds the show’s excerpt. One observed commentator response."
+    },
+    {
+      "id": "daily-20261127-axios",
+      "url": "https://www.axios.com/2026/11/27/vance-rubio-trump-downside-2028",
+      "publication_date": "2026-11-27",
+      "accessed_on": "2026-11-27",
+      "publisher": "Axios",
+      "description": "Axios compares Vance and Rubio’s policy differences and costs of defending Trump."
+    },
+    {
+      "id": "daily-20261127-fl",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-emergency-disaster-relief-storms-florida-november-26-2026/",
+      "publication_date": "2026-11-26",
+      "accessed_on": "2026-11-27",
+      "publisher": "Roll Call Factbase",
+      "description": "Trump announced approval of federal disaster relief for Florida."
     }
   ],
   "roster_authorization": {
@@ -34251,6 +34283,355 @@
               ],
               "event_ids": [
                 "ai-2026-11-25-vance-downplays-huang-pardon"
+              ]
+            }
+          ],
+          "prediction_updates": []
+        }
+      },
+      {
+        "id": "2026-11-27-daily",
+        "date": "2026-11-27",
+        "run_id": "2026-11-27",
+        "type": "daily_review",
+        "summary": "The November 23 forecast carries forward. Barstool Sports founder Dave Portnoy publicly favored Florida Governor Ron DeSantis over Vice President JD Vance and Secretary of State Marco Rubio. His remarks show how one media figure weighs ties to Trump. Whether voters, donors and organizers make the same comparison remains open.",
+        "probabilities_pct": {
+          "jd_vance": 29.3,
+          "marco_rubio": 12.6,
+          "ron_desantis": 18.55,
+          "ted_cruz": 8.4,
+          "john_mcentee": 6.1,
+          "rand_paul": 10.6,
+          "brian_kemp": 11.5,
+          "thomas_massie": 2.95
+        },
+        "assessments": {
+          "jd_vance": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Portnoy said Vance’s association with Trump hurt his prospects. Vance’s willingness to defend Nvidia’s role gives him a way to show loyalty and claim a stake in U.S. technology policy. It also gives critics a specific decision to question. Whether Republican primary voters share Portnoy’s view remains open.",
+            "review_status": "partial",
+            "source_ids": [
+              "daily_vance_brand_20261107",
+              "weekly_vance_debate_poll",
+              "daily_20261116_vance",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters",
+              "daily-20261121-succ",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261124-qatar",
+              "daily-20261124-hassan",
+              "daily-20261124-vitol",
+              "daily-20261125-post",
+              "daily-20261125-nvstock",
+              "daily-20261125-nvreaction",
+              "daily-20261126-vance",
+              "daily-20261126-axios",
+              "daily-20261126-hearing",
+              "daily-20261126-interviews",
+              "daily-20261127-port",
+              "daily-20261127-portclip",
+              "daily-20261127-axios"
+            ],
+            "event_ids": [
+              "irn-2026-11-04-vance-postelection-war-critique",
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "ven-2026-11-24-hassan-requests-vitol-records",
+              "irn-2026-11-24-vance-rubio-meet-qatar",
+              "suc-2026-11-25-post-examines-midterm-turnout",
+              "ai-2026-11-25-trump-disclosures-and-huang-reaction",
+              "ai-2026-11-25-vance-downplays-huang-pardon",
+              "suc-2026-11-25-portnoy-prefers-desantis"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "vance",
+                "direction": "both",
+                "mechanism": "The existing finance role, fundraiser and organization build a candidate channel; his public war postmortem gives the lane a distinct succession argument without proving voter conversion.",
+                "event_ids": [
+                  "suc-2025-03-58b7aa",
+                  "suc-2026-08-19-b59801",
+                  "suc-2025-12-18-766631",
+                  "irn-2026-11-04-vance-postelection-war-critique",
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ"
+                ]
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "faction_to_nominee",
+                "mechanism": "Historical patronage supplies access, but continued support and policy agreement must be assessed separately.",
+                "event_ids": [
+                  "suc-2026-09-24-11ac54"
+                ],
+                "source_ids": []
+              },
+              {
+                "faction_id": "tech-right",
+                "direction": "both",
+                "mechanism": "Vance’s public defense gives Nvidia allies a prominent advocate. That puts his judgment under scrutiny among Republicans who favor tighter export enforcement.",
+                "source_ids": [
+                  "daily-20261126-vance",
+                  "daily-20261126-axios",
+                  "daily-20261126-hearing",
+                  "daily-20261126-interviews"
+                ],
+                "event_ids": [
+                  "ai-2026-11-25-vance-downplays-huang-pardon"
+                ]
+              }
+            ]
+          },
+          "marco_rubio": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Portnoy preferred Rubio to Vance but favored DeSantis over both. Axios reported that Rubio had warned Trump about Nvidia’s chief executive, while Rubio publicly defended the decision to strike Iran. These positions give Rubio ways to distinguish his judgment from Vance’s, while leaving his own exposure to criticism of the war in place.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "griffin_rubio",
+              "causal_rubio_denial",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "daily-20261121-succ",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "daily-20261120-echelon",
+              "daily-20261124-qatar",
+              "daily-20261124-mofa",
+              "daily-20261127-port",
+              "daily-20261127-portclip",
+              "daily-20261127-axios"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "irn-2026-11-24-vance-rubio-meet-qatar",
+              "suc-2026-11-25-portnoy-prefers-desantis"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "State/NSC access and donor preference preserve a rival route; public war defense gives hawks an alternative to Vance but limits separation from administration costs.",
+                "event_ids": [
+                  "suc-2025-12-7eb8a2",
+                  "suc-2026-07-30e83e",
+                  "irn-2026-11-04-vance-postelection-war-critique",
+                  "suc-2026-11-20-vance-and-rubio-join-trump-briefing"
+                ],
+                "source_ids": [
+                  "daily-20261121-succ"
+                ]
+              }
+            ]
+          },
+          "ron_desantis": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. Portnoy’s preference gives DeSantis a prominent public supporter in a hypothetical race. Florida’s disaster declaration also gives the governor a concrete example of securing federal approval after flooding. Whether residents receive aid promptly and whether that record helps him recruit nationally remain open.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_desantis_campaign",
+              "weekly_ap_entry_recovered",
+              "desantis_donors",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "weekly-20261123-desantis-book",
+              "daily-20261127-port",
+              "daily-20261127-portclip",
+              "daily-20261127-axios",
+              "daily-20261127-fl"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-25-portnoy-prefers-desantis",
+              "mid-2026-11-26-trump-approves-florida-flood-relief"
+            ],
+            "faction_links": []
+          },
+          "ted_cruz": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. This review found no new evidence that warrants a change to the candidate’s documented path.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_2015_debate",
+              "cruz_donor_positioning",
+              "weekly_ap_entry_recovered",
+              "weekly-20261116-reuters",
+              "weekly-20261116-poll",
+              "weekly-20261116-paul",
+              "daily-20261125-post"
+            ],
+            "event_ids": [
+              "suc-2026-11-16-cruz-prepares-presidential-run",
+              "suc-2026-11-25-post-examines-midterm-turnout"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "hawks",
+                "direction": "both",
+                "mechanism": "Donor-facing positioning distinguishes him from Vance; the same hawkish networks also court Rubio, so factional preference is not an exclusive candidate coalition.",
+                "event_ids": [
+                  "suc-2025-12-47212e"
+                ],
+                "source_ids": [
+                  "cruz_donor_positioning"
+                ]
+              }
+            ]
+          },
+          "john_mcentee": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. This review found no new evidence that warrants a change to the candidate’s documented path.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_mcentee_interview",
+              "project2025",
+              "mcentee_withdrawal",
+              "weekly_tencent_ld2",
+              "weekly-20261116-mcentee",
+              "weekly-20261116-reuters",
+              "weekly-20261123-mcentee-axios"
+            ],
+            "event_ids": [],
+            "faction_links": [
+              {
+                "faction_id": "maximalists",
+                "direction": "both",
+                "mechanism": "Historical personnel recruitment offers an executive-control capability relevant to this faction’s goals; that is a policy-channel analogy, not evidence that its current leaders support his nomination.",
+                "event_ids": [],
+                "source_ids": [
+                  "project2025"
+                ]
+              },
+              {
+                "faction_id": "vance",
+                "direction": "nominee_to_faction",
+                "mechanism": "His actual 2020 withdrawal directive work could contest an exclusive claim to demonstrated restraint; no current endorsement, alliance or bloc of primary votes follows.",
+                "event_ids": [],
+                "source_ids": [
+                  "mcentee_withdrawal"
+                ]
+              }
+            ]
+          },
+          "rand_paul": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. This review found no new evidence that warrants a change to the candidate’s documented path.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "weekly_2015_debate",
+              "paul_official_positions",
+              "paul_entry_cbs_2026",
+              "weekly-20261116-paul",
+              "weekly-20261116-reuters",
+              "daily-20261120-iran-senate-vote"
+            ],
+            "event_ids": [
+              "irn-2026-11-19-iran-senate-vote"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "paul_official_positions",
+                  "paul_entry_cbs_2026",
+                  "paul_protect_freedom",
+                  "daily-20261120-iran-senate-vote"
+                ],
+                "event_ids": [
+                  "irn-2026-11-19-iran-senate-vote"
+                ]
+              }
+            ]
+          },
+          "brian_kemp": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. This review found no new evidence that warrants a change to the candidate’s documented path.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_kemp_debate",
+              "kemp_2026_ajc",
+              "kemp_2026_tax_relief",
+              "weekly-20261116-kemp",
+              "weekly-20261116-poll",
+              "weekly-20261116-reuters"
+            ],
+            "event_ids": [],
+            "faction_links": []
+          },
+          "thomas_massie": {
+            "delta_pp": 0,
+            "reason": "The November 23 estimate carries forward on the weekly schedule. This review found no new evidence that warrants a change to the candidate’s documented path.",
+            "review_status": "partial",
+            "source_ids": [
+              "weekly_paul_massie_support",
+              "massie_2026_war_powers",
+              "massie_2026_hegseth",
+              "massie_entry_2026",
+              "weekly-20261116-massie",
+              "weekly-20261116-reuters",
+              "daily-20261120-polls-split-on-rubio-and-vance",
+              "massie_2026_funding",
+              "daily-20261125-house"
+            ],
+            "event_ids": [
+              "mid-2026-11-10-hegseth-judiciary-referral",
+              "suc-2026-11-19-polls-split-on-rubio-and-vance",
+              "mid-2026-11-25-ap-calls-broderick-race"
+            ],
+            "faction_links": [
+              {
+                "faction_id": "dissenters",
+                "direction": "both",
+                "mechanism": "Existing policy dissent and oversight channels support an analytical campaign argument; inclusion in the forecast does not establish an endorsement, new faction alignment or voter transfer.",
+                "source_ids": [
+                  "massie_entry_2026",
+                  "massie_2026_war_powers",
+                  "massie_2026_hegseth",
+                  "massie_2026_funding"
+                ],
+                "event_ids": []
+              }
+            ]
+          }
+        },
+        "gaps": [
+          "One commentator’s remarks cannot establish primary voter reception, and Axios’s account of internal differences does not establish campaign decisions.",
+          "Comparable early-state organizing, donor commitments and polling across the field were not reviewed in depth."
+        ],
+        "wargame_ref": "2026-11-23-weekly",
+        "monitoring": {
+          "summary": "The November 23 forecast carries forward. Barstool Sports founder Dave Portnoy publicly favored Florida Governor Ron DeSantis over Vice President JD Vance and Secretary of State Marco Rubio. His remarks show how one media figure weighs ties to Trump. Whether voters, donors and organizers make the same comparison remains open.",
+          "developments": [
+            {
+              "finding": "Portnoy favors DeSantis and prefers Rubio to Vance in a two-way choice.",
+              "implication": "A public media preference gives DeSantis attention and illustrates one possible cost of Vance’s close ties to Trump. Axios’s account also points to Rubio’s exposure on Iran.",
+              "weekly_question": "Do Republican voters or named organizers make the same distinction when comparing candidates on Iran, Nvidia and loyalty to Trump?",
+              "source_ids": [
+                "daily-20261127-port",
+                "daily-20261127-portclip",
+                "daily-20261127-axios"
+              ],
+              "event_ids": [
+                "suc-2026-11-25-portnoy-prefers-desantis"
+              ]
+            },
+            {
+              "finding": "Trump approves disaster relief for Florida after earlier floods.",
+              "implication": "DeSantis can cite the approval. The pace and reach of aid will help determine whether he can use the response as evidence of how he governs.",
+              "weekly_question": "Can DeSantis turn a state-level record into commitments from national and early-state Republicans?",
+              "source_ids": [
+                "daily-20261127-fl"
+              ],
+              "event_ids": [
+                "mid-2026-11-26-trump-approves-florida-flood-relief"
               ]
             }
           ],

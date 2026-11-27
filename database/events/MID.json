@@ -3222,6 +3222,74 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The operational or court decision affects this episode. The sources leave wider shifts in faction influence open."
+    },
+    {
+      "id": "mid-2026-11-26-epa-continues-iowa-lead-sampling",
+      "date": "2026-11-26",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Environmental Protection Agency",
+      "text": "EPA continues testing for lead after the Army’s Iowa detonation",
+      "context": "The Environmental Protection Agency reported that its real-time air monitors detected no airborne lead one hour after the November 25 detonation. On November 26 it said it had sent more samples to labs and could begin receiving results as early as November 27. The initial readings cover a short period. Lab findings and the timeline of warnings to residents remain open. Vice President JD Vance said the Obama administration had left the problem without a plan. The Daily Beast reported public criticism from former Obama adviser David Axelrod and journalist Chuck Todd, who pointed to the years Trump had also been in office. CBS News separately reported, citing unnamed sources, that White House officials were trying to learn why the Army had not alerted senior officials earlier. The reports leave open who received notice and when.",
+      "source": "https://www.epa.gov/newsreleases/epa-provides-update-sampling-following-yesterdays-controlled-detonation-iowa-army",
+      "url": "https://www.epa.gov/newsreleases/epa-provides-update-sampling-following-yesterdays-controlled-detonation-iowa-army",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: State officials and residents can use the later measurements to press the Army and EPA for remediation if contamination is found.",
+      "origin": "daily shared intake",
+      "added": "2026-11-27",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The initial measurements do not assign responsibility for the warnings."
+    },
+    {
+      "id": "mid-2026-11-25-appeals-court-pauses-essayli-disqualification",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "U.S. Court of Appeals for the Ninth Circuit",
+      "text": "Appeals court pauses Bill Essayli’s disqualification from supervising federal prosecutions",
+      "context": "The Ninth Circuit stayed the district court’s ruling and its own briefing schedule until 14 days after the appeals court issues its mandate in United States v. Jackson, or until the court orders otherwise. Attorney General Todd Blanche had delegated some duties of the U.S. attorney for the Central District of California to Essayli. The district court ruled the delegation unlawful.",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/25/26-7372.pdf",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/25/26-7372.pdf",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The stay temporarily lets the Justice Department retain its choice of supervisor in affected prosecutions. The appeals court has yet to decide whether the delegation was lawful.",
+      "origin": "daily shared intake",
+      "added": "2026-11-27",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The stay preserves the existing arrangement pending a related case."
+    },
+    {
+      "id": "mid-2026-11-26-trump-approves-florida-flood-relief",
+      "date": "2026-11-26",
+      "precision": "day",
+      "issues": [
+        "MID",
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump approves federal disaster relief after flooding in Florida",
+      "context": "Trump announced approval of federal relief for flooding that began in October. The Associated Press reported the declaration alongside a separate Thanksgiving storm with widespread power outages. The declaration makes federal assistance available under its terms. Disbursements and restoration from the later storm remain to be checked.",
+      "source": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-emergency-disaster-relief-storms-florida-november-26-2026/",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-emergency-disaster-relief-storms-florida-november-26-2026/",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: DeSantis can point to federal approval after Florida sought help. Delivery to residents will determine whether the response strengthens his case for effective state leadership.",
+      "origin": "daily shared intake",
+      "added": "2026-11-27",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The declaration establishes eligibility for aid under its terms. No faction alignment or electoral consequence was verified."
     }
   ]
 }

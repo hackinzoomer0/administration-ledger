@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-26",
-  "last_substantive_change": "2026-11-26",
+  "research_as_of": "2026-11-27",
+  "last_substantive_change": "2026-11-27",
   "review": {
-    "date": "2026-11-26",
-    "run_id": "2026-11-26",
+    "date": "2026-11-27",
+    "run_id": "2026-11-27",
     "type": "daily_review",
-    "scope": "Focused Thanksgiving review of court rulings, federal service interruptions, trade proposals, congressional oversight and reactions to Nvidia leadership. Election certification, active court dockets, Iran funding, Venezuela’s election timetable and nomination organizing received limited checks."
+    "scope": "Focused review of the GDP dispute after the midterms, birthright citizenship, federal prosecutor appointments, Iowa sampling, Florida storm response and early Republican nomination signals. Iran funding, federal outage recovery, congressional records, election certification and campaign organization received limited checks."
   },
   "administration": {
-    "headline": "Judge halts ABC license review as Republican senators call for Nvidia oversight",
-    "summary": "A federal judge halted the Federal Communications Commission’s early review of eight ABC station licenses. The injunction limits one way the administration can press a broadcaster during litigation. Democrats’ projected House majority gives incoming leaders more room to investigate, and Republican senators’ calls for oversight of Nvidia give them a point of agreement. Vice President JD Vance defended the company’s importance to U.S. competition with China and played down the need for a pardon for its chief executive, Jensen Huang. Congress can question Huang and other witnesses about Trump’s role in bringing him back. The Army reported destroying unstable explosives at its Iowa ammunition plant, while state leaders and residents still have reason to press for environmental results and a clear account of who knew about the hazard. U.S. Trade Representative Jamieson Greer’s new tariff proposals give him leverage with trading partners. They leave the rates importers will actually pay open.",
+    "headline": "Trump demands a GDP inquiry as a judge blocks his new citizenship order",
+    "summary": "President Donald Trump blamed the Commerce Department’s initial growth estimate for Republican losses and called for an investigation. His White House had praised the original figure, and the Bureau of Economic Analysis had already scheduled the revision before the election. A formal inquiry remains unverified. The episode gives Trump a way to shift blame for Republican losses. Incoming Democratic committee leaders can ask whether Commerce changes its release procedures or opens an inquiry. In court, Judge Christopher Cooper blocked Trump’s revised birthright citizenship order for children covered by the lawsuit. A separate appeals court order temporarily lets the Justice Department keep its choice of federal prosecutor supervising cases in Southern California. Congress can question Nvidia officials in December about export enforcement and Trump’s role in bringing back chief executive Jensen Huang. Iowa residents are waiting for lab tests after the Army destroyed unstable explosives, and U.S. trading partners are pressing back against proposed tariffs whose final rates remain open.",
     "contests": [
       {
         "id": "white-house-access",
@@ -233,8 +233,8 @@
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
-    "summary": "The November 23 estimates carry forward. Vance’s public defense of Nvidia puts his judgment in focus as Republicans call for stronger oversight of the company’s exports.",
-    "snapshot_id": "2026-11-26-daily",
+    "summary": "The November 23 forecast carries forward. Barstool Sports founder Dave Portnoy publicly favored Florida Governor Ron DeSantis over Vice President JD Vance and Secretary of State Marco Rubio. His remarks show how one media figure weighs ties to Trump. Whether voters, donors and organizers make the same comparison remains open.",
+    "snapshot_id": "2026-11-27-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -242,7 +242,7 @@
         "path": "The vice president can still launch with national fundraising contacts and Trump’s attention. His November 20 remarks showed he can criticize the political cost of the Iran war while deferring to Trump’s authority.",
         "coalition": "A recent Echelon list still led with Vance, while Emerson favored Rubio. Vance can recruit people who want both Trump’s immigration program and an end to the war, but successive criticism without a credible next step could cost him their trust.",
         "advantage": "Humor and familiarity at Trump’s briefing can make Vance approachable to voters who identify with the administration.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open. Vance’s public defense of Nvidia’s role in competition with China ties him to Trump’s decision to press for Huang’s return. Republican calls for oversight give senators a reason to question how Vance would enforce chip export controls. Primary voters’ response remains open.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open. Vance’s public defense of Nvidia’s role in competition with China ties him to Trump’s decision to press for Huang’s return. Republican calls for oversight give senators a reason to question how Vance would enforce chip export controls. Primary voters’ response remains open. Portnoy said Vance’s association with Trump hurt his prospects. Vance’s willingness to defend Nvidia’s role gives him a way to show loyalty and claim a stake in U.S. technology policy. It also gives critics a specific decision to question. Whether Republican primary voters share Portnoy’s view remains open.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -254,7 +254,8 @@
           "irn-2026-11-24-vance-rubio-meet-qatar",
           "suc-2026-11-25-post-examines-midterm-turnout",
           "ai-2026-11-25-trump-disclosures-and-huang-reaction",
-          "ai-2026-11-25-vance-downplays-huang-pardon"
+          "ai-2026-11-25-vance-downplays-huang-pardon",
+          "suc-2026-11-25-portnoy-prefers-desantis"
         ],
         "source_ids": [
           "daily_vance_brand_20261107",
@@ -274,9 +275,12 @@
           "daily-20261126-vance",
           "daily-20261126-axios",
           "daily-20261126-hearing",
-          "daily-20261126-interviews"
+          "daily-20261126-interviews",
+          "daily-20261127-port",
+          "daily-20261127-portclip",
+          "daily-20261127-axios"
         ],
-        "reviewed_at": "2026-11-26"
+        "reviewed_at": "2026-11-27"
       },
       {
         "candidate_id": "marco_rubio",
@@ -284,14 +288,15 @@
         "path": "The secretary of state can cite direct experience negotiating abroad and can ask former campaign staff and interested donors to return. His stated deference to Vance constrains entry even when voters name him first.",
         "coalition": "Emerson found Rubio ahead both with and without a supplied list. Echelon found Vance ahead on a different list. Some donors have expressed interest in Rubio. He needs to decide to run and show that people willing to name him will also vote or work for him.",
         "advantage": "As secretary of state, Rubio can point to his direct role in talks with foreign governments. At Trump’s November 20 briefing he made the case for negotiating with China and Russia. Rubio’s November 23 meeting with Qatar’s prime minister shows he retains direct access to a mediator while talks with Iran remain stalled.",
-        "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open. Trump’s praise leaves open whether he will endorse Rubio or whether Republican donors and organizers will commit to a campaign. A congressional funding fight gives Rubio a reason to explain how he would defend the original decision to use force while securing a settlement voters will accept.",
+        "vulnerability": "Rubio competes with Vance and Cruz for some donors, and interest may yield little money or staff. Rubio defended the decision to go to war. Questions about troop protection could make defending the administration’s record harder. The complaint leaves his personal role in base-defense decisions open. Trump’s praise leaves open whether he will endorse Rubio or whether Republican donors and organizers will commit to a campaign. A congressional funding fight gives Rubio a reason to explain how he would defend the original decision to use force while securing a settlement voters will accept. Portnoy preferred Rubio to Vance but favored DeSantis over both. Axios reported that Rubio had warned Trump about Nvidia’s chief executive, while Rubio publicly defended the decision to strike Iran. These positions give Rubio ways to distinguish his judgment from Vance’s, while leaving his own exposure to criticism of the war in place.",
         "positions": "Rubio has defended Trump’s decision to use force against Iran. He could argue that pressure on U.S. adversaries is necessary, but voters may judge him by the war’s costs and results.",
         "money": "Some donors have expressed interest in Rubio. A reported preference is not the same as a pledge to finance his presidential campaign.",
         "event_ids": [
           "suc-2026-11-16-cruz-prepares-presidential-run",
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
           "suc-2026-11-19-polls-split-on-rubio-and-vance",
-          "irn-2026-11-24-vance-rubio-meet-qatar"
+          "irn-2026-11-24-vance-rubio-meet-qatar",
+          "suc-2026-11-25-portnoy-prefers-desantis"
         ],
         "source_ids": [
           "weekly_2015_debate",
@@ -303,23 +308,28 @@
           "daily-20261120-polls-split-on-rubio-and-vance",
           "daily-20261120-echelon",
           "daily-20261124-qatar",
-          "daily-20261124-mofa"
+          "daily-20261124-mofa",
+          "daily-20261127-port",
+          "daily-20261127-portclip",
+          "daily-20261127-axios"
         ],
-        "reviewed_at": "2026-11-24"
+        "reviewed_at": "2026-11-27"
       },
       {
         "candidate_id": "ron_desantis",
         "person_id": null,
         "path": "The Florida governor can use a book to lay out a program and look for campaign staff. Axios reported the project and skepticism about a run. His 2024 campaign shows both a recruiting base and how quickly a well-funded campaign can stall.",
         "coalition": "Florida allies could introduce donors and staff. Voters who like his record can also choose Kemp or stay with Trump’s allies. A book can test interest before either a campaign or a donor commitment exists.",
-        "advantage": "A detailed governing record can reassure voters looking for delivery.",
+        "advantage": "A detailed governing record can reassure voters looking for delivery. Portnoy’s preference gives DeSantis a prominent public supporter in a hypothetical race. Florida’s disaster declaration also gives the governor a concrete example of securing federal approval after flooding. Whether residents receive aid promptly and whether that record helps him recruit nationally remain open.",
         "vulnerability": "Early conversations could reflect genuine preparation. A named presidential team would distinguish it from keeping his options open.",
         "positions": "His record includes conservative policies enacted in Florida. His support for limited military strikes means that distance from the White House does not necessarily mean opposition to intervention abroad.",
         "money": "DeSantis has raised substantial money for past campaigns. That shows fundraising experience, but does not establish which donors would back another presidential bid.",
         "event_ids": [
           "suc-2026-11-08-contender-entry",
           "suc-2026-11-15-vance-2028-timing-report",
-          "suc-2026-11-16-cruz-prepares-presidential-run"
+          "suc-2026-11-16-cruz-prepares-presidential-run",
+          "suc-2026-11-25-portnoy-prefers-desantis",
+          "mid-2026-11-26-trump-approves-florida-flood-relief"
         ],
         "source_ids": [
           "desantis_donors",
@@ -334,9 +344,13 @@
           "daily_20261116_vance",
           "weekly-20261116-reuters",
           "weekly-20261116-poll",
-          "weekly-20261123-desantis-book"
+          "weekly-20261123-desantis-book",
+          "daily-20261127-port",
+          "daily-20261127-portclip",
+          "daily-20261127-axios",
+          "daily-20261127-fl"
         ],
-        "reviewed_at": "2026-11-23"
+        "reviewed_at": "2026-11-27"
       },
       {
         "candidate_id": "ted_cruz",

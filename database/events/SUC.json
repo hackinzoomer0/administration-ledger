@@ -1025,6 +1025,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Republicans deciding where to spend money and recruit volunteers have reason to examine who stayed home, alongside why some Trump voters switched. Precinct estimates do not reveal individual moves directly or measure 2028 primary preferences."
+    },
+    {
+      "id": "suc-2026-11-25-portnoy-prefers-desantis",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "SUC"
+      ],
+      "kind": "act",
+      "actor": "Dave Portnoy",
+      "text": "Barstool founder Dave Portnoy says he favors Ron DeSantis for 2028",
+      "context": "On Scott Jennings’s show, Portnoy said he preferred Florida Governor Ron DeSantis to Secretary of State Marco Rubio and Vice President JD Vance. In a two-way choice he preferred Rubio to Vance. Reports on the same appearance quote Portnoy arguing that Vance’s association with Trump hurts him.",
+      "source": "https://www.thedailybeast.com/barstool-boss-dave-portnoy-writes-off-jd-vance-with-ron-desantis-as-2028-pick",
+      "url": "https://www.thedailybeast.com/barstool-boss-dave-portnoy-writes-off-jd-vance-with-ron-desantis-as-2028-pick",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: The comments give DeSantis a favorable mention from a prominent media figure. Whether that attention produces voter support, endorsements from other Republicans or campaign help remains open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-27",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: One commentator’s preference does not establish an organized coalition or voter movement."
     }
   ]
 }

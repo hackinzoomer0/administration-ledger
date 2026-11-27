@@ -1415,6 +1415,29 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Cook remains on the Federal Reserve board. No change in a rate vote or in control of her seat was established."
+    },
+    {
+      "id": "fed-2026-11-26-trump-demands-gdp-investigation",
+      "date": "2026-11-26",
+      "precision": "day",
+      "issues": [
+        "FED",
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Donald Trump",
+      "text": "Trump calls for an investigation of pre-election GDP figures",
+      "context": "Trump linked the initial growth estimate to Republican midterm losses. His White House had praised the 3.4% annualized estimate when it was released on October 29. The Bureau of Economic Analysis raised it to 4.3% on November 25, the date the bureau published in February. Time reported that Commerce Secretary Howard Lutnick praised the higher figure and left Trump’s accusation unaddressed. The available sources establish Trump’s demand. A formal inquiry and deliberate manipulation remain unverified.",
+      "source": "https://apnews.com/article/4fd800b44005ae11f950f96ff62f876e",
+      "url": "https://apnews.com/article/4fd800b44005ae11f950f96ff62f876e",
+      "tier": "reported",
+      "weight": 4,
+      "rationale": "My reading: Trump has offered Republicans an explanation for their losses that puts blame on government statisticians. Congress can ask for records if Commerce opens a probe or changes the way it publishes the figures.",
+      "origin": "daily shared intake",
+      "added": "2026-11-27",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The demand does not establish a formal inquiry or a change in statistical authority."
     }
   ]
 }

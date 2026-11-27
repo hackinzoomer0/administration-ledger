@@ -1,0 +1,2012 @@
+{
+  "date": "2026-11-27",
+  "type": "daily_review",
+  "added": 6,
+  "scope": "Focused review of the GDP dispute after the midterms, birthright citizenship, federal prosecutor appointments, Iowa sampling, Florida storm response and early Republican nomination signals. Iran funding, federal outage recovery, congressional records, election certification and campaign organization received limited checks.",
+  "summary": "Trump called for a probe of a GDP estimate that the government revised on a schedule announced before the election. Judge Christopher Cooper blocked Trump’s revised birthright citizenship order for children covered by the lawsuit. The Ninth Circuit temporarily paused Bill Essayli’s disqualification from supervising prosecutions. EPA continued testing after the Iowa detonation, and Trump approved relief for earlier Florida flooding. Barstool founder Dave Portnoy publicly favored Ron DeSantis. The November 23 nomination estimates and all personnel forecasts carry forward. The following outcomes remain pending or unverified. Iowa laboratory results, Formal GDP inquiry, FinCEN service restoration, Iran tanker damage and U.S. military orders, EU budget talks leave a Ukraine loan pending, Epstein records vote and production, Separate signed Alaska election certification, Venezuela election timetable, Thanksgiving storm power restoration, Huang and Teter’s December congressional appearances, Contractors’ responses to Congress, Lisa Cook’s removal hearing, Ueland and LoSapio confirmation, Reported CIA system breach and Huang clearance. Coverage of early-state organizing, new Iran funding language, clearance decisions and financial reporting recovery was limited. Open from November 26: Reported shelving of U.S.–Russia business proposals. Open from November 26: Representative Jimmy Gomez’s announced December 1 resignation. Open from November 26: Mississippi election disputes.",
+  "coverage": {
+    "sourcesRead": [
+      "ABC News",
+      "AP",
+      "Alaska Division of Elections",
+      "Axios",
+      "Bureau of Economic Analysis",
+      "CBS News",
+      "EPA",
+      "El País",
+      "Federal Reserve",
+      "FinCEN",
+      "House Clerk",
+      "House Oversight Committee",
+      "House Oversight Democrats",
+      "Justice Department",
+      "Lead Inspector General",
+      "Mediaite",
+      "Reuters",
+      "Roll Call Factbase",
+      "Supreme Court",
+      "The Daily Beast",
+      "The Guardian",
+      "Time",
+      "Treasury",
+      "U.S. Court of Appeals for the Ninth Circuit",
+      "U.S. District Court for the District of Columbia",
+      "U.S. Senate",
+      "White House"
+    ],
+    "queries": 10,
+    "lookbackDays": 1,
+    "perIssue": {
+      "AI": "limited check",
+      "EPS": "limited check",
+      "FED": "reviewed",
+      "IMM": "reviewed",
+      "IRN": "limited check",
+      "MID": "reviewed",
+      "RUS": "reviewed",
+      "SUC": "reviewed",
+      "TAR": "reviewed",
+      "VEN": "limited check"
+    },
+    "blocked": [
+      "https://www.reuters.com/world/us/",
+      "https://www.congress.gov/calendars-and-schedules",
+      "https://www.state.gov/press-releases/",
+      "https://www.centcom.mil/MEDIA/PRESS-RELEASES/",
+      "https://theverardogroup.substack.com/p/tvg-daily-brief-27-nov-2026",
+      "https://www.finance.senate.gov/ranking-members-news/wyden-statement-on-trumps-latest-tariffs/"
+    ],
+    "gaps": [
+      "Comparable early-state organizing and funding were not systematically reviewed.",
+      "New military orders and several active court dockets remain incompletely covered."
+    ],
+    "deviations": [
+      "Focused holiday intake. The weekday digest and some official indexes were inaccessible."
+    ],
+    "propagation": {
+      "fed-2026-11-26-trump-demands-gdp-investigation": [
+        "assessments/current",
+        "assessments/issues/FED",
+        "assessments/issues/MID"
+      ],
+      "mid-2026-11-26-epa-continues-iowa-lead-sampling": [
+        "assessments/current",
+        "assessments/issues/MID"
+      ],
+      "imm-2026-11-25-cooper-blocks-new-citizenship-order": [
+        "assessments/current",
+        "assessments/issues/IMM"
+      ],
+      "mid-2026-11-25-appeals-court-pauses-essayli-disqualification": [
+        "assessments/current",
+        "assessments/issues/MID",
+        "assessments/issues/IMM"
+      ],
+      "suc-2026-11-25-portnoy-prefers-desantis": [
+        "assessments/current",
+        "assessments/issues/SUC"
+      ],
+      "mid-2026-11-26-trump-approves-florida-flood-relief": [
+        "assessments/current",
+        "assessments/issues/MID",
+        "assessments/issues/SUC"
+      ]
+    },
+    "outcome_watch": [
+      {
+        "outcome": "Trump calls for an investigation of pre-election GDP figures",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "Trump has offered Republicans an explanation for their losses that puts blame on government statisticians. Congress can ask for records if Commerce opens a probe or changes the way it publishes the figures.",
+        "source_receipt_ids": [
+          "a8eb503a46a3becbf2f975d2",
+          "2f34afd10d7ee3ab3cbbdceb",
+          "2444ae4ab3e9afb5db2c77b1",
+          "72ddad3c40defd3ec8d924af",
+          "4326873e2384e188b970b54f",
+          "e1c5e1dcb274d3ef76667c7d"
+        ]
+      },
+      {
+        "outcome": "EPA continues testing for lead after the Army’s Iowa detonation",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "State officials and residents can use the later measurements to press the Army and EPA for remediation if contamination is found.",
+        "source_receipt_ids": [
+          "5142bde542eb20caf6cf103f",
+          "db9b0e36b9ca142a82026462",
+          "cfb4aa476e1cb62771bedfe6",
+          "2b3d62dbb1d26edcbdf57c62"
+        ]
+      },
+      {
+        "outcome": "Judge Christopher Cooper blocks Trump’s new birthright citizenship order",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The injunction protects the covered children while the case proceeds. A later order on appeal could change which restrictions the administration can enforce.",
+        "source_receipt_ids": [
+          "190a5f34975b9c1ff14ca433"
+        ]
+      },
+      {
+        "outcome": "Appeals court pauses Bill Essayli’s disqualification from supervising federal prosecutions",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The stay temporarily lets the Justice Department retain its choice of supervisor in affected prosecutions. The appeals court has yet to decide whether the delegation was lawful.",
+        "source_receipt_ids": [
+          "87c2f4ab9b4aeafeaa7b14e5"
+        ]
+      },
+      {
+        "outcome": "Barstool founder Dave Portnoy says he favors Ron DeSantis for 2028",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The comments give DeSantis a favorable mention from a prominent media figure. Whether that attention produces voter support, endorsements from other Republicans or campaign help remains open.",
+        "source_receipt_ids": [
+          "5300162b485c9d4c14dde8ea",
+          "ad2ebb0c18c63db88d03e42c",
+          "56fa09c7f1b7c7f150e3d569"
+        ]
+      },
+      {
+        "outcome": "Trump approves federal disaster relief after flooding in Florida",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "DeSantis can point to federal approval after Florida sought help. Delivery to residents will determine whether the response strengthens his case for effective state leadership.",
+        "source_receipt_ids": [
+          "519ed3903efe11ec38485e92",
+          "85f222e89fa281c5f54feba3"
+        ]
+      },
+      {
+        "outcome": "U.S. proposes tariffs on 14 economies",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The November 26 review recorded the proposal. China and Brazil’s criticism and Senator Ron Wyden’s pledge to challenge it add opposition while rates and dates remain open.",
+        "source_receipt_ids": [
+          "b6c60fef137a68751518a50b",
+          "acaab0b3c62f3ccb8249abc8"
+        ]
+      },
+      {
+        "outcome": "Iowa laboratory results",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "EPA expected initial lab results as early as November 27. Check the EPA public dashboard and releases.",
+        "source_receipt_ids": [
+          "5142bde542eb20caf6cf103f",
+          "e0f38c08bbab195643c2ead0"
+        ]
+      },
+      {
+        "outcome": "Formal GDP inquiry",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "Trump asked for an investigation. Check Commerce and its inspector general for a formal announcement.",
+        "source_receipt_ids": [
+          "a8eb503a46a3becbf2f975d2",
+          "95be4585b03f7e5c3e68eb35",
+          "e08aaa051ff8e9d8d2f5fc87",
+          "4326873e2384e188b970b54f"
+        ]
+      },
+      {
+        "outcome": "FinCEN service restoration",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Temporary deadline relief was covered November 26. Check Treasury and FinCEN for service restoration and the scope of exposed data.",
+        "source_receipt_ids": [
+          "1f71e8dac3d2d23f2de2efa5",
+          "57b8a84ab6694138e920f81d",
+          "9e405ca375214ace3b145906",
+          "a182df35cebadf6b73c75770"
+        ]
+      },
+      {
+        "outcome": "Iran tanker damage and U.S. military orders",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "CBS confirms separate reporting about a tanker attack. Check ship operators and official maritime advisories for the cause of each incident and U.S. orders.",
+        "source_receipt_ids": [
+          "384a2f20e9107b76b759486c",
+          "45ef269a070a8044a723b575",
+          "5e92791942a9713cc4c0c381"
+        ]
+      },
+      {
+        "outcome": "Zelenskyy warns of another Russian attack on the power grid",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The warning and request for air-defense supplies put pressure on partners. The report does not establish a new U.S. decision to provide interceptors.",
+        "source_receipt_ids": [
+          "033ace7c4c275b227f29c6c0"
+        ]
+      },
+      {
+        "outcome": "EU budget talks leave a Ukraine loan pending",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Check the next EU budget meeting for an agreed financing instrument. The November 27 report did not establish approval.",
+        "source_receipt_ids": [
+          "b442fc50be556814d396bc15"
+        ]
+      },
+      {
+        "outcome": "Inspector general report on the summer pause in boat strikes",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The accessible reporting points to a retrospective account of operational decisions. It does not establish a new military order or impeachment proceeding.",
+        "source_receipt_ids": [
+          "06faf2ad8c80c71e0a1b34f3",
+          "af5b2b803061ad9d8b78b37e",
+          "bb608c80068d12b4abc071f1"
+        ]
+      },
+      {
+        "outcome": "Epstein records vote and production",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "Massie reached the petition threshold. Check for a scheduled or recorded floor vote and for replies from Lynch and the Bureau of Prisons.",
+        "source_receipt_ids": [
+          "724c6ce8cf804d694b3be475",
+          "c3c3d28411210ce60e6da63d",
+          "1cd21774a5535413fc79080b",
+          "41639825ee500abb0eb4c925",
+          "fe71541f243f2e85674d0064",
+          "1aa0c58cd987c7c3f0501bb0",
+          "67a124f28fbfaab5d318036a",
+          "5884fbe469a4bce7146fbe8d"
+        ]
+      },
+      {
+        "outcome": "Separate signed Alaska election certification",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "The November 24 review recorded the November 23 official results. Check the division for a separate signed record.",
+        "source_receipt_ids": [
+          "31a34ba58e2d65d7c9c59d39"
+        ]
+      },
+      {
+        "outcome": "Venezuela election timetable",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Parties agreed to review the status of political groups. Check for election council appointments and a formal timetable.",
+        "source_receipt_ids": [
+          "6c69ea1ca101831bdddf8cac",
+          "5e92791942a9713cc4c0c381"
+        ]
+      },
+      {
+        "outcome": "Midterm results in redrawn congressional districts",
+        "status": "reviewed",
+        "date": "2026-11-27",
+        "finding": "The analysis describes results in existing districts. It gives no new map decision or change to the projected chamber majority.",
+        "source_receipt_ids": [
+          "772d93c35f008796b6068d37"
+        ]
+      },
+      {
+        "outcome": "Thanksgiving storm power restoration",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "AP reported widespread outages Thursday. Check utilities and emergency authorities for restoration and any federal action tied to this storm.",
+        "source_receipt_ids": [
+          "85f222e89fa281c5f54feba3",
+          "519ed3903efe11ec38485e92"
+        ]
+      },
+      {
+        "outcome": "Huang and Teter’s December congressional appearances",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Check for actual interviews and the Senate hearing. Axios reviewed the political dispute and supplied no new hearing outcome.",
+        "source_receipt_ids": [
+          "56fa09c7f1b7c7f150e3d569"
+        ]
+      },
+      {
+        "outcome": "Contractors’ responses to Congress",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Check named recipients and committees for production, an asserted privilege or compulsory action.",
+        "source_receipt_ids": [
+          "41639825ee500abb0eb4c925",
+          "a182df35cebadf6b73c75770"
+        ]
+      },
+      {
+        "outcome": "Lisa Cook’s removal hearing",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "The last verified report described a December 14 hearing. Check the White House and court for a change or an operative order.",
+        "source_receipt_ids": [
+          "9a4ae369ec712f7ae2d5547f",
+          "5e92791942a9713cc4c0c381"
+        ]
+      },
+      {
+        "outcome": "Ueland and LoSapio confirmation",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Check formal Senate action after the recess. Access to the calendar does not establish a confirmation.",
+        "source_receipt_ids": [
+          "ca2fff5440c5e9f486db0b94"
+        ]
+      },
+      {
+        "outcome": "Reported CIA system breach and Huang clearance",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "Further confirmation of the scope of the breach and a separate decision about Huang’s clearance remains unavailable in this intake. Check agency statements and testimony.",
+        "source_receipt_ids": [
+          "a182df35cebadf6b73c75770",
+          "56fa09c7f1b7c7f150e3d569"
+        ]
+      },
+      {
+        "outcome": "Reported shelving of U.S.–Russia business proposals",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "Carried from November 26. Check an attributable U.S. statement or independent reporting on the specific proposals. The Lukoil deal is separate."
+      },
+      {
+        "outcome": "Representative Jimmy Gomez’s announced December 1 resignation",
+        "status": "pending",
+        "date": "2026-11-27",
+        "finding": "Carried from November 26. The House Ethics Committee released its report and the Democratic Women’s Caucus identified December 1 as the effective date. The announcement raises a possible temporary change in the outgoing House’s working margin."
+      },
+      {
+        "outcome": "Mississippi election disputes",
+        "status": "unreviewed",
+        "date": "2026-11-27",
+        "finding": "Carried from November 26. The Axios index surfaced a lead. This review did not establish a new court outcome or change to the chamber projection."
+      }
+    ],
+    "major_news": {
+      "opening": {
+        "source_receipt_ids": [
+          "633ddda8ac9d2f221b720c95",
+          "4f99e57a7ae47ddfbcbfbc4b",
+          "e1c5e1dcb274d3ef76667c7d"
+        ],
+        "story_ids": [
+          "gdp",
+          "iowa",
+          "tariff",
+          "fin",
+          "ukraine",
+          "alaska",
+          "eps",
+          "cook",
+          "iran",
+          "nvidia",
+          "contract",
+          "senate",
+          "ven",
+          "cia"
+        ]
+      },
+      "closing": {
+        "source_receipt_ids": [
+          "bbaa690c2b79aa3a306e213f",
+          "55b919c994d0f89d710a3802",
+          "4326873e2384e188b970b54f"
+        ],
+        "story_ids": [
+          "gdp",
+          "iowa",
+          "nathan",
+          "essayli",
+          "portnoy",
+          "florida",
+          "tariff",
+          "iowa-labs",
+          "gdp-probe",
+          "fin",
+          "iran",
+          "ukraine",
+          "eu",
+          "boat",
+          "eps",
+          "alaska",
+          "ven",
+          "redistrict",
+          "storm",
+          "nvidia",
+          "contract",
+          "cook",
+          "senate",
+          "cia"
+        ]
+      },
+      "stories": {
+        "gdp": {
+          "headline": "Trump calls for an investigation of pre-election GDP figures",
+          "status": "reflected",
+          "reason": "Trump has offered Republicans an explanation for their losses that puts blame on government statisticians. Congress can ask for records if Commerce opens a probe or changes the way it publishes the figures.",
+          "source_receipt_ids": [
+            "a8eb503a46a3becbf2f975d2",
+            "2f34afd10d7ee3ab3cbbdceb",
+            "2444ae4ab3e9afb5db2c77b1",
+            "72ddad3c40defd3ec8d924af",
+            "4326873e2384e188b970b54f",
+            "e1c5e1dcb274d3ef76667c7d"
+          ]
+        },
+        "iowa": {
+          "headline": "EPA continues testing for lead after the Army’s Iowa detonation",
+          "status": "reflected",
+          "reason": "State officials and residents can use the later measurements to press the Army and EPA for remediation if contamination is found.",
+          "source_receipt_ids": [
+            "5142bde542eb20caf6cf103f",
+            "db9b0e36b9ca142a82026462",
+            "cfb4aa476e1cb62771bedfe6",
+            "2b3d62dbb1d26edcbdf57c62",
+            "3656844d4b36f7e23bdf21aa",
+            "eff09bce16be98a49360b41a"
+          ]
+        },
+        "nathan": {
+          "headline": "Judge Christopher Cooper blocks Trump’s new birthright citizenship order",
+          "status": "reflected",
+          "reason": "The injunction protects the covered children while the case proceeds. A later order on appeal could change which restrictions the administration can enforce.",
+          "source_receipt_ids": [
+            "190a5f34975b9c1ff14ca433"
+          ]
+        },
+        "essayli": {
+          "headline": "Appeals court pauses Bill Essayli’s disqualification from supervising federal prosecutions",
+          "status": "reflected",
+          "reason": "The stay temporarily lets the Justice Department retain its choice of supervisor in affected prosecutions. The appeals court has yet to decide whether the delegation was lawful.",
+          "source_receipt_ids": [
+            "87c2f4ab9b4aeafeaa7b14e5"
+          ]
+        },
+        "portnoy": {
+          "headline": "Barstool founder Dave Portnoy says he favors Ron DeSantis for 2028",
+          "status": "reflected",
+          "reason": "The comments give DeSantis a favorable mention from a prominent media figure. Whether that attention produces voter support, endorsements from other Republicans or campaign help remains open.",
+          "source_receipt_ids": [
+            "5300162b485c9d4c14dde8ea",
+            "ad2ebb0c18c63db88d03e42c",
+            "56fa09c7f1b7c7f150e3d569"
+          ]
+        },
+        "florida": {
+          "headline": "Trump approves federal disaster relief after flooding in Florida",
+          "status": "reflected",
+          "reason": "DeSantis can point to federal approval after Florida sought help. Delivery to residents will determine whether the response strengthens his case for effective state leadership.",
+          "source_receipt_ids": [
+            "519ed3903efe11ec38485e92",
+            "85f222e89fa281c5f54feba3"
+          ]
+        },
+        "tariff": {
+          "headline": "U.S. proposes tariffs on 14 economies",
+          "status": "already_covered",
+          "reason": "The November 26 review recorded the proposal. China and Brazil’s criticism and Senator Ron Wyden’s pledge to challenge it add opposition while rates and dates remain open.",
+          "source_receipt_ids": [
+            "b6c60fef137a68751518a50b",
+            "acaab0b3c62f3ccb8249abc8",
+            "b9a52db1b6c62bcd42a39ae3"
+          ],
+          "prior_reference": "2026-11-26 U.S. tariff proposal and trading partner responses"
+        },
+        "iowa-labs": {
+          "headline": "Iowa laboratory results",
+          "status": "pending",
+          "reason": "EPA expected initial lab results as early as November 27. Check the EPA public dashboard and releases.",
+          "source_receipt_ids": [
+            "5142bde542eb20caf6cf103f",
+            "e0f38c08bbab195643c2ead0"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "gdp-probe": {
+          "headline": "Formal GDP inquiry",
+          "status": "unverified",
+          "reason": "Trump asked for an investigation. Check Commerce and its inspector general for a formal announcement.",
+          "source_receipt_ids": [
+            "a8eb503a46a3becbf2f975d2",
+            "95be4585b03f7e5c3e68eb35",
+            "e08aaa051ff8e9d8d2f5fc87",
+            "4326873e2384e188b970b54f"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "fin": {
+          "headline": "FinCEN service restoration",
+          "status": "pending",
+          "reason": "Temporary deadline relief was covered November 26. Check Treasury and FinCEN for service restoration and the scope of exposed data.",
+          "source_receipt_ids": [
+            "1f71e8dac3d2d23f2de2efa5",
+            "57b8a84ab6694138e920f81d",
+            "9e405ca375214ace3b145906",
+            "a182df35cebadf6b73c75770"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "iran": {
+          "headline": "Iran tanker damage and U.S. military orders",
+          "status": "unverified",
+          "reason": "CBS confirms separate reporting about a tanker attack. Check ship operators and official maritime advisories for the cause of each incident and U.S. orders.",
+          "source_receipt_ids": [
+            "384a2f20e9107b76b759486c",
+            "45ef269a070a8044a723b575",
+            "5e92791942a9713cc4c0c381"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "ukraine": {
+          "headline": "Zelenskyy warns of another Russian attack on the power grid",
+          "status": "held",
+          "reason": "The warning and request for air-defense supplies put pressure on partners. The report does not establish a new U.S. decision to provide interceptors.",
+          "source_receipt_ids": [
+            "033ace7c4c275b227f29c6c0"
+          ]
+        },
+        "eu": {
+          "headline": "EU budget talks leave a Ukraine loan pending",
+          "status": "pending",
+          "reason": "Check the next EU budget meeting for an agreed financing instrument. The November 27 report did not establish approval.",
+          "source_receipt_ids": [
+            "b442fc50be556814d396bc15"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "boat": {
+          "headline": "Inspector general report on the summer pause in boat strikes",
+          "status": "held",
+          "reason": "The inspector general verified an earlier pause, revised procedures and an August resumption. No new military order or vote on Hegseth was established in the November reporting.",
+          "source_receipt_ids": [
+            "06faf2ad8c80c71e0a1b34f3",
+            "af5b2b803061ad9d8b78b37e",
+            "bb608c80068d12b4abc071f1"
+          ]
+        },
+        "eps": {
+          "headline": "Epstein records vote and production",
+          "status": "unverified",
+          "reason": "Massie reached the petition threshold. Check for a scheduled or recorded floor vote and for replies from Lynch and the Bureau of Prisons.",
+          "source_receipt_ids": [
+            "724c6ce8cf804d694b3be475",
+            "c3c3d28411210ce60e6da63d",
+            "1cd21774a5535413fc79080b",
+            "41639825ee500abb0eb4c925",
+            "fe71541f243f2e85674d0064",
+            "1aa0c58cd987c7c3f0501bb0",
+            "67a124f28fbfaab5d318036a",
+            "5884fbe469a4bce7146fbe8d"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "alaska": {
+          "headline": "Separate signed Alaska election certification",
+          "status": "unverified",
+          "reason": "The November 24 review recorded the November 23 official results. Check the division for a separate signed record.",
+          "source_receipt_ids": [
+            "31a34ba58e2d65d7c9c59d39",
+            "93b73421098eb6ffe91d5a54"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "ven": {
+          "headline": "Venezuela election timetable",
+          "status": "pending",
+          "reason": "Parties agreed to review the status of political groups. Check for election council appointments and a formal timetable.",
+          "source_receipt_ids": [
+            "6c69ea1ca101831bdddf8cac",
+            "5e92791942a9713cc4c0c381"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "redistrict": {
+          "headline": "Midterm results in redrawn congressional districts",
+          "status": "held",
+          "reason": "The analysis describes results in existing districts. It gives no new map decision or change to the projected chamber majority.",
+          "source_receipt_ids": [
+            "772d93c35f008796b6068d37"
+          ]
+        },
+        "storm": {
+          "headline": "Thanksgiving storm power restoration",
+          "status": "pending",
+          "reason": "AP reported widespread outages Thursday. Check utilities and emergency authorities for restoration and any federal action tied to this storm.",
+          "source_receipt_ids": [
+            "85f222e89fa281c5f54feba3",
+            "519ed3903efe11ec38485e92"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "nvidia": {
+          "headline": "Huang and Teter’s December congressional appearances",
+          "status": "pending",
+          "reason": "Check for actual interviews and the Senate hearing. Axios reviewed the political dispute and supplied no new hearing outcome.",
+          "source_receipt_ids": [
+            "56fa09c7f1b7c7f150e3d569"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "contract": {
+          "headline": "Contractors’ responses to Congress",
+          "status": "pending",
+          "reason": "Check named recipients and committees for production, an asserted privilege or compulsory action.",
+          "source_receipt_ids": [
+            "41639825ee500abb0eb4c925",
+            "a182df35cebadf6b73c75770"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "cook": {
+          "headline": "Lisa Cook’s removal hearing",
+          "status": "pending",
+          "reason": "The last verified report described a December 14 hearing. Check the White House and court for a change or an operative order.",
+          "source_receipt_ids": [
+            "9a4ae369ec712f7ae2d5547f",
+            "5e92791942a9713cc4c0c381"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "senate": {
+          "headline": "Ueland and LoSapio confirmation",
+          "status": "pending",
+          "reason": "Check formal Senate action after the recess. Access to the calendar does not establish a confirmation.",
+          "source_receipt_ids": [
+            "ca2fff5440c5e9f486db0b94"
+          ],
+          "next_check": "2026-11-28"
+        },
+        "cia": {
+          "headline": "Reported CIA system breach and Huang clearance",
+          "status": "unverified",
+          "reason": "Further confirmation of the scope of the breach and a separate decision about Huang’s clearance remains unavailable in this intake. Check agency statements and testimony.",
+          "source_receipt_ids": [
+            "a182df35cebadf6b73c75770",
+            "56fa09c7f1b7c7f150e3d569"
+          ],
+          "next_check": "2026-11-28"
+        }
+      }
+    }
+  },
+  "reviewed_episode_ids": [
+    "fed-2026-11-26-trump-demands-gdp-investigation",
+    "mid-2026-11-26-epa-continues-iowa-lead-sampling",
+    "imm-2026-11-25-cooper-blocks-new-citizenship-order",
+    "mid-2026-11-25-appeals-court-pauses-essayli-disqualification",
+    "suc-2026-11-25-portnoy-prefers-desantis",
+    "mid-2026-11-26-trump-approves-florida-flood-relief"
+  ],
+  "changed_entries": [
+    "Six new episodes, four issue assessments, the administration and candidate assessments, and the linked nominee and personnel reviews."
+  ],
+  "unresolved_claims": [
+    "Iowa laboratory results",
+    "Formal GDP inquiry",
+    "FinCEN service restoration",
+    "Iran tanker damage and U.S. military orders",
+    "EU budget talks leave a Ukraine loan pending",
+    "Epstein records vote and production",
+    "Separate signed Alaska election certification",
+    "Venezuela election timetable",
+    "Thanksgiving storm power restoration",
+    "Huang and Teter’s December congressional appearances",
+    "Contractors’ responses to Congress",
+    "Lisa Cook’s removal hearing",
+    "Ueland and LoSapio confirmation",
+    "Reported CIA system breach and Huang clearance"
+  ],
+  "evidence_needed": [
+    "EPA expected initial lab results as early as November 27. Check the EPA public dashboard and releases.",
+    "Trump asked for an investigation. Check Commerce and its inspector general for a formal announcement.",
+    "Temporary deadline relief was covered November 26. Check Treasury and FinCEN for service restoration and the scope of exposed data.",
+    "CBS confirms separate reporting about a tanker attack. Check ship operators and official maritime advisories for the cause of each incident and U.S. orders.",
+    "Check the next EU budget meeting for an agreed financing instrument. The November 27 report did not establish approval.",
+    "Massie reached the petition threshold. Check for a scheduled or recorded floor vote and for replies from Lynch and the Bureau of Prisons.",
+    "The November 24 review recorded the November 23 official results. Check the division for a separate signed record.",
+    "Parties agreed to review the status of political groups. Check for election council appointments and a formal timetable.",
+    "AP reported widespread outages Thursday. Check utilities and emergency authorities for restoration and any federal action tied to this storm.",
+    "Check for actual interviews and the Senate hearing. Axios reviewed the political dispute and supplied no new hearing outcome.",
+    "Check named recipients and committees for production, an asserted privilege or compulsory action.",
+    "The last verified report described a December 14 hearing. Check the White House and court for a change or an operative order.",
+    "Check formal Senate action after the recess. Access to the calendar does not establish a confirmation.",
+    "Further confirmation of the scope of the breach and a separate decision about Huang’s clearance remains unavailable in this intake. Check agency statements and testimony."
+  ],
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "Trump calls for an investigation of pre-election GDP figures",
+        "event_ids": [
+          "fed-2026-11-26-trump-demands-gdp-investigation"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/FED",
+          "assessments/issues/MID"
+        ],
+        "reason": "Trump has offered Republicans an explanation for their losses that puts blame on government statisticians. Congress can ask for records if Commerce opens a probe or changes the way it publishes the figures."
+      },
+      {
+        "finding": "EPA continues testing for lead after the Army’s Iowa detonation",
+        "event_ids": [
+          "mid-2026-11-26-epa-continues-iowa-lead-sampling"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/MID"
+        ],
+        "reason": "State officials and residents can use the later measurements to press the Army and EPA for remediation if contamination is found."
+      },
+      {
+        "finding": "Judge Christopher Cooper blocks Trump’s new birthright citizenship order",
+        "event_ids": [
+          "imm-2026-11-25-cooper-blocks-new-citizenship-order"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/IMM"
+        ],
+        "reason": "The injunction protects the covered children while the case proceeds. A later order on appeal could change which restrictions the administration can enforce."
+      },
+      {
+        "finding": "Appeals court pauses Bill Essayli’s disqualification from supervising federal prosecutions",
+        "event_ids": [
+          "mid-2026-11-25-appeals-court-pauses-essayli-disqualification"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/MID",
+          "assessments/issues/IMM"
+        ],
+        "reason": "The stay temporarily lets the Justice Department retain its choice of supervisor in affected prosecutions. The appeals court has yet to decide whether the delegation was lawful."
+      },
+      {
+        "finding": "Barstool founder Dave Portnoy says he favors Ron DeSantis for 2028",
+        "event_ids": [
+          "suc-2026-11-25-portnoy-prefers-desantis"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/SUC"
+        ],
+        "reason": "The comments give DeSantis a favorable mention from a prominent media figure. Whether that attention produces voter support, endorsements from other Republicans or campaign help remains open."
+      },
+      {
+        "finding": "Trump approves federal disaster relief after flooding in Florida",
+        "event_ids": [
+          "mid-2026-11-26-trump-approves-florida-flood-relief"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/MID",
+          "assessments/issues/SUC"
+        ],
+        "reason": "DeSantis can point to federal approval after Florida sought help. Delivery to residents will determine whether the response strengthens his case for effective state leadership."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "carried",
+        "reason": "December hearings and the separate clearance question remain open."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Reviewed the petition and letters. No new vote or production was independently verified."
+      },
+      "FED": {
+        "status": "reviewed",
+        "reason": "Verified the revised GDP release and its schedule. The Cook proceeding remains open."
+      },
+      "IMM": {
+        "status": "reviewed",
+        "reason": "Verified the district court injunction and appellate stay. Other immigration dockets received limited coverage."
+      },
+      "IRN": {
+        "status": "carried",
+        "reason": "Checked maritime reporting. New funding restrictions and military orders remain unverified."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "Checked House records, Iowa sampling, the Essayli stay and the post-election GDP dispute."
+      },
+      "RUS": {
+        "status": "reviewed",
+        "reason": "Checked the Ukraine grid warning and the EU financing impasse. No change to Lukoil clearance was established."
+      },
+      "SUC": {
+        "status": "reviewed",
+        "reason": "Checked Portnoy’s remarks and reporting on Vance and Rubio. Broad support and donor coverage remains limited."
+      },
+      "TAR": {
+        "status": "reviewed",
+        "reason": "Checked named reactions and the existing proposal. Final duties remain open."
+      },
+      "VEN": {
+        "status": "carried",
+        "reason": "Recovered the account of the November 23 talks. A new election timetable remains open."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "The GDP dispute adds a new line of post-election blame, and the citizenship injunction and prosecutor stay change what the administration can do immediately. The prior congressional oversight frame remains relevant.",
+    "dated_assumptions": [
+      {
+        "assumption": "Iowa laboratory results",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "EPA expected initial lab results as early as November 27. Check the EPA public dashboard and releases."
+      },
+      {
+        "assumption": "Formal GDP inquiry",
+        "date": "2026-11-27",
+        "status": "unreviewed",
+        "reason": "Trump asked for an investigation. Check Commerce and its inspector general for a formal announcement."
+      },
+      {
+        "assumption": "FinCEN service restoration",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "Temporary deadline relief was covered November 26. Check Treasury and FinCEN for service restoration and the scope of exposed data."
+      },
+      {
+        "assumption": "Iran tanker damage and U.S. military orders",
+        "date": "2026-11-27",
+        "status": "unreviewed",
+        "reason": "CBS confirms separate reporting about a tanker attack. Check ship operators and official maritime advisories for the cause of each incident and U.S. orders."
+      },
+      {
+        "assumption": "EU budget talks leave a Ukraine loan pending",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "Check the next EU budget meeting for an agreed financing instrument. The November 27 report did not establish approval."
+      },
+      {
+        "assumption": "Epstein records vote and production",
+        "date": "2026-11-27",
+        "status": "unreviewed",
+        "reason": "Massie reached the petition threshold. Check for a scheduled or recorded floor vote and for replies from Lynch and the Bureau of Prisons."
+      },
+      {
+        "assumption": "Separate signed Alaska election certification",
+        "date": "2026-11-27",
+        "status": "unreviewed",
+        "reason": "The November 24 review recorded the November 23 official results. Check the division for a separate signed record."
+      },
+      {
+        "assumption": "Venezuela election timetable",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "Parties agreed to review the status of political groups. Check for election council appointments and a formal timetable."
+      },
+      {
+        "assumption": "Thanksgiving storm power restoration",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "AP reported widespread outages Thursday. Check utilities and emergency authorities for restoration and any federal action tied to this storm."
+      },
+      {
+        "assumption": "Huang and Teter’s December congressional appearances",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "Check for actual interviews and the Senate hearing. Axios reviewed the political dispute and supplied no new hearing outcome."
+      },
+      {
+        "assumption": "Contractors’ responses to Congress",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "Check named recipients and committees for production, an asserted privilege or compulsory action."
+      },
+      {
+        "assumption": "Lisa Cook’s removal hearing",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "The last verified report described a December 14 hearing. Check the White House and court for a change or an operative order."
+      },
+      {
+        "assumption": "Ueland and LoSapio confirmation",
+        "date": "2026-11-27",
+        "status": "pending",
+        "reason": "Check formal Senate action after the recess. Access to the calendar does not establish a confirmation."
+      },
+      {
+        "assumption": "Reported CIA system breach and Huang clearance",
+        "date": "2026-11-27",
+        "status": "unreviewed",
+        "reason": "Further confirmation of the scope of the breach and a separate decision about Huang’s clearance remains unavailable in this intake. Check agency statements and testimony."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "The timing of the GDP revision shows deliberate election interference.",
+        "finding": "The bureau set November 25 as the revision date in February. The White House praised the initial result and the bureau published its second estimate as scheduled.",
+        "consequence": "A predictable revision carries the evidentiary weight. Trump’s demand remains a political fact whose official consequences are open."
+      }
+    ]
+  },
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "gdp-revision",
+        "question": "Was the pre-election GDP estimate manipulated and has the administration acted on Trump’s accusation?",
+        "importance": "The answer affects who controls the production and oversight of federal statistics.",
+        "affected_assessments": [
+          "assessments/issues/FED"
+        ],
+        "current_answer": "The bureau followed its published schedule. Trump’s demand is documented and a formal inquiry remains unverified.",
+        "explanations": [
+          {
+            "explanation": "The timing follows a regular second estimate.",
+            "weight": "dominant",
+            "reason": "The February release set the dates and the bureau issued both estimates on schedule.",
+            "discriminating_observation": "Check any inquiry’s terms and source-data records."
+          },
+          {
+            "explanation": "The release date was chosen after the election to hide growth.",
+            "weight": "contradicted",
+            "reason": "BEA published the date in February. That leaves separate allegations about the inputs without supporting evidence.",
+            "discriminating_observation": "Look for verified departures from the bureau’s published procedures."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check Commerce or its inspector general for an inquiry notice.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "The president asked for an inquiry without identifying an investigator.",
+            "assessment_effect": "Reassess whether political rhetoric has led to formal scrutiny of the bureau."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The bureau followed its published schedule. Trump’s demand is documented and a formal inquiry remains unverified.",
+        "next_action": "Check Commerce or its inspector general for an inquiry notice.",
+        "next_check": "2026-11-28",
+        "source_receipt_ids": [
+          "a8eb503a46a3becbf2f975d2",
+          "2f34afd10d7ee3ab3cbbdceb",
+          "2444ae4ab3e9afb5db2c77b1",
+          "72ddad3c40defd3ec8d924af",
+          "4326873e2384e188b970b54f",
+          "e1c5e1dcb274d3ef76667c7d",
+          "95be4585b03f7e5c3e68eb35"
+        ]
+      },
+      {
+        "id": "epstein-records-catchup",
+        "question": "Has Massie secured a floor vote or has Drew Lynch produced records?",
+        "importance": "Either event would change Congress’s leverage over disclosure.",
+        "affected_assessments": [
+          "assessments/issues/EPS"
+        ],
+        "current_answer": "The signatures and demand are documented. A floor vote and public production remain unverified.",
+        "explanations": [
+          {
+            "explanation": "The current public record establishes procedural leverage and a records demand.",
+            "weight": "dominant",
+            "reason": "The petition threshold and letter are documented. The House and committee checks did not verify execution.",
+            "discriminating_observation": "Find a recorded vote or an attributable response."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check the House calendar and committee records for a vote, reply or compulsory action.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "Both requests have identifiable decision-makers. The procedural threshold gives Massie a route to the floor.",
+            "assessment_effect": "Update the assessment of House access to records."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The signatures and demand are documented. A floor vote and public production remain unverified.",
+        "next_action": "Check the House calendar and committee records for a vote, reply or compulsory action.",
+        "next_check": "2026-11-28",
+        "source_receipt_ids": [
+          "724c6ce8cf804d694b3be475",
+          "1cd21774a5535413fc79080b",
+          "c3c3d28411210ce60e6da63d",
+          "41639825ee500abb0eb4c925",
+          "fe71541f243f2e85674d0064",
+          "67a124f28fbfaab5d318036a",
+          "a182df35cebadf6b73c75770"
+        ]
+      },
+      {
+        "id": "iowa-disposal",
+        "question": "What can the Iowa measurements establish and who gave notice?",
+        "importance": "Safety and warning responsibility affect different officials and decisions.",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "current_answer": "EPA reported an initial air reading with no lead detected. Lab measurements and the notification chain remain open.",
+        "explanations": [
+          {
+            "explanation": "The initial air results provide limited early reassurance.",
+            "weight": "dominant",
+            "reason": "EPA describes real-time readings an hour after the detonation and separately describes samples sent for testing.",
+            "discriminating_observation": "Compare laboratory measurements with baseline and follow-up samples."
+          },
+          {
+            "explanation": "Senior officials were involved in the last several days while warning failures could have occurred earlier.",
+            "weight": "credible",
+            "reason": "Vance described recent involvement. That leaves earlier notice to specific officials and residents unresolved.",
+            "discriminating_observation": "Find dated notices and delivery records."
+          },
+          {
+            "explanation": "Responsibility for years of storage and responsibility for the response this year can fall on different officials.",
+            "weight": "credible",
+            "reason": "Vance blamed Obama for leaving the stockpile without a plan. CBS reported private disputes about when current officials were warned. Public criticism identified the intervening administrations, while the private accounts differ on what reached Hegseth.",
+            "discriminating_observation": "Obtain dated storage, degradation and warning records."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check for the first EPA lab results and a dated Army warning record.",
+            "likelihood": "high",
+            "impact": "high",
+            "reason": "EPA has sent samples to labs and gave an early results window. The timing of notification records is less certain.",
+            "assessment_effect": "Update safety findings separately from responsibility for notice."
+          }
+        ],
+        "status": "partial",
+        "outcome": "EPA reported an initial air reading with no lead detected. Lab measurements and the notification chain remain open.",
+        "next_action": "Check for the first EPA lab results and a dated Army warning record.",
+        "next_check": "2026-11-28",
+        "source_receipt_ids": [
+          "5142bde542eb20caf6cf103f",
+          "db9b0e36b9ca142a82026462",
+          "2b3d62dbb1d26edcbdf57c62",
+          "e0f38c08bbab195643c2ead0",
+          "3656844d4b36f7e23bdf21aa",
+          "eff09bce16be98a49360b41a"
+        ]
+      },
+      {
+        "id": "alternative-media-audience",
+        "question": "Does criticism of proximity to Trump give a governor a way to recruit Republicans after the midterms?",
+        "importance": "A public preference can point to an audience worth testing before the weekly forecast.",
+        "affected_assessments": [
+          "nominations/republican_2028",
+          "assessments/issues/SUC"
+        ],
+        "current_answer": "Portnoy offered one public example. Evidence of conversion into voter, donor or organizer commitments remains unavailable.",
+        "explanations": [
+          {
+            "explanation": "Portnoy’s personal preference is observable.",
+            "weight": "dominant",
+            "reason": "The reports trace to his same radio appearance and agree on his ranking.",
+            "discriminating_observation": "Find distinct endorsements, early-state commitments or comparable polling."
+          },
+          {
+            "explanation": "The preference may indicate a wider market for a governor who can point to state results.",
+            "weight": "limited",
+            "reason": "One media figure cannot establish the audience’s reaction or its willingness to organize.",
+            "discriminating_observation": "Look for viewers or organizers taking consequential action and compare reactions to other candidates."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Check for independent organizers taking a similar position.",
+            "likelihood": "unknown",
+            "impact": "moderate",
+            "reason": "No new campaign commitment was established in this focused intake.",
+            "assessment_effect": "Reconsider whether DeSantis has a route to recruit beyond Florida."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Portnoy offered one public example. Evidence of conversion into voter, donor or organizer commitments remains unavailable.",
+        "next_action": "Check for independent organizers taking a similar position.",
+        "next_check": "2026-11-28",
+        "source_receipt_ids": [
+          "5300162b485c9d4c14dde8ea",
+          "ad2ebb0c18c63db88d03e42c",
+          "56fa09c7f1b7c7f150e3d569",
+          "8dc8f77f9720d72e912d3698"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "nvidia-intervention": "Held for the December congressional appearances. Axios added attributed reporting. There is no basis here to broaden the claim about Republican reception.",
+      "incoming-oversight": "Committee releases and the carry-forward contractor watch leave private production open.",
+      "fincen-filing": "Confirmed the relief order and attempted the agency news index. Recovery and exposure remain open."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-26",
+        "next_action": "Check Nvidia’s House interviews, Commerce licensing records and the Office of the National Cyber Director’s acting designation.",
+        "next_check": "2026-11-28",
+        "reason": "December hearings and the separate clearance question remain open.",
+        "attempt_receipt_ids": [
+          "56fa09c7f1b7c7f150e3d569"
+        ]
+      },
+      "EPS": {
+        "last_verified": "2026-11-19",
+        "next_action": "Check for Massie’s floor motion and responses to investigation letters.",
+        "next_check": "2026-11-28",
+        "reason": "Reviewed the petition and letters. No new vote or production was independently verified.",
+        "attempt_receipt_ids": [
+          "724c6ce8cf804d694b3be475",
+          "1cd21774a5535413fc79080b",
+          "41639825ee500abb0eb4c925",
+          "67a124f28fbfaab5d318036a",
+          "1aa0c58cd987c7c3f0501bb0"
+        ],
+        "escalation": "More than a week since substantive issue verification. Prioritize committee and floor records at the next review."
+      },
+      "FED": {
+        "last_verified": "2026-11-27",
+        "next_action": "Check the Cook docket and any new White House hearing notice.",
+        "next_check": "2026-11-28",
+        "reason": "Verified the revised GDP release and its schedule. The Cook proceeding remains open.",
+        "attempt_receipt_ids": [
+          "2f34afd10d7ee3ab3cbbdceb",
+          "2444ae4ab3e9afb5db2c77b1",
+          "9a4ae369ec712f7ae2d5547f",
+          "5e92791942a9713cc4c0c381"
+        ]
+      },
+      "IMM": {
+        "last_verified": "2026-11-27",
+        "next_action": "Check Mullin hearing outcome, Project Rousseau operative orders and Big Bend construction.",
+        "next_check": "2026-11-28",
+        "reason": "Verified the district court injunction and appellate stay. Other immigration dockets received limited coverage.",
+        "attempt_receipt_ids": [
+          "190a5f34975b9c1ff14ca433",
+          "87c2f4ab9b4aeafeaa7b14e5"
+        ]
+      },
+      "IRN": {
+        "last_verified": "2026-11-25",
+        "next_action": "Check any funding text, White House response and official military orders.",
+        "next_check": "2026-11-28",
+        "reason": "Checked maritime reporting. New funding restrictions and military orders remain unverified.",
+        "attempt_receipt_ids": [
+          "45ef269a070a8044a723b575",
+          "384a2f20e9107b76b759486c",
+          "ca2fff5440c5e9f486db0b94"
+        ]
+      },
+      "MID": {
+        "last_verified": "2026-11-27",
+        "next_action": "Check House leadership votes and contractor replies to committees.",
+        "next_check": "2026-11-28",
+        "reason": "Checked House records, Iowa sampling, the Essayli stay and the post-election GDP dispute.",
+        "attempt_receipt_ids": [
+          "70d3a50f54f1bfd36406e11b",
+          "5142bde542eb20caf6cf103f",
+          "41639825ee500abb0eb4c925",
+          "a8eb503a46a3becbf2f975d2",
+          "87c2f4ab9b4aeafeaa7b14e5"
+        ]
+      },
+      "RUS": {
+        "last_verified": "2026-11-27",
+        "next_action": "Check a dated handover, APEC statements, and Lukoil license.",
+        "next_check": "2026-11-28",
+        "reason": "Checked the Ukraine grid warning and the EU financing impasse. No change to Lukoil clearance was established.",
+        "attempt_receipt_ids": [
+          "033ace7c4c275b227f29c6c0",
+          "b442fc50be556814d396bc15"
+        ]
+      },
+      "SUC": {
+        "last_verified": "2026-11-27",
+        "next_action": "Check RNC leadership, candidate replies and named organizers or donor commitments.",
+        "next_check": "2026-11-28",
+        "reason": "Checked Portnoy’s remarks and reporting on Vance and Rubio. Broad support and donor coverage remains limited.",
+        "attempt_receipt_ids": [
+          "5300162b485c9d4c14dde8ea",
+          "ad2ebb0c18c63db88d03e42c",
+          "56fa09c7f1b7c7f150e3d569"
+        ]
+      },
+      "TAR": {
+        "last_verified": "2026-11-27",
+        "next_action": "Check operative tariff orders and signed or implemented agreements.",
+        "next_check": "2026-11-28",
+        "reason": "Checked named reactions and the existing proposal. Final duties remain open.",
+        "attempt_receipt_ids": [
+          "b6c60fef137a68751518a50b",
+          "acaab0b3c62f3ccb8249abc8"
+        ]
+      },
+      "VEN": {
+        "last_verified": "2026-11-24",
+        "next_action": "Check for the delegations’ closing statement and electoral council decisions.",
+        "next_check": "2026-11-28",
+        "reason": "Recovered the account of the November 23 talks. A new election timetable remains open.",
+        "attempt_receipt_ids": [
+          "6c69ea1ca101831bdddf8cac",
+          "5e92791942a9713cc4c0c381",
+          "177ec3ae67a2dfdf8d90787a"
+        ]
+      }
+    },
+    "discovery_question": "Does criticism of proximity to Trump give a governor a way to recruit Republicans after the midterms?",
+    "discovery_disposition": "Portnoy offered one public example. Evidence of conversion into voter, donor or organizer commitments remains unavailable.",
+    "premise_reconciliation": "Used the existing projected Democratic majorities, the Hegseth referral and the November 23 nominee forecast. Verified a new court restriction and a separate temporary stay. Identified a public blame claim and one media reaction without treating either as proof of the claim or the audience’s breadth.",
+    "source_receipts": [
+      {
+        "id": "633ddda8ac9d2f221b720c95",
+        "kind": "source",
+        "value": "https://apnews.com/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Opening broad scan surfaced the Ukraine grid warning and GDP dispute.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "4f99e57a7ae47ddfbcbfbc4b",
+        "kind": "source",
+        "value": "https://abcnews.com/Politics",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Opening scan surfaced tariffs, FinCEN and the ABC court dispute.",
+        "reporting_origin": "ABC News"
+      },
+      {
+        "id": "353a9e57ab2da6762b988c28",
+        "kind": "source",
+        "value": "https://www.reuters.com/world/us/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "blocked",
+        "result": "Direct opening index failed.",
+        "reporting_origin": "Reuters"
+      },
+      {
+        "id": "e1c5e1dcb274d3ef76667c7d",
+        "kind": "source",
+        "value": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Licensed Reuters report confirms the demand and compares past revisions.",
+        "reporting_origin": "Reuters"
+      },
+      {
+        "id": "a8eb503a46a3becbf2f975d2",
+        "kind": "source",
+        "value": "https://apnews.com/article/4fd800b44005ae11f950f96ff62f876e",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Trump linked the GDP estimate to Republican losses and demanded a probe. Commerce had yet to respond to AP.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "2f34afd10d7ee3ab3cbbdceb",
+        "kind": "source",
+        "value": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "November 25 second estimate raised annualized third-quarter real growth from 3.4% to 4.3%.",
+        "reporting_origin": "Bureau of Economic Analysis"
+      },
+      {
+        "id": "2444ae4ab3e9afb5db2c77b1",
+        "kind": "source",
+        "value": "https://www.bea.gov/sites/default/files/2026-02/gdp4q25-adv.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "February release scheduled the October and November GDP estimates before the midterms.",
+        "reporting_origin": "Bureau of Economic Analysis"
+      },
+      {
+        "id": "72ddad3c40defd3ec8d924af",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/2026/10/president-trump-unleashes-the-american-economy-gdp-surges-as-investment-hits-multi-year-high/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "White House praised the October 29 estimate as evidence of strong growth.",
+        "reporting_origin": "White House"
+      },
+      {
+        "id": "8f9cb24a508fef8ef361a0ad",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/briefings-statements/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Official statements index checked for policy and scheduling changes.",
+        "reporting_origin": "White House"
+      },
+      {
+        "id": "e08aaa051ff8e9d8d2f5fc87",
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/releases/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Releases index checked for formal follow-through on the GDP demand and military decisions.",
+        "reporting_origin": "White House"
+      },
+      {
+        "id": "70011458c924ddfa22909bdc",
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Official calendar and Court index reviewed for orders and upcoming decisions.",
+        "reporting_origin": "Supreme Court"
+      },
+      {
+        "id": "ec4d572c26e73058a7bce398",
+        "kind": "source",
+        "value": "https://www.congress.gov/calendars-and-schedules",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "blocked",
+        "result": "Direct calendar access restricted. Used Senate executive calendar and House Clerk.",
+        "reporting_origin": "Congress.gov"
+      },
+      {
+        "id": "ca2fff5440c5e9f486db0b94",
+        "kind": "source",
+        "value": "https://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "November 27 executive calendar accessed for pending nominations.",
+        "reporting_origin": "U.S. Senate"
+      },
+      {
+        "id": "31a34ba58e2d65d7c9c59d39",
+        "kind": "source",
+        "value": "https://www.elections.alaska.gov/enr26/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Official results route checked for separate signed certification.",
+        "reporting_origin": "Alaska Division of Elections"
+      },
+      {
+        "id": "724c6ce8cf804d694b3be475",
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Checked public House roll-call index for dispositions.",
+        "reporting_origin": "House Clerk"
+      },
+      {
+        "id": "70d3a50f54f1bfd36406e11b",
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Hegseth resolution referred 211–204 on November 10.",
+        "reporting_origin": "House Clerk"
+      },
+      {
+        "id": "1cd21774a5535413fc79080b",
+        "kind": "source",
+        "value": "https://clerk.house.gov/DischargePetition",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Public petition index loaded. It did not establish a floor vote.",
+        "reporting_origin": "House Clerk"
+      },
+      {
+        "id": "c3c3d28411210ce60e6da63d",
+        "kind": "source",
+        "value": "https://abcnews.com/US/discharge-petition-2nd-epstein-files-bill-secures-218/story?id=138057235",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "November 11 report confirms that the petition reached 218 signatures.",
+        "reporting_origin": "ABC News"
+      },
+      {
+        "id": "41639825ee500abb0eb4c925",
+        "kind": "source",
+        "value": "https://oversight.house.gov/release/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Public releases checked for a Drew Lynch response and contractor records production.",
+        "reporting_origin": "House Oversight Committee"
+      },
+      {
+        "id": "fe71541f243f2e85674d0064",
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Garcia requested records by November 13. The letter does not establish production.",
+        "reporting_origin": "House Oversight Democrats"
+      },
+      {
+        "id": "1aa0c58cd987c7c3f0501bb0",
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/imo/media/doc/2026-11-18garciatomarshallhallbopre120thcongress.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Garcia sought records about the handling of Ghislaine Maxwell. Public production remains open.",
+        "reporting_origin": "House Oversight Democrats"
+      },
+      {
+        "id": "5142bde542eb20caf6cf103f",
+        "kind": "source",
+        "value": "https://www.epa.gov/newsreleases/epa-provides-update-sampling-following-yesterdays-controlled-detonation-iowa-army",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "November 26 update describes ongoing sampling. Lab results might begin arriving November 27.",
+        "reporting_origin": "EPA"
+      },
+      {
+        "id": "db9b0e36b9ca142a82026462",
+        "kind": "source",
+        "value": "https://www.epa.gov/newsreleases/initial-air-monitoring-shows-zero-detection-airborne-lead-following-controlled",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "EPA reported zero lead detection on its real-time air monitors an hour after the disposal.",
+        "reporting_origin": "EPA"
+      },
+      {
+        "id": "cfb4aa476e1cb62771bedfe6",
+        "kind": "source",
+        "value": "https://apnews.com/article/bc178961a973a39834cbe249fd19183b",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "AP confirms EPA update and pending tests.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "2b3d62dbb1d26edcbdf57c62",
+        "kind": "source",
+        "value": "https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-jd-vance-thanksgiving-lunch-troops-ohio-november-25-2026/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Vance defended the administration response to reporters and identified several senior officials as involved over the previous five or six days.",
+        "reporting_origin": "Roll Call Factbase"
+      },
+      {
+        "id": "57b8a84ab6694138e920f81d",
+        "kind": "source",
+        "value": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Existing order gives affected filers limited relief. It establishes neither full restoration nor exposure scope.",
+        "reporting_origin": "FinCEN"
+      },
+      {
+        "id": "1f71e8dac3d2d23f2de2efa5",
+        "kind": "source",
+        "value": "https://www.fincen.gov/news-room/news",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "not_found",
+        "result": "News route returned 404. Order remained accessible.",
+        "reporting_origin": "FinCEN"
+      },
+      {
+        "id": "9e405ca375214ace3b145906",
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Treasury releases checked for follow-through on the financial reporting outage.",
+        "reporting_origin": "Treasury"
+      },
+      {
+        "id": "72cf9cc6674fa15ea336a6ae",
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Official releases checked for investigations and personnel changes.",
+        "reporting_origin": "Justice Department"
+      },
+      {
+        "id": "177ec3ae67a2dfdf8d90787a",
+        "kind": "source",
+        "value": "https://www.state.gov/press-releases/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "blocked",
+        "result": "Index inaccessible. Used reporting and congressional sources.",
+        "reporting_origin": "State Department"
+      },
+      {
+        "id": "9a4ae369ec712f7ae2d5547f",
+        "kind": "source",
+        "value": "https://www.federalreserve.gov/newsevents/pressreleases/2026-press.htm",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Checked official releases for changes in announced Federal Reserve policy or board status.",
+        "reporting_origin": "Federal Reserve"
+      },
+      {
+        "id": "384a2f20e9107b76b759486c",
+        "kind": "source",
+        "value": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "blocked",
+        "result": "Official press index returned forbidden. Used maritime and independent reporting.",
+        "reporting_origin": "CENTCOM"
+      },
+      {
+        "id": "45ef269a070a8044a723b575",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Separate maritime confirmation of an attack leaves the three Iranian mine claims and new orders unverified.",
+        "reporting_origin": "CBS News"
+      },
+      {
+        "id": "033ace7c4c275b227f29c6c0",
+        "kind": "source",
+        "value": "https://apnews.com/article/122f7f187eea20d4d2b659692b4c4f1e",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Zelenskyy warned of attacks and sought air defense supplies. Kushner described Putin as showing restraint.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "b442fc50be556814d396bc15",
+        "kind": "source",
+        "value": "https://apnews.com/article/fd025046850b824b2e62def18408c6b6",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "EU budget talks stalled with new Ukraine financing undecided.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "b6c60fef137a68751518a50b",
+        "kind": "source",
+        "value": "https://time.com/article/2026/11/26/china-brazil-eu-push-back-against-trump-tariffs/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Trading partners objected and incoming Finance chair Ron Wyden promised to challenge the tariffs.",
+        "reporting_origin": "Time"
+      },
+      {
+        "id": "acaab0b3c62f3ccb8249abc8",
+        "kind": "source",
+        "value": "https://abcnews.com/Politics/trump-admin-proposes-new-tariffs-china-eu-12/story?id=138442698",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Directly reviewed linked article establishing a proposal affecting 14 trading partners.",
+        "reporting_origin": "ABC News"
+      },
+      {
+        "id": "06faf2ad8c80c71e0a1b34f3",
+        "kind": "source",
+        "value": "https://www.stateoig.gov/uploads/report/report_pdf_file/oss_q4_sep2026.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Original quarterly report was available for checking the reported pause in boat strikes.",
+        "reporting_origin": "Lead Inspector General"
+      },
+      {
+        "id": "af5b2b803061ad9d8b78b37e",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/pete-hegseths-goons-make-admission-about-his-drug-boat-crusade",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Report describes a summer pause and cites the inspector general. No new proceeding identified.",
+        "reporting_origin": "The Daily Beast"
+      },
+      {
+        "id": "190a5f34975b9c1ff14ca433",
+        "kind": "source",
+        "value": "https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1:2026cv03377/297026/52/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Judge Cooper certified a class and granted a preliminary injunction on citizenship.",
+        "reporting_origin": "U.S. District Court for the District of Columbia"
+      },
+      {
+        "id": "87c2f4ab9b4aeafeaa7b14e5",
+        "kind": "source",
+        "value": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/25/26-7372.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Ninth Circuit put the disqualification order on hold pending disposition of a related Supreme Court case.",
+        "reporting_origin": "U.S. Court of Appeals for the Ninth Circuit"
+      },
+      {
+        "id": "56fa09c7f1b7c7f150e3d569",
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/27/vance-rubio-trump-downside-2028",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Axios compares Vance and Rubio’s policy differences and costs of defending Trump.",
+        "reporting_origin": "Axios"
+      },
+      {
+        "id": "5300162b485c9d4c14dde8ea",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/barstool-boss-dave-portnoy-writes-off-jd-vance-with-ron-desantis-as-2028-pick",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Reports Portnoy’s preference for DeSantis and for Rubio over Vance in a two-way choice.",
+        "reporting_origin": "The Daily Beast"
+      },
+      {
+        "id": "ad2ebb0c18c63db88d03e42c",
+        "kind": "source",
+        "value": "https://www.mediaite.com/media/news/jds-done-dave-portnoy-tells-scott-jennings-his-top-presidential-pick-for-2028/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Quotes the same interview and embeds the show’s excerpt. One observed commentator response.",
+        "reporting_origin": "Mediaite"
+      },
+      {
+        "id": "4326873e2384e188b970b54f",
+        "kind": "source",
+        "value": "https://time.com/article/2026/11/27/trump-thanksgiving-truth-social-economic-data-growth-estimate-revision-election/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Independently reports the demand and Lutnick’s praise of the revision without addressing alleged manipulation.",
+        "reporting_origin": "Time"
+      },
+      {
+        "id": "bbaa690c2b79aa3a306e213f",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/politics/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Closing broad politics scan included Iran and the Thanksgiving storm.",
+        "reporting_origin": "CBS News"
+      },
+      {
+        "id": "55b919c994d0f89d710a3802",
+        "kind": "source",
+        "value": "https://www.theguardian.com/us-news",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Closing broad scan from an additional outlet.",
+        "reporting_origin": "The Guardian"
+      },
+      {
+        "id": "68265f5d12542ac528577558",
+        "kind": "source",
+        "value": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Directly verified coverage of the GDP accusation.",
+        "reporting_origin": "The Guardian"
+      },
+      {
+        "id": "85f222e89fa281c5f54feba3",
+        "kind": "source",
+        "value": "https://apnews.com/article/e8bc9bc454c933dacffe89b1139c4d3c",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Reports widespread storm power losses and a Florida disaster declaration for earlier flooding.",
+        "reporting_origin": "AP"
+      },
+      {
+        "id": "519ed3903efe11ec38485e92",
+        "kind": "source",
+        "value": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-emergency-disaster-relief-storms-florida-november-26-2026/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Trump announced approval of federal disaster relief for Florida.",
+        "reporting_origin": "Roll Call Factbase"
+      },
+      {
+        "id": "772d93c35f008796b6068d37",
+        "kind": "source",
+        "value": "https://time.com/article/2026/11/27/midterm-elections-redistricting-gerrymandering/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Retrospective on midterm redistricting results did not establish a new map decision.",
+        "reporting_origin": "Time"
+      },
+      {
+        "id": "6c69ea1ca101831bdddf8cac",
+        "kind": "source",
+        "value": "https://elpais.com/america/2026-11-24/la-mesa-de-dialogo-en-venezuela-se-compromete-a-revisar-el-estatus-de-los-partidos-politicos.html",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Participants agreed to review the status of political parties. No election date established here.",
+        "reporting_origin": "El País"
+      },
+      {
+        "id": "c96f1a423abf73911c555b84",
+        "kind": "source",
+        "value": "https://theverardogroup.substack.com/p/tvg-daily-brief-27-nov-2026",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "blocked",
+        "result": "Direct weekday issue unavailable.",
+        "reporting_origin": "TVG Daily Brief"
+      },
+      {
+        "id": "95be4585b03f7e5c3e68eb35",
+        "kind": "query",
+        "value": "November 27 2026 United States GDP Trump Commerce inspector general probe announced response Vance Rubio Republican lawmakers",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Time found Lutnick praising the new figure. No formal inquiry or broader Republican reception was established.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "5317fce35e7d90b780a3e36e",
+        "kind": "query",
+        "value": "Hegseth Noem Guilfoyle Blanche Wiles Patel Kennedy Lutnick Bondi impeachment November 26 27 2026 proceedings senate",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Recovered Hegseth referral and older investigative material. No additional proceeding identified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "67a124f28fbfaab5d318036a",
+        "kind": "query",
+        "value": "November 2026 Thomas Massie Epstein bill Drew Lynch Kimberly Guilfoyle November 13 House Oversight release discharge petition",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Recovered signature threshold and Garcia request. No later vote or public production verified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "e0f38c08bbab195643c2ead0",
+        "kind": "query",
+        "value": "Iowa November 27 2026 EPA sampling results Middletown site:epa.gov lead azide",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Recovered initial air monitoring and November 26 sampling update. No lab results verified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "e3e82e3e467ac9e03095af43",
+        "kind": "query",
+        "value": "Nathan Trump November 25 2026 birthright citizenship order pdf Essayli disqualified stay November 25 2026 court docket",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Located both court decisions through follow-up searches.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "bb608c80068d12b4abc071f1",
+        "kind": "query",
+        "value": "Operation Southern Spear Lead Inspector General July September 2026 late June earthquake report November site:stateoig.gov OR site:dodig.mil",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Located original inspector general report.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "5e92791942a9713cc4c0c381",
+        "kind": "query",
+        "value": "November 27 2026 Lisa Cook hearing Venezuela election timetable Iran Senate funding latest November 2026",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Found earlier Venezuela talks. Cook and Iran funding outcomes remain open.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "8dc8f77f9720d72e912d3698",
+        "kind": "query",
+        "value": "November 2026 Dave Portnoy DeSantis Vance Rubio presidential 2028 original interview November 26",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Found linked interview excerpts and accounts of the same radio appearance.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "a182df35cebadf6b73c75770",
+        "kind": "query",
+        "value": "November 27 2026 Drew Lynch Guilfoyle subpoena Patel CIA leak FinCEN restoration",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "No new public production or restoration established.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "5884fbe469a4bce7146fbe8d",
+        "kind": "query",
+        "value": "November 27 2026 Garcia Bureau Prisons Maxwell deadline Blanche Vance Wiles records committee",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "November 27 shared intake and outcome verification",
+        "status": "read",
+        "result": "Located Garcia letter and reported deadlines. No response material verified.",
+        "reporting_origin": "Web search"
+      },
+      {
+        "id": "3656844d4b36f7e23bdf21aa",
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/jd-vance-savaged-over-wild-attempt-to-pass-the-buck-over-iowa-detonation-onto-obama",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "Closing reconciliation of related leads and official records",
+        "status": "read",
+        "result": "Reports Vance’s explanation to reporters and named objections from David Axelrod and Chuck Todd.",
+        "reporting_origin": "The Daily Beast"
+      },
+      {
+        "id": "eff09bce16be98a49360b41a",
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/iowa-detonation-lead-white-house-blindsided-accountability/?ftag=CNM-00-10aag7e",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "Closing reconciliation of related leads and official records",
+        "status": "read",
+        "result": "Original account of private White House blame and conflicting descriptions of notice to Hegseth and his office.",
+        "reporting_origin": "CBS News"
+      },
+      {
+        "id": "b9a52db1b6c62bcd42a39ae3",
+        "kind": "source",
+        "value": "https://www.finance.senate.gov/ranking-members-news/wyden-statement-on-trumps-latest-tariffs/",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "Closing reconciliation of related leads and official records",
+        "status": "blocked",
+        "result": "Committee page timed out. Time included Wyden’s attributed statement.",
+        "reporting_origin": "Senate Finance Committee"
+      },
+      {
+        "id": "93b73421098eb6ffe91d5a54",
+        "kind": "source",
+        "value": "https://www.elections.alaska.gov/enr26/results/ElectionSummaryReportRPT.pdf",
+        "window": "2026-11-26/2026-11-27",
+        "purpose": "Closing reconciliation of related leads and official records",
+        "status": "not_found",
+        "result": "Direct PDF route returned 404. State results page and prior official posting remain available.",
+        "reporting_origin": "Alaska Division of Elections"
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-27-daily",
+    "wargame_ref": "2026-11-23-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Regular weekly cadence. No weekly wargame executed in this daily review.",
+    "summary": "The November 23 forecast carries forward. Barstool Sports founder Dave Portnoy publicly favored Florida Governor Ron DeSantis over Vice President JD Vance and Secretary of State Marco Rubio. His remarks show how one media figure weighs ties to Trump. Whether voters, donors and organizers make the same comparison remains open."
+  },
+  "editorial_notes": [
+    "Used concrete actors and actions in every new event title. Distinguished scheduled statistical revisions from an inquiry, EPA’s early readings from laboratory results, judicial stays from merits rulings, and a commentator’s preference from campaign support. Existing scenario labels were carried forward.",
+    "Identified the two public critics of Vance’s Iowa explanation and distinguished their objections from CBS’s attributed accounts of private blame."
+  ],
+  "validation_results": [
+    "Checked new episode IDs, source URLs, relevant issue paths, nomination shares and personnel forecast holds. Runner preflight supplies the final staged contract check.",
+    "The slicer found each staged new episode by its own ID and did not surface a second episode for any of the six. The event review also checked the nearby Iowa disposal entry separately from later EPA sampling."
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "reader_takeaway": "Trump’s GDP demand shifts blame while two judges change what agencies can do immediately. Portnoy supplies one example of how proximity to Trump can affect a comparison of possible successors.",
+        "context_check": "Named Trump, the statistics bureau, the courts, the protected children and the prosecutor’s supervisory role. Introduced the three prospective candidates by job in the nomination summary.",
+        "uncertainty_check": "Distinguished formal action from Trump’s demand, temporary rulings from final outcomes, and media preference from broader reception.",
+        "changes_made": [
+          "Explained what incoming committee leaders could ask about and who receives protection from the injunction.",
+          "Named the criticism Portnoy made and explained why its reach among primary voters is still open."
+        ],
+        "fingerprint": "56e0881b07aa0a8815ec2686794d5963a491a8ab17ad2f5296f2e8e7dbfe29ce"
+      },
+      "assessments/issues": {
+        "reader_takeaway": "The revised GDP release raises a question about pressure on the statistics bureau. Separate rulings bear on immigration enforcement and federal prosecutions. Iowa testing and Florida aid have different next steps.",
+        "context_check": "The added issue copy names the deciding bodies, affected communities and relevant candidates. The scope lines identify carried and limited checks.",
+        "uncertainty_check": "Kept the open inquiry, appeal, aid delivery, laboratory testing and campaign commitment questions visible.",
+        "changes_made": [
+          "Clarified who is protected by the citizenship injunction rather than relying on the legal term certified class."
+        ],
+        "fingerprint": "685312546450b018c201cdfe0966b9afe8a6d8c9d95d5e199456e91e3ee20f1a"
+      },
+      "events/FED": {
+        "reader_takeaway": "Trump demanded an investigation after the statistics bureau published a scheduled revision.",
+        "context_check": "Provided the two values, release dates, the White House’s prior position and Lutnick’s reported reaction.",
+        "uncertainty_check": "Separated the accusation from independently documented timing and an unverified investigation.",
+        "changes_made": [
+          "Explained why a public demand leaves formal action and statistical authority open."
+        ],
+        "fingerprint": "8b104885e4b70619fb2656872c3f864245e6dc98c3e2d2322436d9da141b7cdc"
+      },
+      "events/IMM": {
+        "reader_takeaway": "A district judge temporarily protected children affected by Trump’s revised order.",
+        "context_check": "Named the court, case, date threshold and connection to the earlier Supreme Court ruling.",
+        "uncertainty_check": "The injunction covers a defined group and litigation continues.",
+        "changes_made": [
+          "Specified the date and covered population and explained that the case continues."
+        ],
+        "fingerprint": "0331203fed8edcdb76b8d589c515c1bd29489cb4147671c5a7d881a65530f702"
+      },
+      "events/MID": {
+        "reader_takeaway": "The appeals court paused a prosecutor’s disqualification, EPA continued testing in Iowa and Trump approved relief for earlier Florida floods.",
+        "context_check": "Each headline names a decision and actor. The contexts explain the California delegation, initial testing window and different storm periods.",
+        "uncertainty_check": "Maintained the distinctions between a stay and a merits decision, initial readings and lab tests, and aid authorization and delivery.",
+        "changes_made": [
+          "Identified the related appellate case and explained the limits of the three events in their impact notes.",
+          "Named Vance’s public explanation, identified his public critics and attributed private notification claims to CBS News."
+        ],
+        "fingerprint": "2d264c24a2cc8e98a9bee1eec8ed3b7cd368b3104b854083ba2151bbe4b1a598"
+      },
+      "events/SUC": {
+        "reader_takeaway": "A media figure voiced a preference for DeSantis and favored Rubio in a hypothetical two-person choice.",
+        "context_check": "Named the speaker, show, three current jobs and the specific comparisons.",
+        "uncertainty_check": "The accounts trace to one interview. The evidence gives no measure of audience acceptance or campaign help.",
+        "changes_made": [
+          "Clarified that the remarks do not establish an organized coalition or movement in voter support."
+        ],
+        "fingerprint": "30faa83e27563c553c41c53669da73aa60a19188f8ccee197f3d9502f50f1145"
+      },
+      "impeachments/all": {
+        "reader_takeaway": "All nine cases were reviewed or carried with individual explanations. The latest verified Hegseth action is a referral. The Essayli stay and GDP dispute add subjects for oversight.",
+        "context_check": "Reviewed the new snapshot, repeated historical basis fields, each case’s reason, the updated test and the four evidence entries. Named actions and their limits.",
+        "uncertainty_check": "Separated procedural status, case-specific claims, private records that might remain undisclosed and speculative effects on later cases.",
+        "changes_made": [
+          "Replaced generic source labels with descriptions of the court order, EPA update, committee index and Time report."
+        ],
+        "fingerprint": "94861c91471b911cfcbd4bd61c5acce1d00b459a5d73204811c81db434d04e74"
+      },
+      "nominations/republican_2028": {
+        "reader_takeaway": "New source notes document Portnoy’s preference, Axios’s analysis and approval of Florida aid. The November 23 odds still carry.",
+        "context_check": "Named Portnoy and the candidates in the report description, and identified whether each source was an interview account, political analysis or announcement.",
+        "uncertainty_check": "A single interview remains one observation. Approval of aid precedes disbursement. No campaign outcome is inferred.",
+        "changes_made": [
+          "Made the interview source description identify both comparisons and the speaker."
+        ],
+        "fingerprint": "de9a417e2f3644e38e273f03c0d4404e2af04323a12e6a1a02203d945e634177"
+      },
+      "runs/2026-11-27": {
+        "reader_takeaway": "The briefing records six new episodes, forecast holds and the consequential questions still open.",
+        "context_check": "Read the summary, change and scope notes, and individual unresolved labels. Readers can see which inquiries, results and agency actions remain open.",
+        "uncertainty_check": "The summary distinguishes today’s verified facts from pending tests and prior items carried forward.",
+        "changes_made": [
+          "Identified whom the citizenship ruling protects and stated explicitly that the listed outcomes remain open."
+        ],
+        "fingerprint": "942666558a34ae42be0d260e66262ee5b2b9101155dbfd993891b5b4f7f904a0"
+      }
+    }
+  }
+}

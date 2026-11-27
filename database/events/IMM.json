@@ -2280,6 +2280,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The move resolves where he went after the government’s effort to send him to another country. It leaves the broader rules governing deportation and court review to other cases."
+    },
+    {
+      "id": "imm-2026-11-25-cooper-blocks-new-citizenship-order",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "Christopher Cooper",
+      "text": "Judge Christopher Cooper blocks Trump’s new birthright citizenship order",
+      "context": "The federal district judge in Washington issued a preliminary injunction in Nathan v. Trump. The protection covers a defined group of children born in the United States on or after August 6 whose parents are subject to specified parts of the revised order. The judge applied the Supreme Court’s earlier birthright citizenship ruling. The order is preliminary and the case continues.",
+      "source": "https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1:2026cv03377/297026/52/",
+      "url": "https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1:2026cv03377/297026/52/",
+      "tier": "documented",
+      "weight": 4,
+      "rationale": "My reading: The injunction protects the covered children while the case proceeds. A later order on appeal could change which restrictions the administration can enforce.",
+      "origin": "daily shared intake",
+      "added": "2026-11-27",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The temporary order applies to the plaintiffs and certified class. The broader political response is open."
     }
   ]
 }
