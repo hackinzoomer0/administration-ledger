@@ -3290,6 +3290,94 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The declaration establishes eligibility for aid under its terms. No faction alignment or electoral consequence was verified."
+    },
+    {
+      "id": "mid-2026-11-28-epa-reports-first-water-tests",
+      "date": "2026-11-28",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Environmental Protection Agency",
+      "text": "EPA finds no rise in lead in water sources it tested outside the Iowa blast plume",
+      "context": "The EPA compared initial samples of untreated drinking-water sources with readings from before the Army’s November 25 disposal at the Iowa Army Ammunition Plant. The sampled sources were outside the area reached by the plume.",
+      "source": "https://www.epa.gov/newsreleases/epa-releases-initial-water-source-lab-results-indicating-wednesdays-controlled",
+      "url": "https://www.epa.gov/newsreleases/epa-releases-initial-water-source-lab-results-indicating-wednesdays-controlled",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The results narrow immediate questions about the tested sources. Officials still need results from potentially affected locations and records showing when residents and officials were warned.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The tested water sources were outside the plume, and the measurements do not establish a change in faction leverage."
+    },
+    {
+      "id": "mid-2026-11-27-iowa-lawmakers-criticize-army-notice",
+      "date": "2026-11-27",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Joni Ernst and Josh Turek",
+      "text": "Iowa lawmakers criticize the Army’s warnings about the explosives disposal",
+      "context": "The Associated Press reported that Republican Senator Joni Ernst had called for more transparency before the detonation and that Democratic Senator-elect Josh Turek faulted the planning and public communication afterward. EPA said it sent earlier permit notices to lawmakers and local officials. Those notices concern permitting, and the timing of direct warnings about the blast remains open.",
+      "source": "https://apnews.com/article/cde35b4969d6f4f68187fa21aa2243a6",
+      "url": "https://apnews.com/article/cde35b4969d6f4f68187fa21aa2243a6",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Turek can press for records when he enters the Senate. Ernst’s criticism shows concern crossed party lines, while the timing of each statement matters for what the speaker could have known.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The comments establish criticism across parties. Neither reporting nor permit notices establish a transfer of authority."
+    },
+    {
+      "id": "mid-2026-11-27-air-force-cloud-one-breach-reported",
+      "date": "2026-11-27",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "chron",
+      "actor": "U.S. Air Force",
+      "text": "News outlets report an intrusion into an Air Force cloud computing system",
+      "context": "Federal News Network cited a person familiar with the incident who corroborated parts of Reuters’ account. The Air Force declined to discuss the status of specific systems in a statement to CBS News. The scope of any exposed data, the cause and the response remain unclear.",
+      "source": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/",
+      "url": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The reports give lawmakers grounds to ask the Pentagon which systems were affected and who was responsible for the response. They establish no personal decision by Defense Secretary Pete Hegseth.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The reporting raises a question for oversight and does not establish an official change in responsibility."
+    },
+    {
+      "id": "mid-2026-11-25-court-denies-longer-ad-ban",
+      "date": "2026-11-25",
+      "precision": "day",
+      "issues": [
+        "MID"
+      ],
+      "kind": "act",
+      "actor": "Loren AliKhan",
+      "text": "Judge denies Democrats’ request to extend a ban on taxpayer-funded Trump ads",
+      "context": "District Judge Loren AliKhan denied the Democratic National Committee’s request for preliminary relief after the midterms. The court ordered a joint status report by December 9.",
+      "source": "https://cases.justia.com/federal/district-courts/district-of-columbia/dcdce/1%3A2026cv03506/297432/37/0.pdf?ts=1795700706",
+      "url": "https://cases.justia.com/federal/district-courts/district-of-columbia/dcdce/1%3A2026cv03506/297432/37/0.pdf?ts=1795700706",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: The decision removes the requested preliminary constraint on the challenged ads. The litigation continues and the ruling does not settle every challenge to the ads.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The ruling concerns preliminary relief and supplies no evidence of a change in which officials direct advertising."
     }
   ]
 }

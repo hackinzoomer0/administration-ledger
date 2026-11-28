@@ -1,0 +1,1915 @@
+{
+  "date": "2026-11-28",
+  "type": "daily_review",
+  "added": "2026-11-28",
+  "scope": "Focused November 27–28 intake. Checked major news, court filings, congressional schedules, official Alaska results, Iowa sampling, reported federal service failures, and selected developments in Iran, Ukraine and Venezuela. Coverage of individual case dockets, private reactions, Taiwan’s full results, candidate donors and state-level organizing was limited.",
+  "summary": "The EPA published its first Iowa water tests, the ACLU asked a federal judge to halt subpoenas, and the U.S. military said it disabled a ship enforcing the Iran blockade. Oversight questions grew after reports of an Air Force cloud intrusion. Nomination and personnel estimates hold. Open checks include FinCEN service restoration, the formal Commerce GDP inquiry, and the Massie floor vote and Drew Lynch records. The full Taiwan local election results and attribution of the deadly Kuwait drone strike remain unverified. Iowa results from the plume and blast warning records remain pending. Individual case dockets, private reactions, candidate donors and state-level organizing received limited coverage. December hemp restrictions and a possible exception are on the next watchlist.",
+  "coverage": {
+    "sourcesRead": [
+      "https://apnews.com/article/5f2b57cdfd67d92b8eb6b810ca2607a0",
+      "https://www.axios.com/2026/11/28/congress-sexual-misconduct-house-ethics",
+      "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/",
+      "https://www.cbsnews.com/news/u-s-air-force-cloud-platform-breached-by-hackers/",
+      "https://www.epa.gov/newsreleases/epa-releases-initial-water-source-lab-results-indicating-wednesdays-controlled",
+      "https://apnews.com/article/cde35b4969d6f4f68187fa21aa2243a6",
+      "https://assets.aclu.org/live/uploads/2026/11/19-2.-Redacted-Motion-for-Preliminary-Injunction.pdf",
+      "https://www.aclu.org/press-releases/lawsuit-alleges-sprawling-federal-grand-jury-investigation-into-anonymous-ice-critics-online",
+      "https://apnews.com/article/800620518a351282f098faa9381b3375",
+      "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?entryId=138483340&id=138369648",
+      "https://cases.justia.com/federal/district-courts/district-of-columbia/dcdce/1%3A2026cv03506/297432/37/0.pdf?ts=1795700706",
+      "https://apnews.com/article/fcc1b61e8e7134c01ca3e6dec7728442",
+      "https://www.aljazeera.com/amp/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office",
+      "https://www.aol.co.uk/articles/ukraine-submits-black-sea-ceasefire-210912000.html",
+      "https://apnews.com/article/bbf9dad3076a69b9bd18b7c0c80490ad",
+      "https://www.elections.alaska.gov/election-results/e/",
+      "https://clerk.house.gov/Votes/2026317",
+      "https://www.house.gov/legislative-activity",
+      "https://www.govinfo.gov/content/pkg/CREC-2026-11-20/pdf/CREC-2026-11-20-senate.pdf",
+      "https://www.supremecourt.gov/opinions/slipopinion/26",
+      "https://www.whitehouse.gov/briefings-statements/",
+      "https://oversightdemocrats.house.gov/news",
+      "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+      "https://clerk.house.gov/DischargePetition/2026083127?Page=3",
+      "https://www.oig.doc.gov/",
+      "https://www.fincen.gov/news/",
+      "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+      "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november",
+      "https://www.stateoig.gov/uploads/report/report_pdf_file/oss_q4_sep2026.pdf",
+      "https://www.cbsnews.com/politics/",
+      "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+      "https://www.investing.com/news/politics-news/trump-says-democrats-facing-veto-power-should-work-with-him-5042560",
+      "https://www.axios.com/2026/11/28/senate-republicans-trump-defiance-hemp-jensen-huang",
+      "https://www.cotton.senate.gov/news/press-releases/cotton-budd-colleagues-urge-trump-to-close-dangerous-federal-hemp-loophole/",
+      "https://www.klobuchar.senate.gov/public/index.cfm/news-releases?ID=161222C7-63DC-4BD2-9BFF-EDDE73DAD661",
+      "https://election2026.rti.org.tw/en/results.html",
+      "https://uk.marketscreener.com/news/taipei-mayor-leads-vote-count-in-key-taiwan-local-elections-ce7851d9d081f02d",
+      "https://www.whitehouse.gov/presidential-actions/",
+      "https://www.justice.gov/news",
+      "https://home.treasury.gov/news/press-releases"
+    ],
+    "queries": [
+      "November 27 28 2026 latest US politics election court military news November 28 2026 AP Reuters",
+      "after:2026-11-27 before:2026-11-29 latest CBS NBC Guardian AP Reuters November 28 US winter storm parade Ukraine Iran Venezuela Trump news",
+      "November 27 28 2026 Trump Air Force Cloud One NBC official Hegseth GOP private blame White House leadership reaction",
+      "November 27 2026 Commerce inspector general investigation Trump GDP BEA official House roll call Hegseth November 27 Congress",
+      "site:oversightdemocrats.house.gov November 2026 Garcia Drew Lynch Guilfoyle November 27 response",
+      "November 27 2026 FinCEN restoration BOI outage deadline Treasury Epstein Massie petition floor Drew Lynch Guilfoyle",
+      "November 27 2026 US disables Pacific Archer CENTCOM site:centcom.mil OR site:x.com/CENTCOM",
+      "Venezuela opposition office ban repeal November 27 2026 BBC AP Reuters US military cooperation",
+      "November 28 2026 EPA Iowa first soil water results site:epa.gov detonation"
+    ],
+    "lookbackDays": 1,
+    "perIssue": {
+      "AI": "reviewed",
+      "EPS": "limited check",
+      "FED": "limited check",
+      "IMM": "reviewed",
+      "IRN": "reviewed",
+      "MID": "reviewed",
+      "RUS": "reviewed",
+      "SUC": "limited check",
+      "TAR": "limited check",
+      "VEN": "reviewed"
+    },
+    "blocked": [
+      "https://apnews.com/hub/us-news",
+      "https://www.reuters.com/world/us/",
+      "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+      "https://www.commerce.gov/news",
+      "https://www.semafor.com/article/11/24/2026/thune-prepares-to-navigate-the-minority-and-an-unpredictable-trump",
+      "https://www.semafor.com/article/11/23/2026/huang-reinstatement-came-at-trumps-behest",
+      "https://info.cec.gov.tw/vote2026/"
+    ],
+    "gaps": [
+      "FinCEN service restoration",
+      "Formal Commerce GDP inquiry",
+      "Massie floor vote and Drew Lynch records",
+      "Full Taiwan local election results",
+      "Iowa results from the plume and blast warning records",
+      "Attribution of the deadly Kuwait drone strike",
+      "Separate personnel filings, remaining court dockets, private reactions, donor and state campaign checks."
+    ],
+    "deviations": [
+      "Focused shared intake. The full weekly wargame was not run."
+    ],
+    "propagation": [
+      "Common source intake for the maintained assessment and both daily reviews."
+    ],
+    "outcome_watch": [
+      {
+        "outcome": "ACLU challenges subpoenas for ICE critics",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "The motion documents the request for relief. The allegations and court outcome remain distinct.",
+        "source_receipt_ids": [
+          "ef1cdf8cb34b64c443ce38ac",
+          "b6266abe670a73137a748827",
+          "02424b4b9cd1582b4e30b311"
+        ]
+      },
+      {
+        "outcome": "House workplace protections",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "Axios reports cross-party interest and calendar pressure. The account does not establish passage or a Senate trial coalition.",
+        "source_receipt_ids": [
+          "7639531173ba4a2b05e2bb4b",
+          "6dae6ab55c39bc818d212346"
+        ]
+      },
+      {
+        "outcome": "Reported Air Force Cloud One intrusion",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "Independent reporting and the Air Force response justify oversight. Data exposure, cause, service effects and leadership action remain open.",
+        "source_receipt_ids": [
+          "5bfa0d130100907441f76c88",
+          "6938012c312a34acbeb7d871",
+          "1ee2d7958885cdeeb5a10e07",
+          "10da735e18303e20ceac7b46"
+        ]
+      },
+      {
+        "outcome": "EPA’s first Iowa water tests and warnings before the blast",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "EPA found no lead increase in the first sampled sources outside the plume. AP documented lawmakers’ warnings criticism and EPA’s account of earlier permit notices.",
+        "source_receipt_ids": [
+          "8c7a824929bb715664092320",
+          "96a8bb6d3d4b729c80bdb787",
+          "e4d8f9c8db76ec6e1bc89b78"
+        ]
+      },
+      {
+        "outcome": "U.S. military says it disabled the Pacific Archer",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "AP and ABC attribute the action to Central Command. The separate Kuwait attack and tanker claims require other evidence.",
+        "source_receipt_ids": [
+          "e1753af672d217572891ecf3",
+          "6c55df1dfdce92c734209b30",
+          "e7fc19fb4328b567e93bf071"
+        ]
+      },
+      {
+        "outcome": "Court denies longer preliminary ban on taxpayer-funded ads",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "The court resolved interim relief. The case continues.",
+        "source_receipt_ids": [
+          "20fe1587adbfb91f133141ab",
+          "906b9ff692d2a13a4d1976e0"
+        ]
+      },
+      {
+        "outcome": "Venezuelan assembly leader announces plan to repeal office ban",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "The announcement creates a concrete test of opposition access. Enactment and an election date remain open.",
+        "source_receipt_ids": [
+          "6f5ce76836b1ca15dbc85ca7",
+          "f005c9cb0ba20d1959fe015d"
+        ]
+      },
+      {
+        "outcome": "Ukraine offers a Black Sea ceasefire",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "A proposal was reported. Russian consent and any change in U.S. assistance remain unverified.",
+        "source_receipt_ids": [
+          "128bf44051104142957ae71e"
+        ]
+      },
+      {
+        "outcome": "Official Alaska election results",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "Recovered the official results index and confirmed its status. No change to the existing assessment of chamber control.",
+        "source_receipt_ids": [
+          "19a558428d5f49bcbba1cc8c"
+        ]
+      },
+      {
+        "outcome": "U.S. industrial tariff proposal",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "The official November index and the existing entry support continuing to distinguish the proposal from final rates.",
+        "source_receipt_ids": [
+          "255d42a1c2513c0d2a47b366",
+          "0099314519203f37a0fa888f"
+        ]
+      },
+      {
+        "outcome": "Thanksgiving storm and power restoration",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "AP reported restoration and rescues. No newly verified federal decision in this focused check.",
+        "source_receipt_ids": [
+          "9d32036ad0e21d8c7ff75e8c"
+        ]
+      },
+      {
+        "outcome": "FinCEN service restoration",
+        "status": "pending",
+        "date": "2026-11-28",
+        "finding": "The official order confirms filing relief. Recheck the service notices and any Treasury disclosure about which records were exposed.",
+        "source_receipt_ids": [
+          "a7cf88df1a549d302fc0136b",
+          "57b8a84ab6694138e920f81d",
+          "1b3f58bee0fc0e70d843677d",
+          "52f598014cf76619b26e4a6f"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Formal Commerce GDP inquiry",
+        "status": "unreviewed",
+        "date": "2026-11-28",
+        "finding": "Commerce index blocked. The inspector general index and independent reporting did not establish an appointed investigator or terms. Recheck Commerce and congressional notices.",
+        "source_receipt_ids": [
+          "996d48cf2c1319fed69557a6",
+          "45fead2effd4accab514a8b3",
+          "a8eb503a46a3becbf2f975d2",
+          "37b02969fd08a173966f9d44"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Massie floor vote and Drew Lynch records",
+        "status": "pending",
+        "date": "2026-11-28",
+        "finding": "House and committee checks did not verify either action. Recheck the floor schedule and committee releases after the recess.",
+        "source_receipt_ids": [
+          "6dae6ab55c39bc818d212346",
+          "b71a7c9a739c4e10cfecb41b",
+          "fe71541f243f2e85674d0064",
+          "fc4071d9757c891f815acc21",
+          "e62cbad6f75b99daa7651596"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Full Taiwan local election results",
+        "status": "unreviewed",
+        "date": "2026-11-28",
+        "finding": "AP reported the Taipei concession. Reuters reported earlier counts and the official results site returned no readable totals. The full slate remains unverified.",
+        "source_receipt_ids": [
+          "370e5f3e81454dc9825cd79f",
+          "2feffae87bf64aa6b1230de3",
+          "1c7dceb5eece83f58d9e5c70",
+          "2032bbbda1ccd46899417a8f"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Iowa results from the plume and blast warning records",
+        "status": "pending",
+        "date": "2026-11-28",
+        "finding": "The first EPA water release covers sources outside the plume. Check later lab results, original notifications and delivery records.",
+        "source_receipt_ids": [
+          "8c7a824929bb715664092320",
+          "96a8bb6d3d4b729c80bdb787"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Attribution of the deadly Kuwait drone strike",
+        "status": "unreviewed",
+        "date": "2026-11-28",
+        "finding": "ABC carried Iran’s denial. Check Kuwaiti and Italian statements and any evidence that distinguishes manufacture from responsibility.",
+        "source_receipt_ids": [
+          "6c55df1dfdce92c734209b30",
+          "e1753af672d217572891ecf3"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Inspector general account of the Southern Spear pause",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "The lead points to the earlier quarterly report. The November 27 record already listed that source and unresolved oversight; the present intake did not establish a newly ordered pause.",
+        "source_receipt_ids": [
+          "06faf2ad8c80c71e0a1b34f3",
+          "af5b2b803061ad9d8b78b37e"
+        ]
+      },
+      {
+        "outcome": "Trump renews his veto threat",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "Trump also used the veto threat in his November 20 remarks. Repeating it after the election puts pressure on incoming leaders to negotiate. No veto or altered bill was established.",
+        "source_receipt_ids": [
+          "3af2b69bcdae8adc1347f244",
+          "45b6de347759554f3c41a254"
+        ]
+      },
+      {
+        "outcome": "December hemp restrictions and a possible exception",
+        "status": "pending",
+        "date": "2026-11-28",
+        "finding": "Cotton and 13 Republican senators want the December 11 restrictions to take effect. Axios reports a narrower requested exception and resistance from unnamed aides. Check December spending text and the effective date.",
+        "source_receipt_ids": [
+          "441c4dbcfb62e320bcf34b8f",
+          "7f4ff700b2d328a5cb2c0fdc",
+          "feb499bec08c7170aad622f5"
+        ],
+        "next_check": "2026-11-29"
+      },
+      {
+        "outcome": "Thune calls for congressional oversight of chip exports",
+        "status": "reviewed",
+        "date": "2026-11-28",
+        "finding": "Thune told Axios he wanted bipartisan export controls. Named concern gives Republicans space to challenge Vance’s defense of Huang, while private accounts establish narrower claims about aides’ frustration.",
+        "source_receipt_ids": [
+          "441c4dbcfb62e320bcf34b8f",
+          "ecaadf69eab0c67447068b1b",
+          "80d5308cd49404e54067a3cc"
+        ]
+      }
+    ],
+    "major_news": {
+      "opening": {
+        "source_receipt_ids": [
+          "02424b4b9cd1582b4e30b311",
+          "7639531173ba4a2b05e2bb4b",
+          "10aa8cc2a545bac19496839e"
+        ],
+        "story_ids": [
+          "ice",
+          "ethics",
+          "cloud",
+          "iowa",
+          "ads",
+          "alaska",
+          "gdp",
+          "eps",
+          "tar",
+          "fin"
+        ]
+      },
+      "closing": {
+        "source_receipt_ids": [
+          "9d32036ad0e21d8c7ff75e8c",
+          "7639531173ba4a2b05e2bb4b",
+          "6938012c312a34acbeb7d871",
+          "12e362641ad392dbb06b4b90",
+          "bbaa690c2b79aa3a306e213f",
+          "441c4dbcfb62e320bcf34b8f"
+        ],
+        "story_ids": [
+          "ice",
+          "ethics",
+          "cloud",
+          "iowa",
+          "iran",
+          "ads",
+          "ven",
+          "ukr",
+          "alaska",
+          "tar",
+          "storm",
+          "fin",
+          "gdp",
+          "eps",
+          "taiwan",
+          "plume",
+          "kuwait",
+          "southern",
+          "veto",
+          "hemp",
+          "thune"
+        ]
+      },
+      "stories": {
+        "ice": {
+          "headline": "ACLU challenges subpoenas for ICE critics",
+          "status": "reflected",
+          "reason": "The motion documents the request for relief. The allegations and court outcome remain distinct.",
+          "source_receipt_ids": [
+            "ef1cdf8cb34b64c443ce38ac",
+            "b6266abe670a73137a748827",
+            "02424b4b9cd1582b4e30b311",
+            "72cf9cc6674fa15ea336a6ae"
+          ]
+        },
+        "ethics": {
+          "headline": "House workplace protections",
+          "status": "held",
+          "reason": "Axios reports cross-party interest and calendar pressure. The account does not establish passage or a Senate trial coalition.",
+          "source_receipt_ids": [
+            "7639531173ba4a2b05e2bb4b",
+            "6dae6ab55c39bc818d212346"
+          ]
+        },
+        "cloud": {
+          "headline": "Reported Air Force Cloud One intrusion",
+          "status": "reflected",
+          "reason": "Independent reporting and the Air Force response justify oversight. Data exposure, cause, service effects and leadership action remain open.",
+          "source_receipt_ids": [
+            "5bfa0d130100907441f76c88",
+            "6938012c312a34acbeb7d871",
+            "1ee2d7958885cdeeb5a10e07",
+            "10da735e18303e20ceac7b46"
+          ]
+        },
+        "iowa": {
+          "headline": "EPA’s first Iowa water tests and warnings before the blast",
+          "status": "reflected",
+          "reason": "EPA found no lead increase in the first sampled sources outside the plume. AP documented lawmakers’ warnings criticism and EPA’s account of earlier permit notices.",
+          "source_receipt_ids": [
+            "8c7a824929bb715664092320",
+            "96a8bb6d3d4b729c80bdb787",
+            "e4d8f9c8db76ec6e1bc89b78"
+          ]
+        },
+        "iran": {
+          "headline": "U.S. military says it disabled the Pacific Archer",
+          "status": "reflected",
+          "reason": "AP and ABC attribute the action to Central Command. The separate Kuwait attack and tanker claims require other evidence.",
+          "source_receipt_ids": [
+            "e1753af672d217572891ecf3",
+            "6c55df1dfdce92c734209b30",
+            "e7fc19fb4328b567e93bf071"
+          ]
+        },
+        "ads": {
+          "headline": "Court denies longer preliminary ban on taxpayer-funded ads",
+          "status": "reflected",
+          "reason": "The court resolved interim relief. The case continues.",
+          "source_receipt_ids": [
+            "20fe1587adbfb91f133141ab",
+            "906b9ff692d2a13a4d1976e0"
+          ]
+        },
+        "ven": {
+          "headline": "Venezuelan assembly leader announces plan to repeal office ban",
+          "status": "reflected",
+          "reason": "The announcement creates a concrete test of opposition access. Enactment and an election date remain open.",
+          "source_receipt_ids": [
+            "6f5ce76836b1ca15dbc85ca7",
+            "f005c9cb0ba20d1959fe015d"
+          ]
+        },
+        "ukr": {
+          "headline": "Ukraine offers a Black Sea ceasefire",
+          "status": "reflected",
+          "reason": "A proposal was reported. Russian consent and any change in U.S. assistance remain unverified.",
+          "source_receipt_ids": [
+            "128bf44051104142957ae71e"
+          ]
+        },
+        "alaska": {
+          "headline": "Official Alaska election results",
+          "status": "already_covered",
+          "reason": "Recovered the official results index and confirmed its status. No change to the existing assessment of chamber control.",
+          "source_receipt_ids": [
+            "19a558428d5f49bcbba1cc8c"
+          ],
+          "prior_reference": "2026-11-24 mid-2026-11-24-alaska-posts-official-results"
+        },
+        "tar": {
+          "headline": "U.S. industrial tariff proposal",
+          "status": "already_covered",
+          "reason": "The official November index and the existing entry support continuing to distinguish the proposal from final rates.",
+          "source_receipt_ids": [
+            "255d42a1c2513c0d2a47b366",
+            "0099314519203f37a0fa888f"
+          ],
+          "prior_reference": "2026-11-26 tar-2026-11-25-ustr-proposes-industrial-tariffs"
+        },
+        "storm": {
+          "headline": "Thanksgiving storm and power restoration",
+          "status": "held",
+          "reason": "AP reported restoration and rescues. No newly verified federal decision in this focused check.",
+          "source_receipt_ids": [
+            "9d32036ad0e21d8c7ff75e8c"
+          ]
+        },
+        "fin": {
+          "headline": "FinCEN service restoration",
+          "status": "pending",
+          "reason": "The official order confirms filing relief. Recheck the service notices and any Treasury disclosure about which records were exposed.",
+          "source_receipt_ids": [
+            "a7cf88df1a549d302fc0136b",
+            "57b8a84ab6694138e920f81d",
+            "1b3f58bee0fc0e70d843677d",
+            "52f598014cf76619b26e4a6f",
+            "9e405ca375214ace3b145906"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "gdp": {
+          "headline": "Formal Commerce GDP inquiry",
+          "status": "unverified",
+          "reason": "Commerce index blocked. The inspector general index and independent reporting did not establish an appointed investigator or terms. Recheck Commerce and congressional notices.",
+          "source_receipt_ids": [
+            "996d48cf2c1319fed69557a6",
+            "45fead2effd4accab514a8b3",
+            "a8eb503a46a3becbf2f975d2",
+            "37b02969fd08a173966f9d44"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "eps": {
+          "headline": "Massie floor vote and Drew Lynch records",
+          "status": "pending",
+          "reason": "House and committee checks did not verify either action. Recheck the floor schedule and committee releases after the recess.",
+          "source_receipt_ids": [
+            "6dae6ab55c39bc818d212346",
+            "b71a7c9a739c4e10cfecb41b",
+            "fe71541f243f2e85674d0064",
+            "fc4071d9757c891f815acc21",
+            "e62cbad6f75b99daa7651596"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "taiwan": {
+          "headline": "Full Taiwan local election results",
+          "status": "unverified",
+          "reason": "AP reported the Taipei concession. Reuters reported earlier counts and the official results site returned no readable totals. The full slate remains unverified.",
+          "source_receipt_ids": [
+            "370e5f3e81454dc9825cd79f",
+            "2feffae87bf64aa6b1230de3",
+            "1c7dceb5eece83f58d9e5c70",
+            "2032bbbda1ccd46899417a8f"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "plume": {
+          "headline": "Iowa results from the plume and blast warning records",
+          "status": "pending",
+          "reason": "The first EPA water release covers sources outside the plume. Check later lab results, original notifications and delivery records.",
+          "source_receipt_ids": [
+            "8c7a824929bb715664092320",
+            "96a8bb6d3d4b729c80bdb787"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "kuwait": {
+          "headline": "Attribution of the deadly Kuwait drone strike",
+          "status": "unverified",
+          "reason": "ABC carried Iran’s denial. Check Kuwaiti and Italian statements and any evidence that distinguishes manufacture from responsibility.",
+          "source_receipt_ids": [
+            "6c55df1dfdce92c734209b30",
+            "e1753af672d217572891ecf3"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "southern": {
+          "headline": "Inspector general account of the Southern Spear pause",
+          "status": "already_covered",
+          "reason": "The lead points to the earlier quarterly report. The November 27 record already listed that source and unresolved oversight; the present intake did not establish a newly ordered pause.",
+          "source_receipt_ids": [
+            "06faf2ad8c80c71e0a1b34f3",
+            "af5b2b803061ad9d8b78b37e"
+          ],
+          "prior_reference": "2026-11-27 coverage of the Southern Spear inspector general report"
+        },
+        "veto": {
+          "headline": "Trump renews his veto threat",
+          "status": "held",
+          "reason": "Trump also used the veto threat in his November 20 remarks. Repeating it after the election puts pressure on incoming leaders to negotiate. No veto or altered bill was established.",
+          "source_receipt_ids": [
+            "3af2b69bcdae8adc1347f244",
+            "45b6de347759554f3c41a254"
+          ]
+        },
+        "hemp": {
+          "headline": "December hemp restrictions and a possible exception",
+          "status": "pending",
+          "reason": "Cotton and 13 Republican senators want the December 11 restrictions to take effect. Axios reports a narrower requested exception and resistance from unnamed aides. Check December spending text and the effective date.",
+          "source_receipt_ids": [
+            "441c4dbcfb62e320bcf34b8f",
+            "7f4ff700b2d328a5cb2c0fdc",
+            "feb499bec08c7170aad622f5"
+          ],
+          "next_check": "2026-11-29"
+        },
+        "thune": {
+          "headline": "Thune calls for congressional oversight of chip exports",
+          "status": "reflected",
+          "reason": "Thune told Axios he wanted bipartisan export controls. Named concern gives Republicans space to challenge Vance’s defense of Huang, while private accounts establish narrower claims about aides’ frustration.",
+          "source_receipt_ids": [
+            "441c4dbcfb62e320bcf34b8f",
+            "ecaadf69eab0c67447068b1b",
+            "80d5308cd49404e54067a3cc"
+          ]
+        }
+      }
+    }
+  },
+  "reviewed_episode_ids": [
+    "mid-2026-11-28-epa-reports-first-water-tests",
+    "mid-2026-11-27-iowa-lawmakers-criticize-army-notice",
+    "imm-2026-11-27-aclu-challenges-ice-critic-subpoenas",
+    "mid-2026-11-27-air-force-cloud-one-breach-reported",
+    "irn-2026-11-27-us-says-it-disabled-pacific-archer",
+    "mid-2026-11-25-court-denies-longer-ad-ban",
+    "ven-2026-11-26-rodriguez-announces-plan-to-repeal-office-ban",
+    "rus-2026-11-27-kyiv-offers-black-sea-ceasefire",
+    "mid-2026-11-10-hegseth-judiciary-referral",
+    "mid-2026-11-24-alaska-posts-official-results",
+    "ai-2026-11-28-thune-calls-for-chip-export-oversight"
+  ],
+  "changed_entries": [
+    "Nine dated events, six issue assessments, the current administration and Vance assessments, and linked nomination and personnel daily reviews."
+  ],
+  "unresolved_claims": [
+    "FinCEN service restoration",
+    "Formal Commerce GDP inquiry",
+    "Massie floor vote and Drew Lynch records",
+    "Full Taiwan local election results",
+    "Iowa results from the plume and blast warning records",
+    "Attribution of the deadly Kuwait drone strike",
+    "December hemp restrictions and a possible exception"
+  ],
+  "evidence_needed": [
+    "Dated notices, court dispositions, official service restoration and committee records for the open outcomes."
+  ],
+  "assessment_audit": {
+    "major_developments": [
+      {
+        "finding": "EPA finds no rise in lead in water sources it tested outside the Iowa blast plume",
+        "event_ids": [
+          "mid-2026-11-28-epa-reports-first-water-tests"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID",
+          "assessments/current"
+        ],
+        "reason": "The results narrow immediate questions about the tested sources. Officials still need results from potentially affected locations and records showing when residents and officials were warned."
+      },
+      {
+        "finding": "Iowa lawmakers criticize the Army’s warnings about the explosives disposal",
+        "event_ids": [
+          "mid-2026-11-27-iowa-lawmakers-criticize-army-notice"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID",
+          "assessments/current"
+        ],
+        "reason": "Turek can press for records when he enters the Senate. Ernst’s criticism shows concern crossed party lines, while the timing of each statement matters for what the speaker could have known."
+      },
+      {
+        "finding": "American Civil Liberties Union asks judge to block subpoenas it says target ICE critics",
+        "event_ids": [
+          "imm-2026-11-27-aclu-challenges-ice-critic-subpoenas"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/IMM",
+          "assessments/current"
+        ],
+        "reason": "Federal prosecutors face a public First Amendment challenge to how they use investigative powers. A ruling could restrict the challenged subpoenas."
+      },
+      {
+        "finding": "News outlets report an intrusion into an Air Force cloud computing system",
+        "event_ids": [
+          "mid-2026-11-27-air-force-cloud-one-breach-reported"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID",
+          "assessments/current"
+        ],
+        "reason": "The reports give lawmakers grounds to ask the Pentagon which systems were affected and who was responsible for the response. They establish no personal decision by Defense Secretary Pete Hegseth."
+      },
+      {
+        "finding": "U.S. military says it disabled the Pacific Archer while enforcing the Iran blockade",
+        "event_ids": [
+          "irn-2026-11-27-us-says-it-disabled-pacific-archer"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/IRN",
+          "assessments/current"
+        ],
+        "reason": "The administration is still using military force to enforce the blockade. Trump’s public remarks about ending the war leave the terms and timing of any settlement open."
+      },
+      {
+        "finding": "Judge denies Democrats’ request to extend a ban on taxpayer-funded Trump ads",
+        "event_ids": [
+          "mid-2026-11-25-court-denies-longer-ad-ban"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/MID",
+          "assessments/current"
+        ],
+        "reason": "The decision removes the requested preliminary constraint on the challenged ads. The litigation continues and the ruling does not settle every challenge to the ads."
+      },
+      {
+        "finding": "Venezuela’s assembly leader announces a plan to repeal a law that bars opposition figures from office",
+        "event_ids": [
+          "ven-2026-11-26-rodriguez-announces-plan-to-repeal-office-ban"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/VEN",
+          "assessments/current"
+        ],
+        "reason": "Repeal could widen who can run. María Corina Machado’s eligibility and an enforceable election timetable would be stronger evidence that the U.S.-backed talks are opening political competition."
+      },
+      {
+        "finding": "Ukraine offers a Black Sea ceasefire to protect food exports",
+        "event_ids": [
+          "rus-2026-11-27-kyiv-offers-black-sea-ceasefire"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/RUS",
+          "assessments/current"
+        ],
+        "reason": "Kyiv is asking partners to support a narrower agreement. Moscow’s reported demand would broaden the bargain and could delay a deal."
+      },
+      {
+        "finding": "Senate Republican leader John Thune calls for bipartisan chip export controls",
+        "event_ids": [
+          "ai-2026-11-28-thune-calls-for-chip-export-oversight"
+        ],
+        "disposition": "reflected",
+        "affected_assessments": [
+          "assessments/issues/AI",
+          "assessments/current"
+        ],
+        "reason": "Thune can make scrutiny of chip sales a Republican priority. That gives lawmakers a concrete way to challenge how Trump and Vance handled Huang’s return."
+      }
+    ],
+    "issue_coverage": {
+      "AI": {
+        "status": "reviewed",
+        "reason": "Reviewed Thune’s statement to Axios. The December hearings and export enforcement decisions remain open."
+      },
+      "EPS": {
+        "status": "carried",
+        "reason": "Checked the petition, House schedule and committee index. No further formal action verified."
+      },
+      "FED": {
+        "status": "carried",
+        "reason": "Checked Trump’s GDP demand and the inspector general index. Commerce access was blocked."
+      },
+      "IMM": {
+        "status": "reviewed",
+        "reason": "Read the new filed motion. Broader immigration dockets were not comprehensively reviewed."
+      },
+      "IRN": {
+        "status": "reviewed",
+        "reason": "Reviewed Central Command’s reported blockade action. Separate strike and tanker attribution remain open."
+      },
+      "MID": {
+        "status": "reviewed",
+        "reason": "Reviewed official Alaska results, congressional activity, Iowa lab results, Air Force response and the advertising order."
+      },
+      "RUS": {
+        "status": "reviewed",
+        "reason": "Reviewed Ukraine’s Black Sea proposal. Consent, financing and any new U.S. aid decision remain open."
+      },
+      "SUC": {
+        "status": "carried",
+        "reason": "Reviewed shared developments for candidate implications. Donor and voter coverage was limited."
+      },
+      "TAR": {
+        "status": "carried",
+        "reason": "Checked USTR’s index for action. No comprehensive tariff schedule comparison."
+      },
+      "VEN": {
+        "status": "reviewed",
+        "reason": "Reviewed the repeal announcement and distinguished it from the existing military deal."
+      }
+    },
+    "summary_changed": true,
+    "summary_reason": "Recent use of military authority and a new court challenge change the leading assessment. The reported cyber failure adds a concrete oversight target, while Iowa’s results narrow the safety question and leave warning accountability open.",
+    "dated_assumptions": [
+      {
+        "assumption": "ACLU challenges subpoenas for ICE critics",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "The motion documents the request for relief. The allegations and court outcome remain distinct."
+      },
+      {
+        "assumption": "House workplace protections",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "Axios reports cross-party interest and calendar pressure. The account does not establish passage or a Senate trial coalition."
+      },
+      {
+        "assumption": "Reported Air Force Cloud One intrusion",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "Independent reporting and the Air Force response justify oversight. Data exposure, cause, service effects and leadership action remain open."
+      },
+      {
+        "assumption": "EPA’s first Iowa water tests and warnings before the blast",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "EPA found no lead increase in the first sampled sources outside the plume. AP documented lawmakers’ warnings criticism and EPA’s account of earlier permit notices."
+      },
+      {
+        "assumption": "U.S. military says it disabled the Pacific Archer",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "AP and ABC attribute the action to Central Command. The separate Kuwait attack and tanker claims require other evidence."
+      },
+      {
+        "assumption": "Court denies longer preliminary ban on taxpayer-funded ads",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "The court resolved interim relief. The case continues."
+      },
+      {
+        "assumption": "Venezuelan assembly leader announces plan to repeal office ban",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "The announcement creates a concrete test of opposition access. Enactment and an election date remain open."
+      },
+      {
+        "assumption": "Ukraine offers a Black Sea ceasefire",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "A proposal was reported. Russian consent and any change in U.S. assistance remain unverified."
+      },
+      {
+        "assumption": "Official Alaska election results",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "Recovered the official results index and confirmed its status. No change to the existing assessment of chamber control."
+      },
+      {
+        "assumption": "U.S. industrial tariff proposal",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "The official November index and the existing entry support continuing to distinguish the proposal from final rates."
+      },
+      {
+        "assumption": "Thanksgiving storm and power restoration",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "AP reported restoration and rescues. No newly verified federal decision in this focused check."
+      },
+      {
+        "assumption": "FinCEN service restoration",
+        "date": "2026-11-28",
+        "status": "pending",
+        "reason": "The official order confirms filing relief. Recheck the service notices and any Treasury disclosure about which records were exposed."
+      },
+      {
+        "assumption": "Formal Commerce GDP inquiry",
+        "date": "2026-11-28",
+        "status": "unreviewed",
+        "reason": "Commerce index blocked. The inspector general index and independent reporting did not establish an appointed investigator or terms. Recheck Commerce and congressional notices."
+      },
+      {
+        "assumption": "Massie floor vote and Drew Lynch records",
+        "date": "2026-11-28",
+        "status": "pending",
+        "reason": "House and committee checks did not verify either action. Recheck the floor schedule and committee releases after the recess."
+      },
+      {
+        "assumption": "Full Taiwan local election results",
+        "date": "2026-11-28",
+        "status": "unreviewed",
+        "reason": "AP headline reported a Taipei concession as results emerged. Check Taiwan’s election commission for full results and any consequential U.S. policy response."
+      },
+      {
+        "assumption": "Iowa results from the plume and blast warning records",
+        "date": "2026-11-28",
+        "status": "pending",
+        "reason": "The first EPA water release covers sources outside the plume. Check later lab results, original notifications and delivery records."
+      },
+      {
+        "assumption": "Attribution of the deadly Kuwait drone strike",
+        "date": "2026-11-28",
+        "status": "unreviewed",
+        "reason": "ABC carried Iran’s denial. Check Kuwaiti and Italian statements and any evidence that distinguishes manufacture from responsibility."
+      },
+      {
+        "assumption": "Inspector general account of the Southern Spear pause",
+        "date": "2026-11-28",
+        "status": "verified",
+        "reason": "The lead points to the earlier quarterly report. The November 27 record already listed that source and unresolved oversight; the present intake did not establish a newly ordered pause."
+      }
+    ],
+    "challenges": [
+      {
+        "alternative": "Earlier permit notices settle whether residents were warned before the detonation.",
+        "finding": "AP reported EPA’s account of government recipients. The timing and delivery of direct blast warnings remain open.",
+        "consequence": "Retain the warning accountability question after the initial laboratory results."
+      }
+    ]
+  },
+  "research_review": {
+    "standard": "question_review_v1",
+    "priorities": [
+      {
+        "id": "iowa-disposal",
+        "question": "What did EPA measure and who got warning before the Iowa blast?",
+        "importance": "Public safety and warning responsibilities can change separately.",
+        "affected_assessments": [
+          "assessments/issues/MID"
+        ],
+        "current_answer": "EPA’s initial tests provide reassurance for sampled untreated sources outside the plume. The timing of direct warnings remains open.",
+        "explanations": [
+          {
+            "explanation": "The first samples narrow immediate water concerns at the tested locations.",
+            "weight": "dominant",
+            "reason": "EPA published a before-and-after comparison and located the sources outside the plume.",
+            "discriminating_observation": "Compare paired measurements inside the exposure area."
+          },
+          {
+            "explanation": "Earlier permit notices reached official offices while warning about the operation itself may have arrived later.",
+            "weight": "credible",
+            "reason": "EPA told AP about government recipients, while Ernst and Turek criticized communication.",
+            "discriminating_observation": "Obtain dated dispatch and receipt records for each type of notice."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "More paired lab results become public.",
+            "likelihood": "high",
+            "impact": "high",
+            "reason": "EPA is processing additional samples.",
+            "assessment_effect": "Reassess exposure and the need for government response."
+          }
+        ],
+        "status": "partial",
+        "outcome": "EPA’s initial tests provide reassurance for sampled untreated sources outside the plume. The timing of direct warnings remains open.",
+        "next_action": "Check EPA lab releases and dated notice records.",
+        "next_check": "2026-11-29",
+        "source_receipt_ids": [
+          "8c7a824929bb715664092320",
+          "96a8bb6d3d4b729c80bdb787",
+          "e4d8f9c8db76ec6e1bc89b78"
+        ]
+      },
+      {
+        "id": "cloud-accountability",
+        "question": "Does the reported Cloud One intrusion change oversight or personnel risks?",
+        "importance": "A military system failure could expose gaps in Pentagon supervision.",
+        "affected_assessments": [
+          "assessments/current",
+          "assessments/issues/MID"
+        ],
+        "current_answer": "Independent reporting supports the intrusion account. An official account of scope and responsibility remains open.",
+        "explanations": [
+          {
+            "explanation": "A specific reported intrusion creates a case for oversight.",
+            "weight": "dominant",
+            "reason": "A separate source corroborated parts of the account and the service declined to discuss its systems.",
+            "discriminating_observation": "Seek an official investigation or testimony."
+          },
+          {
+            "explanation": "The event reflects a common cause across earlier federal outages.",
+            "weight": "limited",
+            "reason": "The intake established neither a common mechanism nor a common actor.",
+            "discriminating_observation": "Look for a public investigation tying incidents together."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "A named committee requests Cloud One records.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The incoming majority has scheduling leverage and concrete questions to ask.",
+            "assessment_effect": "Reassess which officials face scrutiny."
+          },
+          {
+            "development": "The president replaces a senior official in response.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "This intake found no formal job action or attributed presidential decision.",
+            "assessment_effect": "Reassess control of Pentagon decisions."
+          }
+        ],
+        "status": "partial",
+        "outcome": "Independent reporting supports the intrusion account. An official account of scope and responsibility remains open.",
+        "next_action": "Check Pentagon and committee statements for scope, responsibility, repair and personnel action.",
+        "next_check": "2026-11-29",
+        "source_receipt_ids": [
+          "5bfa0d130100907441f76c88",
+          "1ee2d7958885cdeeb5a10e07",
+          "6938012c312a34acbeb7d871",
+          "10da735e18303e20ceac7b46"
+        ]
+      },
+      {
+        "id": "gdp-revision",
+        "question": "Did the GDP release schedule move and did Commerce open an inquiry?",
+        "importance": "Formal scrutiny could affect federal statistical independence.",
+        "affected_assessments": [
+          "assessments/issues/FED"
+        ],
+        "current_answer": "The prior BEA schedule supports a routine release. This intake did not verify a formal inquiry.",
+        "explanations": [
+          {
+            "explanation": "A routine estimate explains the release timing.",
+            "weight": "dominant",
+            "reason": "The dated schedule documented in the November 27 review preceded the election.",
+            "discriminating_observation": "Check inquiry terms or records showing departures from normal practice."
+          },
+          {
+            "explanation": "The bureau chose a later release date to hide growth.",
+            "weight": "contradicted",
+            "reason": "The published schedule preceded the election.",
+            "discriminating_observation": "A separate claim about input manipulation requires separate evidence."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "Commerce publicly identifies an investigator.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Trump asked for an inquiry, but a formal notice was not found and the agency index was blocked.",
+            "assessment_effect": "Update the assessment of political oversight of the bureau."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The prior BEA schedule supports a routine release. This intake did not verify a formal inquiry.",
+        "next_action": "Check Commerce and its inspector general for a notice.",
+        "next_check": "2026-11-29",
+        "source_receipt_ids": [
+          "996d48cf2c1319fed69557a6",
+          "45fead2effd4accab514a8b3",
+          "37b02969fd08a173966f9d44",
+          "a8eb503a46a3becbf2f975d2"
+        ]
+      },
+      {
+        "id": "epstein-records-catchup",
+        "question": "Has Massie secured a floor vote or has Drew Lynch produced records?",
+        "importance": "Either outcome could change the House’s leverage over disclosure.",
+        "affected_assessments": [
+          "assessments/issues/EPS"
+        ],
+        "current_answer": "The original demand and petition are documented. No vote or public response was established.",
+        "explanations": [
+          {
+            "explanation": "Petition leverage and the records request are still the public milestones.",
+            "weight": "dominant",
+            "reason": "The Clerk and committee records show the mechanisms but the targeted checks did not verify execution.",
+            "discriminating_observation": "Find a roll call, public production or compulsory action."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "House members obtain a floor vote or a formal production response.",
+            "likelihood": "moderate",
+            "impact": "high",
+            "reason": "The petition has a procedural route and the committee can pursue records.",
+            "assessment_effect": "Reassess congressional access to records."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The original demand and petition are documented. No vote or public response was established.",
+        "next_action": "Check House votes and committee releases when Congress returns.",
+        "next_check": "2026-11-29",
+        "source_receipt_ids": [
+          "6dae6ab55c39bc818d212346",
+          "b71a7c9a739c4e10cfecb41b",
+          "fe71541f243f2e85674d0064",
+          "fc4071d9757c891f815acc21",
+          "e62cbad6f75b99daa7651596"
+        ]
+      },
+      {
+        "id": "anonymous-critics",
+        "question": "Can federal prosecutors continue the challenged subpoenas?",
+        "importance": "A ruling could narrow the government’s use of investigative power against online critics.",
+        "affected_assessments": [
+          "assessments/issues/IMM"
+        ],
+        "current_answer": "The docket filing establishes the request for an injunction. Liability and investigative scope remain unresolved.",
+        "explanations": [
+          {
+            "explanation": "The lawsuit creates a concrete judicial test of the challenged subpoenas.",
+            "weight": "dominant",
+            "reason": "The plaintiffs filed a motion asking for specific relief.",
+            "discriminating_observation": "Track the government’s response and the court’s decision."
+          }
+        ],
+        "change_triggers": [
+          {
+            "development": "The court limits the subpoenas.",
+            "likelihood": "unknown",
+            "impact": "high",
+            "reason": "Only the plaintiffs’ application was verified in this intake.",
+            "assessment_effect": "Reassess which investigative measures remain available."
+          }
+        ],
+        "status": "partial",
+        "outcome": "The docket filing establishes the request for an injunction. Liability and investigative scope remain unresolved.",
+        "next_action": "Check docket 1:26-cv-04054 for a response, hearing or order.",
+        "next_check": "2026-11-29",
+        "source_receipt_ids": [
+          "ef1cdf8cb34b64c443ce38ac",
+          "b6266abe670a73137a748827",
+          "02424b4b9cd1582b4e30b311"
+        ]
+      }
+    ],
+    "prior_dispositions": {
+      "alternative-media-audience": "Deferred to weekly voter and organizing checks. This intake did not establish that a media figure’s preference represents Republican voters."
+    },
+    "coverage_debt": {
+      "AI": {
+        "last_verified": "2026-11-28",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Reviewed Thune’s statement to Axios. The December hearings and export enforcement decisions remain open."
+      },
+      "EPS": {
+        "last_verified": "2026-11-19",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Checked the petition, House schedule and committee index. No further formal action verified.",
+        "escalation": "Target floor dispositions and production records after the recess. Current policy remains carried.",
+        "attempt_receipt_ids": [
+          "6dae6ab55c39bc818d212346",
+          "b71a7c9a739c4e10cfecb41b",
+          "fe71541f243f2e85674d0064",
+          "fc4071d9757c891f815acc21",
+          "e62cbad6f75b99daa7651596"
+        ]
+      },
+      "FED": {
+        "last_verified": "2026-11-27",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Checked Trump’s GDP demand and the inspector general index. Commerce access was blocked."
+      },
+      "IMM": {
+        "last_verified": "2026-11-28",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Read the new filed motion. Broader immigration dockets were not comprehensively reviewed."
+      },
+      "IRN": {
+        "last_verified": "2026-11-28",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Reviewed Central Command’s reported blockade action. Separate strike and tanker attribution remain open."
+      },
+      "MID": {
+        "last_verified": "2026-11-28",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Reviewed official Alaska results, congressional activity, Iowa lab results, Air Force response and the advertising order."
+      },
+      "RUS": {
+        "last_verified": "2026-11-28",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Reviewed Ukraine’s Black Sea proposal. Consent, financing and any new U.S. aid decision remain open."
+      },
+      "SUC": {
+        "last_verified": "2026-11-27",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Reviewed shared developments for candidate implications. Donor and voter coverage was limited."
+      },
+      "TAR": {
+        "last_verified": "2026-11-27",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Checked USTR’s index for action. No comprehensive tariff schedule comparison."
+      },
+      "VEN": {
+        "last_verified": "2026-11-28",
+        "next_action": "Refresh official decisions and the open checks from this review.",
+        "next_check": "2026-11-29",
+        "reason": "Reviewed the repeal announcement and distinguished it from the existing military deal."
+      }
+    },
+    "discovery_question": "Can federal prosecutors continue the challenged subpoenas?",
+    "discovery_disposition": "The docket filing establishes the request for an injunction. Liability and investigative scope remain unresolved.",
+    "premise_reconciliation": "Prior GDP release dates and the Hegseth referral stand. The initial Iowa results replace an expectation with a measured result limited to sampled sources. The ICE complaint establishes litigation and does not establish the alleged conduct as a court finding.",
+    "source_receipts": [
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/5f2b57cdfd67d92b8eb6b810ca2607a0",
+        "status": "read",
+        "result": "Reports filing and lack of immediate response from the U.S. attorney’s office.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "02424b4b9cd1582b4e30b311"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/28/congress-sexual-misconduct-house-ethics",
+        "status": "read",
+        "result": "House workplace protections are under discussion and a crowded calendar may impede a vote.",
+        "reporting_origin": "Axios",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "7639531173ba4a2b05e2bb4b"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/hub/us-news",
+        "status": "blocked",
+        "result": "Hub inaccessible. Dated AP articles surfaced via search.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "d6c64067d050d5d22b656f45"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.reuters.com/world/us/",
+        "status": "blocked",
+        "result": "Index inaccessible. Checked accessible reporting and wire copies.",
+        "reporting_origin": "Reuters",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "353a9e57ab2da6762b988c28"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+        "status": "blocked",
+        "result": "Direct story inaccessible. Followed CBS and independently sourced Federal News Network.",
+        "reporting_origin": "Reuters",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "1ee2d7958885cdeeb5a10e07"
+      },
+      {
+        "kind": "source",
+        "value": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/",
+        "status": "read",
+        "result": "Own source familiar with incident corroborates some Reuters reporting. Former software chief criticized security decisions. Air Force declined to address those allegations.",
+        "reporting_origin": "Federal News Network",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "5bfa0d130100907441f76c88"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/news/u-s-air-force-cloud-platform-breached-by-hackers/",
+        "status": "read",
+        "result": "Reuters reporting on the intrusion plus a directly obtained Air Force statement declining comment on specific systems.",
+        "reporting_origin": "CBS News",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "6938012c312a34acbeb7d871"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.epa.gov/newsreleases/epa-releases-initial-water-source-lab-results-indicating-wednesdays-controlled",
+        "status": "read",
+        "result": "First lab release reports no elevation in sampled untreated drinking-water sources. The locations were outside the actual plume.",
+        "reporting_origin": "EPA",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "8c7a824929bb715664092320"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/cde35b4969d6f4f68187fa21aa2243a6",
+        "status": "read",
+        "result": "EPA said earlier permit notices went to legislators and local officials. Ernst and Turek faulted communications. Receipt of notice about the operation itself remains open.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "96a8bb6d3d4b729c80bdb787"
+      },
+      {
+        "kind": "source",
+        "value": "https://assets.aclu.org/live/uploads/2026/11/19-2.-Redacted-Motion-for-Preliminary-Injunction.pdf",
+        "status": "read",
+        "result": "Filed motion asks to stop alleged attempts to identify anonymous critics. Allegations and requested relief are distinct from court findings.",
+        "reporting_origin": "ACLU court filing",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "ef1cdf8cb34b64c443ce38ac"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aclu.org/press-releases/lawsuit-alleges-sprawling-federal-grand-jury-investigation-into-anonymous-ice-critics-online",
+        "status": "read",
+        "result": "Plaintiff counsel describes case and First Amendment theory.",
+        "reporting_origin": "ACLU",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "b6266abe670a73137a748827"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/800620518a351282f098faa9381b3375",
+        "status": "read",
+        "result": "Central Command says it disabled Pacific Archer while enforcing blockade. Iranian naval commander threatened to break it.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "e1753af672d217572891ecf3"
+      },
+      {
+        "kind": "source",
+        "value": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?entryId=138483340&id=138369648",
+        "status": "read",
+        "result": "Reports CENTCOM account and Iranian denial of separate Kuwait drone attack.",
+        "reporting_origin": "ABC News",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "6c55df1dfdce92c734209b30"
+      },
+      {
+        "kind": "source",
+        "value": "https://cases.justia.com/federal/district-courts/district-of-columbia/dcdce/1%3A2026cv03506/297432/37/0.pdf?ts=1795700706",
+        "status": "read",
+        "result": "Judge denied preliminary relief in the DNC advertising suit and set December 9 for a joint status report.",
+        "reporting_origin": "US District Court",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "20fe1587adbfb91f133141ab"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/fcc1b61e8e7134c01ca3e6dec7728442",
+        "status": "read",
+        "result": "Followed lead to court order. Midterms had passed, and asserted future injury did not warrant an injunction.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "906b9ff692d2a13a4d1976e0"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aljazeera.com/amp/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office",
+        "status": "read",
+        "result": "Assembly leader announced a repeal plan. Enactment and election timing remain open.",
+        "reporting_origin": "Al Jazeera / AFP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "6f5ce76836b1ca15dbc85ca7"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.aol.co.uk/articles/ukraine-submits-black-sea-ceasefire-210912000.html",
+        "status": "read",
+        "result": "Sybiha said Kyiv offered a maritime ceasefire for food exports. Treatment of oil-sector attacks remains disputed.",
+        "reporting_origin": "France 24",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "128bf44051104142957ae71e"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/a7e3622548f69a41da3e1ec6ce9c9f19",
+        "status": "headline_only",
+        "result": "Reported Taipei concession while wider local results were emerging.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "370e5f3e81454dc9825cd79f"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/bbf9dad3076a69b9bd18b7c0c80490ad",
+        "status": "read",
+        "result": "Officials dealt with power restoration and rescue after the Thanksgiving storm. No review of federal relief decisions across all affected states.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "9d32036ad0e21d8c7ff75e8c"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.elections.alaska.gov/election-results/e/",
+        "status": "read",
+        "result": "Official results page dated November 23 resolves prior access gap.",
+        "reporting_origin": "Alaska Division of Elections",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "19a558428d5f49bcbba1cc8c"
+      },
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/Votes/2026317",
+        "status": "read",
+        "result": "November 10 referral passed 211–204.",
+        "reporting_origin": "House Clerk",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "70d3a50f54f1bfd36406e11b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.house.gov/legislative-activity",
+        "status": "read",
+        "result": "Checked legislative activity for floor disposition.",
+        "reporting_origin": "House of Representatives",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "6dae6ab55c39bc818d212346"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.govinfo.gov/content/pkg/CREC-2026-11-20/pdf/CREC-2026-11-20-senate.pdf",
+        "status": "read",
+        "result": "November 27 scheduled as pro forma with no business. Next regular session November 30.",
+        "reporting_origin": "Congressional Record",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "4b0dca40bfe799b7174683b2"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.supremecourt.gov/opinions/slipopinion/26",
+        "status": "read",
+        "result": "Checked opinions index. Individual lower-court and emergency dockets received limited coverage.",
+        "reporting_origin": "US Supreme Court",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "1d4d232a46a1bfb35ab5673d"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/briefings-statements/",
+        "status": "read",
+        "result": "Checked statements index for new executive actions and official responses.",
+        "reporting_origin": "White House",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "8f9cb24a508fef8ef361a0ad"
+      },
+      {
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/news",
+        "status": "read",
+        "result": "Public committee index did not establish a Lynch reply or compulsory action.",
+        "reporting_origin": "House Oversight Democrats",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "fc4071d9757c891f815acc21"
+      },
+      {
+        "kind": "source",
+        "value": "https://oversightdemocrats.house.gov/imo/media/doc/2026-10-30garciatodrewlynchreguilfoyleclean.pdf",
+        "status": "read",
+        "result": "Letter set November 13 production deadline.",
+        "reporting_origin": "House Oversight Democrats",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "fe71541f243f2e85674d0064"
+      },
+      {
+        "kind": "source",
+        "value": "https://clerk.house.gov/DischargePetition/2026083127?Page=3",
+        "status": "read",
+        "result": "Official signature record for Massie’s discharge petition. Checked separately from floor activity.",
+        "reporting_origin": "House Clerk",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "b71a7c9a739c4e10cfecb41b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.commerce.gov/news",
+        "status": "blocked",
+        "result": "403 on Commerce index. Tried inspector general and independent coverage.",
+        "reporting_origin": "U.S. Commerce Department",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "996d48cf2c1319fed69557a6"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.oig.doc.gov/",
+        "status": "read",
+        "result": "Public index check did not establish a formal GDP inquiry.",
+        "reporting_origin": "Commerce Inspector General",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "45fead2effd4accab514a8b3"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/4fd800b44005ae11f950f96ff62f876e",
+        "status": "headline_only",
+        "result": "Trump publicly demanded an inquiry following the scheduled second GDP estimate.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "a8eb503a46a3becbf2f975d2"
+      },
+      {
+        "kind": "source",
+        "value": "https://apnews.com/article/89678e61440def22506dff48bcdee301",
+        "status": "headline_only",
+        "result": "Search surfaced analysis of Trump retaining major policy priorities after the midterms. Direct story returned 404.",
+        "reporting_origin": "AP",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "0099314519203f37a0fa888f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.fincen.gov/news/",
+        "status": "read",
+        "result": "Refreshed agency news index. No restoration date established.",
+        "reporting_origin": "FinCEN",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "a7cf88df1a549d302fc0136b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+        "status": "read",
+        "result": "December 30 deadline for specified filings. Order does not establish restoration.",
+        "reporting_origin": "FinCEN",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "57b8a84ab6694138e920f81d"
+      },
+      {
+        "kind": "source",
+        "value": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november",
+        "status": "read",
+        "result": "Checked November notices. A fresh comparison with all tariff schedules was outside scope.",
+        "reporting_origin": "USTR",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "255d42a1c2513c0d2a47b366"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.stateoig.gov/uploads/report/report_pdf_file/oss_q4_sep2026.pdf",
+        "status": "read",
+        "result": "Quarterly review covering July through September is an earlier primary document.",
+        "reporting_origin": "State Department Inspector General",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "06faf2ad8c80c71e0a1b34f3"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.thedailybeast.com/pete-hegseths-goons-make-admission-about-his-drug-boat-crusade",
+        "status": "headline_only",
+        "result": "Lead on earlier Southern Spear report. No new formal action was established.",
+        "reporting_origin": "Daily Beast",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "af5b2b803061ad9d8b78b37e"
+      },
+      {
+        "kind": "source",
+        "value": "https://cogentlaw.com/latest-news/fincen-cyber-incident-systems-offline-bsa-deadlines-moved",
+        "status": "headline_only",
+        "result": "Independent legal summary describes filing relief and no established cause for batch-filing failures.",
+        "reporting_origin": "Cogent Law",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "52f598014cf76619b26e4a6f"
+      },
+      {
+        "value": "November 27 28 2026 latest US politics election court military news November 28 2026 AP Reuters",
+        "result": "AP and Axios leads and official Senate schedule.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "10aa8cc2a545bac19496839e"
+      },
+      {
+        "value": "after:2026-11-27 before:2026-11-29 latest CBS NBC Guardian AP Reuters November 28 US winter storm parade Ukraine Iran Venezuela Trump news",
+        "result": "Surfaced storm recovery and post-election analysis.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "12e362641ad392dbb06b4b90"
+      },
+      {
+        "value": "November 27 28 2026 Trump Air Force Cloud One NBC official Hegseth GOP private blame White House leadership reaction",
+        "result": "Accessible reporting leaves formal blame, repair orders and personnel action unverified.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "10da735e18303e20ceac7b46"
+      },
+      {
+        "value": "November 27 2026 Commerce inspector general investigation Trump GDP BEA official House roll call Hegseth November 27 Congress",
+        "result": "Found public accusation and older House record, no notice of formal GDP inquiry.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "37b02969fd08a173966f9d44"
+      },
+      {
+        "value": "site:oversightdemocrats.house.gov November 2026 Garcia Drew Lynch Guilfoyle November 27 response",
+        "result": "Found original demand, no verified public reply.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "e62cbad6f75b99daa7651596"
+      },
+      {
+        "value": "November 27 2026 FinCEN restoration BOI outage deadline Treasury Epstein Massie petition floor Drew Lynch Guilfoyle",
+        "result": "Found dated filing relief and established petition threshold, no verified restoration.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "1b3f58bee0fc0e70d843677d"
+      },
+      {
+        "value": "November 27 2026 US disables Pacific Archer CENTCOM site:centcom.mil OR site:x.com/CENTCOM",
+        "result": "No accessible direct statement found in this search. AP and ABC carried CENTCOM’s attribution.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "e7fc19fb4328b567e93bf071"
+      },
+      {
+        "value": "Venezuela opposition office ban repeal November 27 2026 BBC AP Reuters US military cooperation",
+        "result": "Found repeal announcement and reports on the already covered military deal.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "f005c9cb0ba20d1959fe015d"
+      },
+      {
+        "value": "November 28 2026 EPA Iowa first soil water results site:epa.gov detonation",
+        "result": "Found EPA water release. Reuters summary also mentioned soil. Broader lab footprint remains open.",
+        "kind": "query",
+        "status": "read",
+        "reporting_origin": "Web search",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Shared daily intake and outcome verification",
+        "id": "e4d8f9c8db76ec6e1bc89b78"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/politics/",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Headlines and video leads include presidential veto rhetoric, Iran and earlier Nvidia developments.",
+        "reporting_origin": "CBS News",
+        "id": "bbaa690c2b79aa3a306e213f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "CBS page reports Trump’s renewed veto threat after the election.",
+        "reporting_origin": "CBS News",
+        "id": "3af2b69bcdae8adc1347f244"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.investing.com/news/politics-news/trump-says-democrats-facing-veto-power-should-work-with-him-5042560",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "November 20 report attributes the same bargaining strategy to Trump.",
+        "reporting_origin": "Reuters",
+        "id": "45b6de347759554f3c41a254"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.axios.com/2026/11/28/senate-republicans-trump-defiance-hemp-jensen-huang",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Thune’s statement calls for congressional chip export oversight. Unnamed aides describe anger and resistance. Axios reports a White House request for a limited hemp exception.",
+        "reporting_origin": "Axios",
+        "id": "441c4dbcfb62e320bcf34b8f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.cotton.senate.gov/news/press-releases/cotton-budd-colleagues-urge-trump-to-close-dangerous-federal-hemp-loophole/",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Fourteen Republicans signed a November 20 letter, released November 24, opposing a delay or framework that preserves intoxicating products.",
+        "reporting_origin": "Senator Tom Cotton",
+        "id": "7f4ff700b2d328a5cb2c0fdc"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.klobuchar.senate.gov/public/index.cfm/news-releases?ID=161222C7-63DC-4BD2-9BFF-EDDE73DAD661",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Klobuchar and Paul worked on the previous delay provision.",
+        "reporting_origin": "Senator Amy Klobuchar",
+        "id": "feb499bec08c7170aad622f5"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.semafor.com/article/11/24/2026/thune-prepares-to-navigate-the-minority-and-an-unpredictable-trump",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "blocked",
+        "result": "Original interview inaccessible. Do not treat Axios’s excerpt as a full reading.",
+        "reporting_origin": "Semafor",
+        "id": "ecaadf69eab0c67447068b1b"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.semafor.com/article/11/23/2026/huang-reinstatement-came-at-trumps-behest",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "blocked",
+        "result": "Original story inaccessible. Retain attribution where cited by Axios.",
+        "reporting_origin": "Semafor",
+        "id": "80d5308cd49404e54067a3cc"
+      },
+      {
+        "kind": "source",
+        "value": "https://info.cec.gov.tw/vote2026/",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "blocked",
+        "result": "Official site returned no readable vote totals.",
+        "reporting_origin": "Taiwan Central Election Commission",
+        "id": "2feffae87bf64aa6b1230de3"
+      },
+      {
+        "kind": "source",
+        "value": "https://election2026.rti.org.tw/en/results.html",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Accessible page had no complete results table. News module reports some partial results.",
+        "reporting_origin": "Radio Taiwan International",
+        "id": "1c7dceb5eece83f58d9e5c70"
+      },
+      {
+        "kind": "source",
+        "value": "https://uk.marketscreener.com/news/taipei-mayor-leads-vote-count-in-key-taiwan-local-elections-ce7851d9d081f02d",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Initial reported counts showed incumbent Chiang Wan-an leading.",
+        "reporting_origin": "Reuters",
+        "id": "2032bbbda1ccd46899417a8f"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.whitehouse.gov/presidential-actions/",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Refreshed calendar of executive actions.",
+        "reporting_origin": "White House",
+        "id": "8c11a8f53692849358a3d9f9"
+      },
+      {
+        "kind": "source",
+        "value": "https://www.justice.gov/news",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Checked public Justice Department release index for official response.",
+        "reporting_origin": "US Justice Department",
+        "id": "72cf9cc6674fa15ea336a6ae"
+      },
+      {
+        "kind": "source",
+        "value": "https://home.treasury.gov/news/press-releases",
+        "window": "2026-11-27/2026-11-28",
+        "purpose": "Closing discovery and follow-up",
+        "status": "read",
+        "result": "Checked Treasury release index for disclosure or restoration notices.",
+        "reporting_origin": "US Treasury",
+        "id": "9e405ca375214ace3b145906"
+      }
+    ]
+  },
+  "nominee_review": {
+    "snapshot_id": "2026-11-28-daily",
+    "wargame_ref": "2026-11-23-weekly",
+    "roster_changed": false,
+    "odds_changed": false,
+    "reason": "Regular weekly cadence. Daily shared intake supplies qualitative evidence.",
+    "summary": "The November 23 nomination estimates carry forward. The reported Air Force cloud intrusion gives Congress a fresh reason to question Pentagon managers. Vance and Rubio could face questions about how they would correct failures under Trump. Massie and Rand Paul have a record of pressing for congressional checks, but this review established no new commitments from voters, donors or organizers. Thune’s call for congressional oversight of chip exports gives Republicans a specific way to question Vance’s defense of Huang."
+  },
+  "editorial_notes": [
+    "Checked that each event headline names the actor and action, and distinguished technical results, public criticism and personal responsibility.",
+    "Revised headlines to identify the actor, action and evidence limits. Read the modified issue, personnel, nomination and run prose in a separate pass.",
+    "In the final pass, dated the Venezuelan announcement to the day it was made and distinguished Thune’s statement from unnamed accounts of Senate Republican frustration.",
+    "Removed repeated language about Vance’s exposure and explained the Air Force system by name in the Pentagon assessment."
+  ],
+  "validation_results": [
+    "Targeted checks cover source URLs, unique event IDs, linked reviews, held probabilities and preserved history.",
+    "The targeted slicer returned only the staged IDs. Nearby Iowa reports describe earlier notice, the disposal and initial air monitoring, which are distinct from the laboratory water results."
+  ],
+  "reader_copy_review": {
+    "standard": "reader_copy_v1",
+    "mode": "single_analyst_second_pass",
+    "documents": {
+      "assessments/current": {
+        "fingerprint": "0223e486c380030e88aad0e2af0e23feea1184136c2324385ae7bbd434b2b735",
+        "reader_takeaway": "Trump continues to use military power while courts and the incoming Congress can check specific decisions.",
+        "context_check": "Clarified why the first Iowa samples leave questions near the site and what Congress can demand from the Pentagon.",
+        "uncertainty_check": "Attributed the military operation and cloud reports and distinguished interim court decisions from final outcomes.",
+        "changes_made": [
+          "Clarified Iowa sampling limits and Cloud One’s role. Replaced repeated language about Vance with Thune’s specific avenue for oversight."
+        ]
+      },
+      "assessments/issues": {
+        "fingerprint": "6012c55d1c7253a10611f518d63ef032574589a4b4baa17ec76d00f4f8ac47a1",
+        "reader_takeaway": "The five issue updates explain which institutions can act next.",
+        "context_check": "Checked that the ship, court cases, notice dispute, and two foreign proposals identify the institution that can change the outcome.",
+        "uncertainty_check": "Announcements, interim orders and measured results retain different levels of certainty.",
+        "changes_made": []
+      },
+      "events/AI": {
+        "fingerprint": "92e776d66817f4e0a3c3d8637742fc53c2ff15aa235b9f88dde290fe81eec848",
+        "reader_takeaway": "Thune is pressing for Congress to scrutinize which advanced chips reach China.",
+        "context_check": "Identified his Senate leadership role and why the statement matters to the debate over Vance and Huang.",
+        "uncertainty_check": "Distinguished Thune’s direct statement from private reporting and from an enacted rule.",
+        "changes_made": [
+          "Separated the named statement and the unnamed aides’ account."
+        ]
+      },
+      "events/IMM": {
+        "fingerprint": "f72a46952a49ccd7086fa88293583ed59e376425fcb9cd75b796fa84eedd8602",
+        "reader_takeaway": "The lawsuit gives a federal judge a chance to limit the challenged subpoenas.",
+        "context_check": "Named the civil liberties organization and explained what the motion requests.",
+        "uncertainty_check": "The headline attributes the contested account to the lawsuit.",
+        "changes_made": [
+          "Spelled out ACLU in the headline and qualified the target of the subpoenas."
+        ]
+      },
+      "events/IRN": {
+        "fingerprint": "8cfbef205524fb19a3c8fe5a8c42833ae0d8ba8b7bf90130c243df9a4b1695de",
+        "reader_takeaway": "The military says force was used to enforce the Iran blockade.",
+        "context_check": "Named the ship and command. The context identifies the separate tanker reports.",
+        "uncertainty_check": "The account remains attributed to Central Command.",
+        "changes_made": []
+      },
+      "events/MID": {
+        "fingerprint": "ebd1abd53670208465fcaf4238c8dfc92e93556c9f8924397b87571ec3d7b3ed",
+        "reader_takeaway": "Water measurements, notification criticism, the reported cyber incident and an interim advertising ruling bear on separate decisions.",
+        "context_check": "Named the sites, officials and legal parties. Clarified what the lab sampled and what lawmakers can ask.",
+        "uncertainty_check": "Reassurance applies to the sampled water, and anonymous reporting establishes no personal responsibility.",
+        "changes_made": [
+          "Clarified the water headline and identified Cloud One as an Air Force cloud computing system."
+        ]
+      },
+      "events/RUS": {
+        "fingerprint": "6b226d1a1d5ec943a00ad4c509637d57aa9f8329577f03efa1a1bd440360479d",
+        "reader_takeaway": "Ukraine wants to protect food exports and Russia’s agreement remains open.",
+        "context_check": "Named the foreign minister and explained the separate demand concerning oil facilities.",
+        "uncertainty_check": "The account attributes Russia’s demand to Sybiha and records the proposal as open.",
+        "changes_made": []
+      },
+      "events/VEN": {
+        "fingerprint": "51a2272edf1251a8b4a98678f379616c7161dd4b6ed41a3f4aeddd9281502f66",
+        "reader_takeaway": "Repeal could widen who can run in Venezuela.",
+        "context_check": "Named the assembly leader, the affected opposition figures and the legislative decision.",
+        "uncertainty_check": "Announcement, repeal, individual eligibility and election timing stay distinct.",
+        "changes_made": []
+      },
+      "impeachments/all": {
+        "fingerprint": "f91dd67f5b2615b9df8dfc777b3b970a30437866378e47da0d94797fea4f1d85",
+        "reader_takeaway": "Lawmakers have more questions for the Pentagon. Every case holds at its existing status.",
+        "context_check": "Reviewed the new snapshot with nine cases and preserved their evidence, offices, watch items and deadlines.",
+        "uncertainty_check": "The House referral is verified. Conviction, new votes and the Air Force incident’s personal implications remain distinct.",
+        "changes_made": [
+          "Clarified why measuring lead cannot establish who knew about the blast."
+        ]
+      },
+      "nominations/republican_2028": {
+        "fingerprint": "e2b0b58e99dd66f8411f558b6aa1e05805870dd2dfc71be97f020eaa19f703da",
+        "reader_takeaway": "The November 23 estimates carry forward while Pentagon oversight introduces a new question for candidates.",
+        "context_check": "The changed source note explains which material came from independent reporting and identifies the outlet.",
+        "uncertainty_check": "The source note distinguishes a corroborating source from a named official’s own response.",
+        "changes_made": [
+          "Rewrote the source description in full sentences."
+        ]
+      },
+      "runs/2026-11-28": {
+        "fingerprint": "69e73506ac59ab93d262d6b247ce53939c2b18c0a10f2ba9f8cb60ac08039e5e",
+        "reader_takeaway": "The daily summary identifies changes and precisely names unresolved checks.",
+        "context_check": "Reviewed public summary and scope plus all seven open headline labels.",
+        "uncertainty_check": "Named pending results and blocked verification separately in the full coverage.",
+        "changes_made": [
+          "Replaced the long comma-separated list with separate sentences."
+        ]
+      }
+    }
+  }
+}

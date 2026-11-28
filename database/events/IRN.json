@@ -3227,6 +3227,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The designation adds pressure on Iran’s financial channels while Qatar continues diplomacy. Its effect on settlement and Iranian bargaining remains open."
+    },
+    {
+      "id": "irn-2026-11-27-us-says-it-disabled-pacific-archer",
+      "date": "2026-11-27",
+      "precision": "day",
+      "issues": [
+        "IRN"
+      ],
+      "kind": "act",
+      "actor": "U.S. Central Command",
+      "text": "U.S. military says it disabled the Pacific Archer while enforcing the Iran blockade",
+      "context": "U.S. Central Command said it disabled the commercial ship in the Gulf of Oman after it left an Iranian port and attempted to breach the blockade. Iran’s navy commander said Iran would try to break the blockade. The reports do not establish the cause of separate tanker incidents.",
+      "source": "https://apnews.com/article/800620518a351282f098faa9381b3375",
+      "url": "https://apnews.com/article/800620518a351282f098faa9381b3375",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: The administration is still using military force to enforce the blockade. Trump’s public remarks about ending the war leave the terms and timing of any settlement open.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The operation shows existing enforcement and supplies no evidence of a new authorizing coalition."
     }
   ]
 }

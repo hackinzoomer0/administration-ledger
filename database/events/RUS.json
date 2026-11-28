@@ -1695,6 +1695,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The reported agreement leaves Treasury clearance and control of the assets open."
+    },
+    {
+      "id": "rus-2026-11-27-kyiv-offers-black-sea-ceasefire",
+      "date": "2026-11-27",
+      "precision": "day",
+      "issues": [
+        "RUS"
+      ],
+      "kind": "act",
+      "actor": "Andrii Sybiha",
+      "text": "Ukraine offers a Black Sea ceasefire to protect food exports",
+      "context": "Ukrainian Foreign Minister Andrii Sybiha said Kyiv shared the proposal with partners. He said Russia wanted Ukraine to suspend attacks on the Russian oil sector and that Kyiv would consider this in a broader energy ceasefire. No mutual agreement was established.",
+      "source": "https://www.aol.co.uk/articles/ukraine-submits-black-sea-ceasefire-210912000.html",
+      "url": "https://www.aol.co.uk/articles/ukraine-submits-black-sea-ceasefire-210912000.html",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Kyiv is asking partners to support a narrower agreement. Moscow’s reported demand would broaden the bargain and could delay a deal.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: Ukraine announced a proposal. Neither a ceasefire nor a change in U.S. policy was established."
     }
   ]
 }

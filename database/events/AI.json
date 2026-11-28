@@ -2182,6 +2182,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: Public support and oversight demands do not yet establish a change in who makes export decisions."
+    },
+    {
+      "id": "ai-2026-11-28-thune-calls-for-chip-export-oversight",
+      "date": "2026-11-28",
+      "precision": "day",
+      "issues": [
+        "AI"
+      ],
+      "kind": "act",
+      "actor": "John Thune",
+      "text": "Senate Republican leader John Thune calls for bipartisan chip export controls",
+      "context": "In a statement to Axios after Nvidia brought Jensen Huang back as chief executive, Thune called for tougher oversight of advanced chip exports to China. Vice President JD Vance had played down the need for a pardon for Huang. Axios separately quoted unnamed Republican aides describing frustration over Trump’s intervention. The sources reviewed did not establish a new export rule or a hearing result.",
+      "source": "https://www.axios.com/2026/11/28/senate-republicans-trump-defiance-hemp-jensen-huang",
+      "url": "https://www.axios.com/2026/11/28/senate-republicans-trump-defiance-hemp-jensen-huang",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Thune can make scrutiny of chip sales a Republican priority. That gives lawmakers a concrete way to challenge how Trump and Vance handled Huang’s return.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The statement shows an oversight priority. A hearing, bill or agency decision would establish a change in policy or authority."
     }
   ]
 }

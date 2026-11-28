@@ -1136,6 +1136,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The parties can keep talks going while the decisions that would allow a competitive election remain unsettled."
+    },
+    {
+      "id": "ven-2026-11-26-rodriguez-announces-plan-to-repeal-office-ban",
+      "date": "2026-11-26",
+      "precision": "day",
+      "issues": [
+        "VEN"
+      ],
+      "kind": "act",
+      "actor": "Jorge Rodríguez",
+      "text": "Venezuela’s assembly leader announces a plan to repeal a law that bars opposition figures from office",
+      "context": "National Assembly leader Jorge Rodríguez announced the plan on November 26 after talks between the interim government and opposition participants. AFP and Al Jazeera reported the announcement. The legislature’s action, individual eligibility and an election date remain open.",
+      "source": "https://www.aljazeera.com/amp/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office",
+      "url": "https://www.aljazeera.com/amp/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office",
+      "tier": "reported",
+      "weight": 3,
+      "rationale": "My reading: Repeal could widen who can run. María Corina Machado’s eligibility and an enforceable election timetable would be stronger evidence that the U.S.-backed talks are opening political competition.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The assembly leader announced a plan. Votes and restored eligibility remain open."
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "research_as_of": "2026-11-27",
-  "last_substantive_change": "2026-11-27",
+  "research_as_of": "2026-11-28",
+  "last_substantive_change": "2026-11-28",
   "review": {
-    "date": "2026-11-27",
-    "run_id": "2026-11-27",
+    "date": "2026-11-28",
+    "run_id": "2026-11-28",
     "type": "daily_review",
-    "scope": "Focused review of the GDP dispute after the midterms, birthright citizenship, federal prosecutor appointments, Iowa sampling, Florida storm response and early Republican nomination signals. Iran funding, federal outage recovery, congressional records, election certification and campaign organization received limited checks."
+    "scope": "Focused November 27–28 intake. Checked major news, court filings, congressional schedules, official Alaska results, Iowa sampling, reported federal service failures, and selected developments in Iran, Ukraine and Venezuela. Coverage of individual case dockets, private reactions, Taiwan’s full results, candidate donors and state-level organizing was limited."
   },
   "administration": {
-    "headline": "Trump demands a GDP inquiry as a judge blocks his new citizenship order",
-    "summary": "President Donald Trump blamed the Commerce Department’s initial growth estimate for Republican losses and called for an investigation. His White House had praised the original figure, and the Bureau of Economic Analysis had already scheduled the revision before the election. A formal inquiry remains unverified. The episode gives Trump a way to shift blame for Republican losses. Incoming Democratic committee leaders can ask whether Commerce changes its release procedures or opens an inquiry. In court, Judge Christopher Cooper blocked Trump’s revised birthright citizenship order for children covered by the lawsuit. A separate appeals court order temporarily lets the Justice Department keep its choice of federal prosecutor supervising cases in Southern California. Congress can question Nvidia officials in December about export enforcement and Trump’s role in bringing back chief executive Jensen Huang. Iowa residents are waiting for lab tests after the Army destroyed unstable explosives, and U.S. trading partners are pressing back against proposed tariffs whose final rates remain open.",
+    "headline": "The U.S. enforces its Iran blockade as a new lawsuit challenges immigration subpoenas",
+    "summary": "President Donald Trump is continuing major parts of his agenda after Republicans lost control of Congress. U.S. Central Command says it disabled a commercial ship to enforce the Iran blockade, while Trump’s terms for ending the war remain open. In Washington, the ACLU is asking a federal judge to halt subpoenas that plaintiffs say seek to identify anonymous ICE critics. A separate judge denied Democrats a longer preliminary ban on taxpayer-funded ads promoting Trump. Incoming congressional leaders can use hearings to press the administration on the reported Air Force cloud intrusion and the Army’s warnings before the Iowa explosives disposal. The EPA’s first lab results found no rise in lead in the untreated water sources it tested. Those sources were outside the plume from the Army’s detonation. Trump’s demand to investigate economic statistics gives him an explanation for Republican losses. The Commerce Department’s formal response remains unverified. Senate Republican leader John Thune also called for bipartisan oversight of advanced chip exports to China after Nvidia brought back Jensen Huang. That gives Republicans a specific way to challenge the administration on technology policy.",
     "contests": [
       {
         "id": "white-house-access",
@@ -73,7 +73,8 @@
           "irn-2026-11-19-envoys-meet-qatari-mediators",
           "suc-2026-11-20-vance-and-rubio-join-trump-briefing",
           "irn-2026-11-23-senators-discuss-restricting-iran-funding",
-          "irn-2026-11-24-vance-rubio-meet-qatar"
+          "irn-2026-11-24-vance-rubio-meet-qatar",
+          "irn-2026-11-27-us-says-it-disabled-pacific-archer"
         ],
         "faction_ids": [
           "vance",
@@ -81,8 +82,8 @@
           "deal-capital",
           "pentagon"
         ],
-        "reviewed_at": "2026-11-24",
-        "summary": "Trump still directs U.S. military decisions on Iran. Senate leaders are discussing whether to attach limits on future offensive operations to Pentagon funding."
+        "reviewed_at": "2026-11-28",
+        "summary": "Trump still directs U.S. military decisions on Iran. Senate leaders are discussing whether to attach limits on future offensive operations to Pentagon funding. U.S. Central Command says it disabled a commercial ship in the Gulf of Oman while enforcing the blockade of Iranian ports."
       },
       {
         "id": "succession-control",
@@ -157,7 +158,7 @@
         "title": "Congress presses for Epstein records as the White House challenges planned investigations",
         "status": "contested",
         "summary": "Trump directed agencies to coordinate federal contractors’ replies to Congress. House Democrats are already asking people inside and outside government to preserve records.",
-        "assessment": "The order gives agencies and the White House a role before contractors answer questions about covered federal work. Congress retains its power to seek records. How particular privilege claims fare remains open. The wider projected House majority gives incoming leaders room to pursue investigations alongside bills on living costs. Committee leaders still need to decide which requests to enforce.",
+        "assessment": "The order gives agencies and the White House a role before contractors answer questions about covered federal work. Congress retains its power to seek records. How particular privilege claims fare remains open. The wider projected House majority gives incoming leaders room to pursue investigations alongside bills on living costs. Committee leaders still need to decide which requests to enforce. A separate lawsuit asks a federal judge to limit subpoenas that plaintiffs say seek to identify anonymous critics of immigration enforcement. A decision on the motion could limit this use of investigative power.",
         "authority": "The attorney general directs the Justice Department. Different jobs may require presidential appointment, Senate confirmation or a temporary acting appointment.",
         "leverage": "The Justice Department manages its records and can contest demands in court. House members can seek floor time through the petition. Incoming committee chairs can schedule hearings and pursue records through their committees.",
         "change": "Watch whether an agency directs a contractor to withhold documents and whether a committee challenges the decision.",
@@ -182,12 +183,13 @@
           "mid-2026-11-18-democrats-nominate-jeffries",
           "mid-2026-11-20-trump-orders-contractor-coordination",
           "mid-2026-11-22-ap-calls-hubbard-foxx-race",
-          "mid-2026-11-25-ap-calls-broderick-race"
+          "mid-2026-11-25-ap-calls-broderick-race",
+          "imm-2026-11-27-aclu-challenges-ice-critic-subpoenas"
         ],
         "faction_ids": [
           "maximalists"
         ],
-        "reviewed_at": "2026-11-25"
+        "reviewed_at": "2026-11-28"
       },
       {
         "id": "hegseth-house-referral",
@@ -195,7 +197,7 @@
         "title": "House sends the bid to impeach Defense Secretary Pete Hegseth to committee",
         "status": "contested",
         "summary": "The House referred articles against Defense Secretary Pete Hegseth to Judiciary. Reporting on restrictions concerning Canada and negotiations over Iran spending gives lawmakers additional subjects for oversight.",
-        "assessment": "AP now projects at least 259 Democratic House seats, giving incoming leaders more room to schedule oversight and act even if some members break ranks. The Pentagon’s public criticism of Canada adds a subject lawmakers can question Hegseth about. The sources reviewed do not establish new votes to impeach or convict him.",
+        "assessment": "The incoming Democratic House majority can schedule oversight and can afford to lose some members’ votes. Reports of an intrusion into the Air Force’s Cloud One computing system give lawmakers a new reason to ask the Pentagon what it knew and when it acted. The initial Iowa water tests narrow safety questions at the sampled sources, while lawmakers’ criticism keeps attention on the Army’s warnings. Neither development establishes a new vote commitment or a personal decision by Hegseth.",
         "authority": "The Judiciary Committee controls what happens next to this resolution. The House can adopt articles of impeachment. The Senate would decide conviction in a separate proceeding.",
         "leverage": "Trump publicly backs Hegseth. Massie can point voters who want Congress to check the president’s war powers to a recorded vote.",
         "change": "The Clerk’s recorded referral stands. No later adoption or trial coalition was verified.",
@@ -204,7 +206,7 @@
           "positions": "The White House opposed impeachment. Massie was the only Republican to vote against sending the resolution to committee.",
           "money": "The available evidence establishes how members voted."
         },
-        "watch": "Watch for Judiciary action or an announced House vote, evidence about Hegseth’s decisions on troop protection and named Senate trial commitments. His announcement of a military deal in Caracas confirms he continues to act as defense secretary. Check Army notification records and the Iowa environmental results. CBS attributed the alleged failure to notify Hegseth to unnamed officials.",
+        "watch": "Watch for Judiciary action, named senators taking a position on conviction, Pentagon disclosures about Cloud One, and records showing when the Army briefed residents and the defense secretary’s office.",
         "event_ids": [
           "mid-2026-11-10-hegseth-judiciary-referral",
           "mid-2026-11-10-republican-leadership-results",
@@ -220,21 +222,24 @@
           "irn-2026-11-23-senators-discuss-restricting-iran-funding",
           "mid-2026-11-25-ap-calls-broderick-race",
           "mid-2026-11-25-pentagon-criticizes-canada",
-          "mid-2026-11-25-army-completes-iowa-disposal"
+          "mid-2026-11-25-army-completes-iowa-disposal",
+          "mid-2026-11-27-air-force-cloud-one-breach-reported",
+          "mid-2026-11-28-epa-reports-first-water-tests",
+          "mid-2026-11-27-iowa-lawmakers-criticize-army-notice"
         ],
         "faction_ids": [
           "pentagon",
           "dissenters",
           "party"
         ],
-        "reviewed_at": "2026-11-26"
+        "reviewed_at": "2026-11-28"
       }
     ]
   },
   "nomination": {
     "headline": "Vance leads, but rivals could win Republicans unhappy with Trump’s record.",
     "summary": "The November 23 forecast carries forward. Barstool Sports founder Dave Portnoy publicly favored Florida Governor Ron DeSantis over Vice President JD Vance and Secretary of State Marco Rubio. His remarks show how one media figure weighs ties to Trump. Whether voters, donors and organizers make the same comparison remains open.",
-    "snapshot_id": "2026-11-27-daily",
+    "snapshot_id": "2026-11-28-daily",
     "candidates": [
       {
         "candidate_id": "jd_vance",
@@ -242,7 +247,7 @@
         "path": "The vice president can still launch with national fundraising contacts and Trump’s attention. His November 20 remarks showed he can criticize the political cost of the Iran war while deferring to Trump’s authority.",
         "coalition": "A recent Echelon list still led with Vance, while Emerson favored Rubio. Vance can recruit people who want both Trump’s immigration program and an end to the war, but successive criticism without a credible next step could cost him their trust.",
         "advantage": "Humor and familiarity at Trump’s briefing can make Vance approachable to voters who identify with the administration.",
-        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open. Vance’s public defense of Nvidia’s role in competition with China ties him to Trump’s decision to press for Huang’s return. Republican calls for oversight give senators a reason to question how Vance would enforce chip export controls. Primary voters’ response remains open. Portnoy said Vance’s association with Trump hurt his prospects. Vance’s willingness to defend Nvidia’s role gives him a way to show loyalty and claim a stake in U.S. technology policy. It also gives critics a specific decision to question. Whether Republican primary voters share Portnoy’s view remains open.",
+        "vulnerability": "Waiting gives Texas Senator Ted Cruz time to recruit. Trump has redirected Vance to domestic work, reducing his ability to deliver an Iran agreement. Representative Robert Garcia is seeking records about Vance’s role in White House meetings on release of the Epstein files. That gives investigators a specific line of questioning about his judgment. His role in deciding which records to release and Republican voters’ response to that inquiry remain unclear. The Daily Beast, citing the New York Times, reported that Trump was privately frustrated by Vance’s criticism of the Iran war. The original reporting was inaccessible. Whether Trump changes Vance’s duties or gives Rubio more influence remains open. Emerson found Rubio ahead of Vance in both its named and open-ended questions. Echelon found Vance ahead with a different list. Both have a plausible voter base, while the polling split leaves their relative strength unsettled. Trump publicly criticized the June Iran deal Vance helped negotiate. Trump also praised Vance’s work and denied the deal was why he redirected him. The exchange makes it harder for Vance to claim Trump’s backing for his diplomacy while appealing to Republicans who want the war to end. Talks on limits to Iran spending give Vance a chance to explain how he would change policy after blaming the war for Republican losses. He has yet to show that party voters will back his preferred course. Senator Maggie Hassan’s request for records about the selection of oil trader Vitol gives critics a specific question to press about Vance’s contacts with a donor. His office disputes the reported meeting. It remains unclear whether the request will change how Republican voters judge him. A precinct study found differences in who voted mattered more than switching parties across the Senate races it studied. That challenges Vance’s public explanation and gives party organizers a reason to ask how he would bring back people who stayed home. Illinois Governor JB Pritzker has tied Vance to Trump’s intervention at Nvidia. That gives Democrats an example to use when challenging Vance’s relationships with technology executives. The available evidence leaves Vance’s role in the board decision and Republican voters’ response open. Vance’s public defense of Nvidia’s role in competition with China ties him to Trump’s decision to press for Huang’s return. Republican calls for oversight give senators a reason to question how Vance would enforce chip export controls. Primary voters’ response remains open. Portnoy said Vance’s association with Trump hurt his prospects. Vance’s willingness to defend Nvidia’s role gives him a way to show loyalty and claim a stake in U.S. technology policy. Whether Republican primary voters share Portnoy’s view remains open. Thune’s call for oversight and bipartisan export controls gives Republicans an avenue to scrutinize Vance’s defense of Huang while debating which chips can be sold to China.",
         "positions": "Vance favors tighter immigration rules and economic policies presented as helping American workers and families. He has also argued for negotiations over Iran; that does not erase his earlier public support for administration decisions.",
         "money": "Peter Thiel previously financed Vance’s political rise. Rockbridge and other Republican fundraising relationships could help a campaign, but past support does not establish a new 2028 commitment.",
         "event_ids": [
@@ -255,7 +260,8 @@
           "suc-2026-11-25-post-examines-midterm-turnout",
           "ai-2026-11-25-trump-disclosures-and-huang-reaction",
           "ai-2026-11-25-vance-downplays-huang-pardon",
-          "suc-2026-11-25-portnoy-prefers-desantis"
+          "suc-2026-11-25-portnoy-prefers-desantis",
+          "ai-2026-11-28-thune-calls-for-chip-export-oversight"
         ],
         "source_ids": [
           "daily_vance_brand_20261107",
@@ -278,9 +284,10 @@
           "daily-20261126-interviews",
           "daily-20261127-port",
           "daily-20261127-portclip",
-          "daily-20261127-axios"
+          "daily-20261127-axios",
+          "daily-20261128-thune-axios"
         ],
-        "reviewed_at": "2026-11-27"
+        "reviewed_at": "2026-11-28"
       },
       {
         "candidate_id": "marco_rubio",

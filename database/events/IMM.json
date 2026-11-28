@@ -2302,6 +2302,28 @@
       "by": [],
       "fx": {},
       "fxnote": "No fx: The temporary order applies to the plaintiffs and certified class. The broader political response is open."
+    },
+    {
+      "id": "imm-2026-11-27-aclu-challenges-ice-critic-subpoenas",
+      "date": "2026-11-27",
+      "precision": "day",
+      "issues": [
+        "IMM"
+      ],
+      "kind": "act",
+      "actor": "American Civil Liberties Union",
+      "text": "American Civil Liberties Union asks judge to block subpoenas it says target ICE critics",
+      "context": "In a November 27 filing in Washington, the plaintiffs asked for a preliminary injunction against efforts they say use grand jury subpoenas to identify anonymous online critics of Immigration and Customs Enforcement. They argue the investigation chills protected speech. The court has yet to decide the motion in the record reviewed here.",
+      "source": "https://assets.aclu.org/live/uploads/2026/11/19-2.-Redacted-Motion-for-Preliminary-Injunction.pdf",
+      "url": "https://assets.aclu.org/live/uploads/2026/11/19-2.-Redacted-Motion-for-Preliminary-Injunction.pdf",
+      "tier": "documented",
+      "weight": 3,
+      "rationale": "My reading: Federal prosecutors face a public First Amendment challenge to how they use investigative powers. A ruling could restrict the challenged subpoenas.",
+      "origin": "daily shared intake",
+      "added": "2026-11-28",
+      "by": [],
+      "fx": {},
+      "fxnote": "No fx: The motion opens court review. A ruling or change in enforcement would establish a concrete shift."
     }
   ]
 }
